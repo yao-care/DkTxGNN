@@ -6,9 +6,9 @@ nav_order: 431
 evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Imipramine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L3). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthym lidelse…"
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine: forudsagt ny indikation Attention deficit-hyperactivity disorder (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Imipramine
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Imipramin: Fra angstlidelse og natlig enuresis til ADHD
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Imipramin er et tricyklisk antidepressivum, som oprindeligt anvendes ved angstli
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, neurotisk lidelse, dysthym lidelse, natlig enuresis (fra TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke angivet) |
-| Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Attention deficit-hyperactivity disorder |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; kræver yderligere data før videre arbejde) |
 
 ---

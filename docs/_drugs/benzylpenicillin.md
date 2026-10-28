@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pericoronitis**, men
 |------|------|
 | Oprindelig indikation | Infektiøs mellemørebetændelse, streptokokinfektion, meningokokinfektion, miltbrand, pneumokokmeningitis, endocarditis m.fl. (de godkendte indikationstekster for de danske tilladelser er ikke tilgængelige i de indsamlede data) |
 | Forudsagt ny indikation | Pericoronitis |
-| TxGNN-forudsigelsesscore | 99,36 % |
+| TxGNN-forudsigelsesscore | 0,9936 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 6 (heraf 2 til human brug og 4 veterinære) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -69,12 +69,12 @@ Der er to forbehold. Parenteral benzylpenicillin er ikke et standardregime ved o
 
 | Rang | Sygdom | Score | Vurdering |
 |------|------|------|------|
-| 2 | Gingival recession | 99,31 % | Primært mekanisk/inflammatorisk, ikke bakteriel; sandsynligvis en artefakt af netværksnærhed |
-| 3 | Aftøs stomatitis (canker sore) | 99,27 % | Overvejende immunmedieret; svag antibakteriel begrundelse |
-| 4 | Ulcerativ stomatitis | 99,26 % | Uens årsager; kun en bakteriel undergruppe er plausibel |
-| 5 | Denture stomatitis | 99,26 % | Hovedsagelig Candida-relateret; penicillin har ingen svampevirkning og kan fremme overvækst |
-| 6 | Kemoterapi-induceret oral mucositis | 99,26 % | Penicillin behandler ikke den primære patologi |
-| 7 | Leukoplaki i gingiva | 99,06 % | Præmalign, ikke infektiøs; ingen antibakteriel begrundelse |
+| 2 | Gingival recession | 0,9931 | Primært mekanisk/inflammatorisk, ikke bakteriel; sandsynligvis en artefakt af netværksnærhed |
+| 3 | Aftøs stomatitis (canker sore) | 0,9927 | Overvejende immunmedieret; svag antibakteriel begrundelse |
+| 4 | Ulcerativ stomatitis | 0,9926 | Uens årsager; kun en bakteriel undergruppe er plausibel |
+| 5 | Denture stomatitis | 0,9926 | Hovedsagelig Candida-relateret; penicillin har ingen svampevirkning og kan fremme overvækst |
+| 6 | Kemoterapi-induceret oral mucositis | 0,9926 | Penicillin behandler ikke den primære patologi |
+| 7 | Leukoplaki i gingiva | 0,9906 | Præmalign, ikke infektiøs; ingen antibakteriel begrundelse |
 
 ---
 

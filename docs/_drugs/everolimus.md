@@ -4,17 +4,17 @@ title: Everolimus
 parent: Høj evidens (L1-L2)
 nav_order: 340
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Everolimus: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose"
+indication_count: 8
 monitor_inn: "Everolimus"
-predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+last_modified_at: 2026-10-23
+description: "Everolimus: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Everolimus: Fra nyrecellekarcinom og brystkræft til liposarkom
+## Everolimus: Fra nyrecellekarcinom til liposarkom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Everolimus er en mTOR-hæmmer, som oprindeligt anvendes til behandling af nyrecellekarcinom, brystkræft, tuberøs sklerose og tilknyttet nyreangiomyolipom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **liposarkom**.
-Evidensen består af **1 klinisk fase 2-forsøg** (kombinationsbehandling) og **4 publikationer**, hvoraf kun 1 er direkte relevant.
+Everolimus er en mTOR-hæmmer, som i vidensgrafen er registreret med blandt andet nyrecellekarcinom, brystkræft og tuberøs sklerose. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **liposarkom**. Der foreligger **1 klinisk fase 2-forsøg** (i kombination med ribociclib) og **1 publikation** om dette forsøg, men ingen af dem viser effekt af everolimus alene.
 
 ---
 
@@ -48,50 +46,52 @@ Evidensen består af **1 klinisk fase 2-forsøg** (kombinationsbehandling) og **
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose (fra vidensgrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
+| Oprindelig indikation | Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose (relationer registreret i vidensgrafen; indikationsteksten i den danske tilladelse er tom) |
 | Forudsagt ny indikation | Liposarkom |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (afvent yderligere data) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er everolimus en hæmmer af mTORC1. Dens effekt ved nyrecellekarcinom, brystkræft og tuberøs sklerose-relateret angiomyolipom er mTOR-afhængig.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Everolimus er kendt som en hæmmer af mTORC1, og dens anvendelse ved flere kræftformer og ved tuberøs sklerose er registreret i vidensgrafen. Mekanistisk kan den derfor være relevant for liposarkom.
 
-Dedifferentieret liposarkom er karakteriseret ved MDM2- og CDK4-amplifikation og hyppig aktivering af PI3K/AKT/mTOR-signalvejen. Samtidig hæmning af mTOR (everolimus) og CDK4/6 (ribociclib) har i prækliniske modeller vist synergistisk væksthæmning. Det giver en plausibel begrundelse for at overvinde CDK4-drevet proliferation og kompenserende mTOR-signalering.
+Dedifferentieret liposarkom er kendetegnet ved MDM2/CDK4-amplifikation og hyppig aktivering af PI3K/AKT/mTOR-signalvejen. Everolimus hæmmer mTORC1, mens ribociclib hæmmer CDK4/6. Kombinationen rammer dermed to komplementære veje for celleproliferation og overlevelse, og der er set synergistisk vækthæmning i flere tumormodeller. Det er en biologisk plausibel hypotese, men effekten er ikke bekræftet.
 
-Bemærk, at denne mekanistiske kobling bygger på almen viden om everolimus og ikke på mekanismedata i det indsamlede materiale.
+Bemærk, at evidensen gælder kombinationen med ribociclib. Everolimus' bidrag alene kan ikke udledes.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, rekrutterer ikke (forventet afslutning 2026-12) | 48 | Ribociclib + everolimus ved fremskreden dedifferentieret liposarkom (arm A) og leiomyosarkom (arm B) efter mindst én tidligere systemisk behandling. Formålet er at vurdere antitumoraktivitet. Forsøget ser ud til at være enkeltarmet, og everolimus' selvstændige bidrag kan ikke isoleres. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Aktiv, rekrutterer ikke | 48 | Ribociclib + everolimus ved fremskreden dedifferentieret liposarkom og leiomyosarkom efter mindst én tidligere systemisk behandling. Enkeltarmet pr. histologi, formålet er at bestemme antitumoraktivitet. Forventet afslutning december 2026. |
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Fase 2-forsøgsrapport | Clin Cancer Res | Ribociclib + everolimus ved fremskreden dedifferentieret liposarkom og leiomyosarkom; kombinationen har vist synergistisk væksthæmning i flere tumormodeller |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Oversigtsartikel | Front Oncol | Prækliniske PDOX-musemodeller af sarkom og kombinationer med CDK-hæmmeren palbociclib (indirekte relevans) |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Prækliniske studier | Oncogene | XPO1-hæmmeren selinexor svækker dedifferentieret liposarkom (ikke specifik for everolimus) |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Prækliniske studier | Anticancer Res | Eribulin i kombination med andre kræftlægemidler (indirekte relevans) |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Fase 2-forsøg | Clinical Cancer Research | Rapport om ribociclib + everolimus ved dedifferentieret liposarkom og leiomyosarkom. Kombinationen er begrundet i synergistisk vækthæmning i tumormodeller. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review (præklinisk) | Frontiers in Oncology | Patientafledte ortotope xenograftmodeller af sarkom og kombinationer med CDK-hæmmeren palbociclib. Ikke specifik for everolimus. |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Præklinisk | Oncogene | XPO1-hæmmeren KPT-330 (selinexor) ved dedifferentieret liposarkom. Ikke specifik for everolimus. |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Præklinisk | Anticancer Research | Eribulin i kombination med andre kræftlægemidler. Ikke specifik for everolimus. |
 
 ---
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104388708 | Afinitor (Novartis Europharm Limited) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28104388708 | Afinitor (Novartis Europharm Limited) | Tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+
+Den danske tilladelse er en enkeltstofsprodukt-tilladelse og er gyldig. Tabletterne er til oral anvendelse.
 
 ---
 
@@ -100,23 +100,29 @@ Bemærk, at denne mekanistiske kobling bygger på almen viden om everolimus og i
 | Punkt | Indhold |
 |------|------|
 | Klassifikation | Målrettet behandling (mTOR-hæmmer) |
-| Risiko for myelosuppression | Se produktresuméet. Vidensgrafen peger på neutropeni, leukopeni, trombocytopeni og anæmi som relevante tilstande |
-| Emetogenicitet | Se produktresuméet |
-| Monitorering | Blodtal, lever- og nyrefunktion, glukose og lipider |
-| Håndteringsbeskyttelse | Se produktresuméet for gældende retningslinjer for håndtering af cytotoksiske lægemidler |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC). Vidensgrafen registrerer dog neutropeni, trombocytopeni, leukopeni og anæmi som kontraindikationsrelationer. |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Overvågning | Se produktresuméet (SmPC). Blodtal, lever- og nyrefunktion, blodglukose og lipider er relevante ud fra de registrerede relationer. |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Godkendte advarsler og kontraindikationer fra produktresuméet var ikke tilgængelige i de indsamlede data. Vidensgrafen (ikke produkttekst) angiver følgende tilstande som kontraindikationer, bl.a.: leversvigt, nyresygdom, trombocytopeni, neutropeni, leukopeni, anæmi, hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, hyperlipidæmi, hypertriglyceridæmi, interstitiel lungesygdom, kongestiv hjerteinsufficiens, perikardiel effusion, stomatitis og lymfom. Disse skal verificeres mod produktresuméet.
+Advarsler og kontraindikationer fra produktresuméet indgår ikke i de indsamlede data. Se det godkendte produktresumé (SmPC).
 
-**Lægemiddelinteraktioner** (100 registreret; et udvalg):
-- **Alvorlige (Major):** amphotericin B (inkl. lipidkompleks), aprepitant, dexamethason, clarithromycin
-- **Moderate:** bl.a. metformin, acarbose, albiglutid, alogliptin, canagliflozin, dapagliflozin, empagliflozin, linagliptin, glimepirid, chlorpropamid, cimetidin, eliglustat, eluxadolin, dulaglutid
-- **Milde (Minor):** zinksulfat
+- **Kontraindikationsrelationer i vidensgrafen** (ikke mærkningstekst): bl.a. leversvigt og leversygdom, nyresygdom, trombocytopeni, neutropeni, leukopeni, anæmi, hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, hyperlipidæmi og hypertriglyceridæmi, interstitiel lungesygdom, hjerteinsufficiens, stomatitis og lymfom.
+- **Lægemiddelinteraktioner** (100 registreret i alt): de vigtigste er af sværhedsgrad *Major* med amfotericin B (inkl. lipidkompleks), aprepitant, dexamethason og clarithromycin. Der er desuden *Moderate* interaktioner med flere antidiabetika, bl.a. metformin, acarbose, glimepirid, dapagliflozin, empagliflozin, canagliflozin, linagliptin, alogliptin, albiglutid og dulaglutid, samt med cimetidin, eliglustat og eluxadolin.
 
-Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
+---
+
+## Andre forudsagte indikationer
+
+| Sygdom | TxGNN-score | Evidens | Kommentar |
+|------|------|------|------|
+| Rhabdomyosarkom | 0,9974 | Fase 1/2-forsøg i blandede pædiatriske solide tumorer (NCT03245151, NCT00187174), men ikke rhabdomyosarkom-specifikke | Gennemførbarhed og sikkerhed er undersøgt, effekt er ikke påvist |
+| Dermatofibrosarcoma protuberans | 0,9982 | L5 | Kun litteratur om imatinib, ingen studier af everolimus |
+| Ovarielt myxoid liposarkom, parameningeal, vaginal, galdegangs- og prostata-rhabdomyosarkom | 99,73–0,9984 | L5 | Kun modelforudsigelse, ingen forsøg eller litteratur |
 
 ---
 
@@ -125,16 +131,14 @@ Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninge
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger kun ét fase 2-forsøg med en kombination (ribociclib + everolimus), og everolimus' selvstændige bidrag kan ikke adskilles. Der er ingen fase 3-forsøg, og sikkerhedsdata fra produktresuméet mangler. Evidensniveauet er L2.
+Der er ét fase 2-forsøg direkte i dedifferentieret liposarkom, men det er enkeltarmet, stadig igangværende og tester everolimus kun i kombination med ribociclib. Effekt er ikke påvist, og vigtige sikkerhedsdata fra produktresuméet mangler i de indsamlede data.
 
 **For at komme videre kræves:**
-- Resultater fra NCT03114527 (forventet afslutning 2026-12), især effekt i den dedifferentierede liposarkomkohorte
-- Data om virkningsmekanisme (MOA) for everolimus
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (herunder den danske indikationstekst)
-- Sammenligning med standardbehandling, helst i et randomiseret design
-- Vurdering af interaktionsrisici (især CYP3A4/P-gp-hæmmere og antidiabetika)
-
-Øvrige forudsagte indikationer (ovarielt myksoidt liposarkom, dermatofibrosarcoma protuberans, embryonalt rabdomyosarkom) har kun L4-L5-evidens og anbefales ikke undersøgt yderligere på nuværende tidspunkt.
+- Resultater fra NCT03114527 med effektdata (svarrate, progressionsfri overlevelse) for liposarkomkohorten
+- Data om virkningsmekanismen og en analyse af, hvad everolimus bidrager med alene
+- Gennemgang af advarsler, kontraindikationer og interaktioner i det danske produktresumé fra Lægemiddelstyrelsen
+- Sikkerhedsplan for patienter med lever-, nyre-, lunge- eller metabolisk sygdom og for samtidig brug af CYP3A4-interagerende lægemidler
+- Afklaring af, om den danske tilladelse omfatter relevante indikationer, og af behovet for off-label-vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 180
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Certolizumab Pegol: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom, reumatoid arthritis…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
-predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+last_modified_at: 2026-10-27
+description: "Certolizumab Pegol: forudsagt ny indikation Hypermobilitet af halebenet (hypermobility of coccyx) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,67 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Certolizumab pegol: Fra Crohns sygdom til reumatoid vaskulitis
+## Certolizumab pegol: TNF-hæmmer (PEGyleret anti-TNF Fab'-fragment) → Hypermobilitet af halebenet (hypermobility of coccyx)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Certolizumab pegol er en PEGyleret TNF-alfa-hæmmer (Fab-fragment), der oprindeligt anvendes til behandling af Crohns sygdom, reumatoid arthritis, psoriasisartritis og aksial spondylartritis.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid vaskulitis** (score 99,78 %), men der findes **ingen kliniske forsøg** og kun **7 publikationer**, hvoraf de fleste er case reports om vaskulitis som *bivirkning* af lægemidlet.
-
-> Bemærk: Datagrundlaget indeholder flere forudsigelser. Denne rapport fokuserer på den højest rangerede (reumatoid vaskulitis). De øvrige forudsigelser er kort opsummeret i et særskilt afsnit nedenfor, da to af dem (inflammatorisk spondylopati og polyartikulær juvenil reumatoid arthritis) har væsentligt stærkere evidens.
-
----
+Certolizumab pegol er en PEGyleret TNF-alfa-hæmmer, som i Danmark markedsføres som Cimzia.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hypermobilitet af halebenet (hypermobility of coccyx)**, men der er **0 kliniske forsøg** og **0 publikationer** om netop denne sygdom. Forudsigelsen bygger udelukkende på modelberegning.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Crohns sygdom, inflammatorisk tarmsygdom, reumatoid arthritis, psoriasisartritis, ankyloserende spondylitis (fra vidensgraf; godkendt indikationstekst i det danske register er ikke tilgængelig) |
-| Forudsagt ny indikation | Reumatoid vaskulitis |
-| TxGNN-prædiktionsscore | 99,78 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypermobilitet af halebenet (hypermobility of coccyx) |
+| TxGNN-forudsigelsesscore | 0,9975 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det er dog alment kendt, at certolizumab pegol neutraliserer TNF-alfa og mangler Fc-delen af et antistof. Reumatoid vaskulitis er en komplikation til reumatoid arthritis, som er en godkendt indikation, og TNF-alfa spiller en central rolle i den inflammatoriske patologi. Det giver en biologisk plausibel forbindelse.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Certolizumab pegol er et PEGyleret anti-TNF Fab'-fragment, og TNF-medieret inflammation kunne i teorien bidrage til smertefulde tilstande i hale- og sacroiliacaregionen.
 
-Litteraturen er imidlertid blandet. Én case report beskriver bedring af bensår ved reumatoid vaskulitis, mens flere andre rapporterer vaskulitis, urticariel vaskulitis og glomerulonefritis som **paradoksale bivirkninger** ved certolizumab og andre TNF-hæmmere. Dette sikkerhedssignal vejer tungere end den enkelte positive case.
+Hypermobilitet af halebenet er imidlertid primært en mekanisk eller traumatisk tilstand, så et antiinflammatorisk argument er svagt. Den meget høje score (0,9975) er alene en modelforudsigelse og afspejler sandsynligvis nærhed i netværket til aksial spondylartropati og beslægtede muskel- og skeletbegreber. Der er ikke belæg for en egentlig mekanistisk sammenhæng.
 
----
+## Evidens fra kliniske forsøg
 
-## Klinisk forsøgsevidens
-
-Der er for nuværende ingen registrerede kliniske forsøg for reumatoid vaskulitis.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Behandling af bensår ved reumatoid vaskulitis med certolizumab pegol |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Kohorte (indirekte) | RMD Open | Langtidsopfølgning hos 80 patienter med uveitis ved immunmedierede inflammatoriske sygdomme |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review/databaseanalyse | RMD Open | Infektionsprofil for immunmodulerende lægemidler baseret på produktresuméer |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report (bivirkning) | Proc (Bayl Univ Med Cent) | Leukocytoklastisk vaskulitis som reaktion på certolizumab pegol |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report (bivirkning) | J Clin Pharm Ther | Hypokomplementæmisk urticariel vaskulitis under certolizumab-behandling af reumatoid arthritis |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report (bivirkning) | Mod Rheumatol Case Rep | Hurtigt progredierende glomerulonefritis efter opstart af certolizumab |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report (bivirkning) | Cureus | Anti-TNF-relateret vaskulitis i mellemstore kar |
-
----
+Der foreligger i øjeblikket ingen relateret litteratur om hypermobilitet af halebenet.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104364708 | Cimzia (UCB Pharma S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
-
----
+| 28104364708 | Cimzia | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret; de vigtigste er vist):
+**Lægemiddelinteraktioner** (100 registrerede interaktioner; de vigtigste er vist):
+- **Alvorlig (Major):** hydrokortison, triamcinolon (inkl. oftalmisk), dexamethason, betamethason, budesonid, prednisolon, prednison, deferipron, ibritumomab tiuxetan, iobenguan (I-131), tositumomab (I-131)
+- **Moderat:** metronidazol, pegvaliase, rosuvastatin, simvastatin, tinidazol
+- **Mindre:** zinkacetat, zinkgluconat, zinksulfat
 
-- **Alvorlige (Major):** hydrocortison, triamcinolon (inkl. oftalmisk), dexamethason, betamethason, budesonid, prednisolon, prednison, deferipron, ibritumomab tiuxetan, iobenguan (I-131), tositumomab (I-131)
-- **Moderate:** metronidazol, tinidazol, pegvaliase, rosuvastatin, simvastatin
-- **Milde (Minor):** zinkacetat, zinkglukonat, zinksulfat
-
-Derudover er der rapporteret vaskulitis, urticariel vaskulitis og glomerulonefritis som paradoksale bivirkninger ved certolizumab. For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
-
----
-
-## Øvrige forudsigelser i datagrundlaget
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Kommentar |
-|------|------|------|------|------|
-| Inflammatorisk spondylopati | 99,73 % | L1 | Proceed with Guardrails | Overlapper med allerede godkendte indikationer (aksial spondylartritis, ankyloserende spondylitis, psoriasisartritis). Flere fase 3 placebokontrollerede RCT'er er gennemført, fx [NCT01087788](https://clinicaltrials.gov/study/NCT01087788) (n=409), [NCT01087762](https://clinicaltrials.gov/study/NCT01087762) (n=325), [NCT02552212](https://clinicaltrials.gov/study/NCT02552212) (n=317) og [NCT02505542](https://clinicaltrials.gov/study/NCT02505542) (n=736). Der foreligger desuden farmakokinetiske data for graviditet og amning. Der er tale om en eksisterende anvendelse snarere end egentlig repurposing. |
-| Polyartikulær juvenil reumatoid arthritis | 99,69 % | L2 | Proceed with Guardrails | Ét åbent fase 3-pædiatrisk studie ([NCT01550003](https://clinicaltrials.gov/study/NCT01550003), n=193) og en publikation med over 9 års opfølgning ([PMID 42439289](https://pubmed.ncbi.nlm.nih.gov/42439289/)). Ukontrolleret, så L1 er ikke opfyldt. Kræver fokus på pædiatrisk dosering, infektionsrisiko samt vækst og vaccination. |
-| Hypermobilitet af coccyx | 99,75 % | L5 | Hold | Ingen studier og ingen plausibel TNF-drevet mekanisme. Sandsynligvis en artefakt af nærhed i vidensgrafen. |
-| Kummells sygdom | 99,70 % | L5 | Hold | Iskæmisk og mekanisk sygdom uden TNF-drevet mekanisme og uden studier. Sandsynligvis en artefakt af graf-nærhed. |
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-For reumatoid vaskulitis findes ingen kliniske forsøg, og evidensen består af enkelte case reports. Flere af dem beskriver vaskulitis som bivirkning af certolizumab, hvilket udgør et sikkerhedssignal, der vejer tungere end den ene positive case.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer om sygdommen. Tilstanden er primært mekanisk, så TNF-hæmning er biologisk lidet plausibel.
 
 **For at komme videre kræves:**
-- Systematisk gennemgang af kontrollerede data eller registerdata om anti-TNF ved reumatoid vaskulitis
-- Vurdering af sikkerhedssignalet (paradoksal vaskulitis) i forhold til potentiel nytte
-- Data om virkningsmekanisme (MOA) samt det godkendte produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Til de øvrige forudsigelser: Inflammatorisk spondylopati og polyartikulær juvenil reumatoid arthritis kan gå videre med standard anti-TNF-forholdsregler (screening for infektion og tuberkulose, malignitet, demyelinisering samt pædiatriske overvejelser)
+- Data om virkningsmekanismen (MOA)
+- En afgrænset hypotese om en inflammatorisk delmængde af halebensproblemer, der kan testes
+- Prækliniske eller observationelle data, der direkte omhandler tilstanden
+- Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

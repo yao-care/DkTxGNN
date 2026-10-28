@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rotigotine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 737
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 # Rotigotine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** (o
 |------|------|
 | Oprindelig indikation | Restless legs-syndrom og Parkinsons sygdom (jf. videnbasen; godkendt indikationstekst for det danske produkt foreligger ikke i de indsamlede data) |
 | Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN-prædiktionsscore | 99,997 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-prædiktionsscore | 1,0000 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

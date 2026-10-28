@@ -4,17 +4,17 @@ title: Vestronidase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 883
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Vestronidase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (MPS VII). Godkendelsesteksten for den danske aut…"
+indication_count: 9
 monitor_inn: "Vestronidase alfa"
-predicted_indications: ["Scheie syndrome", "Scheie syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Hurler syndrome", "Sanfilippo syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"]
+predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+last_modified_at: 2026-10-23
+description: "Vestronidase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mucopolysaccharidose"
 ---
 
 # Vestronidase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Vestronidase alfa: Fra mukopolysakkaridose til Scheie syndrom
+## Vestronidase alfa: Fra mucopolysaccharidose til Scheie syndrom
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Vestronidase alfa er en rekombinant human beta-glucuronidase (enzymerstatningsterapi), som oprindeligt anvendes til behandling af mukopolysakkaridose (MPS VII).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der direkte understøtter denne forudsigelse.
-Forudsigelsen er udelukkende netværksbaseret, og evidensen er på modelniveau (L5).
+Vestronidase alfa er en rekombinant human beta-glucuronidase (enzymerstatningsterapi), som i viden­grafen er registreret med relation til mucopolysaccharidose (MPS), og som i Danmark er markedsført som Mepsevii.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne sygdom i de data, der er sammenstillet til rapporten.
+Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -48,70 +48,48 @@ Forudsigelsen er udelukkende netværksbaseret, og evidensen er på modelniveau (
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mukopolysakkaridose (MPS VII). Godkendelsesteksten for den danske autorisation er ikke angivet i de indsamlede data |
+| Oprindelig indikation | Mucopolysaccharidose (relation registreret i videngrafen; godkendelsestekst findes ikke i den danske licensregistrering) |
 | Forudsagt ny indikation | Scheie syndrom |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Vestronidase alfa er dog kendt som rekombinant human beta-glucuronidase (GUSB), som nedbryder glykosaminoglykaner (GAG): dermatansulfat, heparansulfat og chondroitinsulfat. Effekten er dokumenteret ved MPS VII.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de sammenstillede data. Vestronidase alfa er imidlertid en rekombinant human beta-glucuronidase, som erstatter det enzym, der mangler ved MPS VII (Slys syndrom), og som indgår i nedbrydningen af glykosaminoglykaner (GAG).
 
-Scheie syndrom (den milde form af MPS I) skyldes mangel på enzymet alfa-L-iduronidase (IDUA), hvilket fører til ophobning af dermatan- og heparansulfat. Sammenhængen med vestronidase alfa er kun, at de deler samme substratpulje af GAG'er. Enzymerstatning er enzymspecifik, og GUSB virker på et andet trin i nedbrydningskæden end det manglende IDUA. Man kan derfor ikke mekanistisk forvente, at GUSB korrigerer defekten ved Scheie syndrom.
-
-Den høje score (0,999) er en ren netværksbaseret forudsigelse og bør tolkes med forsigtighed.
-
-### Øvrige forudsigelser i modellen
-
-De øvrige forudsigelser indgik i dataene med dubletter. Hver forudsigelse er vurderet én gang:
-
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Lysosomal lagringssygdom med skeletinvolvering | 99,59 % | L5 | Bred kategori, der omfatter MPS VII (den godkendte indikation). Afspejler sandsynligvis den eksisterende anvendelse snarere end en ny indikation |
-| Hurler syndrom | 99,43 % | L3 | Skyldes IDUA-mangel. Kun ét tidligt fase 1-forsøg (se nedenfor). Direkte effekt er ikke mekanistisk sikret |
-| Sanfilippo syndrom | 99,42 % | L4 | Heparansulfatophobning med udtalt CNS-sygdom. Enzymet passerer ikke blod-hjerne-barrieren nævneværdigt. Publikationerne vedrører MPS VII, ikke Sanfilippo |
-| Camptodactyly, myopi og fibrose af musculus rectus medialis | 99,09 % | L5 | Ingen oplagt mekanistisk sammenhæng |
+Scheie syndrom (mild form for MPS I) skyldes mangel på alfa-L-iduronidase, hvilket giver ophobning af dermatan- og heparansulfat. Vestronidase alfa virker på et andet enzymtrin og kan ikke direkte erstatte det manglende iduronidase. Koblingen er derfor kun, at begge sygdomme involverer den samme overordnede GAG-nedbrydningsvej og overlappende substrater. Den høje score er en beregningsmæssig forudsigelse uden klinisk støtte, og den mekanistiske sammenhæng bør vurderes som svag.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er ingen kliniske forsøg for den primære forudsigelse (Scheie syndrom). Det eneste relevante forsøg er knyttet til forudsigelsen Hurler syndrom:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Fase 1 | Rekrutterer | 10 | PEARL: sikkerhed og gennemførlighed af prænatal enzymerstatningsterapi hos fostre med lysosomale lagringssygdomme. Det fremgår ikke, at vestronidase alfa specifikt anvendes ved Hurler syndrom. Ingen resultater foreligger |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for Scheie syndrom.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen litteratur for Scheie syndrom. Nedenstående publikationer er knyttet til forudsigelsen Sanfilippo syndrom, men omhandler MPS VII (den godkendte indikation) og udgør kun indirekte evidens om sikkerhed, farmakokinetik og farmakodynamik:
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [32063397](https://pubmed.ncbi.nlm.nih.gov/32063397/) | 2020 | Langtidsstudie (fase 3 med åben forlængelse) | Molecular Genetics and Metabolism | 12 deltagere (8-25 år) med MPS VII fik 4 mg/kg i.v. i 24-48 uger i et randomiseret, placebokontrolleret blind-start-studie (NCT02377921). Signifikant reduktion af GAG i urinen |
-| [30467742](https://pubmed.ncbi.nlm.nih.gov/30467742/) | 2019 | PK/PD-modellering | Clinical Pharmacokinetics | Dosisoptimering af vestronidase alfa ved MPS VII baseret på tre forsøg |
-| [29478819](https://pubmed.ncbi.nlm.nih.gov/29478819/) | 2018 | Forsøgsdesign | Molecular Genetics and Metabolism | Nyt blind-start-design til forsøg ved ultrasjælden MPS VII |
+Der er i øjeblikket ingen relateret litteratur for Scheie syndrom.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105939517 | Mepsevii (Ultragenyx Germany GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+| 28105939517 | Mepsevii (Ultragenyx Germany GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de tilgængelige data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der foreligger ingen oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -120,13 +98,13 @@ Der foreligger ingen oplysninger om advarsler, kontraindikationer eller lægemid
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for Scheie syndrom bygger udelukkende på netværksmodellen uden kliniske forsøg eller litteratur. Mekanistisk virker GUSB på et andet trin end det manglende IDUA, så en terapeutisk effekt kan ikke forventes. Hurler syndrom har kun ét tidligt fase 1-forsøg uden bekræftet brug af vestronidase alfa.
+Forudsigelsen for Scheie syndrom bygger udelukkende på modellen. Der er hverken kliniske forsøg eller publikationer om sygdommen, og vestronidase alfa kan ikke erstatte det iduronidase, der mangler ved Scheie syndrom.
 
-**For at komme videre er følgende nødvendigt:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (sikkerhedsscreening kan ikke gennemføres uden)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Prækliniske data, der viser, om GUSB kan reducere GAG-ophobning i IDUA-defekte modeller
-- Afklaring af, om vestronidase alfa indgår i PEARL-forsøget for Hurler syndrom
+**For at komme videre kræves følgende:**
+- Præklinisk eller mekanistisk dokumentation for, at beta-glucuronidase-erstatning kan påvirke GAG-ophobning ved mangel på iduronidase
+- Gennemgang af produktresuméet for godkendt indikation, advarsler, kontraindikationer og interaktioner
+- Data om virkningsmekanisme for lægemidlet
+- Vurdering af, om andre forudsagte sygdomme (fx Hurler syndrom, hvor et fase 1-forsøg om prænatal enzymerstatning endnu ikke er bekræftet at involvere dette lægemiddel) er mere oplagte at undersøge
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ziprasidone
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 903
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ziprasidone: forudsagt ny indikation Svær affektiv lidelse (major affective disorder) (evidensniveau L2). Oprindelig indikation: Skizofreni…"
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone: forudsagt ny indikation Trichotillomania (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ziprasidon: Fra skizofreni og bipolær lidelse til svær affektiv lidelse
+## Ziprasidone: Trichotillomania
 {: .text-alpha }
 
 ## Resumé
@@ -48,15 +48,15 @@ og retningen understøttes af **7 kliniske forsøg** og **19 publikationer**.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni, bipolær lidelse og manisk bipolær affektiv lidelse (fra TxGNN-vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
-| Forudsagt ny indikation | Svær affektiv lidelse (major affective disorder) |
-| TxGNN-forudsigelsesscore | 99,66 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trichotillomania |
+| TxGNN-forudsigelsesscore | 0.9983 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
-*Bemærk:* Den højest rangerede forudsigelse (score 99,83 %) er trikotillomani, men den har ingen kliniske forsøg eller litteratur (evidensniveau L5). Svær affektiv lidelse er den forudsigelse med den stærkeste evidens og er derfor valgt som fokus for rapporten.
+*Bemærk:* Den højest rangerede forudsigelse (score 0,9983) er trikotillomani, men den har ingen kliniske forsøg eller litteratur (evidensniveau L5). Svær affektiv lidelse er den forudsigelse med den stærkeste evidens og er derfor valgt som fokus for rapporten.
 
 ---
 
@@ -144,7 +144,7 @@ Flere fase 2-forsøg, heriblandt to randomiserede placebokontrollerede forsøg, 
 
 ---
 
-*Øvrige forudsigelser: Tourettes syndrom (score 99,63 %, evidensniveau L3) understøttes kun af et lille pilotstudie hos børn og reviews og betragtes som et forskningsspørgsmål. De resterende forudsigelser (bl.a. trikotillomani, hydranencefali og X-bundet myopi) har ingen kliniske data og er ikke mekanistisk plausible (Hold).*
+*Øvrige forudsigelser: Tourettes syndrom (score 0,9963, evidensniveau L3) understøttes kun af et lille pilotstudie hos børn og reviews og betragtes som et forskningsspørgsmål. De resterende forudsigelser (bl.a. trikotillomani, hydranencefali og X-bundet myopi) har ingen kliniske data og er ikke mekanistisk plausible (Hold).*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

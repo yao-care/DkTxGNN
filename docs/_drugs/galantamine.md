@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** til at underst�
 |------|------|
 | Oprindelig indikation | Alzheimers sygdom (de data, der er indsamlet til rapporten, indeholder ingen godkendt indikationstekst for det danske produkt) |
 | Forudsagt ny indikation | Psykogene bevægelsesforstyrrelser |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -70,14 +70,14 @@ Modellen foreslog yderligere otte indikationer. Ingen af dem har kliniske forsø
 
 | Rang | Indikation | Score | Evidensniveau | Bemærkning |
 |---|---|---|---|---|
-| 2 | Kronisk tics-lidelse | 99,89 % | L5 | Kun teoretisk link via striatale kolinerge interneuroner |
-| 3 | Primær ortostatisk tremor | 99,89 % | L5 | Ingen mekanistisk begrundelse |
-| 4 | Benigne rystelsesanfald | 99,88 % | L5 | Godartet, selvlimiterende tilstand hos børn; svag risiko-nytte-balance |
-| 5 | Ekstrapyramidal sygdom og bevægelsesforstyrrelse | 99,88 % | L4 | Blandet litteratur; kolinesterasehæmmere kan selv give bevægelsesforstyrrelser |
-| 6 | Tremor-nystagmus-duodenalulcus-syndrom | 99,88 % | L5 | Ekstremt sjælden; ingen mekanistisk begrundelse |
-| 7 | Lingual-facial-bukkal dyskinesi | 99,88 % | L4 | Indirekte evidens fra tardiv dyskinesi |
-| 8 | Benign paroksysmal tonisk opadblik hos børn med ataksi | 99,88 % | L5 | Sjælden; intet identificeret link |
-| 9 | Akut intermitterende porfyri | 99,71 % | L5 | Sikkerhedsbekymring (porfyrinogen risiko) |
+| 2 | Kronisk tics-lidelse | 0,9989 | L5 | Kun teoretisk link via striatale kolinerge interneuroner |
+| 3 | Primær ortostatisk tremor | 0,9989 | L5 | Ingen mekanistisk begrundelse |
+| 4 | Benigne rystelsesanfald | 0,9988 | L5 | Godartet, selvlimiterende tilstand hos børn; svag risiko-nytte-balance |
+| 5 | Ekstrapyramidal sygdom og bevægelsesforstyrrelse | 0,9988 | L5 | Blandet litteratur; kolinesterasehæmmere kan selv give bevægelsesforstyrrelser |
+| 6 | Tremor-nystagmus-duodenalulcus-syndrom | 0,9988 | L5 | Ekstremt sjælden; ingen mekanistisk begrundelse |
+| 7 | Lingual-facial-bukkal dyskinesi | 0,9988 | L5 | Indirekte evidens fra tardiv dyskinesi |
+| 8 | Benign paroksysmal tonisk opadblik hos børn med ataksi | 0,9988 | L5 | Sjælden; intet identificeret link |
+| 9 | Akut intermitterende porfyri | 0,9971 | L5 | Sikkerhedsbekymring (porfyrinogen risiko) |
 
 Den mest underbyggede af disse er lingual-facial-bukkal dyskinesi (tardiv dyskinesi), som beskrives nedenfor.
 

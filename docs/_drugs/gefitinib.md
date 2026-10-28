@@ -4,17 +4,17 @@ title: Gefitinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 387
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Gefitinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft / lungekræft (fra vidensgrafen"
+indication_count: 9
 monitor_inn: "GEFITINIB"
-predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "fibroma of lung", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "hamartoma of lung"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
+last_modified_at: 2026-10-23
+description: "Gefitinib: forudsagt ny indikation Fibromatose i gingiva (fibromatosis, gingival) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Gefitinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,77 +33,58 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Gefitinib: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Gefitinib: Fibromatose i gingiva (fibromatosis, gingival)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Gefitinib er en EGFR-tyrosinkinasehæmmer, som oprindeligt anvendes til behandling af ikke-småcellet lungekræft (NSCLC).
-TxGNN-modellen forudsiger, at det kan have effekt på **gingival fibromatose**, men der findes **0 kliniske forsøg** og **0 publikationer** for denne indikation.
-Forudsigelsen er derfor udelukkende modelbaseret.
+Gefitinib er en EGFR-tyrosinkinasehæmmer, som oprindeligt anvendes til behandling af ikke-småcellet lungekræft. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **fibromatose i gingiva** (højest rangerede forudsigelse). Der er dog **ingen kliniske forsøg og ingen publikationer** for denne sygdom, så forudsigelsen hviler udelukkende på modellen.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft / lungekræft (fra vidensgrafen; den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Fibromatose i gingiva (fibromatosis, gingival) |
+| TxGNN-prædiktionsscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor kan forudsigelsen være rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Gefitinib er kendt som en hæmmer af EGFR-tyrosinkinase, og effekten er dokumenteret ved EGFR-muteret ikke-småcellet lungekræft.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Gefitinib er ifølge den tilgængelige litteratur en selektiv, oral hæmmer af EGFR-tyrosinkinase, som regulerer signalveje for cellevækst og overlevelse. Lægemidlet bruges ved lungekræft med EGFR-mutationer.
 
-Der kan argumenteres for, at EGFR-signalering bidrager til fibroblastproliferation, hvilket teoretisk kunne forbindes med gingival fibromatose. Denne sammenhæng er imidlertid ikke understøttet af kliniske data eller litteratur.
-
-Den høje score alene er ikke evidens. Scoren er sandsynligvis påvirket af nærhed i vidensgrafen, og der er ikke påvist en egentlig mekanistisk sammenhæng mellem den oprindelige og den nye indikation.
-
-### Øvrige forudsagte indikationer
-
-De øvrige forudsigelser har lignende svag støtte:
-
-| Forudsagt indikation | Score | Evidens | Bemærkning |
-|------|------|------|------|
-| Fibrom i lungen | 99,86 % | L5 | Sandsynligvis drevet af nærhed til lungekræft i vidensgrafen; ingen kendt EGFR-drevet biologi ved benigne fibrøse lungetumorer |
-| Hamartom i lungen | 99,86 % | L5 | Benign læsion uden kendt EGFR-afhængig mekanisme |
-| Inklusionslegememyopati med tidlig Pagets sygdom ± frontotemporal demens | 99,86 % | L5 | Sjælden genetisk sygdom (VCP-relateret); ingen klar mekanistisk vej |
-| Lungehilus-karcinom | 99,86 % | L4 | Én enkelt case-rapport; bedst betragtet som en anatomisk undertype af den eksisterende indikation snarere end egentlig repurposing |
+En mulig forbindelse til gingival fibromatose er, at hæmning af EGFR-signalering kunne dæmpe fibroblastproliferation. Det er en ren hypotese uden understøttelse i de foreliggende data. Gingival fibromatose er en godartet bindevævslidelse og adskiller sig biologisk fra EGFR-drevet lungekræft. Den høje modelscore kan derfor ikke forklares mekanistisk ud fra de foreliggende oplysninger.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for gingival fibromatose.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for fibromatose i gingiva.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for gingival fibromatose.
+Der er for øjeblikket ingen relateret litteratur for fibromatose i gingiva.
 
-Til sammenligning findes der for den forudsagte indikation lungehilus-karcinom én case-rapport:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [22688581](https://pubmed.ncbi.nlm.nih.gov/22688581/) | 2012 | Case-rapport | General Thoracic and Cardiovascular Surgery | Salvage-kirurgi hos en 66-årig kvinde med avanceret EGFR-muteret lungeadenokarcinom, der responderede markant på gefitinib (delvis respons) |
+Bemærk: Blandt de øvrige forudsagte sygdomme (fx godartet lungeneoplasme og pulmonal sulcus-neoplasme) blev der fundet publikationer. De handler overvejende om gefitinib ved lungekræft, resistens og bivirkninger og understøtter ikke de forudsagte nye indikationer direkte.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106011717 | Gefitinib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28106011717 | Gefitinib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de foreliggende data |
 
-Administrationsvej: oral.
+Der er registreret én gyldig enkeltstofstilladelse. Administrationsvejen er oral.
 
 ---
 
@@ -112,27 +93,30 @@ Administrationsvej: oral.
 | Punkt | Indhold |
 |------|------|
 | Klassifikation | Målrettet behandling (EGFR-tyrosinkinasehæmmer) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitorering | Se produktresuméet (SmPC); vidensgrafen peger på leversygdom og interstitiel lungesygdom som relevante områder |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC), herunder leverfunktion |
+| Håndtering | Se produktresuméet (SmPC) |
+
+Der foreligger ikke systematiske toksicitetsdata i de indsamlede data. Se advarsler og forholdsregler i produktresuméet (SmPC).
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Kontraindikationer fra vidensgrafen** (ikke fra produktresuméets tekst): leversygdom, galdeblæresygdom, interstitiel lungesygdom, lungefibrose og postinflammatorisk lungefibrose.
-- **Lægemiddelinteraktioner** (100 registrerede; de væsentligste er af moderat grad):
-  - Syrehæmmende midler: famotidin, ranitidin, cimetidin, nizatidin samt protonpumpehæmmere (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol)
-  - Clarithromycin
-  - Aprepitant
-  - Dexamethason
-  - Naltrexon
-  - Miconazol og clotrimazol
-  - Troglitazon
-  - Calcitriol og glimepirid er registreret med ukendt interaktionsniveau
+**Relationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer til leversygdom, galdeblæresygdom, interstitiel lungesygdom, lungefibrose og postinflammatorisk lungefibrose. Disse skal bekræftes i det godkendte produktresumé.
 
-Advarsler og kontraindikationer fra den godkendte produktinformation er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der blev fundet 100 interaktioner. De viste interaktioner er hovedsageligt af moderat grad:
+- Syrehæmmende midler: famotidin, ranitidin, cimetidin, nizatidin og protonpumpehæmmere (omeprazol, esomeprazol, pantoprazol, lansoprazol, rabeprazol, dexlansoprazol)
+- Aprepitant, clarithromycin, dexamethason, naltrexon
+- Svampemidler: miconazol og clotrimazol
+- Troglitazon
+
+Calcitriol og glimepirid er registreret med ukendt interaktionsniveau.
+
+**Observationer i litteraturen (ikke mærkningstekst):** Publikationer beskriver interstitiel lungesygdom/pneumonitis, levertoksicitet, hudtoksicitet, QT-forlængelse og et tilfælde af myokardieinfarkt i forbindelse med gefitinib. Ved den forudsagte hudlidelse junktional epidermolysis bullosa taler hudtoksicitet for forsigtighed.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -141,14 +125,14 @@ Advarsler og kontraindikationer fra den godkendte produktinformation er ikke til
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for gingival fibromatose bygger udelukkende på en modelscore (L5) uden kliniske forsøg eller publikationer, og scoren afspejler sandsynligvis nærhed i vidensgrafen snarere end biologisk sammenhæng.
+Forudsigelsen for fibromatose i gingiva er alene modelbaseret (L5) uden kliniske forsøg eller publikationer. Der er desuden betydelige sikkerhedsovervejelser, og mekanismen er kun spekulativ.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA), der kan belyse en mulig rolle for EGFR i gingival fibromatose
-- Præklinisk eller mekanistisk evidens for EGFR-afhængig fibroblastproliferation i gingivalt væv
-- Gennemgang af produktresuméet fra Lægemiddelstyrelsen for advarsler og kontraindikationer (nødvendigt før sikkerhedsscreening)
-- Litteratursøgning og søgning i forsøgsregistre specifikt for den forudsagte indikation
-- Vurdering af, om systemisk behandling med en kræftmedicin er forsvarlig ved en benign tilstand
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk dokumentation for EGFR's rolle i gingival fibromatose
+- Detaljerede data om virkningsmekanismen
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Vurdering af risk/benefit for en godartet tilstand, givet gefitinibs bivirkningsprofil (lunge, lever, hud)
+- Egnet kandidat til videre undersøgelse: sygdomme tættere på den oprindelige indikation (fx pulmonal sulcus-neoplasme), hvor der dog også kun er indirekte evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

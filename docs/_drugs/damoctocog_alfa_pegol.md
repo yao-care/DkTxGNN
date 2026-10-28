@@ -8,6 +8,7 @@ nav_order: 233
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Damoctocog Alfa Pegol
@@ -51,8 +52,8 @@ En fuldstændig evaluering af lægemiddelrepurposing kan ikke gennemføres, før
 | Forudsagt ny indikation | Ingen — TxGNN returnerede ingen kandidater |
 | TxGNN-forudsigelsesscore | N/A |
 | Evidensniveau | L5 (ingen forudsigelser genereret; evaluering ikke mulig) |
-| Markedsstatus for Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus for Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | Ventetilstand |
 
 ---

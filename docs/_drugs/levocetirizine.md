@@ -6,9 +6,9 @@ nav_order: 494
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Levocetirizine: forudsagt ny indikation Reumatoid arthritis (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis…"
 monitor_inn: "levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Levocetirizine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Levocetirizin: Fra allergisk rhinitis til reumatoid arthritis
+## Levocetirizine: Reumatoid arthritis (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis og idiopatisk urticaria (fra TxGNN-videngrafen; godkendelsesteksten for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Reumatoid arthritis |
-| TxGNN-forudsigelsesscore | 99,73 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Reumatoid arthritis (rheumatoid arthritis) |
+| TxGNN-forudsigelsesscore | 0.9973 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -62,7 +62,7 @@ En mulig, men ubekræftet hypotese er, at levocetirizin kan dæmpe histaminmedie
 
 Levocetirizin er ikke et etableret antireumatisk middel. Selv hvis der skulle være en effekt, vil den sandsynligvis være beskeden sammenlignet med sygdomsmodificerende behandlinger.
 
-*Andre forudsigelser med lavere rangering (L5, Hold):* TxGNN forudsiger også colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (score 99,59 %) og brachydaktyli-syndaktyli-syndrom (score 99,52 %). For begge gælder, at der ikke er nogen oplagt biologisk begrundelse for, at en antihistamin skulle påvirke medfødte misdannelser. De høje scorer afspejler sandsynligvis videngrafens struktur frem for en farmakologisk meningsfuld sammenhæng.
+*Andre forudsigelser med lavere rangering (L5, Hold):* TxGNN forudsiger også colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (score 0,9959) og brachydaktyli-syndaktyli-syndrom (score 0,9952). For begge gælder, at der ikke er nogen oplagt biologisk begrundelse for, at en antihistamin skulle påvirke medfødte misdannelser. De høje scorer stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Evidens fra kliniske forsøg
 

@@ -4,17 +4,17 @@ title: Metolazone
 parent: Kun modelforudsigelse (L5)
 nav_order: 543
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Metolazone: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk). Indikationsteksten i den danske god…"
 monitor_inn: "metolazone"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Metolazone: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Metolazone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Metolazon: Fra hypertension til malign renovaskulær hypertension
+## Metolazone: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Metolazon er et thiazidlignende vanddrivende middel, der oprindeligt anvendes ti
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (forhøjet blodtryk). Indikationsteksten i den danske godkendelse er ikke angivet; oplysningen stammer fra TxGNN-vidensgrafen |
-| Forudsagt ny indikation | Malign renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malignant hypertensive renal disease |
+| TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,14 +60,14 @@ Metolazon er et thiazidlignende vanddrivende middel, der oprindeligt anvendes ti
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Metolazon er kendt som et thiazidlignende diuretikum, hvis effekt ved hypertension er veletableret, og det kan mekanistisk have en konceptuel forbindelse til en alvorlig, volumen- og reninafhængig form for hypertension.
 
-Ved malign renovaskulær hypertension er den primære drivkraft imidlertid nyrearteriestenose med aktivering af renin-angiotensin-systemet. Thiazidtype diuretika er ikke førstevalg her. TxGNN-scoren (99,84 %) afspejler netværksnærhed til den oprindelige hypertensionsindikation og ikke kliniske data.
+Ved malign renovaskulær hypertension er den primære drivkraft imidlertid nyrearteriestenose med aktivering af renin-angiotensin-systemet. Thiazidtype diuretika er ikke førstevalg her. TxGNN-scoren (0,9984) afspejler netværksnærhed til den oprindelige hypertensionsindikation og ikke kliniske data.
 
 De øvrige forudsigelser har samme svaghed:
 
-- **Malign hypertensiv nyresygdom** (score 99,84 %): Metolazon bevarer effekt ved nedsat GFR og bruges sammen med loop-diuretika ved nedsat nyrefunktion, hvilket giver en indirekte begrundelse. Tilstanden er imidlertid en hypertensiv krise, der kræver hurtig og titrerbar blodtrykskontrol, og et oralt diuretikum er ikke egnet som primær behandling.
-- **Pulmonal hypertension med uklar multifaktoriel mekanisme** (score 99,83 %): Diuretika kan lindre volumenbelastning af højre hjerte, men det er støttebehandling og ikke sygdomsmodificerende.
-- **Pulmonal hypertension som følge af lungesygdom og/eller hypoxi** (score 99,83 %): Diuretika kan reducere ødem ved cor pulmonale. Risici som hypokaliæmi og metabolisk alkalose kan forværre den ventilatoriske drive ved kronisk lungesygdom.
-- **Braddock syndrom** (score 99,78 %): Der kan ikke påvises nogen mekanistisk begrundelse. Scoren skyldes sandsynligvis en netværksartefakt.
+- **Malign hypertensiv nyresygdom** (score 0,9984): Metolazon bevarer effekt ved nedsat GFR og bruges sammen med loop-diuretika ved nedsat nyrefunktion, hvilket giver en indirekte begrundelse. Tilstanden er imidlertid en hypertensiv krise, der kræver hurtig og titrerbar blodtrykskontrol, og et oralt diuretikum er ikke egnet som primær behandling.
+- **Pulmonal hypertension med uklar multifaktoriel mekanisme** (score 0,9983): Diuretika kan lindre volumenbelastning af højre hjerte, men det er støttebehandling og ikke sygdomsmodificerende.
+- **Pulmonal hypertension som følge af lungesygdom og/eller hypoxi** (score 0,9983): Diuretika kan reducere ødem ved cor pulmonale. Risici som hypokaliæmi og metabolisk alkalose kan forværre den ventilatoriske drive ved kronisk lungesygdom.
+- **Braddock syndrom** (score 0,9978): Der kan ikke påvises nogen mekanistisk begrundelse. Scoren skyldes sandsynligvis en netværksartefakt.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Piperaquine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 666
-evidence_level: L1
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Piperaquine: forudsagt ny indikation Plasmodium vivax-malaria (evidensniveau L1). Oprindelig indikation: Malaria"
 monitor_inn: "piperaquine"
-predicted_indications: ["cystic echinococcosis", "Plasmodium vivax malaria", "echinococcus granulosus infectious disease"]
+predicted_indications: ["cystic echinococcosis", "echinococcus granulosus infectious disease"]
+description: "Piperaquine: forudsagt ny indikation Cystic echinococcosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Piperaquine
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Piperaquine: Fra malaria til Plasmodium vivax-malaria
+## Piperaquine: Cystic echinococcosis
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -45,12 +45,12 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **Plasmodium vivax-mal
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Malaria (den godkendte indikationstekst for det danske præparat er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Plasmodium vivax-malaria |
-| TxGNN-forudsigelsesscore | 99,52 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cystic echinococcosis |
+| TxGNN-forudsigelsesscore | 0.9952 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er forudsigelsen rimelig?

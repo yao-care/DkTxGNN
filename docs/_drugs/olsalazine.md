@@ -48,10 +48,10 @@ Olsalazin er et prodrug af 5-aminosalicylsyre (mesalazin), som anvendes ved infl
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst for Dipentum er tom) |
 | Forudsagt ny indikation | Myelodysplastisk syndrom |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Olsalazin er et prodrug af 5-aminosalicylsyre (mesalazin), som anvendes ved infl
 
 Data om olsalazins detaljerede virkningsmekanisme er ikke tilgængelige. Olsalazin er et prodrug af 5-aminosalicylsyre, som bruges ved colitis ulcerosa. Dets antiinflammatoriske og NF-κB-modulerende aktivitet har ikke nogen etableret sammenhæng med patofysiologien ved myelodysplastisk syndrom (MDS), som er en klonal knoglemarvssygdom.
 
-TxGNN-scoren (0,999) er en ren modelforudsigelse. Den sandsynligvis afspejler netværkslighed i vidensgrafen snarere end en valideret mekanisme. Stoffet absorberes desuden dårligt systemisk, hvilket yderligere begrænser en plausibel effekt på knoglemarven.
+TxGNN-scoren (0,9991) er en ren modelforudsigelse. Scoren kommer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Stoffet absorberes desuden dårligt systemisk, hvilket yderligere begrænser en plausibel effekt på knoglemarven.
 
 Forudsigelsen skal ses i sammenhæng med de øvrige topforudsigelser. Flere af dem er indbyrdes korrelerede MDS-relaterede tilstande (ikke-klassificeret MDS, refraktær cytopeni hos børn, del(5q)-afvigelse) og udgør derfor ikke uafhængig støtte. Øvrige forudsigelser omfatter hårtabstilstande (bl.a. alopeci og alopecia areata) og sjældne anæmier. Heller ikke for disse foreligger der evidens.
 

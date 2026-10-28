@@ -48,9 +48,9 @@ Threonin er en essentiel aminosyre, som i Danmark indgår i en lang række læge
 |------|------|
 | Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser (indikationsteksten er tom) |
 | Forudsagt ny indikation | Gastroparese |
-| TxGNN-forudsigelsesscore | 99,32 % |
+| TxGNN-forudsigelsesscore | 0,9932 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -60,7 +60,7 @@ Threonin er en essentiel aminosyre, som i Danmark indgår i en lang række læge
 
 Der foreligger ingen detaljerede data om virkningsmekanismen. Threonin er en essentiel aminosyre, som bruges til proteinsyntese og stofskifte af glycin og serin. Den er desuden en væsentlig bestanddel af tarmens mucinproteiner.
 
-Man kan spekulere i en sammenhæng med slimhindens integritet og mave-tarm-funktion. Det er dog ikke dokumenteret for gastroparese, som skyldes forsinket mavetømning på grund af nedsat motilitet (fx diabetisk autonom neuropati, tab af Cajal-celler eller idiopatiske årsager). Den høje score er en beregnet forudsigelse fra en vidensgraf og bør ikke opfattes som klinisk evidens. Der er ingen understøttet mekanistisk kobling i de foreliggende data.
+Man kan spekulere i en sammenhæng med slimhindens integritet og mave-tarm-funktion. Det er dog ikke dokumenteret for gastroparese, som skyldes forsinket mavetømning på grund af nedsat motilitet (fx diabetisk autonom neuropati, tab af Cajal-celler eller idiopatiske årsager). Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og den bør ikke opfattes som klinisk evidens. Der er ingen understøttet mekanistisk kobling i de foreliggende data.
 
 ---
 

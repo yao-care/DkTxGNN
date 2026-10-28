@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 893
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Vortioxetine: forudsagt ny indikation Melankoli (rang 3 blandt forudsigelserne) (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression, svær depressiv lidelse…"
 monitor_inn: "vortioxetine"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine: forudsagt ny indikation Neurotic disorder (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Vortioxetin: Fra depression til melankoli
+## Vortioxetine: Neurotic disorder
 {: .text-alpha }
 
 Valget af den nye indikation er her gjort ud fra evidensen. Den højest rangerede forudsigelse (neurotisk lidelse) har kun et enkelt litteraturresultat og ingen forsøg. Den tredjerangerede forudsigelse, melankoli, har flest registrerede kliniske forsøg og er derfor valgt som hovedforslag.
@@ -50,12 +50,12 @@ Der er **6 kliniske forsøg** og **21 publikationer** i de data, der er indsamle
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Unipolar depression, endogen depression, svær depressiv lidelse, angstlidelse (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Melankoli (rang 3 blandt forudsigelserne) |
-| TxGNN-forudsigelsesscore | 99,09 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Neurotic disorder |
+| TxGNN-forudsigelsesscore | 0.9924 |
 | Evidensniveau | L1 (for svær depressiv lidelse generelt; indirekte for melankoli) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---
@@ -135,7 +135,7 @@ Flere afsluttede fase 3-forsøg og metaanalyser understøtter effekten af vortio
 
 ---
 
-**Bemærkning om øvrige forudsigelser:** Neurotisk depression (rang 2) er en historisk betegnelse, der svarer til depressive lidelser. Den er indirekte understøttet via programmet for svær depressiv lidelse og kræver bekræftelse af diagnosemapping til nuværende DSM/ICD (Proceed with Guardrails). Dysthymi (rang 5) har kun et åbent forlængelsesforsøg i svær depressiv lidelse som støtte og kræver et kontrolleret forsøg (forskningsspørgsmål). Neurotisk lidelse (rang 1) og benign paroksysmal torticollis hos spædbørn (rang 4) har ingen forsøg og svag eller ingen litteratur, og anbefales sat i bero (Hold).
+**Bemærkning om øvrige forudsigelser:** Neurotisk lidelse og benign paroksystisk torticollis hos spædbørn (Benign paroksystisk torticollis hos spædbørn) har ingen forsøg og svag eller ingen litteratur, og anbefales sat i bero (Hold).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

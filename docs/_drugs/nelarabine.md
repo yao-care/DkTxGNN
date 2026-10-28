@@ -6,9 +6,9 @@ nav_order: 580
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi…"
 monitor_inn: "nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Nelarabin: Fra T-celle akut lymfoblastær leukæmi til recidiverende-remitterende multipel sklerose
+## Nelarabine: Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis)
 {: .text-alpha }
 
 ## Sammenfatning
@@ -49,12 +49,12 @@ Samtidig er nelarabin forbundet med alvorlig neurotoksicitet, som vejer tungt im
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfoblastær leukæmi, præcursor T-celle akut lymfoblastær leukæmi, T-celle-leukæmi og T-lymfoblastisk lymfom |
-| Forudsagt ny indikation | Recidiverende-remitterende multipel sklerose |
-| TxGNN-forudsigelsesscore | 99,43 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis) |
+| TxGNN-forudsigelsesscore | 0.9943 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -94,7 +94,6 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 | Punkt | Indhold |
 |------|------|
 | Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (nukleosidanalog, purinanalog) |
-| Risiko for myelosuppression | Se produktresumeet (SmPC); neutropeni og trombocytopeni er nævnt blandt de sygdomme, som lægemidlet er knyttet til i vidensgrafen |
 | Emetogenicitetsklassifikation | Se produktresumeet (SmPC) |
 | Overvågningspunkter | Hæmatologiske parametre (fuldt blodbillede), lever- og nyrefunktion samt grundig neurologisk overvågning |
 | Håndteringsbeskyttelse | Skal håndteres i henhold til gældende regler for cytotoksiske lægemidler |

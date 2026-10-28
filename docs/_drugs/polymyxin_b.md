@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Polymyxin B
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 671
-evidence_level: L5
-indication_count: 3
+evidence_level: L4
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Polymyxin B: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de godkendte produkters indikationstekster. Produktern…"
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
+description: "Polymyxin B: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Polymyxin B
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Polymyxin B: Fra lokal antibiotikabehandling til bronkitis
+## Polymyxin B: Bronkitis (bronchitis)
 {: .text-alpha }
 
 ## Resumé
@@ -44,12 +44,12 @@ Polymyxin B er et antibiotikum mod gramnegative bakterier, som i Danmark er godk
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de godkendte produkters indikationstekster. Produkterne er øjen- og ørepræparater (øjendråber, øjensalve, øjen- og øredråber, øredråber). |
-| Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,87 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bronkitis (bronchitis) |
+| TxGNN-forudsigelsesscore | 0.9987 |
 | Evidensniveau | L4 (for bronkitis) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Der blev forudsagt tre indikationer. Bronkitis har højest score, men svagest direkte evidens. Se afsnittet om alternative forudsigelser nedenfor.
@@ -92,7 +92,6 @@ Nedenfor er de mest relevante publikationer for bronkitis (op til 10).
 | 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
 | 28106592421 | Otisur | Øredråber, suspension | Indikationstekst ikke tilgængelig |
 
-Ingen af de fire gyldige tilladelser omfatter en form til inhalation eller systemisk brug.
 
 ## Sikkerhedsovervejelser
 
@@ -109,8 +108,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Konjunktivitis | 99,06 % | L2 | Proceed with Guardrails |
-| Laryngotracheitis | 99,62 % | L5 | Hold |
+| Laryngotracheitis | 0,9962 | L5 | Hold |
 
 **Konjunktivitis:** Litteraturen indeholder randomiserede sammenligninger af polymyxin B/trimethoprim med moxifloxacin ved bakteriel konjunktivitis (bl.a. [PMID 19043943](https://pubmed.ncbi.nlm.nih.gov/19043943/), [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) og [23092529](https://pubmed.ncbi.nlm.nih.gov/23092529/)), samt dobbeltblindede sammenligninger med chloramphenicol og neomycin-polymyxin B-gramicidin ([2850891](https://pubmed.ncbi.nlm.nih.gov/2850891/), [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/)). Det studerede produkt er kombinationen med trimethoprim, ikke polymyxin B alene. Da kombinationen allerede er markedsført til dette formål, er der snarere tale om en eksisterende anvendelse end egentlig repurposing. Evidensen er klassificeret som L2, fordi fase og design ikke fremgår af de foreliggende data.
 

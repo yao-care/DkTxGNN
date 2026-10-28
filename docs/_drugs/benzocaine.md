@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
-description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (evidensniveau L5). Oprindelig indikation: Tinea pedis, dermatitis, pharyngitis, tinea corporis…"
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
+last_modified_at: 2026-10-27
+description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (papillary conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Benzocaine
@@ -33,13 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Benzocain: Fra tinea pedis og dermatitis til papillær konjunktivitis
+## Benzocain: Lokalbedøvende middel (natriumkanalblokker) → Papillær konjunktivitis (papillary conjunctivitis)
 {: .text-alpha }
 
 ## Resumé
 
-Benzocain er et lokalbedøvende middel af estertypen, som i videnskabelig litteratur er knyttet til indikationer som tinea pedis, dermatitis, pharyngitis, tinea corporis og tinea-infektioner.
-TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellens score.
+Benzocain er et lokalt, esterbaseret bedøvelsesmiddel, som i Danmark er markedsført som tandkødsopløsning og som koncentrat til behandling af fisk.
+TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis (papillary conjunctivitis)** med en score på 0,9938.
+Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -47,60 +48,52 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Tinea pedis, dermatitis, pharyngitis, tinea corporis, tinea-infektion (fra TxGNN-vidensgrafen; de danske markedsføringstilladelser har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Papillær konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,38 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Papillær konjunktivitis (papillary conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0,9938 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Benzocain er dog kendt som et topisk lokalbedøvende middel, der blokerer spændingsstyrede natriumkanaler. Det kan i teorien lindre smerte og kløe på øjets overflade.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Benzocain er et topikalt esterbaseret lokalanæstetikum, som generelt blokerer spændingsfølsomme natriumkanaler og dermed dæmper smertesignaler og kløe.
 
-Papillær konjunktivitis er primært en allergisk eller mekanisk (fx kontaktlinserelateret) inflammatorisk tilstand. Symptomlindring vil derfor ikke behandle den underliggende årsag. Den forudsagte sammenhæng er plausibel, men uverificeret.
+En mulig, men uverificeret forbindelse er, at dette kunne lindre ubehag på øjets overflade. Papillær konjunktivitis er imidlertid primært en allergisk eller mekanisk (fx kontaktlinsebetinget) betændelsestilstand. Symptomlindring ville derfor ikke adressere den underliggende årsag.
 
-Der er desuden bekymrende forhold: Topiske lokalbedøvende midler kan give hornhindetoksicitet ved gentagen brug i øjet, og benzocain er et kendt kontaktallergen, som kan forværre allergisk konjunktival sygdom. Forudsigelsen understøttes ikke af mekanistisk eller klinisk evidens.
+Der er desuden væsentlige betænkeligheder: Gentagen okulær brug af topikale bedøvelsesmidler indebærer risiko for hornhindeskade, og benzocain er et kendt kontaktallergen, som kan forværre allergisk konjunktival sygdom. Forbindelsen understøttes ikke af mekanistisk eller klinisk evidens.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
-Der er for tiden ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er for tiden ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106271419 | Optomease Vet. (Virbac S.A.) | Koncentrat til opløsning til behandling af fisk | Ikke angivet (veterinært præparat) |
-| 28100834380 | Dolodent (OBA-Pharma ApS) | Opløsning til tandkød | Ikke angivet |
-
-Begge tilladelser er gyldige enkeltstofpræparater. Ingen af dem er godkendt til øjenbrug.
+| 28106271419 | Optomease Vet. | Koncentrat til opløsning til behandling af fisk | Ikke angivet i lokale data |
+| 28100834380 | Dolodent | Opløsning til tandkød | Ikke angivet i lokale data |
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Følgende kontraindikationer stammer fra TxGNN-vidensgrafen (relationer mellem lægemiddel og sygdom) og er ikke hentet fra produktresuméer. De bør derfor tolkes med forsigtighed:
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-- **Lever- og nyresygdomme:** leversvigt, leversygdom, hepatisk koma, hepatisk encefalopati, nyresygdom, galdeblæresygdom
-- **Blodsygdomme:** trombocytopeni, neutropeni, agranulocytose, blodkoagulationsforstyrrelser
-- **Stofskifte- og endokrine sygdomme:** porfyri (herunder arvelig porfyri), forstyrrelser i porfyrinstofskiftet, diabetes mellitus, diabetisk ketoacidose, hyperparathyroidisme, osteitis fibrosa, hypercalcæmi, nefrokalcinose, forstyrrelser i fosforstofskiftet
-- **Neurologiske og psykiatriske tilstande:** epilepsi, angstlidelse, neurotisk lidelse, dysthymi, misbrug/afhængighed
-- **Øvrige:** gastritis, eksantem, herpes simplex-infektion, sarkoidose, pyoureter
-
-Der er ikke fundet oplysninger om lægemiddelinteraktioner. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Det bør dog bemærkes, at benzocain er et kendt kontaktallergen, og at gentagen brug af lokalbedøvelse på øjet kan skade hornhinden.
 
 ---
 
@@ -109,14 +102,13 @@ Der er ikke fundet oplysninger om lægemiddelinteraktioner. Der henvises til det
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af en høj modelscore (L5). Der findes ingen kliniske forsøg eller publikationer, og der er specifikke sikkerhedsbekymringer ved okulær brug (hornhindetoksicitet og kontaktsensibilisering).
+Forudsigelsen støttes kun af en høj modelscore. Der findes hverken kliniske forsøg eller publikationer, og den mulige mekanisme (symptomlindring) adresserer ikke årsagen til sygdommen. Risikoen for hornhindetoksicitet og kontaktsensibilisering taler imod anvendelse.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméerne hos Lægemiddelstyrelsen
-- Prækliniske data om okulær sikkerhed og tolerance
-- Vurdering af, om der findes en egnet okulær formulering og administrationsvej (ingen af de nuværende danske præparater er til øjet)
-- Systematisk litteratursøgning og afklaring af, om forsøg på denne indikation er rimelige
+**For at komme videre kræves:**
+- Præklinisk eller klinisk evidens, der direkte undersøger benzocain ved papillær konjunktivitis
+- Data om virkningsmekanisme
+- Vurdering af en egnet okulær formulering og administrationsvej (de nuværende produkter er til tandkød og til fisk)
+- Gennemgang af produktresuméer for sikkerhedsdata, herunder okulær tolerabilitet og sensibiliseringsrisiko
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ramucirumab: forudsagt ny indikation Livmoderligamentets adenokarcinom (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, gastrisk adenokarcinom…"
 monitor_inn: "Ramucirumab"
-predicted_indications: ["uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Ramucirumab: forudsagt ny indikation Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ramucirumab
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ramucirumab: Fra ikke-småcellet lungekræft, mavekræft og leverkræft til livmoderligamentets adenokarcinom
+## Ramucirumab: Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Ramucirumab er et antistof, der blokerer VEGFR2, og som oprindeligt anvendes til behandling af ikke-småcellet lungekræft, adenokarcinom i mavesækken og hepatocellulært karcinom.
-TxGNN-modellen forudsiger, at det kan have effekt på **livmoderligamentets adenokarcinom** (uterine ligament adenocarcinoma).
-Der er i de data, der er sammenstillet til denne rapport, **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er alene modelbaseret.
+Ramucirumab er et antistof, der blokerer VEGFR2, og som i videnskabsgrundlaget er knyttet til kræftformer som ikke-småcellet lungekræft, mavekræft (gastrisk adenokarcinom) og leverkræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **uterint ligament-adenokarcinom**.
+Forudsigelsen er **ikke understøttet af kliniske forsøg eller publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -48,43 +48,61 @@ Der er i de data, der er sammenstillet til denne rapport, **0 kliniske forsøg**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft, gastrisk adenokarcinom, hepatocellulært karcinom (ifølge TxGNN-vidensgrafen; der er ikke angivet indikationstekst i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Livmoderligamentets adenokarcinom |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) |
+| TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de sammenstillede data. Ramucirumab er dog kendt som et VEGFR2-rettet antistof, der hæmmer tumorangiogenese. De oprindelige indikationer (ikke-småcellet lungekræft, gastrisk adenokarcinom og hepatocellulært karcinom) er solide tumorer, som afhænger af VEGF-signalering.
+Ramucirumab er et VEGFR2-antagonist, der hæmmer VEGF-drevet angiogenese (dannelse af nye blodkar i tumoren). Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på lægemidlets kendte klasse.
 
-Der er derfor en biologisk plausibel begrundelse for, at en lignende angiogenesehæmning kan være relevant ved gynækologiske adenokarcinomer. Det samme ræsonnement gælder for de øvrige forudsagte indikationer med samme score-niveau: endocervikalt karcinom, adenoid cystisk karcinom i livmoderhalsen, serøst adenokarcinom i livmoderligamentet og signetringscellevariant af cervikalt mucinøst adenokarcinom. For sidstnævnte findes en løs histologisk analogi til gastrisk adenokarcinom, som også omfatter signetringcelle-histologi.
+Adenokarcinomer i det kvindelige genitalområde kan være afhængige af angiogenese, og der er derfor en biologisk begrundelse for at afprøve VEGFR2-blokade.
 
-Det er vigtigt at understrege, at TxGNN-scoren er en beregnet modelforudsigelse uden klinisk validering. Uden mekanismedata og uden kliniske data kan den mekanistiske sammenhæng ikke verificeres.
+Der er ingen kliniske forsøg eller publikationer for ramucirumab ved netop denne tumorlokalisation. Forudsigelsen er derfor ubekræftet og bør betragtes som en hypotese.
+
+### Øvrige forudsagte indikationer (til orientering)
+
+Modellen rangerer også en række beslægtede gynækologiske kræftformer højt, alle med score omkring 99,93-0,9995 og alle uden understøttende forsøg eller litteratur (evidensniveau L5):
+
+| Rang | Sygdom | Score |
+|------|------|------|
+| 2 | Endocervikalt karcinom | 0,9995 |
+| 3 | Adenoid cystisk karcinom i livmoderhalsen | 0,9995 |
+| 4 | Uterint ligament serøst adenokarcinom | 0,9994 |
+| 5 | Signetringscellevariant af cervikalt mucinøst adenokarcinom | 0,9994 |
+| 6 | Cervikalt adenosquamøst karcinom, glassy cell-variant | 0,9994 |
+| 7 | Uterint ligament endometrioidt adenokarcinom | 0,9994 |
+| 8 | Uterint ligament clear cell-adenokarcinom | 0,9994 |
+| 9 | Uterint ligament mucinøst adenokarcinom | 0,9994 |
+| 10 | Intestinal variant af cervikalt mucinøst adenokarcinom | 0,9994 |
+
+Bemærk, at anti-VEGF-behandling med et andet lægemiddel (bevacizumab) har dokumenteret effekt ved fremskreden livmoderhalskræft. Det giver indirekte plausibilitet, men tæller ikke som direkte evidens for ramucirumab.
 
 ---
 
-## Dokumentation fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105320613 | Cyramza (Eli Lilly Netherland B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data |
+| 28105320613 | Cyramza (Eli Lilly Netherland B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
@@ -92,43 +110,37 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt antistof mod VEGFR2) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af cytostatika/onkologiske lægemidler |
+| Klassifikation | Målrettet behandling (monoklonalt antistof mod VEGFR2) |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitorering | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af kræftlægemidler og produktresuméet (SmPC) |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 100 mulige interaktioner. De første 20 vist i de indsamlede data omfatter blandt andet følgende:
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen er gennemført og viste 100 registrerede interaktioner. Blandt de første 20 gennemgåede er hovedparten klassificeret som **alvorlige (Major)**, primært lægemidler, der påvirker blødningsrisikoen:
+- **Alvorlige (Major):** acetylsalicylsyre, deferasirox, ibritumomab tiuxetan, tositumomab (inkl. I-131), abciximab, alteplase, antitrombin III, apixaban, betrixaban, bivalirudin, cangrelor, caplacizumab, cilostazol, clopidogrel, dalteparin og defibrotid. Mange af disse er antikoagulantia eller trombocythæmmere, hvilket tyder på øget blødningsrisiko ved samtidig brug.
+- **Moderate:** dexfenfluramin, fenfluramin og sibutramin.
 
-- Antikoagulantia og trombolytika: apixaban, betrixaban, dalteparin, bivalirudin, alteplase, antitrombin III, defibrotid
-- Trombocythæmmere: acetylsalicylsyre, clopidogrel, cilostazol, abciximab, cangrelor, caplacizumab
-- Andre: deferasirox, ibritumomab tiuxetan, tositumomab (herunder I-131)
-
-Følgende er klassificeret som **moderate**: dexfenfluramin, fenfluramin og sibutramin.
-
-Disse interaktioner bør vurderes nøje, især ved samtidig behandling med antikoagulantia eller trombocythæmmere.
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en høj modelscore (ca. 99,95 %) uden kliniske forsøg, uden publikationer og uden tilgængelige data om virkningsmekanisme og sikkerhed fra produktresuméet. Evidensniveauet er L5, og der er ikke grundlag for at gå videre.
+Forudsigelsen bygger udelukkende på modellens netværkslighed, uden kliniske forsøg eller publikationer, der direkte undersøger ramucirumab ved uterint ligament-adenokarcinom. Evidensniveauet er derfor L5.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra det danske produktresumé (hentet fra Lægemiddelstyrelsens hjemmeside)
-- Systematisk litteratur- og forsøgssøgning for VEGFR2-hæmning ved gynækologiske adenokarcinomer
-- Prækliniske eller mekanistiske data, der understøtter effekt i den forudsagte indikation
-- Vurdering af blødningsrelaterede lægemiddelinteraktioner og relevant patientpopulation, hvis der planlægges kliniske studier
+- Systematisk litteratursøgning og søgning efter registrerede forsøg for ramucirumab ved gynækologiske adenokarcinomer
+- Data om virkningsmekanisme og vurdering af biologisk lighed med de oprindelige indikationer
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé (SmPC), som ikke er tilgængelige i de indsamlede data
+- Prækliniske eller eksplorative kliniske data for den forudsagte sygdom, før en egentlig klinisk vurdering kan overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

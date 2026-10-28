@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Apomorphine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 70
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Apomorphine: forudsagt ny indikation Skizofreni (rang 5 blandt de forudsagte indikationer (evidensniveau L4). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen"
+description: "Apomorphine: forudsagt ny indikation polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (evidensniveau L4). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen"
 monitor_inn: "apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 # Apomorphine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Apomorfin: Fra Parkinsons sygdom til skizofreni
+## Apomorfin: Fra Parkinsons sygdom til polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis)
 {: .text-alpha }
 
 ## Resumé
@@ -50,13 +50,13 @@ Evidensgrundlaget er svagt: der er **ingen registrerede kliniske forsøg** og **
 |------|------|
 | Oprindelig indikation | Parkinsons sygdom (baseret på videnbasen; indikationsteksten i den danske autorisation er ikke angivet) |
 | Forudsagt ny indikation | Skizofreni (rang 5 blandt de forudsagte indikationer; rang 1 er polymikrogyri med cerebellær hypoplasi og artrogrypose) |
-| TxGNN-forudsigelsesscore | 99,69 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9975 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Den højest rangerede forudsigelse (polymikrogyri, score 99,75 %) og de øvrige forudsigelser har kun evidensniveau L5 (ren modelforudsigelse, ingen forsøg eller litteratur). Skizofreni er valgt som fokus i denne rapport, fordi den er den forudsagte indikation med mest tilgængelig litteratur.
+Bemærk: Den højest rangerede forudsigelse (polymikrogyri, score 0,9975) og de øvrige forudsigelser har kun evidensniveau L5 (ren modelforudsigelse, ingen forsøg eller litteratur). Skizofreni er valgt som fokus i denne rapport, fordi den er den forudsagte indikation med mest tilgængelig litteratur.
 
 ---
 

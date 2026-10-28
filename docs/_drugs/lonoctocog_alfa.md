@@ -4,17 +4,17 @@ title: Lonoctocog Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 505
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Lonoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Lonoctocog alfa"
-predicted_indications: ["pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "Scott syndrome", "Scott syndrome", "acquired coagulation factor deficiency", "acquired coagulation factor deficiency"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 ---
 
 # Lonoctocog Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Resumé i én sætning
 
 Lonoctocog alfa er et rekombinant enkeltkædet koagulationsfaktor VIII-præparat (markedsført som Afstyla), som oprindeligt anvendes til behandling af hæmofili.
-TxGNN-modellen forudsiger, at det kan have effekt ved **pseudo-von Willebrands sygdom** (score 99,85 %).
+TxGNN-modellen forudsiger, at det kan have effekt ved **pseudo-von Willebrands sygdom** (score 0,9985).
 Forudsigelsen er **udelukkende modelbaseret**: der er hverken registrerede kliniske forsøg eller publikationer, som understøtter den.
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen er **udelukkende modelbaseret**: der er hverken registrerede klini
 |------|------|
 | Oprindelig indikation | Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere) |
 | Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -70,10 +70,9 @@ Den høje TxGNN-score er en netværksbaseret computerforudsigelse og kan ikke i 
 
 | Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
 |------|------|------|
-| Primær frigørelsesdefekt i trombocytter | 99,84 % | Defekten ligger i trombocytternes granulefrigørelse (primær hæmostase). FVIII korrigerer ikke trombocytfunktionen direkte; sammenhængen er indirekte og spekulativ. |
-| Glanzmanns trombasteni | 99,76 % | Skyldes mangel på eller dysfunktion af integrin αIIbβ3. FVIII adresserer ikke denne defekt. Standardbehandling er trombocyttransfusion, rekombinant faktor VIIa og antifibrinolytika. |
-| Scotts syndrom | 99,44 % | Nedsat fosfatidylserin-eksponering på aktiverede trombocytter (TMEM16F/ANO6). FVIII indgår i tenase-komplekset, men den primære defekt er i membranens procoagulante overflade, så tilførsel af FVIII forventes ikke at korrigere den. |
-| Erhvervet koagulationsfaktormangel | 98,85 % | Den mest mekanistisk sammenhængende, da kategorien omfatter erhvervet FVIII-mangel (erhvervet hæmofili A). Her neutraliserer autoantistoffer imidlertid FVIII, og bypass-midler er standard. Andre erhvervede mangler involverer andre faktorer. Kategorien bør indsnævres til specifikke undertyper. |
+| Primær frigørelsesdefekt i trombocytter | 0,9984 | Defekten ligger i trombocytternes granulefrigørelse (primær hæmostase). FVIII korrigerer ikke trombocytfunktionen direkte; sammenhængen er indirekte og spekulativ. |
+| Glanzmanns trombasteni | 0,9976 | Skyldes mangel på eller dysfunktion af integrin αIIbβ3. FVIII adresserer ikke denne defekt. Standardbehandling er trombocyttransfusion, rekombinant faktor VIIa og antifibrinolytika. |
+| Scotts syndrom | 0,9944 | Nedsat fosfatidylserin-eksponering på aktiverede trombocytter (TMEM16F/ANO6). FVIII indgår i tenase-komplekset, men den primære defekt er i membranens procoagulante overflade, så tilførsel af FVIII forventes ikke at korrigere den. |
 
 ---
 

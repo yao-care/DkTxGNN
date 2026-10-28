@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Moderat evidens (L3-L4)
 nav_order: 678
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge videnbasen…"
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: forudsagt ny indikation HIV infectious disease (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Pravastatin: Fra hyperlipidæmi og aterosklerose til homozygot familiær hyperkolesterolæmi
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Pravastatin er en statin, der oprindeligt anvendes til behandling af forhøjede blodfedtstoffer (bl.a. hypertriglyceridæmi og hyperlipoproteinæmi) samt til forebyggelse af slagtilfælde og aterosklerose.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **homozygot familiær hyperkolesterolæmi**.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**.
 Evidensen for netop denne forudsigelse er svag: Det eneste registrerede forsøg (**1 klinisk forsøg**) undersøger et andet lægemiddel (alirocumab), og litteraturen (**12 publikationer**) består hovedsageligt af oversigtsartikler om andre lipidsænkende midler.
 
 ---
@@ -48,12 +48,12 @@ Evidensen for netop denne forudsigelse er svag: Det eneste registrerede forsøg 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser. Ifølge videnbasen: hyperlipidæmi, hypertriglyceridæmi, aterosklerose og cerebrovaskulære sygdomme |
-| Forudsagt ny indikation | Homozygot familiær hyperkolesterolæmi |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | HIV infectious disease |
+| TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

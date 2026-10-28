@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Palivizumab: forudsagt ny indikation Godartet tumor i tungen (benign neoplasm of tongue) (evidensniveau L5). Oprindelig indikation: Infektion med respiratorisk syncytialvirus (RSV)"
 monitor_inn: "Palivizumab"
-predicted_indications: ["benign neoplasm of tongue", "benign neoplasm of tongue", "epiglottis neoplasm", "epiglottis neoplasm", "cervical neuroblastoma", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "benign neoplasm of floor of mouth"]
+predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
+last_modified_at: 2026-10-23
+description: "Palivizumab: forudsagt ny indikation Godartet tumor i tungen (evidensniveau L5). Oprindelig indikation: Respiratorisk syncytialvirus-infektion"
 ---
 
 # Palivizumab
@@ -36,11 +36,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Palivizumab: Fra respiratorisk syncytialvirus-infektion til godartet tumor i tungen
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resume
 
-Palivizumab er et humaniseret monoklonalt antistof, der oprindeligt anvendes mod infektion med respiratorisk syncytialvirus (RSV).
-TxGNN-modellen forudsiger, at det kan have effekt ved **godartet tumor i tungen (benign neoplasm of tongue)**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregnet af modellen.
+Palivizumab er et monoklonalt antistof, som i den viden, der er indsamlet til denne rapport, er knyttet til respiratorisk syncytialvirus (RSV)-infektion. Denne relation er ikke i sig selv en godkendt indikation. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan være effektivt mod **godartet tumor i tungen** (benign neoplasm of tongue) med en score på 0.9994. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning.
 
 ---
 
@@ -48,66 +46,64 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Infektion med respiratorisk syncytialvirus (RSV) |
-| Forudsagt ny indikation | Godartet tumor i tungen (benign neoplasm of tongue) |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| Oprindelig indikation | Respiratorisk syncytialvirus-infektion (relation registreret i vidensgrafen; der findes ingen indikationstekst i den danske licens) |
+| Foreslået ny indikation | Godartet svulst i tungen |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Palivizumab er kendt som et antistof rettet mod F-proteinet på RSV, og dets effekt ligger i at neutralisere virussen og forebygge alvorlig RSV-sygdom i de nedre luftveje.
+Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen. Palivizumab er et humaniseret monoklonalt antistof, der er rettet mod F-proteinet (fusionsproteinet) på RSV. Det neutraliserer virus og hindrer dets indtrængen i cellerne.
 
-Der kan ikke identificeres en plausibel mekanistisk sammenhæng mellem RSV-F-protein-neutralisering og godartede tumorer i tungen. Sådanne tumorer er ikke drevet af RSV, og antistoffet har ikke et kendt mål i det relevante væv. Den høje score (0,9994) er en ren beregningsmæssig forudsigelse og kan afspejle artefakter i vidensgrafen, fx fælles anatomiske tilknytninger i luftvejs- og mundregionen, snarere end reel biologi.
+Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem denne virkning og godartede svulster i tungen. Disse svulster er ikke kendt for at involvere RSV eller dets F-protein. Den høje score er udelukkende en modelforudsigelse og kan afspejle strukturelle artefakter i grafmodellen snarere end biologi. Ligheden mellem den oprindelige og den nye indikation er ikke vurderet.
 
-Modellen foreslog desuden en række lignende forudsigelser med næsten identiske scorer: epiglottistumor (99,94 %), cervikal neuroblastom (99,94 %), godartet tumor i hypofarynx (99,94 %) og godartet tumor i mundbunden (99,94 %). Heller ikke for disse findes kliniske forsøg, litteratur eller plausibel mekanistisk begrundelse. Det understøtter, at mønstret er et modelartefakt.
-
----
-
-## Kliniske forsøg
-
-Der er for tiden ingen relaterede kliniske forsøg registreret.
+Modellen har også givet høje scorer til andre uspecifikke eller biologisk fjerntliggende tilstande, bl.a. neoplasi i epiglottis, cervikalt neuroblastom, godartet svulst i hypofarynx, godartet svulst i mundbunden, tumor i testis og paratestis, cystisk neoplasi, schwannom i foramen jugulare, mesenkymom og thyroglossal duktuscyste. Ingen af dem har understøttende forsøg eller litteratur, og ingen har en plausibel mekanisme.
 
 ---
 
-## Litteratur
+## Klinisk forsøgsevidens
 
-Der er for tiden ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Markedsinformation i Danmark
+## Litteraturevidens
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105319713 | Synagis (AstraZeneca AB) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+| 28105319713 | Synagis (AstraZeneca AB) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktioner i de indsamlede data, og der foreligger ingen registrerede kontraindikationer fra vidensgrafen.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-Forudsigelsen er kun baseret på modelscore (evidensniveau L5), uden kliniske forsøg, litteratur eller plausibel biologisk mekanisme. Palivizumab er rettet mod RSV, og godartede tumorer i mundhule og svælg er ikke virusdrevne.
+Forudsigelsen hviler alene på en modelscore uden kliniske forsøg, uden litteratur og uden plausibel mekanistisk sammenhæng. Evidensniveauet er L5. Hverken de øvrige forudsagte indikationer eller denne giver grundlag for at gå videre.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Indhentning og gennemgang af produktresumé (SmPC) med advarsler og kontraindikationer
-- Systematisk litteratur- og forsøgssøgning for at afklare, om der overhovedet findes et biologisk grundlag
-- Eventuelt præklinisk validering af målekspression i de relevante tumorer, før yderligere investering overvejes
+- Detaljerede data om virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk eller mekanistisk evidens for en relevant biologisk sammenhæng mellem RSV F-protein-neutralisering og godartede tungesvulster
+- Vurdering af lighed mellem den oprindelige og den foreslåede indikation samt af administrationsvejens egnethed
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

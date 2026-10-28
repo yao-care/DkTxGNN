@@ -4,17 +4,17 @@ title: Enfortumab Vedotin
 parent: Kun modelforudsigelse (L5)
 nav_order: 305
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Enfortumab Vedotin: forudsagt ny indikation Lepra (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (lægemidlet er kendt som markedsfør…"
+indication_count: 9
 monitor_inn: "Enfortumab vedotin"
-predicted_indications: ["leprosy", "leprosy", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "cytomegalovirus infection", "cytomegalovirus infection", "candidiasis", "candidiasis", "cerebral infarction", "cerebral infarction"]
+predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
+last_modified_at: 2026-10-23
+description: "Enfortumab Vedotin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske licenstekst"
 ---
 
 # Enfortumab Vedotin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Enfortumab vedotin: Fra urotelialt karcinom til lepra
+## Enfortumab vedotin: Fra urotelkræft til leprae (spedalskhed)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Et-sætnings-resumé
 
-Enfortumab vedotin er et Nectin-4-rettet antistof-lægemiddelkonjugat (med MMAE som cytotoksisk last), der er markedsført til behandling af urotelialt karcinom. TxGNN-modellen forudsiger, at det kan have effekt på **lepra**, men der foreligger **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+Enfortumab vedotin er et antistof-lægemiddelkonjugat rettet mod Nectin-4, som i Danmark er registreret under handelsnavnet Padcev. De data, der er indsamlet til denne rapport, indeholder ikke en godkendt indikationstekst fra den danske licens.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **leprae (spedalskhed)**, men der er **0 kliniske forsøg** og **0 publikationer** om denne sygdom, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -46,45 +47,46 @@ Enfortumab vedotin er et Nectin-4-rettet antistof-lægemiddelkonjugat (med MMAE 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (lægemidlet er kendt som markedsført til urotelialt karcinom) |
-| Forudsagt ny indikation | Lepra |
-| TxGNN-prædiktionsscore | 99,53 % |
+| Oprindelig indikation | Ikke angivet i den danske licenstekst |
+| Forudsagt ny indikation | Leprae (spedalskhed) |
+| TxGNN-forudsigelsesscore | 0,9953 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Enfortumab vedotin er kendt som et antistof-lægemiddelkonjugat rettet mod Nectin-4, som afgiver det mikrotubuli-hæmmende stof MMAE i tumorceller. Dets effekt er dokumenteret i urotelialt karcinom.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de indsamlede data. Enfortumab vedotin er dog kendt som et Nectin-4-rettet antistof-lægemiddelkonjugat, der afgiver MMAE, en cytotoksisk hæmmer af mikrotubuli. Dette er baseret på almen viden og ikke på den indsamlede datakilde.
 
-Lepra er en bakteriel infektionssygdom, og der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem Nectin-4-rettet cytotoksisk behandling og behandling af denne infektion. Derudover er immunsuppressive virkninger og perifer neuropati kendte bekymringer ved cytotoksisk ADC-behandling, hvilket er uhensigtsmæssigt ved en sygdom, der selv rammer de perifere nerver. Den høje score (0,995) afspejler en vidensgrafbaseret forudsigelse og bør ikke tolkes som klinisk støtte.
+Spedalskhed skyldes en infektion med *Mycobacterium leprae*. Der er ingen kendt begrundelse for at anvende et cytotoksisk konjugat mod denne infektion, og der er ikke etableret nogen mekanistisk forbindelse. Den høje score er en ren modelforudsigelse og bør ikke tolkes som klinisk støtte. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Andre forudsigelser med tilsvarende høje scorer er multipel endokrin neoplasi (99,43 %), cytomegalovirusinfektion (99,36 %), candidiasis (99,30 %) og cerebralt infarkt (99,23 %). Heller ikke for disse foreligger der understøttende kliniske data. De få tilknyttede publikationer er bivirkningsrapporter og ikke evidens for terapeutisk gavn.
+Der er ikke fundet nogen studier, som undersøger lægemidlet ved spedalskhed, og evidensniveauet er derfor L5.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Dokumentation fra kliniske forsøg
 
-Der er på nuværende tidspunkt ikke registreret nogen relaterede kliniske forsøg.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger på nuværende tidspunkt ingen relateret litteratur for lepra.
+Der er i øjeblikket ingen relateret litteratur tilgængelig for spedalskhed.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106584021 | Padcev | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+| 28106584021 | Padcev | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
-Indehaver: Astellas Pharma Europe B.V.
+Indehaver af markedsføringstilladelsen er Astellas Pharma Europe B.V. Der er registreret 1 national tilladelse, og den har status som gyldig.
 
 ---
 
@@ -92,20 +94,23 @@ Indehaver: Astellas Pharma Europe B.V.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (antistof-lægemiddelkonjugat med MMAE-last) |
-| Myelosuppressionsrisiko | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
+| Cytotoksicitetsklassifikation | Antistof-lægemiddelkonjugat med cytotoksisk nyttelast (MMAE, mikrotubulihæmmer) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Der bør følges gældende regler for håndtering af cytotoksiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner i de indsamlede data. Størstedelen er af moderat sværhedsgrad og vedrører primært antidiabetika (fx acarbose, metformin, pioglitazon, glimepirid, glipizid, glyburid, dapagliflozin, empagliflozin, canagliflozin, linagliptin, saxagliptin, exenatid, dulaglutid). Moderate interaktioner ses også med aprepitant. Den eneste interaktion klassificeret som **alvorlig (Major)** blandt de viste er **clarithromycin**.
-- **Sikkerhedssignaler fra litteraturen**: En case report (PMID 42647281) beskriver svær diffus ulcerativ øsofagitis efter behandling med enfortumab vedotin og pembrolizumab. En farmakovigilansanalyse af ADC'er ved blærekræft (PMID 41341429, FAERS) beskriver reelle risikosignaler. Begge er bivirkningsdata og ikke evidens for effekt.
+Der er ikke tilgængelige data om advarsler og kontraindikationer fra produktresuméet. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i interaktionsdatabasen. Blandt de fremhævede er:
+- **Større (Major):** clarithromycin
+- **Moderate:** antidiabetika, bl.a. metformin, pioglitazon, acarbose, glimepirid, glipizid, glyburid, samt DPP-4-hæmmere, SGLT2-hæmmere og GLP-1-receptoragonister (fx alogliptin, saxagliptin, linagliptin, dapagliflozin, empagliflozin, canagliflozin, dulaglutid, exenatid), og desuden aprepitant
+
+Der er ikke registreret kontraindikationer fra vidensgrafen.
 
 ---
 
@@ -114,13 +119,13 @@ Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden støttende litteratur og uden plausibel mekanistisk sammenhæng. Lægemidlets toksicitetsprofil (bl.a. perifer neuropati og immunrelaterede bivirkninger) taler desuden imod anvendelse ved lepra.
+Forudsigelsen for spedalskhed hviler udelukkende på en modelscore uden kliniske forsøg, litteratur eller en plausibel virkningsmekanisme. Evidensniveauet er L5.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanismen (MOA), fx via DrugBank
-- Advarsler og kontraindikationer fra det danske produktresumé (hentes fra Lægemiddelstyrelsen)
-- Påvisning af Nectin-4-ekspression eller anden biologisk målsætning relevant for lepra
-- Prækliniske data, der understøtter en effekt, før der overvejes kliniske forsøg
+**For at gå videre kræves følgende:**
+- Data om virkningsmekanisme og en biologisk begrundelse for brug ved *M. leprae*-infektion
+- Præklinisk evidens, der direkte undersøger lægemidlet ved spedalskhed
+- Advarsler og kontraindikationer fra det danske produktresumé
+- Vurdering af, om et cytotoksisk konjugat overhovedet er hensigtsmæssigt ved en infektionssygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

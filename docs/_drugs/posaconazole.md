@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 673
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Posaconazole: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Svampeinfektioner, bl.a. aspergillose, candidiasis, histoplasmose…"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
+description: "Posaconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Posaconazol: Fra svampeinfektioner til pneumocystose
+## Posaconazole: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Forudsigelsen bygger primært på lægemiddelklassen og vurderes som mekanistisk
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Svampeinfektioner, bl.a. aspergillose, candidiasis, histoplasmose, sporotrikose og fusariose (fra TxGNN-vidensgrafen; indikationsteksten i de danske tilladelser er ikke angivet) |
-| Forudsagt ny indikation | Pneumocystose |
-| TxGNN-forudsigelsesscore | 99,77 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
+| TxGNN-forudsigelsesscore | 0.9977 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

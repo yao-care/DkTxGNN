@@ -8,6 +8,7 @@ nav_order: 123
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Bivalirudin
@@ -51,8 +52,8 @@ Denne evaluering er **ufuldstændig** på grund af to kritiske datahuller — ma
 | Forudsagt ny indikation | Ingen identificeret |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Bevisniveau | Ikke evalueret |
-| Markeds tilstand i Danmark | Ikke markedsført (0 godkendelser på register) |
-| Antal markedsføringstilladelser | 0 |
+| Markeds tilstand i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | **Afvente** |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 479
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lansoprazole: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L4). Oprindelig indikation: Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, øsofagitis…"
 monitor_inn: "lansoprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Lansoprazol: Fra mavesår og refluks til duodenogastrisk refluks
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Lansoprazol er en protonpumpehæmmer, som oprindeligt anvendes til behandling af mavesår, tolvfingertarmssår, gastroøsofageal reflukssygdom og Zollinger-Ellison syndrom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duodenogastrisk refluks**, men der er **ingen registrerede kliniske forsøg** og kun **1 publikation** (en generel oversigtsartikel om protonpumpehæmmere), så evidensen er meget begrænset.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duodenal obstruktion**, men der er **ingen registrerede kliniske forsøg** og kun **1 publikation** (en generel oversigtsartikel om protonpumpehæmmere), så evidensen er meget begrænset.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duodenogastrisk 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, øsofagitis, tolvfingertarmssår, Zollinger-Ellison syndrom (ifølge vidensgrafen; produkttekst for den danske godkendelse er ikke tilgængelig) |
-| Forudsagt ny indikation | Duodenogastrisk refluks |
-| TxGNN-forudsigelsesscore | 99,69 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Duodenal obstruction |
+| TxGNN-forudsigelsesscore | 0.9968 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 Duodenogastrisk refluks er tilbageløb af indhold fra tolvfingertarmen (herunder galde og bugspytkirtelsekret) til maven. Syrehæmning kan plausibelt lindre symptomer og slimhindeskade, når refluksen forekommer sammen med syrerelaterede tilstande, f.eks. refluksgastritis eller øsofagitis.
 
-Koblingen er imidlertid indirekte og kun symptomatisk. Protonpumpehæmmere adresserer ikke selve årsagen (galdetilbageløb eller nedsat motilitet i pylorus eller duodenum). Den meget høje score på 0,997 skyldes sandsynligvis nærhed i netværket til godkendte syrerelaterede mave-tarm-indikationer og ikke direkte klinisk evidens.
+Koblingen er imidlertid indirekte og kun symptomatisk. Protonpumpehæmmere adresserer ikke selve årsagen (galdetilbageløb eller nedsat motilitet i pylorus eller duodenum). Den meget høje score på 0,9968 skyldes sandsynligvis nærhed i netværket til godkendte syrerelaterede mave-tarm-indikationer og ikke direkte klinisk evidens.
 
 ---
 
@@ -103,7 +103,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modelnærhed til kendte syrerelaterede indikationer. Der findes ingen kliniske forsøg og ingen litteratur, der specifikt understøtter brug ved duodenogastrisk refluks, og lægemidlet behandler ikke den underliggende årsag.
+Forudsigelsen kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der findes ingen kliniske forsøg og ingen litteratur, der specifikt understøtter brug ved duodenal obstruktion, og lægemidlet behandler ikke den underliggende årsag.
 
 **For at komme videre er følgende nødvendigt:**
 - Målrettet litteratursøgning og systematisk gennemgang af PPI-behandling ved galderefluks/duodenogastrisk refluks

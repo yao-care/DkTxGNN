@@ -8,6 +8,7 @@ nav_order: 150
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Canagliflozin
@@ -51,7 +52,8 @@ En fuldstændig vurdering kan ikke foretages på dette stadium; en **standse**-b
 | Prognose for ny indikation | Ingen – TxGNN-output ikke til stede i denne Bevismappe |
 | TxGNN-prognose score | Ikke tilgængelig |
 | Bevisniveau | L5 (modelprognosedata mangler; ingen understøttende undersøgelser linket i mappe) |
-| Markedsstatus i Danmark | Ikke markedsført (per Bevismappe) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser til markedsføring | 0 (per Bevismappe) |
 | Anbefalet beslutning | **Standse** |
 

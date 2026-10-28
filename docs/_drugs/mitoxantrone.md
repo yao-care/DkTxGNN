@@ -4,9 +4,9 @@ title: Mitoxantrone
 parent: Kun modelforudsigelse (L5)
 nav_order: 563
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Mitoxantrone: forudsagt ny indikation Øvre luftvejs- og fordøjelseskanalstumor (modellens førstevalg) (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
+description: "Mitoxantrone: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 # Mitoxantrone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Mitoxantron: Fra akut myeloid leukæmi til hoved- og halskræft
+## Mitoxantron: Fra akut myeloid leukæmi til neoplasmer i de øvre luft- og fordøjelsesveje
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **øvre luftvejs- og ford�
 |------|------|
 | Oprindelig indikation | Akut myeloid leukæmi (indikationstekst i dansk markedsføringstilladelse er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Øvre luftvejs- og fordøjelseskanalstumor (modellens førstevalg); hoved- og halskræft er den bedst understøttede kandidat |
-| TxGNN-forudsigelsesscore | 99,78 % (øvre luftvejs- og fordøjelseskanalstumor); 99,31 % (hoved- og halskræft) |
-| Evidensniveau | L3 for øvre luftvejs- og fordøjelseskanalstumor; L2 for hoved- og halskræft |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9978 (neoplasmer i de øvre luft- og fordøjelsesveje); 0,9931 (hoved- og halskræft) |
+| Evidensniveau | L5 for øvre luftvejs- og fordøjelseskanalstumor; L2 for hoved- og halskræft |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold for øvre luftvejs- og fordøjelseskanalstumor (rangeret som forskningsspørgsmål); Proceed with Guardrails for hoved- og halskræft |
 
 ---

@@ -4,17 +4,17 @@ title: Trastuzumab Deruxtecan
 parent: Kun modelforudsigelse (L5)
 nav_order: 851
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trastuzumab Deruxtecan: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "Trastuzumab deruxtecan"
-predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "bronchitis", "bronchitis", "diabetic cataract", "diabetic cataract"]
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **lægemiddelinduceret ost
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,31 % |
+| TxGNN-forudsigelsesscore | 0,9931 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,13 +61,10 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **lægemiddelinduceret ost
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Trastuzumab deruxtecan er kendt som et HER2-rettet antistof-lægemiddelkonjugat, hvor nyttelasten hæmmer topoisomerase I og dermed er cytotoksisk. Denne mekanisme er udviklet til at ramme HER2-udtrykkende tumorceller.
 
-Der er ingen kendt eller understøttet sammenhæng mellem denne mekanisme og knoglemetabolisme eller lægemiddelinduceret knogletab. Den høje score (0,993) er alene en beregnet forudsigelse og kan afspejle artefakter i vidensgrafen. Ligheden mellem den oprindelige og den nye indikation kan ikke vurderes ud fra de foreliggende data.
+Der er ingen kendt eller understøttet sammenhæng mellem denne mekanisme og knoglemetabolisme eller lægemiddelinduceret knogletab. Den høje score (0,9931) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Ligheden mellem den oprindelige og den nye indikation kan ikke vurderes ud fra de foreliggende data.
 
 Øvrige forudsigelser med tilsvarende høje scorer (alle evidensniveau L5, uden studier) er ligeledes uden understøttet mekanistisk sammenhæng:
 
-- Svær non-proliferativ diabetisk retinopati (98,92 %) og diabetisk retinopati (98,46 %): sygdommen drives af mikrovaskulær skade, VEGF-signalering og inflammation, og en cytotoksisk HER2-rettet behandling har ingen kendt rolle her.
-- Bronkitis (98,00 %): ikke et kendt mål for HER2-rettet behandling. Interstitiel lungesygdom/pneumonitis er desuden en kendt alvorlig risiko ved lægemidlet.
-- Diabetisk grå stær (96,60 %): involverer polyolvej og oxidativt stress i linsen, uden relation til HER2 eller topoisomerase I.
 
 ---
 
@@ -137,7 +134,7 @@ Forudsigelsen bygger udelukkende på en computerberegnet score uden kliniske for
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Produktresumé (SmPC) med godkendt indikation, advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske data, der kan underbygge en sammenhæng til den forudsagte indikation
-- En vurdering af, om forudsigelsen er en artefakt i vidensgrafen, før yderligere ressourcer anvendes
+- En vurdering af, om forudsigelsen blot afspejler ligheder, som TxGNN-modellen (deep learning) har lært mellem beslægtede sygdomme, før yderligere ressourcer anvendes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -8,6 +8,7 @@ nav_order: 299
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Elotuzumab
@@ -51,8 +52,8 @@ En genbrug-vurdering **kan ikke fuldføres** med de oplysninger, der for øjebli
 | Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser i aktuel bevismappe |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | Kan ikke bestemmes — ingen prognoseoutput genereret |
-| Markant status i Danmark | Ikke registreret i spurgt nationalt register |
-| Antal markedsføringstilladelser | 0 (spurgt nationalt register); EMA centraliseret godkendelse eksisterer separat |
+| Markant status i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvente** |
 
 ---

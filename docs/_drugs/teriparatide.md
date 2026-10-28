@@ -4,17 +4,17 @@ title: Teriparatide
 parent: Kun modelforudsigelse (L5)
 nav_order: 813
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Teriparatide: forudsagt ny indikation Duodenalsår (evidensniveau L5). Oprindelig indikation: Postmenopausal osteoporose / osteoporose"
 monitor_inn: "teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
+description: "Teriparatide: forudsagt ny indikation Duodenalsår (duodenal ulcer (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Teriparatid: Fra postmenopausal osteoporose til duodenalsår
+## Teriparatide: Duodenalsår (duodenal ulcer (disease))
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Teriparatid er et parathyroideahormon-fragment (PTH 1-34), der oprindeligt bruge
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Postmenopausal osteoporose / osteoporose (fra TxGNN-vidensgrafen; den danske godkendelse har ingen angiven indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Duodenalsår |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Duodenalsår (duodenal ulcer (disease)) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Teriparatid er et parathyroideahormon-fragment (PTH 1-34), der oprindeligt bruge
 
 Der foreligger ikke detaljerede data om virkningsmekanisme for teriparatid i de indsamlede data. Teriparatid er et PTH-fragment, og dets effekt ved osteoporose er veletableret. Mekanistisk virker det ved at stimulere knogledannelse via osteoblaster (PTH1R-signalvejen).
 
-Der er ingen påvist sammenhæng mellem denne anabole knoglesignalering og heling af duodenalsår. De indsamlede data understøtter ikke en plausibel mekanistisk forbindelse. Den høje score (99,86 %, rang 2357) skal derfor ses som en ren beregningsmæssig forudsigelse uden klinisk eller biologisk underbygning.
+Der er ingen påvist sammenhæng mellem denne anabole knoglesignalering og heling af duodenalsår. De indsamlede data understøtter ikke en plausibel mekanistisk forbindelse. Den høje score (0,9986, rang 2357) skal derfor ses som en ren beregningsmæssig forudsigelse uden klinisk eller biologisk underbygning.
 
 ---
 
@@ -107,7 +107,6 @@ Forudsigelsen om duodenalsår hviler kun på modellens score. Der findes hverken
 - Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Prækliniske eller kliniske data, der direkte undersøger teriparatid ved duodenalsår
 
-**Bemærkning om andre forudsigelser:** Blandt de øvrige forudsigelser for teriparatid har **graviditets- og laktationsassocieret osteoporose** (rang 8, score 99,55 %) markant mere støtte. Der er 20 publikationer, hovedsageligt observationsstudier, reviews og et systematisk review. Evidensen svarer til L3 og er mekanistisk velbegrundet. Der er dog ingen registrerede kliniske forsøg, og studiedesign er udledt af titler og skal verificeres i fuldtekst. Denne indikation kan være et mere relevant udgangspunkt for videre vurdering end duodenalsår.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

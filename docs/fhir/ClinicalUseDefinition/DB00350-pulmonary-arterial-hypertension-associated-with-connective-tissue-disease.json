@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00350",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00350"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pulmonary-arterial-hypertension-associated-with-connective-tissue-disease",
-          "display": "pulmonary arterial hypertension associated with connective tissue disease"
-        }
-      ],
-      "text": "pulmonary arterial hypertension associated with connective tissue disease"
+      "concept": {
+        "text": "pulmonary arterial hypertension associated with connective tissue disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9985
     }
   ]
 }

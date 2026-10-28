@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 131
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,47 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Brinzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Brinzolamide: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Brinzolamid er en kulsyreanhydrasehæmmer i øjendråber, som oprindeligt anvendes til behandling af **åbenvinklet glaukom** og **okulær hypertension**. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **primær arvelig glaukom**, men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne specifikke retning.
-
----
+## Resumé
+TxGNN-modellens kandidater for Brinzolamide (score ≥ 0,99) er alle kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for dette lægemiddel. Siden viser, hvilke kendte anvendelser modellen har peget på, og hvordan lægemidlet er stillet på markedet i Danmark.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Åbenvinklet glaukom og okulær hypertension |
-| Forudsagt ny indikation | Primær arvelig glaukom |
-| TxGNN-forudsigelsesscore | 99,48 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modelkandidater | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 
----
+## Kendte anvendelser blandt modellens kandidater
 
-## Hvorfor er forudsigelsen rimelig?
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| primær arvelig glaukom (primary hereditary glaucoma) | Tilladelse i et andet land (godkendt indikation: glaucoma) |
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Ud fra kendt farmakologi er brinzolamid en topisk hæmmer af kulsyreanhydrase II. Den sænker det intraokulære tryk ved at nedsætte produktionen af kammervand.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Primær arvelig glaukom (fx primær medfødt glaukom og juvenil åbenvinklet glaukom, ofte forbundet med varianter i CYP1B1, MYOC eller LTBP2) har samme slutfase som de godkendte indikationer: forhøjet intraokulært tryk og optikusneuropati. En trykssænkende effekt er derfor mekanistisk plausibel.
-
-Den meget høje score (0,995) er en ren beregningsmæssig forudsigelse og afspejler sandsynligvis den tætte lighed med de godkendte indikationer. Den udgør ikke selvstændig klinisk evidens for den nye indikation. Pædiatriske og medfødte former kræver særskilt sikkerhedsvurdering, da systemisk optagelse af kulsyreanhydrasehæmmere og sulfonamidrelaterede virkninger er mere relevante hos spædbørn.
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Denmark Market Information (Markedsinformation for Danmark)
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103026698 | Azopt | Øjendråber, suspension | Ikke angivet i de foreliggende data |
-| 28104248607 | Azarga | Øjendråber, suspension | Ikke angivet i de foreliggende data |
-| 28106818522 | Brinzolamid/Brimonidin "Medical Valley" | Øjendråber, suspension | Ikke angivet i de foreliggende data |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28103026698 | Azopt | øjendråber, suspension | Gyldig |
+| 28104248607 | Azarga | øjendråber, suspension | Gyldig |
+| 28106818522 | Brinzolamid/Brimonidin "Medical Valley" | øjendråber, suspension | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -82,20 +82,6 @@ Se i øvrigt det godkendte produktresumé (SmPC) for oplysninger om advarsler og
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske forsøg eller publikationer for primær arvelig glaukom. Mekanismen er plausibel, men sikkerhedsdata mangler, og den pædiatriske population kræver særskilt vurdering.
-
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Dokumenteret data om virkningsmekanisme (f.eks. fra DrugBank)
-- Systematisk litteratur- og forsøgssøgning for brinzolamid ved primær medfødt og juvenil glaukom
-- Vurdering af pædiatrisk sikkerhed, herunder systemisk optagelse og sulfonamidrelaterede virkninger
-- Afklaring af godkendte indikationstekster for de tre markedsføringstilladelser
-- Klassificering af alvorlighedsgraden for de identificerede lægemiddelinteraktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

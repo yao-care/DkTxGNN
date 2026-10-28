@@ -4,17 +4,17 @@ title: Tramadol
 parent: Kun modelforudsigelse (L5)
 nav_order: 847
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tramadol: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Slidgigt (osteoartritis) og ledlidelser (ifølge vidensgrafen"
 monitor_inn: "tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale…"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tramadol: Fra slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Tramadol: Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## Opsummering i en sætning
 
-Tramadol er et smertestillende middel (opioid), som i den anvendte vidensgraf er knyttet til slidgigt og ledlidelser.
+Tramadol er et smertestillende middel (opioid), som bruges ved slidgigt og ledlidelser.
 TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomelisk dysplasi, Hunter-Thompson-type** (en sjælden genetisk skeletlidelse), men der er **0 kliniske forsøg** og **0 publikationer** om netop denne kombination. Forudsigelsen er udelukkende beregningsbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Slidgigt (osteoartritis) og ledlidelser (ifølge vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Tramadol er kendt som en mu-opioidagonist, der også hæmmer genoptagelsen af serotonin og noradrenalin, og det giver symptomlindring af smerte.
 
-Akromesomelisk dysplasi, Hunter-Thompson-type er en sjælden arvelig skeletlidelse forårsaget af en defekt i CDMP1/GDF5. Tramadol påvirker ikke den underliggende genetiske defekt og kan højst bruges til smertelindring, ikke til sygdomsmodificerende behandling. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til led- og skeletsygdomme snarere end en farmakologisk begrundelse.
+Akromesomelisk dysplasi, Hunter-Thompson-type er en sjælden arvelig skeletlidelse forårsaget af en defekt i CDMP1/GDF5. Tramadol påvirker ikke den underliggende genetiske defekt og kan højst bruges til smertelindring, ikke til sygdomsmodificerende behandling. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller en farmakologisk begrundelse.
 
 Øvrige forudsigelser ligger i samme retning. Den mest plausible er pseudoachondroplasi, hvor tramadol indirekte kan lindre sekundære ledsmerter, men det er symptomatisk og uden klinisk evidens. For juvenil idiopatisk artritis og spondylartropati er forbindelsen svag og indirekte, da tramadol hverken er antiinflammatorisk eller sygdomsmodificerende.
 

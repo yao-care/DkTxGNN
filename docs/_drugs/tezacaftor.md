@@ -48,10 +48,10 @@ Tezacaftor er en CFTR-korrektor, som oprindeligt anvendes til behandling af **cy
 |------|------|
 | Oprindelig indikation | Cystisk fibrose (de danske godkendelser indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | HIV-infektion |
-| TxGNN-forudsigelsesscore | 99,24 % |
+| TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Tezacaftor er en CFTR-korrektor, som oprindeligt anvendes til behandling af **cy
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tezacaftor er kendt som en CFTR-korrektor, der forbedrer foldning og transport af det muterede F508del-CFTR-protein til cellemembranen. Stoffet bruges i kombination med andre CFTR-modulatorer til patienter med cystisk fibrose med specifikke genmutationer.
 
-Der er ikke påvist nogen mekanistisk forbindelse mellem CFTR-korrektion og HIV-infektion. Der er ingen dokumenteret antiviral aktivitet mod HIV, og der er hverken kliniske forsøg eller litteratur, der kan danne grundlag for en hypotese. Den høje TxGNN-score (rang 8340) afspejler et mønster i vidensgrafen og bør ikke tolkes som klinisk evidens.
+Der er ikke påvist nogen mekanistisk forbindelse mellem CFTR-korrektion og HIV-infektion. Der er ingen dokumenteret antiviral aktivitet mod HIV, og der er hverken kliniske forsøg eller litteratur, der kan danne grundlag for en hypotese. Den høje score (rang 8340) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og bør ikke tolkes som klinisk evidens.
 
-Modellen har også forudsagt to andre indikationer med samme manglende evidensgrundlag: **spedalskhed** (score 99,14 %) og **multipel endokrin neoplasi** (score 99,06 %). Heller ikke for disse er der understøttende forsøg, litteratur eller en dokumenteret mekanistisk forbindelse.
+Modellen har også forudsagt to andre indikationer med samme manglende evidensgrundlag: **spedalskhed** (score 0,9914) og **multipel endokrin neoplasi** (score 0,9906). Heller ikke for disse er der understøttende forsøg, litteratur eller en dokumenteret mekanistisk forbindelse.
 
 ---
 

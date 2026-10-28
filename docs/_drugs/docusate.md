@@ -50,10 +50,10 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 |------|------|
 | Oprindelig indikation | Forstoppelse (de danske markedsføringstilladelser angiver ikke indikationstekst i de data, der er indsamlet til denne rapport) |
 | Forudsagt ny indikation | Plummer-Vinson syndrom |
-| TxGNN-forudsigelsesscore | 99,18 % |
+| TxGNN-forudsigelsesscore | 0.9918 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -66,7 +66,7 @@ Forudsigelsen afspejler sandsynligvis grafnærhed i videnbasen: Plummer-Vinson s
 
 Den eneste tænkelige rolle er understøttende behandling af forstoppelse, fx hos patienter i oral jernbehandling. Det er ikke en repurposing-indikation.
 
-Den næstrangerende forudsigelse, **vitamin B12- og folatuafhængig konstitutionel megaloblastær anæmi** (score 99,15 %), har heller ingen understøttet mekanistisk sammenhæng. Docusats effekt på afføringen har ingen kendt indflydelse på erytropoese, DNA-syntese eller den underliggende genetiske/metaboliske defekt. Forudsigelsen skyldes sandsynligvis nærhed til indikationsmærkater snarere end et reelt terapeutisk signal.
+Den næstrangerende forudsigelse, **vitamin B12- og folatuafhængig konstitutionel megaloblastær anæmi** (score 0,9915), har heller ingen understøttet mekanistisk sammenhæng. Docusats effekt på afføringen har ingen kendt indflydelse på erytropoese, DNA-syntese eller den underliggende genetiske/metaboliske defekt. Forudsigelsen skyldes sandsynligvis nærhed til indikationsmærkater snarere end et reelt terapeutisk signal.
 
 ---
 

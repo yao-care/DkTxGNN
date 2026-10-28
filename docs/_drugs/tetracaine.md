@@ -48,10 +48,10 @@ Tetracain er et lokalbedøvelsesmiddel, der i videnbasen er knyttet til dermatit
 |------|------|
 | Oprindelig indikation | Dermatitis (fra TxGNN-videnbasen; godkendt indikationstekst for det danske produkt er ikke angivet) |
 | Forudsagt ny indikation | Akrodermatitis chronica atrophicans |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Tetracain er et lokalbedøvelsesmiddel, der i videnbasen er knyttet til dermatit
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Tetracain er dog et lokalbedøvelsesmiddel af estertypen, og lokalbedøvelsesmidler virker generelt ved blokade af spændingsstyrede natriumkanaler.
 
-Akrodermatitis chronica atrophicans er en sen hudmanifestation af Lyme-borreliose og behandles med antibiotika. Tetracain har ingen kendt antimikrobiel virkning over for *Borrelia*. Forbindelsen er derfor sandsynligvis en artefakt i grafen, fx en navneforveksling med tetracyclin, eller et resultat af den fælles dermatologiske kontekst i den oprindelige indikation.
+Akrodermatitis chronica atrophicans er en sen hudmanifestation af Lyme-borreliose og behandles med antibiotika. Tetracain har ingen kendt antimikrobiel virkning over for *Borrelia*. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forbindelsen skyldes derfor sandsynligvis fx en navneforveksling med tetracyclin eller den fælles dermatologiske kontekst i den oprindelige indikation.
 
 **Samlet vurdering:** Den høje score afspejler en netværksbaseret forudsigelse og ikke et biologisk plausibelt behandlingsgrundlag.
 
@@ -84,14 +84,14 @@ Alle øvrige forudsigelser har ligeledes evidensniveau L4–L5 og anbefalingen H
 
 | Forudsagt indikation | Score | Evidensniveau | Bemærkning |
 |------|------|------|------|
-| Neonatal dermatomyositis | 99,92 % | L5 | Autoimmun sygdom; ingen kendt immunmodulerende virkning |
-| Bronkitis | 99,92 % | L5 | Lokalanæstesi bruges til procedurer, ikke til behandling |
-| Sekundær interstitiel lungesygdom hos børn (bindevævssygdom) | 99,92 % | L5 | Ingen plausibel mekanistisk sammenhæng |
-| Akne keloid (acne keloidalis nuchae) | 99,91 % | L4 | Kun indirekte evidens (se nedenfor) |
-| Familiær hydroa vacciniforme | 99,91 % | L5 | Ingen mekanisme mod lysfølsomhed |
-| Amyopatisk dermatomyositis | 99,90 % | L5 | Autoimmun; ingen immunmodulerende virkning |
-| Cauda equina-syndrom | 99,55 % | L4 | **Sikkerhedssignal**, ikke en behandlingsmulighed |
-| Irritabel tyktarm | 99,41 % | L5 | Kun teoretisk link |
+| Neonatal dermatomyositis | 0,9992 | L5 | Autoimmun sygdom; ingen kendt immunmodulerende virkning |
+| Bronkitis | 0,9992 | L5 | Lokalanæstesi bruges til procedurer, ikke til behandling |
+| Sekundær interstitiel lungesygdom hos børn (bindevævssygdom) | 0,9992 | L5 | Ingen plausibel mekanistisk sammenhæng |
+| Akne keloid (acne keloidalis nuchae) | 0,9991 | L5 | Kun indirekte evidens (se nedenfor) |
+| Familiær hydroa vacciniforme | 0,9991 | L5 | Ingen mekanisme mod lysfølsomhed |
+| Amyopatisk dermatomyositis | 0,9990 | L5 | Autoimmun; ingen immunmodulerende virkning |
+| Cauda equina-syndrom | 0,9955 | L4 | **Sikkerhedssignal**, ikke en behandlingsmulighed |
+| Irritabel tyktarm | 0,9941 | L5 | Kun teoretisk link |
 
 **Akne keloid:** Et fase 4-forsøg ([NCT02372786](https://clinicaltrials.gov/study/NCT02372786), afsluttet, 30 deltagere) sammenlignede lidokain/tetracain-creme med lidokain/prilocain-creme som smertelindring under laserbehandling af acne keloidalis nuchae og tatoveringsfjernelse. Det samme gælder publikationen [PMID 27377616](https://pubmed.ncbi.nlm.nih.gov/27377616/) (Br J Dermatol, 2017, RCT). Begge undersøger procedurel smertelindring, ikke behandling af selve sygdommen.
 

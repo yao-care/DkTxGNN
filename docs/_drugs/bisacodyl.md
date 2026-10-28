@@ -8,6 +8,7 @@ nav_order: 121
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Bisacodyl
@@ -49,7 +50,8 @@ Bisacodyl (DB09020) er et stimulerande afføringsmiddel etableret i klinisk prak
 | Forudsagt ny indikation | Ingen — TxGNN-forudsigelser mangler fra dette Evidence Pack |
 | TxGNN-forudsigelsesscore | N/A |
 | Evidensniveau | N/A |
-| Markedsstatus i Danmark | Ikke markedsført (per aktuelle data; sandsynligvis en datakollektionsmangel — se bemærkning nedenfor) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal markeringsgodkendelser | 0 |
 | Anbefalet beslutning | **Hold** |
 

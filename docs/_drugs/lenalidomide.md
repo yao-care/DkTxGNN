@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenalidomide
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 488
-evidence_level: L5
-indication_count: 6
+evidence_level: L2
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Lenalidomide: forudsagt ny indikation Myeloid leukæmi (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom, mantlecellelymfom, B-celleneoplasi…"
 monitor_inn: "lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og der er i de indsamlede data identificeret **47 kliniske forsøg** og **19 pub
 |------|------|
 | Oprindelig indikation | Plasmacellemyelom, mantlecellelymfom, B-celleneoplasi, lymfosarkom og myelodysplastisk syndrom (indikationsteksten i den danske autorisation er ikke angivet) |
 | Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-forudsigelsesscore | 99,49 % |
+| TxGNN-forudsigelsesscore | 0,9949 |
 | Evidensniveau | L2 (ingen afsluttede fase 3-RCT'er; afsluttede fase 2-forsøg findes, men de er hovedsageligt enkeltarmede) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

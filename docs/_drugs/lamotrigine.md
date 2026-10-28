@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lamotrigine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 476
-evidence_level: L5
-indication_count: 9
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Lamotrigine: forudsagt ny indikation Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor… (evidensniveau L5). Oprindelig indikation: Epilepsi, partiel epilepsi og Lennox-Gastaut-syndr…"
 monitor_inn: "lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Lamotrigine: forudsagt ny indikation Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor… (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lamotrigine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Lamotrigin: Fra epilepsi til trigeminusneuralgi
+## Lamotrigine: Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor, vurderes som et graf-artefakt og er ikke anbefalet (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det også kan have effekt ved **trigeminusneuralgi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Epilepsi, partiel epilepsi og Lennox-Gastaut-syndrom (fra videnskabsgrafen; godkendt indikationstekst for det danske præparat er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor, vurderes som et graf-artefakt og er ikke anbefalet |
-| TxGNN-forudsigelsesscore | 99,89 % (trigeminusneuralgi); 99,97 % (trigeminusnervetumor) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor, vurderes som et graf-artefakt og er ikke anbefalet (trigeminal nerve neoplasm) |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L2 (trigeminusneuralgi) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (trigeminusneuralgi) |
 
 ---

@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "2-hydroxyethyl-methacrylate-sensitization",
-          "display": "2-hydroxyethyl methacrylate sensitization"
-        }
-      ],
-      "text": "2-hydroxyethyl methacrylate sensitization",
       "concept": {
         "text": "2-hydroxyethyl methacrylate sensitization"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9976
     }
   ]
 }

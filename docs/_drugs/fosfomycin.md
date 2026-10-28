@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fosfomycin
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 372
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fosfomycin: forudsagt ny indikation Pyelitis (evidensniveau L1). Oprindelig indikation: Urinvejsinfektion"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "fosfomycin"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
+predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
+last_modified_at: 2026-10-23
+description: "Fosfomycin: forudsagt ny indikation Uterine inflammatory disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fosfomycin
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,15 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Fosfomycin: Fra urinvejsinfektion til pyelitis
+## Fosfomycin: Uterine inflammatory disease
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé
 
-Fosfomycin er et antibiotikum, der oprindeligt anvendes til behandling af urinvejsinfektion.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **pyelitis** (infektion i nyrebækkenet), og der foreligger **ingen registrerede kliniske forsøg**, men **20 publikationer**, herunder et randomiseret fase 2/3-forsøg med intravenøs fosfomycin ved komplicerede urinvejsinfektioner inkl. akut pyelonefritis.
-
-*Bemærk: Den højest rangerede forudsigelse (gonokok-uretritis) har kun begrænset og ældre evidens. Pyelitis er valgt som hovedindikation, fordi den har den stærkeste evidens (L1) og ligger tæt på den oprindelige indikation. Alle forudsigelser er gennemgået nedenfor.*
+Fosfomycin er et antibiotikum, hvis tilknytning til urinvejsinfektion er registreret i vidensgrafen. TxGNN-modellen forudsiger, at det kan have effekt ved **uterin inflammatorisk sygdom**. De data, der er indsamlet til denne rapport, indeholder dog hverken kliniske forsøg eller publikationer, der direkte undersøger fosfomycin ved denne sygdom (**2 generelle forsøg** og **1 publikation** uden direkte sammenhæng). Forudsigelsen hviler derfor reelt på modellen alene.
 
 ---
 
@@ -49,103 +46,80 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pyelitis** (infektio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urinvejsinfektion (de danske godkendelser indeholder ingen indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Pyelitis |
-| TxGNN-forudsigelsesscore | 99,37 % |
-| Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Uterine inflammatory disease |
+| TxGNN-forudsigelsesscore | 0.9998 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata var ikke tilgængelige i de indsamlede data. Fosfomycin er dog kendt som en hæmmer af enzymet MurA (UDP-N-acetylglucosamin-enolpyruvyltransferase), som katalyserer det første trin i syntesen af peptidoglykan i bakteriecellevæggen. Det giver en baktericid effekt.
+Der foreligger ikke detaljerede mekanismedata fra DrugBank for stoffet. Generelt er fosfomycin kendt for at hæmme enzymet MurA (UDP-N-acetylglucosamin-enolpyruvyltransferase) og dermed blokere bakteriens cellevægssyntese. Stoffet har aktivitet mod almindelige urogenitale bakterier som *E. coli* og *Enterococcus*.
 
-Pyelitis ligger inden for spektret af øvre urinvejsinfektioner/pyelonefritis og er tæt forbundet med fosfomycins oprindelige indikation. Fosfomycin virker mod de almindelige uropatogener, herunder mange ESBL-producerende Enterobacterales. Der er således snarere tale om en udvidelse af den eksisterende indikation til den øvre urinvej og intravenøse formuleringer end et nyt sygdomsområde.
-
-Vigtig begrænsning: Oral fosfomycintrometamol er godkendt til ukompliceret nedre urinvejsinfektion. Brug ved øvre urinvejsinfektion eller komplicerede infektioner bør baseres på data for den intravenøse formulering, lokal resistensstatus og gældende retningslinjer.
+Det er derfor tænkeligt, at denne aktivitet kan række til bakterielle infektioner i livmoderen. Det er dog kun en teoretisk betragtning. Ingen af de tilknyttede studier viser, at fosfomycin virker ved uterin inflammation. Den eneste tilknyttede publikation handler om blærebetændelse hos kvinder med endometriose, som er en urinvejstilstand og ikke en livmoderbetændelse.
 
 ---
 
-## Dokumentation fra kliniske forsøg
+## Evidens fra kliniske forsøg
 
-For pyelitis er der aktuelt ingen relaterede kliniske forsøg registreret.
+| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | Ikke relevant | Afsluttet | 3.520 | Generelt farmakokinetisk studie af utilstrækkeligt undersøgte lægemidler givet til børn som standardbehandling. Ikke specifikt for uterin sygdom eller fosfomycins effekt. |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | Ikke relevant | Rekrutterer | 5.000 | Bredt program for farmakokinetik, farmakodynamik og sikkerhed hos børn og unge. Ingen effektdata for uterin sygdom. |
+
+Begge forsøg er vurderet som kun løst relateret til den forudsagte indikation. Der er ikke identificeret EudraCT-registreringer i de tilgængelige data.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Et udvalg af de mest relevante publikationer for pyelitis (højeste evidensniveau først):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [30861061](https://pubmed.ncbi.nlm.nih.gov/30861061/) | 2019 | RCT (fase 2/3, ZEUS) | Clin Infect Dis | IV fosfomycin (ZTI-01) sammenlignet med piperacillin-tazobactam ved kompliceret urinvejsinfektion inkl. akut pyelonefritis |
-| [39817442](https://pubmed.ncbi.nlm.nih.gov/39817442/) | 2025 | Systematisk review/netværksmetaanalyse | J Comp Eff Res | Effekt af behandlingsmuligheder ved kompliceret urinvejsinfektion inkl. akut pyelonefritis |
-| [41711122](https://pubmed.ncbi.nlm.nih.gov/41711122/) | 2026 | Review/klinisk rapport | Ann Pharmacother | Intravenøs fosfomycins plads i behandlingen af kompliceret urinvejsinfektion |
-| [32303061](https://pubmed.ncbi.nlm.nih.gov/32303061/) | 2020 | Retrospektiv gennemgang | J Antimicrob Chemother | Resultater og ordinationsmønstre for oral fosfomycin ved pyelonefritis og kompliceret urinvejsinfektion |
-| [31160291](https://pubmed.ncbi.nlm.nih.gov/31160291/) | 2019 | Dyrestudie | Antimicrob Agents Chemother | Uventet aktivitet af oral fosfomycin mod resistente E. coli-stammer ved murin pyelonefritis |
-| [35141335](https://pubmed.ncbi.nlm.nih.gov/35141335/) | 2022 | Dyrestudie | BioMed Res Int | Terapeutisk effekt af fosfomycin ved akut pyelonefritis hos mus |
-| [30854892](https://pubmed.ncbi.nlm.nih.gov/30854892/) | 2019 | Review | Future Microbiol | Oversigt over mikrobiologi og klinisk farmakologi for IV fosfomycin (ZTI-01) |
-| [31608743](https://pubmed.ncbi.nlm.nih.gov/31608743/) | 2020 | Review | Postgrad Med | Behandling af urinvejsinfektioner under antimikrobiel resistens |
-| [29539622](https://pubmed.ncbi.nlm.nih.gov/29539622/) | 2018 | Retningslinje | Urol Int | Tysk retningslinje for behandling og profylakse af ukomplicerede urinvejsinfektioner |
-| [36031053](https://pubmed.ncbi.nlm.nih.gov/36031053/) | 2023 | Review | Clin Microbiol Infect | Urinvejsinfektioner under graviditet og antibiotikaeksponering |
+| [35653789](https://pubmed.ncbi.nlm.nih.gov/35653789/) | 2022 | Kohortestudie | J Obstet Gynaecol | Prospektivt studie af akut blærebetændelse og bakteriuri hos kvinder med endometriose efter laparoskopi og behandling med dienogest eller kombinerede p-piller. Undersøger ikke fosfomycin ved uterin inflammation. |
 
 ---
 
-## Øvrige forudsagte indikationer (kort gennemgang)
+## Information om markedet i Danmark
 
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Gonokok-uretritis | 99,99 % | L2 | Et åbent RCT (PMID 27064136, 2016, 126 patienter) med fosfomycintrometamol samt ældre studier fra 1977. Ingen registrerede forsøg. Skal bekræftes mod aktuelle retningslinjer. Forskningsspørgsmål. |
-| Ureaplasma-uretritis | 99,99 % | L5 | Ureaplasma mangler cellevæg, så MurA-hæmmer har intet plausibelt mål. Ingen evidens. Hold. |
-| Uterin inflammatorisk sygdom | 99,98 % | L4 | De to tilknyttede forsøg er generelle pædiatriske farmakokinetikstudier uden sygdomsspecifik effektdata. Hold. |
-| Xanthogranulomatøs pyelonefritis | 99,98 % | L5 | Kronisk infektion, der typisk behandles kirurgisk. Svag mekanistisk begrundelse, ingen data. Hold. |
-| Epiglottitis | 99,93 % | L5 | Akut luftvejsnødsituation med etableret parenteral behandling. Ingen evidens. Hold. |
-| Urogenital tuberkulose | 99,88 % | L5 | M. tuberculosis er naturligt dårligt følsom over for fosfomycin. Litteraturen tester ikke fosfomycin. Hold. |
-| Laryngitis | 99,68 % | L4 | Oftest viral; kun indirekte støtte. Hold. |
-| Polyklonalt hyperviskositetssyndrom | 99,47 % | L5 | Ikke-infektiøs tilstand; sandsynligvis modelartefakt. Hold. |
-| Hyperamylasæmi | 99,47 % | L5 | Laboratoriefund, ikke en behandlingskrævende infektion. Hold. |
-
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Fremstiller |
 |---------|------|------|-----------|
-| 28101490492 | Monurol (Zambon S.p.A.) | Granulat til oral opløsning, enkeltdosisbeholder | Indikationstekst ikke tilgængelig i de indsamlede data |
-| 28105824816 | Fosfomycin "Infectopharm" (InfectoPharm GmbH) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28101490492 | Monurol | Granulat til oral opløsning, enkeltdosisbeholder | Zambon S.p.A. |
+| 28105824816 | Fosfomycin "Infectopharm" | Pulver til infusionsvæske, opløsning | InfectoPharm GmbH |
 
-Begge tilladelser er gyldige. Der findes således både en oral formulering og en intravenøs formulering på det danske marked, hvilket er relevant for en eventuel anvendelse ved øvre urinvejsinfektion.
+Begge tilladelser er gyldige enkeltstofpræparater. Indikationsteksten er ikke tilgængelig i de data, der er indsamlet til rapporten.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra vidensgraf, ikke produktresumé):** Videnskabsgrafen knytter fosfomycin til nyresygdom, pyouréter, Clostridium difficile-colitis og perinatal nekrotiserende enterokolitis. Disse oplysninger stammer ikke fra produktresuméets tekst og skal verificeres.
+- **Kontraindikationsrelationer i vidensgrafen** (ikke mærkningstekst): nyresygdom, pyoureter, *Clostridium difficile*-colitis og perinatal nekrotiserende enterokolitis.
 - **Lægemiddelinteraktioner:**
-  - Balsalazid (moderat)
-  - Picosulfat (moderat)
-  - Metoclopramid (let)
+  - Balsalazid: moderat
+  - Picosulfat: moderat
+  - Metoclopramid: let
 
-For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+Den godkendte produktresumé (SmPC) bør konsulteres for fuldstændige advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Pyelitis ligger tæt på fosfomycins eksisterende indikation, og der foreligger et randomiseret fase 2/3-forsøg og flere reviews, der understøtter intravenøs fosfomycin ved kompliceret urinvejsinfektion inkl. akut pyelonefritis. De øvrige forudsigelser har enten begrænset (gonokok-uretritis) eller ingen/modstridende evidens og bør afvente.
+- Ingen af de tilknyttede forsøg eller publikationer undersøger direkte fosfomycin ved uterin inflammatorisk sygdom, så evidensen er alene modelforudsigelsen (L5).
+- Den høje score alene er ikke tilstrækkelig grundlag for klinisk anvendelse.
 
-**For at gå videre kræves følgende:**
-- Verificering af forsøgs- og reviewdetaljer mod fuldtekster
-- Gennemgang af produktresuméer for begge danske præparater (advarsler, kontraindikationer og godkendte indikationer)
-- Afstemning med gældende danske retningslinjer og lokal resistensstatus
-- Data om virkningsmekanisme fra DrugBank
-- For gonokok-uretritis: bekræftelse af ældre og enkeltstående evidens mod aktuelle retningslinjer og resistensdata
+**For at komme videre kræves følgende:**
+- Studier, der direkte undersøger fosfomycin ved bakterielle livmoderinfektioner, f.eks. vævspenetration og klinisk effekt.
+- Mekanismedata og produktresuméets advarsler og kontraindikationer for de danske præparater.
+- Afklaring af, hvilke sygdomsundergrupper under uterin inflammatorisk sygdom der er relevante (f.eks. endometritis).
+
+Bemærk, at en anden forudsigelse i samme datasæt, pyelitis (nyrebækkenbetændelse), har mere litteratur, herunder et fase 2/3-randomiseret studie af intravenøs fosfomycin ved komplicerede urinvejsinfektioner (PMID 30861061). Den er dog tæt på den eksisterende urinvejsindikation og er ikke en del af denne vurdering.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

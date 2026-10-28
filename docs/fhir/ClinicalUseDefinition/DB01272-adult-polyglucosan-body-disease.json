@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01272",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB01272"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "adult-polyglucosan-body-disease",
-          "display": "adult polyglucosan body disease"
-        }
-      ],
-      "text": "adult polyglucosan body disease"
+      "concept": {
+        "text": "adult polyglucosan body disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9947
     }
   ]
 }

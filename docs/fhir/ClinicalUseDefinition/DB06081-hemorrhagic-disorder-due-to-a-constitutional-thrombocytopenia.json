@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB06081",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB06081"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "hemorrhagic-disorder-due-to-a-constitutional-thrombocytopenia",
-          "display": "hemorrhagic disorder due to a constitutional thrombocytopenia"
-        }
-      ],
-      "text": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      "concept": {
+        "text": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 1.0
     }
   ]
 }

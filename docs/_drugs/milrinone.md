@@ -4,7 +4,7 @@ title: Milrinone
 parent: Kun modelforudsigelse (L5)
 nav_order: 557
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Milrinone: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske registrering. Litteraturen beskriver intrav…"
 monitor_inn: "milrinone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 # Milrinone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Milrinon er en PDE3-hæmmer, der gives som infusion og bruges til hjertesvigt (i
 |------|------|
 | Oprindelig indikation | Ikke angivet i den danske registrering. Litteraturen beskriver intravenøs milrinon til kortvarig behandling af hjertesvigt |
 | Forudsagt ny indikation | Alopeci |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
 Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Milrinon er kendt som PDE3-hæmmer. Det øger cAMP og giver både øget hjertekontraktilitet og karudvidelse (en "inodilator"-effekt).
 
-Der er kun et spekulativt link til alopeci: cAMP-signalering eller bedre perfusion omkring hårfollikler. Ingen undersøgelser understøtter dette. Ved autoimmun alopecia areata er PDE4-hæmmere den mere relevante klasse, og PDE3-hæmning med milrinon har ingen påvist rolle. Den høje score skyldes sandsynligvis nærhed til andre hårtabsrelaterede begreber i vidensgrafen og ikke egentlig biologisk evidens.
+Der er kun et spekulativt link til alopeci: cAMP-signalering eller bedre perfusion omkring hårfollikler. Ingen undersøgelser understøtter dette. Ved autoimmun alopecia areata er PDE4-hæmmere den mere relevante klasse, og PDE3-hæmning med milrinon har ingen påvist rolle. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke egentlig biologisk evidens.
 
 De øvrige forudsigelser med høj score for milrinon (hårtabsdiagnoser som hypotrichosis simplex of the scalp, congenital hypotrichosis milia og diffuse alopecia areata) er ligeledes uden kliniske data.
 

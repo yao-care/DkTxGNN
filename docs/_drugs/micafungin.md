@@ -4,17 +4,17 @@ title: Micafungin
 parent: Moderat evidens (L3-L4)
 nav_order: 549
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection) (evidensniveau L3). Oprindelig indikation: Candidiasis i spiserøret, candidæmi…"
 monitor_inn: "Micafungin"
-predicted_indications: ["urinary tract infection (disease)", "urinary tract infection (disease)", "gonococcal urethritis", "gonococcal urethritis", "Ureaplasma urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "xanthogranulomatous pyelonephritis"]
+predicted_indications: ["urinary tract infection (disease)"]
+description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Micafungin: Fra esophageal candidiasis og candidæmi til urinvejsinfektion (Candida)
+## Micafungin: Urinvejsinfektion (urinary tract infection (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Evidensen består af **0 registrerede kliniske forsøg** og **13 publikationer**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Candidiasis i spiserøret, candidæmi, dissemineret candidiasis (fra videngrafen; der er ingen indikationstekst i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Urinvejsinfektion (urinary tract infection) |
-| TxGNN-forudsigelsesscore | 99,03 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Urinvejsinfektion (urinary tract infection (disease)) |
+| TxGNN-forudsigelsesscore | 0.9903 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -64,7 +64,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 Candida-urinvejsinfektion og candiduri forårsages af de samme patogener som de godkendte indikationer (candidæmi og invasiv candidiasis). Det er derfor en patogenkonsistent udvidelse af den kendte svampehæmmende effekt. Den traditionelle bekymring har været, at echinocandiner udskilles i urinen i lav grad. Et farmakokinetisk studie (PMID 27424599) rapporterer dog, at urinkoncentrationerne af micafungin er tilstrækkelige til at behandle Candida-urinvejsinfektioner.
 
-Den kliniske evidens er begrænset til case reports, case series og retrospektive kohorter hos voksne, børn og en for tidligt født, herunder infektioner med *C. glabrata*, *C. krusei* og *C. auris*. TxGNN-scoren (0,99) er i overensstemmelse med litteratursignalet.
+Den kliniske evidens er begrænset til case reports, case series og retrospektive kohorter hos voksne, børn og en for tidligt født, herunder infektioner med *C. glabrata*, *C. krusei* og *C. auris*. TxGNN-scoren (0,9903) er i overensstemmelse med litteratursignalet.
 
 ---
 
@@ -111,7 +111,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 ## Øvrige forudsagte indikationer (kort)
 
-De øvrige forudsigelser har evidensniveau L5 uden kliniske forsøg eller litteratur og anbefales **Hold**. De skyldes sandsynligvis artefakter i videngrafen:
+De øvrige forudsigelser har evidensniveau L5 uden kliniske forsøg eller litteratur og anbefales **Hold**. Scorerne stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens:
 
 - **Gonokok-uretritis** og **Ureaplasma-uretritis:** bakterielle infektioner uden mål for et echinocandin (bakterier mangler 1,3-beta-D-glucansyntase; *Ureaplasma* mangler desuden cellevæg).
 - **Uterin inflammatorisk sygdom:** oftest polymikrobiel bakteriel ætiologi; ingen evidens for antimykotisk rationale.

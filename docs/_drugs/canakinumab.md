@@ -4,17 +4,17 @@ title: Canakinumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 151
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de danske data. Iføl…"
+indication_count: 9
 monitor_inn: "Canakinumab"
-predicted_indications: ["hepatic infarction", "hepatic infarction", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease", "peliosis hepatis", "peliosis hepatis", "syndrome with combined immunodeficiency", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "periodic fever-infantile enterocolitis-autoinflammatory syndrome"]
+predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
+last_modified_at: 2026-10-27
+description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (hepatic infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Canakinumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Canakinumab: Fra autoinflammatoriske sygdomme til hepatisk infarkt
+## Canakinumab: interleukin-1β-hæmmer → Hepatisk infarkt (hepatic infarction)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering i én sætning
 
-Canakinumab er et monoklonalt antistof mod interleukin-1β, som oprindeligt anvendes til blandt andet urinsyregigt, cryopyrin-associerede periodiske syndromer (CAPS), systemisk juvenil idiopatisk artrit og arvelige periodiske febersygdomme.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hepatisk infarkt**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
-Forudsigelsen er derfor udelukkende beregningsbaseret.
-
----
+Canakinumab er et monoklonalt antistof, der blokerer interleukin-1β. Modellen TxGNN forudsiger, at det kan have effekt på **hepatisk infarkt (hepatic infarction)**, men der er hverken registrerede kliniske forsøg eller publikationer, som understøtter denne forudsigelse. Den er derfor udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i de danske data. Ifølge videnbasen: urinsyregigt, CAPS, systemisk juvenil idiopatisk artrit, mevalonatkinasemangel, familiær middelhavsfeber m.fl. |
-| Forudsagt ny indikation | Hepatisk infarkt |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatisk infarkt (hepatic infarction) |
+| TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Canakinumab er kendt som en interleukin-1β-hæmmer, og en mulig, men ubekræftet forklaring er, at IL-1β-drevet inflammation spiller en rolle ved iskæmisk vævsskade i leveren.
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Canakinumab er dog kendt som en anti-IL-1β-antistof, og dets virkning ved autoinflammatoriske sygdomme drevet af overproduktion af IL-1β er veletableret.
-
-Hepatisk infarkt er en iskæmisk/vaskulær leverskade. IL-1β-drevet steril inflammation kan muligvis bidrage til sekundær vævsskade, og IL-1-blokade er derfor teoretisk tænkelig. Denne sammenhæng er imidlertid **spekulativ**. Den høje score er en computerberegnet forudsigelse, og den oprindelige indikationsgruppe (autoinflammatoriske sygdomme) ligner ikke hepatisk infarkt klinisk.
-
-Andre forudsigelser fra modellen omfatter hepatisk veno-okklusiv sygdom (99,82 %), peliosis hepatis (99,78 %), syndrom med kombineret immundefekt (99,71 %) og periodisk feber–infantil enterokolit–autoinflammatorisk syndrom (99,57 %). Sidstnævnte ligger tættest på de eksisterende indikationer og er mekanistisk mest plausibel.
-
----
+Denne sammenhæng er rent spekulativ. Der findes ingen forsøgsdata eller litteratur i de indsamlede data, som understøtter koblingen mellem IL-1β-hæmning og hepatisk infarkt. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et klinisk belæg.
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for hepatisk infarkt.
-
-Til sammenligning er der for den forudsagte indikation "syndrom med kombineret immundefekt" fundet én publikation, som dog omhandler en eksisterende indikation (CAPS):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [25349319](https://pubmed.ncbi.nlm.nih.gov/25349319/) | 2014 | Case-rapport | Pediatrics | Vellykket behandling med canakinumab af et 70 dage gammelt spædbarn med NOMID/CINCA (svær form for CAPS) |
-
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105773616 | Ilaris (Novartis Europharm Limited) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28105773616 | Ilaris | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
----
+Indehaver af markedsføringstilladelsen er Novartis Europharm Limited. Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret i alt; et udvalg af de vigtigste vises her):
+Der er ikke registreret oplysninger om advarsler eller kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-- **Moderat:** Kortikosteroider (hydrokortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison), simvastatin, apixaban, rivaroxaban, warfarin, dicoumarol samt radiofarmaka (ibritumomab tiuxetan, iobenguan (I-131), tositumomab).
-- **Mindre:** Zinkacetat, zinkglukonat og zinksulfat.
+**Lægemiddelinteraktioner** (udvalgte af 100 registrerede interaktioner):
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+- **Moderat:** kortikosteroider (hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison), simvastatin, antikoagulantia (apixaban, rivaroxaban, warfarin, dicoumarol) samt radioaktive lægemidler/antistoffer (ibritumomab tiuxetan, iobenguan (I-131), tositumomab, tositumomab (I-131)).
+- **Mindre:** zinkpræparater (zinkacetat, zinkgluconat, zinksulfat).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for hepatisk infarkt bygger udelukkende på en modelscore uden kliniske forsøg eller publikationer (evidensniveau L5), og den mekanistiske sammenhæng er spekulativ.
+Forudsigelsen for hepatisk infarkt bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg, litteratur eller en dokumenteret mekanistisk sammenhæng. Der er ikke grundlag for at gå videre på det foreliggende.
 
 **For at komme videre kræves følgende:**
-- Systematisk litteratursøgning om IL-1β's rolle ved hepatisk infarkt og leverkarsygdomme
-- Data om virkningsmekanisme og farmakologi fra DrugBank
-- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer)
-- Prækliniske studier eller case-serier, før et klinisk forsøg overvejes
-- Alternativt kan man prioritere den mekanistisk nærmere forudsigelse (periodisk feber–infantil enterokolit–autoinflammatorisk syndrom) til målrettet litteraturgennemgang
+- Præklinisk eller mekanistisk dokumentation for, at IL-1β-hæmning har relevans ved hepatisk infarkt
+- Systematisk litteratursøgning efter direkte relevante studier af sygdommen
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé (SmPC)
+- Vurdering af, om indgiftsvejen (injektion) er forenelig med den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

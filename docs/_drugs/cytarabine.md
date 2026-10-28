@@ -6,9 +6,9 @@ nav_order: 229
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Cytarabine: forudsagt ny indikation Småcellet lungekarcinom (evidensniveau L4). Oprindelig indikation: Akut lymfoblastær leukæmi og akut myeloid leukæmi (ifølge vidensgrafen"
 monitor_inn: "cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+description: "Cytarabine: forudsagt ny indikation Småcellet lungekarcinom (small cell lung carcinoma) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cytarabine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Cytarabin: Fra akut leukæmi til småcellet lungekarcinom
+## Cytarabine: Småcellet lungekarcinom (small cell lung carcinoma)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfoblastær leukæmi og akut myeloid leukæmi (ifølge vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
-| Forudsagt ny indikation | Småcellet lungekarcinom |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Småcellet lungekarcinom (small cell lung carcinoma) |
+| TxGNN-forudsigelsesscore | 0.9978 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

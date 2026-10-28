@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bupropion
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 140
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Depression (bl.a. recidiverende/unipolar og svær depression) og nikot"
+last_modified_at: 2026-10-27
+description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bupropion
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Bupropion: Fra depression og rygestop til opmærksomhedsforstyrrelse (ADHD)
+## Bupropion: noradrenalin- og dopamingenoptagelseshæmmer (NDRI) → opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Bupropion anvendes oprindeligt til behandling af depression og nikotinafhængighed. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)**. Forudsigelsen understøttes af **6 registrerede kliniske forsøg** (heraf 1 afsluttet fase 3-forsøg og 1 afsluttet fase 2/3-forsøg), mens der for ADHD som helhed ikke er fundet publikationer i de indsamlede data.
-
----
+Bupropion er en noradrenalin- og dopamingenoptagelseshæmmer, som i Danmark er markedsført som tabletter med modificeret udløsning og som depottabletter (Mysimba).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder)**,
+og i de indsamlede data indgår **6 kliniske forsøg** (heraf 1 afsluttet fase 3-forsøg med direkte relevans), mens der ikke er fundet publikationer knyttet direkte til denne forudsigelse.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Depression (bl.a. recidiverende/unipolar og svær depression) og nikotinafhængighed. Bemærk: De danske tilladelser indeholder ingen indikationstekst, så indikationerne stammer fra TxGNN-vidensgrafen |
-| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L1 (formelt iht. reglen om ≥2 afsluttede fase 3-forsøg; se forbehold nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
+| TxGNN-forudsigelsesscore | 0,9999 |
+| Evidensniveau | L2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
-*Forbehold vedr. evidensniveau:* Kun ét rent fase 3-forsøg (NCT00048360) og ét fase 2/3-forsøg (NCT00061087) er afsluttet. Strengt taget opfylder datagrundlaget derfor ikke kravet om to afsluttede fase 3-forsøg, og evidensniveauet bør vurderes som L1–L2. Det er angivet som L1 i de data, der er indsamlet til rapporten.
+## Hvorfor er denne forudsigelse rimelig?
 
----
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden hæmmer bupropion genoptagelsen af noradrenalin og dopamin. Det er de samme katekolaminerge signalveje, som er målet for etablerede ADHD-behandlinger, f.eks. methylphenidat og atomoxetin.
 
-## Hvorfor er forudsigelsen rimelig?
+Dette udgør et plausibelt farmakologisk grundlag for effekt ved ADHD. Forudsigelsen understøttes desuden af, at flere forsøg har undersøgt bupropion ved ADHD, bl.a. hos voksne og unge med samtidig misbrug. Mekanismen er dog ikke bekræftet i de leverede data, og de nærmere sammenhænge bør vurderes mod produktresuméet og den kliniske litteratur.
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de indsamlede data. Ud fra almen farmakologisk viden hæmmer bupropion genoptagelsen af noradrenalin og dopamin (NDRI). Det er de samme katekolaminerge signalveje, som etablerede ADHD-lægemidler som methylphenidat og atomoxetin påvirker. Det giver et plausibelt farmakologisk grundlag for effekt ved ADHD.
-
-Depression og ADHD har ofte overlappende symptomer (koncentrationsbesvær, nedsat drive) og høj samtidig forekomst. Bupropion er desuden anvendt ved nikotinafhængighed, som er hyppigere og sværere at afslutte hos personer med ADHD. Det styrker det kliniske sammenfald mellem de oprindelige og den nye indikation.
-
-Øvrige forudsagte indikationer på listen (fx faciodigitogenitalt syndrom, kondromyksoidt fibrom, hypervitaminose) har ingen kendt mekanistisk sammenhæng og ingen understøttende evidens. De vurderes som modelartefakter og anbefales ikke undersøgt videre (Hold).
-
----
-
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00048360](https://clinicaltrials.gov/study/NCT00048360) | Fase 3 | Afsluttet | 162 | 8 ugers randomiseret, dobbeltblindet, placebokontrolleret forsøg med bupropion med forlænget udløsning (300–450 mg/dag) hos voksne med ADHD |
-| [NCT00061087](https://clinicaltrials.gov/study/NCT00061087) | Fase 2/3 | Afsluttet | 115 | Behandling af voksen-ADHD hos metadonpatienter (bupropion-armen bør bekræftes i registeret) |
-| [NCT00936299](https://clinicaltrials.gov/study/NCT00936299) | Fase 4 | Afsluttet | 105 | Bupropion ved ADHD hos unge med misbrugsproblematik |
-| [NCT01270555](https://clinicaltrials.gov/study/NCT01270555) | Ikke angivet | Afsluttet | 32 | Åbent forsøg med bupropion SR ved voksen-ADHD med aktuelt eller tidligere stofmisbrug |
+| [NCT00048360](https://clinicaltrials.gov/study/NCT00048360) | Fase 3 | Afsluttet | 162 | Otte ugers randomiseret, dobbeltblindet, placebokontrolleret forsøg med forlænget-frigivelse bupropion 300-450 mg/dag hos voksne med ADHD; effekt, sikkerhed og helbredsudfald |
+| [NCT00061087](https://clinicaltrials.gov/study/NCT00061087) | Fase 2/3 | Afsluttet | 115 | Behandling af ADHD hos voksne i methadonbehandling; bupropion-armen bør bekræftes i registret |
+| [NCT00936299](https://clinicaltrials.gov/study/NCT00936299) | Fase 4 | Afsluttet | 105 | Bupropion ved ADHD hos unge med samtidig stofmisbrug |
+| [NCT01270555](https://clinicaltrials.gov/study/NCT01270555) | Ikke angivet | Afsluttet | 32 | Åbent forsøg med bupropion SR ved ADHD hos voksne med aktuelt eller tidligere stofmisbrug |
 | [NCT00000268](https://clinicaltrials.gov/study/NCT00000268) | Ikke angivet | Afsluttet | 32 | Kokainmisbrug og opmærksomhedsforstyrrelse; lavere relevans for ADHD i sig selv |
-| [NCT04553263](https://clinicaltrials.gov/study/NCT04553263) | Tidlig fase 1 | Trukket tilbage | 0 | Tilbagefaldsforebyggelse ved stimulansmisbrug; ingen evidens (ingen deltagere inkluderet) |
+| [NCT04553263](https://clinicaltrials.gov/study/NCT04553263) | Tidlig fase 1 | Trukket tilbage | 0 | Tilbagefaldsforebyggelse ved stimulansmisbrug; ingen deltagere og ingen evidens |
 
----
+## Evidens fra litteraturen
 
-## Litteraturevidens
+Der er for øjeblikket ingen relateret litteratur tilgængelig for denne forudsigelse.
 
-For ADHD som helhed (rang 1) er der ikke fundet relateret litteratur i de indsamlede data. For den undertype, der kaldes ADHD, overvejende uopmærksom type (rang 2), er der identificeret to publikationer af begrænset relevans:
+## Information om det danske marked
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [19023824](https://pubmed.ncbi.nlm.nih.gov/19023824/) | 2008 | Post hoc-analyse | Nicotine & Tobacco Research | Analyse af rygestop hos 583 voksne rygere behandlet med bupropion og nikotinplaster, opdelt efter ADHD-symptomtype (uopmærksomhed vs. hyperaktivitet/impulsivitet) |
-| [9715472](https://pubmed.ncbi.nlm.nih.gov/9715472/) | 1998 | Oversigtsartikel | Der Nervenarzt | Oversigt over ADHD (hyperkinetisk syndrom) hos voksne i Tyskland; klinisk billede og diagnostik |
-
----
-
-## Information om markedet i Danmark
-
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106683621 | Bupropion hydrochloride "Zentiva" | Tabletter med modificeret udløsning | Ikke angivet i data |
-| 28105317313 | Mysimba | Depottabletter | Ikke angivet i data |
-
----
+| 28106683621 | Bupropion hydrochloride "Zentiva" | Tabletter med modificeret udløsning | Ikke angivet |
+| 28105317313 | Mysimba | Depottabletter | Ikke angivet |
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ikke mærkningstekst (advarsler/kontraindikationer) i de indsamlede data. Det er en blokerende datamangel for den videre sikkerhedsscreening. Følgende er baseret på vidensgrafen og interaktionsdatabasen og er ikke hentet fra produktresuméet.
+- **Lægemiddelinteraktioner:** Der er registreret 890 interaktioner. Blandt de registrerede med alvorlig (major) grad er bl.a. fentanyl, lidokain, dihydrocodein, codein, tramadol, methylphenidat, hydrocortison, aldesleukin, alfentanil og amantadin. Moderate interaktioner omfatter bl.a. alkohol, nifedipin, hydrochlorthiazid, cetirizin og alprazolam.
 
-- **Kontraindikationer/sygdomme med risiko (fra vidensgrafen)**, bl.a.: epilepsi, hypertension, lever- og nyresygdom (inkl. levercirrose og leversvigt), mani ved bipolar lidelse, psykotiske lidelser og skizoaffektive lidelser, spiseforstyrrelser (anorexia og bulimia nervosa), misbrug/afhængighed (herunder opioidafhængighed), myokardieinfarkt, tumorer i centralnervesystemet samt angstlidelse. Bupropions evne til at sænke krampetærsklen er særligt relevant, især hos børn og unge.
-- **Lægemiddelinteraktioner:** 890 interaktioner er registreret. Blandt dem med alvorlighedsgraden "Major" er fentanyl, lidocain, dihydrocodein, codein, tramadol, methylphenidat, hydrocortison, aldesleukin, alfentanil og amantadin. Moderate interaktioner omfatter bl.a. alkohol, alprazolam, nifedipin, hydrochlorthiazid og cetirizin. Kombination med methylphenidat (et almindeligt ADHD-middel) er især relevant at bemærke.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Der findes et afsluttet, placebokontrolleret fase 3-forsøg og et fase 2/3-forsøg ved ADHD hos voksne samt flere mindre forsøg, og virkningsmekanismen (NDRI) er biologisk plausibel. Evidensen er dog begrænset af små forsøg, komorbide populationer, manglende publicerede resultater i de indsamlede data og manglende sikkerhedsdata fra produktresuméet.
+Der foreligger et afsluttet, placebokontrolleret fase 3-forsøg direkte ved ADHD hos voksne samt flere mindre forsøg, og mekanismen er farmakologisk plausibel. Der mangler dog publikationer knyttet til forudsigelsen, og sikkerhedsdata fra produktresuméet er ikke indhentet.
 
-**For at komme videre kræves:**
-- Hente og gennemgå produktresuméerne fra Lægemiddelstyrelsen (advarsler, kontraindikationer), da datamanglen er blokerende
-- Bekræfte resultater og lægemiddelarme i NCT00048360 og NCT00061087 og indhente tilknyttede publikationer
-- Indhente data om virkningsmekanisme fra DrugBank
-- Vurdere krampe- og blodtryksrisiko og planlægge sikkerhedsovervågning, især hos børn, unge og patienter med misbrugshistorie
-- Afklare, at de danske tilladelser (inkl. Mysimba, som er godkendt til vægtkontrol) ikke dækker ADHD, og vurdere behovet for en indikationsudvidelse
+**For at komme videre kræves følgende:**
+- Gennemgang af resultaterne fra NCT00048360 og de øvrige forsøg i registret, herunder bekræftelse af forsøgsarme
+- Indhentning af advarsler og kontraindikationer fra produktresuméet (SmPC)
+- Detaljerede data om virkningsmekanismen
+- Vurdering af interaktionsrisici ved samtidig medicinering samt sikkerhed hos udvalgte patientgrupper
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

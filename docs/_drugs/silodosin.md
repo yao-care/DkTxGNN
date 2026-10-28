@@ -4,17 +4,17 @@ title: Silodosin
 parent: Kun modelforudsigelse (L5)
 nav_order: 760
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Silodosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi (indikationsteksten er ikke angivet i de da…"
+indication_count: 6
 monitor_inn: "SILODOSIN"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+last_modified_at: 2026-10-23
+description: "Silodosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Godartet prostataforstørrelse"
 ---
 
 # Silodosin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Silodosin: Fra benign prostatahyperplasi til Ambras-type hypertrichosis universalis congenita
+## Silodosin: Fra godartet prostataforstørrelse til Ambras-type hypertrichosis universalis congenita
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Silodosin er en selektiv alfa-1A-adrenerg receptorantagonist, der oprindeligt anvendes til behandling af benign prostatahyperplasi (BPH).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **Ambras-type hypertrichosis universalis congenita**,
-men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende baseret på en computermodel.
+Silodosin er en selektiv alfa-1A-adrenerg receptorantagonist. Ifølge den viden, der er indsamlet til denne rapport, er den registreret i vidensgrafen for godartet prostataforstørrelse (benign prostatahyperplasi).
+TxGNN-modellen forudsiger, at den kan have effekt ved **Ambras-type hypertrichosis universalis congenita**,
+men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -48,54 +48,57 @@ men der findes **0 kliniske forsøg** og **0 publikationer**, der understøtter 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Benign prostatahyperplasi (indikationsteksten er ikke angivet i de danske markedsføringstilladelser; oplysningen stammer fra TxGNN-vidensgrafen) |
+| Oprindelig indikation | Godartet prostataforstørrelse (relation registreret i vidensgrafen; der er ingen indikationstekst i den danske godkendelse i de foreliggende data) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Silodosin er dog kendt som en selektiv alfa-1A-adrenerg receptorantagonist, som afslapper glat muskulatur i prostata og blærehals og dermed lindrer vandladningsproblemer ved BPH.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Silodosin er kendt som en selektiv alfa-1A-adrenerg receptorantagonist, og dens kendte anvendelse knytter sig til den nedre urinvej. Disse oplysninger er ikke bekræftet i de data, der er indsamlet til denne rapport.
 
-Ambras-syndrom er en sjælden medfødt lidelse, der er forbundet med omlejringer på kromosom 8q22 og påvirket regulering af *TRPS1*, en udviklingsvej for hårfollikler. Der er ingen kendt sammenhæng mellem alfa-1A-blokade og hårvækst eller denne genetiske mekanisme.
+Der kan ikke identificeres en plausibel mekanistisk sammenhæng mellem alfa-1A-blokade og Ambras-syndrom. Ambras-syndrom er en medfødt hypertrichose, som er knyttet til kromosomomlejringer på 8q, der påvirker reguleringen af TRPS1. Den høje score er en ren grafbaseret forudsigelse, som ikke understøttes af forsøg eller litteratur.
 
-Den høje score (0,9999) afspejler sandsynligvis nærhed i vidensgrafen, ikke lægemidlets farmakologi. Det samme gælder de øvrige forudsigelser med lignende score: hypertrichosis, misdannelsessyndrom med tand- og/eller parodontal komponent, syndrom med Dandy-Walker-misdannelse som hovedtræk samt isoleret genetisk hårskaftsabnormitet. Der er ikke identificeret en plausibel mekanistisk forbindelse for nogen af dem.
+Til sammenligning er flere alfablokkere og vasodilatatorer i øvrigt forbundet med hypertrichose som bivirkning. Det peger snarere på en risiko end på en terapeutisk gevinst.
+
+Andre forudsigelser i samme datasæt (hypertrichose, misdannelsessyndromer med tand-/parodontal komponent, Dandy-Walker-syndromer, genetiske hårskaftsabnormiteter og familiær isoleret trichomegali) har alle evidensniveau L5 og ingen understøttende studier.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106109918 | Silodosin "Recordati" (Recordati Ireland Limited) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
+| 28106109918 | Silodosin "Recordati" (Recordati Ireland Limited) | Kapsler, hårde | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Der foreligger ingen godkendt produktresumétekst om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-- **Sygdomme, der i vidensgrafen er knyttet til kontraindikation** (ikke hentet fra produkttekst, og skal verificeres mod SmPC): multipel systematrofi, posturalt ortostatisk takykardisyndrom, ortostatisk hypotension, leversvigt, nyresygdom, pyoureter og intraoperativt floppy iris-syndrom.
-- **Lægemiddelinteraktioner**: Der er identificeret 99 mulige interaktioner, hvoraf 20 er vist i de sammenstillede data. Den vigtigste er:
-  - **Alvorlig (Major)**: clarithromycin
-  - **Moderate**: bupropion, aprepitant, morfin (inkl. liposomal), dexamethason, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, cimetidin, dronabinol, nabilon, eliglustat, metreleptin, miconazol, clotrimazol, rolapitant, glycerolphenylbutyrat og opium
+**Relationer registreret i vidensgrafen (ikke mærkningstekst):** Vidensgrafen har registreret kontraindikationsrelationer til følgende tilstande: multipel systematrofi, posturalt ortostatisk takykardisyndrom, ortostatisk hypotension, leversvigt, nyresygdom, pyoureter og intraoperativt floppy iris-syndrom.
+
+**Lægemiddelinteraktioner:** Der er identificeret 99 interaktioner. Blandt de viste er:
+- **Alvorlig (Major):** clarithromycin
+- **Moderat:** bupropion, aprepitant, morphin, dexamethason, cimetidin, miconazol, clotrimazol, rolapitant, eliglustat, dronabinol, nabilon, metreleptin, glycerolphenylbutyrat, opium samt SGLT2-hæmmerne canagliflozin, dapagliflozin, empagliflozin og ertugliflozin
 
 ---
 
@@ -104,13 +107,13 @@ Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilg
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af en computermodel (L5) uden kliniske forsøg eller litteratur, og der er ingen plausibel mekanistisk sammenhæng mellem alfa-1A-blokade og de forudsagte, primært genetiske, udviklingsmæssige lidelser.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller plausibel mekanisme. Evidensniveauet er L5, og alfablokkere er desuden forbundet med hypertrichose som bivirkning.
 
 **For at komme videre kræves følgende:**
-- Data om lægemidlets virkningsmekanisme (MOA)
-- Præklinisk eller mekanistisk evidens for en rolle for alfa-1A-blokade i hårfollikelbiologi eller TRPS1-vejen
-- Gennemgang af produktresuméets advarsler og kontraindikationer (manglende data blokerer sikkerhedsscreening)
-- Systematisk litteratursøgning og søgning i forsøgsregistre efter relevante studier
+- Data om virkningsmekanisme (MOA) og en reel mekanistisk hypotese
+- Præklinisk evidens (f.eks. hårfollikelmodeller) for en effekt på hårvækst
+- Gennemgang af den danske produktinformation (advarsler og kontraindikationer)
+- Vurdering af, om fordelen overhovedet er plausibel for en sjælden genetisk tilstand
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

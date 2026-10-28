@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hepatitis B-viru
 |------|------|
 | Oprindelig indikation | Kronisk hepatitis C-virusinfektion (de danske tilladelser indeholder ingen indikationstekst i de data, der er indsamlet til denne rapport) |
 | Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,87 % |
+| TxGNN-forudsigelsesscore | 0,9987 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hepatitis B-viru
 
 Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Velpatasvir er kendt som en hæmmer af HCV's NS5A-protein og indgår i kombinationspræparater (sofosbuvir/velpatasvir og sofosbuvir/velpatasvir/voxilaprevir). Dets effekt ved hepatitis C er veldokumenteret.
 
-Den mekanistiske sammenhæng til hepatitis B er svag. NS5A har ingen homolog i HBV, og HBV replikerer via revers transkription med virusets polymerase, altså en helt anden mekanisme. Den høje TxGNN-score afspejler sandsynligvis, at lægemidlet ligger tæt på andre antivirale hepatitislægemidler i vidensgrafen, ikke en påvist antiviral effekt mod HBV.
+Den mekanistiske sammenhæng til hepatitis B er svag. NS5A har ingen homolog i HBV, og HBV replikerer via revers transkription med virusets polymerase, altså en helt anden mekanisme. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller en påvist antiviral effekt mod HBV.
 
 Forsøgene med HBV-relevans (f.eks. NCT04997564) giver sofosbuvir/velpatasvir mod HCV sammen med tenofoviralafenamid (TAF) for at forebygge HBV-reaktivering hos patienter med HCV/HBV-sameksistens. Den anti-HBV-aktivitet kommer fra TAF, ikke fra velpatasvir.
 

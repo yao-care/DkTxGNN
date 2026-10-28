@@ -4,17 +4,17 @@ title: Obiltoxaximab
 parent: Kun modelforudsigelse (L5)
 nav_order: 598
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Obiltoxaximab: forudsagt ny indikation Postinfektiøs vaskulitis (evidensniveau L5). Oprindelig indikation: Inhalationsmiltbrand / miltbrandinfektion (hentet fra videngrafen…"
+indication_count: 8
 monitor_inn: "Obiltoxaximab"
-predicted_indications: ["postinfectious vasculitis", "postinfectious vasculitis", "post-infectious syndrome", "post-infectious syndrome", "post-bacterial disorder", "post-bacterial disorder", "infective urethral stricture", "infective urethral stricture", "otitis externa", "otitis externa"]
+predicted_indications: ["postinfectious vasculitis", "post-infectious syndrome", "post-bacterial disorder", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis"]
+last_modified_at: 2026-10-23
+description: "Obiltoxaximab: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Obiltoxaximab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Obiltoxaximab: Fra inhalationsmiltbrand til postinfektiøs vaskulitis
+## Obiltoxaximab: Postinfektiøs vaskulitis (postinfectious vasculitis)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Obiltoxaximab er et monoklonalt antistof, der oprindeligt anvendes til behandling af inhalationsmiltbrand (anthrax). TxGNN-modellen forudsiger, at det kan have effekt ved **postinfektiøs vaskulitis**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen er udelukkende beregningsbaseret.
+Obiltoxaximab er et monoklonalt antistof, som oprindeligt er registreret i vidensgrafen til behandling af **inhalationsmiltbrand** og miltbrandinfektion.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **postinfektiøs vaskulitis**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende beregningsbaseret.
 
 ---
 
@@ -46,41 +47,58 @@ Obiltoxaximab er et monoklonalt antistof, der oprindeligt anvendes til behandlin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Inhalationsmiltbrand / miltbrandinfektion (hentet fra videngrafen, da godkendt indikationstekst for det danske præparat ikke er angivet) |
-| Forudsagt ny indikation | Postinfektiøs vaskulitis |
-| TxGNN-forudsigelsesscore | 99,74 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Postinfektiøs vaskulitis (postinfectious vasculitis) |
+| TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-De detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almindelig viden binder obiltoxaximab det beskyttende antigen (PA) fra *Bacillus anthracis* og blokerer dermed miltbrandtoksinets optagelse i værtsceller.
+Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Obiltoxaximab er et antistof, der neutraliserer beskyttende antigen (PA) fra *Bacillus anthracis* og dermed blokerer miltbrandtoksinets virkning.
 
-Postinfektiøs vaskulitis er en immunkompleks- eller immunmedieret proces, der opstår efter en infektion. Den drives ikke af miltbrandtoksin, og der er ingen plausibel PA-afhængig mekanisme, der forbinder lægemidlet med sygdommen. Den høje TxGNN-score er en computerbaseret forudsigelse og afspejler sandsynligvis nærhed i videngrafen til infektionsrelaterede begreber snarere end reel biologi.
+Der er ikke påvist nogen plausibel sammenhæng mellem PA-neutralisering og den immunkompleksmedierede patologi ved postinfektiøs vaskulitis. Forudsigelsen skal derfor betragtes som et hypotesegenererende computerresultat.
 
-Øvrige forudsagte indikationer i modellen har samme svaghed: postinfektiøst syndrom, post-bakteriel lidelse, infektiøs uretrastriktur og otitis externa (alle med scorer omkring 99,7 %). Ingen af dem har kliniske forsøg eller litteratur, og ingen har en plausibel mekanistisk forbindelse til anti-PA-antistoffet. Ved otitis externa er topikale antimikrobielle midler allerede effektive, og et systemisk antistof vil have en ugunstig risk-benefit-profil.
-
----
-
-## Klinisk evidens
-
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Øvrige forudsigelser i modellen (se nedenfor) er ligeledes uden støtte i mekanisme eller kliniske data.
 
 ---
 
-## Litteraturevidens
+## Kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om markedet i Danmark
+## Litteratur
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Øvrige forudsagte indikationer
+
+| Rang | Sygdom | TxGNN-score | Evidensniveau | Beslutning |
+|---|---|---|---|---|
+| 2 | Postinfektiøst syndrom | 0,9974 | L5 | Hold |
+| 3 | Postbakteriel lidelse | 0,9974 | L5 | Hold |
+| 4 | Infektiøs uretral striktur | 0,9974 | L5 | Hold |
+| 5 | Otitis externa | 0,9971 | L5 | Hold |
+| 6 | Chagas-kardiomyopati | 0,9971 | L5 | Hold |
+| 7 | Infektionsrelateret hæmolytisk uræmisk syndrom | 0,9970 | L5 | Hold |
+| 8 | Lægemiddelinduceret osteoporose | 0,9913 | L5 | Hold |
+
+Ingen af disse har kliniske forsøg eller publikationer, og ingen har et plausibelt mekanistisk grundlag. Eksempelvis er infektionsrelateret hæmolytisk uræmisk syndrom udløst af Shiga-toksin, som obiltoxaximab ikke neutraliserer.
+
+---
+
+## Markedsinformation i Danmark
+
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28106295319 | NYXTHRACIS (SFL Pharmaceuticals Deutschland GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
@@ -88,11 +106,9 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktioner i de indsamlede data, og der er ingen registrerede kontraindikationer fra videngrafen. Data om advarsler og kontraindikationer fra produktresuméet mangler.
+Der foreligger ingen sikkerhedsdata om advarsler, kontraindikationer eller interaktioner i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Ved vurderingen af alternative anvendelser bør det bemærkes, at et systemisk monoklonalt antistof som obiltoxaximab er forbundet med en boxed warning om overfølsomhed og anafylaksi.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Det bemærkes, at risikoen for overfølsomhed og anafylaksi (boks-advarsel) er nævnt i den mekanistiske vurdering af én af de forudsagte indikationer, og at det bør indgå i enhver risk-benefit-vurdering ved anvendelse uden for den oprindelige indikation.
 
 ---
 
@@ -101,13 +117,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene baseret på en computermodel (L5) uden kliniske forsøg, uden litteratur og uden plausibel biologisk mekanisme. Lægemidlets virkning er specifik for miltbrandtoksinets beskyttende antigen, og risikoen ved et systemisk antistof opvejer ikke et uunderbygget potentiale.
+Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5), uden kliniske forsøg, litteratur eller plausibel mekanisme. Lægemidlets specifikke virkning mod miltbrand-PA understøtter ikke anvendelse ved postinfektiøs vaskulitis.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
-- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
-- Præklinisk eller mekanistisk evidens for en rolle for PA-neutralisering i postinfektiøs vaskulitis eller de øvrige forudsagte sygdomme
-- Vurdering af administrationsvej og kompatibilitet (kun intravenøs infusion er tilgængelig)
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
+- Præklinisk eller mekanistisk evidens for en rolle ved postinfektiøs vaskulitis
+- Vurdering af anafylaksirisiko og administrationsvej i den nye patientgruppe
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

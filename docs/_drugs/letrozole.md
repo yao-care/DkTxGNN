@@ -4,17 +4,17 @@ title: Letrozole
 parent: Høj evidens (L1-L2)
 nav_order: 491
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Letrozole: forudsagt ny indikation Kvindelig brystkræft (rang 1) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: forudsagt ny indikation Nipple carcinoma (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Letrozol: Fra brystkræft til østrogenreceptor-positiv brystkræft
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Letrozol er en aromatasehæmmer, der i Danmark er markedsført som filmovertrukne tabletter. Den primære forudsigelse fra TxGNN-modellen er **kvindelig brystkræft** (rangeret som nr. 1), og den mest veldokumenterede forudsigelse er **østrogenreceptor-positiv brystkræft** (rangeret som nr. 5). Disse er i praksis allerede etablerede anvendelser og ikke egentlig nyt repurposing. Evidensen omfatter **39 registrerede kliniske forsøg** for den primære forudsigelse samt adskillige fase 3-RCT'er og en metaanalyse for den østrogenreceptor-positive forudsigelse.
+Letrozol er en aromatasehæmmer, der i Danmark er markedsført som filmovertrukne tabletter. Den primære forudsigelse fra TxGNN-modellen er **brystvortekarcinom** (rangeret som nr. 1). Evidensen omfatter **39 registrerede kliniske forsøg** for den primære forudsigelse.
 
 *Bemærkning: De data, der er indsamlet til denne rapport, indeholder ingen godkendt indikation for lægemidlet, og virkningsmekanismen mangler. Rapporten tager derfor udgangspunkt i den højest rangerede forudsigelse og i den bedst understøttede forudsigelse (østrogenreceptor-positiv brystkræft). Den ukorrigerede originalindikation bør rettes i grunddata.*
 
@@ -48,12 +48,12 @@ Letrozol er en aromatasehæmmer, der i Danmark er markedsført som filmovertrukn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom) |
-| Forudsagt ny indikation | Kvindelig brystkræft (rang 1); bedst understøttet: østrogenreceptor-positiv brystkræft (rang 5) |
-| TxGNN-forudsigelsesscore | 99,98 % (kvindelig brystkræft); 99,75 % (østrogenreceptor-positiv brystkræft) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Nipple carcinoma |
+| TxGNN-forudsigelsesscore | 0.9976 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

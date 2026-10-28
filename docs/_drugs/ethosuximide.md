@@ -48,10 +48,10 @@ men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publik
 |------|------|
 | Oprindelig indikation | Absence-epilepsi (iht. videnbasen i TxGNN; den danske godkendelsestekst er ikke angivet) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -60,7 +60,7 @@ Data om ethosuximids detaljerede virkningsmekanisme foreligger ikke i de data, d
 
 Der er ikke noget etableret biologisk link mellem denne mekanisme og NSIAD. NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2) eller i nogle tilfælde GNAS-relateret signalering og medfører vandretention og hyponatriæmi. En sammenhæng kunne tænkes via indirekte effekter på calciumsignalering eller nedstrøms regulering af aquaporin-2, men det er spekulativt og ikke understøttet af data.
 
-Den meget høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en valideret biologisk begrundelse. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et evidensbaseret fund.
+Den meget høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et evidensbaseret fund.
 
 ## Kliniske forsøg
 

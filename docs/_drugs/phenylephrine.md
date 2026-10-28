@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Moderat evidens (L3-L4)
 nav_order: 657
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis…"
 monitor_inn: "phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Fenylephrin: Fra næse- og svælgslimhindelidelser til lidelser i næsehulen
+## Phenylephrine: Lidelser i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **5 publikationer** me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, almindelig forkølelse m.fl. (fra vidensgrafen; de danske markedsføringstilladelser har ingen angivet indikationstekst) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Lidelser i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -131,8 +131,8 @@ Forudsigelsen er mekanistisk plausibel, men overlapper i vid udstrækning med ek
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Kommentar |
 |------|------|------|------|------|
-| Akut laryngopharyngitis | 99,97 % | L5 | Hold | Ingen forsøg eller litteratur; laryngeal involvering er ikke tydeligt dækket af en dekongestiv mekanisme |
-| Trigeminal autonom cephalalgi | 99,30 % | L4 | Hold | 13 ældre pupillometriske studier (1987-2010), hvor fenylephrin kun er brugt som diagnostisk prøvestof, ikke som behandling |
+| Akut laryngopharyngitis | 0,9997 | L5 | Hold | Ingen forsøg eller litteratur; laryngeal involvering er ikke tydeligt dækket af en dekongestiv mekanisme |
+| Trigeminal autonom cephalalgi | 0,9930 | L4 | Hold | 13 ældre pupillometriske studier (1987-2010), hvor fenylephrin kun er brugt som diagnostisk prøvestof, ikke som behandling |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Caplacizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 155
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Caplacizumab: forudsagt ny indikation Primær frigørelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopenisk purpura (erhvervet TTP)"
+indication_count: 9
 monitor_inn: "Caplacizumab"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "Scott syndrome", "Scott syndrome"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
+last_modified_at: 2026-10-27
+description: "Caplacizumab: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Caplacizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,73 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Caplacizumab: Fra trombocytopenisk purpura til primær frigørelsesforstyrrelse af blodplader
+## Caplacizumab: von Willebrand-faktor-hæmmer (anti-vWF-nanobody) → Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets)
 {: .text-alpha }
 
-## Resumé i få sætninger
+## Opsummering i én sætning
 
-Caplacizumab er en anti-von Willebrand-faktor (vWF) nanobody, som oprindeligt anvendes til behandling af trombocytopenisk purpura (i praksis erhvervet trombotisk trombocytopenisk purpura, TTP).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader** (primary release disorder of platelets).
-Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske studier** og **0 publikationer** for netop denne indikation, og den mekanistiske sammenhæng vurderes som svag.
-
----
+Caplacizumab er en anti-vWF-nanobody, der blokerer vWF's binding til blodplader. Den TxGNN-model forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets)**. Der er dog **ingen kliniske forsøg og ingen publikationer**, som direkte undersøger denne sygdom, så forudsigelsen hviler alene på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Trombocytopenisk purpura (erhvervet TTP) |
-| Forudsagt ny indikation | Primær frigørelsesforstyrrelse af blodplader |
-| TxGNN-prædiktionsscore | 99,9998 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+Der foreligger i de indsamlede data ingen detaljerede oplysninger om lægemidlets virkningsmekanisme. Ud fra den kendte farmakologi binder caplacizumab vWF's A1-domæne og blokerer interaktionen mellem vWF og blodpladernes GPIb-IX-V-receptor, så blodpladeadhæsion og mikrotrombedannelse hæmmes.
 
-Detaljerede data om virkningsmekanismen fra lægemiddeldatabasen var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den kendte farmakologi binder caplacizumab A1-domænet i vWF og blokerer dermed vWF's binding til blodpladernes GPIb-IX-V-receptor. Ved erhvervet TTP mangler enzymet ADAMTS13, så ultralange vWF-multimerer ophobes og driver mikrotrombedannelse. Caplacizumab rammer netop denne mekanisme.
+Primære frigivelsesforstyrrelser skyldes defekt sekretion fra blodpladernes granula, altså trin der ligger efter adhæsionen. Der er derfor ikke noget klart mekanistisk grundlag for, at en hæmning af adhæsion skulle gavne. Tværtimod må man forvente, at yderligere hæmning af blodpladefunktionen kan forværre en blødningstendens. Den høje modelscore bør derfor læses som en ren modelforudsigelse uden klinisk støtte.
 
-Primære frigørelsesforstyrrelser af blodplader er derimod iboende defekter i pladernes lagrings- eller sekretionsfunktion. De drives ikke af vWF-medieret adhæsion. Sygdommen er en blødningsforstyrrelse, og en hæmning af vWF-pladebinding forventes snarere at forværre end at forbedre tilstanden. Den meget høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen mellem blodpladesygdomme og ikke et reelt terapeutisk rationale.
+## Klinisk forsøgsevidens
 
-Blandt de øvrige forudsigelser er pseudo-von Willebrand-sygdom den eneste med en teoretisk plausibel kobling. Den skyldes gain-of-function-mutationer i GPIbα, som øger pladernes affinitet for vWF. Også her er der dog betydelig blødningsrisiko, og der findes ingen kliniske data. Glanzmanns trombasteni og Scott-syndrom har ingen tydelig mekanistisk forbindelse til caplacizumab, og yderligere svækkelse af pladefunktionen vil forventes at øge blødningsrisikoen.
-
-Det bemærkes, at TTP-forudsigelsen i datasættet (evidensniveau L1) er lægemidlets godkendte oprindelige indikation og altså ikke egentlig repurposing.
-
----
-
-## Evidens fra kliniske studier
-
-Der er på nuværende tidspunkt ingen registrerede kliniske studier for primær frigørelsesforstyrrelse af blodplader.
-
-Til orientering: De studier, der findes for caplacizumab, vedrører den oprindelige indikation (erhvervet TTP), bl.a. fase 3-studiet HERCULES (NCT02553317, n=145) og fase 2-studiet TITAN (NCT01151423, n=75). De kan ikke overføres til den forudsagte indikation.
-
----
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relevant litteratur for primær frigørelsesforstyrrelse af blodplader.
+Der er aktuelt ingen relateret litteratur, som undersøger denne sygdom.
 
----
+## Information om markedet i Danmark
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105912417 | Cablivi (Ablynx NV) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+| 28105912417 | Cablivi | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedsmæssige overvejelser
+**Lægemiddelinteraktioner:** Der er registreret 100 mulige interaktioner. Blandt de væsentlige (alvorlighedsgrad "Major") er:
+- Acetylsalicylsyre
+- Abciximab
+- Alteplase
+- Fondaparinux
+- Anagrelid
+- Deferasirox
+- Acalabrutinib
+- Trastuzumab emtansin
+- Ibritumomab tiuxetan og tositumomab
 
-**Lægemiddelinteraktioner:** Interaktionsforespørgslen er gennemført og viser i alt 100 registrerede interaktioner. Blandt de gennemgåede er følgende af betydning, især fordi caplacizumab hæmmer pladeadhæsion og dermed øger blødningsrisikoen.
+Moderate interaktioner omfatter bl.a. ibuprofen, ketorolac, celecoxib og fluvoxamin. Fælles for mange af disse er øget blødningsrisiko.
 
-- **Alvorlige (Major):** acetylsalicylsyre, abciximab, alteplase, fondaparinux, anagrelid, acalabrutinib, deferasirox, trastuzumab emtansin, ibritumomab tiuxetan og tositumomab (inkl. I-131).
-- **Moderate:** ibuprofen, ketorolac (inkl. oftalmisk), celecoxib, topisk diclofenac, fluvoxamin, fenfluramin, dexfenfluramin og sibutramin.
-
-Ved en blødningsforstyrrelse som den forudsagte indikation vil disse kombinationer have ekstra vægt. Oplysninger om advarsler og kontraindikationer findes i det godkendte produktresumé (SmPC).
-
----
+Derudover bør man bemærke, at caplacizumab hæmmer blodpladeadhæsion og derfor teoretisk kan forværre blødning ved sygdomme med blødningstendens. Se i øvrigt det godkendte produktresumé (SmPC) for øvrige advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en grafbaseret modelscore uden kliniske studier eller litteratur. Caplacizumabs virkningsmekanisme (hæmning af vWF-pladebinding) peger desuden mod øget blødningsrisiko ved en blødningsforstyrrelse i blodpladerne, ikke mod gavn.
+Forudsigelsen er alene modelbaseret (evidensniveau L5), og der er hverken kliniske forsøg eller publikationer om denne sygdom. Den mekanistiske sammenhæng er svag, og blødningsrisikoen taler imod anvendelse.
 
-**For at komme videre kræves:**
-- Hentning af data om virkningsmekanisme og af produktresuméets advarsler og kontraindikationer, så sikkerhedsscreeningen kan gennemføres
-- En fornyet mekanistisk vurdering, evt. med præklinisk dokumentation, før et eventuelt klinisk spor overvejes
-- Hvis der alligevel ønskes en videre udredning, bør pseudo-von Willebrand-sygdom prioriteres, med en grundig risikovurdering af blødning
+**For at komme videre kræves følgende:**
+- Et klart mekanistisk rationale for, hvorfor hæmning af vWF-GPIb-interaktionen skulle gavne ved en granulasekretionsdefekt
+- Prækliniske data, der kan belyse effekt og blødningsrisiko
+- En vurdering af blødningssikkerhed, før eventuelle kliniske studier overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

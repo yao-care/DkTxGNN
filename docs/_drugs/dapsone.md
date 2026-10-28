@@ -6,9 +6,9 @@ nav_order: 235
 evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dapsone: forudsagt ny indikation Pneumocystose (evidensniveau L1). Oprindelig indikation: Dermatitis herpetiformis, akne og lepra"
 monitor_inn: "dapsone"
 predicted_indications: ["pneumocystosis"]
+description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dapsone
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Dapsone: Fra dermatitis herpetiformis, acne og lepra til pneumocystose
+## Dapsone: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ og der er i de indsamlede data **10 kliniske forsøg** og **20 publikationer**, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Dermatitis herpetiformis, akne og lepra (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Pneumocystose |
-| TxGNN-prædiktionsscore | 99,73 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
+| TxGNN-prædiktionsscore | 0.9973 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -64,7 +64,7 @@ De data, der er indsamlet til denne rapport, indeholder ikke en registreret virk
 
 Dapsone er et veletableret andenvalgspræparat til forebyggelse af Pneumocystis-lungebetændelse (PCP), især hos patienter, der ikke tåler trimethoprim-sulfamethoxazol (TMP-SMX). Det bruges også til behandling i kombination med trimethoprim. Dapsones antimikrobielle og antiinflammatoriske egenskaber, som allerede udnyttes ved lepra og neutrofile hudsygdomme, hænger således mekanistisk sammen med den nye indikation.
 
-TxGNN-scoren på 0,997 stemmer overens med denne mekanisme og med den kliniske erfaring.
+TxGNN-scoren på 0,9973 stemmer overens med denne mekanisme og med den kliniske erfaring.
 
 ---
 

@@ -48,10 +48,10 @@ Lomustin er et alkylerende nitrosourea-middel, der oprindeligt anvendes til beha
 |------|------|
 | Oprindelig indikation | Hodgkins lymfom og hjernekræft/hjernetumorer (fra videnbasen PrimeKG; indikationsteksten i den danske godkendelse er ikke angivet) |
 | Forudsagt ny indikation | Lymfosarkom |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

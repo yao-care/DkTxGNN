@@ -6,9 +6,9 @@ nav_order: 422
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Idebenone: forudsagt ny indikation Hepatisk porfyri (evidensniveau L5). Oprindelig indikation: Leberhereditær optikusneuropati (ifølge TxGNN-vidensgrafen"
 monitor_inn: "idebenone"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
+description: "Idebenone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Idebenone
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Idebenon: Fra Leberhereditær optikusneuropati til hepatisk porfyri
+## Idebenone: Hepatisk porfyri (hepatic porphyria)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er i de data, der er indsamlet til denne rapport, **ingen kliniske fors�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leberhereditær optikusneuropati (ifølge TxGNN-vidensgrafen; indikationsteksten i det danske markedsføringstilladelsesregister er ikke angivet) |
-| Forudsagt ny indikation | Hepatisk porfyri |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatisk porfyri (hepatic porphyria) |
+| TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

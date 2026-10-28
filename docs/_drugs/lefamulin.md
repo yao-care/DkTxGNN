@@ -4,17 +4,17 @@ title: Lefamulin
 parent: Kun modelforudsigelse (L5)
 nav_order: 486
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Lefamulin: forudsagt ny indikation Diffus kutan leishmaniasis (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse (ifølge videnbasen"
 monitor_inn: "Lefamulin"
-predicted_indications: ["leishmaniasis, diffuse cutaneous", "leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia", "blood group incompatibility", "blood group incompatibility"]
+predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Lefamulin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 |------|------|
 | Oprindelig indikation | Bakteriel lungebetændelse (ifølge videnbasen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
 | Forudsagt ny indikation | Diffus kutan leishmaniasis |
-| TxGNN-forudsigelsesscore | 99,24 % |
+| TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekani
 
 Leishmaniasis forårsages af en protozo (*Leishmania*), som har et andet ribosom end bakterier. Der er ikke fremlagt nogen dokumentation for antileishmanial aktivitet. Der kan derfor ikke påvises en klar mekanistisk sammenhæng mellem den oprindelige indikation (bakterielle luftvejsinfektioner) og den forudsagte indikation.
 
-Den høje score (0,992) skal tolkes som en ren modelforudsigelse, ikke som klinisk belæg. Samme forbehold gælder de øvrige forudsigelser med lignende scores (polyklonalt hyperviskositetssyndrom, hyperamylasæmi, medfødt analbuminæmi og blodtypeinkompatibilitet). For ingen af dem er der fundet en plausibel mekanistisk sammenhæng, kliniske forsøg eller litteratur.
+Den høje score (0,9924) skal tolkes som en ren modelforudsigelse, ikke som klinisk belæg. Samme forbehold gælder de øvrige forudsigelser med lignende scores (polyklonalt hyperviskositetssyndrom, hyperamylasæmi, medfødt analbuminæmi og blodtypeinkompatibilitet). For ingen af dem er der fundet en plausibel mekanistisk sammenhæng, kliniske forsøg eller litteratur.
 
 ---
 

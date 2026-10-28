@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 876
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (renal cell carcinoma) (evidensniveau L5). Oprindelig indikation: Skjoldbruskkirtelkræft (fra videnbasen"
 monitor_inn: "Vandetanib"
-predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "renal pelvis carcinoma"]
+predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-23
+description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (evidensniveau L5). Oprindelig indikation: Skjoldbruskkirtelkarcinom"
 ---
 
 # Vandetanib
@@ -33,107 +33,100 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Vandetanib: Fra skjoldbruskkirtelkræft til nyrecellekarcinom
+## Vandetanib: Fra skjoldbruskkirtelkarcinom til nyrecellekarcinom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Vandetanib er en oral multikinasehæmmer, der oprindeligt anvendes til behandling af skjoldbruskkirtelkræft. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **nyrecellekarcinom (renal cell carcinoma)**. Der er **4 kliniske forsøg** (alle fase 2 eller fase 1/2, to af dem afsluttet for tidligt) og **5 publikationer** i de data, der er indsamlet til denne rapport, men ingen af dem dokumenterer effekt.
-
----
+Vandetanib er en oral tyrosinkinasehæmmer, som i den viden, der ligger til grund for modellen, er knyttet til skjoldbruskkirtelkarcinom. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **nyrecellekarcinom**. Evidensen består af **4 kliniske forsøg** (3 fase 2-forsøg og 1 fase 1/2-forsøg direkte på nyrekræft, hvoraf 2 er afsluttet) og en række publikationer, men ingen offentliggjorte effektresultater.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skjoldbruskkirtelkræft (fra videnbasen; den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Nyrecellekarcinom (renal cell carcinoma) |
-| TxGNN-prædiktionsscore | 99,92 % |
-| Evidensniveau | L2 (Fase 2-forsøg findes, men ingen resultater og ingen fase 3) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (afvent; kun som forskningsspørgsmål) |
+| Oprindelig indikation | Skjoldbruskkirtelkarcinom (relation registreret i vidensgrafen; den danske markedsføringstilladelse indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Nyrecellekarcinom |
+| TxGNN-forudsigelsesscore | 0,9992 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
+| Anbefalet beslutning | Hold |
 
----
+Evidensniveauet er sat til L5. De fire forsøg undersøger nyrekræft, men der er ingen publicerede resultater, og to af dem blev afsluttet tidligt med henholdsvis 3 og 7 patienter. Dermed er der ikke noget fortolkeligt datagrundlag for effekt ved nyrecellekarcinom. Den datakompilering, der ligger til grund for rapporten, vurderede selv evidensen som L2. Jeg har dog ikke kunnet finde noget publiceret studie med resultater, der understøtter dette.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Vandetanib hæmmer flere receptortyrosinkinaser, bl.a. VEGFR2, EGFR og RET. Der foreligger ikke detaljerede mekanismedata fra de indsamlede kilder, men denne beskrivelse stammer fra den mekanistiske vurdering i datagrundlaget.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i den datakompilering, der ligger til grund for rapporten. Ud fra den kendte biologi hæmmer vandetanib VEGFR2, EGFR og RET. Hæmning af VEGFR2 (anti-angiogenese) er en veletableret mekanisme ved nyrecellekarcinom.
 
-Ved klarcellet nyrecellekarcinom medfører tab af VHL-genet øget HIF- og VEGF-signalering, som driver tumorens karnydannelse. Hæmning af VEGFR-drevet angiogenese er derfor biologisk relevant. Det samme gælder arvelige former (VHL-sygdom, HLRCC/SDH-deficient nyrekræft) med en pseudohypoksisk profil.
+Ved klarcellet nyrecellekarcinom, især ved von Hippel-Lindau-sygdom, fører tab af VHL til ophobning af HIF og overekspression af VEGF. Det gør tumorerne afhængige af nydannelse af blodkar. Skjoldbruskkirtelkarcinom og nyrecellekarcinom er forskellige sygdomme, men en fælles angiogenesemekanisme kan forklare, hvorfor modellen forbinder dem.
 
-Skjoldbruskkirtelkræft og nyrecellekarcinom er forskellige sygdomme, men begge kan påvirkes af tyrosinkinasehæmning. Rationalet er plausibelt, men TxGNN-scoren er en modelforudsigelse og ikke klinisk bevis.
+Der er dog vigtige forbehold. De tilgængelige forsøg viser ingen klar positiv effekt, og der findes allerede godkendte lægemidler til nyrecellekarcinom. Det eneste afsluttede randomiserede forsøg (NCT01191892) omhandlede urotelialt karcinom og ikke nyrecellekarcinom.
 
----
+## Evidens fra kliniske forsøg
 
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal patienter | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste fund |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Fase 2 | Afsluttet | 37 | Vandetanib ved von Hippel-Lindau-sygdom med nyretumorer. Direkte relevant, men resultater foreligger ikke i data. |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Fase 2 | Afsluttet | 82 | Randomiseret: carboplatin + gemcitabin med eller uden vandetanib ved fremskreden urotelkræft. Kun indirekte relevant for nyrecellekarcinom; ingen resultater. |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Fase 1/2 | Afsluttet før tid | 7 | Vandetanib + metformin ved HLRCC/SDH-associeret eller sporadisk papillær nyrekræft. Kun 7 patienter, minimal evidens. |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Fase 2 | Afsluttet før tid | 3 | Vandetanib ved fremskreden klarcellet nyrekræft. Kun 3 patienter, ingen brugbar evidens. |
-
----
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Fase 2 | Afsluttet tidligt | 3 | Vandetanib ved fremskreden klarcellet nyrekræft. Stoppet efter kun 3 patienter, ingen brugbare data |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Fase 2 | Afsluttet | 37 | Vandetanib ved von Hippel-Lindau-sygdom med nyretumorer. Arvelig subpopulation, resultater ikke tilgængelige |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Fase 1/2 | Afsluttet tidligt | 7 | Vandetanib + metformin ved HLRCC-/SDH-associeret eller sporadisk papillær nyrekræft. Stoppet med 7 patienter, ingen fortolkelige effektdata |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Fase 2 | Afsluttet | 82 | Randomiseret: carboplatin + gemcitabin med eller uden vandetanib ved fremskreden urotelkræft (ikke egnet til cisplatin). Kun indirekte relevant for nyrecellekarcinom |
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Vigtigste fund |
 |------|-----|------|------|---------|
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Review | Clin Exp Metastasis | Behandling af metastatisk fumaratehydratase-deficient nyrecellekarcinom; der er ingen standardbehandling, og flere fase 2-forsøg med målrettede kombinationer er i gang. |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Review | OncoTargets Ther | Oversigt over antiangiogene stoffer (herunder vandetanib) og nintedanib ved solide tumorer. |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Review | ASCO Educ Book | Systemisk behandling af fremskreden skjoldbruskkirtelkræft; vandetanib som RET-hæmmer ved medullær thyreoideakræft. |
-| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Review | Pharmacol Res | RET-hæmmere ved RET-drevet kræft i skjoldbruskkirtel og lunge. Kun indirekte relevant. |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Præklinisk (musemodel) | Mol Cancer Res | Musemodel af TFE3 Xp11.2-translokations-nyrecellekarcinom; peger på nye behandlingsmål, men viser ikke vandetanib-effekt. |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Oversigtsartikel | Clin Exp Metastasis | Målrettede behandlinger ved fumaratdehydratase-mangelfuld nyrecellekarcinom. Ingen standardbehandling endnu |
+| [32105149](https://pubmed.ncbi.nlm.nih.gov/32105149/) | 2020 | Metaanalyse | Expert Rev Clin Pharmacol | Forekomst og risiko for proteinuri ved VEGFR-tyrosinkinasehæmmere, herunder vandetanib |
+| [22651902](https://pubmed.ncbi.nlm.nih.gov/22651902/) | 2012 | Metaanalyse | Cancer Treat Rev | Behandlingsrelateret dødelighed ved VEGFR-tyrosinkinasehæmmere ved avancerede solide tumorer |
+| [23981115](https://pubmed.ncbi.nlm.nih.gov/23981115/) | 2014 | Metaanalyse | Br J Clin Pharmacol | Forekomst og risiko for levertoksicitet ved antiangiogene tyrosinkinasehæmmere |
+| [32691271](https://pubmed.ncbi.nlm.nih.gov/32691271/) | 2021 | Kohorte | Endocrine | Langtidsopfølgning og sikkerhed af vandetanib ved medullært skjoldbruskkirtelkarcinom |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Oversigtsartikel | ASCO Educ Book | Systemisk behandling af avanceret skjoldbruskkirtelkræft, herunder vandetanib |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Præklinisk | Mol Cancer Res | Musemodel for TFE3-translokationsnyrecellekarcinom; ikke direkte test af vandetanib |
+| [20346054](https://pubmed.ncbi.nlm.nih.gov/20346054/) | 2011 | Præklinisk | BJU Int | Effekt af tyrosinkinasehæmmere på ophobning af antistoffet cG250 i nyrecellekarcinom-xenografter i mus |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Oversigtsartikel | OncoTargets Ther | Profil af nintedanib; nævner vandetanib blandt antiangiogene midler |
+| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Oversigtsartikel | Pharmacol Res | RET-hæmmere ved RET-drevet skjoldbruskkirtel- og lungekræft |
 
----
+Ingen af disse publikationer rapporterer effekt af vandetanib ved nyrecellekarcinom hos patienter.
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104777710 | Caprelsa (Sanofi B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28104777710 | Caprelsa | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de samlede data |
 
----
+Der er registreret 1 gyldig national tilladelse til et monopræparat (Sanofi B.V.). Tilladelsen er markedsført i Danmark.
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (tyrosinkinasehæmmer), ikke konventionel cytostatika |
+| Cytotoksicitetsklassifikation | Målrettet behandling (multikinasehæmmer mod VEGFR2, EGFR og RET) |
 | Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitet | Se produktresuméet (SmPC) |
-| Monitorering | Se SmPC; videnbasen peger på særlig opmærksomhed omkring QT-forlængelse, elektrolytter (kalium, calcium), blodtryk, skjoldbruskkirtelfunktion og nyrefunktion |
-| Håndtering | Følg gældende regler for håndtering af cytotoksiske lægemidler, og se SmPC |
-
----
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC). Litteraturen peger på overvågning af QT-interval, elektrolytter, blodtryk, nyrefunktion (proteinuri) og leverfunktion |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation.
+Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de samlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-- **Mulige kontraindikationer fra videnbasen (ikke fra produkttekst):** langt QT-syndrom og torsades de pointes, hypertension, hjerteinsufficiens, hypothyroidisme, kaliummangel, hypercalcæmi, nedsat nyrefunktion, interstitiel lungesygdom, cerebral iskæmi/TIA og posterior leukoencefalopati-syndrom.
-- **Lægemiddelinteraktioner (100 registrerede; udvalgte):**
-  - **Alvorlige (Major):** clarithromycin, levofloxacin, dolasetron, palonosetron, picosulfat, polyethylenglycol med elektrolytter, natriumsulfat. Flere af disse er relevante pga. additiv QT-forlængelse eller elektrolytforstyrrelser.
-  - **Moderate:** famotidin, metformin, loperamid, dexamethason, bisacodyl, lactitol.
-  - **Milde (Minor):** ranitidin, rabeprazol, omeprazol, lansoprazol, dexlansoprazol, metronidazol, naloxegol.
-
----
+- **Sygdomme med registreret kontraindikationsrelation i vidensgrafen** (ikke fra produkttekst): forhøjet blodtryk, langt QT-syndrom og torsades de pointes, hypothyreose, kaliummangel, hyperkalcæmi, nedsat nyrefunktion, interstitiel lungesygdom, hjertesvigt, hjerneiskæmi/transitorisk iskæmisk anfald og posterior leukoencefalopatisyndrom.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Der er flere af alvorlig grad (major), bl.a. med clarithromycin, levofloxacin, dolasetron, palonosetron, picosulfat, natriumsulfat og polyethylenglycol med elektrolytter. Flere af disse er relevante på grund af risikoen for QT-forlængelse og forstyrrelser i elektrolytbalancen. Moderate interaktioner omfatter bl.a. famotidin, metformin, loperamid, dexamethason, bisacodyl og lactitol.
+- **Litteraturens sikkerhedssignaler:** QT-forlængelse, proteinuri, levertoksicitet og behandlingsrelateret dødelighed ved VEGFR-hæmmere.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score understøttes kun af små, tidligt afsluttede eller resultatløse fase 2-forsøg, og der er ingen fase 3-evidens. Sikkerhedsprofilen (bl.a. QT-forlængelse og blodtryk) kræver desuden omhyggelig vurdering, og dataene mangler produktresuméets sikkerhedsoplysninger.
+Mekanismen er biologisk rimelig, men de fire forsøg på nyrekræft har ingen tilgængelige resultater, og to blev stoppet meget tidligt. Der findes allerede godkendte behandlinger til nyrecellekarcinom, og sikkerhedsprofilen (QT-forlængelse, blodtryk, proteinuri) kræver forsigtighed. Der er derfor ikke grundlag for at gå videre til klinisk anvendelse.
 
 **For at komme videre kræves:**
-- Publicerede resultater fra NCT00566995 (VHL-sygdom) og NCT01191892 (afklaring af, om populationen omfatter nyrebækken-/urotelkræft)
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, den godkendte indikationstekst)
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Sammenligning med godkendt standardbehandling af nyrecellekarcinom
-- En plan for sikkerhedsmonitorering (EKG, elektrolytter, blodtryk, skjoldbruskkirtel) til en eventuel undersøgelse
+- Resultater fra NCT00566995 (VHL-sygdom, n=37) og de afsluttede forsøg
+- Data om virkningsmekanisme og produktresumé (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
+- Et velgennemført forsøg i en veldefineret nyrekræftpopulation, fx VHL-associeret eller papillær nyrecellekarcinom, med sammenligning mod nuværende standardbehandling
+- En risikovurdering for hjerte- og elektrolytsikkerhed samt interaktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 887
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vinblastine: forudsagt ny indikation Rhabdomyosarkom (evidensniveau L4). Oprindelig indikation: Lymfomer, herunder Hodgkins lymfom, non-Hodgkin-lymfom…"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: forudsagt ny indikation Rhabdomyosarkom (rhabdomyosarcoma (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Vinblastin: Fra lymfom og Hodgkins sygdom til rhabdomyosarkom
+## Vinblastine: Rhabdomyosarkom (rhabdomyosarcoma (disease))
 {: .text-alpha }
 
 ## Opsummering
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer** (p
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lymfomer, herunder Hodgkins lymfom, non-Hodgkin-lymfom, mycosis fungoides og Langerhans-celle-histiocytose (fra videngrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Rhabdomyosarkom |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rhabdomyosarkom (rhabdomyosarcoma (disease)) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (kan undersøges som forskningsspørgsmål) |
 
 ---

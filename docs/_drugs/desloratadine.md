@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desloratadine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 250
-evidence_level: L2
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine: forudsagt ny indikation Kuldeurticaria (cold urticaria) (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "desloratadine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+description: "Desloratadine: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Desloratadin: Fra allergisk rhinitis til kuldeurticaria
+## Desloratadine: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Desloratadin er en selektiv perifer H1-antihistamin, oprindeligt anvendt til allergisk rhinitis og urticaria.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt mod **kuldeurticaria (cold urticaria)**,
+TxGNN-modellen forudsiger, at lægemidlet kan være effektivt mod **næsehulesygdom (nasal cavity disease)**,
 og der foreligger **2 kliniske forsøg** og **6 publikationer** (heraf 2 randomiserede kontrollerede forsøg), som understøtter denne retning.
 
 ---
@@ -48,12 +48,12 @@ og der foreligger **2 kliniske forsøg** og **6 publikationer** (heraf 2 randomi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, idiopatisk og allergisk urticaria, allergiske konjunktivitter m.fl. (de danske markedsføringstilladelser indeholder ikke indikationstekst i de foreliggende data) |
-| Forudsagt ny indikation | Kuldeurticaria (cold urticaria) |
-| TxGNN-prædiktionsscore | 99,94 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Nasal cavity disease |
+| TxGNN-prædiktionsscore | 0.9987 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

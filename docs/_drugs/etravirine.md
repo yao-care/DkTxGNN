@@ -4,17 +4,17 @@ title: Etravirine
 parent: Kun modelforudsigelse (L5)
 nav_order: 339
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Etravirine: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+description: "Etravirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Etravirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Etravirine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der direkte un
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (hentet fra videngrafen; godkendelsesteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Felint erhvervet immundefektsyndrom |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -69,7 +69,7 @@ Mekanismen er imidlertid svag: FIV's revers transkriptase er generelt mindre fø
 **Andre forudsagte indikationer** (i rækkefølge efter score) har samme eller svagere støtte:
 - **Simian immundefektvirusinfektion** (L4): kun ét indirekte preklinisk studie (PMID 26529558). SIV er, som HIV-2, naturligt resistent over for mange NNRTI'er.
 - **AIDS-relateret kompleks** og **kongenit HIV** (L4): ligger inden for den eksisterende HIV-indikation og er derfor ikke ægte repurposing. For kongenit HIV foreligger en case-rapport om etravirin under graviditet (PMID 20587860), som er relevant for sikkerhedsvurdering, men ikke for behandling af infektion hos spædbørn.
-- Benigne tumorer (prostatafibrom, Brennertumor, benigne reproduktive neoplasmer, benign prostata-phyllodes-tumor), en neuroudviklingsforstyrrelse og en forældet diagnose for familiær kombineret hyperlipidæmi: ingen plausibel mekanisme og ingen evidens. Forudsigelserne er sandsynligvis artefakter fra grafen.
+- Benigne tumorer (prostatafibrom, Brennertumor, benigne reproduktive neoplasmer, benign prostata-phyllodes-tumor), en neuroudviklingsforstyrrelse og en forældet diagnose for familiær kombineret hyperlipidæmi: ingen plausibel mekanisme og ingen evidens. Forudsigelserne stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

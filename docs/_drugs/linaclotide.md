@@ -4,17 +4,17 @@ title: Linaclotide
 parent: Kun modelforudsigelse (L5)
 nav_order: 499
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Linaclotide: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Irritabel tarm-syndrom"
 monitor_inn: "LINACLOTIDE"
-predicted_indications: ["cauda equina syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "obsolete neurogenic bladder (disease)", "insomnia (disease)", "insomnia (disease)"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
 ---
 
 # Linaclotide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Irritabel tarm-syndrom (ifølge vidensgrafen; den danske godkendelse har ingen registreret indikationstekst) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

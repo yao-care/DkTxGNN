@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "granulomatous-disease-chronic-x-linked",
-          "display": "granulomatous disease, chronic, X-linked"
-        }
-      ],
-      "text": "granulomatous disease, chronic, X-linked",
       "concept": {
         "text": "granulomatous disease, chronic, X-linked"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9987
     }
   ]
 }

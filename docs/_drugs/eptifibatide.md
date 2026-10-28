@@ -6,9 +6,9 @@ nav_order: 318
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Eptifibatide: forudsagt ny indikation Hæmoglobinopati (herunder seglcellesygdom) (evidensniveau L5). Oprindelig indikation: Akut koronarsyndrom (fra TxGNN-vidensgrafen"
 monitor_inn: "eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
+description: "Eptifibatide: forudsagt ny indikation Rheumatoid arthritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Eptifibatide
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Eptifibatid: Fra akut koronarsyndrom til hæmoglobinopati (seglcellesygdom)
+## Eptifibatide: Rheumatoid arthritis
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -50,12 +50,12 @@ Evidensen er begrænset til små, tidlige studier, og effekt er ikke påvist.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut koronarsyndrom (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Hæmoglobinopati (herunder seglcellesygdom) |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L2 (kun små tidlige studier; ingen afsluttet fase 3 RCT) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rheumatoid arthritis |
+| TxGNN-forudsigelsesscore | 0.9999 |
+| Evidensniveau | L5 (kun små tidlige studier; ingen afsluttet fase 3 RCT) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål, ikke klar til klinisk anvendelse) |
 
 ---
@@ -91,11 +91,11 @@ Evidensen gælder hovedsagelig seglcelleanæmi og ikke alle hæmoglobinopatier. 
 
 ## Øvrige forudsigelser (kort)
 
-- **Leddegigt** (højeste score, 99,99 %): Ingen forsøg eller publikationer. Teoretisk link via blodpladeaktivering og inflammation. Evidensniveau L5.
+- **Leddegigt** (højeste score, 0,9999): Ingen forsøg eller publikationer. Teoretisk link via blodpladeaktivering og inflammation. Evidensniveau L5.
 - **Andre seglcellesyndromer** (HbSD, HbSC, HbSE, HPFH-seglcelle, seglcelle-beta-thalassæmi): Ingen genotypespecifik evidens. Den ene tilknyttede publikation (PMID 24678072) handler om akut koronarsyndrom og er ikke et seglcellestudie. Evidensniveau L5.
 - **Brystkræft (hunkøn)**: Kun in vitro-studier, bl.a. proapoptotisk effekt i MCF-7-celler (PMID 25090985) og en organ-on-chip-model (PMID 33522559). Evidensniveau L4.
 - **Beta-thalassæmi med andre manifestationer**: Kun teoretisk rationale, ingen data. Evidensniveau L5.
-- **Delvis deletion af kromosom 16's korte arm**: Ingen plausibel direkte mekanisme. Den høje score skyldes sandsynligvis forbindelser i vidensgrafen. Evidensniveau L5.
+- **Delvis deletion af kromosom 16's korte arm**: Ingen plausibel direkte mekanisme. Evidensniveau L5.
 
 ---
 

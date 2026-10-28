@@ -6,9 +6,9 @@ nav_order: 461
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Itopride: forudsagt ny indikation Crohns sygdom i tyndtarmen (evidensniveau L5). Oprindelig indikation: Gastritis"
 monitor_inn: "itopride"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
+description: "Itopride: forudsagt ny indikation Crohns sygdom i tyndtarmen (small bowel Crohn disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Itopride
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Itopride: Fra gastritis til Crohns sygdom i tyndtarmen
+## Itopride: Crohns sygdom i tyndtarmen (small bowel Crohn disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -44,12 +44,12 @@ Itopride er et prokinetisk lægemiddel, som oprindeligt er knyttet til behandlin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Gastritis (fra TxGNN-vidensgrafen; den danske godkendelse har ingen indikationstekst i de foreliggende data) |
-| Forudsagt ny indikation | Crohns sygdom i tyndtarmen |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Crohns sygdom i tyndtarmen (small bowel Crohn disease) |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
@@ -58,15 +58,15 @@ Itopride er en dopamin D2-antagonist og acetylcholinesterasehæmmer, der fremmer
 
 Crohns sygdom er en immunmedieret, inflammatorisk tarmsygdom. Der er ingen dokumenteret mekanistisk sammenhæng mellem prokinetisk aktivitet og den inflammatoriske patologi. Desuden kan prokinetika være uhensigtsmæssige eller dårligt tolererede hos patienter med strikturer eller obstruktiv sygdom, som er hyppige ved Crohns sygdom.
 
-Den høje score (0,999) er en beregnet forudsigelse og afspejler sandsynligvis sammenhænge i vidensgrafen snarere end en biologisk understøttet kobling.
+Den høje score (0,9990) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ### Øvrige forudsagte indikationer
 
 | Rang | Sygdom | TxGNN-score | Evidensniveau | Vurdering |
 |------|------|------|------|------|
-| 2 | Venøs insufficiens | 99,23 % | L5 | Ingen plausibel mekanistisk sammenhæng mellem prokinetisk virkning og en vaskulær sygdom i venevæg og klapper. Hold |
-| 3 | Achlorhydri | 99,16 % | L5 | Itopride påvirker motilitet, ikke syresekretion, og korrigerer ikke den underliggende defekt. Mulig indirekte symptomlindring af dyspepsi er spekulativ. Biologisk tættest på den oprindelige indikation. Hold |
-| 4 | Hiatushernie | 99,02 % | L5 | Plausibel symptomatisk begrundelse (reflukssymptomer, mavetømning, tonus i nedre esofagussfinkter), men behandler ikke den anatomiske defekt. Hold |
+| 2 | Venøs insufficiens | 0,9923 | L5 | Ingen plausibel mekanistisk sammenhæng mellem prokinetisk virkning og en vaskulær sygdom i venevæg og klapper. Hold |
+| 3 | Achlorhydri | 0,9916 | L5 | Itopride påvirker motilitet, ikke syresekretion, og korrigerer ikke den underliggende defekt. Mulig indirekte symptomlindring af dyspepsi er spekulativ. Biologisk tættest på den oprindelige indikation. Hold |
+| 4 | Hiatushernie | 0,9902 | L5 | Plausibel symptomatisk begrundelse (reflukssymptomer, mavetømning, tonus i nedre esofagussfinkter), men behandler ikke den anatomiske defekt. Hold |
 
 ## Klinisk evidens
 

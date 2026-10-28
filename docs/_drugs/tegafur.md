@@ -6,9 +6,9 @@ nav_order: 798
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tegafur: forudsagt ny indikation Colonic neoplasm (tyktarmskræft) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer). Den godkendte indikationstekst for det da…"
 monitor_inn: "tegafur"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: forudsagt ny indikation Colonic neoplasm (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tegafur
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tegafur: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+## Tegafur: Colonic neoplasm
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Retningen understøttes af **16 kliniske forsøg** og **20 publikationer** i de 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavekræft (gastric cancer). Den godkendte indikationstekst for det danske præparat er ikke angivet i de indsamlede data; indikationen stammer fra TxGNN-vidensgrafen. |
-| Forudsagt ny indikation | Colonic neoplasm (tyktarmskræft) |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Colonic neoplasm |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

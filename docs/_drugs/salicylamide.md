@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Salicylamide
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 746
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Salicylamide: forudsagt ny indikation Faryngitis (evidensniveau L4). Oprindelig indikation: Hovedpine (headache disorder)"
 monitor_inn: "salicylamide"
@@ -14,7 +14,7 @@ predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopha
 # Salicylamide
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men evidensen er meget svag: der findes **ingen kliniske forsøg** og kun **1 hi
 |------|------|
 | Oprindelig indikation | Hovedpine (headache disorder) |
 | Forudsagt ny indikation | Faryngitis |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9998 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

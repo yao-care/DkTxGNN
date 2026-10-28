@@ -4,7 +4,7 @@ title: Betamethasone
 parent: Høj evidens (L1-L2)
 nav_order: 109
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Betamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Autoimmune sygdomme, inflammatoriske tilstande (bl.a. Crohns sygdom…"
 monitor_inn: "betamethasone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Betamethasone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Der er i de data, der er sammenstillet til denne rapport, **6 kliniske forsøg**
 |------|------|
 | Oprindelig indikation | Autoimmune sygdomme, inflammatoriske tilstande (bl.a. Crohns sygdom, binyrebarkinsufficiens, eksem, tinea pedis, akut lymfoblastær leukæmi). Der er ikke registreret indikationstekst for de danske tilladelser |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

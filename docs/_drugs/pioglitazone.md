@@ -50,10 +50,10 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og
 |------|------|
 | Oprindelig indikation | Type 2-diabetes mellitus |
 | Forudsagt ny indikation | Opsismodysplasi |
-| TxGNN-forudsigelsesscore | 99,59 % |
+| TxGNN-forudsigelsesscore | 0,9959 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljer
 
 Opsismodysplasi er en sjælden skeletdysplasi forårsaget af mutationer i INPPL1 (SHIP2), som er en negativ regulator af PI3K/insulin-signalering. Der findes således en teoretisk forbindelse til insulinsignalering. Der er imidlertid ikke påvist nogen sammenhæng mellem pioglitazons PPAR-gamma-agonisme og skeletdysplasi.
 
-Den høje score (0,996) er udelukkende en modelforudsigelse og kan afspejle fælles netværksmønstre i vidensgrafen frem for klinisk relevans.
+Den høje score (0,9959) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Andre forudsagte indikationer i datasættet, alle med evidensniveau L5 og anbefalingen Hold, er blandt andet fokalt stiff limb-syndrom, klassisk stiff person-syndrom, thiaminresponsivt dysfunktionssyndrom, forskellige lokaliserede lipodystrofier og pankreasagenesi. Lipodystrofierne har en teoretisk, men ubevist, begrundelse via PPAR-gamma-medieret fedtvævsdannelse.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sapropterin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 748
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (evidensniveau L4). Oprindelig indikation: Phenylketonuri og forstyrrelse af phenylalaninmetabolismen"
 monitor_inn: "sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der di
 |------|------|
 | Oprindelig indikation | Phenylketonuri og forstyrrelse af phenylalaninmetabolismen (den godkendte indikationstekst for det danske produkt indgår ikke i de indsamlede data) |
 | Forudsagt ny indikation | Forstyrrelse af tyrosinmetabolismen |
-| TxGNN-forudsigelsesscore | 99,89 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9989 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -132,9 +132,8 @@ Forudsigelsen om tyrosinmetabolisme bygger på en indirekte forbindelse via phen
 ### Bemærkning om øvrige forudsigelser
 
 De data, der er indsamlet til denne rapport, indeholder yderligere tre forudsigelser:
-- **Teratogent Pierre Robin-syndrom** (score 99,87 %, L5, Hold): Ingen sandsynlig mekanistisk forbindelse, ingen forsøg og ingen litteratur. Scoren er sandsynligvis et artefakt i vidensgrafen.
-- **Tetrahydrobiopterin-responsiv hyperphenylalaninæmi/PKU** (score 99,82 %, L1): Svarer i praksis til den allerede godkendte indikation og er derfor ikke en egentlig ny anvendelse. L1-graderingen bygger på etablerede fase 3-forsøg, som ikke indgår i de indsamlede data.
-- **Hyperphenylalaninæmi pga. tetrahydrobiopterin-mangel** (score 99,10 %, L3, Proceed with Guardrails): Mekanistisk rationel, og sapropterin indgår i standardbehandling ved syntesedefekter. Evidensen er dog hovedsageligt indirekte og retningslinjebaseret. Kræver specialistdiagnostik (pterinanalyse, DHPR-assay), og behandling med neurotransmitterprækursorer (L-dopa/carbidopa, 5-HTP) er ofte nødvendig, fordi BH4 alene ikke fuldt korrigerer neurotransmittermanglen i CNS.
+- **Teratogent Pierre Robin-syndrom** (score 0,9987, L5, Hold): Ingen sandsynlig mekanistisk forbindelse, ingen forsøg og ingen litteratur. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+- **Hyperphenylalaninæmi pga. tetrahydrobiopterin-mangel** (score 0,9910, L3, Proceed with Guardrails): Mekanistisk rationel, og sapropterin indgår i standardbehandling ved syntesedefekter. Evidensen er dog hovedsageligt indirekte og retningslinjebaseret. Kræver specialistdiagnostik (pterinanalyse, DHPR-assay), og behandling med neurotransmitterprækursorer (L-dopa/carbidopa, 5-HTP) er ofte nødvendig, fordi BH4 alene ikke fuldt korrigerer neurotransmittermanglen i CNS.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

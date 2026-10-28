@@ -8,6 +8,7 @@ nav_order: 125
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Blinatumomab
@@ -49,8 +50,8 @@ Blinatumomab (Blincyto) er et første-i-klasse bispecifikt T-celle-engager (BiTE
 | Forudsagt Ny Indikation | Ikke tilgængelig — TxGNN-forudsigelse afventer |
 | TxGNN-Forudsigelsesscore | Ikke tilgængelig |
 | Evidensgrad | Ikke bestemmelig |
-| Danmarks Markedsstatus | Ikke registreret (0 godkendelser i datasæt — se bemærkning nedenfor) |
-| Antal Markedsføringstilladelser | 0 (ifølge datasæt; sandsynligvis et datahentningshul — se bemærkning) |
+| Danmarks Markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal Markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet Beslutning | **Hold** |
 
 > **⚠️ Datanote om markedsstatus:** Blinatumomab markedsføres som **Blincyto** under EMA centraliseret godkendelse **EU/1/15/1047**, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Nul-licens-resultatet i denne Evidence Pack afspejler sandsynligvis et hul i datahentningspipelinen snarere end fravær fra det danske marked. Manuel verifikation mod Lægemiddelstyrelsen-registeret og EMA EPAR anbefales.

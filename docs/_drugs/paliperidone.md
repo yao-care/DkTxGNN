@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Kun modelforudsigelse (L5)
 nav_order: 625
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Paliperidone: forudsagt ny indikation Retinal dystrofi med eller uden ekstraokulære anomalier (evidensniveau L5). Oprindelig indikation: Psykotisk lidelse, skizofreni, skizoaffektiv lidelse (fra vide…"
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Paliperidon: Fra skizofreni til retinal dystrofi (TxGNN-topforslag)
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Opsummering
@@ -49,12 +49,12 @@ Blandt de øvrige forudsigelser er **behandlingsrefraktær skizofreni** den enes
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psykotisk lidelse, skizofreni, skizoaffektiv lidelse (fra vidensgrafen; indikationstekst fra de danske markedsføringstilladelser er ikke tilgængelig) |
-| Foreslået ny indikation | Retinal dystrofi med eller uden ekstraokulære anomalier |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

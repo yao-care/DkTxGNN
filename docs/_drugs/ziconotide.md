@@ -4,17 +4,17 @@ title: Ziconotide
 parent: Moderat evidens (L3-L4)
 nav_order: 901
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ziconotide: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "ziconotide"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "preeclampsia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Ziconotid er et lægemiddel, der gives intratekalt (direkte i rygmarvsvæsken), 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (godkendelsesteksten i den danske tilladelse er tom). Ziconotid er kendt som intratekal behandling af svær kronisk smerte. |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

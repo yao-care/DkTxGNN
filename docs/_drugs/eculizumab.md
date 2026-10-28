@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Eculizumab: forudsagt ny indikation Cyklisk hæmatopoese (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica"
 monitor_inn: "Eculizumab"
-predicted_indications: ["cyclic hematopoiesis", "cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "adult idiopathic neutropenia"]
+predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
+last_modified_at: 2026-10-23
+description: "Eculizumab: forudsagt ny indikation Cyklisk hæmatopoese (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica"
 ---
 
 # Eculizumab
@@ -38,93 +38,67 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé
 
-Eculizumab er en hæmmer af komplementfaktor C5, som oprindeligt anvendes til behandling af paroksysmal nattlig hæmoglobinuri (PNH) og neuromyelitis optica.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **cyklisk hæmatopoese** (cyklisk neutropeni), men der er **ingen kliniske forsøg** og **ingen sygdomsspecifik litteratur** til at understøtte forudsigelsen.
-
----
+Eculizumab er en komplement-C5-hæmmer, som i den viden, der er indsamlet til denne rapport, er knyttet til paroksysmal nattlig hæmoglobinuri og neuromyelitis optica. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **cyklisk hæmatopoese** (cyklisk neutropeni). Der er dog **ingen kliniske forsøg** og **ingen publikationer, der direkte omhandler sygdommen**, så forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica (jf. vidensgrafen; den danske godkendelse har ingen angivet indikationstekst i de samlede data) |
+| Oprindelig indikation | Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica (relationer registreret i videngrafen; godkendelsesteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Cyklisk hæmatopoese |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det er dog kendt, at eculizumab er et monoklonalt antistof, der hæmmer komplementprotein C5 og dermed blokerer den terminale komplementaktivering.
 
-Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Eculizumab er et monoklonalt antistof mod komplementprotein C5 og hæmmer dermed det terminale komplementforløb. Dette er effektivt ved sygdomme med ukontrolleret komplementaktivering, som PNH.
+Cyklisk hæmatopoese (cyklisk neutropeni) skyldes typisk mutationer i ELANE-genet og giver svingende produktion af neutrofile granulocytter. Der er ikke påvist nogen komplementmedieret mekanisme i denne sygdom. Den høje score (0,9997) er en ren grafbaseret forudsigelse og understøttes ikke af forsøg eller litteratur. Et mekanistisk link er derfor ikke etableret.
 
-Cyklisk neutropeni skyldes typisk mutationer i ELANE-genet, som påvirker neutrofile forstadieceller, og ikke komplementaktivering. Der er derfor ikke noget etableret biologisk grundlag for C5-hæmning ved denne sygdom. Den høje score er en ren grafbaseret computerforudsigelse.
-
-Samme mønster gælder for de øvrige forudsagte sygdomme med nærliggende scorer:
-
-- **Autosomal recessiv svær medfødt neutropeni pga. JAGN1-mangel** (score 99,96 %): påvirker granulopoese og ER-funktion/glykosylering, uden kendt komplementdrevet patologi.
-- **X-bundet svær medfødt neutropeni** (score 99,96 %): skyldes gain-of-function-mutationer i WAS og påvirker aktincytoskelettet og myeloid differentiering.
-- **Medfødt neutropeni-myelofibrose-nefromegali-syndrom** (score 99,96 %): knyttet til G6PC3-relateret patologi.
-- **Idiopatisk neutropeni hos voksne** (score 99,96 %): heterogen, dårligt defineret ætiologi uden kendt komplementmekanisme.
-
----
+Samme mønster ses for de øvrige forudsigelser på listen (fx forskellige former for medfødt neutropeni og primært trombocytfrigivelsesdefekt): ingen af dem har et dokumenteret C5-afhængigt sygdomsforløb.
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
+## Evidens fra litteraturen
 
-## Litteraturevidens
+Der er i øjeblikket ingen litteratur, som direkte omhandler cyklisk hæmatopoese. De publikationer, der blev fundet for andre forudsagte sygdomme på listen, vedrører primært komplementmedierede tilstande (PNH, aHUS/TMA, myasthenia gravis, CD59-mangel) og er sandsynligvis fundet via eculizumabs generelle komplementbiologi. De udgør ikke evidens for den forudsagte indikation.
 
-For den primære forudsigelse (cyklisk hæmatopoese) er der ingen relateret litteratur. For den femte forudsagte sygdom (medfødt neutropeni-myelofibrose-nefromegali-syndrom) blev der fundet 20 publikationer, men de er hentet ud fra lægemiddelrelaterede søgeord og omhandler ikke sygdommen. Et udvalg:
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [25237200](https://pubmed.ncbi.nlm.nih.gov/25237200/) | 2014 | Oversigtsartikel | Blood | PNH: manglende CD55/CD59 giver ukontrolleret komplementaktivering og hæmolyse |
-| [28622911](https://pubmed.ncbi.nlm.nih.gov/28622911/) | 2017 | Oversigt/case-serie | Molecular Immunology | Medfødte CD59-mutationer med neurologiske symptomer; eculizumab som behandlingsmulighed |
-| [30205388](https://pubmed.ncbi.nlm.nih.gov/30205388/) | 2018 | Kohortestudie | American Journal of Nephrology | Eculizumab forbedrer udfald ved atypisk hæmolytisk uræmisk syndrom (aHUS) med akut nyreskade |
-| [19556379](https://pubmed.ncbi.nlm.nih.gov/19556379/) | 2009 | Klinisk rapport | Clin J Am Soc Nephrol | Eculizumab hæmmer terminal komplementaktivering ved aHUS |
-| [36995386](https://pubmed.ncbi.nlm.nih.gov/36995386/) | 2023 | Oversigtsartikel | Der Nervenarzt | Nye behandlinger af myasthenia gravis, herunder C5-hæmmeren eculizumab |
-| [38152089](https://pubmed.ncbi.nlm.nih.gov/38152089/) | 2023 | Retningslinje | Ther Adv Neurol Disord | Retningslinje for behandling af myasteniske syndromer |
-| [24360024](https://pubmed.ncbi.nlm.nih.gov/24360024/) | 2014 | Oversigtsartikel | Semin Arthritis Rheum | Trombotiske mikroangiopatier (TTP, HUS) |
-| [37216524](https://pubmed.ncbi.nlm.nih.gov/37216524/) | 2023 | Genetisk studie/case | PNAS | C1GALT1C1-mutation giver multisystemisk chaperonopati (anden sygdom) |
-
-Disse publikationer understøtter eculizumabs kendte anvendelser (PNH, aHUS, myasthenia gravis, CD59-mangel), men ikke de forudsagte neutropeni-sygdomme.
-
----
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106750622 | BEKEMV (Amgen Technology (Ireland) Unlimited Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de samlede data |
+| 28106750622 | BEKEMV | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i registreringen |
 
----
+Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen Technology (Ireland) Unlimited Company.
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner**: Der er fundet 4 interaktioner, alle klassificeret som **mindre (Minor)**, og alle med humant immunglobulin G (intravenøst, subkutant, intramuskulært samt intravenøst og subkutant).
+**Lægemiddelinteraktioner:** Der er fundet 4 interaktioner, alle klassificeret som mindre (Minor):
+- Humant immunglobulin G (intravenøst)
+- Humant immunglobulin G (subkutant)
+- Humant immunglobulin G (intramuskulært)
+- Humant immunglobulin G (intravenøst og subkutant)
 
-Der er ikke data om advarsler og kontraindikationer i de samlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Derudover bør komplementhæmning generelt give anledning til opmærksomhed på infektionsrisiko, især hos patienter med en i forvejen svækket immunforsvar. Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5). Der er ingen kliniske forsøg, ingen sygdomsspecifik litteratur og ingen biologisk rationale for C5-hæmning ved cyklisk neutropeni eller de øvrige forudsagte neutropenier.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller direkte litteratur, og der er intet kendt mekanistisk link mellem C5-hæmning og cyklisk neutropeni.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA)
-- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som i øjeblikket mangler
-- Sygdomsspecifik præklinisk eller klinisk evidens, der viser en rolle for komplement/C5 ved de forudsagte sygdomme
-- Afklaring af godkendt indikationstekst for BEKEMV i Danmark
+- Fuldstændige data om virkningsmekanisme og en hypotese for, hvordan komplementhæmning kunne påvirke neutrofilproduktionen
+- Præklinisk eller mekanistisk evidens for komplementets rolle i cyklisk hæmatopoese
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (manglende i de indsamlede data)
+- Vurdering af infektionsrisiko ved komplementhæmning hos patienter med neutropeni
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

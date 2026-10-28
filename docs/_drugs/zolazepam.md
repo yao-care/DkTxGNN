@@ -48,10 +48,10 @@ Zolazepam er et benzodiazepinlignende stof (pyrazolodiazepinon), som i Danmark k
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (veterinærpræparat til anæstesi) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Zolazepam er et pyrazolodiazepinon, dvs. et benzodiazepinlignende stof. Det anta
 
 Zolazepam anvendes i dag udelukkende til veterinær anæstesi i fast kombination med tiletamin. Forbindelsen mellem sedation/anæstesi og insomni er mekanistisk forståelig, men ikke dokumenteret hos mennesker.
 
-Den høje score (0,9988) er en beregningsmæssig forudsigelse, sandsynligvis drevet af zolazepams nærhed til andre benzodiazepiner i vidensgrafen. Der foreligger ingen humane farmakokinetiske, sikkerheds- eller virkningsdata for insomni. Den mekanistiske begrundelse er plausibel, men ikke verificeret.
+Den høje score (0.9988) er en beregningsmæssig forudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der foreligger ingen humane farmakokinetiske, sikkerheds- eller virkningsdata for insomni. Den mekanistiske begrundelse er plausibel, men ikke verificeret.
 
 ---
 

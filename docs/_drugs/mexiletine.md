@@ -48,10 +48,10 @@ Mexiletin er en natriumkanalblokker (klasse IB), som markedsføres i Danmark som
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede godkendelsesdata (klasse IB natriumkanalblokker) |
 | Forudsagt ny indikation | Hypertrikose |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Mexiletin er en natriumkanalblokker (klasse IB), som markedsføres i Danmark som
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Mexiletin kendes som en spændingsfølsom natriumkanalblokker (klasse IB). Dens effekt er dokumenteret ved hjerterytmeforstyrrelser, men de indsamlede data indeholder ikke en bekræftet mekanisme, der forbinder en natriumkanalblokade med hypertrikose.
 
-Den høje score ser ud til at være et resultat af mønstre i modellens vidensgraf og ikke af et biologisk velunderbygget link. Hypertrikose er desuden en kendt bivirkning ved nogle lægemidler, så forudsigelsen kan skyldes netværksartefakter. På det foreliggende grundlag kan en mekanistisk sammenhæng mellem natriumkanalblokade og overdreven hårvækst hverken understøttes eller afvises, og forudsigelsen bør betragtes som en hypotese.
+Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Hypertrikose er desuden en kendt bivirkning ved nogle lægemidler, så forudsigelsen kan skyldes sådanne indlærte ligheder. På det foreliggende grundlag kan en mekanistisk sammenhæng mellem natriumkanalblokade og overdreven hårvækst hverken understøttes eller afvises, og forudsigelsen bør betragtes som en hypotese.
 
 ---
 

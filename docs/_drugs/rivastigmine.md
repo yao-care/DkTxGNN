@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 730
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rivastigmine: forudsagt ny indikation Glaukom (evidensniveau L4). Oprindelig indikation: Alzheimers sygdom (ifølge TxGNN-vidensgrafen"
 monitor_inn: "rivastigmine"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine: forudsagt ny indikation Glaukom (glaucoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Rivastigmin: Fra Alzheimers sygdom til glaukom
+## Rivastigmine: Glaukom (glaucoma)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Rivastigmin er en kolinesterasehæmmer, der oprindeligt anvendes til behandling 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Alzheimers sygdom (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Glaukom |
-| TxGNN-forudsigelsesscore | 99,27 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Glaukom (glaucoma) |
+| TxGNN-forudsigelsesscore | 0.9927 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

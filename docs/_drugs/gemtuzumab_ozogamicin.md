@@ -8,6 +8,7 @@ nav_order: 390
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Gemtuzumab Ozogamicin
@@ -51,8 +52,8 @@ Gemtuzumab ozogamicin (DrugBank ID: DB00056) blev identificeret i pipelinen, men
 | Forudsagt ny indikation | Ingen forudsigelse genereret |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Bevisniveau | L5 — kun modelforudsigelse, uden understøttende studier |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 ---

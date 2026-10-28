@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Isavuconazonium: Fra aspergillose til mycetom
+## Isavuconazonium: Fra aspergillose til pneumocystose
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -48,10 +48,10 @@ Isavuconazonium er et forstadie (prodrug) til isavuconazol, et bredspektret svam
 |------|------|
 | Oprindelig indikation | Aspergillose, zygomycose, coccidioidomycose, histoplasmose, sporotrikose, hvid og sort piedra (fra TxGNN-videnграfen; der er ikke angivet indikationstekst i den danske registrering) |
 | Forudsagt ny indikation | Pneumocystose (rang 1) og mycetom (rang 2); rapporten fokuserer på begge |
-| TxGNN-forudsigelsesscore | Pneumocystose: 99,56 %; mycetom: 99,34 % |
+| TxGNN-forudsigelsesscore | Pneumocystose: 0,9956; mycetom: 0,9934 |
 | Evidensniveau | Pneumocystose: L5; mycetom: L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (for begge forudsigelser) |
 
 ---

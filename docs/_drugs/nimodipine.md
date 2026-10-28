@@ -46,10 +46,10 @@ Nimodipin er en calciumkanalblokker, der oprindeligt anvendes til behandling af 
 |------|------|
 | Oprindelig indikation | Subaraknoidal blødning (aneurysmal subaraknoidal blødning); der er ikke registreret en godkendt indikationstekst i den danske tilladelse |
 | Forudsagt ny indikation | Homozygot familiær hyperkolesterolæmi |
-| TxGNN-forudsigelsesscore | 99,29 % |
+| TxGNN-forudsigelsesscore | 0,9929 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -58,7 +58,7 @@ Nimodipin er en dihydropyridin og en blokker af L-type calciumkanaler. Detaljere
 
 Homozygot familiær hyperkolesterolæmi skyldes hovedsageligt funktionstabsmutationer i LDLR (sjældnere APOB, PCSK9 eller LDLRAP1), som hæmmer udskillelsen af LDL fra blodet. Calciumkanalblokade adresserer ikke denne defekt. Nogle dihydropyridiner er i prækliniske studier beskrevet med beskedne effekter på vaskulær lipidhåndtering eller aterosklerose, men det er spekulativt og understøttes ikke af nogen data i dette materiale.
 
-Den høje score (0,993) skyldes sandsynligvis netværksnærhed eller delte naboer i vidensgrafen snarere end en verificeret biologisk mekanisme. Der er således ikke påvist et direkte mekanistisk led mellem den oprindelige og den nye indikation.
+Den høje score (0,9929) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens. Der er således ikke påvist et direkte mekanistisk led mellem den oprindelige og den nye indikation.
 
 ## Klinisk evidens
 
@@ -99,7 +99,7 @@ Forudsigelsen er udelukkende modelbaseret (L5), uden kliniske forsøg eller litt
 
 ## Supplerende bemærkning: Forudsagt indikation nr. 2
 
-TxGNN forudsiger også **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)** (score 99,05 %, evidensniveau L5, anbefaling: Hold). Sygdommen skyldes aktiverende varianter i AVPR2 med konstitutiv V2-receptoraktivitet. En teoretisk forbindelse via calciumsignalering og aquaporin-2-transport findes, men er spekulativ og uden støtte i forsøg eller litteratur. Nimodipins blodtrykssænkende effekt er desuden en sikkerhedsbekymring hos patienter med væske- og elektrolytforstyrrelser.
+TxGNN forudsiger også **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)** (score 0,9905, evidensniveau L5, anbefaling: Hold). Sygdommen skyldes aktiverende varianter i AVPR2 med konstitutiv V2-receptoraktivitet. En teoretisk forbindelse via calciumsignalering og aquaporin-2-transport findes, men er spekulativ og uden støtte i forsøg eller litteratur. Nimodipins blodtrykssænkende effekt er desuden en sikkerhedsbekymring hos patienter med væske- og elektrolytforstyrrelser.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

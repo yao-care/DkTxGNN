@@ -4,17 +4,17 @@ title: Galcanezumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 382
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (evidensniveau L5). Oprindelig indikation: Migræne"
 monitor_inn: "Galcanezumab"
-predicted_indications: ["heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "thrombophilia"]
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Galcanezumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Galcanezumab: Fra migræne til heparin-cofaktor-2-mangel
+## Galcanezumab: Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumé
 
-Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related peptide (CGRP). Det anvendes oprindeligt til forebyggelse af migræne. TxGNN-modellen forudsiger, at det kan have effekt ved **heparin-cofaktor-2-mangel** (score 99,50 %), men der findes **ingen kliniske forsøg og ingen publikationer**, og der er ingen plausibel biologisk forbindelse. Forudsigelsen skal derfor betragtes som en ren modelartefakt.
+Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related peptide (CGRP). Det anvendes oprindeligt til forebyggelse af migræne. TxGNN-modellen forudsiger, at det kan have effekt ved **heparin-cofaktor-2-mangel** (score 0,9950), men der findes **ingen kliniske forsøg og ingen publikationer**, og der er ingen plausibel biologisk forbindelse. Forudsigelsen skal derfor betragtes som en ren modelartefakt.
 
 ---
 
@@ -46,12 +46,12 @@ Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (fra vidensgrafen; indikationsteksten i den danske tilladelse indgår ikke i de indsamlede data) |
-| Forudsagt ny indikation | Heparin-cofaktor-2-mangel |
-| TxGNN-prædiktionsscore | 99,50 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) |
+| TxGNN-prædiktionsscore | 0.9950 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related 
 
 Galcanezumab neutraliserer CGRP, som spiller en central rolle i migrænens patofysiologi. Lægemidlet er godkendt til forebyggelse af migræne og af episodisk clusterhovedpine. Detaljerede data om virkningsmekanismen fra lægemiddeldatabasen er ikke tilgængelige i de data, der er indsamlet til denne rapport.
 
-Galcanezumab påvirker hverken koagulationskaskaden eller heparin-cofaktor II. Der er derfor ingen mekanistisk sammenhæng mellem migræne og heparin-cofaktor-2-mangel. Den høje score afspejler sandsynligvis fælles mønstre i vidensgrafens nabostruktur og ikke biologi.
+Galcanezumab påvirker hverken koagulationskaskaden eller heparin-cofaktor II. Der er derfor ingen mekanistisk sammenhæng mellem migræne og heparin-cofaktor-2-mangel. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Det samme gælder de øvrige koagulationsrelaterede forudsigelser i datasættet. De er alle uden kliniske forsøg og litteratur og uden plausibel mekanisme:
 
@@ -84,7 +84,7 @@ Der er i øjeblikket ingen relateret litteratur for heparin-cofaktor-2-mangel.
 
 ### Supplerende bemærkning: migræne med hjernestammeaura
 
-Blandt de forudsigelser, der er indsamlet til denne rapport, er det kun **migræne med hjernestammeaura** (score 98,33 %, evidensniveau L4) der har litteraturstøtte. Det er en undertype af migræne og ligger tæt på den godkendte indikation, så det er en udvidelse inden for migrænespektret snarere end repurposing til en ny sygdom. Den fremlagte litteratur handler dog ikke specifikt om hjernestammeaura. Fase 3-evidensen er indirekte og stammer fra generel episodisk migræne.
+Blandt de forudsigelser, der er indsamlet til denne rapport, er det kun **migræne med hjernestammeaura** (evidensniveau L4) der har litteraturstøtte. Det er en undertype af migræne og ligger tæt på den godkendte indikation, så det er en udvidelse inden for migrænespektret snarere end repurposing til en ny sygdom. Den fremlagte litteratur handler dog ikke specifikt om hjernestammeaura. Fase 3-evidensen er indirekte og stammer fra generel episodisk migræne.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|

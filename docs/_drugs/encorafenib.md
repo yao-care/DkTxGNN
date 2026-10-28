@@ -8,6 +8,7 @@ nav_order: 304
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Encorafenib
@@ -51,8 +52,8 @@ Denne rapport dokumenterer de aktuelle datahuller og skitserer de afhjælpningss
 | Forudsagt ny indikation | Ingen — TxGNN gav intet resultat |
 | TxGNN-forudsigelsesscore | N/A |
 | Evidensniveau | Kan ikke vurderes |
-| Markeds status i Danmark | Ikke markedsført (baseret på hentet data) |
-| Antal markedsføringstilladelser | 0 |
+| Markeds status i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | **Aflyst** |
 
 ---

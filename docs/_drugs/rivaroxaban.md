@@ -4,17 +4,17 @@ title: Rivaroxaban
 parent: Kun modelforudsigelse (L5)
 nav_order: 729
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Rivaroxaban: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 monitor_inn: "Rivaroxaban"
-predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "gout", "gout", "HIV infectious disease", "HIV infectious disease", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Rivaroxaban er en oral faktor Xa-hæmmer, der bruges som blodfortyndende middel.
 |------|------|
 | Original indikation | Ikke oplyst i de indsamlede data (indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-prædiktionsscore | 99,57 % |
+| TxGNN-prædiktionsscore | 0,9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -114,10 +114,9 @@ Modellen forudsagde også følgende indikationer. Dublerede poster er behandlet 
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Urinsyregigt (gout) | 99,51 % | L5 | Ingen forsøg eller støttende litteratur. Fundne artikler omhandler en benzbromaron-CYP-interaktion og en case om åreknuder, og ingen plausibel mekanisme er identificeret |
-| HIV-infektion | 99,17 % | L4 | Evidensen vedrører sikker brug af rivaroxaban hos HIV-patienter med behov for antikoagulation (interaktion med boostede antiretrovirale midler, blødningsrisiko), ikke antiviral effekt |
-| Brachydaktyli-syndaktyli-syndrom | 99,10 % | L5 | Ingen data; sandsynligvis en artefakt fra grafmodellen |
-| Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 98,95 % | L5 | Ingen data; sandsynligvis en artefakt fra grafmodellen |
+| Urinsyregigt (gout) | 0,9951 | L5 | Ingen forsøg eller støttende litteratur. Fundne artikler omhandler en benzbromaron-CYP-interaktion og en case om åreknuder, og ingen plausibel mekanisme er identificeret |
+| HIV-infektion | 0,9917 | L4 | Evidensen vedrører sikker brug af rivaroxaban hos HIV-patienter med behov for antikoagulation (interaktion med boostede antiretrovirale midler, blødningsrisiko), ikke antiviral effekt |
+| Brachydaktyli-syndaktyli-syndrom | 0,9910 | L5 | Ingen data; sandsynligvis en artefakt fra grafmodellen |
 
 For HIV er der ét fase 2-kohortestudie (NCT00786422, n=25, afsluttet), men det undersøger rivaroxaban ved dyb venetrombose/lungeemboli sammen med en stærk CYP3A4-inducer og ikke HIV.
 
@@ -128,7 +127,7 @@ For HIV er der ét fase 2-kohortestudie (NCT00786422, n=25, afsluttet), men det 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Selvom TxGNN-scoren er meget høj (99,57 %), findes der hverken kliniske forsøg eller litteratur, der direkte understøtter rivaroxaban ved leddegigt (evidensniveau L5). Den eneste mulige mekanistiske forbindelse er indirekte og spekulativ.
+Selvom TxGNN-scoren er meget høj (0,9957), findes der hverken kliniske forsøg eller litteratur, der direkte understøtter rivaroxaban ved leddegigt (evidensniveau L5). Den eneste mulige mekanistiske forbindelse er indirekte og spekulativ.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanisme (MOA) og en dokumenteret original indikation

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tranylcypromine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 849
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tranylcypromine: forudsagt ny indikation Dysthymi (dysthymic disorder) (evidensniveau L4). Oprindelig indikation: Unipolær depression, endogen depression, svær depressiv lidelse…"
 monitor_inn: "tranylcypromine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,16 +33,16 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tranylcypromin: Fra depression og angstlidelse til dysthymi
+## Tranylcypromine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Kort resumé
 
 Tranylcypromin er en irreversibel, ikke-selektiv monoaminoxidasehæmmer (MAO-hæmmer), som oprindeligt anvendes til behandling af depression og angstlidelse.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **dysthymi** (kronisk depressiv lidelse).
+TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **Benign paroksystisk torticollis hos spædbørn**.
 Evidensgrundlaget er **svagt**: der er **0 registrerede kliniske forsøg** og **1 publikation** (en metaanalyse af antidepressiva som klasse, ikke specifik for tranylcypromin).
 
-Bemærk: Den højest rangerede forudsigelse i modellen er *benign paroxysmal torticollis hos spædbørn*, men den er udelukkende modelbaseret uden nogen understøttende data. Rapporten fokuserer derfor på dysthymi, som er den første forudsigelse med faglig plausibilitet og noget litteratur.
+Bemærk: Den højest rangerede forudsigelse i modellen er *benign paroksystisk torticollis hos spædbørn* (score 0,9967), men den er udelukkende modelbaseret uden nogen understøttende data.
 
 ---
 
@@ -50,12 +50,12 @@ Bemærk: Den højest rangerede forudsigelse i modellen er *benign paroxysmal tor
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Unipolær depression, endogen depression, svær depressiv lidelse, angstlidelse (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
-| Forudsagt ny indikation | Dysthymi (dysthymic disorder) |
-| TxGNN-forudsigelsesscore | 99,63 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
+| TxGNN-forudsigelsesscore | 0.9967 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---
@@ -111,7 +111,7 @@ Se i øvrigt det godkendte produktresumé (SPC) for fuldstændige sikkerhedsoply
 **Beslutning: Hold (forskningsspørgsmål)**
 
 **Begrundelse:**
-Forudsigelsen er biologisk plausibel, fordi dysthymi ligger tæt på de godkendte depressionsindikationer, men evidensen er kun klasseniveau (L4) og indeholder ingen tranylcypromin-specifikke data eller registrerede forsøg. Sikkerhedsprofilen (mange alvorlige interaktioner og kostrestriktioner) kræver en klar fordel for at retfærdiggøre brug.
+Evidensen er kun på klasseniveau (L4) og indeholder ingen tranylcypromin-specifikke data eller registrerede forsøg. Sikkerhedsprofilen (mange alvorlige interaktioner og kostrestriktioner) kræver en klar fordel for at retfærdiggøre brug.
 
 **For at komme videre kræves:**
 - Tranylcypromin-specifikke kliniske data ved dysthymi (forsøg eller kontrollerede observationsstudier)

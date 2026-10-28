@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Abacavir
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 11
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Abacavir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Abacavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Abacavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Abacavir: nukleosid revers transkriptase-hæmmer → simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Abacavir er en nukleosid-revers transkriptasehæmmer, der oprindeligt anvendes til behandling af HIV-infektion og AIDS.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (SIV)**, men det er en dyremodel og ikke en humanklinisk indikation.
-Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (et in vitro-studie).
+Abacavir er en antiviral nukleosid revers transkriptase-hæmmer (NRTI), som anvendes mod HIV-infektion. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (simian immunodeficiency virus infection)**, men kun **1 publikation** (et in vitro-studie) understøtter retningen, og der er **ingen registrerede kliniske forsøg**.
 
 ---
 
@@ -48,69 +46,55 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (et i
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videngrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,79 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 7 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0,9979 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra lægemiddelklassen er abacavir en nukleosid-revers transkriptasehæmmer (NRTI), og dens virkning mod HIV-1 er veldokumenteret.
+Data om abacavirs detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Abacavir tilhører klassen af NRTI-præparater, som hæmmer virusets revers transkriptase. Simian immundefektvirus (SIV) er en nært beslægtet lentivirus med et homologt revers transkriptase-enzym, så en hæmmende effekt er biologisk plausibel.
 
-SIV er en nær beslægtet lentivirus med en homolog revers transkriptase, så en antiviral effekt er biologisk plausibel. Det eneste understøttende studie er en in vitro-sammenligning af følsomhed hos HIV-2, SIV og SHIV over for forskellige anti-HIV-1-stoffer. Det er indirekte evidens.
-
-SIV-infektion er en model i ikke-menneskelige primater, ikke en human behandlingsindikation. Værdien ligger derfor i præklinisk modellering frem for i en ny klinisk anvendelse.
-
-To øvrige forudsigelser indgår i dataene: felint ervervet immundefektsyndrom (dyremodel, kun kombinationsstudie med zidovudin, lamivudin og abacavir, så abacavirs enkeltbidrag kan ikke isoleres) og en sjælden neuroudviklingsforstyrrelse uden dokumenteret mekanistisk sammenhæng eller evidens. Alle tre TxGNN-scorer er næsten identiske og mættede, så de har begrænset værdi til prioritering.
+Det er dog vigtigt at bemærke, at SIV-infektion er en model hos ikke-menneskelige primater og ikke en klinisk indikation hos mennesker. Værdien ligger derfor i præklinisk modellering frem for i en egentlig behandlingsindikation. Koblingen er udledt af lægemiddelklassen og er ikke dokumenteret ved direkte mekanistiske data.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro-følsomhedsstudie | Antiviral Therapy | Undersøgelse af 16 godkendte lægemidler og ét eksperimentelt stof mod HIV-2, SIV og SHIV for at belyse brug i behandling og post-eksponeringsprofylakse |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro-følsomhedsstudie | Antiviral Therapy | Undersøgte 16 godkendte lægemidler og ét eksperimentelt stof mod HIV-2-, SIV- og SHIV-stammer sammenlignet med anti-HIV-1-stoffer; indirekte evidens for aktivitet mod SIV |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103033098 | Ziagen | Filmovertrukne tabletter | Ikke angivet |
-| 28106070718 | Abacavir/Lamivudine "Glenmark" | Filmovertrukne tabletter | Ikke angivet |
-| 28105684015 | Abacavir/Lamivudine "Stada" | Filmovertrukne tabletter | Ikke angivet |
-| 28105723816 | Abacavir/Lamivudine "Viatris" | Filmovertrukne tabletter | Ikke angivet |
-| 28105331613 | Triumeq | Filmovertrukne tabletter | Ikke angivet |
-
-I alt 7 gyldige tilladelser; de to øvrige er Triumeq som dispergible tabletter (28106742121) og Trizivir som filmovertrukne tabletter (28103123099).
+| 28103033098 | Ziagen | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+| 28106070718 | Abacavir/Lamivudine "Glenmark" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+| 28105684015 | Abacavir/Lamivudine "Stada" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+| 28105723816 | Abacavir/Lamivudine "Viatris" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+| 28105331613 | Triumeq | Filmovertrukne tabletter | Ikke angivet i de lokale data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Data fra produktresuméet om advarsler og kontraindikationer er ikke tilgængelige. Videngrafen (ikke produkttekst) angiver følgende sygdomme som kontraindikationsrelationer:
+- **Lægemiddelinteraktioner:** Der er registreret 122 mulige interaktioner. Blandt de nævnte er naltrexon og orlistat klassificeret som moderate. Øvrige angivne interaktioner (bl.a. metformin, omeprazol, pantoprazol, morfin, vancomycin og prednison) har ukendt alvorlighedsgrad.
 
-- **Lever og galdeveje:** leversvigt, leversygdom, fedtlever, ikke-alkoholisk steatohepatitis, galdeblæresygdom
-- **Nyrer og urinveje:** nyresygdom, pyoureter
-- **Bugspytkirtel og stofskifte:** pankreatitis, hypertriglyceridæmi, fedme (herunder monogen fedme), laktatacidose
-- **Blod:** neutropeni, agranulocytose, anæmi (herunder makrocytær anæmi)
-- **Muskler:** myopati, muskelsygdomme, skeletmuskelsygdom, familiær periodisk paralyse, dermatomyositis, myositis
-
-**Lægemiddelinteraktioner:** 122 interaktioner er registreret. De eneste to med angivet sværhedsgrad er moderate: naltrexon og orlistat. Øvrige, bl.a. metformin, morfin, omeprazol, pantoprazol, prednison og vancomycin, har ukendt sværhedsgrad.
-
-Se desuden det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -119,13 +103,13 @@ Se desuden det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplys
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den eneste støtte er et indirekte in vitro-studie, og SIV er en dyremodel uden human behandlingsværdi. Der er ingen kliniske forsøg, og sikkerhedsdata fra produktresuméet mangler.
+Den eneste evidens er et in vitro-studie, der er indirekte, og SIV-infektion er en dyremodel og ikke en human behandlingsindikation. Der er ingen kliniske forsøg, og et evidensniveau på L4 afspejler alene præklinisk støtte.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Afklaring af, om SIV-indikationen har relevans ud over præklinisk forskning
-- Godkendte indikationstekster for de danske tilladelser
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) for abacavir
+- Direkte præklinisk evidens for abacavir som enkeltstof i SIV-modeller
+- Afklaring af, om en dyremodelindikation overhovedet er relevant for human anvendelse
+- Gennemgang af advarsler og kontraindikationer i det godkendte produktresumé (SmPC)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

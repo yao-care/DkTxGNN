@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 |------|------|
 | Oprindelig indikation | Parkinsons sygdom (de godkendte indikationstekster for de danske tilladelser er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | PLA2G6-associeret neurodegeneration |
-| TxGNN-forudsigelsesscore | 99,76 % |
+| TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 Der foreligger ikke detaljerede data om entacapons virkningsmekanisme i de data, der er indsamlet til denne rapport. Entacapon er kendt som COMT-hæmmer, der forlænger virkningen af levodopa, og effekten ved Parkinsons sygdom er veletableret. Mekanistisk kan det derfor tænkes at have relevans ved sygdomme med lignende dopaminerg dysfunktion.
 
-PLA2G6-associeret neurodegeneration (herunder PARK14-typen med dystoni-parkinsonisme) deler dopaminerg dysfunktion med Parkinsons sygdom. En COMT-hæmmer, der forlænger levodopas virkning, kunne derfor muligvis lindre parkinsonistiske symptomer. Det er imidlertid alene en hypotese: Forudsigelsen bygger på en vidensgraf, og der er ingen kliniske data, der viser effekt eller sikkerhed hos disse patienter.
+PLA2G6-associeret neurodegeneration (herunder PARK14-typen med dystoni-parkinsonisme) deler dopaminerg dysfunktion med Parkinsons sygdom. En COMT-hæmmer, der forlænger levodopas virkning, kunne derfor muligvis lindre parkinsonistiske symptomer. Det er imidlertid alene en hypotese: Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ingen kliniske data, der viser effekt eller sikkerhed hos disse patienter.
 
 ---
 
@@ -117,7 +117,7 @@ Forudsigelsen har en høj modelscore, men er udelukkende beregningsbaseret (evid
 
 ## Øvrige forudsigelser (til information)
 
-Blandt de øvrige topforudsigelser er der ingen med reel behandlingsevidens. Forudsigelsen for **Lewy body-demens** (score 99,25 %) er vurderet som et forskningsspørgsmål. Det eneste tilknyttede forsøg, [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) (fase 1, rekrutterer, 40 deltagere), er et [18F]F-DOPA-billeddiagnostisk studie ved autonom svigt og tester ikke entacapon som behandling. Det samme gælder **progressiv supranukleær parese-kortikobasalt syndrom** (score 99,04 %) med [NCT02994719](https://clinicaltrials.gov/study/NCT02994719), et observationelt ganganalysestudie uden entacapon som intervention.
+Blandt de øvrige topforudsigelser er der ingen med reel behandlingsevidens. Forudsigelsen for **Lewy body-demens** (score 0,9925) er vurderet som et forskningsspørgsmål. Det eneste tilknyttede forsøg, [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) (fase 1, rekrutterer, 40 deltagere), er et [18F]F-DOPA-billeddiagnostisk studie ved autonom svigt og tester ikke entacapon som behandling. Det samme gælder **progressiv supranukleær parese-kortikobasalt syndrom** (score 0,9904) med [NCT02994719](https://clinicaltrials.gov/study/NCT02994719), et observationelt ganganalysestudie uden entacapon som intervention.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -8,6 +8,7 @@ nav_order: 237
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Daratumumab
@@ -51,8 +52,8 @@ TxGNN-prognoseprocessen **genererede ingen genbrugsprognose** for dette lægemid
 | Forudsagt ny indikation | Ingen genereret |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | Ikke vurderbar (L5-niveau ikke nået — ingen prognoseoutput) |
-| Markedsstatus i Danmark | Ikke registreret per Evidence Pack-data |
-| Antal markedsføringstilladelser | 0 (per Evidence Pack) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 > ⚠️ **Dataintegritetsnote:** Evidence Pack registrerer 0 danske markedsføringstilladelser og status "ikke markedsført". Dette er inkonsistent med den offentligt kendte centraliserede EMA-tilladelse for Darzalex (daratumumab) til multipel myelomatose, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Reguleringskilden bør verificeres, før denne feltværdi stoles på.

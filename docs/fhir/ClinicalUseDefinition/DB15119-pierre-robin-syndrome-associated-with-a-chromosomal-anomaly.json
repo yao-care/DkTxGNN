@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB15119",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB15119"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pierre-robin-syndrome-associated-with-a-chromosomal-anomaly",
-          "display": "Pierre Robin syndrome associated with a chromosomal anomaly"
-        }
-      ],
-      "text": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      "concept": {
+        "text": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9992
     }
   ]
 }

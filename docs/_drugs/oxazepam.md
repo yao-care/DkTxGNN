@@ -4,17 +4,17 @@ title: Oxazepam
 parent: Moderat evidens (L3-L4)
 nav_order: 616
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxazepam: forudsagt ny indikation Insomni (evidensniveau L3). Oprindelig indikation: Alkoholabstinensdelirium og angst"
 monitor_inn: "OXAZEPAM"
-predicted_indications: ["insomnia (disease)", "insomnia (disease)"]
+predicted_indications: ["insomnia (disease)"]
+description: "Oxazepam: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oxazepam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Oxazepam: Fra alkoholabstinensdelirium og angst til insomni
+## Oxazepam: Insomni (insomnia (disease))
 {: .text-alpha }
 
 ## Resumé
@@ -44,12 +44,12 @@ Oxazepam er et benzodiazepin, der oprindeligt anvendes mod angst og alkoholabsti
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Alkoholabstinensdelirium og angst (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Insomni (insomnia (disease)) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -87,7 +87,7 @@ Yderligere to fundne publikationer (PMID 39544757, 23338224) omhandler agomelati
 
 ## Sikkerhedsovervejelser
 
-Følgende er hentet fra TxGNN-vidensgrafen og ikke fra produktresuméet, og skal derfor verificeres mod det godkendte produktresumé (SmPC).
+Følgende stammer fra TxGNN-modellen (deep learning) og ikke fra produktresuméet. Scoren kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og er ikke biologisk evidens. Den skal derfor verificeres mod det godkendte produktresumé (SmPC).
 
 - **Kontraindikationer/forsigtighed (vidensgraf):** porfyri, nyresygdom, leversygdom, galdeblæresygdom, psykotiske lidelser (bl.a. skizofreni og skizoaffektive lidelser), hypotension, søvnapnø, respirationssvigt og lungesygdom, misbrug/afhængighed af stoffer samt personlighedsforstyrrelser. Angstlidelse, neurotiske lidelser og dysthymi er også registreret.
 - **Lægemiddelinteraktioner:** 100 interaktioner er identificeret. Blandt de vist er de vigtigste:

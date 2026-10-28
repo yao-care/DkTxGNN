@@ -4,17 +4,17 @@ title: Metyrapone
 parent: Kun modelforudsigelse (L5)
 nav_order: 546
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Metyrapone: forudsagt ny indikation Udøvelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "metyrapone"
-predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
+predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
 
 # Metyrapone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at metyrapon kan have effekt ved **udøvelsesudløst 
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Udøvelsesudløst malign hypertermi |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at metyrapon kan have effekt ved **udøvelsesudløst 
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Metyrapon er dog kendt som en hæmmer af 11-beta-hydroxylase (CYP11B1), som sænker kortisolsyntesen i binyrerne.
 
-Malign hypertermi skyldes primært forstyrret calciumfrigivelse i skeletmuskulatur, ofte forbundet med varianter i generne RYR1 eller CACNA1S. Der er ingen kendt biologisk forbindelse mellem hæmning af kortisolsyntese og denne patofysiologi. Den høje modelscore skyldes sandsynligvis tilfældige associationer i vidensgrafen og ikke et reelt biologisk forhold. Dantrolen er den etablerede mekanismebaserede behandling.
+Malign hypertermi skyldes primært forstyrret calciumfrigivelse i skeletmuskulatur, ofte forbundet med varianter i generne RYR1 eller CACNA1S. Der er ingen kendt biologisk forbindelse mellem hæmning af kortisolsyntese og denne patofysiologi. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Dantrolen er den etablerede mekanismebaserede behandling.
 
 De øvrige forudsigelser i top 10 (bl.a. malign hypertermi-modtagelighed, King-Denboroughs syndrom, central core-myopati, multiminicore-sygdom, centronuklear myopati og renal tubulær acidose) ligger overvejende inden for gruppen af kongenitte myopatier og savner ligeledes mekanistisk og klinisk støtte. Ved renal tubulær acidose kan metyrapon teoretisk set forværre tilstanden, da det kan øge deoxykortikosteron med mineralokortikoid aktivitet. Den eneste forudsigelse med en publikation er familiær periodisk paralyse (evidensniveau L4), som er omtalt i afsnittet om litteratur.
 

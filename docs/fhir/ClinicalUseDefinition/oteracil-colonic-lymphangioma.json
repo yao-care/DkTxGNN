@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "colonic-lymphangioma",
-          "display": "colonic lymphangioma"
-        }
-      ],
-      "text": "colonic lymphangioma",
       "concept": {
         "text": "colonic lymphangioma"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9998
     }
   ]
 }

@@ -4,7 +4,7 @@ title: Salbutamol
 parent: Kun modelforudsigelse (L5)
 nav_order: 745
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Salbutamol: forudsagt ny indikation Papillær konjunktivitis (evidensniveau L5). Oprindelig indikation: Astma og bronkial sygdom"
 monitor_inn: "salbutamol"
@@ -14,7 +14,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 # Salbutamol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis
 |------|------|
 | Oprindelig indikation | Astma og bronkial sygdom |
 | Forudsagt ny indikation | Papillær konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,996 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -120,7 +120,6 @@ Forudsigelsen har en høj modelscore, men der findes hverken kliniske forsøg el
 - Vurdering af lokal øjensikkerhed, især med hensyn til glaukom og forhøjet intraokulært tryk
 - Gennemgang af produktresuméet (SmPC) for fuldstændige advarsler og kontraindikationer
 
-**Bemærk:** Blandt modellens øvrige forudsigelser for salbutamol har især obstruktiv lungesygdom (L1) betydeligt stærkere evidens. Den ligger dog tæt på den allerede godkendte anvendelse og er derfor ikke en egentlig repurposing.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

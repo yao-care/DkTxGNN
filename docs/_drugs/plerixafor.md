@@ -4,17 +4,17 @@ title: Plerixafor
 parent: Kun modelforudsigelse (L5)
 nav_order: 669
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Plerixafor: forudsagt ny indikation Indolent plasmacellemyelom (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom (myelomatose). Den danske tilladelse indeholder ing…"
+indication_count: 6
 monitor_inn: "PLERIXAFOR"
-predicted_indications: ["CMM7", "CMM7", "pediatric leptomeningeal melanoma", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "bronchitis"]
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+last_modified_at: 2026-10-23
+description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Plerixafor: Fra myelomatose til indolent plasmacellemyelom
+## Plerixafor: Fra plasmacellemyelom til CMM7
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé
 
-Plerixafor er et lægemiddel, der oprindeligt anvendes til at mobilisere bloddannende stamceller hos patienter med plasmacellemyelom (myelomatose) før autolog stamcelletransplantation.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **indolent plasmacellemyelom**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er alene modelbaseret.
+Plerixafor er en CXCR4-hæmmer. I videnbasen er stoffet knyttet til plasmacellemyelom, og ifølge en farmakologisk database bruges det til at mobilisere blodstamceller før autolog transplantation ved non-Hodgkin-lymfom og myelomatose. TxGNN-modellen forudsiger, at det kan have effekt ved **CMM7** (formentlig en melanomrelateret diagnose, men betegnelsen er ikke nærmere forklaret i data). Der er **0 kliniske forsøg** og **0 publikationer**, der direkte undersøger denne sygdom, så forudsigelsen bygger kun på modellen.
 
 ---
 
@@ -47,35 +46,70 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **indolent plasmacelle
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Plasmacellemyelom (myelomatose). Den danske tilladelse indeholder ingen indikationstekst i de foreliggende data. |
-| Forudsagt ny indikation | Indolent plasmacellemyelom |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| Oprindelig indikation | Plasmacellemyelom (relation registreret i videnbasen; dansk indikationstekst foreligger ikke i de indsamlede data) |
+| Forudsagt ny indikation | CMM7 |
+| TxGNN-forudsigelsesscore | 0,9934 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor kan forudsigelsen give mening?
 
-Detaljerede data om virkningsmekanismen (MOA) var ikke tilgængelige i de data, der er indsamlet til rapporten. Farmakologiske data viser dog, at plerixafor binder til chemokinreceptorerne **CXCR4** og **ACKR3**. Plerixafor er en CXCR4-antagonist, der forstyrrer CXCR4/CXCL12-signaleringen (SDF-1). Dermed frigøres stamceller og myelomceller fra knoglemarvens nicher og mobiliseres til blodbanen.
+Der foreligger ingen detaljerede mekanismedata i den indsamlede dokumentation. Farmakologiske data viser dog, at plerixafor binder til chemokinreceptorerne **CXCR4** og **ACKR3**. Ved at blokere CXCR4 forstyrres signalet fra CXCL12, som styrer, hvordan celler fæstner sig i knoglemarven og vandrer rundt i kroppen. Det er grundlaget for stoffets brug til stamcellemobilisering.
 
-Lægemidlet er allerede godkendt som stamcellemobiliserende middel ved non-Hodgkin-lymfom og myelomatose, hvor autolog stamcelletransplantation er nødvendig. Der er derfor et plausibelt biologisk bindeled til plasmacellesygdomme.
-
-Det er imidlertid vigtigt at understrege, at plerixafors kendte rolle er **mobilisering** og ikke sygdomsmodificerende behandling. Der er ingen data, der understøtter en effekt på selve den indolente (smoldrende) form af sygdommen. Den høje score er udelukkende en modelforudsigelse.
+CXCR4/CXCL12-aksen er beskrevet i melanombiologi generelt, men intet i de foreliggende data understøtter den for netop CMM7. Scoren stammer sandsynligvis fra forbindelser i videnbasen og ikke fra påviste kliniske eller mekanistiske sammenhænge. Vi kan derfor ikke vurdere, om forudsigelsen holder.
 
 ---
 
 ## Kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for CMM7.
+
+## Litteratur
+
+Der er i øjeblikket ingen relateret litteratur for CMM7.
 
 ---
 
-## Litteraturevidens
+## Øvrige forudsigelser
 
-Der er for øjeblikket ingen relateret litteratur tilgængelig.
+TxGNN forudsagde også andre sygdomme. Fire af dem mangler helt kliniske og litterære data:
+
+- pædiatrisk leptomeningealt melanom (99,30 %)
+- epitelioidcellet uvealt melanom (99,27 %)
+- bronkitis (99,22 %)
+- vulvamelanom (99,17 %)
+
+Der er desuden et begrundet forbehold for to af dem:
+
+- **Leptomeningealt melanom:** plerixafors begrænsede passage ind i centralnervesystemet er et problem.
+- **Bronkitis:** CXCR4-blokade mobiliserer hvide blodlegemer og kan i teorien forværre betændelsestilstande i luftvejene.
+
+Kun **myeloid leukæmi** (score 0,9902) har et egentligt datagrundlag. De mest relevante forsøg er:
+
+| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT00943943](https://clinicaltrials.gov/study/NCT00943943) | Fase 1 | Afsluttet | 33 | G-CSF, plerixafor og sorafenib ved FLT3-muteret AML |
+| [NCT00512252](https://clinicaltrials.gov/study/NCT00512252) | Fase 1/2 | Afsluttet | 52 | Plerixafor med mitoxantron, etoposid og cytarabin ved recidiverende/refraktær AML |
+| [NCT01352650](https://clinicaltrials.gov/study/NCT01352650) | Fase 1 | Afsluttet | 71 | Decitabin med plerixafor hos patienter ≥ 60 år |
+| [NCT01435343](https://clinicaltrials.gov/study/NCT01435343) | Fase 1/2 | Afsluttet | 55 | Fludarabin, idarubicin, cytarabin, G-CSF og plerixafor ved recidiverende/refraktær AML |
+| [NCT00906945](https://clinicaltrials.gov/study/NCT00906945) | Fase 1/2 | Afsluttet | 39 | Kemosensibilisering med plerixafor og G-CSF |
+| [NCT06141304](https://clinicaltrials.gov/study/NCT06141304) | Fase 2 | Ukendt | 28 | Plerixafor og donorlymfocytinfusion ved recidiv efter allogen transplantation |
+
+Vigtige publikationer:
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [32697348](https://pubmed.ncbi.nlm.nih.gov/32697348/) | 2020 | Fase 1-forsøg | Am J Hematol | Sorafenib, G-CSF og plerixafor ved FLT3-ITD-muteret AML |
+| [29724902](https://pubmed.ncbi.nlm.nih.gov/29724902/) | 2018 | Fase 1-forsøg | Haematologica | Plerixafor og decitabin hos ældre med nydiagnosticeret AML |
+| [29392425](https://pubmed.ncbi.nlm.nih.gov/29392425/) | 2018 | Fase 1-2 | Ann Hematol | PLERIFLAG-regimet ved tidligt recidiverende/refraktær AML |
+| [32877869](https://pubmed.ncbi.nlm.nih.gov/32877869/) | 2020 | Systematisk review | Leuk Res | Plerixafor med kemoterapi og/eller transplantation ved akut leukæmi |
+| [39261603](https://pubmed.ncbi.nlm.nih.gov/39261603/) | 2024 | Review | Leukemia | CXCR4 som behandlingsmål ved AML |
+
+Evidensen er udelukkende fase 1/2-studier uden randomiseret fase 3-forsøg. Flere forsøg blev afsluttet tidligt med få deltagere, så effekten er ikke dokumenteret. Dette er en separat vurdering af leukæmi og ændrer ikke evidensniveauet for CMM7.
 
 ---
 
@@ -83,24 +117,16 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28104372608 | Mozobil (Sanofi B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de foreliggende data |
-
----
-
-## Cytotoksicitet
-
-Plerixafor er en stamcellemobilisator og ikke et klassisk cytostatikum. Selvom den oprindelige indikation er en kræftsygdom, er lægemidlet ikke et antineoplastisk middel i traditionel forstand. Derfor er dette afsnit ikke relevant.
+| 28104372608 | Mozobil (Sanofi B.V.) | Injektionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer var ikke tilgængelige i de data, der er indsamlet til rapporten. Det bør ses som en væsentlig mangel.
+- **Relationer i videnbasen (ikke fra produktresumé):** Plerixafor er i videnbasen knyttet til trombocytopeni, nedsat nyrefunktion og leukæmi som kontraindikationer. Det er registrerede relationer og ikke officiel mærkningstekst.
+- **Lægemiddelinteraktioner:** Der er ikke fundet egentlige lægemiddelinteraktioner. De to poster i data, CXCR4 og ACKR3, er stoffets målproteiner.
 
-- **Kontraindikationer/sygdomme med modstridende signaler (fra videnskabelig vidensgraf, ikke fra produktresumé):** trombocytopeni, nedsat nyrefunktion og leukæmi. Disse stammer fra modellens vidensgraf og skal verificeres mod det godkendte produktresumé.
-- **Lægemiddelinteraktioner:** Der blev ikke fundet klassiske lægemiddel-lægemiddel-interaktioner. Forespørgslen identificerede kun farmakologiske målproteiner (CXCR4 og ACKR3).
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -109,14 +135,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af en computermodel (L5). Der er ingen kliniske forsøg eller publikationer for indolent plasmacellemyelom, og plerixafors kendte rolle (mobilisering) er ikke det samme som sygdomsmodificerende behandling. Sikkerhedsdata fra produktresuméet mangler desuden.
+CMM7 er kun støttet af en modelscore uden kliniske forsøg, publikationer eller påvist mekanistisk sammenhæng, hvilket giver evidensniveau L5. Der er ikke grundlag for at gå videre med denne indikation.
 
-**For at komme videre kræves følgende:**
-- Systematisk litteratursøgning og søgning efter kliniske forsøg for plerixafor ved indolent/smoldrende myelom
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Vurdering af sikkerhed i relation til trombocytopeni og nedsat nyrefunktion
-- Prækliniske eller tidlige kliniske data, der viser en sygdomsmodificerende effekt, ikke kun mobilisering
+**For at komme videre kræves:**
+- Præcis afklaring af, hvad CMM7 dækker, og hvilken sygdomsbiologi der forbinder den med CXCR4.
+- Prækliniske data eller litteratur, der direkte undersøger CXCR4-blokade ved denne sygdom.
+- Hentning af det danske produktresumé for godkendt indikation, advarsler og kontraindikationer.
+- Om man ønsker at forfølge leukæmi i stedet: en separat vurdering baseret på de eksisterende fase 1/2-data og et randomiseret studie.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

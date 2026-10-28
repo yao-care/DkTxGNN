@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Brivaracetam
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 132
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brivaracetam: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi / fokal epilepsi (ifølge videnbasen bag TxGNN"
+evidence_level: L5
+indication_count: 1
+monitor_inn: "BRIVARACETAM"
+predicted_indications: ["beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Brivaracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi og partiel motorisk epilepsi"
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,12 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Brivaracetam: Fra fokal epilepsi til visuel epilepsi
+## Brivaracetam: Fra partiel epilepsi til beta-ketothiolase-mangel
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Brivaracetam er et antiepileptikum, der oprindeligt bruges til behandling af fokal (partiel) epilepsi. TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi** (fotosensitiv refleksepilepsi). Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer specifikt om visuel epilepsi**. Støtten er derfor kun modelbaseret og mekanistisk.
+Brivaracetam er et antiepileptisk lægemiddel, hvis tilknyttede anvendelser i videnbasen er partiel epilepsi og partiel motorisk epilepsi. TxGNN-modellen forudsiger, at det kan have effekt ved **beta-ketothiolase-mangel**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen bygger udelukkende på modellen.
 
 ---
 
@@ -44,70 +46,59 @@ Brivaracetam er et antiepileptikum, der oprindeligt bruges til behandling af fok
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Partiel epilepsi / fokal epilepsi (ifølge videnbasen bag TxGNN; indikationsteksten i den danske tilladelse er ikke oplyst) |
-| Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-forudsigelsesscore | 99,5 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Partiel epilepsi og partiel motorisk epilepsi (relation registreret i videnbasen; den danske markedsføringstilladelse indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Beta-ketothiolase-mangel |
+| TxGNN-forudsigelsesscore | 0,9914 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-I de data, der er indsamlet til denne rapport, mangler en detaljeret beskrivelse af virkningsmekanismen. Ifølge den tilknyttede litteratur er brivaracetam en selektiv ligand med høj affinitet til det synaptiske vesikelprotein 2A (SV2A). Det er samme målmolekyle som for levetiracetam, men brivaracetam binder med 15-30 gange højere affinitet. Det trænger hurtigt ind i hjernen og har bred antiepileptisk aktivitet i prækliniske modeller. Der er også rapporteret en vis hæmning af natriumkanaler.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det materiale, der er sammenstillet til denne rapport. Der kan derfor ikke påvises en valideret mekanistisk sammenhæng mellem brivaracetam og den forudsagte sygdom.
 
-Visuel (fotosensitiv) epilepsi er en refleksepilepsi, hvor anfald udløses af visuel stimulation. SV2A-modulation, der dæmper frigivelsen af neurotransmittere og udbredelsen af anfald, kan derfor tænkes at virke. Den såkaldte fotosensitivitetsmodel, hvor man måler EEG-respons på intermitterende lysstimulation, er desuden brugt til at sammenligne brivaracetam med levetiracetam.
+Beta-ketothiolase-mangel (ACAT1-mangel) er en arvelig forstyrrelse i nedbrydningen af isoleucin og i udnyttelsen af ketonlegemer. Det vigtigste kliniske problem er episodisk ketoacidose. Krampeanfald kan opstå som følge af metabolisk afsporing, men behandlingen retter sig primært mod den metaboliske krise. Et antiepileptikum vil ikke korrigere den underliggende enzymdefekt.
 
-Sammenhængen med den oprindelige indikation er dog kun indirekte. Den eksisterende litteratur handler om status epilepticus, adjuverende behandling af fokale anfald og lægemiddelresistent epilepsi, ikke om visuel epilepsi. Forudsigelsen hviler derfor på modelnærhed og mekanistisk plausibilitet, ikke på direkte klinisk dokumentation.
+Den meget høje modelscore (0,9914) er alene en beregnet forudsigelse. Ingen kliniske forsøg eller publicerede studier understøtter den i de foreliggende data.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for visuel epilepsi.
-
-*Bemærkning:* For en anden forudsagt indikation, status epilepticus, findes forsøget [NCT07163572](https://clinicaltrials.gov/study/NCT07163572). Det er et afsluttet forsøg (fase ikke angivet, 152 deltagere), der sammenligner intravenøst brivaracetam med levetiracetam hos børn. Der er ikke fremlagt resultater, og forsøget har ingen direkte relevans for visuel epilepsi.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Ingen af nedenstående publikationer omhandler visuel epilepsi specifikt. De dokumenterer brivaracetams generelle profil ved epilepsi.
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | RCT (fase 3) | Epilepsia Open | Adjuverende brivaracetam hos asiatiske voksne med ukontrollerede fokale anfald: effekt, sikkerhed og tolerabilitet |
-| [30920649](https://pubmed.ncbi.nlm.nih.gov/30920649/) | 2019 | Cochrane-review | Cochrane Database Syst Rev | Brivaracetam som tillægsbehandling ved lægemiddelresistent epilepsi |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematisk review og netværksmetaanalyse | Drugs | Sammenligning af tredjegenerations antiepileptika (herunder brivaracetam) som tillæg ved fokale anfald |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematisk review og metaanalyse | Frontiers in Neurology | Sikkerhed og effekt af brivaracetam ved epilepsi hos børn |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Review | Advances in Therapy | Prækliniske profil og kliniske fordele ved brivaracetam; SV2A-affinitet 15-30 gange højere end levetiracetam |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | Journal of Epilepsy Research | Farmakologi, effekt og sikkerhed; godkendt som tillægs- og monoterapi ved fokale anfald |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Review | Expert Rev Neurother | Effekt og tolerabilitet ved fokal epilepsi |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Virkningsmekanismer for gængse antiepileptika |
-| [26664121](https://pubmed.ncbi.nlm.nih.gov/26664121/) | 2015 | Review | Neuropsychiatr Dis Treat | Profil og potentiale ved epilepsi |
-| [17199019](https://pubmed.ncbi.nlm.nih.gov/17199019/) | 2007 | Review | Neurotherapeutics | Kemisk slægtskab med levetiracetam, SV2A-binding og natriumkanalhæmning |
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107156924 (national, Lægemiddelstyrelsen) | Abavalex (G.L. Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst ikke oplyst i de indsamlede data |
+| 28107156924 | Abavalex (G.L. Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
 
-Der er én gyldig tilladelse (enkeltstofpræparat), administrationsvej: oral.
+Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral.
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Lægemiddelinteraktioner:** Der er identificeret 69 mulige interaktioner. Blandt de første 20 er de vigtigste:
-  - **Moderate:** morfin (inkl. liposomal), opium, dronabinol, nabilon, metoclopramid, sibutramin, difenoxin, diphenoxylat, ethanol, promethazin og clopidogrel. Flere af disse er centralt dæmpende stoffer, hvor additiv sedation er relevant.
-  - **Milde:** protonpumpehæmmere (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol), chlorpropamid, tolbutamid og cilostazol.
+Der foreligger ingen advarsler eller kontraindikationer fra produktresuméet i de indsamlede data. Der er heller ikke registreret kontraindikationer i videnbasen.
 
-For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse oplysninger ikke indgår i de indsamlede data.
+**Lægemiddelinteraktioner:** Der er identificeret 69 interaktioner i alt. Blandt de første 20 registrerede er de fleste af moderat sværhedsgrad:
+
+- **Moderat:** morfin (inkl. liposomal), opium, dronabinol, nabilon, metoclopramid, sibutramin, difenoxin, diphenoxylat, ethanol, promethazin og clopidogrel. Mange af disse er stoffer med central dæmpende virkning, hvor additive effekter er relevante.
+- **Mindre:** protonpumpehæmmere (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol), chlorpropamid, tolbutamid og cilostazol.
+
+Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -116,13 +107,13 @@ For advarsler og kontraindikationer henvises til det godkendte produktresumé (S
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for visuel epilepsi hviler udelukkende på modelscore og mekanistisk plausibilitet (L4). Der er hverken kliniske forsøg eller indikationsspecifik litteratur, og sammenhængen med den oprindelige indikation er kun indirekte.
+Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Der er ingen påviselig mekanistisk sammenhæng, og sygdommens kerneproblem er metabolisk, ikke epileptisk.
 
-**For at komme videre kræves:**
-- Indikationsspecifik dokumentation, fx små studier med fotosensitivitetsmodellen (fotoparoxysmal EEG-respons) eller case-serier ved fotosensitiv epilepsi
-- Hentning af produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
-- Detaljerede data om virkningsmekanisme fra en validerret kilde (fx DrugBank)
-- Vurdering af alternative forudsagte indikationer med stærkere evidens, især status epilepticus (L3), når resultaterne fra NCT07163572 foreligger
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsvurdering
+- Systematisk litteratursøgning og prækliniske data, der direkte undersøger brivaracetam ved beta-ketothiolase-mangel
+- Klinisk vurdering af, om anfald ved denne sygdom er forårsaget af metabolisk afsporing, og om en antiepileptisk behandling overhovedet har en rolle
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 607
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, atopisk konjunktivitis…"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Olopatadine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Olopatadin: Fra allergisk konjunktivitis og rhinitis til rosacea-konjunktivitis
+## Olopatadine: Rosacea-konjunktivitis (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Olopatadin er en histamin H1-receptorantagonist med mastcellestabiliserende effe
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, atopisk konjunktivitis, papillær konjunktivitis og vernal konjunktivitis (fra TxGNN-vidensgrafen; godkendt indikationstekst for de danske produkter er ikke tilgængelig) |
-| Forudsagt ny indikation | Rosacea-konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,41 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rosacea-konjunktivitis (rosacea conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9941 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er i
 
 Okulær rosacea (rosacea-konjunktivitis) skyldes primært dysfunktion i meibomske kirtler, inflammation i øjenlågsranden, mikrobielle faktorer eller Demodex samt aktivering af det medfødte immunsystem og cytokiner (f.eks. IL-1 og MMP'er). Den er således ikke en klassisk IgE-medieret allergi.
 
-Et mekanistisk overlap er plausibelt, fordi mastcelleaktivering og histaminrelateret inflammation kan bidrage til irritation og rødme af øjets overflade, og olopatadin kan muligvis give symptomlindring. Koblingen er imidlertid indirekte og spekulativ. Den høje score (0,994) afspejler nærhed i vidensgrafen til andre konjunktivitis-indikationer og er alene en beregningsmæssig forudsigelse. Da mekanismedata mangler, har den mekanistiske begrundelse ikke kunnet kontrolleres mod kuraterede måldata.
+Et mekanistisk overlap er plausibelt, fordi mastcelleaktivering og histaminrelateret inflammation kan bidrage til irritation og rødme af øjets overflade, og olopatadin kan muligvis give symptomlindring. Koblingen er imidlertid indirekte og spekulativ. Den høje score (0,9941) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Da mekanismedata mangler, har den mekanistiske begrundelse ikke kunnet kontrolleres mod kuraterede måldata.
 
 ---
 

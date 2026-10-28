@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09105",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09105"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "mitochondrial-oxidative-phosphorylation-disorder-due-to-nuclear-dna-anomalies",
-          "display": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
-        }
-      ],
-      "text": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+      "concept": {
+        "text": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9995
     }
   ]
 }

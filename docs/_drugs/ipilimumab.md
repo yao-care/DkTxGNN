@@ -4,17 +4,17 @@ title: Ipilimumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 451
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ipilimumab: forudsagt ny indikation Choroideremi (evidensniveau L5). Oprindelig indikation: Metastatisk melanom"
 monitor_inn: "IPILIMUMAB"
-predicted_indications: ["choroideremia", "choroideremia"]
+predicted_indications: ["choroideremia"]
+description: "Ipilimumab: forudsagt ny indikation Choroideremi (choroideremia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Ipilimumab: Fra metastatisk melanom til choroideremi
+## Ipilimumab: Choroideremi (choroideremia)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Ipilimumab er et antistof, der blokerer CTLA-4, og som oprindeligt anvendes til 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Metastatisk melanom (fra videngrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Choroideremi |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Choroideremi (choroideremia) |
+| TxGNN-forudsigelsesscore | 0.9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -124,7 +124,6 @@ Forudsigelsen mangler enhver klinisk eller litteraturmæssig støtte (evidensniv
 - Hentning af advarsler og kontraindikationer fra produktresuméet (SmPC) samt data om virkningsmekanisme.
 - Fjernelse af den dublerede forudsigelse i modellens output.
 
-**Bemærkning:** Den næste forudsigelse i de samme data, **non-kutant melanom** (score 99,02 %), har væsentligt mere evidens, herunder et fase 3-forsøg (NCT02278887, hvor ipilimumab er sammenligningsarm) og et fase 2-forsøg med nivolumab plus ipilimumab ved uveal melanom (NCT02626962). Det er en udvidelse inden for samme sygdomsfamilie og bør vurderes i en separat rapport.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

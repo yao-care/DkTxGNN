@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Kun modelforudsigelse (L5)
 nav_order: 526
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Meloxicam: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, ledsygdomme…"
+indication_count: 8
 monitor_inn: "MELOXICAM"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis", "brachyolmia", "brachyolmia", "pseudoachondroplasia", "pseudoachondroplasia"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-23
+description: "Meloxicam: forudsagt ny indikation Akromesomel dysplasi af Hunter-Thompson-typen (evidensniveau L5). Oprindelig indikation: Reumatoid artritis, slidgigt og juvenil idiopatisk artritis"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Meloxicam: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Meloxicam: Fra slidgigt og reumatoid artritis til akromesomel dysplasi af Hunter-Thompson-typen
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Meloxicam er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), der oprindeligt anvendes til behandling af leddegigt, slidgigt og andre inflammatoriske ledsygdomme.
-TxGNN-modellen forudsiger, at det kan have effekt på **akromesomelisk dysplasi, Hunter-Thompson-type**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Den er udelukkende modelbaseret.
+Meloxicam er en NSAID-hæmmer (præferentiel COX-2-hæmmer), som i den viden, der er indgået i rapporten, er knyttet til reumatoid artritis, slidgigt og juvenil idiopatisk artritis.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akromesomel dysplasi af Hunter-Thompson-typen**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er samlet til denne rapport. Forudsigelsen er derfor ren modelforudsigelse.
 
 ---
 
@@ -48,54 +47,56 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, slidgigt, ledsygdomme, juvenil idiopatisk artritis og spondylartropati (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| Oprindelig indikation | Reumatoid artritis, slidgigt og juvenil idiopatisk artritis (relationer registreret i vidensgrafen; godkendelsesteksten for det danske produkt er ikke angivet) |
+| Forudsagt ny indikation | Akromesomel dysplasi af Hunter-Thompson-typen |
+| TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om meloxicams virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Meloxicam er generelt kendt som en præferentiel COX-2-hæmmer, som dæmper prostaglandinsyntesen og dermed inflammation og smerte. Dets effekt ved inflammatoriske og slidgigtsrelaterede ledsygdomme er veldokumenteret.
+Der foreligger ikke detaljerede data om virkningsmekanismen for meloxicam i de data, der er samlet til denne rapport. Meloxicam er kendt som en præferentiel COX-2-hæmmer med smertestillende og antiinflammatorisk effekt ved ledlidelser. Det begrænser mulighederne for en mekanistisk vurdering.
 
-Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden genetisk skeletdysplasi, som i litteraturen er forbundet med CDMP1/GDF5-signalering. Der er ingen oplagt vej fra hæmning af prostaglandinsyntese til en sygdomsmodificerende effekt ved denne tilstand. Den høje TxGNN-score er en beregnet forudsigelse og kan afspejle symptomatiske sammenfald eller netværksnærhed i vidensgrafen snarere end en reel biologisk sammenhæng.
+Akromesomel dysplasi af Hunter-Thompson-typen er en sjælden skeletdysplasi, som skyldes funktionstabsvarianter i CDMP1/GDF5 og påvirker udviklingen af bruskvæv i lemmerne. Meloxicam virker ikke på GDF5-signalering eller på den underliggende udviklingsdefekt. Den høje score stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens for en reel terapeutisk sammenhæng.
 
-Det bør bemærkes, at de øvrige topforudsigelser i datasættet (brachyolmi-amelogenesis imperfecta-syndrom, myosklerose, brachyolmi og pseudoachondroplasi) har samme mønster: høje modelscorer uden kliniske forsøg eller litteratur. I bedste fald kunne meloxicam have en symptomlindrende rolle (smerter i led eller ryg), men dette er ikke understøttet af data.
+Andre forudsigelser på listen følger samme mønster. Den mest plausible kandidat er **reumatoid nodulose** (score 0,9951), som ligger tæt på den kendte indikation reumatoid artritis, og hvor meloxicam i bedste fald kan lindre symptomer fra led. NSAID'er påvirker dog ikke dannelsen af noduli. Ved pseudoachondroplasi kan symptomlindring ved sekundær slidgigt tænkes, men der er ingen evidens for effekt på den COMP-relaterede sygdomsproces.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relevante kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der findes i øjeblikket ingen relevant litteratur.
+Der foreligger i øjeblikket ingen relateret litteratur.
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104143007 | Animeloxan (aniMedica GmbH) | Oral suspension | Ikke angivet i de tilgængelige data |
+| 28104143007 | Animeloxan (aniMedica GmbH) | Oral suspension | Indikationstekst er ikke angivet i de foreliggende data |
+
+Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Følgende oplysninger stammer fra vidensgrafen og interaktionsdatabaser og erstatter ikke produktresuméet.
+Oplysninger fra produktresuméet om advarsler og kontraindikationer foreligger ikke i de data, der er samlet til denne rapport. Se det godkendte produktresumé (SmPC).
 
-- **Kontraindikationer/sygdomme med risiko (fra vidensgrafen, ikke fra produktresumé)**: Blandt de registrerede tilstande er: aktivt mavesår, gastritis, hjertesvigt, hjerte-kar-sygdom, myokardieinfarkt, slagtilfælde/cerebrovaskulær sygdom, nyresygdom og nedsat nyrefunktion, hypertension, blodkoagulationssygdomme, diabetes (herunder diabetisk ketoacidose), hyperlipidæmi, anæmi, hæmoglobinopati og stofmisbrug/afhængighed.
-- **Lægemiddelinteraktioner**: Der er identificeret 100 interaktioner. Af de viste er næsten alle af moderat sværhedsgrad, fx med acetylsalicylsyre, kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon, budesonid), metformin, sulfonylurinstoffer (glimepirid, chlorpropamid), mesalazin og balsalazid, aprepitant, vancomycin og kanamycin, kaliumcitrat og kaliumbicarbonat samt visse afføringsmidler/tarmrensemidler. Interaktionen med linaclotid er mindre alvorlig.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+- **Kontraindikationsrelationer i vidensgrafen** (ikke mærkningstekst): hypertension, nyresygdom og nedsat nyrefunktion, kongestiv hjerteinsufficiens, hjerte-kar-sygdom, hjertesygdom, myokardieinfarkt, koronar trombose, apopleksi/cerebrovaskulær sygdom, cerebralt infarkt, aktivt peptisk mavesår, gastritis, blodkoagulationssygdom, diabetes mellitus, diabetisk ketoacidose, hyperlipidæmi (inkl. familiær), anæmi, hæmoglobinopati, pyoureter og misbrug/afhængighed.
+- **Lægemiddelinteraktioner** (100 registreret; udvalgte):
+  - Moderate: hydrocortison, dexamethason, betamethason, triamcinolon, budesonid (kortikosteroider), acetylsalicylsyre, metformin, glimepirid, chlorpropamid, mesalazin, balsalazid, aprepitant, vancomycin, kanamycin, kaliumcitrat, kaliumbicarbonat, natriumsulfat, picosulfat og polyethylenglycol med elektrolytter.
+  - Mindre: linaclotid.
 
 ---
 
@@ -104,13 +105,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer, og der er ikke noget plausibelt mekanistisk link mellem COX-2-hæmning og denne genetiske skeletdysplasi. Sikkerhedsprofilen (bl.a. kardiovaskulære, gastrointestinale og renale risici) gør, at en uunderbygget anvendelse ikke kan anbefales.
+Forudsigelsen bygger udelukkende på scoren fra TxGNN-modellen (deep learning) uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanisme, og scoren afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) og en reel mekanistisk begrundelse for sygdommen
-- Prækliniske data eller sygdomsmodeller, der understøtter en effekt
-- Hentning og gennemgang af produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
-- Afklaring af, om en eventuel nytte kun er symptomatisk (smertelindring), og i så fald en vurdering af nytte/risiko i en sjælden og potentielt sårbar patientgruppe, herunder børn
+- Data om virkningsmekanisme (MOA) for meloxicam
+- Godkendt produktresumé med advarsler, kontraindikationer og godkendt indikationstekst for det danske præparat
+- Prækliniske eller kliniske data, der direkte undersøger meloxicam ved akromesomel dysplasi af Hunter-Thompson-typen
+- Hvis der ønskes et realistisk spor, bør man i stedet vurdere reumatoid nodulose, hvor kun symptomlindring er plausibel, og hvor der også mangler evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

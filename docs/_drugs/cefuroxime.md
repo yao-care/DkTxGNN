@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Kun modelforudsigelse (L5)
 nav_order: 174
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cefuroxime: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner, bl.a. otitis media…"
+indication_count: 9
 monitor_inn: "cefuroxime"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+last_modified_at: 2026-10-27
+description: "Cefuroxime: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cefuroxim: Fra bakterielle infektioner til hyperamylasæmi
+## Cefuroxim: cefalosporin, hæmmer bakteriel cellevægssyntese → hyperamylasæmi (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Cefuroxim er et cefalosporin af anden generation, der oprindeligt anvendes til bakterielle infektioner som otitis media, lungebetændelse, meningitis og gonoré.
-TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den høje modelscore er derfor ikke bakket op af reelle data.
+Cefuroxim er et cefalosporin af anden generation, der hæmmer bakteriers cellevægssyntese. TxGNN-modellen forudsiger, at det kan have effekt ved **hyperamylasæmi (hyperamylasemia)**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
 
 ---
 
@@ -47,58 +46,57 @@ TxGNN-modellen forudsiger, at det kan have effekt på **hyperamylasæmi**, men d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakterielle infektioner, bl.a. otitis media, streptokok- og stafylokokinfektioner, bakteriel lungebetændelse, meningitis, gonoré og Lyme-sygdom (fra TxGNN-vidensgrafen, da indikationsteksten i de danske tilladelser ikke er tilgængelig) |
-| Forudsagt ny indikation | Hyperamylasæmi |
-| TxGNN-forudsigelsesscore | 99,76 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | hyperamylasæmi (hyperamylasemia) |
+| TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Cefuroxim er et baktericidt cefalosporin, der hæmmer syntesen af bakteriens cellevæg. Effekten er veldokumenteret ved bakterielle infektioner.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Cefuroxim er et baktericidt cefalosporin, der hæmmer bakteriers cellevægssyntese.
 
-Hyperamylasæmi er et laboratoriefund med forhøjet amylase i blodet. Det har ikke en bakteriel drivkraft, som en cellevægshæmmer kan angribe. Vi finder derfor ingen plausibel mekanistisk sammenhæng mellem cefuroxims virkning og den forudsagte indikation. Forudsigelsen skyldes sandsynligvis nærhed i vidensgrafen og ikke en reel farmakologisk effekt.
+Hyperamylasæmi er et laboratoriefund (forhøjet amylase i blodet) uden en bakteriel drivende årsag. Der er derfor ikke en plausibel mekanistisk forbindelse mellem cefuroxims virkning og denne tilstand. Den høje forudsigelsesscore afspejler en beregningsmæssig modelforudsigelse og er ikke understøttet af kliniske eller litteraturbaserede data. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
 ---
 
 ## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relevante kliniske forsøg registreret for denne indikation.
 
 ---
 
-## Litteratur
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relevant litteratur tilgængelig for denne indikation.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104096707 | Cefuroxim "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | Se produktresumé (SmPC) |
-| 28104894011 | Aprokam | Pulver til injektionsvæske, opløsning | Se produktresumé (SmPC) |
-| 28103323601 | Cefudoc | Filmovertrukne tabletter | Se produktresumé (SmPC) |
+| 28104096707 | Cefuroxim "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | – |
+| 28104894011 | Aprokam | Pulver til injektionsvæske, opløsning | – |
+| 28103323601 | Cefudoc | Filmovertrukne tabletter | – |
 
-Alle tre tilladelser er gyldige enkeltstofpræparater (ingen kombinationspræparater og ingen annullerede tilladelser).
+Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Sygdomme, der i vidensgrafen er knyttet til kontraindikation** (ikke hentet fra produktresuméet): nyresygdom, leversygdom, galdeblæresygdom, blodkoagulationssygdom, *Clostridium difficile*-colitis, pyoureter, perinatal nekrotiserende enterokolitis og medfødt protrombinmangel.
-- **Lægemiddelinteraktioner:** 190 interaktioner er registreret. De viste er alle af moderat sværhedsgrad:
-  - Syrehæmmende midler: protonpumpehæmmere (omeprazol, pantoprazol, esomeprazol, lansoprazol, rabeprazol, dexlansoprazol) og H2-blokkere (famotidin, ranitidin, cimetidin, nizatidin).
-  - Antacida: aluminiumhydroxid, calciumcarbonat og magnesiumholdige præparater.
-  - Aminoglykosider: kanamycin og neomycin.
-  - Balsalazid.
+**Lægemiddelinteraktioner:** Der er registreret 190 mulige interaktioner. De fleste af de viste er af moderat grad, bl.a. med:
+- Syrehæmmende midler: famotidin, ranitidin, cimetidin, nizatidin, omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol
+- Antacida: aluminiumhydroxid, calciumcarbonat, magnesiumcarbonat, magnesiumhydroxid, magnesiumoxid, magaldrat
+- Aminoglykosider: kanamycin, neomycin
+- Balsalazid
 
-Fuldstændige oplysninger om advarsler og kontraindikationer findes i det godkendte produktresumé (SmPC).
+For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -107,15 +105,12 @@ Fuldstændige oplysninger om advarsler og kontraindikationer findes i det godken
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om hyperamylasæmi bygger udelukkende på modelscoren (evidensniveau L5). Der er hverken kliniske forsøg, litteratur eller en plausibel virkningsmekanisme.
+- Forudsigelsen om hyperamylasæmi mangler både mekanistisk rationale og enhver klinisk eller litterær evidens, og evidensniveauet er L5 (kun modelforudsigelse).
 
-Blandt de øvrige kandidater i analysen har **urinvejsinfektion** den bedste støtte (L3, Proceed with Guardrails). Her er cefuroxim allerede i klinisk brug, så det er snarere en udvidelse af eksisterende brug end egentlig repurposing. Evidensen er hovedsageligt observationel eller på oversigtsniveau, og der er ingen fase 3-RCT, der direkte tester cefuroxims effekt. Lokale resistensmønstre (f.eks. ESBL) bør styre brugen.
-
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Hvis hyperamylasæmi alligevel skal undersøges: prækliniske eller mekanistiske data, der kan underbygge en sammenhæng
-- Overvej i stedet at prioritere urinvejsinfektion til videre vurdering, med fokus på lokale resistensdata
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme, der kan begrunde en sammenhæng med hyperamylasæmi
+- Prækliniske eller kliniske studier, der direkte undersøger cefuroxim ved denne tilstand
+- Gennemgang af produktresuméer for advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

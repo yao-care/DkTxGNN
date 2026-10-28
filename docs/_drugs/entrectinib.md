@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Entrectinib
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 310
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Entrectinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske markedsføringstillad…"
-monitor_inn: "Entrectinib"
-predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "amenorrhea (disease)", "amenorrhea (disease)", "thrombocytopenia", "thrombocytopenia", "cytomegalovirus infection", "cytomegalovirus infection", "pulmonary hypertension", "pulmonary hypertension"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Entrectinib: kendte anvendelser og markedsstatus i Danmark; foreløbig ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Entrectinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,45 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Entrectinib: Fra en tumoragnostisk kræftbehandling til multipel endokrin neoplasi
+<!-- known-uses-page -->
+<!-- description: Entrectinib: kendte anvendelser og markedsstatus i Danmark; foreløbig ingen ny kandidatindikation -->
+## Entrectinib: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
 ## Resumé
-
-Entrectinib er en kinasehæmmer, der markedsføres i Danmark som Rozlytrek. Lægemidlet hæmmer TRK, ROS1 og ALK og anvendes mod kræftsygdomme med relevante genfusioner. TxGNN-modellen forudsiger, at det kan have effekt på **multipel endokrin neoplasi** (MEN). Evidensen er meget svag: **1 klinisk forsøg** (afsluttet tidligt med 2 deltagere) og **1 publikation**, som ikke undersøger entrectinibs effekt.
-
----
+TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Entrectinib, så der er foreløbig ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er opført nedenfor.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske markedsføringstilladelse (anvendes mod kræft med TRK-/ROS1-fusioner) |
-| Forudsagt ny indikation | Multipel endokrin neoplasi |
-| TxGNN-forudsigelsesscore | 98,58 % |
-| Evidensniveau | L3 (formelt tildelt i de indsamlede data; i praksis tæt på L5, da der ikke findes interpretérbare studier af entrectinib) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
+| Kendte anvendelser registreret for dette lægemiddel | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Kendte anvendelser registreret for dette lægemiddel
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| ikke-småcellet lungekræft (non-small-cell lung carcinoma) | licens i et andet land |
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden hæmmer entrectinib TRK-, ROS1- og ALK-kinaser og har i visse sammenhænge aktivitet mod RET.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-MEN type 2 skyldes aktiverende kimbaneforandringer i RET-genet og giver bl.a. medullært thyreoideakarcinom og fæokromocytom. Der er derfor en tænkelig RET-baseret begrundelse. Entrectinib er dog ikke en selektiv RET-hæmmer, og de etablerede RET-målrettede muligheder er selpercatinib og pralsetinib.
-
-Den eneste tilknyttede publikation omhandler resistens over for selektive RET-hæmmere, ikke entrectinibs effekt. Forudsigelsen er derfor primært beregningsmæssig.
-
----
-
-## Evidens fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Fase 1 | Afsluttet tidligt (terminated) | 2 | SMMART PRIME: personaliseret præcisionsonkologisk platform, der tester lægemiddelkombinationer ud fra patientens tumor. Ikke et MEN-specifikt entrectinib-studie, og der kan ikke udledes effekt- eller sikkerhedssignaler. |
-
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Prækliniske/mekanistiske data (case med molekylær analyse) | NPJ Precision Oncology | Beskriver off-target-resistensmekanismer over for selektive RET-hæmmere (selpercatinib) hos en patient med medullært thyreoideakarcinom. Handler ikke om entrectinib. |
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106220119 | Rozlytrek (Roche Registration GmbH) | Kapsler, hårde | Indikationstekst er ikke angivet i de indsamlede data |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28106220119 | Rozlytrek | kapsler, hårde | Gyldig |
 
 ## Cytotoksicitet
 
@@ -118,29 +100,6 @@ Flere interaktioner er klassificeret som moderate, bl.a. famotidin, loperamid, c
 
 ---
 
-## Øvrige forudsagte indikationer (kort)
-
-Øvrige forudsigelser med høj score understøttes ikke af evidens og anbefales sat i bero (Hold):
-- **Amenorré** (98,4 %): ingen studier eller litteratur; sandsynligvis et bivirknings-/off-target-signal.
-- **Trombocytopeni** (98,1 %): litteraturen peger på en komplikation, ikke en gavnlig effekt.
-- **Cytomegalovirusinfektion** (98,0 %): ingen evidens eller kendt antiviral mekanisme.
-- **Pulmonal hypertension** (97,9 %): kun en case-rapport om PTTM, hvilket er en sikkerhedsbekymring.
-
----
-
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Den høje TxGNN-score støttes ikke af interpretérbare kliniske data. Det eneste forsøg blev afsluttet tidligt med 2 deltagere, og den eneste publikation handler om selektive RET-hæmmere. Etablerede, mere selektive RET-hæmmere findes allerede til RET-drevet sygdom.
-
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) og entrectinibs RET-aktivitet (præklinisk, f.eks. i RET-muterede MEN2-modeller)
-- Produktresumé-data om advarsler og kontraindikationer samt den godkendte indikationstekst for Rozlytrek
-- Sammenligning med selpercatinib og pralsetinib for at afklare en eventuel klinisk merværdi
-- Målrettede kliniske data eller case-serier for entrectinib ved RET-drevet sygdom
-- Gennemgang af interaktionsprofil og PTTM-signalet i en eventuel protokol
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Alglucosidase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 38
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alglucosidase Alfa: forudsagt ny indikation Voksen polyglucosanlegemesygdom (evidensniveau L5). Oprindelig indikation: Glykogenlagringssygdom"
+indication_count: 8
 monitor_inn: "Alglucosidase alfa"
-predicted_indications: ["adult polyglucosan body disease", "adult polyglucosan body disease", "congenital entropion", "congenital entropion", "congenital ectropion", "congenital ectropion"]
+predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
+last_modified_at: 2026-10-23
+description: "Alglucosidase Alfa: forudsagt ny indikation Adult polyglucosan body disease (evidensniveau L5). Oprindelig indikation: Glykogenlagringssygdom"
 ---
 
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Alglucosidase alfa: Fra glykogenlagringssygdom til voksen polyglucosanlegemesygdom
+## Alglucosidase alfa: Fra glykogenlagringssygdom til adult polyglucosan body disease
 {: .text-alpha }
 
-## Opsummering
+## Resumé
 
-Alglucosidase alfa er et rekombinant enzym (syre-alfa-glucosidase), der oprindeligt anvendes mod glykogenlagringssygdom.
-TxGNN-modellen forudsiger, at det kan have effekt mod **voksen polyglucosanlegemesygdom** (score 99,47 %).
-Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen, og den mekanistiske begrundelse er svag.
+Alglucosidase alfa er et rekombinant enzym. Forudsigelserne og scorerne på denne side stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **adult polyglucosan body disease**,
+men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor kun en modelbaseret forskningshypotese.
 
 ---
 
@@ -48,59 +48,66 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Glykogenlagringssygdom |
-| Forudsagt ny indikation | Voksen polyglucosanlegemesygdom |
-| TxGNN-forudsigelsesscore | 99,47 % |
+| Oprindelig indikation | Glykogenlagringssygdom (relation registreret i videnbasen; godkendelsesteksten i den danske licens er tom) |
+| Forudsagt ny indikation | Adult polyglucosan body disease |
+| TxGNN-forudsigelsesscore | 0,9947 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Alglucosidase alfa er dog kendt som rekombinant human syre-alfa-glucosidase (GAA), der nedbryder glykogen i lysosomerne. Midlet bruges ved sygdom, hvor dette enzym mangler (glykogenlagringssygdom type II).
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Alglucosidase alfa er dog et rekombinant enzym (sur alfa-glucosidase), der nedbryder glykogen i lysosomer.
 
-Voksen polyglucosanlegemesygdom skyldes mangel på glykogen-forgreningsenzymet (GBE1). Det giver dårligt forgrenet, uopløseligt polyglucosan, som hober sig op primært i neuroner og axoner, altså i cytosolen og ikke i lysosomerne. Der er en overordnet forbindelse via glykogenstofskiftet, men alglucosidase alfa erstatter ikke GBE1. Desuden har enzymet begrænset adgang til cytosol og centralnervesystemet på grund af ringe passage af blod-hjerne-barrieren.
+Adult polyglucosan body disease skyldes mangel på glykogenforgreningsenzymet (GBE1). Det fører til ophobning af dårligt forgrenet, uopløseligt polyglucosan i neuroner og andre væv. Det er et link på stofskifteniveau: begge sygdomme handler om glykogenmetabolisme, og det forklarer sandsynligvis den høje score.
 
-Den høje score skyldes sandsynligvis, at sygdommene ligger tæt på hinanden i vidensgrafens klasse for glykogenlagringssygdomme, snarere end et reelt farmakologisk grundlag.
-
-**Øvrige forudsagte indikationer** (alle med evidensniveau L5 og beslutningen Hold):
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Glykogenlagringssygdom pga. GBE1-mangel (letal perinatal og kongenit neuromuskulær form, type IV) | 99,32 % | Enzymet erstatter ikke forgreningsenzymet og retter ikke den primære defekt. Sandsynligvis en artefakt af klassegruppering. |
-| Medfødt entropion | 99,22 % | Strukturel misdannelse af øjenlåget, behandles kirurgisk. Ingen plausibel mekanisme. |
-| Medfødt ektropion | 99,17 % | Strukturel misdannelse af øjenlåget. Ingen troværdig mekanistisk forbindelse. |
+Biologien er dog svag. Polyglucosan ophobes i cytosolen på grund af en forgreningsdefekt og ikke på grund af mangel på lysosomal sur alfa-glucosidase. Enzymet krydser desuden kun i ringe grad blod-hjerne-barrieren, hvilket er en stor hindring ved en neurologisk sygdom. Forudsigelsen er derfor plausibel, men biologisk ikke understøttet.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen registrerede kliniske forsøg relateret til denne forudsagte indikation.
-
----
-
-## Litteraturevidens
-
-Der er på nuværende tidspunkt ingen relevant litteratur.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Information om markedet i Danmark
+## Evidens fra litteraturen
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der foreligger for tiden ingen relateret litteratur.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103761904 | Myozyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+| 28103761904 | Myozyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de foreliggende data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Der er ikke fundet interaktioner i de indsamlede data, og der er ingen registrerede kontraindikationer i vidensgrafen.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og sikkerhed.
+---
+
+## Andre forudsagte indikationer
+
+De øvrige forudsigelser har ligeledes evidensniveau L5 uden kliniske forsøg eller litteratur. Der er ikke identificeret en plausibel mekanisme, og de skyldes sandsynligvis artefakter i videnbasen, f.eks. delte fænotypeknuder. Anbefalingen er **Hold** for dem alle.
+
+| Forudsagt sygdom | TxGNN-score |
+|------|------|
+| Congenital entropion | 0,9922 |
+| Congenital ectropion | 0,9917 |
+| Congenital Horner syndrome | 0,9917 |
+| Ptosis-vocal cord paralysis syndrome | 0,9915 |
+| Camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye | 0,9911 |
+| Epiblepharon | 0,9911 |
+| Ptosis-strabismus-ectopic pupils syndrome | 0,9910 |
 
 ---
 
@@ -109,14 +116,13 @@ Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsle
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellens score uden kliniske forsøg eller litteratur (evidensniveau L5). Den mekanistiske begrundelse er svag: enzymet erstatter ikke GBE1, virker i lysosomer frem for cytosol og passerer dårligt blod-hjerne-barrieren. De øjenrelaterede forudsigelser (entropion og ektropion) er sandsynligvis artefakter.
+Forudsigelsen bygger kun på modellen. Der er ingen kliniske forsøg eller publikationer om adult polyglucosan body disease, og den biologiske sammenhæng er svag, fordi sygdommen er cytosolær og enzymet har begrænset passage af blod-hjerne-barrieren.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Præklinisk dokumentation for, at rekombinant GAA kan påvirke polyglucosanophobning i neuroner
-- Systematisk litteratursøgning og søgning efter kliniske forsøg for voksen polyglucosanlegemesygdom
-- Vurdering af administrationsvej og tilgang til centralnervesystemet
+- Systematisk litteratursøgning og søgning i forsøgsregistre specifikt for adult polyglucosan body disease
+- Data om virkningsmekanisme og vævsoptagelse, især i centralnervesystemet
+- Præklinisk dokumentation for effekt på polyglucosanophobning
+- Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

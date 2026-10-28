@@ -50,13 +50,13 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 |------|------|
 | Oprindelig indikation | Benign prostatahyperplasi |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 99,998 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Indikationsteksten i de danske tilladelser er ikke tilgængelig i de indsamlede data. Den oprindelige indikation stammer fra TxGNN-vidensgrafen.
+Bemærk: Indikationsteksten i de danske tilladelser er ikke tilgængelig i de indsamlede data. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -72,15 +72,15 @@ Forudsigelsen er derfor udelukkende beregningsmæssig. Den høje score understø
 
 | Rang | Forudsagt indikation | Score | Evidensniveau | Bemærkning |
 |------|------|------|------|------|
-| 2 | Hypertrichose | 99,997 % | L5 | Hypertrichose er generelt androgenuafhængig; ingen evidens |
-| 3 | Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,997 % | L5 | Ingen plausibel mekanisme |
-| 4 | Syndrom med Dandy-Walker-malformation | 99,996 % | L5 | Strukturel hjerneskade; dutasterid er kontraindiceret under graviditet |
-| 5 | Isoleret genetisk hårskaftsabnormitet | 99,996 % | L5 | Kun svag, indirekte sammenhæng |
-| 6 | Hypotrichosis simplex i hovedbunden | 99,771 % | L5 | Ikke primært androgenmedieret |
-| 7 | Kongenital hypotrichose med milia | 99,753 % | L5 | Ingen etableret androgendrevet patologi |
-| 8 | Diffus alopecia areata | 99,675 % | L4 | Autoimmun; kun indirekte litteratur |
-| 9 | Migræne med hjernestammeaura | 99,667 % | L5 | Ingen etableret sammenhæng |
-| 10 | Familiær isoleret trichomegali | 99,565 % | L5 | Ingen understøttende data |
+| 2 | Hypertrichose | 1,0000 | L5 | Hypertrichose er generelt androgenuafhængig; ingen evidens |
+| 3 | Misdannelsessyndrom med tand- og/eller parodontal komponent | 1,0000 | L5 | Ingen plausibel mekanisme |
+| 4 | Syndrom med Dandy-Walker-malformation | 1,0000 | L5 | Strukturel hjerneskade; dutasterid er kontraindiceret under graviditet |
+| 5 | Isoleret genetisk hårskaftsabnormitet | 1,0000 | L5 | Kun svag, indirekte sammenhæng |
+| 6 | Hypotrichosis simplex i hovedbunden | 0,9977 | L5 | Ikke primært androgenmedieret |
+| 7 | Kongenital hypotrichose med milia | 0,9975 | L5 | Ingen etableret androgendrevet patologi |
+| 8 | Diffus alopecia areata | 0,9968 | L5 | Autoimmun; kun indirekte litteratur |
+| 9 | Migræne med hjernestammeaura | 0,9967 | L5 | Ingen etableret sammenhæng |
+| 10 | Familiær isoleret trichomegali | 0,9956 | L5 | Ingen understøttende data |
 
 ---
 

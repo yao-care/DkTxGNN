@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **megaloblastær a
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data |
 | Forudsagt ny indikation | Megaloblastær anæmi |
-| TxGNN-forudsigelsesscore | 99,997 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

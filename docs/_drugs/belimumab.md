@@ -4,17 +4,17 @@ title: Belimumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 100
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Belimumab: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Systemisk lupus erythematosus (SLE) og pædiatrisk SLE"
+indication_count: 6
 monitor_inn: "BELIMUMAB"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
+last_modified_at: 2026-10-23
+description: "Belimumab: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Systemisk lupus erythematosus og pædiatrisk SLE"
 ---
 
 # Belimumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,91 +38,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Belimumab er et monoklonalt antistof, der oprindeligt anvendes til behandling af systemisk lupus erythematosus (SLE), herunder pædiatrisk SLE.
-TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
-
----
+Belimumab er et monoklonalt antistof, der er registreret i vidensgrafen for systemisk lupus erythematosus (SLE) og pædiatrisk SLE.
+TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**.
+Der er dog **0 kliniske forsøg** og **0 publikationer** i de indsamlede data, så forudsigelsen er udelukkende beregningsbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Systemisk lupus erythematosus (SLE) og pædiatrisk SLE |
+| Oprindelig indikation | Systemisk lupus erythematosus og pædiatrisk SLE (relation registreret i vidensgrafen; Lægemiddelstyrelsens godkendelsesdata indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det sammenstillede datagrundlag. Belimumab er ud fra generel viden et antistof, der neutraliserer BLyS (BAFF), hvilket nedsætter B-cellers overlevelse og produktionen af autoantistoffer. Det er relevant ved autoimmune sygdomme som SLE.
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Belimumab er dog kendt som et antistof, der neutraliserer BLyS (BAFF). Det nedsætter B-cellers overlevelse og dermed produktionen af autoantistoffer, hvilket er grundlaget for effekten ved SLE.
+Primære frigivelsesforstyrrelser af blodplader er typisk arvelige eller erhvervede kvalitative defekter i trombocytfunktionen og er ikke primært drevet af B-celler eller autoantistoffer. Der er derfor ikke identificeret en plausibel mekanistisk sammenhæng. Den høje score (0,9996) er alene en computerbaseret forudsigelse og understøttes ikke af kliniske data eller litteratur.
 
-Den forudsagte indikation har **ingen klar mekanistisk forbindelse** til den oprindelige. Primære frigivelsesforstyrrelser af blodplader er typisk arvelige eller iboende defekter i trombocytfunktionen (granulesekretion eller signalering) og er ikke drevet af B-celler eller autoantistoffer. Den høje score er alene en beregningsmæssig forudsigelse og understøttes ikke af forsøg eller litteratur.
+### Øvrige forudsigelser i samme analyse
 
-### Øvrige forudsagte indikationer
+| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Pseudo-von Willebrands sygdom | 0,9996 | L5 | Genetisk defekt i trombocytreceptoren GP1BA, ikke immunmedieret; ingen rationale for BAFF-blokade |
+| Glanzmanns trombasteni | 0,9988 | L5 | Arvelig defekt i integrin αIIbβ3; kun en spekulativ, indirekte relevans ved alloantistoffer efter trombocyttransfusion |
+| Føtal og neonatal alloimmun trombocytopeni (FNAIT) | 0,9959 | L5 | Mekanistisk mest sammenhængende (maternelle alloantistoffer), men belimumab nedsætter ikke hurtigt etableret IgG, og graviditetsdata er begrænsede |
+| Svær ikke-proliferativ diabetisk retinopati | 0,9905 | L5 | Primært mikrovaskulær/VEGF-drevet; ingen etableret rolle for BAFF |
+| Autosomal dominant makrotrombocytopeni | 0,9904 | L5 | Arvelig defekt i megakaryocytter/trombocytter; ingen mekanistisk rationale |
 
-Modellen forudsagde også følgende indikationer, alle med evidensniveau L5 og anbefalingen Hold:
-
-| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Pseudo-von Willebrands sygdom | 99,96 % | Ingen plausibel sammenhæng. Sygdommen skyldes en genetisk gain-of-function-defekt i trombocyt-GPIbα og er ikke immunmedieret. |
-| Glanzmanns trombasteni | 99,88 % | Svag og indirekte. Sygdommen skyldes arvelig mangel på integrin αIIbβ3. Teoretisk relevans kun ved alloantistoffer efter trombocyttransfusion, hvilket er spekulativt. |
-| Føtal og neonatal alloimmun trombocytopeni (FNAIT) | 99,59 % | Biologisk den mest plausible, men uunderbygget. Reduceret antistofproduktion er konceptuelt sammenhængende, men belimumab (IgG1) passerer placenta, data om graviditetssikkerhed er begrænsede, og effekten på allerede etablerede plasmaceller er usikker. Nuværende behandling er IVIG med eller uden kortikosteroider. |
-| Svær non-proliferativ diabetisk retinopati | 99,05 % | Ingen direkte sammenhæng. Sygdommen er primært drevet af hyperglykæmi-induceret mikrovaskulær skade og VEGF. Immunsuppression ville give infektionsrisiko uden understøttende rationale. |
-
----
-
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
 
 ## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
-
 ## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105851916 | Benlysta (GlaxoSmithKline (Ireland) Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28105851916 | Benlysta (GlaxoSmithKline (Ireland) Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke angivet i de tilgængelige data |
 
----
+Listen kan være ufuldstændig med hensyn til indikationstekst, men antallet af tilladelser er fuldstændigt (1).
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der blev fundet i alt 69 registrerede interaktioner. Blandt de interaktioner, der indgår i de indsamlede data, er de vigtigste:
+Lægemidlets produktresumé indeholder oplysninger om advarsler og kontraindikationer, men disse indgår ikke i det sammenstillede datagrundlag. Se det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
-- **Alvorlig (Major):** adalimumab, baricitinib, certolizumab pegol samt levende BCG-vaccine (Bacillus Calmette-Guérin).
-- **Moderat:** blandt andet roflumilast, azathioprin, anakinra, canakinumab, alemtuzumab, alefacept, tetanustoksoid samt flere vacciner (bl.a. miltbrand, adenovirus, kolera og *Candida albicans*-antigen).
-- **Mindre (Minor):** zinkforbindelser (acetat, gluconat, sulfat og chlorid).
+**Lægemiddelinteraktioner:** Der er fundet 69 potentielle interaktioner. Eksempler:
+- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, levende BCG-vaccine (Tice-stammen)
+- **Moderate:** azathioprin, anakinra, alemtuzumab, alefacept, canakinumab, roflumilast, tetanustoksoid samt flere levende eller andre vacciner
+- **Mindre (Minor):** zinksalte (acetat, gluconat, sulfat, chlorid)
 
-Generelt gælder, at kombination med andre immunsuppressiva eller biologiske lægemidler samt levende vacciner kræver særlig opmærksomhed.
-
-For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke var tilgængelige.
-
----
+Generelt er kombination med andre immunsupprimerende biologiske lægemidler og levende vacciner væsentlig at vurdere.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modelscoren (evidensniveau L5). Der er ingen kliniske forsøg eller publikationer, og der er ingen klar mekanistisk forbindelse mellem BLyS-hæmning og primære frigivelsesforstyrrelser af blodplader.
+Alle forudsigelser er på evidensniveau L5: der findes ingen kliniske forsøg eller publikationer, der undersøger sygdommen direkte, og for den højest rangerede indikation er der ingen plausibel mekanistisk sammenhæng med BAFF-hæmning.
 
-**For at komme videre kræves:**
+**For at komme videre er følgende nødvendigt:**
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
-- Præklinisk eller mekanistisk dokumentation for en rolle for B-celler/BLyS i den forudsagte sygdom
-- Hvis der ønskes en prioritering, bør FNAIT undersøges først som den biologisk mest plausible kandidat, med særlig vægt på graviditetssikkerhed
+- Advarsler og kontraindikationer fra produktresuméet (blokerende datahul for sikkerhedsscreening)
+- Prækliniske eller kliniske studier, der direkte undersøger belimumab ved den forudsagte sygdom
+- Hvis én forudsigelse skal prioriteres til yderligere vurdering, er FNAIT den mekanistisk mest sammenhængende, men kræver først en grundig vurdering af graviditetssikkerhed
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

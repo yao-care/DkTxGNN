@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tizanidine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 837
-evidence_level: L5
-indication_count: 6
+evidence_level: L2
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "tizanidine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 ---
 
 # Tizanidine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Tizanidin er en centralt virkende alfa-2-adrenerg agonist og muskelafslappende l
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom for den danske registrering) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,79 % |
+| TxGNN-forudsigelsesscore | 0,9979 |
 | Evidensniveau | L2 (se bemærkning nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 *Bemærkning om evidensniveau:* Det eneste fase 3-forsøg i migræneprofylakse har status "ukendt" og ingen resultater, så L2 er et forsigtigt skøn. Det understøttes primært af et ældre randomiseret, dobbeltblindet forsøg i kronisk daglig hovedpine, ikke af bekræftede fase 3-resultater.
@@ -60,7 +60,7 @@ Data om lægemidlets oprindelige virkningsmekanisme foreligger ikke i de data, d
 
 Tizanidin bruges oprindeligt mod muskeltonus-lidelser. Muskelspænding og central smertemodulation er også relevante i hovedpinelidelser. Et review (PMID 12696998) omtaler tizanidin, baclofen og botulinumtoxin A som midler mod muskeltonus, der er undersøgt til forebyggelse af migræne og spændingshovedpine.
 
-Øvrige forudsigelser med lavere evidens (migræne med hjernestammeaura, migrænedisposition, Tourettes syndrom, atrophoderma vermiculata og ulerythema ophryogenes) er ikke vurderet som selvstændige kandidater. Flere af dem ser ud til at være artefakter fra videngrafen. For Tourettes syndrom findes kun en klasseargumentation baseret på andre alfa-2-agonister, og den tilknyttede artikel handler om trigeminusneuralgi.
+Øvrige forudsigelser med lavere evidens (migræne med hjernestammeaura, Tourettes syndrom, atrophoderma vermiculata og ulerythema ophryogenes) er ikke vurderet som selvstændige kandidater. Flere af dem kan afspejle ligheder, som TxGNN-modellen (deep learning) har lært mellem beslægtede sygdomme, ikke biologisk evidens. For Tourettes syndrom findes kun en klasseargumentation baseret på andre alfa-2-agonister, og den tilknyttede artikel handler om trigeminusneuralgi.
 
 ## Evidens fra kliniske forsøg
 

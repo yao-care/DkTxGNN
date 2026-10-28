@@ -6,9 +6,9 @@ nav_order: 394
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Glimepiride: forudsagt ny indikation Klassisk stiff person-syndrom (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus (fra TxGNN-vidensgrafen"
 monitor_inn: "glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Glimepiride: forudsagt ny indikation Classic stiff person syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Glimepiride
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Glimepirid: Fra type 2-diabetes til klassisk stiff person-syndrom
+## Glimepiride: Classic stiff person syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Type 2-diabetes mellitus (fra TxGNN-vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Klassisk stiff person-syndrom |
-| TxGNN-prædiktionsscore | 99,75 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Classic stiff person syndrome |
+| TxGNN-prædiktionsscore | 0.9975 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 Der foreligger i de indsamlede data ingen detaljerede oplysninger om glimepirids virkningsmekanisme. Ud fra almen viden er glimepirid et sulfonylurinstof, der lukker ATP-følsomme kaliumkanaler i bugspytkirtlens betaceller og dermed øger insulinfrigivelsen. Dets effekt ved type 2-diabetes er veldokumenteret.
 
-Stiff person-syndrom er en autoimmun neurologisk sygdom, der er knyttet til forstyrret GABAerg og glycinerg signalering, typisk med antistoffer mod GAD65. Der er ikke påvist nogen mekanistisk sammenhæng mellem glimepirids virkning og denne sygdom. Den høje score afspejler sandsynligvis nærhed i vidensgrafen, for eksempel at GAD65 er forbundet med diabetes, og ikke en valideret terapeutisk begrundelse.
+Stiff person-syndrom er en autoimmun neurologisk sygdom, der er knyttet til forstyrret GABAerg og glycinerg signalering, typisk med antistoffer mod GAD65. Der er ikke påvist nogen mekanistisk sammenhæng mellem glimepirids virkning og denne sygdom.
 
 Den forudsagte indikation "fokalt stiff limb-syndrom" (samme score) er en variant af samme sygdom og har ingen selvstændig støtte. De øvrige forudsigelser i de indsamlede data (opsismodysplasi, thiaminresponsivt dysfunktionssyndrom, forskellige lokaliserede lipodystrofier og pancreasagenesi) har ligeledes evidensniveau L5 og ingen påviselig mekanistisk begrundelse. Pancreasagenesi er biologisk usandsynlig, da glimepirid kræver funktionelle betaceller.
 

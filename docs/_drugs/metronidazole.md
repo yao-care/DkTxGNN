@@ -6,9 +6,9 @@ nav_order: 545
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metronidazole: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Anaerobe bakterielle infektioner, peritonitis, endokarditis…"
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Metronidazol: Fra bakterielle og protozoinfektioner til pneumocystose
+## Metronidazole: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pneumocystose**, men
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Anaerobe bakterielle infektioner, peritonitis, endokarditis, giardiasis, bakteriel vaginose, rosacea m.fl. (fra vidensgrafen; de danske godkendelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Pneumocystose |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pneumocystose**, men
 
 Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Metronidazol er et nitroimidazol, som kræver reduktiv aktivering i anaerobe organismer og derfor virker mod anaerobe bakterier og visse protozoer.
 
-*Pneumocystis* er en svamp uden kendt nitroimidazol-følsom metabolisk vej. Den høje score afspejler sandsynligvis, at metronidazol ligger tæt på andre antiprotozomidler i vidensgrafen, og ikke en reel mekanistisk sammenhæng. Standardbehandlingen er trimethoprim-sulfamethoxazol. Den fundne litteratur består af generelle oversigter over antiparasitære midler og opportunistiske infektioner ved hiv, som ikke viser, at metronidazol virker mod *Pneumocystis*.
+*Pneumocystis* er en svamp uden kendt nitroimidazol-følsom metabolisk vej. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Standardbehandlingen er trimethoprim-sulfamethoxazol. Den fundne litteratur består af generelle oversigter over antiparasitære midler og opportunistiske infektioner ved hiv, som ikke viser, at metronidazol virker mod *Pneumocystis*.
 
 Forudsigelsen bør derfor betragtes som en computerbaseret hypotese uden mekanistisk eller klinisk understøttelse.
 

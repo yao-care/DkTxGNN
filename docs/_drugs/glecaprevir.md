@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 393
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glecaprevir: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Glecaprevir: Fra kronisk hepatitis C til HIV-infektion
+## Glecaprevir: HIV-infektion (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Glecaprevir er en hæmmer af hepatitis C-virussets NS3/4A-protease og anvendes s
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion (godkendelsesteksten er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | HIV-infektion |
-| TxGNN-prædiktionsscore | 99,87 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | HIV-infektion (HIV infectious disease) |
+| TxGNN-prædiktionsscore | 0.9987 |
 | Evidensniveau | L4 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 *Bemærkning om evidensniveau:* De indsamlede data angiver L4. Eftersom forsøgene ikke har HIV-specifikke endepunkter og ingen studier viser aktivitet mod HIV, svarer evidensen reelt til kun modelforudsigelse (L5). Under alle omstændigheder er niveauet ikke tilstrækkeligt til at støtte en ny indikation.
@@ -62,7 +62,7 @@ Glecaprevir er en hæmmer af hepatitis C-virussets NS3/4A-protease og anvendes s
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Glecaprevir er dog kendt som en NS3/4A-proteasehæmmer rettet mod hepatitis C-virus og anvendes i fastdosiskombination med pibrentasvir, en NS5A-hæmmer. Effekten ved hepatitis C er veldokumenteret.
 
-Der er ingen kendt anti-HIV-aktivitet. Den høje TxGNN-score afspejler sandsynligvis netværksnærhed til andre antivirale lægemidler i vidensgrafen snarere end en reel mekanistisk sammenhæng. HIV-proteasen og HCV NS3/4A-proteasen er forskellige enzymer.
+Der er ingen kendt anti-HIV-aktivitet. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. HIV-proteasen og HCV NS3/4A-proteasen er forskellige enzymer.
 
 De forsøg og kohortestudier, der er fundet, inkluderede patienter med HIV/HCV-samsygelighed, men endepunktet var hepatitis C-helbredelse (vedvarende viral respons, SVR12), ikke HIV-kontrol. Det viser, at glecaprevir/pibrentasvir kan anvendes til hepatitis C hos mennesker med HIV, hvilket allerede er en del af den eksisterende indikation. Det er ikke et signal om gensidig anvendelse mod HIV.
 
@@ -105,9 +105,6 @@ Al litteratur omhandler hepatitis C. Ingen publikation dokumenterer en effekt mo
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105901416 | Maviret (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
@@ -129,7 +126,7 @@ Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Den høje TxGNN-score (99,87 %) understøttes ikke af biologisk rationale eller direkte evidens. Glecaprevir har ingen kendt aktivitet mod HIV, og alle fundne forsøg og publikationer vedrører hepatitis C, også hos patienter med HIV-samsygelighed. Forudsigelsen er sandsynligvis en artefakt af vidensgrafen.
+- Den høje TxGNN-score (0,9987) understøttes ikke af biologisk rationale eller direkte evidens. Glecaprevir har ingen kendt aktivitet mod HIV, og alle fundne forsøg og publikationer vedrører hepatitis C, også hos patienter med HIV-samsygelighed. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **For at komme videre kræves følgende:**
 - In vitro-data, der viser eventuel aktivitet mod HIV (prækliniske studier)

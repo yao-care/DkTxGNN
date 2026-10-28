@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylphenidate
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 540
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Methylphenidate: forudsagt ny indikation Specifik udviklingsforstyrrelse (tredje rangerede forudsigelse (evidensniveau L4). Oprindelig indikation: ADHD og narkolepsi"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: forudsagt ny indikation Faciodigitogenital syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Methylphenidat: Fra ADHD til specifik udviklingsforstyrrelse
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## Resumé
 
 Methylphenidat er et centralstimulerende middel, som oprindeligt anvendes til behandling af ADHD og narkolepsi.
-TxGNN-modellen forudsiger, at det kan have effekt ved **specifik udviklingsforstyrrelse** (score 99,99 %), men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur** (18 publikationer, hovedsageligt om ADHD), som understøtter denne retning.
+TxGNN-modellen forudsiger, at det kan have effekt ved **specifik udviklingsforstyrrelse** (score 0,9999), men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur** (18 publikationer, hovedsageligt om ADHD), som understøtter denne retning.
 
 ---
 
@@ -47,15 +47,15 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **specifik udviklingsforst
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | ADHD og narkolepsi (jf. vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Specifik udviklingsforstyrrelse (tredje rangerede forudsigelse; se bemærkning nedenfor) |
-| TxGNN-forudsigelsesscore | 99,99 % (0,9999) |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Faciodigitogenital syndrome |
+| TxGNN-forudsigelsesscore | 1.0000 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-**Bemærkning om valg af forudsigelse:** De to højest rangerede forudsigelser (faciodigitogenitalt syndrom og chondromyxoid fibrom) har ingen litteratur eller forsøg og ingen plausibel mekanistisk sammenhæng (evidensniveau L5). Rapporten fokuserer derfor på den højest rangerede forudsigelse med et vist evidensgrundlag, specifik udviklingsforstyrrelse. Dysthymi (score 99,1 %, L4) omtales kort nedenfor.
+**Bemærkning om valg af forudsigelse:** De to højest rangerede forudsigelser (faciodigitogenitalt syndrom og chondromyxoid fibrom) har ingen litteratur eller forsøg og ingen plausibel mekanistisk sammenhæng (evidensniveau L5). Rapporten fokuserer derfor på den højest rangerede forudsigelse med et vist evidensgrundlag, specifik udviklingsforstyrrelse.
 
 ---
 

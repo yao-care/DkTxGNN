@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01257",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB01257"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "adult-idiopathic-neutropenia",
-          "display": "adult idiopathic neutropenia"
-        }
-      ],
-      "text": "adult idiopathic neutropenia"
+      "concept": {
+        "text": "adult idiopathic neutropenia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9996
     }
   ]
 }

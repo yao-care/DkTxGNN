@@ -48,10 +48,10 @@ Cisatracurium er et ikke-depolariserende neuromuskulært blokerende middel, som 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Cisatracurium er et ikke-depolariserende neuromuskulært blokerende middel, som 
 
 Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Cisatracurium er dog kendt som et ikke-depolariserende neuromuskulært blokerende middel, der virker på nikotinerge acetylcholinreceptorer ved den neuromuskulære endeplade og giver skeletmuskelrelaksation.
 
-Der er ingen oplagt terapeutisk sammenhæng med cauda equina-syndrom. Tilstanden er en kompressionsbetinget nerverodsskade, som normalt kræver kirurgisk dekompression. Den høje score skyldes sandsynligvis et artefakt i vidensgrafen og understøttes ikke af kliniske data eller litteratur.
+Der er ingen oplagt terapeutisk sammenhæng med cauda equina-syndrom. Tilstanden er en kompressionsbetinget nerverodsskade, som normalt kræver kirurgisk dekompression. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den understøttes ikke af kliniske data eller litteratur.
 
-Det samme billede gælder for de øvrige forudsagte indikationer (præeklampsi, neurogen blære, migræne, trombotisk sygdom, irritabel tarm m.fl.): Ingen har et plausibelt mekanistisk grundlag, og de har score mellem 99,95 % og 99,99 %.
+Det samme billede gælder for de øvrige forudsagte indikationer (præeklampsi, neurogen blære, migræne, trombotisk sygdom, irritabel tarm m.fl.): Ingen har et plausibelt mekanistisk grundlag, og de har score mellem 0,9995 og 0,9999.
 
 ---
 

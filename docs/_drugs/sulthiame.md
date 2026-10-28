@@ -50,10 +50,10 @@ Forudsigelsen støttes af **0 kliniske forsøg** og **0 publikationer**, og den 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-prædiktionsscore | 99,97 % |
+| TxGNN-prædiktionsscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Forudsigelsen støttes af **0 kliniske forsøg** og **0 publikationer**, og den 
 
 Der foreligger ingen detaljerede data om virkningsmekanisme for sulthiame i de sammenstillede data. Ud fra almen farmakologisk viden (ikke fra de leverede data) er sulthiame en carboanhydrasehæmmer.
 
-Der er ikke påvist nogen plausibel mekanistisk sammenhæng mellem carboanhydrasehæmning og cauda equina-syndrom. Tilstanden skyldes strukturel kompression af nerverødder og behandles normalt kirurgisk. Den høje score (99,97 %) afspejler en modelprædiktion og er ikke understøttet af kliniske data. Lighed med den oprindelige indikation kan ikke vurderes, da indikationsteksten mangler.
+Der er ikke påvist nogen plausibel mekanistisk sammenhæng mellem carboanhydrasehæmning og cauda equina-syndrom. Tilstanden skyldes strukturel kompression af nerverødder og behandles normalt kirurgisk. Den høje score (0,9997) afspejler en modelprædiktion og er ikke understøttet af kliniske data. Lighed med den oprindelige indikation kan ikke vurderes, da indikationsteksten mangler.
 
 Andre forudsagte indikationer har samme evidensniveau (L5) og ingen støtte i forsøg eller litteratur. Det gælder blandt andre irritabel tyktarm, neurocirkulatorisk asteni, anafylaksi, mitralklapprolaps og sygdomme i det autonome nervesystem. For flere er sammenhængen desuden usikker: "obsolete neurogenic bladder" er en forældet ontologitermin og kan være en kortlægningsartefakt, og de tre mitralklapprolaps-poster (familiær, generel og MVP1) overlapper og udgør ikke uafhængig evidens.
 

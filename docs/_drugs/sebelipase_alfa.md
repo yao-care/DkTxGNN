@@ -4,17 +4,17 @@ title: Sebelipase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 750
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sebelipase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Wolmans sygdom / lysosomal sur lipase-mangel (hentet fra videngrafen…"
+indication_count: 9
 monitor_inn: "Sebelipase alfa"
-predicted_indications: ["Scheie syndrome", "Scheie syndrome", "Hurler syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "cholesteryl ester storage disease"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+last_modified_at: 2026-10-23
+description: "Sebelipase Alfa: forudsagt ny indikation Scheies syndrom (evidensniveau L5). Oprindelig indikation: Wolmans sygdom…"
 ---
 
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Sebelipase alfa: Fra lysosomal sur lipase-mangel til Scheie syndrom
+## Sebelipase alfa: Fra lysosomal sur lipase-mangel til Scheies syndrom
 {: .text-alpha }
 
-## Resumé i få sætninger
+## Resumé
 
-Sebelipase alfa er en rekombinant human lysosomal sur lipase (enzymerstatningsterapi), som oprindeligt anvendes til behandling af lysosomal sur lipase-mangel (LAL-D), herunder Wolmans sygdom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom** (mild form af mukopolysaccharidose type I).
-Der er dog **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter denne forudsigelse.
+Sebelipase alfa er et rekombinant humant enzym (lysosomal sur lipase). I vidensgrafen er det registreret i forbindelse med Wolmans sygdom, lysosomal sur lipase-mangel og lysosomale lipidlagringssygdomme.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheies syndrom** (den milde form af MPS I), men der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte undersøger denne anvendelse. Forudsigelsen er derfor ren modelforudsigelse.
 
 ---
 
@@ -48,47 +47,51 @@ Der er dog **ingen registrerede kliniske forsøg og ingen publikationer**, der u
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Wolmans sygdom / lysosomal sur lipase-mangel (hentet fra videngrafen, da indikationsteksten i den danske markedsføringstilladelse ikke er angivet) |
-| Forudsagt ny indikation | Scheie syndrom |
-| TxGNN-forudsigelsesscore | 99,80 % |
+| Oprindelig indikation | Wolmans sygdom, lysosomal sur lipase-mangel og lysosomal lipidlagringssygdom (relationer registreret i vidensgrafen; den danske licens indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Scheies syndrom |
+| TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Sebelipase alfa er en rekombinant lysosomal sur lipase, der erstatter det manglende enzym ved LAL-D. Det nedbryder kolesterolestere og triglycerider, som ellers ophobes i lysosomerne, især i lever og kar.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Sebelipase alfa er en rekombinant form af lysosomalt sur lipase, som nedbryder kolesterylestere og triglycerider i lysosomerne. Det virker ved at erstatte det manglende enzym ved lysosomal sur lipase-mangel.
 
-Scheie syndrom skyldes mangel på enzymet alfa-L-iduronidase og er ligesom LAL-D en lysosomal lagringssygdom. Sebelipase alfa virker imidlertid på et andet enzym og et andet substrat og kan ikke erstatte alfa-L-iduronidase. Den eneste forbindelse er, at begge sygdomme behandles med enzymerstatning. Den høje TxGNN-score afspejler derfor sandsynligvis nærhed i videngrafens netværk snarere end en biologisk begrundelse.
+Scheies syndrom skyldes mangel på et andet enzym, alfa-L-iduronidase, og medfører ophobning af glykosaminoglykaner. Enzymet og substratet er begge forskellige fra dem, sebelipase alfa virker på, så der er ingen sandsynlig direkte mekanistisk forbindelse. Den høje score afspejler sandsynligvis kun, at sygdommene ligger tæt på hinanden i netværket af lysosomale lagringssygdomme.
+
+Bemærk, at andre forudsigelser i samme analyse har mere evidens. Det gælder især kolesterylester-lagringssygdom, som er den senere debuterende form af lysosomal sur lipase-mangel. Her findes der et fase 3-forsøg og flere publikationer, men det er en validering af den kendte anvendelse og ikke en egentlig ny indikation.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen kliniske forsøg registreret for sebelipase alfa ved Scheie syndrom.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for Scheies syndrom.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-Der foreligger i øjeblikket ingen relevant litteratur om sebelipase alfa ved Scheie syndrom.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for Scheies syndrom.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der findes én gyldig markedsføringstilladelse til et enkeltstofpræparat. Den er markedsført, og der er ingen annullerede eller ikke-markedsførte tilladelser. De indsamlede data indeholder ingen godkendt indikationstekst for præparatet.
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
 |---------|------|------|-----------|
-| 28105545614 | Kanuma (Alexion Europe) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+| 28105545614 | Kanuma | Koncentrat til infusionsvæske, opløsning | Alexion Europe |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet sikkerhedsdata (advarsler, kontraindikationer eller interaktioner) i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 ---
 
@@ -97,17 +100,13 @@ Der er ikke fundet sikkerhedsdata (advarsler, kontraindikationer eller interakti
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for Scheie syndrom hviler udelukkende på modellen (L5). Der er hverken kliniske forsøg eller litteratur, og der er ingen plausibel biologisk sammenhæng, da sebelipase alfa ikke erstatter alfa-L-iduronidase.
+Der er ingen kliniske forsøg eller publikationer for sebelipase alfa ved Scheies syndrom, og der er ingen plausibel biologisk forbindelse, da de to sygdomme skyldes mangel på forskellige enzymer. Forudsigelsen hviler alene på modellens netværksnærhed.
 
-**Bemærkninger om øvrige forudsigelser i de indsamlede data:**
-- **Kolesterolester-lagringssygdom** (sen form af LAL-D) og **Wolmans sygdom** er i praksis lægemidlets godkendte indikation og ikke egentlig repurposing. De har stærk evidens (bl.a. det randomiserede, placebokontrollerede fase 3-forsøg NCT01757184 og publikationen i NEJM, PMID 26352813), og vurderingen for dem er "Proceed with Guardrails". Betegnelsen "Wolman disease with hypolipoproteinemia and acanthocytosis" er en navnevariant i TxGNN, og dens kobling til standarddiagnosen LAL-D bør verificeres.
-- **Hurler syndrom** er understøttet af ét fase 1-forsøg (PEARL, NCT04532047), som er et platformsforsøg med prænatal enzymerstatning. Det giver ingen evidens for effekt ved Hurler syndrom.
-- Forudsigelsen for **vækstharmoninsensitivitetssyndrom med immundysregulering** er sandsynligvis et artefakt i videngrafen.
-
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhedsoplysninger fra det danske produktresumé (advarsler og kontraindikationer)
-- Præklinisk eller mekanistisk dokumentation for en eventuel effekt ved Scheie syndrom, hvis forudsigelsen skal forfølges
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme og en egentlig mekanistisk vurdering af, om sebelipase alfa overhovedet kan påvirke glykosaminoglykan-ophobning
+- Prækliniske data eller andre studier, der direkte undersøger lægemidlet ved Scheies syndrom
+- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet, som mangler i de indsamlede data
+- Vurdering af eksisterende godkendte enzymbehandlinger for MPS I som sammenligningsgrundlag
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 906
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolmitriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura). Den godkendte indikationstekst…"
 monitor_inn: "ZOLMITRIPTAN"
-predicted_indications: ["atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Zolmitriptan: Fra migræne til migræne med hjernestammeaura
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Opsummering i en sætning
 
 Zolmitriptan er en selektiv serotonin 5-HT1B/1D-receptoragonist (triptan), som oprindeligt bruges til akut behandling af migræne.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne med hjernestammeaura**,
 men der er **ingen registrerede kliniske forsøg** og kun **generel litteratur om migræne og triptaner** (ingen undersøgelser specifikt for denne undertype).
 
 ---
@@ -48,12 +47,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **generel litteratur o
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med eller uden aura). Den godkendte indikationstekst for den danske tilladelse er ikke angivet i de indsamlede data |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-prædiktionsscore | 99,99 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Atrophoderma vermiculata |
+| TxGNN-prædiktionsscore | 0.9990 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -116,7 +115,7 @@ Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg og ingen undersøgelser specifikt for migræne med hjernestammeaura; den høje score skyldes sandsynligvis den overordnede migræneindikation. Triptaner har desuden historisk forsigtighedsregler ved hjernestammeaura og hemiplegisk migræne, og vidensgrafen angiver en lang række vaskulære kontraindikationer.
+Triptaner har desuden historisk forsigtighedsregler ved hjernestammeaura og hemiplegisk migræne, og vidensgrafen angiver en lang række vaskulære kontraindikationer.
 
 **For at komme videre kræves følgende:**
 - Gennemgang af produktresuméets advarsler og kontraindikationer (data mangler)
@@ -128,7 +127,7 @@ Der er ingen kliniske forsøg og ingen undersøgelser specifikt for migræne med
 
 ### Øvrige forudsigelser (ikke anbefalet til videre evaluering)
 
-TxGNN forudsagde også **atrophoderma vermiculata** (score 99,90 %) og **ulerythema ophryogenesis** (score 99,83 %). Begge har evidensniveau L5 uden kliniske forsøg eller litteratur og uden nogen oplagt mekanistisk sammenhæng med 5-HT1B/1D-agonisme. De vurderes sandsynligvis at være netværksartefakter i modellen. Anbefaling: **Hold**.
+TxGNN forudsagde også **atrophoderma vermiculata** (score 0,9990) og **ulerythema ophryogenesis** (score 0,9983). Begge har evidensniveau L5 uden kliniske forsøg eller litteratur og uden nogen oplagt mekanistisk sammenhæng med 5-HT1B/1D-agonisme. De vurderes sandsynligvis at være netværksartefakter i modellen. Anbefaling: **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

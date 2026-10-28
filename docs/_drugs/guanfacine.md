@@ -6,9 +6,9 @@ nav_order: 403
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Guanfacine: forudsagt ny indikation Faciodigitogenitalt syndrom (evidensniveau L5). Oprindelig indikation: Hypertension og ADHD"
 monitor_inn: "guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+description: "Guanfacine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Guanfacine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Guanfacin: Fra hypertension og ADHD til faciodigitogenitalt syndrom
+## Guanfacine: Faciodigitogenitalt syndrom (faciodigitogenital syndrome)
 {: .text-alpha }
 
 ## Resumé
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt på **faciodigitogenitalt synd
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og ADHD (fra vidensgrafen; godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Faciodigitogenitalt syndrom |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Faciodigitogenitalt syndrom (faciodigitogenital syndrome) |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt på **faciodigitogenitalt synd
 
 Der foreligger i de indsamlede data ikke detaljerede oplysninger om virkningsmekanismen. Guanfacin er kendt som en alfa-2A-adrenerg agonist, der styrker netværksforbindelser i den præfrontale hjernebark. Det er virkningen bag effekten ved ADHD.
 
-Faciodigitogenitalt syndrom er en sjælden X-bundet sygdom, som skyldes mutationer i FGD1-genet. Der kendes ingen plausibel alfa-2A-adrenerg mekanisme, der forbinder guanfacin med sygdommens kernepatologi. Nogle patienter har ADHD-lignende adfærdstræk, og det er det eneste mulige bindeled, men det er spekulativt. Den meget høje modelscore skyldes sandsynligvis mønstre i vidensgrafen og ikke en reel biologisk sammenhæng.
+Faciodigitogenitalt syndrom er en sjælden X-bundet sygdom, som skyldes mutationer i FGD1-genet. Der kendes ingen plausibel alfa-2A-adrenerg mekanisme, der forbinder guanfacin med sygdommens kernepatologi. Nogle patienter har ADHD-lignende adfærdstræk, og det er det eneste mulige bindeled, men det er spekulativt. Den meget høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke en reel biologisk sammenhæng.
 
 ---
 

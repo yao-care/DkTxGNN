@@ -6,9 +6,9 @@ nav_order: 274
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). Oprindelig indikation: Alzheimers sygdom (godkendelsesteksten er ikke angivet i de danske ti…"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Donepezil
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Donepezil: Fra Alzheimers sygdom til kronisk tic-lidelse
+## Donepezil: Psykogene bevægelsesforstyrrelser (rang 1); supplerende: kronisk tic-lidelse (psychogenic movement disorders)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -49,12 +49,12 @@ Rapporten fokuserer på den højest rangerede forudsigelse (psykogene bevægelse
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Alzheimers sygdom (godkendelsesteksten er ikke angivet i de danske tilladelser; indikationen er hentet fra videngrafen) |
-| Forudsagt ny indikation | Psykogene bevægelsesforstyrrelser (rang 1); supplerende: kronisk tic-lidelse (rang 2) |
-| TxGNN-forudsigelsesscore | 99,23 % (psykogene bevægelsesforstyrrelser); 99,19 % (kronisk tic-lidelse) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Psykogene bevægelsesforstyrrelser (rang 1); supplerende: kronisk tic-lidelse (psychogenic movement disorders) |
+| TxGNN-forudsigelsesscore | 0.9923 |
 | Evidensniveau | L5 (psykogene bevægelsesforstyrrelser); L3 (kronisk tic-lidelse) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (psykogene bevægelsesforstyrrelser); forskningsspørgsmål for kronisk tic-lidelse |
 
 ---

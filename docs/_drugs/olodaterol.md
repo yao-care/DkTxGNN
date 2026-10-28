@@ -4,17 +4,17 @@ title: Olodaterol
 parent: Kun modelforudsigelse (L5)
 nav_order: 606
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olodaterol: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Kronisk obstruktiv lungesygdom (KOL)"
 monitor_inn: "OLODATEROL"
-predicted_indications: ["bronchitis", "bronchitis"]
+predicted_indications: ["bronchitis"]
+description: "Olodaterol: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Olodaterol: Fra KOL til bronkitis
+## Olodaterol: Bronkitis (bronchitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Til bronkitis som selvstændig diagnose er der **0 kliniske forsøg** og **2 pub
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk obstruktiv lungesygdom (KOL) (fra videngrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,84 % |
-| Evidensniveau | L4 (for bronkitis som selvstændig indikation) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bronkitis (bronchitis) |
+| TxGNN-forudsigelsesscore | 0.9984 |
+| Evidensniveau | L5 (for bronkitis som selvstændig indikation) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

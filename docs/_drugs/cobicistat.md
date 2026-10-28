@@ -4,17 +4,17 @@ title: Cobicistat
 parent: Kun modelforudsigelse (L5)
 nav_order: 216
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Cobicistat: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
+indication_count: 3
 monitor_inn: "COBICISTAT"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Cobicistat: forudsagt ny indikation Simian immundefektvirusinfektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cobicistat
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Cobicistat: Fra HIV-infektion til simian immundefektvirus-infektion
+## Cobicistat: farmakokinetisk booster (CYP3A-hæmmer) → simian immundefektvirusinfektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Cobicistat er en farmakokinetisk booster (CYP3A-hæmmer), der oprindeligt anvendes sammen med antiretrovirale lægemidler ved behandling af HIV-infektion og AIDS.
-TxGNN-modellen forudsiger, at stoffet kan være effektivt mod **simian immundefektvirus-infektion (SIV)**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
-Forudsigelsen bygger udelukkende på modellens vurdering (evidensniveau L5), og indikationen er en dyremodel, ikke et humant behandlingsmål.
+Cobicistat er en farmakokinetisk booster, der hæmmer enzymet CYP3A og dermed øger blodniveauet af samtidigt givne hiv-lægemidler. Lægemidlet har ingen egen antiviral virkning. TxGNN-modellen forudsiger, at det kan have effekt ved **simian immundefektvirusinfektion (simian immunodeficiency virus infection)**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -48,61 +46,60 @@ Forudsigelsen bygger udelukkende på modellens vurdering (evidensniveau L5), og 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (der er ingen godkendt indikationstekst i det danske markedsføringstilladelsesdata) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirusinfektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
-Bemærk: Forudsigelserne rangeret 2-3 (felint erhvervet immundefektsyndrom, score 99,92 %) og 5-6 (neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans, score 99,91 %) fremgår også af data, men flere poster er dubletter. Alle har evidensniveau L5 og anbefalingen Hold.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra kendt viden er cobicistat en mekanismebaseret hæmmer af CYP3A. Stoffet har ingen egen antiviral aktivitet, men øger eksponeringen for samtidigt indgivne antiretrovirale lægemidler, f.eks. elvitegravir, darunavir og atazanavir.
+Der foreligger ikke detaljerede data om virkningsmekanismen. Cobicistat er kendt som en CYP3A-hæmmer, der bruges som booster sammen med antiretrovirale lægemidler som elvitegravir, darunavir og atazanavir. Stoffet har ingen selvstændig antiviral aktivitet.
 
-SIV er en lentivirus, der er nært beslægtet med HIV hos ikke-humane primater. Det er sandsynligvis grunden til den høje modelscore: SIV ligger tæt på HIV i vidensgrafen. Eventuel effekt ved SIV ville være indirekte og kræve en samtidig antiviral kombination, som cobicistat kan booste.
+SIV er en lentivirus, der er tæt beslægtet med hiv og rammer ikke-humane primater. Enhver gavnlig effekt ville derfor være indirekte, nemlig ved at forstærke eksponeringen for samtidigt givne antiretrovirale midler. Den høje score afspejler sandsynligvis den tætte slægtskabsrelation mellem SIV og hiv i modellens data snarere end uafhængig evidens.
 
-Den samme logik gælder for felint immundefektvirus (FIV) hos katte. Begge er veterinære eller prækliniske modelindikationer og ligger uden for omfanget af human lægemiddelrepurposing. For den forudsagte neuroudviklingsforstyrrelse er der ikke identificeret nogen plausibel mekanistisk forbindelse. Scoren må her anses for en grafartefakt.
+Det er desuden en dyremodel-/præklinisk indikation og ikke et humant terapeutisk mål, hvilket begrænser relevansen for danske klinikere.
 
 ---
 
 ## Klinisk evidens
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger for øjeblikket ingen relateret litteratur.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105111312 | Tybost (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+| 28105111312 | Tybost | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
 
-Der er i alt 1 gyldig markedsføringstilladelse (enkeltstof), og ingen er annulleret.
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat (producent: Gilead Sciences Ireland UC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner i alt. Blandt de første 20 fremhæves:
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner. Blandt de første 20 er flere klassificeret som alvorlige (Major):
 
-- **Alvorlige (Major):** loperamid, triamcinolon, cisaprid, budesonid
-- **Moderate:** hydrocortison, aprepitant, betamethason, clotrimazol, dexamethason (inkl. næse- og øjenform), dexfenfluramin, fenfluramin, metoclopramid, prednisolon (øjenform), repaglinid, hydrocortison (øjenform), budesonid (næse), clarithromycin
-- **Mindre (Minor):** prucaloprid
+- Loperamid
+- Triamcinolon
+- Cisaprid
+- Budesonid
 
-Størstedelen af interaktionerne afspejler cobicistats CYP3A-hæmning. Den omfattende interaktionsprofil vil komplicere enhver ny anvendelse.
+De fleste øvrige er moderate, f.eks. hydrocortison, aprepitant, betamethason, clotrimazol, dexamethason, fenfluramin, metoclopramid, repaglinid og clarithromycin. Prucaloprid er klassificeret som mindre (Minor). Den omfattende interaktionsprofil, som skyldes CYP3A-hæmning, vil komplicere enhver ny anvendelse.
 
-Der foreligger ikke data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for yderligere sikkerhedsinformation.
+Se i øvrigt det godkendte produktresumé (SmPC) for yderligere sikkerhedsoplysninger.
 
 ---
 
@@ -111,13 +108,13 @@ Der foreligger ikke data om advarsler og kontraindikationer. Se det godkendte pr
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellens nærhed til den oprindelige HIV-indikation (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, og de forudsagte indikationer er dyremodeller eller har ingen plausibel mekanisme. Cobicistat har desuden ingen egen antiviral effekt.
+Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske forsøg eller litteratur. Cobicistat har ingen direkte antiviral virkning, og indikationen er en dyremodel uden humant behandlingsformål.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Præklinisk eller litteraturbaseret evidens, hvis en veterinær eller modelbaseret anvendelse overhovedet skal forfølges
-- Vurdering af, om forudsigelserne har human relevans, og fjernelse af dubletposter i data
+**For at komme videre kræves følgende:**
+- Præklinisk eller litteraturbaseret dokumentation for en effekt i SIV-modeller
+- Data om virkningsmekanismen
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- En vurdering af, om indikationen overhovedet har relevans for human behandling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

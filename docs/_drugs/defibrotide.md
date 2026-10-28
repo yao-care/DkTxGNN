@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Defibrotid: Fra hepatisk veno-okklusiv sygdom til trombotisk trombocytopenisk purpura
+## Defibrotid: Fra hepatisk veno-okklusiv sygdom til pseudo-von Willebrand sygdom
 {: .text-alpha }
 
 ## Opsummering i ét afsnit
@@ -48,10 +48,10 @@ Defibrotid er et antitrombotisk og profibrinolytisk oligonukleotid med beskytten
 |------|------|
 | Oprindelig indikation | Hepatisk veno-okklusiv sygdom (VOD) og hepatisk VOD med immundefektsyndrom (den godkendte indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Pseudo-von Willebrand sygdom (rang 1 i modellen). Den bedst understøttede forudsigelse er dog trombotisk trombocytopenisk purpura (rang 4) |
-| TxGNN-forudsigelsesscore | 99,91 % (pseudo-von Willebrand sygdom); 99,71 % (TTP) |
+| TxGNN-forudsigelsesscore | 0,9991 (pseudo-von Willebrand sygdom) |
 | Evidensniveau | L5 (pseudo-von Willebrand sygdom); L4 (TTP) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (samlet set). For TTP: forskningsspørgsmål, ikke klinisk anbefaling |
 
 ---

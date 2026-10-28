@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Bexarotene: forudsagt ny indikation Primært kutant B-celle-lymfom (evidensniveau L5). Oprindelig indikation: Primært kutant T-celle-lymfom (non-Hodgkin)"
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+last_modified_at: 2026-10-27
+description: "Bexarotene: forudsagt ny indikation Primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bexarotene
@@ -33,126 +33,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Bexarotene: Fra kutant T-celle-lymfom til primært kutant B-celle-lymfom
+## Bexarotene: retinoid X-receptor-agonist → primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma)
 {: .text-alpha }
 
 ## Resumé
 
-Bexarotene er en oral retinoid (RXR-agonist), der oprindeligt anvendes til behandling af primært kutant T-celle-lymfom.
-TxGNN-modellen forudsiger, at det kan have effekt på **primært kutant B-celle-lymfom**, men for netop denne indikation findes der **ingen registrerede kliniske forsøg** og kun **10 publikationer** (overvejende generelle oversigtsartikler og case-rapporter).
-Den stærkeste evidens i datagrundlaget gælder i stedet **Sézary syndrom** (en leukæmisk variant af kutant T-celle-lymfom), som ligger tæt på den eksisterende indikation.
-
----
+Bexarotene er en selektiv retinoid X-receptor (RXR)-agonist, som anvendes mod kutant T-celle-lymfom.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma)**.
+Der er dog **ingen kliniske forsøg** og kun **10 publikationer** (primært oversigtsartikler og case-rapporter) for denne specifikke sygdom, og evidensen er derfor begrænset til modelforudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Primært kutant T-celle-lymfom (non-Hodgkin) |
-| Forudsagt ny indikation | Primært kutant B-celle-lymfom |
-| TxGNN-prædiktionsscore | 99,44 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma) |
+| TxGNN-forudsigelsesscore | 0,9944 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-> Bemærk: Datagrundlaget indeholder også to andre forudsigelser: **Sézary syndrom** (score 99,29 %, evidensniveau L1, "Proceed with Guardrails") og **lymfosarkom** (score 99,12 %, evidensniveau L2). De behandles kort i konklusionen.
+## Hvorfor er forudsigelsen rimelig?
 
----
+Bexarotene aktiverer retinoid X-receptorer, som styrer genekspression, celledifferentiering og apoptose. I T-celle-lymfom fører det til apoptose og cellecyklusstop i maligne T-celler. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport.
 
-## Hvorfor er denne forudsigelse rimelig?
+Primære kutane lymfomer omfatter både T- og B-celle-former, og de behandles delvist med de samme strategier (hudrettet behandling, retinoider, strålebehandling). Der er dog ikke påvist nogen B-celle-specifik mekanisme for bexarotene. Den høje score afspejler sandsynligvis, at de kutane lymfomer ligger tæt på hinanden i modellens struktur, og ikke en valideret mekanisme i B-celler. Forbindelsen kan derfor ikke bekræftes.
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Bexarotene er dog kendt som en selektiv retinoid X-receptor (RXR)-agonist, der kan fremkalde apoptose og cellecyklusstop i maligne T-celler. Dens effekt ved kutant T-celle-lymfom er veldokumenteret.
+## Kliniske forsøg
 
-Primære kutane B-celle-lymfomer og T-celle-lymfomer tilhører begge gruppen af kutane lymfomer og er klassificeret sammen i WHO/EORTC-systemet. Den høje TxGNN-score afspejler sandsynligvis den tætte placering af disse sygdomme i vidensgrafen snarere end en påvist B-celle-specifik mekanisme.
-
-Der er ikke påvist en B-celle-specifik virkningsmekanisme i det foreliggende materiale. Forudsigelsen kan derfor ikke bekræftes mekanistisk, og evidensen for B-celle-lymfom er på nuværende tidspunkt kun modelbaseret.
-
----
-
-## Evidens fra kliniske forsøg
-
-For den forudsagte indikation (primært kutant B-celle-lymfom) er der på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
-Til sammenligning findes der for den nærliggende indikation Sézary syndrom bl.a. følgende forsøg med bexarotene (kutant T-celle-lymfom):
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT00056056](https://clinicaltrials.gov/study/NCT00056056) | Fase 3 | Afsluttet i utide | 93 | Randomiseret bexarotene + PUVA versus PUVA alene ved mycosis fungoides |
-| [NCT00306969](https://clinicaltrials.gov/study/NCT00306969) | Fase 1/2 | Afsluttet | 18 | Sikkerhed og tolerabilitet af bexarotene kombineret med fotoferese |
-| [NCT00030589](https://clinicaltrials.gov/study/NCT00030589) | Fase 2 | Ukendt | Ikke oplyst | Dosisrandomiseret bexarotene + PUVA ved tidligt stadie IB–IIA |
-| [NCT00660231](https://clinicaltrials.gov/study/NCT00660231) | Fase 2 | Afsluttet | 36 | Gemcitabin + bexarotene (Gembex) ved kutant T-celle-lymfom |
-| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Fase 1 | Afsluttet | 34 | Dosisfindende studie af pralatrexat + bexarotene |
-| [NCT00255801](https://clinicaltrials.gov/study/NCT00255801) | Fase 2 | Afsluttet | 37 | Liposomal doxorubicin efterfulgt af bexarotene (bexarotene er ikke det primære forsøgsstof) |
-| [NCT00178841](https://clinicaltrials.gov/study/NCT00178841) | Fase 2 | Afsluttet | 4 | Pilotstudie af rosiglitazon + bexarotene (for lille til at være informativ) |
-
-Disse forsøg vedrører T-celle-lymfom og kan ikke overføres direkte til B-celle-lymfom.
-
----
+Der er på nuværende tidspunkt ingen registrerede kliniske forsøg med bexarotene ved primært kutant B-celle-lymfom.
 
 ## Litteraturevidens
 
-Litteratur for den forudsagte indikation (primært kutant B-celle-lymfom):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Oversigtsartikel | Australas J Dermatol | Behandling af primære kutane lymfomer (T- og B-celle), herunder retinoider |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Oversigtsartikel | Skin Pharmacol Physiol | Nye og eksperimentelle hudrettede terapier ved kutane lymfomer |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Oversigtsartikel | Ther Umsch | Overblik over kutane lymfomer og WHO/EORTC-klassifikation |
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Oversigtsartikel | Pathologe | Systemisk behandling af fremskredne stadier, herunder bexarotene (primært T-celle) |
-| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Oversigtsartikel | Hautarzt | Klinisk præsentation, diagnose og behandling af kutane lymfomer |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case-serie | Hautarzt | Case-serie med 163 patienter med primært kutant lymfom |
-| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Case-rapport | Croat Med J | EBV-associeret kutant B-celle-lymfom hos patient med mycosis fungoides |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Oversigtsartikel | Der Pathologe | Beskriver kutane lymfomer; systemisk behandling af fremskredne T-celle-former omfatter bexarotene, interferon og brentuximab vedotin |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Oversigtsartikel | Der Hautarzt | Klinisk præsentation, diagnostik og behandling af kutane lymfomer; bexarotene nævnt ved T-celle-former |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Oversigtsartikel | Australas J Dermatol | Behandling af primære kutane lymfomer af både T- og B-celle-type, herunder retinoider |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Oversigtsartikel | Skin Pharmacol Physiol | Nye hudrettede behandlinger af kutane T- og B-celle-lymfomer |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Oversigtsartikel | Ther Umsch | Oversigt over klassifikation af kutane T- og B-celle-lymfomer |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case-serie | Der Hautarzt | Case-serie med 163 patienter med primære kutane lymfomer |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Case-rapport | J Cutan Pathol | Diagnostiske faldgruber ved kutant follikulært T-hjælpercelle-lymfom |
+| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Case-serie | Arch Dermatol | Fem tilfælde af kutant follikulært T-hjælpercelle-lymfom |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Case-rapport | Croat Med J | EBV-associeret kutant B-celle-lymfom hos patient med mycosis fungoides; behandlet med topisk aciclovir |
+| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Case-rapport | Clin Lymphoma | Lymfomatoid papulose med anaplastisk storcellet lymfom |
 
-Ingen af publikationerne dokumenterer effekt af bexarotene ved B-celle-lymfom.
+Ingen af de anførte publikationer undersøger direkte bexarotene ved primært kutant B-celle-lymfom.
 
----
-
-## Information om markedet i Danmark
+## Information om markedsføring i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107190524 | Bexarotene "Amdipharm" (Amdipharm Limited) | Kapsler, bløde | Indikationstekst ikke tilgængelig i de indsamlede data |
-
----
+| 28107190524 | Bexarotene "Amdipharm" | Bløde kapsler | Indikationstekst er ikke registreret i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (retinoid/rexinoid, RXR-agonist) – ikke konventionel cytostatika |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC); leukopeni er angivet som en relateret tilstand i vidensgrafen |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Lipidstatus, skjoldbruskkirtelfunktion (TSH/frit T4), lever- og nyrefunktion, blodstatus |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af cytotoksiske lægemidler |
-
----
+| Cytotoksicitetsklassifikation | Målrettet behandling (retinoid/rexinoid, RXR-agonist) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Skjoldbruskkirtelfunktion og lipidniveauer (kendte bivirkninger); desuden blodtal samt lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for anvisninger om håndtering |
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data fra produktresuméet om advarsler og kontraindikationer i de indsamlede data. Følgende oplysninger er hentet fra vidensgrafen og lægemiddelinteraktionsdatabaser (ikke fra mærkningstekst):
+- **Lægemiddelinteraktioner**: Der er registreret 621 interaktioner. Blandt de anførte er flere af større betydning, bl.a. med albiglutid, alogliptin, dulaglutid, eluxadolin og exenatid (alle "Major"). Moderate interaktioner omfatter bl.a. hydrocortison, dexamethason, betamethason, triamcinolon, glimepirid, glipizid og glibenclamid.
+- **Sygdomme, der kræver forsigtighed**: Lever- og galdevejssygdom, pankreatitis, hypothyreose, diabetes, leukopeni og obstruktiv gulsot er registreret som relevante tilstande.
+- **Kendt bivirkning**: Bexarotene kan forårsage central hypothyreose (PMID 30903705).
 
-- **Tilstande relateret til kontraindikation (fra vidensgrafen)**: leversvigt, leversygdom, pankreatitis, galdeblæresygdom, sygdom i galdevejene, obstruktiv gulsot, hypotyreose (inkl. myxødem og medfødt hypotyreose), diabetes mellitus, diabetisk ketoacidose, stofmisbrug/afhængighed og leukopeni.
-- **Kendte bivirkninger fra litteraturen**: central hypotyreose og hyperlipidæmi (se PMID [30903705](https://pubmed.ncbi.nlm.nih.gov/30903705/)).
-- **Lægemiddelinteraktioner**: i alt 621 registrerede interaktioner. Eksempler på interaktioner af alvorlig grad (Major): albiglutid, alogliptin, dulaglutid, eluxadolin og exenatid. Moderate interaktioner omfatter bl.a. hydrokortison, dexamethason, triamcinolon, betamethason, glimepirid, glipizid, glibenclamid, cisaprid, eliglustat og granisetron. Mindre interaktioner omfatter bl.a. aprepitant, clarithromycin og clotrimazol. Datagrundlaget peger desuden på gemfibrozil og CYP3A4-modulatorer som særligt vigtige.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold** (for primært kutant B-celle-lymfom)
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen for B-celle-lymfom bygger udelukkende på modellen (evidensniveau L5): der er ingen kliniske forsøg, ingen påvist B-celle-specifik mekanisme, og litteraturen består af generelle oversigter og case-rapporter.
-- Til sammenligning har **Sézary syndrom** evidensniveau L1 (anbefaling: Proceed with Guardrails), men dette er reelt on-label eller næsten on-label brug inden for kutant T-celle-lymfom snarere end ægte repurposing. Den eneste fase 3-undersøgelse (NCT00056056) blev afsluttet i utide. **Lymfosarkom** har evidensniveau L2, men evidensen gælder kun den kutane T-celle-undergruppe og kan ikke overføres til nodale eller systemiske lymfomer.
+Forudsigelsen bygger alene på modellen. Der er hverken kliniske forsøg eller publikationer, der direkte undersøger bexarotene ved primært kutant B-celle-lymfom, og der er ingen påvist B-celle-specifik mekanisme.
 
-**For at komme videre kræves følgende:**
-- Dokumentation af en B-celle-specifik virkningsmekanisme (RXR-signalering i maligne B-celler), herunder data om virkningsmekanisme (MOA), som p.t. mangler.
-- Prækliniske data eller kliniske forsøg (som minimum fase 2) i primært kutant B-celle-lymfom.
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (data mangler p.t. og blokerer sikkerhedsscreening).
-- Monitoreringsplan for hypotyreose og hyperlipidæmi samt en strategi for håndtering af det store antal lægemiddelinteraktioner.
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk dokumentation for RXR-aktivering i maligne B-celler
+- Data om virkningsmekanisme fra DrugBank
+- Kliniske data (fx case-serier eller et pilotforsøg) ved primært kutant B-celle-lymfom
+- Gennemgang af produktresuméet for advarsler og kontraindikationer, især vedrørende skjoldbruskkirtel, lipider og interaktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

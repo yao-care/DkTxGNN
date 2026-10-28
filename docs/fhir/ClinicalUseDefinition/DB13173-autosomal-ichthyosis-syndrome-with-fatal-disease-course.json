@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13173",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB13173"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autosomal-ichthyosis-syndrome-with-fatal-disease-course",
-          "display": "autosomal ichthyosis syndrome with fatal disease course"
-        }
-      ],
-      "text": "autosomal ichthyosis syndrome with fatal disease course"
+      "concept": {
+        "text": "autosomal ichthyosis syndrome with fatal disease course"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.999
     }
   ]
 }

@@ -48,10 +48,10 @@ Dobutamin er et inotropt lægemiddel (beta-1-adrenerg agonist), der gives som in
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Alopeci |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Dobutamin er et inotropt lægemiddel (beta-1-adrenerg agonist), der gives som in
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Dobutamin er kendt som en beta-1-adrenerg agonist, der øger hjertets kontraktilitet, og det anvendes ved akut hjertesvigt og i dobutamin-stressekkokardiografi. Denne kendte virkning har ingen etableret forbindelse til hårvækst.
 
-Den høje score (99,85 %) skyldes sandsynligvis nærhed i modellens vidensgraf til minoxidil-relaterede knuder (hårvækst og vasodilatation) og ikke en reel mekanistisk sammenhæng. Det understøttes af, at den eneste fundne publikation handler om hjertesvigt forårsaget af minoxidilforgiftning, hvor dobutamin blot blev brugt som behandling af lavt blodtryk.
+Den høje score (0.9985) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Det understøttes af, at den eneste fundne publikation handler om hjertesvigt forårsaget af minoxidilforgiftning, hvor dobutamin blot blev brugt som behandling af lavt blodtryk.
 
 Forudsigelsen er derfor et modelresultat uden biologisk eller klinisk understøttelse. De øvrige forudsigelser i rækken (hypotrichosis simplex, medfødt hypotrichosis milia, diffus alopecia areata, glaukom, Raynauds sygdom, hovedpine, hypertrikose og migræne) har samme mangel på evidens. Alopecia areata er desuden en autoimmun sygdom, hvor dobutamin ikke har kendt immunmodulerende virkning.
 

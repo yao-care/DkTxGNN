@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 ## Resumé
 
-Mepivacain er et amid-type lokalanæstetikum, der markedsføres i Danmark som injektionsvæske. Der foreligger ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gastroduodenitis** (score 99,5 %), men der er **0 kliniske forsøg** og **0 relevante publikationer**, der understøtter forudsigelsen.
+Mepivacain er et amid-type lokalanæstetikum, der markedsføres i Danmark som injektionsvæske (3 gyldige licenser ud af 3). Der foreligger ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **gastroduodenitis** (score 0.9949), men der er **0 kliniske forsøg** og **0 relevante publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -48,10 +48,10 @@ Mepivacain er et amid-type lokalanæstetikum, der markedsføres i Danmark som in
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Gastroduodenitis |
-| TxGNN-forudsigelsesscore | 99,5 % |
+| TxGNN-forudsigelsesscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Det eneste, der kan foreslås som en mulig, men ubekræftet forklaring, er en lokal smertelindrende effekt på visceral smerte eller slimhindesmerter. Det er ikke det samme som en sygdomsmodificerende effekt ved betændelse i mavesæk og tolvfingertarm. Der er derfor ikke påvist nogen understøttet mekanistisk sammenhæng, og forudsigelsen hviler udelukkende på modellen.
 
-Modellen forudsiger også **mavesår (peptic ulcer disease)** som den næstrangerede indikation (score 99,4 %). Heller her mangler der et underbygget mekanistisk link. En eventuel effekt på visceral smertesignalering er spekulativ og knyttet hverken til sårheling eller til sygdomsårsagerne (syresekretion, *H. pylori*, NSAID-skade).
+Modellen forudsiger også **mavesår (peptic ulcer disease)** som den næstrangerede indikation (score 0.9941). Heller her mangler der et underbygget mekanistisk link. En eventuel effekt på visceral smertesignalering er spekulativ og knyttet hverken til sårheling eller til sygdomsårsagerne (syresekretion, *H. pylori*, NSAID-skade).
 
 ---
 

@@ -4,17 +4,17 @@ title: Temsirolimus
 parent: Kun modelforudsigelse (L5)
 nav_order: 804
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Temsirolimus: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Mantelcellelymfom, B-celleneoplasme…"
 monitor_inn: "TEMSIROLIMUS"
-predicted_indications: ["liposarcoma", "liposarcoma", "ovarian myxoid liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
+description: "Temsirolimus: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Temsirolimus: Fra nyrecellekarcinom og mantelcellelymfom til liposarkom
+## Temsirolimus: Liposarkom (liposarcoma)
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -48,12 +48,12 @@ og der findes i dag **2 kliniske forsøg** (begge fase 1/2 eller fase 2 og ikke 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mantelcellelymfom, B-celleneoplasme, nyrecellekarcinom (inkl. klarcellet type) (hentet fra vidensgrafen, da godkendt indikationstekst ikke er angivet i de danske tilladelser) |
-| Forudsagt ny indikation | Liposarkom |
-| TxGNN-forudsigelsesscore | 99,54 % |
-| Evidensniveau | L2 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Liposarkom (liposarcoma) |
+| TxGNN-forudsigelsesscore | 0.9954 |
+| Evidensniveau | L5 (se bemærkning nedenfor) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 *Bemærkning om evidensniveau: Der er ingen afsluttede randomiserede fase 3-forsøg. De to afsluttede fase 1/2- og fase 2-studier er ikke specifikke for liposarkom, ingen resultatdata er tilgængelige, og de er ikke RCT'er. Evidensen er derfor i praksis svag og ligger tæt på L4–L5. L2 er det niveau, der er tildelt i de kompilerede data.*
@@ -126,7 +126,7 @@ Dokumentation fra de danske produktresuméer (advarsler og kontraindikationer) m
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen liposarkomspecifikke kliniske data, ingen tilgængelige effektresultater, og de to forsøg er små, tidlige og med kombinationsbehandling eller pædiatrisk population. Den høje TxGNN-score (99,54 %) er alene en modelforudsigelse. De øvrige forudsagte indikationer (ovarielt myxoid liposarkom og vulvasarkom) har ingen evidens (L5). Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer sikkerhedsvurderingen.
+Der er ingen liposarkomspecifikke kliniske data, ingen tilgængelige effektresultater, og de to forsøg er små, tidlige og med kombinationsbehandling eller pædiatrisk population. Den høje TxGNN-score (0,9954) er alene en modelforudsigelse. De øvrige forudsagte indikationer (ovarielt myxoid liposarkom og vulvasarkom) har ingen evidens (L5). Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer sikkerhedsvurderingen.
 
 **For at komme videre kræves:**
 - Hentning og gennemgang af advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen

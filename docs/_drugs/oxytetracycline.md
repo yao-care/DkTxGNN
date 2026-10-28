@@ -6,9 +6,9 @@ nav_order: 620
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oxytetracycline: forudsagt ny indikation Kronisk rhinosinuitis (rang 1 efter TxGNN-score) (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner, bl.a. urinvejsinfektion, bronkitis…"
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline: forudsagt ny indikation Chronic rhinosinusitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oxytetracycline
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Oxytetracyclin: Fra bakterielle infektioner til otitis externa
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## Sammenfatning i en sætning
@@ -48,12 +48,12 @@ Evidensen består af **0 registrerede kliniske forsøg** og **18 publikationer**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakterielle infektioner, bl.a. urinvejsinfektion, bronkitis, lungebetændelse, konjunktivitis, faryngitis og miltbrand (fra videngrafen; de danske godkendelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Kronisk rhinosinuitis (rang 1 efter TxGNN-score); otitis externa er den mest evidensunderbyggede (rang 10) |
-| TxGNN-forudsigelsesscore | 99,61 % (kronisk rhinosinuitis); 99,27 % (otitis externa) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Chronic rhinosinusitis |
+| TxGNN-forudsigelsesscore | 0.9961 |
 | Evidensniveau | L5 for kronisk rhinosinuitis; L3 for otitis externa |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 6 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold for kronisk rhinosinuitis; Proceed with Guardrails (forskningsspørgsmål) for otitis externa |
 
 *Bemærkning: Den højest rangerede forudsigelse (kronisk rhinosinuitis) har ingen evidens. Rapporten fokuserer derfor også på otitis externa, hvor der findes data.*

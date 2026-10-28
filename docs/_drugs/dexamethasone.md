@@ -6,9 +6,9 @@ nav_order: 253
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Binyrebarkinsufficiens, Crohns sygdom, akut lymfoblastær leukæmi…"
 monitor_inn: "dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dexamethasone
@@ -33,7 +33,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dexamethason: Fra binyrebarkinsufficiens og inflammatoriske sygdomme til alopecia areata
+## Dexamethasone: Alopecia areata
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -48,12 +48,12 @@ Forudsigelsen understøttes af **19 publikationer** i de indsamlede data (heraf 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Binyrebarkinsufficiens, Crohns sygdom, akut lymfoblastær leukæmi, eosinofil pneumoni m.fl. (fra TxGNN-vidensgrafen; de danske markedsføringstilladelser har ingen angivet indikationstekst) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

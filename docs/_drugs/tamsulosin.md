@@ -50,13 +50,13 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Benign prostatahyperplasi (BPH) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 99,996 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
-Note: Den oprindelige indikation stammer fra TxGNN-vidensgrafen, da de danske tilladelser i de indsamlede data ikke indeholder indikationstekst.
+Note: Den oprindelige indikation er ikke angivet i de danske tilladelser i de indsamlede data, da de ikke indeholder indikationstekst. Scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -64,7 +64,7 @@ Note: Den oprindelige indikation stammer fra TxGNN-vidensgrafen, da de danske ti
 
 Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Tamsulosin er kendt som en alfa-1A-adrenerg antagonist, der afslapper glat muskulatur i prostata og blærehals og dermed lindrer vandladningsbesvær ved BPH.
 
-Der kan ikke påvises en plausibel farmakologisk sammenhæng mellem alfa-1A-blokade og Ambras-syndrom. Sygdommen skyldes en kromosomal omlejring ved 8q22, som påvirker reguleringen af TRPS1. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til hårrelaterede fænotyper snarere end en reel mekanisme. Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som klinisk understøttet.
+Der kan ikke påvises en plausibel farmakologisk sammenhæng mellem alfa-1A-blokade og Ambras-syndrom. Sygdommen skyldes en kromosomal omlejring ved 8q22, som påvirker reguleringen af TRPS1. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens eller en reel mekanisme. Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som klinisk understøttet.
 
 Øvrige forudsigelser i rangordenen (alle evidensniveau L5, anbefaling Hold) omfatter hypertrichosis, tandrelaterede misdannelsessyndromer, Dandy-Walker-syndrom, genetiske hårskaftsabnormiteter, hypotrichosis simplex i hovedbunden, kongenit hypotrichosis med milia, diffus alopecia areata, alopeci og migræne med hjernestammeaura. For ingen af dem er der identificeret en plausibel mekanisme eller understøttende studier.
 

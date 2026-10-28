@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 881
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren"
 monitor_inn: "vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Der findes dog **ingen kliniske forsøg** og kun **7 publikationer** (primært o
 |------|------|
 | Oprindelig indikation | Atrieflimren (den danske godkendelsestekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Slagtilfælde (stroke disorder) |
-| TxGNN-forudsigelsesscore | 99,83 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9983 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Vernakalant blokerer tidligt aktiverende kaliumstrømme (IKur, IKACh) og frekven
 
 Forbindelsen mellem atrieflimren og slagtilfælde er indirekte: Atrieflimren er en væsentlig årsag til kardioembolisk slagtilfælde. Rytmekontrol kunne derfor i teorien have betydning for slagtilfældsrisikoen.
 
-Der er dog vigtige forbehold. Den fundne litteratur handler om behandling af atrieflimren og kardioversion, ikke om slagtilfældeudfald. Vernakalant er ikke vist at forebygge slagtilfælde, og kardioversion i sig selv indebærer en tromboemboliskrisiko, som kræver antikoagulation. Den høje score afspejler sandsynligvis sammenhængen mellem atrieflimren og slagtilfælde i vidensgrafen snarere end en direkte terapeutisk effekt.
+Der er dog vigtige forbehold. Den fundne litteratur handler om behandling af atrieflimren og kardioversion, ikke om slagtilfældeudfald. Vernakalant er ikke vist at forebygge slagtilfælde, og kardioversion i sig selv indebærer en tromboemboliskrisiko, som kræver antikoagulation. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -109,7 +109,7 @@ Det kan dog bemærkes, at vernakalant blokerer natriumkanaler. Det kan i teorien
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg og ingen litteratur, der viser effekt af vernakalant på slagtilfælde. Den høje TxGNN-score synes at afspejle den kendte sammenhæng mellem atrieflimren og slagtilfælde. De øvrige forudsagte indikationer (bl.a. sarcoglycanopathy, Wildervanck syndrome og ABri-amyloidose) mangler mekanistisk grundlag og virker som artefakter fra vidensgrafen.
+Der er ingen kliniske forsøg og ingen litteratur, der viser effekt af vernakalant på slagtilfælde. Den høje TxGNN-score synes at afspejle den kendte sammenhæng mellem atrieflimren og slagtilfælde. De øvrige forudsagte indikationer (bl.a. sarcoglycanopathy, Wildervanck syndrome og ABri-amyloidose) mangler mekanistisk grundlag. Deres scores stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **For at komme videre kræves:**
 - Hent og gennemgå produktresuméet for Brinavess fra Lægemiddelstyrelsen (advarsler og kontraindikationer mangler)

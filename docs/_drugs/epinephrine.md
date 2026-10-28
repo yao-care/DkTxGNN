@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 313
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Epinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem…"
 monitor_inn: "epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og der er i de data, der er indsamlet til denne rapport, **15 kliniske forsøg**
 |------|------|
 | Oprindelig indikation | Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem, åbenvinklet glaukom (fra vidensgrafen; der er ikke registreret godkendt indikationstekst for de danske produkter) |
 | Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,71 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| TxGNN-forudsigelsesscore | 0,9971 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -141,9 +141,9 @@ Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, me
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Fødevareafhængig anstrengelsesudløst anafylaksi | 99,57 % | L4 | Forskningsspørgsmål (ingen specifikke forsøg; understøttet indirekte af generel anafylaksilitteratur) |
-| Rienhoff syndrom | 99,57 % | L5 | Hold (ingen forsøg, ingen litteratur, ingen mekanistisk forbindelse) |
-| Luftvejsmisdannelse | 99,56 % | L3 | Hold (ét fase 1-forsøg om forbigående takypnø hos nyfødte; litteraturen er overvejende irrelevant) |
+| Fødevareafhængig anstrengelsesudløst anafylaksi | 0,9957 | L5 | Forskningsspørgsmål (ingen specifikke forsøg; understøttet indirekte af generel anafylaksilitteratur) |
+| Rienhoff syndrom | 0,9957 | L5 | Hold (ingen forsøg, ingen litteratur, ingen mekanistisk forbindelse) |
+| Luftvejsmisdannelse | 0,9956 | L3 | Hold (ét fase 1-forsøg om forbigående takypnø hos nyfødte; litteraturen er overvejende irrelevant) |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

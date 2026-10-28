@@ -4,17 +4,17 @@ title: Parecoxib
 parent: Moderat evidens (L3-L4)
 nav_order: 631
 evidence_level: L3
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Parecoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "Parecoxib"
-predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "pulmonary hypertension", "headache disorder", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Parecoxib (handelsnavn Dynastat) er en selektiv COX-2-hæmmer, der gives som injektion. Der er ikke angivet en godkendt indikation i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **migræne** med en score på **99,5 %**. Evidensen er begrænset til **1 klinisk pilotstudie** og to præklinisk studier, og der er **ingen registrerede kliniske forsøg**.
+Parecoxib (handelsnavn Dynastat) er en selektiv COX-2-hæmmer, der gives som injektion. Der er ikke angivet en godkendt indikation i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **migræne** med en score på **0,9955**. Evidensen er begrænset til **1 klinisk pilotstudie** og to præklinisk studier, og der er **ingen registrerede kliniske forsøg**.
 
 ---
 
@@ -48,10 +48,10 @@ Parecoxib (handelsnavn Dynastat) er en selektiv COX-2-hæmmer, der gives som inj
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,5 % |
+| TxGNN-forudsigelsesscore | 0,9955 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -83,10 +83,8 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 Det kliniske studie er et pilotstudie, og dets design (randomisering, stikprøvestørrelse) kan ikke bekræftes ud fra de tilgængelige oplysninger. Det betragtes derfor konservativt som begrænset klinisk evidens.
 
 **Øvrige forudsagte indikationer (kort):**
-- **Hovedpineforstyrrelse (headache disorder, score 98,9 %):** Støttes kun indirekte af migrænestudiet. En rapport om postdural punkturhovedpine omhandler sphenopalatin-ganglionblokade, ikke parecoxib. Evidensniveau L3.
-- **Migræne med hjernestammeaura (score 99,5 %):** Ingen kliniske forsøg og ingen litteratur. Ren modelforudsigelse (L5), anbefaling Hold. Triptaner anvendes traditionelt med forsigtighed ved denne undertype.
-- **Migræne med eller uden aura, modtagelighed (score 99,4 %):** Genetisk modtagelighedsentitet snarere end en behandlingsbar tilstand. Evidensen svarer reelt til migrænefænotypen (L3).
-- **Pulmonal hypertension (score 99,1 %):** Kun ét dyrestudie (neonatale grise med sepsis), hvor parecoxib ikke hæmmede thromboxansyntesen. Evidensen er indirekte og mekanistisk potentielt ugunstig. Evidensniveau L4, anbefaling Hold.
+- **Migræne med hjernestammeaura (score 0,9946):** Ingen kliniske forsøg og ingen litteratur. Ren modelforudsigelse (L5), anbefaling Hold. Triptaner anvendes traditionelt med forsigtighed ved denne undertype.
+- **Pulmonal hypertension (score 0,9909):** Kun ét dyrestudie (neonatale grise med sepsis), hvor parecoxib ikke hæmmede thromboxansyntesen. Evidensen er indirekte og mekanistisk potentielt ugunstig. Evidensniveau L4, anbefaling Hold.
 
 ---
 

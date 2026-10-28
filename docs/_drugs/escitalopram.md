@@ -8,6 +8,7 @@ nav_order: 324
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Escitalopram
@@ -49,8 +50,8 @@ Escitalopram er et veletableret selektivt serotoningjenoptagelseshemmer (SSRI), 
 | Forudsagt ny indikation | **Ingen** — ingen TxGNN-forudsigelser tilgængelige |
 | TxGNN forudsigelsesscore | N/A |
 | Evidensniveau | **L5** (Ingen forudsigelser eller understøttende studier) |
-| Status på dansk marked | Ikke markedsført (Ikke markedsført) |
-| Antal markedsføringstilladelser | 0 |
+| Status på dansk marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Påbegynd ikke** |
 
 > **Note om original indikation:** Selv om evidenspakken ikke angiver oprindelige indikationer, er escitalopram internationalt anerkendt som et SSRI godkendt til behandling af major depressiv lidelse (MDD) og generaliseret angstlidelse (GAD). I EU er escitalopram godkendt gennem flere nationale markedsføringstilladelser (f.eks. Cipralex®) til depression, panikklidelse, social angstlidelse, generaliseret angstlidelse og tvangslidelse.

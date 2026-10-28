@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Kun modelforudsigelse (L5)
 nav_order: 176
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cemiplimab: forudsagt ny indikation Adenoskvamøst karcinom i galdeblæren (evidensniveau L5). Oprindelig indikation: Pladecellekarcinom (den danske godkendelsestekst er ikke tilgængelig)"
+indication_count: 6
 monitor_inn: "Cemiplimab"
-predicted_indications: ["gallbladder adenosquamous carcinoma", "gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "adenosquamous prostate carcinoma"]
+predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-10-27
+description: "Cemiplimab: forudsagt ny indikation Galdeblære-adenoskvamøst karcinom (gallbladder adenosquamous carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cemiplimab: Fra pladecellekarcinom til galdeblære-adenoskvamøst karcinom
+## Cemiplimab: PD-1-hæmmer → galdeblære-adenoskvamøst karcinom (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
 ## Resumé
 
-Cemiplimab er et PD-1-blokerende antistof, oprindeligt anvendt til behandling af pladecellekarcinom (især kutant pladecellekarcinom).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **adenoskvamøst karcinom i galdeblæren**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+Cemiplimab er et PD-1-blokerende antistof, der er markedsført i Danmark som Libtayo. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **galdeblære-adenoskvamøst karcinom (gallbladder adenosquamous carcinoma)**. Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, der direkte undersøger denne sygdom, så forudsigelsen hviler alene på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Pladecellekarcinom (den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Adenoskvamøst karcinom i galdeblæren |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Galdeblære-adenoskvamøst karcinom (gallbladder adenosquamous carcinoma) |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra generel viden er cemiplimab et monoklonalt antistof mod PD-1 (PDCD1/CD279). Det blokerer interaktionen mellem PD-1 og PD-L1 (IC50 under 1 nM i en ELISA-analyse) og kan dermed genoprette T-cellernes antitumoraktivitet.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra generel viden om lægemiddelklassen binder cemiplimab sig til PD-1-receptoren (kodet af PDCD1) og blokerer interaktionen med PD-L1. Dermed kan T-cellernes anti-tumorrespons genoprettes. Prækliniske data angiver en IC50 under 1 nM for blokering af den humane PD-1/PD-L1-interaktion.
 
-Effekten af cemiplimab ved kutant pladecellekarcinom er veldokumenteret: i forsøgene NCT02383212 og NCT02760498 responderede ca. 50 % af patienter med avanceret sygdom. Adenoskvamøst karcinom indeholder en pladecellekomponent, og PD-1-blokade er derfor biologisk plausibel. Det er dog kun en hypotese. Modellens meget høje score er en beregnet forudsigelse og ikke klinisk evidens.
+Den skvamøse komponent i adenoskvamøst karcinom kan muligvis have fælles biologi i PD-1/PD-L1-aksen med de pladecellekræftformer, som cemiplimab er anvendt til. Dette er en hypotese udledt af lægemiddelklassen. Der er ikke fremlagt forsøgs- eller litteraturdata, som understøtter den for galdeblæren, og ligheden med den oprindelige anvendelse er ikke vurderet nærmere.
 
-Øvrige forudsigelser med samme lægemiddel omfatter pladecellekarcinom i glottis (score 99,99 %), cloakogent karcinom i rektum (99,99 %), basalcellekarcinom i det ydre øre (99,99 %) og adenoskvamøst prostatakarcinom (99,99 %). Alle er på L5, bortset fra basalcellekarcinom i det ydre øre, som er på L4 med ét case-report.
+## Evidens fra kliniske forsøg
 
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-## Kliniske forsøg
+## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
-
----
-
-## Litteratur
-
-Der foreligger på nuværende tidspunkt ingen relateret litteratur for den primære forudsagte indikation (adenoskvamøst karcinom i galdeblæren).
-
-For en af de øvrige forudsigelser, basalcellekarcinom i det ydre øre, findes ét case-report:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Case report | Clinical and Experimental Dermatology | Varig respons efter seponering af cemiplimab hos én patient med lokalt avanceret basalcellekarcinom. Evidensen er anekdotisk og ikke specifik for det ydre øre. |
-
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106090218 | Libtayo (Regeneron Ireland Designated Activity Company) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
+| 28106090218 | Libtayo | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
 
----
+Indehaver: Regeneron Ireland Designated Activity Company. Tilladelsen er gyldig.
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Immunterapi (PD-1-checkpointhæmmer, monoklonalt antistof). Ikke et konventionelt cytotoksisk middel |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitet | Se produktresuméet (SmPC) |
-| Monitorering | Se produktresuméet (SmPC), herunder blodtal, lever-, nyre- og thyreoideafunktion |
-| Håndtering | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
-
----
+| Klassifikation | Immunterapi (PD-1-checkpointhæmmer) |
+| Risiko for knoglemarvssuppression | Der henvises til produktresuméet (SmPC) for advarsler og forholdsregler |
+| Emetogenicitet | Der henvises til produktresuméet (SmPC) for advarsler og forholdsregler |
+| Monitorering | Der henvises til produktresuméet (SmPC) for advarsler og forholdsregler |
+| Håndteringsbeskyttelse | Der henvises til produktresuméet (SmPC) for advarsler og forholdsregler |
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data om advarsler eller kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 10 interaktioner. Ni af dem er af moderat sværhedsgrad og omfatter kortikosteroider:
 
-**Lægemiddelinteraktioner**: Der er identificeret 9 interaktioner af moderat sværhedsgrad, alle med systemiske kortikosteroider:
-- Hydrocortison
-- Triamcinolon
-- Dexamethason
-- Betamethason
-- Budesonid
-- Prednisolon
-- Prednison
-- Methylprednisolon
-- Deflazacort
+- hydrocortison
+- triamcinolon
+- dexamethason
+- betamethason
+- budesonid
+- prednisolon
+- prednison
+- methylprednisolon
+- deflazacort
 
-Kortikosteroider kan svække den immunmedierede effekt af PD-1-blokade. Samtidig brug bør vurderes klinisk.
+Kortikosteroider kan svække effekten af immunterapi. Den tiende post er lægemidlets målprotein, PD-1 (CD279), og er ikke en egentlig lægemiddelinteraktion.
 
----
+Der henvises i øvrigt til det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation har kun modelbaseret evidens (L5) uden kliniske forsøg eller publikationer. Der mangler desuden data om virkningsmekanisme og sikkerhedsoplysninger fra produktresuméet, så der er ikke grundlag for at gå videre.
+Forudsigelsen er baseret udelukkende på modellen (score 0,9999) uden kliniske forsøg eller publikationer, der direkte omhandler galdeblære-adenoskvamøst karcinom. Evidensniveauet er derfor L5.
 
-**For at komme videre kræves:**
-- Hent og gennemgå det danske produktresumé fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst)
-- Supplér data om virkningsmekanisme fra DrugBank
-- Systematisk litteratursøgning og søgning i forsøgsregistre efter cemiplimab ved adenoskvamøst karcinom, herunder galdeblære og galdeveje
-- Vurdér, om forudsigelsen for basalcellekarcinom (L4) bør prioriteres som forskningsspørgsmål, da cemiplimab allerede anvendes ved lokalt avanceret basalcellekarcinom
-- Afklar kriterier for patientudvælgelse, f.eks. PD-L1-status og mutationsbyrde
+**For at komme videre kræves følgende:**
+- Systematisk litteratursøgning og forsøgsregistersøgning for cemiplimab ved adenoskvamøse karcinomer i galdeblæren
+- Data om virkningsmekanisme og PD-L1-ekspression i denne tumortype
+- Prækliniske eller eksplorative kliniske data (fx case-serier eller et fase 2-forsøg)
+- Gennemgang af det danske produktresumé for sikkerhedsoplysninger og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

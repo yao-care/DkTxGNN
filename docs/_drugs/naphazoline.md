@@ -50,10 +50,10 @@ Forudsigelsen er **ikke understøttet af kliniske forsøg eller publikationer** 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport. Den kliniske anvendelse er lindring af øjenrødme (vasokonstriktion af hævede blodkar i øjet) |
 | Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden |
-| TxGNN-forudsigelsesscore | 99,83 % |
+| TxGNN-forudsigelsesscore | 0,9983 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er in
 
 Der er ingen oplagt mekanistisk sammenhæng mellem denne virkning og hårvækst ved en genetisk betinget hypotrichosis. Vasokonstriktion i hovedbundens kar ville tværtimod, om noget, kunne forringe follikelperfusionen. Etablerede behandlinger mod hårtab virker via andre mekanismer, f.eks. åbning af kaliumkanaler (minoxidil), hæmning af 5-alfa-reduktase eller immunmodulering, og ingen af disse gælder for naphazolin.
 
-Den høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen til andre hårrelaterede sygdomsknuder snarere end reel farmakologi. Det understøttes af, at modellen også forudsiger modsatrettede fænotyper (hypotrichosis/alopeci og hypertrichosis) med næsten samme score, hvilket tyder på artefakter i grafen.
+Den høje score (0,9983) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Det understøttes af, at modellen også forudsiger modsatrettede fænotyper (hypotrichosis/alopeci og hypertrichosis) med næsten samme score.
 
 ### Øvrige forudsigelser med samme begrænsninger
 

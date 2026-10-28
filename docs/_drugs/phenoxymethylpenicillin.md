@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **epiglottitis** (og s
 |------|------|
 | Oprindelig indikation | Streptokokinfektion, luftvejsinfektioner, faryngitis, mellemørebetændelse, erysipelas, skarlagensfeber m.fl. (den danske registrering indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Epiglottitis |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -65,7 +65,7 @@ Epiglottitis er typisk bakteriel (historisk *Haemophilus influenzae* type b, men
 
 Forudsigelsen er dog sandsynligvis udtryk for overlap med eksisterende indikationer snarere end en reelt ny anvendelse. Stoffet er smalspektret og oralt, og det dækker ikke betalaktamaseproducerende *H. influenzae* eller MRSA. Epiglottitis er en akut luftvejstruet tilstand, som normalt behandles med parenterale bredspektrede midler (f.eks. tredjegenerations-cefalosporiner).
 
-For laryngitis (rang 2, score 99,85 %) er mekanismen svag, fordi akut laryngitis oftest er viral og selvlimiterende.
+For laryngitis (rang 2, score 0,9985) er mekanismen svag, fordi akut laryngitis oftest er viral og selvlimiterende.
 
 ---
 

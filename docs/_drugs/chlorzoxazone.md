@@ -4,17 +4,17 @@ title: Chlorzoxazone
 parent: Kun modelforudsigelse (L5)
 nav_order: 189
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Chlorzoxazone: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige danske godkendelsesdata (indikationste…"
 monitor_inn: "chlorzoxazone"
-predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
+predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
 ---
 
 # Chlorzoxazone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen er derfor primært modelbaseret og hypotesegenererende.
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige danske godkendelsesdata (indikationsteksten er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,73 % |
-| Evidensniveau | L4 (kun prækliniske/mekanistiske studier) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9973 |
+| Evidensniveau | L5 (kun prækliniske/mekanistiske studier) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

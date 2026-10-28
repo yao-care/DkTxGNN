@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zidovudine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 902
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Zidovudine: forudsagt ny indikation Felint erhvervet immundefektsyndrom (FAIDS) (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Zidovudin: Fra HIV-infektion/AIDS til felint erhvervet immundefektsyndrom
+## Zidovudine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Zidovudin er en nukleosid-revers transkriptasehæmmer, der oprindeligt bruges mo
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Felint erhvervet immundefektsyndrom (FAIDS) |
-| TxGNN-forudsigelsesscore | 99,96 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-forudsigelsesscore | 0.9996 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

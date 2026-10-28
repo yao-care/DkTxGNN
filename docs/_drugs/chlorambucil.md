@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 183
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Chlorambucil: forudsagt ny indikation Primært pulmonalt lymfom (evidensniveau L3). Oprindelig indikation: Hodgkins lymfom, follikulært lymfom, B-celle-neoplasmer…"
+evidence_level: L5
+indication_count: 7
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "well-differentiated fetal adenocarcinoma of the lung"]
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-10-27
+description: "Chlorambucil: forudsagt ny indikation prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemi… (evidensniveau L5). Oprindelig indikatio…"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,79 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Chlorambucil: Fra Hodgkins lymfom til primært pulmonalt lymfom
+## Chlorambucil: alkylerende cytostatikum → prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Chlorambucil er et alkylerende kvælstofsennepsstof, der oprindeligt anvendes til behandling af Hodgkins lymfom, follikulært lymfom, kronisk lymfatisk leukæmi og beslægtede B-cellesygdomme.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **primært pulmonalt lymfom**.
-Evidensen består af **0 registrerede kliniske forsøg** og **12 publikationer**, hvoraf de fleste er case-rapporter, kohortestudier og ét ældre fase II-studie. Evidensniveauet er **L3**.
-
-Bemærk: De data, der er indsamlet til denne rapport, rangerer to CLL/SLL-undertyper højest (score 99,72 %). Disse er sandsynligvis undertyper af en allerede kendt anvendelse og ikke reel repurposing. Rapporten fokuserer derfor på primært pulmonalt lymfom, som er den højest rangerede forudsigelse med reel evidens og en troværdig mekanistisk forbindelse.
+Chlorambucil er et alkylerende middel, der anvendes til behandling af blodkræftsygdomme.
+TxGNN-modellen forudsiger, at det kan have effekt ved **prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)**.
+De data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg** og **én publikation** (en oversigtsartikel fra 2003), som kun indirekte understøtter forudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hodgkins lymfom, follikulært lymfom, B-celle-neoplasmer, akut lymfoblastær leukæmi, Richters syndrom (fra videngrafen; indikationsteksten i den danske autorisation er ikke angivet) |
-| Forudsagt ny indikation | Primært pulmonalt lymfom |
-| TxGNN-prædiktionsscore | 99,42 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) |
+| TxGNN-forudsigelsesscore | 0,9972 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Chlorambucil er dog et velkendt DNA-alkylerende kvælstofsennepsstof. Det binder sig til DNA og hæmmer dermed delingen af hurtigt prolifererende lymfoide celler.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Chlorambucil er et alkylerende middel, der binder sig til DNA og hæmmer celledeling. Denne virkning er relevant ved langsomt voksende B-celle-maligniteter.
 
-Primært pulmonalt lymfom er hovedsageligt pulmonalt MALT-lymfom (marginalzone-lymfom), et indolent B-cellelymfom. Chlorambucil er et etableret middel ved indolente B-cellesygdomme og er blevet brugt ved ekstranodalt MALT-lymfom. Den mekanistiske forbindelse til de oprindelige indikationer er derfor troværdig.
-
-Moderne regimer, fx rituximab-baserede, har i vid udstrækning afløst chlorambucil som monoterapi. Den aktuelle værdi af chlorambucil ved denne sygdom skal derfor afklares gennem en prospektiv sammenligning.
+Den forudsagte sygdom er en molekylær undertype af kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (CLL/SLL) med umuteret IGHV-gen. Den høje score afspejler sandsynligvis primært overlap med den overordnede sygdomsgruppe, som chlorambucil allerede anvendes til. Der er derfor ikke tale om et ægte repurposing-signal.
 
 ## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
+Aktuelt er der ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [3307632](https://pubmed.ncbi.nlm.nih.gov/3307632/) | 1987 | Fase II-studie | Gan to kagaku ryoho | 8 patienter med forskellige hæmatologiske maligniteter fik chlorambucil. Delvis remission hos 2 med CLL og hos 1 med follikulært lymfom og 1 med pseudolymfom i lungen. Bivirkninger inkl. myelosuppression |
-| [18603558](https://pubmed.ncbi.nlm.nih.gov/18603558/) | 2008 | Retningslinje | Haematologica | Italienske retningslinjer for ekstranodale non-Hodgkin-lymfomer, del I: primære lunge- og mediastinale lymfomer |
-| [19541720](https://pubmed.ncbi.nlm.nih.gov/19541720/) | 2009 | Kohorte | Eur Respir J | 63 patienter med pulmonalt MALT-lymfom: sygdomsudbredelse, prognostiske faktorer og langtidsudfald |
-| [36672456](https://pubmed.ncbi.nlm.nih.gov/36672456/) | 2023 | Kohorte | Cancers | Langtidsopfølgning i RESONATE-2: ibrutinib var bedre end chlorambucil ved CLL/SLL (indirekte relevans) |
-| [25452791](https://pubmed.ncbi.nlm.nih.gov/25452791/) | 2015 | Case-rapport/oversigt | Exp Ther Med | Pulmonalt MALT-lymfom hos en 19-årig samt litteraturgennemgang |
-| [11289295](https://pubmed.ncbi.nlm.nih.gov/11289295/) | 2001 | Case-rapport | Dis Colon Rectum | MALT-lymfom samtidigt i tyktarm og lunge, behandlet med bl.a. mitoxantron og chlorambucil |
-| [3699123](https://pubmed.ncbi.nlm.nih.gov/3699123/) | 1986 | Case-serie | Eur J Respir Dis | Primært non-Hodgkin-lymfom i lungen behandlet med chlorambucil i 5 måneder |
-| [6248988](https://pubmed.ncbi.nlm.nih.gov/6248988/) | 1980 | Case-rapport | Sem Hop | Primært lymfosarkom i lungen med IgM-sekretion; klinisk remission under kontinuerlig chlorambucil i 3 år |
-| [14654083](https://pubmed.ncbi.nlm.nih.gov/14654083/) | 2004 | Basal/translationel | Leuk Res | Rolle for COX-2 i lymfomers patogenese (ikke specifik for chlorambucil) |
+| [12577769](https://pubmed.ncbi.nlm.nih.gov/12577769/) | 2003 | Oversigtsartikel | Nederlands tijdschrift voor geneeskunde | Beskriver to undertyper af CLL (prægerminal-center-type med umuterede immunglobulingener og en anden type) og argumenterer for en risikotilpasset behandling. Indirekte evidens; undersøger ikke chlorambucil specifikt i denne undertype. |
 
-Yderligere to hentede artikler (PMID 11250989 og 9000608) omhandler sekundære kræftformer efter Hodgkin-behandling. De belyser bivirkninger og ikke effekt, og er derfor ikke medtaget i tabellen.
-
-## Oplysninger om det danske marked
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103066399 | Leukeran (Aspen Pharma Trading Limited) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28103066399 | Leukeran | Filmovertrukne tabletter | Ikke angivet i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende kvælstofsennep) |
-| Risiko for myelosuppression | Høj (knoglemarvssuppression er en kendt bivirkning, også set i fase II-studiet) |
-| Emetogenicitetsklassifikation | Lav |
-| Monitoreringsparametre | Fuldt blodbillede med differentialtælling, lever- og nyrefunktion |
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende middel, nitrogensennepsderivat) |
+| Risiko for knoglemarvssuppression | Høj (neutropeni, trombocytopeni og anæmi er kendte risici) |
+| Emetogenicitet | Lav til moderat |
+| Overvågning | Fuldstændig blodtælling med differentialtælling, lever- og nyrefunktion |
 | Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
-Se desuden produktresuméet (SmPC) for advarsler og forsigtighedsregler.
+## Sikkerhedsovervejelser
 
-## Sikkerhedsmæssige overvejelser
-
-**Kontraindikationer/risikotilstande fra videngrafen** (ikke fra produktresuméet): Videngrafen knytter chlorambucil til bl.a. følgende tilstande: trombocytopeni, neutropeni, agranulocytose, leukopeni, lymfopeni, anæmi, nefrotisk syndrom, epilepsi, interstitiel lungesygdom, lungefibrose, lægemiddelinduceret leverskade og akut leukæmi.
-
-**Lægemiddelinteraktioner** (100 registrerede; udvalgte):
-- **Alvorlige (Major):** deferipron, samarium (153Sm) lexidronam
-- **Moderate:** amphotericin B (inkl. lipidkompleks, kolesterylsulfat og liposomal), palifermin, strontiumchlorid Sr-89, mercaptopurin, roflumilast, chloramphenicol
-- **Mindre (Minor):** levofloxacin
-
-Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
+- **Lægemiddelinteraktioner** (de vigtigste ud af 100 registrerede):
+  - Alvorlig (Major): deferipron, samarium (153Sm) lexidronam
+  - Moderat: amphotericin B (inkl. lipidkompleks, kolesterylsulfat og liposomal), palifermin, strontiumchlorid Sr-89, mercaptopurin, roflumilast, chloramphenicol
+  - Let (Minor): levofloxacin
+- Der er registreret en række tilstande, hvor brug af chlorambucil er problematisk, bl.a. knoglemarvssvigt-relaterede tilstande (trombocytopeni, neutropeni, agranulocytose, leukopeni, anæmi), epilepsi, interstitiel lungesygdom/lungefibrose, leverskade og nefrotisk syndrom. Disse oplysninger stammer ikke fra produktresumé, og det godkendte produktresumé (SmPC) bør konsulteres.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den mekanistiske forbindelse er troværdig, men evidensen er overvejende retrospektiv og af lav kvalitet. Der er ingen registrerede kliniske forsøg, og moderne regimer har i vid udstrækning afløst chlorambucil som monoterapi. Der mangler desuden sikkerhedsdata fra produktresuméet.
+Forudsigelsen er næsten udelukkende drevet af overlap med den overordnede CLL/SLL-sygdomsgruppe. Der er ingen kliniske forsøg og kun én indirekte oversigtsartikel, så der er ingen studier, der direkte undersøger denne undertype med chlorambucil. Evidensniveauet er derfor L5.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af advarsler og kontraindikationer fra produktresuméet (blokerende datahul)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteraturgennemgang af chlorambucil ved pulmonalt MALT-lymfom, inkl. sammenligning med rituximab-baserede regimer
-- Prospektivt studie eller sammenligning med nuværende standardbehandling
-- Vurdering af sikkerhed hos ældre og patienter med nedsat knoglemarvs- eller lungefunktion, givet de angivne risikotilstande
+**For at komme videre kræves:**
+- Undertypespecifikke kliniske data for chlorambucil ved CLL/SLL med umuteret IGHV
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Sammenligning med nuværende standardbehandlinger (f.eks. målrettede midler) for at vurdere klinisk relevans
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

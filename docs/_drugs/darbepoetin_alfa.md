@@ -8,6 +8,7 @@ nav_order: 238
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Darbepoetin Alfa
@@ -51,8 +52,8 @@ To blokerende eller høj-alvorlighedsgrad-datakløfter — manglende regulatoris
 | Forudsagt ny indikation | — (ingen prognose genereret) |
 | TxGNN-prognosescore | — |
 | Evidensniveau | Ikke vurderbar (pipeline returnerede ingen kandidater) |
-| Danske markedsstatus | Ikke markedsført (ifølge evidenspakken) |
-| Antal markedsføringstilladelser | 0 |
+| Danske markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | **Hold** |
 
 ---

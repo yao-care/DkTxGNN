@@ -6,9 +6,9 @@ nav_order: 773
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Spectinomycin: forudsagt ny indikation Sygdom i ligamentum latum uteri (evidensniveau L5). Oprindelig indikation: Gonoré og akut gonokok-cervicitis"
 monitor_inn: "spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
+description: "Spectinomycin: forudsagt ny indikation Disease of uterine broad ligament (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Spectinomycin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Spectinomycin: Fra gonoré til sygdom i ligamentum latum uteri
+## Spectinomycin: Disease of uterine broad ligament
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Spectinomycin er et aminocyclitol-antibiotikum, der oprindeligt blev brugt til b
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Gonoré og akut gonokok-cervicitis |
-| Forudsagt ny indikation | Sygdom i ligamentum latum uteri |
-| TxGNN-forudsigelsesscore | 99,57 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Disease of uterine broad ligament |
+| TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Spectinomycin er et aminocyclitol-antibiotikum, der oprindeligt blev brugt til b
 
 Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Spectinomycin er kendt som et aminocyclitol-antibiotikum, der hæmmer bakteriens proteinsyntese ved at binde til den lille (30S) ribosomale underenhed. Lægemidlets effekt ved gonoré er veldokumenteret.
 
-En mekanistisk sammenhæng med sygdom i ligamentum latum uteri ville kun findes, hvis tilstanden skyldtes en bakteriel infektion, f.eks. gonokokker. De foreliggende data understøtter ikke en sådan årsag. Den høje score skyldes sandsynligvis, at sygdomsknuden ligger tæt på bækken- og genitalsygdomme i vidensgrafen, og ikke at der er biologisk evidens. Forudsigelsen bør derfor tolkes som en hypotese uden understøttelse.
+En mekanistisk sammenhæng med sygdom i ligamentum latum uteri ville kun findes, hvis tilstanden skyldtes en bakteriel infektion, f.eks. gonokokker. De foreliggende data understøtter ikke en sådan årsag. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Forudsigelsen bør derfor tolkes som en hypotese uden understøttelse.
 
 ---
 
@@ -102,7 +102,7 @@ Oplysninger om advarsler og kontraindikationer var ikke tilgængelige i de samme
 **Begrundelse:**
 Forudsigelsen hviler udelukkende på en grafbaseret model uden kliniske forsøg, litteratur eller en plausibel biologisk sammenhæng med en antibakteriel mekanisme. Evidensniveauet er L5.
 
-**Supplerende bemærkning:** Blandt de ti forudsagte indikationer er **uretral sygdom** (score 99,53 %) den eneste med meningsfuld litteratur (evidensniveau L3). Det er hovedsageligt en forlængelse af den eksisterende gonoréindikation og ikke en egentlig nyanvendelse. Eksempler:
+**Supplerende bemærkning:** Blandt de ti forudsagte indikationer er **uretral sygdom** (score 0,9953) den eneste med meningsfuld litteratur (evidensniveau L3). Det er hovedsageligt en forlængelse af den eksisterende gonoréindikation og ikke en egentlig nyanvendelse. Eksempler:
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|

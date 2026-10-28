@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Darunavir
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 240
-evidence_level: L4
-indication_count: 8
-last_modified_at: 2026-10-14
-description: "Darunavir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "DARUNAVIR"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "obsolete familial combined hyperlipidemia"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Darunavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,70 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Darunavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Darunavir: HIV-proteasehæmmer → Simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering
 
-Darunavir er en HIV-1-proteasehæmmer, som oprindeligt anvendes til behandling af HIV-infektion og AIDS.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **simian immundefektvirus-infektion (SIV)**,
-men støtten består kun af **4 publikationer** fra dyreforsøg (non-humane primater) og **ingen kliniske forsøg**. Indikationen er i praksis en forskningsmodel-udvidelse af den godkendte HIV-indikation og ikke en ny human anvendelse.
-
----
+Darunavir er en proteasehæmmer, der anvendes mod HIV-infektion. TxGNN-modellen forudsiger, at lægemidlet muligvis kan have effekt på **simian immundefektvirus-infektion (simian immunodeficiency virus infection)**. Evidensen består af **0 kliniske forsøg** og **4 publikationer**, som alle er dyrestudier på aber af kombinationsbehandling mod SIV.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videnbasen; dansk indikationstekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-prediktionsscore | 99,97 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0,9997 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Der foreligger ikke detaljerede data om darunavirs virkningsmekanisme i de data, der er indsamlet til denne rapport. Darunavir er kendt som en HIV-1-proteasehæmmer, og SIV er en lentivirus, der er tæt beslægtet med HIV. Proteasehæmning er derfor en tænkelig mekanisme, men darunavirs aktivitet over for SIV-protease er ikke dokumenteret i det foreliggende materiale.
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Darunavir tilhører dog klassen af HIV-1-proteasehæmmere, og dets effekt ved HIV-infektion er veldokumenteret.
+De fire fundne artikler er studier af kombinationsbehandling mod SIV hos makaker. De afprøver hovedsageligt tillægsstoffer (en HDAC-hæmmer, auranofin) eller langtidsvirkende formuleringer og isolerer ikke darunavirs egen effekt. De viser, at SIV-makakmodellen kan bruges til at studere antiretroviral behandling, men de undersøger ikke darunavir som behandling af SIV-infektion. Indikationen er i praksis en forskningsmodel-/veterinær udvidelse og ikke en ny human terapeutisk anvendelse.
 
-SIV er en lentivirus, der er tæt beslægtet med HIV. Proteasehæmning er derfor en mulig mekanisme, men darunavirs aktivitet over for SIV-protease er ikke påvist i de foreliggende data. De fire fundne artikler er studier i rhesusaber af kombinerede antiretrovirale regimer, hvor man hovedsageligt testede tillægsstoffer (en HDAC-hæmmer og auranofin) eller langtidsvirkende formuleringer. De understøtter SIV-abemodellen som platform til at studere antiretroviral behandling, men isolerer ikke darunavirs egen effekt.
+Da ingen af de citerede studier direkte undersøger darunavir ved sygdommen, er evidensniveauet sat til L5.
 
-Den høje score afspejler sandsynligvis tæt nærhed til HIV/AIDS i videnbasens netværk. Øvrige forudsigelser (felint erhvervet immundefektsyndrom, en sjælden neuroudviklingsforstyrrelse og en forældet betegnelse for familiær kombineret hyperlipidæmi) har ingen kliniske data og ingen plausibel mekanistisk begrundelse. For hyperlipidæmi er forbindelsen snarere en bivirkning (dyslipidæmi ved proteasehæmmere) end en terapeutisk effekt.
+## Kliniske forsøg
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prækliniske (non-humane primater) | PLoS One | Intensiv kombinationsbehandling med antiretrovirale lægemidler og HDAC-hæmmeren SAHA i SIV-inficerede kinesiske rhesusaber som model for virale reservoirer |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prækliniske (non-humane primater) | AIDS Res Hum Retroviruses | Sammenligning af to injicerbare, samformulerede kombinationsregimer i SIV-inficerede rhesusaber |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prækliniske (non-humane primater) | AIDS | Guldforbindelsen auranofin reducerede det virale reservoir og gav kontrol af virusmængden efter ophør af behandling |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prækliniske (non-humane primater) | PLoS Pathogens | Kraftigt intensiveret antiretroviral behandling gav langvarig virussuppression og begrænsning af det virale reservoir i en simian AIDS-model |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prækliniske (non-human primat) | PloS one | Kombineret antiretroviral behandling med HDAC-hæmmeren SAHA hos SIV-inficerede kinesiske rhesusaber, som model for virusreservoirer |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prækliniske (non-human primat) | AIDS Res Hum Retroviruses | Sammenligning af to injicerbare kombinationsregimer hos SIV-inficerede rhesusaber |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prækliniske (non-human primat) | AIDS | Guldforbindelsen auranofin begrænsede det virale reservoir i abemodellen og gav kontrol af viral load efter ART-stop |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prækliniske (non-human primat) | PLoS Pathogens | Kraftigt intensiveret ART-regime gav langvarig virussuppression og begrænsning af reservoiret i SIV-aber |
 
----
+## Information om markedet i Danmark
 
-## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105870116 | Darunavir "Krka" (KRKA d.d. Novo mesto) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
-
----
+| 28105870116 | Darunavir "Krka" | Filmovertrukne tabletter | Ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Sygdomme, hvor lægemidlet er anført som kontraindiceret i videnbasen** (ikke fra produktresuméet): leversvigt, leversygdom, galdeblæresygdom, hyperglykæmi, levercirrose, diabetes mellitus, diabetisk ketoacidose, kronisk og øvrig hepatitis C-virusinfektion, kronisk hepatitis B-virusinfektion, hypertriglyceridæmi, hæmofili og symptomatisk hæmofili hos kvindelige bærere.
-- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de viste er størstedelen af moderat grad, bl.a. med acarbose, metformin, pioglitazon, alogliptin, saxagliptin, canagliflozin, dapagliflozin (antidiabetika), kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon), aprepitant og clarithromycin. Interaktionen med **cisaprid** er klassificeret som **alvorlig (Major)**.
+- **Lægemiddelinteraktioner:** Der er fundet 100 registrerede interaktioner. Blandt de vigtigste er den alvorlige (Major) interaktion med cisaprid samt flere moderate interaktioner, bl.a. med kortikosteroider (hydrokortison, dexamethason, betamethason, budesonid, triamcinolon), antidiabetika (metformin, pioglitazon, acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, chlorpropamid, albiglutid), aprepitant og clarithromycin.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen består udelukkende af prækliniske studier i aber, som ikke isolerer darunavirs effekt, og der er ingen kliniske forsøg. Indikationen har ingen reel human terapeutisk relevans ud over den allerede godkendte HIV-indikation.
+Forudsigelsen bygger alene på modellen. De fire fundne artikler er dyrestudier af kombinationsbehandling, der ikke undersøger darunavir isoleret, og der er ingen kliniske forsøg. Indikationen har desuden begrænset human relevans.
 
-**For at gå videre er følgende nødvendigt:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra det danske produktresumé (Lægemiddelstyrelsen)
-- Data om darunavirs aktivitet over for SIV-protease og studier, der isolerer darunavirs bidrag
-- Afklaring af, om en veterinær- eller forskningsmodelanvendelse overhovedet er relevant for sundhedsfaglig beslutningstagning
+**For at komme videre kræves følgende:**
+- Data om darunavirs virkningsmekanisme og aktivitet over for SIV-protease
+- Studier, der direkte undersøger darunavir ved SIV-infektion
+- Afklaring af, om der overhovedet er et humant eller veterinært behandlingsbehov
+- Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

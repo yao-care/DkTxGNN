@@ -4,17 +4,17 @@ title: Eftrenonacog Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 294
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Eftrenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Eftrenonacog alfa"
-predicted_indications: ["pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "acquired coagulation factor deficiency", "Scott syndrome", "Scott syndrome"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
 ---
 
 # Eftrenonacog Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, som støtter denne ret
 |------|------|
 | Oprindelig indikation | Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere) |
 | Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
-| TxGNN-forudsigelsesscore | 99,48 % |
+| TxGNN-forudsigelsesscore | 0.9948 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
@@ -60,7 +60,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 Pseudo-von Willebrand sygdom (blodpladetype) skyldes en gain-of-function-defekt i blodpladernes GPIbα, som øger bindingen til von Willebrand-faktor. Det fører til øget fjernelse af blodplader og tab af højmolekylære VWF-multimerer. Defekten ligger i akserne mellem blodplader og VWF, ikke i faktor IX-aktiviteten. Der er derfor ingen klar mekanistisk begrundelse for faktor IX-substitution. Den høje score skyldes sandsynligvis netværksassociationer via fælles knudepunkter for blødnings- og koagulationsforstyrrelser.
 
-Modellen forudsagde også andre sygdomme med samme score-mønster, f.eks. primær frigivelsesforstyrrelse af blodplader (99,42 %), Glanzmanns trombasteni (99,28 %), erhvervet koagulationsfaktormangel (98,97 %) og Scotts syndrom (98,62 %). Alle har L5-evidens og anbefalingen Hold. Erhvervet koagulationsfaktormangel er mekanistisk tættest på, men kun relevant ved dokumenteret faktor IX-mangel i en veldefineret undertype. De øvrige er blodpladedefekter, som faktor IX-substitution ikke korrigerer.
+Modellen forudsagde også andre sygdomme med samme score-mønster, f.eks. primær frigivelsesforstyrrelse af blodplader (0.9942) og Glanzmanns trombasteni (0.9928). Alle har L5-evidens og anbefalingen Hold. De er blodpladedefekter, som faktor IX-substitution ikke korrigerer.
 
 ## Klinisk evidens
 

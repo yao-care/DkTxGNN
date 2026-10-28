@@ -6,9 +6,9 @@ nav_order: 758
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sertraline: forudsagt ny indikation Agorafobi (evidensniveau L5). Oprindelig indikation: Angstlidelse, OCD, PTSD, social fobi, dysthymi (fra TxGNN-vidensgrafen"
 monitor_inn: "sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: forudsagt ny indikation Schizoid personality disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sertraline
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Sertralin: Fra angstlidelser og OCD til agorafobi
+## Sertraline: Schizoid personality disorder
 {: .text-alpha }
 
 ## Opsummering
@@ -48,12 +48,12 @@ og der foreligger **2 registrerede kliniske forsøg** (hvoraf kun ét er direkte
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, OCD, PTSD, social fobi, dysthymi (fra TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke tilgængelig) |
-| Forudsagt ny indikation | Agorafobi |
-| TxGNN-forudsigelsesscore | 99,5 % |
-| Evidensniveau | L1 (baseret på RCT-litteratur om panikangst med/uden agorafobi; bør verificeres i fuldtekst) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Schizoid personality disorder |
+| TxGNN-forudsigelsesscore | 0.9993 |
+| Evidensniveau | L5 (baseret på RCT-litteratur om panikangst med/uden agorafobi; bør verificeres i fuldtekst) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---

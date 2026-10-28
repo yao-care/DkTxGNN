@@ -4,17 +4,17 @@ title: Propofol
 parent: Høj evidens (L1-L2)
 nav_order: 691
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Propofol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propo…"
 monitor_inn: "PROPOFOL"
-predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "Prinzmetal angina", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Propofol
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Propofol er et intravenøst narkosemiddel, der anvendes til bedøvelse og sedati
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propofol er kendt som intravenøst anæstesi- og sedationsmiddel. |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,69 % |
+| TxGNN-forudsigelsesscore | 0,9969 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -115,10 +115,10 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 | Forudsagt indikation | Score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Migræne med hjernestammeaura | 99,58 % | L3 | Forskningsspørgsmål (evidensen er lånt fra migræne generelt) |
-| Prinzmetal-angina | 99,23 % | L4 | Hold (kun kasuistikker om udløst koronarspasme, snarere et sikkerhedssignal) |
-| Nefrogent syndrom med uhensigtsmæssig antidiurese | 99,20 % | L5 | Hold (ingen studier eller kendt mekanisme) |
-| Tourettes syndrom | 99,03 % | L4 | Hold (propofol er kun anvendt som sedativum ved dyb hjernestimulation) |
+| Migræne med hjernestammeaura | 0,9958 | L5 | Forskningsspørgsmål (evidensen er lånt fra migræne generelt) |
+| Prinzmetal-angina | 0,9923 | L5 | Hold (kun kasuistikker om udløst koronarspasme, snarere et sikkerhedssignal) |
+| Nefrogent syndrom med uhensigtsmæssig antidiurese | 0,9920 | L5 | Hold (ingen studier eller kendt mekanisme) |
+| Tourettes syndrom | 0,9903 | L4 | Hold (propofol er kun anvendt som sedativum ved dyb hjernestimulation) |
 
 ---
 

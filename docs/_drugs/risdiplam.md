@@ -4,17 +4,17 @@ title: Risdiplam
 parent: Kun modelforudsigelse (L5)
 nav_order: 726
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Risdiplam: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (kendt anvendelse: spinal m…"
 monitor_inn: "Risdiplam"
-predicted_indications: ["acne (disease)", "acne (disease)", "drug-induced osteoporosis", "drug-induced osteoporosis", "zinc, elevated plasma", "zinc, elevated plasma", "common wart", "common wart", "metastatic melanoma", "metastatic melanoma"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Risdiplam markedsføres i Danmark under navnet Evrysdi. Den danske godkendelsest
 |------|------|
 | Oprindelig indikation | Ikke angivet i de danske godkendelsesdata (kendt anvendelse: spinal muskelatrofi) |
 | Forudsagt ny indikation | Akne |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,16 +60,12 @@ Risdiplam markedsføres i Danmark under navnet Evrysdi. Den danske godkendelsest
 
 Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Risdiplam er kendt som en modulator af SMN2-præ-mRNA-splejsning, som øger indbygningen af exon 7 og dermed produktionen af funktionelt SMN-protein ved SMA.
 
-Der er ikke identificeret nogen plausibel biologisk sammenhæng mellem SMN2-splejsningsmodulation og aknes patofysiologi (talgkirtler, *C. acnes*, inflammation). Scoren på 99,45 % er et rent beregningsmæssigt output fra en vidensgraf og er ikke understøttet af kliniske eller litterære data.
+Der er ikke identificeret nogen plausibel biologisk sammenhæng mellem SMN2-splejsningsmodulation og aknes patofysiologi (talgkirtler, *C. acnes*, inflammation). Scoren på 0,9945 er et rent beregningsmæssigt output fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og er ikke understøttet af kliniske eller litterære data.
 
 Andre forudsigelser i de samlede data er lige så svagt underbyggede (ingen forsøg, ingen litteratur, ingen påvist mekanisme):
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau |
 |------|------|------|
-| Lægemiddelinduceret osteoporose | 97,72 % | L5 |
-| Forhøjet plasma-zink | 97,32 % | L5 |
-| Almindelig vorte | 97,21 % | L5 |
-| Metastatisk melanom | 96,84 % | L5 |
 
 Knoglesundhed er relevant hos SMA-patienter på grund af nedsat mobilitet, men det er en følgesygdom og ikke evidens for, at risdiplam behandler osteoporose. Forhøjet plasma-zink er et laboratoriefund snarere end en egentlig behandlingskrævende sygdom. Ved melanom ville off-target-splejsningseffekter desuden kræve en sikkerhedsvurdering.
 
@@ -112,7 +108,7 @@ Oplysninger om advarsler og kontraindikationer var ikke tilgængelige i de data,
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om akne hviler udelukkende på en vidensgrafbaseret model uden kliniske forsøg, litteratur eller en påvist mekanistisk sammenhæng (evidensniveau L5). Manglende data om advarsler og kontraindikationer forhindrer desuden en egentlig sikkerhedsscreening.
+Forudsigelsen om akne hviler udelukkende på TxGNN-modellen (deep learning), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og der foreligger ingen kliniske forsøg, litteratur eller en påvist mekanistisk sammenhæng (evidensniveau L5). Manglende data om advarsler og kontraindikationer forhindrer desuden en egentlig sikkerhedsscreening.
 
 **For at komme videre kræves:**
 - Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikation

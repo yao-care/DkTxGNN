@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 542
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Metoclopramide: forudsagt ny indikation Mavesår (gastric ulcer) (evidensniveau L4). Oprindelig indikation: Gastroøsofageal reflukssygdom, øsofagitis, peptisk øsofagitis"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Metoclopramid: Fra gastroøsofageal reflukssygdom til mavesår
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## Resumé
 
 Metoclopramid er et prokinetisk middel, som oprindeligt bruges ved gastroøsofageal reflukssygdom og øsofagitis.
-TxGNN-modellen forudsiger, at det kan have effekt ved **mavesår (gastric ulcer)**,
+TxGNN-modellen forudsiger, at det kan have effekt ved **gastroduodenitis**,
 men evidensen er svag: der er **1 klinisk forsøg** (indirekte relevans) og kun **få relevante publikationer**, som primært handler om endoskopisk visualisering og ikke om sårheling.
 
 ---
@@ -48,12 +48,12 @@ men evidensen er svag: der er **1 klinisk forsøg** (indirekte relevans) og kun 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Gastroøsofageal reflukssygdom, øsofagitis, peptisk øsofagitis (fra videnbasen; Lægemiddelstyrelsens godkendte indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Mavesår (gastric ulcer) |
-| TxGNN-forudsigelsesscore | 99,93 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Gastroduodenitis |
+| TxGNN-forudsigelsesscore | 0.9990 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men evidensen er svag: der er **1 klinisk forsøg** (indirekte relevans) og kun 
 
 Detaljerede data om virkningsmekanisme var ikke tilgængelige i de indsamlede data. Ud fra den kendte farmakologi er metoclopramid en dopamin D2-antagonist og 5-HT4-agonist, som øger mavesækkens tømning og motiliteten i den øvre mave-tarm-kanal.
 
-Den oprindelige indikation (reflux og øsofagitis) og mavesår hører begge til de øvre gastrointestinale sygdomme, og de ligger tæt på hinanden i TxGNN's vidensnetværk. Det er sandsynligvis forklaringen på den høje score. Metoclopramid har dog hverken syrehæmmende eller slimhindebeskyttende effekt og adresserer ikke sårets patofysiologi (syre, *H. pylori*, NSAID-skade).
+Den oprindelige indikation (reflux og øsofagitis) og gastroduodenitis hører begge til de øvre gastrointestinale sygdomme. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Metoclopramid har dog hverken syrehæmmende eller slimhindebeskyttende effekt og adresserer ikke sygdommens patofysiologi (syre, *H. pylori*, NSAID-skade).
 
 Den eneste kliniske sammenhæng er brug som prokinetisk præmedicinering før endoskopi ved øvre GI-blødning. Her er målet bedre visualisering, ikke behandling af såret. Et enkelt dyreforsøg (rotter, 1989) antyder en sårbeskyttende effekt, men det kan ikke overføres direkte til mennesker.
 
@@ -121,7 +121,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score afspejler sandsynligvis netværksnærhed til de oprindelige GI-indikationer snarere end en reel terapeutisk effekt på mavesår. Der findes ingen kliniske data for sårheling, mekanismen mangler, og det eneste kliniske spor (visualisering før endoskopi) er en procedureunderstøttende brug, ikke behandling.
+Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller en reel terapeutisk effekt på gastroduodenitis. Der findes ingen kliniske data for sårheling, mekanismen mangler, og det eneste kliniske spor (visualisering før endoskopi) er en procedureunderstøttende brug, ikke behandling.
 
 **For at komme videre kræves:**
 - Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer (blokerende datamangel for sikkerhedsscreening)

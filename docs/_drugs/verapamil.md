@@ -4,17 +4,17 @@ title: Verapamil
 parent: Kun modelforudsigelse (L5)
 nav_order: 880
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Verapamil: forudsagt ny indikation Obsolet grenblok (bundle branch block) (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, akut koronarsyndrom, Prinzmetal-angina…"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Verapamil: Fra hypertension til obsolet grenblok (bundle branch block)
+## Verapamil: Obsolet grenblok (obsolete bundle branch block)
 {: .text-alpha }
 
 ## Opsummering
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **obsolet grenblok
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension, atrieflimren, akut koronarsyndrom, Prinzmetal-angina, ventrikulær takykardi (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke angivet) |
-| Forudsagt ny indikation | Obsolet grenblok (bundle branch block) |
-| TxGNN-forudsigelsesscore | 99,62 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obsolet grenblok (obsolete bundle branch block) |
+| TxGNN-forudsigelsesscore | 0.9962 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

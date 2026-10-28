@@ -8,6 +8,7 @@ nav_order: 268
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Disulfiram
@@ -55,7 +56,8 @@ En **Suspender**-beslutning anbefales, indtil de blokerende datahiater er løst.
 | Forudsagt ny indikation | **Ikke tilgængelig** — TxGNN returnerede ingen forudsigelser for denne kandidat |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | **L5** (kun modelforudsigelse — og selv denne er fraværende; effektivt urangeret) |
-| Markedsstatus i Danmark | **Ikke markedsført** |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser til markedsføring | **0** |
 | Anbefalet beslutning | **Suspender** |
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amiloride
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 51
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Amiloride: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension og kongestiv hjerteinsufficiens (fra TxGNN-vidensgrafen"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+last_modified_at: 2026-10-27
+description: "Amiloride: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Amiloride
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,78 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Amilorid: Fra hypertension til malign renovaskulær hypertension
+## Amilorid: kaliumbesparende diuretikum (ENaC-hæmmer) → Malign hypertensiv nyresygdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Amilorid er et kaliumbesparende vanddrivende middel, som oprindeligt anvendes mod hypertension og kongestiv hjerteinsufficiens. TxGNN-modellen forudsiger, at amilorid kan være virksomt mod **malign renovaskulær hypertension** (score 99,8 %), men der findes **ingen registrerede kliniske forsøg** og kun **1 publikation** af begrænset relevans. Forudsigelsen er derfor primært beregningsbaseret.
+Amilorid er et kaliumbesparende diuretikum, der hæmmer den epiteliale natriumkanal (ENaC). TxGNN-modellen forudsiger, at stoffet kan have effekt ved **malign hypertensiv nyresygdom (malignant hypertensive renal disease)**. Forudsigelsen er rent beregningsmæssig: der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
 
----
-
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og kongestiv hjerteinsufficiens (fra TxGNN-vidensgrafen; godkendt indikationstekst er ikke tilgængelig for de danske tilladelser) |
-| Forudsagt ny indikation | Malign renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99,82 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
+| TxGNN-forudsigelsesscore | 0,9982 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor kan forudsigelsen være rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Amilorid kendes som hæmmer af ENaC, og man kunne forestille sig, at natriumretention via denne kanal spiller en rolle ved nyrerelateret hypertension. Det er dog spekulation uden understøttende kliniske data.
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Amilorid er kendt som en blokker af den epiteliale natriumkanal (ENaC) og anvendes allerede ved hypertension. Mekanistisk er det derfor muligt, at effekten kan række ind i andre former for hypertension.
+Forudsigelsen bygger på modellens score og på nærhed i sygdomsontologien til beslægtede blodtryksrelaterede tilstande. Der er ikke fundet studier, der undersøger amilorid ved netop denne sygdom. Forudsigelsen skal derfor betragtes som en hypotese.
 
-Malign renovaskulær hypertension drives dog hovedsageligt af aktivering af renin-angiotensin-systemet. Koblingen til ENaC-blokade er derfor indirekte. Den eneste tilknyttede publikation omhandler mineralokortikoid-induceret hypertension, som er en beslægtet, men anderledes mekanisme. Den meget høje TxGNN-score afspejler sandsynligvis ligheden med den allerede godkendte hypertensionsindikation snarere end nye evidensdata.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | Journal of Hypertension. Supplement | Gennemgang af udredning af mineralokortikoid-hypertension, herunder primær aldosteronisme, hypokaliæmi og lav plasma-renin. Beslægtet, men ikke samme mekanisme som malign renovaskulær hypertension. |
-
----
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101196884 | Amilco (OBA-Pharma ApS) | Tabletter | Indikationstekst ikke tilgængelig |
-| 28104628810 | Frusamil (2care4 ApS) | Tabletter | Indikationstekst ikke tilgængelig |
+Der er to gyldige markedsføringstilladelser for enkeltstofpræparater med amilorid. Ingen er annulleret.
 
----
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28101196884 | Amilco (OBA-Pharma ApS) | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+| 28104628810 | Frusamil (2care4 ApS) | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+
+Begge præparater gives oralt.
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/risikotilstande (fra TxGNN-vidensgrafen, ikke fra produktresuméets tekst):** Vidensgrafen knytter amilorid til følgende tilstande: nyresygdom, anuri, diabetisk nefropati, diabetes mellitus, diabetisk ketoacidose, leversygdom, hepatisk encefalopati og koma, pancreatitis, galdeblæresygdom, systemisk lupus erythematosus, kaliummangel, hyperparathyroidisme, urinsyregigt/hyperurikæmi, acidose og laktatacidose samt neonatal gulsot. Disse oplysninger skal verificeres mod det godkendte produktresumé.
+- **Lægemiddelinteraktioner**: Der er registreret 152 interaktioner. Blandt de viste er følgende af moderat grad:
+  - Hydrocortison, betamethason, budesonid og dexamethason
+  - Metformin
+  - Bisacodyl, lactulose og lactitol
+  - Bupropion
+  - SGLT2-hæmmere (canagliflozin, dapagliflozin, empagliflozin og ertugliflozin)
+  - Exenatid
+  - Dronabinol
+  - Glycerin og ricinusolie
 
-**Lægemiddelinteraktioner:** Der er registreret 152 interaktioner. Eksempler på moderate interaktioner: hydrocortison, betamethason, dexamethason, budesonid, metformin, SGLT2-hæmmere (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), exenatid, bupropion, dronabinol samt visse afføringsmidler (bisacodyl, ricinusolie, glycerin, lactitol, lactulose). Mindre interaktioner ses bl.a. med doxycyclin, amoxicillin og cimetidin.
+  Doxycyclin, amoxicillin og cimetidin er registreret som mindre betydende.
 
-**Hyperkalæmi:** Et case-studie (PMID 8615380) beskriver alvorlig hyperkalæmi ved samtidig brug af kaliumpåvirkende lægemidler hos en ældre patient. Det er et relevant opmærksomhedspunkt for kaliumbesparende diuretika.
-
-Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
-
----
-
-## Øvrige forudsagte indikationer (til orientering)
-
-| Forudsagt indikation | Score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Malign hypertensiv nyresygdom | 99,82 % | L5 | Hold |
-| Pulmonal hypertension pga. lungesygdom/hypoksi | 99,81 % | L4 | Forskningsspørgsmål |
-| Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,81 % | L5 | Hold |
-| Braddocks syndrom | 99,75 % | L5 | Hold |
-| Kronisk pulmonal hjertesygdom | 99,68 % | L3 | Forskningsspørgsmål |
-
-Hypoksisk pulmonal hypertension har en rimelig, men udelukkende prækliniske/fysiologisk understøttet mekanisme (hypoxi-medieret nedregulering af ENaC og rolle for ASIC1 i glat muskulatur). Kronisk pulmonal hjertesygdom har de mest klinisk relevante data (små crossover-studier af amilorid ved kronisk hjerteinsufficiens, f.eks. PMID 1888694 og 2888942), men disse omhandler venstresidig hjerteinsufficiens, ikke cor pulmonale specifikt.
-
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse oplysninger ikke indgår i de indsamlede data.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg og kun én indirekte relevant publikation for malign renovaskulær hypertension. Den høje TxGNN-score afspejler sandsynligvis lighed med den eksisterende hypertensionsindikation, og sygdommens renin-angiotensin-drevne mekanisme passer dårligt med ENaC-blokade.
+Forudsigelsen understøttes kun af modellens score (0,9982). Der er hverken kliniske forsøg eller publikationer, der undersøger amilorid ved malign hypertensiv nyresygdom, så evidensniveauet er L5.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra de danske produktresuméer (Lægemiddelstyrelsen), som er nødvendige før sikkerhedsscreening
-- Godkendt indikationstekst for Amilco og Frusamil
-- Målrettet litteratursøgning og evt. prækliniske eller eksplorative kliniske data for malign renovaskulær hypertension
-- Overvejelse af, om hypoksisk pulmonal hypertension eller kronisk pulmonal hjertesygdom er mere lovende kandidater til videre undersøgelse
-- Plan for monitorering af kalium og nyrefunktion, givet de mange interaktioner og risikotilstande
+**For at komme videre kræves:**
+- En systematisk litteratursøgning efter data om amilorid ved malign hypertension og hypertensiv nyresygdom
+- Data om virkningsmekanismen (MOA) og en vurdering af, om ENaC-hæmning er relevant for denne tilstand
+- Gennemgang af produktresuméet (SmPC) med henblik på advarsler og kontraindikationer, især ved nedsat nyrefunktion og risiko for hyperkaliæmi
+- Prækliniske data eller et eksplorativt klinisk studie, før der overvejes anvendelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

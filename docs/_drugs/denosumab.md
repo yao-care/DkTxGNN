@@ -4,17 +4,17 @@ title: Denosumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 249
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Denosumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk… (evidensniveau L5). Oprindelig indikation: Osteoporose"
 monitor_inn: "DENOSUMAB"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Denosumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Denosumab: Fra osteoporose til diabetisk retinopati
+## Denosumab: Fra osteoporose til svær non-proliferativ diabetisk retinopati
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og kun **2 indirekte publikationer** til at un
 |------|------|
 | Oprindelig indikation | Osteoporose (postmenopausal osteoporose og lægemiddelinduceret osteoporose; de data, der er indsamlet til rapporten, indeholder ingen godkendt indikationstekst fra den danske registrering) |
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk retinopati) |
-| TxGNN-forudsigelsesscore | 99,63 % (svær non-proliferativ diabetisk retinopati); 99,23 % (diabetisk retinopati) |
+| TxGNN-forudsigelsesscore | 0.9963 (svær non-proliferativ diabetisk retinopati); 0.9923 (diabetisk retinopati) |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

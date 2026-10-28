@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ethinylestradiol: forudsagt ny indikation Forhøjet plasmazink (evidensniveau L5). Oprindelig indikation: Akne, postmenopausal osteoporose, osteoporose…"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Ethinylestradiol: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ethinylestradiol
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Ethinylestradiol: Fra akne og postmenopausal osteoporose til forhøjet plasmazink
+## Ethinylestradiol: Forhøjet plasmazink (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **forhøjet plasmazink**, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akne, postmenopausal osteoporose, osteoporose, atrofisk vulva (forældet betegnelse), postmenopausal atrofisk vaginitis (fra vidensgrafen; de danske markedsføringstilladelser indeholder ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Forhøjet plasmazink |
-| TxGNN-forudsigelsesscore | 99,63 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Forhøjet plasmazink (zinc, elevated plasma) |
+| TxGNN-forudsigelsesscore | 0.9963 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 9 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er 
 
 Ethinylestradiol er et syntetisk østrogen. Det er almindeligt kendt, at østrogenholdige p-piller kan påvirke cirkulerende niveauer af zink og kobber, bl.a. via bindingsproteiner som ceruloplasmin og albumin. Det er en generel iagttagelse og ikke dokumenteret i de foreliggende data. Den understøtter ikke, at stoffet kan behandle forhøjet plasmazink.
 
-Forhøjet plasmazink er desuden et laboratoriefund frem for en veldefineret sygdom. Det er uklart, hvad det terapeutiske mål ville være. Den høje modelscore (0,996) bør derfor fortolkes med stor forsigtighed.
+Forhøjet plasmazink er desuden et laboratoriefund frem for en veldefineret sygdom. Det er uklart, hvad det terapeutiske mål ville være. Den høje modelscore (0,9963) bør derfor fortolkes med stor forsigtighed.
 
 ---
 

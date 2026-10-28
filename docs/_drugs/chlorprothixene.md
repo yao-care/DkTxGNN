@@ -6,9 +6,9 @@ nav_order: 187
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Chlorprothixene: forudsagt ny indikation Retinal dystrofi med eller uden ekstraokulære anomalier (rang 1) (evidensniveau L5). Oprindelig indikation: Skizofreni"
 monitor_inn: "chlorprothixene"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "myopia X-linked", "syndromic myopia", "manic bipolar affective disorder"]
+description: "Chlorprothixene: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Chlorprothixene
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Chlorprothixen: Fra skizofreni til retinal dystrofi (modelforudsigelse) – med manisk bipolar lidelse som den eneste farmakologisk plausible kandidat
+## Chlorprothixene: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,15 +48,15 @@ Blandt de ti forudsagte indikationer er **manisk bipolar lidelse** den eneste me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni |
-| Forudsagt ny indikation | Retinal dystrofi med eller uden ekstraokulære anomalier (rang 1) |
-| TxGNN-forudsigelsesscore | 99,998 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Til sammenligning: for den mest plausible kandidat, manisk bipolar lidelse (rang 10), er TxGNN-scoren 99,96 %, evidensniveauet L4, og den foreslåede status er "forskningsspørgsmål".
+Til sammenligning: for den mest plausible kandidat, manisk bipolar lidelse (rang 10), er TxGNN-scoren 0,9996, evidensniveauet L4, og den foreslåede status er "forskningsspørgsmål".
 
 ---
 

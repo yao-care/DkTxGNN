@@ -6,9 +6,9 @@ nav_order: 594
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norgestimate: forudsagt ny indikation Forhøjet plasmazink (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de danske tilladelse…"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Norgestimate
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Norgestimat: Fra prævention og hormonrelaterede tilstande til forhøjet plasmazink
+## Norgestimate: Forhøjet plasmazink (zinc, elevated plasma)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Norgestimat er et gestagen, som i vidensgrafen er knyttet til indikationer som acne, osteoporose efter overgangsalderen og atrofisk vaginitis. TxGNN-modellen forudsiger, at det kan have effekt ved **forhøjet plasmazink**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen bygger udelukkende på modellen.
+Norgestimat er et gestagen. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **forhøjet plasmazink**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen bygger udelukkende på modellen og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -46,12 +46,12 @@ Norgestimat er et gestagen, som i vidensgrafen er knyttet til indikationer som a
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i de danske tilladelser. Vidensgrafen angiver acne, osteoporose efter overgangsalderen, osteoporose og atrofisk vaginitis |
-| Forudsagt ny indikation | Forhøjet plasmazink |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Forhøjet plasmazink (zinc, elevated plasma) |
+| TxGNN-forudsigelsesscore | 0.9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om norgestimats v
 
 Der er **ingen etableret mekanistisk sammenhæng** mellem norgestimat og forhøjet plasmazink. Østrogenholdige orale præventionsmidler er desuden beskrevet at ændre niveauet af sporstoffer i blodet, f.eks. øge serumkobber og sænke zink, hvilket peger i modsat retning af forhøjet plasmazink.
 
-Den høje score (0,99) er sandsynligvis udtryk for nærhed i vidensgrafen snarere end en biologisk valideret sammenhæng. Forhøjet plasmazink er et laboratoriefund frem for en sygdom med et klart behandlingsmål, så det er uklart, hvilken behandlingsgevinst man kunne forvente.
+Den høje score (0,9906) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens. Forhøjet plasmazink er et laboratoriefund frem for en sygdom med et klart behandlingsmål, så det er uklart, hvilken behandlingsgevinst man kunne forvente.
 
 ---
 

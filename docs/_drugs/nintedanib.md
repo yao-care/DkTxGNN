@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 586
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L4). Oprindelig indikation: Idiopatisk lungefibrose og ikke-småcellet lungekræft"
 monitor_inn: "nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Nintedanib: Fra lungefibrose og lungekræft til dermatofibrosarcoma protuberans
+## Nintedanib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en o
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Idiopatisk lungefibrose og ikke-småcellet lungekræft (fra vidensgraf; godkendt indikationstekst for den danske licens er ikke angivet) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Dermatofibrosarcoma protuberans |
-| TxGNN-forudsigelsesscore | 99,15 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9915 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -50,10 +50,10 @@ Forudsigelsen er udelukkende beregningsbaseret og bør derfor tolkes med stor fo
 |------|------|
 | Oprindelig indikation | Benign prostatahyperplasi (indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,17 +62,17 @@ Forudsigelsen er udelukkende beregningsbaseret og bør derfor tolkes med stor fo
 
 Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Finasterid er dog kendt som en type II 5-alfa-reduktasehæmmer, der sænker dihydrotestosteron (DHT). Effekten er veldokumenteret ved benign prostatahyperplasi og ved androgenetisk alopeci.
 
-Ambras-syndrom er en medfødt tilstand, som skyldes genomiske omlejringer, der påvirker reguleringen af TRPS1. Den øgede hårvækst er ikke kendt for at være androgen- eller DHT-drevet. Et plausibelt mekanistisk link er derfor ikke påvist. Den meget høje modelscore afspejler sandsynligvis nærhed til andre hårlidelser i vidensgrafen snarere end en reel terapeutisk sammenhæng.
+Ambras-syndrom er en medfødt tilstand, som skyldes genomiske omlejringer, der påvirker reguleringen af TRPS1. Den øgede hårvækst er ikke kendt for at være androgen- eller DHT-drevet. Et plausibelt mekanistisk link er derfor ikke påvist. Den meget høje modelscore stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ### Øvrige forudsagte indikationer
 
 | Rang | Sygdom | TxGNN-score | Evidensniveau | Kommentar |
 |---|---|---|---|---|
-| 2 | Hypertrichosis | 99,99 % | L4 | Hypertrichosis er per definition ikke androgenafhængig; svagt mekanistisk match. Kun indirekte litteratur. |
-| 3 | Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,99 % | L5 | Intet identificerbart mekanistisk link. |
-| 4 | Syndrom med Dandy-Walker-misdannelse som hovedtræk | 99,99 % | L5 | Ingen plausibel mekanisme. |
-| 5 | Isoleret genetisk hårskaftsabnormitet | 99,99 % | L5 | Strukturelle skaftdefekter er generelt ikke androgendrevne; spekulativt. |
-| 6 | Familiær isoleret trichomegali | 99,15 % | L5 | Løs, hypotetisk sammenhæng; effektretningen er uklar. |
+| 2 | Hypertrichosis | 0,9999 | L5 | Hypertrichosis er per definition ikke androgenafhængig; svagt mekanistisk match. Kun indirekte litteratur. |
+| 3 | Misdannelsessyndrom med tand- og/eller parodontal komponent | 0,9999 | L5 | Intet identificerbart mekanistisk link. |
+| 4 | Syndrom med Dandy-Walker-misdannelse som hovedtræk | 0,9999 | L5 | Ingen plausibel mekanisme. |
+| 5 | Isoleret genetisk hårskaftsabnormitet | 0,9999 | L5 | Strukturelle skaftdefekter er generelt ikke androgendrevne; spekulativt. |
+| 6 | Familiær isoleret trichomegali | 0,9915 | L5 | Løs, hypotetisk sammenhæng; effektretningen er uklar. |
 
 ---
 

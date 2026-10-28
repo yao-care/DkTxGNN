@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **forhøjet plasmazink**, 
 |------|------|
 | Oprindelig indikation | Akne (angivet i vidensgrafen; der er ikke registreret indikationstekst i de danske markedsføringstilladelser) |
 | Forudsagt ny indikation | Forhøjet plasmazink (zinc, elevated plasma) |
-| TxGNN-forudsigelsesscore | 99,40 % |
+| TxGNN-forudsigelsesscore | 0,9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,9 +61,9 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **forhøjet plasmazink**, 
 
 Der foreligger ingen detaljerede data om trifarotens virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra farmakologiske oplysninger er trifaroten en selektiv agonist af retinsyrereceptor-gamma (RAR-gamma) og binder også til RAR-alfa og RAR-beta. Stoffet anvendes topisk som creme (0,005 %), og dets høje metaboliske ustabilitet taler for begrænset systemisk eksponering.
 
-Der er ikke identificeret en troværdig mekanistisk forbindelse mellem trifaroten og forhøjet plasmazink. Forhøjet plasmazink er en systemisk biokemisk tilstand (fx som følge af supplementering, nedsat nyrefunktion eller hæmokoncentration) og ikke en tilstand, der normalt behandles med en dermatologisk retinoid. Den høje score (0,994) afspejler sandsynligvis indirekte nærhed i vidensgrafen, fx via samspil mellem retinoider og zink i hudbiologi eller fælles genassociationer, snarere end en reel terapeutisk sammenhæng.
+Der er ikke identificeret en troværdig mekanistisk forbindelse mellem trifaroten og forhøjet plasmazink. Forhøjet plasmazink er en systemisk biokemisk tilstand (fx som følge af supplementering, nedsat nyrefunktion eller hæmokoncentration) og ikke en tilstand, der normalt behandles med en dermatologisk retinoid. Den høje score (0,9940) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
-Den næstrangerede forudsigelse, **pyogen arthritis–pyoderma gangrenosum–akne-syndrom (PAPA)**, har score 99,32 %. Her er plausibiliteten svag og indirekte: akne-komponenten overlapper med trifarotens godkendte indikation, men PAPA drives af PSTPIP1-mutationer og øget IL-1β-aktivitet via inflammasomet, som trifaroten ikke påvirker. Trifaroten ville ikke forventes at adressere led- eller pyoderma gangrenosum-komponenterne. Højst kunne det overvejes som topisk supplement til aknelæsioner, hvilket kræver særskilt vurdering.
+Den næstrangerede forudsigelse, **pyogen arthritis–pyoderma gangrenosum–akne-syndrom (PAPA)**, har score 0,9932. Her er plausibiliteten svag og indirekte: akne-komponenten overlapper med trifarotens godkendte indikation, men PAPA drives af PSTPIP1-mutationer og øget IL-1β-aktivitet via inflammasomet, som trifaroten ikke påvirker. Trifaroten ville ikke forventes at adressere led- eller pyoderma gangrenosum-komponenterne. Højst kunne det overvejes som topisk supplement til aknelæsioner, hvilket kræver særskilt vurdering.
 
 ---
 

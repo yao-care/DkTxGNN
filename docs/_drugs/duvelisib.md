@@ -4,17 +4,17 @@ title: Duvelisib
 parent: Kun modelforudsigelse (L5)
 nav_order: 288
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (evidensniveau L5). Oprindelig indikation: Follikulært lymfom, B-celle-neoplasi, akut lymfatisk leukæmi…"
 monitor_inn: "duvelisib"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
+description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Duvelisib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Duvelisib: Fra kronisk lymfatisk leukæmi til Hodgkins lymfom
+## Duvelisib: Hodgkins lymfom (Hodgkins lymphoma)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er dog **ingen undersøgelser specifikt i Hodgkins lymfom**: de 10 identific
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Follikulært lymfom, B-celle-neoplasi, akut lymfatisk leukæmi, Richters syndrom, CLL/SLL (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Hodgkins lymfom |
-| TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L3 (kun oversigtsartikler og meta-analyse; ingen Hodgkin-specifikke studier) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hodgkins lymfom (Hodgkins lymphoma) |
+| TxGNN-forudsigelsesscore | 0.9994 |
+| Evidensniveau | L5 (kun oversigtsartikler og meta-analyse; ingen Hodgkin-specifikke studier) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---
@@ -144,7 +144,7 @@ Litteraturen peger desuden på, at PI3K-hæmmere som klasse har en betydelig tok
 **Beslutning: Hold**
 
 **Begrundelse:**
-Selvom TxGNN-scoren er høj (99,94 %), findes der ingen forsøg eller publikationer, der undersøger duvelisib specifikt ved Hodgkins lymfom. Al understøttende evidens vedrører non-Hodgkin-lymfom og CLL, og flere forsøg blev trukket tilbage uden deltagere. Kombineret med klassens betydelige toksicitet er evidensen for utilstrækkelig til at gå videre.
+Selvom TxGNN-scoren er høj (0,9994), findes der ingen forsøg eller publikationer, der undersøger duvelisib specifikt ved Hodgkins lymfom. Al understøttende evidens vedrører non-Hodgkin-lymfom og CLL, og flere forsøg blev trukket tilbage uden deltagere. Kombineret med klassens betydelige toksicitet er evidensen for utilstrækkelig til at gå videre.
 
 **For at komme videre kræves:**
 - Præklinisk dokumentation af duvelisibs effekt i Hodgkin-lymfom-modeller (celle- og dyremodeller)

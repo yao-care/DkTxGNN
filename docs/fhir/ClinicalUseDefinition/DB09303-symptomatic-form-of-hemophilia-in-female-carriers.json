@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09303",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09303"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "symptomatic-form-of-hemophilia-in-female-carriers",
-          "display": "symptomatic form of hemophilia in female carriers"
-        }
-      ],
-      "text": "symptomatic form of hemophilia in female carriers"
+      "concept": {
+        "text": "symptomatic form of hemophilia in female carriers"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9982
     }
   ]
 }

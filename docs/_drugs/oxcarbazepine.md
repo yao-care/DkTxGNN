@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Moderat evidens (L3-L4)
 nav_order: 617
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxcarbazepine: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi…"
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: forudsagt ny indikation Restless legs syndrome (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Oxcarbazepin: Fra partiel epilepsi til visuel epilepsi
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi**, men d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Partiel epilepsi, partiel motorisk epilepsi (indikationstekst er ikke angivet i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Restless legs syndrome |
+| TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi**, men d
 
 Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Ud fra almen viden blokerer oxcarbazepin (via den aktive metabolit MHD) spændingsstyrede natriumkanaler og er veletableret ved fokale anfald.
 
-Visuel epilepsi er en fokal/refleksanfaldstype (fx occipital eller fotosensitiv). En effekt er derfor plausibel som en udvidelse af den godkendte fokale indikation. Den fundne litteratur består dog af generelle oversigter og retningslinjer om antiepileptika, og ingen af dem tester oxcarbazepin specifikt ved visuelt udløst epilepsi. Den høje modelscore afspejler sandsynligvis nærhed til epilepsi i vidensgrafen snarere end specifik evidens.
+Scoren på 0,9989 for uroligt bensyndrom stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -124,7 +124,7 @@ Forudsigelsen er biologisk plausibel, men der er ingen kliniske forsøg og ingen
 
 ## Bilag: Øvrige forudsagte indikationer
 
-Alle nedenstående forudsigelser har score over 99,8 %, men ingen er understøttet af kliniske forsøg.
+Alle nedenstående forudsigelser har score over 0,9989, men ingen er understøttet af kliniske forsøg.
 
 | Rang | Indikation | Evidensniveau | Anbefaling | Kommentar |
 |------|------|------|------|------|

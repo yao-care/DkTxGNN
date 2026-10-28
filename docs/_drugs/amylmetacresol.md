@@ -48,10 +48,10 @@ Amylmetacresol er et lokalt antiseptisk middel, der markedsføres i Danmark som 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (de danske markedsføringstilladelser indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,21 +60,21 @@ Amylmetacresol er et lokalt antiseptisk middel, der markedsføres i Danmark som 
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Amylmetacresol er et antiseptisk middel, der bruges i halstabletter og mundspray. Nogle kilder antyder en svag lokal natriumkanalblokerende effekt, men det er ikke bekræftet i de data, der er indgået i rapporten.
 
-Cauda equina-syndrom er en kompressionsbetinget neurologisk akuttilstand, som kræver kirurgisk dekompression. Et lokalt virkende antiseptikum i sugetabletform har ikke nogen plausibel rolle i behandlingen. Den høje score er et rent beregningsmæssigt resultat fra vidensgrafen og afspejler ikke dokumenteret biologisk sammenhæng.
+Cauda equina-syndrom er en kompressionsbetinget neurologisk akuttilstand, som kræver kirurgisk dekompression. Et lokalt virkende antiseptikum i sugetabletform har ikke nogen plausibel rolle i behandlingen. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **Øvrige forudsagte indikationer** (alle evidensniveau L5, alle med anbefalingen Hold, uden forsøg eller litteratur):
 
 | Rang | Sygdom | Score | Bemærkning |
 |------|------|------|------|
-| 2 | Obsolet neurogen blære | 99,96 % | Sygdomsbetegnelsen er forældet i ontologien og bør omsættes til gældende termer. Ingen systemisk eksponering eller relevant farmakologi. |
-| 3 | Irritabel tarm (IBS) | 99,89 % | Spekulativ lokal ionkanaleffekt; stoffet er ikke designet til systemisk eller gastrointestinal levering. |
-| 4 | Sygdom i corpus ciliare | 99,70 % | Grafbaseret association inden for øjensygdomme. |
-| 5 | Panuveitis | 99,68 % | Ingen dokumenteret antiinflammatorisk eller immunmodulerende mekanisme. |
-| 6 | Irissygdom | 99,63 % | Ingen dokumentation for okulær sikkerhed. |
-| 7 | Infektiøs anterior uveitis | 99,57 % | Den eneste tænkelige kobling er den antiseptiske virkning. Biologisk mest plausibel, men uden data. Kræver målrettet anti-infektiøs behandling. |
-| 8 | Uveitis | 99,53 % | Ingen relevant antiinflammatorisk mekanisme. |
-| 9 | Cancer i corpus ciliare | 99,46 % | Ingen dokumenteret antineoplastisk aktivitet. |
-| 10 | Benign neoplasme i corpus ciliare | 99,45 % | Sandsynligvis en beregningsmæssig artefakt. |
+| 2 | Obsolet neurogen blære | 0,9996 | Sygdomsbetegnelsen er forældet i ontologien og bør omsættes til gældende termer. Ingen systemisk eksponering eller relevant farmakologi. |
+| 3 | Irritabel tarm (IBS) | 0,9989 | Spekulativ lokal ionkanaleffekt; stoffet er ikke designet til systemisk eller gastrointestinal levering. |
+| 4 | Sygdom i corpus ciliare | 0,9970 | Grafbaseret association inden for øjensygdomme. |
+| 5 | Panuveitis | 0,9968 | Ingen dokumenteret antiinflammatorisk eller immunmodulerende mekanisme. |
+| 6 | Irissygdom | 0,9963 | Ingen dokumentation for okulær sikkerhed. |
+| 7 | Infektiøs anterior uveitis | 0,9957 | Den eneste tænkelige kobling er den antiseptiske virkning. Biologisk mest plausibel, men uden data. Kræver målrettet anti-infektiøs behandling. |
+| 8 | Uveitis | 0,9953 | Ingen relevant antiinflammatorisk mekanisme. |
+| 9 | Cancer i corpus ciliare | 0,9946 | Ingen dokumenteret antineoplastisk aktivitet. |
+| 10 | Benign neoplasme i corpus ciliare | 0,9945 | Sandsynligvis en beregningsmæssig artefakt. |
 
 ---
 

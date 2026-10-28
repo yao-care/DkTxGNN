@@ -4,17 +4,17 @@ title: Polatuzumab Vedotin
 parent: Kun modelforudsigelse (L5)
 nav_order: 670
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Polatuzumab Vedotin: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (litteraturen peger på diffust…"
 monitor_inn: "Polatuzumab vedotin"
-predicted_indications: ["HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer"]
+predicted_indications: ["HER2 positive breast carcinoma"]
 ---
 
 # Polatuzumab Vedotin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Polatuzumab vedotin er et antistof-lægemiddelkonjugat rettet mod CD79b på B-ce
 |------|------|
 | Oprindelig indikation | Ikke angivet i de sammenstillede data (litteraturen peger på diffust storcellet B-cellelymfom) |
 | Forudsagt ny indikation | HER2-positiv brystkarcinom |
-| TxGNN-forudsigelsesscore | 99,34 % |
+| TxGNN-forudsigelsesscore | 0,9934 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,6 @@ Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de sammenstilled
 
 CD79b er en del af B-cellereceptoren og findes på B-celler, ikke på brystkræftceller. Der er derfor ingen målrettet biologisk forbindelse mellem lægemidlets oprindelige anvendelse og HER2-positiv brystkræft. Den høje TxGNN-score afspejler sandsynligvis, at MMAE som nyttelast også anvendes i andre antistof-lægemiddelkonjugater, men det er ikke i sig selv evidens for effekt.
 
-Den samme manglende mekanistiske begrundelse gælder de øvrige forudsagte brystkræftundertyper (normal-lignende subtype, progesteronreceptor-positiv og -negativ, luminal A/B), som alle har scorer omkring 98,9 %.
 
 ---
 

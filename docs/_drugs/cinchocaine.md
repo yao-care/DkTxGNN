@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
-description: "Cinchocaine: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Dermatitis"
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
+last_modified_at: 2026-10-27
+description: "Cinchocaine: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cinchocaine
@@ -33,86 +33,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Cinchocain: Fra dermatitis til bronkitis
+## Cinchocaine: Lokalbedøvelse (natriumkanalblokker) → Bronkitis (bronchitis)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Cinchocain (dibucain) er et amid-lokalbedøvelsesmiddel, som i den datagrundlag, der er indsamlet til denne rapport, er knyttet til dermatitis som oprindelig indikation. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bronkitis**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellens beregning.
-
----
+Cinchocaine er et lokalbedøvende middel af amidtypen, der i Danmark er markedsført som rektalsalve. TxGNN-modellen forudsiger, at det kan have effekt ved **bronkitis (bronchitis)**. Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen hviler udelukkende på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Dermatitis (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,77 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bronkitis (bronchitis) |
+| TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Cinchocaine (dibucain) blokerer spændingsstyrede natriumkanaler og hæmmer dermed nerveledning. Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen er baseret på den generelle farmakologi for stoffet.
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Cinchocain er dog kendt som et amid-lokalbedøvelsesmiddel, der blokerer spændingsafhængige natriumkanaler og dermed hæmmer nerveledning.
+Et teoretisk led til bronkitis kunne være dæmpning af sensoriske nervefibre (C-fibre) i luftvejene og dermed hosterefleksen, idet andre lokalbedøvende midler som lidocain er undersøgt ved hoste. Denne sammenhæng er imidlertid spekulativ. Cinchocaine anvendes lokalt på slimhinder og har betydelig systemisk toksicitet, og der er ingen data, der understøtter brug i luftvejene. Forudsigelsen bygger alene på modellens score.
 
-En teoretisk forbindelse til bronkitis kunne være dæmpning af aktiviteten i luftvejenes sensoriske nerver (C-fibre) og hosterefleksen. Andre topiske lokalbedøvelsesmidler, f.eks. lidocain, er undersøgt i forhold til hoste. Der er dog stor forskel på lokal brug på hud og slimhinder og behandling af luftvejssygdom, og cinchocain er forbundet med betydelig systemisk toksicitet. Sammenhængen er derfor spekulativ og bygger alene på TxGNN-forudsigelsen. Overensstemmelsen med den oprindelige indikation (dermatitis) er ikke vurderet nærmere.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for tiden ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er for tiden ingen relateret litteratur tilgængelig.
-
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101903697 | Proctosedyl (Orifarm A/S) | Rektalsalve | Indikationstekst ikke angivet |
-
-Tilladelsen er en gyldig monopræparat-tilladelse. Bemærk, at produktet er en rektalsalve, og at den forudsagte indikation (bronkitis) ikke kan nås via denne administrationsvej.
-
----
+| 28101903697 | Proctosedyl | Rektalsalve | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen mærkningsbaserede advarsler, kontraindikationer eller interaktionsdata i de indsamlede data (interaktionssøgningen gav ingen fund).
+- **Kontraindikationer, hvor lægemidlet bør bruges med forsigtighed:** Der foreligger ingen godkendt produkttekst med kontraindikationer i de indsamlede data. Det kan nævnes, at sygdomme som epilepsi, nyresygdom, leversygdom, galdeblæresygdom, hjerte-kar-sygdom, hjerteledningsforstyrrelser, pludseligt hjertestop, respirationssvigt, myasthenia gravis og butyrylcholinesterase-mangel er knyttet til stoffet i den anvendte modeldatabase. Dette er ikke officiel produkttekst.
+- **Interaktioner:** Der blev ikke fundet registrerede interaktioner.
 
-**Kontraindikationer fra vidensgrafen** (ikke fra produktresuméet, og de skal derfor tolkes med forsigtighed): epilepsi, nyresygdom, pyouretær, leversygdom, galdeblæresygdom, pludseligt hjertestop, hjerteledningssygdom, respirationssvigt, myasthenia gravis (herunder voksendebuterende), sygdom i den neuromuskulære overgang, butyrylkolinesterase-mangel, hjerte-kar-sygdom og hjertesygdom.
-
-Det er værd at bemærke, at respirationssvigt optræder blandt disse, hvilket er relevant ved en luftvejsindikation. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikationer. Mekanismen er spekulativ, det eneste danske præparat er en rektalsalve, og vidensgrafen peger på kontraindikationer inden for luftvejs- og hjerte-kar-området.
+Forudsigelsen om bronkitis er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Cinchocaine er desuden et lokalt anvendt middel med betydelig systemisk toksicitet, og der er ikke belæg for en relevant administrationsvej til luftvejene.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanismen (MOA), f.eks. fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (mangler og blokerer sikkerhedsscreening)
-- Præklinisk eller litteraturbaseret belæg for effekt ved bronkitis
-- Vurdering af administrationsvej og formulering, da der ikke findes en relevant formulering til luftvejene
-- Vurdering af systemisk toksicitet ved den tænkte brug
-
----
-
-*Øvrige forudsigelser med lavere rang (akrodermatitis chronica atrophicans, neonatal dermatomyositis, sekundær interstitiel lungesygdom hos børn ved bindevævssygdom, acne keloid, familiær hydroa vacciniforme og amyopatisk dermatomyositis) har alle evidensniveau L5, ingen forsøg eller litteratur, og anbefalingen er for alle Hold.*
+**For at gå videre kræves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Prækliniske eller kliniske studier, der direkte undersøger cinchocaine ved bronkitis
+- Vurdering af egnet administrationsvej og formulering til luftvejene
+- Gennemgang af sikkerhedsoplysninger fra produktresuméet (SmPC), især systemisk toksicitet
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

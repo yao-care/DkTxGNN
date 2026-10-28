@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Isoniazid
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 458
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isoniazid: forudsagt ny indikation Konjunktivitis (evidensniveau L4). Oprindelig indikation: Lungetuberkulose"
 monitor_inn: "ISONIAZID"
-predicted_indications: ["conjunctivitis", "conjunctivitis"]
+predicted_indications: ["conjunctivitis"]
+description: "Isoniazid: forudsagt ny indikation Konjunktivitis (conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Isoniazid: Fra pulmonal tuberkulose til konjunktivitis
+## Isoniazid: Konjunktivitis (conjunctivitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Isoniazid er et antimykobakterielt lægemiddel, som oprindeligt bruges til behan
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lungetuberkulose (fra videngrafen; Lægemiddelstyrelsens godkendte indikationstekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,36 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Konjunktivitis (conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9936 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

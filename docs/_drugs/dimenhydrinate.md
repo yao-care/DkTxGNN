@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 265
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Dimenhydrinate: forudsagt ny indikation Allergisk urticaria (evidensniveau L4). Oprindelig indikation: Svimmelhed med udgangspunkt i centralnervesystemet"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
+description: "Dimenhydrinate: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Dimenhydrinat: Fra svimmelhed og køresyge til allergisk urticaria
+## Dimenhydrinate: Allergisk urticaria (allergic urticaria)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,15 +47,15 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **allergisk urtica
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Svimmelhed med udgangspunkt i centralnervesystemet; køresyge (fra videngrafen, ikke fra godkendt produktinformation) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,74 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Allergisk urticaria (allergic urticaria) |
+| TxGNN-forudsigelsesscore | 0.9974 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: En sekundær forudsigelse, **kold urticaria** (score 99,24 %), har evidensniveau L5 og ingen kliniske forsøg eller litteratur. Anbefalingen er ligeledes Hold.
+Bemærk: En sekundær forudsigelse, **kold urticaria** (score 0,9924), har evidensniveau L5 og ingen kliniske forsøg eller litteratur. Anbefalingen er ligeledes Hold.
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 255
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dexmedetomidine: forudsagt ny indikation Hovedpineforstyrrelse (rang 4 af 5 (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
+description: "Dexmedetomidin: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (TxGNN-score 0.9960, evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Dexmedetomidin: Fra sedation til hovedpineforstyrrelse
+## Dexmedetomidin: Fra sedation til nefrogent syndrom med uhensigtsmæssig antidiurese
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Dexmedetomidin er en alfa-2-adrenerg agonist, der er markedsført i Danmark som injektionsvæske. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hovedpineforstyrrelse** (score 99,3 %). Der er **4 kliniske forsøg** (heraf 3 afsluttede forsøg med inhaleret dexmedetomidin ved postdural punkturhovedpine) og **ingen publicerede artikler** i de data, der er indsamlet til denne rapport.
+Dexmedetomidin er en alfa-2-adrenerg agonist, der er markedsført i Danmark som injektionsvæske. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hovedpineforstyrrelse** (score 0,9930). Der er **4 kliniske forsøg** (heraf 3 afsluttede forsøg med inhaleret dexmedetomidin ved postdural punkturhovedpine) og **ingen publicerede artikler** i de data, der er indsamlet til denne rapport.
 
 Bemærk: Den højest rangerede forudsigelse fra modellen var nefrogent syndrom med uhensigtsmæssig antidiurese. Her er der hverken forsøg eller litteratur, og der kan ikke påvises en rimelig mekanistisk forbindelse. Rapporten fokuserer derfor på hovedpineforstyrrelse, som har den stærkeste evidens blandt de fem forudsagte indikationer. De øvrige forudsigelser er kort omtalt nedenfor.
 
@@ -50,10 +50,10 @@ Bemærk: Den højest rangerede forudsigelse fra modellen var nefrogent syndrom m
 |------|------|
 | Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser (indikationsteksten er tom) |
 | Forudsagt ny indikation | Hovedpineforstyrrelse (rang 4 af 5; rang 1 var nefrogent syndrom med uhensigtsmæssig antidiurese uden evidens) |
-| TxGNN-prædiktionsscore | 99,3 % (nefrogent syndrom med uhensigtsmæssig antidiurese: 99,6 %) |
-| Evidensniveau | L2 for hovedpineforstyrrelse (begrænset i praksis, se nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| TxGNN-prædiktionsscore | 0.9960 (nefrogent syndrom med uhensigtsmæssig antidiurese) |
+| Evidensniveau | L5 for hovedpineforstyrrelse (begrænset i praksis, se nedenfor) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (fortsat forskningsspørgsmål, ikke klar til klinisk implementering) |
 
 Evidensniveauet L2 bygger på ét afsluttet fase 3-forsøg. Der er ingen offentliggjorte resultater, så niveauet bør tolkes forsigtigt. Forsøgene vedrører desuden udelukkende postdural punkturhovedpine, en sekundær hovedpinetype.

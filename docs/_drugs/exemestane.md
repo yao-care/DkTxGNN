@@ -6,9 +6,9 @@ nav_order: 343
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Exemestane: forudsagt ny indikation Amenoré (rang 2 (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den godkendte indikationstekst er…"
 monitor_inn: "exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
+description: "Exemestane: forudsagt ny indikation Antithrombin deficiency type 2 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Exemestane
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Exemestan: Fra brystkræft til amenoré (prædiktion med meget begrænset evidens)
+## Exemestane: Antithrombin deficiency type 2
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Rapporten fokuserer på den forudsagte indikation med mest litteratur (amenoré)
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (den godkendte indikationstekst er tom) |
-| Forudsagt ny indikation | Amenoré (rang 2; rang 1 er antitrombin-mangel type 2) |
-| TxGNN-forudsigelsesscore | 99,82 % (amenoré); 99,83 % (antitrombin-mangel type 2) |
-| Evidensniveau | L4 (amenoré); L5 (antitrombin-mangel type 2) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Antithrombin deficiency type 2 |
+| TxGNN-forudsigelsesscore | 0.9983 |
+| Evidensniveau | L5 (amenoré); L5 (antitrombin-mangel type 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vincristine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 888
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Vincristine: forudsagt ny indikation Ganglioneuroblastom (evidensniveau L3). Oprindelig indikation: Akut lymfatisk leukæmi, Hodgkin- og non-Hodgkin-lymfom…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "vincristine"
-predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-10-23
+description: "Vincristine: forudsagt ny indikation Vertebral anomalies and variable endocrine and T-cell dysfunction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,113 +33,93 @@ Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Vincristin: Fra akut lymfatisk leukæmi og lymfom til ganglioneuroblastom
+## Vincristine: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé i ét afsnit
 
-Vincristin er et cytostatikum (vinca-alkaloid), der oprindeligt anvendes til behandling af akut lymfatisk leukæmi, Hodgkin- og non-Hodgkin-lymfom samt Langerhans-celle-histiocytose.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **ganglioneuroblastom**.
-Der foreligger **ingen registrerede kliniske forsøg** og **6 publikationer** (primært case-rapporter) i de data, der er sammenstillet til denne rapport.
-
----
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **retroperitonealt neoplasma**.
+Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (hovedsageligt case-rapporter og små serier om enkelte tumortyper), og ingen af dem undersøger retroperitonealt neoplasma som selvstændig sygdom.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfatisk leukæmi, Hodgkin- og non-Hodgkin-lymfom, mantelcellelymfom, Langerhans-celle-histiocytose (fra TxGNN-vidensgrafen; den danske godkendelsestekst er ikke angivet i de foreliggende data) |
-| Forudsagt ny indikation | Ganglioneuroblastom |
-| TxGNN-forudsigelsesscore | 99,31 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (kan genovervejes som forskningsspørgsmål; se konklusionen) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN-forudsigelsesscore | 0.9924 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
----
+Bemærk: Rang 1 i modellens forudsigelser (en meget sjælden syndromisk tilstand med knoglemisdannelser og T-celle-dysfunktion) har en marginalt højere score (0,9924), men ingen evidens og ingen mekanistisk forbindelse. Rapporten fokuserer på rang 2, som har litteratur.
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de sammenstillede data. Vincristin tilhører dog klassen af vinca-alkaloider, som er kendt for at binde sig til tubulin, hæmme mikrotubulipolymerisering og dermed standse celledelingen (mitotisk arrest) i hurtigt prolifererende celler.
+Der foreligger ikke detaljerede data om virkningsmekanisme i det udarbejdede datagrundlag. Vincristin er generelt kendt som et vinca-alkaloid, der hæmmer mikrotubuli-polymerisering og standser celledelingen i M-fasen. Denne beskrivelse er almen viden og ikke hentet fra de udarbejdede data.
 
-Ganglioneuroblastom er en neuroblastisk tumor i neuroblastomfamilien. Vincristin har i mange år været en fast bestanddel af kombinationskemoterapi mod neuroblastom, f.eks. sammen med cyclophosphamid, doxorubicin, cisplatin og etoposid. Den biologiske begrundelse er derfor stærk, og forudsigelsen stemmer overens med eksisterende klinisk praksis.
+Retroperitonealt neoplasma er en anatomisk samlebetegnelse for meget forskellige tumorer. Litteraturen beskriver vincristin som en del af kombinationsregimer ved tumortyper, der kan involvere retroperitoneum, fx rhabdomyosarkom, malign paragangliom (cyclophosphamid, vincristin, dacarbazin), infantilt fibrosarkom og kaposiform hæmangioendoteliom. Forbindelsen er derfor plausibel, men indirekte og afhænger af tumorens histologi.
 
-Der er dog en vigtig begrænsning: De foreliggende data angiver ikke regimesammensætningen i hver enkelt rapport, så vincristins specifikke bidrag kan ikke isoleres fra de øvrige lægemidler i kombinationerne.
+Ingen af de citerede studier undersøger retroperitonealt neoplasma som sygdom i sig selv. Det begrænser evidensen til niveau L5.
 
----
+## Kliniske forsøg
 
-## Evidens fra kliniske forsøg
-
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Prospektivt klinisk forsøg (ikke-randomiseret) | Pediatric Blood & Cancer | JN-L-10: billeddiagnostiske risikofaktorer anvendt til kirurgiske beslutninger ved lavrisiko-neuroblastom; ikke vincristin-specifikt |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Case-rapport | Postgraduate Medical Journal | Spinalt ganglioneuroblastom med komplet remission efter kombinationskemoterapi (bl.a. vincristin, doxorubicin, cyclophosphamid, etoposid, ifosfamid, cisplatin) uden strålebehandling eller kurativ resektion |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Case-rapport | J Pediatr Hematol Oncol | Ganglioneuroblastom med obstruktiv gulsot; behandlet med cisplatin, pirarubicin/doxorubicin, cyclophosphamid og vincristin |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Case-serie/-rapport | J Thorac Cardiovasc Surg | 31 patienter med intratorakalt ganglioneuroblastom; behandling med resektion, strålebehandling eller kemoterapi; 27 af 31 overlevede |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Case-rapport | Hinyokika Kiyo | Multimodal behandling af adrenalt ganglioneuroblastom hos en voksen |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Case-rapport | J Pediatr Hematol Oncol | Sjældent mavesækinvolvement hos et spædbarn med multifokalt ganglioneuroblastom (stadie 4) |
+| [9058098](https://pubmed.ncbi.nlm.nih.gov/9058098/) | 1997 | Kohorte | Internal Medicine | Cyclophosphamid, vincristin og dacarbazin ved malign paragangliom med levermetastaser og retroperitoneal tumor |
+| [30054848](https://pubmed.ncbi.nlm.nih.gov/30054848/) | 2018 | Review | World J Pediatr | Behandlingsmuligheder ved kaposiform hæmangioendoteliom hos børn |
+| [15739629](https://pubmed.ncbi.nlm.nih.gov/15739629/) | 2004 | Case-rapport | Pediatr Hematol Oncol | Retroperitonealt malignt paragangliom hos en dreng; kemoterapi (cyclophosphamid, vincristin, dacarbazin) før kirurgi |
+| [4027886](https://pubmed.ncbi.nlm.nih.gov/4027886/) | 1985 | Ikke klassificeret | Cancer | Doxorubicin, vincristin og cyclophosphamid gav komplet klinisk respons hos to børn med inoperabel infantilt fibrosarkom |
+| [2191575](https://pubmed.ncbi.nlm.nih.gov/2191575/) | 1990 | Case-rapport | Hinyokika Kiyo | Paratestikulært rhabdomyosarkom med retroperitoneale lymfeknudemetastaser behandlet med VAC/VAD |
+| [2122010](https://pubmed.ncbi.nlm.nih.gov/2122010/) | 1990 | Ikke klassificeret | J Urol | Behandlingsresultater hos 18 børn og unge med paratestikulært rhabdomyosarkom |
+| [34689500](https://pubmed.ncbi.nlm.nih.gov/34689500/) | 2021 | Case-rapport | JCPSP | Kimcelletumor i testis med retroperitoneal lymfadenopati; IE- og VAC-kemoterapi |
+| [30222020](https://pubmed.ncbi.nlm.nih.gov/30222020/) | 2018 | Ikke klassificeret | J Int Med Res | Interdigiterende dendritcellesarkom med retroperitoneal udbredelse; kemoterapi med blandt andet vincristin |
+| [30652419](https://pubmed.ncbi.nlm.nih.gov/30652419/) | 2019 | Ikke klassificeret | Cancer Medicine | Multimodal behandling og risikofaktorer ved desmoplastiske småcellede rundcelletumorer |
+| [2658509](https://pubmed.ncbi.nlm.nih.gov/2658509/) | 1989 | Case-rapport | Hinyokika Kiyo | Fremskredent paratestikulært rhabdomyosarkom med retroperitoneale metastaser |
 
-Evidensen består overvejende af case-rapporter og små serier. Der er ingen randomiserede forsøg.
+Litteraturen består hovedsageligt af case-rapporter og små serier, hvor vincristin indgår i kombinationsregimer. Effekten af vincristin alene kan ikke udledes.
 
----
-
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106980123 | Cellcristin (Orifarm A/S) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de foreliggende data |
-
----
+| 28106980123 | Cellcristin (Orifarm A/S) | Injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de udarbejdede data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytostatikum (vinca-alkaloid, mikrotubulihæmmer) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC); leukopeni er registreret som en kontraindikationsrelateret tilstand i vidensgrafen |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Blodtal (differentialtælling), lever- og nyrefunktion, neurologisk status (perifer neuropati) |
-| Håndteringsbeskyttelse | Skal håndteres i overensstemmelse med gældende regler for cytostatika |
-
-Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
-
----
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (vinca-alkaloid) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitorering | Blodtælling med differentialtælling, lever- og nyrefunktion samt neurologisk status. Se SmPC |
+| Håndteringsbeskyttelse | Skal håndteres i henhold til gældende regler for cytostatika |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/risikotilstande (fra TxGNN-vidensgrafen, ikke fra produkttekst):** leversvigt, kolestase og hyperbilirubinæmi (inkl. Gilberts syndrom), perifer neuropati og andre neuromuskulære lidelser (bl.a. Charcot-Marie-Tooth, neuritis), leukopeni, svampe- og andre infektionssygdomme samt akut uratnefropati.
-- **Lægemiddelinteraktioner:** 643 interaktioner er registreret. Blandt de viste er den eneste med alvorlighedsgrad "Major" **clarithromycin**. Moderate interaktioner omfatter bl.a. aprepitant, dexamethason, metronidazol, miconazol, rolapitant, simvastatin, rosuvastatin, tinidazol, eliglustat, naltrexon, glycerolphenylbutyrat og troglitazon.
+- **Relationer i videngrafen (ikke mærkningstekst):** Videngrafen angiver kontraindikationsrelationer til bl.a. leversvigt, kolestase, hyperbilirubinæmi, Gilberts syndrom, perifer neuropati, Charcot-Marie-Tooth sygdom, neuromuskulær sygdom, leukopeni, infektionssygdomme, svampeinfektioner og akut urat-nefropati. Disse stammer ikke fra godkendt produkttekst og skal verificeres i SmPC.
+- **Lægemiddelinteraktioner:** 643 interaktioner er registreret. Blandt de vigtigste er **clarithromycin (alvorlig)** samt moderate interaktioner med bl.a. aprepitant, dexamethason, metronidazol, miconazol, rolapitant, simvastatin og rosuvastatin.
 
-Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuld sikkerhedsinformation.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den biologiske begrundelse er stærk, og vincristin er allerede en veletableret del af neuroblastomregimer. Evidensen for ganglioneuroblastom specifikt er dog begrænset til case-rapporter og ét ikke-vincristin-specifikt forsøg, og ingen kliniske forsøg er registreret. Desuden mangler sikkerhedsdata fra produktresuméet, hvilket blokerer for sikkerhedsscreening. Forudsigelsen bør betragtes som et forskningsspørgsmål frem for en klar anbefaling.
+Der er ingen kliniske forsøg og ingen studier, der direkte undersøger retroperitonealt neoplasma som sygdom. Litteraturen består af case-rapporter om specifikke tumortyper i kombinationsregimer. Evidensniveauet er derfor L5, og en generel indikation er ikke understøttet. Det kan højst betragtes som et forskningsspørgsmål om histologispecifik anvendelse.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen, herunder advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Regimespecifik gennemgang af litteraturen for at isolere vincristins bidrag
-- Gennemgang af aktuelle kliniske retningslinjer for behandling af neuroblastiske tumorer (herunder vurdering af, om vincristin allerede indgår i standardbehandling)
-- Plan for neurotoksicitets- og blodtalsmonitorering i børnepopulationen
-
----
-
-## Øvrige forudsagte indikationer (kort)
-
-- **Retroperitonealt neoplasme (score 99,23 %, L3):** Litteraturen omfatter histologispecifikke case-rapporter og små serier (f.eks. malignt paragangliom, paratesticulært rhabdomyosarkom, kaposiform hæmangioendoteliom), hvor vincristin indgår i kombinationsregimer. Evidensen understøtter ikke en samlet klasseindikation, og flere artikler har uklar relevans. Betragtes som et forskningsspørgsmål.
-- **Vertebrale anomalier med variabel endokrin og T-celle-dysfunktion (score 99,24 %, L5):** Ingen evidens og ingen oplagt mekanistisk sammenhæng. Vincristins neurotoksicitet og immunsuppressive profil giver desuden sikkerhedsmæssige betænkeligheder. Anbefaling: Hold.
+- Systematisk gennemgang af vincristins rolle ved specifikke retroperitoneale histologier (fx rhabdomyosarkom, paragangliom) frem for den anatomiske samlebetegnelse
+- Registrerede kliniske forsøg eller prospektive studier
+- Data om virkningsmekanisme
+- Indhentning og gennemgang af SmPC for Cellcristin (advarsler, kontraindikationer og godkendt indikation)
+- Vurdering af sikkerhed, herunder interaktion med CYP3A4-hæmmere som clarithromycin
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

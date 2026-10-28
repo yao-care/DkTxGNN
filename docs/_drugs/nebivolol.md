@@ -4,9 +4,9 @@ title: Nebivolol
 parent: Kun modelforudsigelse (L5)
 nav_order: 578
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nebivolol: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
+description: "Nebivolol: forudsagt ny indikation malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Nebivolol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 |------|------|
 | Oprindelig indikation | Hypertension (hypertensive lidelser) |
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om nebivolols detaljerede virkningsmekanisme er ikke tilgængelige i de dat
 
 Malign hypertensiv nyresygdom er en alvorlig form for forhøjet blodtryk med nyrepåvirkning, og den er derfor tæt knyttet til lægemidlets oprindelige indikation. Den høje score afspejler sandsynligvis denne nærhed i modellens sygdomsnetværk og ikke selvstændig evidens. Tilstanden er desuden en hypertensiv nødsituation, som normalt behandles med intravenøse lægemidler, så en oral betablokker er næppe førstevalg.
 
-Den næstrangerende forudsigelse, malign renovaskulær hypertension (score 99,42 %), har samme profil: Betablokade nedsætter reninfrigivelsen, hvilket er mekanistisk relevant, men der foreligger hverken forsøg eller litteratur.
+Den næstrangerende forudsigelse, malign renovaskulær hypertension (score 0,9942), har samme profil: Betablokade nedsætter reninfrigivelsen, hvilket er mekanistisk relevant, men der foreligger hverken forsøg eller litteratur.
 
 ---
 
@@ -78,7 +78,7 @@ Der er på nuværende tidspunkt ikke registreret relaterede kliniske forsøg for
 
 Der foreligger på nuværende tidspunkt ingen relateret litteratur for malign hypertensiv nyresygdom.
 
-Til sammenligning er der for den tredjerangerende forudsigelse, pulmonal hypertension som følge af lungesygdom og/eller hypoxi (score 99,39 %), fundet 12 publikationer. De er overvejende indirekte (evidensniveau L4), og ingen af dem tester nebivolol direkte ved pulmonal hypertension:
+Til sammenligning er der for den tredjerangerende forudsigelse, pulmonal hypertension som følge af lungesygdom og/eller hypoxi (score 0,9939), fundet 12 publikationer. De er overvejende indirekte (evidensniveau L4), og ingen af dem tester nebivolol direkte ved pulmonal hypertension:
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
@@ -106,7 +106,7 @@ Begge tilladelser er gyldige nationale tilladelser for monopræparater.
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Følgende kommer fra videngrafen (TxGNN/PrimeKG) og er ikke hentet fra produkttekst:
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Følgende kommer fra TxGNN-modellen (deep learning) og er ikke hentet fra produkttekst. Scoren afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens:
 
 - **Kontraindikationer i videngrafen**: leversvigt, leversygdom, galdeblæresygdom, diabetes mellitus, diabetisk ketoacidose, perifer vaskulær sygdom, claudicatio intermittens, perifer arteriel sygdom, hypoglykæmi, atrioventrikulært blok, bronkial sygdom, sick sinus-syndrom (herunder familiært).
 - **Lægemiddelinteraktioner**: 207 interaktioner er registreret. Blandt de viste er de fleste af moderat grad, fx epinephrin, hydrocortison, dexamethason, bupropion, morfin, atropin, canagliflozin, dapagliflozin og chlorpropamid. Acetylsalicylsyre og magnesiumoxid er af mindre betydning.

@@ -48,10 +48,10 @@ Ranolazin er et lægemiddel mod kroniske hjertekramper (angina pectoris), der i 
 |------|------|
 | Original indikation | Ikke tilgængelig i de sammenstillede data (ranolazin er kendt som middel mod kronisk angina pectoris) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99,65 % |
+| TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

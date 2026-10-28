@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Kun modelforudsigelse (L5)
 nav_order: 570
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Moxifloxacin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (bl.a. streptokok- og stafylokokinfektioner…"
 monitor_inn: "moxifloxacin"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 |------|------|
 | Oprindelig indikation | Bakterielle infektioner (bl.a. streptokok- og stafylokokinfektioner, bakteriel lungebetændelse, peritonitis, konjunktivitis, pest). Godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data. |
 | Forudsagt ny indikation | Polyklonalt hyperviskositetssyndrom |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,15 +68,14 @@ Der kan ikke identificeres en rimelig mekanistisk sammenhæng mellem denne antib
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Hyperamylasemi | 99,98 % | L5 | Laboratoriefund, ingen plausibel mekanisme |
-| Medfødt analbuminæmi | 99,97 % | L5 | Ingen mekanisme; kun en case report om tilstanden, ikke om moxifloxacin |
-| Blodtypeinkompatibilitet | 99,96 % | L5 | Ingen mekanisme |
-| Præmalign hæmatologisk sygdom | 99,95 % | L5 | Ingen mekanisme |
-| Monoklonal gammopati | 99,95 % | L4 | Kun indirekte: behandling af infektioner hos patienter med sygdommen |
-| Hæmatologisk sygdom med erhvervet perifer neuropati | 99,94 % | L5 | Fluorokinoloner indebærer risiko for perifer neuropati, hvilket taler imod anvendelse |
-| Medfødt hæmatologisk lidelse | 99,91 % | L4 | Kun indirekte (infektionsprofylakse) |
-| Neoplasmer i det hæmatopoietiske og lymfoide system | 99,67 % | L5 | Ingen etableret antineoplastisk mekanisme |
-| Bubonic pest | 99,41 % | L4 | Biologisk plausibel, men reelt en udvidelse af en eksisterende infektionsindikation (pest) |
+| Hyperamylasemi | 0,9998 | L5 | Laboratoriefund, ingen plausibel mekanisme |
+| Medfødt analbuminæmi | 0,9997 | L5 | Ingen mekanisme; kun en case report om tilstanden, ikke om moxifloxacin |
+| Blodtypeinkompatibilitet | 0,9996 | L5 | Ingen mekanisme |
+| Præmalign hæmatologisk sygdom | 0,9995 | L5 | Ingen mekanisme |
+| Monoklonal gammopati | 0,9995 | L5 | Kun indirekte: behandling af infektioner hos patienter med sygdommen |
+| Hæmatologisk sygdom med erhvervet perifer neuropati | 0,9994 | L5 | Fluorokinoloner indebærer risiko for perifer neuropati, hvilket taler imod anvendelse |
+| Medfødt hæmatologisk lidelse | 0,9991 | L5 | Kun indirekte (infektionsprofylakse) |
+| Neoplasmer i det hæmatopoietiske og lymfoide system | 0,9967 | L5 | Ingen etableret antineoplastisk mekanisme |
 
 Bubonic pest er den eneste forudsagte indikation med en biologisk plausibel sammenhæng. Moxifloxacin er aktivt mod *Yersinia pestis*, og pneumonisk pest og pest indgår allerede blandt de oprindelige indikationer. Der er således snarere tale om en udvidelse inden for samme sygdomsområde end om reel repurposing.
 

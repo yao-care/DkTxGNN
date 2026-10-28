@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Venetoclax
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 879
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Venetoclax: forudsagt ny indikation CLL/SLL med IGHV-somatisk hypermutation (evidensniveau L4). Oprindelig indikation: Akut lymfatisk/lymfocytær leukæmi og Richters syndrom"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "VENETOCLAX"
-predicted_indications: ["Hodgkins lymphoma", "Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "chronic myelogenous leukemia, BCR-ABL1 positive"]
+predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+last_modified_at: 2026-10-23
+description: "Venetoclax: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,110 +33,97 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Venetoclax: Fra akut lymfatisk leukæmi og Richters syndrom til kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (IGHV-muteret)
+## Venetoclax: Hodgkins lymfom (Hodgkins lymphoma)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé i ét afsnit
 
-Venetoclax er en BCL-2-hæmmer, som i den viden, der ligger til grund for modellen, er knyttet til akut lymfatisk/lymfocytær leukæmi og Richters syndrom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (CLL/SLL) med somatisk hypermutation i den variable region af immunglobulin-tungkæden (IGHV-muteret)**.
-For netop denne undertype er der dog **0 kliniske forsøg** og **0 publikationer** i de data, der er indsamlet til denne rapport.
-
----
+Venetoclax er en oral hæmmer af proteinet BCL-2. I den vidensgraf, som TxGNN bygger på, er lægemidlet registreret med relationer til akut lymfatisk leukæmi og Richters syndrom. TxGNN-modellen forudsiger, at det kan have effekt ved **Hodgkins lymfom**. De indsamlede data indeholder dog **ingen kliniske forsøg eller publikationer, der direkte undersøger venetoclax ved Hodgkins lymfom**. Den eksisterende evidens stammer fra andre lymfoide kræftformer, især B-celle non-Hodgkin-lymfomer.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfatisk/lymfocytær leukæmi og Richters syndrom (fra TxGNN-videngrafen; godkendelsesteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | CLL/SLL med IGHV-somatisk hypermutation |
-| TxGNN-forudsigelsesscore | 99,55 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Hodgkins lymfom (Hodgkins lymphoma) |
+| TxGNN-forudsigelsesscore | 0.9951 |
+| Evidensniveau | L5 (kun modelforudsigelse; ingen studier direkte ved Hodgkins lymfom) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal tilladelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Ud fra forsøgsbeskrivelserne og litteraturen er venetoclax en selektiv hæmmer af BCL-2. BCL-2 er et protein, der beskytter kræftceller mod programmeret celledød (apoptose). Ved at blokere det kan venetoclax genoprette cellernes evne til at dø. Det er effektivt ved kræftformer, der er afhængige af BCL-2, f.eks. kronisk lymfatisk leukæmi.
 
-Venetoclax er en selektiv BCL-2-hæmmer. CLL/SLL-celler er afhængige af overekspression af BCL-2 for at overleve, og derfor giver mekanismen god mening. Detaljerede mekanismedata fra lægemiddeldatabasen mangler dog.
+Hodgkins lymfom og de lymfoide kræftformer, hvor venetoclax er undersøgt, hører alle til de lymfoide maligniteter. Det er sandsynligvis forklaringen på den høje modelscore. Forudsigelsen bygger dog på en bred kategori og ikke på Hodgkin-specifikke data. Tumorcellerne i klassisk Hodgkins lymfom (Reed-Sternberg-celler) er formentlig mere afhængige af NF-κB-, JAK/STAT- og PD-L1-signalering end af BCL-2. Den mekanistiske sammenhæng er derfor svag og uafklaret.
 
-Den forudsagte indikation er en molekylær undertype af CLL/SLL. Venetoclax er allerede anerkendt til CLL/SLL generelt, og det understøttes bl.a. af MURANO-studiet (venetoclax + rituximab ved recidiverende/refraktær CLL), som optræder i de data, der er indsamlet for andre forudsagte indikationer. Der er altså tale om en undertype af en allerede godkendt sygdom og ikke om en egentlig ny anvendelse.
+## Kliniske forsøg
 
-Understøttelsen er derfor indirekte. Den bygger på moderdiagnosen og på modelforudsigelsen, ikke på forsøg eller litteratur specifikt for den IGHV-muterede undertype.
+Ingen af de nedenstående forsøg har Hodgkins lymfom som dokumenteret målgruppe. De viser primært sikkerhed og tolerabilitet ved venetoclax-kombinationer ved andre lymfomer.
 
----
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+|---------|------|------|------|---------|
+| [NCT03223610](https://clinicaltrials.gov/study/NCT03223610) | Fase 1/2 | Rekrutterer | 155 | ViPOR (venetoclax, ibrutinib, prednison, obinutuzumab, lenalidomid) ved recidiverende/refraktært B-celle-lymfom. Hodgkin-andel uklar |
+| [NCT05371054](https://clinicaltrials.gov/study/NCT05371054) | Fase 1/2 | Afsluttet | 8 | VIP152 + venetoclax + prednison ved recidiverende lymfoide maligniteter (DLBCL, PTCL). Meget lille |
+| [NCT03036904](https://clinicaltrials.gov/study/NCT03036904) | Fase 1 | Afsluttet | 31 | Venetoclax + DA-EPOCH-R ved aggressive B-celle-lymfomer, dosisfinding |
+| [NCT02611323](https://clinicaltrials.gov/study/NCT02611323) | Fase 1b/2 | Afsluttet | 133 | Obinutuzumab/rituximab + polatuzumab + venetoclax ved follikulært lymfom og DLBCL |
+| [NCT04447716](https://clinicaltrials.gov/study/NCT04447716) | Fase 1 | Aktiv, rekrutterer ikke | 4 | Venetoclax + lenalidomid + rituximab ved indolent non-Hodgkin-lymfom |
+| [NCT02187861](https://clinicaltrials.gov/study/NCT02187861) | Fase 2 | Afsluttet | 163 | Venetoclax + bendamustin/rituximab vs. bendamustin/rituximab ved follikulært non-Hodgkin-lymfom |
+| [NCT03112174](https://clinicaltrials.gov/study/NCT03112174) | Fase 3 | Afsluttet | 366 | Ibrutinib + venetoclax vs. ibrutinib + placebo ved mantelcelle-lymfom |
+| [NCT03984448](https://clinicaltrials.gov/study/NCT03984448) | Fase 2/3 | Aktiv, rekrutterer ikke | 363 | Venetoclax + kemoimmunterapi ved MYC/BCL2 double-hit-lymfomer |
+| [NCT02055820](https://clinicaltrials.gov/study/NCT02055820) | Fase 1b/2 | Afsluttet | 267 | Venetoclax + R-/G-CHOP ved B-celle non-Hodgkin-lymfom og DLBCL |
+| [NCT05753501](https://clinicaltrials.gov/study/NCT05753501) | Fase 1 | Aktiv, rekrutterer ikke | 135 | BTK-nedbryder ABBV-101 ved B-celle-maligniteter (non-Hodgkin) |
 
-## Dokumentation fra kliniske forsøg
+## Litteratur
 
-Der er i øjeblikket ingen registrerede kliniske forsøg knyttet til denne specifikke undertype.
-
----
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relevant litteratur knyttet til denne specifikke undertype.
-
----
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
+|------|-----|------|------|---------|
+| [40009494](https://pubmed.ncbi.nlm.nih.gov/40009494/) | 2025 | RCT | Blood | MURANO-studiet, slutanalyse: venetoclax + rituximab giver bedre progressionsfri og samlet overlevelse end bendamustin + rituximab ved recidiverende/refraktær CLL |
+| [38700035](https://pubmed.ncbi.nlm.nih.gov/38700035/) | 2024 | Fase 2 | Am J Hematol | Polatuzumab vedotin + venetoclax + anti-CD20 ved recidiverende/refraktært follikulært lymfom og DLBCL |
+| [38264906](https://pubmed.ncbi.nlm.nih.gov/38264906/) | 2024 | Fase 1 | Leuk Lymphoma | Sikkerhed af bendamustin, rituximab, ibrutinib og venetoclax ved mantelcelle-lymfom; hyppigst trombocytopeni |
+| [33775465](https://pubmed.ncbi.nlm.nih.gov/33775465/) | 2021 | Review | Blood Rev | Richter-transformation; Hodgkins lymfom nævnes kun som sjælden transformationsform |
+| [35659041](https://pubmed.ncbi.nlm.nih.gov/35659041/) | 2022 | Review | J Hematol Oncol | Erfaringer med venetoclax ved lymfoide maligniteter; tumorlysesyndrom og myelosuppression er hyppigste problemer |
+| [35933930](https://pubmed.ncbi.nlm.nih.gov/35933930/) | 2022 | Review | Cancer Treat Rev | Behandlingsstrategier ved DLBCL |
+| [39511759](https://pubmed.ncbi.nlm.nih.gov/39511759/) | 2024 | Review | Expert Rev Hematol | Ibrutinib + venetoclax ved mantelcelle-lymfom |
+| [32290241](https://pubmed.ncbi.nlm.nih.gov/32290241/) | 2020 | Review | Cancers | BCL-2-proteiner i patogenese og behandling af B-celle non-Hodgkin-lymfomer |
+| [31533509](https://pubmed.ncbi.nlm.nih.gov/31533509/) | 2020 | Review | Leuk Lymphoma | Resistensmekanismer mod venetoclax; DLBCL responderer dårligere end CLL |
+| [28724540](https://pubmed.ncbi.nlm.nih.gov/28724540/) | 2017 | Review | Blood | Målretning af BCL-2 ved B-celle-lymfomer |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105697615 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter (oral) | Indikationsteksten indgår ikke i de indsamlede data; se produktresuméet (SmPC) |
 
----
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral brug.
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (selektiv BCL-2-hæmmer, BH3-mimetikum) |
-| Risiko for myelosuppression | Myelosuppression og tumorlysesyndrom er de hyppigst rapporterede toksiciteter ved venetoclax i lymfoide maligniteter (iflg. en oversigtsartikel i de indsamlede data) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Fuldt blodbillede med differentialtælling samt parametre for tumorlysesyndrom (bl.a. elektrolytter, nyrefunktion); se i øvrigt SmPC |
-| Håndteringsbeskyttelse | Se SmPC og lokale retningslinjer for håndtering af cytostatika |
-
----
+| Klassifikation | Målrettet behandling (selektiv BCL-2-hæmmer) |
+| Risiko for myelosuppression | Myelosuppression nævnes i litteraturen som en af de hyppigste bivirkninger sammen med tumorlysesyndrom. Se i øvrigt produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Blodtal og tegn på tumorlysesyndrom. Se produktresuméet (SmPC) for detaljer |
+| Håndtering | Se produktresuméet (SmPC) |
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i interaktionsdatabasen (DDInter). Blandt de angivne er følgende klassificeret som **alvorlige (Major)**: aprepitant, dexamethason, clarithromycin, eliglustat, rolapitant, fidaxomicin, cobicistat, deferipron og samarium (153Sm) lexidronam.
-- Flere **moderate** interaktioner er også registreret, bl.a. med alvimopan, loperamid, cimetidin, miconazol, rifaximin, clotrimazol, deferasirox, naldemedin, metreleptin og troglitazon. Naloxegol er klassificeret som mindre (Minor).
-- Litteraturen i de indsamlede data fremhæver desuden interaktionen med stærke CYP3A-hæmmere, f.eks. den azolholdige svampemiddel posaconazol, som kan kræve dosisjustering af venetoclax.
+- **Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner. De mest alvorlige (niveau "Major") blandt de viste omfatter aprepitant, dexamethason, clarithromycin, eliglustat, rolapitant, fidaxomicin, cobicistat, deferiprone og samarium (153Sm) lexidronam. Flere moderate interaktioner er også registreret, bl.a. med alvimopan, loperamid, cimetidin, miconazol, rifaximin og clotrimazol.
 
-Advarsler og kontraindikationer fra produktresuméet er ikke indgået i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
-
-## Øvrige forudsagte indikationer i data
-
-Til orientering fremgår følgende af de indsamlede data. Rapportens hovedvurdering gælder kun den første indikation.
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling i data |
-|------|------|------|------|
-| Prægerminalcenter-CLL/SLL | 99,55 % | L4 | Hold |
-| Hodgkins lymfom | 99,51 % | L3 | Forskningsspørgsmål |
-| Myeloid leukæmi (AML) | 99,47 % | L2 | Proceed with Guardrails |
-| Kronisk myeloid leukæmi, BCR-ABL1-positiv | 99,36 % | L2 | Forskningsspørgsmål |
-
-Bemærk, at de to indikationer med lymfomtilknytning har svag evidens: de fleste forsøg ved Hodgkins lymfom er fase 1/2-studier i andre B-cellelymfomer, og betegnelsen kan være en bred mapping til lymfom generelt. For AML er venetoclax i kombination med azacitidin ifølge data allerede en etableret standardbehandling, så spørgsmålet er snarere en udvidelse af indikation eller regime end egentlig repurposing.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger hverken kliniske forsøg eller litteratur specifikt for den IGHV-muterede CLL/SLL-undertype. Understøttelsen er kun mekanistisk og modelbaseret (evidensniveau L4). Det er desuden en undertype af en allerede godkendt sygdom og ikke en reel repurposing-kandidat.
+Der er ingen kliniske forsøg eller publikationer, der direkte undersøger venetoclax ved Hodgkins lymfom. Den høje modelscore afspejler sandsynligvis kategorien "lymfoid malignitet" og ikke Hodgkin-specifikke data. Klassisk Hodgkins lymfom er desuden biologisk mindre afhængigt af BCL-2. Evidensen er derfor på niveau L5.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikationstekst), da disse oplysninger mangler.
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank.
-- Undertypespecifikke data (forsøg eller subgruppeanalyser) for IGHV-muteret CLL/SLL, f.eks. subgruppeanalyser fra MURANO.
-- En afklaring af, om undertypen overhovedet adskiller sig fra den allerede godkendte CLL/SLL-indikation i klinisk praksis.
+**For at komme videre kræves:**
+- Præklinisk dokumentation for BCL-2-afhængighed i Hodgkin-lymfomceller
+- Mindst et lille klinisk studie specifikt ved recidiverende/refraktært Hodgkins lymfom
+- Mekanismedata (MOA) og en gennemgang af produktresuméet for advarsler og kontraindikationer
+- Til sammenligning har de øvrige forudsigelser for venetoclax mere direkte evidens, f.eks. follikulært lymfom og kronisk myeloid leukæmi (BCR-ABL1-positiv), hvor fase 2-forsøg findes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

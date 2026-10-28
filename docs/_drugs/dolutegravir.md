@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 272
-evidence_level: L5
-indication_count: 6
+evidence_level: L4
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Dolutegravir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: Hiv-infektion og AIDS"
 monitor_inn: "DOLUTEGRAVIR"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Dolutegravir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Dolutegravir: Fra hiv-infektion til simian immundefektvirus-infektion
+## Dolutegravir: Simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Evidensen består af **0 kliniske forsøg** og **14 publikationer**, som udelukk
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hiv-infektion og AIDS (fra vidensgrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-prædiktionsscore | 99,85 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-prædiktionsscore | 0.9985 |
 | Evidensniveau | L4 (prækliniske studier) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,7 +68,7 @@ Det er vigtigt at bemærke, at SIV er en dyresygdom og ikke en humanterapeutisk 
 
 Modellen foreslog også andre forudsigelser med samme eller lavere grad af relevans:
 - **Felint ervervet immundefektsyndrom (FIV hos katte):** Kun én publikation (PMID 37112803) undersøger kombinationsbehandling inkl. dolutegravir i FIV-inficerede katte. Det er en veterinær indikation uden klinisk relevans for mennesker.
-- **Neuroudviklingsforstyrrelse med ataktisk gang, manglende tale og nedsat kortikal hvid substans:** Der er ingen oplagt mekanistisk kobling, ingen studier, og scoren (99,80 %) er sandsynligvis et artefakt fra vidensgrafen.
+- **Neuroudviklingsforstyrrelse med ataktisk gang, manglende tale og nedsat kortikal hvid substans:** Der er ingen oplagt mekanistisk kobling, ingen studier, og scoren (0,9980) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

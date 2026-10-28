@@ -4,17 +4,17 @@ title: Isocarboxazid
 parent: Kun modelforudsigelse (L5)
 nav_order: 455
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Isocarboxazid: forudsagt ny indikation Benign paroksystisk torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression…"
+indication_count: 7
 monitor_inn: "Isocarboxazid"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "benign paroxysmal torticollis of infancy", "agoraphobia", "agoraphobia", "obsessive-compulsive disorder", "obsessive-compulsive disorder", "neurotic disorder", "neurotic disorder", "phobic disorder", "phobic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "paranoid personality disorder"]
+last_modified_at: 2026-10-23
+description: "Isocarboxazid: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Isocarboxazid
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Isocarboxazid: Fra depression til benign paroksystisk torticollis hos spædbørn
+## Isocarboxazid: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumé
 
-Isocarboxazid er en monoaminoxidasehæmmer (MAO-hæmmer), som oprindeligt anvendes til behandling af depression og angstlidelser.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **benign paroksystisk torticollis hos spædbørn**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse.
-Blandt de øvrige forudsigelser har obsessiv-kompulsiv lidelse, neurotisk lidelse og fobisk lidelse kun svag, indirekte litteratur (kasuistikker og gamle studier).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **obsessiv-kompulsiv lidelse (OCD)**, men der er **ingen kliniske forsøg** og kun **2 ældre publikationer** (en case-rapport og en kombinationsbehandling), som ikke direkte undersøger OCD. Evidensniveauet er derfor lavt (L5).
 
----
+*Bemærk:* Den højest rangerede forudsigelse er godartet paroksysmal torticollis hos spædbørn (score 0,9997). Den er dog uden nogen evidens og biologisk uplausibel, hvorfor rapporten fokuserer på OCD som den bedst underbyggede kandidat. De øvrige kandidater omtales kort nedenfor.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Unipolar depression, endogen depression, major depressiv lidelse og angstlidelse (ifølge videnbasen; der er ingen godkendt indikationstekst i de danske data) |
-| Forudsagt ny indikation | Benign paroksystisk torticollis hos spædbørn |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor kan forudsigelsen være rimelig?
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Isocarboxazid tilhører dog klassen af MAO-hæmmere, som øger niveauet af serotonin, noradrenalin og dopamin i hjernen. Denne monoaminerge modulation er mekanistisk relevant for OCD-spektret.
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er udarbejdet til denne rapport. Isocarboxazid tilhører klassen af irreversible, ikke-selektive MAO-hæmmere, og dets effekt ved depression og angst er veldokumenteret. Mekanistisk kan monoaminerg modulation tænkes at have betydning for visse neuropsykiatriske tilstande.
+Depression, angst og OCD deler ofte symptomer og komorbiditet, og klassen af MAO-hæmmere har historisk været brugt ved fobisk angst. Det understøtter, at forudsigelsen er biologisk tænkelig. Det er dog et ræsonnement på klasseniveau og ikke dokumentation for, at isocarboxazid virker ved OCD.
 
-For den højest rangerede forudsigelse, benign paroksystisk torticollis hos spædbørn, støttes en mekanistisk sammenhæng **ikke** af data. Tilstanden er en selvlimiterende børnesygdom, der hænger sammen med migrænespektret og kanalopatier. Den høje score (99,97 %) er alene en modelforudsigelse. Brug af en irreversibel MAO-hæmmer hos spædbørn ville desuden give store sikkerhedsmæssige betænkeligheder.
+## Kliniske forsøg
 
-Forudsigelserne inden for angst- og tvangsspektret er mere plausible, fordi de ligger tæt på de kendte indikationer:
-- **Agorafobi** (score 99,96 %): MAO-hæmmere har historisk været brugt ved fobisk angst og panikspektret, men der er ikke fundet forsøg eller litteratur.
-- **Obsessiv-kompulsiv lidelse** (99,96 %): Indirekte evidens fra en kombinationsbehandling ved resistent neurotisk lidelse og en kasuistik om trikotillomani med depression.
-- **Neurotisk lidelse** (99,94 %): En ældre diagnosekategori, der overlapper med angst og depression, men som er forældet i moderne diagnosesystemer.
-- **Fobisk lidelse** (99,93 %): Historisk rolle for MAO-hæmmere, men evidensen er indirekte.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for den forudsagte hovedindikation (benign paroksystisk torticollis hos spædbørn) eller for de øvrige forudsagte indikationer.
-
----
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er ingen litteratur for hovedindikationen. Nedenfor er den indirekte litteratur, der er fundet for de øvrige forudsagte indikationer (obsessiv-kompulsiv lidelse, neurotisk lidelse og fobisk lidelse):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [2404536](https://pubmed.ncbi.nlm.nih.gov/2404536/) | 1990 | Klinisk studie (kasuistik med dobbeltblindet udskiftning) | Br J Psychiatry | Kvinde med vedvarende affektive og fobiske symptomer responderede på isocarboxazid kombineret med amitriptylin. Udskiftning med placebo gav tilbagefald, som svandt ved genoptagelse af isocarboxazid. |
-| [3372704](https://pubmed.ncbi.nlm.nih.gov/3372704/) | 1988 | Klinisk studie | J Clin Psychopharmacol | 56 indlagte patienter med unipolar depression behandlet med isocarboxazid. Fobisk angst var hyppigere hos non-respondere. Indirekte relevans for fobi. |
-| [6725219](https://pubmed.ncbi.nlm.nih.gov/6725219/) | 1984 | Kasuistik | J Clin Psychiatry | Isocarboxazid behandlede både depression og tilknyttet trikotillomani; symptomerne vendte tilbage ved seponering. |
-| [14129281](https://pubmed.ncbi.nlm.nih.gov/14129281/) | 1964 | Kontrolleret studie | Am J Psychiatry | Diazepam hos psykiatriske ambulante patienter; relevansen for isocarboxazid er indirekte. |
-| [14208878](https://pubmed.ncbi.nlm.nih.gov/14208878/) | 1964 | Neurofysiologisk studie | Riv Neurol | EEG-studie af kombinationer af psykotrope lægemidler; indirekte relevans. |
+| [2404536](https://pubmed.ncbi.nlm.nih.gov/2404536/) | 1990 | Klinisk rapport | Br J Psychiatry | Kvinde på 35 år med affektive og fobiske symptomer responderede på isocarboxazid kombineret med amitriptylin; symptomerne vendte tilbage ved udskiftning med placebo |
+| [6725219](https://pubmed.ncbi.nlm.nih.gov/6725219/) | 1984 | Case-rapport | J Clin Psychiatry | Isocarboxazid behandlede både depression og tilknyttet trikotillomani; symptomerne vendte tilbage ved seponering |
 
----
+Ingen af publikationerne er et OCD-forsøg med isocarboxazid. Evidensen er indirekte, gammel og af lav kvalitet. Derfor er evidensniveauet L5 og ikke L4.
+
+## Øvrige forudsagte indikationer (kort)
+
+| Indikation | Score | Evidensniveau | Bemærkning |
+|------|------|------|------|
+| Godartet paroksysmal torticollis hos spædbørn | 0,9997 | L5 | Ingen evidens; sandsynligvis en artefakt i grafmodellen |
+| Agorafobi | 0,9996 | L5 | Kun klasseniveau-ræsonnement for MAO-hæmmere |
+| Nevrotisk lidelse | 0,9994 | L5 | Overlapper med angst og depression; kun indirekte litteratur |
+| Fobisk lidelse | 0,9993 | L5 | Indirekte litteratur (bl.a. studie af deprimerede indlagte patienter, PMID 3372704) |
+| Posttraumatisk stresslidelse | 0,9993 | L5 | Kun en generel oversigtsartikel (PMID 34036925) |
+| Paranoid personlighedsforstyrrelse | 0,9992 | L5 | Ingen evidens |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100329660 | Marplan (EQL Pharma AB) | Tabletter | Indikationstekst ikke tilgængelig |
+| 28100329660 | Marplan (EQL Pharma AB) | Tabletter | Ikke angivet i tilladelsesteksten |
 
----
+Antal godkendelser: 1 national tilladelse (enkeltstofpræparat, gyldig). Administrationsvej: oral.
 
-## Sikkerhedsovervejelser
+## Sikkerhedsovejelser
 
-**Kontraindikationer og sygdomme, der advarer mod brug** (fra videnbasens relationer mellem lægemiddel og sygdom, ikke fra produktresuméets tekst):
-- Hjerte-kar: hypertension, koronararteriesygdom, pludseligt hjertestop, hjerteledningsforstyrrelser, hjertesygdom, ortostatisk hypotension, hypotension, postural ortostatisk takykardisyndrom, multipel systematrofi
-- Binyre- og sympatiske tumorer: fæokromocytom, sympatisk paragangliom, binyrekræft
-- Lever, nyrer og galdeblære: leversygdom, nyresygdom, pyouretær, galdeblæresygdom
-- Stofskifte: diabetes mellitus, diabetisk ketoacidose, hypertyreose, Graves' sygdom
-- Neurologi/psykiatri: epilepsi, bipolar lidelse, major affektiv lidelse, stofmisbrug/afhængighed
-- Øvrige: kræft i tolvfingertarmen, tyndtarmen og hjertet
+- **Kontraindikationer registreret i vidensgrafen** (ikke fra produktresumeet): bl.a. forhøjet blodtryk, hjerte-kar-sygdom, fæokromocytom, epilepsi, nyresygdom, leversygdom, bipolar lidelse, diabetes, hypertyreose, misbrug/afhængighed og ortostatisk hypotension.
+- **Lægemiddelinteraktioner:** 100 interaktioner registreret. Blandt de større er isomethepten, bupropion, morfin, lorcaserin, diethylpropion, dolasetron, palonosetron og phentermin. Moderate interaktioner omfatter bl.a. adrenalin, chlorpropamid, glimepirid, repaglinid og insulin aspart.
+- Som irreversibel MAO-hæmmer kræver behandlingen desuden opmærksomhed på tyraminholdig kost og serotonerge eller sympatomimetiske lægemidler.
 
-**Lægemiddelinteraktioner** (100 interaktioner i alt registreret; et udvalg af de vigtigste):
-- **Alvorlige (Major):** bupropion, morfin, lorcaserin, phentermin, diethylpropion, isomethepten, dolasetron, palonosetron
-- **Moderate:** epinephrin, chlorpropamid, glimepirid, repaglinid, insulin aspart, dronabinol, picosulfat, natriumsulfat, polyethylenglycol med elektrolytter
-- **Lette (Minor):** hyoscyamin, atropin, dicyclomin
-
-Der foreligger ikke data om advarsler og kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Hovedforudsigelsen (benign paroksystisk torticollis hos spædbørn) bygger udelukkende på en modelscore uden forsøg, litteratur eller mekanistisk støtte, og en irreversibel MAO-hæmmer til spædbørn rejser alvorlige sikkerhedsspørgsmål. De øvrige forudsigelser (obsessiv-kompulsiv lidelse, neurotisk lidelse, fobisk lidelse) er kun at betragte som forskningsspørgsmål (L4) med gammel og indirekte evidens, og agorafobi har ingen evidens (L5).
+Forudsigelsen har en meget høj modelscore, men der er ingen kliniske forsøg og ingen publikation, der direkte undersøger OCD med isocarboxazid. Sammen med en betydelig interaktions- og kontraindikationsbyrde er evidensen utilstrækkelig til at gå videre.
 
 **For at komme videre kræves:**
-- Hentning af produktresuméets advarsler og kontraindikationer (blokerende datamangel)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Kontrollerede kliniske studier eller systematiske oversigter for de mere plausible indikationer (agorafobi, obsessiv-kompulsiv lidelse, fobisk lidelse), frem for hovedforudsigelsen
-- Vurdering af sikkerhed ved interaktioner og kontraindikationer, især hypertension og serotonerge eller sympatomimetiske lægemidler
-- Afklaring af godkendt indikationstekst for Marplan i Danmark
+- Direkte studier (fx pilotforsøg eller kontrollerede studier) af isocarboxazid ved OCD
+- Data om virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af fordele og risici i forhold til etablerede OCD-behandlinger og en plan for sikkerhedsovervågning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

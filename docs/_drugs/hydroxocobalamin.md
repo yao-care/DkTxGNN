@@ -6,9 +6,9 @@ nav_order: 413
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices uden blødning (evidensniveau L5). Oprindelig indikation: Vitamin B12-mangel, cyanidforgiftning…"
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
+description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices without bleeding (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Hydroxocobalamin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Hydroxocobalamin: Fra vitamin B12-mangel til esophageal varices uden blødning
+## Hydroxocobalamin: Esophageal varices without bleeding
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **esophageal varic
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Vitamin B12-mangel, cyanidforgiftning, perniciøs anæmi (fra vidensgrafen; godkendelsesteksten for det danske produkt er ikke angivet) |
-| Forudsagt ny indikation | Esophageal varices uden blødning |
-| TxGNN-prædiktionsscore | 99,23 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Esophageal varices without bleeding |
+| TxGNN-prædiktionsscore | 0.9923 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Data om lægemidlets virkningsmekanisme er ikke tilgængelige. Hydroxocobalamin 
 
 Teoretisk kunne en binding af NO påvirke karudvidelse i mave-tarm-området og i portalkredsløbet, som spiller en rolle ved portal hypertension og åreknuder i spiserøret. Dette er imidlertid spekulativt, og der er ikke fremlagt data, som understøtter en egentlig mekanistisk sammenhæng mellem de oprindelige indikationer og esophageal varices.
 
-Den høje score (0,992) er en ren modelforudsigelse og kan ikke erstatte klinisk evidens eller litteratur. Det samme gælder den relaterede forudsigelse **esophageal varices med blødning** (samme score, evidensniveau L5). Akut variceblødning behandles med etablerede metoder (vasoaktive stoffer, endoskopisk båndligering og antibiotikaprofylakse), og der er ingen evidens for, at hydroxocobalamin har en rolle.
+Den høje score (0,9923) er en ren modelforudsigelse fra TxGNN-modellen (deep learning) og kan ikke erstatte klinisk evidens eller litteratur. Scoren kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og er ikke biologisk evidens. Det samme gælder den relaterede forudsigelse **esophageal varices med blødning** (samme score, 0,9923, evidensniveau L5). Akut variceblødning behandles med etablerede metoder (vasoaktive stoffer, endoskopisk båndligering og antibiotikaprofylakse), og der er ingen evidens for, at hydroxocobalamin har en rolle.
 
 ---
 

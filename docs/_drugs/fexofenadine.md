@@ -6,9 +6,9 @@ nav_order: 355
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, atopisk…"
 monitor_inn: "fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fexofenadine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Fexofenadin: Fra allergisk rhinitis til rosacea-konjunktivitis
+## Fexofenadine: Rosacea-konjunktivitis (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumé
@@ -46,17 +46,17 @@ Der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der underst�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, atopisk, papillær og vernal konjunktivitis, idiopatisk urticaria (fra vidensgrafen; den danske tilladelse har ingen indikationstekst) |
-| Forudsagt ny indikation | Rosacea-konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rosacea-konjunktivitis (rosacea conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om fexofenadins oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Fexofenadin er dog kendt som en selektiv perifer histamin H1-receptorantagonist. Dens effekt ved allergiske øjenlidelser er veletableret i vidensgrafen, og mekanistisk kan den derfor være relevant ved andre inflammatoriske tilstande på øjets overflade.
+Data om fexofenadins oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Fexofenadin er dog kendt som en selektiv perifer histamin H1-receptorantagonist. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Allergisk, atopisk, papillær og vernal konjunktivitis er histaminmedierede tilstande på øjets overflade. Dette giver en mulig fælles vej med rosacea-konjunktivitis.
 

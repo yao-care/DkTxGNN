@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Temoporfin: forudsagt ny indikation Nasofaryngealt teratom (evidensniveau L5). Oprindelig indikation: Planocellulært karcinom og hoved- og halskræft (jf. videnbasen"
 monitor_inn: "Temoporfin"
-predicted_indications: ["nasopharyngeal teratoma", "nasopharyngeal teratoma", "odontogenic cyst", "odontogenic cyst", "pre-malignant neoplasm", "pre-malignant neoplasm", "epiglottis neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "tumor of testis and paratestis"]
+predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
+last_modified_at: 2026-10-23
+description: "Temoporfin: forudsagt ny indikation Nasofaryngealt teratom (evidensniveau L5). Oprindelig indikation: Pladecellekarcinom i hoved og hals"
 ---
 
 # Temoporfin
@@ -33,88 +33,88 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Temoporfin: Fra hoved- og halskræft til nasofaryngealt teratom
+## Temoporfin: Fra pladecellekarcinom i hoved og hals til nasofaryngealt teratom
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Temoporfin er et lysfølsomt stof (fotosensibilisator), der oprindeligt anvendes til fotodynamisk behandling af planocellulært karcinom i hoved- og halsområdet.
-TxGNN-modellen forudsiger, at det kan have effekt ved **nasofaryngealt teratom**, men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+Temoporfin er et lysfølsomt stof (fotosensibilisator) til fotodynamisk behandling, som i vidensgrafen er registreret i relation til pladecellekarcinom og kræft i hoved og hals. TxGNN-modellen forudsiger, at stoffet kan være relevant for **nasofaryngealt teratom**, men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne sygdom. Forudsigelsen er derfor alene modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Planocellulært karcinom og hoved- og halskræft (jf. videnbasen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
+| Oprindelig indikation | Pladecellekarcinom i hoved og hals (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Nasofaryngealt teratom |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Der foreligger i de indsamlede data ingen detaljerede oplysninger om temoporfins virkningsmekanisme. Temoporfin er kendt som en fotosensibilisator, der bruges til fotodynamisk terapi (PDT) ved hoved- og halskræft. Princippet er, at stoffet optages i vævet og aktiveres af lys lokalt, hvorved tumorceller destrueres.
+## Hvorfor er forudsigelsen rimelig?
 
-Nasofarynx ligger anatomisk tæt på den oprindelige indikation, og derfor er en PDT-tilgang tænkelig. Teratomer er imidlertid sjældne, oftest medfødte tumorer bestående af flere vævstyper, og de behandles primært ved kirurgisk fjernelse. Der er ingen evidens for, at en PDT-mekanisme virker i denne tumortype. Den høje score er alene en modelforudsigelse.
+Der foreligger ikke detaljerede data om temoporfins virkningsmekanisme i det datagrundlag, der er sammenstillet til denne rapport. Temoporfin er kendt som en fotosensibilisator til fotodynamisk behandling (PDT): Stoffet ophobes i tumorvæv og aktiveres af lys med en bestemt bølgelængde, hvorefter der dannes reaktive iltforbindelser, som kan ødelægge cellerne lokalt.
 
-### Øvrige forudsigelser
+Den mulige kobling til nasofaryngealt teratom er lokal, lysaktiveret fjernelse af tumorvæv i næse-svælg-området. Koblingen er svag. Teratomer er sjældne, forekommer typisk hos børn og behandles normalt kirurgisk. Der er ingen data, der understøtter, at fotodynamisk behandling har en rolle her.
 
-Datasættet indeholder flere andre forudsigelser, alle på evidensniveau L5 og med anbefalingen Hold:
+Andre forudsagte sygdomme på listen (fx neoplasmer i epiglottis og hypofarynx samt præmaligne neoplasmer) ligger anatomisk og biologisk tættere på den oprindelige anvendelse, men heller ikke for dem foreligger der kliniske forsøg eller litteratur i datagrundlaget.
 
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Odontogen cyste | 99,77 % | Godartede, væskefyldte læsioner behandlet ved enukleation eller marsupialisation. Lysaktiveret cytotoksicitet har ingen klar rolle. |
-| Præmalign neoplasi | 99,77 % | Mekanistisk mest troværdig, da PDT kan fjerne overfladiske abnorme epitelforandringer (fx oral dysplasi eller leukoplaki). Kategorien er bred, og der er ingen data for temoporfin. |
-| Neoplasi i epiglottis | 99,76 % | Området er en del af de øvre luft- og fordøjelsesveje og dermed i store træk en delindikation af den eksisterende indikation snarere end egentlig repurposing. Der er ingen specifik evidens. |
-| Tumor i testis og paratestis | 99,76 % | Ingen klar mekanistisk begrundelse. Tumorerne ligger dybt, lysleverance er upraktisk, og PDT har begrænset vævspenetration. |
+---
 
-## Klinisk evidens
+## Dokumentation fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen registrerede kliniske forsøg for nasofaryngealt teratom.
+
+---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relevant litteratur for nasofaryngealt teratom.
 
-## Markedsinformation i Danmark
+Bemærk, at to publikationer er knyttet til andre forudsagte sygdomme på listen. De omhandler ikke nasofaryngealt teratom og tæller derfor ikke som evidens for denne indikation:
+- PMID [26072296](https://pubmed.ncbi.nlm.nih.gov/26072296/) (2015, Photodiagnosis and Photodynamic Therapy): fotodynamisk behandling som supplement til kirurgi ved recidiverende maligne tumorer i bihulerne. Undersøger muligvis ikke temoporfin specifikt.
+- PMID [26179387](https://pubmed.ncbi.nlm.nih.gov/26179387/) (2015, World Journal of Surgical Oncology): postoperativ temoporfin-medieret PDT efter robotassisteret redningskirurgi ved recidiverende pladecellekarcinom i tungebasis (foreløbige erfaringer).
+
+---
+
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104244807 | Foscan (biolitec Pharma ltd.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28104244807 | Foscan | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
+
+---
 
 ## Cytotoksicitet
 
-Temoporfin er et lægemiddel mod kræft, men virker som lysaktiveret fotosensibilisator og ikke som konventionelt cytostatikum.
+Temoporfin er ikke et klassisk cytotoksisk kemoterapeutikum, men en fotosensibilisator, der virker sammen med lys. Der foreligger ingen toksicitetsdata i datagrundlaget. Se produktresuméet (SmPC) for advarsler og forsigtighedsregler, herunder fotosensibilitet og håndtering.
 
-| Punkt | Indhold |
-|------|------|
-| Klassifikation | Fotosensibilisator til fotodynamisk terapi (ikke konventionelt cytotoksisk middel) |
-| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) |
-| Emetogent potentiale | Se produktresuméet (SmPC) |
-| Monitorering | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
-
-Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
+---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktioner i de indsamlede data, og der er ingen registrerede kontraindikationer fra videnbasen. Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler, så se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der foreligger ingen sikkerhedsdata i det sammenstillede datagrundlag (advarsler, kontraindikationer og lægemiddelinteraktioner). Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-Forudsigelserne er alene baseret på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer. Sikkerhedsdata fra produktresuméet og oplysninger om virkningsmekanismen mangler, og for flere af forudsigelserne (teratom, testistumor, odontogen cyste) er der ingen plausibel mekanistisk begrundelse.
+Forudsigelsen for nasofaryngealt teratom bygger udelukkende på modellen (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur om denne sygdom, og den biologiske og kliniske begrundelse er svag, da teratomer typisk behandles kirurgisk.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Målrettet litteratursøgning efter temoporfin-PDT ved oral dysplasi og præmaligne læsioner, som er den mest lovende retning
-- Afklaring af, om neoplasi i epiglottis allerede er dækket af den eksisterende indikation
-- Vurdering af administrationsvej og lysleverance for hver forudsagt indikation
+- Data om virkningsmekanisme (MOA)
+- Sikkerhedsoplysninger fra produktresuméet (advarsler, kontraindikationer, interaktioner)
+- Den godkendte indikationstekst for Foscan i Danmark
+- Litteratursøgning og evt. prækliniske data direkte for nasofaryngealt teratom
+- Alternativt en vurdering af mere plausible kandidater fra forudsigelseslisten, fx neoplasmer i epiglottis, hypofarynx og præmaligne slimhindelæsioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

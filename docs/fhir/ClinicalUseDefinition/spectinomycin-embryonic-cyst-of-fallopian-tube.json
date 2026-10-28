@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "embryonic-cyst-of-fallopian-tube",
-          "display": "embryonic cyst of fallopian tube"
-        }
-      ],
-      "text": "embryonic cyst of fallopian tube",
       "concept": {
         "text": "embryonic cyst of fallopian tube"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9952
     }
   ]
 }

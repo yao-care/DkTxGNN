@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ceftolozane: forudsagt ny indikation Ureaplasma-uretritis (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion"
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
+last_modified_at: 2026-10-27
+description: "Ceftolozane: forudsagt ny indikation Ureaplasma-urethritis (Ureaplasma urethritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ceftolozane
@@ -33,82 +33,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ceftolozan: Fra urinvejsinfektion til Ureaplasma-uretritis
+## Ceftolozan: Cephalosporin med beta-lactam-virkning → Ureaplasma-urethritis (Ureaplasma urethritis)
 {: .text-alpha }
 
-## Resumé i en sætning
+## Kort resumé
 
-Ceftolozan er et cefalosporin-antibiotikum (beta-lactam), som oprindeligt anvendes til behandling af urinvejsinfektion.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **Ureaplasma-uretritis**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen bygger udelukkende på modellen, og den biologiske sandsynlighed vurderes som lav.
+Ceftolozan er et cephalosporin-antibiotikum (beta-lactam), som markedsføres i Danmark i kombination med tazobactam under handelsnavnet Zerbaxa. Den væsentligste prædiktion fra TxGNN-modellen er **Ureaplasma-urethritis (Ureaplasma urethritis)**. Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne retning, og mekanismen vurderes som biologisk usandsynlig.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urinvejsinfektion (godkendt indikationstekst er ikke angivet i de indsamlede data for den danske tilladelse) |
-| Forudsagt ny indikation | Ureaplasma-uretritis |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Ureaplasma-urethritis (Ureaplasma urethritis) |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ceftolozan er et beta-lactam-cefalosporin med aktivitet primært mod gramnegative bakterier, især *Pseudomonas aeruginosa*. Dets virkning ved urinvejsinfektion er kendt, og det er sammen med tazobactam godkendt til komplicerede urinvejsinfektioner.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Ceftolozan er et beta-lactam-cephalosporin med aktivitet primært mod gramnegative bakterier, især *Pseudomonas aeruginosa* og Enterobacterales. Det virker ved at hæmme bakteriens celleväggssyntese.
 
-Forudsigelsen er dog mekanistisk usandsynlig. *Ureaplasma* mangler cellevæg, og beta-lactamer, som hæmmer cellevægssyntesen, er derfor i sagens natur uvirksomme mod organismen. Den høje modelscore skyldes sandsynligvis en grafbaseret artefakt, drevet af den fælles tilknytning til urogenitale infektioner.
+*Ureaplasma* mangler cellevæg. Beta-lactamer er derfor i sig selv uvirksomme mod organismen. Den høje modelscore skyldes sandsynligvis en statistisk sammenhæng i modellens datagrundlag knyttet til urogenitale infektioner og ikke en reel farmakologisk sammenhæng. Mekanismen vurderes derfor som biologisk usandsynlig.
 
-**Øvrige forudsagte indikationer (rangeret 2-10)** har alle evidensniveau L4-L5 og anbefalingen Hold:
+## Kliniske forsøg
 
-| Rang | Forudsagt indikation | Score | Vurdering |
-|---|---|---|---|
-| 2 | Gonokok-uretritis | 99,89 % | Cefalosporiner som klasse er etableret behandling, men ceftolozan er optimeret til *Pseudomonas* og Enterobacterales, kun intravenøst, og der er ingen data for *N. gonorrhoeae*. Veletablerede alternativer findes. |
-| 3 | Inflammatorisk sygdom i uterus | 99,88 % | Infektionerne er ofte polymikrobielle; begrænset anaerob og ingen atypisk dækning. Kun svagt indirekte grundlag. |
-| 4 | Xantogranulomatøs pyelonefritis | 99,88 % | Indirekte sandsynlighed via godkendelsen til kompliceret urinvejsinfektion og pyelonefritis, men behandlingen er oftest kirurgisk (nefrektomi). |
-| 5 | Polyklonalt hyperviskositetssyndrom | 99,52 % | Ingen plausibel antibakteriel mekanisme; sandsynligvis artefakt. |
-| 6 | Hyperamylasæmi | 99,52 % | Laboratoriefund, ikke en infektion; sandsynligvis artefakt. |
-| 7 | Urogenital tuberkulose | 99,50 % | *M. tuberculosis* er iboende resistent over for de fleste beta-lactamer (BlaC). |
-| 8 | Medfødt analbuminæmi | 99,44 % | Ingen antibakteriel målstruktur; sandsynligvis artefakt. |
-| 9 | Blodtypeinkompatibilitet | 99,22 % | Ingen plausibel mekanisme; cefalosporiner kan selv give immunmedieret hæmolyse. |
-| 10 | Præmaligne hæmatologiske sygdomme | 99,11 % | Ingen mekanisme; sandsynligvis grafartefakt. |
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-## Klinisk forsøgsevidens
+## Litteratur
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-## Litteraturevidens
+## Markedsinformation i Danmark
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
-
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105499514 | Zerbaxa (Merck Sharp & Dohme B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28105499514 | Zerbaxa | Pulver til koncentrat til infusionsvæske, opløsning | – |
+
+Produktet er et enkeltstofspræparat i de lokale data og er registreret som gyldigt. Indehaveren er Merck Sharp & Dohme B.V.
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (14 registrerede interaktioner, alle af moderat sværhedsgrad):
-- **Aminoglykosider:** kanamycin, neomycin, streptomycin, amikacin (inkl. liposomal) og gentamicin
-- **Antikoagulantia:** warfarin og dicoumarol
-- **Andre:** chloramphenicol, ethinylestradiol og mycophenolsyre
+**Lægemiddelinteraktioner:** Der er identificeret 14 interaktioner af moderat sværhedsgrad. De vigtigste er:
+- Aminoglykosider: kanamycin, neomycin, streptomycin, amikacin (inkl. liposomal), gentamicin
+- Antikoagulantia: warfarin, dicoumarol
+- Chloramphenicol
+- Ethinylestradiol
+- Mycophenolsyre
 
-Der foreligger ikke data om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller litteratur, og virkningsmekanismen er biologisk usandsynlig, da *Ureaplasma* mangler cellevæg. Ingen af de ti forudsagte indikationer har tilstrækkelig støtte til at komme videre.
+Forudsigelsen bygger udelukkende på modellen uden kliniske forsøg eller publikationer, og *Ureaplasma* mangler cellevæg, hvilket gør beta-lactamer ineffektive. Evidensniveauet er L5.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé for Zerbaxa fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation), da manglen på disse data blokerer sikkerhedsscreeningen
-- In vitro-følsomhedsdata og, hvis relevant, kliniske data for de mest plausible kandidater (f.eks. xantogranulomatøs pyelonefritis og gonokok-uretritis)
-- Afklaring af administrationsvej og kompatibilitet (ceftolozan findes kun som intravenøs infusion)
+**For at komme videre kræves:**
+- Laboratoriedata (in vitro-følsomhed) for ceftolozan mod *Ureaplasma* – ud fra mekanismen er det dog usandsynligt, at sådanne data vil støtte indikationen
+- Data om virkningsmekanismen og produktresuméets advarsler og kontraindikationer
+- Vurdering af, om etablerede alternativer allerede dækker behovet (taler imod yderligere udvikling)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

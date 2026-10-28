@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cilastatin
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 194
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cilastatin: forudsagt ny indikation Pneumoni (hospitalserhvervet og ventilatorassocieret bakteriel pneumo… (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, peritonitis, endokardi…"
+evidence_level: L3
+indication_count: 9
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+last_modified_at: 2026-10-27
+description: "Cilastatin: forudsagt ny indikation Staphylococcus aureus-infektion (staphylococcus aureus infection) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cilastatin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,76 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cilastatin: Fra bakterielle infektioner til lungebetændelse (pneumoni)
+## Cilastatin: dehydropeptidase-I-hæmmer → Staphylococcus aureus-infektion (staphylococcus aureus infection)
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Cilastatin er en hæmmer af enzymet dehydropeptidase-I i nyrerne og gives udelukkende i fast kombination med antibiotikummet imipenem, bl.a. ved bakteriel lungebetændelse, bughindebetændelse og endokarditis.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pneumoni** (rang 6 blandt forudsigelserne), understøttet af **11 kliniske forsøg** og **20 publikationer** i de indsamlede data.
-Bemærk, at pneumoni overlapper med de allerede kendte indikationer, så der er ikke tale om egentlig omplacering. Den antibakterielle effekt stammer fra imipenem, ikke fra cilastatin alene.
-
----
+Cilastatin er en hæmmer af enzymet dehydropeptidase-I i nyrerne og bruges sammen med imipenem for at beskytte det mod nedbrydning. TxGNN-modellen forudsiger, at cilastatin kan være relevant ved **Staphylococcus aureus-infektion (staphylococcus aureus infection)**. Evidensen er begrænset: **1 klinisk forsøg** (indirekte) og **20 publikationer** er fundet, men ingen studier undersøger cilastatin alene, og en eventuel effekt skyldes sandsynligvis imipenem.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakteriel lungebetændelse, peritonitis, endokarditis m.fl. (fra vidensgrafen; produkternes indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Pneumoni (hospitalserhvervet og ventilatorassocieret bakteriel pneumoni i de relevante forsøg) |
-| TxGNN-forudsigelsesscore | 99,81 % |
-| Evidensniveau | L1 (flere gennemførte fase 3-RCT'er med imipenem/cilastatin-holdige regimer; cilastatins selvstændige bidrag er ikke isoleret) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Staphylococcus aureus-infektion (staphylococcus aureus infection) |
+| TxGNN-forudsigelsesscore | 0,9994 |
+| Evidensniveau | L3 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Anbefalet beslutning | Hold |
 
-**Bemærk om de øvrige forudsigelser:** Den højest rangerede forudsigelse, *Staphylococcus aureus*-infektion (score 99,94 %, evidensniveau L3), har kun indirekte støtte. Øvrige forudsigelser (kronisk rhinosinuitis, sinuitis, paratyfus, bronkitis, salmonellose m.fl.) har enten ingen evidens (L5) eller kun gammel, indirekte evidens (L3-L4). Forudsigelsen om neoplasmer i bihuler og diffus sklerodermi er sandsynligvis grafartefakter uden plausibel mekanisme.
+## Hvorfor er denne forudsigelse rimelig?
 
----
+Detaljerede data om virkningsmekanisme for cilastatin er ikke tilgængelige i de indsamlede data. Det er dog kendt, at cilastatin ikke har egen antibakteriel aktivitet. Det hæmmer dehydropeptidase-I i nyrerne og forhindrer dermed nedbrydning af imipenem, så antibiotikaet bliver i kroppen i højere koncentration.
 
-## Hvorfor er forudsigelsen rimelig?
+Forudsigelsen afspejler således kombinationspartneren: Imipenem/cilastatin er et bredspektret carbapenem-præparat, og der er historiske kliniske data for behandling af både meticillinfølsom (MSSA) og meticillinresistent (MRSA) Staphylococcus aureus. Et nyere case-kommentar beskriver desuden imipenem/cilastatin sammen med fosfomycin ved vanskelig behandlelig MRSA-infektion. Der er tale om en effekt fra kombinationspartneren og ikke en selvstændig cilastatin-effekt.
 
-De data, der er indsamlet til denne rapport, indeholder ikke detaljerede oplysninger om virkningsmekanismen. Ud fra kendt viden er cilastatin en hæmmer af dehydropeptidase-1 i nyretubuli. Stoffet har ingen egen antibakteriel aktivitet, men forhindrer nedbrydning af imipenem i nyrerne og dermed ophobning af nefrotoksiske metabolitter. Dermed forlænges imipenems eksponering.
+## Evidens fra kliniske forsøg
 
-Pneumoni er allerede blandt de kendte anvendelsesområder for kombinationen (bakteriel og streptokokpneumoni). Modellens høje score afspejler derfor sandsynligvis, at cilastatin i vidensgrafen er tæt knyttet til imipenems antibakterielle indikationer. Fase 3-forsøg med imipenem/cilastatin/relebactam ved hospitalserhvervet og ventilatorassocieret pneumoni understøtter kombinationen, men ikke cilastatin som selvstændigt aktivt stof.
-
----
-
-## Klinisk evidens (kliniske forsøg)
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Fase 3 | Gennemført | 537 | Imipenem/cilastatin/relebactam vs. piperacillin/tazobactam ved HABP/VABP; non-inferiority på samlet dødelighed (direkte evidens for kombinationen) |
-| [NCT05204563](https://clinicaltrials.gov/study/NCT05204563) (EudraCT 2022-000081-18; EUCTR 2022-501952-27-00) | Fase 3 | Gennemført | 450 | Imipenem/cilastatin/XNW4107 vs. imipenem/cilastatin/relebactam ved HABP/VABP |
-| [NCT00080496](https://clinicaltrials.gov/study/NCT00080496) | Fase 3 | Gennemført | 430 | Tigecyclin vs. imipenem/cilastatin ved nosokomiel pneumoni |
-| [NCT00589693](https://clinicaltrials.gov/study/NCT00589693) | Fase 3 | Afsluttet før tid | 274 | Doripenem vs. imipenem/cilastatin ved ventilatorassocieret pneumoni |
-| [NCT03894046](https://clinicaltrials.gov/study/NCT03894046) | Fase 3 | Gennemført | 207 | Sulbactam-durlobactam ved *Acinetobacter*-infektioner; imipenem/cilastatin sandsynligvis baggrundsbehandling |
-| [NCT00707239](https://clinicaltrials.gov/study/NCT00707239) | Fase 2 | Afsluttet før tid | 108 | To doser tigecyclin vs. imipenem/cilastatin ved hospitalserhvervet pneumoni |
-| [NCT00515034](https://clinicaltrials.gov/study/NCT00515034) | Fase 2 | Gennemført | 146 | Doripenem vs. imipenem ved komplicerede intraabdominale infektioner eller VAP |
-| [NCT00445094](https://clinicaltrials.gov/study/NCT00445094) | Fase 4 | Gennemført | 120 | Strategi med de-eskalering af antibiotika ved pneumoni på intensivafdeling |
-| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Fase 4 | Ukendt | 60 | Linezolid alene eller sammen med carbapenem ved MRSA-pneumoni (carbapenemets identitet er ikke bekræftet) |
-| [NCT05561764](https://clinicaltrials.gov/study/NCT05561764) | Fase 4 | Afsluttet før tid | 4 | Farmakokinetik og sikkerhed af imipenem/cilastatin/relebactam ved cystisk fibrose; for få deltagere til konklusioner |
+| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Fase 4 | Ukendt | 60 | Linezolid alene eller sammen med et carbapenem mod MRSA ved ventilatorassocieret lungebetændelse. Det er ikke bekræftet, at carbapenemet er imipenem/cilastatin, så evidensen er kun indirekte. |
 
-I de fleste forsøg er imipenem/cilastatin komparator eller baggrundsbehandling, ikke det undersøgte stof.
+## Evidens fra litteraturen
 
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | RCT | Clin Infect Dis | RESTORE-IMI 2: imipenem/cilastatin/relebactam vs. piperacillin/tazobactam ved HABP/VABP |
-| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | RCT (fase 3, non-inferiority) | Int J Infect Dis | IMI/REL vs. PIP/TAZ ved HABP/VABP |
-| [37182534](https://pubmed.ncbi.nlm.nih.gov/37182534/) | 2023 | RCT | Lancet Infect Dis | ATTACK: sulbactam-durlobactam vs. colistin, begge med imipenem/cilastatin som baggrundsbehandling |
-| [17488146](https://pubmed.ncbi.nlm.nih.gov/17488146/) | 2007 | Review | Drugs | Sammenlignende oversigt over carbapenemer; cilastatin som DHP-1-hæmmer |
-| [40854462](https://pubmed.ncbi.nlm.nih.gov/40854462/) | 2025 | Review | Clin Microbiol Infect | Håndtering af vanskeligt behandlelige *Pseudomonas aeruginosa*-infektioner |
-| [41065368](https://pubmed.ncbi.nlm.nih.gov/41065368/) | 2025 | Review | Clin Microbiol Rev | Behandlingsmuligheder ved carbapenemresistent *P. aeruginosa*, bl.a. imipenem-cilastatin-relebactam |
-| [38971203](https://pubmed.ncbi.nlm.nih.gov/38971203/) | 2024 | Systematisk review | Int J Antimicrob Agents | Farmakokinetik/farmakodynamik af nye beta-laktamer ved pneumoni med carbapenemresistente gramnegative bakterier |
-| [36522272](https://pubmed.ncbi.nlm.nih.gov/36522272/) | 2023 | Konsensusdokument | Enferm Infecc Microbiol Clin | Retningslinjer for infektioner med carbapenemresistente gramnegative bakterier |
-| [36688591](https://pubmed.ncbi.nlm.nih.gov/36688591/) | 2023 | Sundhedsøkonomisk analyse | J Comp Eff Res | Omkostningseffektivitet af IMI/REL ved HABP/VABP |
-| [30509675](https://pubmed.ncbi.nlm.nih.gov/30509675/) | 2018 | RCT (fase 2) | Lancet Infect Dis | Cefiderocol vs. imipenem-cilastatin ved komplicerede urinvejsinfektioner |
+| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Klinisk studie | Antimicrob Agents Chemother | Imipenem/cilastatin hos 23 patienter med MSSA- eller MRSA-infektioner (bløddele, endovaskulære og knogleinfektioner). |
+| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Case-kommentar | Antimicrob Agents Chemother | Imipenem/cilastatin plus fosfomycin ved refraktær MRSA-infektion. |
+| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | Review | Int J Antimicrob Agents | Oversigt over MRSA's patogenese, behandling og resistens. |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label brug af antibiotika mod multiresistente bakterier, herunder MRSA. |
+| [3859210](https://pubmed.ncbi.nlm.nih.gov/3859210/) | 1985 | Klinisk studie | Am J Med | Imipenem/cilastatin hos 17 patienter med bakteriel endokarditis. |
+| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | Dyreforsøg | J Antimicrob Chemother | Imipenem/cilastatin sammenlignet med vancomycin i kaninmodel for MRSA-endokarditis. |
+| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | Klinisk studie | Jpn J Antibiot | Kombination af arbekacin og imipenem/cilastatin mod MRSA. |
+| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | Laboratorie- og dyreforsøg | J Antimicrob Chemother | Synergi mellem vancomycin og imipenem mod MRSA in vitro og i musemodel. |
+| [12878512](https://pubmed.ncbi.nlm.nih.gov/12878512/) | 2003 | Dyreforsøg | Antimicrob Agents Chemother | Imipenem-cilastatin var mindre aktiv end vancomycin mod MRSA i systemisk infektionsmodel. |
+| [18649613](https://pubmed.ncbi.nlm.nih.gov/18649613/) | 2008 | Review | Am Fam Physician | Diabetiske fodinfektioner, hvor S. aureus er en almindelig årsag. |
 
----
+## Information om det danske marked
 
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106430220 | Andatin (Macure Pharma ApS) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-| 28106192418 | Recarbrio (Merck Sharp & Dohme B.V.) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-
-Begge tilladelser er gyldige. Begge er enkeltstofprodukter som registreret i de indsamlede data.
-
----
+| 28106430220 | Andatin | Pulver til infusionsvæske, opløsning | – |
+| 28106192418 | Recarbrio | Pulver til infusionsvæske, opløsning | – |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/risikotilstande fra vidensgrafen** (ikke fra produktresuméet): epilepsi, nyresygdom, pyoureter, *Clostridium difficile*-colitis og nekrotiserende enterokolitis hos nyfødte.
-- **Interaktioner:** Den eneste registrerede interaktion er farmakologisk, nemlig hæmning af målet dehydropeptidase-1 (tilsigtet virkning, når stoffet gives med imipenem). Der er ikke angivet interaktionsniveau.
-- Enkeltrapporter i litteraturen beskriver bivirkninger af imipenem/cilastatin, bl.a. leukocytoklastisk vaskulitis (PMID 9158321).
+Der er ikke fundet data om advarsler eller kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Der mangler godkendte advarsler og kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Fra de indsamlede interaktionsdata er der registreret én farmakologisk relation: cilastatin hæmmer målet dehydropeptidase-1, hvilket er den kendte virkning, der øger imipenems effektivitet.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med forbehold)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Flere fase 3-RCT'er understøtter imipenem/cilastatin-holdige regimer ved hospitalserhvervet og ventilatorassocieret pneumoni, og indikationen overlapper med de allerede kendte. Cilastatin virker dog kun som enzymhæmmer, så effekten kan ikke tilskrives stoffet selv. Det er derfor ikke egentlig omplacering.
+Evidensen vedrører imipenem/cilastatin som kombination, og ikke cilastatin alene. Studierne er hovedsageligt gamle, små og ukontrollerede, og det eneste kliniske forsøg er kun indirekte relevant. Cilastatins eget bidrag kan ikke adskilles fra imipenems. Cilastatin har ingen selvstændig antibakteriel virkning.
 
-**For at komme videre kræves:**
-- Gennemgang af produktresuméer (SmPC) for Andatin og Recarbrio med henblik på godkendte indikationer, advarsler og kontraindikationer
-- Detaljerede oplysninger om virkningsmekanisme (fx fra DrugBank)
-- Afklaring af, om forslaget skal vurderes som kombinationsbehandling frem for som cilastatin alene
-- Særlig opmærksomhed på patienter med nyresygdom eller epilepsi samt risiko for *C. difficile*-colitis
-- Lav prioritet for øvrige forudsigelser uden evidens (kronisk rhinosinuitis, paranasal neoplasme, diffus sklerodermi, paratyfus); *S. aureus*-infektion, bronkitis og salmonellose kan fortsat være relevante forskningsspørgsmål på basis af ældre, indirekte data
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme og detaljerede sikkerhedsoplysninger fra produktresuméet (SmPC)
+- Studier, der direkte undersøger imipenem/cilastatin ved Staphylococcus aureus-infektion sammenlignet med nuværende standardbehandling
+- Vurdering af, om forudsigelsen overhovedet er relevant for cilastatin som enkeltstof, eller om den blot afspejler kombinationen med imipenem
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

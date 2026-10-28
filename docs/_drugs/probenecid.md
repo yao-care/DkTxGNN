@@ -4,17 +4,17 @@ title: Probenecid
 parent: Moderat evidens (L3-L4)
 nav_order: 686
 evidence_level: L4
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Probenecid: forudsagt ny indikation Renal hypouricæmi (evidensniveau L4). Oprindelig indikation: Urinsyregigt og hyperurikæmi"
 monitor_inn: "PROBENECID"
-predicted_indications: ["hypouricemia, renal", "hypouricemia, renal", "Lesch-Nyhan syndrome", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+description: "Probenecid: forudsagt ny indikation Renal hypouricæmi (hypouricemia, renal) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Probenecid
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Probenecid: Fra urinsyregigt til renal hypouricæmi
+## Probenecid: Renal hypouricæmi (hypouricemia, renal)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Den forudsagte virkning er mekanistisk modsat rettet af det, man ville forvente,
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urinsyregigt og hyperurikæmi (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske registrering er ikke tilgængelig) |
-| Forudsagt ny indikation | Renal hypouricæmi |
-| TxGNN-forudsigelsesscore | 99,73 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Renal hypouricæmi (hypouricemia, renal) |
+| TxGNN-forudsigelsesscore | 0.9973 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -66,7 +66,7 @@ Renal hypouricæmi skyldes hovedsageligt funktionstabsmutationer i URAT1 (SLC22A
 
 Probenecid anvendes i stedet som farmakologisk prøvestof i studier af nyrernes håndtering af urat, bl.a. til at karakterisere defekter i reabsorption og sekretion hos patienter med renal hypouricæmi.
 
-Modellen foreslår også andre indikationer med højt score, nemlig **Lesch-Nyhans syndrom** (score 99,39 %) og **partiel HPRT-mangel** (score 99,37 %). Begge giver purinoverproduktion og hyperurikæmi. Probenecid kan teoretisk sænke serum-urat, men løser ikke den underliggende overproduktion og øger risikoen for urinsyrenefropati og nyresten. Xanthinoxidasehæmmere (f.eks. allopurinol) er standardbehandling. Ved Lesch-Nyhan påvirker probenecid desuden ikke de neuroadfærdsmæssige symptomer, som er det primære uopfyldte behov.
+Modellen foreslår også andre indikationer med højt score, nemlig **Lesch-Nyhans syndrom** (score 0,9939) og **partiel HPRT-mangel** (score 0,9937). Begge giver purinoverproduktion og hyperurikæmi. Probenecid kan teoretisk sænke serum-urat, men løser ikke den underliggende overproduktion og øger risikoen for urinsyrenefropati og nyresten. Xanthinoxidasehæmmere (f.eks. allopurinol) er standardbehandling. Ved Lesch-Nyhan påvirker probenecid desuden ikke de neuroadfærdsmæssige symptomer, som er det primære uopfyldte behov.
 
 ---
 
@@ -108,7 +108,7 @@ For Lesch-Nyhans syndrom er der kun to indirekte publikationer (en beregningsmod
 ## Sikkerhedsovervejelser
 
 **Kontraindikationer/sygdomme med risikosignal (fra TxGNN-vidensgrafen, ikke fra produktresumé):**
-Vidensgrafen peger på forbindelser til bl.a. leversvigt, nyresygdom og nedsat nyrefunktion, blodsygdomme (trombocytopeni, leukopeni, agranulocytose, neutropeni og flere medfødte former for neutropeni), mavesår, muskelsygdomme (myopati, rabdomyolyse, familiær periodisk paralyse), samt diarrésygdomme (herunder *Clostridium difficile*-colitis og nekrotiserende enterokolitis hos nyfødte).
+TxGNN-modellen (deep learning) giver score for bl.a. leversvigt, nyresygdom og nedsat nyrefunktion, blodsygdomme (trombocytopeni, leukopeni, agranulocytose, neutropeni og flere medfødte former for neutropeni), mavesår, muskelsygdomme (myopati, rabdomyolyse, familiær periodisk paralyse), samt diarrésygdomme (herunder *Clostridium difficile*-colitis og nekrotiserende enterokolitis hos nyfødte). Scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **Lægemiddelinteraktioner:** I alt 71 interaktioner er identificeret. De vigtigste:
 - **Alvorlige (Major):** phenylbutyrinsyre, glycerolphenylbutyrat

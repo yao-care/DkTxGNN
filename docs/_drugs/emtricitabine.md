@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 303
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Emtricitabine: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Emtricitabine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Emtricitabin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Emtricitabine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Emtricitabin er en nukleosid-revers-transkriptasehæmmer, der oprindeligt anvend
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion, AIDS (fra videnbasen; de danske godkendelsesdata indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Felint erhvervet immundefektsyndrom |
-| TxGNN-forudsigelsesscore | 99,92 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 18 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-forudsigelsesscore | 0.9992 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Emtricitabin er en nukleosid-revers-transkriptasehæmmer, der oprindeligt anvend
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Emtricitabin tilhører klassen af nukleosid-revers-transkriptasehæmmere (NRTI). Ud fra klasseviden hæmmer det HIV-1's revers transkriptase, efter at stoffet er fosforyleret i cellen, og virker ved kædeterminering.
 
-Kattens immundefektvirus (FIV) er et lentivirus, der er beslægtet med HIV, og som også afhænger af revers transkriptase. Der er derfor en plausibel mekanistisk forbindelse. Den høje score på 99,92 % afspejler primært ligheden med HIV-relaterede indikationer og er ikke klinisk evidens. Følsomheden af FIV's revers transkriptase over for emtricitabin er kun støttet af én indirekte veterinær rapport.
+Kattens immundefektvirus (FIV) er et lentivirus, der er beslægtet med HIV, og som også afhænger af revers transkriptase. Der er derfor en plausibel mekanistisk forbindelse. Den høje score på 0,9992 afspejler primært ligheden med HIV-relaterede indikationer og er ikke klinisk evidens. Følsomheden af FIV's revers transkriptase over for emtricitabin er kun støttet af én indirekte veterinær rapport.
 
 Det bør desuden bemærkes, at forudsigelsen vedrører en veterinær sygdom og dermed ikke en ny human indikation. Den har derfor begrænset værdi for lægemiddelrepurposing til mennesker.
 

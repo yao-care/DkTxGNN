@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 376
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med og uden aura)"
 monitor_inn: "Fremanezumab"
-predicted_indications: ["atrophoderma vermiculata", "atrophoderma vermiculata", "ulerythema ophryogenesis", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "antithrombin deficiency type 2"]
+predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Fremanezumab: Fra migræne til migræne med hjernestammeaura
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Opsummering i en sætning
 
 Fremanezumab er et humaniseret monoklonalt antistof mod CGRP (calcitonin gene-related peptide), som oprindeligt anvendes til forebyggelse af migræne.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **migræne med hjernestammeaura** (en undertype af migræne med aura).
 Der er endnu **ingen registrerede kliniske forsøg** og **20 publikationer** i de indsamlede data, men ingen af dem undersøger hjernestammeaura specifikt.
 
 ---
@@ -48,12 +47,12 @@ Der er endnu **ingen registrerede kliniske forsøg** og **20 publikationer** i d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med og uden aura) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Atrophoderma vermiculata |
+| TxGNN-forudsigelsesscore | 0.9904 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (fortsat som forskningsspørgsmål) |
 
 Bemærk: Den godkendte indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data. Den oprindelige indikation er derfor baseret på de indikationer, der fremgår af videnbasen (migræne).
@@ -133,14 +132,10 @@ Fremanezumab er allerede markedsført til migræne, og mekanismen er plausibel, 
 
 ## Øvrige forudsigelser med lav prioritet
 
-De øvrige forudsigelser har score mellem 96 % og 99 %, men ingen kliniske forsøg, ingen litteratur og ingen plausibel mekanistisk sammenhæng med CGRP-hæmning (evidensniveau L5, anbefaling: Hold):
 
 | Forudsagt indikation | TxGNN-score |
 |------|------|
-| Atrophoderma vermiculata | 99,04 % |
-| Ulerythema ophryogenes | 98,64 % |
-| Heparin cofactor 2-mangel | 96,88 % |
-| Antithrombinmangel type 2 | 96,37 % |
+| Atrophoderma vermiculata | 0,9904 |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

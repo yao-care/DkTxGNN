@@ -50,10 +50,10 @@ Der er **ingen registrerede kliniske forsøg**, men **10 publikationer** (heribl
 |------|------|
 | Oprindelig indikation | Duodenalsår (ifølge den viden, der er brugt i modellen; indikationsteksten i den danske registrering er tom) |
 | Forudsagt ny indikation | Duodenogastrisk refluks |
-| TxGNN-forudsigelsesscore | 99,37 % |
+| TxGNN-forudsigelsesscore | 0,9937 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger ikke i øjeblikket detaljerede data om virkningsmekanismen i de d
 
 Ved alkalisk (galde-)refluksgastritis og -øsofagitis skyldes slimhindeskaden tilbagestrømmet galde og bugspytkirtelsekret og ikke kun mavesyre. Derfor er en slimhindebeskyttende og galdebindende effekt biologisk plausibel, og den høje TxGNN-score er i overensstemmelse hermed.
 
-Bemærk, at koblingen bygger på sucralfats kendte egenskaber og ikke på en registreret mekanismepost. Modellen forudsagde også **duodenal obstruktion** (score 99,30 %), men her er der ingen troværdig mekanistisk kobling. Sucralfat kan ikke afhjælpe en mekanisk forsnævring, og scoren afspejler sandsynligvis nærheden til duodenalsår i vidensgrafen. Denne forudsigelse (evidensniveau L5) anbefales sat på pause (Hold) og behandles ikke videre i rapporten.
+Bemærk, at koblingen bygger på sucralfats kendte egenskaber og ikke på en registreret mekanismepost. Modellen forudsagde også **duodenal obstruktion** (score 0,9930), men her er der ingen troværdig mekanistisk kobling. Sucralfat kan ikke afhjælpe en mekanisk forsnævring, og scoren stammer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Denne forudsigelse (evidensniveau L5) anbefales sat på pause (Hold) og behandles ikke videre i rapporten.
 
 ---
 

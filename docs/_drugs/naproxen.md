@@ -4,17 +4,17 @@ title: Naproxen
 parent: Kun modelforudsigelse (L5)
 nav_order: 575
 evidence_level: L5
-indication_count: 8
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Naproxen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Ifølge videngrafe…"
 monitor_inn: "NAPROXEN"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Naproxen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Naproxen: Fra gigt og smertetilstande til brachydaktyli-syndaktyli-syndrom
+## Naproxen: Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Naproxen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der oprindeligt bruges mod smerte og betændelse ved bl.a. leddegigt, slidgigt, Bechterews sygdom, urinsyregigt og migræne.
-TxGNN-modellen forudsiger, at det kan have effekt ved **brachydaktyli-syndaktyli-syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen er alene baseret på en videngraf.
+TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **brachydaktyli-syndaktyli-syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen kommer alene fra TxGNN-modellen (deep learning) og afspejler ikke biologisk evidens.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **brachydaktyli-syndaktyli
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser. Ifølge videngrafen bl.a. leddegigt, slidgigt, Bechterews sygdom, urinsyregigt, bursitis, tendinitis og migræne |
-| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
-| TxGNN-forudsigelsesscore | 99,35 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) |
+| TxGNN-forudsigelsesscore | 0.9935 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekani
 
 Brachydaktyli-syndaktyli-syndrom er en medfødt, genetisk betinget misdannelse af hænder og fødder. Betændelseshæmning forventes ikke at kunne korrigere en udviklingsmæssig skeletdefekt. På sit højeste kunne naproxen give symptomatisk smertelindring, hvilket ikke er en sygdomsmodificerende indikation.
 
-Den høje score afspejler sandsynligvis nærhed i videngrafen til muskel- og skeletrelaterede sygdomme blandt naproxens oprindelige indikationer snarere end en biologisk forklaring. Den samme vurdering gælder de øvrige forudsigelser med høje scorer i datasættet: kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (99,22 %), akromesomelisk dysplasi af Hunter-Thompson-typen (99,17 %) og brachyolmi-amelogenesis imperfecta-syndrom (99,06 %). Alle er sjældne, genetiske skeletsygdomme uden dokumenteret mekanistisk kobling til COX-hæmning.
+Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens. Den samme vurdering gælder de øvrige forudsigelser med høje scorer i datasættet: kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (0.9922), akromesomelisk dysplasi af Hunter-Thompson-typen (0.9917) og brachyolmi-amelogenesis imperfecta-syndrom (0.9906). Alle er sjældne, genetiske skeletsygdomme uden dokumenteret mekanistisk kobling til COX-hæmning.
 
 ---
 

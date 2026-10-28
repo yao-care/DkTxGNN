@@ -4,17 +4,17 @@ title: Theophylline
 parent: Kun modelforudsigelse (L5)
 nav_order: 820
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Theophylline: forudsagt ny indikation Trombotisk sygdom (evidensniveau L5). Oprindelig indikation: Astma, kronisk bronkitis…"
+indication_count: 6
 monitor_inn: "theophylline"
-predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "acute laryngopharyngitis"]
+predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
+last_modified_at: 2026-10-23
+description: "Theophylline: forudsagt ny indikation Trombotisk sygdom (evidensniveau L5). Oprindelig indikation: Astma, bronkitis, lungeemfysem og andre luftvejssygdomme"
 ---
 
 # Theophylline
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,95 +38,84 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 ## Resumé
 
-Theophyllin er et xanthinderivat, der oprindeligt bruges som luftvejsudvidende middel ved astma, kronisk bronkitis og andre obstruktive lungesygdomme. TxGNN-modellen forudsiger, at det også kan have effekt ved **trombotisk sygdom**, med en meget høj modelscore. Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer**, der undersøger theophyllin som antitrombotisk middel, så forudsigelsen er rent beregningsbaseret.
-
----
+Theophyllin er en bronkodilator, der oprindeligt bruges til behandling af astma og andre kroniske lungesygdomme (relationer registreret i videnbasen).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **trombotisk sygdom**,
+men der er **ingen kliniske forsøg** og **ingen publikationer, der direkte undersøger denne anvendelse**.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Astma, kronisk bronkitis, lungeemfysem og andre obstruktive lungesygdomme (fra TxGNN-vidensgrafen; de danske markedsføringstilladelser har ingen indikationstekst i de indsamlede data) |
+| Oprindelig indikation | Astma, bronkitis, lungeemfysem og andre luftvejssygdomme (relationer registreret i videnbasen; de danske tilladelser indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Trombotisk sygdom |
-| TxGNN-forudsigelsesscore | 99,62 % |
+| TxGNN-forudsigelsesscore | 0,9962 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor kan forudsigelsen være rimelig?
+Der foreligger ikke data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Theophyllin er dog kendt som en uselektiv phosphodiesterasehæmmer og adenosinreceptorantagonist. Hæmning af phosphodiesterase øger cAMP i blodplader, hvilket teoretisk kan dæmpe trombocytaggregation. Der er således en mekanistisk begrundelse for forudsigelsen.
 
-Theophyllin er en uselektiv fosfodiesterase-hæmmer og adenosinreceptor-antagonist. Hæmning af fosfodiesterase øger niveauet af cAMP i blodplader, hvilket teoretisk kan dæmpe blodpladeaggregation. Det er i princippet en vej til en antitrombotisk effekt.
+Samtidig er retningen af effekten usikker: Adenosinantagonisme kan modvirke hæmning af blodplader. Ingen af de fundne publikationer tester theophyllin som antitrombotisk middel. De handler om ticlopidins farmakokinetik, analyser af trombocytmarkører, antikoagulation ved prøvehåndtering og en theophyllinsensor. Den høje score er en beregnet forudsigelse uden klinisk støtte.
 
-Mekanismen er dog dobbeltsidig. Adenosin hæmmer normalt blodpladeaktivering, så theophyllins adenosinblokade kan modvirke den cAMP-baserede effekt. Den oprindelige indikation (luftvejsudvidelse via glat muskulatur i luftvejene) har desuden ikke noget direkte biologisk slægtskab med trombose. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til rapporten. Ovenstående bygger på almen farmakologisk viden.
+## Kliniske forsøg
 
-Den høje modelscore afspejler derfor primært mønstre i vidensgrafen, ikke klinisk dokumentation.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Den fundne litteratur handler hovedsageligt om målinger af blodpladebiomarkører, farmakokinetik af andre lægemidler og analysemetoder. Ingen af artiklerne undersøger theophyllin som behandling af trombotisk sygdom.
+Ingen af de fundne publikationer undersøger theophyllin som behandling af trombotisk sygdom. Nedenfor er de mest relevante, som alle kun er indirekte relateret.
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clinical Pharmacokinetics | Farmakokinetik af ticlopidin, et blodpladehæmmende middel. Ikke theophyllin-specifik |
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Critical Reviews in Biochemistry | Prostaglandiner, blodplader og åreforkalkning. Rolle for cAMP i hæmning af blodpladeaggregation |
-| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Laboratoriestudie | General Pharmacology | Milrinon og adenosin hæmmer humane blodpladers respons via cAMP |
-| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | Kohorte | Rheumatology (Oxford) | Aktivering af blodplader og neutrofile ved Behçets sygdom |
-| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | Kohorte/klinisk | Inflammatory Bowel Diseases | Dannelse af blodplade-leukocyt-aggregater ved inflammatorisk tarmsygdom |
-| [19897460](https://pubmed.ncbi.nlm.nih.gov/19897460/) | 2010 | Klinisk studie | Heart | Blodpladereaktivitet hos patienter med koronararteriesygdom |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Analysemetode | British Journal of Haematology | Radioimmunoassay for blodpladefaktor 4. Theophyllin indgår kun som tilsætning i antikoagulansen |
-| [29220362](https://pubmed.ncbi.nlm.nih.gov/29220362/) | 2017 | Metodestudie | PLoS One | Optimeret plasmaklargøring til måling af blodpladeindhold |
-| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | Metodestudie | Cells | Betydning af antikoagulation for måling af mikroRNA i blod |
-| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Analysemetode | Analytica Chimica Acta | Elektrokemisk aptasensor til påvisning af theophyllin. Ingen terapeutisk relevans |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clinical Pharmacokinetics | Farmakokinetik for ticlopidin (anden trombocythæmmer), ikke theophyllin |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Critical Reviews in Biochemistry | Prostaglandiner, blodplader og aterosklerose; prostacyclin hæmmer aggregation via cAMP |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Laboratorie­studie | General Pharmacology | Milrinon og adenosin hæmmer trombocytrespons via cAMP |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Analytisk | Analytica Chimica Acta | Elektrokemisk sensor til måling af theophyllin; ingen trombosedata |
+| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | Metode | Cells | Antikoagulation og prøvehåndtering ved måling af mikroRNA i blod |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Metode | Platelets | Måling af opløseligt CLEC-2 som markør for trombocytaktivering |
 
----
+## Information om det danske marked
 
-## Information om markedet i Danmark
+De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof. Der foreligger ingen godkendt indikationstekst i de indsamlede data.
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101004478 | Theo-dur (Karo Pharma AB) | Depottabletter | Ikke angivet i de indsamlede data |
-| 28101164083 | Unixan (Ennogen Healthcare (Europe) Ltd) | Depottabletter | Ikke angivet i de indsamlede data |
-
-Begge tilladelser er gyldige enkeltstofpræparater til oral brug.
-
----
+| 28101004478 | Theo-dur (Karo Pharma AB) | Depottabletter | Ikke oplyst |
+| 28101164083 | Unixan (Ennogen Healthcare (Europe) Ltd) | Depottabletter | Ikke oplyst |
 
 ## Sikkerhedsovervejelser
 
-De oplysninger, der var tilgængelige i de indsamlede data, er anført nedenfor. Advarsler og kontraindikationer fra produktresuméet (SmPC) var ikke tilgængelige, og SmPC bør konsulteres.
+- **Interaktioner med andre lægemidler**: 530 kendte interaktioner er registreret. Blandt de angivne er bupropion en **alvorlig** (Major) interaktion. Moderate interaktioner omfatter bl.a. famotidin, ranitidin, cimetidin, omeprazol, rabeprazol, clarithromycin, doxycyclin, tetracyclin, minocyclin samt kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon, budesonid).
+- **Kontraindikationer registreret i videnbasen (ikke produkttekst)**: bl.a. hypertension, leversvigt, epilepsi, porfyri, nyresygdom, hypothyreoidisme, mavesår, glaukom, diabetes, diabetisk ketoacidose, godartet prostataforstørrelse, neutropeni og agranulocytose.
+- Lægemidlet har et snævert terapeutisk indeks, og serumkoncentrationen skal overvåges.
 
-- **Kontraindikationer fra vidensgrafen (ikke fra produkttekst)**: Vidensgrafen knytter theophyllin til kontraindikation ved blandt andet hypertension, leversvigt og leversygdom, epilepsi, angstlidelser, porfyri, nyresygdom, galdeblæresygdom, trombocytopeni, neutropeni og agranulocytose, hypothyroidisme, mavesår, åbenvinklet glaukom, psykotiske lidelser og skizofreni, diabetes og diabetisk ketoacidose samt benign prostatahyperplasi.
-- **Lægemiddelinteraktioner**: 530 interaktioner er registreret. Blandt de viste er **bupropion** klassificeret som alvorlig (Major). Moderate interaktioner omfatter blandt andet cimetidin, famotidin, ranitidin, omeprazol, rabeprazol, clarithromycin, doxycyclin, tetracyclin, minocyclin, kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon, budesonid) og aktivt kul. Ephedrin er klassificeret som mindre (Minor).
-- **Terapeutisk indeks**: Theophyllin har et snævert terapeutisk vindue, og toksicitet ses ved høje serumkoncentrationer. Det fremgår af litteraturen i de indsamlede data.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
----
+## Andre forudsagte indikationer (til orientering)
+
+| Forudsagt indikation | Score | Evidensniveau | Bemærkning |
+|------|------|------|------|
+| Næsehulesygdom | 0,9953 | L5 | Ét lille forsøg fra 1998 (PMID 9648963) med depot-theophyllin ved allergisk rhinitis, men ingen forsøg med den forudsagte sygdom som sådan; evidensen er indirekte |
+| Laryngotracheitis | 0,9951 | L5 | Ingen forsøg eller litteratur |
+| Trakealsygdom | 0,9949 | L5 | Kun prækliniske og veterinære data samt indirekte forsøg; ingen humane studier |
+| Faryngitis | 0,9946 | L5 | Ingen relevant litteratur om theophyllin |
+| Akut laryngofaryngitis | 0,9935 | L5 | Ingen forsøg eller litteratur |
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om trombotisk sygdom har ingen kliniske forsøg og ingen litteratur, der evaluerer theophyllin som antitrombotisk middel. Den biologiske mekanisme er desuden modsatrettet (cAMP-stigning versus adenosinblokade). Evidensniveauet er L5, og den høje modelscore alene er ikke et tilstrækkeligt grundlag for at gå videre.
+Forudsigelsen hviler alene på en beregnet score. Der findes ingen kliniske forsøg og ingen studier af theophyllin ved trombotisk sygdom, og adenosinantagonisme kan virke imod den ønskede effekt. Lægemidlets snævre terapeutiske indeks og mange interaktioner øger den sikkerhedsmæssige byrde.
 
-**For at gå videre kræves følgende:**
-- Præklinisk dokumentation (blodpladeaggregation, trombosemodeller), der viser, om theophyllin har en nettoeffekt mod trombose
-- Fuldstændige data om virkningsmekanisme
-- Advarsler og kontraindikationer fra godkendt produktresumé (SmPC)
-- En sikkerhedsvurdering af det snævre terapeutiske vindue og den store interaktionsbyrde
-
-**Bemærkning om øvrige forudsigelser:**
-De øvrige forudsigelser for theophyllin i de indsamlede data har stærkere støtte end trombotisk sygdom. Det gælder især obstruktiv lungesygdom (herunder KOL), hvor der foreligger flere fase 3-forsøg, bl.a. NCT01599871. Det er dog i vid udstrækning en eksisterende indikation og ikke egentlig repurposing. Allergisk rhinitis (under "nasal cavity disease") har et fase 2-forsøg (NCT01132781) og et lille randomiseret provokationsstudie (PMID 9648963). Disse bør vurderes særskilt.
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) og en vurdering af, om effekten på blodplader går i den ønskede retning
+- Prækliniske studier af theophyllins effekt på trombocytaggregation og trombedannelse
+- Gennemgang af produktresuméer fra Lægemiddelstyrelsen for godkendte indikationer, advarsler og kontraindikationer
+- Sikkerhedsplan for lægemiddelinteraktioner og overvågning af serumkoncentration, hvis klinisk afprøvning overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 766
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Solriamfetol: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L1). Oprindelig indikation: Narkolepsi og obstruktiv søvnapnø"
 monitor_inn: "solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
+description: "Solriamfetol: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale d…"
 ---
 
 # Solriamfetol
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Solriamfetol: Fra narkolepsi til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+## Solriamfetol: Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ og i dag understøttes retningen af **5 kliniske forsøg** (heraf 2 afsluttede) 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Narkolepsi og obstruktiv søvnapnø (de data, der er indsamlet til rapporten, indeholder ikke godkendt indikationstekst fra den danske tilladelse; indikationerne stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

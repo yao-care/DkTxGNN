@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 452
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ipratropium: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Kronisk obstruktiv lungesygdom (KOL), allergisk rhinitis…"
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ipratropium: Fra kronisk obstruktiv lungesygdom (KOL) til obstruktiv lungesygdom
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Ipratropium er et antikolinergt lægemiddel, der oprindeligt anvendes til behandling af kronisk obstruktiv lungesygdom (KOL), allergisk og vasomotorisk rhinitis, bronkitis og andre luftvejslidelser.
-TxGNN-modellen forudsiger, at det kan have effekt på **obstruktiv lungesygdom**, men denne forudsigelse ligger tæt op ad den eksisterende KOL-indikation og er derfor reelt dokumentation for den nuværende anvendelse snarere end ægte repurposing.
 Forudsigelsen understøttes af **25 registrerede kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
@@ -48,12 +47,12 @@ Forudsigelsen understøttes af **25 registrerede kliniske forsøg** og **20 publ
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk obstruktiv lungesygdom (KOL), allergisk rhinitis, vasomotorisk rhinitis, bronkitis, forkølelse, lungeemfysem (fra TxGNN-vidensgrafen; godkendt indikationstekst er ikke tilgængelig i de danske tilladelser) |
-| Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,97 % |
-| Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Nasal cavity disease |
+| TxGNN-forudsigelsesscore | 0.9986 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -119,7 +118,7 @@ Alle fire tilladelser er gyldige enkeltstofpræparater (ingen annullerede).
 
 ## Sikkerhedsovervejelser
 
-**Sygdomme, hvor lægemidlet er markeret som kontraindiceret eller bør bruges med forsigtighed (fra TxGNN-vidensgrafen, ikke fra produktresuméets tekst):**
+**Sygdomme, hvor lægemidlet er markeret som kontraindiceret eller bør bruges med forsigtighed (fra TxGNN-modellen (deep learning), ikke fra produktresuméets tekst):**
 - Hjerte-kar: hypertension, langt QT-syndrom (herunder familiært), pludseligt hjertestop, hjerteledningssygdom, myokardieiskæmi, koronarsygdom
 - Øjne: snævervinklet glaukom, okulær hypertension
 - Urinveje/prostata: benign prostatahyperplasi, blærehalsobstruktion

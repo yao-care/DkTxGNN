@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Olmesartan: Fra hypertension til migræne (forebyggelse)
+## Olmesartan: Fra hypertension til Prinzmetal-angina
 {: .text-alpha }
 
 ## Sammenfatning
@@ -50,13 +50,13 @@ Olmesartan er en angiotensin II-receptorblokker (AT1-antagonist), som oprindelig
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten for de danske tilladelser er tom). Olmesartan er kendt som et blodtrykssænkende middel. |
 | Forudsagt ny indikation (rang 1) | Prinzmetal-angina |
-| TxGNN-score (rang 1) | 99,84 % |
+| TxGNN-score (rang 1) | 0,9984 |
 | Evidensniveau (rang 1) | L5 |
 | Forudsagt ny indikation (bedst understøttet) | Migræne (migraine disorder) |
-| TxGNN-score (migræne) | 99,64 % |
+| TxGNN-score (migræne) | 0,9964 |
 | Evidensniveau (migræne) | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (Prinzmetal-angina); forskningsspørgsmål (migræne) |
 
 ---

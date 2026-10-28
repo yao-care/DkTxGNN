@@ -8,6 +8,7 @@ nav_order: 316
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Epoprostenol
@@ -53,8 +54,8 @@ Denne rapport dokumenterer de identificerede datakløfter og anbefaler en strukt
 | Forudsagt ny indikation | Ingen forudsigelsesdata tilgængelige |
 | TxGNN-forudsigelsesscore | Ingen forudsigelsesdata tilgængelige |
 | Evidensniveau | Ikke vurderbart |
-| Markedsstatus i Danmark | Ikke registreret (0 licenser på fil — sandsynligvis en datakollektionsfejl; EU centraliserede autoriseringer eksisterer) |
-| Antal markedsføringstilladelser | 0 (på fil) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** — kritiske datakløfter skal løses først |
 
 ---

@@ -4,17 +4,17 @@ title: Cerliponase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 179
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cerliponase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Neuronal ceroid lipofuscinose / infantil neuronal ceroid lipofuscinos…"
+indication_count: 9
 monitor_inn: "Cerliponase alfa"
-predicted_indications: ["Scheie syndrome", "Scheie syndrome", "Hurler syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "cholesteryl ester storage disease", "Gaucher disease", "Gaucher disease"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
+last_modified_at: 2026-10-23
+description: "Cerliponase Alfa: forudsagt ny indikation Scheies syndrom (evidensniveau L5). Oprindelig indikation: Neuronal ceroid lipofuscinose og infantil neuronal ceroid lipofuscino…"
 ---
 
 # Cerliponase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cerliponase alfa: Fra neuronal ceroid lipofuscinose til Scheie syndrom
+## Cerliponase alfa: Fra neuronal ceroid lipofuscinose til Scheies syndrom
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé i ét afsnit
 
-Cerliponase alfa er en rekombinant enzymerstatningsterapi, oprindeligt brugt til behandling af neuronal ceroid lipofuscinose (CLN2-sygdom). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom** (afsvækket MPS I), men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne retning. Forudsigelsen bygger alene på modellens netværksligheder.
+Cerliponase alfa er et rekombinant enzym (TPP1), der gives direkte i hjerneventriklerne. Lægemidlet er knyttet til neuronal ceroid lipofuscinose, herunder infantil form. Disse relationer er ikke i sig selv godkendte indikationer. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **Scheie syndrom** (score 0.9998), men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne sygdom i de data, der er indsamlet til denne rapport. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen er derfor kun modelbaseret.
 
 ---
 
@@ -46,53 +46,51 @@ Cerliponase alfa er en rekombinant enzymerstatningsterapi, oprindeligt brugt til
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Neuronal ceroid lipofuscinose / infantil neuronal ceroid lipofuscinose (kilde: TxGNN-vidensgraf, da godkendt indikationstekst for det danske produkt ikke er angivet) |
-| Forudsagt ny indikation | Scheie syndrom |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindelig indikation | Neuronal ceroid lipofuscinose og infantil neuronal ceroid lipofuscinose (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Scheies syndrom |
+| TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Cerliponase alfa er dog en rekombinant tripeptidylpeptidase 1 (TPP1), som erstatter det manglende enzym ved CLN2-sygdom.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Det vides dog, at cerliponase alfa er et rekombinant TPP1-enzym (tripeptidylpeptidase 1), som leveres intracerebroventrikulært. Det erstatter et lysosomalt enzym, som mangler ved neuronal ceroid lipofuscinose.
 
-Scheie syndrom (afsvækket MPS I) skyldes mangel på enzymet alfa-L-iduronidase og ophobning af glykosaminoglykaner. Begge sygdomme er lysosomale lagringssygdomme, og det forklarer sandsynligvis den høje TxGNN-score. Enzymerne og deres substrater er imidlertid forskellige: TPP1 nedbryder ikke glykosaminoglykaner og kan derfor ikke korrigere mangel på alfa-L-iduronidase. Scoren afspejler således kun lighed på netværksniveau, ikke en direkte mekanistisk begrundelse.
+Scheies syndrom (mild form af MPS I) skyldes mangel på det lysosomale enzym IDUA. Den eneste fællesnævner er det generelle princip om lysosomal enzymerstatning. TPP1 nedbryder ikke glykosaminoglykaner (dermatan- og heparansulfat), så der er ingen direkte overlapning i substrat. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme (her lysosomale opbevaringssygdomme), ikke biologisk evidens. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
-Øvrige forudsagte indikationer i data viser samme mønster: Hurler syndrom (svær MPS I, hvor laronidase allerede er specifik enzymerstatning), lysosomal lagringssygdom med skeletinvolvering (bred kategori, hvor skeletsygdom er overvejende perifer, mens lægemidlet gives intracerebroventrikulært), kolesterylester-lagringssygdom (LIPA-mangel, hvor sebelipase alfa er den specifikke behandling) og Gauchers sygdom (GBA1-mangel, hvor flere godkendte enzymerstatninger findes).
+Øvrige forudsagte indikationer i datasættet, for eksempel Hurlers syndrom, Gauchers sygdom, kolesterolesterlagringssygdom og Wolmans sygdom, har samme begrænsning: ingen kliniske forsøg og ingen relevante publikationer om cerliponase alfa. For flere af dem findes allerede mekanismespecifikke behandlinger.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for Scheies syndrom.
 
 ---
 
 ## Litteraturevidens
 
-For den primære forudsigelse (Scheie syndrom) foreligger der ingen relateret litteratur. For den sekundære forudsigelse Gauchers sygdom blev der fundet én publikation:
+Der er i øjeblikket ingen relateret litteratur om cerliponase alfa ved Scheies syndrom.
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/) | 2026 | Oversigtsartikel | Journal of Inherited Metabolic Disease | Generel ramme for kortlægning af naturhistorie ved lysosomale lagringssygdomme med Gauchers sygdom som model. Undersøger ikke cerliponase alfa og giver derfor ingen lægemiddelspecifik evidens. |
+Bemærk: For en anden forudsagt sygdom (Gauchers sygdom) blev der fundet én oversigtsartikel (PMID [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/), 2026, *Journal of Inherited Metabolic Disease*) om kortlægning af naturhistorie ved lysosomale opbevaringssygdomme. Den indeholder ingen data om cerliponase alfa og understøtter ikke forudsigelsen for Scheies syndrom.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105798716 | Brineura (BioMarin International Limited) | Infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28105798716 | Brineura (BioMarin International Limited) | Infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet interaktionsdata i de indsamlede data, og ingen sygdomsbaserede kontraindikationer er registreret i vidensgrafen. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -101,13 +99,14 @@ Der er ikke fundet interaktionsdata i de indsamlede data, og ingen sygdomsbasere
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af modellens netværksligheder (evidensniveau L5). Der findes hverken kliniske forsøg eller lægemiddelspecifik litteratur, og der er ingen direkte mekanistisk sammenhæng, da TPP1 ikke virker på substratet ved alfa-L-iduronidase-mangel. For beslægtede sygdomme findes desuden allerede specifikke, godkendte enzymerstatninger.
+Scoren for Scheies syndrom kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ingen kliniske forsøg eller publikationer, og der er ikke noget substratoverlap mellem TPP1 og IDUA-relateret patologi. Evidensniveauet er L5.
 
-**For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Gennemgang af produktresumé (SmPC) for advarsler og kontraindikationer hos Lægemiddelstyrelsen
-- Prækliniske data, der kan belyse en eventuel effekt på Scheie syndrom
-- Vurdering af, om intracerebroventrikulær indgivelsesvej er forenelig med målsygdommens patologi
+**For at komme videre er følgende nødvendigt:**
+- Data om virkningsmekanisme (MOA) for cerliponase alfa
+- Prækliniske data, der undersøger TPP1-erstatning ved IDUA-mangel eller MPS I
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Vurdering af, om intracerebroventrikulær administration passer til sygdommens manifestationer, som er både systemiske og neurologiske
+- Sammenligning med eksisterende, mekanismespecifik behandling (f.eks. laronidase og hæmatopoietisk stamcelletransplantation)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

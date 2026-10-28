@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Thiamine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 821
-evidence_level: L3
-indication_count: 4
-last_modified_at: 2026-10-14
-description: "Thiamine: forudsagt ny indikation Hyperthyroidisme (evidensniveau L3). Oprindelig indikation: Ikke angivet i de data…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "thiamine"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
+last_modified_at: 2026-10-23
+description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Thiamine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,77 @@ Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Thiamin: Fra vitamin B1-mangel til hyperthyroidisme
+## Thiamine: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Thiamin (vitamin B1) er markedsført i Danmark som enkeltstofpræparat i tabletter og til infusion. Det angivne datagrundlag indeholder ingen godkendt indikationstekst.
-TxGNN-modellen forudsiger, at thiamin kan have effekt ved **hyperthyroidisme**, understøttet af **1 afsluttet klinisk forsøg** (12 deltagere) og en række hovedsageligt **case reports** i litteraturen.
-Den sandsynlige forklaring er, at thiamin kan korrigere et funktionelt thiaminmangel ved hyperthyroidisme, ikke at det behandler selve skjoldbruskkirtelsygdommen.
+Thiamin (vitamin B1) er et vitamin, som i Danmark markedsføres i både tabletter og infusionspræparater. Der foreligger ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at thiamin kan have effekt ved **åbenvinklet glaukom**. Der er dog **ingen kliniske forsøg** og kun **6 publikationer**, som alle er observationelle eller mekanistiske, og ingen af dem viser effekt af thiamintilskud.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (de danske tilladelser indeholder ingen indikationstekst). Thiamin anvendes generelt til behandling og forebyggelse af B1-vitaminmangel. |
-| Forudsagt ny indikation | Hyperthyroidisme |
-| TxGNN-forudsigelsesscore | 99,44 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
-| Anbefalet beslutning | Hold (forskningsspørgsmål, ikke klar til klinisk anvendelse som behandling af hyperthyroidisme) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN-forudsigelsesscore | 0.9943 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Anbefalet beslutning | Hold |
+
+Bemærk: Den automatiske scoring i datagrundlaget angav L4 for åbenvinklet glaukom. Ingen af de citerede studier undersøger dog thiamin som behandling af sygdommen, og et enkelt ældre studie fra 1979 måler kun blodniveauer. Evidensniveauet er derfor sat til L5 efter de gældende regler.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om thiamins virkningsmekanisme i det kompilerede datagrundlag. Thiamin er dog kendt som et vitamin, der er nødvendigt for kulhydratomsætning og mitokondriel energimetabolisme, og dets virkning ved thiaminmangel er veletableret.
+Der foreligger ingen detaljerede data om virkningsmekanisme. Thiamin er kendt som en kofaktor i mitokondriets energistofskifte (pyruvatdehydrogenase, alfa-ketoglutaratdehydrogenase og transketolase). Mitokondriel dysfunktion og oxidativ stress er beskrevet som medvirkende til tab af retinale ganglieceller ved glaukom. Det giver en spekulativ, indirekte mekanistisk forbindelse.
 
-Ved hyperthyroidisme stiger stofskiftet, og forbruget og omsætningen af thiamin øges. Det kan give et funktionelt thiaminmangel med komplikationer som beriberi-lignende højtydende hjertesvigt og Wernickes encefalopati. Det ses især hos gravide med hyperemesis gravidarum og thyrotoksikose.
+Den eneste direkte thiaminrelaterede observation er et studie fra 1979, hvor 38 patienter med kronisk åbenvinklet glaukom havde statistisk signifikant lavere thiaminniveauer i blodet end 12 kontrolpersoner. En sammenhæng i et så lille materiale viser ikke, at tilskud ændrer sygdomsforløbet. Forudsigelsen skal derfor betragtes som en hypotese.
 
-Thiamin er derfor plausibelt som understøttende eller supplerende behandling af de kardiovaskulære og neurologiske komplikationer. Det virker ikke antithyroidt og påvirker ikke selve skjoldbruskkirtelaksen. Evidensen understøtter korrektion af mangel, ikke behandling af hyperthyroidisme.
+De to øvrige forudsagte indikationer (thyreoideahormonresistens og primært arveligt glaukom) er genetisk betingede sygdomme uden kendt vej, hvor thiamin kan korrigere defekten.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Ikke relevant (NA) | Afsluttet | 12 | Pilotstudie af forekomst af thiaminmangel og effekt af thiamintilskud på hjertefunktionen hos patienter med svær hyperthyroidisme. Ingen resultater er tilgængelige i datagrundlaget. |
-
-Forsøget er for lille og ikke et fase 2/3-RCT, så det kan ikke dokumentere effekt.
+Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Case report/oversigt | Critical Care Nursing Clinics of North America | Højtydende hjertesvigt ved thyrotoksikose og beriberi (thiaminmangel) |
-| [7919625](https://pubmed.ncbi.nlm.nih.gov/7919625/) | 1994 | Case report | Internal Medicine | Pulmonal hypertension ved højtydende hjertesvigt; bedring efter thiamin ved hjerteberiberi og efter thyreostatika ved hyperthyroidisme |
-| [7416185](https://pubmed.ncbi.nlm.nih.gov/7416185/) | 1980 | Caseserie | American Journal of Medicine | 23 tilfælde af beriberi-hjertesygdom hos japanske patienter |
-| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | Journal of General Internal Medicine | Wernickes encefalopati forbundet med thyrotoksikose |
-| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernickes encefalopati ved forbigående gestationel hyperthyroidisme og hyperemesis gravidarum |
-| [32934066](https://pubmed.ncbi.nlm.nih.gov/32934066/) | 2020 | Case report/oversigt | Clinical Medicine | Gravid kvinde med hyperemesis og thyrotoksikose udviklede neurologiske symptomer og MR-forandringer forenelige med Wernicke |
-| [34995426](https://pubmed.ncbi.nlm.nih.gov/34995426/) | 2021 | Case report | South Dakota Medicine | Synsforstyrrelser og Wernickes encefalopati hos patient med Graves' sygdom efter sleeve-gastrektomi |
-| [9704251](https://pubmed.ncbi.nlm.nih.gov/9704251/) | 1998 | Oversigt | Drug Safety | Behandling af kvalme og opkastning i graviditeten, herunder hyperemesis |
-| [13305517](https://pubmed.ncbi.nlm.nih.gov/13305517/) | 1955 | Klinisk fysiologisk studie | Endocrinologia e scienza della costituzione | Thiaminudskillelse i urinen efter intravenøs kocarboxylase ved hyperthyroidisme og hos raske |
-| [21064291](https://pubmed.ncbi.nlm.nih.gov/21064291/) | 1946 | Præklinisk | Federation Proceedings | Effekt af thiaminmangel og thyroideastatus på ATP i hjertemuskulatur hos rotter |
-
-Litteraturen består næsten udelukkende af case reports og ældre fysiologiske studier. Der findes ingen randomiserede studier af thiamin ved hyperthyroidisme.
+| [485004](https://pubmed.ncbi.nlm.nih.gov/485004/) | 1979 | Case-kontrol/observationelt | Annals of Ophthalmology | Patienter med kronisk åbenvinklet glaukom (n=38) havde signifikant lavere thiamin i blodet end kontroller (n=12); ingen forskel for ascorbinsyre |
+| [32214001](https://pubmed.ncbi.nlm.nih.gov/32214001/) | 2020 | Tværsnitsundersøgelse | Nutrients | Sammenhæng mellem fedme, næringsstofindtag og primær åbenvinklet glaukom hos koreanere |
+| [29565276](https://pubmed.ncbi.nlm.nih.gov/29565276/) | 2018 | Tværsnitsundersøgelse | Nutrients | Kostindtag af niacin og åbenvinklet glaukom i koreansk befolkningsundersøgelse |
+| [40402521](https://pubmed.ncbi.nlm.nih.gov/40402521/) | 2025 | Metabolomik (observationel/mekanistisk) | Investigative Ophthalmology & Visual Science | Metabolomprofil i kammervand fra glaukompatienter; metabolitter med mulig antiinflammatorisk og neurobeskyttende effekt i mus |
+| [30025119](https://pubmed.ncbi.nlm.nih.gov/30025119/) | 2018 | Molekylær profilering | Investigative Ophthalmology & Visual Science | microRNA-profiler i glaukomøjne med varierende grad af optikusneuropati |
+| [41889963](https://pubmed.ncbi.nlm.nih.gov/41889963/) | 2026 | Grundforskning (preprint) | bioRxiv | MIF-CD74-signalering medierer dysfunktion i trabekelværket ved glaukom |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 52620003793 | APOVIT B1 vitamin ekstra stærk | Tabletter | Ikke angivet |
 | 52620003493 | APOVIT B-Combin stærk | Filmovertrukne tabletter | Ikke angivet |
 | 28107099123 | Zubatmin | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
 | 28105939417 | Viant | Pulver til infusionsvæske, opløsning | Ikke angivet |
 
-Alle fire tilladelser er gyldige og gælder enkeltstofpræparater.
+Antal tilladelser: 4 (alle nationale, gyldige). Ingen af disse har angivet indikationstekst i de indsamlede data.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen sikkerhedsdata i det kompilerede datagrundlag. Der er ikke fundet registrerede lægemiddelinteraktioner, og der er ingen kontraindikationer fra videnskabsgrafen. Se det godkendte produktresumé (SPC) for sikkerhedsinformation.
+Der foreligger ikke sikkerhedsdata i de indsamlede data, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -121,24 +112,13 @@ Der foreligger ingen sikkerhedsdata i det kompilerede datagrundlag. Der er ikke 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for thiamin ved hyperthyroidisme består af ét lille afsluttet pilotforsøg (n=12) og primært case reports. De understøtter korrektion af funktionelt thiaminmangel og dets komplikationer, ikke behandling af selve hyperthyroidismen. Den høje TxGNN-score er derfor ikke i sig selv tilstrækkelig.
+Forudsigelsen bygger på en høj modelscore, men der er hverken kliniske forsøg eller interventionsstudier, og den tilgængelige litteratur er associativ eller mekanistisk. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Resultater fra NCT02767245 eller større kontrollerede studier af thiamin hos patienter med svær hyperthyroidisme og kardiovaskulære eller neurologiske komplikationer
-- Afklaring af, hvilken målgruppe der er relevant (fx patienter med påvist thiaminmangel, hyperemesis gravidarum eller højtydende hjertesvigt)
-- Gennemgang af produktresuméer for de danske præparater (indikationer, advarsler, kontraindikationer), som mangler i det nuværende datagrundlag
-- Data om thiamins virkningsmekanisme fra DrugBank
-- Vurdering af administrationsvej (oral versus intravenøs) afhængigt af klinisk scenarie
-
----
-
-## Andre forudsagte indikationer (kort oversigt)
-
-| Sygdom | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Resistens over for thyreoideahormon pga. mutation i thyreoideahormonreceptor beta | 99,43 % | L5 | Hold (ingen kliniske data eller litteratur) |
-| Primært arveligt glaukom | 99,40 % | L5 | Hold (kun modelforudsigelse) |
-| Åbenvinklet glaukom | 99,36 % | L4 | Hold (kun indirekte observationelle og metaboliske data, ingen interventionsdata) |
+- Hent indikationstekst og sikkerhedsoplysninger fra produktresuméerne hos Lægemiddelstyrelsen
+- Supplér data om virkningsmekanisme
+- Gennemfør en systematisk litteraturgennemgang og eventuelt prækliniske studier af thiamin ved glaukom
+- Planlæg kun kliniske studier, hvis prækliniske eller epidemiologiske data styrker hypotesen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

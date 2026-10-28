@@ -6,9 +6,9 @@ nav_order: 675
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pramipexole: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
 monitor_inn: "pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
+description: "Pramipexole: forudsagt ny indikation Attention deficit-hyperactivity disorder (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pramipexole
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pramipexol: Fra Parkinsons sygdom og restless legs-syndrom til attention deficit-hyperactivity disorder (ADHD)
+## Pramipexole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## Resumé
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **ADHD**, men der 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Restless legs-syndrom og Parkinsons sygdom (jf. vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN-forudsigelsesscore | 99,998 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Attention deficit-hyperactivity disorder |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

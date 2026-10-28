@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akut intermitterende por
 |------|------|
 | Oprindelig indikation | Opioidafhængighed, stofmisbrug/-afhængighed, morfinafhængighed (fra videnbasen; godkendelsesteksterne i de danske tilladelser er ikke tilgængelige) |
 | Forudsagt ny indikation | Akut intermitterende porfyri |
-| TxGNN-prædiktionsscore | 99,41 % |
+| TxGNN-prædiktionsscore | 0,9941 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,17 +61,17 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akut intermitterende por
 
 Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at buprenorfin er en delvis my-opioidagonist (og kappa-antagonist), og at det er veldokumenteret ved opioidafhængighed.
 
-Der er ikke påvist en direkte mekanistisk sammenhæng mellem opioidafhængighed og akut intermitterende porfyri. Den eneste fundne publikation beskriver anæstesihåndtering hos en patient med porfyri og handler om lægemiddelsikkerhed under operation, ikke om terapeutisk effekt. Buprenorfin overvejes til tider som en relativt sikker opioidmulighed ved porfyri, men det er en sikkerhedsbetragtning og ikke en behandlingsindikation. Den høje score (0,994) er en modelforudsigelse uden klinisk støtte.
+Der er ikke påvist en direkte mekanistisk sammenhæng mellem opioidafhængighed og akut intermitterende porfyri. Den eneste fundne publikation beskriver anæstesihåndtering hos en patient med porfyri og handler om lægemiddelsikkerhed under operation, ikke om terapeutisk effekt. Buprenorfin overvejes til tider som en relativt sikker opioidmulighed ved porfyri, men det er en sikkerhedsbetragtning og ikke en behandlingsindikation. Den høje score (0,9941) er en modelforudsigelse uden klinisk støtte.
 
 Øvrige forudsagte indikationer er endnu svagere underbyggede:
 
 | Forudsagt indikation | Score | Evidensniveau | Bemærkning |
 |------|------|------|------|
-| Lingual-facial-bukkal dyskinesi | 99,32 % | L4 | Kun indirekte litteratur (agitation ved demens, præklinik); ingen studier med dyskinesi som endepunkt |
-| Kronisk tics-lidelse | 99,13 % | L5 | Ingen forsøg eller litteratur |
-| Kontinuerlige spikes og bølger under søvn | 99,05 % | L5 | Ingen forsøg eller litteratur; ingen plausibel mekanisme |
-| Benigne rystelsesanfald | 99,03 % | L5 | Ingen forsøg eller litteratur; ugunstig risiko-gevinst-balance |
-| Ekstrapyramidal bevægelsessygdom | 99,03 % | L5 | Ingen forsøg eller litteratur; identisk score med benigne rystelsesanfald tyder på fælles grafbaseret slutning |
+| Lingual-facial-bukkal dyskinesi | 0,9932 | L5 | Kun indirekte litteratur (agitation ved demens, præklinik); ingen studier med dyskinesi som endepunkt |
+| Kronisk tics-lidelse | 0,9913 | L5 | Ingen forsøg eller litteratur |
+| Kontinuerlige spikes og bølger under søvn | 0,9905 | L5 | Ingen forsøg eller litteratur; ingen plausibel mekanisme |
+| Benigne rystelsesanfald | 0,9903 | L5 | Ingen forsøg eller litteratur; ugunstig risiko-gevinst-balance |
+| Ekstrapyramidal bevægelsessygdom | 0,9903 | L5 | Ingen forsøg eller litteratur; identisk score med benigne rystelsesanfald tyder på fælles grafbaseret slutning |
 
 ---
 

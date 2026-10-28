@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bimatoprost: forudsagt ny indikation Misdannelsessyndrom med tand- og/eller parodontalkomponent (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom, okulær hypertension, hypertrikose i øje…"
 monitor_inn: "Bimatoprost"
-predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
+last_modified_at: 2026-10-27
+description: "Bimatoprost: forudsagt ny indikation Misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal compo… (evidensniveau L5). Oprindelig indikation…"
 ---
 
 # Bimatoprost
@@ -33,69 +33,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Bimatoprost: Fra glaukom til misdannelsessyndrom med tand- og/eller parodontalkomponent
+## Bimatoprost: prostamid/prostaglandin F2-alfa-analog → misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal component)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Bimatoprost er et prostamid/prostaglandin F2-alfa-analog, der oprindeligt anvendes til åbenvinklet glaukom, okulær hypertension og hypotrikose i øjenvipperne.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **misdannelsessyndrom med tand- og/eller parodontalkomponent**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, der støtter denne retning. Forudsigelsen er udelukkende modelbaseret.
+Bimatoprost er en prostamid-analog (prostaglandin F2-alfa-analog), som anvendes som øjendråber. Den TxGNN-model, der ligger til grund for rapporten, forudsiger en mulig effekt ved **misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal component)**. Der er dog **ingen kliniske forsøg og ingen publikationer**, som understøtter denne forudsigelse, så den er udelukkende beregningsbaseret.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Åbenvinklet glaukom, okulær hypertension, hypertrikose i øjenlåg (fra vidensgrafen; godkendt indikationstekst for det danske produkt er ikke angivet i de indsamlede data) |
-| Foreslået ny indikation | Misdannelsessyndrom med tand- og/eller parodontalkomponent |
-| TxGNN-prædiktionsscore | 99,997 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal component) |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der er ikke fundet en troværdig mekanistisk sammenhæng. Bimatoprost er et prostamid/prostaglandin F2-alfa-analog, som sænker det intraokulære tryk og stimulerer hårsækvækst via FP-receptorrelaterede signalveje. Intet i denne aktivitet forbinder lægemidlet med den udviklingsmæssige patologi ved tand- eller parodontalmisdannelser.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Bimatoprost er kendt som en prostamid/prostaglandin F2-alfa-analog, som påvirker FP-receptor-lignende signalveje, bl.a. i hårsækken, hvor den forlænger anagenfasen.
 
-Den meget høje TxGNN-score (0,99997) er alene en forudsigelse fra en vidensgraf. Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen (MOA) i de indsamlede data, så scoren kan ikke kontrolleres mod kendt farmakologi. Resultatet skyldes sandsynligvis netværksartefakter i grafen frem for en reel terapeutisk begrundelse.
-
-**Andre forudsigelser i listen:** Modellen foreslog også syndrom med Dandy-Walker-malformation som hovedtræk, isoleret genetisk hårskaftsabnormitet, Ambras-type hypertrichosis universalis congenita og hypotrichosis simplex af hovedbunden. Ingen af dem har kliniske forsøg eller litteratur. Den mest biologisk plausible er **hypotrichosis simplex af hovedbunden** (score 99,996 %), fordi bimatoprost er godkendt til hypotrikose i øjenvipper og forlænger hårsækkenes vækstfase. Det er en slutning ud fra den kendte indikation og ikke dokumenteret evidens. Ved Ambras-syndrom (overdreven behåring) peger sammenhængen i modsat retning, og lægemidlet kunne i teorien forværre tilstanden.
+Der er **ikke identificeret nogen mekanistisk sammenhæng** mellem bimatoprost og syndromiske misdannelser af tænder eller parodontium. Scoren er meget høj, men er en rent beregningsmæssig forudsigelse og bør ikke tolkes som tegn på klinisk effekt. Tilstanden er et medfødt strukturelt syndrom, og en lokalt anvendt prostaglandinanalog har ingen kendt rolle i behandlingen.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for denne forudsagte indikation.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur for denne forudsagte indikation.
 
 ---
 
-## Oplysninger om det danske marked
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105564415 | Bimatoprost "Pharmathen" (Pharmathen S.A.) | Øjendråber, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28105564415 | Bimatoprost "Pharmathen" | Øjendråber, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-Oplysninger fra produktresuméet om advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Vær opmærksom på, at dette udgør en væsentlig datamangel for sikkerhedsvurderingen.
+- **Lægemiddelinteraktioner:** Der er registreret 66 mulige interaktioner, hvoraf ingen har et angivet alvorlighedsniveau. Blandt de registrerede er calcitriol, phentermin, pantoprazol, morfin, metformin, omeprazol, prednisolon, prednison, triamcinolon og simvastatin.
 
-- **Kontraindikationer/forsigtighed fra vidensgrafen** (ikke fra produkttekst): leversygdom, galdeblæresygdom, uveitis, iris-sygdom, ciliærlegemesygdom, panuveitis, makulært nethindeødem, cystoidt makulaødem og iritis.
-- **Lægemiddelinteraktioner:** 66 mulige interaktioner er identificeret i DDInter, men alle er uden klassificeret sværhedsgrad. Eksempler: calcitriol, phentermin, pantoprazol, morfin, metformin, omeprazol, palonosetron, rosiglitazon, lansoprazol, vancomycin, simvastatin, prednison, prednisolon og ondansetron.
-
-Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -104,13 +97,12 @@ Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5), uden kliniske forsøg eller litteratur og uden plausibel mekanistisk forbindelse mellem bimatoprost og tand-/parodontalmisdannelser. Sikkerhedsdata fra produktresuméet mangler desuden.
+Forudsigelsen har en meget høj modelscore, men der findes hverken kliniske forsøg, publikationer eller en plausibel mekanisme, der understøtter den. Evidensniveauet er derfor L5.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Systematisk litteratursøgning, især om topikale prostaglandinanaloger ved hypotrichosis simplex af hovedbunden som den mest plausible alternative kandidat
-- Vurdering af administrationsvej, da øjendråber næppe er egnede til tand- eller parodontale tilstande
+- En biologisk begrundelse for, hvorfor en prostamid-analog skulle påvirke tand- eller parodontiemisdannelser
+- Prækliniske data eller litteratur, der direkte omhandler tilstanden
+- Gennemgang af produktresuméet for sikkerhedsoplysninger, før eventuelle videre skridt overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Loxapine
 parent: Kun modelforudsigelse (L5)
 nav_order: 512
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Loxapine: forudsagt ny indikation Manisk bipolar affektiv lidelse (evidensniveau L5). Oprindelig indikation: Skizofreni, bipolar lidelse…"
 monitor_inn: "loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+description: "Loxapine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Loxapin: Fra skizofreni og bipolar lidelse til manisk bipolar affektiv lidelse
+## Loxapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er **ingen registrerede kliniske forsøg** i de indsamlede data, men **20 pu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni, bipolar lidelse, alvorlig affektiv lidelse (fra vidensgrafen; indikationsteksten for det danske produkt er ikke angivet) |
-| Forudsagt ny indikation | Manisk bipolar affektiv lidelse |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L1 (jf. bemærkning nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9995 |
+| Evidensniveau | L5 (jf. bemærkning nedenfor) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* Niveauet L1 er tildelt i de kompilerede data på baggrund af publiceret litteratur om to fase 3-forsøg med inhaleret loxapin. Der er ingen registrerede forsøg i datagrundlaget, og fase 3-evidensen er kun udledt af publikationstitler og er ikke verificeret her. Niveauet bør derfor tolkes med forsigtighed.

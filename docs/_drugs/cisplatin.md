@@ -8,6 +8,7 @@ nav_order: 199
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Cisplatin
@@ -51,8 +52,8 @@ Denne rapport opsummerer den aktuelle datastatus og identificerer de løsningstr
 | Forudsagt ny indikation | Ikke tilgængelig — TxGNN-modellen returnerede ingen forudsigelser |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | Ikke bestemmelig |
-| Dansk markedsstatus | Ikke markedsført (0 tilladelser fundet i nuværende datasæt) |
-| Antal markedsføringstilladelser | 0 |
+| Dansk markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Vent** |
 
 ---

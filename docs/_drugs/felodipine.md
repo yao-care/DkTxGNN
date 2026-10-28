@@ -4,17 +4,17 @@ title: Felodipine
 parent: Kun modelforudsigelse (L5)
 nav_order: 348
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Felodipine: forudsagt ny indikation Pulmonal hypertension med uklar multifaktoriel mekanisme (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Felodipine: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Felodipin: Fra hypertension til pulmonal hypertension
+## Felodipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Resumé
 
-Felodipin er en dihydropyridin-calciumkanalblokker, der oprindeligt anvendes til behandling af forhøjet blodtryk (hypertension). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension med uklar multifaktoriel mekanisme** (score 99,91 %). Der er dog **ingen kliniske forsøg** og **ingen publikationer** for netop denne indikation, så forudsigelsen er alene modelbaseret.
+Felodipin er en dihydropyridin-calciumkanalblokker, der oprindeligt anvendes til behandling af forhøjet blodtryk (hypertension). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension med uklar multifaktoriel mekanisme** (score 0,9991). Der er dog **ingen kliniske forsøg** og **ingen publikationer** for netop denne indikation, så forudsigelsen er alene modelbaseret.
 
 ---
 
@@ -46,15 +46,15 @@ Felodipin er en dihydropyridin-calciumkanalblokker, der oprindeligt anvendes til
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (hypertensive lidelser) |
-| Forudsagt ny indikation | Pulmonal hypertension med uklar multifaktoriel mekanisme |
-| TxGNN-prædiktionsscore | 99,91 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN-prædiktionsscore | 0.9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: De data, der er sammenstillet til denne rapport, indeholder ikke godkendt indikationstekst fra Lægemiddelstyrelsen. Den oprindelige indikation er derfor hentet fra TxGNN's vidensgraf.
+Bemærk: De data, der er sammenstillet til denne rapport, indeholder ikke godkendt indikationstekst fra Lægemiddelstyrelsen.
 
 ---
 
@@ -65,11 +65,11 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstilled
 Pulmonal hypertension handler om forhøjet tryk og tonus i lungernes kar. Vasodilation kan i princippet nedsætte karmodstanden, så der er en plausibel, men generisk mekanistisk sammenhæng. Forudsigelsen understøttes ikke af indikationsspecifikke data, og TxGNN-scoren alene er ikke tilstrækkelig dokumentation.
 
 Andre forudsagte indikationer i datasættet viser et varieret billede:
-- **Pulmonal hypertension pga. lungesygdom og/eller hypoxi** (score 99,91 %): 9 prækliniske/ex vivo-studier (1986–1999) om hypoxi, men ingen med pulmonale endepunkter hos patienter. Evidensniveau L4.
-- **Malign hypertensiv nyresygdom** og **malign renovaskulær hypertension** (score 99,90 %): tæt på en udvidelse af den eksisterende hypertensionsindikation. Ingen studier. L5.
-- **Braddocks syndrom** (score 99,88 %): ingen mekanistisk begrundelse eller evidens. L5.
-- **Kronisk pulmonal hjertesygdom (cor pulmonale)** (score 99,19 %): tre ældre publikationer med indirekte hæmodynamiske data. L4.
-- **Prinzmetals angina** (score 99,07 %): flere små kliniske studier (1989–1995). L3, med den stærkeste evidens blandt de forudsagte indikationer. Calciumkanalblokkere er allerede etableret førstevalg, så det er ikke et nyt repurposing-signal.
+- **Pulmonal hypertension pga. lungesygdom og/eller hypoxi** (score 0,9991): 9 prækliniske/ex vivo-studier (1986–1999) om hypoxi, men ingen med pulmonale endepunkter hos patienter. Evidensniveau L4.
+- **Malign hypertensiv nyresygdom** og **malign renovaskulær hypertension** (score 0,9990): tæt på en udvidelse af den eksisterende hypertensionsindikation. Ingen studier. L5.
+- **Braddocks syndrom** (score 0,9988): ingen mekanistisk begrundelse eller evidens. L5.
+- **Kronisk pulmonal hjertesygdom (cor pulmonale)** (score 0,9919): tre ældre publikationer med indirekte hæmodynamiske data. L4.
+- L3, med den stærkeste evidens blandt de forudsagte indikationer. Calciumkanalblokkere er allerede etableret førstevalg, så det er ikke et nyt repurposing-signal.
 
 ---
 

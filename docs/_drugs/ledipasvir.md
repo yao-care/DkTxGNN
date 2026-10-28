@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ledipasvir
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 485
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ledipasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+description: "Ledipasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ledipasvir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ledipasvir: Fra kronisk hepatitis C til hepatitis B-virusinfektion
+## Ledipasvir: Hepatitis B-virusinfektion (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Evidensen er begrænset: **ét afsluttet fase 2-forsøg uden kontrolgruppe (21 p
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion (godkendelsesteksten er ikke tilgængelig i de indsamlede data; indikationen stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatitis B-virusinfektion (hepatitis B virus infection) |
+| TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L2 (ét afsluttet fase 2-studie; lille og enkeltarmet) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; kun under studiemæssige rammer) |
 
 ---

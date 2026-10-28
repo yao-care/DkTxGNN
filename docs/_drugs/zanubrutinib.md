@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 900
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Mantelcellelymfom, B-celle-neoplasi, lymfosarkom"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Zanubrutinib"
-predicted_indications: ["myeloid leukemia", "myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "retroperitoneal neoplasm", "Ewing sarcoma", "Ewing sarcoma"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+last_modified_at: 2026-10-23
+description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Zanubrutinib: Fra mantelcellelymfom til myeloid leukæmi
+## Zanubrutinib: Myeloid leukæmi (myeloid leukemia)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Zanubrutinib er en BTK-hæmmer (Bruton tyrosinkinase), der oprindeligt anvendes til behandling af B-celle-kræftformer som mantelcellelymfom. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **myeloid leukæmi**, men understøttelsen er svag: det eneste registrerede kliniske forsøg (**1 forsøg**, fase 1) undersøger et andet lægemiddel, og de fundne **12 publikationer** omhandler hovedsageligt B-celle-sygdomme og ikke myeloid leukæmi.
+Zanubrutinib er en selektiv BTK-hæmmer (Bruton-tyrosinkinase). TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **myeloid leukæmi** (score 0.9965). Scoren stammer fra TxGNN-modellen og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der findes dog **ingen undersøgelser, der direkte belyser myeloid leukæmi**, så forudsigelsen er i praksis kun modelbaseret.
 
 ---
 
@@ -46,58 +46,59 @@ Zanubrutinib er en BTK-hæmmer (Bruton tyrosinkinase), der oprindeligt anvendes 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mantelcellelymfom, B-celle-neoplasi, lymfosarkom (fra TxGNN-vidensgrafen; den danske markedsføringstilladelse indeholder ingen indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-prædiktionsscore | 99,65 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Myeloid leukæmi (myeloid leukemia) |
+| TxGNN-forudsigelsesscore | 0.9965 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Zanubrutinib er dog kendt som en selektiv, næstegenerations BTK-hæmmer, som er godkendt til B-celle-kræftformer (mantelcellelymfom, CLL/SLL og Waldenströms makroglobulinæmi). Dens effekt i disse sygdomme er veldokumenteret.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Zanubrutinib er kendt som en næste generations BTK-hæmmer med højere selektivitet end ibrutinib og acalabrutinib. Den bruges ved B-cellemaligniteter, og publikationerne i materialet handler om kronisk lymfatisk leukæmi/småcellet lymfocytært lymfom (CLL/SLL), Waldenströms makroglobulinæmi og andre B-celle-sygdomme.
 
-Den mekanistiske sammenhæng til myeloid leukæmi er plausibel, men ikke valideret. BTK-signalering er aktiv i nogle AML-celler, hvilket kan give et teoretisk grundlag. Den støttende litteratur handler dog om B-celle-maligniteter og ikke om myeloid leukæmi. Den høje TxGNN-score afspejler derfor primært en grafbaseret forudsigelse og ikke klinisk dokumentation.
-
-Øvrige forudsigelser med lignende høje scorer (f.eks. Ewing-sarkom, ganglioneuroblastom, retroperitoneal neoplasi og en sjælden syndromal tilstand) har hverken kliniske forsøg eller litteratur og ingen identificerbar mekanistisk kobling til BTK-hæmning. De er ikke uddybet her.
+Disse sygdomme er lymfoide og ikke myeloide. BTK-signalering er undersøgt ved akut myeloid leukæmi, men de foreliggende data indeholder ingen direkte evidens for zanubrutinib ved myeloid leukæmi. Koblingen er derfor indirekte, og scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Afsluttet | 86 | Dosiseskalering af PRT2527 (CDK9-hæmmer) som monoterapi og i kombination med zanubrutinib eller venetoclax ved recidiverende/refraktære hæmatologiske maligniteter. Forsøget undersøger primært et andet lægemiddel og giver ingen direkte evidens for zanubrutinibs effekt ved myeloid leukæmi (relevans: C). |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Fase 1 | Afsluttet | 86 | Dosiseskalering af PRT2527 (CDK9-hæmmer) som monoterapi og i kombination med zanubrutinib eller venetoclax ved recidiverende/refraktære hæmatologiske maligniteter. Det fremgår ikke, at myeloid leukæmi er undersøgt. Svag relevans. |
+
+Der er ikke registreret EudraCT-identifikatorer i de tilgængelige data.
 
 ---
 
 ## Litteraturevidens
 
+Ingen af publikationerne undersøger direkte zanubrutinib ved myeloid leukæmi. De mest relevante er listet nedenfor.
+
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA (fase 3): zanubrutinib versus bendamustin + rituximab ved ubehandlet CLL/SLL, 5 års opfølgning |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Kohorte (fase 2) | Lancet Haematol | Zanubrutinib ved B-celle-maligniteter hos patienter, der ikke tålte tidligere BTK-hæmmere |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Kohorte | Blood Adv | Opdaterede resultater: zanubrutinib er veltolereret og virksomt ved CLL/SLL med intolerans over for ibrutinib/acalabrutinib |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Kohorte | Blood Adv | Analyse på tværs af studier af zanubrutinib ved CLL/SLL med del(17p) og/eller TP53-mutation (N = 301) |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | Oversigt over tyrosinkinasehæmmere ved kroniske leukæmier (CML og CLL) |
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT (fase 3) | J Clin Oncol | SEQUOIA: zanubrutinib versus bendamustin + rituximab ved ubehandlet CLL/SLL, 5 års opfølgning |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Kohorte (fase 2) | Lancet Haematol | Zanubrutinib ved B-cellemaligniteter med intolerans over for tidligere BTK-hæmmere |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Kohorte | Blood Adv | Opdaterede resultater: god tolerabilitet og effekt ved CLL/SLL med ibrutinib-/acalabrutinib-intolerans |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Kohorte | Blood Adv | Zanubrutinib ved CLL/SLL med del(17p) og/eller TP53-mutation på tværs af studier |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | TKI-æraen ved kroniske leukæmier (CML og CLL) |
 | [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | BTK-hæmmere ved Waldenströms makroglobulinæmi |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | Reaktivering af hepatitis B-virus hos patienter i behandling med BTK-hæmmere |
-| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Review | Cancers | BTK-hæmmere ved CLL: selektivitet, hypogammaglobulinæmi og infektionsrisiko |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review | Anticancer Agents Med Chem | Syntesemetoder for FDA-godkendte kræftlægemidler (2018-2021) |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case report | Front Immunol | Sjældent samtidigt forekommende Waldenströms makroglobulinæmi og B-celle akut lymfatisk leukæmi |
-
-Ingen af publikationerne dokumenterer zanubrutinibs effekt ved myeloid leukæmi.
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Kohorte | Clin Lymphoma Myeloma Leuk | Reaktivering af hepatitis B-virus hos patienter i behandling med BTK-hæmmere |
+| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Review | Cancers | BTK-hæmmere ved CLL: hypogammaglobulinæmi og infektionsrisiko |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107188324 | Brukinsa (BeOne Medicines Ireland Limited) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28107188324 | Brukinsa | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Tilladelsen er en enkeltstof-tilladelse (indehaver: BeOne Medicines Ireland Limited) og er gyldig.
 
 ---
 
@@ -105,33 +106,21 @@ Ingen af publikationerne dokumenterer zanubrutinibs effekt ved myeloid leukæmi.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (BTK-hæmmer), ikke konventionel cytotoksisk kemoterapi |
+| Klassifikation | Målrettet behandling (BTK-hæmmer), ikke konventionelt cytotoksisk |
 | Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forholdsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forholdsregler |
-| Monitoreringspunkter | Se produktresuméet (SmPC); generelt bør blodtal overvåges ved behandling af hæmatologiske maligniteter |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af kræftlægemidler |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC); typisk blodstatus samt lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er i de indsamlede data registreret 100 interaktioner. Blandt de vist er flere af alvorlig (Major) grad, bl.a.:
-- Aprepitant
-- Acetylsalicylsyre
-- Dexamethason
-- Clarithromycin
-- Cobicistat
-- Deferasirox
-- Deferipron
-- Samarium (153Sm) lexidronam
-- Ibritumomab tiuxetan
-- Tositumomab (I-131)
+- **Lægemiddelinteraktioner:** Der er i alt 100 registrerede interaktioner. Blandt de viste er flere af sværhedsgraden *Major*, bl.a. aprepitant, acetylsalicylsyre, dexamethason, clarithromycin, cobicistat, deferasirox, deferiprone, samarium (153Sm) lexidronam, ibritumomab tiuxetan og tositumomab (I-131). Der er desuden flere af moderat sværhedsgrad, bl.a. cimetidin, miconazol og clotrimazol.
+- **Hepatitis B:** Litteraturen beskriver reaktivering af hepatitis B-virus under behandling med BTK-hæmmere.
+- **Infektioner:** BTK-hæmmere er forbundet med hypogammaglobulinæmi og øget infektionsrisiko.
 
-Moderate interaktioner omfatter bl.a. cimetidin, miconazol, clotrimazol, fenfluramin, sibutramin og troglitazon.
-
-**Øvrige oplysninger fra litteraturen:** Der er beskrevet reaktivering af hepatitis B-virus og øget infektionsrisiko (herunder hypogammaglobulinæmi) ved BTK-hæmmere som klasse.
-
-Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -140,14 +129,13 @@ Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsam
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score (99,65 %) understøttes ikke af direkte klinisk evidens: det eneste forsøg undersøger et andet lægemiddel, og litteraturen omhandler B-celle-maligniteter. Evidensniveauet er L4, og sikkerhedsgrundlaget (advarsler og kontraindikationer) mangler i de indsamlede data.
+Den høje TxGNN-score (0,9965) er alene en beregnet forudsigelse. Ingen undersøgelser belyser zanubrutinib direkte ved myeloid leukæmi; litteraturen angår lymfoide maligniteter, og det eneste forsøg er et fase 1-studie med uklar relevans. Evidensniveauet er derfor L5.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Prækliniske data eller mekanistiske studier af BTK-afhængighed i myeloide leukæmiceller (AML)
-- Kliniske forsøg, der direkte undersøger zanubrutinib ved myeloid leukæmi
-- Vurdering af de alvorlige lægemiddelinteraktioner i en relevant patientpopulation
+**For at komme videre kræves:**
+- Data om virkningsmekanismen og en begrundet biologisk kobling mellem BTK-signalering og myeloid leukæmi
+- Prækliniske data for zanubrutinib i myeloide leukæmimodeller
+- Gennemgang af produktresuméets advarsler og kontraindikationer (sikkerhedsscreening)
+- Afklaring af, om NCT05665530 faktisk omfatter myeloid leukæmi
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

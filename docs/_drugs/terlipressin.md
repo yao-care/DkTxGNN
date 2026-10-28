@@ -6,9 +6,9 @@ nav_order: 814
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Terlipressin: forudsagt ny indikation Pulmonal hypertension (rang 3 i modellen (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten i den danske…"
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
+description: "Terlipressin: forudsagt ny indikation Open-angle glaucoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Terlipressin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Terlipressin: Fra ukendt oprindelig indikation til pulmonal hypertension
+## Terlipressin: Open-angle glaucoma
 {: .text-alpha }
 
 ## Resumé
@@ -41,7 +41,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 Terlipressin er et syntetisk analogt lysin-vasopressin (en V1-receptor-præfererende prodrug), der er markedsført i Danmark som Glypressin injektionsvæske. Det oprindelige godkendte indikationsområde fremgår ikke af de data, der er indsamlet til denne rapport.
 TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension** (den bedst underbyggede af de forudsagte indikationer), men der er **ingen registrerede kliniske forsøg** og **20 publikationer**, hvoraf kun få er direkte relevante, og de er overvejende små hæmodynamiske studier og case-rapporter.
 
-Bemærk: Den højest rangerede forudsigelse i modellen er åbenvinklet glaukom (score 99,78 %), men den har hverken forsøg eller litteratur bag sig. Denne rapport fokuserer derfor på pulmonal hypertension som den eneste forudsagte indikation med litteraturgrundlag.
+Bemærk: Den højest rangerede forudsigelse i modellen er åbenvinklet glaukom (score 0,9978), men den har hverken forsøg eller litteratur bag sig. Denne rapport fokuserer derfor på pulmonal hypertension som den eneste forudsagte indikation med litteraturgrundlag.
 
 ---
 
@@ -49,12 +49,12 @@ Bemærk: Den højest rangerede forudsigelse i modellen er åbenvinklet glaukom (
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten i den danske autorisation er tom) |
-| Forudsagt ny indikation | Pulmonal hypertension (rang 3 i modellen; se bemærkning ovenfor) |
-| TxGNN-forudsigelsesscore | 99,56 % |
-| Evidensniveau | L3 (observationelle/hæmodynamiske studier og case-rapporter; ingen fuldførte fase 2/3 RCT'er) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Open-angle glaucoma |
+| TxGNN-forudsigelsesscore | 0.9978 |
+| Evidensniveau | L5 (observationelle/hæmodynamiske studier og case-rapporter; ingen fuldførte fase 2/3 RCT'er) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; sikkerhed skal først karakteriseres) |
 
 Til sammenligning har de øvrige forudsagte indikationer (åbenvinklet glaukom, primært arveligt glaukom, kyfoskoliotisk hjertesygdom, esotropi, glaukom 1 åbenvinklet og hovedpineforstyrrelse) evidensniveau L5 uden forsøg eller litteratur og anbefales alle som **Hold**.
@@ -69,7 +69,7 @@ For pulmonal hypertension har små hæmodynamiske studier hos patienter med leve
 
 Evidensen er dog lille, fysiologisk eller på case-niveau og knyttet til specifikke kontekster (cirrose/portal hypertension, shock). Den er ikke etableret for primær pulmonal arteriel hypertension. Vasokonstriktion via vasopressinvejen kan desuden i teorien øge den pulmonale vaskulære modstand, så sikkerheden skal karakteriseres først.
 
-For de øvrige forudsigelser (især øjensygdomme) er der ikke noget understøttet mekanistisk grundlag; forudsigelserne afspejler sandsynligvis nærhed i vidensgrafen snarere end farmakologi.
+For de øvrige forudsigelser (især øjensygdomme) er der ikke noget understøttet mekanistisk grundlag; scorerne stammer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

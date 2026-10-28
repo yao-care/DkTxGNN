@@ -48,10 +48,10 @@ Larotrectinib er en selektiv TRK-hæmmer (NTRK1/2/3), som er markedsført i Danm
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
-| TxGNN-forudsigelsesscore | 99,24 % |
-| Evidensniveau | L3 (jf. de indsamlede data; kun indirekte evidens, reelt tæt på L5 for denne specifikke indikation) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9924 |
+| Evidensniveau | L5 (jf. de indsamlede data; kun indirekte evidens, reelt tæt på L5 for denne specifikke indikation) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -133,7 +133,7 @@ Der er ingen direkte klinisk evidens for larotrectinib ved multipel endokrin neo
 
 ## Supplerende forudsigelse (rang 2): HER2-positiv brystkræft
 
-TxGNN forudsiger også en score på 99,14 % for **HER2-positivt brystkarcinom**, men evidensen er endnu svagere (evidensniveau L4, anbefaling: **Hold**). Der er ingen registrerede kliniske forsøg. Litteraturen omfatter en case-rapport om sekretorisk brystkarcinom (ETV6-NTRK3-fusion, [PMID 42147998](https://pubmed.ncbi.nlm.nih.gov/42147998/)), som er en særskilt, overvejende HER2-negativ undertype, samt en prækliniske undersøgelse af TrkA/JAK2-co-hæmning med entrectinib og pacritinib ([PMID 38852701](https://pubmed.ncbi.nlm.nih.gov/38852701/)). Intet tyder på, at larotrectinib virker på HER2-drevne tumorer uden NTRK-fusion.
+TxGNN forudsiger også en score på 0,9914 for **HER2-positivt brystkarcinom**, men evidensen er endnu svagere (evidensniveau L4, anbefaling: **Hold**). Der er ingen registrerede kliniske forsøg. Litteraturen omfatter en case-rapport om sekretorisk brystkarcinom (ETV6-NTRK3-fusion, [PMID 42147998](https://pubmed.ncbi.nlm.nih.gov/42147998/)), som er en særskilt, overvejende HER2-negativ undertype, samt en prækliniske undersøgelse af TrkA/JAK2-co-hæmning med entrectinib og pacritinib ([PMID 38852701](https://pubmed.ncbi.nlm.nih.gov/38852701/)). Intet tyder på, at larotrectinib virker på HER2-drevne tumorer uden NTRK-fusion.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

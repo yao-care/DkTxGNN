@@ -6,9 +6,9 @@ nav_order: 471
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Atopisk, papillær og vernal konjunktivitis (fra vidensgrafen"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ketorolac
@@ -33,12 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Ketorolac: Fra øjenbetændelse (allergisk konjunktivitis) til hovedpinelidelser
+## Ketorolac: Hovedpinelidelser (headache disorder)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Ketorolac er et NSAID, som i den anvendte vidensgraf er knyttet til behandling af allergisk (atopisk), papillær og vernal konjunktivitis.
+Ketorolac er et NSAID, som er knyttet til behandling af allergisk (atopisk), papillær og vernal konjunktivitis.
 TxGNN-modellen forudsiger, at det kan have effekt ved **hovedpinelidelser (headache disorder)**, især migræne og spændingshovedpine.
 Forudsigelsen understøttes af **17 kliniske forsøg** og **19 publikationer** i de data, der er indsamlet til denne rapport.
 
@@ -48,12 +48,12 @@ Forudsigelsen understøttes af **17 kliniske forsøg** og **19 publikationer** i
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atopisk, papillær og vernal konjunktivitis (fra vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Hovedpinelidelser (headache disorder) |
-| TxGNN-forudsigelsesscore | 99,43 % |
+| TxGNN-forudsigelsesscore | 0.9943 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -142,8 +142,8 @@ Der foreligger flere afsluttede kliniske forsøg (fase 2–4), flere systematisk
 - Vurdering af den kliniske evidens' overførbarhed til dansk praksis og de relevante patientgrupper (voksne vs. børn).
 
 **Øvrige forudsagte indikationer (til orientering):**
-- *Rosacea-konjunktivitis* (score 99,40 %): Ingen kliniske forsøg eller litteratur (L5). Beslutning: Hold.
-- *Trigeminal autonom cephalalgi* (score 99,39 %): Kun ét tilbagetrukket fase 1-forsøg og to ældre publikationer, heriblandt en case om lithiumtoksicitet (L4). Behandles som et forskningsspørgsmål.
+- *Rosacea-konjunktivitis* (score 0,9940): Ingen kliniske forsøg eller litteratur (L5). Beslutning: Hold.
+- *Trigeminal autonom cephalalgi* (score 0,9939): Kun ét tilbagetrukket fase 1-forsøg og to ældre publikationer, heriblandt en case om lithiumtoksicitet (L4). Behandles som et forskningsspørgsmål.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

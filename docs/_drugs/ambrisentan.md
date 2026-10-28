@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambrisentan
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 48
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ambrisentan: forudsagt ny indikation PAH associeret med bindevævssygdom (evidensniveau L2). Oprindelig indikation: Pulmonal arteriel hypertension (angivet i vidensgrafen"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "AMBRISENTAN"
-predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arteriovenous malformation (disease)"]
+predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
+last_modified_at: 2026-10-23
+description: "Ambrisentan: forudsagt ny indikation Pulmonal arteriovenøs malformation (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,90 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ambrisentan: Fra pulmonal arteriel hypertension til pulmonal arteriel hypertension associeret med bindevævssygdom
+## Ambrisentan: Fra pulmonal arteriel hypertension til pulmonal arteriovenøs malformation
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Ambrisentan er en selektiv endothelinreceptorantagonist (ETA), som oprindeligt anvendes til behandling af pulmonal arteriel hypertension (PAH). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **PAH associeret med bindevævssygdom (CTD-PAH)**, understøttet af **2 kliniske forsøg** og **19 publikationer** i de data, der er indsamlet til denne rapport. Det bør bemærkes, at denne population allerede ligger inden for Group 1 PAH og derfor snarere er en bekræftelse af en undergruppe end en egentlig ny anvendelse.
+Ambrisentan er en selektiv endothelin-A-receptorantagonist, der oprindeligt er knyttet til behandling af pulmonal arteriel hypertension. TxGNN-modellen forudsiger, at det kan have effekt ved **pulmonal arteriovenøs malformation**, men der er **ingen kliniske forsøg** og kun **1 publikation** (en case report om en beslægtet tilstand), så evidensen er meget begrænset.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Pulmonal arteriel hypertension (angivet i vidensgrafen; godkendelsesteksten for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | PAH associeret med bindevævssygdom |
-| TxGNN-prædiktionsscore | 99,30 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
-
-> Bemærk: Den højest rangerede forudsigelse er pulmonal arteriovenøs malformation (score 99,41 %), men den hviler kun på en enkelt case report om PAH hos en patient med HHT og er vurderet til L4/Hold. Rapporten fokuserer på CTD-PAH, som har den stærkeste evidens blandt de forudsagte indikationer (L2).
+| Oprindelig indikation | Pulmonal arteriel hypertension (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Pulmonal arteriovenøs malformation |
+| TxGNN-forudsigelsesscore | 0,9941 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ambrisentan er dog kendt som en selektiv ETA-receptorantagonist. Ved at blokere endothelin-1-signalering mindskes vasokonstriktion, fibrose og vaskulær remodellering i lungekarrene.
+Der foreligger i de data, der er indsamlet til denne rapport, ikke detaljerede oplysninger om virkningsmekanismen. Ambrisentan er kendt som en selektiv endothelin-type-A-receptorantagonist. Endothelinsignalering bidrager til tonus og ombygning (remodeling) af lungekar, og det er grundlaget for brugen ved pulmonal arteriel hypertension.
 
-Endothelin-1 er forhøjet ved bindevævssygdomme, især systemisk sklerose, og driver vasokonstriktion, fibrose og vaskulær hypertrofi. ETA-blokade rammer dermed direkte en central patogenetisk vej ved CTD-PAH. Sygdommen er en undergruppe af Group 1 PAH, hvor ambrisentan allerede har dokumenteret effekt.
+Pulmonale arteriovenøse malformationer optræder ofte ved hereditær hæmoragisk telangiektasi (HHT) og indebærer forstyrret angiogenese. Der kan derfor teoretisk være en forbindelse via påvirkning af karombygning, men den er hverken bevist eller direkte understøttet af data.
 
-Evidensen er begrænset af små forsøg, og fase 2-forsøget er ikke bekræftet som randomiseret ud fra de foreliggende data. Derfor er niveauet vurderet til L2 og ikke L1.
+Den eneste fundne publikation beskriver pulmonal arteriel hypertension hos en patient med HHT. Det er en beslægtet, men anderledes tilstand, og et enkeltstående case-niveau-fund viser ikke effekt på pulmonale arteriovenøse malformationer. Desuden kan karudvidende stoffer i teorien forværre højre-til-venstre-shunting, så sikkerheden kræver omhyggelig vurdering.
+
+Evidensniveauet er derfor L5: ingen citeret undersøgelse har direkte undersøgt ambrisentan ved selve den forudsagte sygdom.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Fase 2 | Afsluttet | 38 | Tidlig behandling af borderline PAH ved systemisk sklerose (EDITA); dobbeltblindet, placebokontrolleret proof-of-concept-forsøg. Direkte relevant, men lille. |
-| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Fase 4 | Afsluttet | 25 | Ambrisentan plus tadalafil i 36 uger ved PAH ved sklerodermi; åbent enkeltarmsstudie med 6MWD, NYHA-klasse og hæmodynamik. Kombinationsdesignet gør, at effekten ikke kan tilskrives ambrisentan alene. |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematisk review/meta-analyse | Intern Emerg Med | Meta-analyse af RCT-subgrupper med CTD-PAH; evaluerer funktionsklasse, overlevelse, 6MWD og klinisk forværring |
-| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analyse | BMJ Open | Meta-analyse af kliniske forsøg ved CTD-PAH; optimal behandling endnu ikke fastlagt |
-| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Subgruppeanalyse (AMBITION) | Ann Rheum Dis | Initial kombinationsbehandling med ambrisentan og tadalafil ved CTD-PAH |
-| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Post hoc-analyse (AMBITION) | Ann Rheum Dis | Initial kombinationsterapi versus monoterapi ved CTD-PAH og SSc-PAH |
-| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Subgruppeanalyse (ARIES-E) | Respir Med | Treårig effekt og sikkerhed af ambrisentan ved CTD-PAH |
-| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | Klinisk studie | Am J Respir Crit Care Med | Upfront-kombination af ambrisentan og tadalafil ved sklerodermi-associeret PAH |
-| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Review | Ther Adv Respir Dis | Gennemgang af ambrisentan ved PAH, herunder CTD-PAH, med acceptabel bivirkningsprofil |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Nyere fremskridt i behandling af PAH ved bindevævssygdomme |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | Diagnostik og behandling af PAH |
-| [24787237](https://pubmed.ncbi.nlm.nih.gov/24787237/) | 2014 | Kohorte | Ther Adv Respir Dis | Klinisk brug og tolerabilitet af ambrisentan på et henvisningscenter |
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Case report | World Journal of Clinical Cases | Pulmonal arteriel hypertension hos en patient med HHT samt genanalyse af familiemedlemmer. Omhandler en beslægtet tilstand, ikke effekt af ambrisentan ved pulmonal arteriovenøs malformation. |
 
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106116918 | Ambrisentan "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
+| 28106116918 | Ambrisentan "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i registreringen |
+
+Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgrafen** (ikke fra produktresuméet): kongestiv hjerteinsufficiens, anæmi, makrocytær anæmi og pulmonal veno-okklusiv sygdom.
-- **Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Blandt de registrerede er flere af moderat grad: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat og naltrexon. Clarithromycin, miconazol og omeprazol er klassificeret som mindre. Flere øvrige (f.eks. simvastatin, metformin, prednison) er uklassificerede.
+- **Kontraindikationer registreret i vidensgrafen** (ikke fra produktresuméet): kongestiv hjerteinsufficiens, anæmi, makrocytær anæmi og pulmonal veno-okklusiv sygdom.
+- **Lægemiddelinteraktioner** (100 registrerede; de vigtigste vises her):
+  - Moderat: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat, naltrexon.
+  - Mindre: clarithromycin, miconazol, omeprazol.
+  - Ukendt niveau: bl.a. calcitriol, pantoprazol, doxycyclin, morfin, metformin, simvastatin og kaliumchlorid.
+- Ambrisentan er desuden teratogent (boksadvarsel angivet i de analyserede vurderinger), hvilket er en vigtig begrænsning.
 
-For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-To afsluttede forsøg (fase 2 og fase 4), flere meta-analyser og subgruppeanalyser fra AMBITION og ARIES-E understøtter brugen af ambrisentan ved CTD-PAH. Forsøgene er små, og populationen ligger allerede inden for Group 1 PAH, så der er tale om bekræftelse af en undergruppe frem for ny repurposing.
+Forudsigelsen bygger på en modelscore og en enkelt case report om en beslægtet tilstand. Der er ingen kliniske forsøg, og der er en teoretisk risiko for forværret shunting samt kendt teratogenicitet.
 
 **For at komme videre kræves:**
-- Gennemgang af den danske produktinformation (SmPC) for advarsler, kontraindikationer og godkendt indikationstekst, da disse data mangler
-- Detaljerede data om virkningsmekanismen
-- Bekræftelse af designet (randomisering) i NCT02290613 og vurdering af ambrisentans selvstændige bidrag adskilt fra kombinationsbehandling
-- Plan for overvågning af interaktioner og sikkerhed hos patienter med anæmi eller hjerteinsufficiens
-
-**Øvrige forudsagte indikationer:** PAH associeret med medfødt hjertesygdom (L3, Research Question) og PAH associeret med HIV (L4, Research Question) har begrænset, overvejende observationel evidens. Pulmonal arteriovenøs malformation, PAH ved kronisk hæmolytisk anæmi og PAH ved schistosomiasis har ingen eller kun minimal evidens (L4–L5, Hold). Ved hæmolytisk anæmi bør der desuden udvises forsigtighed, da endothelinreceptorantagonister har givet anledning til bekymring ved seglcelleassocieret pulmonal hypertension.
+- Studier, der direkte undersøger ambrisentan ved pulmonal arteriovenøs malformation (herunder ved HHT)
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer, som ikke indgik i de indsamlede data
+- Sikkerhedsvurdering af shuntrisiko og anæmi (herunder blødningstendens ved HHT)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "ectothrix-infectious-disease",
-          "display": "ectothrix infectious disease"
-        }
-      ],
-      "text": "ectothrix infectious disease",
       "concept": {
         "text": "ectothrix infectious disease"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9926
     }
   ]
 }

@@ -4,17 +4,17 @@ title: Oxybutynin
 parent: Kun modelforudsigelse (L5)
 nav_order: 618
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Oxybutynin: forudsagt ny indikation Restless legs syndrom (evidensniveau L5). Oprindelig indikation: Overaktiv blære, neurogen blære, cauda equina-syndrom (fra videnbasen"
 monitor_inn: "OXYBUTYNIN"
-predicted_indications: ["restless legs syndrome", "restless legs syndrome", "gastroduodenitis", "gastroduodenitis", "peptic ulcer disease", "peptic ulcer disease"]
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Oxybutynin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** for denne indik
 |------|------|
 | Oprindelig indikation | Overaktiv blære, neurogen blære, cauda equina-syndrom (fra videnbasen; indikationsteksten i den danske godkendelse er ikke angivet) |
 | Forudsagt ny indikation | Restless legs syndrom |
-| TxGNN-prædiktionsscore | 99,74 % |
+| TxGNN-prædiktionsscore | 0,9974 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -127,8 +127,8 @@ Forudsigelsen for restless legs syndrom bygger udelukkende på en modelscore (L5
 
 ## Øvrige forudsigelser (kort oversigt)
 
-- **Gastroduodenitis** (score 99,62 %, L5, Hold): Teoretisk effekt via nedsat motilitet og sekretion, men ingen forsøg eller litteratur. Antikolinerge midler kan nedsætte tonus i nedre øsofagussfinkter og forværre reflux.
-- **Ulcus pepticum** (score 99,31 %, L4, Hold): Støttes kun af indirekte, historisk litteratur: en klinisk evaluering fra 1964 ([PMID 14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/)), en farmakologisk oversigt fra 1965 ([PMID 4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/)) og en case-rapport fra 1990 om oxybutynin-induceret refluksøsofagitis ([PMID 2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/)), som udgør et sikkerhedssignal. Med moderne standardbehandling (PPI, H. pylori-eradikation) er den tilføjede værdi lav.
+- **Gastroduodenitis** (score 0,9962, L5, Hold): Teoretisk effekt via nedsat motilitet og sekretion, men ingen forsøg eller litteratur. Antikolinerge midler kan nedsætte tonus i nedre øsofagussfinkter og forværre reflux.
+- **Ulcus pepticum** (score 0,9931, L4, Hold): Støttes kun af indirekte, historisk litteratur: en klinisk evaluering fra 1964 ([PMID 14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/)), en farmakologisk oversigt fra 1965 ([PMID 4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/)) og en case-rapport fra 1990 om oxybutynin-induceret refluksøsofagitis ([PMID 2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/)), som udgør et sikkerhedssignal. Med moderne standardbehandling (PPI, H. pylori-eradikation) er den tilføjede værdi lav.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

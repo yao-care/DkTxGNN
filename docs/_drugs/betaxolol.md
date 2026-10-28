@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Betaxolol
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 110
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Betaxolol: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Hypertension…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Betaxolol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Betaxolol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,45 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Betaxolol: Fra hypertension og åbenvinklet glaukom til primær arvelig glaukom
+<!-- known-uses-page -->
+<!-- description: Betaxolol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Betaxolol: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Betaxolol er en hjerteselektiv beta-1-blokker, som oprindeligt anvendes til behandling af hypertension, åbenvinklet glaukom og okulær hypertension.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær arvelig glaukom**,
-men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen bygger alene på modellen.
+## Resumé
+TxGNN-modellens kandidater for Betaxolol er alle kendte anvendelser, så der er aktuelt ingen ny forudsagt indikation. Alle kandidater, der kan spores til en kilde, er allerede kendte, og siden viser derfor kun markedsstatus og de kendte anvendelser.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension, åbenvinklet glaukom og okulær hypertension (ifølge TxGNN-vidensgrafen; indikationsteksten for det danske produkt er ikke angivet) |
-| Forudsagt ny indikation | Primær arvelig glaukom |
-| TxGNN-forudsigelsesscore | 99,74 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modelkandidater | 0 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
-## Hvorfor er forudsigelsen rimelig?
+## Kendte anvendelser blandt modellens kandidater
 
-Betaxolol er en hjerteselektiv beta-1-adrenerg antagonist, som allerede er markedsført til åbenvinklet glaukom og okulær hypertension. Når det gives som øjendråber, nedsætter betablokaden produktionen af kammervand i ciliarepitelet og sænker dermed det intraokulære tryk (IOP). Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ovenstående beskrivelse bygger på almen farmakologisk viden.
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| Ingen | Ingen |
 
-Primær arvelig glaukom (fx primær medfødt glaukom og juvenil åbenvinklet glaukom med varianter i MYOC eller CYP1B1) har forhøjet øjentryk som den vigtigste modificerbare risikofaktor. Et IOP-sænkende middel er derfor mekanistisk plausibelt.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Den meget høje score (0,997) afspejler sandsynligvis, at sygdommen ligger tæt på de godkendte glaukomindikationer i vidensgrafen, og ikke uafhængig evidens. Medfødte former behandles desuden typisk kirurgisk, og systemisk optagelse af betablokkere giver sikkerhedsbekymringer hos nyfødte og spædbørn (bradykardi, bronkospasme). Betaxolols beta-1-selektivitet giver dog lavere lungerisiko end ikke-selektive midler.
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101477991 | Betoptic S (Immedica Pharma AB) | Øjendråber, suspension | Indikationstekst ikke angivet |
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28101477991 | Betoptic S | øjendråber, suspension | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -101,19 +99,6 @@ Mindre interaktioner ses med acetylsalicylsyre, aluminiumhydroxid og attapulgit.
 
 Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke indhentet. Se det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske forsøg eller publikationer. Medfødte former behandles typisk kirurgisk, og der er sikkerhedsbekymringer ved systemisk betablokade hos børn.
-
-**For at gå videre kræves følgende:**
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (blokerende datamangel)
-- Data om virkningsmekanisme (MOA)
-- Litteratursøgning og søgning efter kliniske forsøg for betablokkere ved arvelige glaukomformer
-- Vurdering af, hvilke patientgrupper (voksne med juvenil åbenvinklet glaukom versus børn) der er relevante, og af systemisk sikkerhed hos børn
-- Afklaring af indikationsteksten for det danske produkt og vurdering af, hvad der adskiller den forudsagte indikation fra den allerede godkendte
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mesalazine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 533
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Mesalazine: forudsagt ny indikation Reumatoid artritis (rang 3 i modellens forudsigelser (evidensniveau L4). Oprindelig indikation: Colitis ulcerosa, inflammatorisk tarmsygdom, ulcerøs proktosigmoidi…"
 monitor_inn: "mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine: forudsagt ny indikation Congenital hypotrichosis with juvenile macular dystrophy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Mesalazin: Fra colitis ulcerosa til leddegigt (reumatoid artritis)
+## Mesalazine: Congenital hypotrichosis with juvenile macular dystrophy
 {: .text-alpha }
 
 ## Sammenfatning i én sætning
@@ -45,15 +45,15 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid artrit
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Colitis ulcerosa, inflammatorisk tarmsygdom, ulcerøs proktosigmoiditis (den danske godkendelsestekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Reumatoid artritis (rang 3 i modellens forudsigelser; se bemærkning nedenfor) |
-| TxGNN-forudsigelsesscore | 99,57 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Congenital hypotrichosis with juvenile macular dystrophy |
+| TxGNN-forudsigelsesscore | 0.9965 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-*Bemærkning:* Reumatoid artritis er valgt som fokus, fordi det er den eneste forudsagte indikation med et reelt, om end indirekte, litteraturgrundlag. De øvrige forudsigelser med højere score (fx medfødt hypotrikose med juvenil makuladystrofi, score 99,65 %, og slidgigt, score 99,63 %) har ingen kliniske forsøg og ingen plausibel mekanistisk begrundelse og vurderes som L5 / Hold.
+*Bemærkning:* Reumatoid artritis er valgt som fokus, fordi det er den eneste forudsagte indikation med et reelt, om end indirekte, litteraturgrundlag. De øvrige forudsigelser med højere score (fx medfødt hypotrikose med juvenil makuladystrofi, score 0,9965, og slidgigt, score 0,9963) har ingen kliniske forsøg og ingen plausibel mekanistisk begrundelse og vurderes som L5 / Hold.
 
 ## Hvorfor er forudsigelsen rimelig?
 

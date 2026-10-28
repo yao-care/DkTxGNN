@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epirubicin
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 314
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Epirubicin: forudsagt ny indikation Småcellet lungekarcinom (evidensniveau L5). Oprindelig indikation: Brystkarcinom / brystneoplasi (angivet i vidensgrafen"
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
+description: "Epirubicin: forudsagt ny indikation Primary pulmonary lymphoma (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Epirubicin: Fra brystkræft til småcellet lungekarcinom
+## Epirubicin: Primary pulmonary lymphoma
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Epirubicin er et antracyklin-kemoterapeutikum, oprindeligt anvendt til behandlin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Brystkarcinom / brystneoplasi (angivet i vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
-| Forudsagt ny indikation | Småcellet lungekarcinom |
-| TxGNN-prædiktionsscore | 99,69 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Primary pulmonary lymphoma |
+| TxGNN-prædiktionsscore | 0.9971 |
 | Evidensniveau | L1 (to afsluttede fase 3-forsøg, jf. dog begrænsningerne nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (tilbageholdes) |
 
 ---
@@ -110,7 +110,6 @@ Der er dog en vigtig begrænsning: Flere af de randomiserede forsøg viste ikke 
 | Punkt | Indhold |
 |------|------|
 | Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (antracyklin, topoisomerase II-hæmmer) |
-| Risiko for myelosuppression | Høj (vidensgrafen kobler lægemidlet til neutropeni, trombocytopeni og agranulocytose) |
 | Emetogenicitet | Moderat til høj (generel klassificering for antracykliner; bekræft i produktresuméet) |
 | Monitoreringspunkter | Komplet blodtælling med differentialtælling, lever- og nyrefunktion, hjertefunktion (f.eks. LVEF) |
 | Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |

@@ -6,9 +6,9 @@ nav_order: 475
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lamivudine: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis B-virusinfektion, HIV-infektion og AIDS"
 monitor_inn: "lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lamivudine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Lamivudin: Fra kronisk hepatitis B og HIV til simian immundefektvirus-infektion
+## Lamivudine: Simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er **ingen kliniske forsøg** og **14 publikationer** (primært præklin
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis B-virusinfektion, HIV-infektion og AIDS (ifølge vidensgrafen; indikationstekst i de danske markedsføringstilladelser er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 10 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---

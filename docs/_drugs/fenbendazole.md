@@ -48,10 +48,10 @@ Fenbendazol er et benzimidazol-ormemiddel, som i Danmark er markedsført som ora
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Urinblærekarcinom (urinary bladder carcinoma) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 (kun modelforudsigelse for den primære indikation). Den beslægtede betegnelse "urinblæreneoplasme" når L4 (præklinisk) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

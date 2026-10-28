@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 442
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Glulisine: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
+description: "Insulin Glulisine: forudsagt ny indikation thiamine-responsive dysfunction syndrome (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysp
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Insulin glulisin: Fra diabetes mellitus til type 1-diabetes mellitus
+## Insulin glulisin: Fra diabetes mellitus til thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -51,10 +51,10 @@ Bemærk, at type 1-diabetes reelt er en kerneindikation for lægemidlet, så der
 |------|------|
 | Oprindelig indikation | Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indikationstekst i de danske markedsføringstilladelser) |
 | Forudsagt ny indikation | Type 1-diabetes mellitus |
-| TxGNN-forudsigelsesscore | 99,55 % |
-| Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9947 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

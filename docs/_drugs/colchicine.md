@@ -4,17 +4,17 @@ title: Colchicine
 parent: Kun modelforudsigelse (L5)
 nav_order: 218
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (evidensniveau L5). Oprindelig indikation: Gigt, familiær middelhavsfeber"
+indication_count: 2
 monitor_inn: "colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
+last_modified_at: 2026-10-27
+description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (Plasmodium falciparum malaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Colchicin: Fra gigt og familiær middelhavsfeber til Plasmodium falciparum-malaria
+## Colchicin: tubulinbindende middel mod mikrotubulidannelse → Plasmodium falciparum-malaria (Plasmodium falciparum malaria)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Colchicin er et gammelt lægemiddel, der oprindeligt bruges til behandling af gigt og familiær middelhavsfeber (FMF).
-TxGNN-modellen forudsiger, at det kan have effekt på **Plasmodium falciparum-malaria**,
-men der er **ingen kliniske forsøg** og kun **2 laboratoriestudier** (ikke om colchicin), så evidensen er meget svag og baseret på modelforudsigelse alene.
-
----
+Colchicin er et tubulinbindende middel, der hæmmer mikrotubulidannelse. Den TxGNN-model, der ligger til grund for rapporten, forudsiger, at lægemidlet kan have effekt mod **Plasmodium falciparum-malaria (Plasmodium falciparum malaria)**. Der findes dog **ingen kliniske forsøg** og kun **2 publikationer**, som ikke direkte undersøger colchicin mod malaria. Evidensen er derfor begrænset til modelforudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Gigt, familiær middelhavsfeber (fra videngrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Plasmodium falciparum-malaria |
-| TxGNN-forudsigelsesscore | 99,60 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Plasmodium falciparum-malaria (Plasmodium falciparum malaria) |
+| TxGNN-forudsigelsesscore | 0,9960 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om colchicins detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Colchicin er dog kendt for at binde tubulin og hæmme mikrotubulidannelse. Det er også kendt, at mikrotubulusforstyrrelser er beskrevet som en cellulær effekt i P. falciparum (f.eks. med curcumin). Det giver en mulig, men indirekte, mekanistisk begrundelse.
+Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Colchicin er kendt for at binde tubulin og forstyrre mikrotubulipolymerisering.
 
-Det andet studie handler om pfmdr1-ekspression i pattedyrsceller og følsomhed over for lægemidler. Det peger på en mulig forbindelse via transportere af P-glykoprotein-typen, som også påvirker colchicins optagelse. Det er en observation om transport og resistens, **ikke** bevis for antimalariaeffekt.
+Mikrotubulisk forstyrrelse er beskrevet som en cellulær effekt i *P. falciparum* for andre stoffer (fx curcumin). Det giver en sandsynlig, men indirekte mekanistisk begrundelse. Et andet studie omhandler pfmdr1-transportøren og lægemiddelfølsomhed i pattedyrceller, hvilket peger på en mulig forbindelse via P-glykoprotein-lignende transportører. Det er en observation om transport og resistens, ikke et bevis for antimalariaeffekt.
 
-Der foreligger ingen kliniske eller direkte in vivo-data for colchicin mod malaria. Colchicin har desuden et snævert terapeutisk indeks og høj toksicitet. Antiparasitær aktivitet ville sandsynligvis kræve tubulinhæmning ved koncentrationer tæt på de toksiske hos mennesker.
-
----
+Der er ingen klinisk eller direkte in vivo-evidens for, at colchicin virker mod malaria. Colchicins snævre terapeutiske indeks og høje toksicitet er desuden en bekymring, da antiparasitær effekt formentlig kræver tubulinhæmning ved koncentrationer tæt på de toksiske doser hos mennesker.
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relevante kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro / cellebiologi | PLoS One | Curcumin (ikke colchicin) forstyrrer mikrotubuli i P. falciparum |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / cellebiologi | Mol Cell Biol | pfmdr1-ekspression i pattedyrsceller er forbundet med øget følsomhed over for chloroquin; ikke direkte evidens for colchicin |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro / cellebiologi | PloS one | Curcumin (ikke colchicin) forstyrrer mikrotubuli i *P. falciparum*. |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / cellebiologi | Molecular and cellular biology | Udtryk af pfmdr1 i pattedyrceller er forbundet med øget følsomhed over for chloroquin. |
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106588021 | Colchicin "Strides" (Strides Pharma (Cyprus) Limited) | Tabletter | Indikationstekst ikke angivet i de indsamlede data |
-
----
+| 28106588021 | Colchicin "Strides" | Tabletter | Indikationstekst er ikke registreret i de lokale data |
 
 ## Cytotoksicitet
 
-Colchicin er ikke et klassisk kræftlægemiddel, men et antiinflammatorisk middel med antimitotisk virkning og snævert terapeutisk indeks. Se produktresuméet (SmPC) for advarsler og forsigtighedsregler.
-
----
+Colchicin er ikke et klassisk kræftlægemiddel i de foreliggende data, men har et snævert terapeutisk indeks. Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra videnbasen (PrimeKG, ikke produkttekst):** leversvigt, hæmatologiske sygdomme, trombocytopeni, mavesår, myopati og andre muskelsygdomme, rabdomyolyse, diarrésygdomme, nedsat nyrefunktion, leukopeni, agranulocytose, neutropeni (inkl. kongenitte former), aplastisk anæmi og akut uratnefropati.
-- **Lægemiddelinteraktioner:** 125 interaktioner er registreret. Blandt de **alvorlige (Major)** er aprepitant, clarithromycin, eliglustat, rolapitant, rosuvastatin, simvastatin, cobicistat og deferipron. Blandt de **moderate** er bl.a. metronidazol, cimetidin, eluxadolin, miconazol, tinidazol, deferasirox, ticagrelor, chloroquin og benznidazol. Kombinationen med chloroquin er relevant, da chloroquin anvendes ved malaria.
+- **Lægemiddelinteraktioner:** I alt 125 registrerede interaktioner. Blandt de væsentlige (Major) er aprepitant, clarithromycin, eliglustat, rolapitant, rosuvastatin, simvastatin, cobicistat og deferiprone. Moderate interaktioner omfatter bl.a. metronidazol, cimetidin, miconazol, tinidazol, chloroquin, ticagrelor og deferasirox.
 
-Det officielle produktresumé (SmPC) skal konsulteres for godkendte advarsler og kontraindikationer, da disse ikke er tilgængelige i de indsamlede data.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modelscore. Der er ingen kliniske forsøg og ingen direkte data for colchicin mod malaria, og den toksicitet, der følger af det snævre terapeutiske indeks, gør en antiparasitær anvendelse tvivlsom.
+Forudsigelsen bygger alene på modelscoren. Ingen kliniske forsøg eller studier undersøger colchicin direkte mod malaria, og lægemidlets toksicitet ved de koncentrationer, som en antiparasitær effekt formentlig kræver, er en væsentlig bekymring.
 
 **For at komme videre kræves:**
-- In vitro-data for colchicins aktivitet mod P. falciparum og selektivitet over for humane celler
-- Præklinisk dokumentation i dyremodeller for effekt ved tolerable doser
-- Detaljerede data om virkningsmekanisme og sikkerhedsoplysninger fra produktresuméet
-- Vurdering af interaktioner med gængse malariamidler (f.eks. chloroquin)
-
----
-
-## Supplerende bemærkninger om andre forudsigelser
-
-- **Familiær middelhavsfeber, autosomal dominant (score 99,38 %, evidensniveau L4):** Colchicin er allerede førstevalgsbehandling ved FMF og er en del af de oprindelige indikationer, så dette er i store træk en omdefinering af en eksisterende indikation snarere end ægte repurposing. Litteraturen (20 publikationer) består hovedsageligt af oversigtsartikler; der er ingen forsøg specifikt for denne undertype, så evidensen er indirekte. Anbefaling: forskningsspørgsmål.
-- **Dermatofibrosarcoma protuberans (score 99,37 %, evidensniveau L5):** Ingen forsøg eller litteratur. Sygdommen drives af COL1A1-PDGFB-fusionen og behandles med kirurgi og imatinib, og der er ingen evidens for en forbindelse til colchicin. Anbefaling: Hold.
+- Præklinisk *in vitro*-testning af colchicin mod *P. falciparum* med vurdering af selektivitet i forhold til human toksicitet
+- Data om virkningsmekanisme og sikkerhedsprofil fra produktresuméet
+- Vurdering af, om der kan opnås virksomme koncentrationer inden for et sikkert dosisinterval
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

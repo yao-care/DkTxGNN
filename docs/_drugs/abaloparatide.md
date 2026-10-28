@@ -48,19 +48,19 @@ Abaloparatid er et PTHrP(1-34)-analog, som er markedsført i Danmark under navne
 |------|------|
 | Oprindelig indikation | Osteoporose (anabol knogleeffekt via PTH1-receptoren). Indikationsteksten i den danske tilladelse indgår ikke i de indsamlede data. |
 | Forudsagt ny indikation | Non-syndromisk esofagusmisdannelse |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Øvrige forudsagte indikationer fra modellen (alle L5, alle Hold):
 
 | Rang | Forudsagt indikation | TxGNN-score |
 |------|------|------|
-| 2 | Esofagussygdom | 99,75 % |
-| 3 | Amenoré | 99,72 % |
-| 4 | Esofagussår | 99,02 % |
+| 2 | Esofagussygdom | 0,9975 |
+| 3 | Amenoré | 0,9972 |
+| 4 | Esofagussår | 0,9902 |
 
 ---
 
@@ -68,7 +68,7 @@ Abaloparatid er et PTHrP(1-34)-analog, som er markedsført i Danmark under navne
 
 Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Abaloparatid er kendt som et PTHrP(1-34)-analog, der aktiverer PTH1-receptoren og giver en anabol knogleeffekt. Dets virkning ved osteoporose er veldokumenteret.
 
-Der kan ikke identificeres en plausibel mekanistisk forbindelse mellem PTH1-receptoraktivering og medfødt esofagusmisdannelse, som er en udviklingsanomali. Den meget høje score (0,998) er en ren vidensgrafbaseret forudsigelse og afspejler sandsynligvis nærhed i grafen snarere end biologi. Osteoporose hos voksne og en medfødt misdannelse har desuden ingen oplagt patofysiologisk sammenhæng.
+Der kan ikke identificeres en plausibel mekanistisk forbindelse mellem PTH1-receptoraktivering og medfødt esofagusmisdannelse, som er en udviklingsanomali. Den meget høje score (0,9984) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Osteoporose hos voksne og en medfødt misdannelse har desuden ingen oplagt patofysiologisk sammenhæng.
 
 For de øvrige forudsigelser gælder tilsvarende:
 - **Esofagussygdom og esofagussår:** PTH1R-signalering er ikke en etableret terapeutisk vej i esofagus. Slimhindeskader håndteres med syrehæmning og fjernelse af udløsende årsag. Det bemærkes, at andre osteoporosemidler (f.eks. orale bisfosfonater) er forbundet med bivirkninger i esofagus, hvilket er en sikkerhedsmæssig overvejelse og ikke et terapeutisk signal.

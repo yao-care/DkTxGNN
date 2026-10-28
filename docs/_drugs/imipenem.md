@@ -6,9 +6,9 @@ nav_order: 430
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imipenem: forudsagt ny indikation Diffus sklerodermi (rang 1) (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, peritonitis…"
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Imipenem
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Imipenem: Fra bakteriel lungebetændelse til diffus sklerodermi
+## Imipenem: Diffus sklerodermi (diffuse scleroderma)
 {: .text-alpha }
 
 ## Kort resumé
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **diffus skleroder
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakteriel lungebetændelse, peritonitis, endokarditis m.fl. (fra vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Diffus sklerodermi (rang 1) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Diffus sklerodermi (diffuse scleroderma) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 for rang 1 (kun modelforudsigelse). Højeste niveau blandt de forudsagte indikationer: L3 (Staphylococcus aureus-infektion) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (for diffus sklerodermi). Forskningsspørgsmål for S. aureus-infektion og tyfus/paratyfus |
 
 ---

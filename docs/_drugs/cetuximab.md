@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cetuximab: forudsagt ny indikation Duktal eller duktulær proliferation (evidensniveau L5). Oprindelig indikation: Kolorektal cancer og planocellulært karcinom i hoved-hals-området"
 monitor_inn: "Cetuximab"
-predicted_indications: ["ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "non-seminomatous lesion", "chondroid hamartoma", "chondroid hamartoma", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "tumor of testis and paratestis"]
+predicted_indications: ["non-seminomatous lesion", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
+last_modified_at: 2026-10-27
+description: "Cetuximab: forudsagt ny indikation Ikke-seminomatøs læsion (non-seminomatous lesion) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cetuximab
@@ -33,115 +33,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cetuximab: Fra kolorektal cancer til duktal eller duktulær proliferation
+## Cetuximab: EGFR-hæmmende monoklonalt antistof → ikke-seminomatøs læsion (non-seminomatous lesion)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Cetuximab er et monoklonalt antistof mod EGFR (epidermal vækstfaktorreceptor), som oprindeligt anvendes til behandling af kolorektal cancer og planocellulært karcinom i hoved-hals-området.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duktal eller duktulær proliferation** (i de tilknyttede data især tolket som pancreatisk duktalt adenokarcinom).
-Der findes **ingen registrerede kliniske forsøg** i de indsamlede data og **20 publikationer**, hvoraf de fleste er prækliniske studier, oversigtsartikler og modelleringsstudier.
-
----
+Cetuximab er et monoklonalt antistof mod den epidermale vækstfaktorreceptor (EGFR), som anvendes mod kræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **ikke-seminomatøs læsion (non-seminomatous lesion)**.
+Der er dog **ingen kliniske forsøg** og **ingen publikationer** for denne forudsigelse, som derfor udelukkende bygger på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kolorektal cancer og planocellulært karcinom i hoved-hals-området (godkendelsesteksten for Erbitux i Danmark er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Duktal eller duktulær proliferation |
-| TxGNN-prædiktionsscore | 99,95 % |
-| Evidensniveau | L4 (prækliniske studier og mekanistiske studier; ingen kliniske forsøg registreret) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Ikke-seminomatøs læsion (non-seminomatous lesion) |
+| TxGNN-forudsigelsesscore | 0,9995 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Cetuximab er dog kendt som et anti-EGFR-antistof, der binder til den epidermale vækstfaktorreceptor (EGFR, gen: *EGFR*) og blokerer receptorens signalering. Dets virkning ved kolorektal cancer og hoved-hals-cancer er veldokumenteret.
+Data indsamlet til denne rapport indeholder ikke en detaljeret beskrivelse af virkningsmekanismen. Cetuximab er kendt som en EGFR-blokker, der binder receptoren og hæmmer signalering, som driver tumorcellers vækst.
 
-EGFR er overudtrykt i pancreatisk duktalt adenokarcinom (PDAC), og forudsigelsen bygger formentlig på denne biologiske lighed. Prækliniske studier understøtter EGFR-targeting i PDAC, fx EGFR-målrettede fotoaktiverbare liposomer og hæmning af proliferation og invasion med en anden ERBB-hæmmer (dacomitinib).
+For ikke-seminomatøse læsioner (kimcelleforandringer) understøtter de foreliggende data ikke en mekanistisk begrundelse for EGFR-blokade. Den høje modelscore (0,9995) er en ren beregningsmæssig forudsigelse og er ikke bekræftet af kliniske eller prækliniske data. Forudsigelsen bør derfor betragtes som en hypotese.
 
-Der er dog væsentlige forbehold. KRAS-mutationer er meget hyppige i PDAC og er en kendt resistensmekanisme over for anti-EGFR-antistoffer. Studier viser desuden, at de fleste PDAC-celler er resistente over for cetuximab, bl.a. via integrin β1-drevet Src-Akt-signalering. Sygdomstermen "duktal eller duktulær proliferation" er uspecifik og synes løst knyttet til pancreatisk duktal neoplasi. Rationalet for cetuximab som monoterapi er derfor svagt.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
-Bemærk, at litteraturen omtaler fase II-studier med cetuximab ved pancreascancer (se nedenfor), men disse er ikke registreret som forsøg i de indsamlede data.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [35300246](https://pubmed.ncbi.nlm.nih.gov/35300246/) | 2022 | Randomiseret fase II-studie (PARC) | Clin Transl Radiat Oncol | Langtidsresultater for cetuximab, gemcitabin og strålebehandling ved lokalt avanceret pancreascancer |
-| [21552097](https://pubmed.ncbi.nlm.nih.gov/21552097/) | 2012 | Fase II-studie | Am J Clin Oncol | Gemcitabin, oxaliplatin og cetuximab ved avanceret eller metastatisk pancreascancer |
-| [22571859](https://pubmed.ncbi.nlm.nih.gov/22571859/) | 2012 | Klinisk studie | Ann Oncol | Neoadjuverende cetuximab, gemcitabin og IMRT ved lokaliseret eller lokalt avanceret PDAC |
-| [26862857](https://pubmed.ncbi.nlm.nih.gov/26862857/) | 2016 | Eksplorativ analyse (PERU-forsøget) | Oncotarget | Kemoradioterapi +/- cetuximab ved lokalt avanceret pancreascancer og den prognostiske rolle af miR-21 |
-| [27797376](https://pubmed.ncbi.nlm.nih.gov/27797376/) | 2017 | Præklinisk | Oncogene | Resistens over for cetuximab i PDAC-celler via integrin β1 og Src-Akt; kombineret hæmning af EGFR og neuropilin-1 overvinder resistensen |
-| [30921351](https://pubmed.ncbi.nlm.nih.gov/30921351/) | 2019 | Præklinisk | PLoS One | Mesothelin og TGF-α forudsiger PDAC-cellers følsomhed over for EGFR-hæmmere; kombination med trametinib |
-| [35748165](https://pubmed.ncbi.nlm.nih.gov/35748165/) | 2022 | Præklinisk | Adv Sci | EGFR-målrettede fotoaktiverbare liposomer fordobler overlevelsen i pancreascancermodel |
-| [23992319](https://pubmed.ncbi.nlm.nih.gov/23992319/) | 2014 | Oversigtsartikel | Curr Med Chem | Målrettede behandlinger ved pancreascarcinom |
-| [32699558](https://pubmed.ncbi.nlm.nih.gov/32699558/) | 2020 | Oversigtsartikel | Ther Adv Med Oncol | Præcisionsmedicin ved metastatisk PDAC |
-| [37844759](https://pubmed.ncbi.nlm.nih.gov/37844759/) | 2024 | PK/PD-modellering | J Pharm Sci | Cetuximabs heterogene fordeling i tumor i pancreasmodeller; antistoffer har vist ringe effekt ved PDAC |
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
----
+## Markedsinformation i Danmark
 
-## Oplysninger om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103922806 | Erbitux (Merck Europe B.V.) | Infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
-
----
+| 28103922806 | Erbitux | Infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt anti-EGFR-antistof); ikke et konventionelt cytotoksisk middel |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
-
-Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
-
----
+| Klassifikation | Målrettet behandling (monoklonalt antistof mod EGFR) |
+| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogent potentiale | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitorering | Blodtal, lever- og nyrefunktion samt elektrolytter (herunder magnesium) bør følges; se SmPC |
+| Håndtering | Følg gældende lokale retningslinjer for håndtering af antineoplastiske lægemidler |
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (20 registrerede; de vigtigste er angivet):
+**Lægemiddelinteraktioner** (20 registrerede i de indsamlede data). De vigtigste:
 
-- **Alvorlige (Major):** aminolevulinsyre og thalidomid.
-- **Moderate:**
-  - Protonpumpehæmmere: rabeprazol, omeprazol, dexlansoprazol, esomeprazol, lansoprazol og pantoprazol.
-  - Kemoterapi: capecitabin, carboplatin, cisplatin, fluorouracil og oxaliplatin.
-  - Øvrige: methoxsalen, idelalisib, omacetaxinmepesuccinat, verteporfin samt topikal aminolevulinsyre og topikal methylaminolevulinat.
+- **Alvorlige (Major):** aminolevulinsyre, thalidomid
+- **Moderate:** protonpumpehæmmere (omeprazol, esomeprazol, pantoprazol, lansoprazol, dexlansoprazol, rabeprazol), capecitabin, fluorouracil, carboplatin, cisplatin, oxaliplatin, idelalisib, methoxsalen, omacetaxin mepesuccinat, verteporfin samt topikal aminolevulinsyre og methylaminolevulinat
 
-Hvad angår kendte bivirkninger af cetuximab (fx hudreaktioner, infusionsreaktioner og hypomagnesiæmi) bemærkes, at disse ikke er dokumenteret i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer, da disse data mangler.
-
----
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for den forudsagte indikation er indirekte og overvejende præklinisk, og der er ingen registrerede kliniske forsøg. KRAS-mutationer og kendte resistensmekanismer svækker det mekanistiske rationale for cetuximab ved pancreatisk duktal neoplasi. Sygdomstermen er desuden uspecifik.
+Forudsigelsen for ikke-seminomatøs læsion bygger udelukkende på en modelscore uden støtte fra kliniske forsøg, litteratur eller en mekanistisk begrundelse, og evidensniveauet er derfor L5.
 
-**For at komme videre kræves følgende:**
-- Præcisering af den forudsagte sygdomsterm (fx om den svarer til PDAC) og dens klinisk relevante afgrænsning
-- Detaljerede data om virkningsmekanismen (MOA)
-- Produktresuméet for Erbitux fra Lægemiddelstyrelsen med godkendte indikationer, advarsler og kontraindikationer
-- Gennemgang af de fase II-studier ved pancreascancer, der er identificeret i litteraturen, samt biomarkørstrategi (fx KRAS-status)
-- Vurdering af benefit-risk-forholdet i den udvalgte population, da der ikke er dokumenteret sikkerhedsdata for den nye indikation
+**For at komme videre kræves:**
+- Biologisk og mekanistisk begrundelse for EGFR-blokade i ikke-seminomatøse kimcelleforandringer, herunder data om EGFR-ekspression
+- Prækliniske data eller litteraturgennemgang, der direkte omhandler sygdommen
+- Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
+- Data om virkningsmekanisme fra DrugBank
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

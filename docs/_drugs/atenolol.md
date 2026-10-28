@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Atenolol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 81
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Atenolol: forudsagt ny indikation Posteroinferiort myokardieinfarkt (rang 2). Andre højt rangerede foru… (evidensniveau L4). Oprindelig indikation: Hypertension og myokardieinfarkt (ifølge vidensgraf…"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "ATENOLOL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+last_modified_at: 2026-10-27
+description: "Atenolol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Atenolol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,63 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Atenolol: Fra hypertension og myokardieinfarkt til posteroinferiort myokardieinfarkt
+## Atenolol: beta-1-selektiv betablokker → malign hypertensiv nyresygdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé
 
-Atenolol er en selektiv beta-1-blokker, som oprindeligt anvendes til behandling af forhøjet blodtryk og myokardieinfarkt.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **posteroinferiort myokardieinfarkt** (en anatomisk undertype af den allerede kendte indikation), med **0 kliniske forsøg** og **1 publikation** (en lille, indirekte og ældre undersøgelse fra 1985).
-Forudsigelsen afspejler primært den eksisterende indikation og er ikke en reel ny repurposing-mulighed.
-
----
+Atenolol er en beta-1-selektiv betablokker, som sænker blodtrykket og hæmmer frigivelsen af renin. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom (malignant hypertensive renal disease)**. Der foreligger dog **ingen kliniske forsøg og ingen publikationer** for denne sygdom i de data, der er indsamlet til rapporten, så forudsigelsen står alene som modelresultat.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og myokardieinfarkt (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Posteroinferiort myokardieinfarkt (rang 2). Andre højt rangerede forudsigelser: posterolateralt myokardieinfarkt, malign renovaskulær hypertension, malign hypertensiv nyresygdom og pulmonal hypertension |
-| TxGNN-forudsigelsesscore | 99,87 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
+| TxGNN-forudsigelsesscore | 0,9985 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Ud fra kendt viden er atenolol en kardioselektiv beta-1-blokker. Den nedsætter hjertefrekvens, kontraktilitet og myokardiets iltforbrug samt risikoen for arytmier. Det er den mekanisme, der ligger bag den dokumenterede effekt ved hypertension og myokardieinfarkt.
+Der er på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme i de indsamlede data. Atenolol er kendt som en beta-1-selektiv betablokker, der sænker blodtryk og reninfrigivelse, hvilket teoretisk er relevant for nyreskade forårsaget af forhøjet blodtryk.
 
-Posteroinferiort og posterolateralt myokardieinfarkt er anatomiske undertyper af myokardieinfarkt. Den høje TxGNN-score skyldes derfor sandsynligvis, at modellen genkender den eksisterende indikation, og ikke at der er identificeret en ny behandlingsmulighed. Der er ikke fremlagt undertypespecifikke forsøg.
+Den meget høje score skyldes sandsynligvis, at sygdommen ligger tæt på den kendte hypertensionsanvendelse i modellens netværk, og ikke at der findes selvstændig evidens. Malign hypertension behandles desuden normalt med intravenøse, titrerbare lægemidler, så oral atenolol er næppe førstevalg.
 
-De øvrige forudsigelser er mere tvivlsomme:
-- **Malign renovaskulær hypertension:** Beta-1-blokade og nedsat reninfrigivelse er biologisk plausibelt, men evidensen er kun en enkelt case-rapport. Der kræves forsigtighed ved bilateral nyrearteriestenose og svær malign hypertension, hvor andre midler foretrækkes.
-- **Malign hypertensiv nyresygdom:** Forudsigelsen bygger på den eksisterende hypertensionsindikation. Atenolol udskilles via nyrerne og kræver dosisjustering ved nedsat nyrefunktion.
-- **Pulmonal hypertension:** De fundne artikler er hovedsageligt prækliniske eller irrelevante med blandede resultater, og der er ingen humane forsøg. Beta-blokade kan forværre højre ventrikelfunktion, så der er en sikkerhedsbekymring.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-For den primære forudsigelse (posteroinferiort myokardieinfarkt):
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | RCT (enkeltblindet crossover) | La Revue de médecine interne | Sammenligning af den antiiskæmiske effekt af atenolol (200 mg) og diltiazem (240 mg) hos 23 patienter 4 uger efter begrænset posteroinferiort eller anteriort infarkt, vurderet med computeranalyseret cykelergometri. Indirekte, gammelt og lille studie. |
-
-For de øvrige forudsigelser:
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [18454714](https://pubmed.ncbi.nlm.nih.gov/18454714/) | 2008 | Case-rapport | Nefrologia | Hypertension hos en 16-årig pige med neurofibromatose type 1, aortakoarktation og nyrearteriestenose (malign renovaskulær hypertension). Anekdotisk evidens. |
-| [8590992](https://pubmed.ncbi.nlm.nih.gov/8590992/) | 1995 | Prækliniske (rotte) | British Journal of Pharmacology | Beta-blokade (propranolol) reducerede hypoksi-induceret højresidig hjertehypertrofi hos rotter (pulmonal hypertension). |
-| [6212672](https://pubmed.ncbi.nlm.nih.gov/6212672/) | 1982 | Prækliniske (dyr) | The Journal of Physiology | Hypoksisk hjertehypertrofi blev ikke hæmmet af hverken kardioselektive eller ikke-selektive beta-blokkere (modstridende resultat). |
-| [24795691](https://pubmed.ncbi.nlm.nih.gov/24795691/) | 2014 | Prækliniske (mekanistisk) | Frontiers in Neurology | β1-blokkere nedsætter frigivelsen af noradrenalin via præsynaptiske β1-adrenoceptorer hos rotter. |
-| [10862260](https://pubmed.ncbi.nlm.nih.gov/10862260/) | 2000 | Oversigt | Presse Médicale | Beta-blokkerforgiftning; uden relevans for den forudsagte indikation. |
-
-Størstedelen af de øvrige hentede artikler til pulmonal hypertension er prækliniske eller irrelevante og er ikke medtaget.
-
----
-
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101495692 | Atenodan (STADA Nordic ApS) | Tabletter | Indikationstekst ikke angivet |
-
----
+| 28101495692 | Atenodan (STADA Nordic ApS) | Tabletter | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/forsigtighedsområder fra vidensgrafen** (ikke fra produktresumé): leversvigt, astma (inkl. allergisk og intrinsisk), atrioventrikulært blok, Raynauds sygdom, anafylaksi, diabetes (type 1, type 2 og diabetisk ketoacidose), pancreatitis, systemisk lupus erythematosus, psoriasis, urinsyregigt/hyperurikæmi, anuri, hyperkalcæmi, nefrokalcinose, forstyrrelser i fosformetabolismen, kaliummangel samt angst- og neurotiske lidelser.
-- **Lægemiddelinteraktioner** (100 registreret; udvalgte):
-  - Moderate: adrenalin, hydrokortison, hyoscyamin, bupropion, triamcinolon, morfin, acetohexamid, atropin, betamethason, budesonid samt flere calciumpræparater (acetat, carbonat, citrat, gluconat, lactat, phosphat).
-  - Milde: acetylsalicylsyre, aluminiumhydroxid, attapulgit.
-- **Særlige hensyn ved de forudsagte indikationer:** nedsat nyrefunktion kræver dosisjustering. Ved pulmonal hypertension kan beta-blokade forværre højre ventrikelfunktion.
+- **Lægemiddelinteraktioner**: Der er registreret 100 mulige interaktioner. Blandt de anførte er flere af moderat grad, bl.a. med adrenalin, hydrokortison, hyoscyamin, bupropion, triamcinolon, morfin, acetohexamid, atropin, betamethason, budesonid samt flere calciumpræparater (acetat, carbonat, citrat, gluconat, lactat, phosphat). Interaktion med acetylsalicylsyre, aluminiumhydroxid og attapulgit er af mindre grad.
 
-Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den højest rangerede forudsigelse er en undertype af den allerede godkendte indikation (myokardieinfarkt) og udgør derfor ikke en reel ny repurposing-mulighed. Evidensen for de øvrige forudsigelser er svag (case-rapport, prækliniske studier eller ingen data), og for pulmonal hypertension er der en reel sikkerhedsbekymring.
+Forudsigelsen bygger udelukkende på modelscore uden kliniske forsøg eller litteratur for sygdommen (evidensniveau L5). Atenolol er desuden en oral behandling, mens malign hypertension typisk kræver intravenøs, titrerbar behandling.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer – blokerende datamangel)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Afklaring af, om forudsigelserne for infarktundertyper er dækket af den eksisterende indikation, så de ikke behandles som nye indikationer
-- Undertypespecifikke kliniske data (RCT eller observationelle studier) for posteroinferiort/posterolateralt infarkt
-- For malign renovaskulær hypertension og nyresygdom: kontrollerede kliniske data og vurdering af nyrefunktions- og nyrearteriestenose-relaterede risici
-- For pulmonal hypertension: humane data og en grundig vurdering af risikoen for forværring af højre ventrikelfunktion, før videre arbejde overvejes
+- Litteratursøgning og evt. kliniske data, der direkte omhandler malign hypertensiv nyresygdom
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméet for advarsler og kontraindikationer, særligt hos patienter med nedsat nyrefunktion
+- Vurdering af, om oral administration er forenelig med den kliniske situation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

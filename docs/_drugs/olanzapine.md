@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Kun modelforudsigelse (L5)
 nav_order: 603
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Olanzapine: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Skizofreni, bipolar lidelse, depression…"
 monitor_inn: "olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale da…"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Olanzapin: Fra skizofreni og bipolar lidelse til godartet paroksysmal torticollis hos spædbørn
+## Olanzapine: Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Olanzapin er et antipsykotikum, der oprindeligt bruges til behandling af skizofreni, bipolar lidelse og depression. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **godartet paroksysmal torticollis hos spædbørn** (score 99,5 %), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** til at støtte denne forudsigelse.
+Olanzapin er et antipsykotikum, der oprindeligt bruges til behandling af skizofreni, bipolar lidelse og depression. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **godartet paroksysmal torticollis hos spædbørn** (score 0,9954), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** til at støtte denne forudsigelse.
 
 Bemærk: Der er yderligere to forudsagte indikationer i de data, der er udarbejdet til denne rapport: **agorafobi** (6 publikationer, evidensniveau L3) og **dysthymi** (5 publikationer, evidensniveau L4). De er omtalt kort i konklusionen, fordi de har et stærkere evidensgrundlag end den primære forudsigelse.
 
@@ -48,12 +48,12 @@ Bemærk: Der er yderligere to forudsagte indikationer i de data, der er udarbejd
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni, bipolar lidelse, depression, angstlidelse (fra TxGNN-vidensgrafen; godkendt indikationstekst for det danske produkt foreligger ikke) |
-| Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn |
-| TxGNN-forudsigelsesscore | 99,54 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) |
+| TxGNN-forudsigelsesscore | 0.9954 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

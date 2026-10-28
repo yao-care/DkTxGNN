@@ -4,17 +4,17 @@ title: Lipegfilgrastim
 parent: Kun modelforudsigelse (L5)
 nav_order: 501
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lipegfilgrastim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
 monitor_inn: "LIPEGFILGRASTIM"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "diabetic retinopathy", "diabetic retinopathy"]
+predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
 ---
 
 # Lipegfilgrastim
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **primær frigivelsesf
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,16 +61,16 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **primær frigivelsesf
 
 Der foreligger ingen detaljerede data om virkningsmekanismen. Lipegfilgrastim er dog en pegyleret G-CSF-analog, som stimulerer proliferation og differentiering af neutrofile granulocytter via G-CSF-receptoren på myeloide celler.
 
-Der er ingen kendt sammenhæng mellem denne mekanisme og blodpladernes granulefrigivelse eller trombocytfunktionsforstyrrelser. Den høje score (0,9993) afspejler sandsynligvis blot nærhed mellem hæmatologiske sygdomme i modellens vidensgraf og understøttes ikke af mekanistiske eller kliniske data. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et fund.
+Der er ingen kendt sammenhæng mellem denne mekanisme og blodpladernes granulefrigivelse eller trombocytfunktionsforstyrrelser. Den høje score (0,9993) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og understøttes ikke af mekanistiske eller kliniske data. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et fund.
 
 **Øvrige forudsigelser fra modellen** (alle uden kliniske forsøg og litteratur, alle evidensniveau L5, anbefaling Hold):
 
 | Forudsagt indikation | Score | Vurdering |
 |------|------|------|
-| Svær non-proliferativ diabetisk retinopati | 99,91 % | Ingen klar mekanistisk begrundelse. Teoretisk risiko for, at G-CSF påvirker retinal neovaskularisering ugunstigt. |
-| Pseudo-von Willebrands sygdom | 99,91 % | Skyldes en funktionsforøgende defekt i trombocyt-GPIbα. Lipegfilgrastim har ingen kendt effekt på GPIb-VWF-interaktionen. |
-| Glanzmanns trombasteni | 99,91 % | Skyldes mangel på eller dysfunktion af integrin αIIbβ3. G-CSF-receptoragonisme adresserer ikke denne defekt. |
-| Diabetisk retinopati | 99,75 % | Ingen etableret mekanisme. Potentiel sikkerhedsbekymring pga. G-CSF's effekt på patologisk angiogenese. |
+| Svær non-proliferativ diabetisk retinopati | 0,9991 | Ingen klar mekanistisk begrundelse. Teoretisk risiko for, at G-CSF påvirker retinal neovaskularisering ugunstigt. |
+| Pseudo-von Willebrands sygdom | 0,9991 | Skyldes en funktionsforøgende defekt i trombocyt-GPIbα. Lipegfilgrastim har ingen kendt effekt på GPIb-VWF-interaktionen. |
+| Glanzmanns trombasteni | 0,9991 | Skyldes mangel på eller dysfunktion af integrin αIIbβ3. G-CSF-receptoragonisme adresserer ikke denne defekt. |
+| Diabetisk retinopati | 0,9975 | Ingen etableret mekanisme. Potentiel sikkerhedsbekymring pga. G-CSF's effekt på patologisk angiogenese. |
 
 Bemærk: Hver indikation optræder to gange i de indsamlede data (dublet). Begge poster er vurderet ens og er her samlet.
 
@@ -111,7 +111,7 @@ Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende baseret på modellens vidensgraf (evidensniveau L5), uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Manglende produktresumédata (advarsler og kontraindikationer) blokerer desuden en sikkerhedsscreening.
+Forudsigelsen kommer udelukkende fra TxGNN-modellen (deep learning) (evidensniveau L5) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Manglende produktresumédata (advarsler og kontraindikationer) blokerer desuden en sikkerhedsscreening.
 
 **For at komme videre kræves følgende:**
 - Hent og gennemgå produktresuméet for Lonquex fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)

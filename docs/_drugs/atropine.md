@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Atropine
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 86
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Atropine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom f…"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 # Atropine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 ## Resumé i én sætning
 
-Atropin er en uselektiv muskarin acetylcholinreceptorantagonist, som er markedsført i Danmark som injektionsvæske. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (score 99,6 %), men der er **ingen registrerede kliniske forsøg** og kun **præklinisk eller indirekte litteratur** (11 publikationer, hvoraf flere ikke er relevante), så evidensen er svag.
+Atropin er en uselektiv muskarin acetylcholinreceptorantagonist, som er markedsført i Danmark som injektionsvæske. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **migræne** (score 0.9956), men der er **ingen registrerede kliniske forsøg** og kun **præklinisk eller indirekte litteratur** (11 publikationer, hvoraf flere ikke er relevante), så evidensen er svag.
 
 ---
 
@@ -48,10 +48,10 @@ Atropin er en uselektiv muskarin acetylcholinreceptorantagonist, som er markedsf
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom for begge godkendelser) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,56 % |
+| TxGNN-forudsigelsesscore | 0.9956 |
 | Evidensniveau | L4 (kun præklinisk/mekanistisk og indirekte litteratur) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Litteraturen omfatter blandt andet: meningeal mastcelle-medieret kolinerg module
 
 Disse fund er prækliniske eller indirekte og viser ikke, at atropin reducerer migrænens hyppighed eller sværhedsgrad hos mennesker. Den høje TxGNN-score er udelukkende en beregningsmæssig forudsigelse.
 
-Den anden forudsagte indikation, **migræne med hjernestammeaura** (score 99,4 %), støttes kun af ét museforsøg (PMID 31945385). Her hæmmede kolinerg aktivering cortical spreading depression. Effektretningen understøtter ikke klart, at muskarinblokade med atropin er gavnlig, og kan tyde på det modsatte. Evidensniveauet er L5.
+Den anden forudsagte indikation, **migræne med hjernestammeaura** (score 0.9942), støttes kun af ét museforsøg (PMID 31945385). Her hæmmede kolinerg aktivering cortical spreading depression. Effektretningen understøtter ikke klart, at muskarinblokade med atropin er gavnlig, og kan tyde på det modsatte. Evidensniveauet er L5.
 
 ---
 

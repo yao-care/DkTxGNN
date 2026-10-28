@@ -4,17 +4,17 @@ title: Cyanocobalamin
 parent: Kun modelforudsigelse (L5)
 nav_order: 223
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Cyanocobalamin: forudsagt ny indikation Biotinmetabolisk sygdom (evidensniveau L5). Oprindelig indikation: Vitamin B12-mangel, perniciøs anæmi, folatmangelanæmi…"
+indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
-predicted_indications: ["biotin metabolic disease", "biotin metabolic disease"]
+predicted_indications: ["biotin metabolic disease"]
+last_modified_at: 2026-10-27
+description: "Cyanocobalamin: forudsagt ny indikation Biotinstofskiftesygdom (biotin metabolic disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cyanocobalamin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +33,67 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Cyanocobalamin: Fra vitamin B12-mangel til biotinmetabolisk sygdom
+## Cyanocobalamin: vitamin B12-kofaktor → biotinstofskiftesygdom (biotin metabolic disease)
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Cyanocobalamin (vitamin B12) bruges oprindeligt til behandling af vitamin B12-mangel og relaterede anæmier, bl.a. perniciøs anæmi.
-TxGNN-modellen forudsiger, at det kan have effekt ved **biotinmetabolisk sygdom**, men forudsigelsen er alene netværksbaseret: der er **ingen kliniske forsøg** og kun **1 publikation** af generel karakter (en oversigt om bioteknologisk fremstilling af vitaminer fra 1992), som ikke direkte understøtter indikationen.
+Cyanocobalamin er en syntetisk form af vitamin B12. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **biotinstofskiftesygdom (biotin metabolic disease)**. Evidensen er meget begrænset: der er **0 kliniske forsøg** og **1 publikation**, som er en generel oversigtsartikel om bioteknologisk fremstilling af vitaminer og ikke en undersøgelse af sygdommen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Vitamin B12-mangel, perniciøs anæmi, folatmangelanæmi, jernmangelanæmi og andre mangelanæmier (fra vidensgrafen; den danske godkendelse har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Biotinmetabolisk sygdom |
-| TxGNN-forudsigelsesscore | 99,6 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Biotinstofskiftesygdom (biotin metabolic disease) |
+| TxGNN-forudsigelsesscore | 0,9960 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Cyanocobalamin er kendt som en kobalamin-kofaktor for methylmalonyl-CoA-mutase og methioninsyntase, og dets effekt ved B12-mangel er veldokumenteret.
+Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Cyanocobalamin er imidlertid kendt som en kobalamin-kofaktor for methylmalonyl-CoA-mutase og methioninsyntase.
 
-Biotin er kofaktor for carboxylaser, f.eks. propionyl-CoA-carboxylase, som leverer methylmalonyl-CoA til den samme propionat-/methylmalonyl-CoA-vej, hvor B12 virker. Denne fælles metaboliske kontekst kan forklare den grafbaserede sammenhæng.
+Biotin er kofaktor for carboxylaser, f.eks. propionyl-CoA-carboxylase, som indgår i den samme propionat/methylmalonyl-CoA-vej. Denne fælles metaboliske sammenhæng kan forklare den modelbaserede association.
 
-Der er dog ingen direkte evidens for, at cyanocobalamin behandler biotinmetaboliske sygdomme såsom biotinidasemangel eller holocarboxylasesyntetasemangel. Standardbehandlingen er farmakologisk biotintilskud. Forudsigelsen bør derfor ses som en hypotese og ikke som en behandlingsanbefaling.
+Forudsigelsen er dog alene en netværksbaseret slutning med en høj score. Der er intet direkte belæg for, at cyanocobalamin behandler biotinstofskiftesygdomme som biotinidase- eller holocarboxylasesyntetase-mangel. Standardbehandlingen er biotintilskud. Mekanismen kunne ikke krydstjekkes mod kuraterede lægemiddel-target-data.
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Oversigtsartikel | Journal of Chemical Technology and Biotechnology | Gennemgang af bioteknologisk produktion af vitaminer og koenzymer; behandler ikke behandlingseffekt ved biotinmetabolisk sygdom |
+| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Oversigtsartikel | Journal of Chemical Technology and Biotechnology | Generel gennemgang af bioteknologisk produktion af vitaminer, koenzymer og beslægtede biokemikalier. Undersøger ikke biotinstofskiftesygdom. |
 
-## Markedsinformation for Danmark
+## Markedsoplysninger i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101107682 | Betolvex (Teva B.V.) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet |
+| 28101107682 | Betolvex | Filmovertrukne tabletter | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Blandt de vist er størstedelen klassificeret som *mindre* (minor), bl.a. med syrehæmmende midler:
-- H2-blokkere: famotidin, ranitidin, cimetidin, nizatidin
-- Protonpumpehæmmere: omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol
-- Kaliumchlorid
+**Lægemiddelinteraktioner:** Den gennemførte interaktionssøgning fandt 100 registrerede interaktioner. De viste interaktioner er hovedsageligt af graden "Minor" og omfatter bl.a. syresænkende midler: famotidin, ranitidin, cimetidin, nizatidin samt protonpumpehæmmere (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol). Desuden er kaliumchlorid nævnt som Minor. For flere stoffer er graden ukendt, bl.a. metformin, glimepirid, rosiglitazon, acarbose, mesalazin, doxycyclin, morfin og sucralfat.
 
-Flere interaktioner har uklassificeret niveau (ukendt), bl.a. metformin, acarbose, glimepirid, rosiglitazon, doxycyclin, mesalazin, morphin og sucralfat.
-
-Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på netværksinferens (evidensniveau L5), uden kliniske forsøg og uden relevant litteratur. Standardbehandlingen for biotinmetaboliske sygdomme er biotin, og der er ingen direkte indikation for cyanocobalamin.
+Forudsigelsen bygger kun på modelinferens (evidensniveau L5). Der er ingen kliniske forsøg og ingen publikationer, der direkte undersøger cyanocobalamin ved biotinstofskiftesygdom, og standardbehandlingen er biotin.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra kurerede lægemiddel-target-kilder
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (en blokerende datamangel for sikkerhedsscreening)
-- Præklinisk eller klinisk litteratur, der direkte undersøger B12 ved biotinmetabolisk sygdom
-- Vurdering af, om cyanocobalamin tilfører værdi ud over standardbehandling med biotin
+- Direkte præklinisk eller klinisk evidens for effekt af cyanocobalamin ved biotinstofskiftesygdomme (f.eks. biotinidase- eller holocarboxylasesyntetase-mangel)
+- Data om virkningsmekanisme fra kuraterede lægemiddel-target-kilder
+- Produktresumé (SmPC) med advarsler og kontraindikationer for det godkendte lægemiddel
+- Vurdering af, om cyanocobalamin kan tilføre noget ud over standardbehandling med biotin
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

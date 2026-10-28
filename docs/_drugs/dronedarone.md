@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Moderat evidens (L3-L4)
 nav_order: 282
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L3). Oprindelig indikation: Atrieflimren"
 monitor_inn: "dronedarone"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dronedaron: Fra atrieflimren til iskæmisk slagtilfælde (stroke disorder)
+## Dronedarone: Slagtilfælde (stroke disorder)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der findes **ingen registrerede kliniske forsøg**, men **20 publikationer** i d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atrieflimren (der er ikke angivet indikationstekst i den danske registrering; oplysningen stammer fra TxGNN-vidensgrafen) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Slagtilfælde (stroke disorder) |
-| TxGNN-prædiktionsscore | 99,97 % |
+| TxGNN-prædiktionsscore | 0.9997 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -120,7 +120,7 @@ Gennemgå desuden det godkendte produktresumé (SmPC), da advarsler og kontraind
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har en høj modelscore, men evidensen er indirekte (post hoc-analyser, oversigtsartikler og observationelle studier) og knyttet til atrieflimren, ikke til en selvstændig slagtilfælde-indikation. Ingen kliniske forsøg er registreret, og de kendte kontraindikationer begrænser anvendelsen hos mange patienter med risiko for slagtilfælde. De øvrige forudsigelser (fx forældede eller urelaterede sygdomsbegreber) mangler evidens og vurderes som sandsynlige artefakter i vidensgrafen.
+Forudsigelsen har en høj modelscore, men evidensen er indirekte (post hoc-analyser, oversigtsartikler og observationelle studier) og knyttet til atrieflimren, ikke til en selvstændig slagtilfælde-indikation. Ingen kliniske forsøg er registreret, og de kendte kontraindikationer begrænser anvendelsen hos mange patienter med risiko for slagtilfælde. De øvrige forudsigelser mangler evidens; scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **For at komme videre kræves:**
 - Prospektive, randomiserede studier med slagtilfælde som primært endepunkt

@@ -8,6 +8,7 @@ nav_order: 74
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Aprotinin
@@ -53,7 +54,8 @@ Uden prognosedata, kliniske forsøgsbevis eller litteraturbevis i pakken kan en 
 | Forventet ny indikation | Ingen genereret |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | L5 — modelprognoseledningen producerede ingen output |
-| Markedsstatus i Danmark | Ikke markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal markedsapproveringer | 0 |
 | Anbefalet beslutning | **Udsæt** |
 

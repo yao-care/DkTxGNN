@@ -4,17 +4,17 @@ title: Clonazepam
 parent: Moderat evidens (L3-L4)
 nav_order: 210
 evidence_level: L3
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Clonazepam: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Early myoclonic encephalopathy, absence-epilepsi…"
 monitor_inn: "CLONAZEPAM"
-predicted_indications: ["restless legs syndrome", "restless legs syndrome", "insomnia (disease)", "insomnia (disease)", "trigeminal nerve neoplasm", "trigeminal nerve neoplasm"]
+predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen understøttes af **0 registrerede kliniske forsøg** og **20 publi
 |------|------|
 | Oprindelig indikation | Early myoclonic encephalopathy, absence-epilepsi, Lennox-Gastaut-syndrom, angstlidelse (ifølge videnbasen; godkendt indikationstekst for det danske produkt foreligger ikke) |
 | Forudsagt ny indikation | Rastløse ben-syndrom (restless legs syndrome) |
-| TxGNN-forudsigelsesscore | 99,65 % |
+| TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -130,7 +130,7 @@ Der foreligger en AASM-retningslinje, en Cochrane-oversigt og små placebokontro
 
 ---
 
-*Note om øvrige forudsigelser:* Insomni (score 99,3 %, evidensniveau L4, "Research Question") har kun indirekte litteratur og ingen forsøg. Trigeminusnerve-neoplasme (score 99,3 %, L5, "Hold") har ingen understøttende evidens eller plausibel mekanisme.
+*Note om øvrige forudsigelser:* Insomni (score 0,9930, evidensniveau L4, "Research Question") har kun indirekte litteratur og ingen forsøg. Trigeminusnerve-neoplasme (score 0,9930, L5, "Hold") har ingen understøttende evidens eller plausibel mekanisme.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

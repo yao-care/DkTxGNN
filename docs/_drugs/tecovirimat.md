@@ -6,9 +6,9 @@ nav_order: 797
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tecovirimat: forudsagt ny indikation Hordeolum (bygkorn) (evidensniveau L5). Oprindelig indikation: Kopper (smallpox), kokopper, variola major…"
 monitor_inn: "tecovirimat"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "arbovirus infection", "equine infectious anemia", "idiopathic recurrent and disabling cutaneous herpes", "Astroviridae infectious disease", "Arterivirus infectious disease"]
+description: "Tecovirimat: forudsagt ny indikation Hordeolum (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tecovirimat
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tecovirimat: Fra kopper til hordeolum
+## Tecovirimat: Hordeolum
 {: .text-alpha }
 
 ## Et-sætnings-resumé
 
-Tecovirimat er et antiviralt middel, der oprindeligt anvendes mod orthopoxvirusinfektioner som kopper (smallpox), kokopper og relaterede virale hudsygdomme. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hordeolum** (bygkorn) med en score på **99,66 %**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Forudsigelsen vurderes som en sandsynlig netværksartefakt uden biologisk begrundelse.
+Tecovirimat er et antiviralt middel, der oprindeligt anvendes mod orthopoxvirusinfektioner som kopper (smallpox), kokopper og relaterede virale hudsygdomme. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hordeolum** (bygkorn) med en score på **0,9966**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Forudsigelsen vurderes som en sandsynlig netværksartefakt uden biologisk begrundelse.
 
 ---
 
@@ -46,12 +46,12 @@ Tecovirimat er et antiviralt middel, der oprindeligt anvendes mod orthopoxvirusi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kopper (smallpox), kokopper, variola major, smitsom pustuløs dermatitis, malkeknuder, erythema infectiosum, exanthema subitum (jf. vidensgrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Hordeolum (bygkorn) |
-| TxGNN-forudsigelsesscore | 99,66 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hordeolum |
+| TxGNN-forudsigelsesscore | 0.9966 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Tecovirimat er et antiviralt middel, der oprindeligt anvendes mod orthopoxvirusi
 
 Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Ifølge den faglige vurdering hæmmer tecovirimat orthopoxvirussets VP37-envelopeprotein (F13L-homolog) og dermed dannelsen af ekstracellulært omsluttet virus. Mekanismen er specifik for orthopoxvirus.
 
-Hordeolum er typisk en lokal, stafylokok-bakteriel infektion i øjenlågets kirtler. Tecovirimat har ingen kendt antibakteriel aktivitet, og der er derfor ingen troværdig mekanistisk sammenhæng mellem den oprindelige og den forudsagte indikation. Den høje score afspejler sandsynligvis, at lægemidlet ligger i et generelt antiinfektivt område af vidensgrafen, og ikke en reel biologisk sammenhæng.
+Hordeolum er typisk en lokal, stafylokok-bakteriel infektion i øjenlågets kirtler. Tecovirimat har ingen kendt antibakteriel aktivitet, og der er derfor ingen troværdig mekanistisk sammenhæng mellem den oprindelige og den forudsagte indikation. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
 ---
 
@@ -92,7 +92,7 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Andre forudsagte indikationer (til orientering)
 
-Ni øvrige forudsigelser med scorer omkring 99,6 % er også gennemgået. Alle undtagen én mangler kliniske forsøg og litteratur og har ingen plausibel mekanisme (evidensniveau L5, Hold):
+Ni øvrige forudsigelser med scorer fra 0,9962 til 0,9965 er også gennemgået. Alle undtagen én mangler kliniske forsøg og litteratur og har ingen plausibel mekanisme (evidensniveau L5, Hold):
 
 | Forudsagt indikation | Vurdering |
 |------|------|

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 778
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Toksoplasmose"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 # Sulfadiazine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sulfadiazin er et sulfonamid, der oprindeligt anvendes mod toksoplasmose og besl
 |------|------|
 | Oprindelig indikation | Toksoplasmose (godkendt indikationstekst findes ikke i de danske godkendelsesdata) |
 | Forudsagt ny indikation | Pneumocystose |
-| TxGNN-forudsigelsesscore | 99,39 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (kun veterinære præparater) |
-| Antal markedsføringstilladelser | 2 |
+| TxGNN-forudsigelsesscore | 0,9939 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Toksoplasmose og pneumocystose er begge opportunistiske infektioner, som især r
 
 Der er dog en vigtig begrænsning: Den meget høje score afspejler sandsynligvis ligheden med stofklassen (især sulfamethoxazol) snarere end sulfadiazin-specifikke data. Standardsulfonamidet mod Pneumocystis er sulfamethoxazol, ikke sulfadiazin. Den fundne litteratur omtaler hovedsageligt sulfadiazin i forbindelse med toksoplasmose.
 
-Rang 2-forudsigelsen, **punktformet epitelial keratokonjunktivitis** (score 99,36 %), har ingen kliniske forsøg eller litteratur. Der er ingen klar mekanistisk begrundelse for systemisk sulfadiazin, da tilstanden ofte er viral (fx adenovirus) eller immunmedieret. Den behandles ikke yderligere i denne rapport.
+Rang 2-forudsigelsen, **punktformet epitelial keratokonjunktivitis** (score 0,9936), har ingen kliniske forsøg eller litteratur. Der er ingen klar mekanistisk begrundelse for systemisk sulfadiazin, da tilstanden ofte er viral (fx adenovirus) eller immunmedieret. Den behandles ikke yderligere i denne rapport.
 
 ---
 

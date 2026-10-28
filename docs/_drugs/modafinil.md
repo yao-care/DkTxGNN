@@ -4,17 +4,17 @@ title: Modafinil
 parent: Moderat evidens (L3-L4)
 nav_order: 564
 evidence_level: L4
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Modafinil: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (også narkolepsi med katapleksi) – indikationsteksten i de…"
 monitor_inn: "MODAFINIL"
-predicted_indications: ["insomnia (disease)", "insomnia (disease)"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 ## Resumé i én sætning
 
 Modafinil er et vågenhedsfremmende lægemiddel, der oprindeligt anvendes til behandling af narkolepsi og relaterede søvn- og neurologiske lidelser.
-TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men understøttelsen er svag: kun **2 kliniske forsøg** (begge fase 4, det ene afsluttet med 2 deltagere) og **ingen direkte publikationer** om modafinil mod insomni er identificeret i de data, der er indsamlet til denne rapport. Den høje modelscore afspejler sandsynligvis nærhed i vidensgrafen snarere end en reel terapeutisk sammenhæng.
+TxGNN-modellen (deep learning) forudsiger, at det kan have effekt på **insomni**, men understøttelsen er svag: kun **2 kliniske forsøg** (begge fase 4, det ene afsluttet med 2 deltagere) og **ingen direkte publikationer** om modafinil mod insomni er identificeret i de data, der er indsamlet til denne rapport. Den høje modelscore kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men understø
 |------|------|
 | Oprindelig indikation | Narkolepsi (også narkolepsi med katapleksi) – indikationsteksten i den danske tilladelse er ikke angivet |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men understø
 
 Data om modafinils virkningsmekanisme var ikke tilgængelige i det indsamlede materiale. Modafinil er kendt som et vågenhedsfremmende middel, der hæmmer dopamintransportøren og påvirker histaminerge, orexinerge og glutamaterge systemer. Disse oplysninger stammer fra den generelle analyse og er ikke verificeret i datakilden.
 
-Insomni er kendetegnet ved forstyrret søvn og hyperarousal (overaktivering). Et vågenhedsfremmende middel virker derfor mekanistisk modsat af, hvad der kræves for at behandle sygdommens kerne. Den meget høje TxGNN-score (0,998) afspejler sandsynligvis, at insomni ligger tæt på narkolepsi i vidensgrafen, og ikke at der er en reel behandlingsmæssig sammenhæng.
+Insomni er kendetegnet ved forstyrret søvn og hyperarousal (overaktivering). Et vågenhedsfremmende middel virker derfor mekanistisk modsat af, hvad der kræves for at behandle sygdommens kerne. Den meget høje TxGNN-score (0,9985) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens eller en reel behandlingsmæssig sammenhæng.
 
 En eventuel gavn ville være indirekte, f.eks. ved at forbedre vågenhed og funktion i dagtimerne hos patienter med søvn-/vågenhedsforstyrrelser (fx ældre eller patienter med neurologisk betinget søvnighed) – ikke behandling af insomni i sig selv.
 

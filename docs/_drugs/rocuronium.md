@@ -4,17 +4,17 @@ title: Rocuronium
 parent: Kun modelforudsigelse (L5)
 nav_order: 732
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Rocuronium: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "rocuronium"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
 ---
 
 # Rocuronium
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Rocuronium er et ikke-depolariserende neuromuskulært blokerende middel, som er 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (godkendt indikationstekst for det danske produkt er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Rocuronium er et ikke-depolariserende neuromuskulært blokerende middel, som er 
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Rocuronium er dog kendt som en kompetitiv antagonist ved nikotinerge acetylcholinreceptorer på den motoriske endeplade, hvilket hæmmer neuromuskulær transmission i skeletmuskulatur.
 
-Der kendes ingen mekanisme, hvorved dette kan påvirke migrænens patofysiologi, f.eks. CGRP-signalering, trigeminovaskulær aktivering eller cortical spreading depression. Den høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen snarere end en biologisk begrundelse.
+Der kendes ingen mekanisme, hvorved dette kan påvirke migrænens patofysiologi, f.eks. CGRP-signalering, trigeminovaskulær aktivering eller cortical spreading depression. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Botulinumtoksin, som også hæmmer neuromuskulær transmission, bruges ved kronisk migræne. Det virker imidlertid via præsynaptisk hæmning af acetylcholinfrigivelse og modulering af nociceptorer, og denne effekt kan ikke overføres til en postsynaptisk blokker som rocuronium.
 

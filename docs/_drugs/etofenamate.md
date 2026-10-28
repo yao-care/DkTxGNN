@@ -4,17 +4,17 @@ title: Etofenamate
 parent: Kun modelforudsigelse (L5)
 nav_order: 335
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Etofenamate: forudsagt ny indikation Spondyloartropati, modtagelighed for (spondyloarthropathy… (evidensniveau L5). Oprindelig indikation: Slidgigt og artropati"
+indication_count: 9
 monitor_inn: "etofenamate"
-predicted_indications: ["spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
+last_modified_at: 2026-10-23
+description: "Etofenamate: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L5). Oprindelig indikation: Relationer til slidgigt…"
 ---
 
 # Etofenamate
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,72 +33,83 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Etofenamat: Fra slidgigt til spondyloartropati (modtagelighed)
+## Etofenamat: Fra slidgigt og ledsygdomme til ankyloserende spondylitis
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Etofenamat er et topisk NSAID (fenamat-klassen), som oprindeligt anvendes mod slidgigt og ledsygdomme.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **spondyloartropati (modtagelighed)**, men der er **ingen kliniske forsøg** og **ingen publikationer** direkte for denne indikation. Den eneste relaterede publikation (om **seponeret ankyloserende spondylitis**, rang 2) er et farmakokinetisk studie.
+Etofenamat er et topisk non-steroidt antiinflammatorisk lægemiddel (NSAID), som i videnskabsgrafen er knyttet til slidgigt og ledsygdomme. TxGNN-modellen forudsiger, at det kan have effekt ved **ankyloserende spondylitis**, men der foreligger kun **0 kliniske forsøg** og **1 publikation** (et farmakokinetisk studie, som ikke undersøger sygdommen direkte). Forudsigelsen er derfor ikke understøttet af direkte evidens.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Slidgigt og artropati (ifølge TxGNN-vidensgrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Spondyloartropati, modtagelighed for (spondyloarthropathy, susceptibility to) |
-| TxGNN-forudsigelsesscore | 99,9996 % |
+| Oprindelig indikation | Relationer til slidgigt, slidgigt-modtagelighed og ledsygdom er registreret i videnskabsgrafen. Den danske tilladelse indeholder ingen indikationstekst. |
+| Forudsagt ny indikation | Ankyloserende spondylitis |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på markedet i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etofenamat tilhører de topiske NSAID'er (fenamat-klassen), som hæmmer COX-enzymer og dermed prostaglandinmedieret inflammation. Det er dokumenteret for slidgigt og artropati, og mekanistisk kan en dæmpning af inflammation være relevant for symptomer ved spondyloartropati.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Etofenamat er en ester af flufenaminsyre og tilhører NSAID-gruppen. Stofgruppen hæmmer cyclooxygenase og dermed dannelsen af prostaglandiner, som driver inflammation og smerte. Dette er generel klassekundskab og ikke dokumenteret specifikt for etofenamat i de foreliggende data.
 
-Der er dog en væsentlig begrænsning: "modtagelighed for spondyloartropati" er en genetisk disponeringsetikette og ikke en behandlingsbar klinisk tilstand. Den meget høje score (~0,99999) er en ren modelforudsigelse og udgør ikke klinisk evidens.
+NSAID'er er førstevalg til symptomlindring ved ankyloserende spondylitis, så mekanismen er i princippet plausibel. Der er dog en væsentlig begrænsning: Sygdommen rammer primært columna og sacroiliacaled, og det er usandsynligt, at et topisk præparat når disse dybtliggende led i effektive koncentrationer. Det eneste foreliggende studie viser, at etofenamat kan nå serum og synovialvæske ved iontoforese, men det viser hverken klinisk effekt eller effekt på aksial sygdom.
 
-**Andre forudsagte indikationer (kort):**
-- **Ankyloserende spondylitis (rang 2, L4, "forskningsspørgsmål"):** NSAID'er er førstevalg til symptomlindring, så COX-hæmning er plausibel. Aksial sygdom er dyb, så relevansen af topisk administration er usikker.
-- **Polyartikulær juvenil reumatoid artrit (rang 9, L5, "forskningsspørgsmål"):** NSAID'er bruges som symptomatisk støtte, men der er ingen pædiatriske data, og polyartikulær sygdom egner sig dårligt til topisk behandling.
-- **Øvrige (reumatoid vaskulitis, hypermobilitet af coccyx, akromesomel dysplasi, brachyolmi-amelogenesis imperfecta-syndrom, pseudoachondroplasi, myosklerose, Kümmells sygdom):** Ingen plausibel mekanistisk sammenhæng eller kun spekulativ; sandsynligvis artefakter fra vidensgrafen.
+Evidensniveauet er sat til L5, fordi ingen af de citerede studier undersøger ankyloserende spondylitis direkte.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen litteratur for den primære forudsagte indikation. For den næstrangerede indikation (ankyloserende spondylitis) er der én publikation:
-
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Farmakokinetisk studie | Arzneimittel-Forschung | Etofenamatkoncentrationer i serum og synovialvæske efter iontoforese hos 11 patienter med lænderygsmerter og 13 med knæsynovitis. Viser vævspenetration, men tester ikke effekt ved ankyloserende spondylitis. |
+| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Farmakokinetisk studie | Arzneimittel-Forschung | Iontoforese af etofenamatgel hos 11 patienter med lænderygsmerter og 13 med knæsynovitis. Etofenamat blev målt i serum og synovialvæske. Studiet viser vævspenetration, men ikke klinisk effekt og undersøger ikke ankyloserende spondylitis. |
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106049017 | Lixim | Medicinsk plaster | Indikationstekst ikke tilgængelig |
+| 28106049017 | Lixim | Medicinsk plaster | Indikationstekst ikke angivet i tilladelsen |
 
-Producent: Drossapharm Arzneimittel Handelsgesellschaft GmbH. Status: gyldig.
+Tilladelsen er en national tilladelse for et enkeltstofpræparat. Producent: Drossapharm Arzneimittel Handelsgesellschaft GmbH.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede interaktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og interaktioner.
+Der foreligger ingen sikkerhedsdata i de indsamlede data, og der er ikke fundet registrerede lægemiddelinteraktioner. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Generelt bør man være opmærksom på, at NSAID'er kan indebære nyre- og karrelaterede risici, især ved systemiske immunmedierede sygdomme.
+---
+
+## Øvrige forudsagte indikationer
+
+Alle nedenstående forudsigelser mangler kliniske forsøg og litteratur og har evidensniveau L5. Anbefalingen er for alle: Hold.
+
+| Rang | Sygdom | TxGNN-score | Vurdering |
+|---|---|---|---|
+| 2 | Reumatoid vaskulitis | 1,0000 | Systemisk immunkompleksmedieret sygdom, der kræver immunsuppression. Et topisk NSAID forventes ikke at have effekt. |
+| 3 | Hypermobilitet af coccyx | 1,0000 | Lokal smertelindring er plausibel, men kun som mekanistisk antagelse. |
+| 4 | Akromesomelisk dysplasi, Hunter-Thompson-type | 1,0000 | Genetisk skeletdysplasi. COX-hæmning rammer ikke den underliggende defekt. |
+| 5 | Brachyolmi-amelogenesis imperfecta-syndrom | 1,0000 | Sjælden genetisk lidelse uden plausibel NSAID-mekanisme. |
+| 6 | Pseudoachondroplasi | 1,0000 | Kan give symptomatisk smertelindring, men ingen sygdomsmodificerende effekt. |
+| 7 | Myosklerose | 1,0000 | Ingen evidens for effekt på den fibrotiske proces. |
+| 8 | Polyartikulær juvenil reumatoid artritis | 1,0000 | NSAID'er bruges som symptomatisk tillæg, men data for børn mangler, og topisk brug kontrollerer ikke polyartikulær sygdom. |
+| 9 | Kümmells sygdom | 1,0000 | Behandles primært mekanisk eller kirurgisk; topisk NSAID har ingen sygdomsmodificerende rolle. |
 
 ---
 
@@ -107,13 +118,14 @@ Generelt bør man være opmærksom på, at NSAID'er kan indebære nyre- og karre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller litteratur for indikationen, og "modtagelighed for spondyloartropati" er ikke en behandlingsbar tilstand. Den eneste tilknyttede publikation er et farmakokinetisk studie uden effektdata.
+Forudsigelsen for ankyloserende spondylitis hviler på en generel antiinflammatorisk mekanisme og ét farmakokinetisk studie, som ikke undersøger sygdommen. Det er usandsynligt, at topisk administration når aksiale led i effektive koncentrationer. Evidensniveauet er L5.
 
-**For at komme videre kræves:**
-- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation) – dette blokerer i øjeblikket sikkerhedsscreeningen
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Omformulering af målet til en klinisk behandlingsbar tilstand, fx ankyloserende spondylitis, som kan undersøges som forskningsspørgsmål
-- Kliniske effektdata for topisk etofenamat ved aksial spondyloartropati og vurdering af, om topisk administration er relevant for dyb aksial sygdom
+**For at komme videre kræves følgende:**
+- Kontrollerede kliniske data for etofenamat ved ankyloserende spondylitis eller aksial spondyloartritis
+- Data, der viser, om topisk eller transdermal administration kan nå columna og sacroiliacaled
+- Oplysninger om virkningsmekanisme
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé for Lixim, da sikkerhedsdata mangler
+- En afklaring af den godkendte indikation, da tilladelsen ikke indeholder indikationstekst
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

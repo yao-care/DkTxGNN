@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Amantadine: forudsagt ny indikation Rasmussen subakut encephalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom og beslægtede parkinsonistiske lidelser (ifølge vid…"
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
+last_modified_at: 2026-10-27
+description: "Amantadine: forudsagt ny indikation Rasmussen subakut encephalitis (Rasmussen subacute encephalitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Amantadine
@@ -33,91 +33,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Amantadin: Fra Parkinsons sygdom til Rasmussen subakut encephalitis
+## Amantadin: NMDA-receptorantagonist og dopaminerg modulator → Rasmussen subakut encephalitis (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Opsummering
 
-Amantadin er oprindeligt anvendt til behandling af Parkinsons sygdom og beslægtede bevægelsesforstyrrelser.
-TxGNN-modellen forudsiger, at det kan have effekt mod **Rasmussen subakut encephalitis**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen er udelukkende modelbaseret.
-
----
+Amantadin er et lægemiddel, der er markedsført i Danmark som hårde kapsler. Den TxGNN-model, der ligger til grund for denne vurdering, forudsiger, at det kan have effekt ved **Rasmussen subakut encephalitis (Rasmussen subacute encephalitis)**. Forudsigelsen er udelukkende modelbaseret: der er **ingen kliniske forsøg** og **ingen publikationer** for denne sygdom i de data, der er sammenstillet til rapporten.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Parkinsons sygdom og beslægtede parkinsonistiske lidelser (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Rasmussen subakut encephalitis |
-| TxGNN-forudsigelsesscore | 99,48 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rasmussen subakut encephalitis (Rasmussen subacute encephalitis) |
+| TxGNN-forudsigelsesscore | 0,9948 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor kan forudsigelsen være rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Amantadin er dog kendt som NMDA-receptorantagonist med dopaminerg effekt. Ved Rasmussen-encephalitis har man foreslået, at glutamatreceptor-medieret excitotoksicitet og autoimmunitet mod GluR3 spiller en rolle. Det giver en tænkelig, men uafprøvet, mekanistisk forbindelse.
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om amantadins virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra almen viden virker amantadin som NMDA-receptorantagonist og modulerer dopaminerg signalering, og denne virkning er veletableret ved Parkinsons sygdom.
+Dette er en ren beregningsmæssig forudsigelse og er ikke understøttet af kliniske eller publicerede data i materialet. Sammenhængen skal derfor betragtes som en hypotese.
 
-Ved Rasmussen encephalitis, en sjælden, progressiv og inflammatorisk hjernesygdom, er glutamatreceptor-medieret excitotoksicitet og autoimmunitet mod GluR3 blevet foreslået som medvirkende mekanismer. En NMDA-antagonist kunne derfor teoretisk set være relevant.
+## Klinisk evidens
 
-Dette er alene en beregningsmæssig forudsigelse og er ikke understøttet af de foreliggende data. Forudsigelsen bør betragtes som en hypotese, ikke som et grundlag for klinisk anvendelse.
-
----
-
-## Kliniske forsøg
-
-Der er på nuværende tidspunkt ikke registreret relaterede kliniske forsøg.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der foreligger på nuværende tidspunkt ingen relateret litteratur for Rasmussen subakut encephalitis.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for Rasmussen subakut encephalitis.
 
-Til orientering er der for andre forudsagte indikationer fundet følgende:
-- **Myelitis (rang 3):** Én dobbeltblindet, placebokontrolleret undersøgelse (PMID [7611638](https://pubmed.ncbi.nlm.nih.gov/7611638/), 1995) af amantadin mod træthed ved post-polio-syndrom samt flere reviews. Evidensen vedrører symptomlindring (træthed), ikke behandling af selve myelitten.
-- **PLA2G6-associeret neurodegeneration (rang 4):** Kun en enkelt case-rapport (PMID [31366412](https://pubmed.ncbi.nlm.nih.gov/31366412/), 2019) om amantadin mod gangforstyrrelse ved PKAN, en anden NBIA-undertype. Evidensen er indirekte.
-- **Transaldolasemangel (rang 2):** Ingen evidens, og der kan ikke påvises en klar mekanistisk sammenhæng; forudsigelsen er sandsynligvis et artefakt i vidensgrafen.
-
----
-
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106284419 | Dinetrel (Aspire Pharma (Malta) Limited) | Kapsler, hårde | Indikationstekst ikke angivet i de foreliggende data |
-
----
+| 28106284419 | Dinetrel | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Lægemiddelstyrelsens produktresumé med advarsler og kontraindikationer var ikke tilgængeligt i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** 117 interaktioner er registreret. Blandt dem er den væsentligste af alvorlig grad:
+  - **Bupropion** (alvorlig)
+  - Moderate interaktioner omfatter bl.a. antikolinerge stoffer (atropin, scopolamin, hyoscyamin, glycopyrronium, dicyclomin, trospium), metoclopramid, polyethylenglycol med elektrolytter, natriumsulfat og picosulfat.
 
-Følgende supplerende oplysninger foreligger:
-
-- **Mulige kontraindikationer ifølge vidensgrafen (ikke fra produktresuméet):** multipel systematrofi, posturalt ortostatisk takykardisyndrom, ortostatisk hypotension, epilepsi, nyresygdom, pyoureter, kongestiv hjerteinsufficiens, psykotiske lidelser (inkl. skizofreniform og skizoaffektiv lidelse), psykiske lidelser generelt, melanom, snævervinklet glaukom, stofrelaterede lidelser/misbrug samt atopisk eksem og dermatitis.
-- **Lægemiddelinteraktioner:** I alt 117 registrerede interaktioner. Blandt de vigtigste:
-  - **Alvorlig (Major):** bupropion.
-  - **Moderat:** antikolinerge lægemidler (atropin, clidinium, dicyclomin, glycopyrronium, hyoscyamin, mepenzolat, methscopolamin, propantelin, scopolamin, trospium), metoclopramid samt visse afføringsmidler/tarmrensningsmidler (polyethylenglycol med elektrolytter, picosulfat, natriumsulfat).
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Trods en høj TxGNN-score (99,48 %) er der hverken kliniske forsøg eller publikationer, der understøtter amantadin ved Rasmussen encephalitis. Evidensniveauet er L5 (kun modelforudsigelse), og den mekanistiske forbindelse er kun hypotetisk.
+Forudsigelsen har en høj score (0,9948), men der findes hverken kliniske forsøg eller litteratur for Rasmussen subakut encephalitis. Evidensniveauet er derfor L5, og den mekanistiske sammenhæng er kun hypotetisk.
 
-**For at komme videre kræves følgende:**
-- Data om amantadins virkningsmekanisme (MOA), fx fra DrugBank
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da sikkerhedsscreening ikke kan gennemføres uden
-- Systematisk litteratursøgning efter præklinisk eller klinisk evidens for amantadin ved Rasmussen encephalitis (fx glutamat-/GluR3-relaterede mekanismer)
-- Vurdering af, om andre forudsagte indikationer (myelitis, PLA2G6-associeret neurodegeneration) bør prioriteres som forskningsspørgsmål, idet de har en vis indirekte evidens (L4), men kun for symptomlindring
+**For at komme videre kræves:**
+- Systematisk litteratursøgning og prækliniske data om amantadin ved Rasmussen-encephalitis
+- Data om lægemidlets virkningsmekanisme
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Vurdering af sikkerhed hos børn, som er den hyppigst ramte gruppe, før et eventuelt klinisk forsøg planlægges
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

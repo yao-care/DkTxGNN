@@ -4,17 +4,17 @@ title: Alpelisib
 parent: Kun modelforudsigelse (L5)
 nav_order: 42
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Alpelisib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
 monitor_inn: "Alpelisib"
-predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine disorder", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "rheumatoid arthritis", "rheumatoid arthritis"]
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Alpelisib er en PI3K-alfa-hæmmer, som er markedsført i Danmark under handelsna
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske autorisation er tom) |
 | Forudsagt ny indikation | Pulmonal hypertension |
-| TxGNN-forudsigelsesscore | 99,03 % |
+| TxGNN-forudsigelsesscore | 0.9903 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,8 @@ Alpelisib er en PI3K-alfa-hæmmer, som er markedsført i Danmark under handelsna
 
 Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanisme. Alpelisib er kendt som en selektiv PI3K-alfa-hæmmer, og PI3K/Akt/mTOR-signalvejen kan spille en rolle i ombygning af lungekar, hvilket giver en teoretisk, biologisk plausibel forbindelse til pulmonal hypertension.
 
-Der er dog ingen data, der viser, at hæmning af PI3K-alfa gavner pulmonal hypertension. Den eneste tilknyttede publikation beskriver tværtimod en lungebivirkning (alpelisib-induceret interstitiel lungesygdom). Dette signal taler for forsigtighed. Den høje score (0,990) skal derfor tolkes som en beregnet forudsigelse, der muligvis afspejler strukturer i vidensgrafen frem for reel terapeutisk effekt.
+Der er dog ingen data, der viser, at hæmning af PI3K-alfa gavner pulmonal hypertension. Den eneste tilknyttede publikation beskriver tværtimod en lungebivirkning (alpelisib-induceret interstitiel lungesygdom). Dette signal taler for forsigtighed. Den høje score (0.9903) skal derfor tolkes som en beregnet forudsigelse fra TxGNN-modellen (deep learning), der muligvis afspejler ligheder, modellen har lært mellem beslægtede sygdomme, frem for biologisk evidens eller reel terapeutisk effekt.
 
-Øvrige forudsigelser i listen (migræne, kyfoskoliotisk hjertesygdom og leddegigt) har samme evidensniveau (L5). For migræne og kyfoskoliotisk hjertesygdom kan der ikke udledes nogen mekanistisk begrundelse. For leddegigt giver en oversigtsartikel kun en generel begrundelse for PI3K-signalvejens rolle ved immunsygdomme, og alpelisibs isoformselektivitet (alfa frem for delta/gamma) passer kun delvist.
 
 ---
 

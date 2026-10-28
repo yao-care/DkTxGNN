@@ -4,7 +4,7 @@ title: Salmeterol
 parent: Høj evidens (L1-L2)
 nav_order: 747
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Salmeterol: forudsagt ny indikation Bronkitis (evidensniveau L1). Oprindelig indikation: Lungeemfysem, intrinsisk astma, allergisk astma (fra videnbasen"
 monitor_inn: "salmeterol"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen er tæt på de eksisterende indikationer og er mere en udvidelse i
 |------|------|
 | Oprindelig indikation | Lungeemfysem, intrinsisk astma, allergisk astma (fra videnbasen; den danske produkttekst indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

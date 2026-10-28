@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 267
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dipyridamole: forudsagt ny indikation Prinzmetal angina (evidensniveau L4). Oprindelig indikation: Atrieflimren"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "dipyridamole"
-predicted_indications: ["stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-10-23
+description: "Dipyridamole: forudsagt ny indikation Thrombotic disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,82 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dipyridamol: Fra atrieflimren til Prinzmetal angina
+## Dipyridamole: Thrombotic disease
 {: .text-alpha }
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Dipyridamol er et blodpladehæmmende og karudvidende lægemiddel. I TxGNN-vidensgrafen er det knyttet til atrieflimren som oprindelig indikation. TxGNN-modellen forudsiger, at det kan have effekt ved **Prinzmetal angina** (vasospastisk angina). Forudsigelsen understøttes af **0 kliniske forsøg** og **10 publikationer**, hvoraf ingen er kontrollerede studier af behandlingseffekt.
-
----
+Dipyridamol er i videnskabsdatabasen (vidensgrafen) registreret med relation til atrieflimren. Den tilgængelige data viser desuden, at TxGNN-modellen forudsiger en mulig virkning på **forbigående cerebral iskæmi (TIA)**. Der er **2 kliniske forsøg** og **19 publikationer** i de data, der er samlet til denne rapport, og de understøtter denne retning.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atrieflimren (fra TxGNN-vidensgrafen; de to danske markedsføringstilladelser har ingen indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Prinzmetal angina |
-| TxGNN-prædiktionsscore | 99,99 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Hold |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Thrombotic disease |
+| TxGNN-forudsigelsesscore | 0.9994 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
----
+Bemærk: Den højest rangerede forudsigelse i modellen er "trombotisk sygdom" (score 0,9994), men den har ingen kliniske forsøg eller publikationer (L5). Denne rapport fokuserer på TIA, som er den forudsigelse, der har direkte evidens.
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme fra DrugBank er ikke tilgængelige i det indsamlede materiale. Ud fra kendt farmakologi hæmmer dipyridamol optagelsen af adenosin og enzymet fosfodiesterase. Det øger det ekstracellulære adenosin og de intracellulære cAMP/cGMP-niveauer og giver karudvidelse og hæmning af blodpladeaggregation.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Ud fra generel farmakologisk viden hæmmer dipyridamol blodpladernes aggregation ved at blokere genoptagelsen af adenosin og hæmme fosfodiesterase. Det øger cAMP/cGMP og adenosinsignalering og giver også en karudvidende effekt.
 
-Prinzmetal angina skyldes spasmer i kranspulsårerne. Ved første øjekast kunne en karudvidende effekt virke relevant. Litteraturen viser dog primært dipyridamol som farmakologisk stressmiddel ved diagnostisk billeddannelse af hjertet, ikke som behandling. Flere arbejder beskriver tværtimod, at kransarteriespasmer kan udløses i forbindelse med dipyridamolstress. Det gælder fx efter afslutning med aminofyllin hos patienter med variant angina. Der er desuden en teoretisk risiko for "coronary steal".
-
-Mekanismen understøtter derfor ikke tydeligt en terapeutisk gevinst, og den kan indebære en risiko ved vasospastisk sygdom. Den høje modelscore er ikke bakket op af kliniske data.
-
----
+Atrieflimren og TIA hænger tæt sammen i klinikken, da begge er knyttet til tromboemboliske hændelser i hjernen. Antiplatelet-virkningen er biologisk plausibel til forebyggelse af gentagne iskæmiske hændelser. Litteraturen beskriver kombinationen af acetylsalicylsyre og dipyridamol som en anerkendt mulighed ved sekundær forebyggelse efter iskæmisk apopleksi eller TIA, når der ikke foreligger atrieflimren. Det er derfor snarere en veletableret anvendelse end et nyt repurposing-fund. De danske tilladelser indeholder dog ingen indikationstekst, så en godkendt indikation kan ikke bekræftes ud fra de foreliggende data.
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
-
----
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
+|---------|------|------|------|---------|
+| [NCT00161070](https://clinicaltrials.gov/study/NCT00161070) | Fase 4 | Afsluttet | 4.500 | ESPRIT: sammenligning af acetylsalicylsyre med dipyridamol, mild antikoagulation eller acetylsalicylsyre alene efter cerebral iskæmi af arteriel oprindelse. Direkte relevant. |
+| [NCT00738894](https://clinicaltrials.gov/study/NCT00738894) | Ikke angivet | Afsluttet | 664 | Gore REDUCE: lukning af åbent foramen ovale (PFO) plus medicinsk behandling med blodpladehæmmere vs. medicinsk behandling alene. Dipyridamol er kun en del af sammenligningsbehandlingen; indirekte relevans. |
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Oversigt | Jpn Circ J | 26 patienter med hvileangina (13 med Prinzmetal angina) fik forskellige lægemidler, herunder dipyridamol 50 mg. Propranolol var uvirksomt og forværrede snarere anfaldene. |
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Case-rapport | Am J Cardiol | Afslutning af dipyridamolstress med aminofyllin kan udløse kransarteriespasme ved variant angina. |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Kohorte | Br Heart J | Reproducerbarhed af arbejdsprøve hos 25 patienter med ST-elevation og forskellige svar på dipyridamoltesten. |
-| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Diagnostisk studie | J Am Coll Cardiol | Ændret ekkodensitet i forbigående asynergisk myokardium som tegn på iskæmi. |
-| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Oversigt | Circulation | Patofysiologisk grundlag for ikke-invasiv funktionel vurdering af koronarstenose (bl.a. med dipyridamol). |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostisk studie | Jpn Circ J | Dipyridamolbelastet thallium-billeddannelse hos 38 patienter med koronarsygdom: diagnostisk nøjagtighed 66 %. |
-| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Oversigt | Clin Nucl Med | Beskrivelse af en patient med variant angina og "kardial migræne". |
-| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Kohorte | Rev Port Cardiol | Treårsprognose ved mistanke om koronarsygdom og normal thallium-dipyridamol-scintigrafi. |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Kohorte | Zhonghua Xin Xue Guan Bing Za Zhi | Sammenligning af kliniske træk ved typisk og atypisk kransarteriespasme. |
-| [14060538](https://pubmed.ncbi.nlm.nih.gov/14060538/) | 1963 | Case-rapport | Naika | Beskrivelse af en variant form for angina pectoris. |
+| [15569877](https://pubmed.ncbi.nlm.nih.gov/15569877/) | 2005 | Metaanalyse af individdata | Stroke | Dipyridamol alene eller med acetylsalicylsyre til forebyggelse af gentagen iskæmisk apopleksi efter apopleksi/TIA |
+| [23871093](https://pubmed.ncbi.nlm.nih.gov/23871093/) | 2013 | Metaanalyse af RCT'er | J Neurol Sci | Effekt og sikkerhed af acetylsalicylsyre plus dipyridamol vs. acetylsalicylsyre efter TIA eller apopleksi |
+| [12535415](https://pubmed.ncbi.nlm.nih.gov/12535415/) | 2003 | Cochrane-review | Cochrane Database Syst Rev | Dipyridamol til forebyggelse af apopleksi og andre karhændelser; tillæg til acetylsalicylsyre i ét forsøg gav lavere risiko |
+| [17636684](https://pubmed.ncbi.nlm.nih.gov/17636684/) | 2007 | Cochrane-review | Cochrane Database Syst Rev | Opdateret gennemgang af dipyridamol ved cerebral iskæmi af arteriel oprindelse |
+| [31177983](https://pubmed.ncbi.nlm.nih.gov/31177983/) | 2019 | Netværksmetaanalyse | Stroke | Effekt og sikkerhed af blodpladehæmmere efter ikke-kardioembolisk apopleksi eller TIA |
+| [34399713](https://pubmed.ncbi.nlm.nih.gov/34399713/) | 2021 | Netværksmetaanalyse | BMC Neurol | Blodpladehæmmere til sekundær forebyggelse efter iskæmisk apopleksi eller TIA |
+| [26304937](https://pubmed.ncbi.nlm.nih.gov/26304937/) | 2015 | Netværksmetaanalyse | J Am Heart Assoc | Langvarig mono- og dobbeltbehandling med blodpladehæmmere efter apopleksi eller TIA |
+| [11786451](https://pubmed.ncbi.nlm.nih.gov/11786451/) | 2002 | Metaanalyse | BMJ | Samarbejdsmetaanalyse af blodpladehæmmende behandling hos højrisikopatienter |
+| [34211246](https://pubmed.ncbi.nlm.nih.gov/34211246/) | 2021 | Review | Australian Prescriber | Acetylsalicylsyre, clopidogrel eller acetylsalicylsyre plus dipyridamol er førstevalg ved sekundær forebyggelse uden atrieflimren |
+| [19300042](https://pubmed.ncbi.nlm.nih.gov/19300042/) | 2009 | Review | Am J Ther | Rolle for kombinationen af acetylsalicylsyre og depot-dipyridamol ved sekundær forebyggelse |
 
-Samlet handler næsten alle publikationer om dipyridamol som diagnostisk stressmiddel eller om beskrivelse af sygdommen. Ingen viser en dokumenteret behandlingseffekt ved Prinzmetal angina.
-
----
-
-## Oplysninger om det danske marked
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106923623 | Dipyridamol "2care4" | Depotkapsler, hårde | Ikke angivet i de indsamlede data |
-| 28107019323 | Diprasorin | Kapsler med modificeret udløsning, hårde | Ikke angivet i de indsamlede data |
-
-Begge tilladelser er gyldige og ejes af 2care4 ApS.
-
----
+| 28106923623 | Dipyridamol "2care4" | Depotkapsler, hårde | Indikationstekst ikke tilgængelig |
+| 28107019323 | Diprasorin | Kapsler med modificeret udløsning, hårde | Indikationstekst ikke tilgængelig |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme fra vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke fra produktresuméets tekst): nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, mavesår (inkl. aktivt), hypotension, urinsyregigt, hyperkalcæmi, nefrokalcinose, akut koronarsyndrom, myokardieinfarkt, koronar trombose, hæmofili, hæmoglobinopatier, anæmi, trombocytopenisk purpura, gastritis, Reyes syndrom, Alzheimers sygdom og Picks sygdom samt flere andre tilstande.
-- **Lægemiddelinteraktioner:** 451 interaktioner er registreret. Moderat alvorlighed er angivet for dexfenfluramin, sibutramin og fenfluramin. Øvrige eksempler, hvor alvorlighedsgraden er ukendt, omfatter acetylsalicylsyre, cimetidin, omeprazol, pantoprazol, lansoprazol, metformin, glimepirid, morfin, simvastatin, prednison og vancomycin.
-- **Særligt for den forudsagte indikation:** der er rapporteret koronarspasme ved afslutning af dipyridamolstress, og der er mulig risiko for "coronary steal".
+- **Relationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer med bl.a. nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, mavesår, lavt blodtryk, urinsyregigt, hæmofili, akut koronarsyndrom, myokardieinfarkt, anæmi, gastritis og Reye syndrom. Disse stammer fra grafen og ikke fra produktresuméet, og de skal verificeres.
+- **Lægemiddelinteraktioner:** 451 interaktioner er registreret. Moderate interaktioner omfatter dexfenfluramin, sibutramin og fenfluramin. Øvrige registrerede interaktioner har ukendt grad, bl.a. acetylsalicylsyre, omeprazol, pantoprazol, metformin, morfin og simvastatin.
+- **Praktiske forbehold fra evidensen:** Hovedpine og mavetarmgener ved kombinationen, blødningsrisiko og forsigtighed ved ustabil koronarsygdom.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Der findes ingen kliniske forsøg for Prinzmetal angina. Litteraturen består af diagnostiske studier, oversigter og case-rapporter. Mekanismen understøtter ikke tydeligt en behandlingsgevinst og indebærer en risiko for at udløse koronarspasme. Evidensen er derfor kun på L4-niveau.
+Et stort, afsluttet fase 4-forsøg (ESPRIT, n=4.500) og flere metaanalyser og Cochrane-reviews undersøger direkte dipyridamol ved TIA/apopleksi, hvilket giver evidensniveau L1. Det er dog en veletableret anvendelse og ikke en ny opdagelse, og de danske tilladelser indeholder ingen indikationstekst.
 
 **For at komme videre kræves:**
-- Kontrollerede studier eller prospektive data for dipyridamol som behandling af vasospastisk angina, herunder en vurdering af spasme- og "steal"-risikoen
-- Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data)
-- Dokumenteret virkningsmekanisme fra DrugBank
-
-**Bemærkning:** Blandt de øvrige forudsigelser for dipyridamol har **iskæmisk apopleksi** og **transitorisk iskæmisk attak (TIA)** markant stærkere evidens (L1). Her findes bl.a. ESPRIT (fase 4, n=4500), flere metaanalyser og Cochrane-reviews for kombinationen acetylsalicylsyre plus dipyridamol med forlænget udløsning. Disse indikationer har vurderingen "Proceed with Guardrails" og bør evalueres separat.
+- Hentning og gennemgang af produktresuméerne (SmPC) for de to danske produkter, så godkendt indikation, kontraindikationer og advarsler kan bekræftes
+- Data om virkningsmekanisme fra DrugBank
+- Vurdering af interaktionsbyrden (451 registrerede interaktioner), især med andre blodpladehæmmende og antikoagulerende lægemidler
+- Øvrige forudsigelser (f.eks. trombotisk sygdom, sinuskoncentreret trombose) har kun modelgrundlag (L5) og bør holdes tilbage, indtil der foreligger evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

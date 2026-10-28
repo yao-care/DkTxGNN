@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 660
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Pilocarpine: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom, okulær hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pilocarpine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,61 +32,46 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Pilocarpin: Fra åbenvinklet glaukom til primær arvelig glaukom
+<!-- known-uses-page -->
+<!-- description: Pilocarpine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation -->
+## Pilocarpine: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Pilocarpin er et muskarinagonist-lægemiddel, der oprindeligt anvendes til behandling af **åbenvinklet glaukom** og **okulær hypertension**. TxGNN-modellen forudsiger, at det kan have effekt ved **primær arvelig glaukom**, men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+## Resumé
+Alle kandidater, som TxGNN-modellen har foreslået for Pilocarpine (score ≥ 0,99), og som kan spores til en kilde, er allerede kendte anvendelser. Der er derfor i øjeblikket ingen ny forudsagt indikation for dette lægemiddel.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Åbenvinklet glaukom, okulær hypertension (fra TxGNN-vidensgrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Primær arvelig glaukom |
-| TxGNN-forudsigelsesscore | 99,83 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modellens kandidater | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 
----
+## Kendte anvendelser blandt modellens kandidater
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| primær arvelig glaukom (primary hereditary glaucoma) | Tilladelse i et andet land; godkendt indikation: glaucoma |
 
-Pilocarpin er en muskarin (M3)-receptoragonist. I øjet får det ciliarmusklen og iris' sphincter til at trække sig sammen. Det åbner trabekelværket og øger det konventionelle kammervandsafløb, hvilket sænker det intraokulære tryk (IOP). Mekanismen er veletableret ved åbenvinklet glaukom og okulær hypertension. Bemærk, at data om virkningsmekanisme ikke var tilgængelige i de indsamlede data, så denne beskrivelse bygger på almen farmakologisk viden.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Ved primær arvelig glaukom er forhøjet IOP som følge af dysfunktion i afløbssystemet ligeledes den centrale drivkraft. Derfor er det mekanistisk plausibelt, at et middel, der øger afløbet, kan være relevant. Den meget høje TxGNN-score (0,998) er alene en beregnet forudsigelse og kan delvis afspejle den store lighed med de eksisterende glaukomindikationer. Den er ikke uafhængig klinisk evidens.
-
-Vigtige forbehold: Arvelige former, f.eks. primært medfødt glaukom (fx CYP1B1- eller MYOC-varianter), har ofte strukturelle vinkelabnormiteter (trabekulodysgenesi), hvor kirurgi (goniotomi eller trabekulotomi) er standardbehandling. Miotika kan være mindre effektive her. Hos børn er der desuden sikkerhedsmæssige bekymringer, herunder systemiske kolinerge effekter, myopisk skift og akkommodative effekter.
-
----
-
-## Klinisk evidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101572593 | Fotil Forte (Santen Oy) | Øjendråber, opløsning, enkeltdosisbeholder | Indikationstekst ikke angivet |
-| 28101525192 | Fotil Forte (Santen Oy) | Øjendråber, opløsning | Indikationstekst ikke angivet |
-
-Begge tilladelser er nationale, gyldige og vedrører enkeltstofpræparater.
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28101572593 | Fotil Forte | øjendråber, opløsning, enkeltdosisbehold | Gyldig |
+| 28101525192 | Fotil Forte | øjendråber, opløsning | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -100,20 +86,6 @@ Advarsler og kontraindikationer fra produktresuméet var ikke tilgængelige. Se 
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Strukturelle vinkelabnormiteter ved arvelige glaukomformer og sikkerhedsbekymringer hos børn taler desuden for forsigtighed.
-
-**For at komme videre kræves følgende:**
-- Systematisk litteratursøgning og søgning i forsøgsregistre for pilocarpin ved arvelige glaukomformer
-- Præcisering af, hvilke arvelige glaukomundertyper (f.eks. MYOC-relateret juvenil eller voksenform vs. primært medfødt) der er relevante
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Godkendt indikationstekst, advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Vurdering af sikkerhed og alternativer (kirurgi, øvrig medicinsk behandling) i den relevante patientgruppe, især børn
-- Afklaring af administrationsvej og formulering til den nye indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

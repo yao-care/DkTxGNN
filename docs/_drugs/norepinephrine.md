@@ -6,9 +6,9 @@ nav_order: 592
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L4). Oprindelig indikation: Astma, bronkitis, hypotensiv tilstand m.fl. (fra TxGNN-vidensgrafen"
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Norepinephrine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Noradrenalin: Fra astma og hypotension til obstruktiv lungesygdom
+## Norepinephrine: Obstruktiv lungesygdom (obstructive lung disease)
 {: .text-alpha }
 
 ## Sammenfatning i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **obstruktiv lungesygdom**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Astma, bronkitis, hypotensiv tilstand m.fl. (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
+| TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Aflibercept
 parent: Kun modelforudsigelse (L5)
 nav_order: 27
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Aflibercept: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Metastaserende tyktarmskræft, makuladegeneration…"
+indication_count: 1
 monitor_inn: "Aflibercept"
-predicted_indications: ["esotropia", "esotropia", "esophageal varices without bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "varicose disease", "urethral calculus", "urethral calculus"]
+predicted_indications: ["esotropia"]
+last_modified_at: 2026-10-27
+description: "Aflibercept: forudsagt ny indikation Esotropi (esotropia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Aflibercept
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,49 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Aflibercept: Fra makuladegeneration og metastaserende tyktarmskræft til esotropi
+## Aflibercept: VEGF-fælde → esotropi (esotropia)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Aflibercept er en VEGF-fælde (binder VEGF-A, VEGF-B og PlGF), som oprindeligt anvendes til øjensygdomme som aldersrelateret makuladegeneration og diabetisk makulaødem samt til metastaserende tyktarmskræft.
-TxGNN-modellen forudsiger, at det kan have effekt ved **esotropi** (indadvendt skelen).
-Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
-
----
+Aflibercept er en VEGF-hæmmende fusionsproteinfælde, som er markedsført i Danmark som injektionsvæske til brug i øjet.
+TxGNN-modellen forudsiger, at det kan have effekt ved **esotropi (esotropia)**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, som understøtter denne retning.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Metastaserende tyktarmskræft, makuladegeneration, retinal arterieokklusion, diabetisk makulaødem (fra vidensgrafen; den danske markedsføringstilladelse har ingen angiven indikationstekst) |
-| Forudsagt ny indikation | Esotropi |
-| TxGNN-forudsigelsesscore | 99,4 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Esotropi (esotropia) |
+| TxGNN-forudsigelsesscore | 0,9938 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Aflibercept er kendt som en fælde for VEGF-A, VEGF-B og placental vækstfaktor (PlGF), dvs. en anti-VEGF-virkning.
 
-Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen i de indsamlede data. Aflibercept er kendt som en VEGF-A/VEGF-B/PlGF-fælde, og dets effekt ved nethindesygdomme med unormal karnydannelse og utætte kar er veletableret.
+Esotropi er en fejlstilling af øjnene (indadvendt skelen), som typisk skyldes neuromuskulære, refraktive eller akkommodative forhold. Der er ingen klar mekanistisk sammenhæng mellem VEGF-hæmning og behandling af denne tilstand. Den høje score er en ren modelforudsigelse og afspejler sandsynligvis nærhed til andre øjenlidelser i modellens data snarere end en biologisk begrundelse. Anti-VEGF-midler er beskrevet ved øjenlidelser med sekundær skelen, men det er ikke en behandlingseffekt på esotropi i sig selv.
 
-Esotropi er en forstyrrelse af øjets stilling, som typisk skyldes neuromuskulære, refraktive eller akkommodative faktorer. Der er ikke noget klart mekanistisk link mellem VEGF-hæmning og behandling af esotropi. Den høje score (0,994) afspejler sandsynligvis, at esotropi ligger tæt på andre øjenindikationer (fx makuladegeneration) i vidensgrafen, og ikke en biologisk begrundelse. Anti-VEGF-midler er beskrevet ved øjensygdomme med sekundær skelen, men det er ikke en behandlingseffekt på esotropi i sig selv.
+## Evidens fra kliniske forsøg
 
-Modellen forudsiger også andre indikationer (esofagusvaricer med og uden blødning, åreknuder og urethrasten). Her er den mekanistiske sammenhæng svag eller fraværende, og for varicerne er blødningsrisikoen ved VEGF-hæmning en betydelig barriere. Rapporten fokuserer på den højest rangerede forudsigelse.
-
----
-
-## Kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Oplysninger om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28107330825 | Afiveg (STADA Arzneimittel AG) | Injektionsvæske, opløsning, hætteglas | Ingen indikationstekst tilgængelig |
+| 28107330825 | Afiveg | Injektionsvæske, opløsning, hætteglas | Indikationstekst er ikke registreret i de lokale data |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedsmæssige overvejelser
-
-Der foreligger ingen oplysninger om advarsler eller kontraindikationer. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-**Lægemiddelinteraktioner:** Der er i alt identificeret 78 mulige interaktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+**Lægemiddelinteraktioner:** Der er registreret 78 interaktioner. Blandt de anførte er følgende klassificeret som **alvorlige (Major)**:
 - Deferipron
 - Samarium (153Sm) lexidronam
 - Adalimumab
@@ -101,24 +84,22 @@ Der foreligger ingen oplysninger om advarsler eller kontraindikationer. Der henv
 - Cladribin
 - Clozapin
 
-Flere interaktioner er klassificeret som moderate, bl.a. med strontiumchlorid Sr-89, roflumilast, chloramphenicol, zidovudin, alemtuzumab, anakinra, azathioprin, canakinumab og flere vacciner (bl.a. tetanus, miltbrand og kolera).
+Flere interaktioner er klassificeret som moderate, bl.a. med strontiumchlorid Sr-89, roflumilast, chloramphenicol, zidovudin, azathioprin, alemtuzumab, anakinra og canakinumab.
 
-For de forudsagte indikationer vedrørende esofagusvaricer er der desuden et teoretisk sikkerhedsproblem: systemisk VEGF-hæmning kan øge risikoen for blødning, gastrointestinal perforation og forsinket sårheling.
-
----
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for esotropi bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer og uden et plausibelt biologisk link. Risk-benefit-vurderingen kan derfor ikke støtte videre arbejde på nuværende tidspunkt.
+Forudsigelsen for esotropi bygger udelukkende på modellen (L5). Der er hverken kliniske forsøg eller publikationer, der undersøger aflibercept ved denne sygdom, og der er ingen plausibel biologisk mekanisme.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) og en egentlig mekanistisk analyse af sammenhængen mellem VEGF-hæmning og esotropi
-- Præklinisk eller klinisk evidens for effekt ved esotropi
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (data mangler i øjeblikket og blokerer sikkerhedsscreeningen)
-- Vurdering af administrationsvej og lægemiddelform i forhold til den nye indikation
+- Præklinisk eller mekanistisk begrundelse for VEGF-hæmning ved esotropi
+- Systematisk litteratur- og forsøgsgennemgang specifikt for esotropi
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Afklaring af administrationsvej og egnethed til den forudsagte indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

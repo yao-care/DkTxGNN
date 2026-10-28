@@ -4,17 +4,17 @@ title: Mupirocin
 parent: Kun modelforudsigelse (L5)
 nav_order: 572
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mupirocin: forudsagt ny indikation Pleural empyem (evidensniveau L5). Oprindelig indikation: Impetigo og bulløs impetigo (fra TxGNN-vidensgrafen"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "neurotrophic keratopathy", "cutaneous candidiasis", "cutaneous candidiasis", "vaginal discharge", "vaginal discharge"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: forudsagt ny indikation Pleural empyem (pleural empyema (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Mupirocin: Fra impetigo til pleural empyem
+## Mupirocin: Pleural empyem (pleural empyema (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** ti
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Impetigo og bulløs impetigo (fra TxGNN-vidensgrafen; der er ikke angivet indikationstekst i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Pleural empyem |
-| TxGNN-forudsigelsesscore | 99,49 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pleural empyem (pleural empyema (disease)) |
+| TxGNN-forudsigelsesscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -118,10 +118,7 @@ Andre forudsigelser i de indsamlede data har ligeledes begrænset evidens:
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Punktformet epitelial keratokonjunktivitis | 99,10 % | L5 | Hold. Ofte viral eller immunmedieret, og mupirocin er ikke udviklet til øjenbrug |
-| Neurotrofisk keratopati | 98,48 % | L5 | Hold. Mekanismen adresserer ikke den underliggende nerveskade |
-| Kutan candidiasis | 98,27 % | L4 | Forskningsspørgsmål. Begrænset evidens, se nedenfor |
-| Vaginalt udflåd | 96,01 % | L5 | Hold. Ingen kendt aktivitet over for de hyppigste årsager |
+| Punktformet epitelial keratokonjunktivitis | 0,9910 | L5 | Hold. Ofte viral eller immunmedieret, og mupirocin er ikke udviklet til øjenbrug |
 
 **Litteratur om kutan candidiasis:**
 

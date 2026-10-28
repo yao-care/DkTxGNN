@@ -48,10 +48,10 @@ Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i 
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsesteksten for det danske præparat er tom) |
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 99,82 % |
+| TxGNN-forudsigelsesscore | 0.9982 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

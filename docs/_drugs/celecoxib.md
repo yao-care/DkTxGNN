@@ -4,17 +4,17 @@ title: Celecoxib
 parent: Kun modelforudsigelse (L5)
 nav_order: 175
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Celecoxib: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, Bechterews sygdom (ankyloserende spondylitis)…"
+indication_count: 7
 monitor_inn: "Celecoxib"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis", "hypermobility of coccyx", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
+last_modified_at: 2026-10-27
+description: "Celecoxib: forudsagt ny indikation akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokal…"
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,79 +33,64 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Celecoxib: Fra gigtlidelser til akromesomelisk dysplasi, Hunter-Thompson-type
+## Celecoxib: COX-2-hæmmer → akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Opsummering
 
-Celecoxib er en selektiv COX-2-hæmmer, som oprindeligt anvendes til behandling af gigtlidelser, herunder leddegigt, slidgigt og seronegativ spondylartropati.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **akromesomelisk dysplasi, Hunter-Thompson-type**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, som understøtter forudsigelsen. Den er udelukkende modelbaseret.
-
----
+Celecoxib er en selektiv COX-2-hæmmer (NSAID), som er markedsført i Danmark. Den TxGNN-model forudsiger, at lægemidlet kan have effekt ved **akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type)**. De data, der er indsamlet til denne rapport, indeholder **0 kliniske forsøg** og **0 publikationer** om sygdommen, så forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, Bechterews sygdom (ankyloserende spondylitis), slidgigt og juvenil idiopatisk arthritis (baseret på TxGNN-vidensgrafen; den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Celecoxib er kendt som en COX-2-hæmmer med antiinflammatorisk og smertestillende virkning.
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Celecoxib er kendt som en selektiv COX-2-hæmmer, der nedsætter prostaglandinsyntese og dermed smerte og inflammation ved gigtlidelser.
-
-Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden skeletdysplasi forårsaget af tabsmutationer i CDMP1/GDF5, som påvirker BMP-signalering under bruskdannelse. Celecoxib genopretter ikke GDF5-signalering, og der er ikke identificeret nogen troværdig mekanistisk sammenhæng. Den høje score skyldes sandsynligvis nærhed i vidensgrafen til andre skelet- og ledlidelser og ikke biologisk evidens.
-
----
+Akromesomelisk dysplasi, Hunter-Thompson-type, er en ekstremt sjælden skeletdysplasi forårsaget af funktionstabsvarianter i *CDMP1/GDF5*, som forstyrrer BMP-signalering under udviklingen af brusk og knogle. Der er ingen plausibel mekanistisk vej, hvorved en COX-2-hæmmer kan korrigere en sådan udviklingsmæssig genetisk defekt. Den høje score afspejler sandsynligvis modellens nærhed til andre muskel- og skeletrelaterede sygdomme snarere end en reel terapeutisk sammenhæng. Højst kan symptomatisk smertelindring komme på tale, hvilket ikke er en sygdomsmodificerende indikation.
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er for tiden ingen relateret litteratur tilgængelig.
 
----
+## Information om markedet i Danmark
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103126999 | Celebra (Viatris ApS) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
-
----
+| 28103126999 | Celebra (Viatris ApS) | Kapsler, hårde | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer i vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke af produktresuméet): hypertension, nyresygdom, leversygdom, galdeblæresygdom, kongestiv hjerteinsufficiens, mavesår (herunder aktivt mavesår), astma, stofmisbrug/afhængighed, apopleksi og cerebrovaskulære sygdomme, hjerteinfarkt, koronar trombose, hæmoglobinopati, anæmi, hjerte-kar-sygdom og hjertesygdom.
-- **Lægemiddelinteraktioner**: Der er identificeret 100 interaktioner. Blandt de viste er én **alvorlig (Major)**: eliglustat. De øvrige viste er **moderate**, bl.a. hydrocortison, metformin, sulfonylurinstoffer (f.eks. glimepirid, glipizid, glibenclamid, chlorpropamid), mesalazin, balsalazid, olsalazin, cimetidin, levofloxacin, metronidazol, naltrexon, nateglinid, exenatid og kanamycin.
+Der foreligger ingen oplysninger fra produktresuméet i de data, der er indsamlet til denne rapport. Følgende interaktioner er registreret:
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** I alt er 100 interaktioner registreret. Den alvorlige (Major) interaktion er med **eliglustat**. Blandt de moderate interaktioner er bl.a. hydrocortison, metformin, flere sulfonylurinstoffer (acetohexamid, chlorpropamid, glimepirid, glipizid, glyburid), nateglinid, exenatid, cimetidin, levofloxacin, metronidazol, kanamycin, naltrexon, mesalazin, balsalazid og olsalazin.
 
----
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende baseret på vidensgrafen uden kliniske forsøg eller publikationer og uden troværdig biologisk sammenhæng mellem COX-2-hæmning og GDF5/BMP-signalering. Sikkerhedsprofilen (kardiovaskulær, gastrointestinal og renal) taler yderligere imod at gå videre.
+Forudsigelsen er udelukkende modelbaseret uden kliniske forsøg eller publikationer, og der er ingen plausibel mekanistisk forbindelse mellem COX-2-hæmning og en genetisk betinget udviklingsdefekt i brusk og knogle.
 
-**For at komme videre kræves:**
-- Præklinisk dokumentation for en mekanisme, der forbinder celecoxib med GDF5/BMP-signalering
+**For at komme videre kræves følgende:**
+- Systematisk litteratursøgning efter evidens for celecoxib ved denne sygdom, herunder prækliniske data
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- En vurdering af, om andre forudsagte indikationer (f.eks. reumatoid vaskulitis, hvor der kun findes en enkelt case-rapport) er mere realistiske kandidater
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé, før en eventuel videre vurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

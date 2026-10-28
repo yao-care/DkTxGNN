@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Kun modelforudsigelse (L5)
 nav_order: 508
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lorazepam: forudsagt ny indikation Trigeminusnervetumor (evidensniveau L5). Oprindelig indikation: Angstlidelser og krampetilstande (fra vidensgrafen"
 monitor_inn: "LORAZEPAM"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal nerve neoplasm"]
+predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lorazepam: Fra angst og epilepsi til trigeminusnervetumor
+## Lorazepam: Trigeminusnervetumor (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumé
 
 Lorazepam er et benzodiazepin, der oprindeligt anvendes mod angstlidelser og krampetilstande (bl.a. status epilepticus, absence-epilepsi og Lennox-Gastaut syndrom).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **trigeminusnervetumor** (rang 1, score 99,87 %),
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **trigeminusnervetumor** (rang 1, score 0,9987),
 men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen er sandsynligvis et artefakt fra netværkspropagering.
 
 ---
@@ -48,12 +48,12 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dett
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelser og krampetilstande (fra vidensgrafen; indikationsteksten for det danske produkt er ikke angivet) |
-| Forudsagt ny indikation | Trigeminusnervetumor |
-| TxGNN-forudsigelsesscore | 99,87 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trigeminusnervetumor (trigeminal nerve neoplasm) |
+| TxGNN-forudsigelsesscore | 0.9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,18 +62,12 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dett
 
 Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Lorazepam er et benzodiazepin, og dets kendte virkning er positiv allosterisk modulering af GABA-A-receptoren, hvilket giver angstdæmpende, beroligende og antikonvulsiv effekt.
 
-Der er ingen kendt antitumoreffekt. Mekanismen kan på sit højeste lindre symptomer som angst eller smertebetinget ubehag hos patienter med tumor, men den er ikke en behandling af selve tumoren. Den høje score skyldes sandsynligvis netværksnærhed i vidensgrafen. Forudsigelsen optrådte to gange i inputtet og er behandlet som én indikation.
+Der er ingen kendt antitumoreffekt. Mekanismen kan på sit højeste lindre symptomer som angst eller smertebetinget ubehag hos patienter med tumor, men den er ikke en behandling af selve tumoren. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen optrådte to gange i inputtet og er behandlet som én indikation.
 
 ### Øvrige forudsagte indikationer (til sammenligning)
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Insomni | 99,80 % | L3 | Plausibel mekanisme, men ældre små studier; ingen reel repurposing, da den ligger tæt på den godkendte angstindikation. Moderne retningslinjer begrænser benzodiazepiner ved kronisk insomni. Forskningsspørgsmål |
-| Læsningsudløste anfald (reading seizures) | 99,64 % | L4 | Udvidelse af eksisterende antiepileptisk brug; kun indirekte evidens |
-| Audiogene anfald | 99,63 % | L4 | Kun prækliniske rottestudier |
-| Anfald udløst af spisning | 99,63 % | L5 | Kun forudsigelse |
-| Anfald udløst af tænkning | 99,63 % | L4 | Kun indirekte evidens fra godkendte anvendelser |
-| Orgasmeudløste anfald | 99,63 % | L5 | Kun forudsigelse |
 
 ---
 
@@ -87,7 +81,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for trigeminu
 
 Der er i øjeblikket ingen relateret litteratur for trigeminusnervetumor.
 
-For den næstrangerende forudsigelse, insomni, er den mest relevante litteratur:
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
@@ -133,7 +126,6 @@ Trods en meget høj TxGNN-score er der hverken kliniske forsøg eller litteratur
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske data, der kan underbygge en eventuel tumorrelateret effekt
 - Hvis symptomlindring hos patienter med tumor er målet, bør det vurderes som en separat symptomatisk problemstilling
-- Insomni er den forudsigelse med mest evidens (L3), men bør kun betragtes som et forskningsspørgsmål på grund af risiko for afhængighed, tolerans, kognitiv påvirkning og fald
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

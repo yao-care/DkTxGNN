@@ -4,17 +4,17 @@ title: Cyclizine
 parent: Kun modelforudsigelse (L5)
 nav_order: 224
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-14
-description: "Cyclizine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse…"
+indication_count: 7
 monitor_inn: "cyclizine"
-predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Cyclizine: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cyclizine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,67 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Cyclizin: Fra allergisk rhinitis og køresyge til allergisk urticaria
+## Cyclizin: H1-antihistamin → allergisk urticaria (allergic urticaria)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering
 
-Cyclizin er et førstegenerations H1-antihistamin, der oprindeligt anvendes mod allergisk rhinitis, øjenallergi, forkølelse og køresyge.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **allergisk urticaria**,
-men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** for netop denne indikation, så forudsigelsen bygger kun på modellen.
-
----
+Cyclizin er et førstegenerations H1-antihistamin. Det er markedsført i Danmark som tabletter.
+TxGNN-modellen forudsiger, at det kan have effekt ved **allergisk urticaria (allergic urticaria)**.
+Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, som direkte undersøger cyclizin ved denne sygdom, så forudsigelsen hviler alene på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse, atopisk/papillær/vernal konjunktivitis, nasopharyngitis og køresyge (fra vidensgrafen; indikationsteksten i den danske tilladelse er ikke udfyldt) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Allergisk urticaria (allergic urticaria) |
+| TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Ud fra kendt viden er cyclizin et førstegenerations H1-antihistamin med antikolinerg og central antiemetisk virkning. Dets effekt ved allergiske tilstande som allergisk rhinitis og atopisk konjunktivitis er kendt, og mekanistisk kan det være relevant for allergisk urticaria.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Cyclizin tilhører klassen af førstegenerations H1-antihistaminer, og H1-blokade er den almindelige mekanisme ved behandling af urticaria. En mekanistisk begrundelse er derfor plausibel.
 
-H1-blokade er den etablerede behandlingsmekanisme ved urticaria. Forudsigelsen ligger dog tæt på de eksisterende allergiske indikationer og er derfor snarere en udvidelse af en kendt klasseeffekt end egentlig lægemiddelrepositionering. Der findes ingen cyclizin-specifikke data i det foreliggende materiale. I praksis foretrækkes andengenerations antihistaminer på grund af sedation ved førstegenerationsmidler.
-
-### Øvrige forudsagte indikationer (alle L5, Hold)
-
-| Rang | Sygdom | Score | Vurdering |
-|------|------|------|------|
-| 2 | Næsehulesygdom | 99,96 % | For uspecifik; overlapper eksisterende rhinitis-indikationer |
-| 3 | Akut laryngopharyngitis | 99,95 % | Mulig symptomlindring; pharyngitis er allerede en indikation |
-| 4 | Kuldeurticaria | 99,84 % | H1-klasseeffekt relevant; ingen cyclizin-data |
-| 5 | Rosacea-konjunktivitis | 99,75 % | Usikker effekt, da sygdommen primært er betinget af meibomsk kirteldysfunktion og inflammation |
-| 6 | Hovedpinesygdom | 99,49 % | Indirekte link via migrænerelateret kvalme |
-| 7 | Trigeminal autonom cefalalgi | 99,43 % | Ingen klar mekanistisk forbindelse |
-| 8 | Rhinitis | 99,35 % | Duplikerer eksisterende indikation |
-| 9 | Recalcitrant atopisk dermatitis | 99,28 % | Kun sederende effekt mod natlig kløe; svag evidens |
-
----
+Der er dog tale om en forudsigelse, som ligger tæt på den eksisterende allergi-relaterede klasseeffekt. Det er sandsynligvis en udvidelse af kendt klasseeffekt snarere end egentlig repurposing. Der findes ingen cyclizin-specifikke data, der understøtter effekten ved allergisk urticaria.
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret for allergisk urticaria.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur for allergisk urticaria. For den forudsagte indikation "hovedpinesygdom" (rang 6) blev der fundet to artikler, men ingen af dem undersøger cyclizin som den primære intervention:
+Der er for øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [3926322](https://pubmed.ncbi.nlm.nih.gov/3926322/) | 1985 | RCT | Cephalalgia | Naproxennatrium sammenlignet med et ergotaminpræparat (indeholder 50 mg cyclizin) ved akutte migrænanfald hos 114 patienter; cyclizin var ikke det undersøgte stof |
-| [20420788](https://pubmed.ncbi.nlm.nih.gov/20420788/) | 2010 | Kohorte (apoteksdatabase) | Int J Clin Pharmacol Ther | Ordinationsmønstre og omkostninger for migrænemidler, med fokus på triptaner; ingen direkte evidens for cyclizin |
+## Information om det danske marked
 
----
-
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105078812 (Orifarm Generics A/S) | Gotur | Tabletter | Indikationstekst ikke tilgængelig |
-
----
+| 28105078812 | Gotur | Tabletter | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgrafen** (ikke fra produktresumétekst): Vidensgrafen angiver en lang række tilstande, hvor brug frarådes eller kræver forsigtighed, bl.a. hypertension, epilepsi, nyresygdom, leversygdom, pancreatitis, galdeblæresygdom, binyrebarkinsufficiens/Addisons sygdom, hypothyreose, mavesår, inflammatorisk tarmsygdom, diabetes og diabetisk ketoacidose, benign prostatahyperplasi, hypotension, koronararteriesygdom, myokardieinfarkt, aterosklerose, hæmoglobinopati, *Clostridium difficile*-colitis, nekrotiserende enterokolitis hos nyfødte og okulær hypertension.
-- **Lægemiddelinteraktioner**: 279 interaktioner er registreret. De vigtigste:
-  - **Alvorlige (Major)**: kaliumcitrat og kaliumchlorid.
-  - **Moderate**: antikolinerge midler (hyoscyamin, atropin, glycopyrronium, dicyclomin, scopolamin, trospium, propantelin, methscopolamin, mepenzolat), opioider (morfin, opium, loperamid, eluxadolin), cannabinoider (dronabinol, nabilon) samt metoclopramid og prucaloprid.
+**Lægemiddelinteraktioner:** Der er registreret 279 mulige interaktioner. Blandt de vigtigste er:
+- **Alvorlige (Major):** kaliumcitrat og kaliumchlorid.
+- **Moderate:** antikolinerge og beslægtede stoffer som hyoscyamin, atropin, glycopyrronium, scopolamin, dicyclomin, trospium, propantelin og methscopolamin; opioider og beslægtede stoffer som morfin, loperamid, opium og eluxadolin; samt metoclopramid, prucaloprid, dronabinol og nabilon.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på TxGNN-scoren (L5) uden kliniske forsøg eller cyclizin-specifik litteratur. Den mekanistiske sammenhæng (H1-blokade) er plausibel, men er en klasseeffekt, og andengenerations antihistaminer foretrækkes i praksis.
+Forudsigelsen har en meget høj modelscore, men der er hverken kliniske forsøg eller publikationer, der undersøger cyclizin ved allergisk urticaria. Evidensniveauet er derfor L5. Der er desuden tale om en sandsynlig udvidelse af en kendt H1-klasseeffekt.
 
-**For at komme videre kræves:**
-- Cyclizin-specifikke kliniske eller observationelle data ved urticaria
-- Produktresumé med advarsler og kontraindikationer for Gotur (manglende sikkerhedsdata blokerer sikkerhedsscreeningen)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Vurdering af fordele og ulemper (sedation, antikolinerge bivirkninger) i forhold til andengenerations antihistaminer
-- Afklaring af administrationsvej (kun oral tablet er tilgængelig i Danmark)
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) for cyclizin
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Litteraturgennemgang eller kliniske data om cyclizin specifikt ved urticaria
+- Sammenligning med anbefalede andengenerations-antihistaminer, som foretrækkes i praksis på grund af mindre sedation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

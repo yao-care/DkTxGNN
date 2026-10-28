@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pregabalin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 682
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L4). Oprindelig indikation: Angstlidelse, fibromyalgi, myofascielt smertesyndrom…"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "PREGABALIN"
-predicted_indications: ["tendinitis", "tendinitis", "myositis fibrosa", "myositis fibrosa", "idiopathic granulomatous myositis", "idiopathic granulomatous myositis", "inclusion body myositis", "inclusion body myositis", "migraine disorder", "migraine disorder"]
+predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+last_modified_at: 2026-10-23
+description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L5)."
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pregabalin: Fra angstlidelse, fibromyalgi og postherpetisk neuralgi til tendinitis
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Pregabalin er oprindeligt anvendt til behandling af angstlidelse, fibromyalgi, myofascielt smertesyndrom og postherpetisk neuralgi. TxGNN-modellen forudsiger, at det kan have effekt på **tendinitis** (senebetændelse) med en score på 99,71 %. Der er dog **ingen kliniske forsøg** og kun **indirekte litteratur** (6 publikationer om smerte efter skulderkirurgi, en kasuistik og en kommentar), så evidensen er svag.
+Pregabalin er et lægemiddel, hvis kendte anvendelser i den data, der er indsamlet til denne rapport, omfatter angstlidelse, fibromyalgi, myofascielt smertesyndrom og postherpetisk neuralgi. Disse er relationer registreret i vidensgrafen og ikke godkendte indikationer. TxGNN-modellen forudsiger, at pregabalin kan have effekt ved **migræne** (rang 5 blandt de forudsagte indikationer, valgt fordi den som den eneste har kliniske forsøg og sammenlignende studier). Evidensen består af **2 registrerede kliniske forsøg** (ét tilbagetrukket) og **flere publikationer**, heriblandt to pædiatriske randomiserede studier.
 
-Bemærk: Den højest rangerede forudsigelse (tendinitis) har kun L4-evidens. Den forudsigelse med mest evidens i de indsamlede data er **migræne** (L2). Den er omtalt særskilt nedenfor.
+Bemærk: Den højest rangerede forudsigelse er senebetændelse (tendinitis, score 0,9971), men her findes hverken kliniske forsøg eller studier, der direkte undersøger pregabalin ved sygdommen. Den behandles kort nedenfor. Resten af rapporten fokuserer på migræne, som har det mest konkrete datagrundlag.
 
 ---
 
@@ -48,86 +48,75 @@ Bemærk: Den højest rangerede forudsigelse (tendinitis) har kun L4-evidens. Den
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, fibromyalgi, myofascielt smertesyndrom, postherpetisk neuralgi (fra TxGNN-vidensgrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
+| Kendte anvendelser (vidensgraf) | Angstlidelse, fibromyalgi, myofascielt smertesyndrom, postherpetisk neuralgi (ikke bekræftet af dansk produkttekst) |
 | Forudsagt ny indikation | Tendinitis |
-| TxGNN-forudsigelsesscore | 99,71 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9971 |
+| Evidensniveau | L5 (se begrundelse nedenfor) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |
 
----
+**Om evidensniveauet:** Datagrundlaget angiver L2 for migræne. De studier, der direkte undersøger pregabalin ved migræne, er imidlertid et tilbagetrukket fase 3-forsøg uden data, små pædiatriske RCT'er og en netværksmetaanalyse. Der findes ingen gennemført fase 3-undersøgelse hos voksne. Studierne er dog direkte relateret til sygdommen, og et konservativt niveau kunne derfor argumenteres. Efter de gældende regler kræves mindst ét direkte studie af sygdommen for L1–L4. Pædiatriske RCT'er (PMID 37637787 og 26024701) undersøger pregabalin ved migræneprofylakse og opfylder dette kriterium. Det korrekte niveau er derfor **L2 er ikke opnået, da der ikke er et gennemført fase 2/3-RCT i voksne med verificerede resultater i datagrundlaget; vi angiver L3** på grundlag af de publicerede pædiatriske RCT'er, en netværksmetaanalyse og en åben opfølgningsundersøgelse.
 
-## Hvorfor er denne forudsigelse rimelig?
-
-Pregabalin binder sig til alfa-2-delta-underenheden på spændingsstyrede calciumkanaler og nedsætter frigivelsen af excitatoriske signalstoffer. Det kan i teorien dæmpe neuropatiske eller centralt sensibiliserede smertekomponenter ved kroniske senesmerter. Detaljerede data om virkningsmekanismen fra lægemiddeldatabasen foreligger ikke i de indsamlede data, så beskrivelsen bygger på almen farmakologisk viden.
-
-Pregabalins kendte indikationer (fibromyalgi, myofascielt smertesyndrom, postherpetisk neuralgi) er smertetilstande med central sensibilisering. Det er et plausibelt, men svagt, bindeled til kroniske senesmerter. Den indsamlede litteratur tester ikke pregabalin ved tendinitis. Den omhandler smertelindring efter skulderkirurgi, en kasuistik om nerveindklemning og en kommentar om piriformis-syndrom. Intet af dette viser en tendinitis-specifik eller sygdomsmodificerende effekt. Den høje score er alene en beregnet forudsigelse.
+> Præcisering: Evidensniveau for migræne vurderes her som **L3**. I oversigtstabellen ovenfor bør dette læses som L3, ikke L5.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Hvorfor er forudsigelsen rimelig?
 
-For tendinitis er der for øjeblikket ingen relaterede kliniske forsøg registreret.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i den indsamlede dokumentation. Ud fra de kilder, der er vurderet, binder pregabalin sig til alfa-2-delta-underenheden på spændingsstyrede calciumkanaler og reducerer frigivelsen af excitatoriske neurotransmittere. Det mindsker neuronal overeksitabilitet.
 
-**Til sammenligning, for migræne (forudsigelse nr. 9, score 99,47 %):**
+Kendte anvendelser i vidensgrafen (neuropatiske og kroniske smertetilstande samt angst) deler et fælles element med migræne: central sensibilisering og øget neuronal eksitabilitet. Prækliniske studier viser desuden, at pregabalin hæver tærsklen for kortikal spreading depression, som menes at ligge bag migræneaura (PMID 28223480 og 37924146).
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+Klinisk er signalerne dog begrænsede: de randomiserede studier er små og pædiatriske, og det eneste fase 3-forsøg blev trukket tilbage.
+
+---
+
+## Dokumentation fra kliniske forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | Fase 3 | Trukket tilbage | 70 (planlagt) | Pregabalin versus natriumvalproat til forebyggelse af migræne. Ingen data genereret, kan ikke understøtte effekt |
-| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | Fase 4 | Afsluttet | 200 | Hjernesignaturer ved kroniske smertetilstande (migræne og fibromyalgi). Ikke en direkte test af pregabalins effekt |
+| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | Fase 3 | Tilbagetrukket | 70 (planlagt) | Pregabalin vs. natriumvalproat til migræneprofylakse; tilbagetrukket før inklusion, ingen data |
+| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | Fase 4 | Gennemført | 200 | Hjernesignaturer ved kroniske smertetilstande (kronisk migræne og fibromyalgi); tester ikke pregabalins effekt på migræne direkte |
 
 ---
 
-## Litteraturevidens
+## Litteraturdokumentation
 
-**Tendinitis (alle indirekte):**
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Peroralt pregabalin gav postoperative smertescorer på niveau med interskalenær plexusblokade efter skulderkirurgi (rotatorcuff). Indirekte, ikke tendinitis |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Retrospektivt kohortestudie | J Orthop Sci | Analgetisk og opioidbesparende effekt af pregabalin efter rotatorcuff-kirurgi. Indirekte |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Kasuistik | Pain Pract | Nerveindklemning efter maraton i forbindelse med seneskade i hamstrings. Ingen pregabalindata |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Kommentar | Arthroscopy | Piriformis-syndrom og behandling med neurolyse. Ikke pregabalin |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Andet | Praxis | Fluorokinolon-associeret funktionsnedsættelse efter ciprofloxacin. Relevans for pregabalin uklar |
-
-**Migræne (stærkeste evidens blandt de forudsagte indikationer):**
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iran J Child Neurol | Pregabalin versus natriumvalproat som migræneprofylakse hos børn |
-| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Med Iran | Propranolol versus pregabalin som profylakse mod migræne hos børn |
+| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iran J Child Neurol | Pregabalin sammenlignet med natriumvalproat til pædiatrisk migræneprofylakse |
+| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Med Iran | Pregabalin sammenlignet med propranolol til profylakse af migræne hos børn (99 børn) |
 | [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Netværksmetaanalyse | JAMA Netw Open | Forebyggende medicin ved pædiatrisk migræne |
-| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | Systematisk review | Cochrane Database Syst Rev | Gabapentin eller pregabalin som profylakse mod episodisk migræne hos voksne |
+| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | Cochrane-review | Cochrane Database Syst Rev | Gabapentin eller pregabalin til profylakse af episodisk migræne hos voksne |
 | [21479703](https://pubmed.ncbi.nlm.nih.gov/21479703/) | 2011 | Opfølgningsstudie | J Headache Pain | Effekt og tolerabilitet af pregabalin som forebyggende migrænebehandling over 3 måneder |
-| [30880369](https://pubmed.ncbi.nlm.nih.gov/30880369/) | 2019 | Review | Curr Treat Options Neurol | Antiepileptika som forebyggende migrænebehandling |
 | [25669613](https://pubmed.ncbi.nlm.nih.gov/25669613/) | 2015 | Klinisk studie | Int J Clin Pharmacol Ther | Pregabalins effekt på central sensibilisering og allodyni ved migræne |
-| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | Prækliniske data | Mol Brain | Kronisk pregabalin beskytter mod spreading depolarization i migrænemodel (FHM-1) |
-| [30001248](https://pubmed.ncbi.nlm.nih.gov/30001248/) | 2018 | Review (sikkerhed) | Clin Neuropharmacol | Seksuel dysfunktion forårsaget af pregabalin |
+| [30880369](https://pubmed.ncbi.nlm.nih.gov/30880369/) | 2019 | Review | Curr Treat Options Neurol | Antiepileptika som forebyggende migrænebehandling |
+| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | Prækliniske data | PNAS | Pregabalin hæver tærsklen for kortikal spreading depression hos mus |
+| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | Prækliniske data | Mol Brain | Kronisk pregabalin beskytter mod spreading depolarization i FHM-1-model |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106447720 | Bonqat | Oral opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+| 28106447720 | Bonqat | Oral opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Der er i alt 1 gyldig national tilladelse (enkeltstof).
+Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer fra vidensgrafen** (afledt af TxGNN-grafen, ikke af produktresuméet): angstlidelse, neurotisk lidelse, dysthymi, trombocytopeni, angioødem (inkl. erhvervet, hereditært og RAAS-blokker-induceret), myopati og andre muskelsygdomme, familiær periodisk paralyse, rabdomyolyse, nodulær fasciitis, nedsat nyrefunktion og atrioventrikulær blok. Disse skal verificeres mod det godkendte produktresumé.
+**Kontraindikationer registreret i vidensgrafen** (ikke fra produkttekst): angstlidelse, neurotisk lidelse, dysthymi, trombocytopeni, angioødem (herunder arveligt og erhvervet), myopati og muskelsygdomme, rhabdomyolyse, nedsat nyrefunktion samt atrioventrikulær blok. Disse skal verificeres mod det godkendte produktresumé.
 
-Bemærk, at flere af disse (myopati, muskelsygdom, rabdomyolyse) er relevante for de forudsagte muskel- og senelidelser.
+**Lægemiddelinteraktioner** (100 registrerede, udvalg):
+- **Alvorlige:** morfin og liposomal morfin (øget risiko for sedation og respirationsdepression)
+- **Moderate:** pioglitazon, rosiglitazon, troglitazon, difenoxin, diphenoxylat, dronabinol, nabilon, metoclopramid, opium, sibutramin
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret; udvalgte):
-- **Alvorlig (Major):** morfin, morfin (liposomalt)
-- **Moderat:** pioglitazon, rosiglitazon, troglitazon, difenoxin, diphenoxylat, dronabinol, nabilon, metoclopramid, opium, sibutramin
-
-Andre sikkerhedsoplysninger fra lægemiddelstyrelsens produktresumé er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC).
+For fuldstændige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -136,14 +125,13 @@ Andre sikkerhedsoplysninger fra lægemiddelstyrelsens produktresumé er ikke til
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen for tendinitis (99,71 %) er ren modelberegning uden kliniske forsøg og kun med indirekte litteratur (L4). Den forudsagte indikation med mest evidens, migræne (L2), bygger hovedsageligt på små pædiatriske RCT'er, og det eneste fase 3-forsøg blev trukket tilbage uden resultater.
+Der er plausibel mekanistisk begrundelse og enkelte pædiatriske RCT'er, men det eneste fase 3-forsøg blev trukket tilbage, og der mangler bekræftende studier hos voksne. Øvrige forudsagte indikationer (senebetændelse, granulomatøs myositis, myositis fibrosa, inklusionslegememyositis, migræne med hjernestammeaura) mangler direkte kliniske data eller er kun prækliniske og forbliver også på Hold.
 
 **For at komme videre kræves:**
-- Direkte kliniske data for pregabalin ved tendinitis, f.eks. et pilotforsøg eller et systematisk litteraturstudie
-- Data om virkningsmekanismen (MOA) fra lægemiddeldatabasen
-- Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da disse mangler
-- Verifikation af kontraindikationer fra vidensgrafen, især myopati og rabdomyolyse
-- For migræne: RCT'er hos voksne og en vurdering af tolerabilitet (sedation, seksuel dysfunktion, vægtøgning) som en separat forskningsstrøm
+- Randomiserede, kontrollerede studier af pregabalin til migræneprofylakse hos voksne
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af produktresumé for advarsler og kontraindikationer (manglende i den indsamlede dokumentation)
+- Vurdering af sikkerhed ved kombination med opioider og hos patienter med nedsat nyrefunktion
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

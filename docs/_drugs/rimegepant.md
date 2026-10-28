@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 722
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Rimegepant: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L3). Oprindelig indikation: Migræne (migræne med eller uden aura)"
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Rimegepant: Fra migræne til migræne med hjernestammeaura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Rimegepant er en CGRP-receptorantagonist (en "gepant"), som oprindeligt anvendes til behandling af migræne.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **migræne med hjernestammeaura**,
 men der er **ingen registrerede kliniske forsøg** og **ingen publikationer specifikt om denne undertype**. De 15 fundne publikationer handler om migræne generelt.
 
 ---
@@ -48,12 +47,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer spec
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med eller uden aura) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-prædiktionsscore | 99,94 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Atrophoderma vermiculata |
+| TxGNN-prædiktionsscore | 0.9976 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

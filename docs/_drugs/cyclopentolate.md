@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Cyclopentolate: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Cykloplegi (angivet i videngrafen"
 monitor_inn: "cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+last_modified_at: 2026-10-27
+description: "Cyclopentolate: forudsagt ny indikation Cauda equina-syndrom (cauda equina syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cyclopentolate
@@ -33,96 +33,67 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Cyclopentolat: Fra cykloplegi til cauda equina-syndrom
+## Cyclopentolate: antikolinergt middel (muskarin-antagonist) → Cauda equina-syndrom (cauda equina syndrome)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Cyclopentolat er et antikolinergt (antimuskarint) middel i øjendråber, som oprindeligt anvendes til **cykloplegi** (midlertidig lammelse af øjets akkommodation, typisk ved øjenundersøgelser).
-TxGNN-modellen forudsiger, at det kan have effekt ved **cauda equina-syndrom**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
-
----
+Cyclopentolate er et antikolinergt middel (muskarin-antagonist), der anvendes som øjendråber.
+TxGNN-modellen forudsiger, at det kan have effekt ved **cauda equina-syndrom (cauda equina syndrome)**,
+men der er hverken registreret **kliniske forsøg** eller **publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Cykloplegi (angivet i videngrafen; godkendelsens indikationstekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,54 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cauda equina-syndrom (cauda equina syndrome) |
+| TxGNN-forudsigelsesscore | 0,9954 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Ud fra almen farmakologi er cyclopentolate en muskarin-antagonist (antikolinergikum), som anvendes lokalt i øjet.
 
-Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige. Ud fra almen farmakologi er cyclopentolat en muskarinreceptor-antagonist (antikolinergikum), og dets virkning ved cykloplegi er veletableret. Mekanistisk kunne en antikolinerg effekt på blærens detrusormuskel teoretisk lindre sekundære neurogene blæresymptomer.
+Cauda equina-syndrom er en kompressiv neurologisk akutlidelse, hvor den primære behandling er kirurgisk dekompression. Antikolinerge effekter på blærens detrusoraktivitet kunne teoretisk lindre sekundære neurogene blæresymptomer, men det ville ikke behandle selve grundlidelsen. Koblingen er derfor spinkel og hviler alene på en modelbaseret forudsigelse.
 
-Cauda equina-syndrom er imidlertid en neurologisk akuttilstand med kompression af nerverødderne, og den væsentligste behandling er kirurgisk dekompression. Et antikolinergikum vil ikke behandle den underliggende tilstand. Desuden kan systemisk antikolinerg eksponering forværre urinretention, hvilket er en risiko i netop denne patientgruppe. Den høje score (0,995) bør derfor ikke tolkes som klinisk evidens.
+Systemisk antikolinerg eksponering kan desuden forværre urinretention, hvilket er en risiko i denne patientgruppe.
 
-### Øvrige forudsagte indikationer
+## Kliniske forsøg
 
-| Rang | Forudsagt indikation | TxGNN-score | Bemærkning |
-|------|------|------|------|
-| 2 | Neurogen blære (forældet sygdomsterm) | 99,40 % | Antimuskarine stoffer er en etableret klasse ved neurogen detrusoroveraktivitet, men cyclopentolat er kun markedsført som oftalmikum. Termen er forældet i ontologien og bør knyttes til en aktuel term. |
-| 3 | Irritabel tarm-syndrom | 99,27 % | Antispasmodiske antimuskarine midler bruges ved IBS, men der er ingen evidens for cyclopentolat. Systemisk optagelse kan give CNS-bivirkninger (forvirring, psykose), især hos børn og ældre. |
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
-Begge er på evidensniveau L5 med anbefalingen Hold.
+## Litteratur
 
----
+Der er for tiden ingen relateret litteratur tilgængelig.
 
-## Klinisk forsøgsevidens
+## Information om markedet i Danmark
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
-
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100657174 | Cyclogyl (Alcon Nordic A/S) | Øjendråber, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-
----
+| 28100657174 | Cyclogyl (Alcon Nordic A/S) | Øjendråber, opløsning | Ikke oplyst i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Følgende kontraindikationer er hentet fra videngrafen (PrimeKG) og er **ikke** baseret på produktresuméets tekst:
+Der foreligger ingen oplysninger om advarsler, kontraindikationer eller interaktioner i de data, der er samlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-- **Øjensygdomme:** snævervinklet glaukom (angle-closure glaukom)
-- **Hjerte-kar:** forhøjet blodtryk, hjertesygdom, koronararteriesygdom, pludseligt hjertestop, hjerteledningsforstyrrelser, arteriosklerose og åreforkalkning
-- **Stofskifte og hormoner:** diabetes mellitus, diabetisk ketoacidose, hyperthyreoidisme, Graves' sygdom og thyreotoksikose
-- **Urinveje:** benign prostatahyperplasi
-- **Neurologi og andet:** hjerneskade, hjernesygdom, Downs syndrom
-
-Der blev ikke fundet oplysninger om lægemiddelinteraktioner. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Generelt kan systemisk antikolinerg eksponering give urinretention og CNS-bivirkninger (f.eks. forvirring), hvilket er relevant ved overvejelse af anden anvendelse end som øjendråber.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Cyclopentolat findes kun som øjendråber, og systemisk antikolinerg effekt kan forværre urinretention ved cauda equina-syndrom. Flere af de forudsagte kontraindikationer rammer desuden relevante patientgrupper.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Den mekanistiske sammenhæng er svag, da cauda equina-syndrom primært behandles kirurgisk, og antikolinergika kan forværre urinretention.
 
 **For at komme videre kræves følgende:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (kritisk mangel)
-- Data om virkningsmekanismen (MOA) fra DrugBank
-- Systematisk litteratur- og forsøgssøgning for de tre forudsagte indikationer
-- Vurdering af administrationsvej, da kun øjendråber er tilgængelige i Danmark
-- Mapning af den forældede sygdomsterm "neurogen blære" til en aktuel term
-- Vurdering af, om allerede markedsførte antimuskarine midler dækker de forudsagte indikationer
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Prækliniske eller kliniske data, der direkte undersøger cyclopentolate ved cauda equina-syndrom
+- Vurdering af, om en anden administrationsvej end øjendråber ville være nødvendig, samt tilhørende sikkerhedsdata
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

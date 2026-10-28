@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09143",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09143"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "cutaneous-adenocystic-carcinoma",
-          "display": "cutaneous adenocystic carcinoma"
-        }
-      ],
-      "text": "cutaneous adenocystic carcinoma"
+      "concept": {
+        "text": "cutaneous adenocystic carcinoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9975
     }
   ]
 }

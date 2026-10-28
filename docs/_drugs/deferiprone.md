@@ -4,17 +4,17 @@ title: Deferiprone
 parent: Moderat evidens (L3-L4)
 nav_order: 245
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (evidensniveau L4). Oprindelig indikation: Hæmosiderose og beta-thalassæmi"
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Deferiprone: Fra jernoverskud ved hæmosiderose og thalassæmi til hepatisk porfyri
+## Deferiprone: Hepatisk porfyri (hepatic porphyria)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men evidensen er svag: der er **ingen registrerede kliniske forsøg** og kun **2
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hæmosiderose og beta-thalassæmi (ifølge vidensgrafen; indikationsteksten for det danske produkt er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Hepatisk porfyri |
-| TxGNN-forudsigelsesscore | 99,20 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatisk porfyri (hepatic porphyria) |
+| TxGNN-forudsigelsesscore | 0.9920 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

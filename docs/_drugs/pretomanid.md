@@ -4,17 +4,17 @@ title: Pretomanid
 parent: Kun modelforudsigelse (L5)
 nav_order: 683
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pretomanid: forudsagt ny indikation Candidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
 monitor_inn: "Pretomanid"
-predicted_indications: ["candidiasis", "candidiasis", "leprosy", "leprosy", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "anomalous left coronary artery from the pulmonary artery"]
+predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
 ---
 
 # Pretomanid
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,27 +46,27 @@ Pretomanid er et tuberkulosemiddel (nitroimidazooxazin), der er markedsført i D
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Candidiasis |
-| TxGNN-forudsigelsesscore | 99,69 % |
+| TxGNN-forudsigelsesscore | 0,9969 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
 Der er i øjeblikket ikke tilgængelige detaljerede data om virkningsmekanisme i de indsamlede data. Ud fra almen viden er pretomanid et prodrug, der aktiveres af nitroreduktasen Ddn i *Mycobacterium tuberculosis*. Det frigiver reaktive kvælstofforbindelser (bl.a. nitrogenoxid) og hæmmer syntesen af mykolsyre.
 
-Svampe som *Candida* har ikke en tilsvarende aktiveringsvej og er ikke kendt for at være følsomme over for denne mekanisme. Det biologiske grundlag for forudsigelsen er derfor svagt. Den høje score afspejler sandsynligvis grafnærhed i vidensgrafen snarere end en farmakologisk sammenhæng.
+Svampe som *Candida* har ikke en tilsvarende aktiveringsvej og er ikke kendt for at være følsomme over for denne mekanisme. Det biologiske grundlag for forudsigelsen er derfor svagt. Den høje score stammer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Andre forudsagte indikationer (kort)
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Candidiasis | 99,69 % | L5 | Hold. Ingen evidens, svagt mekanistisk grundlag |
-| Leprae (spedalskhed) | 99,27 % | L4 | Forskningsspørgsmål. Plausibel i princippet, da *M. leprae* er beslægtet med *M. tuberculosis*, men det er uklart, om bakterien har den nødvendige aktiveringsvej (Ddn/F420-afhængig nitroreduktase) |
-| Koronararteriesygdom | 99,25 % | L5 | Hold. Ingen mekanistisk sammenhæng |
-| Myokardieiskæmi | 99,17 % | L5 | Hold. Ingen mekanistisk sammenhæng |
-| Anomal venstre koronararterie fra lungearterien | 99,08 % | L5 | Hold. Medfødt strukturel anomali, behandles kirurgisk |
+| Candidiasis | 0,9969 | L5 | Hold. Ingen evidens, svagt mekanistisk grundlag |
+| Leprae (spedalskhed) | 0,9927 | L5 | Forskningsspørgsmål. Plausibel i princippet, da *M. leprae* er beslægtet med *M. tuberculosis*, men det er uklart, om bakterien har den nødvendige aktiveringsvej (Ddn/F420-afhængig nitroreduktase) |
+| Koronararteriesygdom | 0,9925 | L5 | Hold. Ingen mekanistisk sammenhæng |
+| Myokardieiskæmi | 0,9917 | L5 | Hold. Ingen mekanistisk sammenhæng |
+| Anomal venstre koronararterie fra lungearterien | 0,9908 | L5 | Hold. Medfødt strukturel anomali, behandles kirurgisk |
 
 ## Dokumentation fra kliniske forsøg
 

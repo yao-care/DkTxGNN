@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Thymol: forudsagt ny indikation Interventrikulær septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet"
 monitor_inn: "Thymol"
-predicted_indications: ["interventricular septum aneurysm", "interventricular septum aneurysm", "pulmonary valve disease", "pulmonary valve disease", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "orofacial clefting syndrome"]
+predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
+last_modified_at: 2026-10-23
+description: "Thymol: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den eneste autorisation har ingen…"
 ---
 
 # Thymol
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Thymol: Fra veterinær anvendelse (topisk gel) til interventrikulær septumaneurisme
+## Thymol: Fra ukendt godkendt human indikation til interventrikulært septumaneurisme
 {: .text-alpha }
 
-## Resumé i én sætning
+## Sammenfatning i en sætning
 
-Thymol er et monoterpenoid fenol, som i Danmark kun er registreret i et veterinært gelprodukt (Apiguard Vet.). Der foreligger ingen godkendt human indikation i de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at stoffet kan være virksomt mod **interventrikulær septumaneurisme**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen.
+Thymol er et naturligt fenolisk monoterpen, som i Danmark findes i et veterinært gelpræparat. Der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **interventrikulært septumaneurisme**, men der er **ingen kliniske forsøg og ingen publikationer**, der direkte undersøger denne sygdom. Forudsigelsen bygger alene på en beregningsmæssig score.
 
 ---
 
@@ -47,53 +46,51 @@ TxGNN-modellen forudsiger, at stoffet kan være virksomt mod **interventrikulær
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet (godkendelsesteksten for det registrerede produkt er tom) |
-| Forudsagt ny indikation | Interventrikulær septumaneurisme |
-| TxGNN-forudsigelsesscore | 99,25 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (den eneste autorisation har ingen indikationstekst) |
+| Forudsagt ny indikation | Interventrikulært septumaneurisme |
+| TxGNN-forudsigelsesscore | 0,9925 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
-Andre forudsigelser med næsten samme score, og lige så uden evidens, er pulmonalklapsygdom (99,17 %), Laubry-Pezzi syndrom (99,17 %), genetisk syndromisk Pierre Robin-syndrom (99,15 %) og orofacial spaltedannelse (99,15 %).
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om thymols virkningsmekanisme er ikke tilgængelige. Thymol er et naturligt forekommende monoterpenoid fenol. Der er i litteraturen generelt beskrevet antiinflammatoriske og antioxidative egenskaber, men disse er ikke understøttet af de data, der er indsamlet til denne rapport.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om thymols virkningsmekanisme. Thymol er kendt for antioxidative, antiinflammatoriske og antimikrobielle egenskaber, men intet i de tilgængelige data forbinder disse egenskaber med en strukturel hjertesygdom.
 
-Interventrikulær septumaneurisme er en strukturel hjerteforandring, som typisk er medfødt eller opstår efter et hjerteinfarkt. Det er ikke plausibelt, at et lille molekyle som thymol kan vende en sådan strukturel forandring. Der er derfor ingen understøttet mekanistisk forbindelse mellem stoffets kendte anvendelse og den forudsagte indikation.
+Interventrikulært septumaneurisme er en strukturel misdannelse af hjertet. Et topikalt eller antimikrobielt fenol har næppe en sygdomsmodificerende effekt på en sådan tilstand. Der er ikke identificeret nogen mekanistisk sammenhæng, og forudsigelsen skal derfor betragtes som et beregningsmæssigt fund, indtil det modsatte er vist.
 
-Den høje score (99,25 %) er et rent beregningsmæssigt resultat. Den afspejler sandsynligvis nærhed i vidensgrafen til beslægtede hjerte- og misdannelsesbegreber snarere end et reelt terapeutisk signal. Den samme vurdering gælder de øvrige forudsagte indikationer: pulmonalklapsygdom, Laubry-Pezzi syndrom (ventrikelseptumdefekt med aortainsufficiens, som typisk behandles kirurgisk), Pierre Robin-syndrom og orofacial spaltedannelse (begge udviklingsmæssige misdannelser, hvor et lægemiddel givet efter fødslen ikke forventes at have effekt).
+Andre forudsagte indikationer har samme billede (f.eks. pulmonalklapsygdom, Laubry-Pezzi syndrom, Pierre Robin-syndrom, orofaciale spaltedannelser, kromosomale delektioner og Jeune-syndrom med situs inversus). Ingen af dem er understøttet af forsøg eller litteratur. For *forstyrrelse af fucoglykansyntese* blev der fundet 20 publikationer om thymol generelt, men ingen omhandler fucosylering eller glykansyntese. Tallet afspejler derfor nøgleordssøgning på thymol og ikke sygdomsspecifik evidens.
 
 ---
 
-## Dokumentation fra kliniske forsøg
+## Klinisk forsøgsevidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturbaseret evidens
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur om thymol og interventrikulært septumaneurisme.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103399802 | Apiguard Vet. (Vita Bee Health Ltd.) | Gel (topisk) | Ikke angivet |
+| 28103399802 | Apiguard Vet. (Vita Bee Health Ltd.) | Gel | Indikationstekst er ikke angivet |
 
-Der er tale om ét gyldigt enkeltstofprodukt. Præparatet er et veterinært produkt, og der findes ingen registreret humanmedicinsk anvendelse i de indsamlede data.
+Tilladelsen er en national enkeltstofstilladelse, og der er ikke anført flere. Produktet er et veterinært præparat.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner for thymol i de data, der er indsamlet til denne rapport. Det er dog ikke ensbetydende med, at der ikke findes interaktioner, da der ikke foreligger oplysninger om advarsler og kontraindikationer.
+Der er ikke registreret oplysninger om lægemiddelinteraktioner for thymol i de indsamlede data, og der foreligger ingen advarsler eller kontraindikationer fra produktresumé.
 
 Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
@@ -101,17 +98,16 @@ Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en beregningsmæssig score uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. De forudsagte sygdomme er overvejende strukturelle eller udviklingsmæssige tilstande, som ikke forventes at kunne behandles med thymol.
+Forudsigelsen hviler udelukkende på en TxGNN-score uden kliniske forsøg, uden direkte litteratur og uden en plausibel mekanisme. Evidensniveauet er L5. Den eneste danske tilladelse er et veterinært gelpræparat, hvilket ikke understøtter human systemisk anvendelse ved en hjertesygdom.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
-- Præklinisk eller mekanistisk dokumentation, der kan understøtte en sammenhæng mellem thymol og den forudsagte sygdom
-- Vurdering af administrationsvej, da det eneste registrerede produkt er en topisk veterinær gel, som ikke umiddelbart er relevant for hjerte- eller kraniofaciale tilstande
-- Uafhængig validering af forudsigelsen, før der investeres yderligere ressourcer
+- Data om thymols virkningsmekanisme og en hypotese for, hvordan den kan påvirke septumaneurisme
+- Præklinisk evidens (celle- eller dyremodeller) direkte relateret til sygdommen
+- Information om godkendte indikationer og sikkerhed fra produktresuméet
+- Vurdering af administrationsvej og human sikkerhed ved systemisk eksponering, da den kendte formulering er en topikal gel
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

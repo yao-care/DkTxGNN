@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 736
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rosuvastatin: forudsagt ny indikation Familiær hyperkolesterolæmi (evidensniveau L1). Oprindelig indikation: Hypertriglyceridæmi, aterosklerose, hyperlipoproteinæmi…"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: forudsagt ny indikation Cholesterol-ester transfer protein deficiency (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Rosuvastatin: Fra hyperlipidæmi og iskæmisk apopleksi til familiær hyperkolesterolæmi
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Bemærk, at homozygot familiær hyperkolesterolæmi allerede er blandt de oprind
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertriglyceridæmi, aterosklerose, hyperlipoproteinæmi, homozygot familiær hyperkolesterolæmi, slagtilfælde og cerebral infarkt (fra videnbasen; den danske produkttekst indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Familiær hyperkolesterolæmi |
-| TxGNN-forudsigelsesscore | 99,54 % |
-| Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cholesterol-ester transfer protein deficiency |
+| TxGNN-forudsigelsesscore | 0.9954 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

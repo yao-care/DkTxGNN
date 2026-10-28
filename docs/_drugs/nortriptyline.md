@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nortriptyline
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 595
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nortriptyline: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Angstlidelse, neurotisk lidelse og dysthymi (fra TxGNN-vidensgraf…"
 monitor_inn: "nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale …"
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Nortriptylin: Fra angstlidelse til opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
+## Nortriptyline: Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er **ingen registrerede kliniske forsøg**, men **16 publikationer** er iden
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, neurotisk lidelse og dysthymi (fra TxGNN-vidensgrafen; den godkendte indikationstekst for de danske tilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
+| TxGNN-forudsigelsesscore | 0.9942 |
 | Evidensniveau | L2 (se bemærkning nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* L2 er den klassificering, der fremgår af de sammenstillede data. Den bygger på ét RCT i børn og unge (Prince et al., 2000) samt en Cochrane-oversigt, ikke på et registreret Fase 2/3-forsøg. Evidensen skal derfor tolkes med forsigtighed.
@@ -66,7 +66,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstilled
 
 Ved ADHD spiller noradrenerg og dopaminerg aktivitet i prefrontale kredsløb en central rolle. Ikke-stimulerende ADHD-lægemidler som atomoxetin virker via noradrenerg forstærkning. Nortriptylin har tilsvarende noradrenerg effekt, hvilket giver et plausibelt farmakologisk grundlag. Et PET-studie (Takano et al., 2014) har desuden vist, at nortriptylin besætter noradrenalintransportøren hos patienter med depression.
 
-Angst, dysthymi og ADHD optræder ofte sammen, og stemningslidelser har høj komorbiditet med ADHD. Den høje TxGNN-score er i overensstemmelse med dette mekanistiske overlap. Posten "ADHD, uopmærksom type" er en undertype af den samme indikation og tæller ikke som uafhængig støtte. Den har score 99,33 %, ingen forsøg og ingen indikationsspecifik litteratur, og vurderes som evidensniveau L5 med anbefalingen Hold.
+Angst, dysthymi og ADHD optræder ofte sammen, og stemningslidelser har høj komorbiditet med ADHD. Den høje TxGNN-score er i overensstemmelse med dette mekanistiske overlap. Posten "ADHD, uopmærksom type" er en undertype af den samme indikation og tæller ikke som uafhængig støtte. Den har score 0,9933, ingen forsøg og ingen indikationsspecifik litteratur, og vurderes som evidensniveau L5 med anbefalingen Hold.
 
 ---
 

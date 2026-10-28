@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Moderat evidens (L3-L4)
+parent: Høj evidens (L1-L2)
 nav_order: 689
-evidence_level: L4
-indication_count: 10
+evidence_level: L1
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Progesterone: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Endometriose, endometriecancer…"
 monitor_inn: "progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Progesteron: Fra endometriose og endometriecancer til amenoré
+## Progesterone: Amenoré (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **amenoré**, med **4 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Endometriose, endometriecancer, postmenopausal osteoporose og postmenopausal atrofisk vaginitis (fra vidensgrafen; dansk indikationstekst er ikke angivet for det registrerede produkt) |
-| Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Amenoré (amenorrhea (disease)) |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L1 efter skemaets formelle regler, men se bemærkning nedenfor |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 **Bemærkning om evidensniveau:** Evidensen er formelt vurderet som L1 i de data, der ligger til grund for rapporten. Det er dog kun ét afsluttet fase 3-forsøg (NCT00946192), og det undersøger østrogen, ikke progesteron. Evidensen for progesteron specifikt er derfor svagere, end niveauet antyder.
@@ -132,7 +132,7 @@ Officielle advarsler og kontraindikationer fra produktresuméet er ikke indgået
 | Blunt duct adenosis i brystet | L5 | Hold |
 | Apokrin adenose i brystet | L5 | Hold |
 
-Forudsigelserne om nyrehypoplasi vurderes som artefakter fra vidensgrafen uden troværdig mekanisme.
+Forudsigelserne om nyrehypoplasi stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

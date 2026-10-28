@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 439
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec: forudsagt ny indikation Type 1-diabetes mellitus (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (fra TxGNN-vidensgrafen"
 monitor_inn: "INSULIN DEGLUDEC"
-predicted_indications: ["autoimmune oophoritis", "autoimmune oophoritis", "opsismodysplasia", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
+description: "Insulin Degludec: forudsagt ny indikation Autoimmune oophoritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Insulin degludec: Fra diabetes mellitus til type 1-diabetes mellitus
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -46,12 +46,12 @@ Insulin degludec er en ultralangtidsvirkende basalinsulinanalog, der oprindeligt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Diabetes mellitus og diabetisk ketoacidose (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Type 1-diabetes mellitus |
-| TxGNN-forudsigelsesscore | 99,44 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Autoimmune oophoritis |
+| TxGNN-forudsigelsesscore | 0.9923 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -60,7 +60,7 @@ Insulin degludec er en ultralangtidsvirkende basalinsulinanalog, der oprindeligt
 
 I de data, der er indsamlet til denne rapport, er virkningsmekanismen ikke angivet. Det er dog veletableret, at insulin degludec er en ultralangtidsvirkende basalinsulinanalog, der binder sig til insulinreceptoren og erstatter det endogene insulin, som mangler ved type 1-diabetes. Lægemidlet har en flad og stabil glukosesænkende profil og en virkningsvarighed på over 42 timer ved steady state.
 
-Type 1-diabetes er den sygdom, hvor behovet for insulinerstatning er størst, da patienterne ikke selv producerer insulin. Farmakologien er den samme som ved den eksisterende diabetesindikation, og derfor er den høje score (99,44 %) forventelig.
+Type 1-diabetes er den sygdom, hvor behovet for insulinerstatning er størst, da patienterne ikke selv producerer insulin.
 
 De øvrige forudsagte indikationer (autoimmun oophoritis, opsismodysplasi, tiaminresponsivt dysfunktionssyndrom, klassisk stiff person-syndrom og fokalt stiff limb-syndrom) har ingen kliniske forsøg eller litteratur og ingen klar mekanistisk forbindelse. De vurderes som *Hold* (evidensniveau L5) og behandles ikke yderligere her.
 

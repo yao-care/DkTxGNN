@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Maraviroc: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "Maraviroc"
-predicted_indications: ["multiple endocrine neoplasia", "multiple endocrine neoplasia", "acne (disease)", "acne (disease)", "primary cutaneous T-cell lymphoma", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous T-cell non-Hodgkin lymphoma"]
+predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
+last_modified_at: 2026-10-23
+description: "Maraviroc: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsens indikationstekst e…"
 ---
 
 # Maraviroc
@@ -33,86 +33,82 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Maraviroc: Fra HIV-infektion til multipel endokrin neoplasi
+## Maraviroc: Fra oprindelig anvendelse til multipel endokrin neoplasi
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Maraviroc er en CCR5-antagonist, der er godkendt i Danmark som filmovertrukne tabletter (Celsentri). Den præcise godkendte indikation er ikke angivet i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **multipel endokrin neoplasi**, men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte denne forudsigelse. Forudsigelsen er derfor udelukkende modelbaseret.
+Maraviroc er en CCR5-antagonist, som er markedsført i Danmark som Celsentri (filmovertrukne tabletter). Der er ikke registreret en godkendt indikationstekst i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **multipel endokrin neoplasi**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
 
-## Hurtigt overblik
+---
+
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsens indikationstekst er tom) |
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
-| TxGNN-forudsigelsesscore | 99,82 % |
+| TxGNN-forudsigelsesscore | 0,9982 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
+
+---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Maraviroc er en CCR5-antagonist. Data om lægemidlets oprindelige virkningsmekanisme (MOA) er ikke tilgængelige i de indsamlede data. Der er ikke identificeret nogen etableret sammenhæng mellem CCR5-hæmning og multipel endokrin neoplasi (MEN1- eller RET-drevne endokrine tumorer).
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de sammenstillede data. Maraviroc er kendt som en CCR5-antagonist, dvs. en blokker af chemokinreceptoren CCR5, som bl.a. er involveret i migration af immunceller.
 
-Den meget høje TxGNN-score (0,998) er alene en modelforudsigelse uden støtte fra forsøg eller litteratur. En mekanistisk begrundelse kan ikke udledes af de foreliggende data, og forudsigelsen bør derfor fortolkes med stor forsigtighed.
+Der er ikke i de tilgængelige data noget belæg for en sammenhæng mellem CCR5-signalering og patogenesen ved multipel endokrin neoplasi (fx ændringer i MEN1 eller RET). Forudsigelsen er derfor udelukkende modelbaseret og må betragtes som en hypotese uden mekanistisk understøttelse. Lighed med den oprindelige indikation kan ikke vurderes, da indikationsteksten mangler.
 
-**Øvrige forudsagte indikationer (til orientering):**
-- **Akne:** CCR5-medieret kemokinsignalering spiller en rolle i rekruttering af inflammatoriske celler, hvilket teoretisk kan overlappe med inflammatorisk akne. Det er spekulativt og baseret alene på modelforudsigelsen (0,998).
-- **Primært kutant T-celle-lymfom (og non-Hodgkin-varianten):** Kemokinreceptorer er involveret i T-cellers homing til huden og i tumormikromiljøet. Der foreligger kun én oversigtsartikel, som ikke undersøger maraviroc (evidensniveau L4).
-- **Pædiatrisk systemisk lupus erythematosus:** Kemokinreceptorveje bidrager til immuncellemigration ved autoimmune sygdomme, men der er ingen forsøg eller litteratur for maraviroc (evidensniveau L5).
+Til orientering rangerer modellen også andre sygdomme højt, bl.a. primært kutant T-celle-lymfom, HER2-positiv brystkræft, acne og cytomegalovirusinfektion. Af disse har kun HER2-positiv brystkræft en antydning af en mekanistisk forbindelse (præklinisk data om CCL5, som er ligand for CCR5), men dette er ikke en del af den primære forudsigelse.
 
-## Kliniske forsøg
+---
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+## Evidens fra kliniske forsøg
 
-## Litteratur
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
-Der er på nuværende tidspunkt ingen relateret litteratur for den primære forudsigelse (multipel endokrin neoplasi).
+---
 
-For den nærtstående forudsigelse om primært kutant T-celle-lymfom foreligger kun følgende indirekte reference:
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [37006247](https://pubmed.ncbi.nlm.nih.gov/37006247/) | 2023 | Oversigtsartikel | Frontiers in Immunology | Gennemgår muligheder for at målrette ACKR1 (en atypisk kemokinreceptor) ved kræft og andre sygdomme. Giver kun indirekte kontekst på kemokinnetværk og tester ikke maraviroc. |
+Der er aktuelt ingen relateret litteratur tilgængelig for multipel endokrin neoplasi.
 
-## Information om markedet i Danmark
+---
+
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104060706 | Celsentri (Viiv Healthcare BV) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+| 28104060706 | Celsentri | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+
+Indehaver: Viiv Healthcare BV. Administrationsvej: oral.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Ordlyden af advarsler og kontraindikationer fra produktresuméet er ikke tilgængelig i de indsamlede data.
+- **Relationer registreret i vidensgrafen (ikke mærketekst):** Vidensgrafen (PrimeKG) har registreret kontraindikationsrelationer mellem maraviroc og bl.a. nyresygdom (herunder kronisk nyresygdom og terminal nyresvigt), leversygdom (herunder lægemiddelinduceret leverskade), kronisk hepatitis B- og hepatitis C-virusinfektion, galdeblæresygdom, koronararteriesygdom, myokardieinfarkt og myokardieiskæmi, ortostatisk hypotension, postural ortostatisk takykardisyndrom, multipel systematrofi, hæmoglobinopati og pyouretær. Disse stammer fra en videnbase og ikke fra produktresuméet og skal verificeres.
+- **Lægemiddelinteraktioner:** 93 interaktioner er registreret. Blandt de viste er den eneste af sværhedsgrad *alvorlig* **clarithromycin**. Flere interaktioner er af moderat sværhedsgrad, bl.a. med aprepitant, dexamethason, cimetidin, cobicistat, clotrimazol, miconazol, rolapitant, promethazin, naltrexon og deferasirox.
 
-**Sygdomme, hvor viden fra vidensgrafen (PrimeKG) markerer kontraindikation:** Disse oplysninger stammer fra TxGNN-vidensgrafen og ikke fra produktresuméet. De bør verificeres mod SmPC.
-- Hjerte-kar: koronararteriesygdom, myokardieinfarkt, koronar trombose, myokardieiskæmi
-- Lever: leversygdom, lægemiddelinduceret leverskade, kronisk hepatitis B-virusinfektion, hepatitis C-virusinfektion
-- Nyrer: nyresygdom, kronisk nyresygdom, kronisk nyresvigt, terminal nyresvigt
-- Ortostatiske tilstande: ortostatisk hypotension, postural ortostatisk takykardisyndrom, multipel systematrofi
-- Øvrige: galdeblæresygdom, pyoureter, infektionssygdom, hæmoglobinopati
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
-**Lægemiddelinteraktioner:** Der er identificeret 93 interaktioner. Blandt de viste er én klassificeret som alvorlig (Major), mens de øvrige viste er moderate.
-- **Alvorlig:** Clarithromycin
-- **Moderate (udvalg):** Aprepitant, dexamethason, cimetidin, eliglustat, naltrexon, clotrimazol, miconazol, rolapitant, cobicistat, deferasirox, diazoxid, phentolamin, promethazin, epoprostenol, fostamatinib
-
-For yderligere sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om multipel endokrin neoplasi hviler udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg eller litteratur og uden en identificeret mekanistisk sammenhæng. Manglende data om oprindelig indikation, virkningsmekanisme og advarsler/kontraindikationer forhindrer desuden en sikkerhedsscreening.
+Forudsigelsen for multipel endokrin neoplasi er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden en understøttet mekanistisk forbindelse. Der er desuden betydelige datamangler om godkendt indikation og mekanisme.
 
 **For at komme videre kræves følgende:**
-- Indhentning af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Præklinisk eller mekanistisk evidens for CCR5's rolle i multipel endokrin neoplasi
-- Litteratursøgning og søgning efter kliniske forsøg specifikt for maraviroc ved den forudsagte indikation
-- Vurdering af administrationsvej og sikkerhed (herunder kardiovaskulære og leverrelaterede forhold og den alvorlige interaktion med clarithromycin) i den relevante patientgruppe
+- Hentning af produktresuméet fra Lægemiddelstyrelsen med godkendt indikation, advarsler og kontraindikationer
+- Detaljerede data om virkningsmekanisme (MOA)
+- Præklinisk belæg for en rolle for CCR5 i multipel endokrin neoplasi
+- Overvejelse af mere lovende hypoteser fra samme analyse, især HER2-positiv brystkræft (CCL5/CCR5 og trastuzumabresistens), som en forskningsmæssig problemstilling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

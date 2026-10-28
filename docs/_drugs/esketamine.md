@@ -6,9 +6,9 @@ nav_order: 325
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Esketamine: forudsagt ny indikation Agorafobi (evidensniveau L5). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthymi (fra TxGNN-vidensgrafen"
 monitor_inn: "esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Esketamine: forudsagt ny indikation Agorafobi (agoraphobia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Esketamine
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Esketamin: Fra angstlidelse til agorafobi
+## Esketamine: Agorafobi (agoraphobia)
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
-Esketamin var oprindeligt knyttet til behandling af angstlidelse, neurotisk lidelse og dysthymi (ifølge TxGNN-vidensgrafen). TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **agorafobi** med en meget høj modelscore (99,6 %). Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen hviler udelukkende på modellen.
+Esketamin var oprindeligt knyttet til behandling af angstlidelse, neurotisk lidelse og dysthymi. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt mod **agorafobi** med en meget høj modelscore (0.9957). Scoren stammer fra modellen og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen hviler udelukkende på modellen.
 
 ---
 
@@ -46,12 +46,12 @@ Esketamin var oprindeligt knyttet til behandling af angstlidelse, neurotisk lide
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, neurotisk lidelse, dysthymi (fra TxGNN-vidensgrafen; den danske godkendelse har ingen angiven indikationstekst) |
-| Forudsagt ny indikation | Agorafobi |
-| TxGNN-forudsigelsesscore | 99,57 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Agorafobi (agoraphobia) |
+| TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -114,7 +114,7 @@ Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5), uden k
 
 ## Bemærkning om den andenrangerede forudsigelse
 
-Den næste forudsigelse, **benign paroxysmal torticollis hos spædbørn** (score 99,49 %), har heller ingen kliniske forsøg eller litteratur (evidensniveau L5, anbefaling: Hold). Der er ingen klar mekanistisk sammenhæng med esketamins psykiatriske indikationer hos voksne, og forudsigelsen er sandsynligvis et artefakt fra vidensgrafen. Esketamin er ikke etableret til pædiatrisk brug, tilstanden går over af sig selv, og risk-benefit-forholdet er derfor ugunstigt.
+Den næste forudsigelse, **benign paroxysmal torticollis hos spædbørn** (score 0.9949), har heller ingen kliniske forsøg eller litteratur (evidensniveau L5, anbefaling: Hold). Der er ingen klar mekanistisk sammenhæng med esketamins psykiatriske indikationer hos voksne, og scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Esketamin er ikke etableret til pædiatrisk brug, tilstanden går over af sig selv, og risk-benefit-forholdet er derfor ugunstigt.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

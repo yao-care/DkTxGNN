@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Anakinra: forudsagt ny indikation Ekstrakutant mastocytom (evidensniveau L5). Oprindelig indikation: Leddegigt, CAPS og CINCA-syndrom (fra TxGNN-videnbasen"
 monitor_inn: "Anakinra"
-predicted_indications: ["extracutaneous mastocytoma", "extracutaneous mastocytoma", "hepatic infarction", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "hepatic veno-occlusive disease"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+last_modified_at: 2026-10-27
+description: "Anakinra: forudsagt ny indikation Ekstrakutan mastocytom (extracutaneous mastocytoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Anakinra
@@ -33,92 +33,68 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Anakinra: Fra leddegigt og CAPS til ekstrakutant mastocytom
+## Anakinra: IL-1-receptorantagonist → ekstrakutan mastocytom (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Anakinra er et lægemiddel, der blokerer interleukin-1 (IL-1). Ifølge TxGNN-videnbasen er det oprindeligt brugt mod leddegigt (rheumatoid arthritis), cryopyrin-associerede periodiske syndromer (CAPS) og CINCA-syndrom. TxGNN-modellen forudsiger, at det kan have effekt mod **ekstrakutant mastocytom**. Forudsigelsen er rent beregningsbaseret: der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne indikation.
-
----
+Anakinra er en rekombinant interleukin-1-receptorantagonist, der markedsføres i Danmark som Kineret.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **ekstrakutan mastocytom (extracutaneous mastocytoma)**, men der er **ingen kliniske forsøg og ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor alene modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, CAPS og CINCA-syndrom (fra TxGNN-videnbasen; den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Ekstrakutant mastocytom |
-| TxGNN-prædiktionsscore | 99,93 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Ekstrakutan mastocytom (extracutaneous mastocytoma) |
+| TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-De data, der er indsamlet til denne rapport, indeholder ingen detaljeret beskrivelse af virkningsmekanismen. Anakinra er dog en IL-1-receptorantagonist, som hæmmer IL-1-signalering. Det passer med den kendte anvendelse ved autoinflammatoriske sygdomme som CAPS, hvor IL-1 er en central drivkraft.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Anakinra er kendt som en blokker af interleukin-1-receptoren (IL-1), og IL-1 spiller en rolle i mange inflammatoriske tilstande.
 
-Et muligt, men ubekræftet, link til mastcellesygdomme er IL-1-drevet inflammation. Teoretisk kunne IL-1-blokade dæmpe denne inflammation. Der er imidlertid ingen studier i datagrundlaget, der understøtter det for mastocytom, så koblingen er hypotetisk. Den høje score viser kun, at modellen finder et mønster i videnbasen. Den er ikke et bevis for klinisk effekt.
+En mulig sammenhæng er, at IL-1 deltager i mastcelledrevet inflammation. Dette er dog spekulativt og understøttes ikke af nogen af de indsamlede data. Den høje score (0,9993) er udelukkende et modelresultat og er ikke bekræftet af kliniske eller publicerede undersøgelser af netop denne sygdom.
 
-Til sammenligning rangerer modellen også andre indikationer højt. Fast evidens for dem er heller ikke dokumenteret her:
-- **Autosomal recessiv familiær Mediterranean-feber (FMF):** Her findes litteratur (reviews, case-serier og kasuistikker) om IL-1-hæmning ved kolchicinresistent FMF. Det giver evidensniveau L4. Det understøtter mekanismen på klasseniveau, men der er ingen randomiserede, anakinra-specifikke forsøg.
-- **Aggressiv systemisk mastocytose:** Kun indirekte kasuistikker om Schnitzler-syndrom, som er en anden sygdom.
-- **Leverinfarkt og hepatisk veno-okklusiv sygdom:** Ingen evidens, og det biologiske rationale er svagt eller spekulativt.
+## Klinisk evidens
 
----
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for ekstrakutant mastocytom.
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for ekstrakutan mastocytom.
 
----
+## Information om markedet i Danmark
 
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105183812 | Kineret (Swedish Orphan Biovitrum AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten indgår ikke i de indsamlede data |
-
-Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
-
----
+| 28105183812 | Kineret | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen data om advarsler og kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner** (100 registrerede interaktioner; de vigtigste er nævnt her):
 
-**Lægemiddelinteraktioner:** Der er fundet 100 potentielle interaktioner i alt. Blandt de 20 vist i datagrundlaget er de vigtigste:
-- **Alvorlig (Major):** Deferipron.
-- **Moderat:**
-  - Kortikosteroider: hydrocortison, betamethason, budesonid, dexamethason, prednisolon, prednison og triamcinolon (inkl. oftalmisk).
-  - Simvastatin.
-  - Radiofarmaka og radioaktivt mærkede antistoffer: ibritumomab tiuxetan, iobenguan (I-131), tositumomab og tositumomab (I-131).
-  - Antikoagulantia: apixaban, dicoumarol og rivaroxaban.
-- **Mindre (Minor):** Zinkacetat, zinkglukonat og zinksulfat.
+- **Større interaktion:** deferiprone.
+- **Moderate interaktioner:** kortikosteroider (hydrocortison, betamethason, budesonid, dexamethason, prednisolon, prednison, triamcinolon), simvastatin, ibritumomab tiuxetan, iobenguan (I-131), tositumomab (også I-131), samt apixaban, dicoumarol og rivaroxaban.
+- **Mindre interaktioner:** zinkacetat, zinkgluconat og zinksulfat.
 
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for ekstrakutant mastocytom bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg eller publikationer. Mekanismedata mangler også, og sikkerhedsoplysninger fra produktresuméet er ikke tilgængelige.
+Forudsigelsen bygger udelukkende på modellen. Der er hverken kliniske forsøg eller publikationer, der direkte undersøger anakinra ved ekstrakutan mastocytom, og evidensniveauet er derfor L5.
 
 **For at komme videre kræves følgende:**
-- Systematisk litteratur- og forsøgssøgning specifikt for IL-1-hæmning ved mastocytom og andre mastcellesygdomme.
-- Detaljerede data om virkningsmekanisme (MOA) og en mekanistisk vurdering af IL-1's rolle i mastocytom.
-- Advarsler og kontraindikationer fra det danske produktresumé hos Lægemiddelstyrelsen, så en sikkerhedsscreening kan gennemføres.
-- Den godkendte indikationstekst for Kineret i Danmark.
-- Overvej at prioritere FMF (L4), hvor der allerede findes litteratur om IL-1-hæmning, hvis målet er en mere evidensbaseret reposition.
+- Systematisk litteratursøgning og prækliniske data for IL-1-blokade ved mastcellesygdomme
+- Dokumentation af virkningsmekanismen for anakinra i denne sygdom
+- Gennemgang af advarsler og kontraindikationer i produktresuméet (SmPC)
+- Afklaring af, om der findes registrerede forsøg, før der overvejes et klinisk studie
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

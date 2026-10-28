@@ -4,17 +4,17 @@ title: Ceritinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ceritinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (NSCLC) / lungekræft (fra vidensgrafen"
+indication_count: 9
 monitor_inn: "Ceritinib"
-predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "fibroma of lung", "fibroma of lung", "hamartoma of lung", "hamartoma of lung", "lung benign neoplasm", "lung benign neoplasm"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "junctional epidermolysis bullosa"]
+last_modified_at: 2026-10-23
+description: "Ceritinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft"
 ---
 
 # Ceritinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,10 +36,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Ceritinib: Fra ikke-småcellet lungekræft til gingival fibromatose
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort opsummering
 
-Ceritinib er en ALK-hæmmer (tyrosinkinasehæmmer), som oprindeligt anvendes til behandling af ikke-småcellet lungekræft.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose** (overvækst af tandkød), men der findes **ingen kliniske forsøg** og **ingen publikationer** om denne indikation. Forudsigelsen bygger udelukkende på modellen.
+Ceritinib er en ALK-hæmmer (tyrosinkinasehæmmer), som oprindeligt anvendes til behandling af ikke-småcellet lungekræft. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose**, men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne sygdom i de data, der er indsamlet til rapporten. Forudsigelsen er derfor alene en modelberegning.
 
 ---
 
@@ -47,53 +46,43 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibroma
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft (NSCLC) / lungekræft (fra vidensgrafen; indikationsteksten i det danske register er tom) |
+| Oprindelig indikation | Ikke-småcellet lungekræft (relation registreret i vidensgrafen; godkendt indikationstekst findes ikke i den danske tilladelsespost) |
 | Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Ceritinib er dog kendt som en hæmmer af tyrosinkinaserne ALK, ROS1 og IGF-1R, og effekten ved ALK-positiv lungekræft er veldokumenteret.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ceritinib er kendt som ALK-hæmmer, og dets relation til ikke-småcellet lungekræft er registreret i vidensgrafen. Der er imidlertid ikke identificeret nogen mekanistisk forbindelse mellem ALK-hæmning og gingival fibromatose.
 
-Gingival fibromatose er en arvelig eller lægemiddelfremkaldt fibrotisk overvækst af tandkødet. Den er ikke kendt som ALK-drevet, og der er ikke påvist nogen mekanistisk sammenhæng med ceritinibs målstrukturer. Den høje score afspejler sandsynligvis mønstre i vidensgrafen snarere end et reelt biologisk forhold. Forudsigelsen bør derfor betragtes som en hypotese og ikke som en begrundet behandlingsmulighed.
-
-Øvrige forudsigelser med lignende karakter er fibrom i lungen (99,82 %), hamartom i lungen (99,81 %), lungehilus-karcinom (99,80 %) og benign lungeneoplasi (99,80 %). Heller ikke for disse er der kliniske forsøg. Lungehilus-karcinom er sandsynligvis en undergruppe af den allerede godkendte lungekræftindikation og ikke en ny indikation.
+Den høje score (0,9986) er udelukkende en modelforudsigelse og understøttes ikke af forsøg eller litteratur. Gingival fibromatose er en ikke-malign tilstand med bindevævsovervækst i tandkødet og adskiller sig biologisk fra ALK-drevet lungekræft. Forudsigelsen bør derfor betragtes som et hypotesegenererende signal og ikke som et grundlag for klinisk anvendelse.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ikke registreret relaterede kliniske forsøg for gingival fibromatose.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Evidens fra litteraturen
 
-Der er for øjeblikket ingen relateret litteratur for gingival fibromatose.
-
-Til sammenligning er der for forudsigelsen *benign lungeneoplasi* fundet litteratur, men den handler om ALK-positiv NSCLC og ikke om benigne tumorer. Den er derfor kun indirekte relevant:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [28126333](https://pubmed.ncbi.nlm.nih.gov/28126333/) | 2017 | RCT (fase 3) | Lancet | ASCEND-4: førstelinje-ceritinib sammenlignet med platinbaseret kemoterapi ved ALK-positiv avanceret NSCLC |
-| [25322323](https://pubmed.ncbi.nlm.nih.gov/25322323/) | 2014 | Review | Clin Adv Hematol Oncol | Oversigt over ALK-hæmmere ved NSCLC, herunder crizotinib og ceritinib |
-| [27432227](https://pubmed.ncbi.nlm.nih.gov/27432227/) | 2016 | Review | Cancer Discovery | Resistensmekanismer mod første- og andengenerations ALK-hæmmere |
-| [29907598](https://pubmed.ncbi.nlm.nih.gov/29907598/) | 2018 | Case report | Cold Spring Harb Mol Case Stud | Klinisk respons på ceritinib ved neuroblastom med ALK-I1171T-mutation |
-| [25736571](https://pubmed.ncbi.nlm.nih.gov/25736571/) | 2015 | Studie | Lung Cancer | I1171-mutation som resistensmutation ved alectinib; følsom over for ceritinib |
+Der er aktuelt ingen relateret litteratur tilgængelig for gingival fibromatose.
 
 ---
 
-## Oplysninger om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106114318 | Zykadia (Novartis Europharm Limited) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i registeret |
+| 28106114318 | Zykadia (Novartis Europharm Limited) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+
+Antal godkendelser: 1 (enkeltstofpræparat, gyldig). Lægemidlet gives gennem munden.
 
 ---
 
@@ -101,27 +90,21 @@ Til sammenligning er der for forudsigelsen *benign lungeneoplasi* fundet littera
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer, ALK/ROS1) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler; se SmPC |
+| Klassifikation | Målrettet behandling (ALK-tyrosinkinasehæmmer) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) om advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+
+Der foreligger ikke toksicitetsdata i de indsamlede data. Se produktresuméets (SmPC) advarsler og forsigtighedsregler.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner**: Der er registreret 100 interaktioner. Blandt de viste er to af alvorlig (Major) grad: **triamcinolon** og **budesonid**. Øvrige viste interaktioner er af moderat grad, bl.a. med syrehæmmende midler (famotidin, ranitidin, omeprazol, rabeprazol), kortikosteroider (hydrocortison, dexamethason, betamethason), antidiabetika (metformin, pioglitazon, alogliptin, acarbose, canagliflozin, albiglutid), loperamid, aprepitant og bisacodyl.
 
-**Lægemiddelinteraktioner:** Der er identificeret 100 potentielle interaktioner. Blandt de viste er størstedelen af moderat grad. Interaktioner af **alvorlig (major) grad** er set med:
-- Triamcinolon
-- Budesonid
-
-Eksempler på interaktioner af **moderat grad**:
-- Syrehæmmende midler: famotidin, ranitidin, omeprazol, rabeprazol
-- Antidiabetika: metformin, pioglitazon, acarbose, alogliptin, canagliflozin, albiglutid
-- Kortikosteroider: hydrocortison, dexamethason, betamethason
-- Øvrige: aprepitant, loperamid, bisacodyl
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -130,13 +113,13 @@ Eksempler på interaktioner af **moderat grad**:
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om gingival fibromatose bygger udelukkende på modellen (L5), uden kliniske forsøg, uden litteratur og uden en kendt biologisk sammenhæng med ALK-hæmning. Evidensgrundlaget er utilstrækkeligt til at gå videre.
+Forudsigelsen bygger kun på en modelscore uden kliniske forsøg, publikationer eller kendt biologisk sammenhæng mellem ALK-hæmning og gingival fibromatose. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA) og en plausibel biologisk hypotese for ALK/ROS1/IGF-1R-signalering ved gingival fibromatose
-- Prækliniske data eller litteratur, der understøtter effekt ved fibrotisk overvækst af tandkødet
-- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som mangler i de nuværende data
-- Vurdering af risk-benefit-forholdet, da ceritinib er et kræftlægemiddel anvendt ved en alvorlig sygdom, mens gingival fibromatose er en benign tilstand
+- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for ALK-hæmning ved gingival fibromatose
+- Præklinisk evidens eller litteratur, der direkte omhandler sygdommen
+- Oplysninger om advarsler og kontraindikationer fra det danske produktresumé (SmPC)
+- Vurdering af risk/benefit, da en kræftmedicin med betydelige bivirkninger skal afvejes mod en benign tilstand
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Tildipirosin
 parent: Kun modelforudsigelse (L5)
 nav_order: 828
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesteksten i de indsamlede data (ifølge den f…"
 monitor_inn: "Tildipirosin"
-predicted_indications: ["leprosy", "leprosy", "candidiasis", "candidiasis", "coronary artery disease", "coronary artery disease", "myocardial ischemia", "myocardial ischemia", "pneumocystosis", "pneumocystosis"]
+predicted_indications: ["leprosy"]
+description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tildipirosin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tildipirosin: Fra veterinær luftvejsinfektion til spedalskhed
+## Tildipirosin: Spedalskhed (leprosy)
 {: .text-alpha }
 
 ## Sammenfatning i en sætning
@@ -46,15 +46,15 @@ Tildipirosin er et makrolid-antibiotikum, som er markedsført i Danmark som vete
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i godkendelsesteksten i de indsamlede data (ifølge den foreliggende faglitteratur anvendt til luftvejssygdom hos kvæg og svin) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Spedalskhed (leprosy) |
-| TxGNN-forudsigelsesscore | 99,0 % |
+| TxGNN-forudsigelsesscore | 0.9901 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Modellen leverede flere forudsigelser (spedalskhed, candidiasis, koronararteriesygdom, myokardieiskæmi og pneumocystose) med scorer mellem 98,3 % og 99,0 %. Alle har evidensniveau L5. Denne rapport fokuserer på den højest rangerede, spedalskhed. Øvrige forudsigelser omtales kort nedenfor.
+Bemærk: Modellen leverede en forudsigelse for spedalskhed (Lepra) med scoren 0.9901. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Denne rapport fokuserer på spedalskhed.
 
 ---
 
@@ -65,9 +65,9 @@ Der foreligger ingen detaljerede data om virkningsmekanisme i de indsamlede data
 Der er en teoretisk antibakteriel begrundelse for spedalskhed, som skyldes *Mycobacterium leprae*: Nogle makrolider, f.eks. clarithromycin, har aktivitet mod denne bakterie. Der er dog intet belæg for, at tildipirosin selv har aktivitet mod mykobakterier. Koblingen hviler derfor alene på den høje TxGNN-score.
 
 **Øvrige forudsigelser (alle L5, anbefaling Hold):**
-- **Candidiasis:** Ingen plausibel mekanistisk kobling. Makrolider virker mod bakterier og har generelt ikke klinisk relevant svampeaktivitet.
-- **Koronararteriesygdom og myokardieiskæmi:** Ingen direkte kobling. Studier af makrolider til sekundær forebyggelse ved hjertesygdom har overvejende været negative og har rejst sikkerhedsbekymringer (QT-forlængelse). Overførsel til tildipirosin er spekulativ.
-- **Pneumocystose:** *Pneumocystis jirovecii* er en svamp, og makrolider er ikke etableret behandling. Tildipirosins høje lungekoncentrationer er kun et svagt teoretisk argument.
+- Makrolider virker mod bakterier og har generelt ikke klinisk relevant svampeaktivitet.
+- Studier af makrolider til sekundær forebyggelse ved hjertesygdom har overvejende været negative og har rejst sikkerhedsbekymringer (QT-forlængelse). Overførsel til tildipirosin er spekulativ.
+- Tildipirosins høje lungekoncentrationer er kun et svagt teoretisk argument.
 
 ---
 

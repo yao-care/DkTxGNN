@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 ## Kort resumé
 
-Amsacrin er et cytostatikum (DNA-interkalator og topoisomerase II-hæmmer), som anvendes til behandling af kræft. Den præklinisk-baserede TxGNN-model forudsiger, at lægemidlet kan have effekt på **hyperthyroidisme** (score 99,4 %). Der foreligger dog **ingen kliniske forsøg og ingen publikationer** for denne indikation, så forudsigelsen er udelukkende modelbaseret.
+Amsacrin er et cytostatikum (DNA-interkalator og topoisomerase II-hæmmer), som anvendes til behandling af kræft. Den præklinisk-baserede TxGNN-model forudsiger, at lægemidlet kan have effekt på **hyperthyroidisme** (score 0,9937). Der foreligger dog **ingen kliniske forsøg og ingen publikationer** for denne indikation, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -48,10 +48,10 @@ Amsacrin er et cytostatikum (DNA-interkalator og topoisomerase II-hæmmer), som 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten for det danske produkt er tom) |
 | Forudsagt ny indikation | Hyperthyroidisme |
-| TxGNN-forudsigelsesscore | 99,37 % |
+| TxGNN-forudsigelsesscore | 0,9937 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -74,7 +74,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for hyperthyr
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig for hyperthyroidisme.
 
-*Til orientering: For den næstrangerende forudsigelse, plasmacellemyelom (score 99,3 %), findes begrænset litteratur, herunder fase II-studier fra 1983 og 1989, hvor effekten var ringe (kun 3 % god respons hos 74 patienter i det ene studie, med alvorlig toksicitet hos 33 %). Dette ændrer ikke vurderingen af den primære forudsigelse.*
+*Til orientering: For den næstrangerende forudsigelse, plasmacellemyelom (score 0,9932), findes begrænset litteratur, herunder fase II-studier fra 1983 og 1989, hvor effekten var ringe (kun 3 % god respons hos 74 patienter i det ene studie, med alvorlig toksicitet hos 33 %). Dette ændrer ikke vurderingen af den primære forudsigelse.*
 
 ---
 

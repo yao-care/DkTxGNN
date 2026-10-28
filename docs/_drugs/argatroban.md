@@ -8,6 +8,7 @@ nav_order: 75
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Argatroban
@@ -51,8 +52,8 @@ Evidensepakken indeholder **ingen TxGNN-forudsigelser om genbrug** af dette læg
 | Forudsagt ny indikation | Ikke tilgængelig — TxGNN returnerede ingen kandidater |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Bevisniveau | Ikke vurderbar |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 ---

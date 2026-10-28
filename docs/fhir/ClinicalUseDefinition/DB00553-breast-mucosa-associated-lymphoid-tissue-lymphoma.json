@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00553",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00553"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "breast-mucosa-associated-lymphoid-tissue-lymphoma",
-          "display": "breast mucosa-associated lymphoid tissue lymphoma"
-        }
-      ],
-      "text": "breast mucosa-associated lymphoid tissue lymphoma"
+      "concept": {
+        "text": "breast mucosa-associated lymphoid tissue lymphoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9977
     }
   ]
 }

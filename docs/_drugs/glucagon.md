@@ -4,17 +4,17 @@ title: Glucagon
 parent: Moderat evidens (L3-L4)
 nav_order: 395
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glucagon: forudsagt ny indikation Irritabel tarm-syndrom (IBS) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "GLUCAGON"
-predicted_indications: ["irritable bowel syndrome", "irritable bowel syndrome"]
+predicted_indications: ["irritable bowel syndrome"]
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ TxGNN-modellen forudsiger, at glucagon kan være effektivt ved **irritabel tarm-
 |------|------|
 | Original indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Irritabel tarm-syndrom (IBS) |
-| TxGNN-forudsigelsesscore | 99,24 % |
+| TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

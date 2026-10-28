@@ -48,10 +48,10 @@ Evidensen er dog begrænset: der er **0 registrerede kliniske forsøg** og **5 p
 |------|------|
 | Oprindelig indikation | Kongestiv hjertesvigt |
 | Forudsagt ny indikation | Akut pulmonal hjertesygdom |
-| TxGNN-prædiktionsscore | 99,58 % |
+| TxGNN-prædiktionsscore | 0,9958 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

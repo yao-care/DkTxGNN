@@ -4,17 +4,17 @@ title: Selpercatinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 755
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Selpercatinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
 monitor_inn: "Selpercatinib"
-predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Selpercatinib er en selektiv RET-kinasehæmmer, der markedsføres i Danmark som 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Pulmonal hypertension |
-| TxGNN-forudsigelsesscore | 99,18 % |
+| TxGNN-forudsigelsesscore | 0,9918 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Selpercatinib er en selektiv RET-kinasehæmmer, der markedsføres i Danmark som 
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Selpercatinib er kendt som en selektiv RET-kinasehæmmer, men mekanismefeltet i datagrundlaget er ikke udfyldt, og koblingen til pulmonal hypertension kan derfor ikke verificeres.
 
-Scoren på 99,18 % stammer fra en grafbaseret model. Der er i de tilgængelige data ikke påvist nogen sandsynlig RET-drevet mekanisme i pulmonal vaskulær remodellering. De tre fundne publikationer handler om bivirkninger og RET-ændrede kræftformer (NSCLC og medullært thyreoideakarcinom), ikke om pulmonal hypertension.
+Scoren på 0,9918 stammer fra en grafbaseret model. Der er i de tilgængelige data ikke påvist nogen sandsynlig RET-drevet mekanisme i pulmonal vaskulær remodellering. De tre fundne publikationer handler om bivirkninger og RET-ændrede kræftformer (NSCLC og medullært thyreoideakarcinom), ikke om pulmonal hypertension.
 
-Modellen har også foreslået andre indikationer med lignende scorer (migræne, migræne med hjernestammeaura, kyfoskoliotisk hjertesygdom). Ingen af dem har kliniske forsøg eller litteratur, og de ser ud til at afspejle nabo-effekter i vidensgrafen snarere end uafhængig evidens.
+Modellen har også foreslået andre indikationer med lignende scorer (migræne, migræne med hjernestammeaura). Ingen af dem har kliniske forsøg eller litteratur, og scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

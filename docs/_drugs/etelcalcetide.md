@@ -48,10 +48,10 @@ Etelcalcetid er et calcimimetikum, der oprindeligt anvendes til behandling af hy
 |------|------|
 | Oprindelig indikation | Hyperparathyroidisme (godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Hyperfosfatæmi |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -4,7 +4,7 @@ title: Montelukast
 parent: Høj evidens (L1-L2)
 nav_order: 566
 evidence_level: L2
-indication_count: 5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Montelukast: forudsagt ny indikation Bronkitis (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "montelukast"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 # Montelukast
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Der er **17 kliniske forsøg** og **20 publikationer** knyttet til denne forudsi
 |------|------|
 | Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, intrinsisk astma og allergisk astma (fra videnbasen; den danske godkendelsestekst er ikke angivet) |
 | Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; evidensen er heterogen og uens) |
 
 ---

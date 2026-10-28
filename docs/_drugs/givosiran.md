@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Givosiran
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 392
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Givosiran: forudsagt ny indikation Porfyri som følge af ALA-dehydratasemangel (evidensniveau L4). Oprindelig indikation: Hepatisk porfyri"
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
+description: "Givosiran: forudsagt ny indikation Hepatoportal sclerosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Givosiran
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Givosiran: Fra hepatisk porfyri til porfyri som følge af ALA-dehydratasemangel
+## Givosiran: Hepatoportal sclerosis
 {: .text-alpha }
 
 ## Sammenfatning
@@ -48,12 +48,12 @@ men evidensen er begrænset til **0 kliniske forsøg** og **9 publikationer** (p
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hepatisk porfyri (fra videnbasen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Porfyri som følge af ALA-dehydratasemangel |
-| TxGNN-prædiktionsscore | 99,91 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatoportal sclerosis |
+| TxGNN-prædiktionsscore | 1.0000 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål, jf. nedenfor) |
 
 *Bemærk: Den højest rangerede forudsigelse (hepatoportal sklerose) har kun score på modelniveau og ingen evidens (L5). Denne rapport fokuserer på porfyri som følge af ALA-dehydratasemangel, som er den eneste forudsigelse i de indsamlede data med publiceret evidens. Den er rapportens valgte fokus og ikke nummer 1 i TxGNN-rangeringen; scoren og rangen ovenfor er hentet fra denne indikation.*

@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Acetazolamide: forudsagt ny indikation Anstrengelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Glaukom (åbenvinklet og lukketvinklet), kongestiv hjertesvigt…"
 monitor_inn: "acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
+last_modified_at: 2026-10-27
+description: "Acetazolamide: forudsagt ny indikation Udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Acetazolamide
@@ -33,92 +33,70 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Acetazolamid: Fra glaukom og andre oprindelige indikationer til arbejdsudløst malign hypertermi
+## Acetazolamid: carboanhydrasehæmmer → Udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia)
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Acetazolamid er en carbonanhydrase-hæmmer, der oprindeligt anvendes til blandt andet glaukom, kongestiv hjertesvigt, absence-epilepsi og højdesyge.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **anstrengelsesudløst malign hypertermi**, men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse.
-
----
+Acetazolamid er en carboanhydrasehæmmer, som er markedsført i Danmark som tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia)**. Forudsigelsen er alene modelbaseret: der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Glaukom (åbenvinklet og lukketvinklet), kongestiv hjertesvigt, absence-epilepsi, højdesyge (fra videngrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Anstrengelsesudløst malign hypertermi |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia) |
+| TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Acetazolamid hører til gruppen af carbonanhydrase-hæmmere, og dets effekt ved de oprindelige indikationer er veletableret. Mekanistisk kan en ændring af syre-base-balancen muligvis påvirke muskelexcitation og excitation-kontraktionskobling.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Acetazolamid hæmmer enzymet carboanhydrase, hvilket påvirker syre-base-balancen og væskedannelsen i flere organer.
 
-Dette er imidlertid kun en spekulativ hypotese. De tilgængelige data understøtter ikke en konkret mekanistisk sammenhæng mellem acetazolamid og anstrengelsesudløst malign hypertermi. Den meget høje score afspejler sandsynligvis nærhed i videngrafen og ikke uafhængig evidens.
+En teoretisk forbindelse kunne gå via ændringer i syre-base-balancen og muskelcellernes excitation-kontraktionskobling. Denne forbindelse er imidlertid spekulativ og understøttes ikke af nogen data her. Den høje score (0,9995) er derfor ikke i sig selv et argument for effekt. Der er ingen publikationer eller forsøg, som kan underbygge den.
 
----
-
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
 Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
----
-
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
----
+## Information om markedet i Danmark
 
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100041255 | Diamox (Amdipharm Limited) | Tabletter (oral) | Indikationstekst ikke tilgængelig |
+| 28100041255 | Diamox | Tabletter | Indikationstekst er ikke registreret i de lokale data |
 
----
+Indehaver: Amdipharm Limited. Tilladelsen er gyldig, og administrationsvejen er oral.
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovvejelser
 
-**Kontraindikationer ifølge videngrafen** (afledt af TxGNN-videngrafen, ikke fra produktresuméet):
-lever- og nyresygdom (herunder leversvigt), binyrebarkinsufficiens (Addisons sygdom, medfødt binyrehyperplasi m.fl.), diabetes mellitus type 1 og 2, diabetisk ketoacidose, renal tubulær acidose, respirationssvigt, urinvejs- og galdeblæresygdomme, blodsygdomme og urinsyregigt.
+Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de data, der er indsamlet til denne rapport. Der er dog registreret interaktioner:
 
-**Lægemiddelinteraktioner:** I alt 188 interaktioner er registreret. Blandt de angivne er de vigtigste:
-- **Alvorlige (Major):** acetylsalicylsyre, cisaprid
-- **Moderate:** blandt andet antidiabetika (acarbose, acetohexamid, albiglutid, alogliptin, canagliflozin, chlorpropamid, dapagliflozin, dulaglutid), kortikosteroider (beclomethason, betamethason, dexamethason), amphotericin B-præparater samt afføringsmidler (bisacodyl, ricinusolie)
-- **Milde:** doxycyclin
+- **Lægemiddelinteraktioner**: I alt 188 registrerede interaktioner. Blandt de alvorligste (Major) er **acetylsalicylsyre** og **cisaprid**. Moderate interaktioner omfatter blandt andet antidiabetika (fx acarbose, alogliptin, canagliflozin, dapagliflozin, chlorpropamid), kortikosteroider (fx dexamethason, betamethason, beclomethason), amphotericin B-præparater samt afføringsmidler (bisacodyl, ricinusolie). Doxycyclin er registreret som en mindre interaktion.
+- **Sygdomme, hvor brug er frarådet i de tilgængelige data**: lever- og nyresygdom (herunder leversvigt), blodsygdomme, galdeblæresygdom, urinsyregigt, sukkersyge (type 1 og 2) og ketoacidose, binyrebarksvigt (bl.a. Addisons sygdom), respirationssvigt og renal tubulær acidose.
 
-**Sikkerhedssignaler fra litteraturen for andre forudsagte indikationer:** Der er rapporteret acetazolamid-induceret adynamisk ileus og et tilfælde af ikke-kardiogent lungeødem ved intravenøs administration. Desuden kan acetazolamid udløse hyperammonæmi og hepatisk encefalopati ved levercirrose.
+Desuden peger de data, der er indsamlet til denne rapport, på, at acetazolamid kan udløse hyperammonæmi og hepatisk encefalopati ved skrumpelever, hvilket bør tages i betragtning ved enhver overvejelse af nye anvendelser.
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellen (L5) uden kliniske forsøg, uden litteratur og uden en understøttet mekanistisk sammenhæng. Desuden er produktresuméets advarsler og kontraindikationer ikke indhentet.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, uden litteratur og uden en understøttet mekanisme. Evidensniveauet er derfor L5.
 
 **For at komme videre kræves følgende:**
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst)
-- Data om virkningsmekanisme (f.eks. fra DrugBank)
-- Præklinisk eller mekanistisk evidens for en sammenhæng mellem carbonanhydrase-hæmning og malign hypertermi
-- Systematisk litteratursøgning og vurdering af sikkerhed hos den relevante population
-
----
-
-### Bemærkning om øvrige forudsagte indikationer
-
-Ingen af de øvrige ni forudsigelser i de indsamlede data har kliniske forsøg. Hypertrofisk kardiomyopati og kardiomyopati har kun indirekte litteratur (L4), primært om hjertesvigt og enkelte case-rapporter. Ved tarmobstruktion peger litteraturen i modsat retning (adynamisk ileus som bivirkning). Alle er vurderet som **Hold**.
+- Data om virkningsmekanisme og en biologisk begrundelse for en effekt ved malign hypertermi ved anstrengelse
+- Præklinisk eller klinisk litteratur, der direkte undersøger sygdommen
+- Produktresuméets advarsler og kontraindikationer
+- En sikkerhedsvurdering for målgruppen, herunder interaktioner og risikoen ved lever- og nyresygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Ocrelizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 600
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Progressiv multipel sklerose (fra vidensgrafen"
 monitor_inn: "Ocrelizumab"
-predicted_indications: ["HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer"]
+predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (HER2 positive breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ocrelizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ocrelizumab: Fra progressiv multipel sklerose til HER2-positiv brystkarcinom
+## Ocrelizumab: HER2-positiv brystkarcinom (HER2 positive breast carcinoma)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Ocrelizumab er et humaniseret anti-CD20-antistof, der oprindeligt anvendes til b
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Progressiv multipel sklerose (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
-| Forudsagt ny indikation | HER2-positiv brystkarcinom |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | HER2-positiv brystkarcinom (HER2 positive breast carcinoma) |
+| TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekani
 
 Der er ikke påvist nogen etableret mekanistisk sammenhæng mellem CD20-rettet B-celledeplesion og HER2-positiv brystkræft. Brystkræftceller udtrykker typisk ikke CD20 som terapeutisk mål. En eventuel sammenhæng er spekulativ, f.eks. via påvirkning af B-celler og tumorinfiltrerende lymfocytter i tumormikromiljøet. B-celledeplesion kunne i en antitumor-immunologisk sammenhæng lige så vel være neutral eller skadelig.
 
-Den høje score (0,999) er en beregningsmæssig forudsigelse og bør ikke tolkes som klinisk evidens. Øvrige forudsagte brystkræftundertyper i datasættet (bl.a. progesteronreceptor-positiv/-negativ, luminal A/B og normal-lignende subtype) har samme billede: ingen kliniske forsøg og ingen mekanistisk begrundelse.
+Den høje score (0,9989) er en beregningsmæssig forudsigelse og bør ikke tolkes som klinisk evidens. Øvrige forudsagte brystkræftundertyper i datasættet (bl.a. progesteronreceptor-positiv/-negativ, luminal A/B og normal-lignende subtype) har samme billede: ingen kliniske forsøg og ingen mekanistisk begrundelse.
 
 ---
 

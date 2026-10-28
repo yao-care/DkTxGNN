@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Becaplermin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "Becaplermin"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "erectile dysfunction (disease)", "erectile dysfunction (disease)", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer", "pulmonary hypertension", "pulmonary hypertension"]
+predicted_indications: ["amenorrhea (disease)", "erectile dysfunction (disease)", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "pulmonary hypertension", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "hypogonadotropic hypogonadism with or without anosmia", "Leydig cell hypoplasia due to LH resistance"]
+last_modified_at: 2026-10-23
+description: "Becaplermin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er registreret i den danske godkendel…"
 ---
 
 # Becaplermin
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Becaplermin: Fra sårheling til amenoré (forudsigelse uden evidens)
+## Becaplermin: Fra diabetiske fodsår til amenoré
 {: .text-alpha }
 
 ## Resumé
 
-Becaplermin er en rekombinant human vækstfaktor (PDGF-BB), som anvendes som lokalt gel til sårbehandling. Den originale godkendte indikation fremgår ikke af de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning.
+Becaplermin er en rekombinant human trombocytafledt vækstfaktor (PDGF-BB), der anvendes som topisk gel til at fremme sårheling. Det fremgår af den litteratur, der er samlet til denne rapport, at stoffet er udviklet til diabetiske fodsår. TxGNN-modellen forudsiger, at det kan have effekt ved **amenoré**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der direkte undersøger denne sammenhæng. Forudsigelsen hviler alene på modellen.
 
 ---
 
@@ -47,60 +46,63 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré**, men 
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i de indsamlede data |
+| Oprindelig indikation | Ingen godkendt indikationstekst er registreret i den danske godkendelse. Litteraturen beskriver diabetiske neuropatiske fodsår. |
 | Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Becaplermin er imidlertid kendt som rekombinant human PDGF-BB. Stoffet aktiverer PDGF-receptorerne (PDGFR-alfa/beta) og stimulerer dermed fibroblastproliferation, angiogenese og sårgranulation.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er samlet til denne rapport. Becaplermin er kendt fra litteraturen som rekombinant PDGF-BB, der virker lokalt på PDGF-receptorer og fremmer dannelse af granulationsvæv ved at øge cellemigration og -proliferation.
 
-Der er ikke identificeret nogen plausibel forbindelse mellem denne mekanisme og de forhold, der ligger bag amenoré, dvs. hypothalamus-hypofyse-ovarie-aksen eller livmoder- og endometriepatologi. Da produktet kun anvendes lokalt på huden, er systemiske effekter på reproduktionssystemet desuden usandsynlige. Den høje score er en rent grafbaseret forudsigelse uden støtte i forsøg eller litteratur.
+Amenoré skyldes typisk forstyrrelser i hypothalamus-hypofyse-ovarie-aksen eller i livmoderen. Der er ingen åbenbar mekanistisk forbindelse til en lokalt virkende vækstfaktor mod sår, og den topiske gel har minimal systemisk eksponering. Forudsigelsen ligner derfor et grafbaseret resultat uden klinisk begrundelse.
 
-Modellen har også forudsagt andre indikationer, som alle har evidensniveau L5 og anbefalingen Hold:
-
-| Forudsagt indikation | TxGNN-score | Vurdering af mekanisme |
-|------|------|------|
-| Erektil dysfunktion | 99,72 % | Spekulativ forbindelse via PDGF i karombygning og angiogenese. PDGF er også impliceret i fibrose (f.eks. Peyronies sygdom), hvilket kan være skadeligt. |
-| HER2-positiv brystkræft | 99,70 % | Becaplermin er en PDGFR-agonist og vil snarere kunne stimulere end hæmme tumorvækst. Effektretningen er sandsynligvis modsat terapeutisk gavn. |
-| Progesteronreceptor-negativ brystkræft | 99,50 % | Samme betænkelighed som ovenfor. Mekanismen er tvivlsom. |
-| Pulmonal hypertension | 99,49 % | PDGF driver ombygning af lungearterier, og PDGFR-hæmmere er undersøgt som behandling. Som agonist kan becaplermin forværre tilstanden. |
+Øvrige topforudsigelser (bl.a. erektil dysfunktion, forskellige brystkræftundertyper, pulmonal hypertension, hypogonadotrop hypogonadisme og Leydig-celle-hypoplasi) har heller ingen kliniske forsøg eller direkte litteratur. For brystkræft og pulmonal hypertension taler mekanismen snarere imod: PDGF-agonisme kan fremme tumorvækst og vaskulær remodellering.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er ingen publikationer, der direkte omhandler amenoré. De seks publikationer, der fandtes i datasættet, er knyttet til en anden forudsigelse (brysttumor, luminal A/B), og de handler om becaplermin ved sårheling, ikke om brystkræft. De er medtaget her kun som baggrund for lægemidlets generelle profil.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [37894789](https://pubmed.ncbi.nlm.nih.gov/37894789/) | 2023 | Review | Int J Mol Sci | Becaplermin-gel er den eneste milepælsgodkendelse til sårheling i over 25 år |
+| [18031145](https://pubmed.ncbi.nlm.nih.gov/18031145/) | 1999 | Review | BioDrugs | Topisk rh-PDGF-BB fremmer heling af diabetiske neuropatiske fodsår og tryksår |
+| [20486728](https://pubmed.ncbi.nlm.nih.gov/20486728/) | 2010 | Review | Drug Safety | Gennemgang af fordele og risici ved becaplermin ved diabetiske fodsår |
+| [11849120](https://pubmed.ncbi.nlm.nih.gov/11849120/) | 2002 | Review | Expert Opin Biol Ther | Becaplermin som behandling til heling af diabetiske fodsår |
+| [41220237](https://pubmed.ncbi.nlm.nih.gov/41220237/) | 2025 | Sikkerhedsstudie | Wound Repair Regen | Sikkerhed ved op til 140 daglige applikationer af rhPDGF-BB på hudsår |
+| [17628536](https://pubmed.ncbi.nlm.nih.gov/17628536/) | 2007 | Præklinisk | Eur J Pharmacol | Sammenligning af PL 14736 med PDGF-BB på granulationsvæv hos rotter |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101915697 | Regranex (Janssen-Cilag International NV) | Gel | Indikationstekst ikke angivet |
+| 28101915697 | Regranex (Janssen-Cilag International NV) | Gel | Indikationstekst ikke registreret |
+
+Der er tale om én godkendelse af et enkeltstofprodukt til topisk brug.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i de indsamlede data. Der blev ikke fundet registrerede interaktioner.
+Der er ingen sikkerhedsdata for advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er samlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Nogle forudsagte indikationer giver dog anledning til særlig opmærksomhed. Som PDGFR-agonist kan becaplermin teoretisk fremme tumorvækst, og produktomtalen har tidligere indeholdt en advarsel om risiko for malignitet ved øget brug. Advarslen er senere fjernet. Det taler imod at forfølge de forudsagte kræftindikationer.
-
-Se i øvrigt den godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Litteraturen nævner historiske drøftelser af en malignitetsadvarsel for becaplermin, hvilket taler imod brug ved kræftsygdomme.
 
 ---
 
@@ -109,13 +111,13 @@ Se i øvrigt den godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne bygger udelukkende på modellens graf (evidensniveau L5), uden kliniske forsøg eller litteratur. Mekanismen for en lokal PDGFR-agonist passer ikke til nogen af de forudsagte indikationer. For kræft og pulmonal hypertension peger den biologiske effekt sandsynligvis i skadelig retning.
+Forudsigelsen om amenoré bygger udelukkende på en grafbaseret model uden kliniske forsøg eller direkte litteratur (evidensniveau L5). Der er ingen plausibel mekanistisk forbindelse mellem en topisk sårhelende vækstfaktor og årsagerne til amenoré.
 
 **For at komme videre kræves følgende:**
-- Den godkendte indikationstekst og produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Data om virkningsmekanisme (f.eks. fra DrugBank)
-- Præklinisk eller klinisk evidens, der kan understøtte en forbindelse til den forudsagte indikation
-- En vurdering af, om lokal administration overhovedet er forenelig med de forudsagte systemiske indikationer
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Data om virkningsmekanisme fra DrugBank
+- Prækliniske eller kliniske data, der direkte undersøger en sammenhæng mellem PDGF-BB og amenoré
+- Vurdering af, om systemisk eksponering ved topisk brug overhovedet kan være relevant for målsygdommen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

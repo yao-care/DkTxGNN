@@ -6,7 +6,7 @@ nav_order: 136
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Budesonide: forudsagt ny indikation Bronkitis (rang 2). Rang 1 er atopisk eksem (score 99,96 %)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
+description: "Budesonide: forudsagt ny indikation Atopisk eksem (score 0,9996)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
 monitor_inn: "budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Budesonid: Fra Crohns sygdom og astma til bronkitis
+## Budesonid: Fra Crohns sygdom og astma til atopisk eksem
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -49,11 +49,11 @@ og der er **10 kliniske forsøg** og **20 publikationer** knyttet til denne retn
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Crohns sygdom, inflammatorisk tarmsygdom, astma og allergisk rhinitis (fra videnbasen; godkendelsesteksterne i Danmark er ikke tilgængelige) |
-| Forudsagt ny indikation | Bronkitis (rang 2). Rang 1 er atopisk eksem (score 99,96 %), men den har kun evidensniveau L4 |
-| TxGNN-forudsigelsesscore | 99,81 % (bronkitis) |
-| Evidensniveau | L2 (bronkitis) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Forudsagt ny indikation | Atopisk eksem |
+| TxGNN-forudsigelsesscore | 0,9996 (atopisk eksem) |
+| Evidensniveau | L5 (bronkitis) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

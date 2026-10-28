@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB08896",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB08896"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "renal-cell-carcinoma-associated-with-xp11-2-translocations-tfe3-gene-fusions",
-          "display": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
-        }
-      ],
-      "text": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      "concept": {
+        "text": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9924
     }
   ]
 }

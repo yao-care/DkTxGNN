@@ -4,17 +4,17 @@ title: Regadenoson
 parent: Kun modelforudsigelse (L5)
 nav_order: 707
 evidence_level: L5
-indication_count: 8
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Regadenoson: forudsagt ny indikation Anafylaksi (evidensniveau L5). Oprindelig indikation: Diagnostisk middel til radionuklid myokardieperfusionsscintigrafi (MP…"
 monitor_inn: "REGADENOSON"
-predicted_indications: ["anaphylaxis", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "esotropia", "pseudoallergy", "pseudoallergy"]
+predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 ---
 
 # Regadenoson
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Regadenoson er en selektiv A2A-adenosinreceptoragonist, som anvendes som diagnos
 |------|------|
 | Oprindelig indikation | Diagnostisk middel til radionuklid myokardieperfusionsscintigrafi (MPI). Indikationsteksten i den danske godkendelse er ikke tilgængelig i de indsamlede data. |
 | Forudsagt ny indikation | Anafylaksi |
-| TxGNN-prædiktionsscore | 99,85 % |
+| TxGNN-prædiktionsscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Øvrige forudsagte indikationer (alle L5, alle Hold): fødeafhængig anstrengelsesudløst anafylaksi (99,74 %), esotropi (99,12 %) og pseudoallergi (99,12 %).
@@ -64,7 +64,7 @@ Der foreligger i de indsamlede data ikke en detaljeret beskrivelse af virkningsm
 
 Aktivering af A2A-receptorer på mastceller og andre immunceller kan teoretisk dæmpe frisætningen af inflammatoriske mediatorer, hvilket giver et muligt antiallergisk rationale. Det er imidlertid en hypotese, som ikke er testet for regadenoson.
 
-Der er væsentlige forbehold. Adenosinsignalering er kontekstafhængig, og A2A-agonisme giver vasodilatation og blodtryksfald, hvilket kan være skadeligt ved anafylaksi, hvor cirkulatorisk kollaps er den største fare. Stoffets korte halveringstid og bolusanvendelse passer desuden dårligt til akut behandling, som kræver adrenalin. Den høje score afspejler derfor sandsynligvis mønstre i vidensgrafen snarere end bekræftet biologi.
+Der er væsentlige forbehold. Adenosinsignalering er kontekstafhængig, og A2A-agonisme giver vasodilatation og blodtryksfald, hvilket kan være skadeligt ved anafylaksi, hvor cirkulatorisk kollaps er den største fare. Stoffets korte halveringstid og bolusanvendelse passer desuden dårligt til akut behandling, som kræver adrenalin. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens.
 
 ---
 

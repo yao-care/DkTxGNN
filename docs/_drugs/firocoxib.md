@@ -8,6 +8,7 @@ nav_order: 359
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Firocoxib
@@ -49,7 +50,8 @@ Firocoxib (DrugBank DB09217) er en COX-2-selektiv NSAID godkendt til veterinær 
 | Forudsagt ny indikation | Ingen prognose genereret af TxGNN |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | L5 (kun modelprognose — ikke engang relevant; ingen prognose returneret) |
-| Dansk markedsstatus | Ikke markedsført |
+| Dansk markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal markedstilladelser | 0 |
 | Anbefalet afgørelse | Afvent |
 

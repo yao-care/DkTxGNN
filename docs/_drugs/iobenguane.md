@@ -6,9 +6,9 @@ nav_order: 446
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Iobenguane: forudsagt ny indikation Hypotensiv lidelse (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige godkendelsesdata (godkendelsesteksten…"
 monitor_inn: "iobenguane"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
+description: "Iobenguane: forudsagt ny indikation Hypotensive disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Iobenguane
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Iobenguan: Fra diagnostisk radiotracer til hypotensiv lidelse
+## Iobenguane: Hypotensive disorder
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Iobenguan (MIBG, jod-123-mærket) er en radioaktivt mærket noradrenalin-analog, der er godkendt i Danmark som injektionsvæske til diagnostiske formål. TxGNN-modellen forudsiger, at stoffet kan være relevant for **hypotensiv lidelse** (score 99,90 %). Evidensen er dog svag: der er **ingen kliniske forsøg** og kun **2 oversigtsartikler**, som er indirekte relateret, og koblingen er diagnostisk, ikke terapeutisk.
+Iobenguan (MIBG, jod-123-mærket) er en radioaktivt mærket noradrenalin-analog, der er godkendt i Danmark som injektionsvæske til diagnostiske formål. TxGNN-modellen forudsiger, at stoffet kan være relevant for **hypotensiv lidelse** (score 0,9990). Evidensen er dog svag: der er **ingen kliniske forsøg** og kun **2 oversigtsartikler**, som er indirekte relateret, og koblingen er diagnostisk, ikke terapeutisk.
 
 ---
 
@@ -46,12 +46,12 @@ Iobenguan (MIBG, jod-123-mærket) er en radioaktivt mærket noradrenalin-analog,
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de tilgængelige godkendelsesdata (godkendelsesteksten er tom) |
-| Forudsagt ny indikation | Hypotensiv lidelse |
-| TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L4 (kun mekanistisk/indirekte; ingen kliniske forsøg) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypotensive disorder |
+| TxGNN-forudsigelsesscore | 0.9990 |
+| Evidensniveau | L5 (kun mekanistisk/indirekte; ingen kliniske forsøg) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

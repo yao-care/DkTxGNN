@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Labetalol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 472
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Labetalol: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension (hypertensiv lidelse) – de danske markedsføringstilladel…"
 monitor_inn: "labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+description: "Labetalol: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Labetalol: Fra hypertension til malign renovaskulær hypertension
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der foreligger **ingen registrerede kliniske forsøg** og kun **1 publikatio
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (hypertensiv lidelse) – de danske markedsføringstilladelser indeholder ingen angivet indikationstekst |
-| Forudsagt ny indikation | Malign renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99,08 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malignant hypertensive renal disease |
+| TxGNN-forudsigelsesscore | 0.9908 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,11 +62,11 @@ men der foreligger **ingen registrerede kliniske forsøg** og kun **1 publikatio
 
 Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er labetalol en kombineret alfa-1/beta-adrenerg blokker, som sænker karmodstand og hjertefrekvens. Lægemidlet anvendes allerede ved svær hypertension og hypertensive nødsituationer.
 
-Malign renovaskulær hypertension er en svær form for forhøjet blodtryk med nyrekarlidelse som baggrund. Blodtrykssænkning med en alfa/beta-blokker er biologisk plausibel. Der er dog tale om en udvidelse af den eksisterende hypertensionsindikation snarere end egentlig repurposing. Den høje score (0,99) er en ren beregningsmæssig forudsigelse og er sandsynligvis påvirket af det fælles begreb "hypertension" i vidensgrafen.
+Malign hypertensiv nyresygdom er en svær form for forhøjet blodtryk med nyreskade. Blodtrykssænkning med en alfa/beta-blokker er biologisk plausibel. Der er dog tale om en udvidelse af den eksisterende hypertensionsindikation snarere end egentlig repurposing. Den høje score (0.9908) er en ren beregningsmæssig forudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 De øvrige forudsagte indikationer er mindre overbevisende:
-- **Malign hypertensiv nyresygdom** (score 99,08 %, L5): ingen forsøg og ingen litteratur. Mekanismen er plausibel, men uden dokumentation.
-- **Pulmonal hypertension ved lungesygdom/hypoxi** (score 99,08 %, L4) og **pulmonal hypertension med uklar multifaktoriel mekanisme** (L5): den fundne litteratur handler om systemisk hypertension (fx præeklampsi), ikke pulmonal hypertension. Betablokade og systemisk vasodilatation kan desuden forværre højre ventrikelfunktion og ventilations-perfusionsforhold, så der er en potentiel sikkerhedsbekymring.
+- **Malign hypertensiv nyresygdom** (score 0,9908, L5): ingen forsøg og ingen litteratur. Mekanismen er plausibel, men uden dokumentation.
+- **Pulmonal hypertension ved lungesygdom/hypoxi** (score 0,9908, L4) og **pulmonal hypertension med uklar multifaktoriel mekanisme** (L5): den fundne litteratur handler om systemisk hypertension (fx præeklampsi), ikke pulmonal hypertension. Betablokade og systemisk vasodilatation kan desuden forværre højre ventrikelfunktion og ventilations-perfusionsforhold, så der er en potentiel sikkerhedsbekymring.
 
 ---
 

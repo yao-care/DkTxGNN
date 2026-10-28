@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lornoxicam
-parent: Moderat evidens (L3-L4)
+parent: Høj evidens (L1-L2)
 nav_order: 510
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lornoxicam: forudsagt ny indikation Reumatoid artritis (evidensniveau L3). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for den danske…"
+evidence_level: L2
+indication_count: 8
 monitor_inn: "Lornoxicam"
-predicted_indications: ["migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
+last_modified_at: 2026-10-23
+description: "Lornoxicam: forudsagt ny indikation Migræne (evidensniveau L2). Oprindelig indikation: Ikke angivet i de data…"
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lornoxicam: Fra gigtlidelser og smerte til reumatoid artritis
+## Lornoxicam: Fra smertelindring og betændelsestilstande til migræne
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Lornoxicam er et non-steroidt antiinflammatorisk lægemiddel (NSAID) af oxicam-klassen, som er godkendt i Danmark som filmovertrukne tabletter. Det oprindelige godkendte indikationsområde fremgår ikke af de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **reumatoid artritis** (score 99,90 %). Der er **ingen registrerede kliniske forsøg** for denne indikation, men **20 publikationer** (primært reviews, formuleringsstudier og ét prækliniskt dyrestudie) understøtter retningen.
+Lornoxicam er et non-steroidt antiinflammatorisk lægemiddel (NSAID) af oxicam-klassen og er registreret i Danmark som filmovertrukne tabletter. TxGNN-modellen forudsiger, at det kan have effekt ved **migræne (migraine disorder)**. Der findes **1 afsluttet fase 2-forsøg** og **2 oversigtsartikler** for denne retning, men ingen bekræftende fase 3-forsøg.
 
 ---
 
@@ -47,101 +46,89 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **reumatoid art
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for den danske tilladelse er tom) |
-| Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
-
-Bemærk: Lornoxicam er allerede godkendt til reumatoid artritis og artrose i flere lande, så der er ikke tale om en egentlig repurposing-kandidat for denne indikation. Den manglende oprindelige indikation skyldes sandsynligvis manglende data.
-
-Øvrige forudsigelser i datamaterialet:
-
-| Forudsagt indikation | Score | Evidensniveau | Kommentar |
-|------|------|------|------|
-| Migrænesygdom (migraine disorder) | 99,87 % | L2 | Ét gennemført fase 2-forsøg (NCT00293657), resultater ikke tilgængelige |
-| Migræne, modtagelighed (genetisk fænotype) | 99,87 % | L4 | Ikke en behandlingsbar tilstand; kun indirekte evidens |
-| Migræne med hjernestammeaura | 99,85 % | L5 | Kun modelforudsigelse |
-| Brachydaktyli-syndaktyli-syndrom | 99,82 % | L5 | Ingen plausibel mekanistisk sammenhæng; sandsynligvis en artefakt i vidensgrafen |
+| Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (den danske tilladelse indeholder ingen indikationstekst) |
+| Forudsagt ny indikation | Migræne |
+| TxGNN-forudsigelsesscore | 0,9987 |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (forskningsspørgsmål; kræver yderligere afklaring før videre skridt) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Lornoxicam er imidlertid en oxicam-NSAID, som hæmmer cyklooxygenase 1 og 2 (COX-1 og COX-2) og dermed mindsker prostaglandinmedieret inflammation og smerte. Lægemidlet har en forholdsvis kort halveringstid (3-5 timer).
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra klassekendskab er lornoxicam en uselektiv hæmmer af COX-1 og COX-2. Ved at hæmme prostaglandinsyntesen kan det dæmpe neurogen inflammation og sensibilisering af det trigeminovaskulære system, som spiller en rolle ved migræneanfald.
 
-Ved reumatoid artritis er morgensmerter og ledinflammation et centralt symptom, og NSAID-præparater bruges til symptomlindring. Mekanismen er derfor plausibel. Evidensen understøtter udelukkende symptomlindring og ikke sygdomsmodificerende effekt.
+Det er den samme begrundelse, som ligger bag brugen af andre NSAID'er ved akut migræne. Mekanismen er biologisk plausibel, men den bygger på generel klassefarmakologi og ikke på lornoxicam-specifikke mekanismedata.
 
-For migræne er COX-hæmning ligeledes relevant, da prostaglandiner og neurogen inflammation bidrager til migrænesmerter, og NSAID er en etableret klasse til akutte anfald.
+Bemærk, at der ikke er en dokumenteret godkendt indikation i den danske tilladelsestekst. Lægemidlets kendte anvendelse som smertestillende og antiinflammatorisk middel er beskrevet i litteraturen, men er ikke bekræftet af dansk produkttekst i de foreliggende data.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-For reumatoid artritis: Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-For migræne (den næsthøjest rangerede indikation med forsøgsdata):
-
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Gennemført | 150 | Randomiseret, dobbeltblindet, placebokontrolleret enkeltdosisstudie af intravenøs lornoxicam (8 mg eller 16 mg) mod placebo ved akut migrænehovedpine. Resultater er ikke tilgængelige i de indsamlede data. |
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Afsluttet | 150 | Randomiseret, dobbeltblindet, placebokontrolleret enkeltdosisforsøg med intravenøs lornoxicam (8 mg eller 16 mg) mod placebo ved moderat til svær hovedpine under et migræneanfald (2005-12 til 2006-04). Primære endepunkter og resultater fremgår ikke af de foreliggende data og skal verificeres. |
 
 ---
 
 ## Litteraturevidens
 
-Reumatoid artritis (udvalgte, op til 10 publikationer):
-
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | Dobbeltblindet crossover-studie | Reumatismo | Lornoxicam 8 mg og 16 mg dagligt sammenlignet med diclofenac 150 mg dagligt hos patienter med reumatoid artritis |
-| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Langtidsstudie | Minerva Medica | Langtidssikkerhed og terapeutisk effekt af lornoxicam ved reumatoid artritis |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Review | Drugs | Farmakologi og terapeutisk potentiale ved smertefulde og inflammatoriske tilstande |
-| [19821419](https://pubmed.ncbi.nlm.nih.gov/19821419/) | 2009 | Systematisk review (indirekte) | Cochrane Database Syst Rev | Enkeltdosis oral lornoxicam ved akutte postoperative smerter |
-| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Review | Profiles Drug Subst Excip Relat Methodol | Samlet profil af lornoxicam, anvendt ved artrose og reumatoid artritis |
-| [27086708](https://pubmed.ncbi.nlm.nih.gov/27086708/) | 2016 | Tolerabilitetsvurdering | Pain Management | Sikkerhed med fokus på gastrointestinale hændelser |
-| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Prækliniske dyremodel | Int J Nanomedicine | Lornoxicam i nanomicelleformulering sammenlignet med frit lornoxicam i eksperimentelle RA-modeller |
-| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Litteraturreview | Clinical Therapeutics | Dosis-effekt-sammenhænge for NSAID ved RA og artrose |
-| [25553695](https://pubmed.ncbi.nlm.nih.gov/25553695/) | 2015 | Formuleringsstudie | Pak J Pharm Sci | Pulsincap-minitabletter til kronoterapi af RA |
-| [41747163](https://pubmed.ncbi.nlm.nih.gov/41747163/) | 2026 | Formuleringsstudie | Drug Dev Ind Pharm | Transdermal transethosomal gel til RA |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Oversigtsartikel | Pathologie-biologie | Gennemgår kontrollerede studier af NSAID'er (bl.a. lornoxicam) ved akut behandling og forebyggelse af migræne. |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Oversigtsartikel | Drugs | Gennemgang af lornoxicams farmakologi og terapeutiske potentiale ved smerte- og betændelsestilstande; kort halveringstid (3-5 timer). Handler ikke specifikt om migræne. |
 
-Yderligere publikationer omhandler primært formulering og leveringssystemer (mikrosvampgel, emulgel, nanopartikler, hurtigt opløselige tabletter, pulsatile perler).
-
-Migræne: Reviewet [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) (1992, Pathologie-biologie) gennemgår kontrollerede studier af NSAID, herunder lornoxicam, ved migræne.
+Ingen af de to oversigtsartikler er et direkte studie af lornoxicam ved migræne som primært emne, men forsøget NCT00293657 undersøger sygdommen direkte.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101924697 | Lornoxicam "Takeda" (Takeda Pharma A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28101924697 | Lornoxicam "Takeda" (Takeda Pharma A/S) | Filmovertrukne tabletter | Ikke angivet i tilladelsesdata |
 
-Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
+Antal tilladelser: 1 (national, enkeltstofspræparat, gyldig). Kun oral formulering er registreret; forsøget ovenfor anvendte intravenøs administration, så rutekompatibilitet er ikke afklaret.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i de indsamlede data. Se det godkendte produktresumé (SPC) for sikkerhedsinformation. Som NSAID er der generelt særlig opmærksomhed på gastrointestinale hændelser (jf. tolerabilitetsreviewet PMID 27086708).
+Der er ikke fundet oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+
+Som klassehensyn gælder generelt for NSAID'er, at der skal tages hensyn til mave-tarm-, nyre- og hjerte-kar-risici, men dette er ikke bekræftet af lornoxicam-specifikke data her.
+
+---
+
+## Øvrige forudsagte indikationer (kort)
+
+| Forudsagt indikation | Score | Evidensniveau | Bemærkning |
+|------|------|------|------|
+| Hovedpinelidelse (headache disorder) | 0,9980 | L2 | Bygger på det samme fase 2-forsøg som migræne; ikke uafhængig evidens |
+| Tendinitis | 0,9972 | L5 | Ét studie af injektion ved subakromielt impingement-syndrom (lornoxicam var dårligere end betamethason); studerer ikke tendinitis direkte |
+| Migræne med hjernestammeaura | 0,9985 | L5 | Ingen specifikke data; sandsynligvis høj score pga. nærhed til migræne |
+| Trigeminal autonom cephalalgi | 0,9975 | L5 | Spekulativ forbindelse, ingen data |
+| Myositis fibrosa | 0,9970 | L5 | Ingen data |
+| Brachydaktyli-syndaktyli-syndrom og kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 0,9982 / 0,9981 | L5 | Ingen plausibel mekanistisk forbindelse; sandsynligvis modelartefakt |
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Lornoxicam er en etableret NSAID med plausibel COX-medieret mekanisme ved reumatoid artritis, og der findes kliniske studier (bl.a. sammenligning med diclofenac) samt reviews. Evidensen er dog begrænset til symptomlindring, og der er ingen registrerede kliniske forsøg. Migræneindikationen har et gennemført fase 2-forsøg, men uden tilgængelige resultater. Forudsigelserne for migrænefænotyper uden behandlingsmæssig relevans og for brachydaktyli-syndaktyli-syndrom bør sættes på hold (Hold).
+Der findes ét afsluttet, placebokontrolleret fase 2-forsøg direkte på migræne (150 deltagere), hvilket understøtter evidensniveau L2, men resultaterne er ikke tilgængelige i de foreliggende data, og der er ingen fase 3-forsøg. Sikkerhedsdata og virkningsmekanisme mangler, og den danske tilladelse omfatter kun orale tabletter, mens forsøget brugte intravenøs administration. Migræne er desuden allerede dækket af veletablerede NSAID-behandlinger, så den merværdi, lornoxicam kan tilføre, er uafklaret.
 
-**For at komme videre kræves:**
-- Det danske produktresumé (SPC) med indikation, advarsler og kontraindikationer
-- Data om virkningsmekanisme
-- Resultater fra NCT00293657 (migræne) for at kunne vurdere effekt
-- Afklaring af den oprindelige godkendte indikation i Danmark
-- Vurdering af gastrointestinal og kardiovaskulær sikkerhed i målpopulationen
+**For at komme videre kræves følgende:**
+- Hent resultaterne (primært endepunkt, effekt og bivirkninger) fra NCT00293657 og vurder dem kritisk.
+- Hent det danske produktresumé (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer, interaktioner og godkendt indikation.
+- Hent data om virkningsmekanisme fra DrugBank.
+- Afklar, om oral dosering kan give tilsvarende effekt som den intravenøse dosering i forsøget.
+- Overvej et fase 3-forsøg eller en sammenligning med etablerede NSAID'er og triptaner ved akut migræne.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

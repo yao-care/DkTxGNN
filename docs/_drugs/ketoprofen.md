@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Kun modelforudsigelse (L5)
 nav_order: 470
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ketoprofen: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, ledsygdomme (fra TxGNN-vidensgrafen"
+indication_count: 9
 monitor_inn: "KETOPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis", "brachyolmia", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+last_modified_at: 2026-10-23
+description: "Ketoprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ketoprofen: Fra gigt og slidgigt til akromesomelisk dysplasi, Hunter-Thompson-type
+## Ketoprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
-## Opsummering i en sætning
+## Resumé i én sætning
 
-Ketoprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som oprindeligt anvendes til behandling af leddegigt, slidgigt og ledsygdomme.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **akromesomelisk dysplasi, Hunter-Thompson-type**, men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen er derfor udelukkende modelbaseret.
+Ketoprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID). TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomel dysplasi, Hunter-Thompson-typen**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen. Den er udelukkende modelbaseret.
 
 ---
 
@@ -47,34 +46,30 @@ TxGNN-modellen forudsiger, at det kan være virksomt mod **akromesomelisk dyspla
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, slidgigt, ledsygdomme (fra TxGNN-vidensgrafen; den danske markedsføringstilladelse har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national godkendelse (humant/veterinært ikke angivet i dataene; producenten er et veterinærfirma) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme. Ketoprofen er kendt som en uselektiv hæmmer af cyklooxygenase (COX) og hører til NSAID-gruppen. Dets effekt ved leddegigt og slidgigt skyldes dets antiinflammatoriske og smertestillende virkning.
+Data om ketoprofens virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Ketoprofen tilhører klassen af NSAID'er, som generelt hæmmer cyklooxygenase (COX). Det er baseret på almen viden og ikke på de foreliggende data.
 
-Akromesomelisk dysplasi, Hunter-Thompson-type, er en sjælden medfødt knogleforstyrrelse forårsaget af funktionstabende varianter i CDMP1/GDF5 (BMP-signalvejen). Der er ingen kendt biologisk vej, der forbinder COX-hæmning med korrektion af en medfødt GDF5-defekt.
+Akromesomel dysplasi af Hunter-Thompson-typen er en genetisk skeletdysplasi forårsaget af funktionstab i CDMP1/GDF5. Der er ingen oplagt forbindelse til COX-hæmning.
 
-Den høje score afspejler sandsynligvis nærhed i vidensgrafen til skelet- og ledrelaterede fænotyper (artropati, slidgigt) snarere end et reelt terapeutisk signal. Ved denne sygdom kunne ketoprofen højst komme på tale til symptomatisk smertelindring, ikke som sygdomsmodificerende behandling.
+I bedste fald kunne man forestille sig symptomatisk smertelindring ved ledsagende ledbesvær. Det er ikke understøttet af data, og lægemidlet vil ikke påvirke den underliggende sygdom.
 
-Andre højt rangerede forudsigelser i de data, der er samlet til denne rapport, er lige så svagt funderede:
-
-- **Brachyolmia-amelogenesis imperfecta-syndrom** (score 99,98 %): ingen understøttet mekanistisk sammenhæng (LTBP3/TGF-beta-relateret).
-- **Myosklerose** (score 99,98 %): kun en svag, spekulativ symptomatisk sammenhæng.
-- **Brachyolmia** (score 99,98 %): ingen understøttet mekanistisk sammenhæng.
-- **Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom** (score 99,98 %): ingen understøttet mekanistisk sammenhæng.
+Andre forudsigelser i listen (f.eks. pseudoachondroplasi og juvenil artritis på grund af LACC1-defekt) har en mere plausibel symptomatisk sammenhæng, men heller ikke her foreligger der kliniske data.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
 Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
@@ -86,32 +81,25 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Godkendelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104870711 | Ainil | Injektionsvæske, opløsning | Ikke angivet |
+| 28104870711 | Ainil | Injektionsvæske, opløsning | Ingen indikationstekst angivet |
 
-Produktet er fremstillet af Industrial Veterinaria S.A. Bemærk, at navnet og producenten tyder på, at produktet kan være et dyrlægemiddel. Dette bør verificeres, før der drages konklusioner om anvendelse til mennesker.
+Godkendelsen er et enkeltstofpræparat med gyldig status. Produktets producent er Industrial Veterinaria S.A., så præparatet kan være beregnet til veterinær brug. Det bør afklares, før der drages konklusioner om anvendelse til mennesker.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer fra vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke fra produktresumé): hypertension/forhøjet blodtryk, leversvigt, nyresygdom, pyoureter, mavesår (herunder aktivt mavesår), blodkoagulationssygdomme, myokardieinfarkt, koronar trombose, hæmoglobinopati, hjerte-kar-sygdom og hjertesygdom.
+**Kontraindikationer registreret i vidensgrafen** (ikke hentet fra produktresuméet): forhøjet blodtryk/hypertensiv sygdom, leversvigt, nyresygdom, pyoureter, mavesår (herunder aktivt mavesår), blødningssygdomme/koagulationsforstyrrelser, hjerteinfarkt, koronar trombose, hæmoglobinopati, hjerte-kar-sygdom og hjertesygdom.
 
-**Lægemiddelinteraktioner:** I alt 100 interaktioner er registreret. Blandt de viste er de fleste af moderat grad, bl.a.:
-- Kortikosteroider: hydrocortison, triamcinolon, dexamethason, betamethason, budesonid
-- Acetylsalicylsyre
-- Metformin og sulfonylurinstoffer (chlorpropamid, glimepirid)
-- Mesalazin og balsalazid
-- Naltrexon
-- Kaliumcitrat og kaliumbicarbonat
-- Tarmrensende midler (picosulfat, polyethylenglycol med elektrolytter)
+**Lægemiddelinteraktioner** (100 registrerede; de vigtigste er vist):
+- **Moderat:** hydrocortison, dexamethason, betamethason, budesonid, triamcinolon (kortikosteroider), acetylsalicylsyre, metformin, glimepirid, chlorpropamid, mesalazin, balsalazid, naltrexon, kaliumcitrat, kaliumbikarbonat, picosulfat, polyethylenglycol med elektrolytter
+- **Mindre:** famotidin, ranitidin, cimetidin, linaclotid
 
-Interaktioner af mindre grad omfatter famotidin, ranitidin, cimetidin og linaclotid.
-
-Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -120,14 +108,14 @@ Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler. Se 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en vidensgrafmodel (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Sygdommen er genetisk og strukturel, og COX-hæmning kan ikke forventes at påvirke den underliggende GDF5-defekt.
+Forudsigelsen er udelukkende baseret på grafnærhed uden kliniske forsøg eller publikationer. Der er ingen plausibel mekanistisk sammenhæng mellem COX-hæmning og en genetisk skeletdysplasi, og ketoprofens kendte kardiovaskulære, gastrointestinale og renale risici taler imod at gå videre uden støtte i data.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet for sikkerhedsvurdering (advarsler og kontraindikationer)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Afklaring af, om det danske produkt (Ainil) er til human- eller veterinær brug
-- Prækliniske data eller mekanistiske studier, der kan understøtte en biologisk sammenhæng
-- Eventuelt en vurdering af, om andre forudsagte indikationer er mere plausible end de nuværende topresultater
+- Data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikationer fra produktresuméet for den danske godkendelse
+- Afklaring af, om det registrerede præparat (Ainil) er til human- eller veterinærbrug
+- Prækliniske eller kliniske data, der direkte undersøger ketoprofen ved denne sygdom
+- Overvejelse af mere plausible kandidater på listen (f.eks. pseudoachondroplasi eller LACC1-relateret juvenil artritis) til symptomatisk behandling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

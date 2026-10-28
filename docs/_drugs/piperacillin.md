@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Kun modelforudsigelse (L5)
 nav_order: 665
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Piperacillin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsernes indikationstekst…"
 monitor_inn: "piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Piperacillin er et bredspektret penicillin-antibiotikum, som i Danmark markedsf�
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsernes indikationstekst er tom). Piperacillin er et antibakterielt middel. |
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Piperacillin er et bredspektret penicillin-antibiotikum, som i Danmark markedsf�
 
 Data om virkningsmekanisme (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Piperacillin er dog et beta-laktam-antibiotikum, som hæmmer bakteriers cellevægssyntese. Det har ingen kendt immunmodulerende eller antiinflammatorisk virkning af betydning for leddegigt.
 
-Den høje TxGNN-score skyldes sandsynligvis en artefakt i vidensgrafen. De fundne publikationer nævner kun leddegigt som patientens samtidige sygdom, for eksempel infektioner hos patienter med leddegigt eller methotrexat-toksicitet. De undersøger ikke piperacillin som behandling af leddegigt.
+Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. De fundne publikationer nævner kun leddegigt som patientens samtidige sygdom, for eksempel infektioner hos patienter med leddegigt eller methotrexat-toksicitet. De undersøger ikke piperacillin som behandling af leddegigt.
 
 Der er derfor ikke identificeret en plausibel mekanistisk sammenhæng mellem den oprindelige antibakterielle anvendelse og den forudsagte indikation.
 
@@ -122,7 +122,7 @@ Data om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede da
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, der understøtter piperacillin mod leddegigt, og der er ingen plausibel mekanisme. Den høje score er sandsynligvis en artefakt i vidensgrafen.
+Forudsigelsen bygger kun på modellen (evidensniveau L5). Der er hverken kliniske forsøg eller litteratur, der understøtter piperacillin mod leddegigt, og der er ingen plausibel mekanisme. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanisme (MOA) og en begrundet hypotese for en antiinflammatorisk eller immunmodulerende effekt

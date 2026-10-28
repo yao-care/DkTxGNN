@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selumetinib
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 756
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Selumetinib: forudsagt ny indikation Perifert nerveskede-schwannom (peripheral nerve schwannoma) (evidensniveau L3). Oprindelig indikation: Neurofibromatose"
 monitor_inn: "selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
+description: "Selumetinib: forudsagt ny indikation Familial generalized lentiginosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Selumetinib
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Selumetinib: Fra neurofibromatose til perifer nerveskede-schwannom
+## Selumetinib: Familial generalized lentiginosis
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Selumetinib er en MEK-hæmmer, der oprindeligt anvendes mod neurofibromatose. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **perifert nervescwhannom** (peripheral nerve schwannoma), og der foreligger **3 kliniske forsøg** og **6 publikationer** på området. Evidensen er dog begrænset: ét forsøg er afsluttet tidligt med kun 10 patienter, og to forsøg er endnu ikke startet.
 
-*Bemærkning om valg af indikation:* Den højest rangerede forudsigelse (familiær generaliseret lentiginose, score 99,96 %) har ingen kliniske forsøg eller litteratur. Rapporten fokuserer derfor på perifert nerveskede-schwannom (rang 9), som er den forudsagte indikation med mest underbyggende evidens. Øvrige forudsigelser omtales kort nedenfor.
+*Bemærkning om valg af indikation:* Den højest rangerede forudsigelse (familiær generaliseret lentiginose, score 0,9996) har ingen kliniske forsøg eller litteratur. Rapporten fokuserer derfor på perifert nerveskede-schwannom (rang 9), som er den forudsagte indikation med mest underbyggende evidens. Øvrige forudsigelser omtales kort nedenfor.
 
 ---
 
@@ -48,12 +48,12 @@ Selumetinib er en MEK-hæmmer, der oprindeligt anvendes mod neurofibromatose. Tx
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Neurofibromatose (fra TxGNN-vidensgrafen; godkendelsesteksten i den danske registrering er ikke tilgængelig) |
-| Forudsagt ny indikation | Perifert nerveskede-schwannom (peripheral nerve schwannoma) |
-| TxGNN-forudsigelsesscore | 99,95 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Familial generalized lentiginosis |
+| TxGNN-forudsigelsesscore | 0.9996 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afvent resultater; se begrundelse) |
 
 ---
@@ -131,10 +131,10 @@ Interaktioner af moderat grad omfatter bl.a. acetylsalicylsyre, cimetidin, clotr
 
 | Rang | Sygdom | Score | Evidens | Bemærkning |
 |------|------|------|------|------|
-| 1 | Familiær generaliseret lentiginose | 99,96 % | L5 | Ingen forsøg eller litteratur |
-| 2 | Gastrocutaneous syndrom | 99,96 % | L5 | Ingen forsøg eller litteratur |
-| 3 | Rhabdoid tumor | 99,96 % | L4 | Kun præklinisk data (PMID 25638158) og screeningsprotokollen Pediatric MATCH ([NCT03155620](https://clinicaltrials.gov/study/NCT03155620)); ingen indikationsspecifikke effektdata |
-| 4–8, 10 | Sjældne pigment-/ektodermale syndromer og trigeminusschwannom | 99,95–99,96 % | L5 | Ingen kliniske data; trigeminusschwannom kan indirekte støttes af schwannom-evidensen |
+| 1 | Familiær generaliseret lentiginose | 0,9996 | L5 | Ingen forsøg eller litteratur |
+| 2 | Gastrocutaneous syndrom | 0,9996 | L5 | Ingen forsøg eller litteratur |
+| 3 | Rhabdoid tumor | 0,9996 | L5 | Kun præklinisk data (PMID 25638158) og screeningsprotokollen Pediatric MATCH ([NCT03155620](https://clinicaltrials.gov/study/NCT03155620)); ingen indikationsspecifikke effektdata |
+| 4–8, 10 | Sjældne pigment-/ektodermale syndromer og trigeminusschwannom | 99,95–0,9996 | L5 | Ingen kliniske data; trigeminusschwannom kan indirekte støttes af schwannom-evidensen |
 
 ---
 

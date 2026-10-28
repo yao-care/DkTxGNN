@@ -4,17 +4,17 @@ title: Erdafitinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 320
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Erdafitinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+indication_count: 6
 monitor_inn: "Erdafitinib"
-predicted_indications: ["pulmonary hypertension", "pulmonary hypertension", "kyphoscoliotic heart disease", "kyphoscoliotic heart disease", "amenorrhea (disease)", "amenorrhea (disease)", "rheumatoid arthritis", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "amyotrophic lateral sclerosis"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
+last_modified_at: 2026-10-23
+description: "Erdafitinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
 # Erdafitinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Erdafitinib: Fra oprindelig indikation til pulmonal hypertension
+## Erdafitinib: Fra en ikke-angivet godkendt indikation til pulmonal hypertension
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Erdafitinib er en FGFR-tyrosinkinasehæmmer (Balversa), der er markedsført i Danmark. Den godkendte indikationstekst indgår ikke i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonal hypertension**, men der findes **ingen kliniske forsøg** og **ingen publikationer** om denne indikation. Forudsigelsen er udelukkende beregningsbaseret.
+Erdafitinib er en hæmmer af FGFR-tyrosinkinaser (FGFR1-4) og er markedsført i Danmark som Balversa, men de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **pulmonal hypertension**, men der er **0 kliniske forsøg** og **0 publikationer**, der direkte undersøger denne sygdom.
+Forudsigelsen er derfor udelukkende beregningsbaseret.
 
 ---
 
@@ -46,56 +48,44 @@ Erdafitinib er en FGFR-tyrosinkinasehæmmer (Balversa), der er markedsført i Da
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (licenstekst for indikation er tom) |
 | Forudsagt ny indikation | Pulmonal hypertension |
-| TxGNN-forudsigelsesscore | 99,38 % |
+| TxGNN-forudsigelsesscore | 0,9938 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Erdafitinib er dog kendt som en pan-FGFR-hæmmer (FGFR1-4), altså en tyrosinkinasehæmmer, der blokerer fibroblast-vækstfaktorreceptorer.
+Data om lægemidlets virkningsmekanisme findes ikke i de indsamlede data. Erdafitinib er dog kendt som en pan-FGFR-tyrosinkinasehæmmer (FGFR1-4). FGF/FGFR-signalering er blevet sat i forbindelse med remodellering af lungekarrene og med proliferation af glatte muskelceller og endotelceller, hvilket giver et muligt, men ikke valideret, biologisk grundlag for forudsigelsen.
 
-FGF/FGFR-signalering er blevet sat i forbindelse med ombygning af lungekar samt proliferation af glatte muskelceller og endotelceller. Det giver et biologisk plausibelt, men ikke valideret grundlag for at anvende en FGFR-hæmmer ved pulmonal hypertension.
-
-Den høje score (0,994) er alene en beregningsmæssig forudsigelse. Samtidig kan FGFR-hæmning give kardiovaskulære og væskerelaterede bivirkninger, så effektens retning er usikker, og lægemidlet kan i princippet have en ugunstig effekt.
-
-**Øvrige forudsigelser i modellen** (alle evidensniveau L5, anbefaling Hold, hver angivet to gange i inputtet og her vurderet én gang):
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Kyfoskoliotisk hjertesygdom | 99,27 % | Ingen klar mekanistisk sammenhæng. Tilstanden er en strukturel/mekanisk følge af alvorlig rygsøjlsdeformitet og responderer sandsynligvis ikke på en kinasehæmmer. |
-| Amenoré | 99,26 % | Heterogene årsager. Hæmning af FGFR forventes snarere at forværre end afhjælpe relaterede tilstande. |
-| Reumatoid artrit | 99,25 % | FGF/FGFR er beskrevet i synovial fibroblastaktivering og angiogenese, men erdafitinibs selektivitet overlapper ikke med godkendte mål ved RA. |
-| Amyotrofisk lateralsklerose | 99,06 % | Præklinisk arbejde antyder en rolle for FGF, men effektens retning er uklar, og hjernegennemtrængning er ikke påvist. |
+Der er også betydelige sikkerhedsmæssige bekymringer i en kardiopulmonal population. Hyperfosfatæmi er en målrelateret effekt af FGFR-hæmning, og der er risiko for øjenbivirkninger og andre uønskede virkninger. Den høje TxGNN-score er alene en computerbaseret forudsigelse og understøttes ikke af forsøg eller litteratur i de indsamlede data.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen litteratur om erdafitinib ved pulmonal hypertension. For reumatoid artrit er der identificeret én indirekte reference:
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Review | Pharmacological Research | Generel gennemgang af egenskaber for FDA-godkendte småmolekylære proteinkinasehæmmere, herunder erdafitinib. Indeholder ingen RA-specifikke data om effekt eller sikkerhed. |
+Der er i øjeblikket ingen litteratur, der direkte omhandler pulmonal hypertension.
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107045223 | Balversa (Janssen-Cilag International NV) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
+| 28107045223 | Balversa (Janssen-Cilag International NV) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+
+Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).
 
 ---
 
@@ -103,26 +93,28 @@ Der er ingen litteratur om erdafitinib ved pulmonal hypertension. For reumatoid 
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (FGFR-tyrosinkinasehæmmer) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og gældende regler for håndtering af cytotoksiske lægemidler |
-
-Klassifikationen er baseret på lægemidlets kendte natur som målrettet kræftbehandling. De øvrige punkter er ikke belagt i de indsamlede data; der henvises til SmPC's advarsler og forholdsregler.
+| Klassifikation | Målrettet behandling (FGFR-tyrosinkinasehæmmer) |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Se produktresuméet (SmPC); hyperfosfatæmi (målrelateret effekt) og øjenbivirkninger bør følges |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af antineoplastiske lægemidler |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Oplysninger om advarsler og kontraindikationer fra indlægssedlen/produktresuméet mangler. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler og kontraindikationer fra produktresuméet. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen fandt i alt 100 interaktioner. De først anførte omfatter:
+**Lægemiddelinteraktioner:** Der er fundet 100 registrerede interaktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+- Colecalciferol, calcifediol, calcitriol
+- Calciumfosfat og calciumacetat
+- Magnesiumoxid, magnesiumsulfat og magnesiumchlorid
+- Dexamethason
+- Clarithromycin
 
-- **Alvorlige (Major):** cholecalciferol, dexamethason, calciumphosphat, calcifediol, calcitriol, calciumacetat, clarithromycin, magnesiumoxid, magnesiumsulfat, magnesiumchlorid
-- **Moderate:** metformin, loperamid, saxagliptin, eliglustat, empagliflozin, linagliptin, naldemedin, naloxegol, prucaloprid, rifaximin
+Følgende er klassificeret som **moderate**: metformin, loperamid, saxagliptin, linagliptin, empagliflozin, eliglustat, naldemedin, naloxegol, prucaloprid og rifaximin.
 
-Desuden kan FGFR-hæmning give kardiovaskulære og væskerelaterede bivirkninger, hvilket er særligt relevant ved en hjerte-lunge-indikation.
+Det er værd at bemærke, at flere af de alvorlige interaktioner vedrører D-vitamin-, calcium- og magnesiumpræparater, hvilket er relevant i forhold til erdafitinibs effekt på fosfatniveauet.
 
 ---
 
@@ -131,13 +123,28 @@ Desuden kan FGFR-hæmning give kardiovaskulære og væskerelaterede bivirkninger
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen hviler udelukkende på modellen (evidensniveau L5) uden kliniske forsøg eller relevant litteratur. Sikkerhedsdata fra produktresuméet mangler, og FGFR-hæmning kan give kardiovaskulære og væskerelaterede bivirkninger, hvilket gør effektens retning usikker.
+Forudsigelsen er alene baseret på en modelscore uden kliniske forsøg eller litteratur om pulmonal hypertension (evidensniveau L5). Samtidig giver erdafitinibs bivirkningsprofil anledning til sikkerhedsmæssige betænkeligheder i en kardiopulmonal population.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
-- Data om virkningsmekanisme (MOA) fra DrugBank
+**For at komme videre er følgende nødvendigt:**
 - Præklinisk dokumentation for FGFR-hæmning i modeller for pulmonal hypertension
-- Systematisk litteratursøgning og vurdering af kardiovaskulær sikkerhed, før kliniske forsøg overvejes
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé (SmPC)
+- Vurdering af sikkerhed (hyperfosfatæmi, øjentoksicitet) i en kardiopulmonal population
+- Bekræftelse af den godkendte indikation for Balversa i Danmark
+
+---
+
+## Andre forudsagte indikationer (kun modelforudsigelser)
+
+| Rang | Sygdom | TxGNN-score | Evidensniveau | Beslutning |
+|------|------|------|------|------|
+| 2 | Kyfoskoliotisk hjertesygdom | 0,9927 | L5 | Hold |
+| 3 | Amenoré | 0,9926 | L5 | Hold |
+| 4 | Reumatoid artrit | 0,9925 | L5 | Hold |
+| 5 | Amyotrofisk lateralsklerose | 0,9906 | L5 | Hold |
+| 6 | Brachydaktyli-syndaktyli-syndrom | 0,9903 | L5 | Hold |
+
+For reumatoid artrit er der fundet én generel oversigtsartikel om godkendte kinasehæmmere (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), 2020, Pharmacological Research), men den indeholder ingen RA-specifikke data om erdafitinib og er ikke direkte evidens.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

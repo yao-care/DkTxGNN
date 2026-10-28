@@ -4,17 +4,17 @@ title: Zanamivir
 parent: Kun modelforudsigelse (L5)
 nav_order: 899
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Zanamivir: forudsagt ny indikation Pyelonefritis (evidensniveau L5). Oprindelig indikation: Influenza"
 monitor_inn: "Zanamivir"
-predicted_indications: ["pyelonephritis", "pyelonephritis", "disorder of tyrosine metabolism", "disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "teratogenic Pierre Robin syndrome", "disorder of phenylalanine metabolism", "disorder of phenylalanine metabolism", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
+predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 ---
 
 # Zanamivir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Zanamivir er en neuraminidasehæmmer, som oprindeligt bruges til behandling af i
 |------|------|
 | Oprindelig indikation | Influenza (godkendt indikationstekst for det danske produkt er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Pyelonefritis |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Pyelonefritis er derimod typisk en bakteriel infektion i nyren. Der er ingen klar mekanistisk forbindelse mellem hæmning af viralt neuraminidase og behandling af en bakteriel nyreinfektion. Mennesker har egne neuraminidaser (NEU1-4), men der er intet, der tyder på, at hæmning af dem er relevant for pyelonefritis.
 
-Den høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen og ikke et reelt biologisk eller klinisk grundlag. Forudsigelsen bør derfor betragtes som en hypotese uden understøttende evidens.
+Den høje score (0,9984) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Forudsigelsen bør derfor betragtes som en hypotese uden understøttende evidens.
 
 ---
 

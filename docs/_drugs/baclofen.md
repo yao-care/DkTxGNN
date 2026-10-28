@@ -4,17 +4,17 @@ title: Baclofen
 parent: Kun modelforudsigelse (L5)
 nav_order: 95
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Baclofen: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Spasticitet"
 monitor_inn: "BACLOFEN"
-predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit-hyperactivity disorder", "nicotine dependence", "nicotine dependence"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
 ---
 
 # Baclofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Baclofen: Fra spasticitet til ADHD (opmærksomhedsforstyrrelse med hyperaktivitet)
+## Baclofen: Fra spasticitet til Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til behandling af spasticitet. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **ADHD** (score 99,3 %). Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer, der har testet baclofen ved ADHD**. Forudsigelsen hviler alene på modellen.
+Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til behandling af spasticitet. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **ADHD** (score 0,9932). Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer, der har testet baclofen ved ADHD**. Forudsigelsen hviler alene på modellen.
 
 ---
 
@@ -48,10 +48,10 @@ Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til beh
 |------|------|
 | Oprindelig indikation | Spasticitet (nævnt i litteraturen; indikationsteksten er ikke angivet i de danske tilladelsesdata) |
 | Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
-| TxGNN-prædiktionsscore | 99,3 % |
+| TxGNN-prædiktionsscore | 0,9932 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -128,7 +128,7 @@ Forudsigelsen for ADHD er udelukkende modelbaseret (evidensniveau L5). Der er hv
 - Gennemgang af produktresuméet (advarsler og kontraindikationer), som ikke var tilgængeligt i de indsamlede data
 - Vurdering af administrationsvej og lægemiddelform, da den eneste danske tilladelse i data er en infusionsvæske
 
-**Supplerende observation:** Den samme analyse forudsiger også **nikotinafhængighed** (score 99,2 %) med evidensniveau L2. Der findes tre fase 2-forsøg med baclofen hos rygere ([NCT01228994](https://clinicaltrials.gov/study/NCT01228994), [NCT00257894](https://clinicaltrials.gov/study/NCT00257894), [NCT01821560](https://clinicaltrials.gov/study/NCT01821560)) samt prækliniske data. To af forsøgene blev afbrudt tidligt, og det eneste afsluttede (n=44) er et mekanistisk studie og ikke et rygestopforsøg. Denne indikation er derfor et bedre udgangspunkt for videre afklaring end ADHD, men også her er evidensen begrænset.
+**Supplerende observation:** Den samme analyse forudsiger også **nikotinafhængighed** (score 0,9919) med evidensniveau L2. Der findes tre fase 2-forsøg med baclofen hos rygere ([NCT01228994](https://clinicaltrials.gov/study/NCT01228994), [NCT00257894](https://clinicaltrials.gov/study/NCT00257894), [NCT01821560](https://clinicaltrials.gov/study/NCT01821560)) samt prækliniske data. To af forsøgene blev afbrudt tidligt, og det eneste afsluttede (n=44) er et mekanistisk studie og ikke et rygestopforsøg. Denne indikation er derfor et bedre udgangspunkt for videre afklaring end ADHD, men også her er evidensen begrænset.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

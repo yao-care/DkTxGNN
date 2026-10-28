@@ -50,10 +50,10 @@ Forudsigelsen er udelukkende modelbaseret.
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (indikationsteksten for den danske markedsføringstilladelse er tom) |
 | Forudsagt ny indikation | Hypertrichose |
-| TxGNN-forudsigelsesscore | 99,79 % |
+| TxGNN-forudsigelsesscore | 0,9979 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data
 
 Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og hårfollikelvækst. HCN-kanaler findes i nogle ikke-kardiale væv, men intet i de tilgængelige data kobler dem til regulering af hårvækst. Hypertrichose ses desuden som en bivirkning af andre lægemidler, så en terapeutisk rolle for ivabradin er biologisk usandsynlig uden yderligere data.
 
-Den høje score (0,998) er en grafbaseret forudsigelse og skal ikke tolkes som klinisk evidens. De øvrige forudsigelser fra modellen (Ambras-type hypertrichosis universalis congenita, malformationssyndrom med tand-/parodontalkomponent, syndrom med Dandy-Walker-malformation, isoleret genetisk hårskaftsabnormitet og nefrogent syndrom med uhensigtsmæssig antidiurese) har samme score-niveau, men heller ingen kliniske forsøg, ingen litteratur og ingen plausibel mekanistisk forklaring.
+Den høje score (0,9979) er en grafbaseret forudsigelse og skal ikke tolkes som klinisk evidens. De øvrige forudsigelser fra modellen (Ambras-type hypertrichosis universalis congenita, malformationssyndrom med tand-/parodontalkomponent, syndrom med Dandy-Walker-malformation, isoleret genetisk hårskaftsabnormitet og nefrogent syndrom med uhensigtsmæssig antidiurese) har samme score-niveau, men heller ingen kliniske forsøg, ingen litteratur og ingen plausibel mekanistisk forklaring.
 
 ---
 

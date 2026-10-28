@@ -4,17 +4,17 @@ title: Hydroxyzine
 parent: Kun modelforudsigelse (L5)
 nav_order: 414
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Hydroxyzine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Atopisk eksem, allergisk rhinitis, urticaria m.fl"
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Hydroxyzin: Fra atopisk eksem og urticaria til allergisk urticaria
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## Opsummering i en sætning
 
 Hydroxyzin er en førstegenerations H1-antihistamin, som oprindeligt anvendes til atopisk eksem, allergisk og vasomotorisk rhinitis, konjunktivitis af allergisk type, urticaria og angioødem.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **allergisk urticaria** (højeste rangering), og de data, der er indsamlet til denne rapport, indeholder **0 kliniske forsøg** og **19 publikationer**, hvoraf hovedparten er oversigtsartikler om antihistaminer generelt.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Rosacea-konjunktivitis** (højeste rangering), og de data, der er indsamlet til denne rapport, indeholder **0 kliniske forsøg** og **19 publikationer**, hvoraf hovedparten er oversigtsartikler om antihistaminer generelt.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **allergisk urtica
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atopisk eksem, allergisk rhinitis, urticaria m.fl. (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,77 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rosacea conjunctivitis |
+| TxGNN-forudsigelsesscore | 0.9970 |
 | Evidensniveau | L5 (ingen kliniske forsøg; litteraturen består af oversigtsartikler og kasuistikker, og der foreligger ingen hydroxyzin-specifikke forsøgsdata for netop denne indikation) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,6 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **allergisk urtica
 
 Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige i de data, der er indsamlet til denne rapport. Hydroxyzin er imidlertid kendt som en H1-receptor-antagonist (invers agonist) af første generation. Histaminfrigivelse fra mastceller er den centrale mediator ved urticaria, så mekanismen er sammenhængende.
 
-Allergisk urticaria ligger meget tæt på de indikationer, som hydroxyzin allerede er anvendt til (urticaria og angioødem). Forudsigelsen tilfører derfor kun begrænset nyt repurposing-potentiale, da tilstanden i praksis allerede er dækket af den eksisterende urticaria-indikation.
 
 Indirekte støtte kommer fra cetirizin, som er hydroxyzins aktive metabolit, og som er veldokumenteret ved kronisk urticaria og allergisk rhinitis. Den fundne litteratur omhandler dog hovedsageligt cetirizin og andre antihistaminer, ikke hydroxyzin selv. Den høje TxGNN-score er udelukkende en beregningsmæssig forudsigelse.
 
@@ -102,7 +101,7 @@ Nedenfor er de 10 mest relevante publikationer (oversigtsartikler prioriteret ov
 
 ## Sikkerhedsovervejelser
 
-De indsamlede data indeholder ingen tekst fra produktresuméet om advarsler eller kontraindikationer. Følgende er hentet fra TxGNN-vidensgrafen (ikke fra produktresuméet) og skal derfor kun ses som vejledende:
+De indsamlede data indeholder ingen tekst fra produktresuméet om advarsler eller kontraindikationer. Følgende stammer ikke fra produktresuméet og skal derfor kun ses som vejledende:
 
 - **Sygdomme forbundet med kontraindikation i vidensgrafen** (udvalgt): epilepsi, leversygdom, galdeblæresygdom, hypothyreose, hyperthyreose, mavesår, snævervinklet og åbenvinklet glaukom, godartet prostataforstørrelse, psykotiske lidelser, diabetes, hypertension, koronarsygdom, myokardieinfarkt, hjerteledningsforstyrrelser, pludseligt hjertestop og misbrug/afhængighed.
 - **Lægemiddelinteraktioner**: Der er identificeret 354 mulige interaktioner. Blandt de viste er de alvorligste (Major):
@@ -121,7 +120,6 @@ Se desuden det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinform
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk sammenhængende, men allergisk urticaria er i praksis allerede dækket af hydroxyzins eksisterende indikation, så den repurposing-værdi er begrænset. Der er ingen kliniske forsøg, og litteraturen består mest af oversigter om andre antihistaminer. Aktuelle retningslinjer anbefaler desuden andengenerations antihistaminer frem for hydroxyzin på grund af sedation og antikolinerg byrde.
 
 **For at komme videre kræves følgende:**
 - Hydroxyzin-specifikke kontrollerede forsøg eller direkte sammenlignende data mod andengenerations antihistaminer
@@ -130,7 +128,6 @@ Forudsigelsen er mekanistisk sammenhængende, men allergisk urticaria er i praks
 - Vurdering af, om forudsigelsen overhovedet tilfører noget ud over den allerede godkendte urticaria-indikation
 
 **Bemærkning om øvrige forudsigelser:**
-- *Kold urticaria* (score 99,66 %, evidensniveau L3): Et dobbeltblindt sammenlignende studie fra 1984 ([PMID 6480953](https://pubmed.ncbi.nlm.nih.gov/6480953/)) sammenlignede hydroxyzin med cinnarizin, cyproheptadin og doxepin; design og størrelse er ikke verificeret, og doxepin blev foretrukket af patienterne i det ene delstudie. Et enkeltpatientstudie fra 1979 ([PMID 475987](https://pubmed.ncbi.nlm.nih.gov/475987/)) viste gunstige resultater, især for hydroxyzin kombineret med cimetidin. Dette er den mest evidensunderstøttede alternative forudsigelse, men retningslinjerne foretrækker andengenerations antihistaminer.
 - *Rosacea-konjunktivitis* (99,70 %), *recalcitrant atopisk dermatitis* (99,36 %) og *atopisk IgE-responsivitet* (99,27 %): Alle på evidensniveau L5 uden forsøg eller litteratur; histamin spiller en mindre rolle i disse tilstande, og anbefalingen er Hold.
 ## Ansvarsfraskrivelse
 

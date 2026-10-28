@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Moderat evidens (L3-L4)
 nav_order: 627
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palonosetron: forudsagt ny indikation Migraine disorder (migræne) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "palonosetron"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 ## Resumé i én sætning
 
-Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmark (bl.a. som Aloxi og som del af kombinationspræparatet Akynzeo). TxGNN-modellen forudsiger, at den kan have effekt ved **migræne** (score 99,7 %), men der findes **ingen kliniske forsøg** og kun **1 publikation** for denne indikation, og den er en case-rapport om, at palonosetron *udløste* migrænelignende hovedpine. Evidensen er derfor meget svag.
+Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmark (bl.a. som Aloxi og som del af kombinationspræparatet Akynzeo). TxGNN-modellen (deep learning) forudsiger, at den kan have effekt ved **migræne** (score 0,9974), men der findes **ingen kliniske forsøg** og kun **1 publikation** for denne indikation, og den er en case-rapport om, at palonosetron *udløste* migrænelignende hovedpine. Evidensen er derfor meget svag.
 
 ---
 
@@ -48,10 +48,10 @@ Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmar
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (indikationsteksten i de danske markedsføringstilladelser er tom) |
 | Forudsagt ny indikation | Migraine disorder (migræne) |
-| TxGNN-forudsigelsesscore | 99,74 % |
+| TxGNN-forudsigelsesscore | 0,9974 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmar
 
 Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Palonosetron er dog kendt som en selektiv 5-HT3-receptorantagonist. Serotonerg signalering indgår i migrænens patofysiologi, og andre 5-HT3-antagonister er undersøgt ved migræne med begrænsede resultater. Det giver en indirekte, teoretisk forbindelse.
 
-Forudsigelsen skyldes sandsynligvis nærhed i vidensgrafen (PrimeKG) til migræneknuden og ikke kliniske data. Den eneste fundne litteratur peger i modsat retning: en case-rapport beskriver palonosetron-induceret migrænelignende hovedpine, hvilket er et sikkerhedssignal frem for tegn på gavnlig effekt.
+Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den eneste fundne litteratur peger i modsat retning: en case-rapport beskriver palonosetron-induceret migrænelignende hovedpine, hvilket er et sikkerhedssignal frem for tegn på gavnlig effekt.
 
-De øvrige forudsigelser er svagere. Migræne med hjernestammeaura (99,67 %) og migræne med/uden aura, modtagelighed (99,44 %) hviler på samme indirekte 5-HT-rationale uden specifikke data. Atrophoderma vermiculata (99,13 %) og ulerythema ophryogenes (99,07 %) har ingen identificeret mekanistisk forbindelse til 5-HT3-antagonisme og ser ud til at være artefakter fra vidensgrafen.
+De øvrige forudsigelser er svagere. Migræne med hjernestammeaura (0,9967) hviler på samme indirekte 5-HT-rationale uden specifikke data. Atrophoderma vermiculata (0,9913) og ulerythema ophryogenes (0,9907) har ingen identificeret mekanistisk forbindelse til 5-HT3-antagonisme; scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

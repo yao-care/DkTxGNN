@@ -8,6 +8,7 @@ nav_order: 19
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Acipimox
@@ -52,7 +53,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 | **Godkendt indikation** | Hyperlipidemier (typerne IIa, IIb, IV, V) — supplering til diætbehandling |
 | **Foreslået omformål** | Flere nye indikationer forudsagt af TxGNN knowledge-graph-model (100 kandidater) |
 | **Nuværende bevisniveau** | **L5** — Kun computerisk forudsigelse; ingen dedikerede omformålingskliniske forsøg identificeret |
-| **Danmarks markedsstatus** | Tidligere tilgængelig på udvalgte europæiske markeder; nuværende dansk markedsautorisation bør bekræftes med Lægemiddelstyrelsen |
+| **Danmarks markedsstatus** | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 **Vigtigste fund:**
 - Acipimox er et nicotinsyreanalolg med velkarakteriserede lipidmodificerende egenskaber, der virker primært gennem hydroxycarboxylsyrereceptor 2 (HCA2/GPR109A).

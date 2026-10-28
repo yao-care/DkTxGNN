@@ -4,17 +4,17 @@ title: Alfacalcidol
 parent: Kun modelforudsigelse (L5)
 nav_order: 35
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alfacalcidol: forudsagt ny indikation Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion (evidensniveau L5). Oprindelig indikation: Hyperparathyroidisme, osteitis fibrosa, hypopar…"
+indication_count: 3
 monitor_inn: "ALFACALCIDOL"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "renal tubular acidosis"]
+predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+last_modified_at: 2026-10-27
+description: "Alfacalcidol: forudsagt ny indikation Kraniofacial konodysplasi (craniofacial conodysplasia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Alfacalcidol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,95 +33,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Alfacalcidol: Fra hyperparathyroidisme og renal osteodystrofi til familiær isoleret hypoparathyroidisme
+## Alfacalcidol: aktiv D-vitamin-analog → kraniofacial konodysplasi (craniofacial conodysplasia)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Alfacalcidol er en aktiveret form af D-vitamin (1-alfa-hydroxyleret prodrug), som oprindeligt anvendes ved hyperparathyroidisme, osteitis fibrosa, hypoparathyroidisme og renal osteodystrofi.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion**.
-Der er **ingen kliniske forsøg** og **ingen publikationer** specifikt for denne undergruppe. Forudsigelsen er i praksis en udvidelse af en eksisterende indikation og ikke egentlig repurposing.
-
----
+Alfacalcidol er en aktiv form af D-vitamin (en 1-alfa-hydroxyleret D-vitamin-analog), som påvirker calcium- og fosfatbalancen samt knoglemineraliseringen.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **kraniofacial konodysplasi (craniofacial conodysplasia)**.
+Der er **ingen kliniske forsøg og ingen publikationer** i de data, der er indsamlet til denne rapport, som understøtter denne forudsigelse.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hyperparathyroidisme, osteitis fibrosa, hypoparathyroidisme, renal osteodystrofi (fra videngrafen; den godkendte indikationstekst i den danske registrering er ikke tilgængelig) |
-| Foreslået ny indikation | Familiær isoleret hypoparathyroidisme på grund af nedsat PTH-sekretion |
-| TxGNN-forudsigelsesscore | 99,6 % |
-| Evidensniveau | L4 (L5 for flere af de øvrige forudsigelser) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (for den primære forudsigelse: forskningsspørgsmål, som kan fremmes med forbehold, hvis den betragtes som en udvidelse af den eksisterende indikation) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Kraniofacial konodysplasi (craniofacial conodysplasia) |
+| TxGNN-forudsigelsesscore | 0,9955 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Der foreligger aktuelt ingen detaljerede data om virkningsmekanismen. Alfacalcidol er en allerede aktiveret D-vitamin-analog, der omgår nyrernes 1-alfa-hydroxylering og påvirker calcium- og fosfatomsætning og knoglemineralisering.
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. På baggrund af kendt farmakologi er alfacalcidol en prodrug, der omdannes i leveren til calcitriol (aktivt D-vitamin) og dermed omgår det nyrerelaterede 1-alfa-hydroxylase-trin. Ved tilstande med PTH-mangel øger det calciumoptagelsen i tarmen og kan korrigere hypocalcæmi uafhængigt af PTH.
+Koblingen til en sjælden skeletal dysplasi som kraniofacial konodysplasi er kun plausibel i meget generel forstand. Der er ikke identificeret nogen specifik biologisk vej, der forbinder alfacalcidol med denne tilstand. Den høje score er en rent beregningsmæssig forudsigelse og bør tolkes med stor forsigtighed.
 
-Hypoparathyroidisme er allerede en af lægemidlets oprindelige indikationer. Den familiære isolerede form er en genetisk undergruppe af samme sygdom, så den mekanistiske sammenhæng er stærk. Den høje TxGNN-score afspejler hovedsageligt den eksisterende indikation.
+## Evidens fra kliniske forsøg
 
-**Øvrige forudsigelser i datasættet:**
-- **Renal tubulær acidose** (score 99,3 %, L4): Evidensen består udelukkende af kasuistikker om osteomalaci sekundært til renal tubulær acidose (ofte ved Sjögrens syndrom), hvor alfacalcidol indgik i et kombineret regime sammen med alkaliterapi. Gevinsten gælder knoglekomplikationen og ikke selve tubulærdefekten, og effekten kan ikke tilskrives alfacalcidol alene.
-- **Dahlberg-Borer-Newcomer syndrom** (score 99,6 %, L5): Der er sandsynligvis en navne- eller ontologifejl, da den fundne litteratur handler om Fanconi-Bickel syndrom, FGF23-relateret hypofosfatæmi, D-vitamin ved kronisk nyresygdom og mælk-alkali-syndrom. Ingen artikel kobler tydeligt lægemidlet til denne sygdom.
-- **Kraniofacial konodysplasi** og **akromesomel dysplasi, type Campailla-Martinelli** (scorer 99,6 % og 99,5 %, L5): Sjældne skeletdysplasier uden identificeret D-vitamin-mekanisme. Forudsigelserne bygger kun på afstand i videngrafen.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
+## Evidens fra litteraturen
 
-## Kliniske forsøg
-
-Der er aktuelt ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
-
----
-
-## Litteraturevidens
-
-For den primære forudsigelse (familiær isoleret hypoparathyroidisme) er der aktuelt ingen relateret litteratur. Nedenfor er de mest relevante publikationer for renal tubulær acidose:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [22740247](https://pubmed.ncbi.nlm.nih.gov/22740247/) | 2013 | Kasuistik | Modern Rheumatology | Osteomalaci ved renal tubulær acidose og Sjögrens syndrom behandlet med natriumbikarbonat, risedronat, alfacalcidol og prednisolon. Knogletætheden normaliseredes efter 24 måneder |
-| [11518137](https://pubmed.ncbi.nlm.nih.gov/11518137/) | 2001 | Kasuistik | Internal Medicine | Hurtig bedring af osteomalaci ved Sjögrens syndrom, leddegigt og type 1 renal tubulær acidose efter alkaliterapi og behandling med bl.a. alfacalcidol |
-| [33398781](https://pubmed.ncbi.nlm.nih.gov/33398781/) | 2021 | Kasuistik | CEN Case Reports | Osteomalaci ved atypisk renal tubulær acidose med D-vitaminmangel; patienten var behandlet med aktivt D-vitamin |
-| [28509074](https://pubmed.ncbi.nlm.nih.gov/28509074/) | 2012 | Kasuistik/review | CEN Case Reports | Osteomalaci sekundært til distal renal tubulær acidose ved Sjögrens syndrom med litteraturgennemgang |
-| [36412607](https://pubmed.ncbi.nlm.nih.gov/36412607/) | 2023 | Kasuistik/review | Kidney & Blood Pressure Research | Svær hypofosfatæmi som første tegn på renalt Fanconi-syndrom og distal renal tubulær acidose relateret til zoledronsyre |
-
-Øvrig litteratur knyttet til Dahlberg-Borer-Newcomer syndrom (fx [29545131](https://pubmed.ncbi.nlm.nih.gov/29545131/), et review fra 2018 om aktive D-vitaminanaloger ved kronisk nyresygdom) er kun indirekte relevant og understøtter ikke den navngivne sygdom.
-
----
+Der er i øjeblikket ingen relateret litteratur tilgængelig for den forudsagte indikation.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107070623 | Alfacalcidol "2care4" (2care4 ApS) | Bløde kapsler | Indikationsteksten er ikke tilgængelig |
+| 28107070623 | Alfacalcidol "2care4" | Bløde kapsler | Indikationstekst er ikke registreret i de lokale data |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedsovvejelser
-
-Der er ikke fundet data om interaktioner med andre lægemidler. Se det godkendte produktresumé (SmPC) for oplysninger om advarsler, kontraindikationer og interaktioner.
-
-Fra den indsamlede litteratur er der følgende relevante sikkerhedssignaler: Ved hypoparathyroidisme kan høje doser calcium og D-vitamin give calcium-alkali-syndrom med hypercalcæmi og nedsat nyrefunktion (PMID 31968342). Ved renal tubulær acidose kræver risikoen for hypercalciuri og nefrocalcinose monitorering.
-
----
+Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den primære forudsigelse er en udvidelse af en allerede eksisterende indikation (hypoparathyroidisme), hvor den mekanistiske sammenhæng er stærk, men uden specifik klinisk evidens for den familiære undergruppe. Dahlberg-Borer-Newcomer syndrom, kraniofacial konodysplasi og akromesomel dysplasi er alene baseret på modelforudsigelser (L5) uden understøttende data. Renal tubulær acidose har kun kasuistisk evidens for knoglekomplikationen (L4).
+Forudsigelsen bygger udelukkende på modellen (evidensniveau L5), uden kliniske forsøg, publikationer eller en identificeret mekanistisk forbindelse til kraniofacial konodysplasi.
 
-**For at komme videre kræves:**
-- Det godkendte produktresumé (SmPC) for Alfacalcidol "2care4" med indikationstekst, advarsler og kontraindikationer (en blokerende datamangel)
-- Data om virkningsmekanisme fra DrugBank
-- Verifikation af sygdomsnavnet "Dahlberg-Borer-Newcomer syndrom" (mulig ontologifejl)
-- Kliniske data eller retrospektive serier for familiær isoleret hypoparathyroidisme
-- En plan for monitorering af serumcalcium og -fosfat, nyrefunktion og calciumudskillelse i urinen
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA) og en konkret hypotese for, hvordan en D-vitamin-analog kan påvirke denne tilstand
+- Præklinisk eller litteraturbaseret evidens, der direkte omhandler kraniofacial konodysplasi
+- Sikkerhedsoplysninger fra produktresuméet, herunder advarsler og kontraindikationer
+- Vurdering af, om tilstanden (sjælden skeletal dysplasi) overhovedet er egnet til behandling med en D-vitamin-analog
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

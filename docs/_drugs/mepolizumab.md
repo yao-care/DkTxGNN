@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 530
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 monitor_inn: "Mepolizumab"
-predicted_indications: ["thrombocytopenia due to immune destruction", "thrombocytopenia due to immune destruction", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia"]
-description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (evidensniveau L4). Oprindelig indikation: Eosinofil pneumoni og pulmonal eosinofili (fra TxGNN-vidensgrafe"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Mepolizumab: Fra eosinofil lungebetændelse til trombocytopeni forårsaget af immunmedieret destruktion
+## Mepolizumab: Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -48,12 +48,12 @@ Evidensen er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Eosinofil pneumoni og pulmonal eosinofili (fra TxGNN-vidensgrafen; der er ikke angivet indikationstekst i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Trombocytopeni forårsaget af immunmedieret destruktion |
-| TxGNN-prædiktionsscore | 99,66 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) |
+| TxGNN-prædiktionsscore | 0.9966 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,10 +64,10 @@ Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsam
 
 Den eneste støtte for den nye indikation er en case report fra 2018. Her forsvandt en steroidresistent hypereosinofil immunforstyrrelse under behandling med mepolizumab sammen med anden behandling, og en samtidig trombotisk mikroangiopati blev bedre. Det antyder en mulig, indirekte sammenhæng, hvor eosinofildrevet immundysregulering bidrager til immunmedierede cytopenier.
 
-Der er imidlertid ingen etableret mekanisme, der forbinder IL-5-blokade med antistofmedieret nedbrydning af blodplader. Den høje score (0,997) er en beregnet forudsigelse og ikke klinisk validering.
+Der er imidlertid ingen etableret mekanisme, der forbinder IL-5-blokade med antistofmedieret nedbrydning af blodplader. Den høje score (0,9966) er en beregnet forudsigelse og ikke klinisk validering.
 
 Modellen foreslog også andre blodpladerelaterede tilstande, men de har endnu svagere støtte:
-- **Primær frigivelsesforstyrrelse af blodplader** (score 99,61 %): kun et review fra 2010 om hypereosinofilt syndrom, som ikke omhandler blodpladesygdomme.
+- **Primær frigivelsesforstyrrelse af blodplader** (score 0,9961): kun et review fra 2010 om hypereosinofilt syndrom, som ikke omhandler blodpladesygdomme.
 - **Pseudo-von Willebrand sygdom** (99,44 %), **autoimmun trombocytopeni** (99,33 %) og **Glanzmanns trombasteni** (99,28 %): ingen forsøg eller litteratur, og ingen plausibel rolle for IL-5-hæmning.
 
 ---

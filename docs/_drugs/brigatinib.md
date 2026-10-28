@@ -4,17 +4,17 @@ title: Brigatinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 130
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brigatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (ALK-positiv NSCLC)"
+indication_count: 9
 monitor_inn: "Brigatinib"
-predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "fibroma of lung", "fibroma of lung", "hamartoma of lung", "hamartoma of lung", "lung benign neoplasm", "lung benign neoplasm"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+last_modified_at: 2026-10-23
+description: "Brigatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft"
 ---
 
 # Brigatinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,9 +36,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Brigatinib: Fra ikke-småcellet lungekræft til gingival fibromatose
 {: .text-alpha }
 
-## Opsummering i en sætning
+## Kort resumé
 
-Brigatinib er en tyrosinkinasehæmmer, der oprindeligt anvendes til behandling af ikke-småcellet lungekræft (NSCLC). TxGNN-modellen forudsiger, at lægemidlet muligvis kan have effekt ved **gingival fibromatose** (tandkødsvækst), men der er **ingen kliniske forsøg** og **ingen publikationer** om denne indikation, så forudsigelsen hviler udelukkende på modellens score.
+Brigatinib er en tyrosinkinasehæmmer, som oprindeligt anvendes til behandling af ikke-småcellet lungekræft (NSCLC). Den øverst rangerede forudsigelse fra TxGNN-modellen er **gingival fibromatose**, men der er hverken kliniske forsøg eller publikationer, der undersøger brigatinib ved denne sygdom. Forudsigelsen bygger udelukkende på modellen.
 
 ---
 
@@ -46,53 +46,44 @@ Brigatinib er en tyrosinkinasehæmmer, der oprindeligt anvendes til behandling a
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft (ALK-positiv NSCLC) |
+| Oprindelig indikation | Ikke-småcellet lungekræft (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om brigatinibs detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Brigatinib er kendt som en multitarget-tyrosinkinasehæmmer (bl.a. ALK, EGFR og ROS1), og dens effekt ved ALK-positiv NSCLC er veldokumenteret.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Brigatinib er kendt som en hæmmer af tyrosinkinaser, herunder ALK, ROS1 og EGFR, og anvendes ved ALK-positiv lungekræft.
 
-Der er ikke dokumenteret nogen mekanistisk sammenhæng mellem disse kinasemål og gingival fibromatose. En mulig forbindelse til fibroproliferativ signalering er spekulativ. Den høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en valideret biologisk mekanisme. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et evidensbaseret fund.
-
-For fuldstændighedens skyld forudsiger modellen også andre indikationer med lignende høje scorer og samme evidensmangel: fibrom i lungen (99,86 %), hamartom i lungen (99,85 %), karcinom i lungehilus (99,85 %) og benign lungeneoplasi (99,85 %). Karcinom i lungehilus er sandsynligvis en anatomisk undertype af den eksisterende NSCLC-indikation og ikke egentlig repurposing.
+Der er ikke identificeret nogen mekanistisk forbindelse mellem disse mål og gingival fibromatose. Den høje score er en grafbaseret forudsigelse og afspejler ikke en påvist biologisk begrundelse. Sammenhængen mellem den oprindelige og den forudsagte indikation er ikke vurderet.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for gingival fibromatose.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur for gingival fibromatose.
-
-Bemærk: For den forudsagte indikation "benign lungeneoplasi" blev der fundet 20 publikationer, men de handler om brigatinib ved ALK-positiv NSCLC (en malign sygdom). Fundet skyldes sandsynligvis overlap i søgetermer. Eksempler er nedenfor; de understøtter kun den allerede eksisterende NSCLC-indikation og kan ikke tillægges værdi som repurposing-evidens.
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [34537440](https://pubmed.ncbi.nlm.nih.gov/34537440/) | 2021 | RCT | J Thorac Oncol | Endelige resultater fra fase 3-forsøget ALTA-1L: brigatinib vs. crizotinib ved ALK-positiv NSCLC |
-| [30280657](https://pubmed.ncbi.nlm.nih.gov/30280657/) | 2018 | RCT | N Engl J Med | Brigatinib var bedre end crizotinib hos ALK-hæmmer-naive patienter med ALK-positiv NSCLC |
-| [36038416](https://pubmed.ncbi.nlm.nih.gov/36038416/) | 2022 | RCT | Clin Lung Cancer | ALTA-1L: effekt og sikkerhed hos asiatiske vs. ikke-asiatiske patienter |
-| [39368244](https://pubmed.ncbi.nlm.nih.gov/39368244/) | 2024 | Meta-analyse | Lung Cancer | Netværksmetaanalyse af ALK-hæmmere (inkl. brigatinib) som førstelinjebehandling |
-| [29935304](https://pubmed.ncbi.nlm.nih.gov/29935304/) | 2018 | Fase 2 | J Thorac Oncol | Brigatinib hos patienter med alectinib-refraktær ALK-positiv NSCLC |
+Der er for øjeblikket ingen relateret litteratur tilgængelig for gingival fibromatose.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28105913017 | Alunbrig (Takeda Pharma A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+
+Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).
 
 ---
 
@@ -100,27 +91,20 @@ Bemærk: For den forudsagte indikation "benign lungeneoplasi" blev der fundet 20
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (tyrosinkinasehæmmer) |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytostatika/antineoplastiske lægemidler |
+| Klassifikation | Målrettet behandling (tyrosinkinasehæmmer) |
+| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
-- Aprepitant
-- Dexamethason
-- Clarithromycin
+- **Lægemiddelinteraktioner:** Der er fundet 100 registrerede interaktioner. Blandt de viste er følgende af alvorlighedsgrad **Major**: aprepitant, dexamethason og clarithromycin. Flere er af moderat grad, bl.a. famotidin, ranitidin, rabeprazol, metformin, pioglitazon, loperamid, morfin, cimetidin og cisaprid.
+- **Case report:** I litteraturen er der beskrevet et dødeligt tumorlysesyndrom under brigatinib hos en patient med ALK-positiv lungeadenokarcinom.
 
-Der er desuden en række **moderate** interaktioner, bl.a. med:
-- Syrehæmmende midler: famotidin, ranitidin, rabeprazol, cimetidin
-- Antidiabetika: acarbose, metformin, pioglitazon, alogliptin, albiglutid, canagliflozin, dapagliflozin, acetohexamid, chlorpropamid
-- Andre: loperamid, morfin, cisaprid, clotrimazol
-
-For øvrig sikkerhedsinformation (advarsler og kontraindikationer) henvises til det godkendte produktresumé (SmPC).
+For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -129,14 +113,23 @@ For øvrig sikkerhedsinformation (advarsler og kontraindikationer) henvises til 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for gingival fibromatose understøttes kun af en modelscore (evidensniveau L5), uden kliniske forsøg eller relevant litteratur og uden dokumenteret mekanistisk sammenhæng. Den eksisterende fase 3-evidens vedrører udelukkende ALK-positiv NSCLC.
+Forudsigelsen støttes hverken af kliniske forsøg eller litteratur, og der er ingen kendt mekanistisk forbindelse. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som er nødvendigt før sikkerhedsscreening
-- Præklinisk eller mekanistisk evidens for, at brigatinibs kinasemål driver fibroproliferation i tandkødet
-- Gennemgang af, om kræftmidlets toksicitetsprofil kan retfærdiggøres ved en benign tilstand
-- Vurdering af administrationsvej og dosering, da der kun findes oral tablet
+- Data om virkningsmekanismen (MOA)
+- Sikkerhedsoplysninger fra produktresuméet, da advarsler og kontraindikationer mangler
+- Biologisk eller præklinisk belæg for, at brigatinibs målmolekyler spiller en rolle ved gingival fibromatose
+- Den danske indikationstekst for Alunbrig til sammenligning
+
+---
+
+## Andre forudsagte indikationer (kort)
+
+Øvrige forudsigelser i de indsamlede data har samme grundlæggende svaghed:
+
+- **Fibrom i lunge, hamartom i lunge, benign lungetumor, pulmonær sulcus-neoplasi, junktional epidermolysis bullosa og inklusionslegememyopati med Paget-sygdom:** kun modelforudsigelse (L5). For benign lungetumor handler de fundne publikationer om ALK-positiv NSCLC og ikke om benigne tumorer.
+- **Lungegermcelletumor:** Litteraturen omfatter ALK-drevne tumorer uden for NSCLC (neuroblastom, fæokromocytom, storcellet neuroendokrint karcinom), men intet direkte om denne sygdom. Det er ikke påvist, at germcelletumorer har ALK-forandringer.
+- **Leukomelanoderma-infantilisme-syndromet:** Litteraturen handler om NF2-relateret schwannomatose, en anden sygdom, hvor brigatinib har præklinisk og en tidlig klinisk rapport (NEJM 2024). Evidensen skal gen-kurateres, før der drages konklusioner for det nævnte syndrom.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

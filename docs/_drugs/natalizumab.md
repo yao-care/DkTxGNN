@@ -4,17 +4,17 @@ title: Natalizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 577
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Natalizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
 monitor_inn: "NATALIZUMAB"
-predicted_indications: ["bronchitis", "bronchitis", "parapsoriasis", "parapsoriasis", "psoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis", "acute lichenoid pityriasis"]
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Natalizumab: Fra Crohns sygdom og multipel sklerose til bronkitis
+## Natalizumab: Bronkitis (bronchitis)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Crohns sygdom, inflammatorisk tarmsygdom, multipel sklerose (angivet i vidensgrafen; indikationsteksten i den danske tilladelse er tom) |
-| Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,46 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bronkitis (bronchitis) |
+| TxGNN-forudsigelsesscore | 0.9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Natalizumab er kendt for at blokere alfa-4-integrin-medieret transport af leukocytter (hvide blodlegemer) ind i væv. Denne mekanisme er relevant ved de oprindelige indikationer, hvor betændelsesceller trænger ind i henholdsvis tarm og centralnervesystem.
 
-Den mekanistiske tanke bag forudsigelsen er, at en reduceret rekruttering af inflammatoriske celler til luftvejsvæv teoretisk kunne dæmpe bronkitis. Der er dog hverken kliniske eller litteraturbaserede holdepunkter for dette, og lægemidlets immunsupprimerende virkning kan tværtimod øge risikoen for luftvejsinfektioner. TxGNN-scoren (0,995) er en ren beregningsmæssig forudsigelse.
+Den mekanistiske tanke bag forudsigelsen er, at en reduceret rekruttering af inflammatoriske celler til luftvejsvæv teoretisk kunne dæmpe bronkitis. Der er dog hverken kliniske eller litteraturbaserede holdepunkter for dette, og lægemidlets immunsupprimerende virkning kan tværtimod øge risikoen for luftvejsinfektioner. TxGNN-scoren (0,9946) er en ren beregningsmæssig forudsigelse.
 
 ---
 
@@ -118,10 +118,10 @@ Forudsigelsen for bronkitis bygger udelukkende på en beregningsmodel uden klini
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Kommentar |
 |------|------|------|------|------|
-| Parapsoriasis | 99,37 % | L4 | Hold | Kun én case-rapport (PMID 32470781), som beskriver en hudbivirkning, ikke en terapeutisk effekt |
-| Psoriasis | 99,19 % | L4 | Forskningsspørgsmål | Modstridende litteratur: en serie på 18 patienter viser bedring (PMID 33589543), mens flere case-rapporter beskriver udløsning eller forværring |
-| Svær non-proliferativ diabetisk retinopati | 99,18 % | L5 | Hold | Ingen evidens; PML-risiko gør risiko-nytte-forholdet ugunstigt |
-| Akut lichenoid pityriasis | 99,04 % | L4 | Hold | Kun den samme case-rapport (PMID 32470781), som beskriver en bivirkning |
+| Parapsoriasis | 0,9937 | L5 | Hold | Kun én case-rapport (PMID 32470781), som beskriver en hudbivirkning, ikke en terapeutisk effekt |
+| Psoriasis | 0,9919 | L4 | Forskningsspørgsmål | Modstridende litteratur: en serie på 18 patienter viser bedring (PMID 33589543), mens flere case-rapporter beskriver udløsning eller forværring |
+| Svær non-proliferativ diabetisk retinopati | 0,9918 | L5 | Hold | Ingen evidens; PML-risiko gør risiko-nytte-forholdet ugunstigt |
+| Akut lichenoid pityriasis | 0,9904 | L5 | Hold | Kun den samme case-rapport (PMID 32470781), som beskriver en bivirkning |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

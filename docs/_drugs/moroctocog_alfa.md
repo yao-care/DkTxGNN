@@ -4,17 +4,17 @@ title: Moroctocog Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 567
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Moroctocog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
+indication_count: 8
 monitor_inn: "MOROCTOCOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "acquired coagulation factor deficiency", "Scott syndrome", "Scott syndrome"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-23
+description: "Moroctocog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,11 +36,10 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Moroctocog alfa: Fra hæmofili til primær frigivelsesforstyrrelse af blodplader
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Moroctocog alfa er rekombinant human koagulationsfaktor VIII (B-domæne-deleteret), som oprindeligt anvendes til behandling af hæmofili.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**,
-men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen hviler alene på modellen.
+Moroctocog alfa er en rekombinant koagulationsfaktor VIII (B-domæne-deleteret), som er knyttet til hæmofili og til symptomatisk hæmofili hos kvindelige bærere. Dens ordinære anvendelse i Danmark dokumenteres her via ét markedsført præparat (ReFacto), men der er ikke indikationstekst i de foreliggende data.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivelsesforstyrrelse af blodplader**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor ren modelgenereret.
 
 ---
 
@@ -48,58 +47,63 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, s
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hæmofili (jf. vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
+| Oprindelig indikation | Hæmofili (relation registreret i vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
 | Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN-prædiktionsscore | 99,97 % |
+| TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Moroctocog alfa er rekombinant faktor VIII, som erstatter manglende faktor VIII i koagulationskaskaden og anvendes ved hæmofili.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Moroctocog alfa er dog en rekombinant faktor VIII med deleteret B-domæne, som indgår i det intrinsiske tenasekompleks i den sekundære hæmostase og erstatter manglende faktor VIII.
 
-Primære frigivelsesforstyrrelser af blodplader er kvalitative defekter i trombocytfunktionen (nedsat granulesekretion og signalering). De skyldes ikke mangel på faktor VIII. Tilførsel af faktor VIII forventes derfor ikke at korrigere den iboende trombocytdefekt. Den høje score afspejler sandsynligvis, at sygdommene ligger tæt på hinanden i vidensgrafen som "blødningssygdomme", snarere end en reel mekanistisk sammenhæng.
+Primære frigivelsesforstyrrelser af blodplader (defekter i lagring og sekretion) er fejl i den primære hæmostase. Erstatning af faktor VIII forventes derfor ikke mekanistisk at rette op på dem. Den høje score skyldes sandsynligvis grafnærhed, fordi sygdommene deler knudepunkter med andre blødningssygdomme, og ikke en reel mekanistisk sammenhæng.
 
 ### Øvrige forudsagte indikationer
 
-Modellen foreslog også følgende. Alle har evidensniveau L5 og anbefalingen Hold:
+Modellen foreslog yderligere kandidater. Ingen af dem har kliniske forsøg eller litteratur i datagrundlaget:
 
-| Sygdom | Score | Vurdering |
-|------|------|------|
-| Pseudo-von Willebrands sygdom | 99,97 % | Teoretisk forbindelse via VWF-FVIII-aksen, men årsagen er øget GPIbα-funktion i blodpladerne. Standardbehandling er trombocyttransfusion, og FVIII-substitution adresserer ikke defekten. |
-| Glanzmanns trombasteni | 99,96 % | Skyldes manglende eller dysfunktionelt integrin αIIbβ3. FVIII er normal, så der er ingen mekanistisk begrundelse. Etablerede muligheder er trombocyttransfusion, antifibrinolytika og rekombinant faktor VIIa. |
-| Erhvervet koagulationsfaktormangel | 99,88 % | Mekanistisk mest plausibel, især ved erhvervet hæmofili A. Her er autoantistoffer mod FVIII dog årsagen, og førstevalg er bypassing-midler (rFVIIa, aPCC) eller porcint FVIII med immunsuppression. Begrebet er bredt og dækker flere faktormangler, som FVIII alene ikke afhjælper. |
-| Scotts syndrom | 99,86 % | Skyldes defekt fosfatidylserin-eksponering (TMEM16F/ANO6). FVIII er normal; sammenhængen er svag og spekulativ. |
+| Rang | Sygdom | Score | Vurdering |
+|---|---|---|---|
+| 2 | Pseudo-von Willebrands sygdom | 0,9997 | Kerneproblemet er trombocytbaseret (GP1BA-varianter); kun en indirekte, teoretisk kobling via VWF. |
+| 3 | Glanzmanns trombasteni | 0,9996 | Defekt i integrin αIIbβ3; faktor VIII retter ikke aggregationsdefekten. Standardbehandling er trombocyttransfusion og rekombinant FVIIa. |
+| 4 | Erhvervet koagulationsfaktormangel | 0,9988 | Mekanistisk mest plausibel (fx erhvervet hæmofili A), men hæmmende autoantistoffer neutraliserer ofte infunderet FVIII, og bypass-midler er standard. Kategorien er bred og uensartet. Betragtes som et forskningsspørgsmål. |
+| 5 | Scott syndrom | 0,9986 | Defekt i fosfatidylserin-eksponering (TMEM16F/ANO6); FVIII-tilgængelighed er ikke den begrænsende faktor. |
+| 6 | Blødningstendens pga. kollagenreceptordefekt | 0,9973 | Defekt i trombocytadhæsion og -aktivering (primær hæmostase). |
+| 7 | Blødningssygdom pga. konstitutionel trombocytopeni | 0,9972 | Defekt i trombocyttal eller -produktion; FVIII korrigerer ikke dette. |
+| 8 | "Flood factor deficiency" | 0,9911 | Ikke et anerkendt sygdomsnavn, muligvis en ontologi- eller navngivningsartefakt. Kan ikke vurderes, før entiteten er kurateret. |
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28103002398 | ReFacto (Pfizer Europe MA EEIG) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28103002398 | ReFacto (Pfizer Europe MA EEIG) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de foreliggende data |
+
+Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. I de indsamlede data er der ikke fundet registrerede lægemiddelinteraktioner, og vidensgrafen indeholder ingen kontraindikationer for dette lægemiddel.
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -108,13 +112,13 @@ Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modelforudsigelse (L5) uden kliniske forsøg eller litteratur. Den mekanistiske sammenhæng er svag eller fraværende for de fleste af de foreslåede sygdomme, og der findes etablerede behandlinger, som målrettet adresserer de underliggende defekter.
+Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og mekanismen (substitution af faktor VIII) passer ikke til en defekt i trombocytfunktionen. Den høje score afspejler sandsynligvis grafnærhed.
 
-**For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA), f.eks. fra DrugBank
-- Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
-- Præklinisk eller klinisk evidens for, at FVIII-substitution har gavn ved den forudsagte sygdom
-- Hvis man vil arbejde videre med en af forudsigelserne, bør erhvervet koagulationsfaktormangel (specifikt erhvervet hæmofili A) vurderes først, herunder betydningen af hæmmende antistoffer
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
+- Kuratering af sygdomsnavnet "flood factor deficiency" mod kildeontologien
+- Hvis der ønskes videre udforskning, bør "erhvervet koagulationsfaktormangel" undersøges som et forskningsspørgsmål med en systematisk litteratursøgning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

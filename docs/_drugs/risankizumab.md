@@ -5,10 +5,10 @@ parent: Høj evidens (L1-L2)
 nav_order: 725
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Risankizumab: forudsagt ny indikation Dermatitis (primært atopisk dermatitis i de identificerede studier) (evidensniveau L2). Oprindelig indikation: Psoriasis og parapsoriasis"
 monitor_inn: "RISANKIZUMAB"
-predicted_indications: ["dermatitis", "dermatitis", "neonatal dermatomyositis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans", "acne keloid", "acne keloid"]
+predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+last_modified_at: 2026-10-23
+description: "Risankizumab: forudsagt ny indikation Dermatitis (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Risankizumab
@@ -33,99 +33,86 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Risankizumab: Fra psoriasis til dermatitis
+## Risankizumab: Dermatitis
 {: .text-alpha }
 
-## Enkelt oversigtssætning
+## Resumé
 
-Risankizumab (Skyrizi) er et humaniseret monoklonalt antistof mod p19-underenheden af IL-23, oprindeligt anvendt til behandling af psoriasis.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **dermatitis**, men understøttelsen er svag: der findes **2 kliniske forsøg** (heraf kun ét direkte relevant, og det peger i negativ retning) og **20 publikationer**, hvoraf hovedparten er case-rapporter og oversigtsartikler.
-
----
+Risankizumab er et monoklonalt antistof, der blokerer IL-23 (p19-underenheden). TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **dermatitis** (score 0.9998); scoren stammer fra modellen og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der foreligger **2 kliniske forsøg** (heraf 1 afsluttet fase 2-forsøg direkte i atopisk dermatitis) og **20 publikationer**. Evidensen er dog begrænset for dermatitis som helhed.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psoriasis og parapsoriasis (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Dermatitis (primært atopisk dermatitis i de identificerede studier) |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Dermatitis |
+| TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 nationalt markedsføringstilladelse |
+| Anbefalet beslutning | Hold (afvent, forskningsspørgsmål) |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er forudsigelsen rimelig – og hvorfor er den svag?
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Risankizumab er et humaniseret IgG-antistof, der selektivt blokerer p19-underenheden af IL-23. IL-23 driver Th17-medieret inflammation ved psoriasis.
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Risankizumab er dog kendt som en selektiv hæmmer af IL-23 p19-underenheden, som hæmmer den Th17-drevne inflammation, der driver psoriasis.
+Atopisk dermatitis er overvejende Th2-drevet, så den mekanistiske overlapning er kun delvis. Den er mest relevant ved psoriasiforme eller blandede fænotyper. Et fase 2-forsøg tester hypotesen direkte, og kasuistikker om kombination med dupilumab ved samtidig atopisk dermatitis og psoriasis antyder en nicherolle i overlapfænotyper.
 
-Atopisk dermatitis er overvejende Th2-drevet, så det mekanistiske overlap er begrænset. IL-23/Th17-veje kan bidrage i visse undertyper (f.eks. kroniske former, asiatiske eller psoriasiforme eksemfænotyper) og hos patienter med samtidig psoriasis og atopisk dermatitis.
+Den meget høje score (0,9998) afspejler sandsynligvis et delt netværk af inflammatoriske hudsygdomme med psoriasis og bør ikke læses som klinisk effekt. Der er desuden rapporteret paradoksal eksem under behandling med IL-23-hæmmere, herunder risankizumab.
 
-Det fase 2-forsøg, der direkte har testet risankizumab ved atopisk dermatitis (PMID 36588137), viste ikke meningsfuld effekt i forhold til placebo. Den meget høje TxGNN-score afspejler netværksnærhed til psoriasis i vidensgrafen og bør ikke læses som klinisk validering.
+## Evidens fra kliniske forsøg
 
----
-
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Fase 2 | Afsluttet | 172 | Randomiseret, dobbeltblindet, placebokontrolleret forsøg med risankizumab ved moderat til svær atopisk dermatitis hos voksne og unge. Den publicerede rapport tyder på manglende meningsfuld effekt over placebo. |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Rekrutterer endnu ikke | 10 | Test af en mikroenhed på størrelse med et riskorn, der afgiver små lægemiddelmængder i huden ved atopisk dermatitis og psoriasis. Metodeforsøg uden effektresultater; minimal evidensværdi. |
-
----
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Fase 2 | Afsluttet | 172 | Randomiseret, placebokontrolleret, dobbeltblindet forsøg med risankizumab ved moderat til svær atopisk dermatitis hos voksne og unge. Effektresultatet kan ikke bekræftes ud fra de tilgængelige data. |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Rekrutterer endnu ikke | 10 | Test af en mikroenhed til lokal afprøvning af lægemidler ved atopisk dermatitis og psoriasis. Metodisk studie, ingen effektevidens for risankizumab. |
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Fase 2-studie af risankizumab ved moderat til svær atopisk dermatitis; ingen meningsfuld effekt over placebo. |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematisk oversigt | Am J Clin Dermatol | Systemisk behandling af erytrodermisk psoriasis. |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematisk oversigt | Inflammopharmacology | Interleukinhæmmeres rolle ved lichen planus, både terapeutiske og paradoksale effekter. |
-| [41822639](https://pubmed.ncbi.nlm.nih.gov/41822639/) | 2026 | Systematisk oversigt | Cureus | Kardiovaskulære udfald ved biologisk behandling af inflammatoriske hudsygdomme. |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kohorte | Int J Dermatol | Kombineret dupilumab og risankizumab ved samtidig atopisk dermatitis og psoriasis. |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Oversigt | Drugs | Første globale godkendelse af risankizumab (psoriasis, psoriasisartrit m.fl.). |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Oversigt | Children (Basel) | Biologiske og målrettede småmolekylebehandlinger ved pædiatrisk alopecia areata, psoriasis, atopisk dermatitis og hidradenitis suppurativa. |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Oversigt | Expert Opin Biol Ther | Nuværende og kommende biologiske lægemidler ved pædiatrisk atopisk dermatitis. |
-| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Case-rapport | Dermatology Reports | Upadacitinib ved paradoksalt eksem udløst af IL-23-hæmmere (incidens anslået til 1-3 % hos psoriasispatienter). |
-| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Case-rapport | Eur J Dermatol | Eksematøs udbrud hos psoriasispatienter under risankizumab. |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Fase 2, randomiseret, dobbeltblindet, placebokontrolleret studie af risankizumab ved moderat til svær atopisk dermatitis. |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematisk review | Am J Clin Dermatol | Systemisk behandling af erytrodermisk psoriasis. |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematisk review | Inflammopharmacology | Interleukinhæmmeres terapeutiske og paradoksale effekter ved lichen planus. |
+| [41822639](https://pubmed.ncbi.nlm.nih.gov/41822639/) | 2026 | Systematisk review | Cureus | Kardiovaskulære udfald ved biologisk behandling af inflammatoriske hudsygdomme. |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Review | Children | Biologiske og målrettede småmolekylebehandlinger til pædiatrisk alopecia areata, psoriasis, atopisk dermatitis og hidradenitis suppurativa. |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Review | Drugs | Første globale godkendelse af risankizumab (Japan 2019, psoriasis). |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kasuistik/serie | Int J Dermatol | Kombination af dupilumab og risankizumab ved samtidig atopisk dermatitis og psoriasis. |
+| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Kasuistik/serie | Dermatology Reports | Upadacitinib ved paradoksal eksem fremkaldt af IL-23-hæmmere. |
+| [36939506](https://pubmed.ncbi.nlm.nih.gov/36939506/) | 2023 | Kasuistik | Ital J Dermatol Venereol | Eksemlignende udbrud under behandling med risankizumab. |
+| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Kasuistik/serie | Eur J Dermatol | Eksemlignende udbrud hos psoriasispatienter under risankizumab. |
 
-Bemærk: Flere af case-rapporterne beskriver eksem som en *bivirkning* under risankizumab, hvilket ikke understøtter, men snarere modsiger, den forudsagte indikation. Enkelte case-rapporter beskriver dog succesfuld behandling af acrodermatitis continua Hallopeau (en pustuløs psoriasisvariant) med risankizumab.
+## Information om det danske marked
 
----
 
-## Markedsinformation for Danmark
+## Cytotoksicitet
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107032223 | Skyrizi (AbbVie Deutschland GmbH & Co. KG) | Injektionsvæske, opløsning i cylinderampul | Indikationstekst ikke angivet i de indsamlede data |
-
----
+Risankizumab er et biologisk immunmodulerende lægemiddel og ikke et antineoplastisk middel. Afsnittet er derfor udeladt.
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret i alt 78 interaktioner. Blandt de oplistede er følgende af størst betydning:
-- **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, cladribin (additiv immunsuppression).
-- **Moderate:** roflumilast, tacrolimus, azathioprin, ciclosporin, alefacept, alemtuzumab, anakinra, canakinumab, denosumab samt visse vacciner (tetanustoksoid, miltbrandvaccine, levende kolera-vaccine).
-- **Mindre (Minor):** zinksalte (sulfat, acetat, gluconat, chlorid).
+- **Lægemiddelinteraktioner:** 78 interaktioner er registreret. De vigtigste er:
+  - **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, cladribin.
+  - **Moderate:** bl.a. roflumilast, tacrolimus, azathioprin, ciclosporin, anakinra, canakinumab, denosumab, alefacept, alemtuzumab samt visse vacciner (tetanustoksoid, miltbrandvaccine, levende kolera-vaccine).
+  - **Mindre (Minor):** zinksalte.
 
-Øvrige advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+For øvrige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Det eneste direkte forsøg (fase 2, NCT03706040) viste ikke meningsfuld effekt ved atopisk dermatitis, og den mekanistiske sammenhæng er svag, da sygdommen primært er Th2-drevet. Den høje TxGNN-score afspejler nærhed til psoriasis i netværket, ikke klinisk validering.
-- De øvrige forudsagte indikationer (neonatal dermatomyositis, amyopatisk dermatomyositis, acrodermatitis chronica atrophicans, acne keloid) har ingen kliniske forsøg eller litteratur (L5) og er alene beregningsmæssige forudsigelser.
+Der findes ét afsluttet, placebokontrolleret fase 2-forsøg i atopisk dermatitis, men effektresultatet er ikke bekræftet i de tilgængelige data. Mekanismen er kun delvist overlappende, da sygdommen er Th2-drevet, og der er rapporteret paradoksal eksem under IL-23-hæmmere. Der er ikke grundlag for at gå videre uden yderligere dokumentation.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikationstekst).
-- Detaljerede data om virkningsmekanisme fra DrugBank.
-- Eventuelt en afgrænset undersøgelse af undergrupper (f.eks. patienter med samtidig psoriasis og atopisk dermatitis eller psoriasiforme eksemfænotyper), før yderligere investering overvejes.
+**For at komme videre kræves følgende:**
+- Gennemgang af de publicerede effektresultater fra fase 2-forsøget (PMID 36588137) og afklaring af, om et fase 3-program er planlagt.
+- Data om virkningsmekanisme (MOA) og overvejelse af, hvilke dermatitis-fænotyper (fx psoriasiforme eller blandede) der kan have gavn.
+- Indhentning af produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen.
+- Vurdering af risikoen for paradoksal eksem og af kombinationer med andre immunmodulerende midler.
+
+Øvrige forudsigelser (bl.a. neonatal dermatomyositis, pityriasis lichenoides og akut lichenoid pityriasis) har kun modelstøtte uden kliniske forsøg eller litteratur (L5) og anbefales ikke fulgt op på nuværende tidspunkt.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tagraxofusp: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: CD4+/CD56+ hæmatodermisk neoplasi"
 monitor_inn: "Tagraxofusp"
-predicted_indications: ["esotropia", "esotropia", "pre-malignant neoplasm", "pre-malignant neoplasm", "inner ear neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "benign neoplasm of tongue", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation"]
+predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "ductal or ductular proliferation", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "cystic neoplasm", "thyroglossal duct cyst"]
+last_modified_at: 2026-10-23
+description: "Tagraxofusp: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: CD4+/CD56+ hæmatodermal neoplasi"
 ---
 
 # Tagraxofusp
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tagraxofusp: Fra CD4+/CD56+ hæmatodermisk neoplasi til esotropi
+## Tagraxofusp: Fra CD4+/CD56+ hæmatodermal neoplasi til esotropi
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Tagraxofusp er et CD123-rettet cytotoksisk fusionsprotein (difteritoksin koblet til IL-3), som oprindeligt anvendes mod CD4+/CD56+ hæmatodermisk neoplasi. TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **esotropi**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen er udelukkende modelbaseret.
+Tagraxofusp blev oprindeligt knyttet til behandling af CD4+/CD56+ hæmatodermal neoplasi. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **esotropi** (score 0.9973). Scoren kommer fra TxGNN-modellen og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er derfor udelukkende beregningsbaseret.
 
 ---
 
@@ -46,43 +46,45 @@ Tagraxofusp er et CD123-rettet cytotoksisk fusionsprotein (difteritoksin koblet 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | CD4+/CD56+ hæmatodermisk neoplasi (fra vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
+| Oprindelig indikation | CD4+/CD56+ hæmatodermal neoplasi (relation registreret i vidensgrafen; den danske tilladelse indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Esotropi |
-| TxGNN-forudsigelsesscore | 99,73 % |
+| TxGNN-forudsigelsesscore | 0,9973 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen viden er tagraxofusp rettet mod CD123 (IL-3-receptorens alfa-kæde) og dræber CD123-udtrykkende maligne celler via difteritoksinets hæmning af proteinsyntesen.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme i de sammenstillede data. Tagraxofusp er imidlertid kendt som et CD123-rettet cytotoksisk fusionsprotein (interleukin-3 koblet til et difteritoksin), som dræber celler, der udtrykker CD123.
 
-Esotropi er en øjenmotorisk fejlstilling (indadvendt skelen) uden kendt CD123-drevet patologi. Der er derfor ikke identificeret nogen plausibel mekanistisk forbindelse mellem den oprindelige indikation og den forudsagte. Den høje score (0,997) er alene et grafbaseret resultat og er ikke understøttet af biologisk rationale.
+Esotropi er en forstyrrelse af øjets stilling (neuromuskulær eller refraktiv) uden kendt CD123-drevet patologi. Der kan ikke identificeres en plausibel mekanistisk forbindelse mellem den oprindelige relation (en CD123-udtrykkende hæmatologisk neoplasi) og esotropi. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Øvrige forudsigelser med tilsvarende høj score er ligeledes uden evidens og mekanistisk understøttelse: præmalign neoplasi (usikkert og spekulativt, da kategorien er uspecifik), indre øre-neoplasi, benign tungeneoplasi, bronkiale adenomer/karcinoider hos børn og duktal/duktulær proliferation. I det sidste tilfælde giver lægemidlets kendte levertoksicitet snarere anledning til sikkerhedsbekymring end til terapeutisk begrundelse.
+Øvrige forudsigelser på listen (f.eks. præ-maligne neoplasmer, benigne tumorer i tungen, thyreoglossal duktuscyste) har heller ingen understøttende evidens. Kun "præ-malign neoplasi" har en svag, indirekte begrundelse via CD123-overekspression i visse myeloide tilstande, men kategorien er uspecifik, og en systemisk cytotoksisk behandling med risiko for kapillærlækagesyndrom er vanskelig at retfærdiggøre.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger på nuværende tidspunkt ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106216619 | ELZONRIS (Stemline Therapeutics B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28106216619 | ELZONRIS (Stemline Therapeutics B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data |
+
+Tilladelsen er en enkeltstofsregistrering med status gyldig.
 
 ---
 
@@ -90,27 +92,27 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet cytotoksisk fusionsprotein (CD123-rettet) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Ud fra kendt toksicitetsprofil: leverenzymer (transaminaser), albumin; se i øvrigt SmPC |
-| Håndteringsbeskyttelse | Se SmPC og gældende regler for håndtering af cytotoksiske lægemidler |
+| Klassifikation | Målrettet cytotoksisk fusionsprotein (CD123-rettet) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC), herunder lever- og nyrefunktion samt tegn på kapillærlækagesyndrom |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
+
+Der foreligger ingen toksicitetsdata i de sammenstillede data; se advarsler og forsigtighedsregler i SmPC.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke indhentet godkendt produktinformation om advarsler og kontraindikationer. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation. Almen viden om lægemidlet peger på risiko for kapillærlækagesyndrom og levertoksicitet (forhøjede transaminaser, hypoalbuminæmi).
+Der foreligger ingen advarsler eller kontraindikationer i de sammenstillede data. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-**Lægemiddelinteraktioner:** Der er identificeret 66 mulige interaktioner. De viste interaktioner er alle klassificeret som **moderate** og omfatter primært antidiabetika:
-
-- Biguanider og andre orale antidiabetika: metformin, pioglitazon, acarbose, glimepirid, chlorpropamid
-- DPP-4-hæmmere: alogliptin, saxagliptin, linagliptin
-- SGLT2-hæmmere: canagliflozin, dapagliflozin, empagliflozin
-- GLP-1-receptoragonister: albiglutid, dulaglutid, semaglutid
-- Insuliner: insulin aspart, degludec, detemir, glargin, glulisin, humant isophan-insulin
-
-Blodsukkeret bør følges nøje ved samtidig brug.
+- **Lægemiddelinteraktioner**: Der er identificeret 66 mulige interaktioner, hvoraf de viste alle er klassificeret som *moderate*. De omfatter hovedsageligt antidiabetika, bl.a.:
+  - Metformin, pioglitazon, glimepirid, chlorpropamid
+  - DPP-4-hæmmere (alogliptin, saxagliptin, linagliptin)
+  - SGLT2-hæmmere (canagliflozin, dapagliflozin, empagliflozin)
+  - GLP-1-agonister (semaglutid, dulaglutid, albiglutid)
+  - Insuliner (aspart, degludec, detemir, glargin, glulisin, humant isofan)
+  - Acarbose
 
 ---
 
@@ -119,13 +121,13 @@ Blodsukkeret bør følges nøje ved samtidig brug.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om esotropi bygger udelukkende på en grafbaseret modelscore uden kliniske forsøg, litteratur eller plausibel mekanistisk forbindelse (evidensniveau L5). Lægemidlets alvorlige toksicitetsrisici gør desuden anvendelse uden en klar biologisk rationale uforsvarlig.
+Forudsigelsen om esotropi bygger alene på en modelscore uden kliniske forsøg, litteratur eller plausibel mekanisme. Risikoprofilen for et systemisk cytotoksisk middel er ugunstig for en ikke-malign øjentilstand.
 
-**For at komme videre kræves følgende:**
-- Dokumentation for en biologisk sammenhæng mellem CD123 og esotropi (eller en af de øvrige forudsagte sygdomme)
-- Fuldstændige data om virkningsmekanisme (MOA)
-- Produktresuméet fra Lægemiddelstyrelsen med advarsler og kontraindikationer, da disse mangler og blokerer for sikkerhedsvurdering
-- Præklinisk evidens, før kliniske studier overvejes
+**For at komme videre kræves:**
+- Data om virkningsmekanisme, der kan påvise en biologisk forbindelse til esotropi
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Prækliniske eller kliniske studier, der direkte undersøger den forudsagte sygdom
+- En vurdering af, om andre forudsigelser (f.eks. præ-maligne myeloide tilstande) er mere relevante at forfølge
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

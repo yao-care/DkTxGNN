@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ethambutol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 331
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ethambutol: forudsagt ny indikation Epiglottitis (evidensniveau L4). Oprindelig indikation: Pulmonal tuberkulose"
@@ -14,7 +14,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 # Ethambutol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **epiglottitis**, men der 
 |------|------|
 | Oprindelig indikation | Pulmonal tuberkulose |
 | Forudsagt ny indikation | Epiglottitis |
-| TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| TxGNN-forudsigelsesscore | 0,9990 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

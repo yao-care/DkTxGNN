@@ -6,7 +6,7 @@ nav_order: 806
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
+description: "Tenofovir Alafenamide: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -50,10 +50,10 @@ Forudsigelsen støttes af **8 publikationer** (udelukkende prækliniske studier 
 |------|------|
 | Oprindelig indikation | HIV-infektion og AIDS (indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

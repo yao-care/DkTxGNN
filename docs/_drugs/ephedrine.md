@@ -4,17 +4,17 @@ title: Ephedrine
 parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, bronkitis, faryngitis…"
 monitor_inn: "ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Ephedrin: Fra allergisk rhinitis til sygdom i næsehulen
+## Ephedrine: Sygdom i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er kun **0 registrerede kliniske forsøg** og **2 ældre publikationer m
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, bronkitis, faryngitis, forkølelse (fra vidensgrafen; der er ingen godkendt indikationstekst for det danske præparat) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -118,7 +118,7 @@ Forudsigelsen er mekanistisk plausibel, men der er ingen kliniske forsøg og kun
 
 ---
 
-*Bemærk: To øvrige forudsigelser (akut laryngopharyngitis, score 99,90 %, og trigeminal autonom cephalalgi, score 99,34 %) har kun evidensniveau L5 uden forsøg eller litteratur og anbefales også sat på hold. Ved trigeminal autonom cephalalgi kan ephedrins pressor- og stimulerende virkning desuden potentielt forværre hovedpine.*
+*Bemærk: To øvrige forudsigelser (akut laryngopharyngitis, score 0,9990, og trigeminal autonom cephalalgi, score 0,9934) har kun evidensniveau L5 uden forsøg eller litteratur og anbefales også sat på hold. Ved trigeminal autonom cephalalgi kan ephedrins pressor- og stimulerende virkning desuden potentielt forværre hovedpine.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

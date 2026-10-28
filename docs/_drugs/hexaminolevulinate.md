@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **bronkitis**, men der er 
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendt indikationstekst for Hexvix er tom) |
 | Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

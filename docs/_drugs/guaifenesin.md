@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Guaifenesin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 402
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Guaifenesin: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse…"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["nasal cavity disease", "nasal cavity disease", "acute laryngopharyngitis", "acute laryngopharyngitis", "faucial diphtheria", "faucial diphtheria", "cervical disc degenerative disorder", "cervical disc degenerative disorder", "papillary conjunctivitis", "papillary conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+description: "Guaifenesin: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Guaifenesin: Fra øvre luftvejslidelser til sygdom i næsehulen
+## Guaifenesin: Sygdom i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en o
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse, rhinitis, nasofaryngitis, hovedpine (fra TxGNN-vidensgrafen; ingen godkendt indikationstekst er tilgængelig for det danske produkt) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9998 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Sygdom i næsehulen overlapper tæt med de kendte indikationer (allergisk rhinitis, vasomotorisk rhinitis, rhinitis og forkølelse). Forudsigelsen er derfor plausibel, men den er snarere en udvidelse af nuværende brug end en egentlig drug repurposing.
 
-Modellen forudsagde også andre indikationer med høj score, men de er svagt understøttede: akut laryngofaryngitis (nærhed til eksisterende indikationer, ingen evidens), faucial difteri (guaifenesin har ingen antibakteriel eller antitoksin-effekt, så den er klinisk uegnet), cervikal diskusdegeneration (ingen plausibel mekanisme, sandsynligvis en artefakt i grafen) og papillær konjunktivitis (kun indirekte kobling via allergisk rhinitis). Disse vurderes som **Hold**.
+Modellen forudsagde også andre indikationer med høj score, men de er svagt understøttede: faucial difteri (guaifenesin har ingen antibakteriel eller antitoksin-effekt, så den er klinisk uegnet), cervikal diskusdegeneration (ingen plausibel mekanisme; scoren kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens) og papillær konjunktivitis (kun indirekte kobling via allergisk rhinitis). Disse vurderes som **Hold**.
 
 ---
 

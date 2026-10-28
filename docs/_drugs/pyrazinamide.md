@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **infektiøs otitis media*
 |------|------|
 | Oprindelig indikation | Lungetuberkulose, meningeal tuberkulose og tuberkuløs meningitis (de godkendte indikationstekster for de danske tilladelser er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Infektiøs otitis media |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 De almindelige bakterielle årsager til mellemørebetændelse (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*) er ikke følsomme over for pyrazinamid. Den meget høje TxGNN-score er en grafbaseret forudsigelse, sandsynligvis drevet af koblingen til tuberkulose, og den understøttes ikke af kliniske data. Tuberkuløs otitis media er en sjælden undergruppe, hvor pyrazinamid indgår som del af standardregimet mod tuberkulose. Der er altså tale om den eksisterende indikation på et andet anatomisk sted og ikke egentlig repurposing.
 
-Blandt de øvrige forudsigelser er den mest relevante **sygdom i mellemøret** (score 99,92 %) samt **kronisk og suppurativ otitis media**, hvor evidensen udelukkende består af kasuistikker om tuberkuløs årsag.
+Blandt de øvrige forudsigelser er den mest relevante **sygdom i mellemøret** (score 0,9992) samt **kronisk og suppurativ otitis media**, hvor evidensen udelukkende består af kasuistikker om tuberkuløs årsag.
 
 ---
 

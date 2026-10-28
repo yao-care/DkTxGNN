@@ -4,17 +4,17 @@ title: Febuxostat
 parent: Moderat evidens (L3-L4)
 nav_order: 347
 evidence_level: L4
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Febuxostat: forudsagt ny indikation Renal hypourikæmi (evidensniveau L4). Oprindelig indikation: Hyperurikæmi"
 monitor_inn: "FEBUXOSTAT"
-predicted_indications: ["hypouricemia, renal", "hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "Lesch-Nyhan syndrome"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat: forudsagt ny indikation Renal hypourikæmi (hypouricemia, renal) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Febuxostat: Fra hyperurikæmi til renal hypourikæmi
+## Febuxostat: Renal hypourikæmi (hypouricemia, renal)
 {: .text-alpha }
 
 ## Resumé
 
-Febuxostat er en xanthinoxidasehæmmer, som oprindeligt anvendes til behandling af hyperurikæmi (forhøjet urinsyre i blodet). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **renal hypourikæmi** (score 99,99 %), men det understøttes kun af **1 klinisk forsøg** (af usikker relevans) og **2 publikationer**. Den mekanistiske sammenhæng er svag, og modellens høje score skyldes sandsynligvis grafnærhed i urinsyrestofskiftet og ikke en reel forventning om gavn.
+Febuxostat er en xanthinoxidasehæmmer, som oprindeligt anvendes til behandling af hyperurikæmi (forhøjet urinsyre i blodet). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **renal hypourikæmi** (score 0,9999), men det understøttes kun af **1 klinisk forsøg** (af usikker relevans) og **2 publikationer**. Den mekanistiske sammenhæng er svag, og modellens høje score skyldes sandsynligvis grafnærhed i urinsyrestofskiftet og ikke en reel forventning om gavn.
 
 ---
 
@@ -46,12 +46,12 @@ Febuxostat er en xanthinoxidasehæmmer, som oprindeligt anvendes til behandling 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hyperurikæmi (fra videngrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Renal hypourikæmi |
-| TxGNN-prædiktionsscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Renal hypourikæmi (hypouricemia, renal) |
+| TxGNN-prædiktionsscore | 0.9999 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -65,8 +65,8 @@ Renal hypourikæmi er en tilstand med i forvejen lav urinsyre i blodet, forårsa
 Modellens høje score bør derfor ikke tolkes som et pålideligt tegn på gavn.
 
 **Andre forudsagte indikationer.** Data indeholder også to mere plausible forudsigelser:
-- **Partiel HPRT-mangel** (score 99,98 %): Overproduktion af urinsyre behandles ved xanthinoxidasehæmning, hvilket svarer til den godkendte indikation. Febuxostat kan være et alternativ ved allopurinol-intolerans. Hypoxanthin og xanthin ophobes under hæmning, så der er risiko for xanthinnefropati og nyresten.
-- **Lesch-Nyhans syndrom** (score 99,68 %): Febuxostat kan kontrollere hyperurikæmi, urat-nefropati og urinsyregigt, men påvirker ikke de neurologiske og adfærdsmæssige symptomer. Brug hos børn er off-label, og evidensen er begrænset til enkelttilfælde.
+- **Partiel HPRT-mangel** (score 0,9998): Overproduktion af urinsyre behandles ved xanthinoxidasehæmning, hvilket svarer til den godkendte indikation. Febuxostat kan være et alternativ ved allopurinol-intolerans. Hypoxanthin og xanthin ophobes under hæmning, så der er risiko for xanthinnefropati og nyresten.
+- **Lesch-Nyhans syndrom** (score 0,9968): Febuxostat kan kontrollere hyperurikæmi, urat-nefropati og urinsyregigt, men påvirker ikke de neurologiske og adfærdsmæssige symptomer. Brug hos børn er off-label, og evidensen er begrænset til enkelttilfælde.
 
 ---
 

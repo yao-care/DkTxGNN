@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tisagenlecleucel
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 835
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tisagenlecleucel: forudsagt ny indikation Crohns colitis (evidensniveau L5). Oprindelig indikation: B-cellemaligniteter"
+description: "Tisagenlecleucel: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tisagenlecleucel"
-predicted_indications: ["Crohn's colitis", "Crohn's colitis", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "idiopathic aplastic anemia", "idiopathic aplastic anemia", "adrenal gland hyperfunction", "adrenal gland hyperfunction", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tisagenlecleucel
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tisagenlecleucel: Fra B-cellemaligniteter til Crohns colitis
+## Tisagenlecleucel
 {: .text-alpha }
-
-## Resumé i én sætning
-
-Tisagenlecleucel (Kymriah) er en autolog anti-CD19 CAR-T-celleterapi, som oprindeligt anvendes til B-cellemaligniteter.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Crohns colitis**,
-men der er i de udarbejdede data **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning.
-
----
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | B-cellemaligniteter (angivet ud fra kendt produktklasse; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Crohns colitis |
-| TxGNN-forudsigelsesscore | 91,4 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Der foreligger i de udarbejdede data ingen detaljerede oplysninger om virkningsmekanismen. Tisagenlecleucel er en autolog CAR-T-celleterapi rettet mod CD19, som sidder på B-celler. Effekten ved B-cellemaligniteter bygger på destruktion af CD19-positive celler.
-
-Man kan spekulere i, at udtømning af B-celler kunne dæmpe autoimmun inflammation, og at det kunne have betydning ved kronisk tarmbetændelse. Dette er dog en hypotese og ikke understøttet af direkte data. TxGNN-scoren er en grafbaseret computerforudsigelse og dokumenterer ikke i sig selv en terapeutisk sammenhæng.
-
-Samtidig er der væsentlige sikkerhedsbekymringer: cytokinfrigivelsessyndrom, neurotoksicitet, langvarig B-celleaplasi og toksicitet fra lymfodepleterende forbehandling. Disse er vanskelige at forsvare ved en ikke-malign, kronisk inflammatorisk sygdom, hvor der findes veletablerede behandlinger.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er aktuelt ingen relateret litteratur tilgængelig.
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 ---
 
@@ -136,16 +104,6 @@ Forudsigelsen for Crohns colitis bygger udelukkende på en modelscore uden klini
 
 ---
 
-## Øvrige forudsigelser
-
-De øvrige forudsagte indikationer har alle evidensniveau L5, ingen forsøg eller litteratur og anbefalingen **Hold**:
-
-| Forudsagt indikation | TxGNN-score | Kommentar |
-|------|------|------|
-| Multipel endokrin neoplasi | 91,3 % | Tumorerne er ikke defineret ved CD19; intet oplagt mål |
-| Idiopatisk aplastisk anæmi | 89,7 % | T-celle-medieret knoglemarvssvigt; CAR-T giver cytopenier, ugunstig sikkerhedsprofil |
-| Binyrehyperfunktion | 88,3 % | Ingen plausibel mekanisme |
-| HER2-positivt brystkarcinom | 88,0 % | CD19 er ikke et relevant antigen; barrierer for CAR-T ved solide tumorer |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

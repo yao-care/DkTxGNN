@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 744
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sacubitril: forudsagt ny indikation Diabetisk nefropati (evidensniveau L3). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i de danske aut…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Sacubitril: Fra hjertesvigt til diabetisk nefropati
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk nefrop
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i de danske autorisationer er tom) |
-| Forudsagt ny indikation | Diabetisk nefropati |
-| TxGNN-forudsigelsesscore | 99,50 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9958 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (fastholdes indtil resultater fra et kontrolleret forsøg foreligger) |
 
 ---

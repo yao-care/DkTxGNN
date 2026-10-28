@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 817
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Tetracycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L4). Oprindelig indikation: Urinvejsinfektion, bronkitis, akne, pharyngitis, konjunktivitis…"
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale dat"
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Tetracyclin: Fra bakterielle infektioner til kronisk rhinosinuitis
+## Tetracycline: Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -50,12 +50,12 @@ Bemærk: Rapporten dækker den højest rangerede forudsigelse (punktformet epite
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urinvejsinfektion, bronkitis, akne, pharyngitis, konjunktivitis, pneumoni m.fl. (fra vidensgrafen; godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis |
-| TxGNN-forudsigelsesscore | 99,58 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9958 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Bemærk: Rapporten dækker den højest rangerede forudsigelse (punktformet epite
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Tetracyclin tilhører tetracyclin-klassen af antibiotika, og dets effekt ved bakterielle infektioner, herunder klamydiainfektioner, er kendt. Mekanistisk kan det være relevant for den nye indikation.
 
-Tetracyclin bruges allerede ved konjunktivitis, herunder klamydiabetinget. Punktformet keratitis kan optræde efter klamydial follikulær konjunktivitis. Klassens hæmning af matrixmetalloproteinaser (MMP) og dens antiinflammatoriske virkning på øjets overflade giver yderligere plausible forbindelser. Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på de eksisterende konjunktivitis-indikationer i vidensgrafen.
+Tetracyclin bruges allerede ved konjunktivitis, herunder klamydiabetinget. Punktformet keratitis kan optræde efter klamydial follikulær konjunktivitis. Klassens hæmning af matrixmetalloproteinaser (MMP) og dens antiinflammatoriske virkning på øjets overflade giver yderligere plausible forbindelser. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 For kronisk rhinosinuitis er rationalet antibakteriel aktivitet mod typiske bihulepatogener samt klassens ikke-antimikrobielle effekter (MMP-hæmning, lavere inflammatoriske cytokiner, påvirkning af vævsremodellering). Den stærkeste støtte kommer fra doxycyclin, ikke fra tetracyclin.
 

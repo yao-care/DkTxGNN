@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fulvestrant: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
 monitor_inn: "Fulvestrant"
-predicted_indications: ["HIV infectious disease", "HIV infectious disease", "multiple endocrine neoplasia", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-23
+description: "Fulvestrant: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (den danske tilladelse indeholder in…"
 ---
 
 # Fulvestrant
@@ -38,99 +38,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé
 
-Fulvestrant er en selektiv østrogenreceptor-nedbryder (SERD), som markedsføres i Danmark som Faslodex. Lægemidlet anvendes til hormonfølsom brystkræft, men den indikationstekst, der er indgået i dataene til denne rapport, er tom. TxGNN-modellen forudsiger, at det kan have effekt på **HIV-infektion**, men der foreligger **ingen kliniske forsøg** og kun **2 publikationer**, hvoraf kun én er direkte relevant, og den er præklinisk.
-
----
+Fulvestrant er en østrogenreceptor-antagonist, som markedsføres i Danmark under navnet Faslodex. Godkendelsesteksten for den danske tilladelse indgår ikke i de data, der er indsamlet til denne rapport.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**. Der findes dog **ingen kliniske forsøg** og kun **2 publikationer**, hvoraf ingen undersøger sygdommen direkte hos patienter. Evidensen er derfor meget svag.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
+| Oprindelig indikation | Ikke oplyst i de indsamlede data (den danske tilladelse indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | HIV-infektion |
-| TxGNN-prædiktionsscore | 99,91 % |
-| Evidensniveau | L4 (kun præklinisk/mekanistisk evidens) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9991 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse (Lægemiddelstyrelsen) |
 | Anbefalet beslutning | Hold |
 
----
+Bemærk: Evidensniveauet er sat til L5, selvom de indsamlede data angiver L4. Den ene publikation, der omtaler fulvestrant og HIV, er et in vitro-studie af østrogenreceptor α i CD4+ T-celler. Der er ikke et publiceret studie, som direkte undersøger fulvestrant som behandling af HIV-infektion.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Fulvestrant er dog kendt som en selektiv østrogenreceptor-nedbryder (SERD), der binder til østrogenreceptoren og fremmer dens nedbrydning.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Fulvestrant er kendt som en antagonist og nedbryder af østrogenreceptor α (ERα). Dette er en generel beskrivelse og ikke hentet fra de indsamlede data.
 
-Den eneste direkte relevante publikation (PMID 42430506, JCI Insight, 2026) undersøger østrogenreceptor α (ERα) i CD4+ T-celler i forbindelse med HIV-latens og latency-reversing agents. Her indgår fulvestrant som et værktøj til at påvirke ER-signalering. Det antyder en mulig sammenhæng mellem ERα-signalering og HIV-latens, og nedbrydning af receptoren kunne tænkes at modulere reaktivering af latent virus.
+Et studie fra 2026 (PMID 42430506) peger på, at østrogenreceptoren er til stede i CD4+ T-celler og kan påvirke HIV-transskription og latens. Det er hypotesen, at ERα spiller en rolle for, om HIV forbliver i hvile eller reaktiveres. Fulvestrant kunne derfor teoretisk påvirke latensreversering. Beviset er imidlertid prækliniske laboratoriedata og kun indirekte relevant.
 
-Evidensen er præklinisk og indirekte. Ingen studier har testet fulvestrant som HIV-behandling. Den høje TxGNN-score er en computerbaseret forudsigelse og ikke klinisk validering. Den anden publikation omhandler HTLV-1, en anden retrovirus, og er kun løst relateret.
+Forudsigelsen bør derfor betragtes som et forskningsspørgsmål og ikke som en behandlingsmulighed.
 
----
+## Klinisk forsøgsevidens
 
-## Evidens fra kliniske forsøg
-
-Der er aktuelt ingen relaterede kliniske forsøg registreret for HIV-infektion.
-
----
+Der er for øjeblikket ingen kliniske forsøg registreret for fulvestrant ved HIV-infektion.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Præklinisk/mekanistisk | JCI Insight | Undersøger effekten af ligander og HIV latency-reversing agents på østrogenreceptor α i CD4+ T-celler, herunder fulvestrants evne til at påvirke ER-signalering |
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Multi-omics-kohorteanalyse (HTLV-1, ikke HIV) | Research Square | Analyse af sygdomsmekanismer og terapeutiske targets ved HTLV-1-associeret myelopati. Kun løst relevant, da den omhandler en anden retrovirus |
+| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Præklinisk (in vitro) | JCI Insight | Undersøger effekten af østrogen, fulvestrant og HIV-latensreverserende stoffer på ERα i CD4+ T-celler |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Kohorte-/omics-analyse | Research Square | Systembiologisk analyse af HTLV-1-associeret myelopati (en anden retrovirus); kun indirekte relevant |
 
----
-
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103481503 | Faslodex (AstraZeneca AB) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
-
----
+| 28103481503 | Faslodex (AstraZeneca AB) | Injektionsvæske, opløsning | Ikke oplyst i de indsamlede data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Hormonel/endokrin kræftbehandling (SERD), ikke konventionelt cytotoksisk |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitet | Se produktresuméet (SmPC) |
-| Monitorering | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
-
-Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
-
----
+| Klassifikation | Endokrin behandling (østrogenreceptor-nedbryder); ikke et konventionelt cytotoksisk middel |
+| Knoglemarvssuppression, kvalme og håndtering | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
 
 ## Sikkerhedsovervejelser
 
-- **Mulige kontraindikationer (fra vidensgraf, ikke fra produkttekst):** Vidensgrafen (PrimeKG) angiver forbindelser til leversygdom, galdeblæresygdom, trombocytopeni og blodkoagulationsforstyrrelser. Disse stammer ikke fra godkendt produktinformation og skal verificeres i SmPC.
-- **Lægemiddelinteraktioner:** Der er identificeret 92 mulige interaktioner (kilde: DDInter), alle med uklassificeret alvorlighed. Eksempler: warfarin, metformin, simvastatin, prednison, dexamethason, morfin, acetylsalicylsyre, omeprazol, pantoprazol, ondansetron og bupropion. Klinisk betydning er ikke vurderet.
+- **Lægemiddelinteraktioner:** Der er registreret 92 mulige interaktioner, bl.a. med warfarin, dexamethason, prednison, simvastatin, metformin, omeprazol, pantoprazol, morphin og ondansetron. Alvorlighedsgraden er ikke angivet for nogen af dem.
+- **Relationer i vidensgrafen:** Vidensgrafen registrerer relationer til leversygdom, galdeblæresygdom, trombocytopeni og blodkoagulationssygdom. Disse stammer ikke fra produktinformationen og er ikke bekræftede kontraindikationer.
 
-Advarsler og kontraindikationer fra den godkendte produktinformation er ikke tilgængelige. Der henvises til SmPC.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg for fulvestrant ved HIV, og evidensen begrænser sig til ét præklinisk studie af ER-signalering i HIV-latens. Den høje TxGNN-score er ikke klinisk validering.
+Der er ingen kliniske forsøg og kun indirekte, prækliniske data for fulvestrant ved HIV-infektion. Forudsigelsen er derfor et forskningsspørgsmål, ikke et grundlag for klinisk anvendelse.
 
-**For at komme videre er følgende nødvendigt:**
-- Præklinisk validering af fulvestrants effekt på HIV-latens og -reaktivering i relevante modeller
-- Data om virkningsmekanisme fra DrugBank
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen, herunder godkendt indikation, advarsler og kontraindikationer
-- Vurdering af sikkerhed og interaktioner hos HIV-patienter, især i forhold til antiretroviral behandling
-- Afklaring af, om en hormonel SERD er hensigtsmæssig i en population med både mandlige og kvindelige patienter
-
----
-
-### Bemærkning om øvrige forudsigelser
-
-De indsamlede data indeholder også forudsigelser for multipel endokrin neoplasi (score 99,85 %), SIV-infektion, felint ervervet immundefektsyndrom og en sjælden neuroudviklingsforstyrrelse. De 13 forsøg knyttet til multipel endokrin neoplasi omhandler i realiteten ER+/HER2-negativ avanceret brystkræft og viser ikke effekt ved denne sygdom. Koblingen skyldes sandsynligvis en term-mapping-artefakt. De øvrige forudsigelser har ingen forsøg eller litteratur (L5). Alle har anbefalingen Hold.
+**For at gå videre kræves følgende:**
+- Direkte prækliniske studier af fulvestrant i HIV-latensmodeller
+- Data om virkningsmekanisme og sikkerhed fra produktresuméet
+- Vurdering af sikkerhed hos HIV-patienter, herunder interaktioner med antiretroviral behandling
+- Hvis der opnås lovende prækliniske resultater: et velafgrænset fase 1/2-forsøg
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

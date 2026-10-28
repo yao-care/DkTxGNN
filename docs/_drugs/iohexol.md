@@ -4,17 +4,17 @@ title: Iohexol
 parent: Kun modelforudsigelse (L5)
 nav_order: 448
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Iohexol: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (røntgenkontraststof)"
 monitor_inn: "Iohexol"
-predicted_indications: ["insomnia (disease)", "insomnia (disease)", "anxiety", "anxiety", "rheumatoid arthritis", "rheumatoid arthritis", "antithrombin deficiency type 2", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["insomnia (disease)", "anxiety"]
 ---
 
 # Iohexol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen vurderes som en sandsynlig modelartefakt uden farmakologisk begrun
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (røntgenkontraststof) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-prædiktionsscore | 99,87 % |
+| TxGNN-prædiktionsscore | 0,9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -78,7 +78,7 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 Der er på nuværende tidspunkt ingen relateret litteratur for insomni.
 
-For fuldstændighedens skyld: Modellen rangerer også andre forudsigelser med lignende svag evidens (angst, leddegigt, antithrombinmangel type 2, faktor 5-overskud med spontan trombose). Litteraturen for angst og leddegigt er tilfældig og beskriver iohexol som procedurekontekst, målemetode (f.eks. måling af glomerulær filtrationshastighed) eller bivirkningsrapporter, ikke som behandling. Eksempelvis beskriver en case report (PMID [35286798](https://pubmed.ncbi.nlm.nih.gov/35286798/), 2022) fatal multiorgansvigt efter gentagen jodholdig kontrastinjektion hos en patient i lavdosis methotrexat.
+For fuldstændighedens skyld: Modellen rangerer også andre forudsigelser med lignende svag evidens (angst). Litteraturen for angst er tilfældig og beskriver iohexol som procedurekontekst, målemetode (f.eks. måling af glomerulær filtrationshastighed) eller bivirkningsrapporter, ikke som behandling. Eksempelvis beskriver en case report (PMID [35286798](https://pubmed.ncbi.nlm.nih.gov/35286798/), 2022) fatal multiorgansvigt efter gentagen jodholdig kontrastinjektion hos en patient i lavdosis methotrexat.
 
 ---
 

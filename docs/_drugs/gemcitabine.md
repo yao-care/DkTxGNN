@@ -4,17 +4,17 @@ title: Gemcitabine
 parent: Kun modelforudsigelse (L5)
 nav_order: 388
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Gemcitabine: forudsagt ny indikation Brystkarcinom hos kvinder (female breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ovariecancer"
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+description: "Gemcitabine: forudsagt ny indikation Rectum mucinous adenocarcinoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Gemcitabin: Fra ovariecancer til brystkarcinom (kvinde)
+## Gemcitabine: Rectum mucinous adenocarcinoma
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Gemcitabin er et cytostatikum (nukleosidanalog), som oprindeligt anvendes til behandling af ovariecancer.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **brystkarcinom hos kvinder**.
+TxGNN-modellen forudsiger, at det kan være effektivt mod **mucinøst adenokarcinom i rectum**.
 De indsamlede data viser **mindst 3 fase 3-forsøg** (heraf 1 afsluttet, direkte sammenlignende gemcitabin+paclitaxel versus paclitaxel) samt en række fase 2-forsøg og **flere oversigtsartikler**, der understøtter retningen.
 
 ---
@@ -48,12 +48,12 @@ De indsamlede data viser **mindst 3 fase 3-forsøg** (heraf 1 afsluttet, direkte
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ovariecancer (ifølge TxGNN-vidensgrafen; godkendt indikationstekst for det danske produkt er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Brystkarcinom hos kvinder (female breast carcinoma) |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L1 (i henhold til den beregnede vurdering; se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rectum mucinous adenocarcinoma |
+| TxGNN-forudsigelsesscore | 0.9977 |
+| Evidensniveau | L5 (i henhold til den beregnede vurdering; se bemærkning nedenfor) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* L1 forudsætter mindst to afsluttede fase 3-RCT'er. Blandt de indsamlede forsøg er kun ét direkte relevant fase 3-forsøg markeret som afsluttet og vurderet som direkte relevant (NCT00006459), mens NCT00093795 også er afsluttet, men her indgår gemcitabin i én af tre arme. Niveauet L1 bør derfor verificeres manuelt.

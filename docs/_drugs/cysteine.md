@@ -50,10 +50,10 @@ Der er **ingen kliniske forsøg** og **18 publikationer** (hovedsageligt prækli
 |------|------|
 | Oprindelig indikation | Bronkitis, paracetamolforgiftning, cystisk fibrose, bronkiektasi og amyloidose (fra videnbasen; de danske markedsføringstilladelser angiver ingen indikationstekst) |
 | Forudsagt ny indikation | Tørre øjne (dry eye syndrome) |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 7 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---

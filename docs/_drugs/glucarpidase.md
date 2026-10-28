@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Glucarpidase: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ud fr…"
 monitor_inn: "Glucarpidase"
-predicted_indications: ["diabetic cataract", "diabetic cataract", "diabetic retinopathy", "diabetic retinopathy", "immature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract"]
+predicted_indications: ["diabetic cataract", "diabetic retinopathy", "craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract"]
+last_modified_at: 2026-10-23
+description: "Glucarpidase: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 ---
 
 # Glucarpidase
@@ -33,75 +33,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Glucarpidase: Fra methotrexat-toksicitet til diabetisk grå stær
+## Glucarpidase: Fra metotrexat-toksicitet til diabetisk katarakt
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Glucarpidase er et rekombinant enzym, der nedbryder methotrexat uden for cellerne og markedsføres i Danmark som Voraxaze.
-TxGNN-modellen forudsiger, at det kan have effekt mod **diabetisk grå stær (diabetic cataract)**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse, og der er ikke identificeret nogen plausibel biologisk forklaring.
+Glucarpidase er et rekombinant enzym, som nedbryder metotrexat i blodet, og som markedsføres i Danmark som Voraxaze. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk katarakt**, men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er rent beregningsbaseret og har ingen mekanistisk understøttelse.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ud fra enzymets virkning anvendes det til nedbrydning af methotrexat og andre antifolater |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| Oprindelig indikation | Ikke angivet i de data, der er indsamlet til rapporten (godkendelsens indikationstekst er tom) |
+| Forudsagt ny indikation | Diabetisk katarakt |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
-## Hvorfor er denne forudsigelse rimelig?
+---
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Glucarpidase er en rekombinant bakteriel carboxypeptidase G2, som hydrolyserer methotrexat og andre antifolater i blodbanen til inaktive metabolitter.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er ikke fundet nogen mekanistisk sammenhæng mellem denne virkning og diabetisk grå stær. Glucarpidase har ingen kendt effekt på glukosemetabolismen, polyol-vejen, aldosereduktase eller glykering af linseproteiner. Den høje score (0,9985) afspejler sandsynligvis nærhed mellem sygdomsknuder i vidensgrafen snarere end en biologisk begrundelse.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Ud fra almindelig farmakologisk viden er glucarpidase en rekombinant bakteriel carboxypeptidase G2, som hydrolyserer ekstracellulært metotrexat og andre folater til inaktive metabolitter. Det er et stort protein, som holder sig i det ekstracellulære rum.
 
-De øvrige forudsigelser i listen (diabetisk retinopati, umoden grå stær, grå stær ved type 2-diabetes, tetanisk grå stær og kraniostenose-relateret grå stær) har alle scorer omkring 0,998 og samme evidensniveau (L5). For ingen af dem er der identificeret en mekanistisk sammenhæng. Som stort protein givet intravenøst er glucarpidase desuden usandsynligt at nå nethinden eller linsen i betydelige mængder.
+Diabetisk katarakt skyldes primært polyolvejen (aldosereduktase), glykering af linseproteiner og oxidativ stress. Glucarpidase påvirker ingen af disse processer, og det er ikke sandsynligt, at et så stort protein når ind i linsen.
 
-## Klinisk evidens
+Den høje score fra TxGNN-modellen (deep learning) på 0,9985 kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Flere kataraktundertyper har identiske scorer, hvilket tyder på redundans mellem termerne frem for uafhængige signaler. Forudsigelsen bør derfor betragtes som en beregningsmæssig artefakt og ikke som et klinisk holdepunkt.
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Øvrige forudsagte indikationer i rangeringen (bl.a. diabetisk retinopati, craniostenose-katarakt, umoden og moden katarakt, senil katarakt, nuklear og kortikal katarakt) har samme karakter: ingen studier og ingen plausibel mekanisme.
 
-## Litteraturevidens
+---
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+## Evidens fra kliniske forsøg
 
-## Markedsinformation for Danmark
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Evidens fra litteraturen
+
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
+
+---
+
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106459820 | Voraxaze (SERB SAS) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+| 28106459820 | Voraxaze (SERB SAS) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
-## Sikkerhedsovervejelser
+---
 
-- **Lægemiddelinteraktioner** (8 moderate interaktioner registreret i DDInter):
-  - Proguanil
-  - Trimethoprim
-  - Levoleucovorin
-  - Pemetrexed
-  - Pralatrexat
-  - Pyrimethamin
-  - Leucovorin
-  - Trimetrexat
+## Sikkerhedsmæssige overvejelser
 
-Se i øvrigt det godkendte produktresumé (SmPC) for oplysninger om advarsler og kontraindikationer.
+**Lægemiddelinteraktioner:** Der er identificeret 8 interaktioner af moderat sværhedsgrad (kilde: DDInter):
+- Proguanil
+- Trimethoprim
+- Levoleucovorin
+- Pemetrexed
+- Pralatrexat
+- Pyrimethamin
+- Leucovorin
+- Trimetrexat
+
+Det bemærkes, at flere af disse er folatrelaterede stoffer, hvilket er i tråd med glucarpidases folatnedbrydende virkning.
+
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel biologisk mekanisme. Der er desuden ingen biologisk sandsynlighed for, at et intravenøst enzym, der nedbryder methotrexat, påvirker linsen eller nethinden.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, publikationer eller plausibel mekanisme. Glucarpidase er et ekstracellulært folatnedbrydende enzym uden kendt effekt på de processer, der driver katarakt, og det er usandsynligt, at det når linsen eller nethinden.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) og en begrundet hypotese for sammenhængen med diabetisk grå stær
-- Præklinisk eller mekanistisk evidens, der understøtter en effekt i øjet
-- Gennemgang af produktresuméet for godkendt indikation, advarsler og kontraindikationer
-- Vurdering af administrationsvej og mulighed for at nå målvævet (øjet)
+**For at gå videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og godkendt indikationstekst fra produktresuméet
+- Prækliniske data, der viser en biologisk sammenhæng mellem folat-/metotrexatnedbrydning og linsepatologi
+- Dokumentation for, at lægemidlet kan nå målvævet (linse/nethinde)
+- Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

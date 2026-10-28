@@ -4,17 +4,17 @@ title: Clemastine
 parent: Kun modelforudsigelse (L5)
 nav_order: 203
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Clemastine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, urticaria…"
+indication_count: 3
 monitor_inn: "clemastine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+last_modified_at: 2026-10-27
+description: "Clemastine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clemastine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,68 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Clemastin: Fra allergisk rhinitis og urticaria til allergisk urticaria
+## Clemastin: H1-antihistamin → næsehulesygdom (nasal cavity disease)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Clemastin er en førstegenerations H1-antihistamin, som oprindeligt anvendes til allergisk rhinitis, urticaria og angioødem.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **allergisk urticaria**, men denne diagnose ligger meget tæt på de allerede kendte indikationer.
-Der er **ingen registrerede kliniske forsøg** og **10 publikationer** (hovedsageligt reviews og case-rapporter, hvoraf kun få vedrører clemastin specifikt).
+Clemastin er en antihistamin, der blokerer H1-receptorer. Den TxGNN-model forudsiger, at lægemidlet kan have effekt ved **næsehulesygdom (nasal cavity disease)**. Der er i de data, der er sammenstillet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, som direkte understøtter denne forudsigelse.
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, urticaria, angioødem m.fl. (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke oplyst) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L4 (ingen kliniske forsøg; kun reviews og mekanistisk plausibilitet) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
+| TxGNN-forudsigelsesscore | 0,9987 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Clemastin er dog en kendt førstegenerations H1-receptorantagonist. Ved at blokere histaminreceptorer dæmpes kvaddel- og rødmereaktionen ved histaminmedieret urticaria.
+Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen. Clemastin tilhører gruppen af H1-antihistaminer, som hæmmer histaminets virkning på H1-receptorer. Mekanistisk kan det derfor være relevant ved tilstande i næsehulen, hvor histamin spiller en rolle.
 
-Allergisk urticaria er i praksis allerede omfattet af de oprindelige indikationer (urticaria og angioødem). Forudsigelsen er derfor ikke en egentlig ny anvendelse (repurposing), men en bekræftelse af eksisterende farmakologi. Den høje score er i overensstemmelse hermed.
+Begrebet "næsehulesygdom" er en bred og uspecifik kategori. Den høje score afspejler sandsynligvis, at clemastin i forvejen er knyttet til allergisk og vasomotorisk rhinitis, som falder inden for denne kategori. Der er derfor ikke tale om en konkret ny sygdomsenhed, og der kan ikke fremsættes en handlingsorienteret repurposing-påstand alene på baggrund af modellen.
 
-Det samme gælder subtypen kold urticaria (score 99,95 %), som er histaminmedieret og derfor mekanistisk plausibel. Den tilgængelige litteratur er imidlertid gammel og ikke baseret på kontrollerede forsøg med clemastin alene.
+## Klinisk evidens
 
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [40055203](https://pubmed.ncbi.nlm.nih.gov/40055203/) | 2025 | Review | Naunyn-Schmiedeberg's Arch Pharmacol | Gennemgang af patenter (2015–2024) om nye anvendelser af clemastin, bl.a. neurodegenerative sygdomme, hjerte-kar-sygdomme og kræft; clemastin beskrives som traditionelt brugt ved allergisk rhinitis og urticaria |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | Review af acrivastin (et andet antihistamin); acrivastin var lige så effektivt som clemastin ved sæsonbetinget allergisk rhinitis |
-| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Review | Drugs | Review af loratadin; loratadin var lige så effektivt som bl.a. clemastin ved allergiske lidelser |
-| [2523301](https://pubmed.ncbi.nlm.nih.gov/2523301/) | 1989 | Review | Drugs | Review af loratadin ved allergisk rhinitis og kronisk urticaria |
-| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Z Hautkr | Samlet gennemgang af astemizol, som var bedre end klassiske antihistaminer inkl. clemastin |
-| [6209972](https://pubmed.ncbi.nlm.nih.gov/6209972/) | 1984 | Klinisk serie (dobbeltblindet crossover) | Allergol Immunopathol | Ketotifen og clemastin (2 mg/dag hver) som profylakse ved idiopatisk kold urticaria hos 87 patienter |
-| [6119852](https://pubmed.ncbi.nlm.nih.gov/6119852/) | 1981 | Patientevaluering | Wisconsin Med J | Patientvurdering af clemastinfumarat sammenlignet med andre antihistaminer |
-| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | Observationsstudie | Asian Pac J Allergy Immunol | Beskrivelse af urticaria hos 142 thailandske børn; ikke specifik for clemastin |
-| [30838475](https://pubmed.ncbi.nlm.nih.gov/30838475/) | 2019 | Case-rapport | Drug Saf Case Rep | Anafylaktisk reaktion på Tc-99m macrosalb, behandlet bl.a. med clemastin og prednison; ikke lægemiddelspecifik evidens |
-| [19739446](https://pubmed.ncbi.nlm.nih.gov/19739446/) | 2009 | Kommentar | Läkartidningen | Kommentar om manglende dokumentation for akut behandling med clemastin (Tavegyl) |
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106632221 | Clemastin "Nordic Prime" (Nordic Prime ApS) | Injektionsvæske, opløsning | Indikationsteksten er ikke oplyst |
+| 28106632221 | Clemastin "Nordic Prime" | Injektionsvæske, opløsning | Ikke angivet i lokale data |
+
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme, der kræver forsigtighed (fra vidensgrafen, ikke fra produktresuméet):** hypertension, mavesår, benign prostatahyperplasi, okulær hypertension, snævervinklet glaukom, hyperthyroidisme (Graves sygdom, thyreotoksikose) og blærehalsobstruktion.
-- **Lægemiddelinteraktioner:** 626 interaktioner er registreret. Blandt de viste er de vigtigste:
+- **Lægemiddelinteraktioner:** I alt 626 interaktioner er registreret. Blandt de vigtigste er:
   - **Alvorlige (Major):** kaliumcitrat og kaliumchlorid.
-  - **Moderate:** antikolinergika (hyoscyamin, atropin, glycopyrronium, scopolamin, dicyclomin m.fl.), opioider (morfin, loperamid, opium), dronabinol, nabilon, eluxadolin og metoclopramid.
+  - **Moderate:** antikolinerge og beslægtede stoffer, f.eks. hyoscyamin, atropin, glycopyrronium, scopolamin, dicyclomin og propantelin, samt loperamid, morfin, opium, metoclopramid, dronabinol, nabilon og eluxadolin.
 
-Der foreligger ikke data om advarsler og kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation overlapper med clemastins eksisterende indikationer og er ikke en reel ny anvendelse. Der er ingen kliniske forsøg, og litteraturen er gammel og overvejende uspecifik for clemastin. De øvrige forudsigelser (nasal sygdom, akut laryngopharyngitis, recalcitrant atopisk dermatitis, atopisk IgE-respons) er alene modelbaserede (L5) uden understøttende evidens.
+Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden direkte kliniske forsøg eller publikationer. Kategorien er så bred, at den sandsynligvis blot afspejler eksisterende brug ved rhinitis.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer og godkendte indikationer), da sikkerhedsdata mangler.
-- Data om virkningsmekanisme (MOA) fra DrugBank.
-- Afklaring af, om der er en reel ny indikation ud over de allerede godkendte, f.eks. de nye anvendelser beskrevet i patentreviewet fra 2025 (neurodegenerative sygdomme).
-- Kontrollerede studier med clemastin specifikt, hvis kold urticaria eller andre undertyper skal undersøges.
-- Vurdering af administrationsvej, da den danske godkendelse kun omfatter injektionsvæske.
+**For at komme videre kræves følgende:**
+- En præcis afgrænsning af, hvilken konkret næsehuletilstand der skal undersøges ud over de eksisterende rhinitis-anvendelser
+- Data om virkningsmekanisme
+- Kliniske forsøg eller publikationer, der direkte omhandler den præciserede tilstand
+- Gennemgang af produktresuméets advarsler og kontraindikationer, da disse ikke er tilgængelige i de sammenstillede data
+- Vurdering af, om injektionsformen er relevant for den påtænkte anvendelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

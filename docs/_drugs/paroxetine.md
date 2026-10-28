@@ -50,10 +50,10 @@ men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der unde
 |------|------|
 | Oprindelig indikation | Angstlidelse, depression (bl.a. unipolar og endogen), tvangslidelse, posttraumatisk stresslidelse, social fobi (fra videnbasen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Ohdo-syndrom og varianter |
-| TxGNN-forudsigelsesscore | 99,1 % |
+| TxGNN-forudsigelsesscore | 0,9911 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om paroxetins virk
 
 Ohdo-syndrom (herunder Say-Barber-Biesecker-Young-Simpson-varianten) er en sjælden medfødt lidelse, typisk knyttet til varianter i KAT6B-genet, med udviklingshæmning, blepharophimosis og hypotoni. Det er ikke muligt ud fra de foreliggende data at påvise en plausibel biologisk sammenhæng mellem SSRI-/GRK2-hæmning og KAT6B-relateret dysfunktion af histonacetyltransferase.
 
-Forudsigelsen afspejler sandsynligvis nærhed i vidensgrafen (fx delte gen- eller fænotypeassociationer inden for neuroudvikling eller psykiatri) snarere end en kausal terapeutisk mekanisme. Paroxetin er desuden ikke en sygdomsmodificerende behandling af et medfødt udviklingssyndrom.
+Scoren stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme (fx delte gen- eller fænotypeassociationer inden for neuroudvikling eller psykiatri), snarere end biologisk evidens eller en kausal terapeutisk mekanisme. Paroxetin er desuden ikke en sygdomsmodificerende behandling af et medfødt udviklingssyndrom.
 
 ---
 

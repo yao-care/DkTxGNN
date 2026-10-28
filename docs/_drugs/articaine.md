@@ -50,10 +50,10 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (articain er et lokalanæstetikum, bl.a. brugt i tandlægepraksis) |
 | Forudsagt ny indikation | Gigt (gout) |
-| TxGNN-forudsigelsesscore | 99,58 % |
+| TxGNN-forudsigelsesscore | 0,9958 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 Andre forudsagte indikationer i data: eksostose (99,42 %), allergisk astma (99,38 %) og intrinsisk astma (99,34 %). Alle er på evidensniveau L5 med anbefalingen Hold.
@@ -64,7 +64,7 @@ Andre forudsagte indikationer i data: eksostose (99,42 %), allergisk astma (99,3
 
 Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Articain er et amidtype-lokalanæstetikum, som blokerer spændingsstyrede natriumkanaler. Dets virkning som lokalbedøvelse er veletableret, men der er ikke identificeret nogen mekanistisk forbindelse til urinsyrestofskiftet eller til den inflammation, der kendetegner et giftanfald.
 
-Forudsigelsen er derfor en ren beregningsmæssig sammenhæng fra videngrafen. Den høje score (0,996) bør ikke tolkes som klinisk støtte, da den ikke bakkes op af forsøg eller litteratur. Ligheden mellem den oprindelige og den nye indikation er endnu ikke vurderet.
+Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den høje score (0,9958) bør ikke tolkes som klinisk støtte, da den ikke bakkes op af forsøg eller litteratur. Ligheden mellem den oprindelige og den nye indikation er endnu ikke vurderet.
 
 De øvrige forudsagte indikationer er heller ikke understøttet. Der er ingen plausibel mekanisme for eksostose (en knoglevækstlidelse), og for astma er der ingen evidens for, at natriumkanalblokade har en terapeutisk rolle.
 

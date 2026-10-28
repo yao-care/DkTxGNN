@@ -4,17 +4,17 @@ title: Apixaban
 parent: Moderat evidens (L3-L4)
 nav_order: 69
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for den danske…"
 monitor_inn: "Apixaban"
-predicted_indications: ["migraine disorder", "migraine disorder", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "leprosy", "leprosy", "rheumatoid arthritis", "rheumatoid arthritis", "migraine with brainstem aura", "migraine with brainstem aura"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 ## Resumé
 
 Apixaban er en direkte hæmmer af koagulationsfaktor Xa (antikoagulans). De data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst for det danske præparat.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (score 99,0 %), men der findes **ingen kliniske studier om migræne** og kun **3 publikationer** (to kasuistikker og ét retrospektivt studie), som er modstridende og ikke understøtter en gavnlig effekt.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (score 0,9902), men der findes **ingen kliniske studier om migræne** og kun **3 publikationer** (to kasuistikker og ét retrospektivt studie), som er modstridende og ikke understøtter en gavnlig effekt.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (scor
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for den danske godkendelse er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,02 % |
+| TxGNN-forudsigelsesscore | 0,9902 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

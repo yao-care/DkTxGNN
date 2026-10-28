@@ -8,6 +8,7 @@ nav_order: 525
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Melatonin
@@ -51,8 +52,8 @@ Melatonin (DB01065) er et endogent neurohormom, der primært er forbundet med re
 | Forudsagt ny indikation | Ingen forudsigelser tilgængelige |
 | TxGNN-forudsigelsesscore | N/A |
 | Bevisniveau | N/A — pipeline har ikke produceret output |
-| Danmark markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Danmark markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Vent** |
 
 ---

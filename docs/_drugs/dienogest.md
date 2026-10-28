@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dienogest
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 262
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dienogest: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "Dienogest"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "primary ovarian failure", "primary ovarian failure", "breast fibrocystic disease", "breast fibrocystic disease", "isolated growth hormone deficiency", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "symptomatic form of fragile X syndrome in female carrier"]
+predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
+last_modified_at: 2026-10-23
+description: "Dienogest: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske licensdata (indikationsteksten er tom). Litt…"
 ---
 
 # Dienogest
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dienogest: Fra endometriose til amenoré
+## Dienogest: Fra endometriose-behandling til amenoré
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Dienogest er et progestin, som er registreret i Danmark som enkeltstofpræparat i tabletform. Den godkendte indikation fremgår ikke af de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré**, men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer** med indirekte relevans. Ingen af dem viser, at dienogest behandler amenoré.
+Dienogest er et progestin i tabletform, som er registreret i Danmark, men den danske godkendelse indeholder ingen angivet indikationstekst i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré**, men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer**, og ingen af dem undersøger direkte behandling af amenoré. Forudsigelsen er derfor kun modelbaseret.
 
 ---
 
@@ -46,71 +46,71 @@ Dienogest er et progestin, som er registreret i Danmark som enkeltstofpræparat 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data |
+| Oprindelig indikation | Ikke angivet i de danske licensdata (indikationsteksten er tom). Litteraturen beskriver endometriose som den almindelige anvendelse. |
 | Forudsagt ny indikation | Amenoré |
-| TxGNN-prædiktionsscore | 99,71 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9971 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig (eller ej)?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Dienogest er et selektivt progestin med kraftig effekt på livmoderslimhinden samt antiovulatorisk og antigonadotrop virkning. Det fremkalder atrofi og decidualisering af endometriet. Litteraturen beskriver dienogest i behandlingen af endometriose, hvor målet bl.a. er at fremkalde amenoré og et lavt østrogenniveau.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen. Dienogest er et progestin, og de tilgængelige oplysninger beskriver, at det hæmmer væksten af livmoderslimhinden og dæmper æggestokkenes østradiolproduktion. Det giver ofte udeblivende menstruation som en kendt virkning af behandlingen.
 
-Det gør forudsigelsen mekanistisk tvivlsom. Amenoré er en kendt farmakologisk virkning eller bivirkning af dienogest (ændret blødningsmønster) og ikke noget, lægemidlet afhjælper. Brug til patologisk amenoré er derfor mekanistisk modsat rettet, da lægemidlet fremkalder amenoré frem for at løse den. Den høje score afspejler sandsynligvis en association mellem lægemiddel og sygdom og ikke et terapeutisk forhold.
-
-De øvrige forudsigelser i modellen (primær ovarieinsufficiens, fibrocystisk brystsygdom, isoleret væksthormonmangel og symptomatisk fragilt X-syndrom hos kvindelige bærere) har enten ingen evidens eller kun meget indirekte evidens. De er ikke evalueret nærmere her.
+Her er forbindelsen til amenoré svag. Amenoré er en veldokumenteret **effekt** af dienogest, enten tilsigtet ved endometriose eller som en bivirkning, men ikke en etableret **indikation**. Den høje score kan derfor afspejle lægemidlets påvirkning af menstruationsblødning snarere end en terapeutisk gevinst. En egentlig anvendelse ved amenoré ville kræve en selvstændig begrundelse, for eksempel en progestin-udløst blødningsprøve eller beskyttelse af livmoderslimhinden ved lavt østrogenniveau. Der foreligger ingen data, der understøtter dette.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Dokumentation fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Dokumentation fra litteraturen
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+Ingen af nedenstående publikationer undersøger direkte dienogest som behandling af amenoré. De belyser lægemidlet i endometriose eller giver bivirkningsdata.
+
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematisk review/metaanalyse | BMC Pharmacol Toxicol | Opsummerer bivirkninger og deres hyppighed ved dienogest hos patienter med endometriose og adenomyose |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Gennemgang af den endokrine baggrund for hormonbehandling af endometriose |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Klinisk/farmakodynamisk studie | Eur J Contracept Reprod Health Care | Yderligere evidens for 2 mg dienogest ved endometriose |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospektivt kohortestudie | Reprod Sci | Langtidseffekt og sikkerhed hos 514 kvinder med ovarieendometriom |
-| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Case report | JCEM Case Reports | Primær hyperparatyreoidisme afsløret efter start på dienogest på grund af menoragi |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case report | Medicine | Granulosacelletumor hos en patient med PCOS |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | Avanceret visualisering ved müllerske anomalier |
-
-Ingen af publikationerne undersøger dienogest som behandling af amenoré.
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematisk review/metaanalyse | BMC Pharmacol Toxicol | Sammenfatter bivirkninger og deres hyppighed ved dienogest ved endometriose og adenomyose |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospektiv kohorte (514 kvinder) | Reprod Sci | Langtidseffekt, sikkerhed og recidivrate ved dienogest hos kvinder med ovarie-endometriom |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Hormonbehandling af endometriose og den endokrine baggrund |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Klinisk/farmakodynamisk studie | Eur J Contracept Reprod Health Care | Hæmningsrate og transformationsindeks for 2 mg dienogest ved endometriose |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Case report | JCEM Case Reports | Primær hyperparathyroidisme kom til udtryk efter dienogest-ændret østrogenniveau |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case report | Medicine | Ovarie-granulosacelletumor hos patient med polycystisk ovariesyndrom |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | Avanceret visualisering af müllerske anomalier til diagnostik og operationsplanlægning |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106335019 | Dienogest "Besins" | Tabletter | Ikke angivet i de indsamlede data |
+| 28106335019 | Dienogest "Besins" | Tabletter | Ikke angivet i de tilgængelige data |
+
+Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoires Besins Int. S.A.S.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Interaktioner:** Der er identificeret 37 mulige lægemiddelinteraktioner. Blandt de viste er følgende klassificeret som **alvorlige (Major)**:
+**Lægemiddelinteraktioner:** Der er identificeret 37 interaktioner, og de første 20 er gennemgået. Blandt dem er følgende klassificeret som **alvorlige (Major)**:
 - Sugammadex
 - Griseofulvin
-- Bexaroten
+- Bexarotene
 - Brigatinib
 - Dabrafenib
 - Encorafenib
 
-Flere interaktioner er klassificeret som moderate (fx linaclotid, metreleptin, prucaloprid, adalimumab, anakinra, cladribin) og én som mindre (ethanol).
+Flere andre er klassificeret som moderate, blandt andet linaclotid, metreleptin, prucaloprid, miltefosin, adalimumab, anakinra, cladribin og enasidenib. Etanol er klassificeret som mindre alvorlig.
 
-**Sygdomme med kontraindikationsrelation i vidensgrafen (ikke baseret på produktresumé):** Hypertension, epilepsi, angstlidelse, porfyri, nyresygdom, leversygdom, galdeblæresygdom, hypothyreose, systemisk lupus erythematosus, astma, diabetes mellitus, hypertriglyceridæmi, hypercalcæmi, brystkræft hos kvinder og tromboflebitis.
+**Sygdomme registreret som kontraindikationer i vidensgrafen:** Disse relationer stammer fra en vidensgraf og ikke fra produktresuméet. De omfatter blandt andet hypertension, epilepsi, leversygdom, nyresygdom, galdeblæresygdom, diabetes mellitus, porfyri, hypothyreoidisme, systemisk lupus erythematosus, astma, hypertriglyceridæmi, hyperkalcæmi, brystkræft hos kvinder og tromboflebitis.
 
-Bemærk, at disse kontraindikationsrelationer stammer fra en vidensgraf og ikke fra produktresuméet. Se det godkendte produktresumé (SmPC) for gældende advarsler og kontraindikationer.
+For fuldstændige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -119,14 +119,14 @@ Bemærk, at disse kontraindikationsrelationer stammer fra en vidensgraf og ikke 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg, og litteraturen understøtter ikke dienogest som behandling af amenoré. Tværtimod fremkalder lægemidlet amenoré som farmakologisk virkning, så den høje modelscore er ikke bakket op af mekanistisk sandsynlighed.
+Forudsigelsen om amenoré er kun modelbaseret (evidensniveau L5). Ingen kliniske forsøg eller publikationer undersøger dienogest som behandling af amenoré, og amenoré er snarere en kendt virkning af lægemidlet end et behandlingsmål.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra det danske produktresumé hos Lægemiddelstyrelsen
-- Den godkendte indikation for det danske præparat
-- Klinisk begrundelse for, om der overhovedet er en terapeutisk hypotese, eller om forudsigelsen blot afspejler en bivirkning/farmakologisk effekt
-- Hvis relevant: en mere plausibel forudsigelse (fx fibrocystisk brystsygdom, evidensniveau L4) kan vurderes separat som forskningsspørgsmål
+**For at komme videre kræves følgende:**
+- En klar klinisk begrundelse for, hvilken form for amenoré (primær, sekundær, hypoøstrogen) der skulle behandles, og hvorfor et progestin er relevant
+- Detaljerede data om virkningsmekanismen
+- Advarsler og kontraindikationer fra det danske produktresumé samt den godkendte indikationstekst
+- Kontrollerede kliniske studier eller systematisk litteratursøgning direkte på amenoré
+- Vurdering af interaktionsrisici og sygdomme, hvor brug kan være uhensigtsmæssig
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Elosulfase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose (MPS IVA, Morquio A syndrom)"
+indication_count: 9
 monitor_inn: "Elosulfase alfa"
-predicted_indications: ["Scheie syndrome", "Scheie syndrome", "lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Hurler syndrome", "Sanfilippo syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"]
+predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+last_modified_at: 2026-10-23
+description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose"
 ---
 
 # Elosulfase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,93 +36,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Elosulfase alfa: Fra mukopolysakkaridose til Scheie syndrom
 {: .text-alpha }
 
-## Opsummering i en sætning
+## Resumé i én sætning
 
-Elosulfase alfa er en enzymerstatningsterapi, som oprindeligt anvendes til behandling af mukopolysakkaridose (MPS IVA, Morquio A syndrom).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom**, men der er **ingen kliniske forsøg** og **ingen publikationer** om netop denne sygdom, så forudsigelsen er udelukkende modelbaseret.
-
----
+Elosulfase alfa er en enzymerstatningsterapi, som er knyttet til mukopolysakkaridose (især MPS IVA, Morquio A syndrom).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom**, men der er **ingen kliniske forsøg og ingen publikationer**, som direkte undersøger denne sammenhæng. Forudsigelsen bygger kun på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mukopolysakkaridose (MPS IVA, Morquio A syndrom) |
+| Oprindelig indikation | Mukopolysakkaridose (relation registreret i vidensgrafen; licenstekst for det danske produkt indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Scheie syndrom |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig (eller ikke)?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der er i øjeblikket ikke tilgængelige detaljerede data om virkningsmekanismen. Elosulfase alfa erstatter enzymet N-acetylgalactosamin-6-sulfatase (GALNS), som nedbryder keratansulfat og chondroitin-6-sulfat. Litteraturen i datagrundlaget beskriver brugen ved MPS IVA (Morquio A).
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Elosulfase alfa er en rekombinant N-acetylgalactosamin-6-sulfatase (GALNS), som nedbryder keratansulfat og chondroitin-6-sulfat. Lægemidlet er den eneste godkendte enzymerstatningsbehandling ved MPS IVA.
+Scheie syndrom (afsvækket MPS I) skyldes mangel på alfa-L-iduronidase, hvor dermatansulfat og heparansulfat ophobes. Enzym og substrat er altså andre end dem, elosulfase alfa virker på, så den mekanistiske sammenhæng er svag. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (MPS-familien), ikke biologisk evidens. Laronidase er den specifikke enzymerstatningsterapi ved MPS I.
 
-Scheie syndrom (svag form af MPS I) skyldes mangel på enzymet alfa-L-iduronidase, hvilket giver ophobning af dermatansulfat og heparansulfat. Det er andre substrater end dem, GALNS nedbryder. Der er derfor ikke noget direkte enzymatisk grundlag for at erstatte det manglende enzym med elosulfase alfa.
+## Kliniske forsøg
 
-Den høje score (0,999) afspejler sandsynligvis, at sygdommene ligger tæt på hinanden i modellens netværk inden for MPS-gruppen, snarere end en reel mekanistisk sammenhæng. Forudsigelsen bør derfor tolkes med stor forsigtighed.
+Der er ingen kliniske forsøg, som undersøger Scheie syndrom. Der er registreret forsøg for andre forudsagte sygdomme (fx Hurler syndrom, se nedenfor), men de er ikke relevante som direkte evidens for Scheie syndrom.
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for Scheie syndrom.
-
-Til orientering er der for andre forudsagte sygdomme i datagrundlaget fundet ét forsøg, som kun har indirekte relevans (Hurler syndrom):
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Fase 1 | Rekrutterer | 10 | PEARL: prænatal enzymerstatningsterapi ved lysosomale lagringssygdomme. Undersøger sikkerhed og gennemførlighed; der er ikke påvist, at elosulfase alfa testes, og der foreligger ingen effektresultater. |
-
----
+Currently no related clinical trials registered for Scheie syndrome: **Der er i øjeblikket ingen relaterede kliniske forsøg registreret.**
 
 ## Litteraturevidens
 
-Der foreligger for øjeblikket ingen relateret litteratur om elosulfase alfa ved Scheie syndrom.
+Der er i øjeblikket ingen relateret litteratur om elosulfase alfa ved Scheie syndrom.
 
-Nedenfor ses et udvalg af publikationer, der blev fundet for andre forudsagte sygdomme (Sanfilippo syndrom og lysosomal lagringssygdom med skeletinvolvering). De omhandler alle Morquio A, dvs. den allerede godkendte indikation, og understøtter ikke en ny indikation:
+## Information om det danske marked
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
-|------|-----|------|------|---------|
-| [24810369](https://pubmed.ncbi.nlm.nih.gov/24810369/) | 2014 | RCT | J Inherit Metab Dis | Fase 3, randomiseret, placebokontrolleret studie af effekt og sikkerhed ved Morquio A |
-| [25284089](https://pubmed.ncbi.nlm.nih.gov/25284089/) | 2015 | RCT | Mol Genet Metab | Flerdomæneeffekt i det afgørende fase 3-forsøg ved Morquio A |
-| [27380995](https://pubmed.ncbi.nlm.nih.gov/27380995/) | 2016 | Kohorte | Mol Genet Metab | Langtidseffekt og sikkerhed over 96 uger i fase 3-forlængelsesstudie |
-| [41088244](https://pubmed.ncbi.nlm.nih.gov/41088244/) | 2025 | Review | Orphanet J Rare Dis | Nyere fremskridt i behandling af MPS IVA |
-| [30289033](https://pubmed.ncbi.nlm.nih.gov/30289033/) | 2015 | Review | Expert Rev Endocrinol Metab | Oversigt over elosulfase alfa ved MPS IVA |
-| [42363262](https://pubmed.ncbi.nlm.nih.gov/42363262/) | 2026 | Kohorte | Orphanet J Rare Dis | Langtidsopfølgning af tjekkisk kohorte med MPS IVA |
-| [42279040](https://pubmed.ncbi.nlm.nih.gov/42279040/) | 2026 | Kohorte | J Clin Med | Vækstmønstre ved MPS IVA og MPS IIIA samt association med enzymbehandling |
-
----
-
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105295813 | Vimizim (BioMarin International Limited) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+| 28105295813 | Vimizim (BioMarin International Limited) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i licensdata |
 
----
+Antal godkendelser: 1 enkeltstofsprodukt, gyldigt.
+
+## Andre forudsagte sygdomme i datagrundlaget
+
+| Sygdom | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Lysosomal lagringssygdom med skeletinvolvering | 0,9959 | L5 | Bred kategori, der omfatter MPS IVA. Litteraturen handler om MPS IVA selv og understøtter den oprindelige anvendelse, ikke reel omplacering. |
+| Hurler syndrom | 0,9943 | L5 | Fase 1-forsøget NCT04532047 (PEARL, prænatal enzymerstatning, 10 deltagere, rekrutterer) undersøger lysosomale lagringssygdomme generelt. Det fremgår ikke, at elosulfase alfa indgår. Kun indirekte signal. |
+| Sanfilippo syndrom | 0,9942 | L5 | Litteraturen handler næsten udelukkende om Morquio A. Sygdommen er primært neurologisk, og intravenøse enzymer passerer dårligt blod-hjerne-barrieren. |
+| Camptodaktyli, myopi og fibrose af øjets mediale rectusmuskel | 0,9909 | L5 | Ingen identificerbar mekanistisk sammenhæng. Sandsynligvis grafartefakt. |
+| Ptosis-stemmebåndslammelse-syndrom | 0,9906 | L5 | Ingen plausibel sammenhæng. |
+| Ptosis-strabismus-ektopiske pupiller-syndrom | 0,9903 | L5 | Ingen plausibel sammenhæng. |
+| Ptosis-begrænset opadrettet øjenbevægelse-manglende tåreprik-syndrom | 0,9903 | L5 | Ingen plausibel sammenhæng. |
+| Medfødt Horners syndrom | 0,9902 | L5 | Ingen forbindelse til lysosomal glykosaminoglykan-ophobning. |
+
+Bemærk: Litteraturen om Morquio A (bl.a. en fase 3 randomiseret, placebokontrolleret undersøgelse, PMID 24810369, og forlængelsesstudier) vedrører det lægemiddels kendte brug ved MPS IVA og ikke nogen af de forudsagte nye sygdomme. Den kan derfor ikke løfte evidensniveauet for Scheie syndrom.
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet interaktionsdata i de indsamlede data.
-
----
+Der er ingen tilgængelige data om advarsler, kontraindikationer eller lægemiddelinteraktioner i det udarbejdede datagrundlag. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for Scheie syndrom bygger udelukkende på modellens score uden kliniske forsøg eller litteratur, og der er ingen enzymatisk sammenhæng, da elosulfase alfa nedbryder andre substrater end dem, der ophobes ved Scheie syndrom.
+Forudsigelsen for Scheie syndrom hviler kun på modellen. Der findes hverken forsøg eller litteratur, og enzym og substrat adskiller sig fra elosulfase alfas mål. Laronidase er den specifikke behandling ved MPS I.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) og en vurdering af, om der findes biologisk grundlag for effekt ved MPS I
-- Gennemgang af produktresuméet (SmPC) med henblik på advarsler og kontraindikationer
-- Prækliniske data eller andre studier, der kan underbygge effekt ved Scheie syndrom
-- Vurdering af, om etablerede behandlinger (enzymerstatning med alfa-L-iduronidase) allerede dækker behovet
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA)
+- Præklinisk dokumentation for, at elosulfase alfa kan påvirke ophobningen af dermatan- og heparansulfat, eller en afklaring af, at forudsigelsen er en grafartefakt
+- Indikationstekst og sikkerhedsoplysninger fra produktresuméet for Vimizim (advarsler og kontraindikationer)
+- Sammenligning med eksisterende godkendt behandling (laronidase)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 368
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Flupentixol: forudsagt ny indikation Retinal dystrofi med eller uden ekstraokulære anomalier (evidensniveau L5). Oprindelig indikation: Skizofreni (hentet fra vidensgrafen"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Flupentixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Flupentixol
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Flupentixol: Fra skizofreni til retinal dystrofi (med eller uden ekstraokulære anomalier)
+## Flupentixol: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ men der findes **0 kliniske forsøg** og **0 publikationer**, som understøtter 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni (hentet fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Retinal dystrofi med eller uden ekstraokulære anomalier |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?

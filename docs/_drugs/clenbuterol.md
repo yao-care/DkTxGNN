@@ -48,10 +48,10 @@ Clenbuterol er en beta-2-adrenerg agonist, og i Danmark er der registreret ét v
 |------|------|
 | Original indikation | Ikke angivet i de tilgængelige data (indikationsteksten for den danske autorisation er tom) |
 | Forudsagt ny indikation | Migrænelidelse (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,19 % |
+| TxGNN-forudsigelsesscore | 0,9919 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om clenbuterols vi
 
 En mulig mekanistisk kobling kunne være modulering af adrenerg signalering og cAMP-veje i den neurovaskulære tonus. Dette er imidlertid spekulativt. Beta-agonister er ikke en etableret migrænebehandling, og beta-blokkere, som har den modsatte farmakologi, bruges som profylakse mod migræne. Virkningsretningen er derfor uklar og kan i værste fald være kontraproduktiv.
 
-Den næsthøjest rangerede forudsigelse, **migræne med hjernestammeaura** (score 99,04 %), er en undertype af migræne. Den er sandsynligvis drevet af den samme nærhed i vidensgrafen og udgør derfor ikke uafhængig evidens. Der er heller ingen specifik mekanistisk begrundelse for hjernestammeaura. Systemisk beta-2-agonisme kan desuden give kardiovaskulære sikkerhedsbekymringer i en population med mulig karinvolvering.
+Den næsthøjest rangerede forudsigelse, **migræne med hjernestammeaura** (score 0,9904), er en undertype af migræne. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og udgør derfor ikke uafhængig evidens. Der er heller ingen specifik mekanistisk begrundelse for hjernestammeaura. Systemisk beta-2-agonisme kan desuden give kardiovaskulære sikkerhedsbekymringer i en population med mulig karinvolvering.
 
 ---
 

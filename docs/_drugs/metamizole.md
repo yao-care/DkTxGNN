@@ -4,17 +4,17 @@ title: Metamizole
 parent: Moderat evidens (L3-L4)
 nav_order: 534
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Metamizole: forudsagt ny indikation Reumatoid artritis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for begge god…"
 monitor_inn: "metamizole"
-predicted_indications: ["rheumatoid arthritis", "migraine disorder", "migraine with or without aura, susceptibility to", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Metamizole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 ## Et-sætnings resumé
 
 Metamizol er et smertestillende og febernedsættende stof, der i Danmark i dag kun er registreret i to veterinære lægemidler (injektionsvæske). Den humane originale indikation fremgår ikke af de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at stoffet kan være virksomt mod **reumatoid artritis** (score 99,78 %), men der er **ingen registrerede kliniske forsøg** og kun litteratur om sikkerhed, interaktioner og ordinationsmønstre, ikke om effekt.
+TxGNN-modellen forudsiger, at stoffet kan være virksomt mod **reumatoid artritis** (score 0,9978), men der er **ingen registrerede kliniske forsøg** og kun litteratur om sikkerhed, interaktioner og ordinationsmønstre, ikke om effekt.
 Den høje modelscore understøttes derfor ikke af klinisk evidens.
 
 ---
@@ -50,10 +50,10 @@ Den høje modelscore understøttes derfor ikke af klinisk evidens.
 |------|------|
 | Original indikation | Ikke angivet i de tilgængelige data (indikationsteksten for begge godkendelser er tom) |
 | Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (kun veterinære præparater) |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

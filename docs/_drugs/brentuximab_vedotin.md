@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Brentuximab Vedotin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 129
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brentuximab Vedotin: forudsagt ny indikation Follikulært lymfom (evidensniveau L3). Oprindelig indikation: Hodgkin-lymfom (klassisk Hodgkin-lymfom)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
-predicted_indications: ["follicular lymphoma", "follicular lymphoma", "myeloid leukemia", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
+predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
+last_modified_at: 2026-10-23
+description: "Brentuximab Vedotin: forudsagt ny indikation Follikulært lymfom (evidensniveau L5). Oprindelig indikation: Hodgkins lymfom (klassisk Hodgkin-lymfom)"
 ---
 
 # Brentuximab Vedotin
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,65 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Brentuximab vedotin: Fra Hodgkin-lymfom til follikulært lymfom
+## Brentuximab vedotin: Fra Hodgkins lymfom til follikulært lymfom
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Brentuximab vedotin (Adcetris) er et antistof-lægemiddelkonjugat rettet mod CD30, som oprindeligt anvendes til behandling af Hodgkin-lymfom.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **follikulært lymfom**, men evidensen er svag: de data, der er indsamlet til denne rapport, omfatter **6 kliniske forsøg** (heraf 3 trukket tilbage uden deltagere, 2 afsluttet tidligt og kun 1 igangværende, målrettet follikulært lymfom) og **ingen publikationer, der direkte omhandler follikulært lymfom som effektdata**.
+Brentuximab vedotin er et antistof-lægemiddelkonjugat rettet mod CD30, og relationen til Hodgkins lymfom er registreret i vidensgrafen. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **follikulært lymfom**. Der findes **6 relaterede kliniske forsøg** (3 af dem er trukket tilbage, ét er afsluttet tidligt, og kun ét er aktivt og direkte målrettet sygdommen) og **ingen publikationer, der direkte omhandler follikulært lymfom som behandlingsområde**. Evidensen er derfor svag.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hodgkin-lymfom (klassisk Hodgkin-lymfom) |
+| Oprindelig indikation | Hodgkins lymfom (klassisk Hodgkin-lymfom); relation registreret i vidensgrafen. Lægemiddelstyrelsens registrering indeholder ingen indikationstekst |
 | Forudsagt ny indikation | Follikulært lymfom |
-| TxGNN-forudsigelsesscore | 99,89 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (forskningsspørgsmål) |
-
-**Bemærk:** De data, der er indsamlet til denne rapport, indeholder flere forudsigelser. Rapporten fokuserer på den højest rangerede (follikulært lymfom). Se afsnittet "Andre forudsagte indikationer" nedenfor for en kort sammenligning.
+| TxGNN-forudsigelsesscore | 0,9989 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse (national) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Brentuximab vedotin er dog kendt som et anti-CD30-antistof koblet til det cytotoksiske stof MMAE (monomethylauristatin E). Antistoffet binder CD30 på tumorceller, og MMAE frigives og dræber cellen. Der kan desuden forekomme en "bystander-effekt" på nærliggende celler.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Det kendes dog, at brentuximab vedotin består af et antistof mod CD30, koblet til det cytotoksiske stof MMAE (vedotin). Antistoffet binder til CD30-positive celler og afleverer det toksiske stof målrettet.
 
-Hodgkin-lymfom og follikulært lymfom er begge lymfoide B-celle-maligniteter, hvilket forklarer den høje grafbaserede lighed i TxGNN. Den mekanistiske begrundelse er imidlertid **svag**: follikulært lymfom udtrykker normalt lavt eller varierende CD30. Rationalet gælder derfor kun CD30-positive undergrupper eller hypoteser om bystander-effekt. Den meget høje score afspejler lighed med andre CD30-rettede lymfomindikationer og er ikke en direkte validering.
+Hodgkins lymfom og follikulært lymfom er begge B-cellelymfomer, hvilket kan forklare modellens forudsigelse. Den mekanistiske sammenhæng er dog svag: CD30-udtrykket i follikulært lymfom er variabelt og generelt lavt. En eventuel effekt vil derfor sandsynligvis kræve udvælgelse af CD30-positive patienter.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Evidensen fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
+| Forsøgsnummer | Fase | Status | Antal patienter | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Fase 2 | Rekrutterer | 23 | Brentuximab vedotin + bendamustin ved recidiverende/refraktært follikulært lymfom; ingen effektdata endnu |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Fase 1/2 | Afsluttet tidligt | 20 | Brentuximab vedotin + rituximab som førstelinjebehandling ved CD30+ og/eller EBV+ lymfomer; ikke specifikt for follikulært lymfom |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Fase 2 | Afsluttet tidligt | 25 | Randomiseret forsøg med rituximab + bendamustin med/uden brentuximab vedotin ved CD30+ DLBCL; for lille til fortolkning |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Fase 2 | Trukket tilbage | 0 | Rituximab, brentuximab vedotin og bendamustin ved post-transplantations lymfoproliferativ sygdom; ingen deltagere |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Fase 2 | Trukket tilbage | 0 | Brentuximab vedotin + bendamustin + rituximab ved CD30+ B-celle-NHL; ingen deltagere |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Fase 2 | Trukket tilbage | 0 | Brentuximab vedotin + pembrolizumab ved perifert T-cellelymfom; ingen deltagere |
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Fase 2 | Rekrutterer | 23 | Brentuximab vedotin + bendamustin ved recidiverende/refraktært follikulært lymfom. Direkte relevant, men ingen resultater endnu |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Fase 1/2 | Afsluttet tidligt | 20 | Brentuximab vedotin + rituximab som førstelinjebehandling ved CD30-positive og/eller EBV-positive lymfomer; follikulært lymfom er kun én af flere undertyper |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Fase 2 | Afsluttet tidligt | 25 | Randomiseret: rituximab + bendamustin med/uden brentuximab vedotin ved CD30-positivt DLBCL. For få patienter til en pålidelig konklusion |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Fase 2 | Trukket tilbage | 0 | Sekventiel behandling (rituximab, brentuximab vedotin, bendamustin) ved post-transplantations lymfoproliferativ sygdom; ingen data |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Fase 2 | Trukket tilbage | 0 | Brentuximab vedotin + bendamustin + rituximab ved CD30-positivt recidiverende/refraktært B-celle-NHL; ingen data |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Fase 2 | Trukket tilbage | 0 | Brentuximab vedotin + pembrolizumab ved perifert T-cellelymfom; ikke specifikt for follikulært lymfom |
 
 ---
 
 ## Litteraturevidens
 
-Ingen af de indhentede publikationer indeholder effektdata for brentuximab vedotin ved follikulært lymfom. Størstedelen handler om perifere T-cellelymfomer. De mest relevante er:
+De fundne publikationer omhandler primært perifere T-cellelymfomer, DLBCL, Hodgkin-lymfom og antistof-lægemiddelkonjugater generelt. Ingen af dem er et studie, der direkte undersøger brentuximab vedotin ved follikulært lymfom. Enkelte er tangentielt relevante:
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leukemia Research Reports | Oversigt over immunterapi ved indolente non-Hodgkin-lymfomer, herunder follikulært lymfom |
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Kohorte | Blood Advances | Brentuximab vedotin + gemcitabin ved recidiverende/refraktært PTCL (LYSA fase 2) |
-| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Kohorte | European Journal of Haematology | Brentuximab vedotin + ICE ved recidiverende/refraktært PTCL |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Behandling af hyppige PTCL-subtyper, herunder brentuximab vedotin + CHP |
-| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Review | Hematology (ASH Education Program) | Integration af nye lægemidler, herunder brentuximab vedotin, i PTCL-behandling |
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case | Gulf Journal of Oncology | Transformation af follikulært lymfom grad I til CD30+ ALCL med komplet respons på brentuximab vedotin og højdosis methotrexat |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leukemia research reports | Immunterapi ved indolente non-Hodgkin-lymfomer, herunder follikulært lymfom |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case report | The Gulf journal of oncology | Transformation af follikulært lymfom grad I til CD30-positivt anaplastisk storcellet lymfom med komplet respons på brentuximab vedotin og højdosis methotrexat |
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Kohorte | Blood advances | Brentuximab vedotin + gemcitabin ved recidiverende/refraktært perifert T-cellelymfom (ikke follikulært lymfom) |
+| [38364196](https://pubmed.ncbi.nlm.nih.gov/38364196/) | 2024 | RCT | Journal of Clinical Oncology | Ro-CHOP-studiet ved perifert T-cellelymfom (ikke relateret til brentuximab vedotin ved follikulært lymfom) |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -107,34 +103,21 @@ Ingen af de indhentede publikationer indeholder effektdata for brentuximab vedot
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (antistof-lægemiddelkonjugat med cytotoksisk MMAE-nyttelast) |
-| Knoglemarvssuppression | Se produktresuméet (SmPC) |
-| Emetogenicitet | Se produktresuméet (SmPC) |
-| Overvågning | Se produktresuméet (SmPC); neuropatioverågning og CD30-testning er foreslået som sikkerhedsforanstaltninger i de indsamlede data |
-| Håndtering | Følg gældende regler for håndtering af cytotoksiske lægemidler |
+| Cytotoksicitetsklassifikation | Målrettet behandling: antistof-lægemiddelkonjugat (anti-CD30 med MMAE-toksin) |
+| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) for anbefalet blodtælling samt lever- og nyrefunktion |
+| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
+
+Der foreligger ikke yderligere toksicitetsdata i de indsamlede data. Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i alt, her vises de første 20. Alle de viste er klassificeret som **moderate**, bl.a. med acarbose, albiglutid, alogliptin, metformin, pioglitazon, bupropion, canagliflozin, clarithromycin, dapagliflozin, empagliflozin, exenatid og glimepirid. Flere af dem er antidiabetika.
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen gav 100 registrerede interaktioner. De viste er alle af moderat sværhedsgrad, bl.a. med:
-- Antidiabetika: acarbose, albiglutid, alogliptin, metformin, pioglitazon, canagliflozin, dapagliflozin, empagliflozin, glimepirid, glipizid m.fl.
-- Andre: bupropion, clarithromycin, clotrimazol, eliglustat, chenodeoxycholsyre
-
----
-
-## Andre forudsagte indikationer (kort overblik)
-
-| Forudsagt indikation | Score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| B-celle-neoplasi (især CD30+ DLBCL, PMBCL) | 99,60 % | L2 | Proceed with Guardrails |
-| Myeloid leukæmi | 99,76 % | L3 | Forskningsspørgsmål |
-| Akut lymfoblastær leukæmi | 99,65 % | L4 | Hold |
-| KLL/SLL-subtyper | 99,46 % | L5 | Hold |
-
-B-celle-neoplasi har den stærkeste evidens (bl.a. NCT01421667, n=176, afsluttet fase 2; NCT04404283, randomiseret fase 3 ved recidiveret DLBCL, aktiv, rekrutterer ikke). Kategorien er bred og omfatter også Hodgkin-lymfomforsøg, som ikke udgør repurposing-evidens. Forsøget NCT06186986 er mærket fase 3, men er et billeddannelsesstudie og tæller ikke som randomiseret fase 3-forsøg.
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -143,14 +126,13 @@ B-celle-neoplasi har den stærkeste evidens (bl.a. NCT01421667, n=176, afsluttet
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den mekanistiske begrundelse er svag, da follikulært lymfom typisk har lavt CD30-udtryk. Tre af seks forsøg er trukket tilbage, to er afsluttet tidligt, og kun ét igangværende forsøg (NCT04587687, n=23) undersøger direkte follikulært lymfom, uden effektdata endnu. Den høje TxGNN-score afspejler grafbaseret lighed og ikke klinisk validering.
+Ingen af de citerede studier har afsluttede resultater for brentuximab vedotin ved follikulært lymfom, så evidensen er på modelforudsigelsesniveau (L5). Den mekanistiske begrundelse er svag på grund af lavt CD30-udtryk, og de fleste relaterede forsøg er trukket tilbage eller afsluttet tidligt. Kun ét aktivt fase 2-forsøg (NCT04587687) adresserer direkte sygdommen.
 
 **For at komme videre kræves:**
-- Resultater fra NCT04587687
-- Data om CD30-ekspression i follikulært lymfom for at identificere en relevant undergruppe
-- Oplysninger om virkningsmekanisme (MOA) og sikkerhedsoplysninger fra det godkendte produktresumé
-- Indikationstekst for den danske markedsføringstilladelse
-- Overvejelse af B-celle-neoplasi (CD30+ DLBCL/PMBCL) som mere lovende kandidat med guardrails (CD30-testning, neuropatioverågning)
+- Resultater fra det igangværende fase 2-forsøg NCT04587687 (brentuximab vedotin + bendamustin ved recidiverende/refraktært follikulært lymfom)
+- Data om CD30-udtryk ved follikulært lymfom og kriterier for patientudvælgelse
+- Data om virkningsmekanisme og en gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
+- Vurdering af interaktionsprofilen, herunder samtidig brug af antidiabetika
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

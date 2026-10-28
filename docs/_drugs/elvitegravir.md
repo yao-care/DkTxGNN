@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Elvitegravir
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 300
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Elvitegravir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
+description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Elvitegravir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Elvitegravir: Fra HIV-infektion til SIV-infektion (simian immundefektvirus)
+## Elvitegravir: Fra HIV-infektion til simian immundefektvirus-infektion
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,10 +48,10 @@ Elvitegravir er en integrasehæmmer, der oprindeligt anvendes til behandling af 
 |------|------|
 | Oprindelig indikation | HIV-infektion og AIDS (de danske markedsføringstilladelser indeholder ingen indikationstekst i de data, der er indsamlet til denne rapport) |
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L3 (alene præklinisk dokumentation; tildelt som L3 i datagrundlaget, mens en streng læsning af reglerne ville pege mod L4) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

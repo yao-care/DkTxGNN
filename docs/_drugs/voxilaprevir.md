@@ -50,10 +50,10 @@ Forudsigelsen er derfor udelukkende en modelberegning (evidensniveau L5).
 |------|------|
 | Oprindelig indikation | Kronisk hepatitis C-virusinfektion (godkendelsesteksten for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Forudsigelsen er derfor udelukkende en modelberegning (evidensniveau L5).
 
 Der foreligger ikke detaljerede data om virkningsmekanisme for voxilaprevir i de indsamlede data. Voxilaprevir er kendt som en HCV NS3/4A-proteasehæmmer, og dets effekt ved hepatitis C er veldokumenteret.
 
-Mekanistisk er der ikke noget oplagt link til hepatitis B. HBV har ikke en NS3/4A-lignende protease; de centrale lægemiddelmål er virussets polymerase og kapsid-/kerneprotein. Den høje TxGNN-score afspejler sandsynligvis, at sygdommene ligger tæt på hinanden i vidensgrafen (andre hepatitisvira), ikke at de deler et lægemiddelmål. De 9 fundne publikationer handler om HCV-genbehandling, resistens, priser og epidemiologi, og ingen af dem viser anti-HBV-aktivitet.
+Mekanistisk er der ikke noget oplagt link til hepatitis B. HBV har ikke en NS3/4A-lignende protease; de centrale lægemiddelmål er virussets polymerase og kapsid-/kerneprotein. Den høje TxGNN-score (0,9984) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (andre hepatitisvira), ikke biologisk evidens eller et fælles lægemiddelmål. De 9 fundne publikationer handler om HCV-genbehandling, resistens, priser og epidemiologi, og ingen af dem viser anti-HBV-aktivitet.
 
 Øvrige forudsigelser (hepatitis E, hepatitis A, Omsk hæmoragisk feber, Kyasanur-skovsygdom, HIV m.fl.) har alle evidensniveau L4-L5 og anbefalingen Hold. For flavivirus (Omsk, Kyasanur) findes kun en spekulativ klasserationale via NS2B/NS3-proteasen, uden dokumentation.
 

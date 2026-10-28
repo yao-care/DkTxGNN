@@ -6,9 +6,9 @@ nav_order: 688
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Procyclidine: forudsagt ny indikation Rasmussens subakutte encefalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom og beslægtede parkinsonlignende tilstande (ifølge v…"
 monitor_inn: "procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
+description: "Procyclidine: forudsagt ny indikation Rasmussens subakutte encefalitis (Rasmussen subacute encephalitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Procyclidine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Procyclidin: Fra Parkinsons sygdom til Rasmussens subakutte encefalitis
+## Procyclidine: Rasmussens subakutte encefalitis (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der unde
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Parkinsons sygdom og beslægtede parkinsonlignende tilstande (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Rasmussens subakutte encefalitis |
-| TxGNN-forudsigelsesscore | 99,74 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rasmussens subakutte encefalitis (Rasmussen subacute encephalitis) |
+| TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

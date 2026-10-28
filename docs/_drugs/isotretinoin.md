@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: Kun modelforudsigelse (L5)
 nav_order: 460
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isotretinoin: forudsagt ny indikation Malign renovaskulær hypertension (samt malign hypertensiv nyresygdom) (evidensniveau L5). Oprindelig indikation: Hypertension og hypertensiv sygdom (fra vidensgr…"
 monitor_inn: "ISOTRETINOIN"
-predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Isotretinoin: Fra hypertension til malign renovaskulær hypertension
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumé
@@ -46,21 +46,21 @@ Isotretinoin er i dataene registreret med hypertension (forhøjet blodtryk) som 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og hypertensiv sygdom (fra vidensgrafen; den godkendte indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Malign renovaskulær hypertension (samt malign hypertensiv nyresygdom) |
-| TxGNN-prædiktionsscore | 99,01 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malignant hypertensive renal disease |
+| TxGNN-prædiktionsscore | 0.9901 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Der foreligger ingen data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Forudsigelsen bygger derfor alene på mønstre i TxGNN-vidensgrafen, hvor den oprindelige indikation (hypertension) ligger tæt på de forudsagte sygdomme (maligne former for hypertension med nyrepåvirkning).
+Der foreligger ingen data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport.
 
-Der er ikke påvist nogen mekanistisk forbindelse, og lighed med den oprindelige indikation er ikke vurderet. Det skal også bemærkes, at isotretinoin i klinisk praksis er et retinoid til svær akne, og at hypertension ikke er en kendt, etableret indikation. Vidensgrafens oprindelige indikation bør derfor verificeres, før forudsigelsen tillægges vægt.
+Der er ikke påvist nogen mekanistisk forbindelse, og lighed med den oprindelige indikation er ikke vurderet. Det skal også bemærkes, at isotretinoin i klinisk praksis er et retinoid til svær akne, og at hypertension ikke er en kendt, etableret indikation.
 
 De fire forudsagte poster i dataene er i realiteten to forskellige sygdomme, der optræder to gange hver, alle med identisk score.
 

@@ -6,9 +6,9 @@ nav_order: 709
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Relebactam: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion og pyelonefritis (ifølge TxGNN-vidensgrafen"
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Relebactam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Relebactam
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Relebactam: Fra urinvejsinfektion og pyelonefritis til hyperamylasæmi
+## Relebactam: Hyperamylasæmi (hyperamylasemia)
 {: .text-alpha }
 
 ## Opsummering i en sætning
@@ -46,12 +46,12 @@ Relebactam er en betalaktamasehæmmer, som gives sammen med imipenem/cilastatin 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urinvejsinfektion og pyelonefritis (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Hyperamylasæmi |
-| TxGNN-forudsigelsesscore | 99,22 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hyperamylasæmi (hyperamylasemia) |
+| TxGNN-forudsigelsesscore | 0.9922 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om relebactams vir
 
 Der er ikke identificeret en troværdig mekanistisk sammenhæng mellem denne virkning og hyperamylasæmi. Relebactam har ingen kendt effekt på amylaseproduktion, pankreasfunktion eller amylaseclearance. Hyperamylasæmi er desuden et laboratoriefund frem for en sygdom med et veldefineret terapeutisk mål, hvilket svækker grundlaget for en repurposing-hypotese yderligere.
 
-Den høje score (0,992) afspejler en grafbaseret forudsigelse og er ikke understøttet af kliniske eller litteraturmæssige data.
+Den høje score (0,9922) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den er ikke understøttet af kliniske eller litteraturmæssige data.
 
 ### Andre forudsagte indikationer
 
@@ -70,8 +70,8 @@ Modellen forudsagde også følgende, begge med samme manglende evidens (L5, anbe
 
 | Rang | Sygdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Polyklonalt hyperviskositetssyndrom | 99,22 % | Ingen kendt immunmodulerende, anti-immunglobulin- eller reologisk virkning af relebactam |
-| 3 | Medfødt analbuminæmi | 99,08 % | En betalaktamasehæmmer kan ikke korrigere en genetisk defekt i albuminsyntesen. Albuminbinding kan have farmakokinetisk relevans, men er ikke et terapeutisk rationale |
+| 2 | Polyklonalt hyperviskositetssyndrom | 0,9922 | Ingen kendt immunmodulerende, anti-immunglobulin- eller reologisk virkning af relebactam |
+| 3 | Medfødt analbuminæmi | 0,9908 | En betalaktamasehæmmer kan ikke korrigere en genetisk defekt i albuminsyntesen. Albuminbinding kan have farmakokinetisk relevans, men er ikke et terapeutisk rationale |
 
 ---
 

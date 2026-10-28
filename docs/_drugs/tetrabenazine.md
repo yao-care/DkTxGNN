@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
-description: "Tetrabenazine: forudsagt ny indikation Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom (evidensniveau L5). Oprindelig indikation: Huntingtons sygdom (samt Huntington-lignende sygdomme"
+description: "Tetrabenazine: forudsagt ny indikation Polycystic kidney disease 3 with or without polycystic liver disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tetrabenazine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tetrabenazin: Fra Huntingtons sygdom til polycystisk nyresygdom 3 (med eller uden polycystisk leversygdom)
+## Tetrabenazine: Polycystic kidney disease 3 with or without polycystic liver disease
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Tetrabenazin er oprindeligt anvendt ved Huntingtons sygdom og beslægtede bevæg
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Huntingtons sygdom (samt Huntington-lignende sygdomme, juvenil Huntingtons sygdom og McLeod-neuroakantocytosesyndrom, ifølge videngrafen). Indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data. |
-| Foreslået ny indikation | Polycystisk nyresygdom 3 med eller uden polycystisk leversygdom |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Polycystic kidney disease 3 with or without polycystic liver disease |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---
@@ -62,7 +62,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 Polycystisk nyre- og leversygdom (fx GANAB-/PRKCSH-relateret) skyldes derimod defekter i glykoproteinbearbejdning og cilie-/cystesignalering. Der er **ingen troværdig mekanistisk forbindelse** mellem VMAT2-hæmning og disse patologiske mekanismer. Den høje score er udelukkende en grafbaseret forudsigelse, og modellen siger intet om, hvorvidt lægemidlet virker klinisk.
 
-De øvrige forudsigelser i top 10 (fx renal-hepatisk-pankreatisk dysplasi, Joubert-syndrom med nyredefekt, karyomegal interstitiel nefritis og akut intermitterende porfyri) har samme profil: score over 99,8 %, men ingen kliniske forsøg og ingen understøttende litteratur. Alle er vurderet til L5 og Hold.
+De øvrige forudsigelser i top 10 (fx renal-hepatisk-pankreatisk dysplasi, Joubert-syndrom med nyredefekt, karyomegal interstitiel nefritis og akut intermitterende porfyri) har samme profil: score på 0,9983 eller derover, men ingen kliniske forsøg og ingen understøttende litteratur. Alle er vurderet til L5 og Hold.
 
 ---
 

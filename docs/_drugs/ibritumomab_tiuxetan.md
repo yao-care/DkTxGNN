@@ -4,17 +4,17 @@ title: Ibritumomab Tiuxetan
 parent: Kun modelforudsigelse (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (evidensniveau L5). Oprindelig indikation: Follikulært lymfom og neoplasme i modne B-celler"
 monitor_inn: "ibritumomab tiuxetan"
 predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
+description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale d…"
 ---
 
 # Ibritumomab Tiuxetan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ibritumomab tiuxetan: Fra follikulært lymfom til akut lymfoblastær leukæmi
+## Ibritumomab Tiuxetan: Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia)
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -46,12 +46,12 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Follikulært lymfom og neoplasme i modne B-celler (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering var ikke udfyldt) |
-| Forudsagt ny indikation | Akut lymfoblastær/lymfocytær leukæmi |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia) |
+| TxGNN-forudsigelsesscore | 0.9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -116,7 +116,7 @@ Se produktresuméet (SmPC) for fuldstændige oplysninger om advarsler og kontrai
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for akut lymfoblastær leukæmi har en høj modelscore (99,78 %), men ingen kliniske forsøg eller publikationer (evidensniveau L5). CD20-ekspressionen i ALL er desuden variabel.
+Forudsigelsen for akut lymfoblastær/lymfocytær leukæmi har en høj modelscore (0.9978) fra TxGNN-modellen (deep learning), men ingen kliniske forsøg eller publikationer (evidensniveau L5). Scoren kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. CD20-ekspressionen i ALL er desuden variabel.
 
 **For at komme videre kræves følgende:**
 - Data om CD20-ekspression i B-ALL og prækliniske eller mekanistiske studier, der kan understøtte radioimmunterapi i denne indikation

@@ -6,9 +6,9 @@ nav_order: 659
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pibrentasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Pibrentasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pibrentasvir
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pibrentasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+## Pibrentasvir: Hepatitis B-virusinfektion (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Pibrentasvir er en NS5A-hæmmer, som oprindeligt anvendes til behandling af kronisk hepatitis C-virusinfektion (i fast kombination med glecaprevir).
 TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hepatitis B-virusinfektion**, men der er **0 kliniske forsøg** og **0 relevante publikationer** om hepatitis B, der understøtter denne retning.
-Den høje modelscore afspejler sandsynligvis nærhed i vidensgrafen til andre virale leverinfektioner og ikke et reelt farmakologisk belæg.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -48,12 +48,12 @@ Den høje modelscore afspejler sandsynligvis nærhed i vidensgrafen til andre vi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion (godkendelsesteksten for den danske tilladelse er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatitis B-virusinfektion (hepatitis B virus infection) |
+| TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,15 +68,15 @@ Hepatitis B-virus (HBV) er et hepadnavirus med et DNA-genom, der replikeres via 
 
 | Rang | Sygdom | Score | Vurdering |
 |---|---|---|---|
-| 2 | HIV-infektion | 99,80 % | Syv forsøg, men HIV er kun en populationskarakteristik (HCV/HIV-samtidig infektion). Der er ingen kendt anti-HIV-aktivitet. Resultaterne understøtter den eksisterende HCV-indikation. |
-| 3 | Hepatitis E-virusinfektion | 99,77 % | Ingen mekanistisk eller klinisk støtte. Kun en generel konferencerapport. |
-| 4 | Hepatitis A-virusinfektion | 99,76 % | De tilknyttede forsøg er HCV-studier, tilsyneladende koblet via den generiske betegnelse "hepatitis". Ingen tester HAV. |
-| 5 | Viral hepatitis, dyr | 99,76 % | Uspecifik dyremodelkategori uden selvstændig human indikation. |
-| 6 | Omsk hæmoragisk feber | 99,76 % | Flavivirus; kun beregningsmæssig association, ingen data. |
-| 7 | Kyasanur-skovsyge | 99,75 % | Flavivirus; kun beregningsmæssig association, ingen data. |
-| 8 | Simian immundefektvirusinfektion | 99,70 % | Retrovirus hos dyr; sandsynligvis propageret fra HIV-noden. |
-| 9 | Felint ervervet immundefektsyndrom | 99,70 % | Veterinær sygdom; ikke relevant for human repurposing. |
-| 10 | Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans | 99,64 % | Sjælden genetisk sygdom uden plausibel sammenhæng; sandsynligvis en grafartefakt. |
+| 2 | HIV-infektion | 0,9980 | Syv forsøg, men HIV er kun en populationskarakteristik (HCV/HIV-samtidig infektion). Der er ingen kendt anti-HIV-aktivitet. Resultaterne understøtter den eksisterende HCV-indikation. |
+| 3 | Hepatitis E-virusinfektion | 0,9977 | Ingen mekanistisk eller klinisk støtte. Kun en generel konferencerapport. |
+| 4 | Hepatitis A-virusinfektion | 0,9976 | De tilknyttede forsøg er HCV-studier, tilsyneladende koblet via den generiske betegnelse "hepatitis". Ingen tester HAV. |
+| 5 | Viral hepatitis, dyr | 0,9976 | Uspecifik dyremodelkategori uden selvstændig human indikation. |
+| 6 | Omsk hæmoragisk feber | 0,9976 | Flavivirus; kun beregningsmæssig association, ingen data. |
+| 7 | Kyasanur-skovsyge | 0,9975 | Flavivirus; kun beregningsmæssig association, ingen data. |
+| 8 | Simian immundefektvirusinfektion | 0,9970 | Retrovirus hos dyr; sandsynligvis propageret fra HIV-noden. |
+| 9 | Felint ervervet immundefektsyndrom | 0,9970 | Veterinær sygdom; ikke relevant for human repurposing. |
+| 10 | Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans | 0,9964 | Sjælden genetisk sygdom uden plausibel sammenhæng; sandsynligvis en grafartefakt. |
 
 ---
 
@@ -119,9 +119,6 @@ Der er ingen litteratur om pibrentasvir ved hepatitis B. Nedenfor ses et udvalg 
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105901416 | Maviret (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
 ---
 

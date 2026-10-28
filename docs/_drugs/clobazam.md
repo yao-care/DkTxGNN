@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clobazam
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 207
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Clobazam: forudsagt ny indikation Febril infektionsrelateret epilepsisyndrom (FIRES) (evidensniveau L4). Oprindelig indikation: Lennox-Gastaut syndrom"
 monitor_inn: "Clobazam"
-predicted_indications: ["febrile infection-related epilepsy syndrome", "febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+last_modified_at: 2026-10-27
+description: "Clobazam: forudsagt ny indikation Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clobazam
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Clobazam: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+## Clobazam: GABA-A-modulator (benzodiazepin) → Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome)
 {: .text-alpha }
 
-## Resumé
+## Kort resumé
 
-Clobazam er et benzodiazepin, som oprindeligt anvendes til behandling af Lennox-Gastaut syndrom (en alvorlig børneepilepsi).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **febril infektionsrelateret epilepsisyndrom (FIRES)**.
-I de data, der er indsamlet til denne rapport, findes **ingen kliniske forsøg** og **2 publikationer** (en case-serie og en case-rapport om andre lægemidler), så evidensen er kun indirekte.
+Clobazam er et benzodiazepin, som virker som positiv allosterisk modulator af GABA-A-receptoren.
+TxGNN-modellen forudsiger, at det kan have effekt ved **febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome)**.
+Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **2 publikationer** (en case series og en kasuistik), som ikke undersøger clobazam direkte.
 
 ---
 
@@ -48,60 +48,57 @@ I de data, der er indsamlet til denne rapport, findes **ingen kliniske forsøg**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lennox-Gastaut syndrom (ifølge TxGNN-vidensgrafen; der er ikke angivet nogen godkendt indikationstekst i den danske registrering) |
-| Foreslået ny indikation | Febril infektionsrelateret epilepsisyndrom (FIRES) |
-| TxGNN-forudsigelsesscore | 99,82 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome) |
+| TxGNN-forudsigelsesscore | 0,9982 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Clobazam er dog kendt som et 1,5-benzodiazepin, der virker som positiv allosterisk modulator af GABA-A-receptorer og dermed forstærker den hæmmende signalering i hjernen.
+Data om clobazams detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Clobazam tilhører dog klassen af benzodiazepiner, som forstærker den hæmmende GABA-A-transmission.
 
-Lennox-Gastaut syndrom og FIRES er begge svære, behandlingsresistente epilepsiformer hos børn. FIRES indebærer langvarig anfaldsaktivitet og refraktær status epilepticus, hvor GABAergisk dæmpning er et plausibelt princip. De to fundne publikationer omhandler imidlertid andre lægemidler (enteral lorazepam og perampanel) i forbindelse med aftrapning af midazolam eller barbiturater. De giver derfor kun indirekte støtte på klasseniveau for GABAerge benzodiazepiner.
-
-Den meget høje TxGNN-score er en beregningsmæssig forudsigelse og ikke klinisk evidens.
+Febril infektionsrelateret epilepsisyndrom (FIRES) er en form for refraktær status epilepticus hos tidligere raske børn, hvor GABA-erge midler som midazolam, lorazepam og barbiturater anvendes. Der er derfor en plausibel forbindelse på klasseniveau. Forbindelsen er dog udelukkende udledt af kendskab til lægemiddelklassen og er ikke påvist for clobazam.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case-serie | Epileptic Disorders | Enteral lorazepam som aftrapningsstrategi hos midazolam-responsive patienter med FIRES (ikke clobazam) |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Case-rapport | Cureus | Perampanel kan potentielt reducere barbituratafhængighed hos en 13-årig dreng med FIRES (ikke clobazam) |
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case series | Epileptic Disorders | Enteral lorazepam som nedtrapningsstrategi hos patienter med FIRES, der responderer på midazolam. Omhandler ikke clobazam. |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Kasuistik | Cureus | Perampanel kan potentielt mindske afhængigheden af barbiturater hos en 13-årig dreng med FIRES. Omhandler ikke clobazam. |
+
+Ingen af de to artikler undersøger clobazam ved FIRES. Evidensen for denne specifikke sygdom er derfor kun indirekte, og evidensniveauet er L5.
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106382320 | Clobazam "Essential Pharmaceuticals" (producent: Essential Pharma (M) Limited) | Oral suspension | Ikke angivet |
+| 28106382320 | Clobazam "Essential Pharmaceuticals" | Oral suspension | Indikationstekst ikke registreret i de lokale data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret; udvalgte nedenfor):
+**Lægemiddelinteraktioner** (registrerede i alt 100; de vigtigste er nævnt):
+- **Alvorlig (Major):** morfin (herunder liposomal morfin) og eliglustat.
+- **Moderat:** bupropion, aprepitant, omeprazol, esomeprazol, lansoprazol, cimetidin, clarithromycin, dexfenfluramin, fenfluramin, dronabinol og metoclopramid.
+- **Mindre (Minor):** magnesiumoxid, magnesiumhydroxid, magnesiumcarbonat, aluminiumhydroxid, calciumcarbonat og magaldrat.
 
-- **Alvorlige (Major):** morfin, morfin (liposomal), eliglustat
-- **Moderate:** bupropion, aprepitant, omeprazol, esomeprazol, lansoprazol, cimetidin, clarithromycin, dexfenfluramin, fenfluramin, dronabinol, metoclopramid
-- **Mindre alvorlige (Minor):** magnesiumoxid, aluminiumhydroxid, calciumcarbonat, magaldrat, magnesiumcarbonat, magnesiumhydroxid
-
-Kombinationen med opioider som morfin er især relevant på grund af risikoen for additiv sedation og respirationsdepression.
-
-For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -110,14 +107,13 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger hovedsageligt på en beregningsmæssig model. Der findes ingen kliniske forsøg, og de to publikationer omhandler andre lægemidler og er kun case-baserede. Evidensen er derfor utilstrækkelig til at gå videre, og spørgsmålet bør betragtes som en forskningshypotese.
+Forudsigelsen er mekanistisk plausibel på klasseniveau, men der er hverken kliniske forsøg eller litteratur, der undersøger clobazam ved FIRES. Evidensen er derfor kun modelbaseret (L5).
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Litteratursøgning efter studier, der direkte undersøger clobazam ved FIRES
-- Retrospektive kohorte- eller case-serier eller et eksplorativt klinisk forsøg for at vurdere virkning og sikkerhed
-- Vurdering af, om oral suspension er egnet til patientgruppen (børn i akut, svær tilstand)
+**For at komme videre kræves:**
+- Data om clobazams virkningsmekanisme.
+- Studier, herunder kasuistikker eller kohorter, der direkte vurderer clobazam ved FIRES.
+- Gennemgang af produktresuméets advarsler og kontraindikationer, især med fokus på samtidig brug af opioider og CYP-hæmmere.
+- Vurdering af, om den orale suspension er egnet til den akutte, intensivbehandlingsnære patientgruppe.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

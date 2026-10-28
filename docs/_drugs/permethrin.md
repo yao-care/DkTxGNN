@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Permethrin
-parent: Moderat evidens (L3-L4)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 649
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Permethrin: forudsagt ny indikation Trombiculiasis (evidensniveau L4). Oprindelig indikation: Fnat, lus (Pthirus pubis, Pediculus humanus corporis/capitis)…"
-monitor_inn: "Permethrin"
-predicted_indications: ["trombiculiasis", "trombiculiasis", "lip neoplasm", "lip neoplasm", "lower lip fistula", "lower lip fistula", "anisakiasis", "anisakiasis", "toxascariasis", "toxascariasis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Permethrin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Permethrin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,64 +32,50 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Permethrin: Fra lus og fnat til trombiculiasis (høstmider)
+<!-- known-uses-page -->
+<!-- description: Permethrin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Permethrin: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
 ## Resumé
-
-Permethrin er et lokalt (topisk) middel mod parasitter på huden og er oprindeligt anvendt mod fnat, lus (hoved-, krops- og fladlus) og mideangreb.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **trombiculiasis** (angreb af trombiculide mider, "høstmider").
-Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation**, og den stammer fra et veterinærstudie på hunde.
-
----
+TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette lægemiddel, så der er aktuelt ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er opført nedenfor.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Fnat, lus (Pthirus pubis, Pediculus humanus corporis/capitis), norsk fnat og mideangreb (ifølge TxGNN-vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Trombiculiasis |
-| TxGNN-prædiktionsscore | 95,2 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
+| Kendte anvendelser registreret for dette lægemiddel | 6 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Kendte anvendelser registreret for dette lægemiddel
 
-## Hvorfor er forudsigelsen rimelig?
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| Ingen | Ingen |
 
-Detaljerede mekanismedata er ikke tilgængelige i de data, der er indsamlet til denne rapport. Permethrin tilhører dog gruppen af pyrethroide ektoparasitmidler. Stoffer i denne klasse holder spændingsstyrede natriumkanaler åbne i leddyrs nerveceller, hvilket fører til lammelse og død hos parasitten.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Trombiculide larver (høstmider) er mider, ligesom fnatmiden. Permethrin har allerede dokumenteret effekt mod fnat og mideangreb, så en virkning mod høstmider er mekanistisk plausibel og ligger tæt på de oprindelige indikationer.
-
-Det skal understreges, at den eneste foreliggende evidens er et veterinærstudie. Der er ingen humane kliniske data, og forudsigelsen bør derfor betragtes som en forskningshypotese.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Veterinært klinisk studie (hunde) | The Journal of Small Animal Practice | 15 hunde med kløende dermatitis forårsaget af *Neotrombicula autumnalis*. Dermatitten forsvandt efter vellykket behandling af angrebet. Hos 14 hunde var topisk behandling med en permethrin-pyriproxyfen-kombination effektiv inden for 1-3 uger. |
-
-Bemærk, at studiet omhandler hunde og en kombination af to aktive stoffer, så resultaterne kan ikke direkte overføres til mennesker eller til permethrin alene.
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Mideangreb (mite infestation) |
+| Norsk skabes (norwegian scabies) |
+| Hovedlus (pediculus humanus capitis infestation) |
+| Kropslus (pediculus humanus corporis infestation) |
+| Fladlus (pthirus pubis infestation) |
+| Fnat (scabies) |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101360589 | Nix (ACO Hud Nordic AB) | Creme | Indikationstekst er ikke tilgængelig |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28101360589 | Nix | creme | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -104,24 +89,6 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Mekanismen er plausibel, og permethrin er allerede markedsført til beslægtede mideangreb. Den eneste evidens er dog et enkelt veterinærstudie uden humane kliniske data, og sikkerhedsoplysninger fra produktresuméet mangler. Forudsigelsen er derfor på forskningshypotesestadiet.
-
-**For at komme videre kræves følgende:**
-- Gennemgang af produktresuméet for Nix (advarsler og kontraindikationer), som endnu ikke er indhentet
-- Data om virkningsmekanisme fra DrugBank
-- Humane kliniske data (f.eks. case-serier eller kontrollerede forsøg) om permethrin mod trombiculiasis
-- Vurdering af, om den godkendte creme er egnet til de relevante hudområder og anvendelsesforhold
-
----
-
-## Bemærkning om øvrige forudsigelser
-
-Modellen forudsagde også *læbeneoplasmer* (92,9 %), *fistel i underlæben* (92,9 %), *anisakiasis* (91,3 %) og *toxascariasis* (91,3 %). Der er hverken kliniske forsøg eller litteratur for nogen af dem, og der er ingen plausibel mekanistisk sammenhæng. For anisakiasis og toxascariasis (indre nematodeinfektioner) er systemisk eksponering efter topisk brug desuden minimal. Alle fire vurderes som **Hold** (evidensniveau L5).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

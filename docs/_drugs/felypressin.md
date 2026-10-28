@@ -48,10 +48,10 @@ Felypressin er et syntetisk vasopressinanalog, som markedsføres i Danmark som v
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,80 % |
+| TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Felypressin er et syntetisk vasopressinanalog, som markedsføres i Danmark som v
 
 Der foreligger ingen detaljerede data om felypressins virkningsmekanisme i de data, der er sammenstillet til denne rapport. Felypressin er kendt som et syntetisk vasopressinanalog, der primært virker som V1-receptoragonist og giver vasokonstriktion. Det anvendes sammen med lokalbedøvelse for at forlænge og forstærke effekten.
 
-Ud fra de foreliggende data kan der ikke påvises nogen plausibel mekanistisk sammenhæng mellem V1-receptoragonisme og knoglestofskifte eller glukokortikoidinduceret knogletab. Den høje score (0,998) skal derfor ses som et rent modelresultat, der ikke er understøttet af forsøg eller litteratur, og som muligvis afspejler uspecifikke sammenhænge i vidensgrafen.
+Ud fra de foreliggende data kan der ikke påvises nogen plausibel mekanistisk sammenhæng mellem V1-receptoragonisme og knoglestofskifte eller glukokortikoidinduceret knogletab. Den høje score (0,9980) skal derfor ses som et rent modelresultat, der ikke er understøttet af forsøg eller litteratur. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ### Øvrige forudsagte indikationer
 
@@ -68,16 +68,16 @@ Samtlige ti forudsigelser har evidensniveau L5 og anbefalingen Hold:
 
 | Rang | Forudsagt indikation | Score | Bemærkning |
 |----|------|------|------|
-| 1 | Lægemiddelinduceret osteoporose | 99,80 % | Ingen påviselig mekanistisk sammenhæng |
-| 2 | Svær non-proliferativ diabetisk retinopati | 99,65 % | Spekulativ; vasokonstriktion kan potentielt forværre retinal iskæmi |
-| 3 | Esotropi | 99,41 % | Ingen mekanistisk sammenhæng; sandsynligvis artefakt |
-| 4 | Diabetisk retinopati | 99,39 % | Som ovenfor; sikkerhedsspørgsmål ved vasokonstriktion |
-| 5 | Bronkiale adenomer/karcinoider hos børn | 99,19 % | Uspecifik onkologiklasse-forudsigelse |
-| 6 | Duktal/duktulær proliferation | 99,19 % | Identisk score med urelaterede termer |
-| 7 | Kondroid hamartom | 99,19 % | Godartet læsion uden kendt relevans |
-| 8 | Non-seminomatøs læsion | 99,19 % | Uspecifik forudsigelse |
-| 9 | Tumor i testikel og paratestikulært væv | 99,18 % | Spekulativ |
-| 10 | Præmalign neoplasi | 99,17 % | Bred og uspecifik kategori |
+| 1 | Lægemiddelinduceret osteoporose | 0,9980 | Ingen påviselig mekanistisk sammenhæng |
+| 2 | Svær non-proliferativ diabetisk retinopati | 0,9965 | Spekulativ; vasokonstriktion kan potentielt forværre retinal iskæmi |
+| 3 | Esotropi | 0,9941 | Ingen mekanistisk sammenhæng; sandsynligvis artefakt |
+| 4 | Diabetisk retinopati | 0,9939 | Som ovenfor; sikkerhedsspørgsmål ved vasokonstriktion |
+| 5 | Bronkiale adenomer/karcinoider hos børn | 0,9919 | Uspecifik onkologiklasse-forudsigelse |
+| 6 | Duktal/duktulær proliferation | 0,9919 | Identisk score med urelaterede termer |
+| 7 | Kondroid hamartom | 0,9919 | Godartet læsion uden kendt relevans |
+| 8 | Non-seminomatøs læsion | 0,9919 | Uspecifik forudsigelse |
+| 9 | Tumor i testikel og paratestikulært væv | 0,9918 | Spekulativ |
+| 10 | Præmalign neoplasi | 0,9917 | Bred og uspecifik kategori |
 
 ---
 

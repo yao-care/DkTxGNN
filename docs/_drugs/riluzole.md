@@ -4,17 +4,17 @@ title: Riluzole
 parent: Kun modelforudsigelse (L5)
 nav_order: 721
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole: forudsagt ny indikation Bilateral parasagittal parieto-okcipital polymikrogyri (evidensniveau L5). Oprindelig indikation: Amyotrofisk lateralsklerose (ALS) (fra videnbasen"
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: forudsagt ny indikation Bilateral parasagittal parieto-occipital polymicrogyria (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Riluzol: Fra amyotrofisk lateralsklerose til bilateral parasagittal parieto-okcipital polymikrogyri
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Enkelt sammenfatning
@@ -45,12 +45,12 @@ TxGNN-modellen forudsiger, at det kan have effekt på **bilateral parasagittal p
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Amyotrofisk lateralsklerose (ALS) (fra videnbasen; godkendelsesteksten for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Bilateral parasagittal parieto-okcipital polymikrogyri |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bilateral parasagittal parieto-occipital polymicrogyria |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

@@ -6,9 +6,9 @@ nav_order: 535
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Metformin: forudsagt ny indikation Fokal stiff limb-syndrom (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus"
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Metformin: Fra type 2-diabetes til fokal stiff limb-syndrom
+## Metformin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Type 2-diabetes mellitus (fra vidensgrafen; der er ikke registreret indikationstekst i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Fokal stiff limb-syndrom |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Focal stiff limb syndrome |
+| TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 18 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -70,10 +70,10 @@ Forudsigelsen bør derfor betragtes som en hypotese frembragt af modellen og ikk
 
 | Rang | Sygdom | TxGNN-score | Kommentar |
 |------|------|------|------|
-| 2 | Klassisk stiff person-syndrom | 99,45 % | Autoimmun, anti-GAD65; ingen understøttende data |
-| 3 | Opsismodysplasi | 99,40 % | Sjælden skeletdysplasi (INPPL1); rent teoretisk link via PI3K/insulinsignalering |
-| 4 | Tiaminresponsivt dysfunktionssyndrom | 99,40 % | Diabetes indgår i syndromet, men håndteres typisk med insulin og tiamin |
-| 5 | Lægemiddelinduceret lokaliseret lipodystrofi | 99,06 % | Metformin er undersøgt ved andre lipodystrofier, men ikke ved denne |
+| 2 | Klassisk stiff person-syndrom | 0,9945 | Autoimmun, anti-GAD65; ingen understøttende data |
+| 3 | Opsismodysplasi | 0,9940 | Sjælden skeletdysplasi (INPPL1); rent teoretisk link via PI3K/insulinsignalering |
+| 4 | Tiaminresponsivt dysfunktionssyndrom | 0,9940 | Diabetes indgår i syndromet, men håndteres typisk med insulin og tiamin |
+| 5 | Lægemiddelinduceret lokaliseret lipodystrofi | 0,9906 | Metformin er undersøgt ved andre lipodystrofier, men ikke ved denne |
 
 ---
 
@@ -105,7 +105,7 @@ Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anv
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Følgende oplysninger stammer fra vidensgrafen og ikke fra produkttekst.
+Produktresuméets advarsler og kontraindikationer var ikke tilgængelige i de indsamlede data. Følgende oplysninger stammer fra TxGNN-modellen (deep learning) og ikke fra produkttekst; scoren kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 - **Kontraindikationer fra vidensgraf (ikke produkttekst)**: leversvigt og leversygdom, nyresygdom, pancreatitis, galdeblæresygdom, kongestiv hjerteinsufficiens, binyrebarkinsufficiens, thymussygdom samt en række tilstande med hypofysesvigt og hypogonadotrop hypogonadisme (bl.a. Kallmanns syndrom og Sheehans syndrom).
 - **Lægemiddelinteraktioner**: Der er registreret 907 interaktioner i alt. Blandt de udvalgte er følgende af alvorlig grad (Major):

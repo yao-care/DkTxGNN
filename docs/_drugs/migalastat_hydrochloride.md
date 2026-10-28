@@ -8,6 +8,7 @@ nav_order: 555
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Migalastat Hydrochloride
@@ -51,8 +52,8 @@ Denne rapport tjener derfor som en meddelelse om datamangler snarere end en fuld
 | Forudsagt ny indikation | Ingen forudsigelser returneret af TxGNN |
 | TxGNN-forudsigelsesresultat | N/A |
 | Bevisniveau | L5 – Kun modelforudsigelse (ingen forudsigelser tilgængelige) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 ---

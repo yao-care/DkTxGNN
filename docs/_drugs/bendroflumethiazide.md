@@ -4,17 +4,17 @@ title: Bendroflumethiazide
 parent: Kun modelforudsigelse (L5)
 nav_order: 103
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Bendroflumethiazide: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (højt blodtryk). Den godkendte indikationstekst for det…"
+indication_count: 4
 monitor_inn: "bendroflumethiazide"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Bendroflumethiazide: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bendroflumethiazide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,89 +33,69 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Bendroflumethiazid: Fra hypertension til malign hypertensiv nyresygdom
+## Bendroflumethiazid: thiaziddiuretikum → malign hypertensiv nyresygdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Bendroflumethiazid er et thiaziddiuretikum, der oprindeligt anvendes til behandling af forhøjet blodtryk (hypertension). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom**, men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som understøtter forudsigelsen. Evidensen består udelukkende af modelforudsigelsen.
-
----
+Bendroflumethiazid er et thiaziddiuretikum, som anvendes til behandling af forhøjet blodtryk.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom (malignant hypertensive renal disease)**,
+men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne retning.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (højt blodtryk). Den godkendte indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data |
-| Forudsagt ny indikation | Malign hypertensiv nyresygdom |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi hæmmer bendroflumethiazid Na+/Cl--kotransportøren i det distale tubulus, hvilket øger udskillelsen af salt og vand og sænker blodtrykket.
 
-Bendroflumethiazid hæmmer Na⁺/Cl⁻-kotransportøren i den distale tubulus og øger dermed udskillelsen af salt og vand. Det nedsætter volumen og sænker blodtrykket. Der foreligger ingen detaljerede mekanismedata i de indsamlede data, så vurderingen bygger på almen farmakologisk viden.
+Malign hypertensiv nyresygdom opstår på baggrund af svært forhøjet blodtryk. Det er derfor plausibelt, at en blodtrykssænkende mekanisme er relevant. Forudsigelsen er imidlertid i høj grad en udvidelse af lægemidlets kendte anvendelsesområde snarere end egentlig repurposing.
 
-Den forudsagte indikation ligger tæt på den eksisterende indikation, da der er tale om en alvorlig form for hypertension med nyrepåvirkning. Forudsigelsen er derfor i høj grad en udvidelse af den allerede godkendte anvendelse snarere end egentlig repurposing. Den høje score afspejler sandsynligvis den nære sammenhæng mellem sygdomsbegreberne i vidensgrafen og ikke uafhængig evidens.
+Der er væsentlige forbehold: Malign hypertension er en hypertensiv nødsituation, der normalt kræver hurtigtvirkende intravenøs behandling, og thiazider er ikke førstevalg. Ved fremskreden nedsat nyrefunktion er thiaziders effekt desuden reduceret. Den høje score alene er ikke tilstrækkelig dokumentation.
 
-Der er væsentlige forbehold: Malign hypertension er en hypertensiv nødsituation, der normalt kræver hurtigtvirkende intravenøs behandling, og thiazider er ikke førstevalg. Ved fremskreden nedsat nyrefunktion er thiaziders effekt desuden reduceret.
+## Klinisk evidens
 
-Andre forudsagte indikationer med nær identiske scorer (malign renovaskulær hypertension, to former for pulmonal hypertension og Braddock syndrom) har ligeledes ingen understøttende studier og et svagt mekanistisk grundlag. Thiazider kan fx stimulere reninfrigivelse ved renovaskulær hypertension og påvirker ikke den pulmonale karombygning.
-
----
-
-## Dokumentation fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ikke registreret relevante kliniske forsøg.
 
 ## Litteraturevidens
 
-Der er for øjeblikket ingen relateret litteratur tilgængelig.
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
----
-
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105687115 | Bendroza (Teva B.V.) | Filmovertrukne tabletter (oral) | Ikke angivet i de tilgængelige data |
-
----
+| 28105687115 | Bendroza | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Der er ikke tilgængelige data om advarsler eller kontraindikationer fra produktresuméet i de indsamlede data.
 
-**Kontraindikationer registreret i vidensgrafen** (ikke fra produkttekst, og skal derfor verificeres mod produktresuméet): nyresygdom, anuri, leversygdom, hepatisk encefalopati og koma, pankreatitis, galdeblæresygdom, urinsyregigt, hyperurikæmi, hypercalcæmi, nefrokalcinose, hyperparathyroidisme, kaliummangel, sukkersyge og diabetisk ketoacidose, systemisk lupus erythematosus, myasthenia gravis, atrioventrikulært blok, lungeemfysem, bronkiesygdom, neonatal gulsot samt angst- og neurotiske lidelser og dysthymi.
+- **Lægemiddelinteraktioner**: Der er registreret 202 mulige interaktioner. Blandt de fremhævede er flere af moderat grad, bl.a. med acarbose, metformin, pioglitazon, alogliptin, albiglutid (antidiabetika), omeprazol og rabeprazol, hydrocortison, dexamethason, betamethason, triamcinolon og beclomethason (kortikosteroider), amphotericin B, bupropion, morfin og cholecalciferol. Interaktioner af mindre grad omfatter bl.a. doxycyclin, hyoscyamin og atropin.
 
-**Lægemiddelinteraktioner:** I alt 202 interaktioner er registreret. Blandt de angivne er hovedparten af moderat grad, fx:
-- Antidiabetika: acarbose, metformin, pioglitazon, alogliptin, albiglutid
-- Kortikosteroider: hydrocortison, dexamethason, betamethason, triamcinolon, beclomethason
-- Protonpumpehæmmere: omeprazol, rabeprazol
-- Amphotericin B, bupropion, morfin og cholecalciferol
-
-Doxycyclin, hyoscyamin og atropin er angivet som af mindre betydning.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (evidensniveau L5) uden kliniske forsøg eller litteratur. Malign hypertension er en nødsituation, hvor thiazider ikke er førstevalg, og effekten er nedsat ved fremskreden nyresvigt. Indikationen er desuden i vid udstrækning en forlængelse af den eksisterende hypertensionsindikation.
+Forudsigelsen bygger udelukkende på modelscoren (evidensniveau L5), og der findes hverken kliniske forsøg eller publikationer, der direkte undersøger lægemidlet ved malign hypertensiv nyresygdom. Thiazider er desuden ikke førstevalg ved hypertensive nødsituationer.
 
-**For at komme videre kræves følgende:**
-- Gennemgang af produktresuméet (advarsler, kontraindikationer, godkendt indikation) fra Lægemiddelstyrelsen, da disse data mangler og blokerer sikkerhedsscreeningen
-- Data om virkningsmekanisme (fx fra DrugBank)
-- Systematisk litteratursøgning og søgning efter kliniske forsøg for hypertensiv nyresygdom
-- Klinisk vurdering af, om indikationen tilfører værdi ud over den eksisterende hypertensionsindikation, og hvilken plads thiazider kan have i forhold til gældende behandlingsvejledninger
+**For at komme videre er følgende nødvendigt:**
+- Kliniske studier eller litteratur, der direkte belyser bendroflumethiazid ved malign hypertensiv nyresygdom
+- Data om virkningsmekanisme
+- Gennemgang af advarsler og kontraindikationer i produktresuméet (SmPC), især ved nedsat nyrefunktion
+- Vurdering af sikkerhed og elektrolytovervågning hos patienter med svær hypertension og nyrepåvirkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

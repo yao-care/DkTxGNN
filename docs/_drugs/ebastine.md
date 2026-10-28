@@ -6,9 +6,9 @@ nav_order: 289
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ebastine: forudsagt ny indikation Koronararteriesygdom (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
+description: "Ebastine: forudsagt ny indikation Koronararteriesygdom (coronary artery disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ebastine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Ebastin: Fra allergisk rhinitis til koronararteriesygdom
+## Ebastine: Koronararteriesygdom (coronary artery disease)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -45,21 +45,21 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **koronararteriesygdom**, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, idiopatisk urticaria (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Koronararteriesygdom |
-| TxGNN-forudsigelsesscore | 99,18 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Koronararteriesygdom (coronary artery disease) |
+| TxGNN-forudsigelsesscore | 0.9918 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Der er også en anden forudsigelse med næsten identisk score, **myokardieiskæmi** (99,10 %), som også er på evidensniveau L5 og anbefalingen Hold.
+Bemærk: Der er også en anden forudsigelse med næsten identisk score, **myokardieiskæmi** (0,9910), som også er på evidensniveau L5 og anbefalingen Hold.
 
 ## Hvorfor er forudsigelsen rimelig?
 
 Detaljerede data om ebastins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ebastin er en andengenerations H1-antihistamin, og effekten ved allergiske tilstande er kendt. Mekanistisk er det en hypotese, at det kan have relevans for koronararteriesygdom.
 
-Det mulige link er, at histamin og mastcelleaktivitet har været impliceret i koronar vasospasme og aterosklerose. Dette er plausibelt, men ikke verificeret. Forudsigelsen om myokardieiskæmi overlapper kraftigt med koronararteriesygdom, så de to forudsigelser skyldes sandsynligvis de samme signaler i vidensgrafen og udgør ikke uafhængig evidens.
+Det mulige link er, at histamin og mastcelleaktivitet har været impliceret i koronar vasospasme og aterosklerose. Dette er plausibelt, men ikke verificeret. Forudsigelsen om myokardieiskæmi overlapper kraftigt med koronararteriesygdom, så de to forudsigelser skyldes sandsynligvis de samme mønstre i TxGNN-modellen (deep learning) og udgør ikke uafhængig evidens. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Ebastins kendte potentiale for QT-forlængelse, som deles med nogle beslægtede antihistaminer, er desuden en kardiovaskulær sikkerhedsbekymring. Den taler imod at antage en gavnlig effekt.
 

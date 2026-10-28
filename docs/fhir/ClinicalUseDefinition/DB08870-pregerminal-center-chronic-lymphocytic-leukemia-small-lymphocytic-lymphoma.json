@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB08870",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB08870"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pregerminal-center-chronic-lymphocytic-leukemia-small-lymphocytic-lymphoma",
-          "display": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
-        }
-      ],
-      "text": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      "concept": {
+        "text": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9946
     }
   ]
 }

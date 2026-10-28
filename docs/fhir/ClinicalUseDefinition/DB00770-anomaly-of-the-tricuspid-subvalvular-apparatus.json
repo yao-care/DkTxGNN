@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00770",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00770"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "anomaly-of-the-tricuspid-subvalvular-apparatus",
-          "display": "anomaly of the tricuspid subvalvular apparatus"
-        }
-      ],
-      "text": "anomaly of the tricuspid subvalvular apparatus"
+      "concept": {
+        "text": "anomaly of the tricuspid subvalvular apparatus"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9992
     }
   ]
 }

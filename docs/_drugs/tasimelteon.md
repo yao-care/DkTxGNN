@@ -4,17 +4,17 @@ title: Tasimelteon
 parent: Kun modelforudsigelse (L5)
 nav_order: 794
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tasimelteon: forudsagt ny indikation Bilateral parasagittal parieto-occipital polymikrogyri (evidensniveau L5). Oprindelig indikation: Non-24-timers søvn-vågen-syndrom"
+indication_count: 9
 monitor_inn: "Tasimelteon"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "insomnia (disease)", "amyotrophic lateral sclerosis", "amyotrophic lateral sclerosis", "endogenous depression", "endogenous depression", "axial spondylometaphyseal dysplasia", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+last_modified_at: 2026-10-23
+description: "Tasimelteon: forudsagt ny indikation Bilateral parasagittal parieto-occipital polymikrogyri (evidensniveau L5). Oprindelig indikation: Non-24-timers søvn-vågen-syndrom"
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Tasimelteon er en melatoninreceptoragonist, som oprindeligt anvendes til behandling af non-24-timers søvn-vågen-syndrom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bilateral parasagittal parieto-occipital polymikrogyri** (en medfødt misdannelse af hjernebarken).
-Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og der er ingen kendt mekanistisk forbindelse.
+Tasimelteon er et melatoninreceptoragonist-lægemiddel. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **bilateral parasagittal parieto-occipital polymikrogyri**, en strukturel misdannelse af hjernebarken. Scoren (0.9948) stammer fra TxGNN-modellen og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse, så den hviler udelukkende på modellen.
 
 ---
 
@@ -48,27 +46,27 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Non-24-timers søvn-vågen-syndrom |
+| Oprindelig indikation | Non-24-timers søvn-vågen-syndrom (relation registreret i vidensgrafen; den danske registrering indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Bilateral parasagittal parieto-occipital polymikrogyri |
-| TxGNN-forudsigelsesscore | 99,48 % |
+| TxGNN-forudsigelsesscore | 0,9948 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Tasimelteon er en dobbelt MT1/MT2-melatoninreceptoragonist. Den virker på den suprachiasmatiske kerne, hjernens biologiske ur, og hjælper med at synkronisere døgnrytmen. Det er grundlaget for anvendelsen ved non-24-timers søvn-vågen-syndrom. Detaljerede mekanismedata fra DrugBank var ikke tilgængelige i de data, der er indsamlet til denne rapport.
+De indsamlede data indeholder ingen detaljerede oplysninger om virkningsmekanismen. Tasimelteon er en dobbelt MT1/MT2-melatoninreceptoragonist, som påvirker det circadiane ur i nucleus suprachiasmaticus og regulerer søvn-vågen-rytmen.
 
-Den forudsagte indikation er en medfødt kortikal misdannelse, hvor nerveceller ikke vandrer eller organiseres korrekt under hjernens udvikling. Tilstanden er knyttet til genetiske årsager (bl.a. ADGRG1-relaterede mekanismer). Den har ingen oplagt sammenhæng med døgnrytmeregulering eller melatoninreceptorsignalering.
+Der kan ikke identificeres en plausibel mekanistisk forbindelse mellem den oprindelige og den forudsagte indikation. Polymikrogyri er en kortikal malformation, der opstår under hjernens udvikling som følge af defekter i neuronal migration, bl.a. relateret til GPR56/ADGRG1. Et lægemiddel, der virker på circadian regulering, forventes ikke at kunne reversere en strukturel udviklingsmæssig abnormitet. Den høje score ser ud til at være en artefakt af grafbaseret forudsigelse uden støtte i kliniske data eller litteratur.
 
-Vi har derfor ikke fundet nogen plausibel mekanistisk forbindelse mellem den oprindelige og den forudsagte indikation. Den høje score er udelukkende en beregnet forudsigelse fra vidensgrafen og er ikke understøttet af forsøg eller litteratur.
+Til sammenligning har en anden forudsagt indikation, insomni, et direkte relevant fase 3-forsøg (se konklusionen).
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -76,7 +74,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relateret litteratur.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
@@ -84,20 +82,20 @@ Der findes i øjeblikket ingen relateret litteratur.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105416914 | Hetlioz | Kapsler, hårde | Indikationsteksten indgår ikke i de indsamlede data |
+| 28105416914 | Hetlioz | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Indehaver: Vanda Pharmaceuticals NL B.V.
+Tilladelsen er en enkeltstofgodkendelse med status gyldig. Indehaveren er Vanda Pharmaceuticals NL B.V.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Oplysninger om advarsler og kontraindikationer fra produktresuméet var ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er identificeret 99 interaktioner i alt. Blandt de viste er følgende de vigtigste:
 
-**Lægemiddelinteraktioner:** Der er registreret 99 interaktioner. Blandt dem, der indgår i de indsamlede data:
+- **Alvorlige (Major):** morfin og liposomal morfin.
+- **Moderate:** bl.a. cimetidin, clarithromycin, omeprazol, dexamethason, aprepitant, metoclopramid, miconazol, clotrimazol, opium, dronabinol, nabilon, diphenoxylat, difenoxin og ethanol.
 
-- **Alvorlig (Major):** morfin og liposomal morfin.
-- **Moderat:** bl.a. aprepitant, omeprazol, dexamethason, cimetidin, clarithromycin, metoclopramid, miconazol, clotrimazol, opium, ethanol, dronabinol, nabilon, difenoxin, diphenoxylat, sibutramin, troglitazon, obeticholsyre og metreleptin.
+Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -106,15 +104,14 @@ Oplysninger om advarsler og kontraindikationer fra produktresuméet var ikke til
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for polymikrogyri bygger udelukkende på modellens score. Der er hverken kliniske forsøg, publikationer eller en plausibel mekanistisk forbindelse (evidensniveau L5).
+Forudsigelsen er ren modelforudsigelse (L5) uden kliniske forsøg eller litteratur. Der er desuden ingen plausibel mekanistisk forbindelse mellem melatoninreceptoragonisme og en strukturel kortikal udviklingsmisdannelse.
 
-**Andre forudsagte indikationer:** Blandt de øvrige forudsigelser skiller **insomni** sig ud. Her er der et igangværende fase 3-forsøg, [NCT06953869](https://clinicaltrials.gov/study/NCT06953869). Det er et dobbeltblindet, randomiseret, placebokontrolleret multicenterstudie med 420 deltagere, som undersøger tasimelteon mod placebo ved pædiatrisk insomni. Forsøget rekrutterer fortsat og har ingen resultater endnu. Insomni bør derfor behandles som en separat forskningsmæssig problemstilling. Forudsigelsen for depression har kun litteratur på reviewniveau og ingen forsøg med tasimelteon.
+**Til information:** Blandt de øvrige forudsagte indikationer er **insomni** den mest understøttede. Der kører et randomiseret, dobbeltblindet, placebokontrolleret fase 3-forsøg hos børn (420 deltagere, rekrutterer endnu), [NCT06953869](https://clinicaltrials.gov/study/NCT06953869). Der foreligger endnu ingen resultater.
 
 **For at komme videre kræves følgende:**
-- Biologisk eller præklinisk belæg for en sammenhæng mellem melatoninreceptorsignalering og kortikal neuronal migration, hvis forudsigelsen skal forfølges.
-- Gennemgang af produktresuméet for advarsler og kontraindikationer.
-- Data om lægemidlets virkningsmekanisme fra DrugBank.
-- Opfølgning på resultaterne fra NCT06953869, hvis insomni prioriteres som alternativ.
+- En vurdering af, om polymikrogyri overhovedet er et meningsfuldt mål, eller om forudsigelsen skal afvises som en artefakt.
+- Hvis en genanvendelsesindsats ønskes, bør den rettes mod insomni og afvente resultaterne af fase 3-forsøget.
+- Data om virkningsmekanisme (MOA) samt advarsler og kontraindikationer fra produktresuméet.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

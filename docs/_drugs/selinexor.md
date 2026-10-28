@@ -4,17 +4,17 @@ title: Selinexor
 parent: Kun modelforudsigelse (L5)
 nav_order: 754
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Selinexor: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
 monitor_inn: "Selinexor"
-predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "HER2 positive breast carcinoma", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor positive breast cancer"]
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Selinexor
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Selinexor er en selektiv hæmmer af nuklear eksport (XPO1/CRM1-hæmmer) og er ma
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (indikationsteksten for markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,22 % |
+| TxGNN-forudsigelsesscore | 0,9922 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,8 @@ Selinexor er en selektiv hæmmer af nuklear eksport (XPO1/CRM1-hæmmer) og er ma
 
 Selinexor hæmmer XPO1 (CRM1), et protein der transporterer en række tumorsuppressorer og regulatoriske proteiner ud af cellekernen. De detaljerede mekanismedata var ikke tilgængelige i de sammenstillede data, men lægemidlets klasse er kendt som selektiv hæmmer af nuklear eksport og anvendes i kræftbehandling.
 
-Der er ikke dokumenteret en direkte mekanistisk sammenhæng mellem XPO1-hæmning og lægemiddelinduceret osteoporose. Selinexor er forbundet med bivirkninger som kvalme, appetitløshed, vægttab og træthed, som muligvis kan påvirke knoglehelbredet indirekte. Dette er imidlertid spekulativt og ikke understøttet af data. Den høje score (0,992) bør derfor ses som en computerbaseret hypotese, der kræver validering, og ikke som tegn på dokumenteret effekt.
+Der er ikke dokumenteret en direkte mekanistisk sammenhæng mellem XPO1-hæmning og lægemiddelinduceret osteoporose. Selinexor er forbundet med bivirkninger som kvalme, appetitløshed, vægttab og træthed, som muligvis kan påvirke knoglehelbredet indirekte. Dette er imidlertid spekulativt og ikke understøttet af data. Den høje score (0,9922) bør derfor ses som en computerbaseret hypotese, der kræver validering, og ikke som tegn på dokumenteret effekt.
 
-Det bør bemærkes, at modellen også rangerer flere brystkræftundertyper højt (HER2-positiv brystkræft, progesteronreceptor-negativ og -positiv brystkræft samt "normal breast-like"-undertypen, alle med scorer omkring 97-98 %). Heller ikke for disse findes der kliniske forsøg eller relevant litteratur. Den eneste tilknyttede publikation (PMID 36943683) handler om endometriekræft og ikke brystkræft, og koblingen skyldes sandsynligvis en søgeartefakt.
 
 ---
 

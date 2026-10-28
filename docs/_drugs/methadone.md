@@ -48,10 +48,10 @@ Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemidde
 |------|------|
 | Oprindelig indikation | Ikke oplyst (den danske registrering har ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Tourettes syndrom |
-| TxGNN-prædiktionsscore | 99,76 % |
+| TxGNN-prædiktionsscore | 0,9976 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -120,12 +120,12 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling | Bemærkning |
 |------|------|------|------|------|
-| Nefrogent syndrom med uhensigtsmæssig antidiurese | 99,73 % | L5 | Hold | Ingen studier; svag mekanistisk begrundelse (V2-receptormutation) |
-| Trikotillomani | 99,67 % | L5 | Hold | Ingen studier; opioidantagonister, ikke agonister, er undersøgt |
-| Hovedpinelidelse | 99,35 % | L4 | Hold | Litteraturen taler imod kontinuerlig opioidbehandling (risiko for medicineringsoverforbrugshovedpine) |
-| Manisk bipolar affektiv lidelse | 99,32 % | L3 | Research Question | Ét lille dobbeltblindt studie fra 1982 (PMID 6959168) og en oversigt fra 2026 (PMID 41222827); begrænset tillid |
-| Trigeminal autonom cephalalgi | 99,05 % | L4 | Hold | Case-rapporter viser, at methadon kan udløse/forværre clusterhovedpine |
-| Forkølelse | 99,02 % | L5 | Hold | Litteraturen handler om kuldepresser-smerteforsøg, ikke forkølelse; søgeartefakt |
+| Nefrogent syndrom med uhensigtsmæssig antidiurese | 0,9973 | L5 | Hold | Ingen studier; svag mekanistisk begrundelse (V2-receptormutation) |
+| Trikotillomani | 0,9967 | L5 | Hold | Ingen studier; opioidantagonister, ikke agonister, er undersøgt |
+| Hovedpinelidelse | 0,9935 | L4 | Hold | Litteraturen taler imod kontinuerlig opioidbehandling (risiko for medicineringsoverforbrugshovedpine) |
+| Manisk bipolar affektiv lidelse | 0,9932 | L3 | Research Question | Ét lille dobbeltblindt studie fra 1982 (PMID 6959168) og en oversigt fra 2026 (PMID 41222827); begrænset tillid |
+| Trigeminal autonom cephalalgi | 0,9905 | L4 | Hold | Case-rapporter viser, at methadon kan udløse/forværre clusterhovedpine |
+| Forkølelse | 0,9902 | L5 | Hold | Litteraturen handler om kuldepresser-smerteforsøg, ikke forkølelse; søgeartefakt |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

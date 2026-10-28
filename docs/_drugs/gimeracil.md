@@ -4,7 +4,7 @@ title: Gimeracil
 parent: Høj evidens (L1-L2)
 nav_order: 391
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Gimeracil: forudsagt ny indikation Colonic neoplasm (tyktarmskræft) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer)"
 monitor_inn: "gimeracil"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 # Gimeracil
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og der er i de data, der er indsamlet til denne rapport, identificeret **6 klini
 |------|------|
 | Oprindelig indikation | Mavekræft (gastric cancer) |
 | Forudsagt ny indikation | Colonic neoplasm (tyktarmskræft) |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

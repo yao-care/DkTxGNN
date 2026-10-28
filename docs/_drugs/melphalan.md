@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 527
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Melphalan: forudsagt ny indikation Gonadal kimcelletumor (evidensniveau L2). Oprindelig indikation: Ovariecancer"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Melphalan"
-predicted_indications: ["female breast carcinoma", "female breast carcinoma"]
+predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Melphalan: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L2). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Relation registrere…"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Melphalan: Fra ovariecancer til gonadal kimcelletumor
+## Melphalan: Fra ovarie­cancer til brystkræft (kvindelig brystkarcinom)
 {: .text-alpha }
 
-## Opsummering
+## Opsummering i én sætning
 
-Melphalan er et alkylerende kemoterapeutikum (nitrogensennep), som i TxGNN-vidensgrafen er knyttet til behandling af ovariecancer og beslægtede ovarietumorer.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gonadal kimcelletumor**,
-og denne retning understøttes af **7 kliniske forsøg** (heraf 3 med høj relevans) og **1 publikation** (en historisk farmakologisk rapport fra 1964 uden direkte evidensværdi) i de data, der er sammenstillet til denne rapport.
+Melphalan er et alkylerende kemoterapeutikum. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **kvindelig brystkræft**. Der er **3 registrerede kliniske forsøg** og **20 publikationer** i den indsamlede data, men ingen af dem er et afgørende forsøg med moderne standardbehandling.
 
 ---
 
@@ -48,55 +46,63 @@ og denne retning understøttes af **7 kliniske forsøg** (heraf 3 med høj relev
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ovariecancer (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet i de sammenstillede data) |
-| Forudsagt ny indikation | Gonadal kimcelletumor |
-| TxGNN-forudsigelsesscore | 99,77 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ingen godkendt indikationstekst i de danske data. Relation registreret i videngrafen: ovariecancer |
+| Forudsagt ny indikation | Kvindelig brystkarcinom |
+| TxGNN-forudsigelsesscore | 0,9967 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
+| Anbefalet beslutning | Proceed with Guardrails |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Melphalan er dog kendt som et bifunktionelt alkylerende middel (nitrogensennep), der danner tværbindinger i DNA og dermed hæmmer celledeling og udløser celledød.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Melphalan er dog kendt som et bifunktionelt alkylerende nitrogen­mustard-stof, der danner tværbindinger mellem DNA-strengene. Det hæmmer delingen af hurtigt prolifererende celler, og mekanismen er relevant for brystkræftceller.
 
-Kimcelletumorer er generelt meget følsomme over for DNA-skadende kemoterapi. Der ses en dosis-respons-sammenhæng, som har understøttet brugen af højdosis-melphalan med autolog stamcellestøtte ved recidiverende sygdom eller dårlig prognose. Ovariecancer og gonadale kimcelletumorer er begge tumorer i kønskirtlerne og kan reagere på samme grundmekanisme.
+Præklinisk forskning peger desuden på, at BRCA1-defekte brysttumorer er særligt følsomme over for DNA-tværbindende stoffer, fordi deres evne til at reparere DNA ved homolog rekombination er nedsat.
 
-Vigtig begrænsning: Evidensen stammer fra kombinationsregimer med højdosiskemoterapi, så melphalans selvstændige bidrag kan ikke isoleres.
+Klinisk er melphalan hovedsageligt brugt i høj dosis som konditionering før autolog stamcellestøtte ved brystkræft. Den tilgang er i vid udstrækning gået af mode. TxGNN-scoren er en computerbaseret forudsigelse og er ikke i sig selv klinisk evidens.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Fase 2 | Afsluttet | 64 | To cyklusser højdosiskemoterapi (gemcitabin, docetaxel, melphalan, carboplatin; derefter ifosfamid, carboplatin, etoposid) ved recidiverende kimcelletumorer med dårlig prognose. Melphalans individuelle bidrag er uklart. |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Fase 1/2 | Afsluttet | 25 | Dosiseskalering af melphalan med autolog stamcellestøtte og amifostin som cytoprotektion hos kræftpatienter. |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Fase 1 | Afsluttet | 25 | Højdosis busulfan, melphalan og topotecan efterfulgt af autolog stamcelletransplantation ved fremskredne og recidiverende tumorer, inkl. kimcelletumorer. |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Fase 2 | Afsluttet | 451 | Otte højdosiskemoterapi-regimer med autolog transplantation ved hæmatologisk malignitet og udvalgte solide tumorer. Overvejende ikke-kimcelle-populationer. |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Fase 1 | Afsluttet tidligt (terminated) | 13 | Amifostin som beskyttelse ved autolog stamcelletransplantation hos børn med solide tumorer. Fokus på kemobeskyttelse; tidlig afslutning begrænser tolkningen. |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | Ikke relevant (NA) | Afsluttet | 174 | Højdosiskemoterapi med eller uden helkropsbestråling før autolog transplantation ved hæmatologisk kræft og solide tumorer. Ikke specifik for kimcelletumorer. |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Fase 1 | Afsluttet | 6 | Intratekal melphalan ved recidiverende neoplastisk meningitis. Anden administrationsvej og klinisk kontekst. |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Fase 1/2 | Afsluttet | 25 | Stigende dosis melphalan med autolog stamcellestøtte og amifostin som cellebeskyttelse. Giver især data om dosis og gennemførlighed |
+| [NCT00523809](https://clinicaltrials.gov/study/NCT00523809) | Fase 2 | Afbrudt | 5 | Ikke-myeloablativ allogen transplantation med bevacizumab ved fremskredne solide tumorer. Melphalan sandsynligvis kun del af konditioneringen; for få deltagere til konklusioner |
+| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Fase 1/2 | Afbrudt | 12 | Samarium-153 i dobbelt sekventiel autolog transplantation ved stadie IV brystkræft. Melphalans enkeltbidrag kan ikke adskilles |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Farmakologisk rapport | Acta - Unio Internationalis Contra Cancrum | Rapport om hormonelle og alkylerende stoffers påvirkning af hypofysens follikelstimulerende funktion. Ingen abstract tilgængelig; ingen direkte evidens for effekt ved kimcelletumorer. |
+| [7595708](https://pubmed.ncbi.nlm.nih.gov/7595708/) | 1995 | Randomiseret forsøg | J Clin Oncol | Vinorelbin sammenlignet med melphalan ved antracyklin-refraktær fremskreden brystkræft |
+| [6991733](https://pubmed.ncbi.nlm.nih.gov/6991733/) | 1980 | Klinisk forsøg | JAMA | Adjuverende melphalan vs. CFP vs. CFP+BCG ved stadie II–III brystkræft (173 patienter) |
+| [7042073](https://pubmed.ncbi.nlm.nih.gov/7042073/) | 1982 | Opfølgning | Cancer | Melphalan alene gav i første fase højere recidivrate end kombinationsregimerne |
+| [12189532](https://pubmed.ncbi.nlm.nih.gov/12189532/) | 2002 | Fase 2 | Bone Marrow Transplant | Sekventiel højdosis kemoterapi med paclitaxel, melphalan, cyclophosphamid, thiotepa og carboplatin ved responderende metastatisk brystkræft |
+| [10918405](https://pubmed.ncbi.nlm.nih.gov/10918405/) | 2000 | Klinisk undersøgelse | Bone Marrow Transplant | Højdosis busulfan, melphalan og thiotepa som konsolidering ved højrisiko-brystkræft (121 patienter) |
+| [12732881](https://pubmed.ncbi.nlm.nih.gov/12732881/) | 2003 | Retrospektiv | Bone Marrow Transplant | Thiotepa, melphalan og carboplatin med autolog stamcelletransplantation ved metastatisk brystkræft (27 patienter) |
+| [6203662](https://pubmed.ncbi.nlm.nih.gov/6203662/) | 1984 | Klinisk serie | Cancer Chemother Pharmacol | Mitomycin C, melphalan og methotrexat: 40 % responderede ved dissemineret brystkræft |
+| [9404925](https://pubmed.ncbi.nlm.nih.gov/9404925/) | 1997 | Fase 1/2 | Bone Marrow Transplant | Højdosis melphalan, mitoxantron og carboplatin med stamcellestøtte ved fremskreden ovarie- eller brystkræft |
+| [7602368](https://pubmed.ncbi.nlm.nih.gov/7602368/) | 1995 | Oversigtsartikel | J Clin Oncol | Oversigt over højdosis intravenøs melphalan |
+| [27381626](https://pubmed.ncbi.nlm.nih.gov/27381626/) | 2016 | Præklinisk (PDX-model) | J Natl Cancer Inst | Resistensmekanismer i BRCA1-defekt brystkræft |
+
+De fleste studier er gamle, små og ofte uden kontrolgruppe. Flere indgår som led i kombinationsregimer, så melphalans egen effekt kan ikke udledes.
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103204700 | Alkeran (Aspen Pharma Trading Limited) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de sammenstillede data |
+| 28103204700 | Alkeran | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Den ene gyldige tilladelse omfatter kun oral formulering. Højdosis-regimerne i forsøgene anvender typisk intravenøs melphalan, og det er ikke afklaret, om en sådan formulering er tilgængelig i Danmark.
+Der er registreret én gyldig national tilladelse (enkeltstof, oral administration). Fabrikant: Aspen Pharma Trading Limited.
 
 ---
 
@@ -104,33 +110,22 @@ Den ene gyldige tilladelse omfatter kun oral formulering. Højdosis-regimerne i 
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende middel, nitrogensennep) |
-| Risiko for myelosuppression | Høj (knoglemarvssuppression er velkendt; se også kontraindikationer nedenfor) |
-| Emetogenicitetsklassifikation | Lav til moderat (oral dosering); højere ved højdosis intravenøst. Se produktresuméet (SmPC) |
-| Overvågningsparametre | Komplet blodtælling med differentialtælling, lever- og nyrefunktion |
-| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
+| Cytotoksisk klassifikation | Konventionelt cytotoksisk (alkylerende middel, nitrogenmustard-type) |
+| Risiko for knoglemarvssuppression | Høj. Videngrafen registrerer neutropeni, leukopeni og trombocytopeni som kontraindikationsrelationer |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Overvågningsparametre | Fuld blodtælling med differentialtælling, lever- og nyrefunktion |
+| Beskyttelse ved håndtering | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
-Se i øvrigt produktresuméets (SmPC) advarsler og forholdsregler.
+Bemærk: Litteraturen peger desuden på øget risiko for sekundære maligniteter (især akut leukæmi) ved alkylerende stoffer som melphalan.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de sammenstillede data.
+- **Relationer i videngrafen (ikke mærkningstekst):** Melphalan er i videngrafen registreret med kontraindikationsrelationer til bl.a. knoglemarvssuppression (trombocytopeni, leukopeni, neutropeni, agranulocytose, anæmi inkl. hæmolytisk anæmi), nyresygdom, interstitiel lungesygdom og lungefibrose, lægemiddelinduceret leverskade samt vaskulitis.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de vigtigste er moderate interaktioner med amphotericin B (inkl. lipidkompleks, kolesterylsulfat og liposomal form). Mindre interaktioner ses med cimetidin, levofloxacin, zinksulfat og zinkglukonat. For flere (bl.a. lansoprazol, omeprazol, pantoprazol, famotidin, granisetron, dolasetron, acetylsalicylsyre, morfin, metformin, vancomycin, prednison og simvastatin) er niveauet ukendt.
 
-- **Sygdomme, der i vidensgrafen er knyttet som kontraindikationer** (ikke fra produkttekst): nyresygdom, trombocytopeni, anæmi (herunder makrocytær og hæmolytisk), leukopeni, agranulocytose og neutropeni (inkl. medfødte former), interstitiel lungesygdom og lungefibrose, lægemiddelinduceret leverskade samt vaskulitis.
-- **Lægemiddelinteraktioner** (100 registreret i alt): de vigtigste er af **moderat** grad med amphotericin B (konventionel, lipidkompleks, kolesterylsulfat og liposomal). Mindre betydende: cimetidin, levofloxacin, zinksulfat og zinkglukonat. Øvrige fundne interaktioner er af ukendt grad (bl.a. omeprazol, pantoprazol, lansoprazol, famotidin, metformin, morfin, prednison, simvastatin, vancomycin, acetylsalicylsyre, granisetron, dolasetron).
-- Melphalan er desuden beskrevet som kræftfremkaldende med risiko for sekundære maligniteter (hovedsageligt akut leukæmi) ved alkylerende midler.
-
-Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
-
-## Øvrige forudsagte indikationer (kort)
-
-- **Ovarieprimitiv kimcelletumor** (score 99,75 %, L3): kun små, blandede fase 1/2-forsøg og ét case report.
-- **Choriokarcinom i ovariet** (99,74 %, L5) og **malign ikke-epitelial ovarietumor** (99,55 %, L5): ingen forsøg eller litteratur; kun modelforudsigelse. Anbefaling: Hold.
-- **Kvindelig brystkarcinom** (99,67 %, L2): en fase 2-undersøgelse af sekventiel højdosiskemoterapi samt flere små eller afbrudte forsøg. Højdosiskemoterapi med transplantation er ikke længere standard ved brystkræft.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
 
 ---
 
@@ -139,14 +134,18 @@ Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Der foreligger et afsluttet fase 2-forsøg (n=64) og flere tidlige forsøg med højdosis-melphalan i kimcelletumorer, og mekanismen er biologisk plausibel. Melphalans selvstændige bidrag kan dog ikke isoleres fra kombinationsregimerne, litteraturstøtten er praktisk talt fraværende, og sikkerhedsdata fra produktresuméet mangler. Evidensniveauet svarer til L2 og er ikke tilstrækkeligt til en ubetinget "Go".
+Der foreligger direkte kliniske data om melphalan ved brystkræft, herunder ét randomiseret studie og flere fase 2-studier, så evidensniveauet er L2. Evidensen er dog gammel, overvejende fra kombinations- eller højdosisregimer, og tilgangen er i vid udstrækning forladt. Der er ikke tale om en klar anbefaling til rutinemæssig brug.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, indikationstekst).
-- Afklaring af virkningsmekanisme (MOA) fra DrugBank.
-- Afklaring af, om en intravenøs melphalan-formulering egnet til højdosisbehandling er tilgængelig i Danmark, da den registrerede tilladelse kun omfatter oral tablet.
-- Systematisk litteraturgennemgang af højdosiskemoterapi med melphalan ved kimcelletumorer for at vurdere melphalans selvstændige bidrag.
-- Plan for sikkerhedsovervågning (blodtælling, nyre- og lungefunktion) samt vurdering af risikoen for sekundær malignitet.
+- Gennemgang af produktresuméet for advarsler, kontraindikationer og godkendt indikation (disse oplysninger mangler i de indsamlede data)
+- Detaljerede data om virkningsmekanisme
+- Vurdering mod nuværende standardbehandling af brystkræft, evt. målrettet BRCA1-defekte tumorer
+- Plan for overvågning af knoglemarv, nyrefunktion og risiko for sekundær malignitet
+- Nye kontrollerede studier, hvis anvendelse ud over højdosis­konditionering overvejes
+
+---
+
+*Øvrige forudsigelser (rektalt, colon-, galdeblære-, cervikalt og endometrielt mucinøst adenokarcinom) har kun TxGNN-score (0,9926–0,9938) som støtte uden kliniske forsøg eller litteratur. De er evidensniveau L5 og vurderes som Hold.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

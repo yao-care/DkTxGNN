@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Interferon Beta-1A
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 444
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Interferon Beta-1A: forudsagt ny indikation Jeune syndrom med situs inversus (evidensniveau L5). Oprindelig indikation: Relapsing-remitting multipel sklerose (fra vidensgrafen"
-monitor_inn: "Interferon beta-1a"
-predicted_indications: ["Jeune syndrome situs inversus", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 22", "disorder of fucoglycosan synthesis", "disorder of fucoglycosan synthesis", "Laubry-Pezzi syndrome", "Laubry-Pezzi syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Interferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Interferon Beta-1A
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,45 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Interferon beta-1a: Fra relapsing-remitting multipel sklerose til Jeune syndrom med situs inversus
+<!-- known-uses-page -->
+<!-- description: Interferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Interferon Beta-1A: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Interferon beta-1a er et immunmodulerende lægemiddel, der oprindeligt anvendes til behandling af relapsing-remitting multipel sklerose. TxGNN-modellen forudsiger, at det kan have effekt på **Jeune syndrom med situs inversus**, men der er **0 kliniske forsøg** og **0 publikationer** om denne specifikke sygdom, så forudsigelsen hviler udelukkende på modelberegningen.
-
----
+## Resumé
+Alle kandidater, som TxGNN-modellen har peget på for Interferon Beta-1A, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for dette lægemiddel.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Relapsing-remitting multipel sklerose (fra vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Jeune syndrom med situs inversus |
-| TxGNN-forudsigelsesscore | 97,5 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modelkandidater | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Kendte anvendelser blandt modellens kandidater
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| attakvis remitterende dissemineret sklerose (relapsing-remitting multiple sclerosis) | tilladelse i et andet land; godkendt indikation: multiple sclerosis |
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Interferon beta-1a er et immunmodulerende biologisk lægemiddel, hvis effekt ved relapsing-remitting multipel sklerose er veletableret.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| ingen | ingen |
 
-Jeune syndrom (asfyksierende thoraxdystrofi) er en ciliopati med skelet- og thoraxinvolvering, og situs inversus er en ciliær lateralitetsdefekt. Det er ikke immunmedierede tilstande. Der kan ud fra de foreliggende data ikke påvises noget mekanistisk link mellem interferon beta-1a og denne sygdom. Den høje score er en rent beregnet forudsigelse og bør ikke tolkes som klinisk støtte.
-
-Øvrige forudsigelser med tilsvarende høje scorer (Pierre Robin-syndrom med kromosomanomali, delvis deletion af den lange arm af kromosom 22, forstyrrelse i fucoglykansyntese og Laubry-Pezzi syndrom) er heller ikke understøttet af mekanistiske, kliniske eller litterære data.
-
----
-
-## Litteraturevidens
-
-Der foreligger ingen litteratur om interferon beta-1a ved Jeune syndrom med situs inversus.
-
-Til orientering: for den forudsagte indikation "forstyrrelse i fucoglykansyntese" blev der fundet publikationer, men de omhandler næsten udelukkende behandling af multipel sklerose (f.eks. teriflunomid, alemtuzumab, fingolimod og netværksmetaanalyser) samt en COVID-19-retningslinje. De afspejler lægemidlets oprindelige indikation og giver ingen klinisk evidens for den forudsagte sygdom.
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| ingen |
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103396502 | Avonex (Biogen Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28103396502 | Avonex | injektionsvæske, opløsning | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -100,19 +90,6 @@ Oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de data, 
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen understøttes kun af TxGNN-scoren (97,5 %). Der er ingen kliniske forsøg, ingen relevant litteratur og ingen plausibel mekanistisk sammenhæng mellem et immunmodulerende lægemiddel og en ciliopati. Der mangler desuden sikkerhedsdata fra produktresuméet, hvilket blokerer for den videre sikkerhedsscreening.
-
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Præklinisk eller mekanistisk dokumentation for en biologisk sammenhæng med ciliær dysfunktion
-- Systematisk litteratur- og forsøgssøgning målrettet den forudsagte indikation
-- Vurdering af, om andre forudsigelser fra modellen har bedre biologisk rationale
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Moderat evidens (L3-L4)
 nav_order: 496
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Levonorgestrel: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Postmenopausal osteoporose og osteoporose (iflg. vidensgrafen). Den d…"
 monitor_inn: "LEVONORGESTREL"
-predicted_indications: ["acne (disease)", "acne (disease)", "Worth syndrome", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Levonorgestrel: Fra osteoporose til akne
+## Levonorgestrel: Akne (acne (disease))
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
-Levonorgestrel er et gestagen (kvindeligt kønshormon), som i den anvendte vidensgraf er knyttet til osteoporose og postmenopausal osteoporose, og som i Danmark er markedsført som tablet.
+Levonorgestrel er et gestagen (kvindeligt kønshormon), som i Danmark er markedsført som tablet.
 TxGNN-modellen forudsiger, at det kan have effekt på **akne**, men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer**, hvoraf kun ét er et randomiseret forsøg, og det vedrører en kombinationspille med ethinylestradiol.
 Evidensen er derfor svag, og forudsigelsen er ikke understøttet af en klar mekanisme for levonorgestrel alene.
 
@@ -48,12 +48,12 @@ Evidensen er derfor svag, og forudsigelsen er ikke understøttet af en klar meka
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Postmenopausal osteoporose og osteoporose (iflg. vidensgrafen). Den danske tilladelse indeholder ingen godkendt indikationstekst. |
-| Forudsagt ny indikation | Akne |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Akne (acne (disease)) |
+| TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Evidensen er derfor svag, og forudsigelsen er ikke understøttet af en klar meka
 
 Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen. Levonorgestrel er et gestagen, som bruges i prævention og i hormonelle intrauterine systemer og implantater.
 
-Forbindelsen mellem de oprindelige indikationer (osteoporose) og akne er ikke oplagt. Modellens høje score (0,999) bygger på mønstre i vidensgrafen og ikke på en påvist biologisk sammenhæng.
+Forbindelsen mellem de oprindelige indikationer (osteoporose) og akne er ikke oplagt. Modellens høje score (0,9988) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Litteraturen peger faktisk i modsat retning: Levonorgestrel har en vis resterende androgen aktivitet (PMID 7825629), hvilket er uønsket ved akne. Den dermatologiske gavn, der er beskrevet, tilskrives hovedsageligt kombinerede p-piller, hvor østrogenkomponenten øger SHBG og sænker frie androgener, samt antiandrogene gestagener som chlormadinonacetat. Levonorgestrel-systemer og implantater beskrives mest i prævention-oversigter, hvor akne oftere nævnes som en mulig bivirkning end som en fordel. Den eneste randomiserede undersøgelse (PMID 12196750) testede en kombination af 20 µg ethinylestradiol og 100 µg levonorgestrel, så effekten kan ikke tilskrives levonorgestrel alene.
 

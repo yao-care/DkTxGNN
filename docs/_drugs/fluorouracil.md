@@ -6,9 +6,9 @@ nav_order: 366
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fluorouracil: forudsagt ny indikation Botryoid embryonal rhabdomyosarkom i vagina (evidensniveau L5). Oprindelig indikation: Mavekræft, kræft i bugspytkirtlen, metastaserende tyktarmskræft…"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
+description: "Fluorouracil: forudsagt ny indikation Botryoid embryonal rhabdomyosarkom i vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (evidensniveau L5). Oprindelig indikation: Ikke registreret …"
 ---
 
 # Fluorouracil
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Fluorouracil: Fra mavekræft og hudlidelser til rhabdomyosarkom (botryoid embryonal rhabdomyosarkom i vagina)
+## Fluorouracil: Botryoid embryonal rhabdomyosarkom i vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** fo
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavekræft, kræft i bugspytkirtlen, metastaserende tyktarmskræft, aktinisk keratose og basalcellekarcinom (de godkendte indikationstekster for de danske tilladelser er ikke tilgængelige i de indsamlede data; indikationerne stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Botryoid embryonal rhabdomyosarkom i vagina |
-| TxGNN-forudsigelsesscore | 99,75 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Botryoid embryonal rhabdomyosarkom i vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
+| TxGNN-forudsigelsesscore | 0.9975 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i det 
 
 Rhabdomyosarkom er en bløddelssarkom, der især rammer børn. Den oprindelige brug af fluorouracil er derimod primært ved epiteliale tumorer (mave, bugspytkirtel, tyktarm) og hudlidelser. Sammenhængen er derfor mekanistisk generel og ikke specifik. Standardbehandlingen af rhabdomyosarkom (fx vincristin, actinomycin D og cyclophosphamid) bygger ikke på fluorouracil.
 
-Forudsigelsen skal derfor ses som en hypotese fra vidensgrafen, ikke som dokumenteret effekt.
+Forudsigelsen skal derfor ses som en hypotese fra TxGNN-modellen (deep learning), hvor scoren kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og ikke som dokumenteret effekt.
 
 ---
 

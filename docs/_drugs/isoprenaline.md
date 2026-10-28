@@ -6,7 +6,7 @@ nav_order: 459
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Isoprenaline: forudsagt ny indikation Bronkial sygdom (rang 6 (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
+description: "Isoprenaline: forudsagt ny indikation Næsehulesygdom (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
 monitor_inn: "isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Isoprenalin: Fra hjertestop og AV-blok til bronkial sygdom
+## Isoprenalin: Fra hjertestop og AV-blok til næsehulesygdom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Isoprenalin er en uselektiv beta-adrenerg agonist, som oprindeligt anvendes ved hjerterelaterede tilstande som hjertestop og atrioventrikulær blok samt (ifølge videnbasen) forkølelse og nasofaryngitis.
 TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **bronkial sygdom** (den indikation med mest litteratur blandt de ti højest rangerede forudsigelser), men der er **ingen registrerede kliniske forsøg** og **20 publikationer**, hovedsageligt reviews og ældre studier.
-Bemærk, at den højest rangerede forudsigelse er *næsehulesygdom* (score 99,95 %), som kun har ét urelateret case report som støtte. Denne rapport fokuserer på bronkial sygdom, fordi den har det stærkeste datagrundlag.
+Bemærk, at den højest rangerede forudsigelse er *næsehulesygdom* (score 0,9995), som kun har ét urelateret case report som støtte. Denne rapport fokuserer på bronkial sygdom, fordi den har det stærkeste datagrundlag.
 
 ---
 
@@ -50,10 +50,10 @@ Bemærk, at den højest rangerede forudsigelse er *næsehulesygdom* (score 99,95
 |------|------|
 | Oprindelig indikation | Hjertestop, atrioventrikulær blok, forkølelse, nasofaryngitis (fra videnbasen; den danske godkendelsestekst er ikke tilgængelig) |
 | Forudsagt ny indikation | Bronkial sygdom (rang 6; rang 1 er næsehulesygdom) |
-| TxGNN-forudsigelsesscore | 99,77 % (bronkial sygdom); 99,95 % (næsehulesygdom) |
-| Evidensniveau | L4 (bronkial sygdom); L5 (næsehulesygdom) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9995 (næsehulesygdom) |
+| Evidensniveau | L5 (bronkial sygdom); L5 (næsehulesygdom) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (for den højest rangerede forudsigelse); Research Question (bronkial sygdom) |
 
 ---

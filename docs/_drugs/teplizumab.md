@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Teplizumab
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 807
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Teplizumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Forsinkelse af debut af stadie 3 type 1-diabetes"
+description: "Teplizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Teplizumab"
-predicted_indications: ["diabetic cataract", "diabetic cataract", "immature cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Teplizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +35,16 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Teplizumab: Fra forsinkelse af type 1-diabetes til diabetisk grå stær
+## Teplizumab
 {: .text-alpha }
-
-## Kort resumé
-
-Teplizumab er et anti-CD3-monoklonalt antistof, som er markedsført i Danmark under navnet Teizeild og anvendes til at forsinke debut af stadie 3 type 1-diabetes. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk grå stær** (diabetic cataract). Forudsigelsen er **ikke understøttet af nogen kliniske forsøg eller publikationer**, og den er alene baseret på modellen.
-
----
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Forsinkelse af debut af stadie 3 type 1-diabetes (ifølge de data, der er indsamlet til rapporten; godkendelsesteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 98,38 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
----
-
-## Hvorfor er denne forudsigelse (ikke) rimelig?
-
-Teplizumab er et humaniseret anti-CD3-antistof, der påvirker T-cellernes aktivitet og dermed forsinker den autoimmune ødelæggelse af betaceller ved type 1-diabetes. Der foreligger i øjeblikket ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport, men farmakologidata viser, at målet er CD3e.
-
-Sammenhængen med diabetisk grå stær er kun indirekte. Hvis teplizumab bevarer betacellefunktionen og dermed bedrer blodsukkerkontrollen, kan det i teorien mindske hyperglykæmi-drevet linseskade (polyol-vejen og oxidativ stress). Grå stær er imidlertid ikke en immunmedieret sygdom, og der er ingen data, som peger på en direkte effekt på linsen. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til diabetesrelaterede begreber snarere end en biologisk begrundelse.
-
-Modellen har også forudsagt en række beslægtede øjenlidelser med næsten samme score (bl.a. umoden grå stær, moden grå stær, tetanisk grå stær, grå stær ved type 2-diabetes og grå stær ved kraniosynostose). Ingen af disse har en plausibel mekanistisk sammenhæng med anti-CD3-behandling, og de er sandsynligvis artefakter fra grafen. Flere af forudsigelserne optrådte desuden to gange i dataene.
-
----
-
-## Dokumentation fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er for øjeblikket ingen relateret litteratur tilgængelig.
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 ---
 
@@ -95,18 +65,6 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen er alene modelbaseret (evidensniveau L5) uden støtte fra kliniske forsøg eller litteratur, og der er ingen plausibel direkte mekanisme mellem CD3-rettet immunmodulation og linseopacitet. Produktresuméets sikkerhedsoplysninger mangler desuden i de indsamlede data.
-
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Detaljerede data om virkningsmekanismen (MOA), fx fra DrugBank
-- Præklinisk eller epidemiologisk evidens for, at immunmodulation eller bevaret betacellefunktion påvirker udviklingen af diabetisk grå stær
-- Oprydning i duplikerede forudsigelser og vurdering af, om de øvrige grå stær-forudsigelser overhovedet er biologisk meningsfulde
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

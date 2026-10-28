@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 885
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Vilanterol: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: KOL, astma, bronkitis, lungeemfysem (fra videnbasen"
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: forudsagt ny indikation Hyperlucent lung (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Vilanterol: Fra kronisk obstruktiv lungesygdom (KOL) og astma til obstruktiv lungesygdom
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Vilanterol er en langtidsvirkende beta2-agonist, som oprindeligt anvendes til behandling af kronisk obstruktiv lungesygdom (KOL) og astma.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **obstruktiv lungesygdom**. Dette er dog reelt en paraplykategori for de allerede godkendte indikationer og dermed ikke egentlig repurposing.
+TxGNN-modellen (deep learning) forudsiger, at det kan være effektivt ved **hyperlucent lunge**.
 Forudsigelsen understøttes af **28 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | KOL, astma, bronkitis, lungeemfysem (fra videnbasen; godkendt indikationstekst for de danske tilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,97 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hyperlucent lung |
+| TxGNN-forudsigelsesscore | 0.9972 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er forudsigelsen rimelig?
 
 Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Vilanterol er dog kendt som en langtidsvirkende beta2-adrenoceptoragonist, som afslapper de glatte muskler i luftvejene via cAMP-medieret bronkodilatation og har en effekt, der varer 24 timer, hvilket muliggør dosering én gang dagligt.
 
-"Obstruktiv lungesygdom" er en overordnet kategori, der omfatter KOL og astma, som vilanterol allerede anvendes til. Forudsigelsen er derfor i praksis en bekræftelse af eksisterende brug. Der findes direkte fase 3-evidens for kombinationerne fluticasonfuroat/vilanterol og tripelkombinationen fluticasonfuroat/umeclidinium/vilanterol.
 
 De øvrige forudsagte indikationer (rang 2-10, bl.a. interstitielt emfysem, trakealstenose, medfødt lobært emfysem og laryngotracheitis) har enten ingen kliniske data eller kun indirekte data. Der er ingen oplagt mekanistisk begrundelse for bronkodilatation ved strukturelle eller infektiøse tilstande. Disse vurderes som **Hold**. For bronkialneoplasi (rang 6) vedrører evidensen perioperativ behandling af KOL hos lungekræftpatienter, ikke selve tumoren.
 

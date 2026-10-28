@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09302",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09302"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "neutral-lipid-storage-disease",
-          "display": "neutral lipid storage disease"
-        }
-      ],
-      "text": "neutral lipid storage disease"
+      "concept": {
+        "text": "neutral lipid storage disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9929
     }
   ]
 }

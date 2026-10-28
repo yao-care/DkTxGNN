@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 838
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tobramycin: forudsagt ny indikation Eksponeringskeratitis (evidensniveau L5). Oprindelig indikation: Bakteriel meningitis, uveitis, konjunktivitis…"
 monitor_inn: "Tobramycin"
-predicted_indications: ["exposure keratitis", "exposure keratitis", "non-human animal disease", "non-human animal disease", "otitis externa", "otitis externa", "postinfectious vasculitis", "postinfectious vasculitis", "post-bacterial disorder", "post-bacterial disorder"]
+predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+last_modified_at: 2026-10-23
+description: "Tobramycin: forudsagt ny indikation Eksponeringskeratitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske produkttekst. Videnskabsgrafen registrerer…"
 ---
 
 # Tobramycin
@@ -33,13 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tobramycin: Fra bakterielle øjen- og meningeale infektioner til eksponeringskeratitis
+## Tobramycin: Fra bakterielle og okulære infektioner til eksponeringskeratitis
 {: .text-alpha }
 
-## Resumé i én sætning
+## Én-sætningsopsummering
 
-Tobramycin er et aminoglykosid-antibiotikum, der oprindeligt anvendes mod bakterielle infektioner, bl.a. i øjet og hjernehinderne.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **eksponeringskeratitis**, men der er **ingen registrerede kliniske forsøg** og kun **8 publikationer** med indirekte relevans (case-rapporter, in vitro-studier og ét retrospektivt studie). Evidensen er derfor svag.
+Tobramycin er et aminoglykosid-antibiotikum. Scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. I Danmark er det markedsført som inhalationsvæske til nebulisator.
+TxGNN-modellen forudsiger, at det kan have effekt ved **eksponeringskeratitis**, men der er **ingen kliniske forsøg** og **ingen publikationer, der direkte undersøger denne sygdom**.
+Forudsigelsen bygger derfor reelt kun på modellen.
 
 ---
 
@@ -47,53 +48,46 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **eksponeringskera
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakteriel meningitis, uveitis, konjunktivitis, Staphylococcus aureus-infektion m.fl. (fra vidensgrafen; den danske godkendelsestekst er ikke angivet) |
+| Oprindelig indikation | Ikke angivet i den danske produkttekst. Videnskabsgrafen registrerer bl.a. bakteriel meningitis, konjunktivitis og uveitis (relationer i videnskabsgrafen, ikke godkendte indikationer) |
 | Forudsagt ny indikation | Eksponeringskeratitis |
-| TxGNN-prædiktionsscore | 99,93 % |
-| Evidensniveau | L4 (L5 hvis kun modelprædiktion betragtes; her er der indirekte litteratur og in vitro-studier) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9993 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige i de data, der er indsamlet til denne rapport. Tobramycin er et aminoglykosid, der hæmmer bakteriel proteinsyntese via 30S-ribosomsubunitten, og det anvendes allerede lokalt mod bakterielle øjeninfektioner.
+Der er på nuværende tidspunkt ikke tilgængelige data om lægemidlets detaljerede virkningsmekanisme. Tobramycin tilhører aminoglykosiderne og har kendt aktivitet mod bl.a. *Pseudomonas aeruginosa* og *Staphylococcus aureus*, som er hyppige årsager til øjeninfektioner.
 
-Eksponeringskeratitis opstår primært ved udtørring af hornhinden (f.eks. ved manglende evne til at lukke øjet) og er ikke i sig selv en infektion. Tobramycins antibakterielle effekt er derfor kun relevant ved sekundær bakteriel infektion. Sammenhængen mellem den oprindelige og den nye indikation er således indirekte.
+Ved eksponeringskeratitis er hornhinden udtørret og beskadiget, fordi øjet ikke lukkes tilstrækkeligt. Her kunne tobramycin teoretisk forebygge eller behandle sekundær bakteriel infektion. Det er en indirekte, biologisk plausibel tankegang, men ikke en dokumenteret virkning mod selve sygdommen.
 
-Desuden viser et in vitro-studie, at aminoglykosider kan være toksiske for hornhindens epitel. Det er en sikkerhedsmæssig bekymring ved en allerede skadet hornhinde.
-
----
-
-## Dokumentation fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for eksponeringskeratitis.
-
-*Bemærk:* For den forudsagte indikation "post-bakteriel lidelse" (rang 9-10) er der to afsluttede fase 3-forsøg med tobramycin-inhalationspulver. De er open-label-forlængelsesstudier ved cystisk fibrose med *Pseudomonas aeruginosa*-infektion, dvs. en allerede etableret anvendelse, og de er uden sammenligningsgruppe:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT01069705](https://clinicaltrials.gov/study/NCT01069705) | Fase 3 | Afsluttet | 49 | Open-label-forlængelse af tobramycin-inhalationspulver ved cystisk fibrose med P. aeruginosa; sikkerhed og effekt, men ukontrolleret |
-| [NCT00982930](https://clinicaltrials.gov/study/NCT00982930) | Fase 3 | Afsluttet | 55 | Tilsvarende open-label-forlængelse; samme begrænsninger |
+Der er desuden en betydelig bekymring: et in vitro-studie viser, at aminoglykosider kan være toksiske for hornhindens epitel. Det er problematisk i en hornhinde, der i forvejen er skadet.
 
 ---
 
-## Litteraturdokumentation
+## Evidens fra kliniske forsøg
+
+Der er aktuelt ingen relaterede kliniske forsøg registreret for eksponeringskeratitis.
+
+---
+
+## Litteraturevidens
+
+Ingen af nedenstående publikationer undersøger eksponeringskeratitis direkte. De omhandler beslægtede emner (bakteriel keratitis, følsomhed og toksicitet).
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [42842711](https://pubmed.ncbi.nlm.nih.gov/42842711/) | 2026 | Retrospektiv kohorte | Cornea | Sammenligning af forløb og følsomhed ved MRSA- og MSSA-keratitis |
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | Aminoglykosider, herunder tobramycin, er toksiske for hornhindeepitelceller i kultur |
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro | Nippon Ganka Gakkai Zasshi | MIC og postantibiotisk effekt af øjendråber på isolater fra infektiøs keratitis |
-| [42358321](https://pubmed.ncbi.nlm.nih.gov/42358321/) | 2026 | In vitro (veterinær) | Frontiers in Veterinary Science | Fluorometholons indvirkning på antibiotikafølsomhed hos hundens øjenpatogener |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case-rapport | Ophthalmology | Kontaktlinse-relateret *Bacillus cereus*-keratitis |
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case-rapport | Oxford Medical Case Reports | Multiresistent *Shewanella algae*-keratitis hos patient, der ikke kunne lukke øjnene |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case-rapport | Eye & Contact Lens | Bilateral MRSA-keratitis efter fotorefraktiv keratektomi |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case-rapport | Yan Ke Xue Bao | Paracentral hornhinde-dellen som sjældent tegn ved Graves' oftalmopati |
-
-Ingen af publikationerne undersøger tobramycin direkte ved eksponeringskeratitis.
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro-studie | Current Eye Research | Sammenligning af cytotoksicitet af fire aminoglykosider (inkl. tobramycin) på kaninens hornhindeepitelceller |
+| [42842711](https://pubmed.ncbi.nlm.nih.gov/42842711/) | 2026 | Retrospektiv kohorte | Cornea | Forløb ved MRSA- og MSSA-keratitis: karakteristika, følsomhed og behandling |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro-studie | Nippon Ganka Gakkai Zasshi | MIC og postantibiotisk effekt af øjendråber på isolater fra infektiøs keratitis |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Medical Case Reports | Bakteriel keratitis forårsaget af multiresistent *Shewanella algae* hos en patient, der ikke kunne lukke øjnene |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | *Bacillus cereus*-keratitis relateret til kontaktlinser |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA-keratitis efter fotorefraktiv keratektomi |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report | Yan Ke Xue Bao | Paracentral hornhinde-dellen som sjældent tegn ved Graves' oftalmopati |
+| [42358321](https://pubmed.ncbi.nlm.nih.gov/42358321/) | 2026 | In vitro (veterinær) | Frontiers in Veterinary Science | Fluorometolons effekt på antibiotikafølsomhed hos okulære bakterier fra hunde |
 
 ---
 
@@ -101,21 +95,23 @@ Ingen af publikationerne undersøger tobramycin direkte ved eksponeringskeratiti
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103153300 | Tobi (Viatris ApS) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28103153300 | Tobi (Viatris ApS) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke tilgængelig i de samlede data |
 
-Den eneste danske tilladelse omfatter en inhalationsformulering, ikke øjendråber.
+Den eneste danske tilladelse gælder inhalationsvæske. Der er ikke registreret et øjenpræparat med tobramycin i de samlede data.
 
 ---
 
-## Sikkerhedsmæssige overvejelser
+## Sikkerhedsovervejelser
 
-**Kontraindikationer/forsigtighed ifølge vidensgrafen** (ikke produktresuméets tekst): nyresygdom, myasthenia gravis og andre neuromuskulære lidelser, Parkinsons sygdom, glaukom og okulær hypertension, herpes simplex-keratitis, svampe- og virusinfektioner i øjet, diabetisk ketoacidose, hyperkalcæmi, *Clostridium difficile*-colitis og nekrotiserende enterokolitis hos nyfødte.
+**Interaktioner (DDI):** 100 interaktioner er registreret. Blandt de viste er to af alvorlig grad (Major):
+- Magnesiumsulfat
+- Mannitol
 
-**Lægemiddelinteraktioner** (100 registrerede i alt; de vigtigste):
-- **Alvorlige (Major):** magnesiumsulfat, mannitol
-- **Moderate:** amphotericin B (inkl. lipidkompleks), vancomycin, kanamycin, neomycin, protonpumpehæmmere (omeprazol, pantoprazol, lansoprazol, rabeprazol, dexlansoprazol), acetylsalicylsyre, mesalazin, sulfasalazin, balsalazid, olsalazin, picosulfat
+Flere af moderat grad er registreret, bl.a. amfotericin B, vancomycin, kanamycin, neomycin, acetylsalicylsyre, mesalazin og flere protonpumpehæmmere (omeprazol, pantoprazol, lansoprazol, rabeprazol m.fl.).
 
-Der foreligger ikke produktresuméets advarsler for det danske præparat. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Sygdomme, hvor videnskabsgrafen registrerer en kontraindikationsrelation** (ikke fra produkttekst): bl.a. nyresygdom, myasthenia gravis, Parkinsons sygdom, glaukom, herpes simplex-keratitis, svampe- og virusinfektion i øjet samt *Clostridium difficile*-colitis.
+
+For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -124,17 +120,13 @@ Der foreligger ikke produktresuméets advarsler for det danske præparat. Se det
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen bygger på en høj modelscore, men der findes ingen kliniske forsøg og kun indirekte litteratur. Eksponeringskeratitis er primært en udtørringsskade, og tobramycins mulige epiteltoksicitet på en skadet hornhinde er en sikkerhedsmæssig bekymring.
+Der er ingen kliniske forsøg og ingen studier, der direkte undersøger eksponeringskeratitis. Evidensniveauet er derfor L5, selvom den indirekte litteratur om bakteriel keratitis understøtter en teoretisk rolle. Risikoen for toksicitet i hornhindeepitelet og det manglende øjenpræparat på det danske marked taler yderligere for at vente.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanismen (MOA)
-- Advarsler og kontraindikationer fra det danske produktresumé
-- Vurdering af, om der findes en lokal øjenformulering på det danske marked (den eneste tilladelse er til inhalation)
-- Prækliniske eller kliniske studier af tobramycin ved eksponeringskeratitis, herunder ved sekundær infektion og med vurdering af hornhindetoksicitet
-
----
-
-*Andre forudsagte indikationer i datagrundlaget: **Otitis externa** (rang 5-6, score 99,81 %, evidensniveau L4) har stærk mekanistisk begrundelse (tobramycin virker mod *P. aeruginosa* og *S. aureus*), men kun indirekte evidens og risiko for ototoksicitet ved perforeret trommehinde; den ligger tæt på eksisterende anti-infektiv brug. **Non-human animal disease** og **postinfektiøs vaskulitis** er uden evidens og uden mekanistisk støtte.*
+- Studier, der direkte undersøger tobramycin ved eksponeringskeratitis (klinisk eller prækliniske modeller)
+- Vurdering af hornhindetoksicitet i en allerede beskadiget hornhinde
+- Data om virkningsmekanisme og produktresumé (advarsler og kontraindikationer)
+- Afklaring af, om et egnet øjenpræparat er tilgængeligt i Danmark
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

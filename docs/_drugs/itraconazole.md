@@ -6,9 +6,9 @@ nav_order: 462
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Itraconazole: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Esofageal candidiasis, candidæmi, histoplasmose, aspergillose…"
 monitor_inn: "itraconazole"
 predicted_indications: ["pneumocystosis"]
+description: "Itraconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Itraconazole
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Itraconazol: Fra svampeinfektioner til pneumocystose
+## Itraconazole: Pneumocystose (pneumocystosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer** (
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Esofageal candidiasis, candidæmi, histoplasmose, aspergillose, blastomykose, coccidioidomykose, sporotrikose m.fl. (fra vidensgrafen; der er ingen indikationstekst i den danske godkendelse) |
-| Forudsagt ny indikation | Pneumocystose |
-| TxGNN-forudsigelsesscore | 99,34 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
+| TxGNN-forudsigelsesscore | 0.9934 |
 | Evidensniveau | L5 (kun modelforudsigelse; litteraturen indeholder ingen studier af itraconazol mod pneumocystose) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer** (
 
 Itraconazol hæmmer svampeenzymet CYP51 (lanosterol 14-alfa-demethylase) og blokerer dermed syntesen af ergosterol i svampens cellemembran. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, så vurderingen bygger på almen farmakologisk viden.
 
-*Pneumocystis jirovecii* er taksonomisk en svamp, men dens cellemembran indeholder overvejende kolesterol frem for ergosterol. Azoler forventes derfor kun at have begrænset aktivitet. Den høje score afspejler sandsynligvis, at pneumocystose ligger tæt på de godkendte svampeindikationer (fx histoplasmose og aspergillose) i vidensgrafen, snarere end en dokumenteret mekanisme.
+*Pneumocystis jirovecii* er taksonomisk en svamp, men dens cellemembran indeholder overvejende kolesterol frem for ergosterol. Azoler forventes derfor kun at have begrænset aktivitet. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (fx pneumocystose og de godkendte svampeindikationer histoplasmose og aspergillose), snarere end biologisk evidens eller en dokumenteret mekanisme.
 
 Itraconazol har god lungepenetration (data for epitelial lining fluid, PMID 21973267), hvilket understøtter biologisk plausibilitet, men ikke i sig selv effekt. Standardbehandling og -profylakse af pneumocystose er i øvrigt trimethoprim-sulfamethoxazol.
 
@@ -122,7 +122,7 @@ Følgende er baseret på vidensgrafens kontraindikationsrelationer (ikke på pro
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på netværksnærhed i vidensgrafen. Der er ingen kliniske forsøg, ingen studier af itraconazol mod pneumocystose, og den biologiske mekanisme (ergosterol-hæmning) passer dårligt til *Pneumocystis*, som primært har kolesterol i membranen. Der findes desuden en veletableret standardbehandling.
+Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ingen kliniske forsøg, ingen studier af itraconazol mod pneumocystose, og den biologiske mekanisme (ergosterol-hæmning) passer dårligt til *Pneumocystis*, som primært har kolesterol i membranen. Der findes desuden en veletableret standardbehandling.
 
 **For at komme videre kræves:**
 - Præklinisk/in vitro-data for itraconazols aktivitet mod *P. jirovecii*

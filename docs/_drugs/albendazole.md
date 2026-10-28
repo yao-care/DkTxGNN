@@ -5,10 +5,10 @@ parent: Høj evidens (L1-L2)
 nav_order: 31
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Albendazole: forudsagt ny indikation Alveolær echinokokkose (evidensniveau L2). Oprindelig indikation: Cystisk echinokokkose, cysticerkose (fra TxGNN-vidensgrafen"
 monitor_inn: "albendazole"
 predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
+last_modified_at: 2026-10-27
+description: "Albendazole: forudsagt ny indikation Alveolær ekinokokkose (alveolar echinococcosis) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Albendazole
@@ -33,102 +33,82 @@ Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Albendazol: Fra cystisk echinokokkose til alveolær echinokokkose
+## Albendazol: benzimidazol-ormemiddel (hæmmer parasittens beta-tubulin) → Alveolær ekinokokkose (alveolar echinococcosis)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering i én sætning
 
-Albendazol er et ormemiddel (benzimidazol), der oprindeligt anvendes mod cystisk echinokokkose og cysticerkose.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **alveolær echinokokkose**,
-og der er i de data, der er indsamlet til denne rapport, **3 kliniske forsøg** og **20 publikationer** knyttet til denne forudsigelse; heraf er ét fase 2-forsøg afsluttet og direkte relevant. Der er tale om en veletableret anvendelse i retningslinjer snarere end en egentlig ny indikation.
-
----
+Albendazol er et bredspektret ormemiddel (benzimidazol), der hæmmer parasittens mikrotubuli-dannelse.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **alveolær ekinokokkose (alveolar echinococcosis)**,
+og der er i de data, der er indsamlet til denne rapport, **3 kliniske forsøg** og **19 publikationer** for denne retning, heraf ét afsluttet fase 2-forsøg med 194 patienter.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Cystisk echinokokkose, cysticerkose (fra TxGNN-vidensgrafen; den danske godkendelsestekst er ikke angivet) |
-| Forudsagt ny indikation | Alveolær echinokokkose |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Alveolær ekinokokkose (alveolar echinococcosis) |
+| TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Proceed with Guardrails |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Albendazol er et benzimidazol, der binder sig til parasittens beta-tubulin. Det hæmmer mikrotubuli-polymerisering og parasittens glukoseoptagelse, hvilket fører til energitab og død af larvestadiet.
 
-Albendazol binder sig til parasittens beta-tubulin og hæmmer mikrotubulidannelsen samt optagelsen af glukose. Det fører til energimangel og død af larvestadiet. Data om virkningsmekanisme fra DrugBank var ikke tilgængelige; beskrivelsen her bygger på den mekanistiske vurdering i de indsamlede data.
-
-*Echinococcus multilocularis* (alveolær echinokokkose) og *E. granulosus* (cystisk echinokokkose, en oprindelig indikation) er nært beslægtede bændelorme med samme tubulin-target, så virkningsmekanismen kan overføres direkte. Ekspertkonsensus og oversigtsartikler beskriver allerede albendazol som førstevalg til langvarig, parasitostatisk behandling af alveolær echinokokkose.
-
-Forudsigelsen afspejler derfor primært en etableret, retningslinjebaseret anvendelse tæt på den oprindelige indikation. Albendazol virker dog parasitostatisk og ikke parasitdræbende ved alveolær echinokokkose, og kirurgi er fortsat det eneste potentielt helbredende tiltag, når det er muligt.
-
----
+Alveolær ekinokokkose skyldes *Echinococcus multilocularis*, som er tæt beslægtet med andre bændelorme, der allerede behandles med albendazol, og de har samme tubulin-mål. Mekanismen kan derfor overføres direkte. Ifølge ekspertkonsensus og oversigtsartikler er albendazol allerede førstevalgs kemoterapi (parasitostatisk, ofte langvarig) ved denne sygdom. Der er derfor tale om en veletableret anvendelse snarere end en helt ny omplacering.
 
 ## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Fase 2 | Afsluttet | 194 | Albendazol ved tidlig alveolær echinokokkose i Kirgisistan; det stærkeste sygdomsspecifikke forsøg. Randomisering/kontrol fremgår ikke af data |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | Ikke angivet | Afsluttet | 50 | EchinoVISTA: markører for parasitviabilitet og opfølgning af patienter med alveolær echinokokkose behandlet med albendazol |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | Ikke angivet | Ukendt | 24 | Randomiseret forsøg med adjuverende albendazol versus placebo efter resektion af lungehydatidcyste (cystisk form, indirekte relevans) |
-
----
+| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Fase 2 | Afsluttet | 194 | Albendazol hos patienter med tidlig alveolær ekinokokkose, fundet ved ultralydsscreening i Kirgisistan |
+| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | Ikke relevant (NA) | Afsluttet | 50 | Parasittens levedygtighed og nye markører til opfølgning af albendazol-behandlede patienter |
+| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | Ikke relevant (NA) | Ukendt | 24 | Randomiseret forsøg med adjuverende albendazol efter resektion af lunge-hydatidcyste (cystisk form, indirekte relevans) |
 
 ## Litteraturevidens
 
-Der blev ikke fundet randomiserede forsøg i litteraturen; evidensen består hovedsageligt af oversigtsartikler og én observationel undersøgelse.
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Oversigt | Acta Tropica | Ekspertkonsensus om diagnose og behandling af cystisk og alveolær echinokokkose |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Oversigt | Seminars in Liver Disease | Hepatisk alveolær echinokokkose: sygdomsbillede og behandling |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Oversigt | Tidsskr Nor Laegeforen | Alveolær echinokokkose; kirurgi kombineret med langvarig albendazol |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Oversigt | World J Gastroenterol | Aktuelle overvejelser ved behandling af leverechinokokkose |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Oversigt | Clin Microbiol Rev | Fremskridt inden for echinokokkose i det 21. århundrede |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Oversigt | Parasite | Albendazol og mebendazol samt alternative behandlingsmuligheder |
-| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Oversigt | Acta Tropica | Albendazol og mebendazol er stadig de eneste godkendte lægemidler; nye muligheder undersøges |
-| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observationel | J Antimicrob Chemother | Åbent studie af 35 patienter: langtidsbehandling med benzimidazoler ved alveolær echinokokkose |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Oversigt | Parasitology | Albendazol er ikke parasitdræbende og kan give alvorlige bivirkninger; behov for alternativer (f.eks. pyronaridin) |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Oversigt | Chin J Schistosomiasis Control | Fremskridt i albendazolbehandling af alveolær echinokokkose |
+| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Oversigtsartikel | Acta Tropica | Ekspertkonsensus om diagnose, behandling og opfølgning af cystisk og alveolær ekinokokkose |
+| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Oversigtsartikel | Tidsskr Nor Legeforen | Alveolær ekinokokkose: kirurgisk resektion kombineret med langvarig medicinsk behandling |
+| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Oversigtsartikel | World J Gastroenterol | Aktuel håndtering af leverekinokokkose; kirurgi er hjørnestenen |
+| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Oversigtsartikel | Parasite | Albendazol og mebendazol samt nye behandlingsmuligheder |
+| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observationsstudie | J Antimicrob Chemother | 35 patienter behandlet med mebendazol eller albendazol, fulgt i gennemsnit 39 måneder |
+| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Oversigtsartikel | Semin Liver Dis | Leverform af alveolær ekinokokkose: stigende antal tilfælde |
+| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Oversigtsartikel | Acta Tropica | Ingen ikke-kirurgiske alternativer til albendazol og mebendazol endnu |
+| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Oversigtsartikel | Parasitology | Albendazol er ikke parasitdræbende og kan give alvorlige bivirkninger; omplacering af pyronaridin |
+| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Oversigtsartikel | Chin J Schistosomiasis Control | Albendazol kan bremse sygdomsprogression hos patienter, der ikke kan opereres |
+| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Dyreforsøg | Antimicrob Agents Chemother | Albendazols metabolisme og nye formuleringer i rottemodel |
 
----
+## Markedsinformation for Danmark
 
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101043480 | Valbazen Vet. (Zoetis Animal Health ApS) | Oral opløsning | Ikke angivet |
+| 28101043480 | Valbazen Vet. | Oral opløsning | Indikationstekst er ikke registreret i de lokale data |
 
-Bemærk: den eneste registrerede tilladelse er et veterinærlægemiddel. Der er ikke identificeret en human albendazol-tilladelse i de indsamlede data.
-
----
+Bemærk: Den registrerede tilladelse gælder et veterinært præparat (Zoetis Animal Health ApS).
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme med risiko (fra TxGNN-vidensgrafen, ikke fra produktresumé):** leversygdom, galdeblæresygdom, neutropeni, agranulocytose, anæmi (herunder makrocytær anæmi), pancytopeni, aplastisk anæmi (herunder idiopatisk).
-- **Lægemiddelinteraktioner:** 139 interaktioner registreret. Eksempler på moderate interaktioner: aprepitant, cobicistat, deferasirox, fostamatinib, alemtuzumab, amprenavir, anagrelid, apalutamid, bendamustin, bexaroten, binimetinib og boceprevir. Eksempler på mindre interaktioner: cimetidin, dexamethason, lidocain og armodafinil.
+- **Lægemiddelinteraktioner**: Der er registreret 139 interaktioner. Blandt de nævnte er moderate interaktioner med bl.a. aprepitant, cobicistat, deferasirox, jod-123/jod-131, fostamatinib, alemtuzumab, amprenavir, anagrelid, apalutamid, bendamustin, bexaroten, binimetinib og boceprevir. Mindre interaktioner ses bl.a. med cimetidin, dexamethason, lidocain og armodafinil.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da advarsler og kontraindikationer fra produktresuméet ikke indgår i de indsamlede data. Langvarig behandling kræver typisk monitorering af blodtal og leverfunktion.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
+**Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-- Der foreligger et afsluttet fase 2-forsøg (194 patienter) samt konsistente oversigtsartikler og konsensusanbefalinger, der støtter albendazol som standardbehandling ved alveolær echinokokkose. Evidensen er dog ikke baseret på to fase 3-forsøg, og albendazol virker kun parasitostatisk.
+Der foreligger et afsluttet fase 2-forsøg direkte i alveolær ekinokokkose og flere oversigtsartikler, der beskriver albendazol som etableret førstevalg. Evidensen er dog primært baseret på oversigter og et enkelt forsøg, hvor randomisering og kontrolgruppe ikke fremgår af data. Albendazol er desuden kun parasitostatisk.
 
-**For at gå videre er følgende nødvendigt:**
-- Produktresumé for et human-albendazolpræparat (advarsler, kontraindikationer), da den eneste danske tilladelse er til veterinær brug
-- Oplysninger om virkningsmekanisme fra DrugBank
-- Plan for monitorering af blodtal og leverfunktion ved langvarig behandling, især hos patienter med de ovennævnte risikotilstande
-- Gennemgang af relevante lægemiddelinteraktioner for den enkelte patient
-- Resultater og design (randomisering/kontrol) fra NCT07182305
+**For at komme videre kræves:**
+- Gennemgang af resultaterne fra fase 2-forsøget NCT07182305
+- Produktresumé for et humant albendazol-præparat med advarsler og kontraindikationer, da den eneste danske tilladelse i data er veterinær
+- Data om virkningsmekanisme fra DrugBank
+- Plan for sikkerhedsmonitorering ved langvarig behandling, især af blodtal og leverfunktion
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -8,6 +8,7 @@ nav_order: 553
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Midostaurin
@@ -53,8 +54,8 @@ Den nuværende Evidenspakke indeholder **ingen TxGNN-genanvendelsesforudsigelser
 | Forudsagt ny indikation | Ikke tilgængelig — TxGNN-pipeline'et returnerede ingen kandidater |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Bevisniveau | Kan ikke bestemmes |
-| Markedsstatus i Danmark | Ikke fundet i Laegemiddelstyrelses nationale register |
-| Antal markedsføringstilladelser | 0 (forespørgsel til nationalt register) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Hold** |
 
 ---

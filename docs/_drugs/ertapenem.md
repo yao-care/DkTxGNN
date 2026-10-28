@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Kun modelforudsigelse (L5)
 nav_order: 323
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ertapenem: forudsagt ny indikation Staphylococcus aureus-infektion (vedvarende MSSA-bakteriæmi… (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse, streptokok-pneumoni…"
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "bacterial arthritis", "staphylococcus aureus infection", "staphylococcus aureus infection", "hyperamylasemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia"]
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+description: "Ertapenem: forudsagt ny indikation Bacterial arthritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ertapenem: Fra bakteriel lungebetændelse til Staphylococcus aureus-infektion
+## Ertapenem: Bacterial arthritis
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -42,7 +42,7 @@ Ertapenem er et bredspektret carbapenem-antibiotikum, der oprindeligt anvendes t
 TxGNN-modellen forudsiger, at det kan være effektivt mod **Staphylococcus aureus-infektion**, især som kombinationsbehandling med cefazolin ved vedvarende MSSA-bakteriæmi.
 Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultater) og **20 publikationer**, hovedsageligt case-serier og kohortestudier.
 
-*Bemærk: Den første forudsigelse i de kompilerede data er "bakteriel arthritis" (score 99,7 %, evidensniveau L4, kun case-rapporter og kohortestudier, ingen kliniske forsøg). Denne rapport fokuserer på Staphylococcus aureus-infektion, som har den stærkeste evidens blandt forudsigelserne (L2).*
+Denne rapport fokuserer på Staphylococcus aureus-infektion, som har den stærkeste evidens blandt forudsigelserne (L2).*
 
 ---
 
@@ -50,12 +50,12 @@ Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultate
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakteriel lungebetændelse, streptokok-pneumoni, Peptostreptococcus-infektion (godkendt indikationstekst for det danske produkt er ikke tilgængelig i de kompilerede data) |
-| Forudsagt ny indikation | Staphylococcus aureus-infektion (vedvarende MSSA-bakteriæmi, kombinationsbehandling) |
-| TxGNN-forudsigelsesscore | 99,28 % |
-| Evidensniveau | L2 (jf. klassificering i de kompilerede data; ingen afsluttede RCT'er, evidensen er case-serier, kohorter og to igangværende forsøg) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bacterial arthritis |
+| TxGNN-forudsigelsesscore | 0.9972 |
+| Evidensniveau | L5 (jf. klassificering i de kompilerede data; ingen afsluttede RCT'er, evidensen er case-serier, kohorter og to igangværende forsøg) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

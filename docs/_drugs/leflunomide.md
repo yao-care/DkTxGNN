@@ -6,9 +6,9 @@ nav_order: 487
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Psoriasisgigt og leddegigt (fra TxGNN-vidensgrafen"
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Leflunomid: Fra psoriasisgigt og leddegigt til brachydaktyli-syndaktyli-syndrom
+## Leflunomide: Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Leflunomid er oprindeligt anvendt til behandling af **psoriasisgigt** og **ledde
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psoriasisgigt og leddegigt (fra TxGNN-vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
-| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) |
+| TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de d
 
 Det er generelt kendt, at leflunomid hæmmer enzymet dihydroorotat-dehydrogenase (DHODH) og dermed pyrimidinsyntesen. Det er imidlertid baggrundsviden og ikke en del af de indsamlede data. Der er ikke fundet dokumentation for, at DHODH-hæmning har relevans for patofysiologien bag dette medfødte syndrom med misdannelser af fingre og tæer.
 
-Den høje TxGNN-score (99,93 %) er en ren computerbaseret forudsigelse og bør ikke tolkes som klinisk evidens. Ligheden mellem den oprindelige og den forudsagte indikation er endnu ikke vurderet.
+Den høje TxGNN-score (0,9993) er en ren computerbaseret forudsigelse og bør ikke tolkes som klinisk evidens. Ligheden mellem den oprindelige og den forudsagte indikation er endnu ikke vurderet.
 
-Modellen har desuden forudsagt en anden indikation, **colobomatøst mikroftalmi-rhizomel dysplasi-syndrom** (score 99,93 %, evidensniveau L5, anbefaling: Hold). Heller ikke her er der kliniske forsøg, publikationer eller en etableret mekanistisk kobling.
+Modellen har desuden forudsagt en anden indikation, **colobomatøst mikroftalmi-rhizomel dysplasi-syndrom** (score 0,9993, evidensniveau L5, anbefaling: Hold). Heller ikke her er der kliniske forsøg, publikationer eller en etableret mekanistisk kobling.
 
 ---
 

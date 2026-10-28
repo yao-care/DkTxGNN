@@ -4,17 +4,17 @@ title: Cabotegravir
 parent: Kun modelforudsigelse (L5)
 nav_order: 145
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (lægemidlet er kendt som HIV-1-in…"
 monitor_inn: "Cabotegravir"
-predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "sclerosing cholangitis", "sclerosing cholangitis", "bronchitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Cabotegravir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **reumatoid artrit
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (lægemidlet er kendt som HIV-1-integrasehæmmer) |
 | Forudsagt ny indikation | Reumatoid artritis |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| TxGNN-forudsigelsesscore | 0,9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **reumatoid artrit
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er cabotegravir en integrase-strengoverførselshæmmer (INSTI), der blokerer HIV-1-integrase, et viralt enzym uden kendt humant homolog.
 
-Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og reumatoid artritis. Cabotegravir har ingen kendt immunmodulerende aktivitet i de centrale sygdomsveje (TNF, IL-6, JAK/STAT, B-celle- eller T-cellesignalering). Den høje TxGNN-score er udelukkende en beregningsmæssig modelforudsigelse og kan afspejle artefakter i vidensgrafen.
+Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og reumatoid artritis. Cabotegravir har ingen kendt immunmodulerende aktivitet i de centrale sygdomsveje (TNF, IL-6, JAK/STAT, B-celle- eller T-cellesignalering). Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Bemærk, at forudsigelsen optræder to gange i de modtagne data, hvilket tyder på en fejl i databehandlingen.
 

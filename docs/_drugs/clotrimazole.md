@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Clotrimazole: forudsagt ny indikation Acne (evidensniveau L5). Oprindelig indikation: Tinea pedis, tinea corporis, kutan candidiasis, pityriasis versicolor…"
 monitor_inn: "clotrimazole"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+last_modified_at: 2026-10-27
+description: "Clotrimazole: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clotrimazole
@@ -33,89 +33,71 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Clotrimazol: Fra svampeinfektioner i hud og slimhinder til acne
+## Clotrimazol: azol-svampemiddel → Akne (acne (disease))
 {: .text-alpha }
 
-## Opsummering i en sætning
+## Resumé i få sætninger
 
-Clotrimazol er et azol-svampemiddel, der oprindeligt bruges mod hudsvamp (fx fodsvamp og ringorm) og candida-infektioner. TxGNN-modellen forudsiger, at det kan have effekt på **acne**. Evidensen er meget svag: kun **1 klinisk forsøg** (suspenderet, kombinationsbehandling) og **ingen publikationer** understøtter denne retning.
-
----
+Clotrimazol er et topisk azol-svampemiddel, som er markedsført i Danmark. TxGNN-modellen forudsiger, at det kan have effekt ved **akne (acne (disease))**. Evidensen er meget svag: der er **1 klinisk forsøg** med en kombination af tre lægemidler, som er suspenderet, og **ingen publikationer** om denne indikation.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Tinea pedis, tinea corporis, kutan candidiasis, pityriasis versicolor, oral candidiasis, vulvovaginal candidiasis m.fl. (fra TxGNN-vidensgrafen; godkendte indikationstekster er ikke oplyst i de indsamlede data) |
-| Forudsagt ny indikation | Acne |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Akne (acne (disease)) |
+| TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Clotrimazol tilhører azolgruppen af svampemidler. Det hæmmer generelt svampenes syntese af ergosterol og har desuden en vis antiinflammatorisk aktivitet. Dette er almen farmakologisk viden og ikke hentet fra de indsamlede data.
 
-Der foreligger ikke detaljerede data om clotrimazols virkningsmekanisme i de indsamlede data. Clotrimazol hører til azol-svampemidlerne, og dets effekt ved overfladiske svampeinfektioner er veldokumenteret. Mekanistisk kan det muligvis have betydning ved acne-lignende tilstande, hvor gær- eller svampearter (fx *Malassezia* eller *Candida*) spiller en rolle. Clotrimazol har desuden en vis antiinflammatorisk aktivitet.
-
-Koblingen til almindelig acne (acne vulgaris) er imidlertid indirekte. Acne skyldes primært talgkirtelaktivitet, follikelforhorning, bakterier og inflammation, ikke svampeinfektion. Den høje modelscore er derfor kun en forudsigelse og afspejler ikke i sig selv en påvist terapeutisk sammenhæng.
-
----
+Forbindelsen til akne er indirekte. Malassezia- eller Candida-involvering i akneagtig folliculitis er tænkelig, men det er ikke det samme som acne vulgaris. Den høje score er en modelforudsigelse og ikke et bevis for klinisk effekt.
 
 ## Klinisk evidens
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspenderet | 80 | Sammenligning af en fastdosiskombination (beclomethason 0,025 % + gentamicin 0,1 % + clotrimazol 1 %, creme) hos forsøgspersoner med kontamineret dermatose og bilaterale symmetriske læsioner. Ingen resultater tilgængelige. |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspenderet | 80 | Sammenligning af en fast kombination (beclomethason + gentamicin + clotrimazol) som creme ved kontamineret dermatose med bilaterale symmetriske læsioner. Ingen resultater foreligger. |
 
-Forsøget testede en kombination af tre stoffer, så clotrimazols bidrag kan ikke isoleres. Den præcise målsygdom (muligvis en blandet dermatose frem for acne vulgaris) kan ikke bekræftes ud fra de foreliggende oplysninger. Relevansen vurderes som lav. Der er ikke fundet EudraCT-numre.
-
----
+Forsøget tester en kombination, så clotrimazols bidrag kan ikke isoleres. Den præcise målsygdom (muligvis blandet dermatose frem for acne vulgaris) kan ikke bekræftes. Relevansen vurderes som lav.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur til clotrimazol ved acne.
+Der er i øjeblikket ingen relateret litteratur om clotrimazol ved akne.
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Godkendelsesnummer | Produktnavn | Lægemiddelform | Producent |
 |---------|------|------|-----------|
-| 28100608472 | Canesten | Creme | Ikke oplyst |
-| 28105725316 | Otoxolan | Øredråber, suspension | Ikke oplyst |
-| 28103247601 | Aurizon Vet. | Øredråber, suspension | Ikke oplyst (veterinærlægemiddel) |
-| 28103082899 | Otomax Vet. | Øredråber, suspension | Ikke oplyst (veterinærlægemiddel) |
+| 28100608472 | Canesten | Creme | Bayer AB |
+| 28105725316 | Otoxolan | Øredråber, suspension | KRKA d.d. Novo mesto |
+| 28103247601 | Aurizon Vet. | Øredråber, suspension | Vetoquinol S.A. |
+| 28103082899 | Otomax Vet. | Øredråber, suspension | Intervet International B.V. |
 
-Alle fire tilladelser er gyldige enkeltstofpræparater. To af dem er veterinærlægemidler og er ikke relevante for human anvendelse.
-
----
+Alle fire godkendelser er gyldige. Produkter med tilføjelsen "Vet." er dyrlægemidler.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgrafen:** TxGNN-vidensgrafen peger på sygdomme, hvor clotrimazol er markeret som kontraindiceret: binyrebarkinsufficiens, Addisons sygdom, hudatrofi, telangiektasi, kapillær sygdom, hereditær hæmoragisk telangiektasi, perifer karsygdom, claudicatio intermittens og perifer arteriesygdom. Dette stammer fra vidensgrafen og ikke fra produktresuméer, så det skal verificeres mod SmPC.
-- **Lægemiddelinteraktioner:** Der er registreret 1.099 mulige interaktioner. Blandt dem, der er klassificeret som **alvorlige (Major)**, er fentanyl, alfentanil, amiodaron og hydrocodon. Flere er klassificeret som moderate, bl.a. abemaciclib, paclitaxel, acalabrutinib, nifedipin, apixaban og aprepitant. Relevansen afhænger af, i hvilken grad stoffet optages systemisk ved den valgte administrationsvej.
+- **Lægemiddelinteraktioner:** Der er registreret 1099 mulige interaktioner. Blandt de alvorlige (Major) er fentanyl, alfentanil, amiodaron og hydrocodon. Der er desuden moderate interaktioner, fx med abemaciclib, paclitaxel, nifedipin, amlodipin, apixaban og alprazolam. Betydningen afhænger af den systemiske eksponering, som er lav ved topisk brug.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for øvrige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den eneste evidens er et suspenderet forsøg med en trekomponentkombination uden resultater, og der er ingen litteratur. Den mekanistiske kobling til acne er indirekte, og den høje modelscore alene er ikke tilstrækkelig grundlag for at gå videre.
+Det eneste forsøg er en suspenderet kombinationsundersøgelse uden resultater, og der findes ingen litteratur, som direkte undersøger akne. Forudsigelsen hviler derfor alene på modellen (evidensniveau L5).
 
 **For at komme videre kræves:**
-- Data om clotrimazols virkningsmekanisme og en mere velbegrundet mekanistisk hypotese for acne
-- Afklaring af, hvilken tilstand NCT01244256 faktisk undersøgte, og hvorfor forsøget blev suspenderet
-- Kontrollerede forsøg med clotrimazol som enkeltstof ved veldefineret acne eller *Malassezia*-folliculitis
-- Gennemgang af produktresuméer for advarsler og kontraindikationer
-
-**Bemærkning:** Blandt de øvrige forudsagte indikationer er **vulvovaginitis** (især candida-vulvovaginitis) langt bedre underbygget, med flere afsluttede fase 3-forsøg. Denne anvendelse ligger dog tæt på de eksisterende godkendte indikationer og er derfor snarere on-label brug end egentlig lægemiddelomplacering.
+- Kontrollerede forsøg med clotrimazol alene ved veldefineret akne eller Malassezia-folliculitis
+- Data om virkningsmekanisme, der kan belyse forbindelsen til akne
+- Gennemgang af produktresuméets advarsler og kontraindikationer for den relevante topiske formulering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

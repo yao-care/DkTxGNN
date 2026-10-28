@@ -5,10 +5,10 @@ parent: Høj evidens (L1-L2)
 nav_order: 582
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Nepafenac: forudsagt ny indikation Øjensygdom (eye disease) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 monitor_inn: "Nepafenac"
-predicted_indications: ["eye disease", "eye disease", "optic papillitis", "optic papillitis", "hypotrichosis simplex of the scalp", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "seborrheic keratosis", "von Hippel anomaly", "von Hippel anomaly"]
+predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
+last_modified_at: 2026-10-23
+description: "Nepafenac: forudsagt ny indikation Øjensygdom (bred kategori) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata for Danmark (indikationstek…"
 ---
 
 # Nepafenac
@@ -33,12 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Nepafenac: Fra øjenlidelser (postoperativ øjenbetændelse) til øjensygdom (bredt)
+## Nepafenac: Fra øjenlidelse (postoperativ øjenbetændelse) til øjensygdom
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Nepafenac er et topisk non-steroidt antiinflammatorisk lægemiddel (NSAID) i øjendråber, som er markedsført i Danmark under navnet Nevanac. TxGNN-modellen forudsiger, at det kan være effektivt ved **øjensygdom** (bredt), og de data, der er indsamlet til denne rapport, omfatter **41 kliniske forsøg** og **20 publikationer** for denne forudsigelse. Den brede forudsigelse dækker i høj grad den allerede kendte anvendelse efter kataraktkirurgi og er derfor ikke et egentligt repurposing-signal i sig selv.
+Nepafenac er en øjendråbe med et non-steroidt antiinflammatorisk lægemiddel (NSAID), som anvendes til at forebygge og behandle smerter og betændelse i øjet efter grå stær-operation. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **øjensygdom** i bred forstand, og dette understøttes af mange kliniske forsøg samt flere oversigtsartikler og randomiserede studier. Forudsigelsen svarer dog i høj grad til den kendte anvendelse og er derfor tættere på etableret brug end på egentlig lægemiddelomplacering.
 
 ---
 
@@ -46,42 +46,44 @@ Nepafenac er et topisk non-steroidt antiinflammatorisk lægemiddel (NSAID) i øj
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten er tom) |
-| Forudsagt ny indikation | Øjensygdom (eye disease) |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| Oprindelig indikation | Ikke angivet i de tilgængelige licensdata for Danmark (indikationsteksten er tom). Kendt anvendelse: smerter og betændelse efter grå stær-operation |
+| Forudsagt ny indikation | Øjensygdom (bred kategori) |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Ud fra kendt farmakologi er nepafenac et prodrug, som omdannes af hydrolaser i øjenvæv til amfenac, en hæmmer af COX-1 og COX-2. Det mindsker prostaglandinsyntesen og dermed øjenbetændelse, smerte og nedbrydning af blod-kammervands-barrieren.
+Nepafenac er et prodrug. Efter instillation i øjet omdannes det af vævets hydrolaser til amfenac, som hæmmer enzymerne COX-1 og COX-2. Dermed falder dannelsen af prostaglandiner, hvilket forklarer effekten på betændelse, smerter og cystoidt makulaødem efter øjenoperation. De detaljerede mekanismedata i databasen er ikke tilgængelige, så beskrivelsen bygger på den kendte farmakologi og de indsamlede studier.
 
-Flere studier peger på, at topisk nepafenac når bagsegmentet af øjet, hvilket understøtter en mulig effekt på makulaødem og nethindelidelser (PMID 26474497, 16466612). Præklinisk er der desuden set hæmning af nethindeødem, neovaskularisering og diabetisk mikrovaskulær sygdom (PMID 14635785, 12506103, 17259381).
+Kategorien "øjensygdom" er meget bred og svarer til den markedsførte anvendelse. Forudsigelsen er derfor tættere på etableret brug end på reel omplacering. Specifikke underindikationer, fx diabetisk makulaødem eller nethindesygdomme, kræver særskilt vurdering.
 
-Bemærk, at betegnelsen "øjensygdom" er meget bred og dækker den allerede markedsførte postoperative anvendelse. Mere specifikke underindikationer (makulaødem, nethindesygdomme, smerte efter laserbehandling) bør vurderes hver for sig.
+De øvrige forudsigelser i datagrundlaget er svagere. Optisk papillitis (L4, Hold) og glaslegemeløsning (L4) bygger på indirekte evidens. Fem forudsigelser uden forsøg eller litteratur (hårtab, seboroisk keratose, von Hippel-anomali m.fl.) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og bør ikke forfølges.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Et udvalg af de mest relevante forsøg (op til 10):
+Der er registreret mange forsøg. Nedenfor vises de 10 mest relevante, hovedsageligt de større og velkontrollerede.
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Fase 3 | Afsluttet | 2120 | Nepafenac 0,3 % til forebyggelse og behandling af øjenbetændelse og smerte efter kataraktkirurgi |
-| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Fase 2 | Afsluttet | 1342 | Nepafenac 0,3 % sammenlignet med 0,1 % og vehikel efter kataraktkirurgi |
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Fase 3 | Afsluttet | 881 | Vehikelkontrolleret studie af nepafenac 0,3 % hos diabetikere efter kataraktkirurgi |
-| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Fase 3 | Afsluttet | 819 | Samme design som ovenfor, hos diabetikere efter kataraktkirurgi |
-| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | Ikke angivet | Afsluttet | 662 | Forebyggelse af pseudofakt cystoidt makulaødem, nepafenac 0,3 % mod placebo |
-| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Fase 3 | Afsluttet | 448 | Bioækvivalens- og sikkerhedsstudie af nepafenac 0,3 % mod Ilevro |
-| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Fase 2 | Afsluttet | 263 | Nevanac 0,1 % mod vehikel efter kataraktkirurgi ved diabetisk retinopati |
-| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Fase 3 | Afsluttet | 260 | Nepafenac 0,1 % mod placebo hos kinesiske patienter efter kataraktkirurgi |
-| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Fase 3 | Afsluttet | 227 | Europæisk studie: nepafenac 0,1 % mod ketorolac og placebo |
-| [NCT01331005](https://clinicaltrials.gov/study/NCT01331005) | Fase 2 | Afsluttet | 125 | Topiske NSAID mod placebo ved diabetisk makulaødem uden central involvering |
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Fase 3 | Afsluttet | 2120 | Nepafenac 0,3 % til forebyggelse og behandling af betændelse og smerter efter grå stær-operation |
+| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Fase 2 | Afsluttet | 1342 | Nepafenac 0,3 % sammenlignet med 0,1 % og vehikel efter grå stær-operation |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Fase 3 | Afsluttet | 881 | Nepafenac 0,3 % kontra vehikel hos diabetikere efter grå stær-operation |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Fase 3 | Afsluttet | 819 | Som ovenfor, parallelt forsøg hos diabetikere |
+| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | Ikke angivet | Afsluttet | 662 | Forebyggelse af pseudofakisk cystoidt makulaødem, nepafenac 0,3 % kontra placebo |
+| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Fase 3 | Afsluttet | 448 | Klinisk ækvivalens mellem generisk nepafenac 0,3 % og Ilevro |
+| [NCT00333255](https://clinicaltrials.gov/study/NCT00333255) | Fase 3 | Afsluttet | 267 | Nevanac 0,1 % kontra Acular LS mod betændelse efter grå stær-operation |
+| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Fase 2 | Afsluttet | 263 | Nevanac 0,1 % kontra vehikel; makulaødem efter grå stær-operation ved diabetisk retinopati |
+| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Fase 3 | Afsluttet | 260 | Nepafenac 0,1 % kontra placebo hos kinesiske patienter |
+| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Fase 3 | Afsluttet | 227 | Europæisk studie: nepafenac 0,1 % kontra ketorolac og placebo |
+
+Yderligere forsøg undersøger bl.a. diabetisk makulaødem (fx NCT00780780, NCT00900887), operation for epiretinal membran (NCT00818844, NCT07736690) og nethindeløsning (NCT07162818).
 
 ---
 
@@ -89,52 +91,49 @@ Et udvalg af de mest relevante forsøg (op til 10):
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [39095467](https://pubmed.ncbi.nlm.nih.gov/39095467/) | 2024 | Systematisk review/netværksmetaanalyse | Eye | Sammenligning af topiske NSAID til forebyggelse af makulaødem efter faco-emulsifikation |
-| [25686158](https://pubmed.ncbi.nlm.nih.gov/25686158/) | 2015 | Cochrane-review | Cochrane Database Syst Rev | Topiske NSAID ved diabetisk cystoidt makulaødem |
-| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | Nepafenac ved kataraktkirurgi: god okulær penetration og få bivirkninger |
-| [26502088](https://pubmed.ncbi.nlm.nih.gov/26502088/) | 2016 | Review | Dev Ophthalmol | NSAID ved nethindesygdomme |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | Randomiseret forsøg | Ophthalmol Glaucoma | Nepafenac 0,1 % mod prednisolon efter laser-iridotomi |
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | Sammenlignende klinisk studie | Korean J Ophthalmol | Nepafenac 0,1 % mod prednisolon efter mikroincisionel kataraktkirurgi |
-| [40243047](https://pubmed.ncbi.nlm.nih.gov/40243047/) | 2025 | Klinisk sammenligning | Indian J Ophthalmol | Nepafenac 0,1 % mod 0,3 % ved pseudoeksfoliation efter kataraktkirurgi |
-| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Præklinisk farmakokinetik | Exp Eye Res | Fordeling af nepafenac og amfenac til bagsegmentet |
-| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Dyrestudie | Diabetes | Topisk nepafenac hæmmer diabetisk retinal mikrovaskulær sygdom hos rotter |
-| [17964407](https://pubmed.ncbi.nlm.nih.gov/17964407/) | 2007 | Case report | J Cataract Refract Surg | Hornhindesmeltning (corneal melt) forbundet med nepafenac |
+| [39095467](https://pubmed.ncbi.nlm.nih.gov/39095467/) | 2024 | Systematisk review med netværksmetaanalyse | Eye | Sammenligning af topikale NSAID'er til forebyggelse af makulær fortykkelse efter faco-emulsifikation |
+| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | Nepafenac har høj okulær penetration og lav bivirkningsprofil ved grå stær-kirurgi |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Nepafenac 0,1 % kontra prednisolon 1 % efter mikroincisionel grå stær-operation |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmol Glaucoma | Nepafenac kontra prednisolon efter laser-iridotomi |
+| [41039316](https://pubmed.ncbi.nlm.nih.gov/41039316/) | 2025 | Netværksmetaanalyse/sammenlignende studie | BMC Ophthalmol | Smertelindring med 7 topikale NSAID'er ved panretinal fotokoagulation |
+| [26502088](https://pubmed.ncbi.nlm.nih.gov/26502088/) | 2016 | Review | Dev Ophthalmol | NSAID'er ved nethindesygdomme |
+| [25686158](https://pubmed.ncbi.nlm.nih.gov/25686158/) | 2015 | Cochrane-review | Cochrane Database Syst Rev | Topikale NSAID'er ved diabetisk cystoidt makulaødem |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Præklinisk/farmakokinetik | Exp Eye Res | Nepafenac og amfenac når det bageste øjensegment efter topikal dosering |
+| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Dyreforsøg | Diabetes | Topikal nepafenac hæmmede diabetesinduceret nethindesygdom hos rotter |
+| [17964407](https://pubmed.ncbi.nlm.nih.gov/17964407/) | 2007 | Case report | J Cataract Refract Surg | Hornhindesmeltning (corneal melt) under nepafenac hos patient med graft-versus-host-sygdom |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28104053506 | Nevanac (Novartis Europharm Limited) | Øjendråber, suspension | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Mulige kontraindikationer fra vidensgraf (ikke fra produktresumé):** TxGNN-vidensgrafen (PrimeKG) angiver følgende sygdomme i relation til kontraindikation: reumatoid artritis, diabetes mellitus, diabetisk ketoacidose, blodkoagulationssygdom, keratitis, keratokonjunktivitis, tør øjen-syndrom, xeroftalmi og hornhindesår. Disse er ikke hentet fra produkttekst og skal verificeres.
-- **Hornhindekomplikationer:** Der er beskrevet et tilfælde af hornhindeperforation/smeltning hos en patient med systemisk graft-versus-host-sygdom under behandling med nepafenac (PMID 17964407).
-- **Forhøjet øjentryk:** Et case report beskriver ekstremt højt intraokulært tryk hos en patient i kombineret langvarig behandling med nepafenac og steroid (PMID 36573765).
+Der er ingen tilgængelige data fra produktresumé om advarsler, kontraindikationer eller interaktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-For fuldstændig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+Følgende er oplysninger fra litteraturen og vidensgrafen, ikke fra produktteksten:
+- **Hornhindebivirkninger**: Et case report beskriver hornhindesmeltning under nepafenac hos en patient med graft-versus-host-sygdom (PMID 17964407). Dette er en kendt klasserisiko ved topikale NSAID'er.
+- **Relationer registreret i vidensgrafen**: Vidensgrafen (PrimeKG) rummer kontraindikationsrelationer til bl.a. keratitis, keratokonjunktivitis, tørre øjne, hornhindesår, diabetes mellitus, diabetisk ketoacidose, reumatoid arthritis og blodkoagulationssygdom. Disse stammer ikke fra produkttekst og skal verificeres i produktresuméet.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Der er omfattende evidens (flere afsluttede fase 3-forsøg) for nepafenac efter kataraktkirurgi, herunder hos diabetikere, og lægemidlet er allerede markedsført i Danmark. Den brede forudsigelse "øjensygdom" er dog ikke et reelt nyt repurposing-signal, og evidensen for specifikke nye anvendelser (fx makulaødem ved nethindeoperation, smerte efter laserbehandling) er mindre robust.
+Flere store fase 3-forsøg og fase 2-forsøg samt systematiske reviews og RCT'er understøtter effekt og tolerabilitet ved betændelse, smerter og makulaødem efter grå stær-operation. Forudsigelsen "øjensygdom" er dog bred og svarer til den kendte anvendelse, så konklusionerne bør begrænses til den postoperative situation.
 
-De øvrige forudsigelser (optisk papillitis, hypotrichosis simplex of the scalp, seboroisk keratose og von Hippel-anomali) har kun præklinisk eller ingen støtte og bør vurderes som **Hold**.
-
-**For at komme videre kræves:**
-- Godkendt produktresumé med advarsler og kontraindikationer (disse mangler i de indsamlede data)
-- Detaljerede data om virkningsmekanisme (MOA)
-- Opdeling af den brede forudsigelse i specifikke underindikationer (fx diabetisk makulaødem, makulaødem efter nethindekirurgi) med målrettede kontrollerede forsøg
-- Særlig vurdering af hornhindesikkerhed hos patienter med tørre øjne, hornhindesygdom eller systemisk inflammatorisk sygdom
-- Verifikation af vidensgrafens kontraindikationer mod den officielle produktinformation
+**For at gå videre kræves:**
+- Gennemgang af det danske produktresumé (SmPC) for advarsler, kontraindikationer og interaktioner, da disse data mangler.
+- Bekræftelse af den godkendte indikationstekst for Nevanac i Danmark.
+- Særskilt evaluering af specifikke underindikationer (fx diabetisk makulaødem og nethindesygdomme) før en eventuel udvidelse.
+- Overvågning af hornhindebivirkninger og forsinket sårheling, især hos patienter med risikofaktorer.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

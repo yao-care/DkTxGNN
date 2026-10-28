@@ -4,17 +4,17 @@ title: Atezolizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 82
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Atezolizumab: forudsagt ny indikation Urotelcarcinom i prostatiske urethra (evidensniveau L5). Oprindelig indikation: Urotelcarcinom (overgangscellekarcinom) (hentet fra vidensgrafen"
+indication_count: 6
 monitor_inn: "Atezolizumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Atezolizumab: forudsagt ny indikation Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Atezolizumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i prostatiske urethra
+## Atezolizumab: PD-L1-hæmmer → uterint ligament-adenokarcinom (uterine ligament adenocarcinoma)
 {: .text-alpha }
 
-## Sammenfatning
+## Resumé i én sætning
 
-Atezolizumab er en PD-L1-hæmmer, som oprindeligt anvendes til behandling af urotelcarcinom (overgangscellekarcinom).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **urotelcarcinom i prostatiske urethra**,
-men evidensen er begrænset til **1 klinisk fase 1b-forsøg** (kombination med cabozantinib) og **ingen publikationer** i de data, der er indsamlet til denne rapport.
-
----
+Atezolizumab er et lægemiddel, der er markedsført i Danmark som injektionsvæske. TxGNN-modellen forudsiger, at det kan have effekt ved **uterint ligament-adenokarcinom (uterine ligament adenocarcinoma)**. Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som direkte undersøger denne sygdom, så forudsigelsen hviler alene på modellens score.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urotelcarcinom (overgangscellekarcinom) (hentet fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Urotelcarcinom i prostatiske urethra |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L5 (kun modelforudsigelse; det eneste forsøg er fase 1b og uden resultater) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) |
+| TxGNN-forudsigelsesscore | 0,9993 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Atezolizumab er dog kendt som en PD-L1-hæmmer (checkpoint-hæmmer), og dets effekt ved urotelcarcinom er den oprindelige indikation. Mekanistisk kan det derfor være relevant for beslægtede urotelcarcinomer.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Atezolizumab er kendt som en hæmmer af PD-L1 (en immun-checkpoint-hæmmer), som kan genoprette T-cellernes evne til at angribe tumorceller. Det er en tænkelig, men ikke dokumenteret, begrundelse for, at princippet kan have relevans ved et gynækologisk adenokarcinom.
 
-Urotelcarcinom i prostatiske urethra tilhører samme histologiske type som urotelcarcinom i blæren og de øvre urinveje. Blokade af PD-1/PD-L1-aksen er derfor biologisk plausibel. Det er dog vigtigt at understrege, at den meget høje TxGNN-score udelukkende er en beregnet forudsigelse og ikke klinisk evidens.
-
-Modellen peger også på andre beslægtede tumorer, bl.a. sarkomatoid overgangscellekarcinom i nyrebækkenet, sarkomatoid variant af infiltrerende blærecarcinom og papillært urotelcarcinom i nyrebækkenet. For disse foreligger hverken forsøg eller litteratur i de indsamlede data. Forudsigelsen om adenocarcinom i ligamentum uteri har ingen tydelig mekanistisk forbindelse til den oprindelige indikation.
-
----
+Forbindelsen til netop uterint ligament-adenokarcinom er spekulativ og ikke verificeret. Uden data om mekanismen er en mekanismebaseret krydskontrol ikke mulig, og forudsigelsen bør derfor betragtes som en hypotese.
 
 ## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Fase 1 (1b) | Aktiv, rekrutterer ikke | 914 | Åbent forsøg med dosiseskalering af cabozantinib alene eller i kombination med atezolizumab ved fremskredne solide tumorer, bl.a. urotelcarcinom (blære, nyrebækken, ureter, urethra). Vurderer sikkerhed, tolerabilitet, foreløbig effekt og farmakokinetik. Ingen resultater foreligger i de indsamlede data. |
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for denne sygdom.
 
----
+## Litteraturevidens
 
-## Denmark Market Information
+Der er for øjeblikket ingen relateret litteratur tilgængelig for denne sygdom.
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+## Markedsinformation i Danmark
+
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106870322 | Tecentriq (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
+| 28106870322 | Tecentriq | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
----
+## Sikkerhedsovvejelser
 
-## Sikkerhedsovervejelser
+**Lægemiddelinteraktioner:** Der er registreret 75 mulige interaktioner. Blandt de registrerede findes:
+- **Større (Major):** adalimumab, baricitinib samt levende Bacillus Calmette-Guérin-vaccine (BCG, Tice-stammen).
+- **Moderate:** bl.a. kortikosteroider (hydrocortison, prednisolon, prednison, methylprednisolon, dexamethason, betamethason, budesonid, triamcinolon, deflazacort), roflumilast, azathioprin, alemtuzumab, anakinra, alefacept samt flere vacciner.
 
-**Lægemiddelinteraktioner:** Der er identificeret 75 mulige interaktioner. Blandt de første 20 er følgende klassificeret som **alvorlige (Major)**:
-- Adalimumab
-- Baricitinib
-- Levende BCG-vaccine (Bacillus Calmette-Guérin, Tice-stammen)
-
-Flere interaktioner er klassificeret som **moderate**, bl.a. med:
-- Kortikosteroider (hydrocortison, prednisolon, prednison, methylprednisolon, dexamethason, betamethason, budesonid, triamcinolon, deflazacort)
-- Immunsuppressiva og immunmodulatorer (azathioprin, alemtuzumab, alefacept, anakinra)
-- Roflumilast
-- Vacciner (tetanustoksoid, miltbrandvaccine, adenovirusvaccine)
-
-For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
-
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for den forudsagte indikation består kun af en høj modelscore og ét fase 1b-forsøg, som tester en kombination og ikke atezolizumab alene. Der er ingen publicerede resultater, og data om advarsler og kontraindikationer mangler, så en sikkerhedsvurdering ikke kan gennemføres.
+Forudsigelsen understøttes kun af en høj modelscore (0,9993). Der er ingen kliniske forsøg eller publikationer om uterint ligament-adenokarcinom, hvorfor evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Resultater fra NCT03170960 samt målrettet litteratursøgning for urotelcarcinom i prostatiske urethra
-- Subtypespecifikke data for de øvrige forudsagte indikationer (sarkomatoid og papillær variant)
-- Afklaring af, om den danske godkendelse omfatter den oprindelige indikation (indikationsteksten mangler)
+- Publicerede prækliniske eller kliniske data for netop denne sygdom, herunder PD-L1-ekspression i tumorvæv
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- En sikkerhedsvurdering, herunder af immunrelaterede bivirkninger og interaktioner med immunsuppressiva
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

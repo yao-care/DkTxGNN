@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00053",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00053"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "benign-neoplasm-of-adrenal-gland",
-          "display": "benign neoplasm of adrenal gland"
-        }
-      ],
-      "text": "benign neoplasm of adrenal gland"
+      "concept": {
+        "text": "benign neoplasm of adrenal gland"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9928
     }
   ]
 }

@@ -8,6 +8,7 @@ nav_order: 378
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Gabapentin
@@ -51,8 +52,8 @@ En **Hold**-beslutning anbefales, indtil pipelinen korrigeres, og prognoser gene
 | Forudsagt ny indikation | Ingen prognoser genereret |
 | TxGNN prognose-score | Ikke tilgængelig |
 | Evidensniveau | Ikke vurderbart |
-| Markedsstatus i Danmark | Ikke tilgængelig (pipelinefejl mistænkt) |
-| Antal markedsføringstilladelser | 0 (sandsynligvis ufuldstændig — se nedenfor) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Hold** |
 
 ---

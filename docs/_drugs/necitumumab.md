@@ -4,17 +4,17 @@ title: Necitumumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 579
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Necitumumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (NSCLC)"
+indication_count: 9
 monitor_inn: "Necitumumab"
-predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "hamartoma of lung", "hamartoma of lung", "fibroma of lung", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor"]
+predicted_indications: ["fibromatosis, gingival", "hamartoma of lung", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
+last_modified_at: 2026-10-23
+description: "Necitumumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft / lungekræft"
 ---
 
 # Necitumumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Necitumumab: Fra ikke-småcellet lungekræft til gingival fibromatose
+## Necitumumab: Fra pladecellet lungekræft til gingival fibromatose
 {: .text-alpha }
 
 ## Resumé
 
-Necitumumab er et monoklonalt antistof mod EGFR (epidermal vækstfaktorreceptor), som oprindeligt er udviklet til behandling af ikke-småcellet lungekræft.
-TxGNN-modellen forudsiger, at det kan have effekt ved **gingival fibromatose**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning.
+Necitumumab er et antistof mod den epidermale vækstfaktorreceptor (EGFR), som oprindeligt anvendes til behandling af ikke-småcellet lungekræft (NSCLC), i særdeleshed pladecellet lungekræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gingival fibromatose** (øverst rangerede forudsigelse).
+Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der direkte undersøger denne sygdom. Forudsigelsen er udelukkende beregningsbaseret.
 
 ---
 
@@ -47,53 +48,48 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **gingival fibromatose**, 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft (NSCLC) |
+| Oprindelig indikation | Ikke-småcellet lungekræft / lungekræft (relation registreret i vidensgrafen; der foreligger ingen godkendt indikationstekst fra den danske tilladelse) |
 | Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-forudsigelsesscore | 99,92 % |
+| TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-De data, der er indsamlet til denne rapport, indeholder ikke en detaljeret beskrivelse af virkningsmekanismen. Necitumumab er dog kendt som et anti-EGFR-antistof, og dets effekt ved planocellulær NSCLC er den etablerede anvendelse.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Necitumumab er et fuldt humant IgG1-monoklonalt antistof, der binder EGFR og blokerer ligandbindingen. Dets effekt i pladecellet NSCLC er dokumenteret i fase 3-forsøget SQUIRE, og mekanismisk kunne EGFR-signalering teoretisk spille en rolle ved fibroblastproliferation.
 
-Der er ikke påvist en EGFR-drevet mekanisme ved gingival fibromatose. Forudsigelsen hviler udelukkende på den høje TxGNN-score, som sandsynligvis afspejler nærhed i vidensgrafen til EGFR-relaterede fibroproliferative signalveje snarere end en valideret mekanisme. Koblingen må derfor betragtes som spekulativ.
+Denne kobling er dog spekulativ. Der er ingen data, der understøtter, at EGFR-blokade har effekt ved gingival fibromatose, som er en bindevævslidelse og ikke en kræftsygdom. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Modellen forudsiger også andre indikationer med samme evidensgrundlag (kun modelscore, ingen forsøg eller litteratur):
-
-| Forudsagt indikation | TxGNN-score | Vurdering |
-|------|------|------|
-| Hamartom i lungen | 99,91 % | Godartet mesenkymal læsion; ingen EGFR-afhængig mekanisme; toksicitetsprofilen vil næppe kunne forsvares |
-| Karcinom i lungehilus | 99,91 % | Biologisk mest plausibel (overlap med planocellulær NSCLC), men sandsynligvis blot en underklassifikation af den godkendte indikation |
-| Fibrom i lungen | 99,91 % | Ingen etableret EGFR-mekanisme |
-| Neoplasi i sulcus pulmonalis (Pancoast) | 99,90 % | Anatomisk undergruppe af NSCLC snarere end en reel ny indikation |
-| Germinalcelletumor i lungen | 99,90 % | Sjælden; EGFR er ikke en etableret drivkraft; svag kobling |
+Andre forudsigelser på listen omfatter blandt andet hamartom i lungen, fibrom i lungen, pulmonalt sulcus-neoplasme, kimcelletumor i lungen, godartet lungeneoplasme, junktional epidermolysis bullosa og flere sjældne syndromer. Ingen af dem har direkte klinisk evidens i de foreliggende data.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
-
----
-
-## Litteratur
-
-Der er aktuelt ingen relateret litteratur tilgængelig for den forudsagte indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for gingival fibromatose.
 
 ---
 
-## Information om det danske marked
+## Evidens fra litteraturen
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er i øjeblikket ingen relateret litteratur for gingival fibromatose.
+
+Bemærk: For andre forudsagte sygdomme (fx godartet lungeneoplasme) fandtes publikationer om necitumumab, men de omhandler pladecellet NSCLC (bl.a. SQUIRE-forsøget, Lancet Oncology 2015) og er ikke direkte evidens for de forudsagte indikationer.
+
+---
+
+## Information om markedet i Danmark
+
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105547314 | Portrazza | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+| 28105547314 | Portrazza | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
 
-Indehaver af tilladelsen: Eli Lilly Netherland B.V. Status: gyldig.
+Tilladelsen er en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) med status gyldig.
 
 ---
 
@@ -101,30 +97,25 @@ Indehaver af tilladelsen: Eli Lilly Netherland B.V. Status: gyldig.
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (monoklonalt anti-EGFR-antistof), ikke konventionelt cytotoksisk |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC); de indsamlede data peger ikke på specifikke punkter, men for EGFR-antistoffer overvåges typisk elektrolytter (herunder magnesium) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
-
-Se advarsler og forsigtighedsregler i produktresuméet (SmPC).
+| Klassifikation | Målrettet behandling (monoklonalt anti-EGFR-antistof), ikke konventionelt cytotoksisk middel |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC); typisk elektrolytter (magnesium, calcium, kalium) og hudreaktioner |
+| Håndtering | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler |
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-**Lægemiddelinteraktioner** (5 poster i de indsamlede data):
+**Lægemiddelinteraktioner** (fra interaktionsdatabasen):
+- **Thalidomid**: større (Major) interaktion
+- **Palifermin**: moderat interaktion
+- **Idelalisib**: moderat interaktion
+- **Gemcitabin**: mindre (Minor) interaktion
 
-- **Thalidomid**: Alvorlig (Major)
-- **Palifermin**: Moderat
-- **Idelalisib**: Moderat
-- **Gemcitabin**: Mindre (Minor)
+Hudtoksicitet er en kendt bivirkning af EGFR-antistoffer (jf. publikation om hudtoksicitet og effekt af necitumumab, ESMO Open 2024). Det giver særlig bekymring ved hudsygdomme med skrøbelig hud, fx junktional epidermolysis bullosa.
 
-Derudover er EGFR registreret som lægemidlets farmakologiske mål.
-
-Vurderingen af en godartet indikation bør desuden tage højde for, at EGFR-antistoffer generelt er forbundet med hudtoksicitet, hypomagnesiæmi og tromboemboliske hændelser. Det er ikke dokumenteret i de indsamlede data og skal verificeres i produktresuméet.
-
-Oplysninger om advarsler og kontraindikationer foreligger ikke; se det godkendte produktresumé (SmPC).
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -133,14 +124,14 @@ Oplysninger om advarsler og kontraindikationer foreligger ikke; se det godkendte
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ingen plausibel EGFR-drevet mekanisme ved gingival fibromatose. De mest plausible af de øvrige forudsigelser (lungehilus- og Pancoast-tumorer) ligger inden for den eksisterende NSCLC-indikation og er ikke egentlig repurposing.
+Forudsigelsen om gingival fibromatose bygger udelukkende på en beregningsscore uden kliniske forsøg, publikationer eller en underbygget mekanisme. Evidensniveauet er L5.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for EGFR's rolle ved gingival fibromatose
-- Præklinisk eller litteraturbaseret evidens for den forudsagte indikation
-- Indikationstekst, advarsler og kontraindikationer fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen
-- Vurdering af nytte/risiko, da en godartet tilstand næppe vil opveje toksiciteten ved et EGFR-antistof
-- Afklaring af, om lungehilus- og Pancoast-forudsigelserne blot kan håndteres inden for den eksisterende NSCLC-indikation
+- Præklinisk eller mekanistisk dokumentation for EGFR's rolle ved gingival fibromatose
+- Data om virkningsmekanisme fra DrugBank
+- Gennemgang af produktresuméet for advarsler og kontraindikationer (den danske indikationstekst mangler)
+- Vurdering af risikoen for hudtoksicitet og elektrolytforstyrrelser i den relevante patientgruppe
+- Afklaring af, om en sygdom med så lav forekomst og en benign karakter kan retfærdiggøre behandling med et onkologisk antistof
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

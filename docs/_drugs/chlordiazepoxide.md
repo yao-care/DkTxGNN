@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 185
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Chlordiazepoxide: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Angst, alkoholabstinens, alkoholabstinensdelirium…"
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
+last_modified_at: 2026-10-27
+description: "Chlordiazepoxide: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Chlordiazepoxide
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,70 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Chlordiazepoxid: Fra angst og alkoholabstinens til søvnforstyrrelse (insomni)
+## Chlordiazepoxid: benzodiazepin, der forstærker GABA-A-receptorsignalering → Søvnløshed (insomnia (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Chlordiazepoxid er et benzodiazepin, der oprindeligt anvendes mod angst og alkoholabstinens.
-TxGNN-modellen forudsiger, at det kan have effekt på **insomni**,
-men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur** (primært oversigtsartikler om benzodiazepiner), som støtter denne retning.
-
----
+Chlordiazepoxid er et benzodiazepin, der virker beroligende og angstdæmpende via GABA-A-receptoren. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **søvnløshed (insomnia (disease))**. Der er **ingen registrerede kliniske forsøg** og kun **5 publikationer** i de data, der er indsamlet til denne rapport, og ingen af dem undersøger søvnløshed direkte hos patienter behandlet med chlordiazepoxid alene.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angst, alkoholabstinens, alkoholabstinensdelirium, mixed angst- og depressionstilstand m.fl. (fra vidensgrafen; indikationsteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,998 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Søvnløshed (insomnia (disease)) |
+| TxGNN-forudsigelsesscore | 1,0000 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Chlordiazepoxid er dog et benzodiazepin, og stoffer i denne klasse forstærker GABA-A-receptorens hæmmende signalering. Det giver sedativ-hypnotisk effekt, som teoretisk kan forkorte indsovningstiden og mindske opvågninger, især når søvnløsheden optræder sammen med angst.
 
-Detaljerede mekanismedata er ikke tilgængelige i de data, der er indsamlet til denne rapport. Chlordiazepoxid er et benzodiazepin, og som klasse forstærker benzodiazepiner GABA-A-receptorens signalering, hvilket giver beroligende og søvnfremmende virkning. Lægemidlets effekt ved angst og alkoholabstinens er veletableret, og mekanistisk kan det være relevant for kortvarig lindring af insomni, især når søvnløsheden optræder sammen med angst.
+Den tilgængelige litteratur er imidlertid begrænset til farmakokinetiske oversigter, geriatriske benzodiazepinreviews og ældre angstundersøgelser. Der foreligger ikke noget søvnløshedsspecifikt forsøg med chlordiazepoxid. Langtidsvirkende benzodiazepiner indebærer desuden risiko for sedation næste dag og akkumulering, især hos ældre. Da ingen af de citerede studier direkte undersøger søvnløshed med chlordiazepoxid, er evidensniveauet sat til L5, trods en høj modelscore.
 
-Evidensen er dog begrænset. Den hentede litteratur omfatter farmakokinetiske oversigter, geriatriske gennemgange af benzodiazepiner og ældre angststudier. Der foreligger intet insomnispecifikt forsøg med chlordiazepoxid alene. Langtidsvirkende benzodiazepiner indebærer risiko for sløvhed dagen efter og ophobning, særligt hos ældre.
+## Kliniske forsøg
 
-Andre forudsigelser i listen (fx cauda equina-syndrom, ADHD, neurogen blære) har ingen plausibel mekanistisk begrundelse og hviler udelukkende på modelforudsigelsen. Rapporten fokuserer på den højest rangerede forudsigelse, insomni.
-
----
-
-## Klinisk evidens
-
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Nedenfor er de mest relevante publikationer for insomni og den nært beslægtede søvnforstyrrelse (indsovnings- og gennemsovningsbesvær).
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [3536890](https://pubmed.ncbi.nlm.nih.gov/3536890/) | 1986 | Dobbeltblindet, randomiseret klinisk studie (kombinationspræparat) | J Clin Psychiatry | Chlordiazepoxid-amitriptylin (Limbitrol) vs. amitriptylin alene: hurtigere symptomforbedring, men ingen forskel i søvnparametre i søvnlaboratoriet |
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Oversigtsartikel | J Fam Pract | Benzodiazepiner mod insomni hos ældre i eget hjem: gennemgang af fordele og risici; ingen studier af langtidseffekt |
-| [22521806](https://pubmed.ncbi.nlm.nih.gov/22521806/) | 2013 | Oversigtsartikel | Eur Psychiatry | Kritisk revurdering af benzodiazepiners rolle i behandlingen af psykiatriske lidelser |
-| [4365779](https://pubmed.ncbi.nlm.nih.gov/4365779/) | 1974 | Klinisk sammenligning | Br J Psychiatry | Sammenligning af de hypnotiske effekter af chlordiazepoxid og amylobarbital |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Oversigtsartikel | Acta Psychiatr Scand Suppl | Benzodiazepiner som hypnotika hos ældre: øget respons med alderen |
-| [6141607](https://pubmed.ncbi.nlm.nih.gov/6141607/) | 1983 | Oversigtsartikel | Prog Neuropsychopharmacol Biol Psychiatry | Er alle benzodiazepiner klinisk ækvivalente? |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Oversigtsartikel | Expert Opin Drug Metab Toxicol | Farmakokinetik for anxiolytiske lægemidler |
-| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | Tværsnitsstudie | Med Glas (Zenica) | Forekomst af potentielt uhensigtsmæssig medicin hos ældre iranere |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Oversigt over angstdæmpende lægemidlers farmakokinetik; ikke specifik for søvnløshed |
+| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Review | Acta Psychiatr Scand Suppl | Benzodiazepiners farmakodynamik hos ældre, som viser øget respons med alderen; omfatter andre benzodiazepiner end chlordiazepoxid |
+| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | Tværsnitsundersøgelse | Medicinski Glasnik | Forekomst af potentielt uhensigtsmæssig medicin hos ældre iranere |
+| [4628683](https://pubmed.ncbi.nlm.nih.gov/4628683/) | 1972 | Klinisk forsøg | Curr Ther Res | Sammenligning af molindon og chlordiazepoxid hos patienter med angst |
+| [14085195](https://pubmed.ncbi.nlm.nih.gov/14085195/) | 1963 | Klinisk studie | Acta Psychiatr Scand | Behandling af angstneuroser med en Librium-metabolit |
 
-Bemærk: Kun studiet fra 1986 vedrører søvn direkte, og det omhandler et kombinationspræparat, ikke chlordiazepoxid alene.
-
----
-
-## Oplysninger om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100723576 | Klopoxid "DAK" (Orifarm Healthcare A/S) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet |
-
----
+| 28100723576 | Klopoxid "DAK" | Filmovertrukne tabletter | Ikke angivet i lokale data |
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+- **Lægemiddelinteraktioner:** 120 interaktioner er registreret. De vigtigste, klassificeret som alvorlige (Major), er **morfin** og **liposomal morfin**. Der er desuden moderate interaktioner, bl.a. med bupropion, omeprazol, cimetidin, clarithromycin, dronabinol, metoclopramid, nabilon, opium, sibutramin og teduglutid.
+- Sikkerhedsbekymringer i den indhentede litteratur omfatter afhængighed, resterende sedation, fald hos ældre og påvirkning af søvnarkitekturen.
 
-**Kontraindikationer i vidensgrafen** (afledt af en vidensgraf, ikke af produkttekst, og skal verificeres mod SmPC): bl.a. epilepsi, lever- og nyresygdom, porfyri, åbenvinklet glaukom, psykotiske lidelser, hypotyreose, langt QT-syndrom/torsades de pointes, ortostatisk hypotension, systemisk lupus erythematosus og galdeblæresygdom.
-
-**Lægemiddelinteraktioner** (120 registrerede; udvalg):
-- **Alvorlige (Major):** morfin (inkl. liposomal) – risiko for additiv CNS- og respirationsdepression
-- **Moderate:** bupropion, omeprazol, cimetidin, clarithromycin, dronabinol, nabilon, metoclopramid, opium, sibutramin, teduglutid
-- **Milde (Minor):** syrebindende midler (aluminiumhydroxid, calciumcarbonat, magnesiumsalte, magaldrat)
-
-Generelt for forudsigelsen om insomni er bekymringer om afhængighed, restsedation, fald hos ældre og ændring af REM- og dybdesøvn tungtvejende.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har en meget høj modelscore, men evidensen er indirekte (L4): der er ingen registrerede forsøg, og den eneste søvnrelaterede undersøgelse omhandler et kombinationspræparat. Risikoprofilen (afhængighed, sløvhed, fald, ophobning ved langtidsvirkende stof) taler imod anbefaling, og sikkerhedsscreening kan ikke gennemføres uden produktresuméet.
+Forudsigelsen bygger på modellen alene, da ingen af de citerede studier direkte undersøger søvnløshed med chlordiazepoxid, og der er ingen registrerede kliniske forsøg. Risikoen for afhængighed, sedation og fald, især hos ældre, taler imod at gå videre uden stærkere evidens.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af advarsler og kontraindikationer fra produktresuméet (blokerende datahul)
-- Detaljerede mekanismedata (MOA) fra DrugBank
-- Insomnispecifikke kontrollerede studier af chlordiazepoxid alene, især vurdering af nytte/risiko sammenlignet med eksisterende søvnbehandlinger
-- Vurdering af egnethed til ældre og af afhængighedsrisiko
+- Randomiserede, kontrollerede forsøg med chlordiazepoxid specifikt ved søvnløshed
+- Data om virkningsmekanisme og farmakologisk profil
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Plan for sikkerhedsovervågning hos ældre og ved risiko for afhængighed
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -49,9 +49,9 @@ TxGNN-modellen forudsiger, at isoleucin kan have effekt på **gastroparese**, me
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (isoleucin indgår som aminosyrekomponent i parenterale ernæringsprodukter) |
 | Forudsagt ny indikation | Gastroparese |
-| TxGNN-forudsigelsesscore | 99,32 % |
+| TxGNN-forudsigelsesscore | 0,9932 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -63,7 +63,7 @@ Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekani
 
 Forbindelsen til gastroparese er alene en beregningsmæssig forudsigelse. En mulig, men uverificeret hypotese er, at ernæringsmæssig og metabolisk støtte kan være relevant, fordi gastroparese ofte er ledsaget af underernæring og muskeltab. Det kan også tænkes, at BCAA påvirker tarmhormonsignalering eller glat muskelfunktion.
 
-Ingen af disse hypoteser understøttes af direkte evidens i de tilgængelige data. Den høje score afspejler sandsynligvis nærhed i vidensgrafens netværk snarere end valideret biologi og bør ikke læses som klinisk støtte.
+Ingen af disse hypoteser understøttes af direkte evidens i de tilgængelige data. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens, og bør ikke læses som klinisk støtte.
 
 ---
 

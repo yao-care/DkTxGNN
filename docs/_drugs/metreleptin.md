@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Medfødt generaliseret lipodystrofi (Berardinelli-Seip) og lipodystrof…"
 monitor_inn: "Metreleptin"
-predicted_indications: ["familial generalized lentiginosis", "familial generalized lentiginosis", "gastrocutaneous syndrome", "gastrocutaneous syndrome", "Moynahan syndrome", "Moynahan syndrome", "rhabdoid tumor", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome"]
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
+last_modified_at: 2026-10-23
+description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Lipodystrofi, herunder medfødt generaliseret lipodystrofi"
 ---
 
 # Metreleptin
@@ -36,11 +36,9 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Metreleptin: Fra lipodystrofi til familiær generaliseret lentiginose
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Metreleptin er en rekombinant analog til hormonet leptin og anvendes oprindeligt til behandling af lipodystrofi, herunder medfødt generaliseret lipodystrofi (Berardinelli-Seip).
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **familiær generaliseret lentiginose**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
+Metreleptin er en rekombinant leptin-analog, som er knyttet til lipodystrofi, herunder medfødt generaliseret lipodystrofi (Berardinelli-Seip). TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **familiær generaliseret lentiginose**, men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor ren modelforudsigelse.
 
 ---
 
@@ -48,58 +46,60 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Medfødt generaliseret lipodystrofi (Berardinelli-Seip) og lipodystrofi (ifølge TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke angivet) |
+| Oprindelig indikation | Lipodystrofi, herunder medfødt generaliseret lipodystrofi (relation registreret i vidensgrafen; Danmarks Lægemiddelstyrelses licensrecord indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Familiær generaliseret lentiginose |
-| TxGNN-forudsigelsesscore | 99,71 % |
+| TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Metreleptin er en rekombinant leptinanalog, der erstatter manglende leptin ved generaliseret lipodystrofi. Detaljerede data om virkningsmekanismen indgår ikke i de data, der er sammenstillet til denne rapport. Ud fra almen viden virker lægemidlet ved at genoprette leptinsignalering, hvilket påvirker appetit, glukose- og lipidstofskifte.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de indsamlede data. Metreleptin er en leptin-analog, der virker via leptinreceptorer og bruges til at korrigere leptinmangel ved lipodystrofi.
 
-Familiær generaliseret lentiginose er en pigmentforstyrrelse i huden. Ud fra de foreliggende data er der ingen plausibel biologisk sammenhæng mellem leptinerstatning og pigmentforstyrrelser. Den høje score afspejler sandsynligvis nærhed i vidensgrafens struktur (sjældne, syndromiske tilstande med hudmanifestationer) snarere end en dokumenteret biologisk sammenhæng.
+Familiær generaliseret lentiginose er en pigmentforstyrrelse uden kendt involvering af leptinsignalering. Der er ikke identificeret nogen etableret mekanistisk forbindelse. Den høje score (0.9971) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som et grundlag for klinisk anvendelse.
-
-Øvrige forudsagte indikationer med tilsvarende høje scorer og samme mangel på evidens omfatter gastrokutant syndrom (99,70 %), Moynahan-syndrom (99,67 %), rhabdoid tumor (99,62 %) og osteopathia striata-pigmentær dermopati-hvid pandelok-syndrom (99,62 %). Ved rhabdoid tumor er der desuden en teoretisk sikkerhedsbekymring, da leptin i visse sammenhænge kan fremme vækst.
+Øvrige forudsigelser på listen (fx gastrokutant syndrom, Moynahans syndrom, rhabdoid tumor, acromelanose, benigne binyretumorer og perifert nerveskedeschwannom) har heller ingen understøttende forsøg eller litteratur. For tumorer er der desuden en sikkerhedsmæssig overvejelse, da leptinsignalering er diskuteret som vækstfremmende i visse kræftformer.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105901616 | Myalepta (Chiesi Farmaceutici S.p.A.) | Pulver til injektionsvæske, opløsning | Ikke angivet i de foreliggende data |
+| 28105901616 | Myalepta (Chiesi Farmaceutici S.p.A.) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+
+Tilladelsen er et enkeltstofpræparat og er gyldig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Størstedelen af de viste er af moderat sværhedsgrad. Eksempler omfatter:
-  - Abemaciclib, acalabrutinib, alpelisib, avapritinib, brigatinib, cabozantinib, capmatinib, ceritinib
-  - Fentanyl, alfentanil, benzhydrocodon, butorphanol
-  - Ethinylestradiol, norethisterone, desogestrel
-  - Bictegravir, buspiron, cariprazin, chlorpropamid
-  - Bortezomib (mindre alvorlig)
+Der er ingen tilgængelige data om advarsler eller kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Øvrige oplysninger om advarsler og kontraindikationer er ikke tilgængelige i de sammenstillede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Interaktionssøgningen fandt 100 interaktioner. Blandt de første 20 viste de fleste *moderat* niveau, og én (bortezomib) *mindre*. Eksempler på moderate interaktioner:
+
+- Abemaciclib, acalabrutinib, alpelisib, avapritinib, brigatinib, cabozantinib, capmatinib, ceritinib (onkologiske lægemidler)
+- Fentanyl, alfentanil, benzhydrocodon, butorphanol (opioider)
+- Ethinylestradiol, norethisteron, desogestrel (hormonelle præparater)
+- Bictegravir, buspiron, cariprazin, chlorpropamid
+
+Den fulde liste bør gennemgås ved konkret ordination.
 
 ---
 
@@ -108,14 +108,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende baseret på en beregningsmodel (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ingen påviselig biologisk sammenhæng mellem leptinerstatning og pigmentforstyrrelsen. Sikkerhedsgennemgangen kan desuden ikke gennemføres, før produktresuméets advarsler og kontraindikationer er indhentet.
+Der er ingen kliniske forsøg eller publikationer, der undersøger metreleptin ved familiær generaliseret lentiginose, og der er ingen kendt mekanistisk forbindelse. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-**For at komme videre er følgende nødvendigt:**
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Prækliniske data eller mekanistisk litteratur, der kan understøtte en forbindelse mellem leptinsignalering og den forudsagte sygdom
-- Vurdering af den godkendte indikationstekst for Myalepta i Danmark
-- Vurdering af den teoretiske sikkerhedsrisiko ved leptin i forbindelse med tumorsygdomme, hvis onkologiske indikationer overvejes
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme og en biologisk begrundelse for leptins rolle ved lentiginose
+- Præklinisk eller klinisk evidens, der direkte undersøger sygdommen
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer)
+- Godkendt indikationstekst for den danske tilladelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

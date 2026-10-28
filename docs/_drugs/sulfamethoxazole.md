@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 780
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulfamethoxazole: forudsagt ny indikation Akut smitsom konjunktivitis (evidensniveau L4). Oprindelig indikation: Ingen indikationstekst er angivet i de danske tilladelsesdata. Ifølge…"
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Sulfamethoxazol: Fra infektiøs otitis media og andre bakterielle infektioner til akut smitsom konjunktivitis
+## Sulfamethoxazole: Akut smitsom konjunktivitis (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Konjunktivitis findes allerede blandt lægemidlets oprindelige indikationer, så
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ingen indikationstekst er angivet i de danske tilladelsesdata. Ifølge videngrafen: infektiøs otitis media, nocardiose, toxoplasmose, pneumocystose, shigellose, konjunktivitis m.fl. |
-| Forudsagt ny indikation | Akut smitsom konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,63 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Akut smitsom konjunktivitis (acute contagious conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9963 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Konjunktivitis findes allerede blandt lægemidlets oprindelige indikationer, så
 
 Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden hæmmer sulfamethoxazol bakteriens enzym dihydropteroatsyntase og blokerer dermed syntesen af folat. Det gives typisk sammen med trimethoprim, som hæmmer et senere trin i samme syntesevej. Mekanismen er derfor i princippet relevant over for bakterier, der forårsager akut smitsom konjunktivitis.
 
-Konjunktivitis er allerede opført blandt lægemidlets oprindelige indikationer i videngrafen. Akut smitsom konjunktivitis er en mere specifik undertype af en eksisterende indikation, og den høje score (0,996) skyldes sandsynligvis overlappet med denne. Scoren er en modelforudsigelse og ikke klinisk evidens.
+Konjunktivitis er allerede opført blandt lægemidlets oprindelige indikationer i videngrafen. Akut smitsom konjunktivitis er en mere specifik undertype af en eksisterende indikation, og den høje score (0,9963) skyldes sandsynligvis overlappet med denne. Scoren er en modelforudsigelse og ikke klinisk evidens.
 
 Mekanismen er udledt af generel viden om sulfonamider og ikke af de leverede data. Den bør derfor verificeres, før den lægges til grund for beslutninger.
 

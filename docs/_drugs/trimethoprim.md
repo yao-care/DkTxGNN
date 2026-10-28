@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Kun modelforudsigelse (L5)
 nav_order: 860
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trimethoprim: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion, infektiøs mellemørebetændelse, pneumocystose…"
 monitor_inn: "TRIMETHOPRIM"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer** direkte knyttet til den
 |------|------|
 | Oprindelig indikation | Urinvejsinfektion, infektiøs mellemørebetændelse, pneumocystose, shigellose, konjunktivitis (fra videnbasen; godkendt indikationstekst for det danske præparat er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Punktat epitelial keratokonjunktivitis |
-| TxGNN-forudsigelsesscore | 99,57 % |
+| TxGNN-forudsigelsesscore | 0,9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -129,7 +129,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Trods en høj modelscore (99,57 %) findes der ingen kliniske forsøg eller litteratur for punktat epitelial keratokonjunktivitis, og tilstanden er ofte viral eller inflammatorisk, hvor et antibakterielt middel næppe virker. Evidensniveauet er L5 (kun modelforudsigelse).
+Trods en høj modelscore (0,9957) findes der ingen kliniske forsøg eller litteratur for punktat epitelial keratokonjunktivitis, og tilstanden er ofte viral eller inflammatorisk, hvor et antibakterielt middel næppe virker. Evidensniveauet er L5 (kun modelforudsigelse).
 
 **For at komme videre kræves:**
 - Data om virkningsmekanisme (MOA) og en vurdering af, om en bakteriel komponent er relevant

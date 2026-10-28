@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 531
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Mercaptopurine: forudsagt ny indikation Myeloid leukæmi (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi (fra videnbasen"
 monitor_inn: "mercaptopurine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 # Mercaptopurine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Mercaptopurin er et purinantimetabolit, der oprindeligt anvendes til behandling 
 |------|------|
 | Oprindelig indikation | Akut lymfoblastær leukæmi (fra videnbasen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
 | Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L1 (flere gennemførte fase 3-forsøg, men med flerlægemiddelregimer og indirekte evidens for mercaptopurin) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

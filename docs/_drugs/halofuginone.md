@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 ## Opsummering i én sætning
 
-Halofuginon er registreret i Danmark som oral opløsning, men den oprindelige godkendte indikation fremgår ikke af de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **svær non-proliferativ diabetisk retinopati** (score 99,5 %), men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
+Halofuginon er registreret i Danmark som oral opløsning, men den oprindelige godkendte indikation fremgår ikke af de data, der er sammenstillet til denne rapport. TxGNN-modellen (deep learning) forudsiger, at stoffet kan have effekt ved **svær non-proliferativ diabetisk retinopati** (score 0,9946), men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
 
 ---
 
@@ -48,13 +48,13 @@ Halofuginon er registreret i Danmark som oral opløsning, men den oprindelige go
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,46 % |
+| TxGNN-forudsigelsesscore | 0,9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: En bredere forudsigelse, **diabetisk retinopati** (score 99,04 %), overlapper med den ovenstående og udgør ikke uafhængig evidens.
+Bemærk: En bredere forudsigelse, **diabetisk retinopati** (score 0,9904), overlapper med den ovenstående og udgør ikke uafhængig evidens.
 
 ---
 

@@ -4,7 +4,7 @@ title: Primidone
 parent: Kun modelforudsigelse (L5)
 nav_order: 685
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Primidone: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Epilepsi"
 monitor_inn: "primidone"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Primidone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen er udelukkende modelbaseret og bør ikke behandles som evidens for
 |------|------|
 | Oprindelig indikation | Epilepsi (den godkendte indikationstekst for det danske præparat er ikke tilgængelig i de samlede data) |
 | Forudsagt ny indikation | Trigeminusnervetumor (trigeminal nerve neoplasm) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -70,15 +70,15 @@ Blandt de ti højest rangerede forudsigelser er flere refleksepilepsier tæt på
 
 | Forudsagt indikation | Score | Evidensniveau | Kommentar |
 |------|------|------|------|
-| Tænkningsudløste anfald | 99,99 % | L4 | Kun en generel geriatrisk epilepsiundersøgelse |
-| Orgasmeudløste anfald | 99,99 % | L5 | Ingen data |
-| Startle-epilepsi | 99,99 % | L4 | Én case report fra 1995 |
-| Spiseanfald | 99,99 % | L4 | Kun en veterinærstudie fra 1974 (hund) |
-| Vandladningsudløste anfald | 99,99 % | L4 | Overvejende generelle epilepsioversigter; ét randomiseret studie af tillægsbehandling med valproat versus primidon ved partiel epilepsi (2009) vedrører den oprindelige indikation |
-| Audiogene anfald | 99,99 % | L4 | To dyrestudier (1964, 1976) |
-| Læseanfald | 99,99 % | L4 | Ældre case reports og oversigter, ingen direkte data |
-| Trigeminusneuralgi | 99,98 % | L4 | Mekanistisk troværdig (natriumkanalblokade), men ingen primidon-specifikke studier |
-| Beta-ketothiolase-mangel | 99,96 % | L5 | Ingen plausibel mekanistisk sammenhæng |
+| Tænkningsudløste anfald | 0,9999 | L5 | Kun en generel geriatrisk epilepsiundersøgelse |
+| Orgasmeudløste anfald | 0,9999 | L5 | Ingen data |
+| Startle-epilepsi | 0,9999 | L5 | Én case report fra 1995 |
+| Spiseanfald | 0,9999 | L5 | Kun en veterinærstudie fra 1974 (hund) |
+| Vandladningsudløste anfald | 0,9999 | L5 | Overvejende generelle epilepsioversigter; ét randomiseret studie af tillægsbehandling med valproat versus primidon ved partiel epilepsi (2009) vedrører den oprindelige indikation |
+| Audiogene anfald | 0,9999 | L5 | To dyrestudier (1964, 1976) |
+| Læseanfald | 0,9999 | L5 | Ældre case reports og oversigter, ingen direkte data |
+| Trigeminusneuralgi | 0,9998 | L4 | Mekanistisk troværdig (natriumkanalblokade), men ingen primidon-specifikke studier |
+| Beta-ketothiolase-mangel | 0,9996 | L5 | Ingen plausibel mekanistisk sammenhæng |
 
 ---
 

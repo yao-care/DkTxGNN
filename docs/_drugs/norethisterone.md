@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Norethisterone
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 593
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norethisterone: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Endometriose, primær ovarieinsufficiens, postmenopausal osteoporose…"
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: forudsagt ny indikation Amenorré (amenorrhea (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Norethisteron: Fra endometriose og andre gynækologiske lidelser til amenorré
+## Norethisterone: Amenorré (amenorrhea (disease))
 {: .text-alpha }
 
 ## Sammenfatning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Endometriose, primær ovarieinsufficiens, postmenopausal osteoporose, akne m.fl. (fra TxGNN-vidensgrafen; indikationsteksten i den danske autorisation er ikke angivet) |
-| Forudsagt ny indikation | Amenorré |
-| TxGNN-forudsigelsesscore | 99,6 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Amenorré (amenorrhea (disease)) |
+| TxGNN-forudsigelsesscore | 0.9960 |
 | Evidensniveau | L4 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 *Bemærkning: Der er hverken afsluttede RCT'er eller kliniske forsøg for den nye indikation. Litteraturen er indirekte og belyser mekanismer og bivirkningsmønstre, så L4 (mekanistisk/indirekte evidens) er det mest passende niveau.*

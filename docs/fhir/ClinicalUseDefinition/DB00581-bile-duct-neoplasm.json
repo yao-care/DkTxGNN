@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00581",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00581"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "bile-duct-neoplasm",
-          "display": "bile duct neoplasm"
-        }
-      ],
-      "text": "bile duct neoplasm"
+      "concept": {
+        "text": "bile duct neoplasm"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9912
     }
   ]
 }

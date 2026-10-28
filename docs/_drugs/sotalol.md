@@ -4,17 +4,17 @@ title: Sotalol
 parent: Kun modelforudsigelse (L5)
 nav_order: 770
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sotalol: forudsagt ny indikation Sick sinus-syndrom 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Atrieflimren (fra videnbasen"
+description: "Sotalol: forudsagt ny indikation sick sinus syndrome 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Atrieflimren (fra videnbasen"
 monitor_inn: "sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Sotalol: Fra atrieflimren til sick sinus-syndrom 2 (autosomal dominant)
+## Sotalol: Fra atrieflimren til sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## Sammenfatning i én sætning
@@ -48,10 +48,10 @@ Sotalol er et antiarytmisk lægemiddel med betablokerende og klasse III-virkning
 |------|------|
 | Oprindelig indikation | Atrieflimren (fra videnbasen; produktets godkendte indikationstekst er ikke tilgængelig) |
 | Foreslået ny indikation | Sick sinus-syndrom 2, autosomal dominant |
-| TxGNN-forudsigelsesscore | 99,76 % |
+| TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -98,12 +98,11 @@ For fuldstændig sikkerhedsinformation henvises til det godkendte produktresumé
 
 | Rang | Sygdom | Score | Evidensniveau | Vurdering |
 |---|---|---|---|---|
-| 2 | Wildervanck-syndrom | 99,65 % | L5 | Ingen plausibel mekanistisk sammenhæng; Hold |
-| 3 | Sarkoglykanopati | 99,64 % | L5 | Påvirker ikke den underliggende defekt; Hold |
-| 4 | Slagtilfælde | 99,44 % | L4 | Indirekte via atrieflimren; i praksis den oprindelige indikation; 1 fase 3-forsøg ([NCT00007605](https://clinicaltrials.gov/study/NCT00007605), afsluttet, 706 deltagere, amiodaron og sotalol ved vedligeholdelse af sinusrytme ved atrieflimren) og primært reviews; forskningsspørgsmål |
-| 5 | Manisk bipolar lidelse | 99,43 % | L5 | Kun sikkerhedssignaler (QT); Hold |
-| 6 | Makrocefali, dysmorfe ansigtstræk og psykomotorisk retardering | 99,42 % | L5 | Ingen sammenhæng; Hold |
-| 7 | Forældet term for modtagelighed for iskæmisk slagtilfælde | 99,23 % | L5 | Ikke klinisk anvendelig; Hold |
+| 2 | Wildervanck-syndrom | 0,9965 | L5 | Ingen plausibel mekanistisk sammenhæng; Hold |
+| 3 | Sarkoglykanopati | 0,9964 | L5 | Påvirker ikke den underliggende defekt; Hold |
+| 4 | Slagtilfælde | 0,9944 | L4 | Indirekte via atrieflimren; i praksis den oprindelige indikation; 1 fase 3-forsøg ([NCT00007605](https://clinicaltrials.gov/study/NCT00007605), afsluttet, 706 deltagere, amiodaron og sotalol ved vedligeholdelse af sinusrytme ved atrieflimren) og primært reviews; forskningsspørgsmål |
+| 5 | Manisk bipolar lidelse | 0,9943 | L5 | Kun sikkerhedssignaler (QT); Hold |
+| 6 | Makrocefali, dysmorfe ansigtstræk og psykomotorisk retardering | 0,9942 | L5 | Ingen sammenhæng; Hold |
 
 ---
 

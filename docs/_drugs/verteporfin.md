@@ -4,17 +4,17 @@ title: Verteporfin
 parent: Kun modelforudsigelse (L5)
 nav_order: 882
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Verteporfin: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleæ… (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
+description: "Verteporfin: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af nukleære DNA-anomalier (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
 monitor_inn: "VERTEPORFIN"
-predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
 
 # Verteporfin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Verteporfin er et lysaktiveret stof (fotosensibilisator), som oprindeligt anvend
 |------|------|
 | Oprindelig indikation | Makuladegeneration |
 | Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse forårsaget af nukleære DNA-abnormiteter |
-| TxGNN-forudsigelsesscore | 99,49 % |
+| TxGNN-forudsigelsesscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Verteporfin er et lysaktiveret stof (fotosensibilisator), som oprindeligt anvend
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Verteporfin er en fotosensibilisator, der anvendes i fotodynamisk behandling af makuladegeneration. Når stoffet aktiveres af lys, dannes reaktive iltforbindelser (ROS), som skader målvævet.
 
-Den eneste støtte for den nye indikation er den høje score fra vidensgrafen. Mekanismen i den kendte anvendelse synes i princippet at stride mod en mitokondriel sygdom, hvor oxidativ fosforylering allerede er nedsat, og hvor øget oxidativt stress næppe er gavnligt. Verteporfin er i prækliniske arbejder desuden rapporteret at hæmme YAP-TEAD-signalering, men de data, der er indsamlet til denne rapport, knytter ikke dette til defekter i oxidativ fosforylering drevet af nukleært DNA.
+Den eneste støtte for den nye indikation er den høje score fra TxGNN-modellen (deep learning), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, og ikke er biologisk evidens. Mekanismen i den kendte anvendelse synes i princippet at stride mod en mitokondriel sygdom, hvor oxidativ fosforylering allerede er nedsat, og hvor øget oxidativt stress næppe er gavnligt. Verteporfin er i prækliniske arbejder desuden rapporteret at hæmme YAP-TEAD-signalering, men de data, der er indsamlet til denne rapport, knytter ikke dette til defekter i oxidativ fosforylering drevet af nukleært DNA.
 
 Forudsigelsen er derfor uden mekanistisk begrundelse og bør ikke opfattes som tegn på effekt.
 

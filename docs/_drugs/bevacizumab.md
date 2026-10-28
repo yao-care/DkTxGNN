@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bevacizumab: forudsagt ny indikation Epiglottisneoplasme (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i de indsamlede data f…"
 monitor_inn: "Bevacizumab"
-predicted_indications: ["epiglottis neoplasm", "epiglottis neoplasm", "benign neoplasm of tongue", "benign neoplasm of tongue", "tumor of testis and paratestis", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "benign neoplasm of floor of mouth"]
+predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
+last_modified_at: 2026-10-27
+description: "Bevacizumab: forudsagt ny indikation Neoplasme i epiglottis (epiglottis neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bevacizumab
@@ -33,107 +33,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Bevacizumab: Fra peritonealkræft til epiglottisneoplasme
+## Bevacizumab: VEGF-A-hæmmer (monoklonalt antistof) → Neoplasme i epiglottis (epiglottis neoplasm)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Opsummering
 
-Bevacizumab er et antistof mod VEGF, som oprindeligt bruges til behandling af bl.a. kræft i bughinden, æggestokkene, brystkræft, tyk- og endetarmskræft og glioblastom.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **epiglottisneoplasme** (svulst i strubelåget).
-Der er dog **ingen kliniske forsøg** og **ingen publikationer**, som direkte understøtter denne forudsigelse, så den hviler alene på modellen.
-
----
+Bevacizumab er et monoklonalt antistof, der neutraliserer VEGF-A og hæmmer tumorers nydannelse af blodkar. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **neoplasme i epiglottis (epiglottis neoplasm)**. Der er dog **ingen kliniske forsøg og ingen publikationer**, der direkte undersøger denne sygdom, så forudsigelsen er alene modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i de indsamlede data for den danske tilladelse. Den vidensgrafbaserede oversigt omfatter bl.a. peritonealkræft, ovarie-, bryst- og kolonkræft samt glioblastom |
-| Forudsagt ny indikation | Epiglottisneoplasme |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Neoplasme i epiglottis (epiglottis neoplasm) |
+| TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de indsamlede data. Bevacizumab er dog kendt som et monoklonalt antistof, der neutraliserer VEGF-A og dermed hæmmer tumorangiogenese (dannelse af nye blodkar i tumoren).
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Bevacizumab er kendt som en hæmmer af VEGF-A, og mekanismen kan derfor i princippet påvirke angiogeneseafhængige tumorer i hoved- og halsregionen, hvor epiglottis hører til.
 
-De oprindelige indikationer er overvejende solide, kraftigt vaskulariserede tumorer. Svulster i hoved-hals-området, herunder strubelåget, er ligeledes vaskulariserede, hvorfor en anti-angiogen tilgang mekanistisk er plausibel.
+Den høje modelscore er imidlertid ikke understøttet af studier af netop denne tumortype. Sammenhængen er derfor et plausibelt, men ubekræftet mekanistisk argument.
 
-Det skal understreges, at den høje score (0,999) alene er en modelforudsigelse. Der er ikke fundet kliniske forsøg eller litteratur for netop denne sygdom, og en mekanistisk sammenhæng er derfor kun teoretisk.
+## Evidens fra kliniske forsøg
 
----
-
-## Kliniske forsøg
-
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for denne forudsagte indikation.
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for epiglottisneoplasme.
+Der er for øjeblikket ingen relateret litteratur tilgængelig for denne forudsagte indikation.
 
-*Bemærk om andre forudsigelser:* Modellen forudsiger også høje scorer for godartet svulst i tungen (99,90 %), testikel- og parateskulær tumor (99,90 %), godartet svulst i hypopharynx (99,90 %) og godartet svulst i mundbunden (99,90 %). For tungesvulst og mundbundssvulst er der kun indirekte litteratur (fx oversigtsartikler om mundslimhindetoksicitet, prækliniske hoved-hals-modeller og et enkelt case-report om alveolært bløddelssarkom i tungen), og ingen af disse evaluerer bevacizumab ved de godartede tilstande. Evidensniveauet er L4 for disse to og L5 for de øvrige.
-
----
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106410720 | Abevmy | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-
-Indehaver: Biosimilar Collaborations Ireland Limited. Produktet er et biosimilært præparat.
-
----
+| 28106410720 | Abevmy | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt anti-VEGF-antistof), ikke konventionelt cytotoksisk |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Håndteringsbeskyttelse | Følg lokale retningslinjer for håndtering af antineoplastiske lægemidler |
-
----
+| Cytotoksicitetsklassifikation | Målrettet behandling (monoklonalt antistof mod VEGF-A); ikke et konventionelt cytotoksisk middel |
+| Risiko for myelosuppression | Se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC), herunder blodtryk, urin-protein og blødnings-/sårhelingstegn |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af lægemidler til kræftbehandling |
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke indgået i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
-
-**Lægemiddelinteraktioner:** Der er identificeret 22 mulige interaktioner. De vigtigste klassificeret som alvorlige (Major) er:
+**Lægemiddelinteraktioner** (22 registrerede interaktioner i de indsamlede data). De vigtigste af sværhedsgraden "Major":
 - Deferipron
 - Samarium (153Sm) lexidronam
 - Panitumumab
 - Sunitinib
 - Thalidomid
 
-Desuden er der en række interaktioner af moderat grad, bl.a. med bisfosfonater (alendronsyre, risedronsyre, etidronsyre, ibandronat, pamidronsyre, tiludronsyre), vækstfaktorer (filgrastim, pegfilgrastim, sargramostim), palifermin, strontium-89, radium-223, romosozumab, idelalisib og natriumfosfat (P32).
+Flere interaktioner af sværhedsgraden "Moderate" er også registreret, bl.a. med bisfosfonater (alendronsyre, risedronsyre, etidronsyre, ibandronat, pamidronsyre, tiludronsyre), vækstfaktorer (filgrastim, pegfilgrastim, sargramostim, palifermin), radium-223, romosozumab, strontium-89 og idelalisib.
 
-**Bemærkning om litteraturen:** En gennemgang af mundslimhindetoksicitet nævner bevacizumab i forbindelse med geografisk tunge, og de indsamlede data peger på, at bevacizumab kan give mundslimhinde- og sårhelingsproblemer. Dette taler imod brug ved godartede tilstande i mundhulen.
-
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for epiglottisneoplasme er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Sikkerhedsdata fra produktresuméet mangler, hvilket blokerer for videre sikkerhedsscreening.
+Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg eller publikationer om neoplasme i epiglottis. Evidensniveauet er derfor L5, og der er ikke grundlag for at gå videre nu.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendte indikationer)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratur- og forsøgssøgning specifikt for bevacizumab ved svulster i strubelåget/hoved-hals-området
-- Vurdering af sammenhængen med de oprindelige indikationer og af administrationsvej (begge afventer)
-- For de godartede tilstande: en nytte-risiko-vurdering, da bevacizumabs kendte toksicitet kan veje tungere end en mulig gevinst
+**For at komme videre kræves:**
+- Præklinisk eller klinisk evidens specifikt for tumorer i epiglottis
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af advarsler og kontraindikationer i produktresuméet
+- Vurdering af sikkerhed i hoved- og halsregionen, især blødnings- og sårhelingsrisiko
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 507
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Lopinavir: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS (fra videnbasen"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Lopinavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lopinavir
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Lopinavir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Lopinavir: Simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Sammenfatning
@@ -48,12 +48,12 @@ men evidensen består kun af **3 prækliniske publikationer** på aber og **inge
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videnbasen; godkendelsesteksten for det danske præparat er ikke angivet) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,8 +68,8 @@ Da SIV kun forekommer hos ikke-humane primater, er der tale om en veterinær- el
 
 ### Øvrige forudsagte indikationer
 
-- **Felint erhvervet immundefektsyndrom** (score 99,90 %, evidensniveau L5): FIV er en lentivirus med en protease, der minder om HIV-1's, så en effekt er teoretisk mulig. Der er ingen forsøg eller litteratur, og indikationen er veterinær.
-- **Neurodevelopmentalt syndrom med ataktisk gang, fraværende tale og nedsat kortikal hvid substans** (score 99,90 %, evidensniveau L5): Der kunne ikke påvises nogen klar mekanistisk sammenhæng, og scoren ser ud til at være en artefakt af videnbasens opbygning. Lopinavirs begrænsede passage til centralnervesystemet svækker yderligere begrundelsen.
+- **Felint erhvervet immundefektsyndrom** (score 0,9990, evidensniveau L5): FIV er en lentivirus med en protease, der minder om HIV-1's, så en effekt er teoretisk mulig. Der er ingen forsøg eller litteratur, og indikationen er veterinær.
+- **Neurodevelopmentalt syndrom med ataktisk gang, fraværende tale og nedsat kortikal hvid substans** (score 0,9990, evidensniveau L5): Der kunne ikke påvises nogen klar mekanistisk sammenhæng, og scoren ser ud til at være en artefakt af videnbasens opbygning. Lopinavirs begrænsede passage til centralnervesystemet svækker yderligere begrundelsen.
 
 ---
 
@@ -91,9 +91,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106107718 | Aluvia (AbbVie Deutschland GmbH & Co. KG) | Filmovertrukne tabletter | Indikationstekst ikke angivet |
 
 ---
 

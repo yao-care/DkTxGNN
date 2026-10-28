@@ -4,17 +4,17 @@ title: Clarithromycin
 parent: Kun modelforudsigelse (L5)
 nav_order: 202
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Clarithromycin: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner, bl.a. infektiøs otitis media…"
+indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "blood group incompatibility"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
+last_modified_at: 2026-10-27
+description: "Clarithromycin: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Clarithromycin: Fra bakterielle luftvejsinfektioner til hyperamylasæmi
+## Clarithromycin: makrolid-antibiotikum → hyperamylasæmi (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Clarithromycin er et makrolid-antibiotikum, der oprindeligt anvendes til bakterielle infektioner, bl.a. mellemørebetændelse, lungebetændelse og bihulebetændelse. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hyperamylasæmi**, men understøttelsen er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt case-rapport, hvor clarithromycin ikke er undersøgt som behandling af tilstanden).
+Clarithromycin er et makrolid-antibiotikum, som i Danmark markedsføres som filmovertrukne tabletter.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hyperamylasæmi (hyperamylasemia)**, men der er **ingen kliniske forsøg** og kun **1 publikation** (en japansk case report), som ikke viser, at clarithromycin behandler tilstanden.
+Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -46,31 +48,27 @@ Clarithromycin er et makrolid-antibiotikum, der oprindeligt anvendes til bakteri
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakterielle infektioner, bl.a. infektiøs otitis media, streptokok- og stafylokokinfektioner, bakteriel pneumoni, maksillær sinuitis, Mycoplasma pneumoniae-pneumoni (kilde: indikationer i TxGNN-vidensgrafen, da den danske godkendelse ikke angiver indikationstekst) |
-| Forudsagt ny indikation | Hyperamylasæmi |
-| TxGNN-forudsigelsesscore | 99,35 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | hyperamylasæmi (hyperamylasemia) |
+| TxGNN-forudsigelsesscore | 0,9935 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanisme. Clarithromycin tilhører makrolidgruppen, hvis effekt ved bakterielle infektioner er veldokumenteret, men der er ikke påvist en mekanistisk sammenhæng til hyperamylasæmi.
+Der foreligger ingen detaljerede data om clarithromycins virkningsmekanisme i de data, der er sammenstillet til denne rapport. Clarithromycin hører til makrolid-gruppen af antibiotika, og dens virkning mod bakterielle infektioner er veletableret.
 
-Hyperamylasæmi er et laboratoriefund og ikke en selvstændig sygdom, og makrolider er ikke kendt for at sænke amylaseniveauet. Den høje score (0,993) er en beregnet modelforudsigelse uden klinisk støtte og kan skyldes artefakter i vidensgrafen.
-
-Den eneste fundne publikation beskriver en patient med lungeinfektion med *Mycobacterium abscessus* og samtidig primær makroamylasæmi. Clarithromycin indgår her tilsyneladende kun som antimykobakteriel behandling af infektionen, ikke som behandling af forhøjet amylase.
-
-Andre forudsagte indikationer fra modellen har samme svaghed. Punktformet epitelial keratokonjunktivitis (score 99,1 %) har en indirekte plausibilitet, da makrolider har antiinflammatoriske egenskaber og anvendes ved meibomsk kirteldysfunktion. Der er dog ikke påvist direkte evidens for clarithromycin.
+Der er ikke påvist en plausibel mekanistisk forbindelse til hyperamylasæmi. Hyperamylasæmi er et laboratoriefund frem for en selvstændig sygdomsenhed, og makrolider er ikke kendt for at sænke amylase. Den eneste fundne publikation er en case report om en lungeinfektion med *Mycobacterium abscessus* kompliceret af primær makroamylasæmi. Her synes clarithromycin kun at indgå som behandling af infektionen og ikke af hyperamylasæmien. Den høje score (0,9935) er en beregnet forudsigelse uden klinisk støtte.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
@@ -78,33 +76,29 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case-rapport | Nihon Kokyuki Gakkai Zasshi | 76-årig mand med lungeinfektion med *M. abscessus* og samtidig primær makroamylasæmi. Ingen evidens for, at clarithromycin behandler hyperamylasæmi. |
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai zasshi | Case om lungeinfektion med *M. abscessus* hos en 76-årig mand, kompliceret af primær makroamylasæmi. Clarithromycin synes anvendt mod infektionen, ikke mod hyperamylasæmi. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107108924 | Clarithromycin 1A Pharma (2care4 ApS) | Filmovertrukne tabletter (oral) | Indikationstekst foreligger ikke i de indsamlede data |
+| 28107108924 | Clarithromycin 1A Pharma | Filmovertrukne tabletter | Ikke angivet i de lokale data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer og sygdomme med risiko (fra vidensgrafen, ikke fra produktresuméet):**
-- Hjerterytme: langt QT-syndrom, torsades de pointes, ventrikulær takykardi (inkl. katekolaminerg polymorf)
-- Lever og galde: leversvigt, leversygdom, galdeblæresygdom, kolestase (inkl. benign recidiverende og familiær intrahepatisk)
-- Stofskifte: porfyri (inkl. arvelig)
-- Nyre: nyresygdom, pyoureter
-- Knogler: osteoporose (inkl. postmenopausal), knoglebrud
-- Mave-tarm: *Clostridium difficile*-kolitis, perinatal nekrotiserende enterokolitis
-- Neuromuskulært: myasthenia gravis (inkl. voksendebuterende), sygdomme i den neuromuskulære overgang
-- Infektioner: infektiøs mononukleose, kronisk Epstein-Barr-virusinfektionssyndrom
+Der er ikke indhentet mærkningstekst om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Lægemiddelinteraktioner:** Der blev fundet 100 interaktioner. Eksempler på alvorlige (Major): abemaciclib, fentanyl og acalabrutinib. Moderate omfatter bl.a. paclitaxel, tramadol, nifedipin, abirateron, ethinylestradiol og hydrocortison. Minor omfatter bl.a. dolutegravir, zidovudin og loratadin.
+**Lægemiddelinteraktioner** (et udsnit af de interaktioner, der er registreret i de sammenstillede data; i alt 100):
 
-Der henvises til det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
+- **Større (Major):** abemaciclib, fentanyl, acalabrutinib
+- **Moderate:** abametapir (topisk), abirateron, paclitaxel, acarbose, tramadol, famotidin, formoterol, nifedipin, adenosin, trastuzumab emtansin, flunisolid, afatinib, ethinylestradiol, hydrocortison
+- **Mindre (Minor):** dolutegravir, zidovudin, loratadin
+
+Clarithromycin er en kendt hæmmer af CYP3A4, hvilket er relevant ved samtidig brug af lægemidler, der omsættes via denne vej.
 
 ---
 
@@ -113,13 +107,13 @@ Der henvises til det godkendte produktresumé (SmPC) for fuldstændige advarsler
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg og uden mekanistisk grundlag. Den eneste publikation er en case-rapport, hvor clarithromycin ikke er undersøgt mod hyperamylasæmi. Hyperamylasæmi er desuden et laboratoriefund frem for en behandlingsmæssig sygdomsmålgruppe.
+Forudsigelsen om hyperamylasæmi støttes hverken af kliniske forsøg eller af litteratur, der undersøger clarithromycin som behandling af tilstanden. Den eneste publikation er en case report, hvor clarithromycin sandsynligvis blot behandler en samtidig infektion. Evidensniveauet er L5.
 
 **For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA)
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (mangler, og er afgørende for sikkerhedsvurdering)
-- Evt. vurdering af den indirekte hypotese for punktformet epitelial keratokonjunktivitis, herunder gennemgang af PMID 38472959 for at afklare, om clarithromycin overhovedet er undersøgt
-- Systematisk litteratursøgning og prækliniske data, hvis hypotesen skal forfølges
+- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for, hvordan et makrolid kan påvirke amylaseniveauer
+- Afklaring af, om hyperamylasæmi er et meningsfuldt behandlingsmål, da det er et laboratoriefund
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Studier, der direkte undersøger clarithromycin ved den forudsagte tilstand
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

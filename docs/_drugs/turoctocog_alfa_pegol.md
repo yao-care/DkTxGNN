@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Turoctocog Alfa Pegol: forudsagt ny indikation Primær frigivelsesforstyrrelse i blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "acquired coagulation factor deficiency", "Scott syndrome", "Scott syndrome"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
+last_modified_at: 2026-10-23
+description: "Turoctocog Alfa Pegol: forudsagt ny indikation Primary release disorder of platelets (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Turoctocog Alfa Pegol
@@ -33,86 +33,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Turoctocog alfa pegol: Fra hæmofili til primær frigivelsesforstyrrelse i blodplader
+## Turoctocog Alfa Pegol: Primary release disorder of platelets
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Turoctocog alfa pegol er et PEGyleret rekombinant faktor VIII-præparat (markedsført i Danmark som Esperoct), som oprindeligt anvendes til behandling af hæmofili, herunder symptomatisk hæmofili hos kvindelige bærere.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **primær frigivelsesforstyrrelse i blodplader**,
-men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning.
-
----
+Turoctocog alfa pegol er et rekombinant, glycoPEGyleret faktor VIII-præparat med afkortet B-domæne, som oprindeligt anvendes ved hæmofili. TxGNN-modellen forudsiger, at det kan være virksomt ved **primær frigørelsesforstyrrelse af blodplader**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen hviler udelukkende på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hæmofili (godkendelsesteksten for den danske autorisation er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse i blodplader |
-| TxGNN-forudsigelsesscore | 99,997 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Primary release disorder of platelets |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-## Hvorfor er forudsigelsen rimelig – eller ikke?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Turoctocog alfa pegol er en rekombinant faktor VIII-erstatning, og dens kendte funktion er at erstatte manglende faktor VIII ved hæmofili.
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Turoctocog alfa pegol er dog kendt som et PEGyleret rekombinant faktor VIII (FVIII), der erstatter manglende FVIII ved hæmofili.
+Primær frigørelsesforstyrrelse af blodplader skyldes derimod defekter i blodpladernes granulaindhold og signalering og ikke mangel på faktor VIII. Tilførsel af faktor VIII løser derfor ikke den grundlæggende blodpladedefekt.
 
-Primære frigivelsesforstyrrelser i blodplader er kvalitative defekter i blodpladernes funktion (nedsat granulafrigivelse), hvor FVIII-niveauet er normalt. FVIII-substitution adresserer ikke den underliggende blodpladedefekt, så den mekanistiske sammenhæng er svag. Den meget høje score skyldes sandsynligvis, at sygdommene ligger tæt på hinanden i vidensgrafens netværk af blødningslidelser, snarere end en reel terapeutisk mekanisme.
+Forudsigelsen skal derfor betragtes som svag og uden mekanistisk støtte.
 
-Modellen forudsagde også andre indikationer med tilsvarende score. Ingen af dem har kliniske data:
+## Klinisk evidens
 
-| Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Pseudo-von Willebrands sygdom | 99,996 % | Primærdefekten ligger i blodpladernes GPIbα. FVIII kan påvirkes sekundært, men FVIII-substitution forventes ikke at korrigere defekten. Spekulativ. |
-| Glanzmanns trombasteni | 99,996 % | Skyldes defekt i integrin αIIbβ3. FVIII er normalt. Standardbehandling er blodpladetransfusion og rekombinant faktor VIIa. |
-| Erhvervet koagulationsfaktormangel | 99,974 % | Mest plausible. FVIII-substitution kan i princippet behandle erhvervet FVIII-mangel (fx erhvervet hæmofili A). Kategorien er bred, og neutraliserende autoantistoffer mod FVIII vil hæmme produktet. Bypassing-midler er standardbehandling. |
-| Scotts syndrom | 99,973 % | Skyldes defekt i fosfatidylserin-eksponering (TMEM16F/ANO6). Koagulationsfaktorer er normale. FVIII-tilskud forventes ikke at hjælpe. |
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
----
+## Litteraturevidens
 
-## Evidens fra kliniske forsøg
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
-
----
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106838022 | Esperoct (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
-
----
+| 28106838022 | Esperoct (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+Der er ikke fundet data om advarsler, kontraindikationer eller interaktioner for dette lægemiddel. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
----
+## Andre forudsagte indikationer
+
+Modellen foreslog også følgende kandidater. Ingen af dem har kliniske forsøg eller publikationer (alle L5):
+
+| Rang | Sygdom | Score | Vurdering |
+|---|---|---|---|
+| 2 | Pseudo-von Willebrand sygdom | 1,0000 | Svagt og indirekte led; den primære defekt ligger i blodpladernes GPIbα |
+| 3 | Glanzmanns trombasteni | 1,0000 | Ingen mekanistisk begrundelse; defekt i blodpladeaggregation |
+| 4 | Erhvervet koagulationsfaktormangel | 0,9997 | Mest plausible kandidat, men autoantistoffer (inhibitorer) kan gøre erstatning ineffektiv; undergruppen skal præciseres (fx FVIII-mangel uden inhibitor) |
+| 5 | Scotts syndrom | 0,9997 | Teoretisk nedstrøms sammenhæng, men fosfolipid-scramblase-manglen afhjælpes ikke |
+| 6 | Blødningstendens ved kollagenreceptordefekt | 0,9995 | Defekten ligger uafhængigt af FVIII-afhængig koagulation |
+| 7 | Blødningssygdom ved konstitutionel trombocytopeni | 0,9995 | Ingen oplagt mekanistisk sammenhæng |
+| 8 | "Flood factor deficiency" | 0,9975 | Sygdomsnavnet kan ikke entydigt tilordnes en kendt klinisk enhed; skal verificeres |
+| 9 | Arvelig trombocytose med transversel lemmedefekt | 0,9969 | Ingen begrundelse og mulig øget trombotisk risiko |
+| 10 | Føtal og neonatal alloimmun trombocytopeni | 0,9969 | Behandlingen retter sig mod immunmekanismen; FVIII er ikke relevant |
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på modellens netværksnærhed (evidensniveau L5). Der findes hverken kliniske forsøg eller litteratur, og for de fleste af de forudsagte sygdomme er den mekanistiske sammenhæng svag, da defekten ligger i blodpladerne og ikke i FVIII.
+Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller litteratur, og der er ingen plausibel mekanisme, da lægemidlet erstatter faktor VIII og ikke korrigerer en blodpladedefekt.
 
-**For at komme videre skal følgende foreligge:**
-- Data om lægemidlets virkningsmekanisme (MOA)
-- Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet
-- Hvis en retning skal forfølges, er "erhvervet koagulationsfaktormangel" den mest plausible. Det kræver en præcist afgrænset undertype (fx erhvervet hæmofili A uden hæmmende antistoffer) og sygdomsspecifik evidens
-- Prækliniske eller kliniske data, der understøtter effekt ved den pågældende sygdom
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) for lægemidlet
+- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer)
+- Den godkendte indikationstekst for Esperoct
+- Præcisering af sygdomsenheden og eventuelt en undergruppe, fx erhvervet FVIII-mangel uden inhibitor, som den mest oplagte kandidat til en videre vurdering
+- Publicerede eller registrerede studier, der direkte undersøger den forudsagte sygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

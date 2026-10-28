@@ -8,6 +8,7 @@ nav_order: 87
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Avanafil
@@ -51,8 +52,8 @@ To uløste datakløfter — manglende virkningsmekanisme og manglende sikkerheds
 | Forudsagt ny indikation | Ingen prognoser tilgængelige |
 | TxGNN-prognoseresultat | Ikke applicable |
 | Evidensniveau | L5 — pipeline producerede ingen kandidater |
-| Markedsstatus i Danmark | Ikke fundet i kildedatabase |
-| Antal markedsføringstilladelser | 0 (i kildedatabasen) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Afvente |
 
 > **⚠ Vigtig forbehold vedrørende markedsstatus:** Kildedata til dette Evidence Pack stammer fra en taiwansk regulatorisk database. Avanafil er autoriseret i Den Europæiske Union under den centraliserede procedure som **Spedra (EU/1/13/841)** til behandling af erektil dysfunktion hos voksne mænd. Danske sundhedsfagpersoner bør verificere den aktuelle status direkte hos Lægemiddelstyrelsen eller EMA's produktdatabase, da indgangen "ikke fundet" sandsynligvis er en artefakt af kildedatabasens omfang, ikke en nøjagtig afspejling af danske markeds tilgængelighed.

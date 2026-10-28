@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Peginterferon Alfa-2A
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 637
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Peginterferon Alfa-2A: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfekt…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "PEGINTERFERON ALFA-2A"
-predicted_indications: ["hepatitis E virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Omsk hemorrhagic fever"]
+predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+last_modified_at: 2026-10-23
+description: "Peginterferon Alfa-2A: forudsagt ny indikation Hepatitis E-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfekt…"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,108 +33,95 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Peginterferon alfa-2a: Fra kronisk hepatitis C til hepatitis B-virusinfektion
+## Peginterferon alfa-2a: Fra kronisk hepatitis B/C til hepatitis E-virusinfektion
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Peginterferon alfa-2a er oprindeligt godkendt til behandling af kronisk hepatitis C og kronisk hepatitis B. TxGNN-modellen forudsiger, at lægemidlet er effektivt ved **hepatitis B-virusinfektion**, og dette understøttes af **20 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til rapporten. Bemærk, at hepatitis B allerede er en kendt indikation, så der er tale om en indikation på label og ikke en egentlig repurposing.
+Peginterferon alfa-2a er registreret i vidensgrafen (PrimeKG) i relation til kronisk hepatitis C- og hepatitis B-virusinfektion. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hepatitis E-virusinfektion**. Evidensen er meget begrænset: de fem tilknyttede kliniske forsøg handler om hepatitis B, og der er kun **1 publikation** (en generel oversigt over HEV hos kræftpatienter), så ingen af dem undersøger behandling af hepatitis E direkte.
 
 ---
 
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfektion (godkendelsesteksten i den danske registrering er ikke angivet) |
-| Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
+| Oprindelig indikation | Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfektion (relation registreret i vidensgrafen; indikationsteksten i den danske registrering er tom) |
+| Forudsagt ny indikation | Hepatitis E-virusinfektion |
+| TxGNN-forudsigelsesscore | 0,9983 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til rapporten. Ud fra klassekendskab er peginterferon alfa-2a en immunmodulator, der inducerer interferon-stimulerede gener og forstærker de antivirale T-celle- og NK-celle-responser mod virus. Beskrivelsen bygger på almen viden om stofklassen og ikke på data fra DrugBank.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Peginterferon alfa-2a tilhører klassen af pegylerede interferoner. Disse har en bred antiviral og immunmodulerende virkning gennem induktion af interferon-stimulerede gener, og det er grundlaget for brugen ved kronisk hepatitis B og C.
 
-Hepatitis B og hepatitis C er begge kroniske virale leverinfektioner, og interferonbaseret behandling virker via værtens immunrespons frem for kun via direkte hæmning af virusreplikation. Hepatitis B er desuden allerede en kendt indikation i videnbasen, så den høje score (0,999) er i overensstemmelse med det eksisterende kliniske evidensgrundlag.
-
-De øvrige forudsigelser i datasættet (hepatitis E, hepatitis A, dyrehepatitis og Omsk hæmoragisk feber) har enten ingen direkte evidens eller kun evidens for andre sygdomme. De behandles derfor ikke yderligere her.
+Hepatitis E er ligesom hepatitis B og C en viral leverinfektion, og modellens forudsigelse kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er i litteraturen beskrevet tilfælde og små serier med peginterferon ved kronisk hepatitis E hos transplanterede patienter, men de data, der er indsamlet til denne rapport, indeholder ingen HEV-specifikke forsøg. Mekanismen er derfor plausibel, men ikke underbygget her.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Tabellen viser de 10 mest relevante forsøg ud af 20 registrerede for hepatitis B.
+Ingen af de fundne forsøg undersøger hepatitis E. De er alle hepatitis B-studier og giver kun generel viden om lægemidlets sikkerhed og anvendelse.
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Fase 4 | Afsluttet | 307 | Effekt og sikkerhed af Pegasys ved HBeAg-positiv kronisk hepatitis B; 48 ugers behandling og 24 ugers opfølgning |
-| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Fase 4 | Afsluttet | 219 | Randomiseret studie af Pegasys plus entecavir hos behandlingsnaive HBeAg-positive patienter |
-| [NCT02474316](https://clinicaltrials.gov/study/NCT02474316) | Fase 4 | Ukendt | 366 | Skift fra nukleosidanalog til kombination med peginterferon alfa-2a for HBeAg-serokonversion |
-| [NCT02097004](https://clinicaltrials.gov/study/NCT02097004) | Fase 4 | Afsluttet | 111 | Intensiveret terapeutisk vaccination plus pegyleret interferon for HBsAg-serokonversion efter entecavir |
-| [NCT03084250](https://clinicaltrials.gov/study/NCT03084250) | Fase 4 | Ukendt | 150 | Randomiseret studie af NA plus peginterferon alfa-2a hos cirrotiske patienter med høj HCC-risiko |
-| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Fase 4 | Afsluttet | 60 | Åbent enkeltarmsstudie ved HBeAg-negativ kronisk hepatitis B |
-| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Fase 4 | Afsluttet | 39 | Post-marketing-program i Baltikum ved HBeAg-positiv og -negativ hepatitis B |
-| [NCT00661076](https://clinicaltrials.gov/study/NCT00661076) | Fase 3 | Afsluttet | 10 | Pegasys plus adefovir versus Pegasys alene ved HBeAg-negativ hepatitis B; for få deltagere til sikre konklusioner |
-| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Fase 3 | Afsluttet | 17 | Immunologisk delstudie af HBV-specifikke T-celler under Pegasys-behandling |
-| [NCT00442572](https://clinicaltrials.gov/study/NCT00442572) | Fase 2 | Afsluttet | 21 | Intermitterende behandling med Pegasys ved HBeAg-negativ hepatitis B (SOFIA-LTT) |
-
-Fase 3-forsøgene er meget små (n=10 og n=17). Evidensen bygger derfor primært på større fase 4-studier og på publicerede RCT'er (se nedenfor).
+| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Fase 4 | Afsluttet | 60 | Åbent studie af effekt og sikkerhed ved HBeAg-negativ kronisk hepatitis B (48 ugers behandling) |
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Fase 4 | Afsluttet | 307 | Effekt og sikkerhed ved HBeAg-positiv kronisk hepatitis B |
+| [NCT01906580](https://clinicaltrials.gov/study/NCT01906580) | Fase 4 | Ukendt | 105 | Kombineret eller sekventiel behandling med entecavir ved HBeAg-positiv hepatitis B |
+| [NCT00962871](https://clinicaltrials.gov/study/NCT00962871) | Fase 1 | Afsluttet | 30 | Tidlige immunologiske responser hos asiatiske patienter med hepatitis B |
+| [NCT02598063](https://clinicaltrials.gov/study/NCT02598063) | Fase 4 | Afsluttet | 255 | Randomiseret sammenligning med adefovir ved lamivudin-resistent hepatitis B |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferon alfa-2a med eller uden lamivudin sammenlignet med lamivudin alene ved HBeAg-positiv kronisk hepatitis B |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir og peginterferon alfa-2a hos voksne med immuntolerant HBeAg-positiv hepatitis B |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematisk review/metaanalyse | Antivir Ther | Stopregler for peginterferon alfa-2a ved kronisk hepatitis B (individuelle patientdata) |
-| [26299874](https://pubmed.ncbi.nlm.nih.gov/26299874/) | 2016 | Systematisk review/metaanalyse | Clin Res Hepatol Gastroenterol | Forlænget versus standardvarighed (48 uger) af peginterferon alfa-2a ved kronisk hepatitis B |
-| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomiseret kontrolleret studie | J Pediatr Gastroenterol Nutr | Peginterferon alfa-2a plus lamivudin eller entecavir hos børn med immuntolerant hepatitis B |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Klinisk studie | Hepatology | Entecavir plus peginterferon alfa-2a hos børn med HBeAg-positiv immuntolerant hepatitis B |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Randomiseret dobbeltblindt studie | Virol J | Langtidseffekt af peginterferon alfa-2a hos japanske patienter med kronisk hepatitis B |
-| [32548156](https://pubmed.ncbi.nlm.nih.gov/32548156/) | 2020 | Kohorte | World J Clin Cases | Cytokiner som prædiktorer for virologisk respons under peginterferon alfa-2a |
-| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Review | Recent Pat Anti-infect Drug Discov | Pegylerede interferoner ved kronisk hepatitis B |
-| [21978243](https://pubmed.ncbi.nlm.nih.gov/21978243/) | 2011 | Review | Aliment Pharmacol Ther | Aktuel antiviral behandling af kronisk hepatitis B |
+| [36031077](https://pubmed.ncbi.nlm.nih.gov/36031077/) | 2022 | Oversigt/retrospektiv undersøgelse | Transplantation and Cellular Therapy | HEV-infektion hos kræftpatienter på et amerikansk center (63 af 405 testede, 16 %, havde påviselig HEV); beskriver forekomst, ikke behandling med peginterferon |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103228001 | Pegasys (pharmaand GmbH) | Injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+| 28103228001 | Pegasys | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+---
+
+## Cytotoksicitet
+
+Peginterferon alfa-2a er ikke et klassisk cytostatikum, og afsnittet er derfor udeladt.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret; et udvalg af de vigtigste vises):
+Der er ikke indsamlet produktresumédata om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
+**Lægemiddelinteraktioner** (i alt 100 registreret; et udvalg nedenfor):
 - **Alvorlige (Major):** bupropion, deferipron, iopamidol, iohexol, samarium (153Sm) lexidronam, eltrombopag
-- **Moderate:** metronidazol, tinidazol, naltrexon, rosuvastatin, simvastatin, warfarin, dicoumarol, chloroquin, pegvaliase, palifermin, strontiumchlorid Sr-89, picosulfat, natriumsulfat og polyethylenglycol med elektrolytter
-
-Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+- **Moderate:** metronidazol, tinidazol, naltrexon, rosuvastatin, simvastatin, warfarin, dicoumarol, chloroquin, pegvaliase, palifermin, strontiumchlorid Sr-89 samt visse afføringsmidler (picosulfat, polyethylenglycol, natriumsulfat)
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Hepatitis B er allerede en kendt indikation for peginterferon alfa-2a, og evidensen omfatter flere RCT'er og metaanalyser samt mange fase 4-studier (evidensniveau L1). De afsluttede fase 3-forsøg er dog meget små, og data om sikkerhed og virkningsmekanisme mangler i de indsamlede data.
+Der er ingen kliniske forsøg eller publikationer, der direkte undersøger peginterferon alfa-2a ved hepatitis E. Evidensniveauet er derfor L5, og forudsigelsen bygger alene på modellen og en plausibel antiviral mekanisme.
 
-**For at komme videre kræves følgende:**
-- Gennemgang af den danske produktinformation (SmPC) for advarsler og kontraindikationer, da disse data mangler
-- Bekræftelse af den godkendte indikationstekst for Pegasys i Danmark
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Klinisk vurdering af de alvorlige lægemiddelinteraktioner, især med bupropion, deferipron og eltrombopag
+**For at komme videre kræves:**
+- Systematisk gennemgang af publicerede case-serier og studier af peginterferon ved kronisk hepatitis E, især hos immunsupprimerede og transplanterede patienter
+- Data om virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af sikkerhed og alternativer (f.eks. ribavirin) i målgruppen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 506
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (evidensniveau L5). Oprindelig indikation: Diarré og dysenteri (ifølge TxGNN-vidensgrafen"
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
+description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Loperamide
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Loperamid: Fra diarré og dysenteri til akut smitsom konjunktivitis
+## Loperamide: Akut smitsom konjunktivitis (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Resumé
 
 Loperamid er et opioidlignende middel mod diarré, der oprindeligt bruges til behandling af diarré og dysenteri.
 TxGNN-modellen forudsiger, at det kan være effektivt mod **akut smitsom konjunktivitis**, men der er **ingen kliniske forsøg** og **ingen publikationer** til støtte for denne forudsigelse.
-Den høje score vurderes at skyldes et artefakt i vidensgrafen og ikke reel biologi.
+Den høje score afspejler sandsynligvis ligheder, som TxGNN-modellen (deep learning) har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
 ---
 
@@ -48,12 +48,12 @@ Den høje score vurderes at skyldes et artefakt i vidensgrafen og ikke reel biol
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Diarré og dysenteri (ifølge TxGNN-vidensgrafen; indikationstekst i de danske markedsføringstilladelser er ikke tilgængelig) |
-| Foreslået ny indikation | Akut smitsom konjunktivitis |
-| TxGNN-prædiktionsscore | 99,97 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Akut smitsom konjunktivitis (acute contagious conjunctivitis) |
+| TxGNN-prædiktionsscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Den høje score vurderes at skyldes et artefakt i vidensgrafen og ikke reel biol
 
 Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljerede oplysninger om loperamids virkningsmekanisme. Ud fra almindelig farmakologisk viden er loperamid en perifer mu-opioidreceptoragonist, der virker på de myenteriske neuroner i tarmen og nedsætter tarmmotiliteten. Det behandler symptomet diarré, ikke den underliggende infektion.
 
-Der er ikke identificeret nogen plausibel mekanistisk forbindelse mellem denne virkning og betændelse eller infektion på øjets overflade. Den høje score skyldes sandsynligvis, at sygdomme i vidensgrafen ligger tæt på hinanden (infektiøs diarré og dysenteri), og ikke lægemiddelspecifik biologi. Dette understøttes af, at flere undertyper af konjunktivitis har identiske scorer.
+Der er ikke identificeret nogen plausibel mekanistisk forbindelse mellem denne virkning og betændelse eller infektion på øjets overflade. Scoren stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme (infektiøs diarré og dysenteri), og ikke biologisk evidens eller lægemiddelspecifik biologi. Dette understøttes af, at flere undertyper af konjunktivitis har identiske scorer.
 
 De øvrige forudsigelser i rangeringen (bl.a. konjunktivitis, pseudomembranøs konjunktivitis, kronisk follikulær konjunktivitis, parasitær konjunktivitis og Angelucci syndrom) er ligeledes uden kliniske forsøg eller litteratur og uden mekanistisk grundlag. Alle er vurderet til evidensniveau L5 og anbefalingen Hold.
 
@@ -113,7 +113,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om akut smitsom konjunktivitis bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller plausibel mekanisme, og den skyldes sandsynligvis et artefakt i vidensgrafen. Der er desuden sikkerhedssignaler for loperamid ved infektiøse og inflammatoriske tilstande.
+Forudsigelsen om akut smitsom konjunktivitis bygger udelukkende på en modelscore fra TxGNN-modellen (deep learning) uden kliniske forsøg, litteratur eller plausibel mekanisme, og scoren afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er desuden sikkerhedssignaler for loperamid ved infektiøse og inflammatoriske tilstande.
 
 **For at komme videre kræves følgende:**
 - Oplysninger om virkningsmekanisme (MOA) fra DrugBank

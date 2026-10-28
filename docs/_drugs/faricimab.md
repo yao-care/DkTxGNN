@@ -8,6 +8,7 @@ nav_order: 346
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Faricimab
@@ -50,8 +51,8 @@ TxGNN-modellen har **ingen forudsagte nye indikationer** for dette lægemiddel i
 | Forudsagt ny indikation | **Ingen** — ingen TxGNN-forudsigelser tilgængelige |
 | TxGNN-forudsigelsesscore | N/A |
 | Bevisniveau | **L5** (Ingen forudsigelse eller understøttende studier i dette datasæt) |
-| Markedsstatus i Danmark | **Ikke markedsført** |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 > **Bemærk:** Faricimab (Vabysmo®) har en centraliseret EMA-markedsføringstilladelse (EU/1/22/1683) til nAMD og DME. Bevisgrundlagets registreringer af Danmark-specifikke licenser viser 0 poster, hvilket kan afspejle en ufuldstændig dataindportning snarere end ægte fravær fra det danske marked. Dette bør verificeres mod Laegemiddelstyrelsenss og EMA-registre.

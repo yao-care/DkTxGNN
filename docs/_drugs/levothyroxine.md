@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levothyroxine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 497
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Levothyroxine: forudsagt ny indikation Endemisk struma (evidensniveau L3). Oprindelig indikation: Hypothyreose (godkendt indikationstekst er ikke angivet for den dansk…"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "levothyroxine"
-predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "nontoxic goiter", "lingual goiter", "substernal goiter", "dyshormonogenic goiter", "Potter sequence", "Carney complex"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
+last_modified_at: 2026-10-23
+description: "Levothyroxine: forudsagt ny indikation Renal hypodysplasi/aplasi (evidensniveau L5). Oprindelig indikation: Hypothyreose"
 ---
 
 # Levothyroxine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Levothyroxin: Fra hypothyreose til endemisk struma
+## Levothyroxin: Fra hypothyreose til renal hypodysplasi/aplasi
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Levothyroxin er et syntetisk skjoldbruskkirtelhormon, som oprindeligt anvendes til behandling af hypothyreose og andre skjoldbruskkirtelsygdomme.
-TxGNN-modellen forudsiger, at det også kan være effektivt ved **endemisk struma**.
-Forudsigelsen støttes af **20 publikationer** i de data, der er indsamlet til denne rapport, men der er **ingen registrerede kliniske forsøg** for netop denne diagnose.
+Levothyroxin er et skjoldbruskkirtelhormon, der i videnskabsgrafen er knyttet til behandling af bl.a. hypothyreose, struma og skjoldbruskkirtelkræft.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **renal hypodysplasi/aplasi**, men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dette. Forudsigelsen er alene modelbaseret.
 
 ---
 
@@ -48,95 +47,75 @@ Forudsigelsen støttes af **20 publikationer** i de data, der er indsamlet til d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypothyreose (godkendt indikationstekst er ikke angivet for den danske autorisation; indikationen er hentet fra videnbasen) |
-| Forudsagt ny indikation | Endemisk struma |
-| TxGNN-forudsigelsesscore | 99,81 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Hypothyreose (relation registreret i videnskabsgrafen; den danske markedsføringstilladelse indeholder ingen indikationstekst i de data, der er indsamlet til rapporten) |
+| Forudsagt ny indikation | Renal hypodysplasi/aplasi |
+| TxGNN-forudsigelsesscore | 0,9967 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra kendt viden er levothyroxin en syntetisk form af thyroxin (T4), og dets effekt ved hypothyreose og andre skjoldbruskkirtelsygdomme er veldokumenteret.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige. Levothyroxin er syntetisk skjoldbruskkirtelhormon, og i videnskabsgrafen er det knyttet til tilstande som hypothyreose, myxødem, struma, Hashimotos thyroiditis og skjoldbruskkirtelkræft.
 
-Ved endemisk struma er jodmangel den væsentligste årsag. Jodmangel øger TSH-stimulationen af kirtlen, som derfor vokser. Levothyroxin hæmmer TSH-sekretionen og fjerner dermed den vigtigste vækststimulus på skjoldbruskkirtelvævet. Det kan reducere kirtlens volumen.
+Skjoldbruskkirtelhormon spiller generelt en rolle i nyrernes udvikling og modning. Det er dog ikke et bevis for, at levothyroxin kan behandle eller omvende strukturelle nyremisdannelser, som opstår under fosterlivet. Der er ingen direkte mekanistisk sammenhæng understøttet af de foreliggende data. Den høje score kan afspejle nærhed i netværket, f.eks. fælles tilknytning til medfødte eller udviklingsrelaterede sygdomme, snarere end en reel terapeutisk sammenhæng.
 
-Skjoldbruskkirtelsygdomme har fælles patofysiologi omkring TSH-regulering, hvilket understøtter modellens forudsigelse. Litteraturen peger dog på, at jodtilskud er førstevalg, og at levothyroxin er et supplement eller et alternativ. Levothyroxin alene efterlader den intratyreoidale jodmangel uændret, og der kan opstå recidiv efter behandlingsophør.
+De øvrige forudsigelser i modellen er ligeledes uden klinisk støtte:
+- **Bilateral nyreagenesi** (score 0,9960): Fuldstændig fravær af begge nyrer forventes ikke at reagere på hormonsubstitution.
+- **Potter-sekvens** (score 0,9933): Skyldes oligohydramnion, typisk som følge af nyreagenesi eller svær nyredysplasi. Der er ingen oplagt grund til postnatal levothyroxin.
+- **Carney-kompleks** (score 0,9918): Syndromet omfatter endokrine tumorer, herunder skjoldbruskkirtelknuder, så der er en vis indirekte overlapning med skjoldbruskkirtelsygdom. Brug (f.eks. TSH-suppression ved knuder) ville dog være en udvidelse af eksisterende skjoldbrusktirtelindikationer og ikke en valideret behandling af syndromet.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for endemisk struma.
-
-Til sammenligning findes der to afsluttede forsøg for den beslægtede diagnose nodulær struma (rang 3 i forudsigelserne):
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT00277589](https://clinicaltrials.gov/study/NCT00277589) | Fase 4 | Afsluttet | 1024 | Randomiseret, observatørblindet, placebokontrolleret forsøg med TSH-tilpasset behandling; primært endepunkt var ændring i samlet nodulvolumen |
-| [NCT00941551](https://clinicaltrials.gov/study/NCT00941551) | Ikke angivet | Afsluttet | 150 | Randomiseret forsøg med 5 års opfølgning: tilbagefald af nodulær struma efter unilateral lobektomi med eller uden postoperativ levothyroxin |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [2515973](https://pubmed.ncbi.nlm.nih.gov/2515973/) | 1989 | Multicenterforsøg (randomiseret) | Eur J Clin Invest | 166 patienter randomiseret til levothyroxin, jod eller kombination i 12 måneder ved jodmangelstruma |
-| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | Multicenterstudie | Dtsch Med Wochenschr | 74 patienter: levothyroxin alene versus levothyroxin + jodid i 6 måneder, efterfulgt af jodprofylakse |
-| [7900936](https://pubmed.ncbi.nlm.nih.gov/7900936/) | 1993 | Klinisk sammenligning | Clin Endocrinol | Effekt af levothyroxin eller jod på kirtelstørrelse og thyroideastimulerende immunglobuliner |
-| [1789063](https://pubmed.ncbi.nlm.nih.gov/1789063/) | 1991 | Dobbeltblindet klinisk studie | Acta Endocrinol | Jod alene versus jod kombineret med levothyroxin; udvikling i intratyreoidal jodkoncentration |
-| [8676600](https://pubmed.ncbi.nlm.nih.gov/8676600/) | 1996 | Klinisk studie (unge) | Klin Padiatr | 106 unge: jod versus jod + levothyroxin; effekt på kirtelvolumen, thyreoideahormoner og lipider |
-| [9011485](https://pubmed.ncbi.nlm.nih.gov/9011485/) | 1996 | Klinisk studie (ældre) | Dtsch Med Wochenschr | Jodid 300 µg versus levothyroxin 1,5 µg/kg hos midaldrende og ældre |
-| [11256036](https://pubmed.ncbi.nlm.nih.gov/11256036/) | 2001 | Klinisk studie | Dtsch Med Wochenschr | Sammenligning af to doser af levothyroxin-jodid-kombination ved eutyreoid diffus struma |
-| [8147031](https://pubmed.ncbi.nlm.nih.gov/8147031/) | 1993 | Oversigtsartikel | Z Gesamte Inn Med | Jod bør altid indgå i behandlingen af eutyreoid endemisk struma; levothyroxin alene efterlader jodmangel uændret |
-| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | Supplementeringsstudie | Asia Pac J Clin Nutr | Levothyroxin 100 µg dagligt til oprindelige befolkningsgrupper i jodmangelområde; opfølgning i 1½ år |
-| [28620494](https://pubmed.ncbi.nlm.nih.gov/28620494/) | 2017 | Case report | Endocrinol Diabetes Metab Case Rep | Struma og hypothyreose hos patient afhængig af parenteral ernæring |
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100020455 | Eltroxin (Aspen Pharma Trading Ltd.) | Tabletter | Indikationstekst er ikke angivet |
+| 28100020455 | Eltroxin (Aspen Pharma Trading Ltd.) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/sygdomme med forsigtighed (fra videnbasen, ikke fra produktresuméet):** Videnbasen angiver bl.a. hypertension, hypopituitarisme og andre hypofysesvigt-tilstande, osteoporose (inkl. postmenopausal), diabetes mellitus og diabetisk ketoacidose, koronararteriesygdom og myokardieinfarkt samt thymussygdom.
+**Kontraindikationer registreret i videnskabsgrafen** (relationer i grafen, ikke teksten fra produktresuméet): hypertension, hypopituitarisme og andre former for hypofysemangel (herunder Sheehans syndrom og isoleret væksthormonmangel), hypogonadotrop hypogonadisme/Kallmanns syndrom, tymussygdom, osteoporose (inkl. postmenopausal), diabetes mellitus og diabetisk ketoacidose, koronararteriesygdom og myokardieinfarkt.
 
-**Lægemiddelinteraktioner:** Der er identificeret 1017 interaktioner. Blandt de viste er de fleste af moderat grad, bl.a.:
+**Lægemiddelinteraktioner**: Der er identificeret 1.017 mulige interaktioner. Blandt de anførte er størstedelen af moderat sværhedsgrad, bl.a.:
 - Antidiabetika: acarbose, metformin, pioglitazon, alogliptin, albiglutid, dulaglutid, canagliflozin, dapagliflozin, empagliflozin, chlorpropamid
 - Syrehæmmere: omeprazol, rabeprazol, dexlansoprazol (cimetidin: lav grad)
-- Calcium- og magnesiumpræparater: calciumphosphat, calciumacetat, magnesiumoxid
-- Sympatomimetika: epinephrin, isometheptene, diethylpropion
+- Mineraler/antacida: calciumphosphat, calciumacetat, magnesiumoxid
+- Sympatomimetika: epinephrin, isometheptén, diethylpropion
 
-**Langtidssuppression:** Litteraturen beskriver risiko for subklinisk hyperthyroidisme samt påvirkning af knogler og hjerte, især hos ældre.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+For yderligere sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der er en klar mekanistisk rationale (TSH-suppression) og flere ældre kliniske studier, herunder randomiserede, men ingen registrerede kliniske forsøg for endemisk struma. Jod er førstevalg, så levothyroxin bør kun være et supplement eller alternativ hos udvalgte patienter.
+Forudsigelserne er alene modelbaserede (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ingen plausibel mekanisme for, at levothyroxin kan behandle strukturelle nyremisdannelser eller deres følger.
 
-**For at komme videre kræves:**
-- Bekræftelse af studiedesign og kvalitet af de ældre europæiske studier (flere er ikke bekræftet som fase 3-RCT'er)
-- Detaljerede data om virkningsmekanisme (MOA)
-- Gennemgang af produktresuméet for advarsler og kontraindikationer, da disse data mangler
-- En overvåget TSH-målværdi og plan for monitorering af knogler og hjerte
-- Vurdering i forhold til alternativer (jod, radiojod, kirurgi)
-
-**Bemærkning om øvrige forudsigelser:** Nodulær struma (L2) og ikke-toksisk struma (L2) har tilsvarende anbefaling om at fortsætte med forbehold. Forudsigelserne for renal hypodysplasi/aplasi, bilateral nyreagenesi og Potter-sekvens mangler plausibel mekanisme og evidens (L5, Hold).
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA)
+- Advarsler og kontraindikationer fra det godkendte produktresumé (SmPC) fra Lægemiddelstyrelsen
+- Præklinisk eller klinisk evidens, der direkte undersøger levothyroxin ved den forudsagte sygdom
+- For Carney-kompleks: en særskilt vurdering af, om brug ved skjoldbruskkirtelknuder er relevant
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

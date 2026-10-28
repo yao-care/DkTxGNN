@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ifosfamid: Fra [oprindelig indikation ikke angivet] til bredt sarkom – rhabdomyosarkom (rhabdomyosarcoma)
+## Ifosfamid: Fra [oprindelig indikation ikke angivet] til Kvindelig brystkræft
 {: .text-alpha }
 
 ## Opsummering i en enkelt sætning
@@ -48,13 +48,13 @@ Ifosfamid er et alkylerende cytostatikum (prodrug), som i Danmark er markedsfør
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten for Holoxan er tom) |
 | Forudsagt ny indikation (højeste score) | Kvindelig brystkarcinom (female breast carcinoma) |
-| TxGNN-forudsigelsesscore | 99,91 % |
-| Evidensniveau | L2 for brystkarcinom (fase 2-forsøg, ingen fase 3). Til sammenligning: L1 for rhabdomyosarkom |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9991 |
+| Evidensniveau | L5 for brystkarcinom (fase 2-forsøg, ingen fase 3). Til sammenligning: L1 for rhabdomyosarkom |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Brystkarcinom: Hold (forskningsspørgsmål). Rhabdomyosarkom: Proceed with Guardrails |
 
-> **Bemærk:** Den højest rangerede forudsigelse er brystkarcinom. Rhabdomyosarkom (rang 7, score 99,67 %) har dog markant stærkere evidens. Rapporten fokuserer primært på brystkarcinom og beskriver rhabdomyosarkom som sammenligning. Øvrige forudsigelser omtales kort nedenfor.
+> **Bemærk:** Den højest rangerede forudsigelse er brystkarcinom. Rhabdomyosarkom (rang 7, score 0,9967) har dog markant stærkere evidens. Rapporten fokuserer primært på brystkarcinom og beskriver rhabdomyosarkom som sammenligning. Øvrige forudsigelser omtales kort nedenfor.
 
 ---
 
@@ -162,14 +162,14 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Uklassificeret myelodysplastisk syndrom | 99,71 % | L5 | Hold. Ingen forsøg eller litteratur; ifosfamid er selv forbundet med terapirelaterede myeloide neoplasmer |
-| Partiel deletion af kromosom 5q | 99,70 % | L5 | Hold. Cytogenetisk afvigelse, ikke en klinisk indikation |
-| Refraktær cytopeni hos børn | 99,70 % | L4 | Hold. Eneste forsøg undersøger understøttende behandling, ikke ifosfamid |
-| Medfødt hypokrom anæmi med ringsideroblaster | 99,68 % | L5 | Hold. Ingen mekanistisk rationale |
-| Aregenerativ anæmi | 99,68 % | L5 | Hold. Litteraturen handler om andre sygdomme (formodede fejlassociationer) |
-| Myelodysplastisk syndrom | 99,66 % | L4 | Hold. Litteraturen beskriver MDS som bivirkning, ikke effekt |
-| Monocytær leukæmi | 99,64 % | L4 | Hold. Kun sekundær leukæmi som bivirkning |
-| Botryoid embryonalt rhabdomyosarkom i vagina | 99,57 % | L4 | Forskningsspørgsmål. Kun en enkelt case-rapport; støtte er indirekte via rhabdomyosarkom |
+| Uklassificeret myelodysplastisk syndrom | 0,9971 | L5 | Hold. Ingen forsøg eller litteratur; ifosfamid er selv forbundet med terapirelaterede myeloide neoplasmer |
+| Partiel deletion af kromosom 5q | 0,9970 | L5 | Hold. Cytogenetisk afvigelse, ikke en klinisk indikation |
+| Refraktær cytopeni hos børn | 0,9970 | L5 | Hold. Eneste forsøg undersøger understøttende behandling, ikke ifosfamid |
+| Medfødt hypokrom anæmi med ringsideroblaster | 0,9968 | L5 | Hold. Ingen mekanistisk rationale |
+| Aregenerativ anæmi | 0,9968 | L5 | Hold. Litteraturen handler om andre sygdomme (formodede fejlassociationer) |
+| Myelodysplastisk syndrom | 0,9966 | L4 | Hold. Litteraturen beskriver MDS som bivirkning, ikke effekt |
+| Monocytær leukæmi | 0,9964 | L5 | Hold. Kun sekundær leukæmi som bivirkning |
+| Botryoid embryonalt rhabdomyosarkom i vagina | 0,9957 | L5 | Forskningsspørgsmål. Kun en enkelt case-rapport; støtte er indirekte via rhabdomyosarkom |
 
 ---
 

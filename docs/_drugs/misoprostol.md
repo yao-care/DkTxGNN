@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Misoprostol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 561
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Misoprostol: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "MISOPROSTOL"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "atypical coarctation of aorta", "atypical coarctation of aorta"]
+predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -41,7 +41,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 ## Resumé
 
 Misoprostol er et prostaglandin E1-analog, som er markedsført i Danmark som tabletter (Angusta). Den oprindelige indikation fremgår ikke af de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré** (score 99,6 %), men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer**, som primært handler om medicinsk abort og ikke om behandling af amenoré.
+TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **amenoré** (score 0,9964), men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer**, som primært handler om medicinsk abort og ikke om behandling af amenoré.
 
 ---
 
@@ -51,10 +51,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenoré** (scor
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,6 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9964 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Forudsigelsen optrådte to gange i inputtet (duplikat) og er vurderet én gang. Evidensniveauet er sat til L4 ud fra den vurdering, der ligger i de indsamlede data; der foreligger ingen afsluttede fase 2/3-forsøg for den forudsagte indikation.
@@ -69,7 +69,7 @@ Den fundne litteratur handler hovedsageligt om misoprostol (oftest kombineret me
 
 Den meget høje TxGNN-score er udelukkende en computerbaseret forudsigelse. Dataene understøtter ikke en plausibel mekanisme, hvormed misoprostol skulle genoprette menstruation.
 
-Til sammenligning blev en anden forudsigelse (atypisk coarctatio aortae, score 99,3 %) også identificeret. Den har ingen kliniske forsøg eller litteratur og er kun en spekulativ hypotese baseret på, at PGE1-analoger (alprostadil) bruges til at holde ductus arteriosus åben. Misoprostol er ikke et valideret alternativ hertil, og sikkerheden (herunder uterine sammentrækninger og teratogen risiko) er ikke vurderet.
+Til sammenligning blev en anden forudsigelse (atypisk coarctatio aortae, score 0,9930) også identificeret. Den har ingen kliniske forsøg eller litteratur og er kun en spekulativ hypotese baseret på, at PGE1-analoger (alprostadil) bruges til at holde ductus arteriosus åben. Misoprostol er ikke et valideret alternativ hertil, og sikkerheden (herunder uterine sammentrækninger og teratogen risiko) er ikke vurderet.
 
 ---
 

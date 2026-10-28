@@ -50,10 +50,10 @@ Forudsigelsen er kun modelbaseret: der er **0 kliniske forsøg** og **0 publikat
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de indsamlede data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Homozygot familiær hyperkolesterolæmi |
-| TxGNN-forudsigelsesscore | 99,11 % |
+| TxGNN-forudsigelsesscore | 0,9911 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Homozygot familiær hyperkolesterolæmi skyldes defekter i LDL-receptorvejen (LDLR, APOB, PCSK9, LDLRAP1). Der er ikke påvist nogen mekanistisk sammenhæng mellem androgenreceptorblokade og denne sygdom. En eventuel kobling, f.eks. via androgeners indflydelse på lipidstofskiftet, er spekulativ og understøttes ikke af de foreliggende data.
 
-Den høje score (0,991) afspejler derfor alene en mønstergenkendelse i modellen og bør ikke tolkes som klinisk belæg.
+Den høje score (0,9911) afspejler derfor alene en mønstergenkendelse i modellen og bør ikke tolkes som klinisk belæg.
 
 ---
 
@@ -123,8 +123,8 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5), uden kliniske 
 
 | Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
 |------|------|------|------|------|
-| 2 | Multipel endokrin neoplasi | 99,06 % | L4 | Forskningsspørgsmål |
-| 3 | HIV-infektionssygdom | 99,04 % | L5 | Hold |
+| 2 | Multipel endokrin neoplasi | 0,9906 | L5 | Forskningsspørgsmål |
+| 3 | HIV-infektionssygdom | 0,9904 | L5 | Hold |
 
 For multipel endokrin neoplasi er der fundet to forsøg (NCT07795177, fase 2, endnu ikke rekrutterende; NCT03878524, fase 1, afsluttet tidligt med 2 deltagere). Begge er vurderet som kun indirekte relevante, da de handler om prostatakræft og præcisionsonkologi og ikke er specifikke for sygdommen. For HIV er der ingen kendt antiviral aktivitet og ingen understøttende data.
 ## Ansvarsfraskrivelse

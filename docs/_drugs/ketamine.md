@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 468
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endn
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (det registrerede produkt er et veterinærlægemiddel) |
 | Forudsagt ny indikation | Hovedpinelidelse (headache disorder) |
-| TxGNN-forudsigelsesscore | 99,33 % |
+| TxGNN-forudsigelsesscore | 0,9933 |
 | Evidensniveau | L1 (formelt efter reglerne, men se forbehold nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Bemærkning om evidensniveau: Fase 3-forsøget NCT03081416 er afsluttet (n=80), men der foreligger ingen resultater i de indsamlede data. Det andet fase 3-forsøg (NCT05306899) er stadig i rekruttering. Kriteriet om mindst to afsluttede fase 3-RCT'er er derfor ikke dokumenteret opfyldt, og L1 bør betragtes som foreløbigt og kræver verifikation.

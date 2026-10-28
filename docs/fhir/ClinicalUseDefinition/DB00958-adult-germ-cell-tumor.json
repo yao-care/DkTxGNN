@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00958",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00958"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "adult-germ-cell-tumor",
-          "display": "adult germ cell tumor"
-        }
-      ],
-      "text": "adult germ cell tumor"
+      "concept": {
+        "text": "adult germ cell tumor"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9924
     }
   ]
 }

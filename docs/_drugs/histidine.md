@@ -48,9 +48,9 @@ Histidin er en essentiel aminosyre, som indgår i mange produkter til parenteral
 |------|------|
 | Oprindelig indikation | Ikke angivet i godkendelsesdata (aminosyretilførsel som del af parenteral ernæring er den kendte anvendelse, men er ikke dokumenteret i de indsamlede data) |
 | Forudsagt ny indikation | Gastroparese |
-| TxGNN-forudsigelsesscore | 99,55 % |
+| TxGNN-forudsigelsesscore | 0,9955 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -116,7 +116,7 @@ Trods en høj modelscore findes der ingen kliniske forsøg og ingen litteratur, 
 - Data om histidins virkningsmekanisme (MOA)
 - Præklinisk eller mekanistisk dokumentation for en effekt på gastrisk motilitet
 - Godkendte indikationstekster og produktresuméer (SPC) for de relevante produkter, herunder advarsler og kontraindikationer
-- Vurdering af sikkerhedssignalerne fra videngrafen, især ved nyre- og hjertesygdom
+- Vurdering af sikkerhedssignalerne fra TxGNN-modellen (deep learning), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, især ved nyre- og hjertesygdom
 - Afklaring af egnede administrationsveje og doseringer til den nye indikation
 ## Ansvarsfraskrivelse
 

@@ -6,9 +6,9 @@ nav_order: 351
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder) og monogen fedme (ifølge TxGNN-vidensgrafen"
 monitor_inn: "fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fenfluramine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Fenfluramin: Fra fedme til proksimalt 16p11.2-mikrodeletionssyndrom
+## Fenfluramine: Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -44,12 +44,12 @@ Fenfluramin var oprindeligt anvendt til behandling af fedme (herunder monogen fe
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Fedme (obesity disorder) og monogen fedme (ifølge TxGNN-vidensgrafen; der er ingen godkendt indikationstekst for det danske præparat) |
-| Forudsagt ny indikation | Proksimalt 16p11.2-mikrodeletionssyndrom |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome) |
+| TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -58,7 +58,7 @@ Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er s
 
 16p11.2-deletionssyndrom er forbundet med neuroudviklingsforstyrrelser, epilepsi og fedme. Der er derfor et plausibelt, men hypotetisk, link til både anfaldsfænotypen og den oprindelige fedmeindikation. Dette er en hypotese baseret på modelforudsigelsen og generel farmakologi, ikke på dokumenteret evidens.
 
-De øvrige forudsigelser med høj score (hypervitaminose, obsolet hypertelorisme og frontorhiny) har ingen troværdig mekanistisk forbindelse til fenfluramin. De skyldes sandsynligvis artefakter i vidensgrafen og vurderes ikke yderligere her.
+De øvrige forudsigelser med høj score (hypervitaminose, obsolet hypertelorisme og frontorhiny) har ingen troværdig mekanistisk forbindelse til fenfluramin. Scorerne stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. De vurderes ikke yderligere her.
 
 ## Klinisk evidens fra forsøg
 

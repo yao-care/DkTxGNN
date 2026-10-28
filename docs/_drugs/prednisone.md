@@ -48,10 +48,10 @@ Prednison er et systemisk glukokortikoid, der oprindeligt anvendes til autoimmun
 |------|------|
 | Oprindelig indikation | Autoimmune sygdomme, binyrebarkinsufficiens, Crohns sygdom, akut lymfatisk leukæmi m.fl. (indikationsteksten i den danske registrering er ikke angivet) |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

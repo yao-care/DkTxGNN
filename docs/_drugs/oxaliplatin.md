@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxaliplatin
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 615
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Oxaliplatin: forudsagt ny indikation Malign pleural mesotheliom (evidensniveau L5). Oprindelig indikation: Metastaserende tyktarmskræft (fra vidensgrafen"
 monitor_inn: "Oxaliplatin"
-predicted_indications: ["malignant pleural mesothelioma", "malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "malignant visceral pleura tumor", "female breast carcinoma", "female breast carcinoma"]
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Oxaliplatin: forudsagt ny indikation Malign pleural mesotheliom (malignant pleural mesothelioma) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Oxaliplatin: Fra metastaserende tyktarmskræft til malign pleural mesotheliom
+## Oxaliplatin: Malign pleural mesotheliom (malignant pleural mesothelioma)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -48,12 +48,12 @@ med **3 registrerede kliniske forsøg** (heraf 2 direkte relevante fase II-fors�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Metastaserende tyktarmskræft (fra vidensgrafen; godkendelsesteksten for det danske produkt er tom) |
-| Forudsagt ny indikation | Malign pleural mesotheliom |
-| TxGNN-forudsigelsesscore | 99,68 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malign pleural mesotheliom (malignant pleural mesothelioma) |
+| TxGNN-forudsigelsesscore | 0.9968 |
 | Evidensniveau | L2 (fase II-forsøg; ingen fase 3-RCT) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---

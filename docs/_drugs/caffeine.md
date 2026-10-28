@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Caffeine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 147
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Caffeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Den videnbaserede…"
 monitor_inn: "caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
 ---
 
 # Caffeine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** af
 |------|------|
 | Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser. Den videnbaserede model (PrimeKG) angiver bl.a. allergisk rhinitis, vasomotorisk rhinitis, migræne, hovedpine, almindelig forkølelse og faryngitis |
 | Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,91 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| TxGNN-forudsigelsesscore | 0,9991 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

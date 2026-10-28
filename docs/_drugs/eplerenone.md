@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eplerenone
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 315
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Eplerenone: forudsagt ny indikation Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (evidensniveau L4). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Eplerenone: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Eplerenone
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Eplerenon: Fra hypertension til pulmonal hypertension som følge af lungesygdom og/eller hypoksi
+## Eplerenone: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der findes **ingen registrerede kliniske forsøg** og kun **13 publikationer
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (hypertensive lidelser) |
-| Forudsagt ny indikation | Pulmonal hypertension som følge af lungesygdom og/eller hypoksi |
-| TxGNN-prædiktionsscore | 99,50 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN-prædiktionsscore | 0.9950 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

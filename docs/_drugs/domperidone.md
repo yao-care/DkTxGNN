@@ -48,10 +48,10 @@ Domperidon er en perifer dopamin D2/D3-receptorantagonist, som anvendes som prok
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data om den danske godkendelse. Ifølge farmakologidata anvendes domperidon ved dyspepsi, halsbrand, smerter i epigastriet, kvalme og opkastning |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99,08 % |
+| TxGNN-forudsigelsesscore | 0.9908 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 NSIAD skyldes aktiverende (gain-of-function) mutationer i vasopressin V2-receptoren (AVPR2, f.eks. R137C/R137L). De giver konstitutiv receptoraktivitet og ukontrolleret reabsorption af vand i nyrerne. Domperidon har ikke kendt virkning på V2-receptoren eller aquaporin-2-vejen, og der er derfor ikke noget klart mekanistisk led mellem den oprindelige anvendelse og den forudsagte indikation.
 
-Man kan spekulere i en indirekte forbindelse via dopaminerg modulering, prolaktinstigning og vasopressinrelateret fysiologi, men dette har ingen støtte i de foreliggende data. Forudsigelsen afspejler sandsynligvis nærhed i vidensgrafen (f.eks. fælles knudepunkter vedrørende hyponatriæmi eller SIADH) snarere end en reel farmakologisk sammenhæng. Den høje score bør derfor fortolkes med stor forsigtighed.
+Man kan spekulere i en indirekte forbindelse via dopaminerg modulering, prolaktinstigning og vasopressinrelateret fysiologi, men dette har ingen støtte i de foreliggende data. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den høje score bør derfor fortolkes med stor forsigtighed.
 
 ---
 
@@ -108,7 +108,7 @@ Det bemærkes, at EMA har gennemgået nytte-risiko-forholdet for lægemidler ind
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er rent beregningsbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ikke noget plausibelt mekanistisk led mellem domperidons D2/D3-antagonisme og den V2-receptor-drevne patofysiologi ved NSIAD. Desuden er sikkerhedsdata fra produktresuméet ikke tilgængelige, og vidensgrafen peger på mulige kardiale risici (QT-forlængelse).
+Forudsigelsen er rent beregningsbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer, og der er ikke noget plausibelt mekanistisk led mellem domperidons D2/D3-antagonisme og den V2-receptor-drevne patofysiologi ved NSIAD. Desuden er sikkerhedsdata fra produktresuméet ikke tilgængelige, og der peges på mulige kardiale risici (QT-forlængelse).
 
 **For at komme videre kræves følgende:**
 - Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), da dette er en blokerende datamangel

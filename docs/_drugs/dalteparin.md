@@ -6,9 +6,9 @@ nav_order: 232
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dalteparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (evidensniveau L5). Oprindelig indikation: Lungeemboli, dissemineret intravaskulær koagulation…"
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
+description: "Dalteparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"
 ---
 
 # Dalteparin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Dalteparin: Fra lungeemboli og dissemineret intravaskulær koagulation til trombofili ved protein C-mangel
+## Dalteparin: Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte unders
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lungeemboli, dissemineret intravaskulær koagulation, purpura fulminans, erhvervet purpura fulminans (fra videngrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive) |
+| TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

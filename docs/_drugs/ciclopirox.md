@@ -8,6 +8,7 @@ nav_order: 192
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Ciclopirox
@@ -51,8 +52,8 @@ Uden en modelgenereret målindikation eller understøttende bevis kan en fuldst�
 | Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognose genereret |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | L5 (ingen understøttende studier identificeret i denne samling) |
-| Status på det danske marked | Ikke markedsført (ingen godkendelser registreret hos Laegemiddelstyrelsen) |
-| Antal markedsføringstilladelser | 0 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 ---

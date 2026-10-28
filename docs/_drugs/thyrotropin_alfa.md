@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 826
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Thyrotropin Alfa: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for markedsfør…"
+indication_count: 9
 monitor_inn: "Thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine disorder", "migraine with brainstem aura", "migraine with brainstem aura", "Raynaud disease", "Raynaud disease", "migraine with or without aura, susceptibility to", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+last_modified_at: 2026-10-23
+description: "Thyrotropin Alfa: forudsagt ny indikation Migræne (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Thyrotropin alfa: Fra diagnostik og behandling af skjoldbruskkirtelkræft til migræne
+## Thyrotropin alfa: Fra et ikke-registreret oprindeligt indikationsområde til migræne
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Thyrotropin alfa er rekombinant humant thyreoideastimulerende hormon (TSH), som anvendes i forbindelse med håndtering af skjoldbruskkirtelkræft. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (migraine disorder), men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne retning. Forudsigelsen hviler udelukkende på en videngrafbaseret model.
+Thyrotropin alfa er rekombinant thyreoideastimulerende hormon (TSH), og de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst fra den danske registrering.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning.
+Forudsigelsen bygger udelukkende på modellen og er derfor spekulativ.
 
 ---
 
@@ -46,64 +48,57 @@ Thyrotropin alfa er rekombinant humant thyreoideastimulerende hormon (TSH), som 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten for markedsføringstilladelsen er tom) |
-| Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,98 % |
+| Oprindeligt indikationsområde | Ikke oplyst i de indsamlede data (godkendt indikationstekst mangler i den danske registrering) |
+| Forudsagt ny indikation | Migræne |
+| TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Thyrotropin alfa er rekombinant humant TSH, som binder til TSH-receptoren og stimulerer skjoldbruskkirtelvæv, herunder optag af radioaktivt jod og frigivelse af thyroglobulin. Dette er kendt fra anvendelsen ved skjoldbruskkirtelkræft.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Thyrotropin alfa er rekombinant TSH, som virker på TSH-receptorer i skjoldbruskkirtelvæv. Der er ingen kendt mekanisme, som forbinder denne virkning med migræne.
 
-Der er ikke fundet nogen mekanistisk forbindelse mellem TSH-receptorsignalering og migrænens patofysiologi (f.eks. CGRP, kortikal spredende depression og trigeminovaskulær aktivering). Den høje score (0,9998) afspejler sandsynligvis grafstruktur i modellen snarere end påvist biologi.
+Et muligt, men rent spekulativt led kunne være, at thyreoideahormonstatus påvirker modtageligheden for hovedpine. Den høje score afspejler alene en grafbaseret forudsigelse uden støtte fra kliniske data eller litteratur.
 
-Øvrige forudsigelser i listen er heller ikke understøttet af data:
-- **Migræne med hjernestammeaura** (score 99,98 %): en undertype af migræne, som sandsynligvis afspejler den samme grafbaserede lighed som overbegrebet.
-- **Raynauds sygdom** (score 99,96 %): skjoldbruskkirtelsygdom er epidemiologisk forbundet med Raynauds fænomen, men det er en association med den underliggende sygdom og ikke belæg for, at TSH-stimulering behandler karspasmer.
-- **Migræne med eller uden aura, modtagelighed for** (score 99,91 %): en genetisk modtagelighedsangivelse og ikke en behandlingsbar klinisk indikation.
-- **Atrophoderma vermiculata** (score 99,86 %): en sjælden follikulær hudlidelse uden kendt forbindelse til TSH-receptorsignalering.
+Øvrige forudsigelser på listen følger samme mønster. Scoren for migræne med hjernestammeaura kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Raynauds sygdom og pulmonal hypertension er kun associeret med skjoldbruskkirtelstatus og ikke med en terapeutisk effekt af TSH-stimulation. Forudsigelsen for hyperthyroidisme går i modsat biologisk retning, da thyrotropin alfa stimulerer frigivelsen af thyreoideahormon, og den bør betragtes som et muligt sikkerhedssignal frem for en behandlingsmulighed.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for tiden ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103001398 | Thyrogen (Sanofi Winthrop Industrie) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28103001398 | Thyrogen | Pulver til injektionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret 45 potentielle interaktioner, og de er klassificeret som moderate. Blandt de angivne lægemidler er primært antidiabetika:
-- Sulfonylurinstoffer og lignende: acetohexamid, chlorpropamid, glimepirid, glipizid, glyburid
-- Biguanider: metformin
-- Alfa-glucosidasehæmmere: acarbose
-- DPP-4-hæmmere: alogliptin, saxagliptin
-- GLP-1-receptoragonister: albiglutid, dulaglutid, exenatid, semaglutid
-- SGLT2-hæmmere: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
-- Insuliner: humant insulin, insulin aspart (aspart og aspartprotamin)
+- **Lægemiddelinteraktioner**: Der er registreret 45 interaktioner i alt. De viste interaktioner er alle klassificeret som moderate og vedrører primært antidiabetika, bl.a.:
+  - Sulfonylurinstoffer: chlorpropamid, glimepirid, glipizid, glibenclamid, acetohexamid
+  - Metformin og acarbose
+  - SGLT2-hæmmere: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+  - DPP-4-hæmmere: alogliptin, saxagliptin
+  - GLP-1-receptoragonister: albiglutid, dulaglutid, exenatid, semaglutid
+  - Insuliner: humant insulin og insulin aspart
 
-Der er tale om moderate interaktioner, og de bør vurderes klinisk, især hos patienter i behandling for diabetes.
-
-For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da der ikke er tilgængelige data herom.
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -112,14 +107,13 @@ For advarsler og kontraindikationer henvises til det godkendte produktresumé (S
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er ren modeloutput (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse mellem TSH-receptoragonisme og migræne. Sikkerhedsdata fra produktresuméet mangler desuden.
+Forudsigelsen for migræne er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg, litteratur eller en plausibel virkningsmekanisme. Samtidig mangler godkendt indikationstekst og sikkerhedsdata fra den danske registrering.
 
-**For at gå videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Godkendt indikationstekst for Thyrogen
-- Præklinisk eller mekanistisk belæg for en forbindelse mellem TSH-receptorsignalering og migræne
-- Litteratursøgning og søgning efter registrerede forsøg, før en eventuel klinisk vurdering overvejes
+**For at komme videre kræves følgende:**
+- Indikationstekst, kontraindikationer og advarsler fra det godkendte produktresumé (SmPC) for Thyrogen
+- Data om virkningsmekanisme
+- En systematisk litteratursøgning og et biologisk rationale for TSH-receptoragonisme ved migræne
+- Vurdering af, om forudsigelserne for hyperthyroidisme skal behandles som et sikkerhedssignal
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

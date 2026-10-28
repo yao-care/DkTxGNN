@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Kun modelforudsigelse (L5)
 nav_order: 92
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Azathioprine: forudsagt ny indikation Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (evidensniveau L5). Oprindelig indikation: Reumatoid artrit"
+indication_count: 7
 monitor_inn: "azathioprine"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+last_modified_at: 2026-10-27
+description: "Azathioprine: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5). Oprindelig indikation: Ikke reg…"
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,62 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Azathioprin: Fra reumatoid artrit til colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom
+## Azathioprin: purinsyntesehæmmer og immunsuppressivt middel → kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Azathioprin er et immunsuppressivt lægemiddel, der oprindeligt anvendes ved reumatoid artrit. TxGNN-modellen forudsiger, at det kan have effekt ved **colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom**, en sjælden medfødt misdannelsesforstyrrelse. Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
-
----
+Azathioprin er et immunsuppressivt middel, der hæmmer purinsyntesen. Den højest rangerende TxGNN-forudsigelse er **kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**. Der er **ingen kliniske forsøg og ingen publikationer**, som understøtter denne forudsigelse, og den er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Reumatoid artrit (fra TxGNN-videngrafen; indikationsteksten i den danske registrering var ikke oplyst) |
-| Forudsagt ny indikation | Colobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Azathioprin er kendt som en purinsyntesehæmmer med immunsuppressiv virkning.
 
-Den høje score er udelukkende en grafbaseret forudsigelse. Der foreligger ikke detaljerede data om azathioprins virkningsmekanisme i de indsamlede data. Det er dog kendt, at azathioprin hæmmer purinsyntesen og dermed dæmper immunsystemet, hvilket forklarer virkningen ved immunmedierede sygdomme som reumatoid artrit.
+Det forudsagte syndrom er en medfødt udviklingsmæssig misdannelse, som omfatter øjet og skelettet. Der er ikke identificeret en plausibel sammenhæng mellem azathioprins virkning og denne sygdom. Den meget høje score er alene et resultat af modellens grafbaserede forudsigelse og kan ikke tages som tegn på klinisk effekt.
 
-Der er ikke identificeret nogen plausibel sammenhæng mellem denne mekanisme og et udviklingsmæssigt misdannelsessyndrom. Sygdommen er ikke immunmedieret eller inflammatorisk på en måde, som azathioprin kan påvirke. Forudsigelsen bør derfor betragtes som et statistisk mønster i videngrafen og ikke som en biologisk begrundet hypotese.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
-
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denne forudsigelse.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Formulering | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103554703 | Azathioprin "Orifarm" (Orifarm Generics A/S) | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
-
-Produktet er et enkeltstofpræparat til oral anvendelse og har gyldig tilladelse.
-
----
+| 28103554703 | Azathioprin "Orifarm" | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Sygdomme knyttet til kontraindikation (fra videngrafen, ikke fra produktresuméet):** pancreatitis, trombocytopeni, svampeinfektioner, dermatofytose, anæmi (herunder makrocytær anæmi), nedsat nyrefunktion, infektionssygdomme, lymfom (herunder primært lymfom i centralnervesystemet, lymfosarkom og hepatosplenisk T-celle-lymfom) samt levervenetrombose/Budd-Chiari syndrom.
-- **Lægemiddelinteraktioner:** Der er identificeret i alt 574 mulige interaktioner. De vigtigste er af moderat grad med mesalazin, balsalazid, olsalazin og sulfasalazin. Zinkpræparater (acetat, gluconat, sulfat) har kun mindre interaktioner. Flere andre stoffer er registreret med ukendt interaktionsniveau, bl.a. acetylsalicylsyre, omeprazol, pantoprazol, metformin, doxycyclin og amphotericin B.
+- **Lægemiddelinteraktioner:** Der er registreret 574 mulige interaktioner. Blandt de moderate er mesalazin, balsalazid, olsalazin og sulfasalazin. Blandt de mindre betydningsfulde er zinkacetat, zinkglukonat og zinksulfat.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellen (evidensniveau L5). Der er hverken kliniske forsøg, publikationer eller en plausibel biologisk mekanisme, og immunsuppression indebærer reelle risici uden dokumenteret gavn.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litteratur eller en plausibel mekanistisk sammenhæng. Evidensniveauet er L5.
 
-**For at komme videre kræves:**
-- En biologisk begrundelse for, hvorfor purinsyntesehæmning og immunsuppression skulle påvirke dette syndrom
-- Præklinisk eller anden mekanistisk evidens
-- Detaljerede data om virkningsmekanisme og produktresuméets advarsler og kontraindikationer
-
-**Bemærkning om andre forudsigelser for azathioprin:**
-Blandt de øvrige forudsigelser har **inflammatorisk tarmsygdom** og **colitis ulcerosa** evidensniveau L1 med anbefalingen "Proceed with Guardrails". Her er der mange kliniske forsøg og reviews. Der er dog tale om allerede etableret klinisk brug og ikke ny repurposing. Brugen kræver TPMT/NUDT15-testning, kontrol af blodtal og leverfunktion samt overvågning for infektioner og maligniteter. Disse bør vurderes i separate rapporter.
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og en biologisk begrundelse for sammenhængen med det forudsagte syndrom
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Prækliniske eller kliniske data, der direkte undersøger azathioprin ved denne sygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

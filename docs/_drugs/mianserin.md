@@ -4,17 +4,17 @@ title: Mianserin
 parent: Kun modelforudsigelse (L5)
 nav_order: 548
 evidence_level: L5
-indication_count: 7
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mianserin: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression, svær depressiv lidelse…"
 monitor_inn: "mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+description: "Mianserin: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale dat"
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Mianserin: Fra unipolar depression til godartet paroksysmal torticollis hos spædbørn
+## Mianserin: Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -45,30 +45,27 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **godartet paroksysmal tor
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Unipolar depression, endogen depression, svær depressiv lidelse, angstlidelse (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn |
-| TxGNN-prædiktionsscore | 99,49 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) |
+| TxGNN-prædiktionsscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
 
 Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanismen (MOA). Ud fra farmakologiske data binder mianserin til flere serotonin-receptorer (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), alfa-1-adrenoreceptorer (1A, 1B, 1D), LPA1-receptoren og noradrenalin-transportøren (NET). Det peger på en kombineret serotonerg og noradrenerg modulerende profil.
 
-Godartet paroksysmal torticollis hos spædbørn er en pædiatrisk tilstand, der er beslægtet med migræne. Sammenhængen med mianserins oprindelige indikationer (depression og angst) er svag, og en mekanistisk kobling er på nuværende tidspunkt spekulativ. Den høje score afspejler en forbindelse i vidensgrafen, ikke dokumenteret klinisk effekt.
+Godartet paroksysmal torticollis hos spædbørn er en pædiatrisk tilstand, der er beslægtet med migræne. Sammenhængen med mianserins oprindelige indikationer (depression og angst) er svag, og en mekanistisk kobling er på nuværende tidspunkt spekulativ. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Til sammenligning har modellen også foreslået nærtbeslægtede indikationer inden for det depressive spektrum, som er mere plausible, men i vid udstrækning er udvidelser af eksisterende anvendelse snarere end egentlig repurposing:
 
 | Rang | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|------|
-| 2 | Dysthymisk lidelse | 99,45 % | L4 | Forskningsspørgsmål; kun metaanalyse på antidepressiva som klasse |
-| 3 | Agorafobi | 99,40 % | L4 | Hold; eneste artikel omhandler MAO-A-hæmmere, ikke mianserin |
-| 4 | Ohdo-syndrom og varianter | 99,23 % | L5 | Hold; ingen data og ingen plausibel mekanisme |
-| 5 | Melankoli | 99,17 % | L3 | Forskningsspørgsmål; i praksis dækket af eksisterende indikation (endogen depression) |
-| 6 | Neurotisk depression | 99,16 % | L3 | Forskningsspørgsmål; ingen sygdomsspecifik evidens |
-| 7 | Neurotisk lidelse | 99,02 % | L3 | Forskningsspørgsmål; ældre, heterogen evidens og upræcis diagnose |
+| 3 | Agorafobi | 0,9940 | L5 | Hold; eneste artikel omhandler MAO-A-hæmmere, ikke mianserin |
+| 4 | Ohdo-syndrom og varianter | 0,9923 | L5 | Hold; ingen data og ingen plausibel mekanisme |
+| 7 | Neurotisk lidelse | 0,9902 | L5 | Forskningsspørgsmål; ældre, heterogen evidens og upræcis diagnose |
 
 ## Evidens fra kliniske forsøg
 

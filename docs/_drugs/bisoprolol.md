@@ -4,17 +4,17 @@ title: Bisoprolol
 parent: Kun modelforudsigelse (L5)
 nav_order: 122
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bisoprolol: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser). Godkendelsesteksten for det dan…"
+indication_count: 4
 monitor_inn: "BISOPROLOL"
-predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Bisoprolol: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bisoprolol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Bisoprolol: Fra hypertension til malign renovaskulær hypertension
+## Bisoprolol: betaadrenerg receptorblokker (selektiv β1) → malign hypertensiv nyresygdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Bisoprolol er en selektiv beta-1-blokker, som oprindeligt anvendes til behandling af hypertension (forhøjet blodtryk).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign renovaskulær hypertension**, men der er **0 kliniske forsøg** og **0 publikationer** specifikt for denne indikation.
-Forudsigelsen er derfor udelukkende modelbaseret, og indikationen overlapper i høj grad med den allerede godkendte.
-
----
+Bisoprolol er en selektiv β1-blokker, som anvendes mod forhøjet blodtryk. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom (malignant hypertensive renal disease)**. Der er dog **ingen kliniske forsøg og ingen publikationer** om denne sygdom i de data, der er indsamlet til rapporten, så forudsigelsen er alene modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (hypertensive lidelser). Godkendelsesteksten for det danske markedsføringstilladelse er ikke angivet i de indsamlede data. |
-| Forudsagt ny indikation | Malign renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
-Andre forudsigelser i de data, der er indsamlet til rapporten, omfatter malign hypertensiv nyresygdom, pulmonal hypertension (to undertyper) og Braddocks syndrom. Alle har evidensniveau L5, bortset fra pulmonal hypertension som følge af lungesygdom og/eller hypoxi (L4, kun indirekte evidens). Denne rapport fokuserer på den højest rangerede forudsigelse.
-
----
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Bisoprolol er imidlertid kendt som en selektiv beta-1-adrenerg receptorblokker. Ved at sænke hjertefrekvens, minutvolumen og reninfrigivelse kan den sænke blodtrykket. Reninmedieret hypertension, som ses ved renovaskulær sygdom, er derfor et rationelt mål for beta-blokade.
+Data om bisoprolols detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til rapporten. Bisoprolol er kendt som en selektiv β1-adrenerg receptorblokker, der sænker blodtrykket.
 
-Malign renovaskulær hypertension er en svær form eller undertype af den hypertension, som bisoprolol allerede er godkendt til. Der er ingen forsøg eller litteratur specifikt for tilstanden, og støtten består alene af modelscoren (0,999). Det bør desuden bemærkes, at malign hypertension er en hypertensiv akut tilstand, som normalt behandles med intravenøse lægemidler, og at renovaskulær sygdom ofte kræver revaskularisering eller RAAS-rettet behandling. Der er derfor ikke tale om en reelt ny repurposing-mulighed.
+Blodtryksregulering er det centrale behandlingsmål ved malign hypertensiv nyresygdom, og bisoprolol er et etableret blodtrykssænkende middel. Koblingen er derfor plausibel, men sygdommen er hovedsageligt en komplikation til ukontrolleret hypertension og ikke en egentlig ny indikation. Bisoprolol udskilles nogenlunde lige meget via nyrer og lever, så dosisjustering ved nedsat nyrefunktion skal vurderes. Støtten er udelukkende modelforudsigelse.
 
----
+## Klinisk evidens fra forsøg
 
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig for den primære forudsigelse.
+Der er aktuelt ingen relateret litteratur tilgængelig for denne sygdom.
 
-*Til orientering: For pulmonal hypertension som følge af lungesygdom og/eller hypoxi blev der fundet indirekte litteratur (bl.a. [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/), en oversigtsartikel fra 2009 om beta-blokkeres respiratoriske effekter ved hjertesvigt, og [23506636](https://pubmed.ncbi.nlm.nih.gov/23506636/), CARNEBI-studiet fra 2013, der sammenligner carvedilol, nebivolol og bisoprolol ved hjertesvigt). Ingen af dem undersøger pulmonal hypertension hos patienter, og evidensen understøtter ikke effekt i den indikation.*
+## Information om det danske marked
 
----
-
-## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107099823 | Cardovia (STADA Arzneimittel AG) | Filmovertrukne tabletter | Indikationstekst ikke angivet |
-
----
+| 28107099823 | Cardovia | Filmovertrukne tabletter | Indikationstekst er ikke registreret |
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra videnbasen (ikke produkttekst):** Videnbasen over lægemiddel-sygdomsrelationer angiver bl.a. astma (inkl. allergisk og intrinsisk), diabetes mellitus og diabetisk ketoacidose, leversygdom, nyresygdom, pancreatitis, myasthenia gravis, psoriasis, systemisk lupus erythematosus, urinsyregigt, anuri, hyperparathyroidisme, hypercalcæmi samt angst- og neurotiske lidelser. Listen stammer fra en vidensgraf og er ikke hentet fra produktresuméet, så den skal verificeres mod det godkendte produktresumé.
-- **Lægemiddelinteraktioner:** 100 interaktioner blev identificeret. De fleste af de viste er af moderat sværhedsgrad, bl.a. med adrenalin (epinefrin), hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, morfin, bupropion, atropin, hyoscyamin, methscopolamin, acetohexamid og calciumsalte. Interaktion med acetylsalicylsyre, aluminiumhydroxid og attapulgit er klassificeret som mindre.
+**Lægemiddelinteraktioner** (der er registreret 100 interaktioner; her et udvalg):
+- Moderat: epinephrin, hydrocortison, methscopolamin, hyoscyamin, bupropion, triamcinolon, morfin, atropin, dexamethason, betamethason, acetohexamid, budesonid samt flere calciumpræparater (acetat, carbonat, citrat, gluconat)
+- Mindre: acetylsalicylsyre, aluminiumhydroxid, attapulgit
 
-Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Der foreligger ingen registrerede advarsler eller kontraindikationer fra produktresuméet i de indsamlede data. Det anbefales at læse det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en modelscore uden kliniske forsøg eller specifik litteratur (evidensniveau L5). Indikationen er en alvorlig form af den allerede godkendte indikation og behandles typisk med andre midler, så den udgør ikke en selvstændig repurposing-mulighed.
+Forudsigelsen bygger kun på modelscore (evidensniveau L5) uden kliniske forsøg eller publikationer om sygdommen. Sygdommen er desuden primært en følge af ukontrolleret hypertension.
 
 **For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratursøgning og registersøgning efter forsøg specifikt for malign og renovaskulær hypertension
-- Afklaring af, om indikationen adskiller sig klinisk fra den eksisterende hypertensionsindikation
-- Vurdering af dosering ved nedsat nyrefunktion
+- Kliniske studier eller litteratur, der direkte undersøger bisoprolol ved malign hypertensiv nyresygdom
+- Vurdering af dosering og sikkerhed ved nedsat nyrefunktion
+- Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
+- Data om virkningsmekanisme (MOA)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

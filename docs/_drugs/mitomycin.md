@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Mitomycin: forudsagt ny indikation Osteoklastisk kæmpecelletumor i pancreas (evidensniveau L5). Oprindelig indikation: Pancreasadenokarcinom"
 monitor_inn: "MITOMYCIN"
-predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "mixed ductal-endocrine carcinoma of pancreas"]
+predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Mitomycin: forudsagt ny indikation Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) (evidensniveau L5). Oprindelig indikation: Den godkendte indikation er…"
 ---
 
 # Mitomycin
@@ -33,112 +33,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Mitomycin: Fra pancreasadenokarcinom til osteoklastisk kæmpecelletumor i pancreas
+## Mitomycin: DNA-tværbindende alkylerende cytostatikum → solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Mitomycin er et cytostatikum (antitumorantibiotikum), som oprindeligt er knyttet til behandling af pancreasadenokarcinom.
-TxGNN-modellen forudsiger, at det kan have effekt på **osteoklastisk kæmpecelletumor i pancreas**,
-men der er i de data, der er indsamlet til denne rapport, **0 kliniske forsøg** og **0 publikationer** for denne indikation. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+Mitomycin er et cytostatikum, der virker ved at tværbinde DNA. Lægemidlet er markedsført i Danmark som pulver og solvens til intravesikal opløsning. TxGNN-modellen forudsiger, at det kan have effekt på **solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte understøtter forudsigelsen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Pancreasadenokarcinom (fra videngrafen; den danske godkendelse har ingen registreret indikationstekst) |
-| Forudsagt ny indikation | Osteoklastisk kæmpecelletumor i pancreas |
-| TxGNN-prædiktionsscore | 99,86 % |
+| Oprindelig indikation | Den godkendte indikation er ikke registreret i de lokale data |
+| Forudsagt ny indikation | Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) |
+| TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
-Bemærk: Der er i alt 10 forudsigelser med næsten identiske scorer (99,85-99,86 %), og nogle optræder to gange. Øvrige forudsagte indikationer er: solid pseudopapillært karcinom i pancreas, pancreaskarcinom med blandet differentiering, intraduktalt papillært-mucinøst karcinom i pancreas og blandet duktalt-endokrint karcinom i pancreas. Alle er på evidensniveau L5.
-
----
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Mitomycin tilhører gruppen af alkylerende antitumorantibiotika, som krydsbinder DNA og hæmmer celledelingen. Dets effekt er knyttet til pancreasadenokarcinom, og mekanistisk kan det være relevant for andre tumorer i pancreas.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Mitomycin er dog kendt som et alkylerende middel, der tværbinder DNA og dermed hæmmer celledeling. En cytotoksisk effekt på en beslægtet epitelial pancreastumor er biologisk set tænkelig.
 
-Forudsigelsen bygger på videngrafens relation mellem mitomycin og pancreasadenokarcinom. Fælles duktalt tumorudspring kan i teorien give en lignende følsomhed over for DNA-skadende stoffer. Dette er dog en beregningsmæssig slutning uden direkte klinisk støtte.
+Forudsigelsen hviler alene på modellens score. Solid pseudopapillært karcinom er typisk indolent og kan oftest helbredes kirurgisk, så der er begrænset rationale for cytotoksisk kemoterapi. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
-Rationalet varierer mellem de forudsagte tumortyper. For solid pseudopapillært karcinom er det svagt, da tumoren er biologisk forskellig, ofte indolent og ofte kureres kirurgisk. For blandede tumorer kan en adenokarcinomkomponent muligvis reagere, mens responset i en endokrin komponent er ukendt.
+## Klinisk evidens fra forsøg
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-For den primære forudsigelse (osteoklastisk kæmpecelletumor i pancreas) foreligger der ingen relateret litteratur.
+Der er for tiden ingen relateret litteratur tilgængelig for den primære forudsigelse.
 
-For en anden forudsagt indikation (intraduktalt papillært-mucinøst karcinom i pancreas) er der identificeret én publikation:
+## Information om markedet i Danmark
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [15983445](https://pubmed.ncbi.nlm.nih.gov/15983445/) | 2005 | Case report | Pancreatology | Pseudomyxoma peritonei samtidig med intraduktal papillær mucinøs neoplasi i pancreas, behandlet med intraperitoneal hypertermisk kemoperfusion. Publikationen vurderer ikke mitomycins effekt på pancreastumoren og er kun indirekte kontekst. |
-
----
-
-## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105337913 | Mitomycin "medac" | Pulver og solvens til intravesikal opløsning | Indikationstekst ikke tilgængelig |
-
-Det eneste godkendte produkt er til intravesikal anvendelse (i blæren). Det er ikke en systemisk formulering, og administrationsvejen er derfor ikke afklaret i forhold til en pancreasindikation.
-
----
+| 28105337913 | Mitomycin "medac" | Pulver og solvens til intravesikal opløsning | Indikationsteksten er ikke registreret i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (alkylerende antitumorantibiotikum) |
-| Risiko for myelosuppression | Høj. Videngrafen peger på leukopeni, trombocytopeni og anæmi som kontraindikationsrelaterede tilstande |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Blodtal (CBC med differentialtælling), nyrefunktion og leverfunktion |
-| Håndteringsbeskyttelse | Skal håndteres i henhold til gældende regler for cytostatika |
-
-Der henvises i øvrigt til advarsler og forsigtighedsregler i produktresuméet (SmPC).
-
----
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende, DNA-tværbindende) |
+| Risiko for knoglemarvssuppression | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Emetogenicitetsklassifikation | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
+| Monitoreringspunkter | Hæmatologiske parametre (blodtal), lever- og nyrefunktion; se i øvrigt produktresumé (SmPC) |
+| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/risikotilstande fra videngrafen** (ikke fra produktresumeets tekst): nyresygdom, pyoureter, trombocytopeni, blodkoagulationssygdom, anæmi, makrocytær anæmi, leukopeni, hæmolytisk-uræmisk syndrom (herunder typisk form), kongestiv hjertesvigt, hjertesvigt og stomatitis.
+**Lægemiddelinteraktioner** (ud af 100 registrerede interaktioner er de vigtigste nævnt her):
+- **Alvorlige (Major):** deferipron, samarium (153Sm) lexidronam
+- **Moderate:** palifermin, strontiumchlorid Sr-89, fostamatinib
+- **Milde (Minor):** levofloxacin
 
-**Lægemiddelinteraktioner** (100 registrerede; de væsentligste):
-- **Større (Major):** deferipron, samarium (153Sm) lexidronam
-- **Moderat:** palifermin, strontiumchlorid Sr-89, fostamatinib
-- **Mindre:** levofloxacin
-- Øvrige (fx warfarin, dexamethason, prednisolon, ondansetron) er registreret uden angivet sværhedsgrad.
+Øvrige registrerede interaktioner har ukendt alvorlighedsgrad (bl.a. warfarin, simvastatin, prednisolon, dexamethason, ondansetron, leucovorin).
 
-Se desuden det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5), uden kliniske forsøg eller direkte litteratur. Den eneste danske tilladelse er til intravesikal brug, og mitomycin har et betydeligt toksicitetsprofil, så der er ikke grundlag for at gå videre nu.
+Forudsigelsen understøttes kun af TxGNN-scoren (evidensniveau L5), uden kliniske forsøg eller publikationer for denne sygdom. Tumoren er typisk indolent og kirurgisk helbredelig, hvilket svækker rationalet for cytotoksisk behandling.
 
-**For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA)
-- Produktresuméets advarsler og kontraindikationer for mitomycin
-- Systematisk litteratursøgning efter mitomycin ved sjældne pancreastumorer
-- Afklaring af administrationsvej og tilgængelig formulering til pancreasindikation
-- Prækliniske eller retrospektive data, der kan løfte evidensniveauet over L5
+**For at komme videre er følgende nødvendigt:**
+- Direkte prækliniske eller kliniske data for mitomycin i solid pseudopapillært karcinom i bugspytkirtlen
+- Detaljerede data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Vurdering af administrationsvej, da det markedsførte præparat er til intravesikal brug
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

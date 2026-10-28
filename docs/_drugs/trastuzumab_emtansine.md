@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: Moderat evidens (L3-L4)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 852
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-14
-description: "Trastuzumab Emtansine: forudsagt ny indikation Progesteronreceptor-positiv brystkræft (rang 2 (evidensniveau L4). Oprindelig indikation: HER2-positiv brystkræft"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Trastuzumab Emtansine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,67 +32,48 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Trastuzumab emtansin: Fra HER2-positiv brystkræft til progesteronreceptor-positiv brystkræft
+<!-- known-uses-page -->
+<!-- description: Trastuzumab Emtansine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation -->
+## Trastuzumab Emtansine: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
 ## Resumé
+Alle modellens kandidater for Trastuzumab Emtansine (TxGNN, score ≥ 0,99) er allerede kendte anvendelser. Der er derfor i øjeblikket ingen ny forudsagt indikation. Kandidaterne tilhører samme sygdomskategori som en godkendt indikation, brystkræft, men er ikke selv godkendt som separate indikationer.
 
-Trastuzumab emtansin (T-DM1) er et antistof-lægemiddelkonjugat, der oprindeligt anvendes til behandling af HER2-positiv brystkræft. TxGNN-modellen forudsiger, at det kan være effektivt ved **progesteronreceptor-positiv brystkræft**, men der findes **ingen registrerede kliniske forsøg** og kun **15 publikationer** (primært oversigtsartikler, retningslinjer og case reports) for denne indikation. Forudsigelsen overlapper i høj grad med den allerede godkendte HER2-positive population og udgør derfor ikke en egentlig ny indikation.
-
-## Hurtig oversigt
-
+## Hurtigt overblik
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HER2-positiv brystkræft (godkendelsesteksten for det danske produkt er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Progesteronreceptor-positiv brystkræft (rang 2; rang 1 er "normal breast-like"-subtypen uden evidens) |
-| TxGNN-forudsigelsesscore | 99,82 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modellens kandidater | 4 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
-Bemærk: Den indikation, der er valgt til oversigten, er den med mest litteratur. De øvrige forudsigelser (rang 1, 3 og 4) har samme høje score, men heller ikke egentlig støtte som nye indikationer.
+## Kendte anvendelser blandt modellens kandidater
 
-## Hvorfor er forudsigelsen rimelig?
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| Ingen | Ingen |
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra almindeligt kendt viden er T-DM1 et HER2-rettet antistof-lægemiddelkonjugat: antistoffet binder HER2, konjugatet internaliseres, og den mikrotubuli-hæmmende cytotoksiske komponent DM1 frigives i cellen.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| normal brystlignende subtype af brystkarcinom (normal breast-like subtype of breast carcinoma) | brystkræft (breast cancer) |
+| progesteronreceptor-positiv brystkræft (progesterone-receptor positive breast cancer) | brystkræft (breast cancer) |
+| progesteronreceptor-negativ brystkræft (progesterone-receptor negative breast cancer) | brystkræft (breast cancer) |
+| brysttumor luminal A eller B (breast tumor luminal A or B) | brystkræft (breast cancer) |
 
-Virkningen afhænger af HER2-ekspression og ikke af progesteronreceptorstatus. Progesteronreceptor-positive tumorer, der også er HER2-positive (HR+/HER2+), er allerede omfattet af den godkendte indikation. Modellens høje score afspejler sandsynligvis den fælles brystkræftkontekst snarere end en ny mekanistisk sammenhæng. For HER2-negative tumorer (fx de fleste luminal A-tumorer og den "normal breast-like"-subtype) er det mekanistiske grundlag svagt.
-
-## Evidens fra kliniske forsøg
-
-For progesteronreceptor-positiv brystkræft: Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-Til sammenligning findes der for den nært beslægtede forudsigelse **progesteronreceptor-negativ brystkræft** ét forsøg:
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Fase 2 | Afsluttet før tid (terminated) | 139 | DECRESCENDO: de-eskalering af adjuverende kemoterapi hos patienter med HER2-positiv, ER-negativ, node-negativ tidlig brystkræft, som opnåede patologisk komplet respons efter neoadjuverende kemoterapi og dobbelt HER2-blokade. Giver kun begrænset indirekte støtte. |
-
-## Litteraturevidens
-
-Et udvalg af de mest relevante publikationer for progesteronreceptor-positiv brystkræft (ingen RCT'er):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Retningslinje | J Clin Oncol | ASCO-opdatering af systemisk behandling af avanceret HER2-positiv brystkræft |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Retningslinje | J Clin Oncol | ASCO-retningslinje for systemisk behandling af avanceret HER2-positiv brystkræft |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Retningslinje | Eur J Cancer | EGTM-retningslinjer for biomarkører; HER2-status er afgørende for valg af anti-HER2-behandling, herunder T-DM1 |
-| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Kohorte | Sci Rep | ChangeHER: prognostisk betydning af HER2-positivitet erhvervet ved metastasering under behandling med pertuzumab og/eller T-DM1 |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Oversigtsartikel | Future Oncol | Aktuelle tendenser i behandlingen af HR+/HER2+ brystkræft, herunder neratinib og T-DM1 |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Oversigtsartikel | Pharmacol Res | Målrettede og cytotoksiske hæmmere ved brystkræft |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Oversigtsartikel | Clin Adv Hematol Oncol | Nyere udvikling inden for metastatisk brystkræft |
-| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | Case report | Case Rep Oncol | Dosisreduceret T-DM1 var aktivt og sikkert ved akut leverdysfunktion |
-| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Case report | BMJ Case Rep | Receptorkonversion og stemmebåndslammelse hos en patient med brystkræft |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case report | Front Oncol | Pyrotinib og metronomisk vinorelbin ved HER2-positiv brystkræft med leptomeningeal sygdom |
-
-Evidensen er udelukkende indirekte og omhandler HER2-positiv sygdom generelt. Der er ingen progesteronreceptor-specifikke prospektive forsøg.
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105143712 | Kadcyla (Roche Registration GmbH) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28105143712 | Kadcyla | pulver til koncentrat til infusionsvæske | Gyldig |
 
 ## Cytotoksicitet
 
@@ -122,18 +104,6 @@ Størstedelen af de viste interaktioner er antikoagulantia/trombocythæmmere, hv
 
 For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-- Forudsigelsen for progesteronreceptor-positiv brystkræft har høj modelscore, men ingen kliniske forsøg og kun indirekte litteratur. Aktiviteten afhænger af HER2-status, og HR+/HER2+-tumorer er allerede dækket af den eksisterende indikation, så der er ikke tale om en reel ny repurposing-mulighed. Evidensniveauet er L4.
-
-**For at komme videre kræves følgende:**
-- Gennemgang af den danske produktinformation (SmPC) for advarsler, kontraindikationer og godkendt indikationstekst
-- Data om virkningsmekanisme (MOA)
-- Prospektive data for HER2-lave/HER2-negative, receptor-definerede subgrupper, hvis en udvidelse ud over HER2-positiv sygdom skal overvejes
-- Afklaring af, om forudsigelserne blot afspejler overlap med den allerede godkendte HER2-positive population
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

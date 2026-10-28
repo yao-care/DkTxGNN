@@ -4,17 +4,17 @@ title: Lonafarnib
 parent: Kun modelforudsigelse (L5)
 nav_order: 504
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lonafarnib: forudsagt ny indikation Lepra (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksten er tom)"
 monitor_inn: "Lonafarnib"
-predicted_indications: ["leprosy", "leprosy", "rheumatoid arthritis", "rheumatoid arthritis", "Prinzmetal angina", "Prinzmetal angina", "homozygous familial hypercholesterolemia", "homozygous familial hypercholesterolemia", "hyperthyroidism", "hyperthyroidism"]
+predicted_indications: ["leprosy"]
+description: "Lonafarnib: forudsagt ny indikation Lepra (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lonafarnib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lonafarnib: Fra den oprindelige indikation til leprae
+## Lonafarnib: Lepra (leprosy)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Lonafarnib er en farnesyltransferasehæmmer, der er markedsført i Danmark som Z
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsesteksten er tom) |
-| Forudsagt ny indikation | Lepra |
-| TxGNN-forudsigelsesscore | 99,14 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Lepra (leprosy) |
+| TxGNN-forudsigelsesscore | 0.9914 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,16 +60,12 @@ Lonafarnib er en farnesyltransferasehæmmer, der er markedsført i Danmark som Z
 
 Der foreligger på nuværende tidspunkt ikke detaljerede data om lonafarnibs virkningsmekanisme i de indsamlede data. Lonafarnib er kendt som farnesyltransferasehæmmer. Enzymet farnesylerer proteiner som Ras, og hæmning kan påvirke cellesignalering.
 
-Der er ikke fundet en klar mekanistisk forbindelse mellem farnesyltransferasehæmning og infektion med *Mycobacterium leprae* eller lepras immunpatologi. Den høje score (0,991) er derfor kun en grafbaseret modelforudsigelse og bør ikke tolkes som tegn på klinisk effekt. Da den oprindelige indikation ikke er oplyst, kan sammenhængen mellem oprindelig og ny indikation ikke vurderes.
+Der er ikke fundet en klar mekanistisk forbindelse mellem farnesyltransferasehæmning og infektion med *Mycobacterium leprae* eller lepras immunpatologi. Den høje score (0,9914) er derfor kun en grafbaseret modelforudsigelse og bør ikke tolkes som tegn på klinisk effekt. Da den oprindelige indikation ikke er oplyst, kan sammenhængen mellem oprindelig og ny indikation ikke vurderes.
 
 **Øvrige forudsigelser fra modellen** (alle på evidensniveau L5):
 
 | Forudsagt indikation | Score | Bemærkning |
 |------|------|------|
-| Leddegigt (rheumatoid arthritis) | 98,82 % | Plausibel men indirekte hypotese via Ras/MEK/ERK-signalering. Eneste publikation (PMID 36543278) omhandler en urtemedicinsk formel, ikke lonafarnib |
-| Prinzmetals angina | 98,57 % | Ingen evidens eller mekanistisk begrundelse |
-| Homozygot familiær hyperkolesterolæmi | 98,32 % | Kun spekulativ sammenhæng via prenyleringsbiologi og mevalonatvejen |
-| Hyperthyroidisme | 98,17 % | Ingen evidens eller mekanistisk begrundelse |
 
 ---
 
@@ -125,7 +121,6 @@ Forudsigelsen om lepra bygger udelukkende på modelscore (evidensniveau L5), ude
 - Indhent data om virkningsmekanisme (MOA) fra DrugBank
 - Gennemfør en målrettet litteratursøgning på lonafarnib og lepra (prækliniske data om farnesyltransferase i mykobakterielle infektioner eller værtsimmunrespons)
 - Vurdér de mange alvorlige lægemiddelinteraktioner (især CYP3A-relaterede stoffer) i en eventuel kommende anvendelse
-- Overvej at prioritere leddegigt til yderligere mekanistisk undersøgelse, da den har en plausibel, om end indirekte, hypotese
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

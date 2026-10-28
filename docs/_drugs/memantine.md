@@ -6,9 +6,9 @@ nav_order: 528
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Memantine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (almen viden: Alzheimers demens…"
 monitor_inn: "memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Memantine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Memantin: Fra demens (Alzheimers sygdom) til migræne
+## Memantine: Pulmonary hypertension
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -42,7 +42,7 @@ Memantin er en NMDA-receptorantagonist, som i Danmark er godkendt som filmovertr
 
 *Bemærkning: Memantins oprindelige indikation fremgår ikke af de indsamlede data. Titlen og den oprindelige indikation i oversigten bygger derfor på almen faglig viden (moderat til svær Alzheimers demens) og bør verificeres mod produktresuméet.*
 
-Forudsigelsen med højest score er pulmonal hypertension (99,5 %), men den er kun modelbaseret og uden understøttende studier. Rapporten fokuserer derfor på migræne, som har den stærkeste evidens.
+Forudsigelsen med højest score er pulmonal hypertension (0,9954), men den er kun modelbaseret og uden understøttende studier. Rapporten fokuserer derfor på migræne, som har den stærkeste evidens.
 
 ---
 
@@ -50,12 +50,12 @@ Forudsigelsen med højest score er pulmonal hypertension (99,5 %), men den er ku
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (almen viden: Alzheimers demens, skal verificeres) |
-| Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,52 % |
-| Evidensniveau | L1 (et gennemført fase 3-RCT samt metaanalyser; styrken er begrænset af lille stikprøve) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary hypertension |
+| TxGNN-forudsigelsesscore | 0.9954 |
+| Evidensniveau | L5 (et gennemført fase 3-RCT samt metaanalyser; styrken er begrænset af lille stikprøve) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

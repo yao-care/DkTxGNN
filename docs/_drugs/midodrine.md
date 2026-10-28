@@ -6,9 +6,9 @@ nav_order: 552
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (evidensniveau L5). Oprindelig indikation: Ortostatisk hypotension…"
 monitor_inn: "midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Midodrine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Midodrin: Fra ortostatisk hypotension til variabelt proteasefølsom prionopati
+## Midodrine: Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Midodrin er en perifert virkende alfa-1-adrenerg agonist, som oprindeligt bruges
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ortostatisk hypotension, postural ortostatisk takykardisyndrom (POTS) og multipel systematrofi (fra TxGNN-videngrafen; den danske godkendelse indeholder ingen angivet indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Variabelt proteasefølsom prionopati |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

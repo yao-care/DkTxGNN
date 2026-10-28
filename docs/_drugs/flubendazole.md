@@ -48,10 +48,10 @@ Flubendazol er et benzimidazol-ormemiddel, som i Danmark kun er registreret som 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Urinary bladder carcinoma (blærekræft) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 (kun modelforudsigelse). Den overordnede diagnose "urinary bladder neoplasm" er L4 |
-| Status på det danske marked | Markedsført (kun som veterinærlægemiddel) |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

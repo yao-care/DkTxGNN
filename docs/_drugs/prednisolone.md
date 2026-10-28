@@ -4,17 +4,17 @@ title: Prednisolone
 parent: Høj evidens (L1-L2)
 nav_order: 680
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Autoimmune sygdomme, Crohns sygdom, inflammatorisk tarmsygdom…"
 monitor_inn: "prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Prednisolon: Fra autoimmune og inflammatoriske sygdomme til alopecia areata
+## Prednisolone: Alopecia areata
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -46,12 +46,12 @@ Der er ingen registrerede kliniske forsøg i de indsamlede data, men **20 publik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Autoimmune sygdomme, Crohns sygdom, inflammatorisk tarmsygdom, binyrebarkinsufficiens, akut lymfatisk leukæmi m.fl. (baseret på TxGNN-vidensgrafen; de danske godkendelsesdata indeholder ingen indikationstekst) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-prædiktionsscore | 99,99 % |
+| TxGNN-prædiktionsscore | 0.9999 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er denne forudsigelse rimelig?

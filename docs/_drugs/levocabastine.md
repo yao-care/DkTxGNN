@@ -6,9 +6,9 @@ nav_order: 493
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Levocabastine: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Atopisk, papillær og vernal konjunktivitis"
 monitor_inn: "levocabastine"
 predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
+description: "Levocabastine: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Levocabastine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Levocabastin: Fra allergisk konjunktivitis til allergisk urticaria
+## Levocabastine: Allergisk urticaria (allergic urticaria)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Levocabastin er et antihistamin, som oprindeligt anvendes til behandling af alle
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atopisk, papillær og vernal konjunktivitis (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,18 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Allergisk urticaria (allergic urticaria) |
+| TxGNN-forudsigelsesscore | 0.9918 |
 | Evidensniveau | L5 (kun modelforudsigelse uden direkte studier af indikationen; de tilgængelige artikler er indirekte) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -115,7 +115,7 @@ Forudsigelsen er biologisk plausibel på klasseniveau (H1-antagonisme), men der 
 
 ## Andre forudsagte indikation: Rosacea-konjunktivitis
 
-Levocabastin er også forudsagt til **rosacea-konjunktivitis** (TxGNN-score 99,17 %, evidensniveau L5, beslutning: Hold). Der findes hverken kliniske forsøg eller litteratur. Okulær rosacea er primært drevet af dysfunktion i meibomske kirtler, inflammation i øjenlågskanten, mikrobielle faktorer og Demodex samt medfødt immunrespons og MMP-aktivitet, ikke primært af histaminmedieret allergi. En eventuel gavnlig effekt vil sandsynligvis være begrænset til symptomatisk lindring af kløe.
+Levocabastin er også forudsagt til **rosacea-konjunktivitis** (TxGNN-score 0,9917, evidensniveau L5, beslutning: Hold). Der findes hverken kliniske forsøg eller litteratur. Okulær rosacea er primært drevet af dysfunktion i meibomske kirtler, inflammation i øjenlågskanten, mikrobielle faktorer og Demodex samt medfødt immunrespons og MMP-aktivitet, ikke primært af histaminmedieret allergi. En eventuel gavnlig effekt vil sandsynligvis være begrænset til symptomatisk lindring af kløe.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

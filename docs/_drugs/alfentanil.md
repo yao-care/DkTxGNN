@@ -48,10 +48,10 @@ Alfentanil er en kortvirkende opioid, der er markedsført i Danmark som injektio
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendt indikationstekst er tom) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
-| TxGNN-forudsigelsesscore | 99,51 % |
+| TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Data om alfentanils virkningsmekanisme er ikke tilgængelige i de indsamlede dat
 
 NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2), som giver uhensigtsmæssig vandreabsorption i nyrerne, selv når vasopressinniveauet er undertrykt. Der er ikke noget kendt, plausibelt grundlag for, at en mu-opioidagonist kan korrigere en konstitutivt aktiv V2-receptor. Opioider er tværtimod generelt forbundet med øget ADH-frigivelse eller antidiuretiske effekter, hvilket i værste fald kan forværre hyponatriæmi frem for at behandle den.
 
-Den høje score afspejler sandsynligvis nærhed i videngrafen (f.eks. fælles forbindelser til vand- og elektrolytbalance eller vasopressinrelaterede veje) snarere end en reel terapeutisk sammenhæng. Forudsigelsen bør derfor betragtes som en ren beregningsmæssig hypotese.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor betragtes som en ren beregningsmæssig hypotese.
 
 ---
 

@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **akne**, men evidensen er
 |------|------|
 | Oprindelig indikation | Svampeinfektioner i huden (bl.a. tinea pedis, seboroisk dermatitis, pityriasis versicolor, candidiasis). Den danske godkendelse har ingen angivet indikationstekst. |
 | Forudsagt ny indikation | Akne |
-| TxGNN-forudsigelsesscore | 99,8 % |
+| TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

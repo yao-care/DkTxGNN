@@ -40,7 +40,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 Alfuzosin er en alfa-1-adrenerg receptorantagonist, som oprindeligt anvendes til behandling af **benign prostatahyperplasi**.
 TxGNN-modellen forudsiger, at den kan have effekt på **Ambras-type hypertrichosis universalis congenita**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne forudsigelse. Den høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en biologisk begrundelse.
+men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter denne forudsigelse. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøt
 |------|------|
 | Oprindelig indikation | Benign prostatahyperplasi (indikationsteksten for det danske præparat er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,21 +64,17 @@ Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede dat
 
 Ambras-syndrom er en genetisk betinget tilstand, som skyldes kromosomale omlejringer, der påvirker reguleringen af *TRPS1*. Der er ikke identificeret nogen plausibel sammenhæng mellem alfa-1-blokade og denne genetiske årsag. Den oprindelige og den forudsagte indikation har desuden ingen fælles patofysiologi.
 
-Den høje TxGNN-score afspejler således sandsynligvis nærhed i vidensgrafen og ikke en biologisk begrundelse. Forudsigelsen skal betragtes som en ren modelhypotese.
+Den høje TxGNN-score kommer således fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen skal betragtes som en ren modelhypotese.
 
 Øvrige forudsagte indikationer i rangeringen (alle evidensniveau L5, anbefaling Hold, uden kliniske forsøg eller litteratur):
 
 | Rang | Sygdom | TxGNN-score | Bemærkning |
 |------|------|------|------|
-| 2 | Hypertrichose | 99,99 % | Ingen kendt mekanistisk forbindelse mellem alfa-1-blokade og hårvækst |
-| 3 | Misdannelsessyndrom med tand- og/eller parodontal komponent | 99,99 % | Udviklingsbetinget/genetisk; ingen mekanisme |
-| 4 | Syndrom med Dandy-Walker-malformation | 99,99 % | Strukturel medfødt defekt; kan ikke korrigeres symptomatisk |
-| 5 | Isoleret genetisk hårskaftsabnormitet | 99,99 % | Strukturelle genfejl; ingen kendt effekt |
-| 6 | Familiær isoleret trichomegali | 99,94 % | Benign tilstand; svagt risiko-nytte-grundlag |
-| 7 | Allergisk urticaria | 99,90 % | Histaminmedieret; alfuzosin er sjældent rapporteret at give overfølsomhed |
-| 8 | Persisterende føtal cirkulation | 99,52 % | Overfladisk vasodilatationsrationale, men risiko for systemisk hypotension hos nyfødte og ingen pædiatriske sikkerhedsdata |
-| 9 | Hypotrichosis simplex af hovedbunden | 99,27 % | Genetisk hårtab; ingen mekanisme |
-| 10 | Medfødt hypotrichosis med milia | 99,23 % | Sjælden medfødt tilstand; ingen kendt forbindelse |
+| 6 | Familiær isoleret trichomegali | 0,9994 | Benign tilstand; svagt risiko-nytte-grundlag |
+| 7 | Allergisk urticaria | 0,9990 | Histaminmedieret; alfuzosin er sjældent rapporteret at give overfølsomhed |
+| 8 | Persisterende føtal cirkulation | 0,9952 | Overfladisk vasodilatationsrationale, men risiko for systemisk hypotension hos nyfødte og ingen pædiatriske sikkerhedsdata |
+| 9 | Hypotrichosis simplex af hovedbunden | 0,9927 | Genetisk hårtab; ingen mekanisme |
+| 10 | Medfødt hypotrichosis med milia | 0,9923 | Sjælden medfødt tilstand; ingen kendt forbindelse |
 
 ---
 

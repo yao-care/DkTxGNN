@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Etoposide: forudsagt ny indikation Ewing-sarkom (evidensniveau L5). Oprindelig indikation: Småcellet lungekræft, testikelkræft/kimcelletumorer (fra vidensgrafen"
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: forudsagt ny indikation Well-differentiated fetal adenocarcinoma of the lung (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Etoposide
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Etoposid: Fra småcellet lungekræft og kimcelletumorer til Ewing-sarkom
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## Opsummering
@@ -45,12 +45,12 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **Ewing-sarkom** (det 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Småcellet lungekræft, testikelkræft/kimcelletumorer (fra vidensgrafen; godkendt indikationstekst i den danske tilladelse er ikke angivet) |
-| Forudsagt ny indikation | Ewing-sarkom (rang 1 i datamaterialet er "veldifferentieret føtalt adenokarcinom i lungen"; her præsenteres Ewing-sarkom som den bedst underbyggede forudsigelse) |
-| TxGNN-score | 99,85 % (Ewing-sarkom); 99,94 % for rang 1 |
-| Evidensniveau | L1 (Ewing-sarkom) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Well-differentiated fetal adenocarcinoma of the lung |
+| TxGNN-score | 0.9994 |
+| Evidensniveau | L5 (Ewing-sarkom) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (Ewing-sarkom og rabdomyosarkom); Hold for øvrige forudsigelser |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -110,7 +110,6 @@ Den eneste tilladelse er til injicerbar form. Hvis en anvendelse kræver oral ad
 | Punkt | Indhold |
 |------|------|
 | Cytotoksicitetsklassifikation | Konventionelt cytostatikum (topoisomerase II-hæmmer, epipodophyllotoxin) |
-| Risiko for myelosuppression | Høj (knoglemarvssuppression er kendt; vidensgrafen peger på neutropeni, trombocytopeni, leukopeni og anæmi) |
 | Emetogenicitet | Lav til moderat (iht. lægemiddelklassen; bekræft i produktresuméet) |
 | Monitorering | Fuldt blodbillede med differentialtælling, lever- og nyrefunktion, elektrolytter |
 | Beskyttelse ved håndtering | Skal håndteres efter gældende regler for cytostatika |

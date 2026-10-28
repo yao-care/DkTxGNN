@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 ## Resumé i én sætning
 
-Remimazolam er en ultrakortvirkende benzodiazepin, som i Danmark er markedsført som Byfavo til intravenøs sedation. TxGNN-modellen forudsiger, at den kan være effektiv mod **insomni** (score 99,91 %), men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Evidensen består udelukkende af modelforudsigelsen.
+Remimazolam er en ultrakortvirkende benzodiazepin, som i Danmark er markedsført som Byfavo til intravenøs sedation. TxGNN-modellen forudsiger, at den kan være effektiv mod **insomni** (score 0,9991), men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Evidensen består udelukkende af modelforudsigelsen.
 
 ---
 
@@ -48,13 +48,13 @@ Remimazolam er en ultrakortvirkende benzodiazepin, som i Danmark er markedsført
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de tilgængelige data (godkendt indikationstekst er tom for den danske tilladelse; produktet anvendes som intravenøst beroligende middel) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Der er også en anden forudsigelse, **alkoholabstinensdelirium** (score 99,30 %, evidensniveau L5), som er beskrevet nedenfor som et forskningsspørgsmål.
+Bemærk: Der er også en anden forudsigelse, **alkoholabstinensdelirium** (score 0,9930, evidensniveau L5), som er beskrevet nedenfor som et forskningsspørgsmål.
 
 ---
 

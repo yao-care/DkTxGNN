@@ -6,9 +6,9 @@ nav_order: 601
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (evidensniveau L5). Oprindelig indikation: Akromegali, hyperpituitarisme, karcinoidsyndrom (fra videngrafen"
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Octreotide
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Octreotid: Fra akromegali til vulvær inverteret follikulær keratose
+## Octreotide: Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Octreotid er en somatostatinanalog, som oprindeligt anvendes til behandling af a
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akromegali, hyperpituitarisme, karcinoidsyndrom (fra videngrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Vulvær inverteret follikulær keratose |
-| TxGNN-forudsigelsesscore | 99,58 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) |
+| TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er in
 
 Der er ikke fundet data, der understøtter en mekanistisk sammenhæng mellem somatostatinreceptorsignalering og patofysiologien bag inverteret follikulær keratose, som er en godartet epitelial læsion. En hypotetisk forbindelse kunne være, at hæmning af væksthormon/IGF-1-signalering påvirker keratinocytternes proliferation. Dette er imidlertid uverificeret og spekulativt.
 
-Det samme gælder den næstrangerede forudsigelse, **seboroisk keratose** (score 99,55 %). Her kan vækstfaktorsignalering (FGFR3/PIK3CA-mutationer) teoretisk spille en rolle, men der er ingen kliniske forsøg eller litteratur, der understøtter det.
+Det samme gælder den næstrangerede forudsigelse, **seboroisk keratose** (score 0,9955). Her kan vækstfaktorsignalering (FGFR3/PIK3CA-mutationer) teoretisk spille en rolle, men der er ingen kliniske forsøg eller litteratur, der understøtter det.
 
 ---
 

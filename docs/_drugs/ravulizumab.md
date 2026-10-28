@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ravulizumab: forudsagt ny indikation Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri (PNH)"
 monitor_inn: "Ravulizumab"
-predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "cyclic hematopoiesis", "primary hyperoxaluria", "primary hyperoxaluria", "severe congenital neutropenia", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"]
+predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
+last_modified_at: 2026-10-23
+description: "Ravulizumab: forudsagt ny indikation Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri"
 ---
 
 # Ravulizumab
@@ -38,88 +38,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé
 
-Ravulizumab er et langtidsvirkende anti-C5-monoklonalt antistof, som oprindeligt anvendes til behandling af **paroksysmal nattlig hæmoglobinuri (PNH)**.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel**,
-men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen.
-
----
+Ravulizumab er et langtidsvirkende antistof mod komplementfaktor C5, og relationen til paroksysmal nattlig hæmoglobinuri er registreret i vidensgrafen. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel**. Der er dog **ingen kliniske forsøg og ingen publikationer** i de indsamlede data, så forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Paroksysmal nattlig hæmoglobinuri (PNH) |
+| Oprindelig indikation | Paroksysmal nattlig hæmoglobinuri (relation registreret i vidensgrafen; der er ingen godkendelsestekst i de danske registerdata) |
 | Forudsagt ny indikation | Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+Der er på nuværende tidspunkt ikke tilgængelige data om den detaljerede virkningsmekanisme i de data, der er indsamlet til denne rapport. Ravulizumab er kendt som en C5-hæmmer, der blokerer den terminale komplementaktivering, og relationen til paroksysmal nattlig hæmoglobinuri, som er komplementmedieret hæmolyse, er registreret i vidensgrafen.
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er udarbejdet til denne rapport. Ravulizumab er dog kendt som et anti-C5-antistof, der hæmmer den terminale komplementaktivering. Effekten ved PNH er veldokumenteret, da sygdommen skyldes komplementmedieret nedbrydning af røde blodlegemer.
+G6PC3-mangel giver neutropeni via forstyrret glukosemetabolisme og øget apoptose i neutrofile granulocytter, ikke via C5-aktivering. Der er derfor ikke noget etableret mekanistisk link mellem ravulizumab og denne sygdom. Den høje score er alene en modelforudsigelse.
 
-Der er ikke identificeret en understøttende mekanistisk sammenhæng mellem denne virkningsmekanisme og den forudsagte indikation. G6PC3-mangel giver neutropeni via nedsat glukose-6-phosphatase-aktivitet, ophobning af 1,5-anhydroglucitol-6-phosphat samt apoptose og ER-stress i neutrofile granulocytter. Komplement C5 er ikke en etableret drivkraft i denne mekanisme. Den høje TxGNN-score er udelukkende en vidensgraf-baseret forudsigelse.
+Til sammenligning er de øvrige forudsigelser i toppen af listen (cyklisk hæmatopoese, svær medfødt neutropeni, CXCR2-mangel, X-bundet svær medfødt neutropeni, pseudo-von Willebrands sygdom, primær frigørelsesdefekt i blodplader, megaloblastær anæmi m.fl.) heller ikke understøttet af forsøg eller litteratur. Primær hyperoxaluri har et svagt, indirekte rationale (komplement og krystalinduceret nyreskade), men der er ingen kliniske data, og godkendte RNAi-behandlinger rammer den metaboliske årsag. Ved p14-mangel (immundefekt) er der desuden en sikkerhedsbekymring, da C5-hæmning øger risikoen for infektioner med indkapslede bakterier.
 
-Terminal komplementblokade øger desuden risikoen for infektioner med indkapslede bakterier (fx meningokokker). Det er en væsentlig bekymring hos patienter, der allerede er neutropene og infektionsudsatte.
-
-**Øvrige forudsagte indikationer (alle med score over 99,8 % og evidensniveau L5):**
-
-| Forudsagt indikation | TxGNN-score | Vurdering af mekanistisk sammenhæng |
-|------|------|------|
-| Cyklisk hæmatopoese (cyklisk neutropeni) | 99,94 % | Ingen. Skyldes typisk ELANE-mutationer, ikke C5-aktivitet. |
-| Primær hyperoxaluri | 99,90 % | Ingen direkte. Kun en spekulativ, indirekte forbindelse via krystalinduceret inflammation, men det adresserer ikke oxalatproduktionen. |
-| Svær medfødt neutropeni | 99,87 % | Ingen. Skyldes iboende defekter i myeloid differentiering eller neutrofil overlevelse. |
-| Autosomal recessiv svær medfødt neutropeni på grund af CXCR2-mangel | 99,86 % | Ingen. CXCR2 er en kemokinreceptorvej uden relation til C5-spaltning. |
-
----
-
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
 ## Litteraturevidens
 
-Der foreligger i øjeblikket ingen relateret litteratur.
-
----
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106375119 | Ultomiris (Alexion Europe SAS) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de udarbejdede data |
+| 28106375119 | Ultomiris (Alexion Europe SAS) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
 
----
+Antallet af tilladelser er 1, og listen er ikke delvis.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra vidensgraf, ikke produktresumé):** Meningokokinfektion er registreret som kontraindikation i vidensgrafen.
-- **Lægemiddelinteraktioner:** Der er identificeret 4 interaktioner, alle af graden **mindre (Minor)**, med humant immunglobulin G (intravenøst, subkutant, intramuskulært samt intravenøst og subkutant).
-- **Særlig risiko ved de forudsagte indikationer:** Komplementblokade øger risikoen for alvorlige infektioner med indkapslede bakterier, hvilket er særligt problematisk ved neutropeni.
+- **Kontraindikation registreret i vidensgrafen** (ikke fra produktresuméet): meningokokinfektion.
+- **Lægemiddelinteraktioner:** 4 interaktioner af graden "mindre" er fundet, alle med humant immunglobulin G (intravenøst, subkutant, intramuskulært samt intravenøst og subkutant).
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da advarsler og kontraindikationer fra produktresuméet ikke indgår i de udarbejdede data.
-
----
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC). Bemærk at C5-hæmning generelt indebærer risiko for alvorlige infektioner med indkapslede bakterier, især *Neisseria*, hvilket bør vurderes nøje i en eventuel ny population.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en vidensgraf-model uden kliniske forsøg, litteratur eller en identificeret mekanistisk sammenhæng (evidensniveau L5). Den øgede infektionsrisiko ved komplementblokade hos neutropene patienter taler yderligere imod at gå videre.
+Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikationer, og der er ikke noget plausibelt mekanistisk link mellem C5-hæmning og G6PC3-mangel. Infektionsrisikoen ved C5-hæmning vejer desuden tungt hos patienter med neutropeni.
 
-**For at gå videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA) og en reel mekanistisk begrundelse for C5-hæmning ved den forudsagte sygdom
-- Præklinisk eller anden understøttende evidens for en rolle for komplement i G6PC3-mangel
-- Gennemgang af produktresuméets advarsler og kontraindikationer (fx fra Lægemiddelstyrelsens hjemmeside)
-- Vurdering af infektionsrisiko og vaccinations-/profylakseplan (meningokokker) for den pågældende patientgruppe
-- Afklaring af godkendt indikationstekst for Ultomiris i Danmark
+**For at komme videre kræves:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Advarsler og kontraindikationer fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen
+- Prækliniske eller mekanistiske studier, der kobler komplement C5 til sygdommens patologi
+- Systematisk litteratursøgning og registersøgning efter forsøg, der direkte omhandler sygdommen
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

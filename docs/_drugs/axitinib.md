@@ -4,17 +4,17 @@ title: Axitinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 91
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Axitinib: forudsagt ny indikation Nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusion… (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom (klarcellet, ikke-papillært…"
+indication_count: 4
 monitor_inn: "Axitinib"
-predicted_indications: ["liposarcoma", "liposarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-23
+description: "Axitinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom"
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Axitinib: Fra nyrecellekarcinom til nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner
+## Axitinib: Fra nyrecellekarcinom til liposarkom
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Axitinib er en oral tyrosinkinasehæmmer, der oprindeligt anvendes til behandling af nyrecellekarcinom (herunder klarcellet type).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner**,
-og der findes **1 klinisk forsøg** (fase 2, 15 patienter, ingen offentliggjorte resultater) og **ingen publikationer** for netop denne indikation.
+Axitinib er en tyrosinkinasehæmmer, som oprindeligt er registreret i vidensgrafen til behandling af nyrecellekarcinom. TxGNN-modellen forudsiger, at den kan have effekt ved **liposarkom**, men der er hverken registrerede kliniske forsøg eller kliniske publikationer. Evidensen består af **1 præklinisk publikation**, og forudsigelsen er derfor overvejende beregningsbaseret.
 
 ---
 
@@ -48,47 +46,49 @@ og der findes **1 klinisk forsøg** (fase 2, 15 patienter, ingen offentliggjorte
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Nyrecellekarcinom (klarcellet, ikke-papillært, nyrecelleadenokarcinom). Godkendelsesteksten i den danske tilladelse er ikke angivet i de indsamlede data, så indikationerne stammer fra TxGNN-vidensgrafen |
-| Forudsagt ny indikation | Nyrecellekarcinom forbundet med Xp11.2-translokationer/TFE3-genfusioner |
-| TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L2 (designmæssigt signal fra ét randomiseret fase 2-forsøg; ikke påvist effekt) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
+| Oprindelig indikation | Nyrecellekarcinom (relation registreret i vidensgrafen; den danske tilladelse indeholder ingen indikationstekst i de foreliggende data) |
+| Forudsagt ny indikation | Liposarkom |
+| TxGNN-forudsigelsesscore | 0,9987 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Axitinib er dog kendt som en hæmmer af VEGF-receptorerne 1-3 (VEGFR1-3), og dets effekt ved nyrecellekarcinom er veletableret. Mekanistisk kan det derfor være relevant for beslægtede nyrecellesubtyper.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Axitinib er dog kendt som en hæmmer af VEGF-receptorerne 1, 2 og 3 med antiangiogen effekt. Den antiangiogene virkning er veletableret for stoffets primære anvendelse ved nyrecellekarcinom, som er en stærkt vaskulariseret tumor.
 
-Nyrecellekarcinom med Xp11.2/TFE3-translokation er en ikke-klarcellet subtype, hvor der er rapporteret følsomhed over for VEGFR-rettet behandling. Hæmning af angiogenese kan derfor give en rationel baggrund. Kombinationen med nivolumab (PD-1-blokade) tilføjer en immunterapeutisk komponent.
+Liposarkom, især den myxoide undertype, har et fremtrædende plexiformt kapillærnetværk. Det giver en plausibel biologisk begrundelse for at hæmme VEGF-receptorer. En enkelt præklinisk publikation (PMID 27822137) beskriver antiangiogen og antitumorigen aktivitet af axitinib i modeller af myxoid liposarkom.
 
-Bemærk, at den høje TxGNN-score sandsynligvis afspejler den tætte relation til den overordnede diagnose nyrecellekarcinom og ikke selvstændig dokumentation for denne subtype.
+Dette er indirekte evidens fra cellelinjer og modelsystemer. Den meget høje TxGNN-score er en beregningsmæssig forudsigelse og kan ikke erstatte kliniske data. Publikationen vedrører desuden kun den myxoide undertype og ikke liposarkom generelt.
+
+**Evidensniveau:** Det enkelte studie er præklinisk og undersøger myxoid liposarkom, en undertype af den forudsagte sygdom. Der er imidlertid ingen kliniske forsøg eller kliniske publikationer. Evidensniveauet er derfor angivet som L5 efter den konservative vurdering, at der ikke foreligger tilstrækkelig direkte klinisk dokumentation for sygdommen. Den prækliniske publikation indgår som støtte for hypotesen.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Aktivt, rekrutterer ikke | 15 | Randomiseret sammenligning af axitinib + nivolumab versus nivolumab alene ved inoperabelt eller metastatisk TFE/translokations-nyrecellekarcinom i alle aldersgrupper. Planlagt afslutning: nov. 2026. Ingen resultater tilgængelige |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er for øjeblikket ingen relateret litteratur for denne indikation.
-
-Til oplysning findes der for andre forudsagte indikationer: en oversigtsartikel om avanceret pædiatrisk nyrecellekarcinom ([31012542](https://pubmed.ncbi.nlm.nih.gov/31012542/), 2019), en case report om axitinib hos et barn med malignt epiteloidt angiomyolipom ([26279736](https://pubmed.ncbi.nlm.nih.gov/26279736/), 2015) og et præklinisk studie ved myxoid liposarkom ([27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/), 2016). Disse understøtter ikke direkte den indikation, der er i fokus her.
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Præklinisk studie | Sarcoma | Axitinib viste antiangiogen og antitumorigen aktivitet i modeller af myxoid liposarkom, efter screening af flere målrettede lægemidler og kemoterapeutika mod cellelinjer |
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106940523 | Axitinib "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+| 28106940523 | Axitinib "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
+
+Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gyldig. Administrationsvejen er oral.
 
 ---
 
@@ -96,41 +96,40 @@ Til oplysning findes der for andre forudsagte indikationer: en oversigtsartikel 
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Målrettet behandling (tyrosinkinasehæmmer, VEGFR), ikke konventionel cytotoksisk kemoterapi |
+| Klassifikation | Målrettet behandling (tyrosinkinasehæmmer, VEGFR-hæmmer) |
 | Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklasse | Se produktresuméet (SmPC) |
-| Monitorering | Se produktresuméet (SmPC) for anbefalede kontroller |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer |
-
-Der henvises til advarsler og forsigtighedsregler i produktresuméet (SmPC).
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Overvågning | Se produktresuméet (SmPC); typisk blodtryk, proteinuri, skjoldbruskkirtel- og leverfunktion |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer for håndtering af cytostatika |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Data om advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC).
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-**Lægemiddelinteraktioner** (100 interaktioner registreret; udvalgte nedenfor):
-- **Alvorlige (Major):** clarithromycin, dexamethason
-- **Moderate:** aprepitant, clotrimazol, miconazol, naltrexon
-- **Mindre (Minor):** bl.a. famotidin, ranitidin, cimetidin, protonpumpehæmmere (rabeprazol, esomeprazol, lansoprazol, dexlansoprazol) og antacida (aluminiumhydroxid, calciumcarbonat, magnesiumsalte)
+**Lægemiddelinteraktioner:** Der er identificeret 100 registrerede interaktioner. Blandt de viste er de vigtigste:
+- **Alvorlige (Major):** clarithromycin og dexamethason
+- **Moderate:** aprepitant, clotrimazol, miconazol og naltrexon
+- **Lette (Minor):** bl.a. famotidin, ranitidin, cimetidin, nizatidin, protonpumpehæmmere (rabeprazol, esomeprazol, lansoprazol, dexlansoprazol) samt syreneutraliserende midler (aluminiumhydroxid, calciumcarbonat, magnesiumsalte, magaldrat)
+
+Interaktionerne med clarithromycin og dexamethason bør vurderes særligt, da de er klassificeret som alvorlige.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Axitinib er markedsført i Danmark og har en veletableret rolle ved nyrecellekarcinom, og der pågår et randomiseret fase 2-forsøg ved TFE3-translokationskarcinom. Forsøget er dog meget lille (n=15), uden tilgængelige resultater, og der er ingen supplerende litteratur. Evidensen er derfor kun et designmæssigt signal. Øvrige forudsagte indikationer (f.eks. neuroblastomassocieret og uklassificeret nyrecellekarcinom, pædiatrisk nyrecellekarcinom og liposarkom) har kun prædiktions-, case- eller præklinisk evidens og bør afvente (Hold).
+Forudsigelsen understøttes kun af én præklinisk publikation om myxoid liposarkom og ingen kliniske forsøg. Evidensniveauet er L5, og de nuværende data er utilstrækkelige til at gå videre til klinisk anvendelse.
 
 **For at komme videre kræves:**
-- Resultater fra NCT03595124 (forventet afslutning nov. 2026)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Gennemgang af produktresuméets advarsler og kontraindikationer (blokerende datahul for sikkerhedsscreening)
-- Afklaring af godkendt indikationstekst for den danske tilladelse
-- Sikkerhedsovervågningsplan, herunder håndtering af interaktioner med CYP3A4-hæmmere/-induktorer (f.eks. clarithromycin, dexamethason)
-- For pædiatriske patienter: dosis- og sikkerhedsdata for axitinib
+- Kliniske data (fase 2-forsøg eller systematisk indsamlede kasuistiske data) ved liposarkom
+- Yderligere præklinisk validering på tværs af liposarkomets undertyper
+- Data om virkningsmekanisme fra DrugBank
+- Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- En vurdering af lægemiddelinteraktioner, især med clarithromycin og dexamethason
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

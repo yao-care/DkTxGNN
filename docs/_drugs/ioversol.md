@@ -4,17 +4,17 @@ title: Ioversol
 parent: Kun modelforudsigelse (L5)
 nav_order: 450
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ioversol: forudsagt ny indikation Slidgigt – \"osteoarthritis susceptibility\" (genetisk modtagelighed) e… (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (kontraststof til…"
+indication_count: 9
 monitor_inn: "Ioversol"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis susceptibility", "osteoarthritis", "osteoarthritis", "rheumatoid arthritis", "rheumatoid arthritis", "brachyolmia", "brachyolmia", "hemoglobinopathy", "hemoglobinopathy"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
+last_modified_at: 2026-10-23
+description: "Ioversol: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data . Stoffet er et kontrastmiddel til b…"
 ---
 
 # Ioversol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,90 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ioversol: Fra radiologisk kontraststof til slidgigt (osteoarthritis)
+## Ioversol: Fra kontrastmiddel til osteoartrose
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Ioversol er et jodholdigt, non-ionisk røntgenkontraststof, som anvendes til billeddiagnostik. TxGNN-modellen forudsiger, at det kan have effekt på **slidgigt (osteoarthritis)**, men der er **ingen kliniske forsøg** og kun **1 publikation** med indirekte tilknytning, og den beskriver ikke ioversol som behandling. Forudsigelsen er derfor kun støttet af modellen.
+Ioversol er et jodholdigt røntgenkontrastmiddel, som markedsføres i Danmark under navnet Optiray. Der foreligger ingen godkendt indikationstekst i de data, der er samlet til denne rapport.
+TxGNN-modellen forudsiger, at stoffet kan have effekt ved **osteoartrose**, men der er **0 kliniske forsøg** og **1 publikation**, og publikationen undersøger ikke ioversol som behandling. Forudsigelsen er derfor et modelresultat uden klinisk støtte.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (kontraststof til billeddiagnostik) |
-| Forudsagt ny indikation | Slidgigt – "osteoarthritis susceptibility" (genetisk modtagelighed) er den højest rangerede forudsigelse; "osteoarthritis" er rangeret som nr. 3 |
-| TxGNN-forudsigelsesscore | 99,67 % (osteoarthritis susceptibility); 99,63 % (osteoarthritis) |
-| Evidensniveau | L5 (kun modelforudsigelse) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke oplyst i de indsamlede data (licenstekst er tom). Stoffet er et kontrastmiddel til billeddiagnostik. |
+| Forudsagt ny indikation | Osteoartrose |
+| TxGNN-forudsigelsesscore | 0,9963 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+---
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om ioversols virkningsmekanisme. Ioversol er et jodholdigt, non-ionisk kontraststof, der dæmper røntgenstråler og bruges til at fremstille blodkar og væv. Det har ikke kendt farmakologisk virkning på sygdomsprocesser i led eller på genetisk modtagelighed for slidgigt.
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Den eneste tilknyttede publikation (LipioJoint-1, PMID 38102013) undersøger embolisering af knæets arterier med en olieemulsion baseret på ethiodiseret olie (Lipiodol), ikke ioversol. Ioversol ville i den sammenhæng højst være billeddannende hjælpemiddel. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til kontraststoffer brugt i led- eller karprocedurer, ikke dokumenteret effekt.
+Der foreligger ingen detaljerede data om virkningsmekanisme. Ioversol er et jodholdigt kontrastmiddel, der anvendes til billeddiagnostik, og stoffet har ingen kendt farmakologisk ledgigtshæmmende eller bruskbeskyttende virkning.
 
-De øvrige forudsigelser (leddegigt, brachyolmi, hæmoglobinopati) mangler ligeledes et troværdigt mekanistisk grundlag. For hæmoglobinopatier kan jodholdige kontraststoffer snarere give sikkerhedsbekymringer i visse tilfælde (fx seglcellesygdom).
+Den eneste tilknyttede publikation (LipioJoint-1, 2024) omhandler embolisering af knæets arterier (genicular artery embolization) ved knæartrose med en jodholdig olieemulsion (Lipiodol). Det er ikke ioversol, og ioversol kan højst have en rolle som billeddiagnostisk eller procedurerelateret hjælpestof. Publikationen undersøger altså ikke ioversol som behandling af sygdommen.
 
-## Klinisk evidens
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor betragtes som et forskningsspørgsmål og ikke som en behandlingshypotese med klinisk grundlag.
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+---
 
-## Litteraturevidens
+## Evidens fra kliniske forsøg
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Evidens fra litteraturen
+
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Interventionsstudie (enkeltarmet) | Diagnostic and Interventional Imaging | LipioJoint-1: sikkerhed og effekt af forbigående embolisering af knæets arterier med ethiodiseret olie ved knæslidgigt. Ioversol er ikke det behandlende middel. |
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Klinisk studie (embolisering) | Diagnostic and Interventional Imaging | LipioJoint-1: sikkerhed og effekt af midlertidig embolisering af knæets arterier med jodholdig olieemulsion ved knæartrose. Studiet omhandler ikke ioversol som behandling. |
 
-## Markedsinformation i Danmark
+---
+
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101877497 | Optiray (Guerbet) | Injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+| 28101877497 | Optiray (Guerbet) | Injektions-/infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
+
+---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen gav 100 registrerede interaktioner. Blandt de vigtigste er der markeret som **alvorlige (Major)**:
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i alt. Blandt de angivne er følgende klassificeret som **alvorlige (Major)**:
 - Metformin
-- Amphotericin B (inkl. lipidkompleks, kolesterylsulfat og liposomal form)
+- Amphotericin B (herunder lipidkompleks, kolesterylsulfat og liposomal form)
 - Mesalazin, balsalazid, olsalazin og sulfasalazin
 - Vancomycin
-- Aminoglykosiderne kanamycin, neomycin og streptomycin
+- Kanamycin, neomycin og streptomycin
 - Polymyxin B
 
-Mannitol er markeret som moderat. Atropin, famotidin, acetylsalicylsyre, morfin og omeprazol er angivet med ukendt niveau.
+Mannitol er klassificeret som **moderat**. Atropin, famotidin, acetylsalicylsyre, morfin og omeprazol er klassificeret som **ukendt** niveau.
 
-Øvrige oplysninger om advarsler og kontraindikationer foreligger ikke i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Yderligere advarsler og kontraindikationer findes i den godkendte produktresumé (SmPC) for Optiray.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en computermodel (L5/L4). Der er ingen kliniske forsøg, ingen plausibel virkningsmekanisme, og den eneste publikation omhandler et andet middel. Ioversol er desuden et diagnostisk kontraststof uden kendt sygdomsmodificerende effekt.
+Ingen publikation eller forsøg undersøger ioversol ved osteoartrose, og der er ingen plausibel farmakologisk mekanisme. Forudsigelsen er derfor et rent modelresultat (evidensniveau L5). Andre forudsagte sygdomme (bl.a. leddegigt, brachyolmi, hæmoglobinopati og alopeci) har heller ingen støtte.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) og en vurdering af, om en biologisk sammenhæng overhovedet er plausibel
-- Præklinisk eller mekanistisk evidens for effekt på slidgigt
-- Gennemgang af produktresuméet (advarsler og kontraindikationer), da disse data mangler
-- Afklaring af administrationsvej og relevans, da kontraststoffet gives som injektion/infusion
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme og en biologisk begrundelse for effekt ved osteoartrose
+- Præklinisk eller klinisk evidens, der direkte undersøger ioversol ved sygdommen
+- Gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af, om en terapeutisk anvendelse overhovedet er forenelig med et kontrastmiddel til intravaskulær brug
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

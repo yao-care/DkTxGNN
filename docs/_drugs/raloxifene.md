@@ -48,10 +48,10 @@ Raloxifen er en selektiv østrogenreceptormodulator (SERM), der oprindeligt anve
 |------|------|
 | Oprindelig indikation | Postmenopausal osteoporose / osteoporose (den godkendte indikationstekst for det danske præparat indgår ikke i de indsamlede data) |
 | Forudsagt ny indikation | Duodenalsår |
-| TxGNN-forudsigelsesscore | 99,72 % |
+| TxGNN-forudsigelsesscore | 0,9972 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,9 +60,9 @@ Raloxifen er en selektiv østrogenreceptormodulator (SERM), der oprindeligt anve
 
 Detaljerede data om raloxifens virkningsmekanisme foreligger ikke i de indsamlede data. Raloxifen er kendt som en selektiv østrogenreceptormodulator, og dets effekt ved osteoporose hos kvinder efter overgangsalderen er veldokumenteret. Mekanistisk kunne man spekulere i, at østrogenreceptorsignalering påvirker slimhindebeskyttelse eller inflammation i mave-tarmkanalen, men dette er hverken understøttet eller verificeret af de foreliggende data.
 
-Der er ikke påvist nogen klar sammenhæng mellem osteoporose og duodenalsår. Den høje score (0,997) er en vidensgrafbaseret forudsigelse og er ikke i sig selv bevis for effekt. Forudsigelsen bør derfor betragtes som en hypotese, der kræver et dedikeret litteraturstudie, før den prioriteres.
+Der er ikke påvist nogen klar sammenhæng mellem osteoporose og duodenalsår. Den høje score (0,9972) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og er ikke biologisk evidens for effekt. Forudsigelsen bør derfor betragtes som en hypotese, der kræver et dedikeret litteraturstudie, før den prioriteres.
 
-Til orientering har modellen også genereret andre forudsigelser med næsten identiske scorer (hypoalfalipoproteinæmi, duodenal obstruktion og duodenogastrisk refluks). Det tyder på, at scorerne delvis afspejler fælles nærhed i vidensgrafen snarere end sygdomsspecifikke signaler.
+Til orientering har modellen også genereret andre forudsigelser med næsten identiske scorer (hypoalfalipoproteinæmi 0,9965, duodenal obstruktion 0,9964 og duodenogastrisk refluks 0,9959). Det tyder på, at scorerne delvis afspejler ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end sygdomsspecifikke signaler.
 
 ---
 

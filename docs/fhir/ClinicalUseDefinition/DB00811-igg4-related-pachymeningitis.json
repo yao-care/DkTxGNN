@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00811",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00811"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "igg4-related-pachymeningitis",
-          "display": "IgG4-related pachymeningitis"
-        }
-      ],
-      "text": "IgG4-related pachymeningitis"
+      "concept": {
+        "text": "IgG4-related pachymeningitis"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9944
     }
   ]
 }

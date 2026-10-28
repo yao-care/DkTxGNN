@@ -4,7 +4,7 @@ title: Clofarabine
 parent: Høj evidens (L1-L2)
 nav_order: 208
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clofarabine: forudsagt ny indikation Myeloid leukæmi (evidensniveau L1). Oprindelig indikation: Akut lymfoblastær leukæmi (ALL)"
 monitor_inn: "clofarabine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 # Clofarabine
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ Clofarabin er et purinnukleosidanalog, der oprindeligt anvendes til behandling a
 |------|------|
 | Oprindelig indikation | Akut lymfoblastær leukæmi (ALL) |
 | Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
-*Bemærkning: Data fra Lægemiddelstyrelsen indeholder ingen godkendt indikationstekst. Den oprindelige indikation er derfor hentet fra TxGNN-vidensgrafen.*
+*Bemærkning: Data fra Lægemiddelstyrelsen indeholder ingen godkendt indikationstekst. Den oprindelige indikation er derfor hentet fra TxGNN-modellen (deep learning), og scoren kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.*
 
 ---
 
@@ -164,15 +164,14 @@ Der foreligger ingen tilgængelige data fra produktresuméet om advarsler og kon
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Prækursor-lymfoblastær lymfom/leukæmi | 99,57 % | L2 | Proceed with Guardrails |
-| Blastfase kronisk myeloid leukæmi (BCR-ABL1-positiv) | 99,43 % | L2 | Forskningsspørgsmål |
-| Neuroblastom | 99,52 % | L4 | Hold |
-| Ganglioneuroblastom | 99,53 % | L5 | Hold |
-| Retroperitoneal neoplasme | 99,44 % | L5 | Hold |
-| Vertebrale anomalier med endokrin og T-celle-dysfunktion | 99,46 % | L5 | Hold |
-| Kronisk lymfatisk leukæmi (to subtyper) | 99,26 % | L5 | Hold |
+| Blastfase kronisk myeloid leukæmi (BCR-ABL1-positiv) | 0,9943 | L5 | Forskningsspørgsmål |
+| Neuroblastom | 0,9952 | L4 | Hold |
+| Ganglioneuroblastom | 0,9953 | L5 | Hold |
+| Retroperitoneal neoplasme | 0,9944 | L5 | Hold |
+| Vertebrale anomalier med endokrin og T-celle-dysfunktion | 0,9946 | L5 | Hold |
+| Kronisk lymfatisk leukæmi (to subtyper) | 0,9926 | L5 | Hold |
 
-*Bemærkning: Akut lymfoblastær leukæmi (score 99,31 %) er den allerede godkendte indikation og er derfor ikke en egentlig repurposing-kandidat.*
+*Bemærkning: Akut lymfoblastær leukæmi er den allerede godkendte indikation og er derfor ikke en egentlig repurposing-kandidat.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

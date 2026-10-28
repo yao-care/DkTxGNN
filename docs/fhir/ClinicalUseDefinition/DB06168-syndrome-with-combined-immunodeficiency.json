@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB06168",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB06168"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "syndrome-with-combined-immunodeficiency",
-          "display": "syndrome with combined immunodeficiency"
-        }
-      ],
-      "text": "syndrome with combined immunodeficiency"
+      "concept": {
+        "text": "syndrome with combined immunodeficiency"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9971
     }
   ]
 }

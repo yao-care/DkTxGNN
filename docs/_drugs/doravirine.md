@@ -4,17 +4,17 @@ title: Doravirine
 parent: Kun modelforudsigelse (L5)
 nav_order: 276
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra vidensgrafen"
 monitor_inn: "DORAVIRINE"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Doravirine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Doravirin: Fra HIV-infektion til simian immundefektvirus-infektion
+## Doravirine: Simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der foreligger **0 kliniske forsøg** og **1 publikation** (om et andet læg
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er tom) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
-| TxGNN-forudsigelsesscore | 99,93 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
+| TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,11 +62,11 @@ men der foreligger **0 kliniske forsøg** og **1 publikation** (om et andet læg
 
 Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de indsamlede data. Doravirin er dog kendt som en NNRTI med aktivitet mod HIV-1.
 
-SIV er en nært beslægtet lentivirus, hvilket kan forklare modellens høje score. Men NNRTI'er har generelt dårlig aktivitet mod HIV-2 og SIV på grund af naturlige polymorfier i NNRTI-bindingslommen i revers transkriptase (fx Y181I og beslægtede positioner). Den mekanistiske sammenhæng er derfor svag. Den høje score afspejler sandsynligvis nærhed til HIV-indikationen i vidensgrafen snarere end påvist SIV-aktivitet.
+SIV er en nært beslægtet lentivirus, hvilket kan forklare modellens høje score. Men NNRTI'er har generelt dårlig aktivitet mod HIV-2 og SIV på grund af naturlige polymorfier i NNRTI-bindingslommen i revers transkriptase (fx Y181I og beslægtede positioner). Den mekanistiske sammenhæng er derfor svag.
 
 SIV-infektion er desuden primært en veterinær og forskningsmodel-tilstand uden en human behandlingsindikation. Den eneste tilknyttede publikation (PMID 31658118) handler om islatravir, et andet lægemiddel, og giver ingen direkte evidens for doravirin.
 
-**Øvrige forudsigelser i data:** Felin erhvervet immundefektsyndrom (FIV; veterinær, ingen mekanistisk begrundelse, ingen studier) og en sjælden genetisk neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans (score 99,91 %, ingen plausibel mekanistisk sammenhæng, ingen studier). Begge er sandsynligvis artefakter fra vidensgrafen og vurderes som Hold.
+**Øvrige forudsigelser i data:** Felin erhvervet immundefektsyndrom (FIV; veterinær, ingen mekanistisk begrundelse, ingen studier) og en sjælden genetisk neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans (score 0,9991, ingen plausibel mekanistisk sammenhæng, ingen studier).
 
 ---
 

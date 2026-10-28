@@ -8,6 +8,7 @@ nav_order: 99
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Belatacept
@@ -51,7 +52,8 @@ Kritiske datahul – herunder oplysninger om virkningsmekanisme og formelle sikk
 | Forudsagt ny indikation | Ingen forudsigelser genereret |
 | TxGNN forudsigelsesscore | N/A |
 | Bevisniveau | N/A — Ingen forudsigelser tilgængelige |
-| Markedsstatus i Danmark | Ikke markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal markedsautoriseringer | 0 |
 | Anbefalet afgørelse | Afventer |
 

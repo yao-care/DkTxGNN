@@ -48,13 +48,13 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 |------|------|
 | Oprindelig indikation | Human afrikansk trypanosomiasis (sovesyge) |
 | Forudsagt ny indikation | Esotropi |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Den registrerede tilladelse i Danmark (Vaniqa creme) er ikke godkendt til sovesyge, og de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst. Den oprindelige indikation er derfor angivet ud fra TxGNN-videngrafen.
+Bemærk: Den registrerede tilladelse i Danmark (Vaniqa creme) er ikke godkendt til sovesyge, og de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst. Scorerne stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Hvorfor er forudsigelsen rimelig?
 
@@ -64,7 +64,7 @@ Der er ikke påvist nogen etableret mekanistisk sammenhæng mellem ODC-hæmning 
 
 Lighed med den oprindelige indikation er endnu ikke vurderet, og ruteforenelighed er ikke afklaret.
 
-For fuldstændighedens skyld: Den næstrangerende forudsigelse, **neurotrofisk keratopati** (score 99,38 %), er ligeledes uden evidens (L5, Hold). Polyaminnedsættelse ville forventeligt hæmme snarere end fremme epitelial proliferation og heling, så effektretningen er ugunstig.
+For fuldstændighedens skyld: Den næstrangerende forudsigelse, **neurotrofisk keratopati** (score 0,9938), er ligeledes uden evidens (L5, Hold). Polyaminnedsættelse ville forventeligt hæmme snarere end fremme epitelial proliferation og heling, så effektretningen er ugunstig.
 
 ## Klinisk evidens
 

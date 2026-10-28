@@ -4,17 +4,17 @@ title: Telbivudine
 parent: Kun modelforudsigelse (L5)
 nav_order: 800
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Telbivudine: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis B-virusinfektion"
 monitor_inn: "telbivudine"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
+description: "Telbivudine: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Telbivudine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Telbivudin: Fra kronisk hepatitis B til kronisk hepatitis C-virusinfektion
+## Telbivudine: Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection)
 {: .text-alpha }
 
 ## Resumé
@@ -49,12 +49,12 @@ Forudsigelsen er derfor udelukkende modelbaseret og savner mekanistisk og klinis
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis B-virusinfektion (godkendelsesteksten for det danske præparat er ikke angivet i de sammenstillede data) |
-| Forudsagt ny indikation | Kronisk hepatitis C-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) |
+| TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -65,7 +65,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i den oprindelige 
 
 HCV er en RNA-virus, som replikerer via NS5B RNA-afhængig RNA-polymerase og behandles med direkte virkende antivirale midler. Der er derfor ikke noget etableret mekanistisk grundlag for aktivitet af telbivudin mod HCV.
 
-Den høje score afspejler sandsynligvis, at hepatitis B og C ligger tæt på hinanden i vidensgrafen (leversygdomme og virusinfektioner), snarere end en reel antiviral effekt mod HCV. Forudsigelsen bør derfor ikke tillægges klinisk vægt uden nye data.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (leversygdomme og virusinfektioner), ikke biologisk evidens for en reel antiviral effekt mod HCV. Forudsigelsen bør derfor ikke tillægges klinisk vægt uden nye data.
 
 ---
 
@@ -127,7 +127,7 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden mekan
 
 ---
 
-*Bemærk: Af de øvrige forudsigelser var hepatitis B-virusinfektion (rang 2, L1) den oprindelige indikation og dermed en bekræftelse af den eksisterende mærkning og ikke en ny indikation. De øvrige forudsigelser (bl.a. HIV, hepatitis C, fenylalanin- og tyrosinstofskiftesygdomme) er alle L4-L5 og understøttes ikke af data.*
+*Bemærk: De øvrige forudsigelser (bl.a. HIV, hepatitis C, fenylalanin- og tyrosinstofskiftesygdomme) er alle L4-L5 og understøttes ikke af data.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Etonogestrel
 parent: Kun modelforudsigelse (L5)
 nav_order: 336
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Etonogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (implantatet er et hormonelt præv…"
 monitor_inn: "ETONOGESTREL"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "breast fibrocystic disease", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "benign mammary dysplasia"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 Etonogestrel er et progestin, der anvendes i det subkutane implantat Nexplanon, og som i Danmark er markedsført som hormonel prævention (indikationsteksten er ikke tilgængelig i de data, der er indsamlet til denne rapport).
 TxGNN-modellen forudsiger, at stoffet kan være effektivt ved **amenoré** (samt godartede brystlidelser), men der er **0 kliniske forsøg** og **ingen relevant litteratur** bag forudsigelsen.
-Amenoré er en kendt bivirkning af implantatet, så forudsigelsen afspejler sandsynligvis en association i vidensgrafen og ikke en terapeutisk gevinst.
+Amenoré er en kendt bivirkning af implantatet, så scoren stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke en terapeutisk gevinst eller biologisk evidens.
 
 ---
 
@@ -50,10 +50,10 @@ Amenoré er en kendt bivirkning af implantatet, så forudsigelsen afspejler sand
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (implantatet er et hormonelt præventionsmiddel) |
 | Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Amenoré er en kendt bivirkning af implantatet, så forudsigelsen afspejler sand
 
 Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Etonogestrel er et potent progestin, som kendes for at hæmme ovulation og fremkalde endometrieatrofi.
 
-Netop denne virkning gør, at amenoré er en velkendt effekt af implantatet hos en betydelig andel af brugerne. Amenoré er altså en bivirkning eller sekundær effekt af den eksisterende præventionsindikation og ikke et egentligt mål for drug repurposing. At behandle amenoré med et progestin vil desuden være farmakologisk kontraintuitivt. Den høje score (0,998) afspejler sandsynligvis en association mellem lægemiddel og tilstand i vidensgrafen (stoffet forårsager eller er forbundet med tilstanden) frem for en behandlingsmæssig fordel.
+Netop denne virkning gør, at amenoré er en velkendt effekt af implantatet hos en betydelig andel af brugerne. Amenoré er altså en bivirkning eller sekundær effekt af den eksisterende præventionsindikation og ikke et egentligt mål for drug repurposing. At behandle amenoré med et progestin vil desuden være farmakologisk kontraintuitivt. Den høje score (0,9984) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller en behandlingsmæssig fordel.
 
-Modellen forudsiger også flere godartede brystlidelser (fibrocystisk brystsygdom, 99,61 %; blunt duct adenosis og apokrin adenosis, 99,29 %; benign mammær dysplasi, 99,21 %). Progestiner har historisk været brugt ved godartede brystlidelser og mastalgi via modvirkning af østrogendrevet proliferation, hvilket giver en plausibel men indirekte begrundelse. Brystspænding er imidlertid en hyppig bivirkning ved implantatet, hvilket taler imod nytte. Forudsigelserne for disse lidelser er sandsynligvis indbyrdes korrelerede i vidensgrafen.
+Modellen forudsiger også flere godartede brystlidelser (fibrocystisk brystsygdom, 0,9961; blunt duct adenosis og apokrin adenosis, 0,9929; benign mammær dysplasi, 0,9921). Progestiner har historisk været brugt ved godartede brystlidelser og mastalgi via modvirkning af østrogendrevet proliferation, hvilket giver en plausibel men indirekte begrundelse. Brystspænding er imidlertid en hyppig bivirkning ved implantatet, hvilket taler imod nytte. Forudsigelserne for disse lidelser er sandsynligvis indbyrdes korrelerede, fordi TxGNN-modellen (deep learning) har lært ligheder mellem beslægtede sygdomme.
 
 ---
 
@@ -106,7 +106,7 @@ Forudsigelsen hviler udelukkende på modellen (L5). Der er ingen relevante klini
 - Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation mangler)
 - Data om virkningsmekanismen (fx fra DrugBank)
 - Målrettet litteratursøgning efter etonogestrel/progestiner ved godartede brystlidelser, hvis denne retning skal forfølges
-- Vurdering af, om forudsigelsen blot afspejler en bivirkningsassociation i vidensgrafen
+- Vurdering af, om TxGNN-modellens (deep learning) forudsigelse blot afspejler en bivirkningsassociation og ligheder, som modellen har lært mellem beslægtede sygdomme
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

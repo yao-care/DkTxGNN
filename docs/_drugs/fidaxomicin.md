@@ -4,17 +4,17 @@ title: Fidaxomicin
 parent: Kun modelforudsigelse (L5)
 nav_order: 356
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fidaxomicin: forudsagt ny indikation Stafylokok-skoldet hud-syndrom (SSSS) (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis (ifølge vidensgrafen"
+indication_count: 9
 monitor_inn: "Fidaxomicin"
-predicted_indications: ["staphylococcal scalded skin syndrome", "staphylococcal scalded skin syndrome", "bullous impetigo", "bullous impetigo", "inhalational botulism", "inhalational botulism", "impetigo", "impetigo", "toxin-mediated infectious botulism", "toxin-mediated infectious botulism"]
+predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-10-23
+description: "Fidaxomicin: forudsagt ny indikation Stafylokok-skoldet-hud-syndrom (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: Clostridium difficile-colitis…"
 ---
 
 # Fidaxomicin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Fidaxomicin: Fra Clostridium difficile-colitis til stafylokok-skoldet hud-syndrom (SSSS)
+## Fidaxomicin: Fra Clostridium difficile-colitis til stafylokok-skoldet-hud-syndrom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Fidaxomicin er et smalspektret antibiotikum, der oprindeligt bruges til behandling af *Clostridium difficile*-colitis og beslægtede clostridieinfektioner.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **stafylokok-skoldet hud-syndrom (SSSS)**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
+Fidaxomicin er et smalspektret antibiotikum, som i vidensgrafen er registreret i relation til *Clostridium difficile*-colitis, perinatal nekrotiserende enterokolitis og Clostridium-infektioner.
+TxGNN-modellen forudsiger, at det kan have effekt mod **stafylokok-skoldet-hud-syndrom (staphylococcal scalded skin syndrome)**, men der er **0 kliniske forsøg** og **0 publikationer**, som direkte undersøger denne sygdom. Forudsigelsen er derfor alene modelbaseret.
 
 ---
 
@@ -48,37 +47,35 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | *Clostridium difficile*-colitis (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Stafylokok-skoldet hud-syndrom (SSSS) |
-| TxGNN-forudsigelsesscore | 99,71 % |
+| Oprindelig indikation | Relation registreret i vidensgrafen: *Clostridium difficile*-colitis, perinatal nekrotiserende enterokolitis og Clostridium-infektioner (ikke bekræftet af den danske produkttekst, da godkendt indikationstekst ikke er tilgængelig i de indsamlede data) |
+| Forudsagt ny indikation | Stafylokok-skoldet-hud-syndrom |
+| TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
-Andre forudsagte indikationer med næsten identiske scorer (alle L5, alle Hold): bulløs impetigo (99,70 %), inhalationsbotulisme (99,69 %), impetigo (99,68 %) og toksinmedieret infektiøs botulisme (99,66 %).
 
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de indsamlede data. Fidaxomicin er dog et makrocyklisk antibiotikum, der hæmmer bakteriel RNA-polymerase og primært er aktivt mod grampositive anaerobe bakterier som *C. difficile*. Stoffet har også en vis aktivitet *in vitro* mod *Staphylococcus aureus*, som via eksfoliative toksiner forårsager SSSS og bulløs impetigo. Det udgør det mekanistiske grundlag for modellens forudsigelse.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra almen viden hæmmer fidaxomicin bakterielt RNA-polymerase og har *in vitro*-aktivitet mod nogle grampositive bakterier, herunder *Staphylococcus aureus*, som er årsag til stafylokok-skoldet-hud-syndrom (en toksinmedieret hudsygdom).
 
-Der er dog væsentlige begrænsninger. Fidaxomicin optages kun minimalt efter oral indtagelse og virker derfor overvejende lokalt i tarmen. Det er usandsynligt, at stoffet når effektive koncentrationer i hud eller blod. Desuden findes der allerede veletablerede systemiske og topikale stafylokokvirksomme midler. Det mekanistiske link er således kun plausibelt *in vitro* og er ikke understøttet klinisk.
+Der er dog en betydelig begrænsning: Peroralt fidaxomicin optages næsten ikke systemisk og virker lokalt i tarmen. Det kan derfor ikke forventes at nå huden eller blodbanen i effektive koncentrationer. Den høje score (0,997) er en beregnet netværksbaseret forudsigelse og udgør ikke i sig selv klinisk støtte. Mekanismen er plausibel *in vitro*, men ikke i praksis med den nuværende formulering.
 
-For de øvrige forudsagte sygdomme gælder følgende. Ved impetigo og bulløs impetigo (*S. aureus* og *S. pyogenes*) er der ikke etableret topikale formuleringer. Ved botulisme er behandlingen primært antitoksin og støttende behandling, og antibiotika bruges forsigtigt, fordi bakterielyse kan frigive mere toksin. Ved spædbarns- og sårbotulisme kunne et tarmaktivt antiklostridielt middel i teorien nedsætte den intestinale bakteriebyrde, men det er alene en hypotese.
+Modellen fremhæver også andre forudsigelser med tilsvarende begrænsninger, bl.a. bulløs impetigo, impetigo, byg (hordeolum), *Staphylococcus aureus*-pneumoni, botulisme (inhalations- og toksinmedieret infektiøs), vulvovaginal candidiasis og punktformet epitelial keratokonjunktivitis. For flere af dem (fx vulvovaginal candidiasis, der er en svampeinfektion) er der ingen plausibel mekanistisk sammenhæng.
 
 ---
 
-## Klinisk forsøgsevidens
+## Evidens fra kliniske forsøg
 
-Der er for nuværende ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er for nuværende ingen relateret litteratur tilgængelig.
+Der er ingen litteratur, som direkte undersøger fidaxomicin ved stafylokok-skoldet-hud-syndrom.
 
 ---
 
@@ -86,24 +83,21 @@ Der er for nuværende ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104752610 | Dificlir (Tillotts Pharma GmbH) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+| 28104752610 | Dificlir | Filmovertrukne tabletter (oral) | Indikationstekst er ikke tilgængelig i de indsamlede data |
+
+Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts Pharma GmbH). Listen er fuldstændig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret i alt 79 interaktioner. Blandt de 20 beskrevne i de indsamlede data er den eneste med alvorlighedsgrad **Major**:
-- Levende kolera-vaccine (*Vibrio cholerae* CVD 103-HgR)
+**Lægemiddelinteraktioner:** Der er registreret 79 potentielle interaktioner. Eksempler på de mest relevante:
 
-Interaktioner af **moderat** alvorlighed:
-- Alpelisib
-- Apalutamid
-- Binimetinib
-- Picosulfat (picosulfursyre)
+- **Alvorlig (Major):** Levende *Vibrio cholerae* CVD 103-HgR-vaccine (levende antigen)
+- **Moderat:** alpelisib, apalutamid, binimetinib, picosulfat
+- **Mindre (Minor):** bl.a. nifedipin, amiodaron, verapamil, diltiazem, ciclosporin, clarithromycin, erythromycin, spironolacton
 
-De øvrige beskrevne interaktioner er af **mindre** alvorlighed, bl.a. nifedipin, amiodaron, diltiazem, verapamil, ciclosporin, clarithromycin, erythromycin, spironolacton, brigatinib, cabozantinib, capmatinib, daclatasvir, dronedaron, elagolix og ivacaftor.
-
-Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -112,14 +106,13 @@ Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Fidaxomicins minimale systemiske optagelse gør det usandsynligt, at stoffet er effektivt ved hud- og systemiske infektioner, og effektive standardbehandlinger findes allerede.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller publikationer, der direkte omhandler sygdommen. Fidaxomicin har desuden minimal systemisk optagelse, og der findes allerede veletablerede behandlinger mod stafylokokinfektioner.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanismen (MOA)
-- Advarsler og kontraindikationer fra det danske produktresumé, da sikkerhedsscreening ikke kan gennemføres uden dem
-- *In vitro*-data for aktivitet mod *S. aureus* og vævsfordelingsdata, der viser, om effektive koncentrationer kan nås i hud
-- Vurdering af en eventuel topikal eller anden formulering, da den eksisterende orale tablet ikke er egnet til hudinfektioner
-- Prækliniske eller kliniske studier, før en egentlig vurdering kan foretages
+- Præklinisk dokumentation for aktivitet mod toksinproducerende *S. aureus* samt vævsfordelingsdata
+- Gennemgang af advarsler og kontraindikationer i det danske produktresumé
+- Vurdering af, om en anden administrationsvej eller formulering ville være nødvendig for at opnå systemisk eller topisk eksponering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

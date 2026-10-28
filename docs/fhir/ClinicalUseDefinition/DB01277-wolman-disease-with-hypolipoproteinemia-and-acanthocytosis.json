@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01277",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB01277"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "wolman-disease-with-hypolipoproteinemia-and-acanthocytosis",
-          "display": "Wolman disease with hypolipoproteinemia and acanthocytosis"
-        }
-      ],
-      "text": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      "concept": {
+        "text": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9909
     }
   ]
 }

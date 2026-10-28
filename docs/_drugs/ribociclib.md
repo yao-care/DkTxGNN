@@ -4,17 +4,17 @@ title: Ribociclib
 parent: Moderat evidens (L3-L4)
 nav_order: 716
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske ti…"
 monitor_inn: "Ribociclib"
-predicted_indications: ["myeloid leukemia", "myeloid leukemia", "thrombocytopenia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia"]
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og kun **1 relevant præklini
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske tilladelse er tom) |
 | Forudsagt ny indikation | Myeloid leukæmi |
-| TxGNN-forudsigelsesscore | 99,35 % |
+| TxGNN-forudsigelsesscore | 0,9935 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

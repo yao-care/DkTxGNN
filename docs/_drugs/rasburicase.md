@@ -46,17 +46,17 @@ Rasburicase er et rekombinant urat-oxidaseenzym, som oprindeligt blev brugt til 
 |------|------|
 | Oprindelig indikation | Hyperurikæmi (fra videnbasen; der er ingen godkendt indikationstekst i de danske data) |
 | Forudsagt ny indikation | Renal hypourikæmi |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
 Data om detaljeret virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Rasburicase er dog kendt som et rekombinant urat-oxidaseenzym, der omdanner urinsyre til allantoin og dermed sænker serum-urat.
 
-Renal hypourikæmi er en tilstand, hvor serum-urat allerede er for lavt, typisk på grund af funktionstabsmutationer i transportørerne URAT1 eller GLUT9. Yderligere urat-sænkning er mekanistisk kontraproduktiv og vil ikke behandle tilstanden. Det kan øge risikoen for skade, f.eks. træningsudløst akut nyreskade. Den høje TxGNN-score skyldes sandsynligvis nærhed i vidensgrafen (fælles noder i urat-vejen) snarere end en terapeutisk begrundelse.
+Renal hypourikæmi er en tilstand, hvor serum-urat allerede er for lavt, typisk på grund af funktionstabsmutationer i transportørerne URAT1 eller GLUT9. Yderligere urat-sænkning er mekanistisk kontraproduktiv og vil ikke behandle tilstanden. Det kan øge risikoen for skade, f.eks. træningsudløst akut nyreskade. Den høje TxGNN-score (0.9999) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Blandt de øvrige forudsigelser (rang 2-10) er det kun delvis HGPRT-mangel, der har en biologisk forbindelse via urat-endepunktet. Rasburicase er dog et intravenøst, immunogent enzym til korte kure og adresserer ikke det underliggende enzymdefekt. Kronisk behandling varetages bedre af xanthinoxidasehæmmere. Hepatisk porfyri, idiopatisk kobberassocieret cirrose, familiær non-cirrotisk portal hypertension, primær portalvenetrombose, hepatopulmonalt syndrom, hepatoportal sklerose, renal tubulær acidose og forstyrrelser i fenylalaninstofskiftet har ingen identificeret mekanistisk sammenhæng og fremstår som netværksartefakter.
 

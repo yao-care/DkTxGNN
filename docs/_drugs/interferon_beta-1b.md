@@ -4,17 +4,17 @@ title: Interferon Beta-1B
 parent: Kun modelforudsigelse (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Interferon Beta-1B: forudsagt ny indikation Hårcelleleukæmi (evidensniveau L5). Oprindelig indikation: Recidiverende-remitterende dissemineret sklerose (RRMS)"
+description: "Interferon Beta-1B: forudsagt ny indikation hårcelleleukæmi (evidensniveau L5). Oprindelig indikation: Recidiverende-remitterende dissemineret sklerose (RRMS)"
 monitor_inn: "Interferon beta-1b"
-predicted_indications: ["hairy cell leukemia", "hairy cell leukemia", "autoimmune disease of central nervous system", "autoimmune disease of central nervous system", "CNS demyelinating autoimmune disease", "CNS demyelinating autoimmune disease", "fetal methylmercury syndrome", "fetal methylmercury syndrome"]
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Interferon beta-1b er oprindeligt godkendt til behandling af recidiverende-remitterende dissemineret sklerose (RRMS). TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hårcelleleukæmi** (score 99,2 %), men der er hverken registreret **kliniske forsøg** eller **publikationer**, der understøtter denne forudsigelse. De øvrige højt rangerede forudsigelser (autoimmun sygdom i centralnervesystemet, demyeliniserende sygdom i CNS) er i praksis blot omformuleringer af den allerede godkendte indikation.
+Interferon beta-1b er oprindeligt godkendt til behandling af recidiverende-remitterende dissemineret sklerose (RRMS). TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt på **hårcelleleukæmi** (score 0,9916), men der er hverken registreret **kliniske forsøg** eller **publikationer**, der understøtter denne forudsigelse. Den næsthøjest rangerede forudsigelse (autoimmun sygdom i centralnervesystemet, score 0,9902) er i praksis blot en omformulering af den allerede godkendte indikation.
 
 ---
 
@@ -48,10 +48,10 @@ Interferon beta-1b er oprindeligt godkendt til behandling af recidiverende-remit
 |------|------|
 | Oprindelig indikation | Recidiverende-remitterende dissemineret sklerose (RRMS) |
 | Forudsagt ny indikation | Hårcelleleukæmi |
-| TxGNN-forudsigelsesscore | 99,2 % |
+| TxGNN-forudsigelsesscore | 0,9916 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -65,7 +65,6 @@ Interferon-alfa (ikke beta) har historisk været brugt ved hårcelleleukæmi på
 **Øvrige forudsigelser i modellens top 10:**
 - *Autoimmun sygdom i centralnervesystemet* (99,0 %) og *demyeliniserende autoimmun sygdom i CNS* (98,9 %): Dækker i praksis dissemineret sklerose, dvs. den allerede godkendte indikation. Det er ikke ægte repurposing. Anvendelse ved andre sygdomme, f.eks. neuromyelitis optica (NMOSD), kræver separat evidens og forsigtighed, da interferon beta kan forværre sygdommen.
 - *Dissemineret sklerose, modtagelighed for* (98,9 %): En genetisk modtagelighedsetiket, ikke en selvstændig behandlingsindikation. Litteraturen er indirekte (farmakogenetik, biomarkører, dyremodel, bivirkningsrapporter).
-- *Føtalt methylkviksølvsyndrom* (98,5 %): Ingen plausibel mekanistisk begrundelse og ingen evidens. Sandsynligvis en artefakt i vidensgrafen. Brug under graviditet rejser desuden yderligere sikkerhedsspørgsmål.
 
 ---
 

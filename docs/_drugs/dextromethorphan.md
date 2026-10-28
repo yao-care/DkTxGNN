@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: Kun modelforudsigelse (L5)
 nav_order: 258
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dextromethorphan: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse. Videnbasen nævner…"
 monitor_inn: "dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 |------|------|
 | Oprindelig indikation | Ikke angivet i den danske markedsføringstilladelse. Videnbasen nævner allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse, nasofaryngitis og hovedpinesygdom |
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L4 (som angivet i data; ingen kliniske forsøg eller publikationer er tilgængelige) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9998 |
+| Evidensniveau | L5 (som angivet i data; ingen kliniske forsøg eller publikationer er tilgængelige) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -70,11 +70,11 @@ Til sammenligning har modellen også forudsagt andre indikationer (se nedenfor),
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Akut laryngofaryngitis | 99,98 % | L4 | Tæt på eksisterende indikationer (faryngitis, forkølelse). Kun symptomlindring af hoste, ikke sygdomsmodificerende |
-| Faucial difteri | 99,36 % | L5 | Ingen kendt antibakteriel eller antitoksin-aktivitet. Ikke et meningsfuldt repurposing-grundlag |
-| Trigeminal autonom cephalalgi | 99,32 % | L5 | Muligt, men ubevist link via NMDA-antagonisme og centrale smertebaner. Mekanistisk adskilt fra almindelig hovedpine |
-| Degenerativ cervikal diskussygdom | 99,30 % | L5 | Spekulativt link via neuropatisk smerte. Påvirker ikke selve degenerationen |
-| Allergisk urticaria | 99,25 % | L5 | Sandsynligvis grafnærhed til allergisk rhinitis. Dextromethorphan er hverken antihistamin eller mastcellestabilisator |
+| Akut laryngofaryngitis | 0,9998 | L5 | Tæt på eksisterende indikationer (faryngitis, forkølelse). Kun symptomlindring af hoste, ikke sygdomsmodificerende |
+| Faucial difteri | 0,9936 | L5 | Ingen kendt antibakteriel eller antitoksin-aktivitet. Ikke et meningsfuldt repurposing-grundlag |
+| Trigeminal autonom cephalalgi | 0,9932 | L5 | Muligt, men ubevist link via NMDA-antagonisme og centrale smertebaner. Mekanistisk adskilt fra almindelig hovedpine |
+| Degenerativ cervikal diskussygdom | 0,9930 | L5 | Spekulativt link via neuropatisk smerte. Påvirker ikke selve degenerationen |
+| Allergisk urticaria | 0,9925 | L5 | Sandsynligvis grafnærhed til allergisk rhinitis. Dextromethorphan er hverken antihistamin eller mastcellestabilisator |
 
 Alle fem har Hold som anbefaling.
 

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Pegvisomant
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 641
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pegvisomant: forudsagt ny indikation Borderline ovarie-serøs tumor (evidensniveau L5). Oprindelig indikation: Akromegali og hyperpituitarisme"
+description: "Pegvisomant: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Pegvisomant"
-predicted_indications: ["borderline ovarian serous tumor", "borderline ovarian serous tumor", "rete ovarii cystadenoma", "rete ovarii cystadenoma", "ovarian papillary cystadenoma", "ovarian papillary cystadenoma", "pyelonephritis", "pyelonephritis", "malignant ovarian Brenner tumor", "malignant ovarian Brenner tumor"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Pegvisomant
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,46 +35,16 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pegvisomant: Fra akromegali til borderline ovarie-serøs tumor
+## Pegvisomant
 {: .text-alpha }
-
-## Resumé i én sætning
-
-Pegvisomant er en vækstharmonreceptor-antagonist, oprindeligt anvendt til behandling af akromegali og hyperpituitarisme.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **borderline ovarie-serøs tumor**,
-men der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akromegali og hyperpituitarisme (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Borderline ovarie-serøs tumor |
-| TxGNN-forudsigelsesscore | 98,6 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Pegvisomant er dog kendt som en vækstharmonreceptor-antagonist, der sænker niveauet af IGF-1. Dets effekt ved akromegali, som er kendetegnet ved for høj vækstharmon- og IGF-1-aktivitet, er veletableret.
-
-GH/IGF-1-aksen er i litteraturen blevet sat i forbindelse med væksten af visse ovarietumorer, så en sammenhæng er i princippet plausibel. Der er dog ingen kliniske forsøg eller publikationer i de indsamlede data, som understøtter den, og forbindelsen mellem akromegali og borderline ovarietumorer er mekanistisk indirekte. Den høje score (0,986) er en computerbaseret forudsigelse og kan ikke erstatte klinisk evidens.
-
-Andre forudsagte indikationer med tilsvarende score og samme evidensniveau (L5, ingen forsøg eller litteratur):
-- Rete ovarii-cystadenom (98,6 %)
-- Ovarie-papillært cystadenom (98,6 %)
-- Malign ovarie-Brenner-tumor (98,6 %)
-- Pyelonefritis (98,6 %): Der er ingen oplagt mekanistisk sammenhæng mellem GH-receptorantagonisme og en bakteriel infektion i de øvre urinveje. Forudsigelsen er sandsynligvis en artefakt fra vidensgrafen, og antimikrobiel behandling er standardbehandling.
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 ## Markedsinformation for Danmark
 
@@ -92,19 +64,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5) uden kliniske forsøg eller publikationer, og virkningsmekanismen er ikke belagt i de indsamlede data. Der er derfor ikke grundlag for at gå videre på nuværende tidspunkt.
-
-**For at komme videre kræves følgende:**
-- Systematisk litteratursøgning og præklinisk dokumentation for GH/IGF-1-aksens rolle i borderline ovarie-serøse tumorer
-- Detaljerede data om virkningsmekanisme (MOA)
-- Gennemgang af produktresuméets advarsler og kontraindikationer, da sikkerhedsdata manglede i de indsamlede data
-- Vurdering af administrationsvej og dosering i den nye indikation
-- Afklaring af, om der findes relevante kliniske forsøg i internationale registre
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Pegvaliase
 parent: Kun modelforudsigelse (L5)
 nav_order: 640
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pegvaliase: forudsagt ny indikation Diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. I…"
+description: "Pegvaliase: forudsagt ny indikation diabetic retinopathy (evidensniveau L5). Oprindelig indikation: Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. I…"
 monitor_inn: "Pegvaliase"
-predicted_indications: ["diabetic retinopathy", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract", "diabetic cataract", "nuclear senile cataract", "nuclear senile cataract", "cortical cataract", "cortical cataract"]
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Pegvaliase
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pegvaliase: Fra phenylketonuri til diabetisk retinopati
+## Pegvaliase: Fra phenylketonuri til diabetic retinopathy
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,19 +46,19 @@ Pegvaliase (markedsført som Palynziq) er et PEGyleret enzym, som nedbryder phen
 |------|------|
 | Oprindelig indikation | Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. Ifølge produktets kendte profil er det phenylketonuri (PKU). |
 | Foreslået ny indikation | Diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,2 % |
+| TxGNN-forudsigelsesscore | 0.9917 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Pegvaliase er et PEGyleret phenylalanin-ammoniak-lyase, som omdanner phenylalanin og dermed sænker koncentrationen i blodet. Det er baggrunden for brugen ved phenylketonuri.
 
-Diabetisk retinopati er en mikrovaskulær komplikation til langvarig hyperglykæmi og involverer blandt andet VEGF-signalering, inflammation, tab af pericytter og retinal iskæmi. De foreliggende data viser ingen plausibel mekanistisk forbindelse mellem phenylalaninnedbrydning og disse processer. Den høje score (0,992) afspejler en forudsigelse fra vidensgrafen og ikke et konkret biologisk eller klinisk signal.
+Diabetisk retinopati er en mikrovaskulær komplikation til langvarig hyperglykæmi og involverer blandt andet VEGF-signalering, inflammation, tab af pericytter og retinal iskæmi. De foreliggende data viser ingen plausibel mekanistisk forbindelse mellem phenylalaninnedbrydning og disse processer. Den høje score (0.9917) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Modellen foreslår også beslægtede øjenlidelser: alvorlig non-proliferativ diabetisk retinopati (score 99,2 %, en undertype af ovenstående og sandsynligvis en redundant forudsigelse), diabetisk katarakt (99,1 %), nuklear senil katarakt og kortikal katarakt (begge 99,0 %). De to sidstnævnte har identisk score, hvilket tyder på en fælles grafartefakt frem for et sygdomsspecifikt signal. Ingen af dem har understøttende forsøg eller litteratur.
+Modellen foreslår også beslægtede øjenlidelser: svær non-proliferativ diabetisk retinopati (score 0.9916, en undertype af ovenstående og sandsynligvis en redundant forudsigelse) og diabetisk katarakt (0.9911). Ingen af dem har understøttende forsøg eller litteratur.
 
 ## Klinisk evidens
 

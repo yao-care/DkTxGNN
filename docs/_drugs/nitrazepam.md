@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrazepam
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 588
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nitrazepam: forudsagt ny indikation Søvnforstyrrelse, initiering og vedligeholdelse af søvn (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
+description: "Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
 monitor_inn: "NITRAZEPAM"
-predicted_indications: ["Wernicke-Korsakoff syndrome", "Wernicke-Korsakoff syndrome"]
+predicted_indications: ["Wernicke-Korsakoff syndrome"]
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Nitrazepam: Fra søvnløshed til søvnforstyrrelse (initiering og vedligeholdelse af søvn)
+## Nitrazepam: Fra søvnløshed til Wernicke-Korsakoff syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **søvnforstyr
 |------|------|
 | Oprindelig indikation | Søvnløshed og tidlig myoklonisk encefalopati (godkendt indikationstekst findes ikke i de indsamlede data) |
 | Forudsagt ny indikation | Søvnforstyrrelse, initiering og vedligeholdelse af søvn |
-| TxGNN-prædiktionsscore | 99,89 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-prædiktionsscore | 0,9931 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,8 +64,7 @@ Nitrazepam er et benzodiazepin, som forstærker GABA-A-receptorsignalering og de
 Den forudsagte indikation er i realiteten sammenfaldende med den oprindelige indikation, søvnløshed. Den høje score afspejler derfor sandsynligvis, at modellen genfinder en allerede kendt anvendelse, og ikke en egentlig ny anvendelse (repurposing).
 
 Modellen forudsiger desuden to andre indikationer med meget lav evidens:
-- **Akut encefalopati med bifasiske anfald og sent reduceret diffusion** (score 99,59 %): Ingen studier. GABA-forstærkning kunne teoretisk dæmpe anfald, men benzodiazepiner bruges allerede til akut anfaldskontrol, og sedation kan sløre den neurologiske vurdering. Forudsigelsen hænger sandsynligvis sammen med den oprindelige indikation, tidlig myoklonisk encefalopati.
-- **Wernicke-Korsakoff syndrom** (score 99,31 %): Ingen studier. Benzodiazepiner anvendes ved alkoholabstinens, men behandler ikke den underliggende thiaminmangel og kan forværre forvirring og kognition. En sammenhæng ville være symptomatisk og indirekte.
+- **Wernicke-Korsakoff syndrom** (score 0,9931): Ingen studier. Benzodiazepiner anvendes ved alkoholabstinens, men behandler ikke den underliggende thiaminmangel og kan forværre forvirring og kognition. En sammenhæng ville være symptomatisk og indirekte.
 
 ---
 

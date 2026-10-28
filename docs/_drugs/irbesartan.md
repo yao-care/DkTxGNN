@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Kun modelforudsigelse (L5)
 nav_order: 453
 evidence_level: L5
-indication_count: 8
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk) og diabetisk nefropati"
 monitor_inn: "IRBESARTAN"
-predicted_indications: ["malignant hypertensive renal disease", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Irbesartan: Fra hypertension til malign hypertensiv nyresygdom
+## Irbesartan: Malign hypertensiv nyresygdom (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Irbesartan er en angiotensin II-receptorblokker (AT1-blokker), der oprindeligt anvendes til behandling af forhøjet blodtryk og diabetisk nyresygdom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom** (score 99,3 %).
+TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **malign hypertensiv nyresygdom** (score 0,9931).
 Forudsigelsen er rent beregningsbaseret: de data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg** og **ingen publikationer** for denne indikation.
 
 ---
@@ -48,12 +48,12 @@ Forudsigelsen er rent beregningsbaseret: de data, der er indsamlet til denne rap
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (forhøjet blodtryk) og diabetisk nefropati (indikationstekst fra den danske registrering er ikke tilgængelig; oplysningen stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Malign hypertensiv nyresygdom |
-| TxGNN-forudsigelsesscore | 99,31 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
+| TxGNN-forudsigelsesscore | 0.9931 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Andre forudsigelser med samme høje score i datasættet (se afsnittet om øvrige forudsigelser nedenfor):
@@ -91,10 +91,10 @@ Datasættet indeholder flere poster, hvoraf nogle er dubletter. Efter sammenlæg
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Malign hypertensiv nyresygdom | 99,31 % | L5 | Hold |
-| Malign renovaskulær hypertension | 99,31 % | L5 | Hold |
-| Pulmonal hypertension som følge af lungesygdom og/eller hypoksi | 99,25 % | L4 | Forskningsspørgsmål |
-| Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,25 % | L5 | Hold |
+| Malign hypertensiv nyresygdom | 0,9931 | L5 | Hold |
+| Malign renovaskulær hypertension | 0,9931 | L5 | Hold |
+| Pulmonal hypertension som følge af lungesygdom og/eller hypoksi | 0,9925 | L5 | Forskningsspørgsmål |
+| Pulmonal hypertension med uklar multifaktoriel mekanisme | 0,9925 | L5 | Hold |
 
 **Malign renovaskulær hypertension:** Renovaskulær hypertension er stærkt angiotensin II-afhængig, så AT1-blokade er mekanistisk plausibel. Ved bilateral nyrearteriestenose eller stenose i en solitær nyre kan ARB-præparater imidlertid udløse akut nyreskade. Der er ingen forsøg eller litteratur.
 

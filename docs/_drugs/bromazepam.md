@@ -4,17 +4,17 @@ title: Bromazepam
 parent: Kun modelforudsigelse (L5)
 nav_order: 135
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Bromazepam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (indikationsteksten i marke…"
 monitor_inn: "BROMAZEPAM"
-predicted_indications: ["migraine disorder", "migraine disorder"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Bromazepam
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Bromazepam er et benzodiazepin, som i Danmark er markedsført som Lexotan (table
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de sammenstillede data (indikationsteksten i markedsføringstilladelsen er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

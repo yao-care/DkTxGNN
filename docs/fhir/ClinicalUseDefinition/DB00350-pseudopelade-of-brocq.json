@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00350",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00350"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pseudopelade-of-brocq",
-          "display": "pseudopelade of Brocq"
-        }
-      ],
-      "text": "pseudopelade of Brocq"
+      "concept": {
+        "text": "pseudopelade of Brocq"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9992
     }
   ]
 }

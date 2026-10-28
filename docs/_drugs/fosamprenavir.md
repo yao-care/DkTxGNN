@@ -6,9 +6,9 @@ nav_order: 371
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Fosamprenavir: forudsagt ny indikation Felint erhvervet immundefektsyndrom (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS (fra videnbasen"
 monitor_inn: "fosamprenavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
+description: "Fosamprenavir: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fosamprenavir
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Fosamprenavir: Fra HIV/AIDS til felint erhvervet immundefektsyndrom
+## Fosamprenavir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publ
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videnbasen; den danske indikationstekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Felint erhvervet immundefektsyndrom |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,18 +64,18 @@ Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige. Fosam
 
 Felint immundefektvirus (FIV) er en lentivirus, der er beslægtet med HIV, og dets protease har en vis strukturel lighed med HIV-1-protease. Der er derfor en plausibel mekanistisk forbindelse. FIV-protease adskiller sig imidlertid fra HIV-1-protease med hensyn til substratspecificitet og følsomhed over for hæmmere, og der foreligger ingen FIV-specifikke data.
 
-Den høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen til den eksisterende HIV-indikation snarere end uafhængig evidens. Forudsigelsen bør derfor fortolkes med forsigtighed.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor fortolkes med forsigtighed.
 
 **Øvrige forudsagte indikationer** (alle L5, uden kliniske forsøg eller litteratur, anbefaling: Hold):
 
 | Rang | Sygdom | Score | Kommentar |
 |------|------|------|------|
-| 2 | Simian immundefektvirus-infektion | 99,88 % | Mekanistisk plausibel (primat-lentivirus), men primært en dyremodel for HIV; værdien er overvejende præklinisk |
-| 3 | Neuroudviklingsforstyrrelse med ataktisk gang, manglende tale og nedsat kortikal hvid substans | 99,86 % | Ingen identificeret mekanistisk forbindelse; sandsynligvis en artefakt i vidensgrafen |
-| 4 | Fibrocystisk brystsygdom | 99,57 % | Ingen etableret forbindelse; en godartet tilstand, hvor fosamprenavirs interaktions- og sikkerhedsprofil skal vejes mod en lavrisikoindikation |
-| 5 | Apokrin adenose i brystet | 99,34 % | Ingen mekanistisk begrundelse; sandsynligvis drevet af sygdomsontologiens nærhed |
-| 6 | Blunt duct-adenose i brystet | 99,34 % | Som ovenfor |
-| 7 | Godartet mammadysplasi | 99,10 % | Næsten synonym med fibrocystisk brystsygdom og derfor ikke uafhængig af de øvrige brystdiagnoser |
+| 2 | Simian immundefektvirus-infektion | 0,9988 | Mekanistisk plausibel (primat-lentivirus), men primært en dyremodel for HIV; værdien er overvejende præklinisk |
+| 3 | Neuroudviklingsforstyrrelse med ataktisk gang, manglende tale og nedsat kortikal hvid substans | 0,9986 | Ingen identificeret mekanistisk forbindelse; scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens |
+| 4 | Fibrocystisk brystsygdom | 0,9957 | Ingen etableret forbindelse; en godartet tilstand, hvor fosamprenavirs interaktions- og sikkerhedsprofil skal vejes mod en lavrisikoindikation |
+| 5 | Apokrin adenose i brystet | 0,9934 | Ingen mekanistisk begrundelse; sandsynligvis drevet af sygdomsontologiens nærhed |
+| 6 | Blunt duct-adenose i brystet | 0,9934 | Som ovenfor |
+| 7 | Godartet mammadysplasi | 0,9910 | Næsten synonym med fibrocystisk brystsygdom og derfor ikke uafhængig af de øvrige brystdiagnoser |
 
 ---
 

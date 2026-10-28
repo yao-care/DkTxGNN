@@ -48,10 +48,10 @@ Capmatinib er en selektiv MET-receptor-tyrosinkinasehæmmer, der er markedsført
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| TxGNN-forudsigelsesscore | 0,9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ MET-signalering er i litteraturen sat i forbindelse med synovial inflammation, a
 
 Den høje TxGNN-score er en ren computerbaseret forudsigelse. Den eneste fundne publikation er en generel oversigt over godkendte småmolekylære kinasehæmmere, som nævner capmatinib, men ikke indeholder data om leddegigt. Forudsigelsen bør derfor ses som hypotesegenererende.
 
-Den næstrangerende forudsigelse, *brachydactyly-syndactyly syndrome* (score 99,03 %), er en sjælden medfødt misdannelse af lemmerne. Der er hverken kliniske forsøg eller litteratur, og det er usandsynligt, at capmatinib kan korrigere en medfødt udviklingsdefekt. Den vurderes ikke yderligere her.
+Den næstrangerende forudsigelse, *brachydactyly-syndactyly syndrome* (score 0,9903), er en sjælden medfødt misdannelse af lemmerne. Der er hverken kliniske forsøg eller litteratur, og det er usandsynligt, at capmatinib kan korrigere en medfødt udviklingsdefekt. Den vurderes ikke yderligere her.
 
 ---
 

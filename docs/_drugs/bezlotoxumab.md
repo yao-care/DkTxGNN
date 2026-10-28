@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Bezlotoxumab: forudsagt ny indikation Akut kvindelig bækkenperitonitis (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis og Clostridium-infektioner"
 monitor_inn: "Bezlotoxumab"
-predicted_indications: ["acute female pelvic peritonitis", "acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "embryonic cyst of fallopian tube", "tubal pregnancy", "tubal pregnancy", "salpingitis isthmica nodosa", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "disease of uterine broad ligament"]
+predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "pelvic varices"]
+last_modified_at: 2026-10-27
+description: "Bezlotoxumab: forudsagt ny indikation Akut kvindelig bækkenperitonitis (acute female pelvic peritonitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bezlotoxumab
@@ -33,81 +33,61 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Bezlotoxumab: Fra Clostridium difficile-colitis til akut kvindelig bækkenperitonitis
+## Bezlotoxumab: monoklonalt antistof mod Clostridioides difficile-toksin B → akut kvindelig bækkenperitonitis (acute female pelvic peritonitis)
 {: .text-alpha }
 
-## Opsummering
+## Resumé
 
-Bezlotoxumab er et monoklonalt antistof, der oprindeligt anvendes mod *Clostridium difficile*-colitis og andre Clostridium-infektioner.
-TxGNN-modellen forudsiger, at det kan have effekt mod **akut kvindelig bækkenperitonitis**,
-men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
-
----
+Bezlotoxumab er et monoklonalt antistof, der neutraliserer toksin B fra *Clostridioides difficile*. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akut kvindelig bækkenperitonitis (acute female pelvic peritonitis)**. Der er dog **ingen kliniske forsøg og ingen publikationer** i de data, der er indsamlet til denne rapport, og forudsigelsen hviler alene på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | *Clostridium difficile*-colitis og Clostridium-infektioner (den danske godkendelsestekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Akut kvindelig bækkenperitonitis |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Akut kvindelig bækkenperitonitis (acute female pelvic peritonitis) |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Bezlotoxumab er et antistof, der binder og neutraliserer toksin B fra *C. difficile*, og det er dermed rettet mod en specifik toksinmedieret sygdomsmekanisme.
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Bezlotoxumab er dog kendt som et monoklonalt antistof, der neutraliserer toksin B fra *C. difficile*. Dets effekt er knyttet til *C. difficile*-infektion.
+Akut bækkenperitonitis hos kvinder er typisk en polymikrobiel infektion (fx *Chlamydia*, *Neisseria* og anaerobe bakterier) og er ikke drevet af toksin B. Der er derfor ingen understøttet mekanistisk vej fra lægemidlets virkning til denne sygdom. Den høje score (0,9989) skyldes sandsynligvis et artefakt i modellens netværksstruktur frem for en biologisk sammenhæng. Forudsigelsen bør derfor betragtes som en hypotese uden bekræftelse.
 
-Bækkenperitonitis er typisk polymikrobiel og kan involvere anaerobe bakterier. Det er en mulig, men ubekræftet forbindelse. Intet i de foreliggende data viser, at *C. difficile* toksin B driver sygdommen. Forudsigelsen er derfor en ren grafbaseret model-forudsigelse uden understøttende evidens og bør behandles med stor forsigtighed.
-
-Øvrige forudsigelser med tilsvarende høje scorer (99,87-99,89 %) omfatter embryonal cyste i æggeleder, tubar graviditet, salpingitis isthmica nodosa og sygdom i ligamentum latum uteri. Ingen af dem har en oplagt mekanistisk sammenhæng med neutralisering af toksin B. Det gælder især ikke-infektiøse tilstande som udviklingsmæssige cyster og ekstrauterin graviditet, hvor forudsigelserne sandsynligvis er artefakter fra modellen.
-
----
-
-## Kliniske forsøg
+## Klinisk evidens
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
-## Litteratur
+## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Markedsinformation i Danmark
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105700615 | Zinplava (Merck Sharp & Dohme B.V.) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+| 28105700615 | Zinplava | Koncentrat til infusionsvæske, opløsning | – |
 
----
+## Sikkerhedsmæssige overvejelser
 
-## Sikkerhedsovervejelser
-
-Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. Der foreligger ingen data om advarsler eller kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-Det bemærkes, at bezlotoxumab er et IgG1-antistof, og at administration under graviditet rejser sikkerhedsspørgsmål. Det er særligt relevant for forudsigelser inden for kvindelig reproduktiv sundhed.
-
----
+Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. Hvis lægemidlet overvejes brugt til gravide eller kvinder med bækkeninfektion, kræver det særskilt sikkerhedsvurdering.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5) uden kliniske forsøg, publikationer eller en plausibel mekanistisk forklaring. Sikkerhedsdata mangler desuden.
+Forudsigelsen understøttes hverken af kliniske forsøg, litteratur eller en plausibel mekanisme, og evidensniveauet er L5. Bezlotoxumabs toksin B-specifikke virkning har ingen kendt forbindelse til polymikrobiel bækkenperitonitis.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Præklinisk eller mekanistisk dokumentation for, at toksin B eller beslægtede mekanismer spiller en rolle ved bækkenperitonitis
-- En systematisk litteratur- og forsøgsgennemgang for at bekræfte, at der ikke findes støttende evidens
+- Data om virkningsmekanismen (MOA)
+- En biologisk begrundet hypotese for, hvordan neutralisering af toksin B kan påvirke bækkenperitonitis
+- Prækliniske eller observationelle data, der direkte undersøger denne sygdom
+- Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

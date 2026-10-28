@@ -6,7 +6,7 @@ nav_order: 500
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Lincomycin: forudsagt ny indikation Hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Pneumokokinfektion, stafylokokinfektion og streptokokinfektion"
+description: "Lincomycin: forudsagt ny indikation hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Pneumokokinfektion, stafylokokinfektion og streptokokinfektion"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 ---
@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Pneumokokinfektion, stafylokokinfektion og streptokokinfektion (fra videnbasen; godkendte indikationstekster er ikke tilgængelige i de indsamlede data) |
 | Forudsagt ny indikation | Hyperamylasæmi |
-| TxGNN-prædiktionsscore | 99,14 % |
+| TxGNN-prædiktionsscore | 0,9914 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsme
 
 Hyperamylasæmi er imidlertid et laboratoriefund og ikke én enkelt behandlingsbar sygdom. Det kan skyldes bl.a. pancreatitis, sygdom i spytkirtlerne, nedsat nyrefunktion eller makroamylasæmi. Der er ingen kendt biologisk sammenhæng mellem lincomycin og regulering af amylase. En eventuel antibakteriel rolle ville være indirekte, f.eks. ved behandling af en infektiøs årsag som inficeret pancreasnekrose, og udgør ikke en egentlig repurposing-begrundelse.
 
-Den høje score (0,991) skal derfor tolkes forsigtigt: Den er en ren modelforudsigelse uden understøttende kliniske data. De to næstrangerende forudsigelser, polyklonalt hyperviskositetssyndrom (score 99,14 %) og kongenit analbuminæmi (score 99,06 %), har heller ingen plausibel mekanistisk sammenhæng og ingen evidens. Kongenit analbuminæmi skyldes en genetisk defekt i ALB-genet, som et antibiotikum ikke kan korrigere.
+Den høje score (0,9914) skal derfor tolkes forsigtigt: Den stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den er en ren modelforudsigelse uden understøttende kliniske data. De to næstrangerende forudsigelser, polyklonalt hyperviskositetssyndrom (score 0,9914) og kongenit analbuminæmi (score 0,9906), har heller ingen plausibel mekanistisk sammenhæng og ingen evidens. Kongenit analbuminæmi skyldes en genetisk defekt i ALB-genet, som et antibiotikum ikke kan korrigere.
 
 ---
 

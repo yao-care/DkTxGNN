@@ -6,9 +6,9 @@ nav_order: 700
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Raltegravir: forudsagt ny indikation Infektion med simian immundefektvirus (SIV) (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: forudsagt ny indikation Simian immunodeficiency virus infection (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Raltegravir: Fra HIV-infektion til infektion med simian immundefektvirus (SIV)
+## Raltegravir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -44,12 +44,12 @@ Raltegravir er en integrasehæmmer, der oprindeligt anvendes til behandling af H
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videngrafen; indikationsteksten i den danske registrering er ikke tilgængelig) |
-| Forudsagt ny indikation | Infektion med simian immundefektvirus (SIV) |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Simian immunodeficiency virus infection |
+| TxGNN-forudsigelsesscore | 0.9978 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

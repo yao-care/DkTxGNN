@@ -4,17 +4,17 @@ title: Risperidone
 parent: Kun modelforudsigelse (L5)
 nav_order: 727
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Risperidone: forudsagt ny indikation Familiær horisontal blikparese med progressiv skoliose (evidensniveau L5). Oprindelig indikation: Skizofreni…"
 monitor_inn: "risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: forudsagt ny indikation Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensniveau L5). Oprindelig indikation: Ik…"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Risperidon: Fra skizofreni og bipolar lidelse til familiær horisontal blikparese med progressiv skoliose
+## Risperidone: Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## Opsummering i en sætning
@@ -48,12 +48,12 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der støtter denne forudsi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni, bipolar lidelse og autismespektrumforstyrrelse (fra vidensgrafen; der er ingen indikationstekst for det danske præparat) |
-| Forudsagt ny indikation | Familiær horisontal blikparese med progressiv skoliose |
-| TxGNN-forudsigelsesscore | 99,76 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) |
+| TxGNN-forudsigelsesscore | 0.9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der støtter denne forudsi
 
 Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanisme. Risperidon er et atypisk antipsykotikum, hvis effekt ved skizofreni, bipolar lidelse og autismerelateret irritabilitet er dokumenteret. Virkningen formodes at hænge sammen med blokade af dopamin D2- og serotonin 5-HT2A-receptorer.
 
-Sygdommen er en ultrasjælden neuroudviklingsforstyrrelse knyttet til ROBO3-genet. Der er ikke fundet nogen mekanistisk forbindelse til de dopaminerge eller serotonerge signalveje, som risperidon virker på. Den høje score ser ud til at være et artefakt i vidensgrafen, sandsynligvis drevet af fælles neurologiske sygdomsassociationer.
+Sygdommen er en ultrasjælden neuroudviklingsforstyrrelse knyttet til ROBO3-genet. Der er ikke fundet nogen mekanistisk forbindelse til de dopaminerge eller serotonerge signalveje, som risperidon virker på. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Forudsigelsen bør derfor betragtes som en modelhypotese uden biologisk eller klinisk underbygning.
 

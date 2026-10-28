@@ -4,17 +4,17 @@ title: Serine
 parent: Kun modelforudsigelse (L5)
 nav_order: 757
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Serine: forudsagt ny indikation Familiær visceral myopati (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og lungetuberkulose (fra vidensgrafen"
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+description: "Serine: forudsagt ny indikation Familiær visceral myopati (familial visceral myopathy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Serine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Serin: Fra åbenvinklet glaukom og lungetuberkulose til familiær visceral myopati
+## Serine: Familiær visceral myopati (familial visceral myopathy)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Serin er en proteinogen aminosyre, som i vidensgrafen er knyttet til åbenvinklet glaukom og lungetuberkulose som oprindelige indikationer. TxGNN-modellen forudsiger, at serin kan have effekt ved **familiær visceral myopati**, men der findes **ingen kliniske forsøg** og **ingen publikationer** for denne forudsigelse. Forudsigelsen er derfor udelukkende baseret på beregningsmodellen.
+TxGNN-modellen (deep learning) forudsiger, at serin kan have effekt ved **familiær visceral myopati**, men der findes **ingen kliniske forsøg** og **ingen publikationer** for denne forudsigelse. Forudsigelsen er derfor udelukkende baseret på beregningsmodellen.
 
 ---
 
@@ -46,11 +46,11 @@ Serin er en proteinogen aminosyre, som i vidensgrafen er knyttet til åbenvinkle
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Åbenvinklet glaukom og lungetuberkulose (fra vidensgrafen; ingen godkendt indikationstekst findes i de danske markedsføringstilladelser) |
-| Forudsagt ny indikation | Familiær visceral myopati |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Familiær visceral myopati (familial visceral myopathy) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -60,9 +60,9 @@ Serin er en proteinogen aminosyre, som i vidensgrafen er knyttet til åbenvinkle
 
 Data om serins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Serin er en proteinogen aminosyre og indgår som bestanddel i parenterale ernæringsprodukter (aminosyreopløsninger). Der er ikke dokumenteret nogen sammenhæng mellem serin og den glatte muskelpatologi ved familiær visceral myopati (f.eks. ACTG2-relateret sygdom).
 
-Den høje score (0,9999) afspejler sandsynligvis, at sygdommen ligger tæt på andre sygdomme i vidensgrafen, og ikke en specifik biologisk mekanisme. Den oprindelige indikation (glaukom, tuberkulose) har desuden ingen oplagt mekanistisk lighed med visceral myopati, og de oprindelige indikationer er i sig selv ikke verificeret.
+Den høje score (0,9999) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Den oprindelige indikation (glaukom, tuberkulose) har desuden ingen oplagt mekanistisk lighed med visceral myopati, og de oprindelige indikationer er i sig selv ikke verificeret.
 
-Øvrige forudsigelser med høje scorer omfatter tarmobstruktion (99,97 %), myopatisk intestinal pseudoobstruktion (99,97 %), uklassificeret intestinal pseudoobstruktion (99,97 %), neuronal intestinal dysplasi type B (99,96 %), snævervinklet glaukom (99,90 %) samt aqueous misdirection og traumatisk glaukom (99,87 %). Ingen af disse understøttes af kliniske forsøg.
+Øvrige forudsigelser med høje scorer omfatter tarmobstruktion (0,9997), myopatisk intestinal pseudoobstruktion (0,9997), uklassificeret intestinal pseudoobstruktion (0,9997), neuronal intestinal dysplasi type B (0,9996) samt aqueous misdirection (0,9987). Ingen af disse understøttes af kliniske forsøg.
 
 ---
 

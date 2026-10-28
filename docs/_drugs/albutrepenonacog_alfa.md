@@ -4,17 +4,17 @@ title: Albutrepenonacog Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 32
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Albutrepenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand-sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
+indication_count: 6
 monitor_inn: "ALBUTREPENONACOG ALFA"
-predicted_indications: ["pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "Scott syndrome", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "bleeding diathesis due to a collagen receptor defect"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
+last_modified_at: 2026-10-23
+description: "Albutrepenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
 # Albutrepenonacog Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Albutrepenonacog alfa: Fra hæmofili til pseudo-von Willebrand-sygdom
+## Albutrepenonacog alfa: Fra hæmofili til pseudo-von Willebrands sygdom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Albutrepenonacog alfa er et rekombinant koagulationsfaktor IX-præparat (fusioneret med albumin), som oprindeligt anvendes til behandling af hæmofili.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **pseudo-von Willebrand-sygdom**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen.
+Albutrepenonacog alfa er et rekombinant faktor IX-albumin-fusionsprotein (rIX-FP), som oprindeligt anvendes ved hæmofili. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pseudo-von Willebrands sygdom**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -48,58 +46,52 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hæmofili (ifølge vidensgrafen; den godkendte indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Pseudo-von Willebrand-sygdom |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| Oprindelig indikation | Hæmofili (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er ikke angivet) |
+| Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige. Albutrepenonacog alfa er et rekombinant faktor IX fusioneret med albumin, som erstatter manglende faktor IX ved hæmofili B. Effekten ved den oprindelige indikation er veletableret.
+Der foreligger ingen detaljerede data om virkningsmekanismen. Albutrepenonacog alfa er dog et rekombinant faktor IX fusioneret med albumin, hvilket forlænger halveringstiden. Lægemidlet erstatter manglende faktor IX ved hæmofili B.
 
-Pseudo-von Willebrand-sygdom (trombocyttype af von Willebrand-sygdom) skyldes en gain-of-function-defekt i trombocyttens GPIbα, som øger bindingen til von Willebrand-faktor. Defekten ligger i samspillet mellem trombocytter og von Willebrand-faktor og ikke i mangel på faktor IX. Der er derfor ikke noget klart mekanistisk grundlag for faktor IX-substitution.
+Pseudo-von Willebrands sygdom (trombocyttype af VWD) skyldes en funktionsforøgende defekt i trombocyt-GPIbα, som øger bindingen til von Willebrand-faktor. Det er ikke en mangel på faktor IX. Der er ikke fundet nogen plausibel mekanistisk forbindelse til faktor IX-erstatning. Den høje score (0,9994) afspejler sandsynligvis, at sygdommene ligger tæt på hinanden i videnstgrafen som blødningssygdomme, og ikke kliniske data.
 
-Den høje TxGNN-score er en ren grafbaseret forudsigelse, sandsynligvis drevet af fælles blødningsfænotyper i vidensgrafen. Forudsigelsen bør derfor tolkes med stor forsigtighed.
-
-Modellen forudsiger også andre trombocyt- og blødningsrelaterede sygdomme med tilsvarende lav biologisk sandsynlighed:
-
-| Forudsagt sygdom | Score | Mekanistisk vurdering |
-|------|------|------|
-| Primær frigivelsesdefekt af trombocytter | 99,94 % | Defekt granulesekretion/signalering; faktor IX korrigerer ikke dette |
-| Glanzmanns trombasteni | 99,92 % | Mangel på integrin αIIbβ3; standardbehandling er trombocytttransfusion, rekombinant faktor VIIa og antifibrinolytika |
-| Scott-syndrom | 99,63 % | Nedsat fosfatidylserin-eksponering; kun en teoretisk, indirekte forbindelse via tenase-komplekset |
-| Blødningstendens pga. kollagenreceptordefekt | 99,28 % | Defekt trombocytadhæsion; faktor IX adresserer ikke dette |
+Prædiktionen er i øvrigt kun ét af seks forslag. De øvrige er primær frigivelsesdefekt i trombocytter, Glanzmanns trombasteni, Scotts syndrom, blødningsdiatese ved kollagenreceptordefekt og blødningssygdom ved konstitutionel trombocytopeni. Alle har score over 99 %, men ingen har tilknyttede studier, og for alle gælder, at defekten ligger i trombocytfunktion eller -antal og ikke i faktor IX.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105593615 | Idelvion (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28105593615 | Idelvion (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+
+Antallet af godkendelser er 1, og listen er fuldstændig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Der blev ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data.
+Der er ikke fundet interaktioner i de indsamlede data. Der henvises i øvrigt til det godkendte produktresumé (SmPC) for sikkerhedsinformation, herunder advarsler og kontraindikationer.
 
 ---
 
@@ -108,13 +100,13 @@ Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. D
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litteratur, og den biologiske sandsynlighed er lav, da de forudsagte sygdomme skyldes trombocyt- eller von Willebrand-faktor-defekter og ikke faktor IX-mangel. Den høje score afspejler sandsynligvis nærhed i vidensgrafen.
+Der er ingen kliniske forsøg eller publikationer for pseudo-von Willebrands sygdom, og der er ikke identificeret en mekanistisk forbindelse til faktor IX-erstatning. Evidensniveauet er L5, og den høje score er alene en netværksbaseret modelforudsigelse.
 
 **For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) – dette er en blokerende datamangel
-- Supplér data om virkningsmekanisme (f.eks. via DrugBank)
-- Systematisk litteratur- og forsøgssøgning for faktor IX ved trombocytfunktionsforstyrrelser
-- Prækliniske data, der kan underbygge en mekanistisk forbindelse, før der overvejes yderligere vurdering
+- Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- En litteratur- og forsøgsgennemgang, der direkte undersøger faktor IX-præparater ved trombocytbaserede blødningssygdomme
+- En klinisk og biologisk vurdering af, om faktor IX-erstatning overhovedet kan påvirke de underliggende trombocytdefekter
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

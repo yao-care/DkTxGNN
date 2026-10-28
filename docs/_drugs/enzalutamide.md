@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Kun modelforudsigelse (L5)
 nav_order: 311
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Enzalutamide: forudsagt ny indikation Prostatakræft-/hjernekræftdisposition (evidensniveau L5). Oprindelig indikation: Prostatakræft"
 monitor_inn: "enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide: forudsagt ny indikation Prostate leiomyoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Enzalutamid: Fra prostatakræft til prostatakræft-/hjernekræftdisposition
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## Opsummering
@@ -46,19 +46,18 @@ Der er dog **ingen kliniske forsøg og ingen publikationer** for netop denne for
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Prostatakræft (den danske godkendelses indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Prostatakræft-/hjernekræftdisposition |
-| TxGNN-forudsigelsesscore | 99,71 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Prostate leiomyoma |
+| TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
 Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Enzalutamid er kendt som en hæmmer af androgenreceptor-signalering (AR), og dens effekt ved prostatakræft er veldokumenteret. Mekanismen kan derfor ikke verificeres yderligere ud fra de foreliggende data.
 
-Forudsigelsen afspejler sandsynligvis den del af indikationen, der handler om disposition for prostatakræft, og som allerede ligger inden for lægemidlets eksisterende anvendelsesområde. Der er ingen data, der understøtter en sammenhæng med den del, der vedrører hjernekræftdisposition. Scoren er derfor mest et udtryk for netværksnærhed i vidensgrafen og ikke for en påvist farmakologisk sammenhæng.
 
 ## Klinisk evidens
 

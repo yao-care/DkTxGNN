@@ -6,9 +6,9 @@ nav_order: 774
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension, kongestiv hjertesvigt, hyperaldosteronisme…"
 monitor_inn: "spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Spironolacton: Fra hypertension og hjertesvigt til hypotrichosis simplex i hovedbunden
+## Spironolactone: Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Sammenfatning i en enkelt sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension, kongestiv hjertesvigt, hyperaldosteronisme, primær aldosteronisme, Bartters sygdom og Waterhouse-Friderichsens syndrom (ifølge vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden |
-| TxGNN-forudsigelsesscore | 99,26 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) |
+| TxGNN-forudsigelsesscore | 0.9926 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi er spironolacton både en mineralokortikoidreceptorantagonist og en antiandrogen. Det anvendes off-label ved androgendrevet hårtab, f.eks. kvindeligt hårtab (female pattern hair loss).
 
-Hypotrichosis simplex i hovedbunden er derimod en sjælden arvelig, ikke-androgen hårtabslidelse, forbundet med gener som CDSN, APCDD1 og RPL21. En antiandrogen mekanisme har derfor ingen klar relevans. Sammenhængen er plausibel, men ikke bevist. Den høje score (0,993) er udelukkende et beregnet modelresultat og afspejler sandsynligvis nærhed til andre hårtabsfænotyper i vidensgrafen snarere end en påvist biologisk vej.
+Hypotrichosis simplex i hovedbunden er derimod en sjælden arvelig, ikke-androgen hårtabslidelse, forbundet med gener som CDSN, APCDD1 og RPL21. En antiandrogen mekanisme har derfor ingen klar relevans. Sammenhængen er plausibel, men ikke bevist. Den høje score (0,9926) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Den næstrangerede forudsigelse, **congenital hypotrichosis milia** (score 99,04 %), har ingen etableret mekanistisk forbindelse. Det er en sjælden genetisk lidelse i hårsækkens udvikling, hvor anti-androgen eller mineralokortikoidreceptorblokade ikke har nogen dokumenteret rolle.
+Den næstrangerede forudsigelse, **congenital hypotrichosis milia** (score 0,9904), har ingen etableret mekanistisk forbindelse. Det er en sjælden genetisk lidelse i hårsækkens udvikling, hvor anti-androgen eller mineralokortikoidreceptorblokade ikke har nogen dokumenteret rolle.
 
 ---
 

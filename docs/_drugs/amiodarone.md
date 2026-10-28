@@ -6,7 +6,7 @@ nav_order: 52
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Amiodarone: forudsagt ny indikation Ventrikulær takykardi (evidensniveau L1). Oprindelig indikation: Ventrikelflimren"
+description: "Amiodarone: forudsagt ny indikation katekolaminerg polymorf ventrikulær takykardi (evidensniveau L1). Oprindelig indikation: Ventrikelflimren"
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Amiodaron: Fra ventrikelflimren til ventrikulær takykardi
+## Amiodaron: Fra ventrikelflimren til katekolaminerg polymorf ventrikulær takykardi
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -50,10 +50,10 @@ Forudsigelsen understøttes af **18 kliniske studier** og **20 publikationer**, 
 |------|------|
 | Oprindelig indikation | Ventrikelflimren (de danske markedsføringstilladelser indeholder ingen indikationstekst i de data, der er indsamlet til rapporten) |
 | Forudsagt ny indikation | Ventrikulær takykardi |
-| TxGNN-prædiktionsscore | 99,64 % |
+| TxGNN-prædiktionsscore | 0,9978 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

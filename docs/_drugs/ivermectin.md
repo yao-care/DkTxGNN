@@ -4,17 +4,17 @@ title: Ivermectin
 parent: Kun modelforudsigelse (L5)
 nav_order: 465
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ivermectin: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Strongyloidiasis og onchocerciasis (fra TxGNN-vidensgrafen"
+indication_count: 9
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "vulvovaginal candidiasis", "esophageal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "anogenital human papillomavirus infection", "vulvovaginitis", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+last_modified_at: 2026-10-23
+description: "Ivermectin: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Strongyloidiasis og onchocerciasis"
 ---
 
 # Ivermectin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,107 +38,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Ivermectin er et antiparasitært lægemiddel, der oprindeligt anvendes til behandling af strongyloidiasis og onchocerciasis.
-TxGNN-modellen forudsiger, at det kan have effekt mod **vulvovaginal candidiasis**,
-men der er i de data, der er indsamlet til denne rapport, **0 kliniske forsøg** og **0 publikationer**, der understøtter denne indikation. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+Ivermectin er et middel mod parasitter, og i videnskabsgrafen er det registreret med relationerne strongyloidiasis og onchocerciasis. TxGNN-modellen forudsiger, at det kan have effekt ved **vulvovaginal candidiasis**, men der er **ingen kliniske forsøg og ingen publikationer**, der direkte undersøger denne sygdom. Forudsigelsen bygger udelukkende på en computermodel.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Strongyloidiasis og onchocerciasis (fra TxGNN-vidensgrafen; det danske markedsføringstilladelses-indikationsfelt er tomt) |
+| Oprindelig indikation | Strongyloidiasis og onchocerciasis (relation registreret i videnskabsgrafen; den danske licens har ingen indikationstekst) |
 | Forudsagt ny indikation | Vulvovaginal candidiasis |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national godkendelse (veterinærlægemiddel) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at ivermectin primært virker på glutamatstyrede kloridkanaler hos hvirvelløse dyr. Der er ikke noget, der tyder på, at et tilsvarende mål findes i Candida.
 
-Der foreligger i øjeblikket ingen detaljerede data om lægemidlets virkningsmekanisme. Ivermectins kendte antiparasitære virkning formidles via glutamat-styrede kloridkanaler hos hvirvelløse dyr. Der er ikke påvist nogen tilsvarende mekanisme hos *Candida*, som er en svamp.
+Der er derfor ingen etableret mekanistisk forbindelse mellem parasitinfektioner og candidiasis. Sygdommene har forskellige årsager: parasitter (orme) kontra svampe. Den høje modelscore kan ikke i sig selv erstatte biologisk sandsynlighed eller klinisk dokumentation.
 
-Der er derfor ikke etableret nogen mekanistisk forbindelse mellem de oprindelige indikationer (parasitinfektioner) og vulvovaginal candidiasis (svampeinfektion). Den høje score (0,9995) er en beregningsmæssig forudsigelse, der sandsynligvis afspejler nærhed i vidensgrafen frem for påvist aktivitet. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et resultat.
+## Klinisk evidens
 
-Modellen forudsiger desuden flere beslægtede indikationer med samme manglende evidens:
-
-| Forudsagt indikation | TxGNN-score | Evidens |
-|------|------|------|
-| Esophageal candidiasis | 99,73 % | Ingen relevante data (se nedenfor) |
-| Anogenital human papillomavirus-infektion | 99,48 % | Ingen |
-| Vulvovaginitis | 99,36 % | Ingen |
-| Congenital candidiasis | 99,25 % | Ingen relevante data (se nedenfor) |
-| Neonatal candidiasis | 99,25 % | Ingen |
-
----
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret for vulvovaginal candidiasis.
 
 ## Litteraturevidens
 
-For den primære forudsagte indikation (vulvovaginal candidiasis) foreligger der i øjeblikket ingen relateret litteratur.
+Der er for øjeblikket ingen relateret litteratur for vulvovaginal candidiasis.
 
-For andre forudsagte indikationer er følgende publikationer knyttet til forudsigelserne. Ingen af dem understøtter den forudsagte indikation:
+Bemærk: For andre forudsagte candidiasis-indikationer er der fundet to artikler (PMID 35835488 om dissemineret strongyloidiasis efter langvarig kortikosteroidbehandling og PMID 10098288 om svær fnat hos immunsvækkede børn). Ingen af dem undersøger candidiasis som behandlingsmål, og de understøtter ikke forudsigelsen.
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case report | BMJ Case Reports | Disseminert strongyloidiasis efter langvarig kortikosteroidbehandling. Omhandler den oprindelige antiparasitære indikation, ikke esophageal candidiasis. |
-| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case report | Australasian Journal of Dermatology | Vellykket behandling af crusted scabies med oral ivermectin hos to immunkompromitterede børn (ét med kronisk mukokutan candidiasis). Omhandler skabbehandling, ikke candidiasis. |
+## Markedsinformation i Danmark
 
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103169900 | Bimectin Vet. | Injektionsvæske, opløsning | Ikke angivet |
+| 28103169900 | Bimectin Vet. | Injektionsvæske, opløsning | Ingen indikationstekst tilgængelig |
 
-Bemærk: Den eneste registrerede tilladelse er for et veterinærpræparat (Bimeda Animal Health Limited). De data, der er indsamlet til denne rapport, viser ingen registreret human-formulering i Danmark.
-
----
+Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig.
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer fra vidensgrafen** (ikke fra produktresumétekst): loiasis og filariasis.
+- **Relationer i videnskabsgrafen (ikke mærkningstekst)**: Videnskabsgrafen registrerer kontraindikationsrelationer til **loiasis** og **filariasis**.
+- **Lægemiddelinteraktioner**: Der er identificeret 100 mulige interaktioner. Eksempler på moderate interaktioner: aprepitant, clarithromycin, ethanol, cobicistat, deferasirox, warfarin, dicoumarol, fostamatinib, radioaktivt jod (I-123 og I-131) og abametapir (topisk). Flere andre har uafklaret niveau, bl.a. omeprazol, lansoprazol, prednison, prednisolon, dexamethason, ranitidin, famotidin, ursodeoxycholsyre og heparin.
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen er gennemført og fandt 100 registrerede interaktioner. Blandt de væsentligste, klassificeret som moderate:
-- Warfarin og dicoumarol (risiko for påvirket antikoagulation)
-- Aprepitant og clarithromycin
-- Cobicistat
-- Ethanol
-- Deferasirox
-- Fostamatinib
-- Jod-123 og jod-131
-- Abametapir (topisk)
-
-For en række andre stoffer (bl.a. omeprazol, lansoprazol, prednison, prednisolon, dexamethason, ranitidin, famotidin, ursodeoxycholsyre og heparin) er interaktionsniveauet angivet som ukendt.
-
-For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC). Bemærk, at advarsler og kontraindikationer fra produktresuméet ikke har kunnet indhentes i forbindelse med denne rapport.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for yderligere sikkerhedsoplysninger. Til neonatal brug er der desuden generel forsigtighed, da ivermectin normalt ikke anbefales til meget små eller lavtvejende børn.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller relevant litteratur, og der er ingen etableret mekanistisk forbindelse mellem ivermectins antiparasitære virkning og svampeinfektionen candidiasis. Den eneste danske tilladelse er desuden for et veterinærpræparat.
+Forudsigelsen er alene baseret på en computermodel uden kliniske forsøg, uden litteratur og uden en kendt mekanisme mod Candida. Der findes allerede godkendte og effektive svampemidler.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Prækliniske data (in vitro-aktivitet mod *Candida*) til at vurdere, om der overhovedet er biologisk plausibilitet
-- Advarsler og kontraindikationer fra et godkendt humant produktresumé hentet fra Lægemiddelstyrelsen
-- Vurdering af administrationsvej og formulering, da der ikke er afklaret en egnet vej til vaginal eller øsofageal anvendelse
-- Særskilt sikkerhedsvurdering for neonatale og immunkompromitterede populationer, hvis de beslægtede indikationer undersøges
-- Systematisk litteratursøgning og registersøgning efter forsøg, der direkte omhandler ivermectin og candidiasis
+**For at komme videre kræves:**
+- Præklinisk dokumentation for aktivitet mod Candida (in vitro)
+- Oplysninger om virkningsmekanisme
+- Gennemgang af produktresumé for human brug (den danske licens er et veterinærpræparat)
+- Sikkerhedsvurdering af relevante interaktioner og særlige populationer
+- Kliniske forsøg, hvis præklinisk dokumentation understøtter det
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

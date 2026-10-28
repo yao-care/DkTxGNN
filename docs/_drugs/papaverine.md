@@ -6,9 +6,9 @@ nav_order: 629
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Papaverine: forudsagt ny indikation Iskæmisk sygdom (evidensniveau L4). Oprindelig indikation: Perifer karsygdom, claudicatio intermittens, perifer arteriel sygdom…"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
+description: "Papaverine: forudsagt ny indikation Iskæmisk sygdom (ischemic disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Papaverine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Papaverin: Fra perifer karsygdom til iskæmisk sygdom
+## Papaverine: Iskæmisk sygdom (ischemic disease)
 {: .text-alpha }
 
 ## Opsummering
@@ -46,12 +46,12 @@ men evidensen er svag: der er **1 klinisk studie** (et observationelt register u
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Perifer karsygdom, claudicatio intermittens, perifer arteriel sygdom, cerebral iskæmi, TIA (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Iskæmisk sygdom |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Iskæmisk sygdom (ischemic disease) |
+| TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

@@ -4,17 +4,17 @@ title: Treosulfan
 parent: Kun modelforudsigelse (L5)
 nav_order: 855
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Treosulfan: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Konditionering før hæmatopoietisk stamcelletransplantation"
 monitor_inn: "Treosulfan"
-predicted_indications: ["diabetic cataract", "diabetic cataract", "nuclear senile cataract", "nuclear senile cataract", "cortical cataract", "cortical cataract", "mature cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract"]
+predicted_indications: ["diabetic cataract"]
 ---
 
 # Treosulfan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Treosulfan (handelsnavn Trecondi) er et alkylerende cytostatikum, som anvendes til konditionering før transplantation af bloddannende stamceller. TxGNN-modellen forudsiger, at det kan have effekt på **diabetisk katarakt** (score 99,0 %), men der er **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellen.
+Treosulfan (handelsnavn Trecondi) er et alkylerende cytostatikum, som anvendes til konditionering før transplantation af bloddannende stamceller. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt på **diabetisk katarakt** (score 0.9901), men der er **ingen registrerede kliniske forsøg og ingen publikationer**, der understøtter denne retning. Forudsigelsen hviler udelukkende på modellen.
 
 ---
 
@@ -48,13 +48,12 @@ Treosulfan (handelsnavn Trecondi) er et alkylerende cytostatikum, som anvendes t
 |------|------|
 | Oprindelig indikation | Konditionering før hæmatopoietisk stamcelletransplantation (ifølge den generelle viden om stoffet; godkendelsesteksten i den danske registrering er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Diabetisk katarakt |
-| TxGNN-prædiktionsscore | 99,0 % |
+| TxGNN-prædiktionsscore | 0.9901 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Øvrige forudsagte indikationer med næsten identiske scorer (ca. 98,9–99,0 %) er nuklear senil katarakt, kortikal katarakt, moden katarakt, tetanisk katarakt og katarakt forbundet med type 2-diabetes. Alle har evidensniveau L5 og anbefalingen Hold.
 
 ---
 
@@ -64,7 +63,7 @@ Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er 
 
 Der kan ikke udledes en plausibel mekanistisk sammenhæng mellem denne virkning og katarakt. Diabetisk katarakt skyldes primært polyolvejen, oxidativt stress og osmotisk skade på linsen. Nuklear og kortikal katarakt skyldes bl.a. oxidation og aggregering af linseproteiner. Moden katarakt behandles kirurgisk, og tetanisk katarakt hænger sammen med lavt calciumniveau (f.eks. ved hypoparathyroidisme). Treosulfan har ingen kendt påvirkning af disse processer.
 
-Den høje score afspejler sandsynligvis, at forskellige katarakttyper ligger tæt på hinanden i modellens vidensgraf, snarere end en lægemiddelspecifik mekanisme. Desuden er DNA-alkylerende stoffer og konditioneringsregimer snarere forbundet med at *forårsage* katarakt (f.eks. efter helkropsbestråling eller busulfan) end med at behandle den.
+Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens eller en lægemiddelspecifik mekanisme. Desuden er DNA-alkylerende stoffer og konditioneringsregimer snarere forbundet med at *forårsage* katarakt (f.eks. efter helkropsbestråling eller busulfan) end med at behandle den.
 
 ---
 

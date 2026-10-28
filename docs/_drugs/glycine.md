@@ -4,17 +4,17 @@ title: Glycine
 parent: Kun modelforudsigelse (L5)
 nav_order: 397
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glycine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse…"
 monitor_inn: "glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ TxGNN-modellen forudsiger, at glycin kan have effekt ved **sygdom i næsehulen**
 |------|------|
 | Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse, rhinitis, nasopharyngitis (ifølge videnbasen; de danske markedsføringstilladelser har ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,85 % |
+| TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -61,9 +61,8 @@ TxGNN-modellen forudsiger, at glycin kan have effekt ved **sygdom i næsehulen**
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om glycins virkningsmekanisme i de data, der er indsamlet til denne rapport. Glycin er kendt som en hæmmende neurotransmitter og en cytobeskyttende aminosyre, men de foreliggende data dokumenterer ingen sammenhæng med patologi i næsen.
 
-Den høje score (0,998) afspejler sandsynligvis, at "sygdom i næsehulen" ligger tæt på de eksisterende indikationer (rhinitis og nasopharyngitis) i netværket. Forudsigelsen er derfor snarere en udvidelse af en eksisterende indikationskategori end et selvstændigt repurposing-signal. Et mekanistisk rationale kan ikke vurderes ud fra de foreliggende data.
+Den høje score (0,9985) afspejler sandsynligvis, at "sygdom i næsehulen" ligger tæt på de eksisterende indikationer (rhinitis og nasopharyngitis) i netværket. Forudsigelsen er derfor snarere en udvidelse af en eksisterende indikationskategori end et selvstændigt repurposing-signal. Et mekanistisk rationale kan ikke vurderes ud fra de foreliggende data.
 
-Modellen forudsiger desuden **akut laryngopharyngitis** (score 99,84 %). Her findes hverken kliniske forsøg eller litteratur, og forudsigelsen vurderes af samme grund som en nærliggende udvidelse af de eksisterende pharyngitis-indikationer.
 
 ---
 

@@ -4,17 +4,17 @@ title: Phenprocoumon
 parent: Kun modelforudsigelse (L5)
 nav_order: 653
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Phenprocoumon: forudsagt ny indikation Posteroinferiort myokardieinfarkt (evidensniveau L5). Oprindelig indikation: Myokardieinfarkt, koronar trombose…"
+indication_count: 7
 monitor_inn: "PHENPROCOUMON"
-predicted_indications: ["heparin cofactor 2 deficiency", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "congenital coronary artery anomaly", "stroke disorder", "thrombophilia", "coronary stenosis"]
+last_modified_at: 2026-10-23
+description: "Phenprocoumon: forudsagt ny indikation Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Phenprocoumon
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Phenprocoumon: Fra myokardieinfarkt og trombotisk sygdom til posteroinferiort myokardieinfarkt
+## Phenprocoumon: Heparin cofactor 2-mangel (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé i få sætninger
 
-Phenprocoumon er et oralt K-vitamin-antagonistisk antikoagulans, der oprindeligt anvendes til behandling og forebyggelse af myokardieinfarkt, koronar trombose og andre trombotiske sygdomme.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **posteroinferiort myokardieinfarkt**,
-men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
+Phenprocoumon er en oral vitamin K-antagonist (antikoagulans).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **heparin cofactor 2-mangel**.
+Forudsigelsen er ren modelberegning: der er fundet **0 kliniske forsøg** og **0 publikationer** om netop denne sygdom.
 
 ---
 
@@ -48,53 +48,52 @@ men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsa
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Myokardieinfarkt, koronar trombose, trombotisk sygdom (fra TxGNN-vidensgrafen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Forudsagt ny indikation | Posteroinferiort myokardieinfarkt |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal tilladelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Phenprocoumon er dog en kendt K-vitamin-antagonist, der hæmmer enzymet VKORC1 (vitamin K epoxid reduktase kompleks subunit 1). Det nedsætter dannelsen af koagulationsfaktorerne II, VII, IX og X og dermed trombindannelsen.
+Phenprocoumon hæmmer vitamin K-epoxidreduktase (VKORC1). Det mindsker dannelsen af de vitamin K-afhængige koagulationsfaktorer II, VII, IX og X samt protein C og S. Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på lægemiddelklassens kendte virkning.
 
-Posteroinferiort myokardieinfarkt er en anatomisk undertype af myokardieinfarkt, som allerede indgår blandt lægemidlets oprindelige indikationer. Den høje score afspejler sandsynligvis nærhed til den overordnede sygdom i vidensgrafen snarere end ny evidens. Der er derfor tale om overlap mellem undertyper snarere end en egentlig ny anvendelse (repurposing).
+Heparin cofactor 2-mangel er en trombofil tilstand med øget tendens til blodpropper. Hæmning af koagulationsfaktorer kan derfor i princippet dæmpe den øgede koagulationstendens. En sådan mekanistisk sammenhæng er plausibel, men ikke dokumenteret.
 
-Øvrige forudsigelser i datasættet følger samme mønster:
-- **Posterolateralt og septalt myokardieinfarkt** (score 99,86 % og 99,85 %): undertyper af den godkendte indikation.
-- **Heparin-cofaktor-2-mangel** (99,86 %) og **faktor 5-overskud med spontan trombose** (99,80 %): arvelige eller erhvervede hyperkoagulable tilstande, hvor antikoagulation med K-vitamin-antagonist er mekanistisk plausibel, men indirekte og ikke valideret.
+Forudsigelsen hviler alene på modellens høje score. Der er hverken kliniske forsøg, publikationer eller direkte studier af denne sygdom. Forudsigelsen skal derfor ses som en hypotese, ikke som støtte for klinisk brug.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-Der er for tiden ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der er for tiden ingen relateret litteratur tilgængelig.
+Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation.
 
 ---
 
-## Markedsinformation for Danmark
+## Litteraturevidens
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er i øjeblikket ingen relevant litteratur for denne indikation.
+
+---
+
+## Information om det danske marked
+
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
 |---------|------|------|-----------|
-| 28104727310 | Marcoumar (2care4 ApS) | Tabletter (oral) | Indikationstekst ikke tilgængelig |
+| 28104727310 | Marcoumar | Tabletter (oral) | 2care4 ApS |
+
+Der foreligger ingen godkendt indikationstekst i de indsamlede licensdata. Tilladelsen gælder et enkeltstofpræparat og har status gyldig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Den eneste registrerede interaktion i data er farmakologisk målprotein-binding: phenprocoumon virker på VKORC1 (humant), hvilket er lægemidlets terapeutiske virkemekanisme. Der er ikke registreret interaktioner med andre lægemidler.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler, kontraindikationer og interaktioner. Som for andre K-vitamin-antagonister kræver behandling regelmæssig INR-monitorering.
+Der er ikke indsamlet data om advarsler, kontraindikationer eller lægemiddelinteraktioner for dette lægemiddel. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -103,13 +102,15 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsigelser er rent modelbaserede (L5) uden understøttende kliniske forsøg eller publikationer. De højest rangerede forudsigelser er undertyper af en allerede kendt indikation og udgør ikke en reel repurposing-mulighed. Sikkerhedsdata fra produktresuméet mangler desuden.
+Forudsigelsen er baseret udelukkende på modelberegning (evidensniveau L5), uden kliniske forsøg eller publikationer om heparin cofactor 2-mangel. Sikkerhedsdata fra produktresuméet mangler desuden i grundlaget.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer), som er en blokerende datamangel
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratur- og forsøgssøgning for undertype-specifik anvendelse (posteroinferiort, posterolateralt og septalt myokardieinfarkt)
-- Vurdering af, om de sjældne tilstande (heparin-cofaktor-2-mangel, faktor 5-overskud) berettiger et reelt repurposing-spor, evt. via kliniske retningslinjer og case-litteratur
+**For at komme videre kræves:**
+- Systematisk litteratursøgning og søgning i forsøgsregistre specifikt for heparin cofactor 2-mangel
+- Indhentning og gennemgang af produktresumé (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- Detaljerede data om virkningsmekanisme
+- Klinisk vurdering af, om vitamin K-antagonisme har rationel merværdi i denne sjældne tilstand i forhold til nuværende standardbehandling
+
+**Bemærkning:** Modellen forudsiger også andre indikationer, bl.a. slagtilfælde og trombofili, hvor der findes mere publiceret materiale. Disse er ikke vurderet i denne rapport og kræver en separat evaluering.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

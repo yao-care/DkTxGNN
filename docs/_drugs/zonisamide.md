@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Kun modelforudsigelse (L5)
 nav_order: 907
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Zonisamide: forudsagt ny indikation Tourettes syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom). Zon…"
 monitor_inn: "zonisamide"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Rapporten omtaler desuden de øvrige forudsigelser, hvoraf nogle har et mere kon
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten er tom). Zonisamid er et antiepileptikum. |
 | Forudsagt ny indikation | Tourettes syndrom |
-| TxGNN-prædiktionsscore | 99,85 % |
+| TxGNN-prædiktionsscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -82,15 +82,14 @@ Der er for øjeblikket ingen relateret litteratur for Tourettes syndrom.
 
 | Rang | Forudsagt indikation | Score | Evidensniveau | Anbefaling | Kommentar |
 |---|---|---|---|---|---|
-| 2 | Trikotillomani | 99,78 % | L5 | Hold | Kun modelforudsigelse; spekulativt link via glutamaterge og dopaminerge systemer. |
-| 3 | Methæmoglobinæmi, alfa-type | 99,64 % | L5 | Hold | Ingen plausibel mekanisme; sandsynligvis et artefakt i vidensgrafen. |
-| 4 | Methæmoglobinæmi | 99,63 % | L5 | Hold | Ingen mekanisme; sulfonamidgruppen kan snarere indikere et sikkerhedsproblem. |
-| 5 | Prinzmetal-angina | 99,55 % | L5 | Hold | Teoretisk link via T-type-calciumkanaler; ingen kliniske data. |
-| 6 | Methæmoglobinreduktase-mangel | 99,53 % | L5 | Hold | Sjælden arvelig enzymmangel uden plausibel link. |
-| 7 | Manisk bipolar lidelse | 99,35 % | L4 | Forskningsspørgsmål | Kun indirekte evidens, se nedenfor. |
-| 8 | Absenceepilepsi | 99,24 % | L3 | Forskningsspørgsmål | Bedst understøttet; se nedenfor. |
-| 9 | Fibromyalgi | 99,20 % | L4 | Hold | Eneste forsøg er trukket tilbage; se nedenfor. |
-| 10 | Konjunktivitis | 99,16 % | L5 | Hold | Ingen plausibel mekanisme. |
+| 2 | Trikotillomani | 0,9978 | L5 | Hold | Kun modelforudsigelse; spekulativt link via glutamaterge og dopaminerge systemer. |
+| 3 | Methæmoglobinæmi, alfa-type | 0,9964 | L5 | Hold | Ingen plausibel mekanisme; scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. |
+| 4 | Methæmoglobinæmi | 0,9963 | L5 | Hold | Ingen mekanisme; sulfonamidgruppen kan snarere indikere et sikkerhedsproblem. |
+| 5 | Prinzmetal-angina | 0,9955 | L5 | Hold | Teoretisk link via T-type-calciumkanaler; ingen kliniske data. |
+| 6 | Methæmoglobinreduktase-mangel | 0,9953 | L5 | Hold | Sjælden arvelig enzymmangel uden plausibel link. |
+| 7 | Manisk bipolar lidelse | 0,9935 | L5 | Forskningsspørgsmål | Kun indirekte evidens, se nedenfor. |
+| 9 | Fibromyalgi | 0,9920 | L4 | Hold | Eneste forsøg er trukket tilbage; se nedenfor. |
+| 10 | Konjunktivitis | 0,9916 | L5 | Hold | Ingen plausibel mekanisme. |
 
 ### Absenceepilepsi (evidensniveau L3)
 

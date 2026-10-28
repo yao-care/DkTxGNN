@@ -6,9 +6,9 @@ nav_order: 833
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tipiracil: forudsagt ny indikation Cøkal villøst adenom (evidensniveau L5). Oprindelig indikation: Kolorektal cancer (malign tyktarmscancer). Godkendelsesteksten for de…"
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tipiracil
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tipiracil: Fra kolorektal cancer til cøkal villøst adenom
+## Tipiracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Tipiracil indgår i kombinationspræparatet trifluridin/tipiracil og anvendes op
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kolorektal cancer (malign tyktarmscancer). Godkendelsesteksten for det danske præparat er ikke tilgængelig i de indsamlede data. |
-| Forudsagt ny indikation | Cøkal villøst adenom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cecum villous adenoma |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Tipiracil indgår i kombinationspræparatet trifluridin/tipiracil og anvendes op
 
 Data om tipiracils virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tipiracil er kendt som en hæmmer af thymidinphosphorylase og markedsføres kun i kombination med trifluridin (TAS-102) til metastatisk kolorektal cancer. Tipiracil er ikke selv cytotoksisk, men forhindrer nedbrydningen af trifluridin og øger dermed dets effekt.
 
-Et villøst adenom er en godartet forstadie-forandring i samme organ som kolorektal cancer. Den høje TxGNN-score afspejler sandsynligvis, at sygdommen ligger tæt på kolorektal cancer i vidensgrafen, og ikke en egentlig biologisk sammenhæng. Der er ingen direkte mekanistisk begrundelse for at behandle et godartet adenom med en cytotoksisk nukleosidanalog-kombination. Forudsigelsen bør derfor vurderes med stor forsigtighed.
+Et villøst adenom er en godartet forstadie-forandring i samme organ som kolorektal cancer. Den høje TxGNN-score (0,9999) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Der er ingen direkte mekanistisk begrundelse for at behandle et godartet adenom med en cytotoksisk nukleosidanalog-kombination. Forudsigelsen bør derfor vurderes med stor forsigtighed.
 
 Øvrige forudsagte indikationer (rang 2-10) omfatter bl.a. lipom i tyktarmen, neoplasi i overgangen mellem rectum og sigmoideum, neuroendokrin tumor G1 i cøkum, lymfangiom, leiomyom, hæmangiom og gastrointestinal stromatumor (GIST). Flertallet er godartede tilstande uden plausibel mekanistisk sammenhæng. Neoplasi i rectosigmoideum er hovedsageligt et anatomisk understed af den eksisterende indikation og ikke et reelt repurposing-mål.
 

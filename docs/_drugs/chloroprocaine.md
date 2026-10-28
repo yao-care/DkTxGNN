@@ -39,7 +39,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 ## Resumé
 
 Chloroprocain er et lokalanæstetikum af estertypen. Det er markedsført i Danmark som injektionsvæske (Ampres), men den godkendte indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger en mulig effekt ved **cauda equina-syndrom** (score 99,0 %), men der er **ingen registrerede kliniske forsøg** og kun **4 publikationer**, som ikke understøtter en terapeutisk effekt. Litteraturen beskriver tværtimod cauda equina-syndrom som en kendt **komplikation** ved spinal- og epidural anæstesi med lokalanæstetika, herunder chloroprocain.
+TxGNN-modellen (deep learning) forudsiger en mulig effekt ved **cauda equina-syndrom** (score 0,9901), men der er **ingen registrerede kliniske forsøg** og kun **4 publikationer**, som ikke understøtter en terapeutisk effekt. Litteraturen beskriver tværtimod cauda equina-syndrom som en kendt **komplikation** ved spinal- og epidural anæstesi med lokalanæstetika, herunder chloroprocain.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger en mulig effekt ved **cauda equina-syndrom** (score 99
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de indsamlede data (lokalanæstesi er den kendte anvendelse) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,0 % |
+| TxGNN-forudsigelsesscore | 0,9901 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger en mulig effekt ved **cauda equina-syndrom** (score 99
 
 Data om detaljeret virkningsmekanisme er ikke tilgængelige i de indsamlede data. Chloroprocain er et lokalanæstetikum af estertypen, som blokerer spændingsafhængige natriumkanaler og dermed hæmmer nerveledning.
 
-Den høje score afspejler sandsynligvis en association i vidensgrafen, som er drevet af en **bivirkningsrelation** og ikke af en terapeutisk relation. Cauda equina-syndrom er en anerkendt komplikation ved neuraxial anæstesi og er sat i forbindelse med neurotoksicitet af lokalanæstetika, særligt ved høje koncentrationer, langvarig eksponering eller uens fordeling i intratekalrummet. Effektretningen er derfor **skade frem for gavn**.
+Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Scoren er sandsynligvis drevet af en **bivirkningsrelation** og ikke af en terapeutisk relation. Cauda equina-syndrom er en anerkendt komplikation ved neuraxial anæstesi og er sat i forbindelse med neurotoksicitet af lokalanæstetika, særligt ved høje koncentrationer, langvarig eksponering eller uens fordeling i intratekalrummet. Effektretningen er derfor **skade frem for gavn**.
 
 Vurderingen er, at der er tale om et **sandsynligt falsk positivt repurposing-signal**. Der er ikke fundet litteratur, som understøtter en terapeutisk rolle ved cauda equina-syndrom.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eletriptan
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 297
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Eletriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura)"
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+description: "Eletriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Eletriptan: Fra migræne til migræne med hjernestammeaura
+## Eletriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Opsummering
 
 Eletriptan er en selektiv 5-HT1B/1D-receptoragonist (triptan), som oprindeligt anvendes til behandling af migræne.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **migræne med hjernestammeaura**,
 men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur** (17 publikationer om eletriptan og migræne generelt, ingen specifikt om hjernestammeaura).
 
 ---
@@ -48,12 +47,12 @@ men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med eller uden aura) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Atrophoderma vermiculata |
+| TxGNN-forudsigelsesscore | 0.9994 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -138,7 +137,7 @@ Der findes ingen kliniske forsøg eller litteratur specifikt om eletriptan ved m
 
 ---
 
-*Bemærkning om øvrige forudsigelser:* TxGNN forudsagde også atrophoderma vermiculata (99,94 %), ulerythema ophryogenes (99,89 %) og iskiasneuropati (99,03 %). Ingen af disse har kliniske forsøg eller litteratur (evidensniveau L5), og der er ingen eller kun en spekulativ mekanistisk sammenhæng. Alle er vurderet til **Hold**.
+*Bemærkning om øvrige forudsigelser:* TxGNN forudsagde også atrophoderma vermiculata (0,9994), ulerythema ophryogenes (0,9989) og iskiasneuropati (0,9903). Ingen af disse har kliniske forsøg eller litteratur (evidensniveau L5), og der er ingen eller kun en spekulativ mekanistisk sammenhæng. Alle er vurderet til **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

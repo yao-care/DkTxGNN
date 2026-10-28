@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Kun modelforudsigelse (L5)
 nav_order: 741
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide: forudsagt ny indikation Febril infektionsrelateret epilepsisyndrom (FIRES) (evidensniveau L5). Oprindelig indikation: Lennox-Gastaut syndrom (angivet i vidensgrafen"
 monitor_inn: "rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: forudsagt ny indikation Perioral myoclonia with absences (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Rufinamid: Fra Lennox-Gastaut syndrom til febril infektionsrelateret epilepsisyndrom (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Rufinamid er et antiepileptisk lægemiddel, der oprindeligt anvendes til behandling af Lennox-Gastaut syndrom. TxGNN-modellen forudsiger, at det kan have effekt ved **febril infektionsrelateret epilepsisyndrom (FIRES)**, men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er derfor udelukkende baseret på modelberegning.
+Rufinamid er et antiepileptisk lægemiddel, der oprindeligt anvendes til behandling af Lennox-Gastaut syndrom. Den er derfor udelukkende baseret på modelberegning.
 
 ---
 
@@ -46,12 +46,12 @@ Rufinamid er et antiepileptisk lægemiddel, der oprindeligt anvendes til behandl
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lennox-Gastaut syndrom (angivet i vidensgrafen; den danske godkendelsestekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Febril infektionsrelateret epilepsisyndrom (FIRES) |
-| TxGNN-forudsigelsesscore | 99,57 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Perioral myoclonia with absences |
+| TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,10 +68,7 @@ Modellen foreslår også nedenstående sygdomme. Ingen af dem har kliniske fors�
 
 | Rang | Sygdom | TxGNN-score | Bemærkning |
 |------|------|------|------|
-| 2 | Perioral myoklonus med absencer | 99,51 % | Natriumkanalblokkere kan forværre generaliserede absencer; absencer drives typisk af T-type calciumkanaler |
-| 3 | Fotosensitiv occipitallappeepilepsi | 99,44 % | Fokal epilepsi, hvor et natriumkanalmodulerende middel kan være plausibelt, men det er en antagelse |
-| 4 | Kryptogene sent debuterende epileptiske spasmer | 99,44 % | Løs indirekte begrundelse via overlap med Lennox-Gastaut syndrom |
-| 5 | Atypisk børneepilepsi med centrotemporale spikes | 99,44 % | Natriumkanalblokkere kan forværre spike-wave-aktivering |
+| 2 | Perioral myoklonus med absencer | 0,9951 | Natriumkanalblokkere kan forværre generaliserede absencer; absencer drives typisk af T-type calciumkanaler |
 
 ---
 

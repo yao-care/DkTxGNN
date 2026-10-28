@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13125",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB13125"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "hereditary-thrombocytopenia-with-normal-platelets",
-          "display": "hereditary thrombocytopenia with normal platelets"
-        }
-      ],
-      "text": "hereditary thrombocytopenia with normal platelets"
+      "concept": {
+        "text": "hereditary thrombocytopenia with normal platelets"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 1.0
     }
   ]
 }

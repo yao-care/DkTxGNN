@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 329
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Etanercept: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Psoriasisartrit, leddegigt, Bechterews sygdom…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+last_modified_at: 2026-10-23
+description: "Etanercept: forudsagt ny indikation Hypermobilitet af halebenet (evidensniveau L5). Oprindelig indikation: Psoriasisgigt, leddegigt, Bekhterevs sygdom…"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Etanercept: Fra leddegigt til reumatoid vaskulitis
+## Etanercept: Fra psoriasisgigt og leddegigt til hypermobilitet af halebenet
 {: .text-alpha }
 
-## Sammenfatning i én sætning
+## Resumé i én sætning
 
-Etanercept er en TNF-hæmmer (opløseligt TNF-receptor-Fc-fusionsprotein), som oprindeligt anvendes til behandling af leddegigt, psoriasisartrit, Bechterews sygdom og juvenil idiopatisk artrit.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid vaskulitis**, men der er kun **1 klinisk forsøg** (uden direkte relevans) og **20 publikationer** (primært bivirkningsrapporter og oversigter) i de data, der er sammenstillet til denne rapport. Evidensen for den forudsagte indikation er derfor svag.
+Etanercept er en TNF-hæmmer. TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt ved **Hypermobilitet af coccyx** (højeste rangerede forudsigelse). Forudsigelsen kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er **0 kliniske forsøg** og **0 publikationer** for denne sygdom.
 
 ---
 
@@ -47,68 +46,56 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid vaskul
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psoriasisartrit, leddegigt, Bechterews sygdom, juvenil idiopatisk artrit (kilde: TxGNN-vidensgraf; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Reumatoid vaskulitis |
-| TxGNN-prædiktionsscore | 99,71 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Psoriasisgigt, leddegigt, Bekhterevs sygdom, spondylartropati og juvenil idiopatisk artritis (relationer registreret i vidensgrafen; den danske godkendelsestekst er ikke tilgængelig) |
+| Forudsagt ny indikation | Hypermobilitet af halebenet |
+| TxGNN-forudsigelsesscore | 0,9963 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prædiktion rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de sammenstillede data. Etanercept er dog et kendt TNF-bindende fusionsprotein, der neutraliserer tumornekrosefaktor-alfa. Dette er veletableret effektivt ved leddegigt og andre inflammatoriske ledsygdomme.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etanercept er kendt som et TNF-alfa-hæmmende fusionsprotein, og den kendte effekt ved inflammatoriske ledsygdomme hænger sammen med TNF-blokade.
 
-Reumatoid vaskulitis er en alvorlig ekstraartikulær manifestation af leddegigt. TNF-alfa er en central drivkraft i betændelsen i karvæggen ved reumatoide sygdomme, så TNF-blokade er biologisk plausibel.
+Hypermobilitet af coccyx er en mekanisk eller posttraumatisk tilstand uden veletableret inflammatorisk mekanisme. En forbindelse til TNF-hæmning er derfor spekulativ. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
-Billedet er imidlertid blandet. Litteraturen indeholder flere rapporter om etanercept-associeret vaskulitis og nefropati (paradoksale effekter). Evidensen for gavn ved reumatoid vaskulitis er indirekte, og en systematisk oversigt om biologisk behandling af reumatoid vaskulitis er den mest relevante kilde.
+De to næstrangerede forudsigelser er ligeledes uden støtte: **Kümmells sygdom** (score 0,9955), som primært er iskæmisk og mekanisk, og **vertebral sygdom** (score 0,9916), som er en bred kategori, der i vid udstrækning overlapper med allerede kendte spondylartropati-relationer.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Rekrutterer | 80 | Håndtering af immunsuppressiv behandling hos reumatologiske patienter før skulderalloplastik. Undersøger opblussen af sygdom og komplikationer, ikke etanerceps effekt ved reumatoid vaskulitis |
-
-Forsøget har lav relevans (grad C) for den forudsagte indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret for hypermobilitet af halebenet.
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematisk oversigt | Clinical Rheumatology | Gennemgang af biologisk behandling ved reumatoid vaskulitis |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Oversigtsartikel | Nephrol Dial Transplant | Rolle for TNF-alfa-blokade ved ANCA-associeret vaskulitis og glomerulonefritis |
-| [16624928](https://pubmed.ncbi.nlm.nih.gov/16624928/) | 2006 | Oversigtsartikel | J Am Soc Nephrol | TNF-alfas rolle ved ANCA-associeret vaskulitis, erfaringer fra andre kroniske inflammatoriske sygdomme |
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Netværksmetaanalyse af 36 RCT'er | Int J Mol Sci | TNF-hæmmere (herunder etanercept) reducerer ledødelæggelse ved leddegigt |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Case-rapport | Cureus | Etanercept-associeret nefropati |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortestudie | RMD Open | Risiko for lupus- og vaskulitis-lignende hændelser ved TNF-hæmmerbehandling af leddegigt (BSRBR-RA) |
-| [10955351](https://pubmed.ncbi.nlm.nih.gov/10955351/) | 2000 | Case-rapport | J Rheumatol | Leukocytoklastisk vaskulitis udløst af etanercept |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case-rapport | Arthritis Rheum | Accelereret nodulose og vaskulitis efter etanercept ved leddegigt |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case-rapport | Case Rep Med | Storkarsvaskulitis hos leddegigtpatient i anti-TNF-behandling |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Oversigtsartikel | Scand J Immunol | Immunologi bag kutan vaskulitis forbundet med etanercept og infliximab |
+Der er i øjeblikket ingen relateret litteratur om etanercept ved hypermobilitet af halebenet.
+
+Til orientering blev der for den bredere kategori "vertebral sygdom" fundet retningslinjer og oversigtsartikler om leddegigt, psoriasisgigt og aksial spondylartritis. Disse beskriver eksisterende anvendelser og er ikke direkte evidens for hypermobilitet af halebenet. Peri-spinale etanercept-artikler (PMID 19027875 og 27120182) omhandler off-label tilgange til neuroinflammatoriske tilstande og giver kun indirekte støtte.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105832516 | Benepali (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
+| 28105832516 | Benepali (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. De vigtigste af sværhedsgrad "Major" omfatter systemiske og lokale kortikosteroider (hydrocortison, prednisolon, prednison, dexamethason, betamethason, budesonid, triamcinolon), deferipron samt radioaktive/radiofarmaka-baserede lægemidler (jobenguan I-131, ibritumomab tiuxetan, tositumomab). Moderate interaktioner omfatter bl.a. metronidazol, tinidazol, rosuvastatin og simvastatin. Zinksalte har kun mindre betydning.
-- **Særlige forhold ved den forudsagte indikation:** Litteraturen beskriver vaskulitis og nefropati som mulige bivirkninger af etanercept, hvilket er særligt relevant ved behandling af en vaskulitissygdom.
-- **Generelle TNF-hæmmer-risici:** Oversigtsartikler nævner øget risiko for infektioner, herunder reaktivering af tuberkulose og herpes zoster.
+**Lægemiddelinteraktioner** (100 interaktioner fundet; de vigtigste er nævnt):
+- **Alvorlige (Major):** hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednison, prednisolon, deferiprone, jobenguan (I-131), ibritumomab tiuxetan, tositumomab
+- **Moderate:** metronidazol, tinidazol, rosuvastatin, simvastatin
+- **Milde:** zinksulfat, zinkacetat, zinkglukonat
 
-Øvrige advarsler og kontraindikationer findes i det godkendte produktresumé (SmPC).
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -117,26 +104,13 @@ Forsøget har lav relevans (grad C) for den forudsagte indikation.
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den forudsagte indikation (reumatoid vaskulitis) har høj modelscore, men kun L4-evidens: det eneste kliniske forsøg tester ikke etanercept mod vaskulitis, og litteraturen er overvejende indirekte og rummer rapporter om vaskulitis som bivirkning af etanercept.
+Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer om sygdommen, og der er ingen plausibel inflammatorisk mekanisme for en mekanisk tilstand som hypermobilitet af halebenet.
 
-**For at komme videre kræves:**
-- Systematisk gennemgang af den biologiske behandlingsoversigt (PMID 33058033) for etanercept-specifikke data ved reumatoid vaskulitis
-- Kontrollerede eller prospektive studier af etanercept ved reumatoid vaskulitis
-- Vurdering af risikoen for paradoksal vaskulitis og nefropati
-- Data om virkningsmekanisme og det godkendte produktresumé (advarsler, kontraindikationer) for det danske produkt
-
----
-
-## Bemærkninger til øvrige forudsigelser
-
-De data, der er sammenstillet til denne rapport, indeholder yderligere forudsigelser (alle optrådte to gange i datagrundlaget):
-
-| Forudsagt indikation | Score | Evidensniveau | Beslutning | Kommentar |
-|------|------|------|------|------|
-| Inflammatorisk spondylopati | 99,57 % | L1 | Proceed with Guardrails | Svarer til allerede godkendt anvendelse (Bechterews sygdom); flere fase 3-forsøg. Ikke en reel repurposing. Uveitisrisiko adskiller sig mellem TNF-hæmmere |
-| Polyartikulær juvenil reumatoid artrit | 99,50 % | L1 | Proceed with Guardrails | Svarer til allerede godkendt anvendelse (juvenil idiopatisk artrit); et fase 3-forsøg blev afsluttet tidligt (n=25) |
-| Hypermobilitet af coccyx | 99,63 % | L5 | Hold | Ingen forsøg eller litteratur |
-| Kummells sygdom | 99,55 % | L5 | Hold | Ingen forsøg eller litteratur; svag mekanistisk sammenhæng |
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendte indikationer
+- Præklinisk eller klinisk evidens, der direkte undersøger TNF-hæmning ved hypermobilitet af halebenet
+- Klinisk vurdering af, om tilstanden overhovedet har et inflammatorisk behandlingsmål
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

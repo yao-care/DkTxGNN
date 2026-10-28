@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ribavirin
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 715
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og RSV-infektion (den godkendte in…"
+evidence_level: L1
+indication_count: 9
 monitor_inn: "RIBAVIRIN"
-predicted_indications: ["chronic hepatitis B virus infection", "chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis"]
+predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
+last_modified_at: 2026-10-23
+description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske godkendelsesdata.…"
 ---
 
 # Ribavirin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Ribavirin er et antiviralt middel, der oprindeligt anvendes til behandling af kronisk hepatitis C-virusinfektion og respiratorisk syncytialvirus (RSV)-infektion. TxGNN-modellen forudsiger, at det kan have effekt mod **kronisk hepatitis B-virusinfektion**. Forudsigelsen understøttes af **15 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport. Størstedelen af dem omhandler dog hepatitis C eller er oversigtsartikler, og kun få undersøger direkte ribavirin ved hepatitis B.
+Ribavirin er et antiviralt middel, der i vidensgrafen er registreret med relation til kronisk hepatitis C, hepatitis C og respiratorisk syncytialvirus-infektion. TxGNN-modellen forudsiger, at det kan have effekt ved **kronisk hepatitis B-virusinfektion**. Der er **15 kliniske forsøg** og **20 publikationer** knyttet til forudsigelsen, men de fleste handler om hepatitis C, og kun få undersøger hepatitis B direkte.
 
 ---
 
@@ -46,63 +46,55 @@ Ribavirin er et antiviralt middel, der oprindeligt anvendes til behandling af kr
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion og RSV-infektion (den godkendte indikationstekst for det danske præparat er ikke tilgængelig) |
+| Oprindelig indikation | Ingen godkendt indikationstekst findes i de danske godkendelsesdata. I vidensgrafen er der registreret relation til kronisk hepatitis C, hepatitis C og respiratorisk syncytialvirus-infektion |
 | Forudsagt ny indikation | Kronisk hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,86 % |
-| Evidensniveau | L1 (jf. dog bemærkning nedenfor) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9986 |
+| Evidensniveau | L1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
-
-*Bemærkning om evidensniveau:* De opstillede regler giver L1 ved mindst to afsluttede fase 3-RCT'er. I de indsamlede data er afsluttede fase 3-forsøg med relevans for hepatitis B kun NCT00114361 (PARC). De øvrige fase 3-forsøg handler om hepatitis C, har uklar status eller har meget lille størrelse. Den automatisk tildelte L1 bør derfor tolkes forsigtigt, og den reelle evidens for hepatitis B er nærmere L2.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om ribavirins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er ribavirin en guanosin-nukleosidanalog med bred antiviral aktivitet. Den hæmmer enzymet IMPDH, nedsætter cellens GTP-pulje og kan modulere immunresponset i retning af et Th1-respons.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ribavirin er generelt kendt som en guanosin-nukleosidanalog med bred antiviral aktivitet, der hæmmer enzymet IMPDH, nedsætter GTP-puljen og har immunmodulerende effekt. Dette er baseret på almen viden og ikke på de indsamlede data.
 
-Ribavirin har ingen veldokumenteret direkte virkning på HBV-polymerasen. En eventuel gavnlig effekt ved hepatitis B er derfor sandsynligvis indirekte, fx via immunmodulation i kombination med peginterferon, eller den afspejler behandling af patienter med samtidig HCV/HBV-infektion. Hepatitis B og C er begge kroniske virale leversygdomme med risiko for cirrose og leverkræft, og begge har historisk været behandlet med interferon. Det understøtter modellens forudsigelse, men beviser ikke effekt.
+Hepatitis B er en DNA-virus, der replikerer via revers transkription, så ribavirins direkte antivirale effekt må forventes at være svag. En eventuel gavnlig effekt er sandsynligvis indirekte, via immunmodulation som tillæg til peginterferon. Nukleos(t)id-analoger og peginterferon som monoterapi er de etablerede standardbehandlinger. Den høje score skyldes sandsynligvis den fælles kontekst med hepatitisvirus og litteraturen om samtidig HCV/HBV-infektion.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-De mest relevante forsøg er nedenfor. De fleste af de øvrige forsøg i datasættet er hepatitis C-studier, hvor ribavirin indgår som baggrundsbehandling.
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
-| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Fase 3 | Afsluttet | 138 | Peginterferon alfa-2a + ribavirin vs. peginterferon alene ved HBeAg-negativ kronisk hepatitis B (PARC). Tester direkte kombinationen i målsygdommen |
+| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Fase 3 | Afsluttet | 138 | Peginterferon alfa-2a + ribavirin vs. peginterferon alene ved HBeAg-negativ kronisk hepatitis B (PARC). Ribavirins bidrag er ikke adskilt |
 | [NCT00275938](https://clinicaltrials.gov/study/NCT00275938) | Fase 2/3 | Afsluttet | 120 | Pilotstudie af interferon alfa-2b + ribavirin ved kronisk hepatitis B |
-| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Fase 3 | Ukendt | 320 | Peginterferon alfa-2a + ribavirin ved HCV/HBV-samtidig infektion og kronisk hepatitis C |
-| [NCT03759782](https://clinicaltrials.gov/study/NCT03759782) | Fase 3 | Ukendt | 24 | Pilotforsøg med ribavirins immunmodulerende egenskaber som tillæg til nukleosidanalog-behandling af HBV |
-| [NCT00117533](https://clinicaltrials.gov/study/NCT00117533) | Fase 4 | Ukendt | 20 | Pilotstudie af pegyleret interferon alfa-2b + ribavirin ved samtidig hepatitis B og D |
-| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Fase 3 | Afsluttet | 36 | HCV-regime med ribavirin ved dekompenseret cirrose (HCV-studie) |
-| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Fase 4 | Afsluttet | 129 | Peginterferon + ribavirin ved HCV genotype 1 og IL-28B-ekspression (HCV-studie) |
-| [NCT01195181](https://clinicaltrials.gov/study/NCT01195181) | Fase 4 | Afsluttet | 506 | Overvågnings- og kontrolprogram for kronisk hepatitis C |
-| [NCT03186313](https://clinicaltrials.gov/study/NCT03186313) | Fase 3 | Afsluttet | 72 | Sofosbuvir + daclatasvir ± ribavirin ved HCV genotype 4 (HCV-studie) |
-| [NCT02483156](https://clinicaltrials.gov/study/NCT02483156) | Fase 2/3 | Afsluttet | 80 | Sofosbuvir + ribavirin ved HCV genotype 4 (HCV-studie) |
-
-Kun NCT00114361 er vurderet som direkte relevant (grad A). NCT00275938 og NCT00154869 er vurderet som delvist relevante (grad B). Ribavirins selvstændige bidrag afhænger af sammenligningsarmene og skal verificeres.
+| [NCT03759782](https://clinicaltrials.gov/study/NCT03759782) | Fase 3 | Ukendt | 24 | Pilotforsøg med ribavirin som immunmodulator sammen med nukleosidanalog ved hepatitis B |
+| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Fase 3 | Ukendt | 320 | Peginterferon alfa-2a + ribavirin ved kronisk hepatitis C/B-samtidig infektion |
+| [NCT00117533](https://clinicaltrials.gov/study/NCT00117533) | Fase 4 | Ukendt | 20 | Pegyleret interferon alfa-2b + ribavirin ved samtidig hepatitis B og D |
+| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Fase 3 | Afsluttet | 36 | HCV-regime med ribavirin ved dekompenseret cirrose. Indirekte relevans for HBV |
+| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Fase 4 | Afsluttet | 129 | Peginterferon + ribavirin og IL-28B-ekspression ved hepatitis C. Indirekte |
+| [NCT01425970](https://clinicaltrials.gov/study/NCT01425970) | Fase 2 | Afbrudt | 210 | INX-08189 med peginterferon og ribavirin ved HCV genotype 2/3. Indirekte |
+| [NCT03186313](https://clinicaltrials.gov/study/NCT03186313) | Fase 3 | Afsluttet | 72 | Sofosbuvir, daclatasvir og ribavirin ved HCV genotype 4. Indirekte |
+| [NCT01309932](https://clinicaltrials.gov/study/NCT01309932) | Fase 2 | Afsluttet | 165 | Peginterferon lambda + ribavirin ved HCV. Indirekte |
 
 ---
 
 ## Litteraturevidens
 
-Den fundne litteratur består udelukkende af oversigtsartikler og beskrivende artikler uden randomiserede studier.
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Oversigtsartikel | Viruses | HCV/HBV-samtidig infektion; peginterferon + ribavirin tidligere anbefalet ved positiv HCV-RNA |
-| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Oversigtsartikel | World J Gastroenterol | Opdatering om behandling og udfald ved dobbelt HCV/HBV-infektion |
-| [25048716](https://pubmed.ncbi.nlm.nih.gov/25048716/) | 2015 | Oversigtsartikel | Hepatology | Immunologiske aspekter af antiviral behandling af kronisk HBV og HCV |
-| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Oversigtsartikel | World J Gastroenterol | IL28B-polymorfi og HBV-infektion; sammenhæng med respons på peginterferon + ribavirin ved HCV |
-| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Oversigtsartikel | Curr Opin Virol | Effekt af IL28B-genotype på HBV og HCV |
-| [16838649](https://pubmed.ncbi.nlm.nih.gov/16838649/) | 2006 | Oversigtsartikel | Nihon Rinsho | HCV-HBV-infektion; peginterferon alfa-2b + ribavirin som mest effektive HCV-behandling |
-| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Oversigtsartikel | Expert Rev Anti Infect Ther | Behandlingsmuligheder ved kronisk hepatitis B og C hos børn |
-| [11929032](https://pubmed.ncbi.nlm.nih.gov/11929032/) | 2002 | Oversigtsartikel | Indian J Pediatr | Behandling af kroniske HBV- og HCV-infektioner |
-| [24379612](https://pubmed.ncbi.nlm.nih.gov/24379612/) | 2013 | Oversigtsartikel | World J Gastroenterol | Forebyggelse af leverkræft ved kronisk hepatitis B og C |
-| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | Gennemgang | Annu Rev Med | Aktuelle behandlingsstrategier ved kronisk hepatitis B og C |
+| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | Samtidig HCV/HBV-infektion; tidligere anbefaling af peginterferon + ribavirin ved positiv HCV-RNA |
+| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World J Gastroenterol | Opdatering om behandling og udfald ved dobbelt HCV/HBV-infektion |
+| [25048716](https://pubmed.ncbi.nlm.nih.gov/25048716/) | 2015 | Review | Hepatology | Immunologiske aspekter ved antiviral behandling af HBV og HCV |
+| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Review | Curr Opin Virol | Betydning af IL28B-genotype for HBV og HCV |
+| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Review | World J Gastroenterol | IL28B-polymorfi og hepatitis B-infektion |
+| [16838649](https://pubmed.ncbi.nlm.nih.gov/16838649/) | 2006 | Review | Nihon Rinsho | HCV-HBV-infektion; peginterferon + ribavirin som effektiv HCV-behandling |
+| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Rev Anti Infect Ther | Behandlingsmuligheder for kronisk hepatitis B og C hos børn |
+| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | Review | Annu Rev Med | Aktuelle behandlingsstrategier for kronisk hepatitis B og C |
+
+Der er ikke fundet randomiserede publikationer i materialet. Litteraturen består hovedsageligt af oversigtsartikler.
 
 ---
 
@@ -110,17 +102,16 @@ Den fundne litteratur består udelukkende af oversigtsartikler og beskrivende ar
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104528909 | Ribavirin "Biopartners" | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig |
+| 28104528909 | Ribavirin "Biopartners" | Filmovertrukne tabletter | Indikationstekst foreligger ikke |
+
+Den ene tilladelse er en national tilladelse for et enkeltstofpræparat (Biopartners GmbH), og den er gyldig.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen indlæste data fra produktresuméet om advarsler og kontraindikationer. Følgende oplysninger stammer fra TxGNN-videngrafen og er ikke baseret på produktresuméets tekst.
-
-- **Sygdomme med kontraindikationssignal i videngrafen** (ikke fra produktresuméet): kronisk obstruktiv lungesygdom (KOL), astma, sarkoidose, interstitiel lungesygdom, levercirrose, autoimmun hepatitis, nedsat nyrefunktion, seglcelleanæmi, hæmolytisk anæmi, anæmi i øvrigt, pancytopeni, aplastisk anæmi, hæmoglobinopatier, myokardieinfarkt, iskæmisk hjertesygdom/koronararteriesygdom, åreforkalkning, pancreatitis og periodontitis.
-- **Lungetoksicitet:** En case-rapport (PMID 25161156) beskriver interferon-alfa-induceret lungegranulomatose under behandling med interferon og ribavirin. Det er en bivirkning ved interferonbehandling og ikke dokumentation for nytte, men lungesignalet bør bemærkes.
-- **Lægemiddelinteraktioner:** Interaktionssøgningen gav 100 registrerede interaktioner, hvor alvorlighedsgraden er angivet som "ukendt". Blandt de angivne lægemidler er calcitriol, pantoprazol, omeprazol, lansoprazol, glimepirid, metformin, mesalazin, doxycyclin, morfin, prednison, hydrocortison og amphotericin B. Klinisk betydning kan ikke vurderes ud fra disse data.
+- **Kontraindikationer registreret i vidensgrafen** (relationer i vidensgrafen, ikke produktresumétekst): bl.a. kronisk obstruktiv lungesygdom, astma, levercirrose, seglcelleanæmi, hæmolytisk anæmi, hæmoglobinopati, myokardieinfarkt, koronararteriesygdom, nedsat nyrefunktion, interstitiel lungesygdom, sarkoidose, pancytopeni, pankreatitis og autoimmun hepatitis.
+- **Lægemiddelinteraktioner**: 100 mulige interaktioner er fundet, bl.a. med calcitriol, pantoprazol, glimepirid, mesalazin, doxycyclin, metformin og omeprazol. Alvorlighedsniveauet er ikke angivet.
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
@@ -131,15 +122,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Kun ét afsluttet fase 3-forsøg (PARC) tester direkte ribavirin i kombination med peginterferon ved kronisk hepatitis B, og ribavirins selvstændige bidrag er ikke afklaret. Der er ingen etableret direkte virkning på HBV, og nutidens HBV-behandling bygger på nukleosid-/nukleotidanaloger. Den øvrige evidens er hovedsageligt HCV-studier og oversigtsartikler. Sikkerhedsdata fra produktresuméet mangler, og videngrafen peger på mange potentielle kontraindikationer.
+Der findes direkte forsøg med ribavirin ved hepatitis B, bl.a. et fase 3-forsøg (NCT00114361), men ribavirins eget bidrag er ikke adskilt, og der er ingen dokumentation for, at det er standardbehandling. Direkte antiviral effekt mod HBV er mekanistisk usandsynlig, og nukleos(t)id-analoger og peginterferon er etablerede alternativer. Evidensen er derfor ikke stærk nok til at gå videre. Evidensniveauet L1 er foreløbigt og bør vurderes kritisk, da kun ét fase 3-forsøg direkte tester hepatitis B, og resultaterne ikke foreligger i de indsamlede data.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet for Ribavirin "Biopartners" (advarsler, kontraindikationer, godkendt indikation)
-- Gennemgang af PARC-forsøgets (NCT00114361) resultater og sammenligningsarme for at isolere ribavirins bidrag
-- Opfølgning på status og resultater for NCT03759782 og NCT00154869
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Vurdering af ribavirins plads i forhold til nuværende standardbehandling af hepatitis B
-- Sikkerhedsvurdering for patientgrupper med anæmi, nyre-, lunge- og hjertesygdom samt graviditetsrelaterede forholdsregler
+- Resultater og analyse af NCT00114361 og NCT03759782, med fokus på ribavirins selvstændige bidrag
+- Data om virkningsmekanisme
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Vurdering af hæmolytisk anæmi og andre risici hos patienter med leversygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

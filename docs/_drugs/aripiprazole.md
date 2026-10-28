@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 77
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Aripiprazole: forudsagt ny indikation Major affective disorder (svær depressiv lidelse) (evidensniveau L1). Oprindelig indikation: Skizofreni, bipolar lidelse, autisme (fra vidensgrafen"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-10-27
+description: "Aripiprazole: forudsagt ny indikation Svær affektiv lidelse (major affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,77 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Aripiprazol: Fra skizofreni og bipolar lidelse til svær depressiv lidelse (major affective disorder)
+## Aripiprazol: dopamin D2-partiel agonist og serotoninmodulator → Svær affektiv lidelse (major affective disorder)
 {: .text-alpha }
 
 ## Resumé
 
-Aripiprazol er et antipsykotikum, der oprindeligt anvendes til behandling af skizofreni, bipolar lidelse (herunder maniske episoder) og symptomer forbundet med autisme.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **major affective disorder** (svær depressiv lidelse),
-og forudsigelsen understøttes af **38 kliniske forsøg** i de data, der er indsamlet til denne rapport, herunder flere afsluttede fase 3-forsøg. Der er ikke registreret publikationer for netop denne indikation.
-
----
+Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-receptorer og serotonin 5-HT1A-receptorer og som antagonist på 5-HT2A-receptorer. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær affektiv lidelse (major affective disorder)**. Der findes **34 registrerede kliniske forsøg** i de data, der er indsamlet til denne rapport, men ingen publikationer direkte om denne sygdom.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni, bipolar lidelse, autisme (fra vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
-| Forudsagt ny indikation | Major affective disorder (svær depressiv lidelse) |
-| TxGNN-forudsigelsesscore | 99,62 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Svær affektiv lidelse (major affective disorder) |
+| TxGNN-forudsigelsesscore | 0,9962 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi er aripiprazol en partiel D2-agonist med partiel 5-HT1A-agonisme og 5-HT2A-antagonisme. Den profil understøtter brug som tillægsbehandling ved depression, når svaret på et antidepressivum er utilstrækkeligt.
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra generel farmakologi er aripiprazol en partiel dopamin D2-agonist med partiel 5-HT1A-agonisme og 5-HT2A-antagonisme. Denne profil understøtter brug som tillægsbehandling ved svær depression, når responsen på et antidepressivum er utilstrækkelig. Bemærk, at mekanismen her er hentet fra almen viden og ikke fra de leverede data.
-
-De oprindelige indikationer (bipolar lidelse og mani) ligger i samme affektive sygdomsområde som depression. Begge tilstande involverer dysregulering af dopamin- og serotoninsystemerne, og det gør det mekanistisk plausibelt, at aripiprazol også kan have effekt ved depression.
-
----
+Lægemidlets kendte anvendelse ved bipolære lidelser og skizofreni ligger tæt på det affektive sygdomsområde, og både dopamin- og serotoninsystemet er involveret i stemningslidelser. Det gør en effekt som tillæg til antidepressiv behandling mekanistisk plausibel.
 
 ## Evidens fra kliniske forsøg
 
-Tabellen viser de mest relevante forsøg (op til 10), prioriteret efter design og relevans.
+Tabellen viser de mest relevante forsøg (op til 10). Flere store fase 3-forsøg er gennemført og randomiserede, dobbeltblindede og placebokontrollerede.
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Fase 3 | Afsluttet | 1200 | Randomiseret, dobbeltblindet, placebokontrolleret forsøg med aripiprazol som tillæg til igangværende antidepressiv behandling (14 uger) |
-| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Fase 3 | Afsluttet | 1151 | Tilsvarende 14-ugers placebokontrolleret tillægsforsøg ved svær depression |
-| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Fase 3 | Afsluttet | 1522 | VAST-D: tillæg af aripiprazol eller bupropion vs. skift til bupropion hos veteraner uden tilfredsstillende respons |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Fase 3 | Afsluttet | 586 | Placebokontrolleret tillægsbehandling til SSRI/SNRI |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Fase 3 | Afsluttet | 349 | 14-ugers placebokontrolleret tillægsforsøg efter utilstrækkeligt respons på antidepressiv behandling |
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Fase 3 | Afsluttet | 225 | Dobbeltblindet, placebokontrolleret forsøg med reduceret dosis aripiprazol som tillæg |
-| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Fase 3 | Afsluttet | 1002 | 52-ugers åbent sikkerheds- og tolerabilitetsforsøg med tillægsbehandling |
-| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Fase 3 | Afsluttet | 155 | Langtidsbehandling med aripiprazol som tillæg til SSRI/SNRI |
-| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Fase 3 | Afbrudt | 211 | Kombination af aripiprazol og escitalopram; forsøget blev afsluttet tidligt, så data er begrænsede |
-| [NCT01488266](https://clinicaltrials.gov/study/NCT01488266) | Ikke relevant | Ukendt | 90 | Aripiprazol som tillæg vs. skift til anden antidepressiv klasse |
+| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Fase 3 | Afsluttet | 1200 | Randomiseret, dobbeltblindet, placebokontrolleret forsøg med aripiprazol som tillæg til antidepressiv behandling ved svær depression (14 uger) |
+| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Fase 3 | Afsluttet | 1151 | 14 ugers placebokontrolleret forsøg med tillægsbehandling ved svær depression |
+| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Fase 3 | Afsluttet | 225 | Placebokontrolleret forsøg med reduceret dosis aripiprazol som tillæg ved utilstrækkeligt svar |
+| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Fase 3 | Afsluttet | 586 | Placebokontrolleret forsøg med tillæg til SSRI eller SNRI |
+| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Fase 3 | Afsluttet | 349 | 14 ugers placebokontrolleret forsøg med tillæg til antidepressivum |
+| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Fase 3 | Afsluttet | 1522 | VAST-D: tillæg med aripiprazol sammenlignet med bupropion-tillæg eller skift til bupropion hos veteraner |
+| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Fase 3 | Afsluttet | 1002 | 52 ugers åbent sikkerhedsforsøg med tillægsbehandling |
+| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Fase 3 | Afsluttet | 155 | Langtidsforsøg med tillæg til SSRI eller SNRI |
+| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Fase 3 | Afbrudt | 211 | Aripiprazol/escitalopram-kombination; afbrudt tidligt, så data er begrænsede |
+| [NCT01488266](https://clinicaltrials.gov/study/NCT01488266) | Ikke relevant | Ukendt | 90 | Tillæg med aripiprazol sammenlignet med skift til andet antidepressivum |
 
-Derudover findes flere mindre eller igangværende fase 2- og fase 4-forsøg, bl.a. ved behandlingsresistent depression hos ældre og hos unge. Der er ikke registreret publikationer for denne forudsagte indikation i de indsamlede data.
+## Litteraturevidens
 
----
+Der er ingen publikationer direkte om den forudsagte sygdom i de data, der er indsamlet til denne rapport.
 
-## Det danske marked
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107159624 | Aripiprazole "Hexal" (Hexal A/S) | Pulver og solvens til depotinjektionsvæske, suspension | Indikationstekst ikke angivet |
-| 28103888106 | Abilify (Otsuka Pharmaceutical Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
-
-Begge tilladelser er gyldige. Begge er injicerbare formuleringer; de oplyste data omfatter ikke orale former.
-
----
+| 28107159624 | Aripiprazole "Hexal" | Pulver og solvens til depotinjektionsvæske, suspension | Ikke angivet i de lokale data |
+| 28103888106 | Abilify | Injektionsvæske, opløsning | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer og risikotilstande fra vidensgrafen** (ikke fra produktresuméet): Vidensgrafen peger på tilstande, hvor aripiprazol kan være problematisk, bl.a.:
-- Kardiovaskulære: ortostatisk hypotension, hypotension, myokardieinfarkt, koronarsygdom, hjerteledningsforstyrrelser, pludseligt hjertestop, cerebrovaskulære sygdomme
-- Metaboliske: hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, hyperlipidæmi, fedme
-- Hæmatologiske: neutropeni, agranulocytose, leukopeni
-- Neurologiske: epilepsi, malignt neuroleptikasyndrom
+- **Lægemiddelinteraktioner:** 349 interaktioner er registreret. Den alvorligste i de viste data er bupropion (alvorlig). Moderate interaktioner omfatter bl.a. metformin, pioglitazon, acarbose, alogliptin, canagliflozin, clarithromycin, cimetidin, famotidin, epinephrin, atropin og loperamid.
 
-**Lægemiddelinteraktioner:** I alt er 349 interaktioner registreret. Blandt de viste er én klassificeret som alvorlig (**bupropion**, Major). Øvrige viste interaktioner er moderate, bl.a. med antidiabetika (metformin, pioglitazon, alogliptin, acarbose, canagliflozin), antikolinergika (atropin, hyoscyamin), clarithromycin, cimetidin, famotidin, epinephrin, aprepitant og cisaprid.
-
-Bemærk, at bupropion indgår som sammenligningsbehandling i VAST-D-forsøget, og at kombinationen derfor bør vurderes nøje.
-
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Flere store, afsluttede fase 3-forsøg med placebokontrol understøtter aripiprazol som tillæg ved svær depression, og lægemidlet er allerede markedsført i Danmark. Sikkerhedsprofilen (metaboliske og kardiovaskulære risici samt interaktioner) kræver dog omhyggelig patientudvælgelse og monitorering.
+Flere afsluttede fase 3-forsøg med randomiseret, placebokontrolleret design har undersøgt aripiprazol som tillæg ved svær depression, og forudsigelsen understøttes mekanistisk. Der mangler dog publicerede studier i de indsamlede data og sikkerhedsoplysninger fra produktresuméet.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen (manglende data er markeret som blokerende)
-- Bekræftet mekanismedata (MOA) fra DrugBank
-- Afklaring af, om den danske godkendelse omfatter depression, samt hvilke formuleringer (oral/injektion) der er relevante
-- Plan for monitorering af metaboliske parametre, blodtryk og blodtal samt vurdering af interaktioner (især bupropion)
+**For at komme videre kræves:**
+- Gennemgang af forsøgsresultater og tilhørende publikationer
+- Indhentning af advarsler og kontraindikationer fra de danske produktresuméer
+- Data om virkningsmekanisme fra en validerad kilde
+- Plan for sikkerhedsovervågning, bl.a. metaboliske forhold, blodtryk og bivirkninger i form af impulsive eller tvangsprægede handlinger
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

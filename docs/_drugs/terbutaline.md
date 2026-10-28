@@ -6,9 +6,9 @@ nav_order: 811
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Terbutaline: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Astma, bronkitis, lungeemfysem (fra vidensgrafen"
 monitor_inn: "terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Terbutaline
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Terbutalin: Fra astma til obstruktiv lungesygdom
+## Terbutaline: Obstruktiv lungesygdom (obstructive lung disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Bemærk, at forudsigelsen i høj grad ligger tæt på de allerede kendte anvende
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Astma, bronkitis, lungeemfysem (fra vidensgrafen; den danske godkendelsestekst er ikke angivet) |
-| Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,96 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
+| TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -138,8 +138,8 @@ Udtrykkelige advarsler og kontraindikationer fra præparatomtalen (SmPC) er ikke
 
 ## Andre forudsagte indikationer (kort)
 
-- **Respiratorisk malformation** (score 99,52 %, evidensniveau L4, beslutning: Hold): Der er ingen studier, der viser terapeutisk gavn af terbutalin. Det eneste forsøg (NCT04278404) er et generelt pædiatrisk farmakokinetikstudie, og litteraturen handler primært om astma og andre tilstande. Den høje score skyldes sandsynligvis en fælles respiratorisk fænotype.
-- **Rienhoff syndrom** (score 99,38 %, evidensniveau L5, beslutning: Hold): Hverken kliniske forsøg eller litteratur er fundet, og forudsigelsen hviler alene på vidensgrafen. Der kræves uafhængig biologisk validering.
+- **Respiratorisk malformation** (score 0,9952, evidensniveau L4, beslutning: Hold): Der er ingen studier, der viser terapeutisk gavn af terbutalin. Det eneste forsøg (NCT04278404) er et generelt pædiatrisk farmakokinetikstudie, og litteraturen handler primært om astma og andre tilstande. Den høje score skyldes sandsynligvis en fælles respiratorisk fænotype.
+- **Rienhoff syndrom** (score 0,9938, evidensniveau L5, beslutning: Hold): Hverken kliniske forsøg eller litteratur er fundet, og scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der kræves uafhængig biologisk validering.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

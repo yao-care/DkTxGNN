@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 752
-evidence_level: L3
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Selegiline: forudsagt ny indikation Skizofreni (evidensniveau L3). Oprindelig indikation: Parkinsons sygdom"
 monitor_inn: "selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: forudsagt ny indikation Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Selegilin: Fra Parkinsons sygdom til skizofreni
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## Resumé
@@ -50,12 +50,12 @@ Evidensen består af **1 klinisk forsøg** (tidlig fase 1, afsluttet) og **20 pu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Parkinsons sygdom (de godkendte indikationstekster for det danske produkt er ikke tilgængelige i de indsamlede data) |
-| Forudsagt ny indikation | Skizofreni |
-| TxGNN-forudsigelsesscore | 99,14 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN-forudsigelsesscore | 0.9915 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; ikke klar til klinisk anvendelse) |
 
 ---
@@ -123,9 +123,9 @@ Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige i de 
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Polymikrogyri, perisylvisk, med cerebellar hypoplasi og artrogrypose | 99,15 % | L5 | Hold. Ingen forsøg eller litteratur, og ingen plausibel mekanistisk sammenhæng. |
-| Medfødt glykosyleringsforstyrrelse med defekt fukosylering | 99,02 % | L5 | Hold. Ren modelforudsigelse uden evidens. |
-| Retinal dystrofi med eller uden ekstraokulære anomalier | 99,01 % | L4 | Hold. Kun én generel oversigtsartikel om proteinaggregation i nethinden; indirekte sammenhæng. |
+| Polymikrogyri, perisylvisk, med cerebellar hypoplasi og artrogrypose | 0,9915 | L5 | Hold. Ingen forsøg eller litteratur, og ingen plausibel mekanistisk sammenhæng. |
+| Medfødt glykosyleringsforstyrrelse med defekt fukosylering | 0,9902 | L5 | Hold. Ren modelforudsigelse uden evidens. |
+| Retinal dystrofi med eller uden ekstraokulære anomalier | 0,9901 | L5 | Hold. Kun én generel oversigtsartikel om proteinaggregation i nethinden; indirekte sammenhæng. |
 
 ---
 

@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Tryptofan: Fra ernæringsmæssig aminosyre til insomni
+## Tryptofan: Fra ernæringsmæssig aminosyre til uroligt bensyndrom
 {: .text-alpha }
 
 ## Resumé
@@ -49,14 +49,14 @@ Evidensen består af **0 registrerede kliniske forsøg** og **19 publikationer**
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (de danske godkendelser har ingen indikationstekst) |
-| Forudsagt ny indikation | Insomni (den højest rangerede indikation, restless legs syndrome, har score 99,72 %, men insomni er valgt, da den har den stærkeste evidens og anbefaling) |
-| TxGNN-prædiktionsscore | 99,47 % (insomni) |
+| Forudsagt ny indikation | Uroligt bensyndrom |
+| TxGNN-prædiktionsscore | 0,9972 (uroligt bensyndrom) |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
+| Status på det danske marked | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
-**Bemærk om valg af indikation:** Rang 1 i modellen er restless legs syndrome (score 99,72 %, evidensniveau L3, anbefaling "Research Question"). Rapporten fokuserer på insomni, fordi den har flest publikationer, et kontrolleret klinisk studie og den eneste anbefaling om at gå videre med forbehold. Restless legs syndrome omtales kort nedenfor.
+**Bemærk om valg af indikation:** Rang 1 i modellen er restless legs syndrome (score 0,9972, evidensniveau L3, anbefaling "Research Question"). Rapporten fokuserer på insomni, fordi den har flest publikationer, et kontrolleret klinisk studie og den eneste anbefaling om at gå videre med forbehold. Restless legs syndrome omtales kort nedenfor.
 
 ---
 
@@ -127,13 +127,13 @@ Der foreligger ikke produktresumédata om advarsler og kontraindikationer for de
 
 | Indikation | Score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Restless legs syndrome | 99,72 % | L3 | Research Question (to små, ældre kliniske studier fra 1986-1987) |
-| Primær arvelig glaukom | 99,57 % | L5 | Hold |
-| Åbenvinklet glaukom | 99,50 % | L4 | Hold (kun associative metabolomstudier) |
-| Methæmoglobinæmi | 99,30 % | L5 | Hold |
-| Methæmoglobinæmi, alfa-type | 99,18 % | L5 | Hold |
-| Methæmoglobinreduktase-mangel | 99,08 % | L5 | Hold |
-| Medfødt protrombinmangel | 99,01 % | L5 | Hold |
+| Restless legs syndrome | 0,9972 | L3 | Research Question (to små, ældre kliniske studier fra 1986-1987) |
+| Primær arvelig glaukom | 0,9957 | L5 | Hold |
+| Åbenvinklet glaukom | 0,9950 | L4 | Hold (kun associative metabolomstudier) |
+| Methæmoglobinæmi | 0,9930 | L5 | Hold |
+| Methæmoglobinæmi, alfa-type | 0,9918 | L5 | Hold |
+| Methæmoglobinreduktase-mangel | 0,9908 | L5 | Hold |
+| Medfødt protrombinmangel | 0,9901 | L5 | Hold |
 
 ---
 

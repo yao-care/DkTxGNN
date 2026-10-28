@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 647
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Perampanel: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi / partiel motorisk epilepsi (fra vidensgrafen"
+evidence_level: L5
+indication_count: 1
+monitor_inn: "PERAMPANEL"
+predicted_indications: ["beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Perampanel: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,12 +33,14 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Perampanel: Fra partiel epilepsi til visuel epilepsi
+## Perampanel: Fra partiel epilepsi til beta-ketothiolase-mangel
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Perampanel er et antiepileptikum, der oprindeligt anvendes til behandling af partiel (fokal) epilepsi. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **visuel epilepsi** (visuelt udløste anfald). Der er **ingen registrerede kliniske forsøg** og **kun generel epilepsilitteratur** (ingen undersøgelser specifikt om visuelt udløste anfald), så evidensen er overvejende indirekte.
+Perampanel er et lægemiddel, der oprindeligt anvendes til behandling af partiel epilepsi (registreret i vidensgrafen som partiel epilepsi og partiel motorisk epilepsi).
+TxGNN-modellen forudsiger, at det kan have effekt ved **beta-ketothiolase-mangel**,
+men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning.
 
 ---
 
@@ -44,72 +48,59 @@ Perampanel er et antiepileptikum, der oprindeligt anvendes til behandling af par
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Partiel epilepsi / partiel motorisk epilepsi (fra vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-forudsigelsesscore | 99,92 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold (forskningsspørgsmål; ikke klar til klinisk anvendelse) |
+| Oprindelig indikation | Partiel epilepsi (relation registreret i vidensgrafen; godkendelsesteksten i den danske registrering er ikke tilgængelig) |
+| Forudsagt ny indikation | Beta-ketothiolase-mangel |
+| TxGNN-forudsigelsesscore | 0,9979 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor kan forudsigelsen være rimelig?
 
-Detaljerede data om virkningsmekanisme fra DrugBank mangler i de data, der er udarbejdet til denne rapport. Ifølge den indhentede litteratur er perampanel en selektiv, ikke-kompetitiv antagonist af AMPA-receptoren (glutamatreceptor), som dæmper glutamatmedieret excitatorisk neurotransmission. Lægemidlet er godkendt i mange lande, herunder EU, som tillægsbehandling ved partielle anfald og primært generaliserede tonisk-kloniske anfald.
+De indsamlede data understøtter ikke en direkte mekanistisk sammenhæng. Data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra almen viden er perampanel en selektiv, ikke-kompetitiv antagonist af AMPA-type glutamatreceptorer, hvilket forklarer virkningen ved partielle anfald.
 
-Visuel epilepsi (fotosensitive eller visuelt udløste anfald) er en refleksepilepsi, hvor kortikal hyperexcitabilitet spiller en central rolle. Da AMPA-antagonisme reducerer netop denne type overeksitation, er en effekt mekanistisk plausibel.
+Beta-ketothiolase-mangel (ACAT1/T2-mangel) er en arvelig forstyrrelse af isoleucinnedbrydning og ketonstofudnyttelse, som giver episodisk ketoacidose. En mulig, men spekulativ kobling er, at svær metabolisk dekompensation kan give neurologisk skade eller krampeanfald, hvor AMPA-antagonisme teoretisk kunne give symptomatisk neurobeskyttelse. Det vil dog ikke adressere den underliggende enzymdefekt.
 
-Støtten er dog indirekte: Den fundne litteratur består af generelle oversigter og retningslinjer om perampanel og epilepsi. Ingen studier undersøger specifikt visuelt udløste anfald. Dyrestudier fra beslægtede refleksmodeller (lydudløste anfald hos rotter og mus) viser antikonvulsiv effekt, men det kan ikke direkte overføres til mennesker.
+Den meget høje score (0,9979) er alene en modelforudsigelse og understøttes ikke af kliniske forsøg eller litteratur.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens fra forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for visuel epilepsi.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Et udvalg af den mest relevante litteratur (alle generelle for epilepsi/perampanel, ikke specifikke for visuel epilepsi):
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane-review | Cochrane Database Syst Rev | Perampanel som tillægsbehandling ved lægemiddelresistent fokal epilepsi |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematisk review og netværksmetaanalyse | Drugs | Tredjegenerations-antiepileptika (inkl. perampanel) som tillægsbehandling ved fokale anfald hos voksne |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematisk review og netværksmetaanalyse | J Neurol | Sammenligning af antiepileptika ved idiopatiske generaliserede epilepsier |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Retningslinje | Neurology | AAN/AES-opdatering om effekt og tolerabilitet af nyere antiepileptika ved nyopstået epilepsi |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review | Epilepsy Behav | Perampanel som monoterapi: kliniske forsøg og real-world-evidens |
-| [29953584](https://pubmed.ncbi.nlm.nih.gov/29953584/) | 2019 | Review | Epilepsia | Perampanels potentiale som bredspektret antiepileptikum |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Udvikling af perampanel som AMPA-antagonist |
-| [36734057](https://pubmed.ncbi.nlm.nih.gov/36734057/) | 2023 | Kohorte/review | Epilepsia | Perampanel som præcisionsbehandling ved sjældne genetiske epilepsier |
-| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | Kohorte | Front Neurol | Perampanel ved absence-epilepsi hos børn i klinisk praksis |
-| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | Post hoc-analyse af fase 3-forsøg | Neurology | Effekt og tolerabilitet af perampanel sammen med enzyminducerende antiepileptika |
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Oplysninger om det danske marked
+## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104931211 | Fycompa (Eisai GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de udarbejdede data |
+| 28104931211 | Fycompa (Eisai GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Antal godkendelser: 1 (enkeltstofpræparat, gyldig).
 
 ---
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-**Lægemiddelinteraktioner:** Der er registreret 56 interaktioner i alt. Blandt de angivne er de fleste af moderat sværhedsgrad, og mange vedrører stoffer med sederende/CNS-dæmpende effekt. Eksempler:
+**Lægemiddelinteraktioner:** Der er identificeret 56 mulige interaktioner. Blandt de viste er hovedparten af moderat sværhedsgrad, bl.a. med:
+- Opioider: morfin (også liposomal), codein, hydrocodon, opium, difenoxin, diphenoxylat
+- Cannabinoider: dronabinol, nabilone
+- Sederende stoffer og antihistaminer: promethazin, chlorpheniramin, azelastin (nasal)
+- Andre: ethanol, dexamethason, metoclopramid, sibutramin, chloroquin, hydroxychloroquin, dextromethorphan
 
-- **Opioider:** morfin (inkl. liposomalt), kodein, hydrocodon, opium, difenoxin, diphenoxylat (moderat)
-- **Cannabinoider:** dronabinol, nabilon (moderat)
-- **Antihistaminer/øvrige sederende:** promethazin, chlorphenamin, azelastin (nasal) (moderat)
-- **Øvrige:** ethanol, dexamethason, metoclopramid, sibutramin, chloroquin, hydroxychloroquin, dextromethorphan (moderat)
-- **Clarithromycin** (let)
+Interaktionen med clarithromycin er klassificeret som mindre. Mange af de moderate interaktioner vedrører additiv sedation eller påvirkning af centralnervesystemet.
 
-Den ene indirekte sikkerhedsobservation fra litteraturen er, at perampanel kan give psykiatriske og adfærdsmæssige bivirkninger (f.eks. irritabilitet, aggression og sjældent psykose) og i nogle lande bærer en advarsel herom.
-
-For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige i de udarbejdede data.
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da disse data ikke er tilgængelige i de indsamlede data.
 
 ---
 
@@ -118,18 +109,14 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men der findes ingen kliniske forsøg og ingen litteratur specifikt om visuelt udløste anfald; støtten er kun indirekte via den godkendte indikation ved fokale anfald. Evidensniveauet er L4, og sikkerhedsdata fra produktresuméet mangler.
+Forudsigelsen bygger udelukkende på en modelscore uden støtte fra kliniske forsøg eller publikationer, og der er ingen påvist mekanistisk sammenhæng med den underliggende enzymdefekt. Evidensniveauet er L5.
 
-**For at komme videre kræves:**
-- Målrettet søgning efter case-serier, observationsstudier eller forsøg i fotosensitiv/visuel refleksepilepsi
-- Hentning og gennemgang af produktresuméet (advarsler, kontraindikationer) fra Lægemiddelstyrelsen
-- Supplerende data om virkningsmekanisme (MOA) fra DrugBank
-- Vurdering af sikkerhedsprofilen, især psykiatriske bivirkninger og interaktioner med CNS-dæmpende lægemidler
-- Et pilotstudie eller et prospektivt observationsstudie, før klinisk anvendelse overvejes
-
----
-
-*Bemærk: Dataene indeholder yderligere forudsagte indikationer (bl.a. lydudløste anfald, spisningsudløste anfald, skrækepilepsi), som alle har svagere eller overvejende prækliniske/indirekte evidensgrundlag. Lydudløste anfald (audiogene anfald) har den mest direkte dyreeksperimentelle støtte, men ingen humane data.*
+**For at komme videre kræves følgende:**
+- Systematisk litteratur- og forsøgsgennemgang for perampanel ved beta-ketothiolase-mangel eller beslægtede organiske acidurier
+- Data om virkningsmekanisme fra DrugBank
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk eller mekanistisk belæg for, at AMPA-antagonisme kan påvirke de neurologiske konsekvenser af sygdommen
+- Vurdering af, om sygdommens sjældne karakter gør et kontrolleret forsøg realistisk
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

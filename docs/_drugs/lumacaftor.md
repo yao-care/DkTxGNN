@@ -6,9 +6,9 @@ nav_order: 513
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lumacaftor: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Cystisk fibrose (ifølge TxGNN-vidensgrafen"
 monitor_inn: "lumacaftor"
 predicted_indications: ["leprosy"]
+description: "Lumacaftor: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lumacaftor
@@ -33,25 +33,25 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Lumacaftor: Fra cystisk fibrose til spedalskhed (leprosy)
+## Lumacaftor: Spedalskhed (leprosy)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Lumacaftor er en CFTR-korrektor, som oprindeligt anvendes til behandling af cystisk fibrose.
 TxGNN-modellen forudsiger, at det kan have effekt mod **spedalskhed (leprosy)**,
-men der er på nuværende tidspunkt **ingen registrerede kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Forudsigelsen hviler udelukkende på modellens vidensgraf.
+men der er på nuværende tidspunkt **ingen registrerede kliniske forsøg** og **ingen publikationer**, som understøtter denne retning. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Cystisk fibrose (ifølge TxGNN-vidensgrafen; indikationsteksten i det danske markedsføringstilladelsesregister er ikke angivet) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Spedalskhed (leprosy) |
-| TxGNN-forudsigelsesscore | 99,44 % |
+| TxGNN-forudsigelsesscore | 0.9944 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -60,7 +60,7 @@ De data, der er indsamlet til denne rapport, indeholder ikke detaljerede oplysni
 
 Der er ikke påvist nogen mekanistisk forbindelse mellem CFTR-korrektion og infektion med *Mycobacterium leprae* eller værtens immunrespons ved spedalskhed. Eventuelle hypoteser, f.eks. modulering af ionтransport i epitel- eller Schwann-celler eller af proteintransportveje, som patogenet udnytter, er rent spekulative og understøttes ikke af de foreliggende data.
 
-Den høje TxGNN-score (0,994) er en ren vidensgraf-forudsigelse og er ikke bekræftet af mekanistiske, prækliniske eller kliniske data.
+Den høje TxGNN-score (0,9944) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den er ikke bekræftet af mekanistiske, prækliniske eller kliniske data.
 
 ## Klinisk evidens
 

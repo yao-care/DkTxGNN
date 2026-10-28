@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Bleomycin: forudsagt ny indikation Cauda equina-neoplasme (evidensniveau L5). Oprindelig indikation: Hodgkin- og non-Hodgkin-lymfom, hoved-halskræft (fra vidensgrafen"
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
+last_modified_at: 2026-10-27
+description: "Bleomycin: forudsagt ny indikation Cauda equina-neoplasme (cauda equina neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Bleomycin
@@ -33,109 +33,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Bleomycin: Fra lymfom og hoved-halskræft til cauda equina-neoplasme
+## Bleomycin: cytotoksisk glykopeptid-antibiotikum → cauda equina-neoplasme (cauda equina neoplasm)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Bleomycin er et cytotoksisk glykopeptid, der oprindeligt anvendes til behandling af Hodgkin- og non-Hodgkin-lymfom samt hoved-halskræft.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **cauda equina-neoplasme** (score 99,3 %), men der er **ingen kliniske forsøg** og kun **1 publikation**, som kun indirekte berører emnet.
-Evidensen er derfor ren modelforudsigelse (L5).
-
-*Bemærk: De data, der er indsamlet til denne rapport, indeholder yderligere forudsagte indikationer med stærkere evidens. De er opsummeret i afsnittet "Øvrige forudsagte indikationer" nedenfor.*
-
----
+Bleomycin er et cytostatikum, der skader tumorcellers DNA. Det er markedsført i Danmark som injektionspræparat.
+TxGNN-modellen forudsiger, at det kan være virksomt ved **cauda equina-neoplasme (cauda equina neoplasm)**.
+Der er dog **ingen registrerede kliniske forsøg** og kun **1 publikation**, som ikke undersøger bleomycin ved denne sygdom. Forudsigelsen er derfor ren modelforudsigelse.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hodgkin- og non-Hodgkin-lymfom, hoved-halskræft (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Cauda equina-neoplasme |
-| TxGNN-prædiktionsscore | 99,3 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cauda equina-neoplasme (cauda equina neoplasm) |
+| TxGNN-forudsigelsesscore | 0,9930 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Bleomycin er kendt som et cytotoksisk glykopeptid, der forårsager enkelt- og dobbeltstrengsbrud i DNA. Mekanismen er plausibel for neoplasmer generelt.
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Bleomycin er dog kendt som et cytotoksisk stof, der forårsager DNA-strengbrud, og dets effekt ved lymfomer er veletableret. Mekanistisk kan det derfor være plausibelt ved neoplasmer generelt.
+Der er dog ingen direkte mekanistisk eller klinisk evidens for cauda equina-tumorer. Den eneste fundne artikel handler om strålebehandling af recidiverende CNS-germinom efter kemoterapi (et regime, der inkluderede bleomycin), men bleomycins rolle er ikke undersøgt specifikt. Den høje score er en beregningsmæssig forudsigelse og ikke et klinisk bevis.
 
-Der er imidlertid ingen direkte mekanistisk evidens for cauda equina-tumorer. Den eneste fundne publikation handler om strålebehandling af recidiverende CNS-germinom efter kemoterapi (inkl. carboplatin, etoposid og bleomycin) og undersøger ikke bleomycin i cauda equina-tumorer. Den høje TxGNN-score er udelukkende en beregnet forudsigelse. Desuden er bleomycins evne til at passere blod-hjerne-barrieren ringe.
+## Evidens fra kliniske forsøg
 
----
-
-## Klinisk evidens fra forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg for denne indikation.
-
----
+Aktuelt er ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [9440744](https://pubmed.ncbi.nlm.nih.gov/9440744/) | 1998 | Kohorte/case-serie | Journal of Clinical Oncology | Retrospektiv evaluering af strålebehandling ved recidiverende CNS-germinom efter primær kemoterapi (PEB med bleomycin); bleomycin er ikke fokus |
-
----
+| [9440744](https://pubmed.ncbi.nlm.nih.gov/9440744/) | 1998 | Kohorte/case-serie | Journal of Clinical Oncology | Retrospektiv evaluering af strålebehandling som redningsbehandling ved recidiverende CNS-germinom efter primær kemoterapi (carboplatin, etoposid, bleomycin). Bleomycin er ikke fokus. |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105599615 | Bleomycin "Accord" (Accord Healthcare B.V.) | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
-
----
+| 28105599615 | Bleomycin "Accord" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (glykopeptid-antibiotikum med antitumoraktivitet) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC); lungefunktion er særligt relevant på grund af kendt pulmonal toksicitet |
-| Håndteringsbeskyttelse | Skal håndteres i henhold til gældende regler for cytotoksiske lægemidler |
-
-Please refer to the Summary of Product Characteristics (SmPC) warnings and precautions for detailed data.
-
----
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (DNA-skadende glykopeptid-antibiotikum) |
+| Risiko for myelosuppression | Se produktresuméet (SmPC); bleomycin er kendt for relativt lav knoglemarvspåvirkning |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméets advarsler og forsigtighedsregler; lungefunktion er særligt relevant pga. kendt lungetoksicitet |
+| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytostatika |
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er registreret 258 mulige interaktioner. Blandt de viste er levofloxacin klassificeret som mindre (Minor); øvrige, bl.a. pantoprazol, palonosetron, aprepitant, morfin, omeprazol, vancomycin, prednison, hydrocortison, prednisolon, granisetron, ondansetron og clarithromycin, har ukendt sværhedsgrad.
-- **Pulmonal toksicitet:** Litteraturen beskriver interstitiel pneumonitis og lungetoksicitet som kendt risiko ved bleomycin, med øget risiko ved stigende alder.
+- **Lægemiddelinteraktioner**: Der er registreret 258 interaktioner. Eksempler: levofloxacin (mindre betydning) samt pantoprazol, palonosetron, lactulose, aprepitant, morfin, omeprazol, vancomycin, prednison og hydrocortison (alvorsgrad ikke angivet).
+- Lungetoksicitet (interstitiel pneumonitis) er en kendt risiko ved bleomycin.
 
-Please refer to the approved Summary of Product Characteristics (SmPC) for complete safety information.
-
----
-
-## Øvrige forudsagte indikationer
-
-| Rang | Indikation | Score | Evidensniveau | Vurdering |
-|---|---|---|---|---|
-| 2 | Voksent astrocytært tumor (gliom) | 99,28 % | L3 | Forskningsspørgsmål: fase I-forsøg med intratumoral infusion (PMID 12416544) og ældre kombinationsregimer; ingen fase 2/3-effektdata |
-| 3 | Reticulumcellesarkom (forældet betegnelse for diffust storcellet B-cellelymfom m.fl.) | 99,14 % | L1 | Overlapper med allerede godkendte lymfomindikationer; to fase 3-forsøg med bleomycinholdige regimer (NCT00002565, NCT00002835); moderne standard (R-CHOP, DA-EPOCH-R) har stort set afløst disse |
-| 4 | Primært pulmonalt lymfom | 99,10 % | L4 | Kun indirekte evidens; lungetoksicitet taler imod brug (ECHELON-1, PMID 29224502) |
-| 5 | Pulmonalt blastom | 99,04 % | L5 | Ingen forsøg eller litteratur |
-| 6 | Velaffgrænset føtalt adenokarcinom i lungen | 99,03 % | L5 | Ingen forsøg eller litteratur |
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-For den primære forudsagte indikation, cauda equina-neoplasme, findes ingen kliniske forsøg og kun én indirekte publikation. Forudsigelsen er rent beregningsbaseret, og bleomycins dårlige passage af blod-hjerne-barrieren samt lungetoksicitet taler for forsigtighed.
+Forudsigelsen bygger udelukkende på modellen. Der er ingen kliniske forsøg og ingen studier, der undersøger bleomycin ved cauda equina-neoplasme, hvorfor evidensniveauet er L5.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) og detaljerede sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé
-- Præklinisk eller klinisk evidens for bleomycin i tumorer i cauda equina/CNS, herunder en leveringsstrategi (f.eks. lokal/intratekal administration)
-- Eventuel prioritering af gliom (rang 2) som forskningsspørgsmål, hvor der foreligger fase I-data
+**For at komme videre kræves:**
+- Studier eller case-serier, der direkte undersøger bleomycin ved cauda equina-tumorer
+- Data om virkningsmekanisme og passage af blod-hjerne-/blod-rygmarvsbarrieren
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Vurdering af neurologisk og pulmonal sikkerhed ved eventuel anvendelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

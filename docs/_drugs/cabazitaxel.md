@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 143
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
 monitor_inn: "Cabazitaxel"
-predicted_indications: ["female breast carcinoma", "female breast carcinoma", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
+predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
+last_modified_at: 2026-10-23
+description: "Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L2). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 ---
 
 # Cabazitaxel
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,13 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Cabazitaxel: Fra prostatakræft til kvindelig brystkræft
+## Cabazitaxel: Fra oprindelig indikation til kvindelig brystkræft
 {: .text-alpha }
 
-## Resumé i én sætning
+## Sammenfatning
 
-Cabazitaxel er et cytotoksisk taxan, der er markedsført i Danmark som koncentrat til infusionsvæske. Det oprindelige indikationsfelt er ikke angivet i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **kvindelig brystkræft**. Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i datagrundlaget, heriblandt et randomiseret fase II-studie (GENEVIEVE).
+Cabazitaxel er et kemoterapeutisk lægemiddel af taxan-klassen, som i Danmark er registreret som koncentrat til infusionsvæske. Der er ingen godkendt indikationstekst i de data, der er sammenstillet til denne rapport, så den oprindelige indikation kan ikke bekræftes herfra.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **kvindelig brystkræft**. Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i datagrundlaget, heraf et enkelt randomiseret fase II-forsøg (GENEVIEVE) om brystkræft.
 
 ---
 
@@ -46,29 +47,27 @@ Cabazitaxel er et cytotoksisk taxan, der er markedsført i Danmark som koncentra
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i den danske autorisation er tom). Litteraturen beskriver godkendelse til metastatisk kastrationsresistent prostatakræft efter docetaxel |
+| Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Kvindelig brystkræft |
-| TxGNN-forudsigelsesscore | 99,92 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
+| TxGNN-forudsigelsesscore | 0,9992 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra litteraturen er cabazitaxel et semisyntetisk taxan, som stabiliserer mikrotubuli og hæmmer mitotisk spindeldynamik. Det er den samme mekanisme, som ligger bag den veletablerede effekt af paclitaxel og docetaxel ved brystkræft.
+Der foreligger ingen detaljerede mekanismedata fra lægemiddeldatabasen. Ud fra den mekanistiske vurdering i de sammenstillede data er cabazitaxel en semisyntetisk taxan, som stabiliserer mikrotubuli og hæmmer mitosespindlens dynamik. Det fører til mitotisk standsning og apoptose.
 
-Cabazitaxel er desuden et dårligt substrat for P-glykoprotein og har i prækliniske modeller vist mindre krydsresistens end docetaxel og paclitaxel, herunder i MCF-7-brystkræftceller. Det kan betyde, at stoffet bevarer aktivitet i taxanresistente tumorer.
-
-Den høje TxGNN-score er i overensstemmelse med taxanklassens effekt, men er alene en modelforudsigelse. Fase III-bekræftelse og dokumenteret fordel i forhold til eksisterende taxaner mangler.
+Brystkræft er en taxan-følsom sygdom, og andre taxaner (paclitaxel og docetaxel) anvendes bredt ved den. Cabazitaxel har lav affinitet for P-glykoprotein og kan derfor muligvis bevare aktivitet i tumorer, der er resistente over for paclitaxel eller docetaxel via MDR1-efflux. Den høje score er i overensstemmelse med denne klassemekanisme, men er i sig selv ikke et bevis for klinisk effekt.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret i de indsamlede data.
+Der er for tiden ingen relaterede kliniske forsøg registreret i datagrundlaget.
 
 ---
 
@@ -76,24 +75,26 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret i 
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [38663168](https://pubmed.ncbi.nlm.nih.gov/38663168/) | 2024 | RCT (fase II, langtidsopfølgning) | ESMO Open | GENEVIEVE: langtidsresultater for neoadjuverende cabazitaxel versus paclitaxel ved triple-negativ eller luminal B/HER2-negativ brystkræft |
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (fase II) | Eur J Cancer | GENEVIEVE: sammenligning af patologisk komplet respons (pCR) for cabazitaxel versus ugentlig paclitaxel |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II | Eur J Cancer | Cabazitaxel plus capecitabin ved metastatisk brystkræft efter antracyklin og taxan: dosis, sikkerhed og aktivitet |
-| [21076710](https://pubmed.ncbi.nlm.nih.gov/21076710/) | 2010 | Review | Drugs Today | Cabazitaxel har gunstig farmakokinetik og mindre P-gp-medieret resistens; neutropeni og neuropati er de hyppigste bivirkninger |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Review (resistensmekanismer) | Mol Cancer Ther | Cabazitaxel var mindre krydsresistent end paclitaxel og docetaxel i taxanresistente modeller, bl.a. MCF-7 |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Prækliniske data | J Immunother Cancer | Cabazitaxels effekt på makrofager forbedrer CD47-målrettet immunterapi ved triple-negativ brystkræft |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Prækliniske data | J Control Release | Cabazitaxel i nanopartikler gav komplet remission i 6 af 8 tumorer i en patientafledt brystkræftxenograft |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review | Br J Clin Pharmacol | Oversigt over farmakologi og terapeutisk lægemiddelmonitorering af taxaner |
-| [21152241](https://pubmed.ncbi.nlm.nih.gov/21152241/) | 2010 | Review | Clin Interv Aging | Vurdering af cabazitaxel ved avanceret prostatakræft (fase III TROPIC-data); indirekte relevans |
-| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Prækliniske data | Acta Pharmacol Sin | Cabazitaxel i polymere miceller mod brystkræftmetastaser |
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | Randomiseret fase II | Eur J Cancer | GENEVIEVE: neoadjuverant cabazitaxel versus ugentlig paclitaxel ved operabel triple-negativ eller luminal B/HER2-negativ brystkræft; primært endepunkt var patologisk komplet respons |
+| [38663168](https://pubmed.ncbi.nlm.nih.gov/38663168/) | 2024 | Randomiseret fase II (langtidsopfølgning) | ESMO Open | Langtidsresultater fra GENEVIEVE; tidligere set forskel i pCR, effekt på langtidsudfald var ukendt |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Fase I/II | Eur J Cancer | Cabazitaxel plus capecitabin ved metastatisk brystkræft efter antracyklin og taxan; maksimalt tolereret dosis, sikkerhed og aktivitet |
+| [21076710](https://pubmed.ncbi.nlm.nih.gov/21076710/) | 2010 | Review | Drugs Today | Cabazitaxel som ny taxan med gunstig farmakokinetik og lavere P-gp-medieret resistens; neutropeni og neuropati er hyppigste bivirkninger |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Resistensmekanismer (præklinisk) | Mol Cancer Ther | Cabazitaxel var mindre krydsresistent end paclitaxel og docetaxel i taxan-resistente modeller, herunder MCF-7 brystkræftceller |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Præklinisk | J Immunother Cancer | Cabazitaxels effekt på makrofager forbedrer CD47-rettet immunterapi ved triple-negativ brystkræft |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Præklinisk | J Control Release | Nanopartikel-indkapslet cabazitaxel gav komplet remission i 6 af 8 tumorer i en patientafledt brystkræft-xenograft |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Præklinisk | Chem Phys Lipids | Samindkapslet cabazitaxel og thymoquinon som synergistisk kombination mod brystkræft |
+| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Præklinisk | Acta Pharmacol Sin | Cabazitaxel i polymere miceller mod brystkræftmetastaser |
+| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Præklinisk | Colloids Surf B | Cabazitaxel i nanostrukturerede lipidbærere testet på brystkræftcellelinjer |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106241519 | Cabazitaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+| 28106241519 | Cabazitaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i data |
+
+Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.
 
 ---
 
@@ -101,38 +102,35 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret i 
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksisk klassifikation | Konventionelt cytotoksisk middel (taxan, mikrotubulistabiliserende) |
-| Risiko for myelosuppression | Høj (neutropeni er en hovedtoksicitet i litteraturen) |
-| Emetogenicitetsklasse | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Komplet blodtal med differentialtælling, lever- og nyrefunktion, perifer neuropati |
+| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk (taxan, mikrotubulus-stabiliserende) |
+| Risiko for myelosuppression | Høj. Neutropeni er en hyppig bivirkning for taxaner. |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitoreringspunkter | Fuldt blodbillede med differentialtælling, lever- og nyrefunktion |
 | Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
 
 ---
 
-## Sikkerhedsovervejninger
+## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgraf (ikke produkttekst):** TxGNN-vidensgrafen knytter cabazitaxel til følgende tilstande: nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, neutropeni, agranulocytose, anæmi, makrocytær anæmi, leukopeni, hyperbilirubinæmi (herunder arvelig) og Gilberts syndrom. Disse er ikke hentet fra den danske produktinformation og skal verificeres i SmPC.
-- **Lægemiddelinteraktioner:** Der er identificeret 100 interaktioner. Blandt de vist er der **alvorlige (Major)** interaktioner med deferipron og samarium (153Sm) lexidronam. Moderate interaktioner omfatter bl.a. aprepitant, clarithromycin, clotrimazol, metronidazol, miconazol, rosuvastatin, simvastatin, tinidazol, cobicistat, deferasirox, ticagrelor og chloroquin.
+- **Relationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer til bl.a. nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, neutropeni, agranulocytose, anæmi, hyperbilirubinæmi (herunder Gilberts syndrom) og leukopeni. Disse stammer ikke fra produktresuméet og skal verificeres der.
+- **Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt de viste er to af alvorlig grad: **deferipron** og **samarium (153Sm) lexidronam**. Moderate interaktioner omfatter bl.a. aprepitant, clarithromycin, clotrimazol, metronidazol, miconazol, rosuvastatin, simvastatin, cobicistat, deferasirox, ticagrelor og chloroquin.
 
-Advarsler og kontraindikationer fra den danske produktinformation er ikke tilgængelige. Se godkendt SmPC.
+Se i øvrigt det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der er et randomiseret fase II-studie (GENEVIEVE) med langtidsopfølgning, der sammenligner cabazitaxel med paclitaxel ved brystkræft, og mekanismen svarer til veletablerede taxaner. Der mangler dog registrerede forsøg og fase III-bekræftelse, og fordelen i forhold til eksisterende taxaner er ikke påvist. Behandlingen bør derfor kun undersøges i en kontrolleret forskningssammenhæng.
+Der er ingen registrerede kliniske forsøg for brystkræft i datagrundlaget. Der findes et randomiseret fase II-forsøg (GENEVIEVE), som sammenligner cabazitaxel med paclitaxel ved brystkræft, men det er ikke afsluttet som fase 3, og resten af litteraturen er overvejende præklinisk eller review. Evidensniveauet er L2. Der mangler både godkendt indikationstekst og sikkerhedsdata fra mærkningen, hvilket forhindrer videre sikkerhedsscreening.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af advarsler og kontraindikationer fra den danske produktinformation (SmPC)
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- Fastlæggelse af den oprindelige godkendte indikation i Danmark
-- Fase III-data eller velafgrænsede fase II-forsøg, der viser fordel i forhold til paclitaxel/docetaxel
-- Plan for sikkerhedsmonitorering, især for myelosuppression og neutropeni, samt gennemgang af interaktioner
-
-**Bemærkning om øvrige forudsigelser:** Modellen forudsiger også seglcellerelaterede syndromer (bl.a. seglcelle-hæmoglobin D/C/E-sygdom og seglcelle-beta-thalassæmi). Der er hverken forsøg eller litteratur, og der er ingen mekanistisk begrundelse. Myelosuppression kan forværre anæmi, hvorfor anbefalingen for disse er **Hold**.
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation)
+- Detaljerede data om virkningsmekanisme
+- Gennemgang af de fulde GENEVIEVE-resultater (pCR og langtidsudfald) samt vurdering af, om fase 3-data findes
+- Plan for sikkerhedsmonitorering, især med hensyn til myelosuppression og lægemiddelinteraktioner (CYP3A4)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

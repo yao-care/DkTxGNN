@@ -4,17 +4,17 @@ title: Penciclovir
 parent: Kun modelforudsigelse (L5)
 nav_order: 645
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Penciclovir: forudsagt ny indikation Fascioliasis (evidensniveau L5). Oprindelig indikation: Herpes labialis (fra videnbasen"
 monitor_inn: "Penciclovir"
-predicted_indications: ["fascioliasis", "fascioliasis", "cysticercosis", "cysticercosis", "coenurosis", "coenurosis", "intestinal helminthiasis", "intestinal helminthiasis", "malignant pleural mesothelioma", "malignant pleural mesothelioma"]
+predicted_indications: ["fascioliasis"]
 ---
 
 # Penciclovir
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,12 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Herpes labialis (fra videnbasen; godkendelsesteksten for det danske produkt er ikke angivet) |
 | Forudsagt ny indikation | Fascioliasis |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Øvrige forudsagte indikationer (alle L5, Hold, uden forsøg eller litteratur): cysticercosis (98,99 %), coenurosis (98,75 %), intestinal helminthiasis (98,70 %) og malign pleuralt mesotheliom (98,51 %).
 
 ---
 
@@ -64,9 +63,9 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Penciclovir er kendt som en guanosin-nukleosidanalog, der fosforyleres af viralt thymidinkinase og hæmmer viralt DNA-polymerase. Det er effektivt mod herpes simplex-virus, som forårsager herpes labialis.
 
-Denne mekanisme giver imidlertid **ingen oplagt forbindelse** til fascioliasis. *Fasciola hepatica* er en parasitisk trematod og har hverken herpesvirus-lignende thymidinkinase eller viralt DNA-polymerase som mål. Den høje TxGNN-score er derfor sandsynligvis en artefakt i videngrafen og ikke et udtryk for reel biologisk sammenhæng.
+Denne mekanisme giver imidlertid **ingen oplagt forbindelse** til fascioliasis. *Fasciola hepatica* er en parasitisk trematod og har hverken herpesvirus-lignende thymidinkinase eller viralt DNA-polymerase som mål. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
-Samme vurdering gælder de øvrige parasitære forudsigelser (cysticercosis, coenurosis, intestinal helminthiasis). Penciclovir har desuden dårlig oral biotilgængelighed (den orale prodrug er famciclovir) og markedsføres topisk, hvilket taler imod en rationel tarmeksponering. Effektive ormemidler (fx albendazol og praziquantel) findes allerede.
+Penciclovir har desuden dårlig oral biotilgængelighed (den orale prodrug er famciclovir) og markedsføres topisk, hvilket taler imod en rationel tarmeksponering. Effektive ormemidler (fx albendazol og praziquantel) findes allerede.
 
 Den mest mekanistisk tænkelige forudsigelse er **malign pleuralt mesotheliom**, men kun i en genterapikontekst: HSV-TK-genoverførsel sensibiliserer tumorceller over for nukleosidanaloger som ganciclovir, og penciclovir er også et HSV-TK-substrat. Det kræver genoverførsel, og penciclovir har ingen kendt effekt som enkeltstående middel.
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 230
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dacarbazine: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tr… (evidensniveau L4). Oprindelig indikation: Metastatisk melanom og Hodgkins lymfom (fra vide…"
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 # Dacarbazine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **neoplasmer i de øvre lu
 |------|------|
 | Oprindelig indikation | Metastatisk melanom og Hodgkins lymfom (fra videnbasen; den danske godkendelse har ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tract neoplasm) |
-| TxGNN-forudsigelsesscore | 99,26 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9926 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Dacarbazin er et alkylerende middel (methylerende prodrug, aktiveret i leveren t
 
 Sammenhængen med den forudsagte indikation er indirekte. Både melanom og Hodgkins lymfom kan involvere hoved- og halsregionen og slimhinderne i de øvre luft- og fordøjelsesveje (f.eks. slimhindemetastaser af melanom og ekstranodal/nodal Hodgkins lymfom i hoved-halsregionen). Lægemidlet behandler altså tumortyper, der forekommer på disse steder, snarere end en veldefineret enhed kaldet "neoplasmer i de øvre luft- og fordøjelsesveje". Dacarbazinholdige regimer har desuden været brugt ved neuroendokrine tumorer (medullært thyreoideakarcinom, malign paragangliom), hvilket er et yderligere indirekte signal.
 
-Den meget høje TxGNN-score (0,993) er en beregningsmæssig forudsigelse og afspejler sandsynligvis lægemidlets kendte forbindelser til melanom og lymfom. Den bør ikke tolkes som klinisk dokumentation.
+Den meget høje TxGNN-score (0,9926) er en beregningsmæssig forudsigelse og afspejler sandsynligvis lægemidlets kendte forbindelser til melanom og lymfom. Den bør ikke tolkes som klinisk dokumentation.
 
 ---
 

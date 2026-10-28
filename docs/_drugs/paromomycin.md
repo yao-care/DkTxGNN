@@ -6,9 +6,9 @@ nav_order: 632
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Paromomycin: forudsagt ny indikation Idiopatisk kobberassocieret cirrose (evidensniveau L5). Oprindelig indikation: Hepatisk koma / hepatisk encefalopati (fra TxGNN-vidensgrafen"
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
+description: "Paromomycin: forudsagt ny indikation Idiopathic copper-associated cirrhosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Paromomycin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Paromomycin: Fra hepatisk koma til idiopatisk kobberassocieret cirrose
+## Paromomycin: Idiopathic copper-associated cirrhosis
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **idiopatisk kobberassocie
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hepatisk koma / hepatisk encefalopati (fra TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke angivet) |
-| Forudsagt ny indikation | Idiopatisk kobberassocieret cirrose |
-| TxGNN-forudsigelsesscore | 99,90 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Idiopathic copper-associated cirrhosis |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **idiopatisk kobberassocie
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Paromomycin er et aminoglykosid, der virker i tarmlumen og kun absorberes i ringe grad. Ved hepatisk encefalopati menes effekten at bero på reduktion af ammoniakproducerende tarmbakterier.
 
-Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem denne tarmvirkning og kobberdrevet leverskade. Den høje modelscore (0,999) afspejler sandsynligvis en generel sammenhæng i vidensgrafen mellem leversygdomme, snarere end en biologisk begrundet forbindelse. Uden kendt virkningsmekanisme kan koblingen ikke vurderes yderligere.
+Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem denne tarmvirkning og kobberdrevet leverskade. Uden kendt virkningsmekanisme kan koblingen ikke vurderes yderligere.
 
 Andre forudsagte indikationer i datasættet (bl.a. hepatopulmonalt syndrom, peritonitis, primitiv portavenetrombose) har heller ikke direkte klinisk støtte. For hepatopulmonalt syndrom findes et spekulativt, indirekte argument om tarmdekontaminering, men uden data for paromomycin.
 

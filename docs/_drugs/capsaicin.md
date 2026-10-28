@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Capsaicin
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 157
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Capsaicin: forudsagt ny indikation Otitis externa (evidensniveau L5). Oprindelig indikation: Neuralgi og postherpetisk neuralgi (fra TxGNN-vidensgrafen"
-monitor_inn: "Capsaicin"
-predicted_indications: ["otitis externa", "otitis externa", "post-bacterial disorder", "post-bacterial disorder", "postinfectious vasculitis", "postinfectious vasculitis", "infective urethral stricture", "infective urethral stricture", "post-infectious syndrome", "post-infectious syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Capsaicin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Capsaicin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +32,45 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Capsaicin: Fra neuralgi til otitis externa
+<!-- known-uses-page -->
+<!-- description: Capsaicin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Capsaicin: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Capsaicin er et TRPV1-agonistisk stof, der oprindeligt anvendes til behandling af neuralgi og postherpetisk neuralgi. TxGNN-modellen forudsiger, at det kan have effekt ved **otitis externa** (yderøre-betændelse), men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Den er udelukkende en modelberegning.
-
----
+## Resumé
+TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Capsaicin, så der er i øjeblikket ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er listet nedenfor.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Neuralgi og postherpetisk neuralgi (fra TxGNN-vidensgrafen; indikationsteksten i den danske autorisation er ikke angivet) |
-| Forudsagt ny indikation | Otitis externa |
-| TxGNN-forudsigelsesscore | 98,76 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede en score på 0,99 eller højere) |
+| Registrerede anvendelser for dette lægemiddel | 2 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Registrerede anvendelser for dette lægemiddel
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en licens eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| Neuralgi (neuralgia) | Licens i et andet land |
 
-Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Ud fra den kendte farmakologi er capsaicin en agonist ved TRPV1-receptoren på nociceptive sensoriske neuroner. Ved gentagen eller høj eksponering desensibiliseres disse neuroner, og frigivelsen af smertesignalstoffet substans P falder. Det er grundlaget for brugen ved neuralgi.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Teoretisk kan en tilsvarende desensibilisering lindre smerte eller kløe i øregangen ved otitis externa. Der er dog ingen direkte mekanistisk sammenhæng, som de foreliggende data understøtter. Den høje score er en beregnet forudsigelse og ikke et klinisk fund. Desuden vil lokal anvendelse i øregangen give anledning til bekymring om irritation og sikkerhed.
-
-Den samme forudsigelse optræder flere gange i modellens output, men dækker den samme sygdom og indeholder ingen yderligere evidens.
-
-**Andre forudsigelser af interesse:** Til "post-infectious syndrome" (score 98,66 %, evidensniveau L4) findes en vis mekanistisk litteratur. Se afsnittet om litteratur nedenfor. Det er et mere oplagt forskningsspørgsmål end otitis externa, men dækker ikke den primære forudsigelse.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er ingen relateret litteratur for otitis externa.
-
-Til orientering er der for den sekundære forudsigelse "post-infectious syndrome" identificeret følgende publikationer. De afprøver ikke capsaicin som behandling:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [29051514](https://pubmed.ncbi.nlm.nih.gov/29051514/) | 2017 | Kohortestudie | Scientific Reports | Langvarig sensibilisering af tarmen hos patienter med post-infektiøst irritabel tarm-syndrom (PI-IBS) |
-| [33023902](https://pubmed.ncbi.nlm.nih.gov/33023902/) | 2021 | Mekanistisk/præklinisk-translationelt | Gut | Resolviner og sensibilisering af TRPV1 samt visceral hypersensitivitet ved IBS |
-| [41044788](https://pubmed.ncbi.nlm.nih.gov/41044788/) | 2025 | Netværksfarmakologi (in silico) | Chinese Medicine | Virkningsmekanisme for Keke-tabletter mod post-infektiøs hoste |
-| [41508241](https://pubmed.ncbi.nlm.nih.gov/41508241/) | 2025 | Netværksfarmakologi/metabolomik | Zhongguo Zhong Yao Za Zhi | Keke-tabletter ved post-infektiøs hoste i rottemodel (capsaicin indgår kun til at fremkalde modellen) |
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Postherpetisk neuralgi (postherpetic neuralgia) |
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104221207 | Qutenza (Grünenthal GmbH) | Kutanplaster | Indikationstekst ikke angivet i de foreliggende data |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28104221207 | Qutenza | kutanplaster | Gyldig |
 
 ## Cytotoksicitet
 
@@ -112,20 +87,6 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen for otitis externa er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur, og der er ingen understøttet mekanistisk sammenhæng. Lokal anvendelse i øregangen rejser desuden spørgsmål om irritation og sikkerhed.
-
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (kritisk mangel, der blokerer sikkerhedsscreening)
-- Præklinisk evidens for TRPV1-modulering ved otitis externa og vurdering af tolerabilitet i øregangen
-- Vurdering af indgivelsesvejens egnethed, da den eksisterende formulering er et kutanplaster og ikke er beregnet til øregangen
-- Systematisk litteratursøgning og søgning i forsøgsregistre
-- Overvej, om "post-infectious syndrome" (især post-infektiøs IBS) er et mere hensigtsmæssigt forskningsspørgsmål end otitis externa
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

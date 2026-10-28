@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 ## Resumé i én sætning
 
-Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.). Den primære TxGNN-forudsigelse er **Prinzmetal-angina** (score 99,7 %), men der er **ingen registrerede kliniske forsøg og ingen publikationer** til at understøtte denne retning. Evidensen er udelukkende modelbaseret. Blandt de øvrige forudsigelser har **migrænelidelse** det mest omfattende (men overvejende prækliniske) datagrundlag.
+Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.). Den primære TxGNN-forudsigelse er **Prinzmetal-angina** (score 0,9967), men der er **ingen registrerede kliniske forsøg og ingen publikationer** til at understøtte denne retning. Evidensen er udelukkende modelbaseret. Blandt de øvrige forudsigelser har **migrænelidelse** det mest omfattende (men overvejende prækliniske) datagrundlag.
 
 ---
 
@@ -48,10 +48,10 @@ Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veter
 |------|------|
 | Oprindelig indikation | Ikke angivet i den danske markedsføringstilladelse (indikationsteksten er tom) |
 | Forudsagt ny indikation | Prinzmetal-angina |
-| TxGNN-forudsigelsesscore | 99,67 % |
+| TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -80,12 +80,6 @@ Der er i øjeblikket ingen relateret litteratur for Prinzmetal-angina.
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Kort vurdering |
 |------|------|------|------|
-| Tourettes syndrom | 99,6 % | L5 | Ingen data; ingen plausibel mekanisme |
-| Manisk bipolar lidelse | 99,6 % | L4 | Sparsom, gammel og småskala evidens |
-| Trichotillomani | 99,5 % | L5 | Ingen data; ingen plausibel mekanisme |
-| Dysthymi | 99,3 % | L5 | Ingen data; kortvirkende anæstetikum passer dårligt til kronisk lidelse |
-| Nefrogent syndrom med uhensigtsmæssig antidiurese | 99,1 % | L5 | Ingen data; gavnlig effekt ikke forventet |
-| Migrænelidelse | 99,1 % | L4 | Mest omfattende, men overvejende præklinisk og kasuistisk evidens |
 
 ### Udvalgt litteratur for migræne
 

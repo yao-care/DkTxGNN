@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylpropanolamine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 658
-evidence_level: L3
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, forkølelse…"
 monitor_inn: "phenylpropanolamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Phenylpropanolamine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Phenylpropanolamin: Fra allergisk rhinitis og forkølelse til sygdomme i næsehulen
+## Phenylpropanolamine: Sygdomme i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der findes **ingen registrerede kliniske forsøg** og kun **3 publikationer*
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, forkølelse, nasopharyngitis (fra TxGNN-vidensgrafen; der er ingen indikationstekst i den danske godkendelse) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (kun som veterinærlægemiddel) |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9998 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

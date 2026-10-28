@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 720
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Rilpivirine: forudsagt ny indikation Felint erhvervet immundefektsyndrom (FIV hos katte) (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Rilpivirin: Fra HIV-infektion til felint erhvervet immundefektsyndrom
+## Rilpivirine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -45,12 +45,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **felint erhvervet
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (fra videnbasen; de danske markedsføringstilladelser indeholder ingen indikationstekst i de indsamlede data) |
-| Forudsagt ny indikation | Felint erhvervet immundefektsyndrom (FIV hos katte) |
-| TxGNN-forudsigelsesscore | 99,97 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 5 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
+| TxGNN-forudsigelsesscore | 0.9997 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

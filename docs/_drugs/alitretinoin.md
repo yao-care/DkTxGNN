@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alitretinoin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelsestekst"
 monitor_inn: "Alitretinoin"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "acne (disease)", "acne (disease)", "atypical coarctation of aorta", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "pregnancy associated osteoporosis", "aortic malformation", "aortic malformation"]
+predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]
+last_modified_at: 2026-10-23
+description: "Alitretinoin: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
 ---
 
 # Alitretinoin
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Alitretinoin: Fra håndeksem til amenoré (prædiktion)
+## Alitretinoin: Fra ukendt godkendt indikation til amenorré
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Alitretinoin (9-cis-retinsyre) er et retinoid, som er markedsført i Danmark som bløde kapsler. Ifølge de data, der er sammenstillet til denne rapport, er lægemidlet kendt for behandling af svær kronisk håndeksem og Kaposis sarkom. TxGNN-modellen forudsiger, at det kan have effekt ved **amenoré**, men der er **0 kliniske forsøg** og **0 publikationer** om netop denne indikation. Evidensen er udelukkende modelbaseret.
+Alitretinoin (9-cis-retinsyre) er et retinoid, der aktiverer retinsyre- og retinoid X-receptorer. Den lokale godkendelsestekst i de indsamlede data angiver ingen indikation. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **amenorré**, men der er **0 kliniske forsøg** og **0 publikationer** om netop denne sygdom, så forudsigelsen er rent beregningsmæssig.
 
 ---
 
@@ -46,64 +46,61 @@ Alitretinoin (9-cis-retinsyre) er et retinoid, som er markedsført i Danmark som
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i den danske tilladelsestekst (kendt anvendelse ifølge farmakologidata: svær kronisk håndeksem, der ikke responderer på potente topikale kortikosteroider) |
-| Forudsagt ny indikation | Amenoré |
-| TxGNN-prædiktionsscore | 99,99 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom) |
+| Forudsagt ny indikation | Amenorré |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne prædiktion rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i detaljeret form. Farmakologidata viser dog, at alitretinoin binder til retinsyrereceptorerne (RARα, RARβ, RARγ) og retinoid X-receptorerne (RXRα, RXRβ, RXRγ). Det er således en pan-retinoid receptoragonist, som påvirker celledifferentiering.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Farmakologiske data viser, at alitretinoin binder til retinsyrereceptorerne RAR-α, -β og -γ samt retinoid X-receptorerne RXR-α, -β og -γ. Disse nukleære receptorer regulerer genekspression. Databasen nævner også VKORC1 som mål.
 
-Der er ingen understøttet mekanistisk begrundelse for, at alitretinoin skulle virke ved amenoré. En påvirkning af reproduktiv endokrin signalering er spekulativ. Den høje score (0,9999) er alene en beregnet forudsigelse. Retinoider er desuden teratogene, hvilket gør en indikation inden for kvinders reproduktive sundhed problematisk uden yderligere begrundelse.
+Der er ingen dokumenteret mekanistisk forbindelse mellem disse receptorer og den hypothalamiske-hypofysære-ovarie-akse, som styrer menstruationscyklus. Den høje score er en ren modelberegning. Retinoider er desuden teratogene og kan give menstruationsforstyrrelser, så et sikkerhedssignal er mere sandsynligt end en terapeutisk effekt.
 
-**Øvrige forudsigelser:** Modellen foreslog også akne, atypisk coarctatio aortae, graviditetsassocieret osteoporose og aortamisdannelse. Akne er biologisk plausibelt (retinoider normaliserer keratinocytdifferentiering og dæmper talgkirtelaktivitet), men understøttes kun indirekte af to generelle oversigtsartikler. De øvrige har ingen plausibel behandlingsmekanisme; retinsyresignalering er vigtig for fosterudvikling, men det vedrører teratogenicitet og ikke terapeutisk effekt.
+Til sammenligning er de øvrige forudsigelser i rangeringen enten uden evidens (aortamisdannelser, osteoporose, fibrocystisk brystsygdom m.fl.) eller kun svagt understøttet af generelle oversigtsartikler (akne). Intet af dette ændrer vurderingen for amenorré.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
-## Litteraturevidens
+## Evidens fra litteraturen
 
-For den primære forudsigelse (amenoré) er der på nuværende tidspunkt ingen relateret litteratur. Til sammenligning findes følgende generelle oversigtsartikler for den sekundære forudsigelse akne (kun indirekte støtte):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Oversigtsartikel | Clinics in Dermatology | Gennemgang af vitamin A og retinoider i dermatologi, herunder orale retinoider som isotretinoin, acitretin, alitretinoin og bexaroten |
-| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Oversigtsartikel | Skin Pharmacology and Applied Skin Physiology | Retinoiders virkning via nukleære receptorer og mulige fremtidige dermatologiske indikationer |
+Der er i øjeblikket ingen relateret litteratur om alitretinoin ved amenorré.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107150024 | Alitretinoin "Nordic Prime" (Nordic Prime ApS) | Kapsler, bløde | Indikationstekst ikke angivet |
+| 28107150024 | Alitretinoin "Nordic Prime" | Bløde kapsler | Ikke angivet i de indsamlede data |
+
+Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof. Den præcise godkendte indikation skal bekræftes i produktresuméet (SmPC).
 
 ---
 
 ## Cytotoksicitet
 
-Alitretinoin anvendes ikke primært som cytostatikum i den danske godkendelse, så dette afsnit er udeladt.
+Alitretinoin er ikke et klassisk cytostatikum, og afsnittet udelades derfor.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra vidensgraf, ikke produktresumé):** TxGNN-vidensgrafen (PrimeKG) angiver kontraindikationskanter til mycosis fungoides og varianter, primært kutant T-cellelymfom, follikulotrop mycosis fungoides, lokaliseret pagetoid retikulose og granulomatøs slack skin.
-- **Teratogenicitet:** Retinoider er teratogene og kontraindiceret under graviditet. Enhver udvikling kræver strenge graviditetsforebyggende foranstaltninger.
-- **Farmakologiske interaktioner:** Alitretinoin binder til RARα/β/γ og RXRα/β/γ samt til VKORC1 (vitamin K-epoxidreduktase), hvilket kan have betydning for samtidig behandling med vitamin K-antagonister. Der er ikke angivet interaktionsniveauer.
+- **Kontraindikationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer relationer til mycosis fungoides og varianter, primært kutant T-celle-lymfom, folliculotropisk mycosis fungoides, lokaliseret pagetoid reticulose og granulomatøs slack skin. Disse er relationer fra vidensgrafen og ikke bekræftede kontraindikationer fra et produktresumé.
+- **Receptorinteraktioner:** Der er registreret farmakologisk binding til RAR-α/β/γ, RXR-α/β/γ og VKORC1. Der er ikke angivet konkrete lægemiddelinteraktioner med klinisk niveau.
+- **Teratogenicitet:** Ifølge modelvurderingen i de indsamlede data er retinoider teratogene, og alitretinoin må ikke anvendes under graviditet.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -112,13 +109,13 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Prædiktionen for amenoré bygger udelukkende på en beregnet modelscore (evidensniveau L5) uden kliniske forsøg, litteratur eller plausibel mekanisme. Teratogenicitet gør indikationen yderligere problematisk.
+Der findes hverken kliniske forsøg eller publikationer, som undersøger alitretinoin ved amenorré, og der er ingen understøttet mekanisme. Retinoidernes kendte bivirkningsprofil gør et sikkerhedssignal mere sandsynligt end en gavnlig effekt.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
-- Præklinisk eller klinisk evidens, der specifikt understøtter en terapeutisk effekt ved amenoré
-- Alternativt at prioritere akne som forskningsspørgsmål (evidensniveau L4) med strenge graviditetsforebyggende tiltag
+- Bekræftelse af den godkendte indikation og sikkerhedsoplysninger fra produktresuméet (SmPC) fra Lægemiddelstyrelsen
+- Data om virkningsmekanisme fra DrugBank
+- Prækliniske eller kliniske data, der direkte undersøger alitretinoin ved amenorré
+- En vurdering af, om nogen af de øvrige forudsigelser (fx akne) har bedre grundlag
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -6,9 +6,9 @@ nav_order: 296
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Elbasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis C-virusinfektion (indikationsteksten i det danske r…"
 monitor_inn: "elbasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elbasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Elbasvir
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Elbasvir: Fra hepatitis C-virusinfektion til hepatitis B-virusinfektion
+## Elbasvir: Hepatitis B-virusinfektion (hepatitis B virus infection)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **hepatitis B-viru
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Kronisk hepatitis C-virusinfektion (indikationsteksten i det danske register er tom; oplysningen stammer fra TxGNN's vidensgraf) |
-| Forudsagt ny indikation | Hepatitis B-virusinfektion |
-| TxGNN-forudsigelsesscore | 99,71 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hepatitis B-virusinfektion (hepatitis B virus infection) |
+| TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

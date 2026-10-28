@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB11639",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB11639"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "breast-tumor-luminal-a-or-b",
-          "display": "breast tumor luminal A or B"
-        }
-      ],
-      "text": "breast tumor luminal A or B"
+      "concept": {
+        "text": "breast tumor luminal A or B"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9983
     }
   ]
 }

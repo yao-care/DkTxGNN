@@ -50,10 +50,10 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der 
 |------|------|
 | Oprindelig indikation | Supraventrikulær takykardi (atrieflimren og atrieflagren) iht. farmakologidata; indikationsteksten i den danske markedsføringstilladelse er ikke angivet |
 | Forudsagt ny indikation | Lingual-facial-bukkal dyskinesi |
-| TxGNN-forudsigelsesscore | 99,11 % |
+| TxGNN-forudsigelsesscore | 0,9911 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Der foreligger ikke detaljerede data om landiolols virkningsmekanisme i de samle
 
 Orofacial dyskinesi hænger sammen med dysfunktion i de dopaminerge systemer i basalganglierne. Der er ingen etableret central mekanisme, hvorigennem selektiv beta-1-blokade kan påvirke tilstanden. Nogle beta-blokkere virker perifert på visse bevægelsessymptomer (f.eks. tremor), men landiolol er hydrofilt med minimal penetration til centralnervesystemet. Sammenhængen er derfor svag og spekulativ.
 
-TxGNN-scoren (0,991) er alene en grafbaseret forudsigelse og kan ikke i sig selv begrunde det videre forløb.
+TxGNN-scoren (0,9911) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Scoren kan ikke i sig selv begrunde det videre forløb.
 
 ### Øvrige forudsagte indikationer
 
@@ -72,11 +72,11 @@ Modellen forudsagde også følgende tilstande. Alle har evidensniveau L5 og anbe
 
 | Rang | Sygdom | TxGNN-score | Kort vurdering |
 |------|------|------|------|
-| 2 | Kronisk tics-lidelse | 99,08 % | Noradrenerg modulation er relevant (alfa-2-agonister), men beta-1-antagonisme har ingen etableret rolle; en intravenøs, ultrakortvirkende profil passer dårligt til en kronisk tilstand |
-| 3 | Psykogene bevægelsesforstyrrelser | 99,05 % | Behandlingen er hovedsageligt ikke-farmakologisk; kun en indirekte perifer effekt på sympatiske symptomer er tænkelig |
-| 4 | Ekstrapyramidale bevægelsesforstyrrelser og bevægelsessygdomme | 99,04 % | Bred og heterogen kategori; ekstrapolation fra propranolol er ikke understøttet, da landiolol er beta-1-selektivt, hydrofilt og kortvirkende |
-| 5 | Benigne rystelsesanfald (shuddering attacks) | 99,04 % | Sjælden, selvlimiterende tilstand hos børn; risiko-nytte ved en intravenøs hjertemedicin er ugunstig |
-| 6 | Primær ortostatisk tremor | 99,00 % | Central højfrekvent oscillator; beta-blokkere er generelt ineffektive, og landiolol penetrerer ikke CNS |
+| 2 | Kronisk tics-lidelse | 0,9908 | Noradrenerg modulation er relevant (alfa-2-agonister), men beta-1-antagonisme har ingen etableret rolle; en intravenøs, ultrakortvirkende profil passer dårligt til en kronisk tilstand |
+| 3 | Psykogene bevægelsesforstyrrelser | 0,9905 | Behandlingen er hovedsageligt ikke-farmakologisk; kun en indirekte perifer effekt på sympatiske symptomer er tænkelig |
+| 4 | Ekstrapyramidale bevægelsesforstyrrelser og bevægelsessygdomme | 0,9904 | Bred og heterogen kategori; ekstrapolation fra propranolol er ikke understøttet, da landiolol er beta-1-selektivt, hydrofilt og kortvirkende |
+| 5 | Benigne rystelsesanfald (shuddering attacks) | 0,9904 | Sjælden, selvlimiterende tilstand hos børn; risiko-nytte ved en intravenøs hjertemedicin er ugunstig |
+| 6 | Primær ortostatisk tremor | 0,9900 | Central højfrekvent oscillator; beta-blokkere er generelt ineffektive, og landiolol penetrerer ikke CNS |
 
 ---
 

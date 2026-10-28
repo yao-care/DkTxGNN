@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00059",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00059"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "blast-phase-chronic-myelogenous-leukemia-bcr-abl1-positive",
-          "display": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
-        }
-      ],
-      "text": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+      "concept": {
+        "text": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9961
     }
   ]
 }

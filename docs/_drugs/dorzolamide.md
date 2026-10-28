@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Kun modelforudsigelse (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dorzolamide: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension (de danske godkendelser in…"
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dorzolamid: Fra åbenvinklet glaukom til primær arvelig glaukom
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Dorzolamid er en carbonanhydrasehæmmer i form af øjendråber, oprindeligt anvendt til behandling af åbenvinklet glaukom og okulær hypertension.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær arvelig glaukom** (rang 1 af de forudsagte indikationer), men der er **ingen kliniske forsøg og ingen publikationer** for netop denne sygdom. Forudsigelsen hviler alene på modellen og sandsynligvis på overlap med den eksisterende glaukomindikation.
+Forudsigelsen hviler alene på modellen og sandsynligvis på overlap med den eksisterende glaukomindikation.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær arvelig 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Åbenvinklet glaukom og okulær hypertension (de danske godkendelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Primær arvelig glaukom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypotrichosis simplex of the scalp |
+| TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -104,7 +104,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for primær arvelig glaukom er kun modelbaseret (evidensniveau L5) uden forsøg eller litteratur for denne specifikke sygdom. Den stærke evidens, der findes, gælder den allerede godkendte indikation, åbenvinklet glaukom.
+Den stærke evidens, der findes, gælder den allerede godkendte indikation, åbenvinklet glaukom.
 
 **For at komme videre kræves:**
 - Målrettet litteratur- og forsøgssøgning for arvelig/juvenil glaukom (herunder pædiatriske data; et fase 2-forsøg, NCT01527682, har undersøgt dorzolamid i pædiatrisk glaukom og bør gennemgås)

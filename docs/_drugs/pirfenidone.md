@@ -6,9 +6,9 @@ nav_order: 667
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone: forudsagt ny indikation Fibroblastisk neoplasi (rang 9 (evidensniveau L5). Oprindelig indikation: Idiopatisk lungefibrose"
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: forudsagt ny indikation Extracutaneous mastocytoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pirfenidone
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pirfenidon: Fra idiopatisk lungefibrose til fibroblastisk neoplasi
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Den bedst understøttede forudsigelse blandt de ti højest rangerede er **fibrob
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Idiopatisk lungefibrose (godkendelsesteksten i dansk registrering er ikke tilgængelig; indikationen stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Fibroblastisk neoplasi (rang 9; højest scorende forudsigelse er ekstrakutant mastocytom) |
-| TxGNN-forudsigelsesscore | 99,23 % (fibroblastisk neoplasi); 99,71 % (ekstrakutant mastocytom) |
-| Evidensniveau | L4 (fibroblastisk neoplasi); L5 for de øvrige ni forudsigelser |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Extracutaneous mastocytoma |
+| TxGNN-forudsigelsesscore | 0.9971 |
+| Evidensniveau | L5 (fibroblastisk neoplasi); L5 for de øvrige ni forudsigelser |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (fibroblastisk neoplasi: forskningsspørgsmål, ikke klar til klinisk anvendelse) |
 
 ---

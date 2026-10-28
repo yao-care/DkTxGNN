@@ -8,6 +8,7 @@ nav_order: 383
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Gallium
@@ -51,8 +52,8 @@ En fuldstændig datagennemgang og -korrektion er påkrævet, før denne kandidat
 | Forudsagt ny indikation | Ingen prognosdata tilgængelig |
 | TxGNN prognosescore | N/A |
 | Bevisniveau | L5 (modelprognosedata fraværende — ingen understøttende studier kan hentes) |
-| Markedsstatus i Danmark | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | **Afvent** |
 
 ---

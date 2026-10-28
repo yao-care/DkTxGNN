@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Orphenadrine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 613
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Orphenadrine: forudsagt ny indikation Skizofreni (evidensniveau L4). Oprindelig indikation: Parkinsonisme / Parkinsons sygdom (fra TxGNN-vidensgrafen"
 monitor_inn: "orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
+description: "Orphenadrine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Orphenadrine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Orphenadrin: Fra Parkinsons sygdom til skizofreni
+## Orphenadrine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Sammenfatning i få sætninger
@@ -46,15 +46,15 @@ Orphenadrin er et antikolinergt lægemiddel, som oprindeligt anvendes til behand
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Parkinsonisme / Parkinsons sygdom (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Skizofreni |
-| TxGNN-forudsigelsesscore | 99,13 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9929 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Den højest rangerede forudsigelse i modellen er "retinal dystrofi" (score 99,29 %), men uden nogen kliniske forsøg eller litteratur. Denne rapport fokuserer på skizofreni, da det er den forudsigelse, der har litteratur at vurdere.
+Bemærk: Den højest rangerede forudsigelse i modellen er "retinal dystrofi" (score 0,9929), men uden nogen kliniske forsøg eller litteratur. Denne rapport fokuserer på skizofreni, da det er den forudsigelse, der har litteratur at vurdere.
 
 ---
 

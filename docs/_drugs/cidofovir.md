@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer** til støtte for denne f
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten er tom) |
 | Forudsagt ny indikation | Skleroserende kolangitis |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,15 +64,15 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Skleroserende kolangitis er en kronisk, overvejende immunmedieret og kolestatisk sygdom i galdevejene. Der er ikke noget oplagt mekanistisk link mellem cidofovirs antivirale virkning og denne patologi. En spekulativ forbindelse kunne være virale udløsere eller CMV-associeret galdevejssygdom hos immunsvækkede patienter (f.eks. AIDS-kolangiopati), men dette er ikke understøttet af data.
 
-Hertil kommer, at cidofovir har en betydelig risiko for nyretoksicitet, hvilket er et bekymrende forhold ved lever- og galdevejssygdom. Den høje modelscore skal derfor tolkes forsigtigt og kan afspejle en artefakt i vidensgrafen.
+Hertil kommer, at cidofovir har en betydelig risiko for nyretoksicitet, hvilket er et bekymrende forhold ved lever- og galdevejssygdom. Den høje modelscore skal derfor tolkes forsigtigt; scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Øvrige forudsagte indikationer i datagrundlaget (alle med evidensniveau L5 og anbefalingen Hold):
 
 | Rang | Sygdom | TxGNN-score | Bemærkning |
 |------|------|------|------|
-| 2 | Reumatoid artrit | 99,82 % | De fundne artikler handler om leflunomid mod CMV og viser ingen effekt af cidofovir ved reumatoid artrit |
-| 3 | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 99,62 % | Sjælden medfødt udviklingsforstyrrelse uden plausibel mekanistisk rationale |
-| 4 | Brakydaktyli-syndaktyli-syndrom | 99,49 % | Medfødt lemmemalformation; sandsynligvis en artefakt i vidensgrafen |
+| 2 | Reumatoid artrit | 0,9982 | De fundne artikler handler om leflunomid mod CMV og viser ingen effekt af cidofovir ved reumatoid artrit |
+| 3 | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 0,9962 | Sjælden medfødt udviklingsforstyrrelse uden plausibel mekanistisk rationale |
+| 4 | Brakydaktyli-syndaktyli-syndrom | 0,9949 | Medfødt lemmemalformation; scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens |
 
 ---
 
@@ -112,7 +112,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for skleroserende kolangitis bygger udelukkende på en vidensgrafmodel uden kliniske forsøg eller publikationer (evidensniveau L5). Der er intet klart mekanistisk link, og cidofovirs nyretoksicitet vejer tungt.
+Forudsigelsen for skleroserende kolangitis bygger udelukkende på TxGNN-modellen (deep learning) uden kliniske forsøg eller publikationer (evidensniveau L5). Scoren kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er intet klart mekanistisk link, og cidofovirs nyretoksicitet vejer tungt.
 
 **For at komme videre er følgende nødvendigt:**
 - Data om virkningsmekanisme (MOA) fra DrugBank

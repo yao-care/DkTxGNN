@@ -6,9 +6,9 @@ nav_order: 810
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Terazosin: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension og benign prostatahyperplasi (fra TxGNN-vidensgrafen"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+description: "Terazosin: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Terazosin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Terazosin: Fra hypertension og benign prostatahyperplasi til hypotrichosis simplex i hovedbunden
+## Terazosin: Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,19 +46,19 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og benign prostatahyperplasi (fra TxGNN-vidensgrafen; indikationsteksten i den danske markedsføringstilladelse er ikke angivet) |
-| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden |
-| TxGNN-forudsigelsesscore | 99,97 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Terazosin er kendt som alfa-1-adrenerg blokker, og det er beskrevet som PGK1-aktivator. Dets virkning ved hypertension og prostatahyperplasi skyldes afslapning af glat muskulatur i blodkar og prostata.
 
-Forbindelsen til en sjælden arvelig hårtabslidelse er ikke understøttet. En eventuel sammenhæng kunne tænkes at gå via vasodilatation eller øget gennemblødning af hovedbunden, men det er spekulativt. Den høje score afspejler sandsynligvis nærhed i vidensgrafen til andre hårrelaterede tilstande snarere end en dokumenteret biologisk sammenhæng.
+Forbindelsen til en sjælden arvelig hårtabslidelse er ikke understøttet. En eventuel sammenhæng kunne tænkes at gå via vasodilatation eller øget gennemblødning af hovedbunden, men det er spekulativt. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Kliniske forsøg
 

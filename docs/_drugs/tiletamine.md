@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **insomni**, men der er **
 |------|------|
 | Oprindelig indikation | Ingen godkendt indikationstekst registreret i de data, der er indsamlet til denne rapport (veterinært anæstesipræparat) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,83 % |
+| TxGNN-forudsigelsesscore | 0,9983 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,7 +63,7 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekan
 
 Et muligt link til insomni går via CNS-depression og påvirkning af glutamaterg signalering, som kan påvirke søvnarkitekturen. Det mekanistiske grundlag er dog svagt og potentielt modstridende: NMDA-antagonister giver typisk dissociation, psykotomimetiske effekter og forstyrret søvn snarere end pålidelig søvnforbedring. Hvis der er et sedativt-hypnotisk signal, vil det desuden mere sandsynligt kunne tilskrives zolazepam end tiletamin.
 
-Den meget høje score (0,998) er udelukkende en modelforudsigelse og understøttes ikke af kliniske eller litteraturmæssige data i det foreliggende materiale.
+Den meget høje score (0,9983) er udelukkende en modelforudsigelse og understøttes ikke af kliniske eller litteraturmæssige data i det foreliggende materiale.
 
 ---
 

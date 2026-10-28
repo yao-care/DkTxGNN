@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB14738",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB14738"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "hereditary-thrombocytosis-with-transverse-limb-defect",
-          "display": "hereditary thrombocytosis with transverse limb defect"
-        }
-      ],
-      "text": "hereditary thrombocytosis with transverse limb defect"
+      "concept": {
+        "text": "hereditary thrombocytosis with transverse limb defect"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9969
     }
   ]
 }

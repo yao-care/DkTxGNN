@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Duloxetine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 284
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Duloxetine: forudsagt ny indikation Obsessiv-kompulsiv lidelse (OCD) (evidensniveau L2). Oprindelig indikation: Depression (unipolar/endogen/major), angstlidelse, fibromyalgi…"
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Duloxetin: Fra depression og angst til obsessiv-kompulsiv lidelse (OCD)
+## Duloxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -42,7 +42,7 @@ Duloxetin er en serotonin-noradrenalin-genoptagelseshæmmer (SNRI), som oprindel
 TxGNN-modellen forudsiger, at duloxetin også kan have effekt ved **obsessiv-kompulsiv lidelse (OCD)**, som er den bedst understøttede af de 10 højest rangerede forudsigelser.
 Evidensen består af **3 kliniske forsøg** (heraf 1 direkte relevant, lille fase 4-forsøg) og **19 publikationer**, herunder ét dobbeltblindt kontrolleret forsøg.
 
-> **Bemærkning om valg af indikation:** Forudsigelsen med højest rang (godartet paroksysmal torticollis hos spædbørn, score 99,85 %) har hverken kliniske forsøg eller litteratur og ingen plausibel mekanistisk sammenhæng. Rapporten fokuserer derfor på OCD, som har den stærkeste evidens blandt de 10 forudsigelser. Øvrige forudsigelser omtales kort til sidst.
+> **Bemærkning om valg af indikation:** Forudsigelsen med højest rang (godartet paroksysmal torticollis hos spædbørn, score 0,9985) har hverken kliniske forsøg eller litteratur og ingen plausibel mekanistisk sammenhæng. Rapporten fokuserer derfor på OCD, som har den stærkeste evidens blandt de 10 forudsigelser. Øvrige forudsigelser omtales kort til sidst.
 
 ---
 
@@ -50,12 +50,12 @@ Evidensen består af **3 kliniske forsøg** (heraf 1 direkte relevant, lille fas
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Depression (unipolar/endogen/major), angstlidelse, fibromyalgi, myofascielt smertesyndrom, stressinkontinens hos kvinder (kilde: TxGNN-vidensgraf; indikationsteksten i den danske tilladelse er ikke angivet) |
-| Forudsagt ny indikation | Obsessiv-kompulsiv lidelse (OCD) |
-| TxGNN-forudsigelsesscore | 99,84 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
+| TxGNN-forudsigelsesscore | 0.9985 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---
@@ -134,10 +134,10 @@ OCD har den stærkeste evidens blandt de forudsagte indikationer (L2): ét dobbe
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Agorafobi | 99,84 % | L3 | Kun indirekte evidens (panikangst, generaliseret angst); intet agorafobi-specifikt kontrolleret forsøg. Forskningsspørgsmål |
-| Godartet paroksysmal torticollis hos spædbørn | 99,85 % | L5 | Kun modelforudsigelse, ingen plausibel mekanisme; Hold |
-| Skizotypal, histrionisk, skizoid og paranoid personlighedsforstyrrelse | 99,78 % | L5 | Kun modelforudsigelse, ingen evidens; Hold |
-| Ohdo-syndrom og varianter, ligneous conjunctivitis, Ohdo-type blefarofimose | 99,60-99,69 % | L5 | Sandsynligvis artefakter fra vidensgrafen; Hold |
+| Agorafobi | 0,9984 | L5 | Kun indirekte evidens (panikangst, generaliseret angst); intet agorafobi-specifikt kontrolleret forsøg. Forskningsspørgsmål |
+| Godartet paroksysmal torticollis hos spædbørn | 0,9985 | L5 | Kun modelforudsigelse, ingen plausibel mekanisme; Hold |
+| Skizotypal, histrionisk, skizoid og paranoid personlighedsforstyrrelse | 0,9978 | L5 | Kun modelforudsigelse, ingen evidens; Hold |
+| Ohdo-syndrom og varianter, ligneous conjunctivitis, Ohdo-type blefarofimose | 0,9960-0,9969 | L5 | Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder mellem beslægtede sygdomme, som modellen har lært, ikke biologisk evidens; Hold |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

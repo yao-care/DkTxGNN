@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09036",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09036"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autosomal-dominant-familial-periodic-fever",
-          "display": "autosomal dominant familial periodic fever"
-        }
-      ],
-      "text": "autosomal dominant familial periodic fever"
+      "concept": {
+        "text": "autosomal dominant familial periodic fever"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9905
     }
   ]
 }

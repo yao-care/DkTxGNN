@@ -4,17 +4,17 @@ title: Roxadustat
 parent: Kun modelforudsigelse (L5)
 nav_order: 738
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Roxadustat: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L5). Oprindelig indikation: Refraktær anæmi"
 monitor_inn: "Roxadustat"
-predicted_indications: ["dry eye syndrome", "dry eye syndrome", "bone Paget disease", "bone Paget disease", "dentinogenesis imperfecta", "dentinogenesis imperfecta", "squamous cell carcinoma", "squamous cell carcinoma", "dental pulp calcification", "dental pulp calcification"]
+predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 ---
 
 # Roxadustat
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 |------|------|
 | Oprindelig indikation | Refraktær anæmi (godkendelsesteksten for indikationen er ikke angivet i de danske registerdata) |
 | Foreslået ny indikation | Tørre øjne (dry eye syndrome) |
-| TxGNN-forudsigelsesscore | 99,5 % |
+| TxGNN-forudsigelsesscore | 0,9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,10 +68,6 @@ HIF-signalering påvirker cellernes respons på iltmangel, inflammation og vævs
 
 | Forudsagt indikation | TxGNN-score | Kommentar |
 |------|------|------|
-| Pagets knoglesygdom (bone Paget disease) | 99,1 % | HIF påvirker knoglemodellering, men effektens retning er usikker |
-| Dentinogenesis imperfecta | 99,1 % | Genetisk strukturel defekt (typisk DSPP); lægemiddelkorrektion er usandsynlig |
-| Pladecellekarcinom (squamous cell carcinoma) | 99,0 % | HIF-stabilisering kan potentielt fremme tumorvækst, hvilket giver et sikkerhedsmæssigt forbehold |
-| Pulpaforkalkning (dental pulp calcification) | 99,0 % | Fremmet mineralisering kan forværre i stedet for at behandle tilstanden |
 
 ---
 
@@ -109,7 +105,7 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om tørre øjne bygger udelukkende på en modelscore (99,5 %) uden understøttende kliniske forsøg eller litteratur (evidensniveau L5). Den mekanistiske kobling er hypotetisk, og lægemidlet findes kun som oral tablet.
+Forudsigelsen om tørre øjne bygger udelukkende på en modelscore (0,9951) uden understøttende kliniske forsøg eller litteratur (evidensniveau L5). Den mekanistiske kobling er hypotetisk, og lægemidlet findes kun som oral tablet.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanisme (MOA) til en egentlig mekanistisk analyse

@@ -6,9 +6,9 @@ nav_order: 560
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (evidensniveau L5). Oprindelig indikation: Unipolar depression, endogen depression, svær depressiv lidelse…"
 monitor_inn: "mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (Ohdo syndrome and variants) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Mirtazapin: Fra depression til Ohdo-syndrom og varianter
+## Mirtazapine: Ohdo-syndrom og varianter (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Mirtazapin er et lægemiddel, der oprindeligt anvendes til behandling af depress
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Unipolar depression, endogen depression, svær depressiv lidelse, angstlidelse (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Ohdo-syndrom og varianter |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Ohdo-syndrom og varianter (Ohdo syndrome and variants) |
+| TxGNN-forudsigelsesscore | 0.9942 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ De data, der er indsamlet til denne rapport, indeholder ikke en detaljeret beskr
 
 Ohdo-syndrom (KAT6B-relateret) er en sjælden genetisk neuroudviklingsforstyrrelse, der involverer regulering af kromatin. Der er ingen oplagt farmakologisk sammenhæng mellem mirtazapins receptorantagonisme og sygdommens underliggende patologi. En eventuel gavnlig effekt vil højst være symptomatisk (fx humør, søvn, appetit) og ikke sygdomsmodificerende.
 
-Den høje TxGNN-score (0,994) er alene en forudsigelse fra vidensgrafen og udgør ikke klinisk evidens. To tilstødende forudsigelser, *blepharophimosis – intellectual disability syndrome, Ohdo type* (score 99,11 %) og *benign paroxysmal torticollis of infancy* (score 99,11 %), har heller ingen understøttende forsøg eller litteratur. Den første tilhører samme sygdomsfamilie som Ohdo-syndrom, og dens høje score afspejler sandsynligvis det samme nærområde i grafen frem for uafhængig evidens. Den anden er en selvbegrænsende episodisk lidelse i spædbarnsalderen, som kan ligge i et spekulativt biologisk nærområde (migrænespektrum/ionkanalsygdom). Mirtazapin er ikke etableret til børn, og antidepressiva har advarsel om selvmordsadfærd hos unge.
+Den høje TxGNN-score (0,9942) stammer alene fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, og udgør ikke biologisk eller klinisk evidens. To tilstødende forudsigelser, *blepharophimosis – intellectual disability syndrome, Ohdo type* (score 0,9911) og *benign paroxysmal torticollis of infancy* (score 0,9911), har heller ingen understøttende forsøg eller litteratur. Den første tilhører samme sygdomsfamilie som Ohdo-syndrom, og dens høje score afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme, frem for uafhængig evidens. Den anden er en selvbegrænsende episodisk lidelse i spædbarnsalderen, som kan ligge tæt på spekulative biologiske sammenhænge (migrænespektrum/ionkanalsygdom). Mirtazapin er ikke etableret til børn, og antidepressiva har advarsel om selvmordsadfærd hos unge.
 
 ---
 

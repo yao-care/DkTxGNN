@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
-description: "Adapalene: forudsagt ny indikation Forhøjet plasmazink (evidensniveau L5). Oprindelig indikation: Akne (ifølge TxGNN-vidensgrafen"
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
+last_modified_at: 2026-10-27
+description: "Adapalene: forudsagt ny indikation Zink, forhøjet i plasma (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Adapalene
@@ -33,12 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Adapalen: Fra akne til forhøjet plasmazink
+## Adapalen: tredje generations retinoid → Zink, forhøjet i plasma (zinc, elevated plasma)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé
 
-Adapalen er en topisk retinoid, der oprindeligt anvendes til behandling af akne. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **forhøjet plasmazink**, men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Forudsigelsen er udelukkende modelbaseret.
+Adapalen er en topisk retinoid, der binder selektivt til retinsyrereceptorerne RAR-beta og RAR-gamma og påvirker keratinocytternes differentiering og inflammation.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **forhøjet plasmazink (zinc, elevated plasma)**,
+men der er i dag **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport.
 
 ---
 
@@ -46,27 +48,27 @@ Adapalen er en topisk retinoid, der oprindeligt anvendes til behandling af akne.
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akne (ifølge TxGNN-vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Forhøjet plasmazink |
-| TxGNN-forudsigelsesscore | 99,51 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Zink, forhøjet i plasma (zinc, elevated plasma) |
+| TxGNN-forudsigelsesscore | 0,9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Adapalen er dog kendt som en tredjegenerations topisk retinoid, der selektivt binder retinsyrereceptorerne RAR-beta og RAR-gamma og påvirker keratinocytternes differentiering og inflammation. Denne virkning forklarer effekten ved akne.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Adapalen er kendt som en topisk retinoid, som modulerer keratinocytternes differentiering og inflammation via RAR-beta og RAR-gamma.
 
-Forhøjet plasmazink er derimod et metabolisk eller laboratoriemæssigt fund, som typisk skyldes for stort indtag via kosttilskud, nedsat nyrefunktion eller hæmolyse. Det er ikke en sygdomsproces, som retinoidreceptorsignalering normalt påvirker. Der kendes ingen etableret biologisk sammenhæng mellem retinoidaktivitet og zinkhomøostase.
+Forhøjet plasmazink er imidlertid et metabolisk eller laboratoriemæssigt fund (fx ved overdreven tilskudsindtag, nedsat nyrefunktion eller hæmolyse) og ikke en sygdomsproces, som retinoidreceptorsignalering normalt påvirker. Der er ikke påvist nogen etableret biologisk sammenhæng mellem retinoidaktivitet og zinkhomøostase. Mulige forbindelser, fx retinoiders effekt på zinkbindende proteiner eller metallothionein-ekspression, er spekulative og uverificerede.
 
-Den høje score (0,995) er en ren grafbaseret forudsigelse. Mulige forbindelser, fx retinoiders indflydelse på zinkbindende proteiner eller metallothionein-ekspression, er spekulative og uverificerede. Forudsigelsen bør derfor betragtes som en hypotese og ikke som et klinisk holdbart signal.
+Den høje score (0,9951) er udelukkende en modelbaseret forudsigelse og bør ikke tolkes som klinisk evidens.
 
 ---
 
-## Klinisk evidens fra forsøg
+## Evidens fra kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
@@ -78,23 +80,20 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Oplysninger om det danske marked
+## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106359619 | Adapalen "2care4" (2care4 ApS) | Creme | Indikationstekst ikke angivet |
-| 28106735122 | Adapalene/Benzoyl peroxide "Orifarm" (Orifarm Healthcare A/S) | Gel | Indikationstekst ikke angivet |
-
-Begge tilladelser er gyldige og er nationale tilladelser. Det andet produkt indeholder ifølge produktnavnet en kombination med benzoylperoxid, men er registreret som enkeltstofpræparat i de data, der er indsamlet til denne rapport.
+| 28106359619 | Adapalen "2care4" | Creme | Ikke angivet i lokale data |
+| 28106735122 | Adapalene/Benzoyl peroxide "Orifarm" | Gel | Ikke angivet i lokale data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Sygdomme med kontraindikationssignal i vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke af produktresuméets tekst): fotoparoxysmal respons, fotosensitivitetssygdom, eksfoliativ dermatitis og dermatitis.
-- **Lægemiddelinteraktioner:** Der er identificeret 83 mulige interaktioner, men alvorlighedsgraden er angivet som "ukendt". Blandt de nævnte er doxycyclin, tetracyclin, minocyclin, metronidazol, omeprazol, pantoprazol, prednison, triamcinolon, budesonid, clopidogrel, bupropion, cetirizin, loratadin og fexofenadin.
+- **Lægemiddelinteraktioner:** Der er registreret 83 mulige interaktioner, men for ingen af dem er alvorlighedsgraden angivet. Eksempler på de interagerende lægemidler er doxycyclin, tetracyclin, minocyclin, metronidazol, omeprazol, pantoprazol, prednison, triamcinolon, budesonid, clopidogrel, bupropion, cetirizin og loratadin.
 
-Produktresuméets advarsler og kontraindikationer er ikke indhentet. Se det godkendte produktresumé (SPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -103,14 +102,13 @@ Produktresuméets advarsler og kontraindikationer er ikke indhentet. Se det godk
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en grafmodel (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er ingen plausibel biologisk mekanisme, der forbinder retinoidreceptoraktivitet med forhøjet plasmazink, og tilstanden er et laboratoriefund frem for en egentlig sygdom, hvilket også gør en topisk behandlingsrationale uklar.
+Forudsigelsen bygger alene på en modelscore uden kliniske forsøg, publikationer eller en plausibel mekanistisk sammenhæng. Evidensniveauet er L5, og indikationen er et laboratoriefund snarere end en sygdom, som en topisk retinoid sædvanligvis behandler.
 
 **For at komme videre kræves følgende:**
-- Oplysninger om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Litteratur- og forsøgsgennemgang, der kan påvise en eventuel biologisk sammenhæng mellem retinoider og zinkhomøostase
-- Afklaring af, om forhøjet plasmazink overhovedet er en relevant behandlingsindikation, samt af administrationsvej og systemisk eksponering ved topisk brug
-- Vurdering af interaktionernes klinisk relevans, da alvorlighedsgraden er ukendt
+- Data om virkningsmekanisme (MOA) og en eventuel biologisk sammenhæng mellem retinoidsignalering og zinkhomøostase
+- Prækliniske eller observationelle studier, der direkte undersøger forhøjet plasmazink
+- Vurdering af, om topisk administration kan give relevant systemisk eksponering
+- Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

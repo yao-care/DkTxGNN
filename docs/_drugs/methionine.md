@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methionine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 537
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Methionine: forudsagt ny indikation Akne (acne) (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksterne er tomme)"
 monitor_inn: "methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+last_modified_at: 2026-10-23
+description: "Methionine: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (de danske tilladelser indeholder i…"
 ---
 
 # Methionine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,95 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Methionin: Fra ernæringsterapi til akne (acne)
+## Methionin: Fra ernæringsterapi til akne (forskningsspørgsmål)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Methionin er en essentiel aminosyre, som indgår i en lang række parenterale ernæringsprodukter (aminosyreopløsninger og kombinerede infusionsvæsker) og i en peritonealdialysevæske. Der foreligger ikke registrerede godkendte indikationstekster for de enkelte præparater i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at methionin kan have effekt på **akne**, men der er **ingen kliniske forsøg** og kun **2 publikationer** (en case-rapport og en kohorteundersøgelse), som ikke understøtter en terapeutisk effekt. Forudsigelsen er derfor kun modelbaseret.
+Methionin er en essentiel aminosyre, som indgår i flere parenterale ernæringsprodukter (aminosyreopløsninger) på det danske marked. TxGNN-modellen forudsiger, at methionin kan have effekt ved **akne** (højeste rangering i modellen) og en række **grå stær-former**, herunder **diabetisk grå stær**. Der foreligger **ingen kliniske forsøg** og kun indirekte litteratur (**ca. 20 publikationer**, hovedsageligt grundforskning), så evidensen er meget svag.
 
----
+Diabetisk grå stær er den indikation, hvor den indirekte evidens er mest relevant, og den vurderes derfor som et forskningsspørgsmål. Akne er den højest rangerede prædiktion og behandles derfor også i rapporten.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsesteksterne er tomme); methionin indgår som aminosyre i parenterale ernæringsprodukter |
-| Forudsagt ny indikation | Akne (acne) |
-| TxGNN-forudsigelsesscore | 99,9996 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 20 |
-| Anbefalet beslutning | Hold |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (de danske tilladelser indeholder ingen indikationstekst) |
+| Forudsagt ny indikation (højest rangeret) | Akne |
+| Mest relevante indirekte evidens | Diabetisk grå stær |
+| TxGNN-forudsigelsesscore | 1,0000 (akne); 1,0000 (diabetisk grå stær) |
+| Evidensniveau | L5 for akne og diabetisk grå stær (se begrundelse nedenfor) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | Mindst 20 (listen kan være ufuldstændig) |
+| Anbefalet beslutning | Hold (afvent; diabetisk grå stær kan overvejes som forskningsspørgsmål) |
 
----
+**Om evidensniveauet:** Ingen af de citerede studier undersøger methionin som behandling af akne eller diabetisk grå stær. Akne-litteraturen handler om homocystein under isotretinoin og et MTHFR-case. Litteraturen om diabetisk grå stær omhandler homocystein og reparationsenzymet MsrB1. Evidensniveauet er derfor L5, selvom datagrundlaget internt har angivet L4.
 
-## Hvorfor er denne forudsigelse rimelig (eller ikke)?
+## Hvorfor er denne prædiktion rimelig (eller ikke)?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Methionin er en svovlholdig essentiel aminosyre og en forstadie til homocystein i det såkaldte én-kulstofstofskifte. Dens kendte rolle er ernæringsmæssig, ikke som specifik behandling af hudsygdomme.
+Der foreligger ikke detaljerede data om virkningsmekanisme. Methionin er en svovlholdig aminosyre og forstadium til homocystein via methionincyklussen. Den indgår i proteinsyntese og methylering og, via transsulfurering, i dannelsen af cystein og glutathion.
 
-Koblingen til akne er indirekte. Den ene undersøgelse (PMID 11277950) viser forhøjet plasma-homocystein hos patienter i behandling med isotretinoin for cystisk akne. Det er en bivirkning ved aknebehandlingen og ikke en terapeutisk effekt af methionin. Den anden publikation (PMID 39357918) er en case-rapport om en MTHFR-mutation hos et nyfødt barn med encefalopati og har ingen oplagt forbindelse til behandling af akne.
+**Akne:** Den fundne litteratur kobler kun akne indirekte til stoffet: ét studie viser forhøjet plasmahomocystein hos patienter i isotretinoinbehandling, og et case om MTHFR-mangel handler ikke om akne. Intet understøtter en terapeutisk rolle for methionin. Da methionin kan hæve homocystein, kan signalet snarere pege på skade end gavn.
 
-Den meget høje modelscore understøttes derfor ikke af klinisk evidens. Tilskud af methionin kan desuden tænkes at hæve homocystein, hvilket er en sikkerhedsmæssig bekymring.
+**Diabetisk grå stær:** Methioninsulfoxidreduktase B1 (MsrB1) beskytter linseepitelceller mod oxidativ skade fra høj glukose og peroxynitrit. Det knytter methioninens oxidations- og reparationsvej til diabetisk linseskade. Et review om homocystein ved øjensygdomme giver kontekst. Evidensen vedrører dog reparationsenzymet, ikke methionintilskud, og stammer fra cellestudier og dyreforsøg. Forhøjet homocystein er desuden et muligt sikkerhedsproblem.
 
-**Øvrige forudsagte indikationer:** Modellen forudsiger også en række øjensygdomme (bl.a. forskellige typer grå stær og svær ikke-proliferativ diabetisk retinopati). Den mest sammenhængende mekanistiske signal findes for **diabetisk grå stær**: methioninsulfoxidreduktase B1 (MsrB1) beskytter linseepitelceller mod oxidativ skade (PMID 23270945, 22713178). Dette er dog udelukkende præklinisk og berettiger højst et forskningsspørgsmål om methioninstofskifte og redoxreparation i linsen, ikke methionintilskud som behandling.
+Andre forudsagte indikationer (alvorlig non-proliferativ diabetisk retinopati, kraniostenose med grå stær, forskellige katarakttyper) bygger hovedsageligt på modelscore alene eller på grundforskning om oxidation af linseproteiner. Det er markører for sygdomspatologi og ikke belæg for, at tilskud af frit methionin gavner.
 
----
-
-## Evidens fra kliniske forsøg
+## Kliniske forsøg
 
 Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
----
-
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Kohorte | Int J Dermatol | Forhøjet plasma-homocystein hos patienter i isotretinoinbehandling for cystisk akne |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case-rapport | BMJ Case Rep | Ny MTHFR-mutation hos nyfødt med encefalopati, hårtab, marfanoide træk og neonatal akne |
+Udvalgt litteratur for de to mest relevante indikationer (ingen undersøger methionin som behandling):
 
----
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|------|-----|------|------|---------|
+| [26343924](https://pubmed.ncbi.nlm.nih.gov/26343924/) | 2015 | Review | Clin Chim Acta | Forhøjet homocystein er en mulig risikofaktor ved øjensygdomme, herunder grå stær og retinopati |
+| [23270945](https://pubmed.ncbi.nlm.nih.gov/23270945/) | 2013 | Grundforskning (in vitro) | Life Sci | Nedregulering af MsrB1 påvirker apoptose i humane linseepitelceller udsat for høj glukose |
+| [22713178](https://pubmed.ncbi.nlm.nih.gov/22713178/) | 2012 | Grundforskning (in vitro) | Exp Eye Res | MsrB1 regulerer redoxbalance og hæmmer peroxynitritinduceret apoptose i linseceller |
+| [8680624](https://pubmed.ncbi.nlm.nih.gov/8680624/) | 1996 | Kohorte/case-kontrol | Ann Epidemiol | Sammenhæng mellem kost, næringsindtag og risiko for grå stær-operation |
+| [39656472](https://pubmed.ncbi.nlm.nih.gov/39656472/) | 2024 | Dyrestudie | Invest Ophthalmol Vis Sci | Metabolomik af linse og nethinde hos diabetiske mus; rolle for lipocalin-2 |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Kohorte | Int J Dermatol | Forhøjet plasmahomocystein hos patienter i isotretinoinbehandling for cystisk akne |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Rep | MTHFR-mutation hos nyfødt med encefalopati, bl.a. neonatal akne (ikke et acneforsøg) |
+| [861252](https://pubmed.ncbi.nlm.nih.gov/861252/) | 1977 | Grundforskning (humant linsevæv) | Biochim Biophys Acta | Cystein- og methioninoxidation ved senil nuklear grå stær |
+| [6705843](https://pubmed.ncbi.nlm.nih.gov/6705843/) | 1984 | Grundforskning (in vitro) | Exp Eye Res | Brintoverilte oxiderer cystein og methionin i linseproteiner, model for nuklear grå stær |
+| [23226398](https://pubmed.ncbi.nlm.nih.gov/23226398/) | 2012 | Dyremodel | PLoS One | Musemodel for aldersbetinget nuklear grå stær via nedsat glutathionsyntese |
 
 ## Information om det danske marked
 
-Der er 20 gyldige markedsføringstilladelser (alle enkeltstofpræparater, ingen annullerede). Godkendte indikationstekster er ikke angivet i de indsamlede data. Fem af tilladelserne er vist nedenfor.
+Methionin indgår som ingrediens i de nedenfor viste produkter. De danske tilladelser indeholder ingen indikationstekst i de indsamlede data. Listen er et udsnit, da antallet er mindst 20, og den kan være ufuldstændig.
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke oplyst |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke oplyst |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke oplyst |
-| 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke oplyst |
-| 28101562393 | Nutrineal PD4 | Peritonealdialysevæske | Ikke oplyst |
+| 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke angivet |
+| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
+| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
+| 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke angivet |
+| 28101133883 | Vamin 14 g N/l Elektrolytfri | Infusionsvæske, opløsning | Ikke angivet |
 
-Samtlige tilladelser omfatter infusionsvæsker (emulsion eller opløsning) og én peritonealdialysevæske. Der er ingen topikale formuleringer, hvilket er relevant for en hudindikation som akne.
-
----
+Øvrige produkter omfatter bl.a. Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta G13E, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven Perifer, Pedismof Preterm og Lipoflex peri.
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer (fra TxGNN-vidensgrafen, ikke fra produktresuméer):** Grafen peger på følgende tilstande, hvor methionin kan være problematisk: hypertension, nyresygdom (herunder kronisk nyresvigt og terminal nyresvigt), diabetes mellitus og diabetisk ketoacidose, hypercalcæmi, sarkoidose, nefrokalcinose, nyresten, hjertesygdom og hjerte-kar-sygdom, hyperlipidæmi (herunder familiær), akut urat-nefropati, digitalisforgiftning, ventrikelflimmer, fenylketonuri og forstyrrelser i fenylalaninstofskiftet.
+- **Kontraindikationer registreret i vidensgrafen (ikke mærkningstekst):** Relationer i vidensgrafen omfatter bl.a. nyresygdom (herunder kronisk og terminal nyresvigt), forhøjet blodtryk, hjerte-kar-sygdom, sukkersyge og diabetisk ketoacidose, hypercalcæmi, nephrocalcinose, nyresten, hyperlipidæmi, phenylketonuri og forstyrrelser i phenylalaninstofskiftet, digitalisforgiftning og ventrikelflimmer. Disse skal verificeres i produktresuméet.
+- **Lægemiddelinteraktioner (9 fundet):** Moderat: aktivt kul. Mindre: ephedrin, pseudoephedrin, mexiletin, flecainid.
+- Forhøjet homocystein ved methionintilskud er et teoretisk sikkerhedsproblem ved både akne og øjensygdomme.
 
-**Lægemiddelinteraktioner (9 registrerede, DDInter):**
-- Moderat: aktivt kul (kan nedsætte optagelsen)
-- Mindre: efedrin, pseudoefedrin, mexiletin, flecainid
-
-**Øvrige bemærkninger:** Forhøjet homocystein ved methioninbelastning er en potentiel sikkerhedsbekymring, især ved hjerte-kar-sygdom.
-
-Produktresuméernes advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se de godkendte produktresuméer (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt de godkendte produktresuméer for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for akne bygger kun på modelscoren. De to publikationer understøtter ikke en terapeutisk effekt af methionin, og der er ingen kliniske forsøg. Evidensniveauet er L4 (højst), og methionin kan potentielt øge homocystein. De øvrige forudsagte indikationer er enten rene modelforudsigelser (L5) eller baseret på præklinisk litteratur (L4). Diabetisk grå stær kan eventuelt behandles som et forskningsspørgsmål.
+Der findes ingen kliniske forsøg og ingen studier, der direkte undersøger methionin ved akne eller diabetisk grå stær. Den indirekte evidens (MsrB1, homocystein) er præklinisk eller associativ og peger delvist på mulig skade. Diabetisk grå stær kan holdes åben som forskningsspørgsmål.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméer fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer)
-- Data om virkningsmekanisme (MOA), fx fra DrugBank
-- Præklinisk eller klinisk evidens for, at methionin (frem for homocystein-relaterede mekanismer) har en gavnlig effekt på akne
-- Vurdering af egnet administrationsvej, da alle nuværende danske produkter er til infusion/dialyse og ikke topikale
-- Sikkerhedsvurdering af homocysteinstigning og af de kontraindicerede tilstande, der er nævnt ovenfor
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Produktresuméer fra Lægemiddelstyrelsen med advarsler og kontraindikationer (nødvendigt for sikkerhedsscreening)
+- Præklinisk eller eksplorativ undersøgelse af, om methionintilskud (frem for MsrB1-aktivitet) påvirker diabetisk linseskade
+- Vurdering af homocysteinrisiko og administrationsvej (nuværende produkter er hovedsageligt til infusion)
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

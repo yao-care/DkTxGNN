@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB06343",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB06343"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "esophageal-varices-without-bleeding",
-          "display": "esophageal varices without bleeding"
-        }
-      ],
-      "text": "esophageal varices without bleeding"
+      "concept": {
+        "text": "esophageal varices without bleeding"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9964
     }
   ]
 }

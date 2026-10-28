@@ -4,17 +4,17 @@ title: Pegfilgrastim
 parent: Kun modelforudsigelse (L5)
 nav_order: 636
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pegfilgrastim: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
 monitor_inn: "PEGFILGRASTIM"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Pegfilgrastim
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsig
 |------|------|
 | Original indikation | Ikke angivet i de indsamlede data (indikationsteksten for godkendelsen er tom) |
 | Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Den næste forudsigelse, diabetisk retinopati (overordnet kategori), har en score på 99,73 % og udgør ikke uafhængig evidens. Gentagne poster i forudsigelseslisten er samlet her.
+Bemærk: Den næste forudsigelse, diabetisk retinopati (overordnet kategori), har en score på 0,9973 og udgør ikke uafhængig evidens. Gentagne poster i forudsigelseslisten er samlet her.
 
 ---
 

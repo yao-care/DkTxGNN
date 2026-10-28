@@ -6,9 +6,9 @@ nav_order: 654
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Phentermine: forudsagt ny indikation Hypervitaminose (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder)…"
 monitor_inn: "phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Phentermine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Phentermin: Fra fedme til hypervitaminose
+## Phentermine: Hypervitaminose (hypervitaminosis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **hypervitaminose**, m
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Fedme (obesity disorder), monogen fedme og hypotensiv lidelse (ifølge TxGNN-vidensgrafen; den godkendte indikationstekst for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Hypervitaminose |
-| TxGNN-forudsigelsesscore | 99,57 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypervitaminose (hypervitaminosis) |
+| TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,15 +61,15 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **hypervitaminose**, m
 
 De data, der er indsamlet til denne rapport, indeholder ingen detaljerede oplysninger om virkningsmekanismen. Phentermin er kendt som et sympatomimetisk amin, der fremmer frigivelsen af noradrenalin og dæmper appetitten. Dets effekt ved fedme er veldokumenteret.
 
-Der kan ikke identificeres en plausibel mekanistisk sammenhæng mellem phentermin og hypervitaminose. Hypervitaminose skyldes et for højt indtag af vitaminer og håndteres ved at stoppe tilskuddet samt understøttende behandling. Den meget høje score (0,996) afspejler sandsynligvis nærhed i vidensgrafens netværk snarere end en biologisk meningsfuld sammenhæng.
+Der kan ikke identificeres en plausibel mekanistisk sammenhæng mellem phentermin og hypervitaminose. Hypervitaminose skyldes et for højt indtag af vitaminer og håndteres ved at stoppe tilskuddet samt understøttende behandling. Den meget høje score (0,9957) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens.
 
 **Andre forudsagte indikationer (alle L5, Hold):**
 
 | Rang | Sygdom | Score | Vurdering |
 |------|------|------|------|
-| 2 | Proksimalt 16p11.2-mikrodeletionssyndrom | 99,49 % | Den mest biologisk plausible: syndromet er forbundet med svær tidlig fedme og hyperfagi, hvilket giver en rimelig symptomrettet begrundelse (vægtkontrol). Syndromet omfatter dog også neuroudviklingsmæssige og psykiatriske træk (autisme, krampeanfald, ADHD-lignende symptomer), hvor en sympatomimetisk stimulans kan give sikkerhedsmæssige bekymringer. |
-| 3 | Obsolet hypertelorisme | 99,41 % | Ingen mekanistisk sammenhæng. Kraniofacial strukturel anomali, og betegnelsen er forældet i ontologien, så forudsigelsen er sandsynligvis et artefakt. |
-| 4 | Frontorhiny | 99,04 % | Ingen mekanistisk sammenhæng. Sjælden medfødt kraniofacial misdannelse; forudsigelsen afspejler sandsynligvis grafnærhed. |
+| 2 | Proksimalt 16p11.2-mikrodeletionssyndrom | 0,9949 | Den mest biologisk plausible: syndromet er forbundet med svær tidlig fedme og hyperfagi, hvilket giver en rimelig symptomrettet begrundelse (vægtkontrol). Syndromet omfatter dog også neuroudviklingsmæssige og psykiatriske træk (autisme, krampeanfald, ADHD-lignende symptomer), hvor en sympatomimetisk stimulans kan give sikkerhedsmæssige bekymringer. |
+| 3 | Obsolet hypertelorisme | 0,9941 | Ingen mekanistisk sammenhæng. Kraniofacial strukturel anomali, og betegnelsen er forældet i ontologien, så forudsigelsen er sandsynligvis et artefakt. |
+| 4 | Frontorhiny | 0,9904 | Ingen mekanistisk sammenhæng. Sjælden medfødt kraniofacial misdannelse; forudsigelsen afspejler sandsynligvis grafnærhed. |
 
 ---
 
@@ -95,7 +95,7 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Sikkerhedsovervejelser
 
-Der er ingen tilgængelige oplysninger fra produktresuméet om advarsler eller kontraindikationer i de data, der er indsamlet til denne rapport. Følgende bygger på vidensgrafen og ikke på godkendt produkttekst, og skal derfor kontrolleres mod produktresuméet (SmPC).
+Der er ingen tilgængelige oplysninger fra produktresuméet om advarsler eller kontraindikationer i de data, der er indsamlet til denne rapport. Følgende bygger på TxGNN-modellen (deep learning) og ikke på godkendt produkttekst, og skal derfor kontrolleres mod produktresuméet (SmPC).
 
 - **Mulige kontraindikationer (fra vidensgraf):** hypertension og pulmonal hypertension, hjertesvigt, hjerte-kar-sygdom, hjerteklapsygdom, pludseligt hjertestop, hjerteledningssygdom, psykotiske lidelser og andre psykiske lidelser (herunder skizoaffektiv lidelse), stofmisbrug/afhængighed, type 1-diabetes og diabetisk ketoacidose, glaukom, hypertyreose (Graves' sygdom, tyreotoksikose), arteriosclerosis obliterans samt præeklampsi.
 - **Lægemiddelinteraktioner:** 313 interaktioner er registreret. Blandt de viste er de vigtigste af alvorlighedsgraden *Major*: **tramadol**, **bupropion** og **methylenblåt**. Der er desuden en række moderate interaktioner, bl.a. med sympatomimetika (phenylephrin, pseudoephedrin, adrenalin), beta-agonister (salbutamol, formoterol, arformoterol), opioider (fentanyl, alfentanil), antidiabetika (metformin, pioglitazon, acarbose, alogliptin, albiglutid), amitriptylin og alkohol.

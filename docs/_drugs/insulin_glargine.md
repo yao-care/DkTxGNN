@@ -50,10 +50,10 @@ men der foreligger **ingen kliniske forsøg** og **ingen publikationer** for den
 |------|------|
 | Oprindelig indikation | Type 1- og type 2-diabetes mellitus (den godkendte indikationstekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Autoimmun oophoritis |
-| TxGNN-forudsigelsesscore | 99,88 % |
+| TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der foreligger **ingen kliniske forsøg** og **ingen publikationer** for den
 
 Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen. Insulin glargin er en langtidsvirkende insulinanalog, hvis effekt ved diabetes er veletableret, men der er ingen kendt direkte virkning på ovarial autoimmunitet.
 
-Den mulige forbindelse er en fælles autoimmun endokrin baggrund, for eksempel autoimmune polyglandulære syndromer, hvor diabetes og ovarie-autoimmunitet kan optræde sammen. Forudsigelsen afspejler sandsynligvis komorbiditet i vidensgrafen snarere end en terapeutisk effekt. Den høje score bør derfor ikke tolkes som evidens for klinisk gavn.
+Den mulige forbindelse er en fælles autoimmun endokrin baggrund, for eksempel autoimmune polyglandulære syndromer, hvor diabetes og ovarie-autoimmunitet kan optræde sammen. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den høje score bør derfor ikke tolkes som evidens for klinisk gavn.
 
 De øvrige forudsigelser i datasættet (f.eks. stiff person-syndrom, thiaminresponsivt syndrom og pancreasagenesi) følger samme mønster: De skyldes primært tilknytning til diabetes. Lokaliserede lipodystrofier er snarere en kendt bivirkning ved gentagne insulininjektioner end en behandlingsmulighed.
 

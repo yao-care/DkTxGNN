@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Citalopram
-parent: Høj evidens (L1-L2)
+parent: Moderat evidens (L3-L4)
 nav_order: 200
-evidence_level: L2
+evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Citalopram: forudsagt ny indikation Obsessiv-kompulsiv lidelse (OCD) (evidensniveau L2). Oprindelig indikation: Angstlidelse, neurotisk lidelse, dysthymi, unipolar depression…"
 monitor_inn: "citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
+last_modified_at: 2026-10-27
+description: "Citalopram: forudsagt ny indikation Obsessiv-kompulsiv lidelse (obsessive-compulsive disorder) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Citalopram
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L2** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Citalopram: Fra depression og angstlidelser til obsessiv-kompulsiv lidelse (OCD)
+## Citalopram: selektiv serotoningenoptagelseshæmmer (SSRI) → obsessiv-kompulsiv lidelse (obsessive-compulsive disorder)
 {: .text-alpha }
 
-## Resumé i få sætninger
+## Resumé i én sætning
 
-Citalopram er en selektiv serotoningenoptagshæmmer (SSRI), som oprindeligt bruges til behandling af depression og angstlidelser.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **obsessiv-kompulsiv lidelse (OCD)**.
-Evidensen består af **4 kliniske forsøg** (hovedsageligt på SSRI-klassen, ikke specifikt citalopram) og **16 publikationer**, heraf flere åbne studier med citalopram i OCD.
+Citalopram er en selektiv serotoningenoptagelseshæmmer (SSRI), som er markedsført i Danmark som filmovertrukne tabletter (Cipramil). TxGNN-modellen forudsiger, at citalopram kan have effekt ved **obsessiv-kompulsiv lidelse (obsessive-compulsive disorder)**. Der er **4 kliniske forsøg** og **18 publikationer** i de indsamlede data, men ingen af forsøgene tester tydeligt citalopram, og de citalopram-specifikke studier er hovedsageligt åbne eller foreløbige.
 
 ---
 
@@ -48,70 +46,78 @@ Evidensen består af **4 kliniske forsøg** (hovedsageligt på SSRI-klassen, ikk
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Angstlidelse, neurotisk lidelse, dysthymi, unipolar depression, endogen depression, svær depressiv lidelse (fra vidensgrafen; det danske godkendelsesindikationstekst er ikke tilgængelig) |
-| Foreslået ny indikation | Obsessiv-kompulsiv lidelse (OCD) |
-| TxGNN-forudsigelsesscore | 99,74 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obsessiv-kompulsiv lidelse (obsessive-compulsive disorder) |
+| TxGNN-forudsigelsesscore | 0,9974 |
+| Evidensniveau | L4 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Proceed with Guardrails |
 
 ---
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger i de indsamlede data ingen detaljeret beskrivelse af citaloprams virkningsmekanisme. Citalopram tilhører dog SSRI-klassen, hvis mekanisme er velkendt: hæmning af genoptagelsen af serotonin i synapsen.
+Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Citalopram tilhører dog SSRI-klassen, hvis mekanisme er velkarakteriseret: hæmning af genoptagelsen af serotonin i synapsen.
 
-OCD responderer på serotonerg behandling. Andre SSRI-præparater (fluoxetin, sertralin, fluvoxamin) er etablerede førstelinjebehandlinger ved OCD. Da citalopram deler mekanisme med disse, er det mekanistisk rimeligt, at det kan virke ved OCD.
+Obsessiv-kompulsiv lidelse responderer på serotonerg behandling. Andre SSRI-præparater, fx fluoxetin, sertralin og fluvoxamin, er etablerede førstevalgsbehandlinger. Det er derfor mekanistisk plausibelt, at citalopram kan have effekt ved samme lidelse.
 
-Citalopram-specifik evidens er dog hovedsageligt åbne eller foreløbige studier hos voksne og børn/unge, en rapport om behandlingsresistent OCD og et studie af koncentration-respons. Der er ingen fase 3-RCT med citalopram selv i de foreliggende data. Evidensen er derfor klassebåret.
+Evidensen er primært klassebåret. Der er ikke fundet noget fase 3-RCT med citalopram i de indsamlede data. De citalopram-specifikke publikationer omfatter åbne forsøg hos voksne og børn/unge, en rapport om behandlingsresistent OCD og et studie af koncentrations-respons-forhold.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk forsøgsevidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Fase 4 | Afsluttet | 78 | Effekt af eksponering med responsprævention (ERP), SSRI og kombinationen ved OCD samt prædiktorer for respons; specifik SSRI er ikke angivet |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Fase 3 | Afsluttet | 124 | Kognitiv adfærdsterapi som tillæg hos børn med OCD, der kun delvist responderede på SRI; om citalopram indgår, skal verificeres |
-| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Fase 4 | Afsluttet | 158 | Gruppe-kognitiv adfærdsterapi versus fluoxetin ved OCD; kun indirekte SSRI-klassekontekst |
-| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | Ikke relevant (NA) | Afsluttet | 43 | Pilotstudie af tarmmikrobiota ved OCD før og efter 12 ugers SSRI-behandling; ingen direkte betydning for citaloprams effekt |
+| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | Ikke relevant (NA) | Afsluttet | 43 | Pilotstudie af tarmmikrobiota ved OCD versus raske kontroller og efter 12 ugers SSRI-behandling; ingen direkte relevans for citalopram-effekt |
+| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Fase 4 | Afsluttet | 78 | Eksponering med responsprævention (ERP) og SSRI, alene og kombineret, ved OCD; specifik SSRI er ikke angivet |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Fase 3 | Afsluttet | 124 | Kognitiv adfærdsterapi som tillæg til serotoningenoptagelseshæmmer hos børn med OCD og delvis respons; citalopram er ikke angivet som studielægemiddel |
+| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Fase 4 | Afsluttet | 158 | Gruppebaseret kognitiv adfærdsterapi versus fluoxetin ved OCD; kun indirekte SSRI-klassekontekst |
 
 ---
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [9241005](https://pubmed.ncbi.nlm.nih.gov/9241005/) | 1997 | Enkeltblindet sammenlignende studie | J Clin Psychopharmacol | Sammenligning af fluvoxamin, paroxetin og citalopram ved OCD |
-| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Randomiseret åbent klinisk studie | Eur Psychiatry | Citalopram alene versus citalopram med clomipramin ved behandlingsresistent OCD (16 patienter) |
-| [15089116](https://pubmed.ncbi.nlm.nih.gov/15089116/) | 2004 | Foreløbigt koncentration-respons-studie | CNS Drugs | Sammenhæng mellem citalopramkoncentration og klinisk respons ved OCD |
+| PMID | År | Type | Tidsskrift | Hovedfund |
+|---------|-----|------|------|---------|
+| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Klinisk studie (randomiseret, åbent) | Eur Psychiatry | Citalopram alene versus citalopram med clomipramin ved behandlingsresistent OCD (16 patienter) |
+| [15089116](https://pubmed.ncbi.nlm.nih.gov/15089116/) | 2004 | Foreløbigt koncentrations-respons-studie | CNS Drugs | Sammenhæng mellem citalopram-koncentration og klinisk respons ved OCD |
+| [9241005](https://pubmed.ncbi.nlm.nih.gov/9241005/) | 1997 | Enkeltblindet studie | J Clin Psychopharmacol | Sammenligning af fluvoxamin, paroxetin og citalopram ved OCD (30 patienter) |
 | [9395151](https://pubmed.ncbi.nlm.nih.gov/9395151/) | 1997 | Åbent pilotstudie | Acta Psychiatr Scand | 24 ugers åbent pilotstudie af citalopram ved OCD |
-| [9466233](https://pubmed.ncbi.nlm.nih.gov/9466233/) | 1997 | Åbent studie (børn/unge) | J Child Adolesc Psychopharmacol | 23 børn og unge; signifikant bedring i Y-BOCS efter 10 uger med citalopram |
-| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | Åbent studie (børn/unge) | Psychiatry Clin Neurosci | 15 børn og unge behandlet 8 uger med citalopram (20-30 mg/dag) |
-| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Oversigt/kommentar | Int Clin Psychopharmacol | Citalopram ved OCD ud over depression |
-| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | Oversigt | World J Biol Psychiatry | Serotonins rolle i OCD og behandling med serotonerg medicin |
-| [20712565](https://pubmed.ncbi.nlm.nih.gov/20712565/) | 2010 | Oversigt | Curr Med Chem | Tidligere, nuværende og fremtidige lægemidler til OCD |
-| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Oversigt | BMJ Clin Evid | Generel gennemgang af OCD (forekomst, forløb) |
+| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | Åbent studie (børn/unge) | Psychiatry Clin Neurosci | 8 ugers åbent studie af citalopram (20-30 mg/dag) hos 15 børn og unge med OCD |
+| [9466233](https://pubmed.ncbi.nlm.nih.gov/9466233/) | 1997 | Åbent forsøg (børn/unge) | J Child Adolesc Psychopharmacol | Åbent forsøg hos 23 børn og unge; signifikant fald i Y-BOCS/CY-BOCS efter 10 uger |
+| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Oversigt/kommentar | Int Clin Psychopharmacol | Gennemgang af citalopram ved OCD |
+| [20712565](https://pubmed.ncbi.nlm.nih.gov/20712565/) | 2010 | Oversigt | Curr Med Chem | Tidligere, nuværende og fremtidige lægemidler ved OCD |
+| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Oversigt | BMJ Clin Evid | Generel oversigt over OCD |
+| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | Oversigt | World J Biol Psychiatry | Serotonin og andre mekanismer ved OCD |
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101324888 | Cipramil (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de indsamlede data |
+| 28101324888 | Cipramil | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen produktresumébaserede advarsler eller kontraindikationer i de indsamlede data.
+**Lægemiddelinteraktioner:** Der er registreret 473 interaktioner. Blandt de eksempler, der er kompileret, er følgende af sværhedsgraden "Major":
+- Bupropion
+- Omeprazol
+- Lorcaserin
+- Cimetidin
+- Cisaprid
+- Clarithromycin
+- Dexfenfluramin
+- Diethylpropion
+- Dolasetron
 
-- **Tilstande, der i vidensgrafen er knyttet til kontraindikation** (ikke hentet fra produktresuméet): langt QT-syndrom (inkl. familiært), torsades de pointes, epilepsi, bipolar lidelse, svær affektiv lidelse, leversygdom, galdeblæresygdom, kaliummangel, blodkoagulationssygdom, hjertesygdom, hjerte-kar-sygdom, malignt neuroleptikasyndrom, SIADH (syndrom med uhensigtsmæssig ADH-sekretion), nefrogent SIADH og serotoninsyndrom.
-- **Lægemiddelinteraktioner**: 473 registrerede interaktioner. Blandt de 20 udtrukne er følgende af alvorlig (major) grad: bupropion, omeprazol, lorcaserin, cimetidin, cisaprid, clarithromycin, dexfenfluramin, diethylpropion og dolasetron. Moderate omfatter bl.a. acetylsalicylsyre, morfin, famotidin, loperamid og dronabinol.
+Blandt moderate interaktioner ses bl.a. famotidin, loperamid, morfin og acetylsalicylsyre.
 
-Se desuden det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+For øvrig sikkerhedsinformation (advarsler og kontraindikationer) henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -120,18 +126,13 @@ Se desuden det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplys
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-OCD responderer på serotonerg behandling, og citalopram deler mekanisme med etablerede SSRI-førstevalg. Der findes citalopram-specifikke åbne studier, men ingen fase 3-RCT med citalopram selv, så evidensen er hovedsageligt klassebåret.
+- OCD responderer på serotonerg behandling, og der findes flere citalopram-specifikke studier, men de er hovedsageligt åbne eller foreløbige. Ingen af de angivne forsøg undersøger tydeligt citalopram, og der er ikke fundet noget afsluttet fase 3-RCT med citalopram i de indsamlede data.
 
-**For at gå videre kræves:**
-- Kontrolleret (helst randomiseret) evidens specifikt for citalopram ved OCD
-- Verifikation af, hvilke lægemidler der indgik i de SSRI/SRI-baserede forsøg (NCT02022709, NCT00074815)
-- Hentning af produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Særlig vurdering af QT-forlængelse, hjertesygdom og interaktioner med alvorlig grad ved den enkelte patient
-
----
-
-*Bemærkning om øvrige forudsigelser:* Forudsigelserne for paranoid, skizoid, skizotypisk og histrionisk personlighedsforstyrrelse (score ca. 99,7 %) har kun evidensniveau L4-L5 og anbefales **Hold**. De identiske scorer tyder på en uspecifik grafeffekt snarere end sygdomsspecifik evidens.
+**For at komme videre kræves:**
+- Kontrollerede, helst randomiserede og placebokontrollerede, forsøg med citalopram ved OCD
+- Verificering af, hvilket lægemiddel der indgik i NCT02022709 og NCT00074815
+- Gennemgang af produktresuméet (SmPC) for advarsler, kontraindikationer og QT-forlængelse, samt vurdering af interaktionsrisiko (fx med andre QT-forlængende lægemidler)
+- Doseringsvurdering og overvågningsplan, herunder for børn og unge
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

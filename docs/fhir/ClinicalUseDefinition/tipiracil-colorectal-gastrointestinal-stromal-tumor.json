@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "colorectal-gastrointestinal-stromal-tumor",
-          "display": "colorectal gastrointestinal stromal tumor"
-        }
-      ],
-      "text": "colorectal gastrointestinal stromal tumor",
       "concept": {
         "text": "colorectal gastrointestinal stromal tumor"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9997
     }
   ]
 }

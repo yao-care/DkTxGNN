@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB11626",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB11626"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "adenoid-cystic-carcinoma-of-the-cervix-uteri",
-          "display": "adenoid cystic carcinoma of the cervix uteri"
-        }
-      ],
-      "text": "adenoid cystic carcinoma of the cervix uteri"
+      "concept": {
+        "text": "adenoid cystic carcinoma of the cervix uteri"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.996
     }
   ]
 }

@@ -8,6 +8,7 @@ nav_order: 234
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Dapagliflozin
@@ -49,8 +50,8 @@ Dapagliflozin (Forxiga®) er en selektiv SGLT2-inhibitor med godkendte indikatio
 | Forudsagt ny indikation | Ikke tilgængelig — TxGNN-forudsigelse blev ikke udført |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | L5 — Ingen forudsigelse eller understøttende undersøgelser hentet |
-| Markedsstatus i Danmark | Data ikke hentet *(se note nedenfor)* |
-| Antal markedsføringstilladelser | 0 *(dataindsamling mislykkedes — se note nedenfor)* |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Udsæt** |
 
 > **⚠️ Bemærkning om markedsdata for Danmark:** Bevissamlingen rapporterer nul markedsføringstilladelser og "ikke markedsført"-status. Dette afspejler næsten sikkert en **fejl ved dataindsamling**, ikke faktisk fraværelse fra markedet. Dapagliflozin er centralt godkendt i EU under **Forxiga® (EU/1/12/795)** af AstraZeneca, med fuld gyldighed i Danmark. Pipelinen for regulatoriske data bør køres på ny mod EMA-produktdatabasen og Lægemiddelstyrelsens register.

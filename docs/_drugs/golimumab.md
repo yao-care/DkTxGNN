@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 398
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Golimumab: forudsagt ny indikation Reumatoid vaskulitis (evidensniveau L4). Oprindelig indikation: Psoriasisgigt, leddegigt, Bechterews sygdom…"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "hypermobility of coccyx", "inflammatory spondylopathy", "inflammatory spondylopathy", "Kummell disease", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: forudsagt ny indikation Hypermobility of coccyx (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Golimumab: Fra psoriasisgigt og leddegigt til reumatoid vaskulitis
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -48,12 +48,12 @@ Evidensen for den forudsagte indikation er således kun modelbaseret og mekanist
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psoriasisgigt, leddegigt, Bechterews sygdom, colitis ulcerosa og inflammatorisk tarmsygdom (fra videngrafen; godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Reumatoid vaskulitis |
-| TxGNN-forudsigelsesscore | 99,73 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypermobility of coccyx |
+| TxGNN-forudsigelsesscore | 0.9967 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

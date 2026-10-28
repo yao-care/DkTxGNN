@@ -6,7 +6,7 @@ nav_order: 410
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hyaluronidase: forudsagt ny indikation Diabetisk retinopati (rang 6 af 10 forudsagte indikationer (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede registreringsdata"
+description: "Hyaluronidase: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede registreringsdata"
 monitor_inn: "hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Hyaluronidase: Fra lokal anvendelse som hjælpestof til diabetisk retinopati
+## Hyaluronidase: Fra lokal anvendelse som hjælpestof til esotropi
 {: .text-alpha }
 
 *(Bemærk: Rapporten omhandler den forudsagte indikation med den stærkeste evidens, "diabetisk retinopati" (rang 6). Den øverst rangerede forudsigelse, esotropi, er ikke understøttet af klinisk evidens og er omtalt nedenfor.)*
@@ -48,10 +48,10 @@ Hyaluronidase er et enzym, der nedbryder hyaluronsyre i vævet, og som i Danmark
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede registreringsdata |
 | Forudsagt ny indikation | Diabetisk retinopati (rang 6 af 10 forudsagte indikationer; den mest evidensunderbyggede) |
-| TxGNN-prædiktionsscore | 99,71 % |
-| Evidensniveau | L1 i den indsamlede vurdering (to afsluttede fase 3-forsøg), men uden tilgængelige resultater. Forsigtig fortolkning anbefales |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-prædiktionsscore | 0,9989 |
+| Evidensniveau | L5 i den indsamlede vurdering (to afsluttede fase 3-forsøg), men uden tilgængelige resultater. Forsigtig fortolkning anbefales |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ## Hvorfor er forudsigelsen rimelig?

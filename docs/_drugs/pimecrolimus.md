@@ -4,17 +4,17 @@ title: Pimecrolimus
 parent: Høj evidens (L1-L2)
 nav_order: 661
 evidence_level: L2
-indication_count: 8
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pimecrolimus: forudsagt ny indikation Seboroisk dermatitis (evidensniveau L2). Oprindelig indikation: Atopisk eksem (atopisk dermatitis). Godkendelsesteksten for det dansk…"
 monitor_inn: "PIMECROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "seborrheic dermatitis", "exanthem (disease)", "exanthem (disease)", "acrodermatitis chronica atrophicans", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+description: "Pimecrolimus: forudsagt ny indikation Seborrheic dermatitis (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Pimecrolimus: Fra atopisk eksem til seboroisk dermatitis
+## Pimecrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## Resumé
 
 Pimecrolimus er en topisk calcineurinhæmmer, som oprindeligt anvendes til behandling af atopisk eksem (atopisk dermatitis).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **seboroisk dermatitis**,
 og forudsigelsen understøttes af **1 klinisk fase 2-forsøg** og **18 publikationer**, heriv to systematiske reviews af randomiserede forsøg.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atopisk eksem (atopisk dermatitis). Godkendelsesteksten for det danske præparat er ikke angivet i de indsamlede data |
-| Forudsagt ny indikation | Seboroisk dermatitis |
-| TxGNN-prædiktionsscore | 99,73 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Seborrheic dermatitis |
+| TxGNN-prædiktionsscore | 0.9973 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er forudsigelsen rimelig?

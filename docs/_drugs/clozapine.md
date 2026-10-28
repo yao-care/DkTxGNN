@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clozapine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 215
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clozapine: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L2). Oprindelig indikation: Ikke oplyst i de sammenstillede data (den danske tilladelse har ingen…"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 # Clozapine
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at clozapin kan være effektivt ved **manisk bipolar 
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de sammenstillede data (den danske tilladelse har ingen indikationstekst) |
 | Forudsagt ny indikation | Manisk bipolar lidelse |
-| TxGNN-forudsigelsesscore | 99,95 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9995 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -73,7 +73,7 @@ Bemærk, at den foreliggende evidens for manisk bipolar lidelse består af ét l
 |---------|------|------|------|---------|
 | [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Fase 2 | Afsluttet | 42 | Dobbeltblindt forsøg med clozapins sikkerhed og effekt ved behandlingsresistent mani; resultater er ikke angivet i data |
 
-**Supplerende evidens for den bredere diagnose bipolar lidelse** (rang 5 i forudsigelserne, TxGNN-score 99,62 %, evidensniveau L1):
+**Supplerende evidens for den bredere diagnose bipolar lidelse** (rang 5 i forudsigelserne, TxGNN-score 0,9962, evidensniveau L1):
 
 | Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
 |---------|------|------|------|---------|
@@ -139,15 +139,15 @@ Der er et afsluttet fase 2-forsøg samt en metaanalyse fra 2020, der understøtt
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
 |------|------|------|------|
-| Tourettes syndrom | 99,91 % | L4 | Hold (kun case-rapporter, ingen forsøg) |
-| Trikotillomani | 99,90 % | L5 | Hold |
-| Skizofreniform lidelse | 99,69 % | L3 | Proceed with Guardrails |
-| Bipolar lidelse | 99,62 % | L1 | Proceed with Guardrails |
-| Større affektiv lidelse | 99,48 % | L2 | Proceed with Guardrails |
-| ADHD | 99,31 % | L4 | Hold |
-| ADHD, uopmærksom type | 99,21 % | L5 | Hold |
-| Psykotisk lidelse | 99,12 % | L1 | Proceed with Guardrails (reelt allerede etableret anvendelse) |
-| Malan overvækstsyndrom | 99,02 % | L5 | Hold |
+| Tourettes syndrom | 0,9991 | L4 | Hold (kun case-rapporter, ingen forsøg) |
+| Trikotillomani | 0,9990 | L5 | Hold |
+| Skizofreniform lidelse | 0,9969 | L3 | Proceed with Guardrails |
+| Bipolar lidelse | 0,9962 | L1 | Proceed with Guardrails |
+| Større affektiv lidelse | 0,9948 | L2 | Proceed with Guardrails |
+| ADHD | 0,9931 | L4 | Hold |
+| ADHD, uopmærksom type | 0,9921 | L5 | Hold |
+| Psykotisk lidelse | 0,9912 | L1 | Proceed with Guardrails (reelt allerede etableret anvendelse) |
+| Malan overvækstsyndrom | 0,9902 | L5 | Hold |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

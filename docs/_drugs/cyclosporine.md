@@ -6,9 +6,9 @@ nav_order: 227
 evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (evidensniveau L4). Oprindelig indikation: Reumatoid artritis, tørre øjne, xerophthalmia…"
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) (evidensniveau L4). Oprindelig indikation: Ikke registreret…"
 ---
 
 # Cyclosporine
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Ciclosporin: Fra reumatoid artritis og tørre øjne til kronisk granulomatøs sygdom
+## Cyclosporine: Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ Ciclosporin er en calcineurinhæmmer, der oprindeligt anvendes til reumatoid art
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Reumatoid artritis, tørre øjne, xerophthalmia, Sjögrens syndrom (fra vidensgrafen; indikationsteksten i den danske godkendelse er tom) |
-| Forudsagt ny indikation | Kronisk granulomatøs sygdom, autosomal recessiv |
-| TxGNN-forudsigelsesscore | 99,68 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) |
+| TxGNN-forudsigelsesscore | 0.9968 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

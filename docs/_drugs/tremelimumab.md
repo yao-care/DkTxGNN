@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tremelimumab
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 854
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tremelimumab: forudsagt ny indikation Diabetisk grå stær (diabetic cataract) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske markedsføringstillad…"
+description: "Tremelimumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tremelimumab"
-predicted_indications: ["diabetic cataract", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "craniostenosis cataract", "immature cataract", "mature cataract"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tremelimumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tremelimumab: Fra onkologi til diabetisk grå stær
+## Tremelimumab
 {: .text-alpha }
-
-## Resumé i én sætning
-
-Tremelimumab er et anti-CTLA-4-antistof, som anvendes i kræftbehandling (bl.a. sammen med durvalumab ved inoperabelt hepatocellulært karcinom). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **diabetisk grå stær (diabetic cataract)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning. Forudsigelsen er udelukkende beregningsbaseret.
-
----
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske markedsføringstilladelse (ifølge øvrig farmakologisk information anvendes lægemidlet i kræftbehandling, bl.a. hepatocellulært karcinom) |
-| Forudsagt ny indikation | Diabetisk grå stær (diabetic cataract) |
-| TxGNN-forudsigelsesscore | 98,5 % |
-| Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
-
----
-
-## Hvorfor er denne forudsigelse (ikke) rimelig?
-
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er dog kendt, at tremelimumab er et monoklonalt antistof mod CTLA-4 (cytotoxic T-lymphocyte-associated protein 4), som forstærker T-celleaktivering. Det anvendes i onkologi, og i oktober 2022 blev kombinationen med durvalumab godkendt af FDA til inoperabelt hepatocellulært karcinom.
-
-Diabetisk grå stær skyldes primært hyperglykæmi-induceret aktivering af polyolvejen, oxidativ stress og glykering af proteiner i øjets linse. Linsen er et immunprivilegeret væv. Der kendes ingen troværdig mekanistisk forbindelse mellem CTLA-4-blokade og disse processer.
-
-Den høje score (0,985) er en ren computerbaseret forudsigelse. Immun-checkpoint-hæmning er snarere forbundet med risiko for immunrelaterede øjenbivirkninger (f.eks. uveitis) og med checkpoint-hæmmer-associeret diabetes, som kan forværre den glykæmiske kontrol. Det taler imod en gavnlig effekt.
-
-Modellen forudsiger også en række beslægtede tilstande med næsten identisk score (98,4 %): type 2-diabetes-associeret grå stær, moden grå stær, umoden grå stær og kraniostenose med grå stær. Heller ikke for disse findes mekanistisk eller klinisk støtte. Ved moden grå stær er standardbehandlingen kirurgisk fjernelse, og ved kraniostenose med grå stær, som er en sjælden medfødt tilstand med sandsynlig genetisk baggrund, ville brug af et immunstimulerende kræftlægemiddel hos børn give store sikkerhedsbekymringer.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 ---
 
@@ -105,22 +73,9 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 Der foreligger ikke tilgængelige data om advarsler eller kontraindikationer fra produktresuméet. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
 - **Lægemiddelinteraktioner**: Den eneste registrerede post er lægemidlets farmakologiske target, CTLA-4, og ikke en interaktion med et andet lægemiddel. Der er derfor ingen klinisk relevante interaktioner at angive.
-- **Overvejelser i forhold til den forudsagte indikation**: Immunrelaterede øjenbivirkninger (f.eks. uveitis) og checkpoint-hæmmer-associeret diabetes er teoretiske risici, som taler imod anvendelse ved diabetisk grå stær.
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, litteratur eller en troværdig mekanistisk forbindelse (evidensniveau L5). Den kendte sikkerhedsprofil for immun-checkpoint-hæmning, herunder risiko for øjeninflammation og forværret glykæmisk kontrol, taler imod en gavnlig effekt.
-
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer og godkendt indikation (kritisk datamangel)
-- Detaljerede data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Prækliniske data (f.eks. i diabetiske linsemodeller), der kan understøtte en biologisk sammenhæng, før der overvejes kliniske studier
-- En vurdering af administrationsvej: tremelimumab gives som intravenøs infusion, hvilket sjældent er rimeligt ved en øjentilstand som grå stær, hvor kirurgi er standardbehandling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

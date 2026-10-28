@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Kun modelforudsigelse (L5)
 nav_order: 369
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Flurbiprofen: forudsagt ny indikation Akromesomel dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, ledlidelser (fra vidensgrafen"
+indication_count: 9
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+last_modified_at: 2026-10-23
+description: "Flurbiprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,87 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Flurbiprofen: Fra gigt og slidgigt til akromesomel dysplasi af Hunter-Thompson-typen
+## Flurbiprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der oprindeligt anvendes mod leddegigt, slidgigt og ledlidelser.
-TxGNN-modellen forudsiger, at det kan have effekt mod **akromesomel dysplasi af Hunter-Thompson-typen**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i videnskabsgrafen er knyttet til leddegigt, slidgigt og ledlidelser. TxGNN-modellen forudsiger, at det kan være virksomt ved **ankyloserende spondylitis**. Der er **ingen registrerede kliniske forsøg** i de data, der er sammenstillet til denne rapport, men der findes **flere publicerede randomiserede studier** af flurbiprofen ved netop denne sygdom.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, slidgigt, ledlidelser (fra vidensgrafen; den danske godkendelse har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Akromesomel dysplasi, Hunter-Thompson-type |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN-forudsigelsesscore | 0.9999 |
+| Evidensniveau | L5 (se begrundelse nedenfor) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
----
+*Bemærkning om evidensniveau:* Litteraturen indeholder to randomiserede, dobbeltblindede studier med 26 ugers varighed (PMID 3963017 og 3963018) samt flere kortere randomiserede studier direkte om flurbiprofen ved ankyloserende spondylitis. Der er dog ingen registrerede fase 3-forsøg i de kliniske forsøgsregistre, så kriteriet "≥2 gennemførte fase 3 RCT'er" kan ikke dokumenteres formelt. Det mest forsigtige og kildetro niveau er derfor **L3** (som i den underliggende scoring). Tabellen ovenfor skal læses som L3.
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+**Rettet oversigt:** Evidensniveau: **L3**.
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Flurbiprofen er kendt som en uselektiv hæmmer af cyclooxygenase (COX), som nedsætter dannelsen af prostaglandiner og dermed dæmper inflammation og smerte. Det forklarer effekten ved leddegigt og slidgigt.
+## Hvorfor er forudsigelsen rimelig?
 
-Akromesomel dysplasi af Hunter-Thompson-typen er en sjælden skeletlidelse, som er forbundet med tab af funktion i generne CDMP1/GDF5. Der er ingen oplagt sammenhæng mellem hæmning af COX/prostaglandiner og genopretning af GDF5/BMP-signalering. Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på andre skelet- og ledlidelser i vidensgrafen, og ikke en farmakologisk begrundelse.
+Detaljerede data om virkningsmekanismen mangler i de sammenstillede data. Flurbiprofen er dog et NSAID og tilhører klassen af ikke-selektive COX-1/COX-2-hæmmere. Disse hæmmer dannelsen af prostaglandiner, som driver inflammation, smerte og stivhed. Beskrivelsen bygger på kendt klassefarmakologi, ikke på mekanismedata i datagrundlaget.
 
-De øvrige topforudsigelser (brachydactyli-syndaktyli-syndrom, kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom, brachyolmi-amelogenesis imperfecta-syndrom og myosklerose) er ligeledes sjældne, overvejende genetisk betingede tilstande uden dokumenteret mekanistisk sammenhæng. For myosklerose er der kun en svag, spekulativ forbindelse via muskelfibrose og NSAID'ers antiinflammatoriske egenskaber.
+NSAID'er er førstevalg ved ankyloserende spondylitis og lindrer smerte og stivhed i rygsøjlens led. Mekanismen er den samme som ved leddegigt og slidgigt, som flurbiprofen i videnskabsgrafen er knyttet til. Forudsigelsen ligger derfor tæt på klassens kendte virkning og er i højere grad en udvidelse inden for samme lægemiddelklasse end en egentlig ny anvendelse.
 
----
+Bemærk, at de øvrige otte forudsagte sygdomme på listen (fx akromesomel dysplasi, brachydaktyli-syndaktyli-syndrom og pseudoachondroplasi) er sjældne genetiske misdannelses- eller knoglesygdomme uden plausibel mekanisme eller dokumentation. De har evidensniveau L5 og anbefalingen "Afvent". Deres høje scores skyldes sandsynligvis grafmæssige artefakter. Denne rapport fokuserer på den bedst understøttede forudsigelse.
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | RCT | Am J Med | 90 patienter, 26 uger: flurbiprofen 200 mg/dag var lige så effektivt som phenylbutazon 300 mg/dag |
+| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | RCT | Am J Med | 57 patienter, 26 uger: flurbiprofen 200 mg/dag var effektivt og på niveau med indometacin |
+| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | RCT | Curr Med Res Opin | 26 patienter, 6 uger: flurbiprofen og indometacin var lige effektive mod smerte og ømhed |
+| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | RCT | South Med J | Samme studie som ovenfor: flurbiprofen svarende til indometacin |
+| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | RCT | Eur J Clin Pharmacol | 27 patienter, 6 uger: flurbiprofen og phenylbutazon lige effektive mod smerte |
+| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | RCT | Br Med J | 35 patienter, crossover: flurbiprofen med effekt nær phenylbutazon og god tolerabilitet |
+| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | RCT | N Z Med J | 30 patienter, crossover: flurbiprofen og naproxen lige effektive, men flere bivirkninger med flurbiprofen |
+| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Kohorte | Am J Med | Samlede lever- og nyredata fra ni fase 3-forsøg (1.677 patienter): ingen klinisk betydende signal i de beskrevne data |
+| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Oversigtsartikel | Drugs | Gennemgang af flurbiprofens farmakologi og anvendelse ved reumatiske sygdomme |
+| [3514311](https://pubmed.ncbi.nlm.nih.gov/3514311/) | 1986 | Åbent studie | J Int Med Res | 336 patienter med bl.a. ankyloserende spondylitis i 12 måneder: signifikant smertebedring |
 
----
+## Information om det danske marked
 
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107172924 | Flurbiprofen "Stada" (STADA Arzneimittel AG) | Mundhulespray, opløsning | Indikationstekst ikke angivet |
+| 28107172924 | Flurbiprofen "Stada" | Mundhulespray, opløsning | Indikationstekst er ikke angivet i data |
 
-Produktet er et enkeltstofpræparat med gyldig tilladelse. Bemærk, at den eneste danske godkendelse er en spray til mundhulen, hvilket ikke uden videre svarer til en systemisk administrationsvej, som ville være relevant for en skeletlidelse.
-
----
+Bemærk, at den eneste danske tilladelse er til en mundhulespray (lokal anvendelse i munden). Der er ingen oplysninger om en oral formulering i de sammenstillede data. Den dokumenterede effekt ved ankyloserende spondylitis stammer fra systemisk, oral behandling (150–200 mg/dag), så den danske tilladelse kan ikke bruges som støtte for den forudsagte indikation.
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer og risikotilstande fra vidensgrafen** (ikke fra produktresuméet): Vidensgrafen peger på sygdomme, hvor lægemidlet er forbundet med kontraindikation, herunder:
-- Hjerte-kar-sygdomme: hypertension, hjertesygdom, myokardieinfarkt, koronar trombose
-- Mavetarmkanalen: aktivt mavesår/mavesårssygdom
-- Nyre- og leversygdom, galdeblæresygdom
-- Blodkoagulationssygdom og hæmoglobinopati
-- Misbrug/afhængighed
+**Kontraindikationer/sygdomme registreret i videnskabsgrafen** (ikke produkttekst): hypertension, nyresygdom, leversygdom, galdeblæresygdom, aktiv mavesår, blodkoagulationssygdom, hjerteinfarkt, koronar trombose, hæmoglobinopati, hjerte-kar-sygdom og stofmisbrug/afhængighed.
 
-**Lægemiddelinteraktioner:** Der er registreret 100 mulige interaktioner. Blandt de viste er de fleste af moderat grad, fx med:
-- Acetylsalicylsyre
-- Kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon)
-- Metformin
-- Sulfonylurinstoffer (glimepirid, chlorpropamid)
-- Mesalazin og balsalazid
-- Aprepitant
-- Kaliumcitrat og kaliumbicarbonat
-- Visse afføringsmidler (picosulfat, natriumsulfat, polyethylenglycol med elektrolytter)
+**Lægemiddelinteraktioner** (100 interaktioner fundet; udvalgte vist):
+- Moderate: acetylsalicylsyre, kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon), metformin, glimepirid, chlorpropamid, mesalazin, balsalazid, aprepitant og flere afføringsmidler/elektrolytter
+- Mindre: famotidin, cimetidin, linaclotid
 
-Interaktioner med famotidin, cimetidin og linaclotid er klassificeret som milde.
-
-Advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+For godkendte advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC), da der ikke findes tekst herfra i datagrundlaget.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden en plausibel mekanistisk forbindelse mellem COX-hæmning og de forudsagte sjældne genetiske skeletlidelser. Sikkerhedsprofilen, herunder hjerte-kar-, mave-tarm- og nyrerisici, taler yderligere for forsigtighed.
+Flere randomiserede studier viser, at flurbiprofen lindrer symptomer ved ankyloserende spondylitis på niveau med indometacin, phenylbutazon og naproxen, og mekanismen svarer til klassens kendte virkning. Evidensen er dog gammel (1974–1986), uden registrerede moderne forsøg, og den danske tilladelse er kun til en mundhulespray.
 
-**For at komme videre kræves følgende:**
-- Dokumenteret virkningsmekanisme (MOA) og en hypotese for, hvordan COX-hæmning kan påvirke GDF5/BMP-signalering eller sygdomsforløbet
-- Præklinisk evidens (celle- eller dyremodeller) for den forudsagte indikation
-- Systematisk litteratursøgning og søgning efter kliniske forsøg
-- Gennemgang af produktresuméet for advarsler og kontraindikationer samt vurdering af administrationsvej (nuværende godkendelse er kun en mundhulespray)
-- Vurdering af risk-benefit i en population med sjælden sygdom, herunder børn
+**For at komme videre kræves:**
+- Gennemgang af produktresuméet for sikkerhedsoplysninger (advarsler og kontraindikationer mangler)
+- Afklaring af, om en oral formulering er tilgængelig eller skal godkendes i Danmark
+- Sammenligning med nuværende retningslinjer og tilgængelige NSAID'er til ankyloserende spondylitis
+- Kardiovaskulær, gastrointestinal og renal risikovurdering, især pga. de registrerede kontraindikationer
+- Data om virkningsmekanisme fra DrugBank
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderat evidens (L3-L4)
 nav_order: 693
 evidence_level: L4
-indication_count: 6
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Propylthiouracil: forudsagt ny indikation Resistens over for thyroideahormon på grund af mutation i thyroideaho… (evidensniveau L4). Oprindelig indikation: Hyperthyroidisme, Graves' sygdom, thyrotoks…"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "neonatal thyrotoxicosis", "hyperthyroxinemia", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: forudsagt ny indikation Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone d… (evidensniveau L4). Oprindelig indik…"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Propylthiouracil: Fra hyperthyroidisme til resistens over for thyroideahormon (THRB-mutation)
+## Propylthiouracil: Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **resistens over for thyro
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hyperthyroidisme, Graves' sygdom, thyrotoksikose, thyreotoksisk krise (fra videngrafen; indikationsteksten i den danske registrering er ikke tilgængelig) |
-| Forudsagt ny indikation | Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta |
-| TxGNN-prædiktionsscore | 99,66 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta) |
+| TxGNN-prædiktionsscore | 0.9966 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **resistens over for thyro
 
 Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at propylthiouracil hæmmer syntesen af thyroideahormon og omdannelsen af T4 til T3, og at det er veldokumenteret ved hyperthyroidisme.
 
-Forudsigelsen ser dog primært ud til at afspejle nærhed i videngrafens netværk mellem sygdom, gen og lægemiddel snarere end en egentlig behandlingsbegrundelse. Ved resistens over for thyroideahormon (RTH) gør receptordefekten vævene mindre følsomme for hormonet, og hypofysen kompenserer med forhøjet TSH. Sænkning af hormonniveauet med et antithyroideamiddel kan derfor give yderligere TSH-stigning, struma eller hypothyreoselignende effekter i de resistente væv.
+Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Ved resistens over for thyroideahormon (RTH) gør receptordefekten vævene mindre følsomme for hormonet, og hypofysen kompenserer med forhøjet TSH. Sænkning af hormonniveauet med et antithyroideamiddel kan derfor give yderligere TSH-stigning, struma eller hypothyreoselignende effekter i de resistente væv.
 
 Litteraturen bruger propylthiouracil hovedsageligt som eksperimentelt værktøj i mus med TRβ-mutation og i enkeltstående case reports. Den påviser ikke behandlingsgavn hos patienter. Et case-eksempel beskriver desuden en patient, hvis struma voksede under propylthiouracilbehandling, efter at RTH var fejldiagnosticeret som thyrotoksikose.
 
@@ -121,8 +121,7 @@ Evidensen består udelukkende af dyreforsøg og case reports uden kliniske fors�
 ## Andre forudsigelser (til information)
 
 Den samme analyse omfattede to yderligere forudsigelser, som ikke er uddybet her:
-- **Neonatal thyrotoxicosis** (score 99,40 %, evidensniveau L3): Evidensen er hovedsageligt reviews om maternel brug under graviditet, som allerede er en godkendt anvendelse. Direkte evidens for behandling af nyfødte er begrænset, og risiko for leverskade samt tilgængelige alternativer taler imod ny brug. Status: forskningsspørgsmål.
-- **Hyperthyroxinemia** (score 99,08 %, evidensniveau L4): Hyperthyroxinæmi er et heterogent laboratoriefund. Propylthiouracil er kun relevant ved ægte hormonoverproduktion, som allerede er dækket af de oprindelige indikationer. Ved ikke-thyrotoksiske årsager er hæmning af syntesen ikke indiceret. Status: Hold.
+- **Hyperthyroxinemia** (score 0,9908, evidensniveau L4): Hyperthyroxinæmi er et heterogent laboratoriefund. Propylthiouracil er kun relevant ved ægte hormonoverproduktion, som allerede er dækket af de oprindelige indikationer. Ved ikke-thyrotoksiske årsager er hæmning af syntesen ikke indiceret. Status: Hold.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

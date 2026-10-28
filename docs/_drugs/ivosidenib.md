@@ -4,17 +4,17 @@ title: Ivosidenib
 parent: Kun modelforudsigelse (L5)
 nav_order: 466
 evidence_level: L5
-indication_count: 6
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ivosidenib: forudsagt ny indikation Bulbær polio (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
 monitor_inn: "IVOSIDENIB"
-predicted_indications: ["bulbar polio", "bulbar polio"]
+predicted_indications: ["bulbar polio"]
+description: "Ivosidenib: forudsagt ny indikation Bulbar polio (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ivosidenib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Ivosidenib: Fra akut myeloid leukæmi til bulbær polio
+## Ivosidenib: Bulbar polio
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Ivosidenib er en hæmmer af mutant IDH1, som oprindeligt anvendes til behandling af akut myeloid leukæmi (AML) og beslægtede myeloide sygdomme.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **bulbær polio** (score 99,3 %), men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Den er sandsynligvis et artefakt fra vidensgrafen.
+TxGNN-modellen (deep learning) forudsiger, at lægemidlet kan have effekt på **bulbær polio** (score 0,9931), men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter forudsigelsen. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **bulbær polio** 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut myeloid leukæmi (den danske godkendelsestekst er ikke tilgængelig i de indsamlede data; indikationen stammer fra TxGNN-vidensgrafen) |
-| Forudsagt ny indikation | Bulbær polio |
-| TxGNN-forudsigelsesscore | 99,3 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bulbar polio |
+| TxGNN-forudsigelsesscore | 0.9931 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,9 +63,8 @@ Ivosidenib er en selektiv hæmmer af mutant IDH1 (isocitratdehydrogenase 1). Hæ
 
 Bulbær polio er en virusinfektion i motorneuroner forårsaget af poliovirus. Der kendes ingen afhængighed af IDH1-mutation eller 2-HG-signalering. Der er derfor ikke identificeret nogen plausibel mekanistisk sammenhæng mellem lægemidlets virkning og sygdommen.
 
-Den høje score er alene en vidensgrafbaseret forudsigelse uden biologisk begrundelse, klinisk forsøg eller publikation. Resultatet er sandsynligvis et artefakt fra grafen.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der foreligger ingen biologisk begrundelse, kliniske forsøg eller publikationer.
 
-**Andre forudsagte indikationer:** Blandt de øvrige forudsigelser er AML og myelodysplastisk syndrom relateret til alkylerende stoffer og til stråling (score 99,3 %). Disse er biologisk plausible, men overlapper i vid udstrækning med den allerede kendte indikation "behandlingsrelateret AML og myelodysplastisk syndrom". En eventuel effekt vil formentlig afhænge af IDH1-mutationsstatus snarere end af sygdommens årsag. De er derfor ikke reelle repurposing-kandidater. Der foreligger heller ikke forsøg eller litteratur for disse.
 
 ---
 

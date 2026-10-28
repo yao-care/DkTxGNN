@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pitolisant
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 668
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Pitolisant: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (med eller uden katapleksi)"
 monitor_inn: "PITOLISANT"
-predicted_indications: ["insomnia (disease)", "insomnia (disease)", "attention deficit-hyperactivity disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "faciodigitogenital syndrome"]
+predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ Forudsigelsen bør derfor betragtes som et modelartefakt og ikke som et reelt te
 |------|------|
 | Oprindelig indikation | Narkolepsi (med eller uden katapleksi) |
 | Forudsagt ny indikation | Insomni |
-| TxGNN-forudsigelsesscore | 99,7 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9971 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-*Bemærk: Den godkendte indikationstekst for det danske produkt indgik ikke i de indsamlede data. Den oprindelige indikation er derfor hentet fra videngrafens indikationsrelationer og den tilgængelige litteratur.*
+*Bemærk: Den godkendte indikationstekst for det danske produkt indgik ikke i de indsamlede data. Den oprindelige indikation er derfor hentet fra litteraturen og den tilgængelige viden om lægemidlet.*
 
 ---
 
@@ -64,11 +64,11 @@ Forudsigelsen bør derfor betragtes som et modelartefakt og ikke som et reelt te
 
 Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra litteraturen er pitolisant en histamin H3-receptor-antagonist/invers agonist, som øger histaminerg neurotransmission i hjernen og dermed fremmer vågenhed.
 
-Denne farmakologiske retning er stik modsat det, der kræves ved insomni. Insomni er en hyperarousal-lidelse, hvor et vågenhedsfremmende middel forventeligt vil forværre symptomerne. Insomni er faktisk en kendt bivirkning ved pitolisant. Den høje score (0,997) skyldes sandsynligvis, at insomni ligger tæt på narkolepsi i videngrafens "søvn-vågen"-område, og ikke et reelt behandlingssignal.
+Denne farmakologiske retning er stik modsat det, der kræves ved insomni. Insomni er en hyperarousal-lidelse, hvor et vågenhedsfremmende middel forventeligt vil forværre symptomerne. Insomni er faktisk en kendt bivirkning ved pitolisant. Den høje score (0,9971) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme (insomni ligger tæt på narkolepsi), ikke et reelt behandlingssignal eller biologisk evidens.
 
 Til sammenligning er to andre forudsigelser nævnt i datasættet:
-- **ADHD (score 99,4 %)**: H3-blokade øger frigivelsen af histamin, acetylcholin, noradrenalin og dopamin i præfrontal cortex, hvilket giver en plausibel mekanisme for bedre opmærksomhed. Evidensen er dog kun indirekte (reviews og præklinisk farmakologi), uden registrerede forsøg og uden ADHD-specifikke kliniske data for pitolisant. Evidensniveau L4, vurderet som forskningsspørgsmål.
-- **Faciodigitogenitalt syndrom (score 99,3 %)**: Ingen mekanistisk sammenhæng. Sygdommen skyldes FGD1-mutationer og påvirkning af Rho GTPase-signalering og kan ikke rimeligt moduleres af H3-antagonisme. Evidensniveau L5.
+- **ADHD (score 0,9936)**: H3-blokade øger frigivelsen af histamin, acetylcholin, noradrenalin og dopamin i præfrontal cortex, hvilket giver en plausibel mekanisme for bedre opmærksomhed. Evidensen er dog kun indirekte (reviews og præklinisk farmakologi), uden registrerede forsøg og uden ADHD-specifikke kliniske data for pitolisant. Evidensniveau L4, vurderet som forskningsspørgsmål.
+- **Faciodigitogenitalt syndrom (score 0,9929)**: Ingen mekanistisk sammenhæng. Sygdommen skyldes FGD1-mutationer og påvirkning af Rho GTPase-signalering og kan ikke rimeligt moduleres af H3-antagonisme. Evidensniveau L5.
 
 ---
 

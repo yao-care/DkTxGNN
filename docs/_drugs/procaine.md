@@ -50,10 +50,10 @@ Forudsigelsen understøttes derfor ikke, og den bør ikke forfølges i sin nuvæ
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de data, der er indsamlet til denne rapport (procain er en lokalbedøvelse) |
 | Forudsagt ny indikation | Methæmoglobinæmi |
-| TxGNN-forudsigelsesscore | 99,50 % |
+| TxGNN-forudsigelsesscore | 0,9950 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 6 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Forudsigelsen understøttes derfor ikke, og den bør ikke forfølges i sin nuvæ
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om procains virkningsmekanisme. Ud fra almen viden er procain en lokalbedøvelse af estertypen (et derivat af para-aminobenzoesyre), der blokerer natriumkanaler og dermed hæmmer smerteledning i nerver.
 
-Den høje score afspejler sandsynligvis en drug-disease-relation i vidensgrafen snarere end en terapeutisk sammenhæng. Litteraturen viser det modsatte: Et casestudie fra 1970 og en undersøgelse fra 1987 beskriver, at intravenøst procain kan **fremkalde** methæmoglobinæmi. Aromatiske aminer kan via deres metabolitter oxidere hæmoglobin. Anvendelse ved denne tilstand ville derfor i princippet være kontraindiceret.
+Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Litteraturen viser det modsatte: Et casestudie fra 1970 og en undersøgelse fra 1987 beskriver, at intravenøst procain kan **fremkalde** methæmoglobinæmi. Aromatiske aminer kan via deres metabolitter oxidere hæmoglobin. Anvendelse ved denne tilstand ville derfor i princippet være kontraindiceret.
 
 Også de øvrige forudsigelser med høj score (methæmoglobinæmi af alfa-type og methæmoglobinreduktase-mangel) er mekanistisk usandsynlige af samme grund. Patienter med enzymmangel er særligt følsomme over for oxidant-induceret methæmoglobinæmi.
 
@@ -116,10 +116,10 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Senebetændelse (tendinitis) | 99,20 % | L3 | Mest relevant: et nyere klinisk studie (2022) af procainbaseret neuralterapi ved supraspinatustendinopati; evidensen er begrænset og heterogen |
-| Fibromyalgi | 99,23 % | L4 | Kun ældre, ukontrollerede rapporter (1950'erne-1960'erne); hypotesegenererende |
-| Hyperthyroidisme | 99,25 % | L4 | Kun historisk, lavkvalitets litteratur |
-| Anafylaksi | 99,29 % | L4 | Litteraturen peger på en sikkerhedsrisiko |
+| Senebetændelse (tendinitis) | 0,9920 | L5 | Mest relevant: et nyere klinisk studie (2022) af procainbaseret neuralterapi ved supraspinatustendinopati; evidensen er begrænset og heterogen |
+| Fibromyalgi | 0,9923 | L5 | Kun ældre, ukontrollerede rapporter (1950'erne-1960'erne); hypotesegenererende |
+| Hyperthyroidisme | 0,9925 | L4 | Kun historisk, lavkvalitets litteratur |
+| Anafylaksi | 0,9929 | L4 | Litteraturen peger på en sikkerhedsrisiko |
 | Tourettes syndrom, myositis fibrosa, idiopatisk granulomatøs myositis | – | L5 | Alene modelforudsigelse |
 
 ---

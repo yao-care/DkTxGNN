@@ -8,6 +8,7 @@ nav_order: 195
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Cimicoxib
@@ -51,8 +52,8 @@ En fuldstændig evaluering af lægemiddelgenbrug kan ikke gennemføres på nuvæ
 | Forudsagt ny indikation | Ingen — TxGNN returnerede ingen forudsigelser |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | L5 (modellen returnerede ingen output; ingen understøttende undersøgelser identificeret) |
-| Markedsstatus i Danmark | Ikke på markedet |
-| Antal markedsføringstilladelser | 0 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvent** |
 
 ---
@@ -63,7 +64,7 @@ Der er ingen TxGNN-forudsigelse tilgængelig for cimicoxib i denne bevissamling,
 
 Cimicoxib er en selektiv cyklooxygenase-2 (COX-2)-hæmmer, der tilhører samme farmakologiske klasse som celecoxib og etoricoxib. I princippet har selektiv COX-2-hæmning en velkarakteriseret mekanistisk begrundelse på tværs af flere menneskelige sygdomsarealer — herunder smertesyndromater, inflammatorisk arthritis og visse onkologiske indikationer — fordi COX-2-afledt prostaglandiner medierer betændelse, nociception og tumor-mikromiljø-signalering.
 
-Fordi TxGNN-videngraf-forudsigelse-pipeline'en returnerede et tomt resultatsæt for denne forbindelse, kan ingen specifik ny indikation evalueres på dette tidspunkt. Fraværet af forudsigelser kan afspejle begrænset DrugBank/videngraf-dækning for denne veterinære forbindelse, eller kan indikere, at stoffets molekylæreprofil ikke producerer statistisk signifikante sygdomsassociationer inden for TxGNN-modellen. Detaljerede mekanisme-af-handling-data er ikke tilgængelige i den aktuelle bevissamling, hvilket yderligere begrænser vurderingen.
+Fordi TxGNN-forudsigelse fra TxGNN-modellen (dyb læring)-pipeline'en returnerede et tomt resultatsæt for denne forbindelse, kan ingen specifik ny indikation evalueres på dette tidspunkt. Fraværet af forudsigelser kan afspejle begrænset DrugBank/videngraf-dækning for denne veterinære forbindelse, eller kan indikere, at stoffets molekylæreprofil ikke producerer statistisk signifikante sygdomsassociationer inden for TxGNN-modellen. Detaljerede mekanisme-af-handling-data er ikke tilgængelige i den aktuelle bevissamling, hvilket yderligere begrænser vurderingen.
 
 ---
 

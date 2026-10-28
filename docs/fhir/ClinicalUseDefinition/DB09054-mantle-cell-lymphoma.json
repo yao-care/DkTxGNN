@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09054",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09054"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "mantle-cell-lymphoma",
-          "display": "mantle cell lymphoma"
-        }
-      ],
-      "text": "mantle cell lymphoma"
+      "concept": {
+        "text": "mantle cell lymphoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9984
     }
   ]
 }

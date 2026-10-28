@@ -6,9 +6,9 @@ nav_order: 684
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prilocaine: forudsagt ny indikation Neuralgi (primært postherpetisk neuralgi) (evidensniveau L5). Oprindelig indikation: Tidlig sædafgang…"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: forudsagt ny indikation Papillary conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Prilocaine
@@ -33,12 +33,11 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Prilocain: Fra for tidlig sædafgang til neuralgi
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Prilocain er et amid-lokalbedøvelsesmiddel, som i TxGNN-vidensgrafen er knyttet til indikationerne for tidlig sædafgang og psykologisk betinget dyspareuni.
 TxGNN-modellen forudsiger, at det kan have effekt ved **neuralgi** (rang 5 blandt de forudsagte indikationer, valgt fordi den har det stærkeste evidensgrundlag), med **2 kliniske forsøg** (hvoraf kun 1 er direkte relevant) og **14 publikationer**, hvoraf de fleste er små, ældre og overvejende ukontrollerede.
 Den højest scorende forudsigelse (papillær konjunktivitis) har ingen understøttende evidens, så den er ikke valgt som hovedindikation.
 
@@ -48,12 +47,12 @@ Den højest scorende forudsigelse (papillær konjunktivitis) har ingen understø
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Tidlig sædafgang, psykologisk betinget dyspareuni (fra TxGNN-vidensgrafen; de danske godkendelsestekster er tomme) |
-| Forudsagt ny indikation | Neuralgi (primært postherpetisk neuralgi) |
-| TxGNN-forudsigelsesscore | 99,34 % |
-| Evidensniveau | L2 (formelt); i praksis svagt, da kun ét lille Phase 2-forsøg uden kontrolgruppe |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Papillary conjunctivitis |
+| TxGNN-forudsigelsesscore | 0.9978 |
+| Evidensniveau | L5 (formelt); i praksis svagt, da kun ét lille Phase 2-forsøg uden kontrolgruppe |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (der er sat "Research Question" i datagrundlaget; se konklusionen) |
 
 ---

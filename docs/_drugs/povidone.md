@@ -6,9 +6,9 @@ nav_order: 674
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Povidone: forudsagt ny indikation Kongenit ichthyosiform erytrodermi (evidensniveau L5). Oprindelig indikation: Tørt øje-syndrom / xeroftalmi"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Povidone: forudsagt ny indikation Kongenit ichthyosiform erytrodermi (congenital ichthyosiform erythroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Povidone
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Povidon: Fra tørre øjne til kongenit ichthyosiform erytrodermi
+## Povidone: Kongenit ichthyosiform erytrodermi (congenital ichthyosiform erythroderma)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ men der er på nuværende tidspunkt **ingen registrerede kliniske forsøg** og *
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Tørt øje-syndrom / xeroftalmi (fra TxGNN-vidensgrafen; der er ingen godkendt indikationstekst i den danske registrering) |
-| Forudsagt ny indikation | Kongenit ichthyosiform erytrodermi |
-| TxGNN-forudsigelsesscore | 99,11 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Kongenit ichthyosiform erytrodermi (congenital ichthyosiform erythroderma) |
+| TxGNN-forudsigelsesscore | 0.9911 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

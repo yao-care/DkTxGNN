@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i ét afsnit
 
-Fluorescein er et diagnostisk farvestof, som anvendes til fluorescein-angiografi og til farvning af øjets overflade. TxGNN-modellen forudsiger, at stoffet kan have effekt på **Prinzmetal-angina** (score 99,81 %), men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som understøtter forudsigelsen. Den høje score er udelukkende en netværksbaseret modelberegning.
+Fluorescein er et diagnostisk farvestof, som anvendes til fluorescein-angiografi og til farvning af øjets overflade. TxGNN-modellen forudsiger, at stoffet kan have effekt på **Prinzmetal-angina** (score 0,9981), men der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som understøtter forudsigelsen. Den høje score er udelukkende en netværksbaseret modelberegning.
 
 ---
 
@@ -48,10 +48,10 @@ Fluorescein er et diagnostisk farvestof, som anvendes til fluorescein-angiografi
 |------|------|
 | Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsernes indikationstekst er tom). Stoffet kendes som diagnostisk middel til angiografi og øjenfarvning |
 | Forudsagt ny indikation | Prinzmetal-angina |
-| TxGNN-forudsigelsesscore | 99,81 % |
+| TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Fluorescein er et diagnostisk farvestof, som anvendes til fluorescein-angiografi
 
 Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanisme. Fluorescein er et diagnostisk farvestof uden kendt karudvidende eller antianginøs aktivitet. Der kan derfor ikke etableres en mekanistisk forbindelse mellem stoffets kendte anvendelse og Prinzmetal-angina (karspasmer i kranspulsårerne).
 
-Den meget høje TxGNN-score afspejler sandsynligvis nærhed i vidensgrafen, ikke en reel terapeutisk effekt. Forudsigelsen bør derfor behandles som en hypotese uden understøttelse.
+Den meget høje TxGNN-score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor behandles som en hypotese uden understøttelse.
 
 Også de øvrige forudsigelser i top 10 (bl.a. antitrombin-mangel type 2, leddegigt, faktor 5-overskud, hæmoglobinopati, heparin-cofaktor 2-mangel, trombofili, hyperthyreoidisme, delvis deletion af kromosom 16's korte arm og beta-thalassæmi) mangler mekanistisk grundlag. For hæmoglobinopati, trombofili og hyperthyreoidisme findes der litteratur, men den handler om fluorescein som **diagnostisk redskab** ved øjenkomplikationer, ikke om behandling af selve sygdommen.
 

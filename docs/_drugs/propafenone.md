@@ -4,17 +4,17 @@ title: Propafenone
 parent: Kun modelforudsigelse (L5)
 nav_order: 690
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Propafenone: forudsagt ny indikation Manisk bipolar lidelse (rang 1) (evidensniveau L5). Oprindelig indikation: Atrieflimren og ventrikulær takykardi (fra videngrafen"
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone: forudsagt ny indikation Manisk bipolar lidelse (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Propafenon: Fra atrieflimren og ventrikulær takykardi til katekolaminerg polymorf ventrikulær takykardi (CPVT)
+## Propafenone: Manisk bipolar lidelse (rang 1); klinisk mest relevante: katekolaminerg polymorf ventrikulær takykardi (manic bipolar affective disorder)
 {: .text-alpha }
 
 ## Sammenfatning
 
 Propafenon er et klasse IC-antiarytmikum (natriumkanalblokker), som oprindeligt anvendes til behandling af atrieflimren og ventrikulær takykardi.
-TxGNN-modellen forudsiger en række nye indikationer. Den bedst underbyggede er **katekolaminerg polymorf ventrikulær takykardi (CPVT)** (score 99,79 %), støttet af **0 registrerede kliniske forsøg** og **10 publikationer** (primært prækliniske data og case-niveau data).
+TxGNN-modellen (deep learning) forudsiger en række nye indikationer. Den bedst underbyggede er **manisk bipolar lidelse** (score 0,9980), støttet af **0 registrerede kliniske forsøg** og **10 publikationer** (primært prækliniske data og case-niveau data).
 Den højest scorende forudsigelse, **manisk bipolar lidelse**, støttes ikke af data, og litteraturen peger snarere på skade end gavn.
 
 ---
@@ -48,12 +48,12 @@ Den højest scorende forudsigelse, **manisk bipolar lidelse**, støttes ikke af 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Atrieflimren og ventrikulær takykardi (fra videngrafen; indikationsteksten i det danske markedsføringstilladelsesregister er ikke angivet) |
-| Forudsagt ny indikation | Manisk bipolar lidelse (rang 1); klinisk mest relevante: katekolaminerg polymorf ventrikulær takykardi (rang 2) |
-| TxGNN-forudsigelsesscore | 99,80 % (manisk bipolar lidelse); 99,79 % (CPVT) |
-| Evidensniveau | L4 (manisk bipolar lidelse); L3 (CPVT) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Manisk bipolar lidelse (rang 1); klinisk mest relevante: katekolaminerg polymorf ventrikulær takykardi (manic bipolar affective disorder) |
+| TxGNN-forudsigelsesscore | 0.9980 |
+| Evidensniveau | L5 (manisk bipolar lidelse); L3 (CPVT) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (manisk bipolar lidelse); Proceed with Guardrails ved en målrettet forskningsundersøgelse af CPVT |
 
 ---

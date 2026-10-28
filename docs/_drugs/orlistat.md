@@ -4,17 +4,17 @@ title: Orlistat
 parent: Kun modelforudsigelse (L5)
 nav_order: 612
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Orlistat: forudsagt ny indikation Hypervitaminose (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder) og monogen fedme. Den danske autorisation in…"
 monitor_inn: "ORLISTAT"
-predicted_indications: ["hypervitaminosis", "hypervitaminosis"]
+predicted_indications: ["hypervitaminosis"]
 ---
 
 # Orlistat
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Fedme (obesity disorder) og monogen fedme. Den danske autorisation indeholder ingen registreret indikationstekst. |
 | Forudsagt ny indikation | Hypervitaminose |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

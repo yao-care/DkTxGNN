@@ -4,17 +4,17 @@ title: Fentanyl
 parent: Kun modelforudsigelse (L5)
 nav_order: 354
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Fentanyl: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst…"
 monitor_inn: "FENTANYL"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "Tourette syndrome"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Fentanyl
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark markedsf�
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst er tom) |
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese |
-| TxGNN-forudsigelsesscore | 99,46 % |
+| TxGNN-forudsigelsesscore | 0,9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score 99,05 %, evidensniveau L5, anbefaling Hold). Begge forudsigelser optræder to gange i datagrundlaget.
+Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score 0,9905, evidensniveau L5, anbefaling Hold). Begge forudsigelser optræder to gange i datagrundlaget.
 
 ---
 
@@ -62,7 +62,7 @@ Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score
 
 Data om fentanyls detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Fentanyl er dog generelt kendt som en mu-opioidreceptoragonist med stærk smertestillende effekt.
 
-NSIAD skyldes en aktiverende (gain-of-function) mutation i vasopressin V2-receptoren (AVPR2), som virker uafhængigt af vasopressin. Opioider kan påvirke frigivelsen af antidiuretisk hormon og nyrernes vandhåndtering, men en mu-opioidagonist forventes ikke at kunne korrigere en defekt på receptorniveau. Forudsigelsen er derfor biologisk usandsynlig uden yderligere evidens og kan afspejle netværksartefakter i vidensgrafen, fx delte forbindelser til vandbalance eller vasopressinveje.
+NSIAD skyldes en aktiverende (gain-of-function) mutation i vasopressin V2-receptoren (AVPR2), som virker uafhængigt af vasopressin. Opioider kan påvirke frigivelsen af antidiuretisk hormon og nyrernes vandhåndtering, men en mu-opioidagonist forventes ikke at kunne korrigere en defekt på receptorniveau. Forudsigelsen er derfor biologisk usandsynlig uden yderligere evidens. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 For **Tourettes syndrom** involverer sygdommen forstyrrelser i cortico-striato-thalamo-corticale kredsløb og dopaminerg signalering. Endogen opioidmodulation af disse kredsløb er undersøgt i litteraturen, men fentanyl har ingen etableret terapeutisk rolle. Misbrugspotentiale, risiko for respirationsdepression samt tolerans- og afhængighedsprofil gør stoffet til en dårlig kandidat til en kronisk neuropsykiatrisk tilstand.
 

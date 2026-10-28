@@ -39,7 +39,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 ## Opsummering
 
 Hydromorphon er en stærk opioid (mu-opioidagonist), som i videnbasen bag TxGNN er knyttet til forkølelse og nasopharyngitis. Klinisk bruges stoffet først og fremmest mod svær smerte.
-TxGNN-modellen forudsiger, at det kan have effekt ved **pharyngitis** (score 99,81 %), men de tilgængelige studier handler om smertebehandling efter tonsillektomi og ikke om behandling af selve pharyngitis. Der er **3 kliniske forsøg** og **ingen publikationer** for denne indikation, og evidensen er derfor meget svag.
+TxGNN-modellen forudsiger, at det kan have effekt ved **pharyngitis** (score 0,9981), men de tilgængelige studier handler om smertebehandling efter tonsillektomi og ikke om behandling af selve pharyngitis. Der er **3 kliniske forsøg** og **ingen publikationer** for denne indikation, og evidensen er derfor meget svag.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **pharyngitis** (score 99,
 |------|------|
 | Oprindelig indikation | Forkølelse og nasopharyngitis (fra TxGNN-videnbasen; godkendelsesteksten for det danske produkt er ikke angivet) |
 | Forudsagt ny indikation | Pharyngitis |
-| TxGNN-forudsigelsesscore | 99,81 % |
-| Evidensniveau | L4 (ingen direkte studier af pharyngitis; kun indirekte studier af postoperativ smerte) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9981 |
+| Evidensniveau | L5 (ingen direkte studier af pharyngitis; kun indirekte studier af postoperativ smerte) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -79,7 +79,7 @@ Alle tre forsøg er vurderet som indirekte evidens (relevansgrad C).
 
 ### Supplerende evidens for hovedpine (forudsigelse nr. 5)
 
-For forudsigelsen **hovedpinesygdom** (score 99,65 %) findes der et direkte relevant forsøg:
+For forudsigelsen **hovedpinesygdom** (score 0,9965) findes der et direkte relevant forsøg:
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|

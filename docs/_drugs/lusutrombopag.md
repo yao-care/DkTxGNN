@@ -4,17 +4,17 @@ title: Lusutrombopag
 parent: Kun modelforudsigelse (L5)
 nav_order: 516
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lusutrombopag: forudsagt ny indikation Arvelig trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopeni (ifølge vidensgrafen"
+indication_count: 9
 monitor_inn: "Lusutrombopag"
-predicted_indications: ["hereditary thrombocytopenia with normal platelets", "hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "transient neonatal thrombocytopenia", "dense granule disease", "dense granule disease", "platelet storage pool deficiency", "platelet storage pool deficiency"]
+predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+last_modified_at: 2026-10-23
+description: "Lusutrombopag: forudsagt ny indikation Hereditary thrombocytopenia with normal platelets (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lusutrombopag
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lusutrombopag: Fra trombocytopeni til arvelig trombocytopeni med normale blodplader
+## Lusutrombopag: Hereditary thrombocytopenia with normal platelets
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Lusutrombopag er en oral thrombopoietinreceptor-agonist, som oprindeligt anvendes mod trombocytopeni (lavt antal blodplader).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **arvelig trombocytopeni med normale blodplader**,
-men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen.
+Lusutrombopag er oprindeligt registreret i vidensgrafen som et lægemiddel mod trombocytopeni (lavt antal blodplader).
+TxGNN-modellen forudsiger, at det kan have effekt ved **arvelig trombocytopeni med normale blodplader**,
+men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, der understøtter denne retning. Forudsigelsen er udelukkende beregnet af modellen.
 
 ---
 
@@ -48,87 +48,69 @@ men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Trombocytopeni (ifølge vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
-| Forudsagt ny indikation | Arvelig trombocytopeni med normale blodplader |
-| TxGNN-forudsigelsesscore | 99,995 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hereditary thrombocytopenia with normal platelets |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold (afvent) |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-De data, der er indsamlet til denne rapport, indeholder ikke en detaljeret beskrivelse af virkningsmekanismen. Lusutrombopag tilhører dog klassen af thrombopoietinreceptor-agonister (TPO-R, c-Mpl). Disse stimulerer megakaryocytters udvikling og dermed blodpladeproduktionen. Virkningen er påvist ved trombocytopeni, og mekanistisk kan den være relevant ved andre trombocytopenier.
+De data, der er indsamlet til denne rapport, indeholder ikke en detaljeret beskrivelse af virkningsmekanismen. Lusutrombopag er dog kendt som en oral agonist af thrombopoietin-receptoren (TPO-R/c-Mpl), som stimulerer megakaryocytters proliferation og modning og dermed kan øge antallet af blodplader.
 
-Et plausibelt grundlag findes for tilstande, hvor TPO-receptorsignaleringen og megakaryocytternes kapacitet er bevaret. Om effekten gælder arvelig trombocytopeni, afhænger af den underliggende genetiske defekt, og den høje modelscore er ikke i sig selv klinisk evidens.
+Den forudsagte indikation deler fænotypen lavt blodpladetal med den oprindelige indikation. En mekanistisk begrundelse kan i teorien findes for arvelige trombocytopenier, hvor megakaryocytternes kapacitet er bevaret. Den genetiske årsag og responsen på TPO-R-stimulering er imidlertid ikke specificeret.
 
-Bemærk, at det anvendte datagrundlag ikke indeholder nogen forsøg eller litteratur for denne indikation.
-
-### Øvrige forudsigelser med lavere plausibilitet
-
-Modellen foreslår også følgende. Alle har evidensniveau L5 og anbefalingen Hold:
-
-| Forudsagt indikation | Score | Vurdering |
-|------|------|------|
-| Makrotrombocytopeni med mitralklapinsufficiens | 99,995 % | Effekten afhænger af den genetiske defekt; klapsygdommen påvirkes ikke af mekanismen |
-| Forbigående neonatal trombocytopeni | 99,995 % | Tilstanden er ofte selvbegrænsende; der er ingen pædiatriske eller neonatale sikkerhedsdata |
-| Dense granule disease | 99,995 % | Kvalitativ blodpladedefekt; øget antal korrigerer ikke funktionen, og der er risiko for trombose |
-| Trombocytlagerpuljesygdom (platelet storage pool deficiency) | 99,958 % | Kvalitativ defekt; kun purt beregningsmæssigt grundlag |
+Den meget høje score er en rent beregnet forudsigelse. Der er ikke fremlagt kliniske eller litteraturmæssige data, der bekræfter den.
 
 ---
 
-## Dokumentation fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger i øjeblikket ingen relateret litteratur.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106063018 | Mulpleo (Shionogi B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de foreliggende data |
+| 28106063018 | Mulpleo | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
+
+Indehaver: Shionogi B.V.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret 100 mulige interaktioner. Blandt de første 20 er alle klassificeret som **moderate**. Eksempler:
+- **Lægemiddelinteraktioner:** Interaktionsforespørgslen gav 100 registrerede interaktioner. Blandt de første 20 er alle klassificeret som moderate, bl.a. med hydrocortison, clarithromycin, eliglustat, fidaxomicin, rolapitant, simvastatin, tolbutamid, cobicistat, abirateron, lidocain, nifedipin, afatinib, alpelisib, amiodaron, testosteron, apremilast, atazanavir, azithromycin, ingefær og cabozantinib.
 
-- Hydrocortison, clarithromycin, azithromycin, fidaxomicin
-- Eliglustat, rolapitant, cobicistat, atazanavir
-- Simvastatin, tolbutamid, nifedipin, amiodaron, lidocain
-- Abirateron, afatinib, alpelisib, cabozantinib, apremilast
-- Testosteron, ingefær
-
-Derudover er der teoretisk bekymring for trombose ved TPO-R-agonister, især ved forudsagte indikationer, hvor blodpladetallet ikke er den primære årsag til sygdommen (fx dense granule disease). Dette er en vurdering fra analysen og ikke en kilde fra produktresuméet.
-
-Oplysninger om advarsler og kontraindikationer fra produktresuméet mangler i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Hold (afvent)**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publikationer. Virkningsmekanismen og sikkerhedsoplysningerne fra produktresuméet mangler i de indsamlede data, og flere af de forudsagte sygdomme har svag biologisk plausibilitet.
+Forudsigelsen bygger kun på modellen (evidensniveau L5). Der findes hverken kliniske forsøg eller publikationer for den forudsagte sygdom, og den genetiske baggrund for lidelsen er uspecificeret.
 
-**For at komme videre kræves følgende:**
-- Hent og gennemgå produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
-- Supplér data om virkningsmekanisme (MOA), fx fra DrugBank
-- Systematisk litteratur- og forsøgssøgning for arvelig trombocytopeni
-- Vurdér, om den underliggende genetiske defekt tillader respons på TPO-R-agonisme
-- Vurdér trombose- og leverrisiko samt sikkerhed i særlige populationer (børn, nyfødte)
-- Gennemgå de moderate interaktioner, især med CYP3A4-relaterede stoffer
+**For at komme videre kræves:**
+- Data om virkningsmekanisme fra DrugBank
+- Advarsler og kontraindikationer fra produktresuméet for Mulpleo
+- Præklinisk eller klinisk evidens for TPO-R-agonisme ved den specifikke arvelige trombocytopeni
+- Afklaring af den genetiske årsag og responsen på TPO-R-stimulering i målpopulationen
+- Vurdering af risikoen for trombose ved øget blodpladetal
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

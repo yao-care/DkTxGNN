@@ -50,10 +50,10 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (1 oversig
 |------|------|
 | Oprindelig indikation | Svampeinfektioner i hud og slimhinder (fodsvamp, tinea corporis, hudcandidiasis, pityriasis versicolor, vulvovaginal candidiasis m.fl.). Indikationsteksten i den danske godkendelse er ikke tilgængelig. |
 | Forudsagt ny indikation | Akne |
-| TxGNN-forudsigelsesscore | 99,54 % |
+| TxGNN-forudsigelsesscore | 0,9954 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Doxycycline
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 281
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L4). Oprindelig indikation: Bronkitis, acne, bakteriel lungebetændelse, miltbrand…"
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Doxycycline
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Doxycyclin: Fra bronkitis til punktformet epitelial keratokonjunktivitis
+## Doxycycline: Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en c
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bronkitis, acne, bakteriel lungebetændelse, miltbrand, gonoré m.fl. (fra TxGNN-vidensgrafen; de danske tilladelsers indikationstekst var ikke tilgængelig) |
-| Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis |
-| TxGNN-forudsigelsesscore | 99,94 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9994 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

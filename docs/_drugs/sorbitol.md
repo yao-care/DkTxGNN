@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **udøvelsesudløst ma
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data |
 | Forudsagt ny indikation | Udøvelsesudløst malign hypertermi |
-| TxGNN-forudsigelsesscore | 99,40 % |
+| TxGNN-forudsigelsesscore | 0.9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **udøvelsesudløst ma
 
 Der foreligger ingen data om sorbitols detaljerede virkningsmekanisme. Sorbitol er kendt som et osmotisk middel og et sukkeralkohol, men der er ingen oprindelig indikation i de indsamlede data, som kan sammenlignes med den forudsagte nye indikation.
 
-Der er ikke påvist nogen etableret mekanistisk sammenhæng. Malign hypertermi er en forstyrrelse af calciumreguleringen i skeletmuskulatur, typisk forbundet med RYR1-varianter. En forbindelse til et osmotisk middel som sorbitol vil derfor være spekulativ. Den høje score (0,994) er alene en beregningsmæssig forudsigelse og kan afspejle nærhed i vidensgrafen snarere end en reel farmakologisk effekt.
+Der er ikke påvist nogen etableret mekanistisk sammenhæng. Malign hypertermi er en forstyrrelse af calciumreguleringen i skeletmuskulatur, typisk forbundet med RYR1-varianter. En forbindelse til et osmotisk middel som sorbitol vil derfor være spekulativ. Den høje score (0.9940) er alene en beregningsmæssig forudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Bemærk desuden, at "exercise-induced malignant hyperthermia" ikke er en gængs klinisk betegnelse. Diagnosen kan svare til anstrengelsesudløst hedeskade (exertional heat illness) eller rabdomyolyse, og det bør afklares, før der arbejdes videre.
 
@@ -77,7 +77,7 @@ Bemærk desuden, at "exercise-induced malignant hyperthermia" ikke er en gængs 
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgraf (ikke produktresumé):** TxGNN-vidensgrafen (PrimeKG) angiver kontraindikation ved **aktiv mavesår** (active peptic ulcer disease). Dette stammer fra relationer i vidensgrafen og ikke fra produkttekst.
+- **Kontraindikationer (ikke produktresumé):** Kontraindikation ved **aktiv mavesår** (active peptic ulcer disease) stammer ikke fra produkttekst.
 - **Lægemiddelinteraktioner** (6 registreringer, som dækker 2 unikke stoffer):
   - **Tolevamer**: alvorlig (Major)
   - **Lamivudin**: moderat (Moderate)

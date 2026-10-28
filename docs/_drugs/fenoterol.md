@@ -50,10 +50,10 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksten for det danske produkt er tom) |
 | Forudsagt ny indikation | Multipel systematrofi |
-| TxGNN-forudsigelsesscore | 99,70 % |
+| TxGNN-forudsigelsesscore | 0,9970 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede da
 
 Et teoretisk link til MSA kunne være beta-2-agonisters påvirkning af alfa-synuclein-ekspression (rapporteret for andre beta-2-agonister som salbutamol i epidemiologiske og cellebaserede studier) eller symptomatiske effekter på autonom dysfunktion. Der er dog en væsentlig modsætning: MSA er kendetegnet ved neurogen ortostatisk hypotension, og en vasodilaterende beta-2-agonist, der kan give takykardi, kan forværre den hæmodynamiske ustabilitet.
 
-Den høje score er derfor en ren computerbaseret forudsigelse, sandsynligvis afspejlende associationer i vidensgrafen, og ikke et resultat understøttet af kliniske data.
+Den høje score er derfor en ren computerbaseret forudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, men er ikke biologisk evidens og ikke et resultat understøttet af kliniske data.
 
 ---
 
@@ -119,13 +119,13 @@ Alle nedenstående har evidensniveau L5, ingen kliniske forsøg eller litteratur
 
 | Rang | Sygdom | TxGNN-score | Bemærkning |
 |------|------|------|------|
-| 2 | Postural ortostatisk takykardisyndrom (POTS) | 99,61 % | Mekanistisk tvivlsom; kan forværre takykardi |
-| 3 | Variabelt proteasefølsom prionopati | 99,54 % | Ingen klar mekanistisk begrundelse; ultrasjælden sygdom |
-| 4 | Åbenvinklet glaukom | 99,43 % | Plausibel men indirekte (påvirkning af kammervand); systemiske bivirkninger |
-| 5 | Raynauds sygdom | 99,41 % | Vasodilatation er plausibel, men tolerabiliteten er begrænset |
-| 6 | Primær arvelig glaukom | 99,37 % | Strukturelle defekter; højst symptomatisk effekt |
-| 7 | Sinoatrial blok | 99,35 % | Kronotrop effekt plausibel, men proarytmisk risiko |
-| 8 | Sygdom i sinusknuden | 99,25 % | Behandles typisk med pacemaker; arytmirisiko |
+| 2 | Postural ortostatisk takykardisyndrom (POTS) | 0,9961 | Mekanistisk tvivlsom; kan forværre takykardi |
+| 3 | Variabelt proteasefølsom prionopati | 0,9954 | Ingen klar mekanistisk begrundelse; ultrasjælden sygdom |
+| 4 | Åbenvinklet glaukom | 0,9943 | Plausibel men indirekte (påvirkning af kammervand); systemiske bivirkninger |
+| 5 | Raynauds sygdom | 0,9941 | Vasodilatation er plausibel, men tolerabiliteten er begrænset |
+| 6 | Primær arvelig glaukom | 0,9937 | Strukturelle defekter; højst symptomatisk effekt |
+| 7 | Sinoatrial blok | 0,9935 | Kronotrop effekt plausibel, men proarytmisk risiko |
+| 8 | Sygdom i sinusknuden | 0,9925 | Behandles typisk med pacemaker; arytmirisiko |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

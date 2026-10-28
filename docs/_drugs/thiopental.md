@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Thiopental
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 823
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Thiopental: forudsagt ny indikation Frontallapsepilepsi (rang 2 i prædiktionslisten (evidensniveau L4). Oprindelig indikation: Epilepsi, pseudotumor cerebri…"
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Thiopental: forudsagt ny indikation Trichotillomania (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Thiopental
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Thiopental: Fra epilepsi til frontallapsepilepsi
+## Thiopental: Trichotillomania
 {: .text-alpha }
 
 ## Sammenfatning
@@ -46,12 +46,12 @@ Thiopental er et barbiturat, som oprindeligt anvendes ved epilepsi, pseudotumor 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Epilepsi, pseudotumor cerebri, intrakranielt forhøjet tryk (fra vidensgrafen; godkendelsesteksten i de danske tilladelser er tom) |
-| Forudsagt ny indikation | Frontallapsepilepsi (rang 2 i prædiktionslisten; rang 1 er trikotillomani uden nogen evidens) |
-| TxGNN-prædiktionsscore | 99,95 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trichotillomania |
+| TxGNN-prædiktionsscore | 0.9995 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

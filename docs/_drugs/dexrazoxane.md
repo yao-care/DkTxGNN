@@ -39,7 +39,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Resumé
 
 Dexrazoxan er et lægemiddel, der i Danmark er godkendt som Savene. Det anvendes i det kliniske felt omkring cytostatika, men den godkendte indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **skleroserende kolangitis** (score 99,99 %), men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter denne retning.
+TxGNN-modellen forudsiger, at det kan være virksomt mod **skleroserende kolangitis** (score 0,9999), men der er **ingen kliniske forsøg og ingen publikationer**, der understøtter denne retning.
 Forudsigelsen hviler udelukkende på modellen.
 
 ---
@@ -50,10 +50,10 @@ Forudsigelsen hviler udelukkende på modellen.
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de indsamlede data |
 | Forudsagt ny indikation | Skleroserende kolangitis |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Forudsigelsen hviler udelukkende på modellen.
 
 Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Dexrazoxan er kendt som en jernchelator og en katalytisk hæmmer af topoisomerase II. Dens kardiobeskyttende effekt antages at hænge sammen med mindsket jernafhængig oxidativ stress.
 
-En sammenhæng med kolestatisk leverskade er på nuværende tidspunkt kun spekulativ. Der er ikke fundet data, som understøtter den, og lighed med den oprindelige indikation er endnu ikke vurderet. Scoren på 99,99 % er en modelforudsigelse og bør ikke tolkes som klinisk evidens.
+En sammenhæng med kolestatisk leverskade er på nuværende tidspunkt kun spekulativ. Der er ikke fundet data, som understøtter den, og lighed med den oprindelige indikation er endnu ikke vurderet. Scoren på 0,9999 er en modelforudsigelse og bør ikke tolkes som klinisk evidens.
 
 ### Øvrige forudsigelser
 

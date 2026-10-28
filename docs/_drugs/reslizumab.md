@@ -4,17 +4,17 @@ title: Reslizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 713
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Reslizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (evidensniveau L5). Oprindelig indikation: Eosinofil pneumoni / pulmonal eosinofili (angivet i vidensgrafen"
 monitor_inn: "Reslizumab"
-predicted_indications: ["thrombocytopenia due to immune destruction", "thrombocytopenia due to immune destruction", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia"]
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
+description: "Reslizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale da…"
 ---
 
 # Reslizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Reslizumab: Fra eosinofil lungebetændelse til immunmedieret trombocytopeni
+## Reslizumab: Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Der foreligger **ingen kliniske forsøg** og **ingen publikationer** direkte for
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Eosinofil pneumoni / pulmonal eosinofili (angivet i vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
-| Foreslået ny indikation | Trombocytopeni på grund af immundestruktion |
-| TxGNN-prædiktionsscore | 99,53 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Foreslået ny indikation | Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction) |
+| TxGNN-prædiktionsscore | 0.9953 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Der foreligger **ingen kliniske forsøg** og **ingen publikationer** direkte for
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Reslizumab er dog et monoklonalt anti-IL-5-antistof, som nedsætter eosinofilernes aktivitet og overlevelse. Det forklarer den oprindelige tilknytning til eosinofile lungesygdomme.
 
-Immunmedieret trombocytopeni drives primært af autoantistof- og T-cellemedieret nedbrydning af blodplader samt nedsat megakaryopoiese. Der er ingen kendt eosinofil- eller IL-5-afhængig sygdomsvej, og derfor er den mekanistiske sammenhæng svag. Den høje score (0,995) er det eneste, der støtter forudsigelsen.
+Immunmedieret trombocytopeni drives primært af autoantistof- og T-cellemedieret nedbrydning af blodplader samt nedsat megakaryopoiese. Der er ingen kendt eosinofil- eller IL-5-afhængig sygdomsvej, og derfor er den mekanistiske sammenhæng svag. Den høje score (0,9953) er det eneste, der støtter forudsigelsen.
 
-Øvrige forudsagte indikationer fra modellen fremstår på samme måde mekanistisk uforklarede: primær frigørelsesdefekt af blodplader, pseudo-von Willebrand sygdom, autoimmun trombocytopeni og Glanzmanns trombasteni. Der er tale om genetiske eller intrinsiske trombocytdefekter eller autoimmune processer uden kendt forbindelse til IL-5.
+Der er tale om genetiske eller intrinsiske trombocytdefekter eller autoimmune processer uden kendt forbindelse til IL-5.
 
 ---
 

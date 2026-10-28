@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Haloperidol: forudsagt ny indikation Medfødt glykosyleringsforstyrrelse med defekt fucosylering (evidensniveau L5). Oprindelig indikation: Psykotiske lidelser, skizofreni, skizoaffektiv lidelse…"
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "hydranencephaly (disease)", "myopia X-linked", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+last_modified_at: 2026-10-23
+description: "Haloperidol: forudsagt ny indikation Congenital disorder of glycosylation with defective fucosylation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Haloperidol
@@ -33,93 +33,94 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Haloperidol: Fra psykotiske lidelser til medfødt glykosyleringsforstyrrelse med defekt fucosylering
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## Resumé
 
-Haloperidol er et antipsykotikum, der oprindeligt anvendes til behandling af psykotiske lidelser, skizofreni og Tourettes syndrom.
-TxGNN-modellen forudsiger, at det kan have effekt på **medfødt glykosyleringsforstyrrelse med defekt fucosylering**,
-men der er **0 kliniske forsøg** og **0 publikationer** for denne indikation. Forudsigelsen er udelukkende modelbaseret.
+TxGNN-modellen forudsiger, at det kan have effekt ved **kongenit glykosyleringsforstyrrelse med defekt fucosylering**.
+Forudsigelsen er rent beregningsbaseret. De sammenstillede data indeholder **ingen kliniske forsøg** og **ingen publikationer** om denne sygdom.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Psykotiske lidelser, skizofreni, skizoaffektiv lidelse, Tourettes syndrom (fra vidensgrafen; det danske markedsføringstilladelsesdata indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Medfødt glykosyleringsforstyrrelse med defekt fucosylering |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Congenital disorder of glycosylation with defective fucosylation |
+| TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor kan forudsigelsen være rimelig?
+---
 
-Data om haloperidols virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Haloperidol er kendt som en dopamin D2-receptorantagonist, men det kan ikke underbygges af de foreliggende data, og der kan derfor ikke opstilles en biologisk begrundelse for den forudsagte indikation.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er ingen oplagt sammenhæng mellem de oprindelige psykiatriske/neurologiske indikationer og en medfødt glykosyleringsforstyrrelse, som er en sjælden metabolisk sygdom. Den høje score er en ren grafbaseret forudsigelse uden understøttende forsøg eller litteratur. Enhver hypotese vil være spekulativ.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de sammenstillede data. Haloperidol er kendt som dopamin D2-receptorantagonist, og det ligger bag den antipsykotiske effekt. Der er ikke identificeret nogen plausibel forbindelse mellem dopaminblokade og fucosyleringsvejen i proteinglykosylering.
 
-**Andre forudsagte indikationer med højt score (alle uden klinisk evidens):**
-- Retinal dystrofi med eller uden ekstraokulære anomalier (99,91 %): Der findes to præklinske dyrestudier (se nedenfor), som viser påvirkning af nethindens ganglieceller. De viser ikke effekt på sygdomsforløbet.
-- Hydranencefali (99,90 %): Ingen plausibel sygdomsmodificerende rolle for en D2-antagonist.
-- X-bundet myopi (99,89 %): Dopaminantagonisme kan teoretisk virke i modsat retning af dopaminets beskyttende effekt mod myopi.
-- Charcot-Marie-Tooth sygdom, demyeliniserende, type 1G (99,89 %): Ingen kobling til sygdommens patofysiologi.
+Den oprindelige brug (psykotiske lidelser) og den forudsagte sygdom (en medfødt metabolisk glykosyleringsforstyrrelse) har ikke noget åbenlyst patofysiologisk fællestræk. Forudsigelsen bør betragtes som en hypotese uden understøttelse.
 
-## Klinisk evidens
+---
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
+## Klinisk evidens fra forsøg
+
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
 
 ## Litteraturevidens
 
-Der er ingen litteratur for den primære forudsagte indikation (medfødt glykosyleringsforstyrrelse). For den tredjerangerede forudsigelse, retinal dystrofi, findes følgende prækliniske studier:
+Der foreligger i øjeblikket ingen relateret litteratur.
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [31181134](https://pubmed.ncbi.nlm.nih.gov/31181134/) | 2019 | Præklinisk (dyreelektrofysiologi) | PloS one | Antipsykotika påvirker kontrastresponsfunktioner i nethindens ganglieceller hos raske rotter og P23H-rotter (model for retinitis pigmentosa) |
-| [27788033](https://pubmed.ncbi.nlm.nih.gov/27788033/) | 2016 | Præklinisk (dyreelektrofysiologi) | J Ocul Pharmacol Ther | Haloperidol og clozapin påvirker visuelle responser i nethindens ganglieceller i en rottemodel af retinitis pigmentosa |
+---
 
-Studierne afspejler dopaminerg modulering af normal nethindesignalering og viser ikke effekt på selve sygdommen. Der foreligger ingen kliniske data hos patienter.
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100966159 | Serenase | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28100966159 | Serenase (Essential Pharma Limited) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
 
-Produktet er et enkeltstofpræparat (Essential Pharma Limited) med gyldig status.
+Der er registreret én gyldig tilladelse for et enkeltstofpræparat.
+
+---
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsinformation.
+**Kontraindikationer registreret i vidensgrafen** (ikke hentet fra produktresuméet):
+- Hjerterytme: langt QT-syndrom (inkl. familiær form), torsades de pointes
+- Neurologiske: epilepsi, sygdomme i basalganglierne, fokal håndsdystoni, blepharospasme, malignt neuroleptikasyndrom
+- Blodsygdomme: neutropeni (inkl. flere medfødte former), agranulocytose, leukopeni
+- Øvrige: leversygdom, galdeblæresygdom, hypotyreose/myxødem, kaliummangel, lavt blodtryk, brystkræft hos kvinder
 
-**Kontraindikationer fra vidensgrafen (ikke fra produktteksten):** Vidensgrafen angiver bl.a. følgende tilstande, hvor haloperidol er markeret som kontraindiceret:
-- Hjerterytme: langt QT-syndrom (herunder familiært) og torsades de pointes
-- Neurologiske: epilepsi, sygdomme i basalganglierne, fokal håndsdystoni, blefarospasme, malignt neuroleptikasyndrom
-- Blodsygdomme: neutropeni (herunder medfødte former), agranulocytose, leukopeni
-- Øvrige: leversygdom, galdeblæresygdom, hypotyreose/myxødem, kaliummangel, hypotension, brystkræft hos kvinder
-
-**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner. Blandt de viste er følgende af alvorlighedsgrad "Major":
+**Lægemiddelinteraktioner:** 100 interaktioner er registreret. Blandt dem er følgende klassificeret som **alvorlige**:
 - Bupropion
-- Morphin
+- Morfin
 - Clarithromycin
 - Dolasetron
 
-Flere interaktioner af moderat grad er også registreret, bl.a. med famotidin, epinephrin, hydrocortison, amphotericin B, atropin og loperamid.
+Der er desuden mange moderate interaktioner, bl.a. med famotidin, adrenalin, hydrocortison, amphotericin B, atropin, glycopyrronium, loperamid og aprepitant.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer, da disse ikke indgår i de sammenstillede data.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på en grafbaseret modelscore (evidensniveau L5) uden kliniske forsøg, litteratur eller en dokumenteret mekanistisk sammenhæng. Haloperidols sikkerhedsprofil, herunder QT-forlængelse, er desuden en væsentlig bekymring i en sårbar patientgruppe.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der er hverken kliniske forsøg, publikationer eller en plausibel mekanistisk forbindelse mellem haloperidol og denne glykosyleringsforstyrrelse. Samtidig har haloperidol en betydelig sikkerhedsprofil, bl.a. QT-forlængelse og mange interaktioner.
 
-**For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) for haloperidol
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Biologisk begrundelse for en sammenhæng mellem haloperidol og fucosyleringsdefekter, evt. via præklinisk arbejde
-- Systematisk litteraturgennemgang og søgning efter kliniske forsøg for de forudsagte indikationer
-- Vurdering af ruteforenelighed (kun injektionsvæske er markedsført i Danmark) og en sikkerhedsplan
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme og en biologisk hypotese for forbindelsen til fucosylering
+- Prækliniske studier (f.eks. cellemodeller af fucosyleringsdefekt)
+- Gennemgang af produktresuméets advarsler og kontraindikationer for lægemidlet
+- Vurdering af sikkerhed i en sjælden, ofte pædiatrisk patientgruppe
+
+**Bemærkning om øvrige forudsigelser:** Blandt de lavere rangerede forudsigelser har kun *manisk bipolar lidelse* kliniske data, herunder et afsluttet fase 3-forsøg (NCT00129220) med haloperidol som aktiv kontrol. Denne indikation ligger tæt på haloperidols eksisterende psykiatriske anvendelse og er derfor snarere en udvidelse end egentlig omplacering af lægemidlet.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

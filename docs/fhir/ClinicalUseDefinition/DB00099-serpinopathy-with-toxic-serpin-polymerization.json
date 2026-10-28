@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00099",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00099"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "serpinopathy-with-toxic-serpin-polymerization",
-          "display": "serpinopathy with toxic serpin polymerization"
-        }
-      ],
-      "text": "serpinopathy with toxic serpin polymerization"
+      "concept": {
+        "text": "serpinopathy with toxic serpin polymerization"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9981
     }
   ]
 }

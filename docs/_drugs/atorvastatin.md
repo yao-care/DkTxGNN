@@ -3,18 +3,18 @@ layout: default
 title: Atorvastatin
 parent: Høj evidens (L1-L2)
 nav_order: 84
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Atorvastatin: forudsagt ny indikation Familiær hypercholesterolæmi (evidensniveau L1). Oprindelig indikation: Hyperlipidæmi/hypertriglyceridæmi…"
+evidence_level: L2
+indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Atorvastatin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Atorvastatin
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Atorvastatin: Fra hyperlipidæmi og slagtilfælde til familiær hypercholesterolæmi
+## Atorvastatin: statin (HMG-CoA-reduktasehæmmer) → HIV-infektion (HIV infectious disease)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering i en sætning
 
-Atorvastatin er en HMG-CoA-reduktasehæmmer, der oprindeligt anvendes til behandling af forhøjede blodfedtstoffer (bl.a. hypertriglyceridæmi og homozygot familiær hypercholesterolæmi) og til forebyggelse af hjerte-kar-sygdom, herunder slagtilfælde og åreforkalkning.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **familiær hypercholesterolæmi**, og i de data, der er sammenstillet til denne rapport, indgår **14 kliniske forsøg** og **20 publikationer** inden for denne retning.
-Bemærk, at homozygot familiær hypercholesterolæmi allerede er en kendt indikation, så der er tale om en indikation tæt på den eksisterende snarere end en egentlig omlægning af anvendelsen.
+Atorvastatin er et kolesterolsænkende statin, som hæmmer enzymet HMG-CoA-reduktase.
+TxGNN-modellen forudsiger, at det kan have en rolle ved **HIV-infektion (HIV infectious disease)**.
+Der er **14 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport. De peger primært på nytte ved fedtstofskifteforstyrrelser, hjerte-kar-risiko og kronisk immunaktivering hos behandlede HIV-patienter, ikke på en direkte antiviral effekt.
 
 ---
 
@@ -48,106 +48,96 @@ Bemærk, at homozygot familiær hypercholesterolæmi allerede er en kendt indika
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hyperlipidæmi/hypertriglyceridæmi, slagtilfælde og cerebrovaskulær sygdom, åreforkalkning, homozygot familiær hypercholesterolæmi (fra vidensgrafen; produkternes godkendte indikationstekst er ikke tilgængelig) |
-| Forudsagt ny indikation | Familiær hypercholesterolæmi |
-| TxGNN-forudsigelsesscore | 99,42 % |
-| Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | HIV-infektion (HIV infectious disease) |
+| TxGNN-forudsigelsesscore | 0,9931 |
+| Evidensniveau | L2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Atorvastatin hæmmer enzymet HMG-CoA-reduktase, som er nøgleenzymet i leverens kolesterolsyntese. Det øger dermed antallet af LDL-receptorer på levercellerne og sænker LDL-kolesterol i blodet. De data, der er sammenstillet til denne rapport, indeholder ikke et detaljeret felt om virkningsmekanisme, men denne beskrivelse stemmer overens med litteraturen (fx PMID 10582478).
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Atorvastatin er dog et statin, og statiner sænker LDL-kolesterol ved at hæmme kolesterolsyntesen i leveren.
 
-Familiær hypercholesterolæmi (FH) skyldes oftest defekt LDL-receptorfunktion og medfører markant forhøjet LDL-kolesterol. Da atorvastatin virker via netop denne vej, er der en direkte mekanistisk sammenhæng med den oprindelige indikation. Homozygot FH er allerede en kendt indikation, og heterozygot FH er en nær udvidelse af samme princip. Ved resterende forhøjet LDL-kolesterol tilføjes ofte ezetimib eller andre midler oven på atorvastatin.
+Ud over kolesterolsænkningen har atorvastatin bredere antiinflammatoriske virkninger. Det kan bl.a. dæmpe aktiveringen af monocytter og makrofager og sænke den systemiske inflammation. Det er relevant ved behandlet HIV, hvor patienterne ofte har:
+
+- forhøjede blodfedtstoffer, især ved behandling med proteasehæmmere,
+- øget hjerte-kar-risiko,
+- vedvarende immunaktivering trods undertrykt virus.
+
+Den eksisterende evidens understøtter primært brug til proteasehæmmer-associeret dyslipidæmi og reduktion af hjerte-kar-risiko, ikke egentlig antiviral aktivitet. Samtidig brug med antiretrovirale midler, der hæmmer CYP3A4 (proteasehæmmere, cobicistat), kræver dosisbegrænsning på grund af interaktionsrisiko.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er identificeret 14 forsøg; de 10 mest relevante er vist. Atorvastatin er i flere af dem baggrundsbehandling eller komparator frem for det primære testlægemiddel.
-
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Fase 3 | Afsluttet | 272 | Treårigt åbent studie af atorvastatins effekt på kolesterol samt vækst og udvikling hos børn og unge med heterozygot FH |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Fase 3 | Afsluttet | 400 | Torcetrapib/atorvastatin versus atorvastatin alene ved heterozygot FH (torcetrapib-programmet blev stoppet i 2006 pga. sikkerhedsfund) |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Fase 3 | Afsluttet | 800 | Ultralydsundersøgelse af halspulsårer: torcetrapib/atorvastatin versus atorvastatin alene ved heterozygot FH |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Fase 3 | Afsluttet | 30 | Åbent studie af torcetrapib/atorvastatin ved homozygot FH |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Afsluttet | 50 | Ezetimib 10 mg tillagt atorvastatin eller simvastatin ved homozygot FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Afsluttet | 44 | Langtidsforlængelse (op til 24 måneder) af sikkerhed og tolerabilitet for ezetimib sammen med atorvastatin eller simvastatin ved homozygot FH |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Afsluttet | 249 | Alirocumab versus placebo ved heterozygot FH, utilstrækkeligt behandlet med lipidsænkende behandling |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Fase 1 | Afsluttet | 39 | Farmakokinetik, sikkerhed og tolerabilitet af atorvastatin hos børn og unge med heterozygot FH |
-| [NCT01279590](https://clinicaltrials.gov/study/NCT01279590) | Fase 2 | Afsluttet | 282 | PPD10558 versus atorvastatin ved statinrelateret myalgi hos patienter med primær hypercholesterolæmi |
-| [NCT01107743](https://clinicaltrials.gov/study/NCT01107743) | Ikke angivet | Afsluttet | 1.291 | Observationel sikkerhedsundersøgelse af amlodipin/atorvastatin (Caduet) i daglig praksis; ikke specifik for FH |
+| [NCT00367458](https://clinicaltrials.gov/study/NCT00367458) | Fase 2 | Afsluttet | 24 | Randomiseret, placebokontrolleret forsøg med atorvastatin hos HIV-positive uden antiretroviral behandling. Undersøger effekt på viral load og immunaktiveringsmarkører. Mest direkte kontrollerede evidens, men lille. |
+| [NCT01766076](https://clinicaltrials.gov/study/NCT01766076) | Fase 3 | Afsluttet | 30 | Randomiseret forsøg med atorvastatin som tillægsbehandling hos HAART-behandlede voksne med suboptimal CD4-genopretning. Undersøger immunaktivering. |
+| [NCT03037372](https://clinicaltrials.gov/study/NCT03037372) | Fase 3 | Ukendt | 320 | Atorvastatin versus rosuvastatin i 36 måneder som tillæg til antiretroviral behandling i Afrika. Undersøger immunaktivering, inflammation og immunaldring. |
+| [NCT02081638](https://clinicaltrials.gov/study/NCT02081638) | Fase 2 | Afsluttet | 53 | Statin versus aspirin hos "elite controllers" og ART-behandlede HIV-positive. Undersøger inflammation og blodpropdannelse. |
+| [NCT00965185](https://clinicaltrials.gov/study/NCT00965185) | Ikke angivet | Afsluttet | 40 | Statinbehandling mod plakinflammation og åreforkalkning hos HIV-patienter. Statinen er ikke angivet i titlen. |
+| [NCT01600170](https://clinicaltrials.gov/study/NCT01600170) | Fase 4 | Afsluttet | 11 | Statinmodulering af monocyt- og makrofagaktivering ved HIV-associerede neurokognitive forstyrrelser. Meget lille stikprøve. |
+| [NCT01263938](https://clinicaltrials.gov/study/NCT01263938) | Fase 4 | Afsluttet | 5 | Pilotforsøg med atorvastatins effekt på monocytaktivering hos HAART-behandlede. For lille til at være informativt. |
+| [NCT00663234](https://clinicaltrials.gov/study/NCT00663234) | Fase 1/2 | Afbrudt | 28 | Sikkerhed og effekt af stigende doser atorvastatin mod forhøjet LDL-kolesterol udløst af proteasehæmmere hos børn og unge med HIV. |
+| [NCT00355251](https://clinicaltrials.gov/study/NCT00355251) | Fase 4 | Afbrudt | 5 | Atorvastatins indflydelse på viral replikation før afbrydelse af antiretroviral behandling. Afbrudt med minimal rekruttering. |
+| [NCT00017758](https://clinicaltrials.gov/study/NCT00017758) | Fase 1 | Afsluttet | 56 | Farmakokinetisk interaktionsstudie af efavirenz og nelfinavir med statiner, herunder atorvastatin. Belyser samtidig brug, ikke effekt. |
 
 ---
 
 ## Litteraturevidens
 
-De 10 mest relevante publikationer er vist (rangeret med RCT og kliniske studier først).
-
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | RCT | Nutr Metab Cardiovasc Dis | Sammenligning af atorvastatin og simvastatin ved heterozygot FH mht. opnåelse af LDL-mål og ændringer i fibrinogen |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Klinisk studie | J Clin Lipidol | Treårig effekt og sikkerhed af atorvastatin hos børn og unge med heterozygot FH |
-| [9301631](https://pubmed.ncbi.nlm.nih.gov/9301631/) | 1997 | Klinisk studie (åbent, randomiseret) | Arterioscler Thromb Vasc Biol | Atorvastatin 80 mg effektivt og veltolereret ved FH |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Kohorte/analyse | J Am Coll Cardiol | Statiners betydning for kranspulsårssygdom og samlet dødelighed ved heterozygot FH |
-| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | Klinisk studie | Med Sci Monit | Atorvastatin reducerer mikroalbuminuri hos patienter med FH |
-| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | Systematisk oversigt (Cochrane) | Cochrane Database Syst Rev | Dosisafhængig lipidsænkende effekt af atorvastatin |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Retningslinje | Endocr Pract | AACE/ACE-retningslinjer for behandling af dyslipidæmi og forebyggelse af hjerte-kar-sygdom |
-| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Oversigtsartikel | Semin Vasc Med | Diagnostiske, kliniske og terapeutiske aspekter af FH hos børn |
-| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Præklinisk | Toxicology | Statininduceret muskeltoksicitet i stamcelleafledte muskelceller fra FH-patienter |
-| [40874855](https://pubmed.ncbi.nlm.nih.gov/40874855/) | 2026 | Real-world-studie | J Clin Res Pediatr Endocrinol | Genetiske og terapeutiske erfaringer ved pædiatrisk heterozygot FH i Tyrkiet |
+| [37450602](https://pubmed.ncbi.nlm.nih.gov/37450602/) | 2023 | Åbent randomiseret forsøg | AIDS | Atorvastatin versus aspirin hos "elite controllers" og ART-behandlede HIV-positive med restinflammation. |
+| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | Åbent randomiseret forsøg | Current HIV Research | Rosuvastatin, pravastatin og atorvastatin mod hyperkolesterolæmi hos 94 HIV-patienter i proteasehæmmerbehandling. |
+| [29770749](https://pubmed.ncbi.nlm.nih.gov/29770749/) | 2018 | Kohorte | HIV Clinical Trials | Rosuvastatin og atorvastatin ser ud til at bevare nyrefunktionen hos HIV-patienter med kronisk nyresygdom og hyperlipidæmi. |
+| [36549898](https://pubmed.ncbi.nlm.nih.gov/36549898/) | 2023 | Klinisk studie | HIV Medicine | Atorvastatinkoncentrationer med forskellige boostede proteasehæmmere og betydning for lipidudfald. |
+| [25907504](https://pubmed.ncbi.nlm.nih.gov/25907504/) | 2015 | Systematisk oversigt | American Journal of Cardiology | Gennemgang af statinbehandlingens nytte hos HIV-smittede med øget hjerte-kar-risiko. |
+| [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | Oversigtsartikel | American Journal of Cardiovascular Drugs | Anbefalinger til håndtering af interaktioner mellem statiner og hiv-medicin. |
+| [29804227](https://pubmed.ncbi.nlm.nih.gov/29804227/) | 2018 | Oversigtsartikel | Current Infectious Disease Reports | Fordele og risici ved statinbehandling hos HIV-smittede. |
+| [26658651](https://pubmed.ncbi.nlm.nih.gov/26658651/) | 2016 | Oversigtsartikel | Current Opinion in Infectious Diseases | Evidens for, at statiner mindsker hjerte-kar-risiko ved behandlet HIV. |
+| [23703578](https://pubmed.ncbi.nlm.nih.gov/23703578/) | 2013 | Oversigtsartikel | Clinical Pharmacokinetics | Lægemiddelinteraktioner mellem statiner og antivirale proteasehæmmere. |
+| [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Prækliniske musestudier | JCI Insight | Atorvastatin dæmper hjertefibrose og nedsat hjertefunktion udløst af HIV og antiretrovirale midler ved at blokere trombocytternes TGF-β1-signalering. |
 
 ---
 
-## Information om det danske marked
+## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28104234907 | Atorker (Medochemie Limited) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| MA 28105675015 | Atorvastatin "1A Farma" (1A Farma A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| MA 28105328813 | Atozet (N.V. Organon) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+Atorvastatin er **markedsført** i Danmark. De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret. Alle er filmovertrukne tabletter til oral anvendelse. Produkter omfatter bl.a. Atorker (Medochemie Limited), Atorvastatin "1A Farma" (1A Farma A/S) og Atozet (N.V. Organon).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme med forsigtighed (fra vidensgrafen, ikke fra produktresuméet):** leversvigt og leversygdom, nyresygdom, galdeblæresygdom, hypothyreose (inkl. myxødem og medfødt hypothyreose), myopati og andre muskelsygdomme, familiær periodisk paralyse, rabdomyolyse, lavt blodtryk, misbrug/afhængighed samt skader.
-- **Lægemiddelinteraktioner:** I alt 350 interaktioner er registreret. Blandt de vigtigste er:
-  - **Alvorlig (Major):** clarithromycin.
-  - **Moderat:** aprepitant, omeprazol, esomeprazol, lansoprazol, pantoprazol, cimetidin, clotrimazol, miconazol, dexamethason, eliglustat, eluxadolin, metronidazol, naltrexon, pektin, rosuvastatin og simvastatin.
-  - **Mindre:** aluminiumhydroxid, magnesiumhydroxid og liraglutid.
-- Øvrig sikkerhedsinformation: se det godkendte produktresumé (SmPC).
+**Lægemiddelinteraktioner** (i alt 350 registrerede interaktioner; de vigtigste er nævnt her):
+
+- **Alvorlig (Major):** clarithromycin.
+- **Moderat:** aprepitant, omeprazol, esomeprazol, lansoprazol, pantoprazol, cimetidin, clotrimazol, miconazol, dexamethason, eliglustat, eluxadolin, metronidazol, naltrexon, pectin samt andre statiner (rosuvastatin, simvastatin).
+- **Let (Minor):** aluminiumhydroxid, magnesiumhydroxid, liraglutid.
+
+Ved HIV er interaktioner med proteasehæmmere og cobicistat særligt vigtige, fordi de hæmmer CYP3A4 og kan øge atorvastatinkoncentrationen. Det kan øge risikoen for muskelskade, så dosis skal begrænses.
+
+Der henvises til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger flere afsluttede fase 3-forsøg (bl.a. NCT00827606, NCT00134485 og NCT00136981) og en klar mekanistisk sammenhæng, og homozygot FH er allerede en kendt indikation. Flere forsøg bruger dog atorvastatin som baggrunds- eller komparatorbehandling, og der mangler produktresumé-data for de danske præparater.
+Der er kliniske forsøg direkte på HIV-populationen, men de er små, og evidensen understøtter primært nytte ved fedtstofskifteforstyrrelser, hjerte-kar-risiko og immunaktivering, ikke en antiviral effekt. Der er endnu ikke påvist en klinisk fordel ved HIV-infektion som sådan, og interaktionerne med antiretroviral behandling kræver omhyggelig dosering.
 
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméer (advarsler, kontraindikationer, godkendte indikationer) for de danske præparater, da disse data mangler.
-- Bekræftelse af, hvilke forsøg der egentlig tester atorvastatin versus anvendes som baggrundsbehandling.
-- Plan for monitorering af lever- og muskelsikkerhed samt opmærksomhed på interaktioner, især med CYP3A4-hæmmere som clarithromycin.
-
----
-
-## Andre forudsagte indikationer (kort overblik)
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| HIV-infektion | 99,31 % | L2 | Forskningsspørgsmål (evidens understøtter primært behandling af dyslipidæmi og hjerte-kar-risiko ved HIV, ikke antiviral effekt) |
-| Hjernestammeinfarkt | 99,31 % | L4 | Hold |
-| Kolesterolestertransferprotein-mangel | 99,25 % | L4 | Hold |
-| Hypercholesterolæmi pga. kolesterol-7α-hydroxylase-mangel | 99,20 % | L5 | Hold |
-| Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans | 99,13 % | L5 | Hold |
+**For at komme videre kræves følgende:**
+- Resultater fra det store fase 3-forsøg NCT03037372 (320 deltagere), som endnu har ukendt status.
+- Præcisering af, hvilket klinisk mål (immunaktivering, hjerte-kar-hændelser eller fedtstofskifte) der skal danne grundlag for en eventuel indikation.
+- Data om virkningsmekanismen og det godkendte produktresumé (SmPC) til sikkerhedsvurdering.
+- En plan for dosisbegrænsning og overvågning af interaktioner med proteasehæmmere og cobicistat.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Pentobarbital
 parent: Kun modelforudsigelse (L5)
 nav_order: 646
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Epilepsi, søvnløshed, status epilepticus, hjerneiskæmi…"
 monitor_inn: "pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
+description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pentobarbital
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Pentobarbital: Fra epilepsi og søvnløshed til fedme
+## Pentobarbital: Fedme (obesity disorder)
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -46,12 +46,12 @@ Pentobarbital er et barbiturat, der oprindeligt anvendes mod epilepsi, søvnløs
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Epilepsi, søvnløshed, status epilepticus, hjerneiskæmi, transitorisk iskæmisk anfald (fra vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Fedme (obesity disorder) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Pentobarbital er et barbiturat, der oprindeligt anvendes mod epilepsi, søvnløs
 
 Data om pentobarbitals detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at barbiturater forstærker GABA-A-receptorernes signalering og dermed virker beroligende og søvnfremkaldende. Denne mekanisme forklarer de oprindelige indikationer (anfald og søvn).
 
-Der er ingen troværdig mekanistisk forbindelse til fedme. De fundne artikler nævner pentobarbital udelukkende som bedøvelsesmiddel i gnavermodeller (f.eks. insulinomsætning, renale nerver, hypothalamus-læsioner) eller som værktøj i en søvntest. Pentobarbital er ikke det terapeutiske middel, der undersøges. Den høje modelscore understøttes derfor ikke af farmakologisk evidens og er sandsynligvis en artefakt af vidensgrafen.
+Der er ingen troværdig mekanistisk forbindelse til fedme. De fundne artikler nævner pentobarbital udelukkende som bedøvelsesmiddel i gnavermodeller (f.eks. insulinomsætning, renale nerver, hypothalamus-læsioner) eller som værktøj i en søvntest. Pentobarbital er ikke det terapeutiske middel, der undersøges. Den høje modelscore understøttes derfor ikke af farmakologisk evidens. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 

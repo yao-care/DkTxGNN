@@ -4,17 +4,17 @@ title: Losartan
 parent: Moderat evidens (L3-L4)
 nav_order: 511
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Losartan: forudsagt ny indikation Malign renovaskulær hypertension (evidensniveau L4). Oprindelig indikation: Hypertension og diabetisk nefropati (fra TxGNN-vidensgrafen"
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Losartan: Fra hypertension til malign renovaskulær hypertension
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Sammenfatning i en sætning
@@ -48,12 +48,12 @@ men evidensen er meget begrænset: **ingen kliniske forsøg** og kun **2 publika
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og diabetisk nefropati (fra TxGNN-vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Malign renovaskulær hypertension |
-| TxGNN-forudsigelsesscore | 99,73 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Malignant hypertensive renal disease |
+| TxGNN-forudsigelsesscore | 0.9973 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

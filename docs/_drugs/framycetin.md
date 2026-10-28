@@ -48,10 +48,10 @@ Framycetin er et aminoglykosid-antibiotikum (neomycin B), der i Danmark er godke
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data |
 | Forudsagt ny indikation | Skleroserende cholangitis |
-| TxGNN-forudsigelsesscore | 99,66 % |
+| TxGNN-forudsigelsesscore | 0,9966 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Data om virkningsmekanisme (MOA) er ikke tilgængelige i de data, der er sammens
 
 Den mulige sammenhæng med skleroserende cholangitis er løs og konceptuel. Ikke-absorberbare orale antibiotika, f.eks. vancomycin, er undersøgt ved primær skleroserende cholangitis via påvirkning af tarmens mikrobiom. En antibakteriel effekt i tarmlumen kunne derfor i princippet være relevant. Der findes dog ingen direkte data for framycetin, og aminoglykosider er ikke en etableret strategi ved denne sygdom.
 
-Den høje TxGNN-score (0,997) er en ren modelforudsigelse og understøttes ikke af forsøg eller publikationer.
+Den høje TxGNN-score (0,9966) er en ren modelforudsigelse og understøttes ikke af forsøg eller publikationer.
 
 ---
 
@@ -106,12 +106,12 @@ Modellen har også forudsagt følgende indikationer. Ingen af dem er understøtt
 
 | Rang | Sygdom | TxGNN-score | Vurdering |
 |------|------|------|------|
-| 2 | Urinvejsinfektion | 99,42 % | Biologisk plausibelt (gramnegativ aktivitet), men sikker opnåelse af terapeutiske urinkoncentrationer er problematisk pga. nefro- og ototoksicitet og dårlig oral absorption. Der findes bedre dokumenterede alternativer. |
-| 3 | Medfødt protrombinmangel | 99,41 % | Ingen plausibel mekanistisk sammenhæng; sandsynligvis falsk positiv. |
-| 4 | Ureaplasma-uretritis | 99,28 % | Svag rationale, da aminoglykosider generelt har begrænset effekt mod Ureaplasma. |
-| 5 | Gonokok-uretritis | 99,28 % | Beskeden klasseplausibilitet, men ingen framycetin-specifik evidens, og resistens og toksicitet begrænser rollen. |
-| 6 | Inflammatorisk uterussygdom | 99,18 % | Klasseplausibilitet (aminoglykosider bruges i bækkeninfektioner), men ingen data for framycetin og dårlig systemisk tolerabilitet. |
-| 7 | Xanthogranulomatøs pyelonefritis | 99,18 % | Behandles primært kirurgisk; nefrotoksicitet er særligt problematisk i en allerede skadet nyre. |
+| 2 | Urinvejsinfektion | 0,9942 | Biologisk plausibelt (gramnegativ aktivitet), men sikker opnåelse af terapeutiske urinkoncentrationer er problematisk pga. nefro- og ototoksicitet og dårlig oral absorption. Der findes bedre dokumenterede alternativer. |
+| 3 | Medfødt protrombinmangel | 0,9941 | Ingen plausibel mekanistisk sammenhæng; sandsynligvis falsk positiv. |
+| 4 | Ureaplasma-uretritis | 0,9928 | Svag rationale, da aminoglykosider generelt har begrænset effekt mod Ureaplasma. |
+| 5 | Gonokok-uretritis | 0,9928 | Beskeden klasseplausibilitet, men ingen framycetin-specifik evidens, og resistens og toksicitet begrænser rollen. |
+| 6 | Inflammatorisk uterussygdom | 0,9918 | Klasseplausibilitet (aminoglykosider bruges i bækkeninfektioner), men ingen data for framycetin og dårlig systemisk tolerabilitet. |
+| 7 | Xanthogranulomatøs pyelonefritis | 0,9918 | Behandles primært kirurgisk; nefrotoksicitet er særligt problematisk i en allerede skadet nyre. |
 
 ---
 

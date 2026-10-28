@@ -48,9 +48,9 @@ Tyrosin er en aminosyre, der indgår i flere danske præparater til parenteral o
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (godkendelsesteksterne for de danske markedsføringstilladelser er tomme) |
 | Foreslået ny indikation | Cauda equina-syndrom |
-| TxGNN-prædiktionsscore | 99,77 % |
+| TxGNN-prædiktionsscore | 0,9977 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
+| Status på det danske marked | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -60,7 +60,7 @@ Tyrosin er en aminosyre, der indgår i flere danske præparater til parenteral o
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Tyrosin er kendt som forstadie til katekolaminer (dopamin, noradrenalin, adrenalin) og til skjoldbruskkirtelhormoner, men der er ikke identificeret en mekanistisk forbindelse til kompression af nerverødder, som er kernen i cauda equina-syndrom.
 
-Den høje TxGNN-score (0,998) afspejler en videnbaseret modelforudsigelse, ikke biologisk eller klinisk dokumentation. Da der ikke er angivet en oprindelig indikation, kan sammenhængen mellem den oprindelige og den nye indikation heller ikke vurderes.
+Den høje TxGNN-score (0,9977) afspejler en videnbaseret modelforudsigelse, ikke biologisk eller klinisk dokumentation. Da der ikke er angivet en oprindelig indikation, kan sammenhængen mellem den oprindelige og den nye indikation heller ikke vurderes.
 
 Øvrige forudsagte indikationer i de samlede data (fx hyperthyroidisme, postural ortostatisk takykardisyndrom, forskellige former for glaukom) har heller ikke en dokumenteret terapeutisk effekt af tyrosin. Nogle af dem rejser desuden teoretiske betænkeligheder, fx at tyrosin som forstadie til skjoldbruskkirtelhormon i princippet kunne forværre hyperthyroidisme.
 

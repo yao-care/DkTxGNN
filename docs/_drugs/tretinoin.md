@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Kun modelforudsigelse (L5)
 nav_order: 857
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tretinoin: forudsagt ny indikation Reumatoid nodulose (evidensniveau L5). Oprindelig indikation: Akne, akut promyelocytær leukæmi, erhvervet keratose…"
 monitor_inn: "tretinoin"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+description: "Tretinoin: forudsagt ny indikation Reumatoid nodulose (rheumatoid nodulosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tretinoin: Fra akne og akut promyelocytær leukæmi til reumatoid nodulose
+## Tretinoin: Reumatoid nodulose (rheumatoid nodulosis)
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akne, akut promyelocytær leukæmi, erhvervet keratose, palmoplantar keratodermi (fra vidensgrafen; den danske tilladelse har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Reumatoid nodulose |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Reumatoid nodulose (rheumatoid nodulosis) |
+| TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

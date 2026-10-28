@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Durvalumab
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 286
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Durvalumab: forudsagt ny indikation Urotelcarcinom i urinrørets prostatadel (prostatic urethra urothelial… (evidensniveau L4). Oprindelig indikation: Urotelcarcinom (overgangscellekarcinom)…"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Durvalumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "uterine ligament adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Durvalumab: forudsagt ny indikation Uterine ligament adenocarcinoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Durvalumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Durvalumab: Fra urotelcarcinom (overgangscellekarcinom) til urotelcarcinom i urinrørets prostatadel
+## Durvalumab: Uterine ligament adenocarcinoma
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering i en sætning
 
-Durvalumab er et PD-L1-hæmmende antistof, der oprindeligt anvendes til behandling af urotelcarcinom (transitional cell carcinoma).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **urotelcarcinom i urinrørets prostatadel** (score 99,98 %), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** for netop denne indikation.
-Evidensen er derfor udelukkende modelbaseret og indirekte, via ekstrapolation fra urotelcarcinom i blæren.
+Durvalumab er et antistof mod PD-L1, som i den viden, der er indgået i rapporten, er knyttet til behandling af urotelialt karcinom (overgangscellekarcinom). Denne relation er registreret i vidensgrafen og er ikke en godkendt indikation ifølge dansk produkttekst.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **endocervikalt karcinom**, men evidensen er begrænset til **1 fase 1-forsøg** og **2 publikationer**, hvoraf ingen direkte undersøger denne sygdom.
 
 ---
 
@@ -48,54 +47,50 @@ Evidensen er derfor udelukkende modelbaseret og indirekte, via ekstrapolation fr
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Urotelcarcinom (overgangscellekarcinom), jf. vidensgrafen. Den godkendte indikationstekst er ikke tilgængelig i de indsamlede data |
-| Forudsagt ny indikation | Urotelcarcinom i urinrørets prostatadel (prostatic urethra urothelial carcinoma) |
-| TxGNN-prædiktionsscore | 99,98 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Uterine ligament adenocarcinoma |
+| TxGNN-forudsigelsesscore | 0.9992 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
-
-## Hvorfor er denne forudsigelse rimelig?
-
-Data om durvalumabs detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Durvalumab er dog kendt som et anti-PD-L1-antistof (immuncheckpoint-hæmmer), som blokerer PD-L1 og dermed kan genaktivere T-cellernes immunrespons mod tumorceller.
-
-Urotelcarcinom i urinrørets prostatadel har samme histologiske oprindelse (urotelet) som det oprindelige indikationsområde. PD-L1-blokade er derfor biologisk plausibel. Der er dog ikke fremlagt forsøg eller litteratur for netop denne anatomiske lokalisation, så støtten er indirekte. Den meget høje modelscore er en beregningsmæssig forudsigelse og ikke klinisk evidens.
-
-Øvrige forudsigelser fra modellen i samme sygdomsfamilie, hvor der foreligger enkelte forsøg:
-- **Sarkomatoid transitionalcellekarcinom i nyrebækkenet** (score 99,98 %, evidensniveau L3): Én tidlig fase 1-pilotundersøgelse (durvalumab + tremelimumab).
-- **Infiltrerende urotelcarcinom i blæren, sarkomatoid variant** (score 99,98 %, L2 jf. datagrundlaget): Ét afsluttet fase 2-forsøg med kun 7 patienter, samt ovennævnte pilotundersøgelse.
-- **Papillært urotelcarcinom i nyrebækkenet** (score 99,98 %, L4): Ingen forsøg eller litteratur. Papillære, ofte lavgradige tumorer har typisk lavere immuninfiltration og PD-L1-ekspression, hvilket kan reducere den forventede effekt.
-- **Adenokarcinom i ligamentum uteri** (score 99,92 %, L5): Ingen klar mekanistisk sammenhæng, da sygdommen er et sjældent gynækologisk adenokarcinom med anden oprindelse.
+Bemærk: Den højest rangerede forudsigelse er uterint ligamentadenokarcinom (score 0,9992), men der findes ingen forsøg eller litteratur for den. Rapporten fokuserer på endocervikalt karcinom (rang 2), fordi det er den forudsigelse, hvor der er noget evidensmateriale. Ingen af studierne undersøger dog sygdommen direkte, og evidensniveauet er derfor L5.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Hvorfor er forudsigelsen rimelig?
 
-For urotelcarcinom i urinrørets prostatadel er der ingen relaterede kliniske forsøg registreret.
+Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de indsamlede data. Durvalumab er dog kendt som et monoklonalt antistof, der blokerer PD-L1 (checkpoint-hæmmer). Ved at hæmme PD-L1 kan immunsystemet igen angribe tumorceller.
 
-Til sammenligning findes der følgende forsøg for nært beslægtede, forudsagte indikationer (nyrebækken og sarkomatoid variant i blæren):
+Livmoderhalskræft er ofte drevet af HPV-infektion og anses for immunogen, hvorfor checkpoint-hæmning er biologisk plausibel. Det er en mekanistisk ekstrapolation og ikke dokumenteret effekt for den endocervikale histologi. Sammenhængen mellem den registrerede oprindelige relation (urotelialt karcinom) og de nye forudsigelser bygger på en fælles PD-L1-baseret tilgang, men ligheden er ikke yderligere analyseret.
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+De øvrige forudsigelser (uterint ligamentadenokarcinom, adenoid cystisk karcinom i livmoderhalsen, serøst adenokarcinom i uterusligamentet samt to sjældne varianter af cervikalt mucinøst adenokarcinom) har hverken kliniske forsøg eller litteratur og hviler udelukkende på modellens grafbaserede score.
+
+---
+
+## Klinisk evidens fra forsøg
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | Fase 2 | Afsluttet før tid (terminated) | 7 | Åbent forsøg med durvalumab sammen med neoadjuverende kemoterapi ved blærekræft med variant histologi. For få deltagere til at drage konklusioner om effekt eller sikkerhed; årsagen til afbrydelsen bør undersøges |
-| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Tidlig fase 1 | Aktiv, rekrutterer ikke | 54 | Pilotstudie før operation med durvalumab + tremelimumab (anti-CTLA-4) ved muskelinvasivt, højrisiko urotelcarcinom hos patienter, der ikke kan få cisplatinbaseret kemoterapi. Fokus på bivirkninger og gennemførlighed; ingen effektdata i det foreliggende materiale |
+| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | Fase 1 | Afsluttet | 20 | Hypofraktioneret strålebehandling kombineret med durvalumab og tremelimumab ved recidiverende/metastatisk fremskreden livmoderhals-, vagina- eller vulvakræft. Giver tidlige data om sikkerhed og gennemførlighed, men ingen randomiserede effektdata og ikke specifikt for endocervikal histologi. |
 
 ---
 
 ## Litteraturevidens
 
-Der foreligger for øjeblikket ingen relevant litteratur.
+| PMID | År | Type | Tidsskrift | Hovedresultater |
+|------|-----|------|------|---------|
+| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Review | Biomedical Journal | Gennemgang af småcellet neuroendokrint karcinom i livmoderhalsen: molekylær baggrund og behandlingsfremskridt. Der er kun case-serier og case-rapporter; ikke specifikt om durvalumab. |
+| [42518016](https://pubmed.ncbi.nlm.nih.gov/42518016/) | 2026 | Ikke-randomiseret klinisk forsøg (fase 1) | Oncology and Therapy | Ceralasertib plus durvalumab hos kinesiske patienter med fremskredne solide tumorer: sikkerhed, farmakokinetik og antitumoraktivitet. Ikke specifikt for livmoderhalskræft. |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106011517 | Imfinzi (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+| 28106011517 | Imfinzi (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
 
 ---
 
@@ -103,26 +98,22 @@ Der foreligger for øjeblikket ingen relevant litteratur.
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Immunterapi (immuncheckpoint-hæmmer, anti-PD-L1-monoklonalt antistof); ikke et konventionelt cytotoksisk middel |
-| Risiko for myelosuppression | Der foreligger ingen toksicitetsdata i de indsamlede data. Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) for anbefalet monitorering, herunder immunrelaterede bivirkninger |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer |
+| Cytotoksicitetsklassifikation | Immunterapi (PD-L1-hæmmer) |
+| Myelosuppressionsrisiko | Der foreligger ingen data; se produktresuméet (SmPC) |
+| Emetogenicitetsklassifikation | Der foreligger ingen data; se produktresuméet (SmPC) |
+| Monitoreringspunkter | Se produktresuméet (SmPC) om advarsler og forsigtighedsregler |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Data om advarsler og kontraindikationer fra produktresuméet er ikke indhentet. Der blev ikke fundet kontraindikationer i vidensgrafen.
+**Lægemiddelinteraktioner:** Der er identificeret 81 mulige interaktioner. Blandt de viste er:
+- **Alvorlig (Major):** adalimumab
+- **Moderat:** kortikosteroider (hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison, methylprednisolon, deflazacort), roflumilast, alefacept, alemtuzumab, anakinra, stivkrampetoksoid-vaccine og miltbrandvaccine
+- **Mindre (Minor):** zinksalte (acetat, gluconat, sulfat, chlorid)
 
-**Lægemiddelinteraktioner:** Der er identificeret i alt 81 interaktioner. Blandt de første 20 i de indsamlede data er de væsentligste:
-- **Alvorlig (Major):** Adalimumab.
-- **Moderat:** Kortikosteroider (hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison, methylprednisolon, deflazacort), roflumilast, tetanustoksoid-vaccine, alefacept, alemtuzumab, anakinra og miltbrandvaccine.
-- **Mindre (Minor):** Zinkpræparater (acetat, glukonat, sulfat, chlorid).
-
-Interaktionerne med immunsuppressive midler og kortikosteroider er især relevante, da de kan modvirke den ønskede immunaktivering.
-
-For fuldstændig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+Vedrørende advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -131,15 +122,13 @@ For fuldstændig sikkerhedsinformation henvises til det godkendte produktresumé
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er ingen kliniske forsøg eller publikationer for urotelcarcinom i urinrørets prostatadel. Støtten er begrænset til en høj modelscore og biologisk plausibilitet ved ekstrapolation fra urotelcarcinom i blæren (evidensniveau L4).
+Forudsigelsen bygger primært på modellens score. Der er kun ét lille fase 1-forsøg (n=20) i en beslægtet population og ingen studier, der direkte undersøger endocervikalt karcinom, hvorfor evidensniveauet er L5. De øvrige forudsagte sygdomme har ingen evidens overhovedet.
 
 **For at komme videre kræves følgende:**
-- Gennemgang af den godkendte indikationstekst og sikkerhedsoplysninger (advarsler, kontraindikationer) i produktresuméet fra Lægemiddelstyrelsen
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Systematisk litteratursøgning og søgning efter forsøg specifikt for urotelcarcinom i urinrørets prostatadel, herunder retrospektive serier og subgruppeanalyser fra blæreforsøg
-- Afklaring af årsagen til afbrydelsen af NCT03912818
-- Vurdering af, om patientgruppen allerede er dækket af den eksisterende godkendte indikation (urotelcarcinom)
-- Klinisk vurdering af interaktionsrisici, især ved samtidig brug af kortikosteroider og andre immunsuppressiva
+- Data om virkningsmekanismen (MOA)
+- Produktresuméets advarsler og kontraindikationer samt godkendt indikationstekst for Imfinzi fra Lægemiddelstyrelsen
+- Forsøg eller studier, der direkte undersøger durvalumab ved endocervikalt karcinom, herunder oplysninger om den præcise population i NCT03452332
+- Vurdering af ruteforenelighed og af ligheden med den oprindelige indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

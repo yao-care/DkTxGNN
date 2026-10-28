@@ -4,17 +4,17 @@ title: Panitumumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 628
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Panitumumab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Metastatisk kræft i tyktarmen"
 monitor_inn: "Panitumumab"
-predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Panitumumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Metastatisk kræft i tyktarmen (fra videnbasen; godkendt indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,13 % |
+| TxGNN-forudsigelsesscore | 0,9913 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?
@@ -60,17 +60,13 @@ Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de d
 
 EGFR-signalering spiller en rolle i osteoblastdifferentiering og knogleomsætning, så EGFR-blokade kan i princippet påvirke knoglemetabolismen. Retningen er dog tvivlsom: EGFR-hæmning vil sandsynligvis snarere hæmme knogledannelsen end beskytte mod osteoporose. Anti-EGFR-behandling er desuden forbundet med hypomagnesæmi og hypokalcæmi, som kan påvirke knoglerne negativt.
 
-Den høje score (0,991) er en ren modelberegning uden klinisk eller litterær støtte. Mekanismen bør derfor betragtes som spekulativ.
+Den høje score (0,9913) er en ren modelberegning uden klinisk eller litterær støtte. Mekanismen bør derfor betragtes som spekulativ.
 
 Modellen forudsiger også andre indikationer med lignende høje scorer, alle på evidensniveau L5 og uden forsøg eller litteratur:
 
 | Forudsagt indikation | Score | Vurdering af mekanistisk sammenhæng |
 |------|------|------|
-| Svær non-proliferativ diabetisk retinopati | 99,05 % | Kun indirekte (EGFR–VEGF-krydstale). Stort IgG2-antistof ville kræve intravitreal administration; ingen okulære sikkerhedsdata; etablerede anti-VEGF-behandlinger findes |
-| Diabetisk retinopati | 98,96 % | Samme spekulative begrundelse som ovenfor |
-| Diabetisk grå stær | 98,90 % | Svag, indirekte sammenhæng via linseepitelceller; ingen evidens; behandles kirurgisk |
-| Nuklear senil grå stær | 98,81 % | Ingen troværdig mekanistisk sammenhæng identificeret |
-| Kortikal grå stær | 98,81 % | Kun svag, indirekte sammenhæng; ingen evidens |
+| Svær non-proliferativ diabetisk retinopati | 0,9905 | Kun indirekte (EGFR–VEGF-krydstale). Stort IgG2-antistof ville kræve intravitreal administration; ingen okulære sikkerhedsdata; etablerede anti-VEGF-behandlinger findes |
 
 ## Evidens fra kliniske forsøg
 

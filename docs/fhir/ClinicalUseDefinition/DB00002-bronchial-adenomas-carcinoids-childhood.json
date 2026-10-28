@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00002",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB00002"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "bronchial-adenomas-carcinoids-childhood",
-          "display": "bronchial adenomas/carcinoids childhood"
-        }
-      ],
-      "text": "bronchial adenomas/carcinoids childhood"
+      "concept": {
+        "text": "bronchial adenomas/carcinoids childhood"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9995
     }
   ]
 }

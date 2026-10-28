@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB11730",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB11730"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "marcothrombocytopenia-with-mitral-valve-insufficiency",
-          "display": "marcothrombocytopenia with mitral valve insufficiency"
-        }
-      ],
-      "text": "marcothrombocytopenia with mitral valve insufficiency"
+      "concept": {
+        "text": "marcothrombocytopenia with mitral valve insufficiency"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9908
     }
   ]
 }

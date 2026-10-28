@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "cerebral-palsy-spastic-quadriplegic",
-          "display": "cerebral palsy, spastic quadriplegic"
-        }
-      ],
-      "text": "cerebral palsy, spastic quadriplegic",
       "concept": {
         "text": "cerebral palsy, spastic quadriplegic"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9902
     }
   ]
 }

@@ -6,7 +6,7 @@ nav_order: 896
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Warfarin: forudsagt ny indikation Trombofili (rang 4) (evidensniveau L5). Oprindelig indikation: Lungeemboli, trombotisk sygdom, intrakraniel emboli"
+description: "Warfarin: forudsagt ny indikation Heparin-cofaktor-2-mangel (rang 4) (evidensniveau L5). Oprindelig indikation: Lungeemboli, trombotisk sygdom, intrakraniel emboli"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Warfarin: Fra tromboembolisk sygdom til trombofili
+## Warfarin: Fra tromboembolisk sygdom til Heparin-cofaktor-2-mangel
 {: .text-alpha }
 
 ## Resumé
@@ -42,7 +42,7 @@ Warfarin er et vitamin K-antagonist, der oprindeligt anvendes til behandling og 
 TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **trombofili** (blandt flere forudsigelser, se nedenfor), med **1 klinisk fase 3-forsøg** og **19 publikationer** i de data, der er indsamlet til denne rapport.
 Evidensen er dog overvejende indirekte (oversigtsartikler og retningslinjer), og anvendelsen er allerede veletableret i klinisk praksis.
 
-> **Bemærkning om valg af indikation:** Den højest rangerede forudsigelse er *heparin cofactor 2-mangel* (score 99,87 %), men den bygger kun på case reports. Trombofili (rang 4) er den forudsigelse med mest evidens og er derfor rapportens hovedfokus. Øvrige forudsigelser er opsummeret i en separat tabel.
+> **Bemærkning om valg af indikation:** Den højest rangerede forudsigelse er *heparin cofactor 2-mangel* (score 0,9987), men den bygger kun på case reports. Trombofili (rang 4) er den forudsigelse med mest evidens og er derfor rapportens hovedfokus. Øvrige forudsigelser er opsummeret i en separat tabel.
 
 ---
 
@@ -52,10 +52,10 @@ Evidensen er dog overvejende indirekte (oversigtsartikler og retningslinjer), og
 |------|------|
 | Oprindelig indikation | Lungeemboli, trombotisk sygdom, intrakraniel emboli (fra videnbasen; godkendt indikationstekst for Marevan er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Trombofili (rang 4); højest scorende: heparin cofactor 2-mangel (rang 1) |
-| TxGNN-forudsigelsesscore | Trombofili: 99,75 %; heparin cofactor 2-mangel: 99,87 % |
-| Evidensniveau | L1 (foreløbigt) for trombofili; L4 for heparin cofactor 2-mangel |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | Trombofili: 0,9975; Heparin-cofaktor-2-mangel: 0,9987 |
+| Evidensniveau | L5 (foreløbigt) for trombofili; L4 for heparin cofactor 2-mangel |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afventer; trombofili er markeret som forskningsspørgsmål) |
 
 **Vurdering af L1:** Det ene fase 3-forsøg har ukendt status, ingen resultater og tester en varighedsstrategi frem for warfarins effekt. Kriteriet om mindst to afsluttede fase 3-RCT'er er ikke opfyldt, så L1 bør betragtes som tvivlsomt, og et mere realistisk niveau er L3–L4.
@@ -107,12 +107,12 @@ Ingen RCT'er er identificeret.
 
 | Rang | Forudsagt indikation | Score | Evidens | Vurdering |
 |------|------|------|------|------|
-| 1 | Heparin cofactor 2-mangel | 99,87 % | L4: 3 case reports | Mekanistisk plausibel; ingen forsøgsdata |
-| 2 | Faktor 5-overskud med spontan trombose | 99,84 % | L5: kun modelforudsigelse | Mekanistisk sammenhængende; ingen evidens i de indsamlede data |
-| 3 | Antitrombinmangel type 2 | 99,84 % | L4: 1 case report | Utilstrækkelige data |
-| 5 | Leddegigt | 99,21 % | L4 | Warfarin bruges kun som probe-stof i interaktionsstudier; bør ikke repurposes |
-| 6 | Fibrocystisk brystsygdom | 99,20 % | L4 | Score sandsynligvis drevet af interaktion med danazol; ingen mekanisme |
-| 7 | Benign mammær dysplasi | 99,10 % | L5 | Samme forhold som ovenfor; sandsynligvis en artefakt |
+| 1 | Heparin cofactor 2-mangel | 0,9987 | L5: 3 case reports | Mekanistisk plausibel; ingen forsøgsdata |
+| 2 | Faktor 5-overskud med spontan trombose | 0,9984 | L5: kun modelforudsigelse | Mekanistisk sammenhængende; ingen evidens i de indsamlede data |
+| 3 | Antitrombinmangel type 2 | 0,9984 | L5: 1 case report | Utilstrækkelige data |
+| 5 | Leddegigt | 0,9921 | L4 | Warfarin bruges kun som probe-stof i interaktionsstudier; bør ikke repurposes |
+| 6 | Fibrocystisk brystsygdom | 0,9920 | L5 | Score sandsynligvis drevet af interaktion med danazol; ingen mekanisme |
+| 7 | Benign mammær dysplasi | 0,9910 | L5 | Samme forhold som ovenfor; sandsynligvis en artefakt |
 
 ---
 

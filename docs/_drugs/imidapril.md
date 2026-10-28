@@ -4,17 +4,17 @@ title: Imidapril
 parent: Kun modelforudsigelse (L5)
 nav_order: 428
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Imidapril: forudsagt ny indikation Pulmonal hypertension som følge af lungesygdom og/eller hypoksi (evidensniveau L5). Oprindelig indikation: Hypertension (forhøjet blodtryk). Det danske godkendelses…"
 monitor_inn: "imidapril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Imidapril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Imidapril
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Imidapril: Fra hypertension til pulmonal hypertension (lungesygdom og/eller hypoksi)
+## Imidapril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Opsummering
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (forhøjet blodtryk). Det danske godkendelsesdokument indeholder ingen indikationstekst; indikationen stammer fra TxGNN-vidensgrafen |
-| Forudsagt ny indikation | Pulmonal hypertension som følge af lungesygdom og/eller hypoksi |
-| TxGNN-prædiktionsscore | 99,78 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN-prædiktionsscore | 0.9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er i
 
 Teoretisk kan det renin-angiotensin-aldosteron-system (RAAS)-relaterede mekanismer være relevante for lungekarsygdom. Forbindelsen er dog plausibel, men ikke verificeret. Ved pulmonal hypertension forårsaget af lungesygdom er hypoksisk pulmonal vasokonstriktion den dominerende drivkraft, og ACE-hæmmere har ikke vist ensartet gavn. Desuden er systemisk hypotension en bekymring hos patienter med lungesygdom.
 
-Det bør også bemærkes, at de to øverste pulmonale hypertensionsforudsigelser har identisk score (0,998). Det tyder på, at modellen scorer et fælles område i sygdomsontologien snarere end uafhængig evidens.
+Det bør også bemærkes, at de to øverste pulmonale hypertensionsforudsigelser har identisk score (0,9978). Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -72,10 +72,10 @@ Det bør også bemærkes, at de to øverste pulmonale hypertensionsforudsigelser
 
 | Rang | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|------|
-| 2 | Pulmonal hypertension med uklar multifaktoriel mekanisme | 99,78 % | L5 | Svag mekanistisk forbindelse; ingen imidapril-specifik evidens |
-| 3 | Malign hypertensiv nyresygdom | 99,76 % | L5 | Tæt på den eksisterende indikation; ACE-hæmning er nyrebeskyttende, men tilstanden er en akut nødsituation, der normalt behandles intravenøst |
-| 4 | Malign renovaskulær hypertension | 99,76 % | L5 | Mekanistisk sammenhængende, men risiko for akut nyreskade ved bilateral nyrearteriestenose eller stenose i solitær nyre |
-| 5 | Braddock syndrom | 99,70 % | L5 | Ingen mekanistisk sammenhæng kan etableres; sandsynligvis grafbaseret association |
+| 2 | Pulmonal hypertension med uklar multifaktoriel mekanisme | 0,9978 | L5 | Svag mekanistisk forbindelse; ingen imidapril-specifik evidens |
+| 3 | Malign hypertensiv nyresygdom | 0,9976 | L5 | Tæt på den eksisterende indikation; ACE-hæmning er nyrebeskyttende, men tilstanden er en akut nødsituation, der normalt behandles intravenøst |
+| 4 | Malign renovaskulær hypertension | 0,9976 | L5 | Mekanistisk sammenhængende, men risiko for akut nyreskade ved bilateral nyrearteriestenose eller stenose i solitær nyre |
+| 5 | Braddock syndrom | 0,9970 | L5 | Ingen mekanistisk sammenhæng kan etableres; sandsynligvis grafbaseret association |
 
 ---
 

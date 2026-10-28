@@ -39,7 +39,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 ## Resumé
 
 Ponatinib er en tyrosinkinasehæmmer, der oprindeligt anvendes til behandling af BCR-ABL1-positiv kronisk myeloid leukæmi.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gingival fibromatose** (score 99,0 %), men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte forudsigelsen.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **gingival fibromatose** (score 0,9900), men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte forudsigelsen.
 Den næstrangerende forudsigelse, **liposarkom**, understøttes kun af **1 præklinisk publikation**.
 
 ## Hurtigt overblik
@@ -48,10 +48,10 @@ Den næstrangerende forudsigelse, **liposarkom**, understøttes kun af **1 præk
 |------|------|
 | Oprindelig indikation | BCR-ABL1-positiv kronisk myeloid leukæmi (godkendt indikationstekst er ikke angivet i de indsamlede data for den danske autorisation) |
 | Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-forudsigelsesscore | 99,04 % |
+| TxGNN-forudsigelsesscore | 0.9904 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -62,7 +62,7 @@ Et muligt, men spekulativt link til gingival fibromatose kunne gå via kinasedre
 
 Gingival fibromatose er en sjælden og oftest godartet tilstand. Ponatinibs risikoprofil (arterielle okklusive hændelser, venøs tromboemboli, hjertesvigt, levertoksicitet) vil derfor være uigunstig uden stærk understøttende evidens.
 
-**Andenrangerende forudsigelse – liposarkom (score 99,0 %, evidensniveau L4):** En enkelt præklinisk publikation fra 2017 har kortlagt kinaser i liposarkom via RNAi og lægemiddelscreening og identificeret mulige angrebspunkter for kinasehæmmere. De indsamlede data bekræfter ikke, at ponatinib specifikt er testet. Forudsigelsen er derfor et forskningsspørgsmål, ikke klinisk evidens.
+**Andenrangerende forudsigelse – liposarkom (score 0,9900, evidensniveau L4):** En enkelt præklinisk publikation fra 2017 har kortlagt kinaser i liposarkom via RNAi og lægemiddelscreening og identificeret mulige angrebspunkter for kinasehæmmere. De indsamlede data bekræfter ikke, at ponatinib specifikt er testet. Forudsigelsen er derfor et forskningsspørgsmål, ikke klinisk evidens.
 
 ## Klinisk evidens
 

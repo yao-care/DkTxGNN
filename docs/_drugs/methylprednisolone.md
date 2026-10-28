@@ -4,7 +4,7 @@ title: Methylprednisolone
 parent: Moderat evidens (L3-L4)
 nav_order: 541
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Methylprednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Autoimmune sygdomme, Crohns sygdom/inflammatorisk tarmsygdom…"
 monitor_inn: "methylprednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ og der er i de data, der er indsamlet til denne rapport, **1 klinisk forsøg** o
 |------|------|
 | Oprindelig indikation | Autoimmune sygdomme, Crohns sygdom/inflammatorisk tarmsygdom, binyrebarkinsufficiens, akut lymfoblastær leukæmi m.fl. (den godkendte indikationstekst for det danske produkt er ikke tilgængelig) |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

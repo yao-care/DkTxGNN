@@ -4,17 +4,17 @@ title: Xylometazoline
 parent: Moderat evidens (L3-L4)
 nav_order: 898
 evidence_level: L3
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Faryngitis og forkølelse (fra vidensgrafen"
 monitor_inn: "xylometazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Xylometazolin: Fra faryngitis og forkølelse til sygdomme i næsehulen
+## Xylometazoline: Sygdomme i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ og der findes aktuelt **6 publikationer**, men **ingen registrerede kliniske for
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Faryngitis og forkølelse (fra vidensgrafen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,91 % |
+| TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 4 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -64,7 +64,6 @@ Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er i
 
 Den forudsagte indikation overlapper betydeligt med den allerede markedsførte anvendelse (tilstoppet næse ved forkølelse). "Repurposing" er derfor i høj grad en udvidelse af den eksisterende indikation til proceduremæssige og anatomiske sammenhænge, fx forberedelse af næsen før næseendoskopi eller nasotrakeal intubation.
 
-Som sekundær forudsigelse fremkommer **akut laryngopharyngitis** (score 99,89 %). Der findes ingen kliniske forsøg eller litteratur for denne, og der er ingen direkte mekanistisk sammenhæng: xylometazolin forventes ikke at påvirke inflammation eller infektion i strubehoved og svælg. Den høje score skyldes sandsynligvis ligheden med den oprindelige indikation (faryngitis). Denne forudsigelse vurderes som **Hold** (evidensniveau L5).
 
 Farmakologiske data viser desuden, at xylometazolin er knyttet til alfa-2A-, alfa-2B- og alfa-2C-adrenoceptorer (humane) samt alfa-1D-adrenoceptor (rotte). Der er dog ikke fundet offentligt tilgængelige affinitetsdata til at fastlægge en primær målstruktur.
 

@@ -4,17 +4,17 @@ title: Enoxaparin
 parent: Kun modelforudsigelse (L5)
 nav_order: 306
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Enoxaparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (evidensniveau L5). Oprindelig indikation: Pulmonal emboli, dissemineret intravaskulær koagulation…"
 monitor_inn: "ENOXAPARIN"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "thrombophilia due to protein C deficiency, autosomal recessive"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"
 ---
 
 # Enoxaparin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Enoxaparin: Fra pulmonal emboli og dissemineret intravaskulær koagulation til trombofili på grund af protein C-mangel (autosomal recessiv)
+## Enoxaparin: Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Resumé i en sætning
@@ -48,12 +48,12 @@ Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Pulmonal emboli, dissemineret intravaskulær koagulation, purpura fulminans (fra vidensgrafen; der er ikke angivet godkendt indikationstekst for det danske præparat) |
-| Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv |
-| TxGNN-forudsigelsesscore | 99,58 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive) |
+| TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 (kun modelforudsigelse; ingen kliniske forsøg eller publikationer) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 *Note: Evidensniveauet er angivet som L4 i de underliggende data, men da der hverken er forsøg, litteratur eller præklinisk evidens i det udleverede materiale, svarer det til L5 efter de gældende kriterier.*

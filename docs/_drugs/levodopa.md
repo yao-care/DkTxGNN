@@ -4,17 +4,17 @@ title: Levodopa
 parent: Kun modelforudsigelse (L5)
 nav_order: 495
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Levodopa: forudsagt ny indikation Rasmussens subakutte encefalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (og beslægtede parkinsonistiske syndromer)"
 monitor_inn: "LEVODOPA"
-predicted_indications: ["Rasmussen subacute encephalitis", "Rasmussen subacute encephalitis"]
+predicted_indications: ["Rasmussen subacute encephalitis"]
 ---
 
 # Levodopa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 |------|------|
 | Oprindelig indikation | Parkinsons sygdom (og beslægtede parkinsonistiske syndromer) |
 | Forudsagt ny indikation | Rasmussens subakutte encefalitis |
-| TxGNN-forudsigelsesscore | 99,06 % |
+| TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -60,7 +60,7 @@ Levodopa er et forstadie til dopamin og bruges til at erstatte det manglende dop
 
 Rasmussens encefalitis er en kronisk, ensidig, immunmedieret inflammatorisk hjernebetændelse med vanskeligt behandlelige fokale anfald og fremadskridende atrofi af den ene hjernehalvdel. Den centrale patologi (T-celle-medieret cytotoksicitet og neuroinflammation) har ingen oplagt kobling til en dopaminerg mekanisme.
 
-Der er derfor ikke påvist en mekanistisk sammenhæng ud fra de foreliggende data. En eventuel forbindelse er spekulativ, f.eks. symptomatisk lindring af sekundære bevægelsesforstyrrelser som hemiparkinsonisme eller dystoni, men heller ikke dette understøttes af data. Den høje score kan afspejle nærhed i vidensgrafen til fænotyper som hemiparkinsonisme-hemiatrofi-syndromet snarere end en reel terapeutisk sammenhæng.
+Der er derfor ikke påvist en mekanistisk sammenhæng ud fra de foreliggende data. En eventuel forbindelse er spekulativ, f.eks. symptomatisk lindring af sekundære bevægelsesforstyrrelser som hemiparkinsonisme eller dystoni, men heller ikke dette understøttes af data. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, f.eks. fænotyper som hemiparkinsonisme-hemiatrofi-syndromet, ikke biologisk evidens eller en reel terapeutisk sammenhæng.
 
 ## Evidens fra kliniske forsøg
 

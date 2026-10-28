@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 133
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brodalumab: forudsagt ny indikation Strongyloidiasis (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 monitor_inn: "Brodalumab"
-predicted_indications: ["strongyloidiasis", "strongyloidiasis", "eye disease", "eye disease", "vitamin deficiency disorder", "vitamin deficiency disorder", "von Hippel anomaly", "von Hippel anomaly", "optic perineuritis", "recurrent idiopathic neuroretinitis"]
+predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "episcleritis periodica fugax", "nodular episcleritis"]
+last_modified_at: 2026-10-23
+description: "Brodalumab: forudsagt ny indikation Strongyloidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
 # Brodalumab
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Brodalumab: Fra psoriasis (IL-17RA-hæmmer) til strongyloidiasis
+## Brodalumab: Fra den oprindelige anvendelse til strongyloidiasis (forudsagt ny indikation)
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Brodalumab er et biologisk lægemiddel (en IL-17-receptor A-antagonist), der markedsføres i Danmark under navnet Kyntheum. Der foreligger ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt mod **strongyloidiasis**, men der er **0 kliniske forsøg** og **0 publikationer** til støtte for denne retning. Forudsigelsen vurderes som biologisk ikke understøttet.
+Brodalumab er et lægemiddel, der er markedsført i Danmark under navnet Kyntheum, men de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **strongyloidiasis**, men der er **0 kliniske forsøg** og **0 publikationer** om netop denne sygdom, så forudsigelsen er rent beregningsbaseret.
 
 ---
 
@@ -47,34 +46,23 @@ TxGNN-modellen forudsiger, at lægemidlet kan være effektivt mod **strongyloidi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de indsamlede data |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (licensen indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Strongyloidiasis |
-| TxGNN-forudsigelsesscore | 99,84 % |
+| TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Brodalumab er kendt som en antagonist af IL-17-receptor A (IL-17RA), som blokerer signalering fra flere IL-17-cytokiner.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Brodalumab er kendt som en antagonist af IL-17-receptor A (IL-17RA), og det er den mekanisme, der er grundlaget for den følgende vurdering.
 
-Kontrol af *Strongyloides*-infektion afhænger hovedsageligt af Th2-respons (IL-4, IL-5, IL-13) og eosinofile celler, med et vist bidrag fra IL-17-medieret slimhindeimmunitet. Hæmning af IL-17 kan teoretisk set svække værtens forsvar eller forværre infektionen. Den høje modelscore (0,998) understøttes derfor ikke af biologien, og forudsigelsen kan ikke forankres mekanistisk.
+Der er ikke noget klart mekanistisk led mellem IL-17RA-blokade og strongyloidiasis. Immunforsvaret mod orme er overvejende drevet af Th2-celler. Blokade af IL-17-signalering kan i teorien forværre snarere end forbedre infektionskontrollen. Den høje TxGNN-score er derfor en beregningsmæssig forudsigelse uden støtte i kliniske data eller litteratur.
 
-### Øvrige forudsigelser i datasættet
-
-Samme billede gælder for de øvrige topforudsigelser. Nogle forekommer i datasættet flere gange med identiske data.
-
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Strongyloidiasis | 99,84 % | L5 | Ingen mekanistisk sammenhæng; mulig forværring af infektion |
-| Øjensygdom (eye disease) | 99,82 % | L4 | Indirekte plausibilitet via IL-17 ved uveitis/Behçet, men litteraturen peger mere på en sikkerhedsrisiko end på gavnlig effekt |
-| Vitaminmangeltilstand | 99,80 % | L5 | Ingen plausibel mekanisme; sandsynligvis artefakt i vidensgrafen |
-| Von Hippel-anomali | 99,77 % | L5 | Ingen mekanistisk begrundelse; tilstanden er uklart defineret |
-| Optisk perineuritis | 99,76 % | L5 | Kun løs konceptuel sammenhæng; normalt steroidfølsom |
-| Recidiverende idiopatisk neuroretinitis | 99,76 % | L5 | Kun løs konceptuel sammenhæng; ingen evidens |
+Hverken lighed med den oprindelige indikation eller administrationsvejens egnethed er vurderet, da de relevante data mangler.
 
 ---
 
@@ -88,34 +76,26 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for strongylo
 
 Der er i øjeblikket ingen relateret litteratur for strongyloidiasis.
 
-Til sammenligning blev der for den næstplacerede forudsigelse (øjensygdom) fundet tre publikationer, som ikke viser gavnlig effekt:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [42576218](https://pubmed.ncbi.nlm.nih.gov/42576218/) | 2026 | Præklinisk (dyremodel) | Journal of Translational Medicine | IL-17-receptorhæmning med brodalumab begrænser eksperimentel periodontitis (ikke en øjensygdom) |
-| [41770262](https://pubmed.ncbi.nlm.nih.gov/41770262/) | 2026 | Case report | Rheumatology International | Behçets sygdom opstod som paradoks reaktion efter start af brodalumab hos en patient med kronisk non-bakteriel osteitis |
-| [41916603](https://pubmed.ncbi.nlm.nih.gov/41916603/) | 2026 | Farmakovigilansanalyse | Canadian Journal of Ophthalmology | Analyse af uveitis som bivirkning ved systemiske lægemidler |
-
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105697815 | Kyntheum (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
+| 28105697815 | Kyntheum (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
+
+Der er tale om 1 gyldig tilladelse til et enkeltstofpræparat.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgraf (ikke produktresumé):** Crohns sygdom, inflammatorisk tarmsygdom og Crohns colitis. Disse stammer fra TxGNN-vidensgrafen (PrimeKG) og ikke fra godkendt produkttekst.
-- **Lægemiddelinteraktioner:** 68 interaktioner er registreret. Blandt de vigtigste:
-  - **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, BCG-levende vaccine (Tice-stammen)
-  - **Moderate:** roflumilast, alefacept, alemtuzumab, anakinra, canakinumab, tetanustoksoid samt flere levende eller inaktiverede vacciner (bl.a. miltbrand, kolera, adenovirus)
-  - **Mindre (Minor):** zinksalte (acetat, gluconat, sulfat, chlorid)
-- **Andre signaler:** Case report om paradoks udløsning af Behçets sygdom samt farmakovigilansdata om uveitis tyder på en mulig sikkerhedsbekymring ved øjenrelaterede tilstande.
-
-For øvrige advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+- **Kontraindikationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer relationer til Crohns sygdom, inflammatorisk tarmsygdom og Crohns colitis. Det er relationer fra en model, ikke bekræftede kontraindikationer fra produktresuméet.
+- **Lægemiddelinteraktioner:** Der er fundet 68 interaktioner. Et udvalg:
+  - **Alvorlige (Major):** adalimumab, baricitinib, certolizumab pegol, levende BCG-vaccine (Bacillus Calmette-Guérin).
+  - **Moderate:** roflumilast, anakinra, canakinumab, alefacept, alemtuzumab, tetanustoksoid samt flere vacciner og levende mikroorganismer (fx anthraxvaccine, koleravaccine, adenovirusvaccine, Candida albicans, Bifidobacterium longum infantis).
+  - **Mindre alvorlige (Minor):** zinksalte (acetat, gluconat, sulfat, chlorid).
+- Oplysninger om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, herunder eventuelle advarsler om selvmordstanker og -adfærd.
 
 ---
 
@@ -124,13 +104,28 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om strongyloidiasis har kun modelstøtte (L5), ingen kliniske forsøg eller litteratur, og biologien taler snarere imod (IL-17-hæmning kan svække værtsforsvaret). Der mangler desuden data om virkningsmekanisme, oprindelig indikation og sikkerhedsoplysninger fra produktresuméet.
+Forudsigelsen for strongyloidiasis hviler udelukkende på en modelscore uden kliniske forsøg, litteratur eller plausibel mekanisme. Evidensniveauet er L5, og blokade af IL-17 kan i teorien være ufordelagtig ved ormeinfektioner.
 
-**For at komme videre er følgende nødvendigt:**
-- Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
-- Mekanismedata (MOA) fra DrugBank
-- Prækliniske eller kliniske data, der kan understøtte en sammenhæng mellem IL-17RA-blokade og den forudsagte indikation
-- En særskilt sikkerhedsvurdering af risikoen for infektioner og for paradokse inflammatoriske reaktioner (herunder øjenmanifestationer)
+**For at komme videre kræves følgende:**
+- Hent og gennemgå produktresuméet for Kyntheum (indikationer, advarsler, kontraindikationer) hos Lægemiddelstyrelsen.
+- Indhent data om virkningsmekanisme fra DrugBank.
+- Præklinisk eller mekanistisk dokumentation for en rolle af IL-17RA i værtsforsvaret mod *Strongyloides*.
+
+---
+
+## Øvrige forudsagte indikationer (kort)
+
+Ingen af de øvrige forudsigelser har kliniske forsøg. Alle har anbefalingen Hold.
+
+| Rang | Sygdom | Score | Evidensniveau | Bemærkning |
+|---|---|---|---|---|
+| 2 | Øjensygdom (eye disease) | 0,9982 | L5 | Biologisk plausibelt via IL-17, men litteraturen omhandler ikke effekt mod øjensygdom: en parodontitismodel, en case-rapport om Behçets sygdom opstået efter brodalumab-start og en farmakovigilansanalyse af uveitis som bivirkning. Kategorien er for bred til at vurdere som én indikation. |
+| 3 | Vitaminmangeltilstand | 0,9980 | L5 | Ingen plausibel mekanisme. |
+| 4 | Von Hippel-anomali | 0,9977 | L5 | Ingen etableret IL-17-drevet patologi. |
+| 5–8 | Optikusneuritis og beslægtede optiske neuropatier (isoleret optikusneuritis, recidiverende idiopatisk neuroretinitis, kronisk recidiverende inflammatorisk optikusneuropati, optisk perineuritis) | 0,9976 | L5 | Kun svag, indirekte plausibilitet; de identiske scorer kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. |
+| 9–10 | Episcleritis periodica fugax og nodulær episcleritis | 0,9976 | L5 | Ofte selvbegrænsende; ugunstig nytte-risiko-balance for et biologisk lægemiddel. |
+
+Bemærk: Rang 2 (øjensygdom) er i grundlaget angivet som L4, men da ingen af de citerede studier direkte undersøger brodalumab ved øjensygdom, er evidensniveauet her sat til L5.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

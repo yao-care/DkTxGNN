@@ -6,9 +6,9 @@ nav_order: 256
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dexpanthenol: forudsagt ny indikation Udslæt (eksantem) (evidensniveau L5). Oprindelig indikation: Paralytisk ileus, tarmobstruktion, hudsygdomme, atopisk eksem…"
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Dexpanthenol: forudsagt ny indikation Anorectal stricture (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dexpanthenol
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Dexpanthenol: Fra hud- og tarmlidelser til udslæt (eksantem)
+## Dexpanthenol: Anorectal stricture
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,15 +46,15 @@ Dexpanthenol omdannes i kroppen til pantothensyre (vitamin B5) og bruges blandt 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Paralytisk ileus, tarmobstruktion, hudsygdomme, atopisk eksem, dermatitis (fra vidensgrafen; de danske markedsføringstilladelser har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Udslæt (eksantem) |
-| TxGNN-forudsigelsesscore | 99,60 % |
-| Evidensniveau | L4 (indirekte evidens) |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Anorectal stricture |
+| TxGNN-forudsigelsesscore | 0.9972 |
+| Evidensniveau | L5 (indirekte evidens) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
-*Bemærk: Den højest rangerede forudsigelse i dataene er anorektal striktur (score 99,72 %), men uden nogen evidens (L5). Eksantem er den eneste forudsigelse med klinisk forsøgsdata og er derfor valgt som fokus i denne rapport.*
+*Bemærk: Den højest rangerede forudsigelse i dataene er anorektal striktur (score 0,9972), men uden nogen evidens (L5). Eksantem er den eneste forudsigelse med klinisk forsøgsdata og er derfor valgt som fokus i denne rapport.*
 
 ---
 

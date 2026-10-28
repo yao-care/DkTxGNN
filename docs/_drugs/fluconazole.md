@@ -50,10 +50,10 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 |------|------|
 | Oprindelig indikation | Oral candidiasis, candidiasis, vulvovaginal candidiasis, øsofageal candidiasis, kryptokok-meningitis, candidæmi, dissemineret candidiasis (godkendelsesteksten for det danske produkt er ikke angivet) |
 | Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis |
-| TxGNN-forudsigelsesscore | 99,24 % |
+| TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er 
 
 Den mekanisme er kun relevant, hvis øjenbetændelsen har en svampeårsag. Punktformet epitelial keratokonjunktivitis er typisk forårsaget af virus (især adenovirus), er immunmedieret eller hænger sammen med tørre øjne eller toksisk påvirkning. En plausibel antimykotisk virkning er derfor ikke påvist.
 
-Den høje score afspejler muligvis nærhed i vidensgrafen til svampekeratitis eller okulær candidiasis snarere end en reel terapeutisk sammenhæng. Forudsigelsen er derfor alene en hypotese, som kræver uafhængig validering.
+Den høje score stammer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen er derfor alene en hypotese, som kræver uafhængig validering.
 
 ---
 

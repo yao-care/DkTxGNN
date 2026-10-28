@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Meropenem
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 532
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Meropenem: forudsagt ny indikation Bakteriel artritis (evidensniveau L3). Oprindelig indikation: Bakterielle infektioner (bl.a. Pseudomonas aeruginosa-infektion…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "bacterial arthritis", "epiglottitis", "epiglottitis", "staphylococcus aureus infection", "staphylococcus aureus infection", "laryngitis", "laryngitis", "paratyphoid fever", "paratyphoid fever"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+last_modified_at: 2026-10-23
+description: "Meropenem: forudsagt ny indikation Bakteriel artritis (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: infektion med Pseudomonas aerugi…"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Meropenem er et bredspektret carbapenem-antibiotikum, som oprindeligt anvendes til alvorlige bakterielle infektioner såsom meningitis, peritonitis og infektioner med *Pseudomonas aeruginosa*.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **bakteriel artritis**,
-men der er **ingen registrerede kliniske forsøg** og kun **litteratur på case- og kohorteniveau** (20 publikationer, hvoraf ingen er randomiserede studier).
+Meropenem er et bredspektret carbapenem-antibiotikum, som TxGNN-modellen (deep learning) forbinder med infektioner som meningitis, peritonitis og infektion med Pseudomonas aeruginosa; dette kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+TxGNN-modellen forudsiger, at det kan have effekt ved **bakteriel artritis**.
+Der er **ingen registrerede kliniske forsøg** og **19 publikationer**, hvoraf ingen direkte undersøger meropenem ved bakteriel artritis i et kontrolleret design. Evidensen består af reviews, kasuistikker og retrospektive opgørelser.
 
 ---
 
@@ -48,29 +48,27 @@ men der er **ingen registrerede kliniske forsøg** og kun **litteratur på case-
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakterielle infektioner (bl.a. *Pseudomonas aeruginosa*-infektion, bakteriel meningitis, peritonitis, meningokokinfektion). Indikationsteksten i den danske autorisation er ikke tilgængelig. |
+| Oprindelig indikation | Relation registreret i vidensgrafen: infektion med Pseudomonas aeruginosa, meningokokinfektion, peritonitis og bakteriel meningitis (ikke hentet fra dansk produktinformation; indikationsteksten i den danske registrering er ikke tilgængelig) |
 | Forudsagt ny indikation | Bakteriel artritis |
-| TxGNN-forudsigelsesscore | 99,92 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails |
+| TxGNN-forudsigelsesscore | 0,9992 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Meropenem er et carbapenem, og det er kendt, at stoffet hæmmer bakteriens celleväggssyntese ved at binde sig til penicillinbindende proteiner. Mekanismen er derfor direkte relevant for bakterielle infektioner i led og knogler.
+Data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Meropenem er et carbapenem, og stoffer i denne klasse hæmmer bakteriers cellevægssyntese ved at binde penicillinbindende proteiner. Det giver bred dækning af gramnegative stave, herunder Pseudomonas aeruginosa og Burkholderia pseudomallei, som kan give led- og knogleinfektioner.
 
-Bakteriel artritis skyldes ofte følsomme gramnegative og grampositive bakterier, som meropenem dækker. Litteraturen omfatter bl.a. septisk artritis forårsaget af ESBL-producerende *Klebsiella pneumoniae*, der blev behandlet med meropenem og amikacin sammen med artroskopisk skylning, samt muskuloskeletal melioidose, hvor alle isolater var følsomme over for meropenem.
-
-Der er tale om en udvidelse af en eksisterende antibakteriel anvendelse frem for en ny mekanisme. Det er derfor mere præcist at kalde det en indikationsudvidelse end egentlig repurposing.
+Forudsigelsen er biologisk plausibel, fordi bakteriel artritis skyldes bakterier, som meropenem kan ramme. Litteraturen omfatter især kasuistikker og retrospektive opgørelser (fx septisk artritis med ESBL-producerende Klebsiella pneumoniae behandlet med meropenem og amikacin samt muskuloskeletal melioidose, hvor alle isolater var følsomme over for meropenem). Disse studier undersøger ikke meropenem direkte mod bakteriel artritis i et kontrolleret design, så evidensen er L5 efter de gældende regler.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ---
 
@@ -78,67 +76,52 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Kohorte | Le infezioni in medicina | Retrospektiv kohorte, der karakteriserer patienter med osteoartikulær melioidose |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Kohorte | Clinical Laboratory | Fordeling af patogener og antibiotikaresistens ved knogle- og ledinfektioner hos børn under fire år |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Oversigtsartikel | Int J Antimicrob Agents | Off-label-brug versus formelle anbefalinger for antibiotika ved multiresistente bakterier |
-| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Oversigtsartikel | Pathogens | Behandlingsmuligheder ved melioidose: antibiotika versus fagterapi |
-| [11869242](https://pubmed.ncbi.nlm.nih.gov/11869242/) | 1997 | Oversigtsartikel | Clin Microbiol Infect | Behandling af sepsis og definitioner til kliniske forsøg |
-| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Case-rapport | Joint Bone Spine | Septisk artritis med ESBL-producerende *K. pneumoniae* hos to immunkompromitterede patienter, behandlet med meropenem og amikacin samt artroskopisk skylning |
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospektiv gennemgang | Indian J Med Microbiol | 22 tilfælde af muskuloskeletal melioidose; alle isolater var følsomme over for meropenem |
-| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Case-rapport | J Med Case Rep | Dissemineret melioidose med septisk artritis, fejldiagnosticeret som tuberkulose |
-| [38375100](https://pubmed.ncbi.nlm.nih.gov/38375100/) | 2024 | Case-rapport | Infect Drug Resist | Purulent meningitis med artritis forårsaget af *Streptococcus suis* |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Laboratoriestudie | J Bone Joint Surg Am | Termisk stabilitet og eluering af bl.a. meropenem i PMMA-knoglecement |
-
-Der er ikke identificeret randomiserede kontrollerede forsøg. Flere af de viste publikationer er kun indirekte relevante.
+| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Kasuistik | Joint Bone Spine | To immunkompromitterede patienter med septisk artritis (ESBL-Klebsiella) behandlet med meropenem, amikacin og tidlig artroskopisk skylning |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospektiv opgørelse | Indian J Med Microbiol | 22 tilfælde af muskuloskeletal melioidose; alle isolater var følsomme over for meropenem |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Kohorte | Le Infezioni in Medicina | Retrospektiv kohorte om osteoartikulær melioidose |
+| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Kasuistik | J Med Case Rep | Dissemineret melioidose med septisk artritis, fejldiagnosticeret som tuberkulose |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label vs. formelle anbefalinger for antibiotika ved multiresistente bakterier |
+| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Review | Pathogens | Antibiotika versus fagterapi ved melioidose |
+| [11869242](https://pubmed.ncbi.nlm.nih.gov/11869242/) | 1997 | Review | Clin Microbiol Infect | Behandling af sepsis |
+| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | Antibiogram-studie | Eur J Orthop Surg Traumatol | Antibiogrammer til empirisk antibiotikavalg ved ortopædiske infektioner |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Kohorte | Clin Lab | Patogenfordeling og resistens ved knogle- og ledinfektioner hos små børn |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | Laboratoriestudie | J Bone Joint Surg Am | Termisk stabilitet og eluering af meropenem m.fl. i PMMA-knoglecement |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106412220 | Merocarb (Antibiotice S.A.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+| 28106412220 | Merocarb (Antibiotice S.A.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/risici fra vidensgraf (ikke produktresumétekst):** Epilepsi, nyresygdom, pyoureter, trombocytopeni, *Clostridium difficile*-colitis og perinatal nekrotiserende enterokolitis er knyttet til meropenem i den anvendte vidensgraf. Disse oplysninger skal verificeres mod det godkendte produktresumé.
+- **Kontraindikationer/forbehold registreret i vidensgrafen (ikke produkttekst):** epilepsi, nyresygdom, pyoureter, trombocytopeni, Clostridium difficile-colitis og perinatal nekrotiserende enterokolitis.
+- **Lægemiddelinteraktioner (14 registreret):**
+  - Alvorlige: bupropion, iohexol, iopamidol.
+  - Moderate: blandt andet picosulfat, polyethylenglykol med elektrolytter, nitisinon, natriumsulfat, lindan, ethinylestradiol, alpelisib, encorafenib, mycofenolsyre, pemetrexed og teriflunomid.
 
-**Lægemiddelinteraktioner:** 14 interaktioner er identificeret. De vigtigste:
-- **Alvorlige (Major):** Bupropion, iohexol, iopamidol
-- **Moderate:** Picosulfat, polyethylenglykol med elektrolytter, nitisinon, natriumsulfat, lindan, ethinylestradiol, alpelisib, encorafenib, mycophenolsyre, pemetrexed, teriflunomid
-
-For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Meropenem har en veletableret antibakteriel mekanisme, der er direkte relevant for bakteriel artritis, og kohorte- og case-data viser følsomhed og klinisk anvendelse. Der mangler dog kontrollerede forsøg, og stoffets brug bør være målrettet dokumenterede resistente eller følsomme patogener og underlagt antibiotic stewardship.
+Forudsigelsen er mekanistisk plausibel, men der findes ingen kliniske forsøg og ingen publikation, der direkte undersøger meropenem ved bakteriel artritis i kontrolleret design. Evidensen er derfor på L5-niveau.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet for Merocarb (advarsler, kontraindikationer og godkendt indikation)
-- Data om virkningsmekanisme fra DrugBank
-- Kontrollerede eller større komparative studier af meropenem ved led- og knogleinfektioner
-- Klinisk afgrænsning til patienter med resistente gramnegative patogener (f.eks. ESBL, melioidose) og vurdering af resistenspres
-- Overvågningsplan for risikogrupper (epilepsi, nedsat nyrefunktion, trombocytopeni) og interaktioner
+- Systematisk gennemgang af kliniske data for meropenem ved septisk artritis og knogle-/ledinfektioner
+- Data om virkningsmekanisme og dansk produktresumé (advarsler, kontraindikationer, godkendt indikationstekst)
+- Vurdering af ledpenetration og dosering
+- Sammenligning med gældende retningslinjer og etablerede førstevalgsbehandlinger
 
----
-
-### Bemærkninger om øvrige forudsigelser
-
-Datasættet indeholder også andre forudsigelser, som er vurderet mindre modne:
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| *Staphylococcus aureus*-infektion | 99,85 % | L3 | Kun aktiv mod MSSA, ikke MRSA; smallere midler foretrækkes. Relevant ved vedvarende MSSA-bakteriæmi (kombinationsterapi, 2024). |
-| Paratyfus | 99,57 % | L4 | Reservemulighed ved ekstensivt resistent enterisk feber; kun følsomheds- og epidemiologiske data. |
-| Epiglottitis | 99,91 % | L4 | Kun indirekte støtte; Hold. |
-| Laryngitis | 99,59 % | L4 | Oftest viral; strider mod antibiotic stewardship; Hold. |
+Øvrige forudsagte indikationer (epiglottitis, Staphylococcus aureus-infektion, laryngitis, paratyfoidfeber, borreliose, Peptostreptococcus-infektion, gonokokuretritis og Ureaplasma-uretritis) er ikke vurderet i dybden. Flere af dem er biologisk tvivlsomme, især Ureaplasma-uretritis, da Ureaplasma mangler cellevæg.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

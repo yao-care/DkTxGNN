@@ -4,17 +4,17 @@ title: Palbociclib
 parent: Kun modelforudsigelse (L5)
 nav_order: 624
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib: forudsagt ny indikation Hyperthyroidisme (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten i den dansk…"
 monitor_inn: "Palbociclib"
-predicted_indications: ["hyperthyroidism", "hyperthyroidism", "rheumatoid arthritis", "rheumatoid arthritis", "thrombotic disease", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: forudsagt ny indikation Hyperthyroidisme (hyperthyroidism) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Palbociclib: Fra oprindelig indikation til hyperthyroidisme
+## Palbociclib: Hyperthyroidisme (hyperthyroidism)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Bemærk: Den højest rangerede forudsigelse (hyperthyroidisme) har ingen underst
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke tilgængelig i de indsamlede data (indikationsteksten i den danske godkendelse er tom). Palbociclib anvendes generelt ved brystkræft (HR-positiv/HER2-negativ), jf. litteraturen i datasættet |
-| Forudsagt ny indikation | Hyperthyroidisme |
-| TxGNN-forudsigelsesscore | 99,44 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hyperthyroidisme (hyperthyroidism) |
+| TxGNN-forudsigelsesscore | 0.9944 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Bemærk: Den højest rangerede forudsigelse (hyperthyroidisme) har ingen underst
 
 Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Palbociclib tilhører klassen af CDK4/6-hæmmere, som hæmmer cellecyklussens progression og dermed celledeling.
 
-Der er ikke noget i de foreliggende data, der kan forklare en sammenhæng mellem CDK4/6-hæmning og overskud af skjoldbruskkirtelhormon. Scoren på 99,44 % afspejler en forudsigelse fra vidensgrafen og ikke dokumenteret effekt. Uden kliniske eller litteraturbaserede data kan forudsigelsen ikke vurderes som biologisk plausibel.
+Der er ikke noget i de foreliggende data, der kan forklare en sammenhæng mellem CDK4/6-hæmning og overskud af skjoldbruskkirtelhormon. Scoren på 0,9944 stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Uden kliniske eller litteraturbaserede data kan forudsigelsen ikke vurderes som biologisk plausibel.
 
 ---
 
@@ -82,11 +82,10 @@ Der findes i øjeblikket ingen relateret litteratur for hyperthyroidisme.
 
 | Rang | Sygdom | Score | Evidensniveau | Anbefaling |
 |------|------|------|------|------|
-| 1-2 | Hyperthyroidisme | 99,44 % | L5 | Hold |
-| 3-4 | Leddegigt | 99,36 % | L4 | Forskningsspørgsmål |
-| 5-6 | Trombotisk sygdom | 99,32 % | L5 | Hold |
-| 7-8 | Thyreoideahormonresistens (THRB-mutation) | 99,30 % | L5 | Hold |
-| 9-10 | Brachydaktyli-syndaktyli-syndrom | 98,99 % | L5 | Hold |
+| 1-2 | Hyperthyroidisme | 0,9944 | L5 | Hold |
+| 3-4 | Leddegigt | 0,9936 | L4 | Forskningsspørgsmål |
+| 5-6 | Trombotisk sygdom | 0,9932 | L5 | Hold |
+| 7-8 | Thyreoideahormonresistens (THRB-mutation) | 0,9930 | L5 | Hold |
 
 ### Leddegigt: den mest understøttede forudsigelse (L4)
 
@@ -107,7 +106,7 @@ Litteraturen (bl.a. PMID 36794339, 39083396, 39123221, 35300061) viser, at CDK4/
 
 ### Øvrige
 
-For thyreoideahormonresistens og brachydaktyli-syndaktyli-syndrom findes hverken forsøg eller litteratur, og der kan ikke udledes en mekanistisk begrundelse. Et cytostatisk kræftlægemiddel forventes ikke at korrigere en receptordefekt, og CDK4/6-hæmmere ville give sikkerhedsbekymringer i en udviklingsmæssig sammenhæng.
+Et cytostatisk kræftlægemiddel forventes ikke at korrigere en receptordefekt, og CDK4/6-hæmmere ville give sikkerhedsbekymringer i en udviklingsmæssig sammenhæng.
 
 ---
 

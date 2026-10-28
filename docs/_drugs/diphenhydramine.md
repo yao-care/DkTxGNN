@@ -6,9 +6,9 @@ nav_order: 266
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Diphenhydramine: forudsagt ny indikation Rosacea-konjunktivitis (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis…"
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Diphenhydramine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Diphenhydramine
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Diphenhydramin: Fra allergisk rhinitis og konjunktivitis til rosacea-konjunktivitis
+## Diphenhydramine: Rosacea-konjunktivitis (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumé
@@ -46,12 +46,12 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis og allergisk konjunktivitis (atopisk, papillær, vernal) samt søvnbesvær (fra TxGNN-vidensgrafen; indikationsteksten i den danske autorisation er ikke tilgængelig) |
-| Forudsagt ny indikation | Rosacea-konjunktivitis |
-| TxGNN-forudsigelsesscore | 99,2 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Rosacea-konjunktivitis (rosacea conjunctivitis) |
+| TxGNN-forudsigelsesscore | 0.9920 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

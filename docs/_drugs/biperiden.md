@@ -50,10 +50,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 |------|------|
 | Oprindelig indikation | Parkinsons sygdom og beslægtede parkinsonistiske lidelser (den danske indikationstekst er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | Rasmussen subakut encephalitis |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanisme. Biperiden er kendt som et antikolinergt middel med præference for muskarine M1-receptorer, og dets effekt ved parkinsonisme og dystoni er veletableret.
 
-Rasmussen encephalitis er en immunmedieret, T-celledrevet fokal hjernebetændelse med epileptiske anfald. Der er ingen oplagt mekanistisk forbindelse til biperidens antikolinerge virkning. Den høje score afspejler formentlig mønstre i vidensgrafen snarere end en reel farmakologisk sammenhæng. Forudsigelsen bør derfor betragtes som spekulativ.
+Rasmussen encephalitis er en immunmedieret, T-celledrevet fokal hjernebetændelse med epileptiske anfald. Der er ingen oplagt mekanistisk forbindelse til biperidens antikolinerge virkning. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor betragtes som spekulativ.
 
 Øvrige forudsagte indikationer i dataene (f.eks. myelitis, PLA2G6-associeret neurodegeneration, progressiv supranukleær parese-kortikobasalt syndrom) har ligeledes ingen eller kun svag støtte. For Lewy body-demens peger den eneste publikation snarere på et skadeligt potentiale, da biperiden svækker hukommelse og visuospatiale funktioner hos raske ældre.
 
@@ -92,7 +92,7 @@ Producent: Laboratorio Farmaceutico S.I.T. Status: gyldig. Administrationsvej: o
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Følgende oplysninger stammer fra vidensgrafen og lægemiddelinteraktionsdatabaser og er ikke baseret på produktresuméets tekst.
+Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Følgende oplysninger stammer fra lægemiddelinteraktionsdatabaser og er ikke baseret på produktresuméets tekst.
 
 - **Sygdomme, hvor vidensgrafen angiver kontraindikation** (udvalg): snævervinklet/lukketvinklet glaukom, godartet prostataforstørrelse, paralytisk ileus, myasthenia gravis, achalasi, colitis ulcerosa og inflammatorisk tarmsygdom, Clostridium difficile-colitis, hjerte-ledningssygdom, koronarsygdom, hypertension og hypotension, svær KOL samt lever-, nyre- og galdeblæresygdom.
 - **Lægemiddelinteraktioner**: i alt 82 registrerede interaktioner.

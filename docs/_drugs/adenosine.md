@@ -4,17 +4,17 @@ title: Adenosine
 parent: Kun modelforudsigelse (L5)
 nav_order: 25
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Adenosine: forudsagt ny indikation Obsolet grenblok (bundle branch block) (evidensniveau L5). Oprindelig indikation: Ventrikulær takykardi"
+indication_count: 1
 monitor_inn: "adenosine"
 predicted_indications: ["obsolete bundle branch block"]
+last_modified_at: 2026-10-27
+description: "Adenosine: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Adenosine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,65 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Adenosin: Fra ventrikulær takykardi til obsolet grenblok (bundle branch block)
+## Adenosin: purinerg receptoragonist → obsolet grenblok (obsolete bundle branch block)
 {: .text-alpha }
 
-## Opsummering i få sætninger
+## Opsummering
 
-Adenosin er oprindeligt anvendt til behandling af ventrikulær takykardi. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **obsolet grenblok** (en forældet sygdomsbetegnelse) med en meget høj modelscore, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse. Den næstrangerede forudsigelse, **katekolaminerg polymorf ventrikulær takykardi (CPVT)**, er understøttet af **ét case report** og indirekte mekanistiske data (ingen kliniske forsøg).
-
----
+Adenosin er et lægemiddel, der virker på adenosinreceptorer i hjertet og bruges som injektion.
+TxGNN-modellen forudsiger, at det kan have effekt ved **obsolet grenblok (obsolete bundle branch block)**.
+Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, så forudsigelsen bygger udelukkende på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ventrikulær takykardi (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Obsolet grenblok (bundle branch block) |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obsolet grenblok (obsolete bundle branch block) |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-*Til sammenligning: den næstrangerede forudsigelse, CPVT, har en score på 99,42 % og evidensniveau L4 (anbefaling: forskningsspørgsmål).*
+## Hvorfor kan forudsigelsen være rimelig?
 
----
+Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanismen. Adenosin virker generelt via A1-receptorer i AV-knuden og nedsætter impulsledningen. Denne effekt udnyttes diagnostisk og til afbrydelse af visse supraventrikulære rytmeforstyrrelser.
 
-## Hvorfor er denne forudsigelse rimelig (eller ej)?
+Den forudsagte sygdom er markeret som forældet i terminologien. Det tyder på, at navnet knytter sig til en udgået post, som måske ikke svarer til en selvstændig, klinisk anvendelig tilstand. Desuden er en nedsat ledning i AV-knuden ikke en oplagt behandling af ledningsblok og kan i princippet forværre ledningsforstyrrelser. Den høje score bør derfor tolkes med stor forsigtighed og ligner snarere en modelartefakt, indtil terminologien er afklaret.
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Adenosin er kendt for at aktivere A1-receptorer i AV-knuden og dermed bremse ledningen. Effekten udnyttes diagnostisk og til afbrydelse af supraventrikulære arytmier.
+## Kliniske forsøg
 
-**Obsolet grenblok:** Forudsigelsen hviler udelukkende på modelscoren. Sygdomsbetegnelsen er markeret som forældet, så den svarer sandsynligvis til en udfaset ontologipost og ikke til en klart afgrænset, klinisk anvendelig tilstand. Adenosin er ikke en etableret behandling af ledningsblok og kan i teorien forværre ledningsforstyrrelser. Forudsigelsen bør derfor betragtes som et sandsynligt artefakt i vidensgrafen, indtil ontologikortlægningen er afklaret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-**CPVT (sekundær forudsigelse):** CPVT skyldes lækage af calcium fra det sarkoplasmatiske retikulum (RyR2, CASQ2, TECRL) og forsinkede efterdepolarisationer udløst af katekolaminer. Adenosin har anti-adrenerg effekt via A1-receptoren, som sænker cAMP og muligvis dæmper udløst aktivitet. Det er et plausibelt, men indirekte mekanistisk grundlag. Anvendelse vil i bedste fald være akut afbrydelse af arytmi og ikke kronisk behandling.
+## Litteratur
 
----
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
-## Evidens fra kliniske forsøg
+## Information om markedet i Danmark
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret (hverken for obsolet grenblok eller CPVT).
-
----
-
-## Litteraturevidens
-
-Ingen litteratur er tilgængelig for obsolet grenblok. For den næstrangerede forudsigelse (CPVT) fremgår de mest relevante publikationer nedenfor:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case report | Heart Rhythm | Adenosintrifosfat afbrød bidirektionel ventrikulær takykardi hos en patient med CPVT |
-| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Konsensuserklæring/review | Europace | Farmakologisk provokationstest i elektrofysiologi; adenosin bruges diagnostisk, ikke terapeutisk |
-| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Observationsstudie | Heart Rhythm | Unormal repolarisering efter pacing ved CPVT med RyR2-mutation |
-| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | Review | J Assoc Physicians India | Genkendelse og behandling af ventrikulær takykardi ved strukturelt normalt hjerte |
-| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | Review | Paediatr Anaesth | Pædiatriske arytmier set fra et anæstesiologisk perspektiv |
-| [15324613](https://pubmed.ncbi.nlm.nih.gov/15324613/) | 2004 | Review | Curr Treat Options Cardiovasc Med | Behandlingsmuligheder ved synkope |
-| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Præklinisk | Commun Biol | TECRL-mangel giver unormal mitokondriefunktion i kardiomyocytter |
-| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Præklinisk | Cardiovasc Res | Genterapi med PDE2A/4B forbedrer hjertesvigt og arytmier hos mus |
-| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Præklinisk | Sci Transl Med | Calciumlækage fra sarkoplasmatisk retikulum bidrager til arytmi, ikke til hjertesvigt |
-| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | Præklinisk | J Physiol | Hjerte-neurale mikrovæv viser, at CPVT også involverer sympatiske neuroner |
-
----
-
-## Oplysninger om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28101540293 | Adenocor (Sanofi A/S) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
-
----
+| 28101540293 | Adenocor (Sanofi A/S) | Injektionsvæske, opløsning | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-- **Mulige kontraindikationer (fra vidensgrafen, ikke fra produktresuméet):** kronisk obstruktiv lungesygdom (KOL), astma, aortastenose, mitralstenose, hypotension, akut koronarsyndrom, koronararteriesygdom, atrioventrikulær blok, sick sinus-syndrom, respirationssvigt, lungeemfysem, perikarditis, autonom nervesystemsygdom og Horners syndrom.
-- **Lægemiddelinteraktioner:** I alt 151 registrerede interaktioner. Blandt de udvalgte er flere vurderet som **alvorlige (Major)**: cisaprid, dolasetron og papaverin. Moderate interaktioner omfatter bl.a. famotidin, clarithromycin, granisetron, levofloxacin, ondansetron og palonosetron.
-- Ved eventuel anvendelse ved CPVT skal risikoen for adenosinudløst proarytmi og bronkospasme vurderes nøje.
+- **Lægemiddelinteraktioner:** I alt er 151 interaktioner registreret. Blandt de alvorlige (Major) er cisaprid, dolasetron og papaverin. Blandt de moderate er famotidin, clarithromycin, granisetron, levofloxacin, ondansetron og palonosetron.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold** (for den primære forudsigelse, obsolet grenblok)
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Forudsigelsen understøttes kun af modelscoren (evidensniveau L5). Sygdomsbetegnelsen er forældet, og adenosins virkning på AV-ledning taler snarere imod end for nytte. For CPVT er evidensen begrænset til ét case report og indirekte data (L4), og den bør kun behandles som et forskningsspørgsmål.
+Forudsigelsen støttes kun af modellens score (0,9994), uden kliniske forsøg eller litteratur. Sygdomsnavnet er forældet, og den kendte virkning på AV-ledning taler ikke for en gavnlig effekt ved ledningsblok.
 
-**For at komme videre kræves:**
-- Afklaring af ontologikortlægningen for "obsolet grenblok" og identifikation af en aktuel, klinisk meningsfuld diagnose
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Produktresumé (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer (kritisk datahul for sikkerhedsscreening)
-- Systematisk litteraturgennemgang og eventuelt prækliniske eller små kliniske studier af adenosin ved CPVT, med fokus på akut afbrydelse af arytmi
-- Sikkerhedsvurdering for proarytmi og bronkospasme
+**For at komme videre kræves følgende:**
+- Afklaring af, hvilken aktuel sygdomsdiagnose den forældede term svarer til
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Litteratur- og forsøgssøgning for den afklarede tilstand
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 610
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L3). Oprindelig indikation: Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, esofagitis…"
 monitor_inn: "omeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Omeprazol: Fra mavesår og refluks til duodenogastrisk refluks
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Omeprazol er en protonpumpehæmmer, der oprindeligt bruges til behandling af mavesår, tolvfingertarmssår, refluks (GERD) og esofagitis.
-TxGNN-modellen forudsiger, at den kan have effekt ved **duodenogastrisk refluks** (galderefluks fra tolvfingertarmen til maven).
+TxGNN-modellen (deep learning) forudsiger, at den kan have effekt ved **duodenal obstruktion**.
 Evidensen består af **1 klinisk forsøg** (ikke direkte relevant) og **15 publikationer**, hvoraf kun få er små kliniske studier, mens flere er dyrestudier.
 
 ---
@@ -48,12 +48,12 @@ Evidensen består af **1 klinisk forsøg** (ikke direkte relevant) og **15 publi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavesår, mavesårssygdom, gastroøsofageal reflukssygdom, esofagitis, tolvfingertarmssår, Zollinger-Ellison syndrom (jf. videnbasen; godkendt indikationstekst for de danske præparater er ikke tilgængelig) |
-| Forudsagt ny indikation | Duodenogastrisk refluks |
-| TxGNN-forudsigelsesscore | 99,64 % |
-| Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Duodenal obstruction |
+| TxGNN-forudsigelsesscore | 0.9964 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -129,7 +129,7 @@ Evidensen er på L3-niveau og bygger på få, små kliniske studier samt dyrestu
 
 ## Sekundær forudsigelse: Duodenal obstruktion
 
-Duodenal obstruktion (TxGNN-score 99,64 %, evidensniveau L4, beslutning **Hold**) er en mekanisk komplikation, som omeprazol ikke afhjælper direkte. Den høje score afspejler sandsynligvis tilknytningen til mavesårssygdom. Det registrerede forsøg ([NCT00557921](https://clinicaltrials.gov/study/NCT00557921), fase 3, afsluttet i utide, 5000 deltagere) undersøgte clopidogrel plus omeprazol mod øvre gastrointestinale hændelser og er kun indirekte relevant. Litteraturen består hovedsageligt af kasuistikker.
+Duodenal obstruktion (TxGNN-score 0,9964, evidensniveau L4, beslutning **Hold**) er en mekanisk komplikation, som omeprazol ikke afhjælper direkte. Den høje score afspejler sandsynligvis tilknytningen til mavesårssygdom. Det registrerede forsøg ([NCT00557921](https://clinicaltrials.gov/study/NCT00557921), fase 3, afsluttet i utide, 5000 deltagere) undersøgte clopidogrel plus omeprazol mod øvre gastrointestinale hændelser og er kun indirekte relevant. Litteraturen består hovedsageligt af kasuistikker.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

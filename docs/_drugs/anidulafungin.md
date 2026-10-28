@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Anidulafungin
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 66
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Anidulafungin: forudsagt ny indikation Impetigo (evidensniveau L5). Oprindelig indikation: Esophageal candidiasis og candidaemi"
-monitor_inn: "Anidulafungin"
-predicted_indications: ["impetigo", "impetigo", "malignant pleural mesothelioma", "malignant pleural mesothelioma", "staphylococcal scalded skin syndrome", "staphylococcal scalded skin syndrome", "pleural empyema (disease)", "pleural empyema (disease)", "malignant visceral pleura tumor", "malignant visceral pleura tumor"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Anidulafungin: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Anidulafungin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,46 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Anidulafungin: Fra esophageal candidiasis og candidaemi til impetigo
+<!-- known-uses-page -->
+<!-- description: Anidulafungin: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation -->
+## Anidulafungin: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Anidulafungin er et antimykotikum af echinocandin-klassen, som oprindeligt anvendes til behandling af esophageal candidiasis og candidaemi.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **impetigo**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** til at understøtte denne forudsigelse. Den vurderes sandsynligvis at være falsk positiv.
-
----
+## Resumé
+TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Anidulafungin, så der er i øjeblikket ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er opført nedenfor. De er lægemidlets egne kendte anvendelser og ikke modelkandidater.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Esophageal candidiasis og candidaemi (de godkendte indikationstekster for det danske produkt er ikke tilgængelige i de indsamlede data) |
-| Forudsagt ny indikation | Impetigo |
-| TxGNN-forudsigelsesscore | 98,85 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
+| Registrerede kendte anvendelser for dette lægemiddel | 3 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Registrerede kendte anvendelser for dette lægemiddel
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en licens eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| kandidiasis (candidiasis) | Licens i et andet land |
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Anidulafungin tilhører echinocandin-klassen, som hæmmer enzymet beta-(1,3)-D-glucansyntase i svampes cellevæg. Denne virkning er veletableret ved invasive candida-infektioner.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | – |
 
-Impetigo skyldes hovedsageligt *Staphylococcus aureus* og *Streptococcus pyogenes*. Det er bakterier, som ikke har beta-glucan i cellevæggen, og som derfor ikke har det target, anidulafungin virker på. Der er således ikke noget plausibelt mekanistisk link mellem den oprindelige og den forudsagte indikation.
-
-Den høje score (0,989) afspejler formentlig kun nærhed i vidensgrafen (f.eks. til andre infektionssygdomme) og ikke biologisk rationale. Forudsigelsen bør derfor fortolkes med stor forsigtighed.
-
-Modellen genererede også andre forudsigelser med tilsvarende høje scorer, som ligeledes savner støtte:
-- **Malign pleuramesoteliom** (score 98,75 %) og **malign visceral pleuratumor** (98,45 %): anidulafungin har ingen kendt antineoplastisk mekanisme.
-- **Staphylokok-skoldet hud-syndrom** (98,73 %): sygdommen er toksinmedieret og behandles med antibakterielle midler, som anidulafungin ikke har aktivitet som.
-- **Pleuraempyem** (98,52 %): se afsnittet om litteratur nedenfor.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er ingen litteratur om anidulafungin ved impetigo. Den eneste relevante publikation findes for den sekundære forudsigelse pleuraempyem:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/) | 2018 | Farmakokinetisk studie | Antimicrobial Agents and Chemotherapy | Hos 10 kritisk syge patienter nåede anidulafungin pleuraekssudat (0,32–2,02 µg/ml) og ascitesvæske (0,12–0,99 µg/ml) i koncentrationer under plasmaniveauet. Studiet viser vævspenetration, ikke klinisk effekt. |
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| kandidæmi (candidemia) |
+| øsofageal kandidiasis (esophageal candidiasis) |
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105926717 | Anidulafungin "Accord" (Accord Healthcare B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-
-Lægemidlet findes udelukkende som injektionsvæske (intravenøs infusion).
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28105926717 | Anidulafungin "Accord" | pulver til koncentrat til infusionsvæske | Gyldig |
 
 ## Sikkerhedsmæssige overvejelser
 
@@ -108,18 +82,6 @@ Se i øvrigt det godkendte produktresumé (SPC) for fuldstændige oplysninger om
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5) uden kliniske forsøg eller litteratur. Anidulafungin har ingen aktivitet mod de bakterier, der forårsager impetigo, så forudsigelsen er sandsynligvis falsk positiv.
-
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanismen (MOA), f.eks. fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (afgørende for sikkerhedsscreening)
-- Præklinisk evidens (f.eks. in vitro-aktivitet) for en eventuel antimikrobiel effekt, før yderligere vurdering overvejes
-- Om ønsket: en separat vurdering af pleuraempyem begrænset til svampeetiologi, hvor farmakokinetiske data er i overensstemmelse med den godkendte virkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

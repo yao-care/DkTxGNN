@@ -8,6 +8,7 @@ nav_order: 522
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Maribavir
@@ -49,7 +50,8 @@ Maribavir (DrugBank ID: DB06234) er en første-i-klassen antivirusmiddel, kendt 
 | Forudsagt ny indikation | Ingen — `predicted_indications`-array'et er tomt |
 | TxGNN-forudsigelsesscore | I.v.t. |
 | Bevisgrad | L5 — ingen forudsigelser tilgængelige |
-| Status på det danske marked | Ikke markedsført |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal markeringsgodkendelser | 0 |
 | Anbefalet afgørelse | **Udsat** |
 

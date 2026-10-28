@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at stoffet kan være virksomt ved **amenorré**. Der 
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten for det danske produkt er tom) |
 | Forudsagt ny indikation | Amenorré |
-| TxGNN-prædiktionsscore | 99,51 % |
+| TxGNN-prædiktionsscore | 0,9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

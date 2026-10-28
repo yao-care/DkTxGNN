@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter foru
 |------|------|
 | Oprindelig indikation | Systemisk lupus erythematosus, pædiatrisk systemisk lupus erythematosus og psykologisk dyspareuni (fra videnbasen; den danske godkendelse har ingen angiven indikationstekst) |
 | Forudsagt ny indikation | Heparin cofactor 2-mangel |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

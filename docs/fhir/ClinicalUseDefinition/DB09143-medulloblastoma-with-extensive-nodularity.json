@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09143",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09143"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "medulloblastoma-with-extensive-nodularity",
-          "display": "medulloblastoma with extensive nodularity"
-        }
-      ],
-      "text": "medulloblastoma with extensive nodularity"
+      "concept": {
+        "text": "medulloblastoma with extensive nodularity"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.999
     }
   ]
 }

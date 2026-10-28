@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 326
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Esomeprazole: forudsagt ny indikation Duodenogastrisk reflux (evidensniveau L4). Oprindelig indikation: Mavesår, gastroøsofageal reflukssygdom, esofagitis…"
 monitor_inn: "esomeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Esomeprazol: Fra mavesyrerelaterede sygdomme til duodenogastrisk reflux
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Opsummering i en sætning
@@ -48,12 +48,12 @@ Understøttelsen er svag: **0 kliniske forsøg** og **1 generel oversigtsartikel
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavesår, gastroøsofageal reflukssygdom, esofagitis, Zollinger-Ellison syndrom m.fl. (fra videnbasen; godkendelsesteksten i de danske tilladelser er ikke angivet) |
-| Forudsagt ny indikation | Duodenogastrisk reflux |
-| TxGNN-forudsigelsesscore | 99,5 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Duodenal obstruction |
+| TxGNN-forudsigelsesscore | 0.9945 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -108,7 +108,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger hovedsageligt på modelscoren. Der er ingen kliniske forsøg og kun en generel oversigtsartikel, og esomeprazol adresserer ikke de galde- og bugspytrelaterede komponenter ved duodenogastrisk reflux. Til sammenligning ligger de øvrige forudsagte indikationer, f.eks. duodenalsår, med omfattende forsøgsdata inden for de allerede godkendte indikationer og er derfor ikke egentlig lægemiddelomplacering.
+Forudsigelsen bygger hovedsageligt på modelscoren fra TxGNN-modellen (deep learning), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Der er ingen kliniske forsøg og kun en generel oversigtsartikel.
 
 **For at komme videre kræves:**
 - Data om virkningsmekanisme (MOA) fra DrugBank.

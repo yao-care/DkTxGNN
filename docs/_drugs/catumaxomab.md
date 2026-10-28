@@ -4,17 +4,17 @@ title: Catumaxomab
 parent: Kun modelforudsigelse (L5)
 nav_order: 167
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Catumaxomab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for Korjuny er…"
 monitor_inn: "Catumaxomab"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "drug-induced osteoporosis", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "kidney pelvis sarcomatoid transitional cell carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
 ---
 
 # Catumaxomab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **svær non-proliferativ d
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for Korjuny er tom) |
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,64 % |
+| TxGNN-forudsigelsesscore | 0,9964 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -69,10 +69,8 @@ TxGNN-scoren er en grafbaseret forudsigelse og skal ikke tolkes som klinisk evid
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Lægemiddelinduceret osteoporose | 99,58 % | L5 | Ingen plausibel mekanistisk sammenhæng; cytokinfrigivelse (TNF-alfa, IL-6) kan teoretisk fremme knoglenedbrydning |
-| Diabetisk retinopati | 99,47 % | L5 | Ingen mekanistisk sammenhæng; ugunstig risk-benefit-profil |
-| Diabetisk grå stær | 98,45 % | L5 | Ingen mekanistisk sammenhæng; kirurgi er standardbehandling |
-| Sarkomatoid overgangscellekarcinom i nyrebækkenet | 98,29 % | L5 | Biologisk mest plausibel (onkologisk, EpCAM-udtryk i urotelkarcinom), men epitel-mesenkymal transition kan nedsætte EpCAM-udtrykket. Kræver bekræftelse af EpCAM-ekspression og egnet administrationsvej. Betragtes som et forskningsspørgsmål |
+| Lægemiddelinduceret osteoporose | 0,9958 | L5 | Ingen plausibel mekanistisk sammenhæng; cytokinfrigivelse (TNF-alfa, IL-6) kan teoretisk fremme knoglenedbrydning |
+| Diabetisk retinopati | 0,9947 | L5 | Ingen mekanistisk sammenhæng; ugunstig risk-benefit-profil |
 
 ---
 
@@ -124,7 +122,7 @@ For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmP
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg eller publikationer. For de to øjenindikationer, osteoporose og diabetisk grå stær er der ingen plausibel mekanistisk sammenhæng, og risk-benefit er ugunstig. Den eneste biologisk plausible hypotese er sarkomatoid overgangscellekarcinom i nyrebækkenet, som bør behandles som et forskningsspørgsmål.
+Forudsigelserne er udelukkende modelbaserede (L5) uden kliniske forsøg eller publikationer. For de to øjenindikationer og osteoporose er der ingen plausibel mekanistisk sammenhæng, og risk-benefit er ugunstig.
 
 **For at komme videre kræves følgende:**
 - Hentning og gennemgang af produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen, som mangler i de indsamlede data

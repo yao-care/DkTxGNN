@@ -4,17 +4,17 @@ title: Andexanet Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 65
 evidence_level: L5
-indication_count: 8
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Andexanet Alfa: forudsagt ny indikation Glanzmanns trombasteni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ifølg…"
 monitor_inn: "ANDEXANET ALFA"
-predicted_indications: ["Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "hemophilia", "hemophilia"]
+predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
 ---
 
 # Andexanet Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Andexanet alfa er et rekombinant lægemiddel, som er markedsført i Danmark unde
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ifølge litteraturen anvendes lægemidlet til reversering af faktor Xa-hæmmere (apixaban, rivaroxaban) ved livstruende blødning |
 | Forudsagt ny indikation | Glanzmanns trombasteni |
-| TxGNN-forudsigelsesscore | 99,77 % |
+| TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede da
 
 Glanzmanns trombasteni er en arvelig defekt i trombocytternes integrin αIIbβ3 (GPIIb/IIIa), som medfører manglende trombocytaggregation. Lokkemad-mekanismen adresserer ikke denne defekt, og der er derfor ingen plausibel mekanistisk forbindelse.
 
-Den meget høje score (0,998) afspejler sandsynligvis nærhed i vidensgrafen til koagulations- og blødningssygdomme snarere end et reelt farmakologisk rationale.
+Den meget høje score (0,9977) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede koagulations- og blødningssygdomme, ikke biologisk evidens eller et reelt farmakologisk rationale.
 
-Det samme gælder de øvrige forudsigelser i datasættet: primær frigørelsesdefekt i trombocytter og pseudo-von Willebrands sygdom (score hhv. 99,76 % og 99,65 %, begge L5, uden forsøg eller litteratur) samt hæmofili (score 99,10 %, L4). For hæmofili erstatter andexanet alfa ikke den manglende faktor, og tromboembolisk risiko (set i ANNEXA-4 og ANNEXA-I) ville give anledning til bekymring. Den hentede litteratur omhandler DOAC-reversering og laboratoriemæssig interferens, ikke behandling af hæmofili. Højst er en hæmofilipatient i behandling med en faktor Xa-hæmmer og alvorlig blødning en randtilfælde-anvendelse af den eksisterende indikation, ikke repurposing.
+Det samme gælder de øvrige forudsigelser i datasættet: primær frigørelsesdefekt i trombocytter og pseudo-von Willebrands sygdom (score hhv. 0,9976 og 0,9965, begge L5, uden forsøg eller litteratur) samt hæmofili (score 0,9910, L4). For hæmofili erstatter andexanet alfa ikke den manglende faktor, og tromboembolisk risiko (set i ANNEXA-4 og ANNEXA-I) ville give anledning til bekymring. Den hentede litteratur omhandler DOAC-reversering og laboratoriemæssig interferens, ikke behandling af hæmofili. Højst er en hæmofilipatient i behandling med en faktor Xa-hæmmer og alvorlig blødning en randtilfælde-anvendelse af den eksisterende indikation, ikke repurposing.
 
 ---
 

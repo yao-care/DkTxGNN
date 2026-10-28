@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB11776",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB11776"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "chronic-relapsing-inflammatory-optic-neuropathy",
-          "display": "chronic relapsing inflammatory optic neuropathy"
-        }
-      ],
-      "text": "chronic relapsing inflammatory optic neuropathy"
+      "concept": {
+        "text": "chronic relapsing inflammatory optic neuropathy"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9976
     }
   ]
 }

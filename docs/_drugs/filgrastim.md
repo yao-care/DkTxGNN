@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Filgrastim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Konstitutionel neutropeni, svær kongenit neutropeni…"
 monitor_inn: "Filgrastim"
-predicted_indications: ["primary release disorder of platelets", "primary release disorder of platelets", "pseudo-von Willebrand disease", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Glanzmann thrombasthenia", "Scott syndrome", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
+last_modified_at: 2026-10-23
+description: "Filgrastim: forudsagt ny indikation Primary release disorder of platelets (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Filgrastim
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Filgrastim: Fra svær kongenit neutropeni til primær frigivelsesforstyrrelse af blodplader
+## Filgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Filgrastim er en rekombinant G-CSF-analog (granulocytkolonistimulerende faktor), som oprindeligt anvendes til behandling af kronisk og kongenit neutropeni, herunder svær kongenit neutropeni og cyklisk hæmatopoiese.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **primær frigivelsesforstyrrelse af blodplader**,
-men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne forudsigelse. Forudsigelsen bygger udelukkende på modellen.
+Filgrastim (G-CSF) er oprindeligt registreret i vidensgrafen til behandling af konstitutionel og svær medfødt neutropeni, cyklisk hæmatopoiese og kronisk familiær neutropeni.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigørelsesforstyrrelse af blodplader**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte undersøger denne sygdom.
+Forudsigelsen er derfor udelukkende modelbaseret.
 
 ---
 
@@ -48,60 +48,56 @@ men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Konstitutionel neutropeni, svær kongenit neutropeni, cyklisk hæmatopoiese, kronisk familiær neutropeni (fra TxGNN-vidensgrafen; indikationsteksten i den danske godkendelse er ikke tilgængelig) |
-| Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader |
-| TxGNN-forudsigelsesscore | 99,998 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Primary release disorder of platelets |
+| TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Filgrastim er dog en rekombinant G-CSF-analog, som virker via G-CSF-receptoren på myeloide celler, især neutrofile progenitorer, og derved øger produktionen af neutrofile granulocytter. Det er grundlaget for den dokumenterede effekt ved neutropeni.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Filgrastim er dog en rekombinant granulocyt-kolonistimulerende faktor, som virker via G-CSF-receptoren og primært fremmer dannelse, modning og frigivelse af neutrofile granulocytter.
 
-Primær frigivelsesforstyrrelse af blodplader er en kvalitativ defekt i blodpladernes funktion (sekretion fra granula) og ikke en følge af nedsat neutrofilproduktion. Der er derfor ikke noget kendt biologisk led mellem G-CSF-receptorsignalering og denne sygdom. Den høje modelscore afspejler sandsynligvis nærhed mellem noder i vidensgrafen (hæmatologiske sygdomme) frem for en reel biologisk begrundelse.
+Primær frigørelsesforstyrrelse af blodplader er en iboende defekt i blodpladernes funktion. Der er ikke identificeret nogen mekanistisk forbindelse mellem G-CSF-signalering og denne tilstand, og lægemidlet forventes ikke at rette en intern blodpladedefekt. Den høje score afspejler et grafbaseret mønster uden understøttende kliniske data eller litteratur.
 
-Det samme gælder de øvrige forudsigelser i datasættet, som alle er på evidensniveau L5:
-- **Pseudo-von Willebrands sygdom** (score 99,997 %): skyldes gain-of-function-varianter i GP1BA, som øger blodpladernes GPIb-affinitet for VWF. G-CSF-signalering har ingen kendt effekt på denne mekanisme.
-- **Glanzmanns trombasteni** (score 99,996 %): skyldes mangel på eller dysfunktion af integrin αIIbβ3 (GPIIb/IIIa). Filgrastim genopretter ikke denne receptors funktion.
-- **Scotts syndrom** (score 99,956 %): skyldes defekt fosfatidylserineksponering på aktiverede blodplader (ANO6/TMEM16F). Filgrastim har ingen kendt rolle her.
-- **Hæmoragisk lidelse som følge af konstitutionel trombocytopeni** (score 99,911 %): involverer defekter i megakaryopoiese eller blodpladeproduktion. Filgrastim virker primært på den granulocytære linje, så en sammenhæng er spekulativ.
+Andre forudsagte indikationer på listen (f.eks. pseudo-von Willebrands sygdom, Glanzmanns trombasteni, Scotts syndrom og C1-inhibitor-mangel) har samme manglende mekanistiske grundlag og samme evidensniveau (L5).
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Der er ingen kliniske forsøg, som direkte undersøger primær frigørelsesforstyrrelse af blodplader. Der er ingen registrerede forsøg for denne sygdom.
+
+Til orientering er der for en nærliggende forudsagt diagnose ("blodpladetype blødningsforstyrrelse") knyttet syv stamcelletransplantationsforsøg. Filgrastim indgår her højst som støttebehandling, og forsøgene undersøger ikke lægemidlet mod blodpladesygdommen. De indgår derfor ikke i evidensvurderingen.
 
 ---
 
 ## Litteraturevidens
 
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Der foreligger for øjeblikket ingen relateret litteratur.
 
 ---
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106573220 | Accofil (Accord Healthcare S.L.U.) | Injektions-/infusionsvæske, opløsning, fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
-
-Tilladelsen er gyldig og omfatter et enkeltstofpræparat. Administrationsvejen er injektion.
+| 28106573220 | Accofil (Accord Healthcare S.L.U.) | Injektions-/infusionsvæske, opløsning, fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
 
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Interaktionssøgningen er gennemført og har identificeret 100 registrerede interaktioner. De fremhævede er alle klassificeret som **moderate** (kilde: DDInter). Eksempler på de interagerende stoffer:
-- Radioaktive lægemidler og diagnostika: iobenguan (I-131), fludeoxyglucose (18F), ibritumomab tiuxetan, tositumomab (med og uden I-131)
-- Cytostatika og immunmodulerende stoffer: paclitaxel, mercaptopurin, trimetrexat, azacitidin, bendamustin, altretamin, arsentrioxid, asparaginase (E. coli), aldesleukin, alemtuzumab, levamisol
-- Målrettede stoffer og andre: abemaciclib, acalabrutinib, avapritinib, belantamab mafodotin
+**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner i interaktionsdatabasen. De viste er alle af moderat sværhedsgrad, bl.a. med:
+- Radiofarmaka og radioimmunoterapi: iobenguan (I-131), fludeoxyglucose (18F), ibritumomab tiuxetan, tositumomab
+- Cytostatika og målrettede kræftlægemidler: paclitaxel, mercaptopurin, trimetrexat, azacitidin, bendamustin, abemaciclib, arsentrioxid, altretamin
+- Andre: levamisol, acalabrutinib, aldesleukin, alemtuzumab, asparaginase, avapritinib, belantamab mafodotin
 
-For oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+For yderligere sikkerhedsinformation, herunder advarsler og kontraindikationer, henvises til det godkendte produktresumé (SmPC).
 
 ---
 
@@ -110,13 +106,13 @@ For oplysninger om advarsler og kontraindikationer henvises til det godkendte pr
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller litteratur. Der er ikke noget plausibelt mekanistisk grundlag, da filgrastim virker på den granulocytære linje, mens de forudsagte sygdomme skyldes defekter i blodpladernes funktion eller produktion.
+Forudsigelsen er udelukkende modelbaseret (L5). Der findes hverken forsøg eller publikationer for sygdommen, og der er ingen plausibel mekanistisk sammenhæng mellem G-CSF-signalering og iboende blodpladefunktionsdefekter.
 
-**For at komme videre kræves følgende:**
-- Gennemgang af produktresuméet for Accofil med henblik på advarsler, kontraindikationer og godkendt indikation (mangler i de nuværende data og blokerer en egentlig sikkerhedsvurdering)
-- Data om virkningsmekanismen (MOA) fra DrugBank
-- Systematisk litteratur- og forsøgssøgning for at afklare, om der findes præklinisk eller klinisk støtte for en effekt på blodpladefunktion
-- Et biologisk rationale for, hvorfor G-CSF-receptorsignalering skulle påvirke blodpladernes sekretion, før der overvejes yderligere undersøgelser
+**For at komme videre kræves:**
+- Data om virkningsmekanisme og en mekanistisk hypotese for, hvorfor G-CSF skulle påvirke blodpladefunktion
+- Præklinisk eller klinisk evidens, der direkte undersøger sygdommen
+- Gennemgang af produktresuméets advarsler og kontraindikationer, som ikke var tilgængelige i de indsamlede data
+- Overvejelse af, om andre lægemiddelklasser (f.eks. trombopoietinreceptoragonister) er mere relevante for blodpladesygdomme
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

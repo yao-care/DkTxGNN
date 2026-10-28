@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cefazolin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 168
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (evidensniveau L4). Oprindelig indikation: Bakteriel lungebetændelse, galdevejsbetændelse, endokarditis…"
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
+last_modified_at: 2026-10-27
+description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (infectious otitis media) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cefazolin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,107 +33,66 @@ Evidensniveau: **L4** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Cefazolin: Fra bakterielle infektioner til infektiøs mellemørebetændelse
+## Cefazolin: første generations cefalosporin → infektiøs mellemørebetændelse (infectious otitis media)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering i en sætning
 
-Cefazolin er et førstegenerations-cephalosporin-antibiotikum, der oprindeligt bruges mod bakterielle infektioner som lungebetændelse, galdevejsbetændelse, endokarditis og bakteriel ledbetændelse.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **infektiøs mellemørebetændelse** (otitis media).
-Der er dog **ingen registrerede kliniske forsøg** og kun **2 publikationer** med indirekte relevans, så evidensen er svag.
+Cefazolin er et første generations cefalosporin-antibiotikum, der hæmmer bakteriers cellevægssyntese og anvendes som injektionsvæske. TxGNN-modellen forudsiger, at det kan have effekt mod **infektiøs mellemørebetændelse (infectious otitis media)**. Der er dog **ingen kliniske forsøg** og kun **2 publikationer** (et ikke-relevant review og en indirekte kombinationsbehandlet case-rapport), så støtten er hovedsageligt modelbaseret.
 
----
-
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakteriel lungebetændelse, galdevejsbetændelse, endokarditis, bakteriel ledbetændelse (fra vidensgrafen; godkendt indikationstekst for det danske præparat er ikke angivet) |
-| Forudsagt ny indikation | Infektiøs mellemørebetændelse |
-| TxGNN-forudsigelsesscore | 99,44 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Infektiøs mellemørebetændelse (infectious otitis media) |
+| TxGNN-forudsigelsesscore | 0,9944 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Cefazolin tilhører de første generations cefalosporiner, som hæmmer bakteriers cellevægssyntese ved binding til penicillinbindende proteiner. Stoffet er aktivt mod grampositive kokker såsom streptokokker og methicillinfølsom *Staphylococcus aureus*, som kan forårsage mellemørebetændelse.
 
-Cefazolin er et førstegenerations-cephalosporin, der hæmmer bakteriel cellevægssyntese ved binding til penicillinbindende proteiner (PBP). Det er aktivt mod grampositive kokker som streptokokker og methicillin-følsomme *Staphylococcus aureus*, som kan forårsage mellemørebetændelse. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen farmakologisk viden.
+Aktiviteten mod *Haemophilus influenzae* og *Moraxella catarrhalis*, som er hyppige årsager til mellemørebetændelse, er imidlertid begrænset. Den mekanistiske sammenhæng er derfor kun delvis, og forudsigelsen bør betragtes som et hypotesegenererende resultat.
 
-Cefazolins kendte indikationer er bakterielle infektioner, og mellemørebetændelse er ofte bakteriel. Mekanismen er derfor biologisk plausibel. Aktiviteten mod *Haemophilus influenzae* og *Moraxella catarrhalis*, som er almindelige årsager til mellemørebetændelse, er imidlertid begrænset. Det svækker det mekanistiske grundlag.
+## Kliniske forsøg
 
-Den høje modelscore afspejler formentlig nærhed i vidensgrafen mellem cefazolins eksisterende infektionsindikationer og øreinfektioner snarere end direkte klinisk evidens.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case-rapport/serie | Ann Otol Rhinol Laryngol | Empirisk behandling med ceftazidim-cefazolin hos børn med Gradenigo syndrom (komplikation til mellemørebetændelse). Indirekte evidens og kombinationsbehandling |
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clinical Pharmacy | Håndtering af Stevens-Johnsons syndrom. Ikke relevant for cefazolins effekt ved mellemørebetændelse |
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case-rapport | Ann Otol Rhinol Laryngol | Empirisk behandling med ceftazidim og cefazolin hos børn med Gradenigos syndrom (komplikation til akut mellemørebetændelse). Indirekte evidens og kombinationsbehandling. |
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clin Pharm | Behandling af Stevens-Johnsons syndrom; mellemørebetændelse nævnes kun som baggrund. Ikke relevant for cefazolins effekt. |
 
-**Andre forudsagte indikationer (supplerende information):**
-
-| Sygdom | Score | Evidensniveau | Bemærkning |
-|------|------|------|------|
-| Bronkitis | 99,31 % | L4 | Ældre kliniske rapporter, bl.a. [1117117](https://pubmed.ncbi.nlm.nih.gov/1117117/) (1975, lungeinfektioner hos ældre behandlet med cefazolin, 13 af 15 med godt resultat) og [6352642](https://pubmed.ncbi.nlm.nih.gov/6352642/) (1983, ceftazidim vs. cefazolin + tobramycin ved kroniske bronkitis-eksacerbationer). Bronkitis er ofte viral |
-| Mellemøresygdom | 99,13 % | L4 | Overvejende veterinærlitteratur og mikrobiologiske overvågningsstudier |
-| Kronisk otitis media | 99,13 % | L3 | [6752467](https://pubmed.ncbi.nlm.nih.gov/6752467/) (1982): cefmetazol vs. cefazolin, hvor cefazolin var sammenligningspræparat |
-| Suppurativ otitis media | 99,13 % | L3 | Samme studie som ovenfor (172 evaluerbare patienter) |
-| Otosalpingitis | 99,09 % | L5 | Kun modelforudsigelse |
-| Ikke-suppurativ otitis media | 99,04 % | L5 | Kun modelforudsigelse; ofte ikke-bakteriel |
-| Allergisk otitis media | 99,00 % | L5 | Kun modelforudsigelse; ringe biologisk rationale |
-
----
-
-## Markedsinformation i Danmark
+## Information om markedsføring i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104990611 | Cefazolin "MIP" (MIP Pharma GmbH) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
-
-Produktet er kun tilgængeligt som injektionsvæske (indgives intravenøst/intramuskulært).
-
----
+| 28104990611 | Cefazolin "MIP" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer fra vidensgrafen** (afledt af relationer i en vidensgraf, ikke fra produktresumétekst): blodkoagulationssygdom, *Clostridium difficile*-colitis, perinatal nekrotiserende enterokolitis og medfødt protrombinmangel.
+- **Lægemiddelinteraktioner:** I alt 154 interaktioner er registreret. Moderate interaktioner omfatter bl.a. kanamycin, neomycin, streptomycin og picosulfat. Øvrige registrerede interaktioner har ukendt sværhedsgrad.
 
-**Lægemiddelinteraktioner:** Der er identificeret 154 mulige interaktioner. Blandt de mest relevante, klassificeret som moderate:
-- Kanamycin
-- Neomycin
-- Streptomycin
-- Picosulfat
-
-Flere andre interaktioner (fx amphotericin B, mannitol, acetylsalicylsyre, metformin) har ukendt alvorlighedsgrad.
-
-Der mangler data om advarsler og kontraindikationer fra det godkendte produktresumé. Se det godkendte produktresumé (SPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er mekanistisk plausibel for grampositive bakterielle øreinfektioner, men der er ingen kliniske forsøg og kun indirekte litteratur. Begrænset dækning af *H. influenzae*, *M. catarrhalis* og gramnegative bakterier (fx *Pseudomonas* ved kronisk sygdom) samt manglende sikkerhedsdata fra produktresuméet taler imod at gå videre nu.
+Forudsigelsen har en høj modelscore, men der findes ingen kliniske forsøg og ingen litteratur, der direkte undersøger cefazolin ved infektiøs mellemørebetændelse. Cefazolins begrænsede dækning af typiske mellemøre-patogener taler yderligere for forsigtighed.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet for Cefazolin "MIP" (advarsler, kontraindikationer, godkendt indikation) fra Lægemiddelstyrelsen
-- Detaljerede data om virkningsmekanisme fra DrugBank
-- Gennemgang af moderne retningslinjer og lokale resistensdata for mellemørebetændelse
-- Sammenlignende kliniske data for cefazolin mod standardbehandling (fx amoxicillin) ved mellemørebetændelse
-- Eventuelt fokus på suppurativ/kronisk otitis media (evidensniveau L3) som mere realistisk forskningsspørgsmål
+- Data om virkningsmekanisme og mikrobiologisk dækning mod typiske mellemøre-patogener
+- Direkte kliniske studier eller systematiske reviews af cefazolin ved mellemørebetændelse
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Vurdering af egnethed af den injicerbare administrationsvej til denne indikation
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

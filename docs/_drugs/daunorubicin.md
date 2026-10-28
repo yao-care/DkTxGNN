@@ -50,10 +50,10 @@ men evidensen er begrænset: der er **2 kliniske forsøg** (fase 2, kun indirekt
 |------|------|
 | Oprindelig indikation | Akut lymfoblastisk leukæmi og akut myeloid leukæmi (indikationsteksten i de danske markedsføringstilladelser er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Hodgkins lymfom |
-| TxGNN-forudsigelsesscore | 99,81 % |
+| TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

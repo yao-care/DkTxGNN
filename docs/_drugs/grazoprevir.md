@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**.
 |------|------|
 | Oprindelig indikation | Kronisk hepatitis C-virusinfektion (godkendelsesteksten for det danske produkt er ikke tilgængelig i de indsamlede data) |
 | Forudsagt ny indikation | HIV-infektion |
-| TxGNN-forudsigelsesscore | 99,73 % |
+| TxGNN-forudsigelsesscore | 0,9973 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**.
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Grazoprevir er dog kendt som en hæmmer af HCV NS3/4A-serinproteasen og indgår i fastdosiskombinationen med elbasvir (NS5A-hæmmer). Virkningen ved kronisk hepatitis C er veldokumenteret.
 
-HIV bruger en anden type protease (aspartylprotease), og grazoprevir har ingen kendt direkte anti-HIV-aktivitet. De identificerede forsøg inkluderer patienter med HIV/HCV-saminfektion, men effektmålet er HCV-helbredelse (vedvarende virologisk respons, SVR12). Den høje score afspejler sandsynligvis nærhed mellem antivirale lægemidler og virussygdomme i vidensgrafen snarere end en reel mekanistisk forbindelse.
+HIV bruger en anden type protease (aspartylprotease), og grazoprevir har ingen kendt direkte anti-HIV-aktivitet. De identificerede forsøg inkluderer patienter med HIV/HCV-saminfektion, men effektmålet er HCV-helbredelse (vedvarende virologisk respons, SVR12). Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 Evidensen understøtter således sikker og effektiv HCV-behandling hos personer med HIV, men ikke en ny HIV-indikation.
 

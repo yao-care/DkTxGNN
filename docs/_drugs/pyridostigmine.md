@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 696
-evidence_level: L3
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Pyridostigmine: forudsagt ny indikation Myasthenia gravis med thymushyperplasi (evidensniveau L3). Oprindelig indikation: Myasthenia gravis"
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Pyridostigmin: Fra myasthenia gravis til myasthenia gravis med thymushyperplasi
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## Opsummering i en sætning
@@ -46,12 +46,12 @@ Pyridostigmin er en acetylcholinesterasehæmmer, der oprindeligt anvendes til sy
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Myasthenia gravis (fra videngrafen; godkendelsens indikationstekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Myasthenia gravis med thymushyperplasi |
-| TxGNN-forudsigelsesscore | 99,76 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Autoimmune disease of peripheral nervous system |
+| TxGNN-forudsigelsesscore | 0.9975 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -121,12 +121,10 @@ Produktresuméets advarsler og kontraindikationer var ikke tilgængelige. Se det
 
 | Rang | Forudsagt indikation | Score | Evidensniveau | Anbefaling | Kommentar |
 |------|------|------|------|------|------|
-| 2 | Neonatal myasthenia gravis | 99,76 % | L3 | Proceed with Guardrails | Mekanistisk passende symptomatisk behandling; ingen kontrollerede forsøg, og dosering og sikkerhed hos nyfødte kræver specialistovervågning |
-| 3 | Autoimmun sygdom i det perifere nervesystem | 99,75 % | L4 | Research Question | Bred kategori; mekanismen gælder kun neuromuskulære overgangssygdomme og ikke fx demyeliniserende neuropatier |
-| 4 | Autoimmun limb-girdle myasthenia | 99,74 % | L4 | Research Question | Kun en enkelt case report med kort oversigt |
-| 5 | Sygdom i receptoraktivitet | 99,73 % | L4 | Hold | Meget bred term; litteraturen er uensartet og understøtter ikke en samlet indikation |
-| 6 | Hypersplenisme | 99,30 % | L5 | Hold | Ingen mekanistisk forbindelse og ingen evidens; sandsynligvis en grafbaseret artefakt |
-| 7 | Atypisk hæmolytisk-uræmisk syndrom med faktor B-anomali | 99,22 % | L5 | Hold | Pyridostigmin virker ikke på komplementsystemet; ingen evidens |
+| 3 | Autoimmun sygdom i det perifere nervesystem | 0,9975 | L5 | Research Question | Bred kategori; mekanismen gælder kun neuromuskulære overgangssygdomme og ikke fx demyeliniserende neuropatier |
+| 5 | Sygdom i receptoraktivitet | 0,9973 | L4 | Hold | Meget bred term; litteraturen er uensartet og understøtter ikke en samlet indikation |
+| 6 | Hypersplenisme | 0,9930 | L5 | Hold | Ingen mekanistisk forbindelse og ingen evidens; sandsynligvis en grafbaseret artefakt |
+| 7 | Atypisk hæmolytisk-uræmisk syndrom med faktor B-anomali | 0,9922 | L5 | Hold | Pyridostigmin virker ikke på komplementsystemet; ingen evidens |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

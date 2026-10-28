@@ -4,17 +4,17 @@ title: Pembrolizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 642
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pembrolizumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft…"
+indication_count: 9
 monitor_inn: "Pembrolizumab"
-predicted_indications: ["fibromatosis, gingival", "fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "hamartoma of lung", "fibroma of lung", "fibroma of lung"]
+predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+last_modified_at: 2026-10-23
+description: "Pembrolizumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, lungekræft og metastatisk melanom"
 ---
 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,95 +36,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Pembrolizumab: Fra lungekræft og metastatisk melanom til gingival fibromatose
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Pembrolizumab (Keytruda) er et PD-1-antistof, der oprindeligt anvendes til behandling af ikke-småcellet lungekræft og metastatisk melanom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose** (en godartet fibrøs overvækst af tandkødet), men der findes **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne retning.
-
----
+Pembrolizumab er et PD-1-hæmmende antistof, som i den viden, der er indsamlet til denne rapport, er knyttet til behandling af ikke-småcellet lungekræft, lungekræft og metastatisk melanom (relationer registreret i vidensgrafen). TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibromatose**, men der er **ingen kliniske forsøg og ingen publikationer**, som direkte undersøger denne sygdom. Forudsigelsen er alene beregningsmæssig.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke-småcellet lungekræft, lungekræft og metastatisk melanom (ifølge vidensgrafen; godkendt indikationstekst for det danske produkt er ikke tilgængelig) |
+| Oprindelig indikation | Ikke-småcellet lungekræft, lungekræft og metastatisk melanom (relationer registreret i vidensgrafen; licenstekst for det danske præparat er ikke tilgængelig) |
 | Forudsagt ny indikation | Gingival fibromatose |
-| TxGNN-prædiktionsscore | 99,40 % |
+| TxGNN-forudsigelsesscore | 0,9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse (enkeltstofpræparat) |
 | Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Farmakologiske data viser, at pembrolizumab er et antistof, der binder PD-1 (PDCD1, CD279) og dermed blokerer en immuncheckpoint-vej, som tumorer udnytter til at undgå immunforsvaret. Denne mekanisme er relevant ved kræftsygdomme med en immunrig tumormikromiljø, som lungekræft og melanom.
 
-Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Pembrolizumab er kendt som et monoklonalt antistof, der binder sig til PD-1-receptoren (PDCD1/CD279) og dermed blokerer immuncheckpoint-signalet, så T-cellerne kan angribe kræftceller. Effekten er veldokumenteret ved lungekræft og melanom.
+Gingival fibromatose er en overvækst af tandkødsvæv, som ikke er en immunologisk tumorsygdom. Der kan ikke identificeres nogen sammenhæng mellem PD-1-blokade og denne tilstand. Den høje modelscore er derfor en beregningsmæssig forudsigelse uden understøttende biologisk eller klinisk belæg.
 
-Gingival fibromatose er en godartet fibroproliferativ tilstand i tandkødet. De data, der ligger til grund for rapporten, understøtter ikke en mekanistisk forbindelse mellem PD-1-blokade og denne tilstand. Den høje score er en ren modelforudsigelse, og den kan afspejle tilfældige mønstre i vidensgrafen snarere end en reel biologisk sammenhæng. Det er spekulativt, men immuncheckpoint-hæmning kunne i teorien forværre snarere end afhjælpe fibroproliferative eller inflammatoriske tilstande.
+## Kliniske forsøg
 
-Det bør bemærkes, at de øvrige forudsigelser på listen (fx inklusionslegememyopati med tidlig Paget-sygdom, lungehamartom og lungefibrom) heller ikke er understøttet af evidens. Den eneste forudsigelse med et vist mekanistisk grundlag er hilær lungekræft, men den ligger inden for den eksisterende indikation og er derfor ikke egentlig repurposing.
+Der er aktuelt ingen relaterede kliniske forsøg registreret for gingival fibromatose.
 
----
+## Litteratur
 
-## Klinisk forsøgsevidens
+Der er aktuelt ingen relateret litteratur for gingival fibromatose.
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for gingival fibromatose.
+## Information om markedet i Danmark
 
----
-
-## Litteraturevidens
-
-Der er i øjeblikket ingen relateret litteratur tilgængelig for gingival fibromatose.
-
----
-
-## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107325525 | Keytruda (Merck Sharp & Dohme B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
----
+Listen omfatter ét enkeltstofpræparat med gyldig status.
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Klassifikation | Immunterapi (PD-1-checkpointhæmmer), ikke et konventionelt cytotoksisk middel |
-| Risiko for knoglemarvssuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitet | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Monitorering | Se produktresuméet (SmPC); immunrelaterede bivirkninger (fx endokrine forstyrrelser) kræver klinisk opmærksomhed |
-| Håndtering | Følg lokale retningslinjer for håndtering af onkologiske lægemidler og produktresuméet |
+| Klassifikation | Immunterapi (PD-1-hæmmende antistof) |
+| Risiko for myelosuppression | Ikke dokumenteret i de indsamlede data; se produktresuméet (SmPC) |
+| Emetogenicitet | Se produktresuméet (SmPC) |
+| Monitorering | Se produktresuméet (SmPC) for anbefalede kontroller |
+| Håndteringsbeskyttelse | Se produktresuméet (SmPC) og lokale retningslinjer |
 
----
+## Sikkerhedsovervejelser
 
-## Sikkerhedsmæssige overvejelser
+- **Lægemiddelinteraktioner:** 13 registrerede interaktioner.
+  - **Alvorlige (Major):** lenalidomid, pomalidomid og thalidomid.
+  - **Moderate:** kortikosteroider, herunder hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison, methylprednisolon og deflazacort.
+- Litteraturen i datagrundlaget beskriver immunrelaterede bivirkninger ved pembrolizumab, bl.a. hud-, lever-, endokrine, neurologiske og muskel-/hjertebivirkninger (myokarditis, myositis, myasthenia gravis). Disse er relevante ved vurdering af risiko og gevinst hos patienter med en ikke-malign tilstand.
 
-Data om advarsler og kontraindikationer fra produktresuméet er ikke tilgængelige. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-**Lægemiddelinteraktioner** (13 registrerede poster, heraf 12 med interaktionsniveau):
-
-- **Alvorlig (Major):** lenalidomid, pomalidomid og thalidomid.
-- **Moderat:** kortikosteroider, herunder hydrocortison, triamcinolon, dexamethason, betamethason, budesonid, prednisolon, prednison, methylprednisolon og deflazacort.
-- Derudover er PD-1 (CD279) registreret som lægemidlets farmakologiske målprotein.
-
-Litteraturen om andre indikationer (hilær lungekræft) beskriver immunrelaterede bivirkninger som hypofysesvigt og hypothyroidisme samt hyperprogression, hvilket understreger vigtigheden af nøje overvågning.
-
----
+Øvrige oplysninger om advarsler og kontraindikationer: Se det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger udelukkende på en modelscore (evidensniveau L5) uden kliniske forsøg, uden litteratur og uden en plausibel mekanistisk sammenhæng mellem PD-1-blokade og gingival fibromatose. Sikkerhedsdata fra produktresuméet mangler desuden.
+Forudsigelsen bygger udelukkende på modellen. Der findes ingen forsøg eller publikationer for gingival fibromatose, ingen identificerbar mekanistisk sammenhæng, og risikoen for immunrelaterede bivirkninger gør forholdet mellem gevinst og risiko ugunstigt for en ikke-malign tilstand.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
-- Prækliniske eller mekanistiske studier, der kan belyse en eventuel rolle for PD-1 i fibroproliferation af tandkødet
-- En vurdering af, om risikoen for immunrelaterede bivirkninger står i et rimeligt forhold til en godartet tilstand
+**For at komme videre kræves:**
+- Præklinisk eller mekanistisk belæg for en rolle for PD-1-vejen ved gingival fibromatose
+- Detaljerede data om virkningsmekanisme og produktresumé (indikationer, advarsler, kontraindikationer) for det danske præparat
+- Systematisk litteraturgennemgang specifikt for sygdommen, før en eventuel klinisk undersøgelse overvejes
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

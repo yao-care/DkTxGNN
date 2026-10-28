@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **urinsyregigt (gout)*
 |------|------|
 | Oprindelig indikation | Ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport (det danske produkt er et dyrelægemiddel) |
 | Forudsagt ny indikation | Gout (urinsyregigt) |
-| TxGNN-forudsigelsesscore | 99,10 % |
+| TxGNN-forudsigelsesscore | 0,9910 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **urinsyregigt (gout)*
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om sulfadoxins virkningsmekanisme i de data, der er indsamlet til denne rapport. Sulfadoxin er kendt som et sulfonamid, der hæmmer dihydropteroatsyntase i folatsyntesen hos følsomme organismer.
 
-Gout skyldes derimod hyperurikæmi og krystalinduceret inflammation fra mononatriumuratkrystaller. Der er ingen etableret mekanistisk sammenhæng mellem sulfadoxin og gout. Den høje score (0,991) afspejler sandsynligvis blot nærhed i vidensgrafen til andre svovlholdige lægemidler, der påvirker urinsyrehåndteringen (fx sulfinpyrazon, et urikosurisk middel med en lignende kemisk struktur). Det er ikke understøttet af direkte farmakologiske data.
+Gout skyldes derimod hyperurikæmi og krystalinduceret inflammation fra mononatriumuratkrystaller. Der er ingen etableret mekanistisk sammenhæng mellem sulfadoxin og gout. Den høje score (0,9910) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Det er ikke understøttet af direkte farmakologiske data.
 
 Sulfonamider kan desuden give overfølsomhedsreaktioner, og der er risiko for svære hudreaktioner (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse). Det taler imod empirisk brug ved en inflammatorisk tilstand som gout.
 
@@ -104,7 +104,7 @@ Oplysninger om advarsler og kontraindikationer fra et godkendt produktresumé er
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene baseret på vidensgrafen (evidensniveau L5), uden kliniske forsøg, litteratur eller en plausibel mekanistisk forklaring. Sikkerhedsprofilen (overfølsomhed, svære hudreaktioner og mange kontraindikationer) taler imod videre anvendelse.
+Forudsigelsen er alene baseret på TxGNN-modellen (deep learning) (evidensniveau L5) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ingen kliniske forsøg, litteratur eller en plausibel mekanistisk forklaring. Sikkerhedsprofilen (overfølsomhed, svære hudreaktioner og mange kontraindikationer) taler imod videre anvendelse.
 
 **For at komme videre kræves følgende:**
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank

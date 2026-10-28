@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Kun modelforudsigelse (L5)
 nav_order: 793
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tapentadol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten er tom)"
 monitor_inn: "tapentadol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 ## Resumé
 
 Tapentadol er et stærkt virkende smertestillende middel, der er markedsført i Danmark som Palexia (filmovertrukne tabletter). Der foreligger ingen godkendt indikationstekst i de data, der er indsamlet til denne rapport.
-TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 99,7 %), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer, der direkte undersøger tapentadol ved migræne**. Forudsigelsen er rent beregningsmæssig.
+TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 0,9967), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer, der direkte undersøger tapentadol ved migræne**. Forudsigelsen er rent beregningsmæssig.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 99,7 %
 |------|------|
 | Oprindelig indikation | Ikke tilgængelig i de indsamlede data (indikationsteksten er tom) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,67 % |
+| TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,9 +61,9 @@ TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 99,7 %
 
 Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Tapentadol er generelt kendt som både en agonist på mu-opioidreceptoren og en hæmmer af noradrenalingenoptag. Den noradrenerge komponent giver kun et spekulativt link til central smertemodulering ved migræne.
 
-TxGNN-scoren er meget høj, men den afspejler en graf-baseret associationsmodel og ikke klinisk dokumentation. Opioider anbefales generelt ikke til migræne på grund af begrænset effekt, risiko for medicinoverforbrugshovedpine (medication-overuse headache), risiko for kronificering samt afhængighed.
+TxGNN-scoren er meget høj, men den kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Opioider anbefales generelt ikke til migræne på grund af begrænset effekt, risiko for medicinoverforbrugshovedpine (medication-overuse headache), risiko for kronificering samt afhængighed.
 
-Modellen forudsiger også to beslægtede fænotyper: *migræne med hjernestammeaura* (score 99,6 %) og *modtagelighed for migræne med eller uden aura* (score 99,1 %). Sidstnævnte er en genetisk disposition og ikke en behandlingsindikation, så den har ringe translationel betydning. Ved hjernestammeaura kan opioidernes sedative effekt desuden forplumre neurologiske symptomer. Ingen af de tre forudsigelser understøttes af kliniske data.
+Modellen forudsiger også en beslægtet fænotype: *migræne med hjernestammeaura* (score 0,9957). Ved hjernestammeaura kan opioidernes sedative effekt desuden forplumre neurologiske symptomer. Ingen af de to forudsigelser understøttes af kliniske data.
 
 ---
 

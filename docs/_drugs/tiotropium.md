@@ -4,17 +4,17 @@ title: Tiotropium
 parent: Høj evidens (L1-L2)
 nav_order: 832
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tiotropium: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Bronkitis, astma (inkl. intrinsisk og allergisk astma)…"
 monitor_inn: "tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tiotropium: Fra astma og kronisk lungesygdom til obstruktiv lungesygdom
+## Tiotropium: Obstruktiv lungesygdom (obstructive lung disease)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Bemærk: den forudsagte indikation overlapper i høj grad med lægemidlets eksis
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bronkitis, astma (inkl. intrinsisk og allergisk astma), lungeemfysem (fra vidensgrafen; Lægemiddelstyrelsens indikationstekst er ikke tilgængelig for Braltus) |
-| Forudsagt ny indikation | Obstruktiv lungesygdom |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

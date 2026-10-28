@@ -6,9 +6,9 @@ nav_order: 908
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
-description: "Zuclopenthixol: forudsagt ny indikation Retinal dystrofi med eller uden ekstraokulære anomalier (evidensniveau L5). Oprindelig indikation: Skizofreni"
 monitor_inn: "zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Zuclopenthixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Zuclopenthixol
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Zuclopenthixol: Fra skizofreni til retinal dystrofi (med eller uden ekstraokulære anomalier)
+## Zuclopenthixol: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Zuclopenthixol er et antipsykotikum af thioxanthen-typen, som oprindeligt anvend
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Skizofreni (fra vidensgrafen; godkendt indikationstekst er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Retinal dystrofi med eller uden ekstraokulære anomalier |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,20 +60,20 @@ Zuclopenthixol er et antipsykotikum af thioxanthen-typen, som oprindeligt anvend
 
 Der er på nuværende tidspunkt ikke tilgængelige detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Zuclopenthixol er kendt som en thioxanthen-antipsykotisk forbindelse, der blokerer dopamin D1/D2-receptorer og har yderligere affinitet for 5-HT2- og alfa-1-adrenerge receptorer. Virkningen ved skizofreni er veldokumenteret.
 
-Arvelige retinale dystrofier skyldes oftest monogene defekter i fotoreceptorers eller pigmentepitelets funktion. Ingen af de kendte mekanismer involverer plausibelt dopaminreceptorantagonisme. Den meget høje score (0,99994) afspejler en forudsigelse i en vidensgraf og ikke biologisk eller klinisk evidens.
+Arvelige retinale dystrofier skyldes oftest monogene defekter i fotoreceptorers eller pigmentepitelets funktion. Ingen af de kendte mekanismer involverer plausibelt dopaminreceptorantagonisme. Den meget høje score (0,9999) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk eller klinisk evidens.
 
 Der er heller ikke fundet nogen mekanistisk sammenhæng for de øvrige forudsagte indikationer. Nedenfor er de otte næstbedst rangerede forudsigelser opsummeret:
 
 | Rang | Forudsagt indikation | Score | Vurdering |
 |---|---|---|---|
-| 2 | Hydranencefali | 99,99 % | Strukturel medfødt misdannelse; dopaminantagonisme kan ikke reparere den |
-| 3 | Medfødt glykosyleringsforstyrrelse med defekt fukosylering | 99,99 % | Ingen kendt effekt på glykosyleringsveje; sandsynligvis artefakt fra grafens topologi |
-| 4 | Charcot-Marie-Tooth, demyeliniserende, type 1G | 99,99 % | Ingen kendt sygdomsmodificerende rolle; ugunstig risiko-gevinst-balance |
-| 5 | X-bundet myopi | 99,99 % | Svag, indirekte rationale via nethindens dopamin; en antagonist forventes at virke i ugunstig retning |
-| 6 | Perisylvisk polymikrogyri med cerebellar hypoplasi og artrogrypose | 99,99 % | Medfødt kortikal misdannelse; kan ikke korrigeres postnatalt |
-| 7 | Syndromisk myopi | 99,99 % | Svag, indirekte rationale; forventet ugunstig retning |
-| 8 | Myopi 26, X-bundet, kvindebegrænset | 99,99 % | Monogen sygdom uden relation til dopaminblokade |
-| 9 | Atypisk glycinencefalopati | 99,99 % | Ingen effekt på glycinstofskiftet; antipsykotika kan sænke krampetærsklen |
+| 2 | Hydranencefali | 0,9999 | Strukturel medfødt misdannelse; dopaminantagonisme kan ikke reparere den |
+| 3 | Medfødt glykosyleringsforstyrrelse med defekt fukosylering | 0,9999 | Ingen kendt effekt på glykosyleringsveje; sandsynligvis artefakt fra grafens topologi |
+| 4 | Charcot-Marie-Tooth, demyeliniserende, type 1G | 0,9999 | Ingen kendt sygdomsmodificerende rolle; ugunstig risiko-gevinst-balance |
+| 5 | X-bundet myopi | 0,9999 | Svag, indirekte rationale via nethindens dopamin; en antagonist forventes at virke i ugunstig retning |
+| 6 | Perisylvisk polymikrogyri med cerebellar hypoplasi og artrogrypose | 0,9999 | Medfødt kortikal misdannelse; kan ikke korrigeres postnatalt |
+| 7 | Syndromisk myopi | 0,9999 | Svag, indirekte rationale; forventet ugunstig retning |
+| 8 | Myopi 26, X-bundet, kvindebegrænset | 0,9999 | Monogen sygdom uden relation til dopaminblokade |
+| 9 | Atypisk glycinencefalopati | 0,9999 | Ingen effekt på glycinstofskiftet; antipsykotika kan sænke krampetærsklen |
 
 ---
 

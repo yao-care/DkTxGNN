@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 694
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis…"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **sygdomme i n�
 |------|------|
 | Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, faryngitis, forkølelse m.fl. (den danske indikationstekst i godkendelserne er ikke tilgængelig) |
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
-| TxGNN-forudsigelsesscore | 99,75 % |
-| Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| TxGNN-forudsigelsesscore | 0,9975 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,8 +64,7 @@ De data, der er indsamlet til denne rapport, indeholder ikke detaljerede oplysni
 Den forudsagte indikation "sygdomme i næsehulen" er en bred kategori, der i vid udstrækning overlapper med de allerede kendte anvendelsesområder (allergisk rhinitis, vasomotorisk rhinitis, rhinitis, forkølelse og nasofaryngitis). Forudsigelsen er derfor mere en gentagelse af den eksisterende indikation end et egentligt nyt repurposing-spor.
 
 To andre forudsigelser er svagere understøttet:
-- **Akut laryngofaryngitis** (score 99,73 %, L5): Ingen forsøg og ingen litteratur. Slimhindesammentrækning kan teoretisk mindske hævelse, men lægemidlet behandler ikke den underliggende infektion eller inflammation.
-- **Allergisk urticaria** (score 99,14 %, L5): Den fundne litteratur handler om antihistaminer, ikke pseudoefedrin. Urticaria er histaminmedieret, og pseudoefedrin har ingen antihistaminvirkning. Den høje score skyldes sandsynligvis kombinationspræparater (antihistamin + pseudoefedrin) og ikke et reelt terapeutisk signal.
+- **Allergisk urticaria** (score 0,9914, L5): Den fundne litteratur handler om antihistaminer, ikke pseudoefedrin. Urticaria er histaminmedieret, og pseudoefedrin har ingen antihistaminvirkning. Den høje score skyldes sandsynligvis kombinationspræparater (antihistamin + pseudoefedrin) og ikke et reelt terapeutisk signal.
 
 ---
 

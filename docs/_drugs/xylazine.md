@@ -48,10 +48,10 @@ Xylazin er en alfa-2-adrenerg agonist, som i Danmark kun er godkendt som dyrlæg
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (kun veterinære præparater) |
 | Forudsagt ny indikation | Migræne (migraine disorder) |
-| TxGNN-forudsigelsesscore | 99,64 % |
+| TxGNN-forudsigelsesscore | 0,9964 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (kun til veterinær brug) |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,9 +68,9 @@ Forudsigelsen hviler dermed næsten udelukkende på TxGNN-grafscoren.
 
 | Rang | Sygdom | TxGNN-score | Evidens | Bemærkning |
 |---|---|---|---|---|
-| 2 | Åbenvinklet glaukom | 99,55 % | L5 | Alfa-2-agonister (fx brimonidin) sænker det intraokulære tryk, men xylazins systemiske hypotension og bradykardi kan sænke okulært perfusionstryk. Eneste artikel (PMID 22359566) er et dyrestudie. |
-| 3 | Migræne med hjernestammeaura | 99,54 % | L5 | Samme enkeltartikel som for migræne (PMID 27122032). |
-| 4 | Primært arveligt glaukom | 99,53 % | L5 | Ingen forsøg eller litteratur. |
+| 2 | Åbenvinklet glaukom | 0,9955 | L5 | Alfa-2-agonister (fx brimonidin) sænker det intraokulære tryk, men xylazins systemiske hypotension og bradykardi kan sænke okulært perfusionstryk. Eneste artikel (PMID 22359566) er et dyrestudie. |
+| 3 | Migræne med hjernestammeaura | 0,9954 | L5 | Samme enkeltartikel som for migræne (PMID 27122032). |
+| 4 | Primært arveligt glaukom | 0,9953 | L5 | Ingen forsøg eller litteratur. |
 
 ---
 

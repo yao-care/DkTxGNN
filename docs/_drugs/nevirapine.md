@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Nevirapine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 583
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Nevirapine: forudsagt ny indikation Felint ervervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
+description: "Nevirapin: forudsagt ny indikation felint ervervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Nevirapine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en p
 |------|------|
 | Oprindelig indikation | HIV-infektion, AIDS (godkendelsesteksten i den danske registrering er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Felint ervervet immundefektsyndrom |
-| TxGNN-forudsigelsesscore | 99,85 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0.9985 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -118,8 +118,8 @@ Evidensen består kun af én præklinisk, indirekte undersøgelse, og der findes
 
 ## Andre forudsagte indikationer (til orientering)
 
-- **Simian immundefektvirus-infektion (SIV):** score 99,85 %, evidensniveau L4, anbefaling Hold. Litteraturen er overvejende præklinisk og viser, at SIV og HIV-2 generelt er naturligt resistente over for HIV-1-specifikke NNRTI'er, mens SIV/HIV-kimærer (SHIV) med HIV-1 RT er følsomme. SIV er ikke en human sygdom, og værdien er primært som dyremodel for HIV.
-- **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans:** score 99,82 %, evidensniveau L5, anbefaling Hold. Der er hverken kliniske forsøg eller litteratur, og der er ikke påvist nogen mekanistisk sammenhæng. Forudsigelsen skyldes sandsynligvis artefakter i videnbasen.
+- **Simian immundefektvirus-infektion (SIV):** score 0,9985, evidensniveau L4, anbefaling Hold. Litteraturen er overvejende præklinisk og viser, at SIV og HIV-2 generelt er naturligt resistente over for HIV-1-specifikke NNRTI'er, mens SIV/HIV-kimærer (SHIV) med HIV-1 RT er følsomme. SIV er ikke en human sygdom, og værdien er primært som dyremodel for HIV.
+- **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans:** score 0,9982, evidensniveau L5, anbefaling Hold. Der er hverken kliniske forsøg eller litteratur, og der er ikke påvist nogen mekanistisk sammenhæng. Forudsigelsen skyldes sandsynligvis artefakter i videnbasen.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

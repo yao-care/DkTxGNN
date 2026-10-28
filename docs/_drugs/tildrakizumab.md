@@ -4,17 +4,17 @@ title: Tildrakizumab
 parent: Kun modelforudsigelse (L5)
 nav_order: 829
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tildrakizumab: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den danske godkendelse har ingen i…"
 monitor_inn: "Tildrakizumab"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "drug-induced osteoporosis", "drug-induced osteoporosis", "nuclear senile cataract", "cortical cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
 ---
 
 # Tildrakizumab
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær ikke-proli
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (den danske godkendelse har ingen indikationstekst) |
 | Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
-| TxGNN-forudsigelsesscore | 99,63 % |
+| TxGNN-forudsigelsesscore | 0,9963 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Datasættet indeholder dublerede poster for de samme forudsigelser. Disse er her samlet, så hver indikation kun nævnes én gang.
@@ -65,17 +65,15 @@ Der foreligger i øjeblikket ikke detaljerede data om virkningsmekanismen i de i
 
 Kronisk lavgradig inflammation og cytokinsignalering, herunder IL-23/IL-17-aksen, er blevet foreslået at bidrage til skade på nethindens kar ved diabetisk retinopati. Denne sammenhæng er dog spekulativ, og der er ingen direkte evidens for, at hæmning af IL-23 p19 virker ved tilstanden. Gængs behandling (anti-VEGF, laser og kortikosteroider) virker via andre mekanismer.
 
-Den høje score (0,996) er et rent modelresultat og bør ikke tolkes som klinisk evidens.
+Den høje score (0,9963) er et rent modelresultat og bør ikke tolkes som klinisk evidens.
 
 ### Øvrige forudsigelser i datasættet
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Diabetisk retinopati | 99,53 % | L5 | Muligt inflammatorisk link, men ingen direkte evidens |
-| Diabetisk grå stær | 99,21 % | L5 | Biologisk usandsynlig; skyldes primært polyol-signalvej, osmotisk og oxidativ stress |
-| Lægemiddelinduceret osteoporose | 99,20 % | L5 | Løs teoretisk begrundelse via IL-23/IL-17 og knoglenedbrydning; veletablerede alternativer findes |
-| Nuklear senil grå stær | 98,91 % | L5 | Intet plausibelt link identificeret |
-| Kortikal grå stær | 98,91 % | L5 | Intet anerkendt link til IL-23; sandsynligvis grafnærhed til andre grå stær-termer |
+| Diabetisk retinopati | 0,9953 | L5 | Muligt inflammatorisk link, men ingen direkte evidens |
+| Diabetisk grå stær | 0,9921 | L5 | Biologisk usandsynlig; skyldes primært polyol-signalvej, osmotisk og oxidativ stress |
+| Lægemiddelinduceret osteoporose | 0,9920 | L5 | Løs teoretisk begrundelse via IL-23/IL-17 og knoglenedbrydning; veletablerede alternativer findes |
 
 Alle forudsigelser har Hold som anbefaling.
 

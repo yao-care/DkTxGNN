@@ -50,9 +50,9 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** me
 |------|------|
 | Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (godkendelsesteksterne er tomme). Alanin indgår i produkter til parenteral ernæring |
 | Forudsagt ny indikation | Gastroparese |
-| TxGNN-forudsigelsesscore | 99,37 % |
+| TxGNN-forudsigelsesscore | 0,9937 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 
@@ -62,7 +62,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** me
 
 Data om alanins virkningsmekanisme er ikke tilgængelige. Alanin er en ikke-essentiel aminosyre, der indgår i glukose-alanin-cyklussen og i leverens glukoneogenese. Alanin er her en bestanddel af aminosyreopløsninger og kombinerede ernæringsprodukter. Dets rolle er næringstilførsel, ikke en kendt lægemiddelvirkning på mavetarmkanalen.
 
-Der er ikke påvist en troværdig mekanistisk sammenhæng mellem alanin og gastroparese. Den høje score (0,994) stammer fra en videngrafbaseret model (TxGNN) og er alene en beregnet forudsigelse. Den fundne litteratur handler om lever- og mave-tarm-komplikationer ved diabetes og terminal nyresvigt (fx diabetisk hepatosklerose og glykogenhepatopati), hvor gastroparese nævnes som samtidig tilstand. Forbindelsen til alanin er derfor højst indirekte, via diabetesrelateret stofskifte- og leverpatologi. Intet studie viser, at alanin påvirker mavesækkens motilitet, tømningshastighed eller gastroparesesymptomer.
+Der er ikke påvist en troværdig mekanistisk sammenhæng mellem alanin og gastroparese. Den høje score (0,9937) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Scoren er alene en beregnet forudsigelse. Den fundne litteratur handler om lever- og mave-tarm-komplikationer ved diabetes og terminal nyresvigt (fx diabetisk hepatosklerose og glykogenhepatopati), hvor gastroparese nævnes som samtidig tilstand. Forbindelsen til alanin er derfor højst indirekte, via diabetesrelateret stofskifte- og leverpatologi. Intet studie viser, at alanin påvirker mavesækkens motilitet, tømningshastighed eller gastroparesesymptomer.
 
 ---
 

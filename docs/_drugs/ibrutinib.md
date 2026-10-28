@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Ibrutinib
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 417
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ibrutinib: forudsagt ny indikation Polyklonal hypergammaglobulinæmi (evidensniveau L5). Oprindelig indikation: Akut lymfoblastær leukæmi, Richters syndrom, mantlecellelymfom…"
-monitor_inn: "Ibrutinib"
-predicted_indications: ["polyclonal hypergammaglobulinemia", "polyclonal hypergammaglobulinemia", "monoclonal paraproteinemia disease", "monoclonal paraproteinemia disease", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Ibrutinib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Ibrutinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +32,54 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ibrutinib: Fra B-celle-maligniteter til polyklonal hypergammaglobulinæmi
+<!-- known-uses-page -->
+<!-- description: Ibrutinib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Ibrutinib: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Resumé i én sætning
-
-Ibrutinib er en BTK-hæmmer, der oprindeligt anvendes til B-celle-maligniteter som mantlecellelymfom og Waldenströms makroglobulinæmi.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **polyklonal hypergammaglobulinæmi**,
-men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
+## Resumé
+TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Ibrutinib, så der er aktuelt ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er listet nedenfor.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfoblastær leukæmi, Richters syndrom, mantlecellelymfom, B-celle-neoplasme, lymfosarkom, Waldenströms makroglobulinæmi, lymfoplasmacytært lymfom, makroglobulinæmi og graft-versus-host-sygdom (fra TxGNN-vidensgrafen; dansk godkendelsestekst er ikke tilgængelig) |
-| Foreslået ny indikation | Polyklonal hypergammaglobulinæmi |
-| TxGNN-prædiktionsscore | 91,8 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
+| Kendte anvendelser registreret for dette lægemiddel | 11 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
-## Hvorfor er denne forudsigelse rimelig?
+## Kendte anvendelser registreret for dette lægemiddel
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ibrutinib er dog kendt som en hæmmer af Brutons tyrosinkinase (BTK), en central kinase i B-celle-receptorsignalering, B-celle-overlevelse og antistofproduktion.
+### Godkendt (understøttet af en licens eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| kronisk lymfatisk B-celleleukæmi (leukemia, lymphocytic, chronic, b-cell) | licens i et andet land |
+| mantelcellelymfom (mantle-cell lymphoma) | licens i et andet land |
 
-Polyklonal hypergammaglobulinæmi er kendetegnet ved øget immunglobulinproduktion fra mange B-celle-kloner. Da ibrutinib dæmper B-cellernes aktivitet, kan lægemidlet i teorien nedsætte immunglobulinproduktionen. Det er imidlertid en teoretisk antagelse.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| ingen | ingen |
 
-Forudsigelsen bygger alene på modellen (score 0,918). Der er ikke fundet kliniske forsøg eller litteratur, der understøtter den. Hypergammaglobulinæmi er desuden ofte et sekundært tegn på en underliggende tilstand (fx infektion eller autoimmun sygdom), hvilket komplicerer en behandlingstilgang.
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
-
-## Litteraturevidens
-
-Der findes i øjeblikket ingen relateret litteratur for denne indikation.
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| akut lymfatisk leukæmi (acute lymphoblastic/lymphocytic leukemia) |
+| B-celleneoplasi (b-cell neoplasm) |
+| graft-versus-host-sygdom (graft versus host disease) |
+| lymfoplasmacytært lymfom (lymphoplasmacytic lymphoma) |
+| lymfosarkom (lymphosarcoma) |
+| makroglobulinæmi (macroglobulinemia) |
+| mantelcellelymfom (mantle cell lymphoma) |
+| Richters syndrom (richter syndrome) |
+| Waldenströms makroglobulinæmi (waldenstrom macroglobulinemia) |
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105995017 | Imbruvica (Janssen-Cilag International NV) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28105995017 | Imbruvica | filmovertrukne tabletter | Gyldig |
 
 ## Cytotoksicitet
 
@@ -100,30 +105,6 @@ Ibrutinib er en kendt CYP3A-substrat, så kombination med CYP3A-hæmmere (fx cla
 
 Der henvises i øvrigt til det godkendte produktresumé (SmPC) for advarsler og kontraindikationer.
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer for polyklonal hypergammaglobulinæmi. Den biologiske rationale er plausibel, men ikke underbygget, og interaktionsprofilen er omfattende.
-
-**For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen
-- Præklinisk eller klinisk dokumentation for effekt på immunglobulinniveauer ved polyklonal hypergammaglobulinæmi
-- Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
-- Definition af relevant patientgruppe og underliggende årsag til hypergammaglobulinæmien
-- Vurdering af risk-benefit, herunder blødnings-, infektions- og hjerterytmerisiko, samt CYP3A-interaktioner
-
-## Supplerende bemærkning om øvrige forudsigelser
-
-Datasættet indeholder også andre forudsigelser, som ikke er rapportens hovedfokus:
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Bemærkning |
-|------|------|------|------|
-| Monoklonal paraproteinæmi | 91,2 % | L3 | Litteraturen handler primært om Waldenströms makroglobulinæmi, som allerede er en eksisterende indikation, så evidensen understøtter hovedsageligt eksisterende brug. Det eneste registrerede forsøg (NCT04439006) omhandler COVID-19 og er ikke relevant. |
-| Thyreoidea-MALT-lymfom | 88,4 % | L5 | Ingen forsøg eller litteratur. |
-| Tyndtarms-MALT-lymfom | 88,4 % | L4 | Kun indirekte evidens fra et afsluttet fase 1-forsøg hos hiv-smittede (NCT02109224, afbrudt, n=72). |
-| Tyndtarms-Burkitt-lymfom | 88,3 % | L4 | Samme indirekte forsøg; klinisk aktivitet ved Burkitt-lymfom har været begrænset. |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cetirizine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 181
-evidence_level: L2
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Cetirizine: forudsagt ny indikation Allergisk urticaria (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, konjunktivitis…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "cetirizine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Cetirizine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cetirizine
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,75 @@ Evidensniveau: **L2** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Cetirizin: Fra allergisk rhinitis og idiopatisk urticaria til allergisk urticaria
+## Cetirizin: H1-antihistamin → Sygdom i næsehulen (nasal cavity disease)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Cetirizin er en second-generation H1-antihistamin, som oprindeligt anvendes til allergisk rhinitis, vasomotorisk rhinitis, konjunktivitis og idiopatisk urticaria.
-TxGNN-modellen forudsiger, at lægemidlet også kan være effektivt ved **allergisk urticaria**,
-og der er i de data, der er indsamlet til denne rapport, **1 afsluttet klinisk forsøg** (fase 3-pilotstudie) og **18 publikationer** (primært reviews) knyttet til denne retning.
+Cetirizin er et antihistamin (H1-receptorantagonist), der anvendes mod allergiske tilstande. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **sygdom i næsehulen (nasal cavity disease)**. Der er dog **ingen kliniske forsøg og ingen publikationer** i de data, der er indsamlet til denne rapport, så forudsigelsen er endnu ikke understøttet af konkret evidens.
 
----
-
-## Hurtigt overblik
+## Hurtig oversigt
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Allergisk rhinitis, vasomotorisk rhinitis, konjunktivitis, idiopatisk urticaria m.fl. (indikationsteksten for det danske produkt er ikke angivet) |
-| Forudsagt ny indikation | Allergisk urticaria |
-| TxGNN-forudsigelsesscore | 99,99 % |
-| Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
+| TxGNN-forudsigelsesscore | 0,9977 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Cetirizin tilhører gruppen af H1-antihistaminer, som blokerer histaminets virkning på H1-receptorer. Det er en mekanisme, der er relevant ved allergiske og vasomotoriske tilstande i næsen.
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. På baggrund af almen farmakologi er cetirizin en selektiv perifer H1-receptorantagonist. Ved allergisk urticaria frigives histamin fra mastceller og giver de karakteristiske kvadler og rødme (wheal-and-flare), så mekanismen er direkte relevant.
+"Sygdom i næsehulen" er en bred og uspecifik betegnelse. Den høje score afspejler sandsynligvis, at cetirizin allerede bruges ved næserelaterede tilstande som allergisk og vasomotorisk rhinitis, snarere end en egentlig ny anvendelse. Der kan derfor ikke formuleres en specifik repurposing-hypotese ud fra de foreliggende data.
 
-Lægemidlet er allerede godkendt til idiopatisk urticaria. Allergisk urticaria ligger tæt på denne indikation inden for urticaria-spektret, og forudsigelsen er derfor en nærliggende udvidelse snarere end et helt nyt anvendelsesområde. Bemærk, at argumentationen bygger på generel farmakologi og ikke på en registreret mekanismepost.
+To øvrige forudsigelser i datasættet (rosacea-konjunktivitis og recalcitrant atopisk dermatitis) er ligeledes uden evidens og er ikke hovedforudsigelsen i denne rapport.
 
-Til sammenligning har modellen også forudsagt kold urticaria (score 99,95 %, evidensniveau L3). Her findes små og eksperimentelle studier, bl.a. et studie, hvor cetirizin reducerede kuldeinducerede kvadler med ca. 50 %, og et sammenlignende studie af antihistaminer. Der er dog ikke registreret nogen klinisk afprøvning. De øvrige forudsigelser (næsehulesygdom, akut laryngopharyngitis, rosacea-konjunktivitis og recalcitrant atopisk dermatitis) har kun modelstøtte (L5) og afspejler enten overlap med eksisterende indikationer eller en svag mekanistisk sammenhæng. De anbefales sat på hold.
+## Kliniske forsøg
 
----
-
-## Klinisk forsøgsevidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Fase 3 | Afsluttet | 36 | Randomiseret, dobbeltblindet pilotstudie, der undersøger gennemførligheden af et fase 3-forsøg med intravenøs cetirizin (10 mg) versus intravenøs diphenhydramin (50 mg) ved akut urticaria på skadestuer, akutklinikker og allergiklinikker. Der er tale om et gennemførlighedsstudie og ikke et bekræftende effektforsøg. |
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Nedenfor er et udvalg af de mest relevante publikationer for den primære forudsigelse (allergisk urticaria). Der er ingen RCT'er blandt dem; størstedelen er reviews.
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Review | Drugs | Cetirizin er en specifik, langtidsvirkende H1-antagonist, som er effektiv og veltolereret ved sæsonbestemt/helårs allergisk rhinitis og kronisk idiopatisk urticaria hos voksne |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Review | Drugs | Gennemgang af cetirizins farmakologi og kliniske potentiale ved allergisk rhinitis, pollenudløst astma og kronisk urticaria |
-| [9951950](https://pubmed.ncbi.nlm.nih.gov/9951950/) | 1999 | Sammenlignende review | Drugs | Sammenligning af second-generation antihistaminer, herunder cetirizin, med fokus på mindre sedation og færre antikolinerge bivirkninger |
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Review | Ann Pharmacother | Effekt og sikkerhed af første- og nyere generations antihistaminer ved allergisk rhinitis og kronisk idiopatisk urticaria |
-| [7530629](https://pubmed.ncbi.nlm.nih.gov/7530629/) | 1994 | Review | Drugs | Urticaria: årsager og behandling; ikke-sederende antihistaminer er hjørnestenen ved kronisk idiopatisk urticaria |
-| [17017922](https://pubmed.ncbi.nlm.nih.gov/17017922/) | 2006 | Review | Curr Med Chem | Levocetirizin (R-enantiomer af cetirizin): høj biotilgængelighed, hurtig virkning og minimal levermetabolisme |
-| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Case report | J Clin Gastroenterol | Tilfælde af cetirizin-induceret kolestase; forbigående leverenzymstigning ses hos under 2 % af patienterne i kliniske forsøg |
-| [27650241](https://pubmed.ncbi.nlm.nih.gov/27650241/) | 2016 | Review | Am J Med Sci | Allergilægemidler under graviditet |
+## Information om det danske marked
 
----
-
-## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103323001 | Alnok (Sandoz A/S) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
+| 28103323001 | Alnok | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
 
-Gyldig national tilladelse til et enkeltstofpræparat til oral anvendelse. Der er ingen annullerede tilladelser.
-
----
+Producent: Sandoz A/S. Tilladelsen er gyldig, og produktet indeholder kun cetirizin som aktivt stof.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme med advarsler fra vidensgrafen** (afledt af TxGNN-vidensgrafen, ikke af produktresuméet): hypertension, nyresygdom (herunder kronisk nyresygdom og terminal nyresvigt), leversygdom, galdeblæresygdom, diabetes mellitus og diabetisk ketoacidose, benign prostatahyperplasi, koronararteriesygdom og aterosklerose, snævervinklet glaukom, hypertyreose (Graves' sygdom, thyrotoksikose) samt pyoureter. Disse oplysninger skal verificeres mod det godkendte produktresumé.
-- **Lægemiddelinteraktioner**: i alt 783 registrerede interaktioner. Blandt de moderate er bl.a. bupropion, dronabinol, loperamid, metoclopramid, morfin (inkl. liposomal), nabilon, opium, sibutramin, difenoxin og diphenoxylat. Sedative og CNS-depressive kombinationer fortjener særlig opmærksomhed.
-- **Leverpåvirkning**: Der er beskrevet et tilfælde af cetirizin-induceret kolestase, og forbigående stigning i leverenzymer er set hos under 2 % i kliniske forsøg.
+**Lægemiddelinteraktioner:** Der er registreret 783 mulige interaktioner. De moderate interaktioner omfatter blandt andet:
+- Bupropion
+- Dronabinol og nabilon
+- Loperamid, difenoxin og diphenoxylat
+- Metoclopramid
+- Morfin (inkl. liposomal) og opium
+- Sibutramin
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
+Mange af disse indebærer risiko for additiv sedation eller påvirkning af centralnervesystemet. Flere interaktioner er registreret med uafklaret alvorlighedsgrad (fx calcitriol, A-vitamin, phentermin, pantoprazol, glimepirid, mesalazin, doxycyclin, clotrimazol og acarbose).
 
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Mekanismen (H1-blokade) er direkte relevant, lægemidlet er allerede godkendt til idiopatisk urticaria, og et afsluttet fase 3-pilotstudie med intravenøs cetirizin ved akut urticaria foreligger. Studiet er dog kun et gennemførlighedsstudie, og litteraturen består hovedsageligt af reviews, så evidensen er ikke tilstrækkelig til en fuld "Go".
+Forudsigelsen er kun modelbaseret (evidensniveau L5) og understøttes ikke af kliniske forsøg eller litteratur. Begrebet er så bredt, at scoren sandsynligvis afspejler eksisterende brug ved allergisk og vasomotorisk rhinitis og ikke en ny terapeutisk mulighed.
 
-**For at komme videre kræves følgende:**
-- Et bekræftende, tilstrækkeligt kraftigt randomiseret kontrolleret forsøg ved allergisk urticaria, evt. et fase 3-forsøg på baggrund af pilotdata (bemærk, at pilotstudiet undersøgte intravenøs administration, mens det danske produkt er en oral tablet; rutekompatibilitet er ikke vurderet)
-- Gennemgang af det danske produktresumé for Alnok (advarsler, kontraindikationer, godkendt indikationstekst), da disse data mangler
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Vurdering af sikkerhed hos særlige populationer (nyre- og leversvækkelse) samt kontrol af relevante interaktioner
-- Kold urticaria kan undersøges som et separat forskningsspørgsmål; de øvrige forudsigelser anbefales sat på hold, indtil der foreligger evidens
+**For at komme videre kræves:**
+- En mere specifik definition af, hvilken næsehulesygdom der er tale om
+- Systematisk litteratur- og forsøgssøgning for den specificerede tilstand
+- Data om virkningsmekanisme (MOA)
+- Gennemgang af produktresuméets advarsler og kontraindikationer for en sikkerhedsvurdering
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

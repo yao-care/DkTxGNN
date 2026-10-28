@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09303",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB09303"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "disease-of-catalytic-activity",
-          "display": "disease of catalytic activity"
-        }
-      ],
-      "text": "disease of catalytic activity"
+      "concept": {
+        "text": "disease of catalytic activity"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9908
     }
   ]
 }

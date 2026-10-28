@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Laronidase
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 480
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase: forudsagt ny indikation Lysosomal lagringssygdom med skeletinvolvering (evidensniveau L4). Oprindelig indikation: Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom)"
 monitor_inn: "Laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome", "Sanfilippo syndrome", "lysosomal disease with hypertrophic cardiomyopathy", "lysosomal disease with hypertrophic cardiomyopathy", "syndromic neurometabolic disease with X-linked intellectual disability", "syndromic neurometabolic disease with X-linked intellectual disability", "eyelids malposition disorder", "eyelids malposition disorder"]
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (primært 
 |------|------|
 | Oprindelig indikation | Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom) |
 | Forudsagt ny indikation | Lysosomal lagringssygdom med skeletinvolvering |
-| TxGNN-forudsigelsesscore | 99,31 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9931 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -120,10 +120,7 @@ Modellen har også rangeret nedenstående indikationer. Ingen har understøttend
 
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Sanfilippo syndrom (MPS III) | 99,22 % | L4 | Skyldes mangel på andre enzymer end alfa-L-iduronidase; sygdommen er overvejende cerebral, og intravenøs laronidase passerer ikke blod-hjerne-barrieren effektivt. Den tilgængelige litteratur (bl.a. RCT'er, PMID 15126990 og 40830667) omhandler MPS I, ikke MPS III |
-| Lysosomal sygdom med hypertrofisk kardiomyopati | 98,82 % | L5 | Kun beregningsbaseret score; kategorien er uspecifik og dækker bl.a. Fabry og Pompe, som behandles med andre enzymer |
-| Syndromisk neurometabolisk sygdom med X-bundet intellektuel funktionsnedsættelse | 98,73 % | L5 | Hunters syndrom skyldes mangel på iduronat-2-sulfatase, som laronidase ikke erstatter; central effekt er usandsynlig |
-| Øjenlågsmalposition | 98,65 % | L5 | Ingen plausibel mekanisme ud over uspecifikke øjen- og bindevævsforandringer ved MPS |
+| Sanfilippo syndrom (MPS III) | 0,9922 | L5 | Skyldes mangel på andre enzymer end alfa-L-iduronidase; sygdommen er overvejende cerebral, og intravenøs laronidase passerer ikke blod-hjerne-barrieren effektivt. Den tilgængelige litteratur (bl.a. RCT'er, PMID 15126990 og 40830667) omhandler MPS I, ikke MPS III |
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

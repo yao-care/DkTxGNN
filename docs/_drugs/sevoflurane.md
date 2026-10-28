@@ -48,10 +48,10 @@ Sevofluran er en inhalationsanæstesi, som anvendes til generel anæstesi. De da
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (anvendes generelt til generel anæstesi) |
 | Forudsagt ny indikation | Prinzmetal-angina |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -82,15 +82,15 @@ TxGNN forudsagde yderligere ni indikationer. Ingen af dem har kliniske forsøg, 
 
 | Forudsagt indikation | Score | Evidensniveau | Kommentar |
 |------|------|------|------|
-| Tourette syndrom | 99,50 % | L5 | Ingen data; en generel anæstetikum er upraktisk ved en kronisk lidelse |
-| Fibromyalgi | 99,42 % | L4 | Kun én case-rapport om anæstesiforløb ([26419112](https://pubmed.ncbi.nlm.nih.gov/26419112/), 2015) |
-| Tendinitis | 99,41 % | L4 | Ni publikationer om anæstesi ved seneoperationer, bl.a. et RCT, der sammenligner propofol og sevofluran ([38233786](https://pubmed.ncbi.nlm.nih.gov/38233786/), 2024); ikke sygdomsrettet |
-| Myositis fibrosa | 99,41 % | L5 | Ingen data |
-| Idiopatisk granulomatøs myositis | 99,41 % | L5 | Ingen data |
-| Nefrogent syndrom med uhensigtsmæssig antidiurese | 99,40 % | L5 | Ingen data; sevoflurans renale effekter taler for forsigtighed |
-| Trikotillomani | 99,33 % | L5 | Ingen data |
-| Migræne | 99,23 % | L4 | Kun en retrospektiv kohorte om sevofluran-anæstesi til MR hos børn ([31852450](https://pubmed.ncbi.nlm.nih.gov/31852450/), 2019) |
-| Inklusionslegememyositis | 99,09 % | L4 | Kun én case-rapport om anæstesi ([27247916](https://pubmed.ncbi.nlm.nih.gov/27247916/), 2016) |
+| Tourette syndrom | 0,9950 | L5 | Ingen data; en generel anæstetikum er upraktisk ved en kronisk lidelse |
+| Fibromyalgi | 0,9942 | L4 | Kun én case-rapport om anæstesiforløb ([26419112](https://pubmed.ncbi.nlm.nih.gov/26419112/), 2015) |
+| Tendinitis | 0,9941 | L5 | Ni publikationer om anæstesi ved seneoperationer, bl.a. et RCT, der sammenligner propofol og sevofluran ([38233786](https://pubmed.ncbi.nlm.nih.gov/38233786/), 2024); ikke sygdomsrettet |
+| Myositis fibrosa | 0,9941 | L5 | Ingen data |
+| Idiopatisk granulomatøs myositis | 0,9941 | L5 | Ingen data |
+| Nefrogent syndrom med uhensigtsmæssig antidiurese | 0,9940 | L5 | Ingen data; sevoflurans renale effekter taler for forsigtighed |
+| Trikotillomani | 0,9933 | L5 | Ingen data |
+| Migræne | 0,9923 | L5 | Kun en retrospektiv kohorte om sevofluran-anæstesi til MR hos børn ([31852450](https://pubmed.ncbi.nlm.nih.gov/31852450/), 2019) |
+| Inklusionslegememyositis | 0,9909 | L4 | Kun én case-rapport om anæstesi ([27247916](https://pubmed.ncbi.nlm.nih.gov/27247916/), 2016) |
 
 ---
 

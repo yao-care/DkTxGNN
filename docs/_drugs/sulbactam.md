@@ -6,9 +6,9 @@ nav_order: 777
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Knowledge graph-ind…"
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
+description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sulbactam
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Sulbactam: Fra cholangitis og stafylokokinfektioner til bakteriel artritis
+## Sulbactam: Bakteriel artritis (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumé
@@ -48,12 +48,12 @@ Der er **ingen registrerede kliniske forsøg**, og der foreligger **19 publikati
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ingen godkendt indikationstekst i de danske data. Knowledge graph-indikationer: cholangitis, *S. aureus*-infektion, *E. coli*-infektion m.fl. |
-| Forudsagt ny indikation | Bakteriel artritis |
-| TxGNN-forudsigelsesscore | 99,79 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bakteriel artritis (bacterial arthritis) |
+| TxGNN-forudsigelsesscore | 0.9979 |
 | Evidensniveau | L5 (ingen kliniske forsøg; kun modelforudsigelse og indirekte litteratur). Bemærk: dataene angiver L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -48,10 +48,10 @@ men der findes **ingen registrerede kliniske forsøg** og kun **10 publikationer
 |------|------|
 | Oprindelig indikation | Trombocytæmi og familiær trombocytose (fra videnbasen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Reaktiv trombocytose |
-| TxGNN-forudsigelsesscore | 99,83 % |
+| TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -60,7 +60,7 @@ Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de i
 
 Den oprindelige indikation (essentiel trombocytæmi) er en primær, klonal tilstand, mens reaktiv trombocytose er sekundær og udløses af f.eks. inflammation, jernmangel, infektion, malignitet eller fjernelse af milten (splenektomi). Mekanistisk er forudsigelsen plausibel, fordi lægemidlet virker på selve blodpladeproduktionen.
 
-Den kliniske begrundelse er dog svag. Reaktiv trombocytose er oftest godartet og håndteres ved at behandle den underliggende årsag; blodpladesænkende behandling er sjældent nødvendig. Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på de godkendte indikationer i vidensgrafen, snarere end uafhængig klinisk evidens.
+Den kliniske begrundelse er dog svag. Reaktiv trombocytose er oftest godartet og håndteres ved at behandle den underliggende årsag; blodpladesænkende behandling er sjældent nødvendig. Scoren kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens eller uafhængig klinisk evidens.
 
 ## Klinisk forsøgsevidens
 
@@ -128,7 +128,7 @@ Forudsigelsen er mekanistisk plausibel, men der er ingen kliniske forsøg og ing
 
 ### Bemærkning om den anden forudsigelse
 
-Den næstrangerende forudsigelse, **inverst Klippel-Trenaunay-syndrom** (TxGNN-score 99,59 %), har evidensniveau L5: ingen kliniske forsøg, ingen litteratur og ingen kendt mekanistisk forbindelse til anagrelids virkning. Anbefalingen er ligeledes **Hold**.
+Den næstrangerende forudsigelse, **inverst Klippel-Trenaunay-syndrom** (TxGNN-score 0,9959), har evidensniveau L5: ingen kliniske forsøg, ingen litteratur og ingen kendt mekanistisk forbindelse til anagrelids virkning. Anbefalingen er ligeledes **Hold**.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

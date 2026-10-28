@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 771
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sotatercept: forudsagt ny indikation Akut lymfoblastær leukæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom)"
 monitor_inn: "Sotatercept"
-predicted_indications: ["acute lymphoblastic leukemia (disease)", "acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "drug-induced osteoporosis", "diabetic cataract", "diabetic cataract"]
+predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
+last_modified_at: 2026-10-23
+description: "Sotatercept: forudsagt ny indikation Akut lymfatisk leukæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
 # Sotatercept
@@ -33,90 +33,78 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Sotatercept: Fra den oprindelige indikation til akut lymfoblastær leukæmi
+## Sotatercept: Fra en ikke-angivet godkendt anvendelse til akut lymfatisk leukæmi
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Sotatercept er et aktivinreceptor-type IIA-Fc-fusionsprotein, der markedsføres i Danmark som Winrevair. En original indikation er ikke angivet i de data, der er udarbejdet til denne rapport.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akut lymfoblastær leukæmi** (score 99,78 %). Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter forudsigelsen.
-
----
+Sotatercept markedsføres i Danmark som Winrevair, men de data, der er indsamlet til denne rapport, indeholder ingen godkendt indikationstekst. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akut lymfatisk leukæmi**. Der er **ingen kliniske forsøg og ingen publikationer** i datagrundlaget, så forudsigelsen er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom) |
-| Forudsagt ny indikation | Akut lymfoblastær leukæmi |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten i licensen er tom) |
+| Forudsagt ny indikation | Akut lymfatisk leukæmi |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
-Andre forudsigelser med tilsvarende høje scorer, alle på evidensniveau L5 og med anbefalingen Hold:
+## Hvorfor kan forudsigelsen give mening?
 
-| Forudsagt indikation | TxGNN-score |
-|------|------|
-| Svær non-proliferativ diabetisk retinopati | 99,77 % |
-| Diabetisk retinopati | 99,72 % |
-| Lægemiddelinduceret osteoporose | 99,65 % |
-| Diabetisk grå stær | 99,49 % |
+Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Ud fra almen viden er sotatercept et fusionsprotein med aktivin-receptor type IIA, der virker som "ligandfælde" for aktivin og vækstdifferentieringsfaktorer (GDF'er) og dermed genbalancerer BMP/aktivin-signalering.
 
----
+Aktivin/TGF-beta-signalering påvirker bloddannelsen, men der er ingen direkte mekanistisk eller klinisk evidens for en rolle ved akut lymfatisk leukæmi. Koblingen er derfor spekulativ, og scoren er alene et modelresultat. Da der ikke findes en kendt godkendt indikation i datagrundlaget, kan der heller ikke redegøres for sammenhængen mellem oprindelig og ny indikation.
 
-## Hvorfor er denne forudsigelse rimelig?
+## Klinisk evidens
 
-Detaljerede data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige. Sotatercept er dog kendt som et aktivinreceptor-type IIA-Fc-fusionsprotein, der binder aktivin og beslægtede ligander i TGF-beta-superfamilien (f.eks. GDF8/11).
-
-Koblingen til akut lymfoblastær leukæmi er kun indirekte: aktivin/TGF-beta-signalering påvirker bloddannelsen og knoglemarvens mikromiljø. Der foreligger ingen kliniske data eller litteratur, og den høje score er udelukkende en modelforudsigelse.
-
-Blandt de øvrige forudsigelser har **lægemiddelinduceret osteoporose** det mest troværdige mekanistiske grundlag. Aktivin A hæmmer osteoblastaktivitet, og beslægtede ActRIIA-Fc-stoffer har i tidlige studier øget knoglemasse og knoglenydannelsesmarkører. Der er dog ikke leveret forsøg eller litteratur for netop denne indikation. For **diabetisk retinopati** er aktivin/TGF-beta-signalering involveret i retinal karombygning og fibrose, men sotatercept er et systemisk biologisk lægemiddel, og vaskulære bivirkninger (telangiektasier og blødningshændelser i PAH-studier) giver anledning til sikkerhedsbekymring. Koblingen til **diabetisk grå stær** er spekulativ.
-
----
-
-## Klinisk forsøgsevidens
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
----
+## Information om det danske marked
 
-## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
-
----
+| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet registrerede lægemiddelinteraktioner i de tilgængelige data, og der er ingen kontraindikationer fra videnbasen. Af hensyn til de vaskulære signaler (telangiektasier og blødningshændelser set i PAH-studier) bør vaskulær sikkerhed gennemgås grundigt, før de retinale indikationer overvejes.
+Der foreligger ingen sikkerhedsdata i det indsamlede materiale. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+## Andre forudsagte indikationer
 
----
+TxGNN har også rangeret nedenstående indikationer. Ingen af dem har kliniske forsøg eller litteratur, og alle har evidensniveau L5 og anbefalingen Hold.
+
+| Rang | Sygdom | Score | Kommentar |
+|------|------|------|------|
+| 2 | Svær non-proliferativ diabetisk retinopati | 0,9977 | Løs biologisk rationale i retinal karremodellering; mulige okulære sikkerhedsspørgsmål (telangiektasi, blødning) |
+| 3 | Diabetisk retinopati | 0,9972 | Samme rationale som rang 2; relaterede termer er ikke uafhængig evidens |
+| 4 | Lægemiddelinduceret osteoporose | 0,9965 | Aktivin hæmmer knogledannelse, og beslægtede aktivinfælder har vist knogleopbyggende effekt i dyremodeller; ingen data for sotatercept |
+| 5 | Diabetisk grå stær | 0,9949 | Ingen klar mekanistisk kobling; scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens |
+| 6 | HER2-positiv brystkræft | 0,9943 | TGF-beta/aktivin har kontekstafhængig rolle; effekten kan være skadelig |
+| 7 | Overgangscellekarcinom | 0,9939 | Ingen direkte kobling; sandsynligvis grafnærhed |
+| 8 | Urothelkarcinom i prostatisk urinrør | 0,9936 | Overlapper med øvrige urothelkarcinomer |
+| 9 | Sarkomatoid overgangscellekarcinom i nyrebækken | 0,9936 | Mulig EMT-relation; effekt (gavn/skade) ukendt |
+| 10 | Infiltrerende blæreurothelkarcinom, sarkomatoid variant | 0,9934 | Spekulativ; overlapper med øvrige urothelkarcinomer |
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Alle forudsigelser bygger udelukkende på modelscorer (evidensniveau L5) uden understøttende kliniske forsøg eller litteratur. Data om mekanisme og produktresumé mangler, og sikkerhedsscreeningen kan ikke gennemføres.
+Forudsigelsen for akut lymfatisk leukæmi bygger kun på en modelscore uden kliniske forsøg, litteratur eller dokumenteret mekanistisk kobling (evidensniveau L5). Sikkerhedsdata og virkningsmekanisme mangler desuden i datagrundlaget.
 
 **For at komme videre er følgende nødvendigt:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (blokerende datamangel)
+- Hentning af produktresuméet (SmPC) fra Lægemiddelstyrelsen med godkendt indikation, advarsler og kontraindikationer
 - Data om virkningsmekanisme (MOA) fra DrugBank
-- Systematisk litteratur- og forsøgssøgning for de forudsagte indikationer, især lægemiddelinduceret osteoporose
-- Vurdering af vaskulær sikkerhed, før retinale indikationer overvejes
-- Afklaring af administrationsvej og forenelighed med de forudsagte indikationer
+- Præklinisk evidens for effekt af aktivin-ligandfangst ved akut lymfatisk leukæmi
+- En systematisk søgning efter kliniske forsøg og litteratur for den forudsagte sygdom
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

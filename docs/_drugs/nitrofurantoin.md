@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Nitrofurantoin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (anvendes kendt til urinvejsinfek…"
 monitor_inn: "Nitrofurantoin"
-predicted_indications: ["rheumatoid arthritis", "rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
+last_modified_at: 2026-10-23
+description: "Nitrofurantoin: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst"
 ---
 
 # Nitrofurantoin
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Nitrofurantoin: Fra urinvejsinfektion til leddegigt (rheumatoid arthritis)
+## Nitrofurantoin: Fra urinvejsinfektion til leddegigt (reumatoid artritis)
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Nitrofurantoin er et antibakterielt lægemiddel, der er markedsført i Danmark som tabletter. Den originale godkendte indikationstekst er ikke tilgængelig i de data, der er sammenstillet til denne rapport, men lægemidlet anvendes kendt til urinvejsinfektioner.
-TxGNN-modellen forudsiger, at det kan have effekt på **leddegigt**, men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der viser en gavnlig effekt**. De fundne publikationer handler primært om bivirkninger, især lungetoksicitet.
+Nitrofurantoin er et antibakterielt lægemiddel, der anvendes oralt som tabletter i Danmark. De data, der er samlet til denne rapport, indeholder dog ingen godkendt indikationstekst for det danske præparat.
+TxGNN-modellen forudsiger, at stoffet kan have effekt på **reumatoid artritis**, men der er **0 kliniske forsøg** og **9 publikationer**, og ingen af dem viser en behandlingsmæssig effekt. Litteraturen handler primært om skade (lungefibrose og lægemiddelinteraktioner).
 
 ---
 
@@ -47,67 +47,69 @@ TxGNN-modellen forudsiger, at det kan have effekt på **leddegigt**, men der er 
 
 | Punkt | Indhold |
 |------|------|
-| Original indikation | Ikke angivet i de tilgængelige data (anvendes kendt til urinvejsinfektioner) |
-| Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 99,89 % |
+| Oprindelig indikation | Ikke angivet i den danske godkendelsestekst |
+| Forudsagt ny indikation | Reumatoid artritis |
+| TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanisme. Nitrofurantoin er et antibakterielt middel mod urinvejsinfektioner, og der er ikke identificeret en plausibel terapeutisk mekanisme i leddegigt.
+Der foreligger ikke detaljerede data om virkningsmekanisme for nitrofurantoin i de data, der er samlet til denne rapport. Nitrofurantoin er et antibakterielt middel mod urinvejsinfektioner og har ingen kendt antiinflammatorisk eller sygdomsmodificerende virkning ved reumatoid artritis.
 
-Den høje score (0,999) er en netværksbaseret forudsigelse uden klinisk støtte. De fundne artikler beskriver bivirkninger, ikke fordele: lægemiddelinduceret lungefibrose, en interaktion mellem methotrexat og nitrofurantoin, der gav irreversibel lungefibrose hos en patient med leddegigt, og prognosen ved leddegigt med interstitiel lungesygdom. Lungetoksicitet er derfor en sikkerhedsbekymring i netop denne population, som ofte behandles med methotrexat.
+Den litteratur, der er fundet, handler om skadelige forhold: lægemiddelinduceret lungefibrose, en interaktion mellem methotrexat og nitrofurantoin med irreversibel lungefibrose hos en patient med reumatoid artritis samt interstitiel lungesygdom ved reumatoid artritis. Et selvkontrolleret case-serie-studie af antibiotika og opblussen af reumatoid artritis belyser infektion eller antibiotikaeksponering som udløser af opblussen, ikke en behandlingseffekt.
 
-Øvrige forudsagte indikationer i dataene (diabetisk nefropati, brain small vessel disease 1, brachydactyly-syndactyly syndrome og et sjældent kollagen IV-relateret syndrom) har heller ingen mekanistisk understøttelse. Ved diabetisk nefropati er litteraturen kun indirekte relevant (urinvejsinfektioner hos diabetikere), og nedsat nyrefunktion begrænser nitrofurantoins effekt og øger toksicitetsrisikoen.
+Den høje score (0,9989) er sandsynligvis en grafbaseret artefakt og understøttes ikke af klinisk evidens.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er for nærværende ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
+Ingen af publikationerne undersøger nitrofurantoin som behandling af reumatoid artritis.
+
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | Review | Saudi Med J | Lægemiddelinduceret lungefibrose; nitrofurantoin nævnes som årsag, og leddegigt som disponerende sygdom |
-| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | Review | Rev Prat | Lægemiddelinducerede interstitielle lungesygdomme; nitrofurantoin er blandt de impliceret |
-| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | Kohorte (SCCS) | Sci Rep | Sammenhæng mellem antibiotikabrug og opblussen af leddegigt i en kohorte på 31.992 patienter |
-| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | Case report | Cureus | Methotrexat + nitrofurantoin gav irreversibel lungefibrose hos en 94-årig kvinde med leddegigt |
-| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | Kohorte | Chest | Dårlig prognose ved leddegigt med indlæggelseskrævende interstitiel lungefibrose |
-| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | Case report | Cureus | Autoimmun hepatitis vs. lægemiddelinduceret leverskade; nitrofurantoin nævnt som mulig udløser |
-| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | Case report | Ann Dermatol Venereol | Lægemiddelinduceret sialadenitis; nitrofurantoin nævnt blandt mulige årsager |
-| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | Case report | Rev Pneumol Clin | Guldsalt-induceret pneumonitis og CD4-alveolitis |
-| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | Kohorte | Acta Med Scand | Kortvarig nitrofurantoinbehandling af bakteriuri i en kvindelig population |
-
-Ingen af publikationerne viser en gavnlig effekt af nitrofurantoin ved leddegigt.
+| [35145797](https://pubmed.ncbi.nlm.nih.gov/35145797/) | 2022 | Case report | Cureus | Interaktion mellem methotrexat og nitrofurantoin gav irreversibel lungefibrose hos en 94-årig kvinde med reumatoid artritis |
+| [31222078](https://pubmed.ncbi.nlm.nih.gov/31222078/) | 2019 | Kohorte (self-controlled case series) | Scientific Reports | Sammenhæng mellem antibiotikabrug og opblussen af reumatoid artritis (infektion/eksponering som mulig udløser) |
+| [15195196](https://pubmed.ncbi.nlm.nih.gov/15195196/) | 2004 | Review | Saudi Medical Journal | Lægemiddelinduceret lungefibrose; nitrofurantoin nævnt som årsag, reumatoid artritis som disponerende sygdom |
+| [25362778](https://pubmed.ncbi.nlm.nih.gov/25362778/) | 2014 | Review | La Revue du praticien | Lægemiddelinduceret interstitiel lungesygdom; nitrofurantoin nævnt blandt antibiotika |
+| [3335140](https://pubmed.ncbi.nlm.nih.gov/3335140/) | 1988 | Kohorte | Chest | Dårlig prognose ved indlæggelse for interstitiel lungefibrose ved reumatoid artritis |
+| [41635325](https://pubmed.ncbi.nlm.nih.gov/41635325/) | 2026 | Case report | Cureus | Autoimmun hepatitis versus lægemiddelinduceret leverskade; nitrofurantoin nævnt som mulig årsag |
+| [11937933](https://pubmed.ncbi.nlm.nih.gov/11937933/) | 2002 | Case report | Ann Dermatol Venereol | Phenylbutazon-induceret sialadenitis; nitrofurantoin nævnt som sjælden årsag |
+| [8104358](https://pubmed.ncbi.nlm.nih.gov/8104358/) | 1993 | Case report | Rev Pneumol Clin | Guldsalt-induceret pneumonitis; ikke relateret til nitrofurantoin som behandling |
+| [899886](https://pubmed.ncbi.nlm.nih.gov/899886/) | 1977 | Kohorte | Acta Med Scand | Kortvarig nitrofurantoinbehandling af bakteriuri hos kvinder i middelalderen |
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100739776 | Nitrofurantoin "EQL Pharma" (EQL Pharma AB) | Tabletter | Indikationstekst ikke tilgængelig |
+| 28100739776 | Nitrofurantoin "EQL Pharma" | Tabletter | Indikationstekst ikke tilgængelig |
+
+Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Sikkerhedsdata fra produktresuméet er ikke tilgængelige i de sammenstillede data. Følgende stammer fra en vidensgraf (ikke fra produktteksten) og bør verificeres mod produktresuméet (SmPC):
+Der er ikke tilgængelig tekst fra produktresuméet (SmPC) om advarsler og kontraindikationer. Se det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
 
-- **Mulige kontraindikationer/risikotilstande (vidensgraf):** nedsat nyrefunktion og anuri, G6PD-mangel, perifer neuropati og sygdomme i det perifere nervesystem, interstitiel lungesygdom og lungefibrose, leversygdom (hepatitis, lægemiddelinduceret leverskade, obstruktiv gulsot, galdevejssygdom), diabetes og diabetisk ketoacidose, *Clostridium difficile*-colitis, optisk neuritis, mangel på B12 og andre B-vitaminer, samt visse sjældne metaboliske sygdomme (cystinuri, galaktosæmi, glykogenlagringssygdom).
-- **Lægemiddelinteraktioner (100 registreret; udvalgte):**
-  - Moderate: metronidazol, balsalazid, picosulfat, naltrexon, rosuvastatin, simvastatin.
-  - Mindre: antikolinergika (f.eks. atropin, hyoscyamin, scopolamin, glycopyrronium) og magnesium-/aluminiumholdige antacida (f.eks. magnesiumoxid, magnesiumhydroxid, magaldrat).
-- **Relevant for leddegigt:** kombination med methotrexat er rapporteret at give irreversibel lungefibrose.
+**Sygdomsrelationer registreret i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer til bl.a. nedsat nyrefunktion, anuri, G6PD-mangel, perifer neuropati, interstitiel lungesygdom, lungefibrose, lægemiddelinduceret leverskade, hepatitis, obstruktiv gulsot, vitamin B12-mangel, optikusneuritis og diabetes mellitus. Disse er ikke verificeret mod dansk mærkningstekst.
+
+**Lægemiddelinteraktioner (i alt 100 registreret):** Blandt de fremhævede er interaktioner af moderat grad med balsalazid, metronidazol, picosulfat, naltrexon, rosuvastatin og simvastatin. Flere antikolinerge midler (fx atropin, hyoscyamin, scopolamin) og magnesiumholdige antacida er registreret med mild grad.
+
+Litteraturen peger desuden på, at nitrofurantoin kan give lungefibrose, leverskade og (især ved G6PD-mangel) hæmolytisk anæmi og methæmoglobinæmi, og at kombination med methotrexat kan være problematisk.
 
 ---
 
@@ -116,13 +118,13 @@ Sikkerhedsdata fra produktresuméet er ikke tilgængelige i de sammenstillede da
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er alene baseret på en netværksmodel (evidensniveau L5), uden kliniske forsøg og uden litteratur, der viser gavnlig effekt. Den tilgængelige litteratur peger snarere på en sikkerhedsrisiko (lungetoksicitet) i leddegigtpopulationen.
+Der er ingen kliniske forsøg og ingen studier, der viser behandlingseffekt af nitrofurantoin ved reumatoid artritis. Evidensen er på niveau L5 (kun modelforudsigelse), og litteraturen peger overvejende på skaderisici, især lungetoksicitet, som er særlig uheldig hos patienter med reumatoid artritis.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) og en plausibel biologisk hypotese for leddegigt
-- Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Præklinisk eller klinisk evidens for en gavnlig effekt
-- Vurdering af lungetoksicitet og interaktion med methotrexat hos patienter med leddegigt
+- Præklinisk eller mekanistisk dokumentation for en plausibel antiinflammatorisk virkning
+- Data om virkningsmekanisme (MOA) fra DrugBank
+- Gennemgang af det danske produktresumé for godkendt indikation, advarsler og kontraindikationer
+- En vurdering af, om forudsigelsen blot er en grafartefakt
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

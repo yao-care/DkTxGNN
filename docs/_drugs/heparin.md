@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Heparin: Fra pulmonal emboli til trombofili som følge af protein C-mangel
+## Heparin: Trombofili på grund af protein C-mangel, autosomal recessiv
 {: .text-alpha }
 
 ## Resumé
@@ -50,10 +50,10 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** for denne indik
 |------|------|
 | Oprindelig indikation | Lungeemboli, dissemineret intravaskulær koagulation, purpura fulminans (fra videnbasen; godkendt indikationstekst er ikke angivet i de danske tilladelser) |
 | Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv |
-| TxGNN-forudsigelsesscore | 99,29 % |
+| TxGNN-forudsigelsesscore | 0,9929 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -123,7 +123,7 @@ Forudsigelsen har en høj modelscore og en rimelig biologisk forklaring, men der
 
 ## Bemærkning om den anden forudsigelse (primær frigivelsesforstyrrelse af blodplader)
 
-Den næstbedst rangerede forudsigelse, **primær frigivelsesforstyrrelse af blodplader** (score 99,06 %, evidensniveau L5, beslutning: Hold), vurderes som mekanistisk tvivlsom. Tilstanden er en kvalitativ trombocytfunktionsforstyrrelse med blødningstendens, og heparin øger blødningsrisikoen. De hentede publikationer omhandler generel koagulation, heparinudløst trombocytopeni, trombose og intensivmedicin, og ingen af dem undersøger heparin som behandling af denne tilstand. Den høje score skyldes sandsynligvis nærhed i videnbasens netværk og ikke et reelt terapeutisk signal. Der er også en sikkerhedsbekymring, da blødning kan forværres hos patienter med medfødt trombocytdysfunktion. Forudsigelsen anbefales ikke fulgt op.
+Den næstbedst rangerede forudsigelse, **primær frigivelsesforstyrrelse af blodplader** (score 0,9906, evidensniveau L5, beslutning: Hold), vurderes som mekanistisk tvivlsom. Tilstanden er en kvalitativ trombocytfunktionsforstyrrelse med blødningstendens, og heparin øger blødningsrisikoen. De hentede publikationer omhandler generel koagulation, heparinudløst trombocytopeni, trombose og intensivmedicin, og ingen af dem undersøger heparin som behandling af denne tilstand. Den høje score skyldes sandsynligvis nærhed i videnbasens netværk og ikke et reelt terapeutisk signal. Der er også en sikkerhedsbekymring, da blødning kan forværres hos patienter med medfødt trombocytdysfunktion. Forudsigelsen anbefales ikke fulgt op.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Sacituzumab Govitecan
 parent: Kun modelforudsigelse (L5)
 nav_order: 743
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Sacituzumab Govitecan: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
 monitor_inn: "Sacituzumab govitecan"
-predicted_indications: ["drug-induced osteoporosis", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "diabetic cataract", "cortical cataract", "nuclear senile cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sacituzumab govitecan er et Trop-2-rettet antistof-lægemiddelkonjugat (ADC) med
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (indikationsteksten for godkendelsen er tom) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,78 % |
+| TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,18 +60,16 @@ Sacituzumab govitecan er et Trop-2-rettet antistof-lægemiddelkonjugat (ADC) med
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det er dog kendt, at sacituzumab govitecan er et antistof-lægemiddelkonjugat, der binder til Trop-2 på tumorceller og afgiver SN-38, en topoisomerase I-hæmmer, som skader cellernes DNA.
 
-Der er ikke noget i de foreliggende data, der peger på en plausibel knoglebeskyttende effekt. Cytotoksisk kemoterapi er tværtimod generelt forbundet med knogletab frem for beskyttelse mod det. Scoren på 99,78 % er en ren modelforudsigelse og kan ikke tolkes som tegn på effekt.
+Der er ikke noget i de foreliggende data, der peger på en plausibel knoglebeskyttende effekt. Cytotoksisk kemoterapi er tværtimod generelt forbundet med knogletab frem for beskyttelse mod det. Scoren på 0,9978 er en ren modelforudsigelse og kan ikke tolkes som tegn på effekt.
 
 Den samme manglende mekanistiske sammenhæng gælder for de øvrige forudsigelser fra modellen, som alle har evidensniveau L5 uden kliniske forsøg eller litteratur:
 
 | Forudsagt indikation | TxGNN-score | Vurdering |
 |------|------|------|
-| Lægemiddelinduceret osteoporose | 99,78 % | Ingen understøttet mekanistisk sammenhæng |
-| Svær non-proliferativ diabetisk retinopati | 99,69 % | Trop-2-targeting og topoisomerase I-hæmning har ingen kendt rolle i retinal mikrovaskulær sygdom. Cytotoksisk profil og systemisk eksponering giver sikkerhedsbekymringer ved en kronisk ikke-onkologisk tilstand |
-| Diabetisk retinopati | 99,60 % | Overlapper med ovenstående og tilføjer ingen uafhængig støtte |
-| Diabetisk katarakt | 99,12 % | Linseproteiner samt oxidative og osmotiske processer er urelaterede til virkningsmekanismen |
-| Kortikal katarakt | 98,55 % | Samme score som nuklear senil katarakt, hvilket tyder på et fælles modelsignal frem for lægemiddelspecifik evidens |
-| Nuklear senil katarakt | 98,55 % | En cytotoksisk onkologisk ADC er ikke en plausibel kandidat til en aldersrelateret linsetilstand, som behandles kirurgisk |
+| Lægemiddelinduceret osteoporose | 0,9978 | Ingen understøttet mekanistisk sammenhæng |
+| Svær non-proliferativ diabetisk retinopati | 0,9969 | Trop-2-targeting og topoisomerase I-hæmning har ingen kendt rolle i retinal mikrovaskulær sygdom. Cytotoksisk profil og systemisk eksponering giver sikkerhedsbekymringer ved en kronisk ikke-onkologisk tilstand |
+| Diabetisk retinopati | 0,9960 | Overlapper med ovenstående og tilføjer ingen uafhængig støtte |
+| Diabetisk katarakt | 0,9912 | Linseproteiner samt oxidative og osmotiske processer er urelaterede til virkningsmekanismen |
 
 ---
 

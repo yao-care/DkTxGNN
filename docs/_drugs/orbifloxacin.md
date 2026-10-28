@@ -48,10 +48,10 @@ Orbifloxacin er et fluorquinolon-antibiotikum til dyr, som i Danmark er registre
 |------|------|
 | Oprindelig indikation | Ikke angivet i de registrerede data (veterinært antibakterielt middel; registreret som øredråber) |
 | Forudsagt ny indikation | Hjertesygdom (heart disease) |
-| TxGNN-forudsigelsesscore | 99,94 % |
+| TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -60,7 +60,7 @@ Orbifloxacin er et fluorquinolon-antibiotikum til dyr, som i Danmark er registre
 
 Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til rapporten. Orbifloxacin er et veterinært fluorquinolon, som kendes for at hæmme bakterielt DNA-gyrase og topoisomerase IV. Denne antibakterielle virkning har ingen kendt biologisk forbindelse til hjertesygdom.
 
-Den høje score (0,9994) afspejler kun en association i vidensgrafen. Der er ikke identificeret et mekanistisk link mellem antibakteriel aktivitet og hjertesygdom. Desuden er fluorquinoloner kendt for kardiale sikkerhedsproblemer, bl.a. QT-forlængelse, hvilket taler imod en sådan anvendelse.
+Den høje score (0,9994) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ikke identificeret et mekanistisk link mellem antibakteriel aktivitet og hjertesygdom. Desuden er fluorquinoloner kendt for kardiale sikkerhedsproblemer, bl.a. QT-forlængelse, hvilket taler imod en sådan anvendelse.
 
 De øvrige forudsigelser i top 10 (bl.a. Laubry-Pezzi syndrom, Pierre Robin-syndrom, klapsygdomme i pulmonal- og mitralklap, orofacial spaltedannelse, delvis deletion af kromosom 7's lange arm, Jeune-syndrom med situs inversus og forstyrrelse i fucoglycan-syntese) er alle strukturelle, genetiske eller udviklingsmæssige tilstande. Et antibakterielt middel har ingen plausibel sygdomsmodificerende rolle ved disse.
 

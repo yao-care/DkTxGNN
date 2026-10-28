@@ -6,9 +6,9 @@ nav_order: 614
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oteracil: forudsagt ny indikation Colonic neoplasm (tyktarmsneoplasi) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer)"
 monitor_inn: "oteracil"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: forudsagt ny indikation Colonic neoplasm (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oteracil
@@ -33,7 +33,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Oteracil: Fra mavekræft til kolonneoplasi (colonic neoplasm)
+## Oteracil: Colonic neoplasm
 {: .text-alpha }
 
 ## Opsummering
@@ -48,12 +48,12 @@ og der er i de data, der er indsamlet til denne rapport, **6 kliniske forsøg** 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavekræft (gastric cancer) *(den godkendte indikationstekst for det danske præparat er ikke angivet i de indsamlede data; mavekræft stammer fra TxGNN-vidensgrafen)* |
-| Forudsagt ny indikation | Colonic neoplasm (tyktarmsneoplasi) |
-| TxGNN-forudsigelsesscore | 99,99 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Colonic neoplasm |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

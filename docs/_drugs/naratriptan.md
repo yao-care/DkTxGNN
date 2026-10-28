@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naratriptan
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 576
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Naratriptan: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L3). Oprindelig indikation: Migræne (migræne med og uden aura)"
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Naratriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Naratriptan: Fra migræne til migræne med hjernestammeaura
+## Naratriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Naratriptan er en selektiv 5-HT1B/1D-receptoragonist, der oprindeligt anvendes til akut behandling af migræne.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **migræne med hjernestammeaura**.
 Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de indsamlede data, men ingen af dem omhandler netop denne undertype. Evidensen er derfor svag.
 
 ---
@@ -48,15 +47,14 @@ Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de inds
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med og uden aura) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Atrophoderma vermiculata |
+| TxGNN-forudsigelsesscore | 0.9974 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-*Bemærkning: Den oprindelige indikation stammer fra TxGNN-videngrafen, da indikationsteksten i den danske tilladelse ikke er angivet i de indsamlede data.*
 
 ---
 
@@ -66,7 +64,7 @@ Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede da
 
 Migræne med hjernestammeaura (tidligere basilaristype-migræne) er en undertype af migræne med aura og har sandsynligvis samme neurovaskulære patofysiologi som de indikationer, naratriptan allerede anvendes til. Der er derfor et plausibelt mekanistisk led.
 
-Der er dog vigtige forbehold. Triptaner er historisk blevet brugt med forsigtighed ved hjernestammeaura på grund af teoretiske bekymringer om vasokonstriktion. Den høje TxGNN-score afspejler sandsynligvis nærheden til de eksisterende migræneindikationer i videngrafen og er ikke uafhængig evidens.
+Der er dog vigtige forbehold. Triptaner er historisk blevet brugt med forsigtighed ved hjernestammeaura på grund af teoretiske bekymringer om vasokonstriktion.
 
 ---
 

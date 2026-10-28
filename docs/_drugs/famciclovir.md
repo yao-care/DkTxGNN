@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famciclovir
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 345
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Famciclovir: forudsagt ny indikation Postinfektiøs neuralgi (evidensniveau L4). Oprindelig indikation: Herpes zoster (helvedesild)"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Famciclovir"
-predicted_indications: ["post-infectious neuralgia", "post-infectious neuralgia", "sequela of COVID-19", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "malignant pleural mesothelioma", "AIDS-related disorder", "AIDS-related disorder"]
+predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+last_modified_at: 2026-10-23
+description: "Famciclovir: forudsagt ny indikation Post-infektiøs neuralgi (post-infectious neuralgia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Famciclovir: Fra helvedesild til postinfektiøs neuralgi
+## Famciclovir: Post-infektiøs neuralgi (post-infectious neuralgia)
 {: .text-alpha }
 
-## Resumé
+## Resumé i en sætning
 
-Famciclovir er et antiviralt middel (prodrug af penciclovir), som oprindeligt anvendes til behandling af helvedesild (herpes zoster).
-TxGNN-modellen forudsiger, at det kan være virksomt mod **postinfektiøs neuralgi** (herunder postherpetisk neuralgi).
-Evidensen er meget begrænset: der er **1 klinisk forsøg** (som dog undersøger oxycodon, ikke famciclovir) og **ingen publikationer**.
+Famciclovir er et antiviralt middel. TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **post-infektiøs neuralgi** (herunder neuralgi efter helvedesild); forudsigelsen kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og er ikke biologisk evidens. Evidensen er dog svag: der er kun **1 registreret klinisk forsøg**, som ikke undersøger famciclovir, og **ingen publikationer** om denne sygdom.
 
 ---
 
@@ -48,54 +46,59 @@ Evidensen er meget begrænset: der er **1 klinisk forsøg** (som dog undersøger
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Herpes zoster (helvedesild) |
-| Forudsagt ny indikation | Postinfektiøs neuralgi |
-| TxGNN-forudsigelsesscore | 99,75 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Post-infektiøs neuralgi (post-infectious neuralgia) |
+| TxGNN-forudsigelsesscore | 0.9975 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
+
+Bemærk: Det eneste forsøg (NCT03120962) vedrører oxycodon til forebyggelse af postherpetisk neuralgi, ikke famciclovir. Der er ingen studier, der direkte undersøger famciclovir ved den forudsagte sygdom, og evidensniveauet er derfor L5.
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Famciclovir er dog kendt som en prodrug af penciclovir, som hæmmer varicella-zoster-virus' (VZV) DNA-replikation. Dets virkning ved helvedesild er veletableret.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Det kan dog nævnes, at famciclovir er et prodrug af penciclovir, som efter fosforylering hæmmer DNA-polymerasen hos herpesvirus. Dette er almen farmakologisk viden og ikke en del af de foreliggende data.
 
-Postherpetisk neuralgi er en hyppig komplikation efter helvedesild. Der er derfor en plausibel, men indirekte sammenhæng: tidlig antiviral behandling kan begrænse den virale skade på nervevæv og dermed muligvis mindske risikoen for vedvarende nervesmerter. Forudsigelsen overlapper i høj grad med den oprindelige indikation og er ikke en egentlig ny indikation.
+Post-herpetisk neuralgi er den hyppigste komplikation efter helvedesild. Det er derfor biologisk forståeligt, at et middel knyttet til helvedesild får en høj score for den efterfølgende smertetilstand. Tidlig antiviral behandling i den akutte fase kan muligvis mindske smertebyrden, men evidensen for, at det forebygger postherpetisk neuralgi, er indirekte.
 
-Det eneste identificerede forsøg undersøger oxycodon og ikke famciclovir, og giver derfor ingen direkte evidens for famciclovir.
+Forudsigelsen kommer fra TxGNN-modellen (deep learning) og ikke fra direkte kliniske data; scoren kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Smerten ved postherpetisk neuralgi skyldes nerveskade og er ikke en aktiv virusreplikation, så en antiviral effekt på etableret neuralgi er ikke understøttet.
 
 ---
 
-## Klinisk evidens
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Ikke relevant (NA) | Ukendt | 140 | Tidlig brug af oxycodon i den akutte fase af helvedesild for at forebygge postherpetisk neuralgi. Famciclovir er ikke den undersøgte intervention; forsøget er kun relevant som sygdomskontekst. |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Ikke relevant (NA) | Ukendt | 140 | Tidlig brug af oxycodon i den akutte fase af helvedesild for at forebygge postherpetisk neuralgi. Famciclovir er ikke den undersøgte intervention |
 
 ---
 
 ## Litteraturevidens
 
-Der findes i øjeblikket ingen relevant litteratur for denne forudsagte indikation.
+Der foreligger for øjeblikket ingen relateret litteratur om famciclovir ved post-infektiøs neuralgi.
 
 ---
 
-## Markedsinformation for Danmark
+## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104339608 | Famciclovir "Viatris" (Viatris Limited) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+| 28104339608 | Famciclovir "Viatris" | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de foreliggende data |
+
+Det er en national tilladelse fra Lægemiddelstyrelsen. Produktet har status som gyldigt og markedsført.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra vidensgraf, ikke produktresumé)**: Vidensgrafen (PrimeKG) angiver sammenhæng med nyresygdom og pyoureter. Dette er ikke hentet fra produkttekst og bør verificeres.
-- **Lægemiddelinteraktioner**: 84 potentielle interaktioner er registreret i DDInter, alle uden angivet alvorlighedsgrad. Eksempler: calcitriol, doxycyclin, metformin, omeprazol, pantoprazol, morphin, simvastatin, prednisolon, vancomycin og kaliumchlorid.
+- **Relationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer til **nyresygdom** og **pyouretær** (pus i urinlederen). Disse stammer ikke fra produktresuméet og bør verificeres.
+- **Lægemiddelinteraktioner:** Der er registreret 84 mulige interaktioner, men ingen har fået alvorlighedsgrad (niveau "ukendt"). Eksempler: calcitriol, doxycyclin, clotrimazol, pantoprazol, glimepirid, morfin, metformin, omeprazol, vancomycin, prednisolon og simvastatin.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -104,14 +107,23 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen ligger tæt på den eksisterende indikation (helvedesild), og det eneste identificerede forsøg undersøger et andet lægemiddel. Der er ingen direkte evidens for famciclovir til forebyggelse eller behandling af postherpetisk neuralgi, og evidensniveauet er L4 (kun mekanistisk plausibilitet).
+Der er ingen studier, der direkte undersøger famciclovir ved post-infektiøs neuralgi, og det eneste registrerede forsøg tester et andet lægemiddel (oxycodon). Den høje modelscore er ikke bakket op af klinisk evidens.
 
-**For at komme videre kræves:**
-- Målrettet litteratursøgning efter studier af famciclovir (eller andre antivirale midler) og forebyggelse af postherpetisk neuralgi
-- Data om virkningsmekanisme (MOA)
-- Gennemgang af produktresuméet (advarsler og kontraindikationer), da disse data mangler
-- Vurdering af dosering og behandlingsvarighed samt nyrefunktionshensyn
-- Eventuelt et velkontrolleret klinisk forsøg, hvis den kliniske hypotese understøttes
+**For at komme videre kræves følgende:**
+- Randomiserede studier af famciclovir (tidlig behandling af akut helvedesild) med postherpetisk neuralgi som endepunkt
+- Data om virkningsmekanisme og produktresumé (advarsler, kontraindikationer), som ikke er tilgængelige i de foreliggende data
+- Afklaring af godkendt indikationstekst for den danske tilladelse
+- Vurdering af nyrefunktion og dosisjustering i den relevante population
+
+---
+
+## Øvrige forudsigelser (kort oversigt)
+
+For fuldstændighedens skyld: de øvrige forudsigelser i de indsamlede data har ligeledes svag evidens.
+
+- **Skoldkopper (vandkopper):** Her findes de stærkeste data. To afsluttede fase 3-forsøg i VZV-sygdom: NCT01327144 (famciclovir 500 mg mod aciclovir 400 mg ved helvedesild) og NCT00098046 (farmakokinetik og sikkerhed hos børn 1-12 år). Ingen af dem er dog et effektforsøg ved primær skoldkopper, så evidensniveau L1 forudsætter bekræftelse af den specifikke indikation.
+- **AIDS-relateret sygdom:** Kun indirekte evidens (oversigtsartikler og observationelle data om herpesvirus-komplikationer), svarende til L4 i datagrundlaget.
+- **Covid-19-følgetilstande, hepatitis C-induceret levercirrose, pleuramesotheliom (flere former):** Kun modelforudsigelse uden understøttende evidens eller plausibel mekanisme.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -50,10 +50,10 @@ men der er **ingen registrerede kliniske forsøg** og kun **9 publikationer**, h
 |------|------|
 | Oprindelig indikation | Tourettes syndrom (fra videnbasen; godkendelsesteksten for det danske præparat er ikke angivet) |
 | Forudsagt ny indikation | Trikotillomani |
-| TxGNN-prædiktionsscore | 99,996 % |
+| TxGNN-prædiktionsscore | 1.0000 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; kan genovervejes med sikkerhedsforanstaltninger, hvis nye data foreligger) |
 
 ---

@@ -48,10 +48,10 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøt
 |------|------|
 | Oprindelig indikation | Ikke angivet i de danske markedsføringstilladelser (kendt anvendelse: svampeinfektion i negle, onykomykose) |
 | Forudsagt ny indikation | Lægemiddelinduceret osteoporose |
-| TxGNN-forudsigelsesscore | 99,998 % |
+| TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
@@ -62,7 +62,7 @@ Desuden gives amorolfin som neglelak med minimal systemisk optagelse, hvilket g�
 
 Den høje score (0,99998) afspejler derfor kun modellens grafbaserede mønstre og er ikke understøttet af mekanistisk, præklinisk eller klinisk dokumentation. Lighed med den oprindelige indikation er endnu ikke vurderet.
 
-Øvrige forudsigelser på listen (f.eks. sygdom i retroperitoneum, lumbal spinalstenose, abdominal ekstrauterin graviditet, sakral chordom og uretrasygdom) har samme profil: score over 99,99 %, evidensniveau L5, ingen forsøg, ingen litteratur og ingen plausibel mekanistisk forbindelse. Flere er brede anatomiske kategorier, hvilket tyder på, at forudsigelserne er artefakter af grafstrukturen.
+Øvrige forudsigelser på listen (f.eks. sygdom i retroperitoneum, lumbal spinalstenose, abdominal ekstrauterin graviditet, sakral chordom og uretrasygdom) har samme profil: score på 1,0000, evidensniveau L5, ingen forsøg, ingen litteratur og ingen plausibel mekanistisk forbindelse. Flere er brede anatomiske kategorier. Scorerne stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ## Klinisk forsøgsevidens
 

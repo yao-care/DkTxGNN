@@ -8,6 +8,7 @@ nav_order: 247
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Deflazacort
@@ -53,8 +54,8 @@ En **Hold**-beslutning anbefales, indtil de manglende data er indsamlet, og TxGN
 | Forudsagt ny indikation | Ingen forudsigelser genereret |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | L5 – Ingen forudsigelser eller understøttende studier returneret af denne pipeline-kørsel |
-| Danmarks markedsstatus | Ikke markedsført |
-| Antal markedsføringstilladelser | 0 |
+| Danmarks markedsstatus | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Hold** |
 
 ---

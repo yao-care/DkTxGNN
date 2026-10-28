@@ -4,17 +4,17 @@ title: Elafibranor
 parent: Kun modelforudsigelse (L5)
 nav_order: 295
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Elafibranor: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data for den danske tilladelse (den dans…"
 monitor_inn: "Elafibranor"
-predicted_indications: ["amenorrhea (disease)", "amenorrhea (disease)", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "bone Paget disease", "bone Paget disease", "dentinogenesis imperfecta", "dentinogenesis imperfecta", "squamous cell carcinoma", "squamous cell carcinoma"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Elafibranor
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Elafibranor: Fra primær biliær cholangitis til amenoré
+## Elafibranor: Amenoré (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Elafibranor (handelsnavn Iqirvo) er en dobbelt PPARα/PPARδ-agonist, som oprind
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data for den danske tilladelse (den danske tilladelse indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Amenoré |
-| TxGNN-forudsigelsesscore | 99,86 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Amenoré (amenorrhea (disease)) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -63,10 +63,7 @@ Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data
 Der er ikke påvist en direkte mekanistisk sammenhæng mellem PPARα/δ-agonisme og amenoré. En spekulativ forbindelse kunne gå via regulering af lipid- og glukosestofskifte, som kan påvirke ovariefunktionen, men dette understøttes ikke af de foreliggende data. Forudsigelsen hviler alene på modellens score.
 
 Øvrige forudsigelser fra modellen med tilsvarende score er ligeledes uden klinisk evidens og bør vurderes med stor skepsis:
-- **Non-syndromisk esofagusmalformation** (99,89 %-niveau: 98,92 %): medfødt udviklingsmæssig defekt uden plausibel mekanistisk forbindelse; sandsynligvis et artefakt fra vidensgrafen.
 - **Knoglens Pagets sygdom** (98,86 %): PPAR'er er involveret i knogleremodellering, så en indirekte hypotese findes, men den er ikke understøttet, og bisfosfonater er effektive.
-- **Dentinogenesis imperfecta** (98,52 %): genetisk tandsygdom (typisk DSPP-mutationer) uden mekanistisk rationale.
-- **Pladecellekarcinom** (98,47 %): PPAR-signalering har kontekstafhængige effekter i kræftbiologi, og PPARδ-aktivering kan i nogle sammenhænge være tumorfremmende, hvilket udgør en mulig sikkerhedsbekymring.
 
 ---
 
@@ -94,7 +91,7 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 Der er ingen konkrete oplysninger om advarsler eller kontraindikationer i de indsamlede data. Der henvises til det godkendte produktresumé (SmPC) for sikkerhedsinformation.
 
-Farmakologisk information: Elafibranor virker på PPARα og PPARδ. Der blev ikke registreret specifikke sikkerhedssignaler i fase 1/2-studierne. Der er ikke fundet lægemiddelinteraktioner med klinisk niveauangivelse. Bemærk, at PPARδ-aktivering teoretisk kan være tumorfremmende i nogle sammenhænge, hvilket er relevant ved den forudsagte indikation pladecellekarcinom.
+Farmakologisk information: Elafibranor virker på PPARα og PPARδ. Der blev ikke registreret specifikke sikkerhedssignaler i fase 1/2-studierne. Der er ikke fundet lægemiddelinteraktioner med klinisk niveauangivelse.
 
 ---
 

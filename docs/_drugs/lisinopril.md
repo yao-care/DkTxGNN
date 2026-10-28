@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisinopril
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 502
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Lisinopril: forudsagt ny indikation Posterolateralt myokardieinfarkt (evidensniveau L4). Oprindelig indikation: Hypertension og myokardieinfarkt"
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lisinopril: Fra hypertension til posterolateralt myokardieinfarkt
+## Lisinopril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Opsummering i én sætning
@@ -46,12 +46,12 @@ Forudsigelsen afspejler sandsynligvis, at diagnosen er en anatomisk undertype af
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension og myokardieinfarkt (fra videngrafen; godkendt indikationstekst for de danske tilladelser er ikke tilgængelig i de samlede data) |
-| Forudsagt ny indikation | Posterolateralt myokardieinfarkt |
-| TxGNN-forudsigelsesscore | 99,90 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN-forudsigelsesscore | 0.9989 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

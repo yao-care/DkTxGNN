@@ -4,17 +4,17 @@ title: Fostamatinib
 parent: Kun modelforudsigelse (L5)
 nav_order: 374
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Fostamatinib: forudsagt ny indikation Autosomal trombocytopeni med normale blodplader (evidensniveau L5). Oprindelig indikation: Trombocytopeni som følge af immunmedieret destruktion"
 monitor_inn: "Fostamatinib"
-predicted_indications: ["autosomal thrombocytopenia with normal platelets", "autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation", "non-syndromic esophageal malformation", "syndromic constitutional thrombocytopenia", "syndromic constitutional thrombocytopenia", "glaucoma", "glaucoma", "biotin metabolic disease", "biotin metabolic disease"]
+predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
+description: "Fostamatinib: forudsagt ny indikation Autosomal trombocytopeni med normale blodplader (autosomal thrombocytopenia with normal platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
 ---
 
 # Fostamatinib
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Fostamatinib: Fra immunmedieret trombocytopeni til autosomal trombocytopeni med normale blodplader
+## Fostamatinib: Autosomal trombocytopeni med normale blodplader (autosomal thrombocytopenia with normal platelets)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Trombocytopeni som følge af immunmedieret destruktion (godkendelsesteksten for det danske produkt er ikke tilgængelig i de indsamlede data) |
-| Forudsagt ny indikation | Autosomal trombocytopeni med normale blodplader |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Autosomal trombocytopeni med normale blodplader (autosomal thrombocytopenia with normal platelets) |
+| TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,9 +62,9 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 Fostamatinib er en hæmmer af spleen tyrosine kinase (SYK). Den aktive metabolit er R406. Stoffet nedsætter den antistofmedierede nedbrydning af blodplader ved at blokere Fc-receptorsignalering i makrofager. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen viden om stoffet.
 
-Forudsigelsen hviler hovedsageligt på ligheden i sygdomsnavnet med den godkendte indikation. Autosomal trombocytopeni er en arvelig tilstand, som normalt skyldes genetiske defekter i blodpladeproduktionen og ikke immunmedieret destruktion. SYK-hæmning ville derfor sandsynligvis ikke have effekt. Den høje score (0,995) afspejler en grafbaseret forudsigelse uden understøttende kliniske data eller litteratur.
+Forudsigelsen hviler hovedsageligt på ligheden i sygdomsnavnet med den godkendte indikation. Autosomal trombocytopeni er en arvelig tilstand, som normalt skyldes genetiske defekter i blodpladeproduktionen og ikke immunmedieret destruktion. SYK-hæmning ville derfor sandsynligvis ikke have effekt. Den høje score (0,9945) afspejler en grafbaseret forudsigelse uden understøttende kliniske data eller litteratur.
 
-Modellen forudsiger desuden andre indikationer, herunder syndromisk konstitutionel trombocytopeni, glaukom, ikke-syndromisk øsofagusmalformation og biotinmetabolisk sygdom. For ingen af disse er der fundet et troværdigt mekanistisk grundlag. Den nærmeste kategori er syndromisk konstitutionel trombocytopeni (score 98,97 %), men den har samme mekanistiske begrænsning, medmindre der påvises en undertype, hvor øget blodpladeclearance spiller en rolle.
+Modellen forudsiger desuden andre indikationer, herunder ikke-syndromisk esofagusmisdannelse (score 0.9905). For ingen af disse er der fundet et troværdigt mekanistisk grundlag. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
 ---
 
@@ -78,7 +78,6 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 Der er aktuelt ingen relateret litteratur for den primære forudsigelse (autosomal trombocytopeni med normale blodplader).
 
-For en anden forudsagt indikation, glaukom, blev der fundet tre generelle oversigtsartikler om proteinkinasehæmmere. De omtaler ikke fostamatinib ved glaukom og er ikke vurderet som evidens:
 
 | PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|

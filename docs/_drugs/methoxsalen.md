@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methoxsalen
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 539
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid reticulose (evidensniveau L4). Oprindelig indikation: Primært kutant T-celle-lymfom (non-Hodgkin) og vitiligo (ifølge viden…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Methoxsalen"
-predicted_indications: ["localized pagetoid reticulosis", "localized pagetoid reticulosis", "neoplasm of mature B-cells", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+last_modified_at: 2026-10-23
+description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid retikulose (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i den danske tilladelse. I videnbasen…"
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Methoxsalen: Fra primært kutant T-celle-lymfom til lokaliseret pagetoid reticulose
+## Methoxsalen: Fra kutant T-celle-lymfom og vitiligo til lokaliseret pagetoid retikulose
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Methoxsalen er et psoralen, der oprindeligt anvendes til primært kutant T-celle-lymfom og vitiligo.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **lokaliseret pagetoid reticulose** (Woringer-Kolopp sygdom).
-Der er i de data, der er sammenstillet til denne rapport, **ingen kliniske forsøg** og **ingen publikationer** specifikt for denne indikation. Evidensen er derfor alene modelbaseret og udledt af den beslægtede, allerede kendte indikation.
+Methoxsalen er et lægemiddel, der aktiveres af UVA-lys (PUVA), og som i videnbasen er registreret med relation til kutant T-celle-lymfom og vitiligo.
+TxGNN-modellen forudsiger, at det kan have effekt ved **lokaliseret pagetoid retikulose** (Woringer-Kolopp sygdom).
+Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som direkte undersøger denne sygdom, så forudsigelsen hviler alene på modellen og på baggrundsviden.
 
 ---
 
@@ -48,76 +48,77 @@ Der er i de data, der er sammenstillet til denne rapport, **ingen kliniske fors�
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Primært kutant T-celle-lymfom (non-Hodgkin) og vitiligo (ifølge vidensgrafen; den danske tilladelse har ingen angivet indikationstekst) |
-| Forudsagt ny indikation | Lokaliseret pagetoid reticulose |
-| TxGNN-prædiktionsscore | 99,97 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Ingen godkendt indikationstekst i den danske tilladelse. I videnbasen er der registreret relation til primært kutant T-celle-lymfom og vitiligo (ikke en godkendt indikation) |
+| Forudsagt ny indikation | Lokaliseret pagetoid retikulose |
+| TxGNN-forudsigelsesscore | 0,9997 |
+| Evidensniveau | L5 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om methoxsalens virkningsmekanisme i de sammenstillede data. Ud fra almen viden er methoxsalen et psoralen, der aktiveres af UVA-lys (PUVA) eller anvendes ved ekstrakorporal fotoferese. Aktiveringen giver DNA-krydsbindinger og apoptose af maligne, hudsøgende T-celler.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om methoxsalens virkningsmekanisme i de indsamlede data. Det er generelt kendt, at methoxsalen kombineret med UVA-lys virker på hudens T-celler og keratinocytter via DNA-addukter og induktion af apoptose, men dette er baggrundsviden og ikke hentet fra de foreliggende data.
 
-Lokaliseret pagetoid reticulose er en indolent, epidermotrop variant af primært kutant T-celle-lymfom. Da methoxsalen allerede er knyttet til kutant T-celle-lymfom, er det mekanistisk plausibelt, at behandlingen kan række ud til denne undertype. Koblingen er udledt af den overordnede indikation og den høje modelscore, ikke af direkte evidens.
+Lokaliseret pagetoid retikulose er en sjælden, indolent variant af mycosis fungoides, som er et kutant T-celle-lymfom. Da methoxsalen er registreret i videnbasen i relation til kutant T-celle-lymfom, er der en plausibel indirekte sammenhæng via sygdomsklassen. Sammenhængen er dog ikke understøttet af hentede forsøg eller publikationer.
 
-For den næstrangerede forudsigelse, **indolent primært kutant T-celle-lymfom**, (score 99,91 %) gælder samme argument. Den eneste foreliggende litteratur er en indirekte vurdering af ekstrakorporal fotoferese (se nedenfor).
-
-Forudsigelserne for B-celle-neoplasmer (score 99,84 %), tyndtarmens Burkitt-lymfom (99,80 %) og thyreoidea-MALT-lymfom (99,78 %) er spekulative. Fotokemoterapi virker hovedsageligt på hudsøgende T-celler, og UVA-aktivering er ikke mulig i dybtliggende væv som tarm og skjoldbruskkirtel. Disse bør ikke prioriteres.
+Da ingen studier direkte omhandler lokaliseret pagetoid retikulose, er evidensniveauet sat til L5 (kun modelforudsigelse). Dette er lavere end det L4, der fremgår af de underliggende data, fordi der ikke findes nogen citeret undersøgelse af selve sygdommen.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Andre forudsagte indikationer
 
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
+Modellen forudsiger også en række andre lymfomer og en hudlidelse. For dem alle gælder, at der ikke er fundet forsøg eller litteratur, og at en mekanistisk sammenhæng ikke er understøttet. Methoxsalen kræver UVA-aktivering, som ikke kan nå dybtliggende væv.
+
+| Forudsagt sygdom | Score | Evidensniveau | Vurdering |
+|------|------|------|------|
+| Neoplasi i modne B-celler | 0,9984 | L5 | Hold |
+| Burkitt-lymfom i tyndtarmen | 0,9980 | L5 | Hold |
+| MALT-lymfom i skjoldbruskkirtlen | 0,9978 | L5 | Hold |
+| MALT-lymfom i tyndtarmen | 0,9978 | L5 | Hold |
+| MALT-lymfom i brystet | 0,9977 | L5 | Hold |
+| Tonsillært lymfom | 0,9977 | L5 | Hold |
+| Vulvær inverteret follikulær keratose | 0,9965 | L5 | Hold |
+
+---
+
+## Klinisk forsøgsevidens
+
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Der er ingen litteratur for den primære forudsigelse. Den eneste publikation findes for den relaterede forudsigelse (indolent primært kutant T-celle-lymfom):
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Review (medicinsk teknologivurdering) | Ontario Health Technology Assessment Series | Evidensbaseret analyse af effekt, sikkerhed og omkostningseffektivitet af ekstrakorporal fotoferese ved refraktært erytrodermisk kutant T-celle-lymfom og refraktær kronisk graft-versus-host-sygdom. Indirekte evidens, som ikke omhandler undertypen specifikt. |
+Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106458320 | Methoxsalen "Macopharma" (Maco Pharma SA) | Opløsning til modificering af blodfraktioner | Ingen indikationstekst angivet |
+| 28106458320 | Methoxsalen "Macopharma" | Opløsning til modificering af blodfraktioner | Ikke angivet i tilladelsen |
 
-Produktet er en opløsning til behandling af blodfraktioner, dvs. til brug ved ekstrakorporal fotoferese, ikke en tablet eller topisk formulering.
+Tilladelsen er en enkeltstof-tilladelse (Maco Pharma SA), gyldig og markedsført. Den dækker en formulering til modificering af blodfraktioner og er ikke en tilladelse til behandling af hudlidelser med oralt eller topikalt methoxsalen.
 
 ---
 
 ## Cytotoksicitet
 
-| Punkt | Indhold |
-|------|------|
-| Cytotoksicitetsklassifikation | Fotosensibiliserende psoralen (fotokemoterapi); ikke et konventionelt cytostatikum |
-| Myelosuppressionsrisiko | Se produktresuméet (SmPC) |
-| Emetogenicitetsklassifikation | Se produktresuméet (SmPC) |
-| Monitoreringspunkter | Se produktresuméet (SmPC) |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) |
+Methoxsalen er ikke et klassisk cytostatikum, men bruges ved kutant T-celle-lymfom. Der foreligger ingen toksicitetsdata i de indsamlede data. Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de sammenstillede data. Der henvises til det godkendte produktresumé (SmPC).
+- **Kontraindikationer i videnbasen (ikke produkttekst):** I videnbasen er methoxsalen knyttet til en række tilstande, hvor brug frarådes, bl.a. fotosensitivitetssygdomme, porfyrier (inkl. porphyria cutanea tarda, variegat porfyri og erytropoietisk protoporfyri), leversygdom, galdeblæresygdom, systemisk lupus erythematosus, melanom, hudkræft (basalcelle- og pladecellekarcinom), xeroderma pigmentosum, albinisme, Waardenburg syndrom, piebaldisme og Griscelli syndrom.
+- **Lægemiddelinteraktioner:** 100 interaktioner er fundet. De viste er alle af moderat grad, bl.a. med tetracykliner (doxycyclin, tetracyklin, minocyclin), levofloxacin, sulfonylurinstoffer (glimepirid, glipizid, glibenclamid, tolbutamid, chlorpropamid, tolazamid, acetohexamid), sulfasalazin, sulfamethizol, promethazin, alosetron, ibuprofen og flurbiprofen.
+- **Særlig bemærkning:** PUVA indebærer risiko for fotokarcinogenicitet, især på genital hud.
 
-- **Kontraindikationer ifølge vidensgrafen (ikke mærkningstekst):** fotosensitive tilstande og fotoparoxysmal respons, porfyrier (herunder variegat porfyri, porphyria cutanea tarda og erytropoietisk protoporfyri), leversygdom, galdeblæresygdom, systemisk lupus erythematosus, melanom og andre hudkræftformer (basalcelle- og pladecellekarcinom, svedkirtel- og talgkirtelkræft), xeroderma pigmentosum, albinisme, Waardenburg syndrom, piebaldisme, peroxisomal biogeneseforstyrrelse og Griscelli syndrom.
-- **Lægemiddelinteraktioner (moderate, 100 registrerede i alt; et udvalg):**
-  - Tetracykliner: doxycyclin, tetracyclin, minocyclin (også topiske former)
-  - Sulfonylurinstoffer: glimepirid, glipizid, glyburid, tolbutamid, tolazamid, chlorpropamid, acetohexamid
-  - Fluorokinoloner og sulfonamider: levofloxacin, sulfasalazin, sulfamethizol
-  - Øvrige: promethazin, alosetron, ibuprofen, flurbiprofen
+Der foreligger ikke advarsler eller kontraindikationer fra godkendt produkttekst. Se SmPC for fuldstændig sikkerhedsinformation.
 
 ---
 
@@ -126,14 +127,13 @@ Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de sam
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for lokaliseret pagetoid reticulose er biologisk plausibel, fordi sygdommen er en indolent variant af kutant T-celle-lymfom, men der er ingen direkte kliniske forsøg eller publikationer (evidensniveau L4). Kritiske sikkerhedsdata fra produktresuméet mangler desuden, og de øvrige forudsigelser (B-celle-neoplasmer, Burkitt-lymfom, MALT-lymfom) er rent modelbaserede og mekanistisk usandsynlige.
+Der er ingen kliniske forsøg eller publikationer, der direkte undersøger methoxsalen ved lokaliseret pagetoid retikulose. Prædiktionen er plausibel via slægtskab med mycosis fungoides, men er kun en modelforudsigelse (L5). Sikkerhedsdata fra produkttekst mangler.
 
-**For at komme videre kræves følgende:**
-- Hentning og gennemgang af det danske produktresumé (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
-- Data om methoxsalens virkningsmekanisme (fx fra DrugBank)
-- Systematisk litteratursøgning efter PUVA og fotoferese ved pagetoid reticulose og indolent kutant T-celle-lymfom (kasuistikker og serier)
-- Vurdering af, om den danske tilladelse (opløsning til blodfraktioner) dækker den relevante administrationsvej, og afklaring af indikationsteksten
-- Gennemgang af kontraindikationer og interaktioner i forhold til målpopulationen
+**For at komme videre kræves:**
+- Systematisk litteratursøgning og forsøgssøgning specifikt for lokaliseret pagetoid retikulose og PUVA
+- Data om virkningsmekanisme
+- Sikkerhedsoplysninger fra SmPC for de relevante PUVA-præparater, da den danske tilladelse gælder blodfraktionsmodificering
+- Vurdering af fotokarcinogenicitetsrisiko og relevante kontraindikationer
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

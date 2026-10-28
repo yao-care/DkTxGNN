@@ -6,9 +6,9 @@ nav_order: 261
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). Oprindelig indikation: Slidgigt, leddegigt…"
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+description: "Diclofenac: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Diclofenac
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Diclofenac: Fra slidgigt og leddegigt til hypotrichosis simplex of the scalp
+## Diclofenac: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Slidgigt, leddegigt, Bechterews sygdom og aktinisk keratose (fra TxGNN-vidensgrafen, da der ikke er indikationstekst i de danske tilladelser) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Hypotrichosis simplex of the scalp |
-| TxGNN-forudsigelsesscore | 99,69 % |
+| TxGNN-forudsigelsesscore | 0.9969 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 
 Diclofenac hæmmer cyclooxygenase-enzymerne (COX-1 og COX-2) og dermed dannelsen af prostaglandiner, som driver inflammation, smerte og stivhed. Der er ikke fundet nærmere data om lægemidlets virkningsmekanisme i det indsamlede materiale, så mekanismeanalysen er begrænset.
 
-Hypotrichosis simplex of the scalp er en genetisk betinget defekt i hårsækkene. Der kendes ingen biologisk vej, der forbinder COX-hæmning med denne tilstand. Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på diclofenacs hudindikationer (fx aktinisk keratose) i vidensgrafen, og ikke en egentlig biologisk sammenhæng.
+Hypotrichosis simplex of the scalp er en genetisk betinget defekt i hårsækkene. Der kendes ingen biologisk vej, der forbinder COX-hæmning med denne tilstand. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke en egentlig biologisk sammenhæng.
 
 Prostaglandiner har desuden en kompleks rolle i hårvækst: PGD2 hæmmer, mens PGE2 og PGF2α fremmer. COX-hæmning kan derfor i princippet have en uforudsigelig eller endda uønsket effekt på håret.
 

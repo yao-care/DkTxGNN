@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Decitabine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 243
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
-description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (evidensniveau L4). Oprindelig indikation: Myeloid leukæmi / akut myeloid leukæmi (indikation fra vidensgrafen"
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
+description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (refractory cytopenia of childhood) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Decitabin: Fra akut myeloid leukæmi til refraktær cytopeni hos børn
+## Decitabine: Refraktær cytopeni hos børn (refractory cytopenia of childhood)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ Evidensen er begrænset: der er **0 registrerede kliniske forsøg** og **2 publi
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Myeloid leukæmi / akut myeloid leukæmi (indikation fra vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke angivet) |
-| Forudsagt ny indikation | Refraktær cytopeni hos børn |
-| TxGNN-prædiktionsscore | 99,03 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Refraktær cytopeni hos børn (refractory cytopenia of childhood) |
+| TxGNN-prædiktionsscore | 0.9903 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsam
 
 Refraktær cytopeni hos børn er den vigtigste foreløbige undertype af MDS hos børn. Der er derfor en plausibel fælles forklaring med klonal og epigenetisk dysregulering i den myeloide cellelinje. Bemærk, at koblingen er udledt af generel viden om hypomethylerende midler og ikke af de foreliggende data.
 
-TxGNN-scoren (0,99) er udelukkende en beregnet forudsigelse og udgør ikke klinisk evidens.
+TxGNN-scoren (0,9903) er udelukkende en beregnet forudsigelse og udgør ikke klinisk evidens.
 
 ---
 

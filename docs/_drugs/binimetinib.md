@@ -8,6 +8,7 @@ nav_order: 118
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Binimetinib
@@ -51,8 +52,8 @@ En meningsfuld vurdering af lægemiddelnyudnyttelse kan ikke være afsluttet, f�
 | Prognostiseret ny indikation | Ingen prognoser genereret |
 | TxGNN-prognosescore | N/A |
 | Bevisniveau | N/A — pipeline producerede ikke kandidater |
-| Status på det danske marked | Ikke registreret i lokalt register (centraliseret EMA-godkendelse sandsynligvis gælder — se nedenfor) |
-| Antal markedsføringstilladelser | 0 (jf. registerdata) |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | **Hold** |
 
 ---

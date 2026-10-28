@@ -46,9 +46,9 @@ Valin er en forgrenet aminosyre (BCAA), som indgår i parenterale ernæringsprod
 |------|------|
 | Oprindelig indikation | Ikke angivet i de tilgængelige data (alle godkendelser mangler indikationstekst) |
 | Forudsagt ny indikation | Skleroserende cholangitis |
-| TxGNN-forudsigelsesscore | 99,42 % |
+| TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført |
+| Status på det danske marked | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Hold |
 

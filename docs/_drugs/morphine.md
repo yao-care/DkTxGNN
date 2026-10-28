@@ -6,7 +6,7 @@ nav_order: 568
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Morphine: forudsagt ny indikation Uroligt bensyndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
+description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Morfin: Fra diarrésygdom til uroligt bensyndrom (restless legs syndrome)
+## Morfin: Fra diarrésygdom til myofascielt smertesyndrom (myofascial pain syndrome)
 {: .text-alpha }
 
 ## Opsummering
 
 Morfin er en opioid, som oprindeligt er knyttet til behandling af diarrésygdom. TxGNN-modellen forudsiger, at morfin kan have effekt ved **uroligt bensyndrom (restless legs syndrome)**, som er den bedst understøttede af de forudsagte indikationer. Evidensen omfatter **1 klinisk fase 1-forsøg** og **19 publikationer**, hovedsageligt observationelle studier, registerdata og case-rapporter.
 
-Bemærk: Den højest rangerede forudsigelse efter TxGNN-score er myofascielt smertesyndrom (99,75 %). Her er uroligt bensyndrom valgt som fokus, fordi det har den stærkeste evidens (L3). Se afsnittet om øvrige forudsigelser nedenfor.
+Bemærk: Den højest rangerede forudsigelse efter TxGNN-score er myofascielt smertesyndrom (0,9975). Her er uroligt bensyndrom valgt som fokus, fordi det har den stærkeste evidens (L3). Se afsnittet om øvrige forudsigelser nedenfor.
 
 ---
 
@@ -50,10 +50,10 @@ Bemærk: Den højest rangerede forudsigelse efter TxGNN-score er myofascielt sme
 |------|------|
 | Oprindelig indikation | Diarrésygdom (fra videnbasen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
 | Foreslået ny indikation | Uroligt bensyndrom (restless legs syndrome) |
-| TxGNN-forudsigelsesscore | 99,47 % |
+| TxGNN-forudsigelsesscore | 0,9975 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
 
 ---
@@ -115,15 +115,15 @@ Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige
 
 | Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
 |---|---|---|---|---|
-| 1 | Myofascielt smertesyndrom | 99,75 % | L4 | Hold – kun indirekte litteratur; opioider anbefales ikke |
-| 2 | Manisk bipolar lidelse | 99,64 % | L5 | Hold – spekulativ, afhængighedsrisiko |
-| 3 | Tourettes syndrom | 99,48 % | L5 | Hold – kun prækliniske/indirekte data |
-| 5 | ADHD, uopmærksom type | 99,34 % | L5 | Hold – ingen evidens |
-| 6 | Migræne | 99,32 % | L4 | Hold – retningslinjer fraråder opioider |
-| 7 | Trikotillomani | 99,29 % | L5 | Hold – mekanistisk modstridende (antagonister er undersøgt) |
-| 8 | Methæmoglobinæmi | 99,15 % | L5 | Hold – ingen relevant evidens |
-| 9 | Migræne med hjernestammeaura | 99,15 % | L5 | Hold – kun prækliniske data |
-| 10 | Specifik udviklingsforstyrrelse | 99,06 % | L5 | Hold – for bred kategori, ingen evidens |
+| 1 | Myofascielt smertesyndrom | 0,9975 | L4 | Hold – kun indirekte litteratur; opioider anbefales ikke |
+| 2 | Manisk bipolar lidelse | 0,9964 | L5 | Hold – spekulativ, afhængighedsrisiko |
+| 3 | Tourettes syndrom | 0,9948 | L5 | Hold – kun prækliniske/indirekte data |
+| 5 | ADHD, uopmærksom type | 0,9934 | L5 | Hold – ingen evidens |
+| 6 | Migræne | 0,9932 | L4 | Hold – retningslinjer fraråder opioider |
+| 7 | Trikotillomani | 0,9929 | L5 | Hold – mekanistisk modstridende (antagonister er undersøgt) |
+| 8 | Methæmoglobinæmi | 0,9915 | L5 | Hold – ingen relevant evidens |
+| 9 | Migræne med hjernestammeaura | 0,9915 | L5 | Hold – kun prækliniske data |
+| 10 | Specifik udviklingsforstyrrelse | 0,9906 | L5 | Hold – for bred kategori, ingen evidens |
 
 ---
 

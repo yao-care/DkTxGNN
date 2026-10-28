@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13125",
-      "display": "Abevmy"
+      "reference": "MedicationKnowledge/DB13125"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://dktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "lower-motor-neuron-syndrome-with-late-adult-onset",
-          "display": "lower motor neuron syndrome with late-adult onset"
-        }
-      ],
-      "text": "lower motor neuron syndrome with late-adult onset"
+      "concept": {
+        "text": "lower motor neuron syndrome with late-adult onset"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://dktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9995
     }
   ]
 }

@@ -49,17 +49,17 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt ved **benign prostatahyper
 |------|------|
 | Oprindelig indikation | Ikke angivet i de indsamlede data (godkendelsernes indikationstekst er tom) |
 | Forudsagt ny indikation | Benign prostatahyperplasi |
-| TxGNN-forudsigelsesscore | 99,26 % |
+| TxGNN-forudsigelsesscore | 0.9926 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Der foreligger i øjeblikket ingen detaljerede data om benzydamins virkningsmekanisme. Den eneste støtte for forudsigelsen er en meget høj score fra TxGNN's vidensgraf (0,993).
+Der foreligger i øjeblikket ingen detaljerede data om benzydamins virkningsmekanisme. Den eneste støtte for forudsigelsen er en meget høj score fra TxGNN-modellen (deep learning) (0.9926), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
 Benzydamin beskrives som et lokalt virkende, NSAID-lignende stof med antiinflammatoriske, smertestillende og lokalbedøvende egenskaber. Det kan muligvis hæmme pro-inflammatoriske cytokiner (f.eks. TNF-alfa og IL-1beta) og stabilisere cellemembraner. Kronisk inflammation i prostata antages at spille en rolle ved BPH og lavere urinvejssymptomer, så en antiinflammatorisk virkning er teoretisk tænkelig.
 

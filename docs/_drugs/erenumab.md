@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Erenumab
-parent: Moderat evidens (L3-L4)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 321
-evidence_level: L4
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Erenumab: forudsagt ny indikation Migræne med hjernestammeaura (evidensniveau L4). Oprindelig indikation: Migræne (migræne med eller uden aura)"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Erenumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Erenumab
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,75 +32,45 @@ Evidensniveau: **L4** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Erenumab: Fra migræne til migræne med hjernestammeaura
+<!-- known-uses-page -->
+<!-- description: Erenumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Erenumab: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
-## Opsummering i en sætning
-
-Erenumab er et monoklonalt antistof mod CGRP-receptoren, oprindeligt anvendt til forebyggelse af migræne.
-TxGNN-modellen forudsiger, at det også kan være effektivt ved **migræne med hjernestammeaura**,
-men der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de indsamlede data, og ingen af dem har specifikt undersøgt denne undertype. Evidensen er derfor indirekte.
-
----
+## Resumé
+Alle kandidater, som TxGNN-modellen har produceret for Erenumab, og som kan spores til en kilde, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for Erenumab. Den ene kendte anvendelse er knyttet til samme sygdomskategori som en godkendt indikation.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Migræne (migræne med eller uden aura) |
-| Forudsagt ny indikation | Migræne med hjernestammeaura |
-| TxGNN-forudsigelsesscore | 99,89 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modelkandidater | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
-*Bemærk: Indikationsteksten for den danske tilladelse er ikke tilgængelig i de indsamlede data. Den oprindelige indikation er derfor hentet fra videngrafen (PrimeKG).*
+## Kendte anvendelser blandt modellens kandidater
 
----
+### Godkendt (understøttet af en tilladelse eller produktresumé)
+| Indikation | Kilde |
+|------|------|
+| Ingen | Ingen |
 
-## Hvorfor er denne forudsigelse rimelig?
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Migræne med hjernestammeaura (migraine with brainstem aura) | migraine |
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra kendt farmakologi er erenumab et antistof, der binder CGRP-receptoren og blokerer CGRP-stimuleret cAMP-produktion (IC50 ca. 2,3 nM). Det er ca. 5000 gange mere selektivt for CGRP-receptoren end for andre humane receptorer i calcitoninfamilien. CGRP-signalering er central for aktiveringen af det trigeminovaskulære system ved migræne.
-
-Migræne med hjernestammeaura er en sjælden undertype af migræne med aura, med symptomer som svimmelhed, dysartri og dobbeltsyn. Da undertypen deler den grundlæggende CGRP-afhængige patofysiologi med øvrig migræne, er der et mekanistisk grundlag for, at erenumab kan virke.
-
-Den meget høje score afspejler sandsynligvis den tætte relation til den allerede godkendte migræneindikation snarere end uafhængig evidens. Ingen af de fundne studier har specifikt inkluderet patienter med hjernestammeaura, så evidensen er ekstrapoleret fra den bredere gruppe med migræne med aura.
-
----
-
-## Evidens fra kliniske forsøg
-
-Currently ingen relaterede kliniske forsøg registreret for den forudsagte indikation.
-
----
-
-## Litteraturevidens
-
-Et udvalg af de mest relevante publikationer (de to forudsigelser i de indsamlede data er identiske og vises kun én gang):
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (sekundæranalyse) | JAMA Neurology | Sikkerhed og effekt af erenumab ved migræne med og uden aura |
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (fase 3b) | Lancet | Effekt og tolerabilitet ved episodisk migræne efter 2-4 mislykkede forebyggende behandlinger |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematisk review | Int Immunopharmacol | Effekt af erenumab i migrænprofylakse |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Kohorte (post hoc) | Headache | Vaskulær risiko ved migræne med og uden aura under erenumab |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | REFORM-studie | J Headache Pain | Effekt af erenumab på hyppigheden af migræneaura |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistisk studie | Cephalalgia | Erenumab påvirker ikke cerebral hæmodynamik og endotelfunktion ved migræne uden aura |
-| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Kohorte | Neurology | Risiko for glaukom ved brug af CGRP-hæmmere ved migræne |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospektivt studie | J Headache Pain | 12 måneders sikkerhed og tolerabilitet i klinisk praksis |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | CGRP's rolle ved migræne |
-| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Eksperimentelt studie | Cephalalgia | cGMP-medierede migræneanfald er uafhængige af CGRP-receptoraktivering |
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106151018 | Aimovig (Novartis Europharm Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28106151018 | Aimovig | injektionsvæske, opløsning i fyldt injek | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -112,19 +83,6 @@ Fra litteraturen er følgende relevant for vurderingen:
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Der er ingen kliniske forsøg for den specifikke undertype, og evidensen er indirekte (L4) og ekstrapoleret fra migræne med aura generelt. Den høje TxGNN-score kan ikke erstatte undertypespecifik evidens, og data om advarsler og kontraindikationer mangler i de indsamlede data.
-
-**For at komme videre kræves følgende:**
-- Gennemgang af produktresuméet for advarsler og kontraindikationer (manglende i de indsamlede data)
-- Undertypespecifikke data for patienter med hjernestammeaura, fx subgruppeanalyser, registerdata (herunder REFORM) eller et pilotstudie
-- Vurdering af vaskulær og neurologisk sikkerhed specifikt for hjernestammeaura
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Bekræftelse af den godkendte indikationstekst for den danske tilladelse
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

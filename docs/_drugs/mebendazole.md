@@ -48,10 +48,10 @@ Mebendazol er et ormemiddel, der oprindeligt bruges til behandling af parasitinf
 |------|------|
 | Oprindelig indikation | Enterobiasis (trådorm), askaridiasis (spolorm), trikuriasis (piskeorm) (Den danske produkttekst indeholder ingen angivet indikationstekst) |
 | Forudsagt ny indikation | Akne |
-| TxGNN-forudsigelsesscore | 99,2 % |
+| TxGNN-forudsigelsesscore | 0,9920 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ Der er i øjeblikket ikke tilgængelige data om mebendazols detaljerede virkning
 
 Der er ikke dokumenteret en plausibel mekanistisk sammenhæng mellem mebendazol og akne. De indsamlede data viser ingen antiinflammatorisk, antibakteriel, talgregulerende eller anti-*Cutibacterium acnes*-effekt. Den oprindelige indikation (tarmparasitter) og akne (en kronisk inflammatorisk hudlidelse i talgkirtlerne) er klinisk og patofysiologisk meget forskellige.
 
-Den høje score (0,992) afspejler en beregnet nærhed i modellens vidensgraf og er ikke i sig selv et bevis for effekt. Scoren kan skyldes artefakter i grafstrukturen frem for reel biologi og bør tolkes med stor forsigtighed.
+Den høje score (0,9920) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Scoren er ikke i sig selv et bevis for effekt og bør tolkes med stor forsigtighed.
 
 ---
 

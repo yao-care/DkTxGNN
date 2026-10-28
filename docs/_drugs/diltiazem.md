@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Kun modelforudsigelse (L5)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 264
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Diltiazem: forudsagt ny indikation Obsolete susceptibility to ischemic stroke (forældet modtagelighed fo… (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, Prinzmetal-angina, ven…"
-monitor_inn: "diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,56 +32,45 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Diltiazem: Fra hypertension til forældet modtagelighed for iskæmisk apopleksi
+<!-- known-uses-page -->
+<!-- description: Diltiazem: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation -->
+## Diltiazem: Kendte anvendelser og markedsstatus i Danmark
 {: .text-alpha }
 
 ## Resumé
-
-Diltiazem er en calciumkanalblokker, som oprindeligt anvendes til behandling af hypertension, atrieflimren, Prinzmetal-angina og ventrikulær takykardi. TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **"obsolete susceptibility to ischemic stroke"** (forældet modtagelighed for iskæmisk apopleksi), men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen er derfor udelukkende modelbaseret.
-
----
+Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Diltiazem, som kan spores til en kilde, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for Diltiazem.
 
 ## Hurtigt overblik
-
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension, atrieflimren, Prinzmetal-angina, ventrikulær takykardi (fra TxGNN-vidensgrafen; indikationsteksten i den danske registrering er tom) |
-| Forudsagt ny indikation | Obsolete susceptibility to ischemic stroke (forældet modtagelighed for iskæmisk apopleksi) |
-| TxGNN-prædiktionsscore | 99,08 % |
-| Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
-| Anbefalet beslutning | Hold |
+| Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
+| Kendte anvendelser blandt modelkandidater | 1 |
+| Evidensniveau | Ikke relevant |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
----
+## Kendte anvendelser blandt modellens kandidater
 
-## Hvorfor er denne forudsigelse rimelig?
+### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+| Indikation | Kilde |
+|------|------|
+| Prinzmetal angina (Prinzmetal angina) | Tilladelse i et andet land; godkendt indikation: angina |
 
-Diltiazem er en non-dihydropyridin calciumkanalblokker, der sænker blodtryk og vaskulær modstand. Blodtrykskontrol er en af de vigtigste faktorer i forebyggelse af apopleksi, og lægemidlet kan muligvis også dæmpe cerebral vasospasme og forbedre karrenes tonus. Der foreligger dog ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport.
+### Relateret til en godkendt indikation (samme sygdomskategori)
+| Indikation | Godkendt kategori |
+|------|------|
+| Ingen | Ingen |
 
-Den høje score afspejler sandsynligvis netværksnærhed til eksisterende hypertensions- og hjerte-kar-indikationer i vidensgrafen snarere end apopleksispecifik biologi. Desuden er sygdomsbetegnelsen markeret som "obsolete" (forældet), hvorfor den ikke er et veldefineret klinisk mål. Sammenhængen med apopleksiforebyggelse er således indirekte og ikke verificeret.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-Der er for øjeblikket ingen relateret litteratur tilgængelig.
-
----
+### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+| Indikation |
+|------|
+| Ingen |
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107316725 | Capizid (Nordic Prime ApS) | Depottablet (oral) | Indikationstekst ikke tilgængelig |
-
----
+| Tilladelse | Produkt | Lægemiddelform | Status |
+|------|------|------|------|
+| 28107316725 | Capizid | depottabletter | Gyldig |
 
 ## Sikkerhedsovervejelser
 
@@ -101,20 +89,6 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen understøttes kun af en computermodel (evidensniveau L5) uden kliniske forsøg eller litteratur, og den forudsagte indikation er markeret som forældet og dermed ikke et veldefineret klinisk mål. Sikkerhedsdata fra produktresuméet mangler desuden.
-
-**For at komme videre kræves følgende:**
-- Afklaring af, hvilken aktuel, klinisk veldefineret apopleksiindikation (fx sekundær forebyggelse af iskæmisk apopleksi) der skal vurderes i stedet for den forældede betegnelse
-- Systematisk litteratursøgning og søgning efter kliniske forsøg for den afklarede indikation
-- Data om virkningsmekanisme (MOA)
-- Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Vurdering af administrationsvej og kompatibilitet med den nye indikation
-- Gennemgang af de relevante lægemiddelinteraktioner, især hos patienter i behandling med flere lægemidler
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Moxonidine
 parent: Kun modelforudsigelse (L5)
 nav_order: 571
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Hypertension (angivet i vidensgrafen"
 monitor_inn: "moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
+description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Moxonidine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Moxonidin: Fra hypertension til hypotrichosis simplex i hovedbunden
+## Moxonidine: Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,12 +48,12 @@ men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte den
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension (angivet i vidensgrafen; indikationsteksten i de danske markedsføringstilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden |
-| TxGNN-forudsigelsesscore | 99,95 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) |
+| TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -62,7 +62,7 @@ men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte den
 
 Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Moxonidin er kendt som en centralt virkende agonist på imidazolin I1-receptorer og alfa-2-adrenerge receptorer. Den sænker blodtrykket ved at hæmme den sympatiske aktivitet. Bindingsdata viser, at stoffet virker på ADRA2A-, ADRA2B- og ADRA2C-receptorerne.
 
-Der er ikke påvist nogen sandsynlig biologisk sammenhæng mellem denne mekanisme og hårsækkens biologi ved en genetisk betinget hypotrichose. Den høje score afspejler sandsynligvis nærhed i vidensgrafen snarere end en biologisk begrundelse. Forudsigelsen bør derfor betragtes som en hypotese uden dokumentation.
+Der er ikke påvist nogen sandsynlig biologisk sammenhæng mellem denne mekanisme og hårsækkens biologi ved en genetisk betinget hypotrichose. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor betragtes som en hypotese uden dokumentation.
 
 Blandt de øvrige forudsigelser er **malign hypertensiv nyresygdom** og **malign renovaskulær hypertension** biologisk mest plausible, da de ligger tæt på den oprindelige indikation. Der foreligger dog heller ikke evidens for disse. Malign hypertension er en hypertensiv nødsituation, der normalt behandles med parenterale midler, og moxonidin skal dosisjusteres ved nedsat nyrefunktion. De øvrige forudsigelser (bl.a. alopecia areata, pulmonal hypertension, primær arvelig glaukom og sjældne genetiske syndromer) har ingen påviselig mekanistisk støtte. Ved pulmonal hypertension skyldes forudsigelsen sandsynligvis blot den delte betegnelse "hypertension".
 

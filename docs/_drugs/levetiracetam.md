@@ -1,18 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 492
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Levetiracetam: forudsagt ny indikation Visuel epilepsi (evidensniveau L4). Oprindelig indikation: Partiel epilepsi (angivet i vidensgrafen"
+evidence_level: L5
+indication_count: 1
+monitor_inn: "LEVETIRACETAM"
+predicted_indications: ["beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-23
+description: "Levetiracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,96 +33,82 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Levetiracetam: Fra partiel epilepsi til visuel epilepsi
+## Levetiracetam: Fra partiel epilepsi til beta-ketothiolase-mangel
 {: .text-alpha }
 
-## Resumé i en sætning
+## Opsummering i én sætning
 
-Levetiracetam er et antiepileptikum, der oprindeligt anvendes til behandling af partiel epilepsi.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **visuel epilepsi**,
-men der er hverken registrerede kliniske forsøg eller litteratur, der specifikt omhandler denne indikation. Evidensen består af **0 kliniske forsøg** og **20 generelle publikationer om anfald** (neonatale anfald, anfald efter apopleksi og neurokritisk profylakse).
+Levetiracetam er et antiepileptikum, som i den viden, der er indgået i denne rapport, er knyttet til behandling af partiel epilepsi. TxGNN-modellen forudsiger, at det kan have effekt på **beta-ketothiolase-mangel**, men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, der understøtter denne forudsigelse. Forudsigelsen er derfor udelukkende modelbaseret.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Partiel epilepsi (angivet i vidensgrafen; indikationsteksten i den danske autorisation er ikke tilgængelig) |
-| Forudsagt ny indikation | Visuel epilepsi |
-| TxGNN-forudsigelsesscore | 99,98 % |
-| Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Oprindelig indikation | Partiel epilepsi (relation registreret i vidensgrafen; licenstekstens indikation er tom i de indsamlede data) |
+| Forudsagt ny indikation | Beta-ketothiolase-mangel |
+| TxGNN-forudsigelsesscore | 0,9990 |
+| Evidensniveau | L5 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
+
+---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den generelle viden binder levetiracetam sig til det synaptiske vesikelprotein SV2A og påvirker frigivelsen af neurotransmittere. Det kan i princippet dæmpe neuronal overeksitabilitet, herunder ved lysfølsomme eller visuelt udløste anfald.
+Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at levetiracetam binder til det synaptiske vesikelprotein SV2A og moduler frigivelsen af neurotransmittere.
 
-Visuel epilepsi ligger tæt på den godkendte indikation, partiel epilepsi. Forudsigelsen skyldes sandsynligvis netværksnærhed til epilepsi- og refleksanfaldsknuder i vidensgrafen. Det betyder, at den nye værdi ved genanvendelse er lav. Den hentede litteratur omhandler generelle anfaldspopulationer og indeholder ingen data specifikke for visuel epilepsi.
+Beta-ketothiolase-mangel (ACAT1/T2-mangel) er en medfødt stofskiftesygdom i nedbrydningen af isoleucin og ketonstoffer, hvor den centrale kliniske udfordring er episodisk ketoacidose. Der er ingen etableret mekanistisk forbindelse mellem SV2A-modulation og denne metaboliske defekt.
 
-### Øvrige forudsagte indikationer (kort overblik)
+En teoretisk kobling kan højst trækkes via kramper eller neurologiske komplikationer under metaboliske kriser. Det ville i så fald være symptomatisk behandling og ikke sygdomsmodificerende. Den høje score (0,999) er alene et modelresultat og understøttes ikke af forsøg eller litteratur.
 
-TxGNN forudsagde også flere andre refleksanfaldsformer. Dubletter i datagrundlaget er vurderet én gang.
+---
 
-| Forudsagt indikation | Score | Evidensniveau | Vurdering |
-|------|------|------|------|
-| Startle-epilepsi | 99,96 % | L3 | Forskningsspørgsmål: små åbne studier og kasuistikker |
-| Audiogene anfald | 99,96 % | L3 | Forskningsspørgsmål: præklinisk og veterinær evidens, ingen humane forsøg |
-| Spiseanfald | 99,96 % | L4 | Hold: kun indirekte litteratur |
-| Vandladningsudløste anfald | 99,96 % | L4 | Hold: kun generel anfaldslitteratur |
-| Tænkningsudløste anfald | 99,96 % | L4 | Hold: ingen specifikke data |
-| Orgasmeudløste anfald | 99,96 % | L5 | Hold: ingen kliniske data |
+## Evidens fra kliniske forsøg
 
-## Klinisk forsøgsevidens
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for visuel epilepsi.
+---
 
 ## Litteraturevidens
 
-Ingen af publikationerne omhandler visuel epilepsi direkte. De mest relevante generelle studier om levetiracetam ved anfald er:
+Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | Fase 3 RCT (dobbeltblindet, placebokontrolleret) | The Lancet Neurology | Profylaktisk levetiracetam til forebyggelse af akutte anfald ved intracerebral blødning (PEACH) |
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam versus phenobarbital ved neonatale anfald |
-| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT (åbent) | Seizure | Phenytoin og levetiracetam ved akutte symptomatiske anfald hos børn med akut encefalitis-syndrom |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Systematisk review og metaanalyse | Neurocritical Care | Levetiracetam som anfaldsprofylakse i neurokritisk behandling |
-| [39808752](https://pubmed.ncbi.nlm.nih.gov/39808752/) | 2025 | Systematisk review og netværksmetaanalyse | Neurology | Antiepileptika ved anfald efter apopleksi |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Systematisk review og metaanalyse | Epilepsy & Behavior | Levetiracetam ved myokloniske anfald ved idiopatisk generaliseret epilepsi |
-| [30884401](https://pubmed.ncbi.nlm.nih.gov/30884401/) | 2019 | Systematisk review | Epilepsy & Behavior | Levetiracetam versus carbamazepin ved rolandisk epilepsi |
-| [39899098](https://pubmed.ncbi.nlm.nih.gov/39899098/) | 2025 | Review | Continuum | Førstegangsanfald, akutte gentagne anfald og status epilepticus |
-| [35848684](https://pubmed.ncbi.nlm.nih.gov/35848684/) | 2022 | Kasuistik (bivirkning) | Journal of Postgraduate Medicine | Levetiracetam-induceret gingival hyperplasi |
-| [28755154](https://pubmed.ncbi.nlm.nih.gov/28755154/) | 2018 | Ikke klassificeret | Acta Neurologica Belgica | Levetiracetam-induceret hyponatriæmi |
+---
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28103070399 | Keppra (UCB S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+| 28103070399 | Keppra (UCB S.A. UCB Center) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
-## Sikkerhedsovvejelser
+Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse).
 
-Nedenstående er hentet fra vidensgrafen og interaktionsdatabasen, ikke fra produktresuméet.
+---
 
-- **Sygdomme med kontraindikationssignal i vidensgrafen** (ikke produkttekst): angstlidelse, neurotisk lidelse, dysthymi, nyresygdom, leversygdom, galdeblæresygdom, psykotisk lidelse, skizofreniform lidelse, skizoaffektiv lidelse, psykisk lidelse, neutropeni, agranulocytose, leukopeni, pancytopeni, depersonalisationsforstyrrelse. Signalerne bør verificeres mod det godkendte produktresumé.
-- **Lægemiddelinteraktioner**: 100 interaktioner er identificeret. Moderate interaktioner omfatter morfin (inkl. liposomal), dronabinol, metoclopramid, nabilon, opium og sibutramin.
-- **Fra litteraturen**: Gingival hyperplasi (kasuistik), hyponatriæmi og anfaldsforværring ved levetiracetam (op til 18 % i visse populationer; PMID 40245446).
+## Sikkerhedsovervejelser
 
-For fuldstændige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+- **Relationer i vidensgrafen (ikke mærkningstekst):** Vidensgrafen registrerer kontraindikationsrelationer til bl.a. nyresygdom, leversygdom, galdeblæresygdom, neutropeni, agranulocytose, leukopeni, pancytopeni samt psykiske lidelser (angstlidelse, neurotisk lidelse, dysthymi, psykotisk lidelse, skizofreniform lidelse, skizoaffektiv lidelse, depersonalisationslidelse). Disse stammer ikke fra produktresuméet og skal verificeres mod det.
+- **Lægemiddelinteraktioner:** 100 interaktioner er identificeret i alt. De vigtigste med moderat niveau er morfin (inkl. liposomal), dronabinol, nabilon, metoclopramid, opium og sibutramin. Flere andre (bl.a. pantoprazol, omeprazol, lansoprazol, metformin, glimepirid, vancomycin og doxycyclin) har uklassificeret niveau.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen for visuel epilepsi bygger udelukkende på modelscoren (evidensniveau L4). Der findes ingen forsøg eller litteratur specifikt for indikationen, og den ligger tæt på den allerede godkendte indikation, så den potentielle merværdi er lav.
+Forudsigelsen bygger kun på modellens score uden understøttende forsøg eller litteratur, og der er ingen etableret mekanistisk forbindelse mellem levetiracetams virkning og beta-ketothiolase-mangel. Evidensniveauet er L5.
 
 **For at komme videre kræves:**
-- Litteratur- eller forsøgsdata specifikt for visuel/fotosensitiv epilepsi
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhedsoplysninger fra produktresuméet (advarsler og kontraindikationer), som mangler i datagrundlaget og blokerer sikkerhedsscreening
-- Godkendt indikationstekst for Keppra i Danmark
-- Til opfølgning kan **startle-epilepsi** og **audiogene anfald** (L3) overvejes som forskningsspørgsmål. Evidensen for startle-epilepsi består af små åbne studier og kasuistikker (PMID 18486495, 17401745, 23034981), og for audiogene anfald af præklinisk og veterinær evidens (PMID 18397292, 26690830). Begge mangler humane randomiserede forsøg.
+- Systematisk litteratur- og forsøgssøgning med fokus på levetiracetam ved beta-ketothiolase-mangel, herunder kramper under metaboliske kriser
+- Mekanistisk begrundelse og præklinisk evidens
+- Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
+- Vurdering af, om en eventuel nytte blot er symptomatisk og ikke sygdomsmodificerende
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

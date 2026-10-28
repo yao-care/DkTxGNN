@@ -4,17 +4,17 @@ title: Dexibuprofen
 parent: Kun modelforudsigelse (L5)
 nav_order: 254
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dexibuprofen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (evidensniveau L5). Oprindelig indikation: Leddegigt, slidgigt, juvenil idiopatisk artrit…"
+indication_count: 8
 monitor_inn: "Dexibuprofen"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome"]
+last_modified_at: 2026-10-23
+description: "Dexibuprofen: forudsagt ny indikation Brachydactyly-syndactyly-syndrom (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i den danske registrer…"
 ---
 
 # Dexibuprofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dexibuprofen: Fra gigtlidelser og smerter til brachydaktyli-syndaktyli-syndrom
+## Dexibuprofen: Fra gigtlidelser til brachydactyly-syndactyly-syndrom
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Dexibuprofen er den aktive S-enantiomer af ibuprofen og anvendes oprindeligt mod gigtlidelser (bl.a. leddegigt, slidgigt og juvenil idiopatisk artrit) samt hovedpine.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **brachydaktyli-syndaktyli-syndrom**,
-men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denne forudsigelse. Den er udelukkende modelbaseret.
+Dexibuprofen er det aktive S-enantiomer af ibuprofen og er et NSAID, som i videnskabsgrafen er knyttet til bl.a. leddegigt, slidgigt og juvenil idiopatisk artrit.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **brachydactyly-syndactyly-syndrom**.
+Der er **0 kliniske forsøg** og **0 publikationer**, som understøtter denne retning, så forudsigelsen er udelukkende modelbaseret.
 
 ---
 
@@ -48,55 +48,65 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Leddegigt, slidgigt, juvenil idiopatisk artrit, hovedpine og andre artropatier (iflg. vidensgrafen; indikationsteksten i den danske tilladelse er ikke angivet) |
-| Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom |
-| TxGNN-forudsigelsesscore | 99,87 % |
+| Oprindelig indikation | Ingen godkendt indikationstekst er tilgængelig i den danske registrering. Videnskabsgrafen registrerer relationer til bl.a. leddegigt, slidgigt, hovedpine og juvenil idiopatisk artrit (ikke godkendte indikationer) |
+| Forudsagt ny indikation | Brachydactyly-syndactyly-syndrom |
+| TxGNN-forudsigelsesscore | 0,9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse (ikke) rimelig?
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Dexibuprofen er kendt som en COX-hæmmer (aktiv S-enantiomer af ibuprofen), der dæmper prostaglandinmedieret smerte og inflammation, og effekten ved inflammatoriske ledsygdomme er veletableret.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Dexibuprofen er S-enantiomeren af ibuprofen, en COX-hæmmer med antiinflammatorisk og smertestillende virkning.
 
-Brachydaktyli-syndaktyli-syndrom er derimod en udviklingsmæssig skeletmalformation, typisk af genetisk oprindelse, og den er ikke drevet af prostaglandinmedieret inflammation. Der er derfor ikke påvist nogen mekanistisk forbindelse mellem COX-hæmning og sygdommens årsag.
+Brachydactyly-syndactyly-syndrom er en udviklingsmæssig, typisk genetisk skeletmisdannelse. Der er ingen kendt inflammatorisk eller prostaglandindrevet sygdomsmekanisme, som et NSAID forventes at påvirke. Den høje score (0,9987) afspejler sandsynligvis blot nærhed i netværksgrafen til lægemidlets muskel-skeletrelaterede relationer og er ikke klinisk evidens.
 
-Den høje score (0,9987) afspejler sandsynligvis nærhed i vidensgrafen mellem skelet- og lemmefænotyper snarere end et reelt biologisk målsammenfald. Forudsigelsen bør derfor ses som en hypotese uden klinisk eller mekanistisk støtte.
+Ingen af de øvrige syv forudsigelser har heller nogen studier eller publikationer til støtte:
 
-Øvrige forudsigelser i datagrundlaget har samme karakter (alle evidensniveau L5, anbefaling Hold):
-- Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (99,85 %)
-- Akromesomelisk dysplasi, Hunter-Thompson-type (99,84 %), en genetisk skeletdysplasi i GDF5-signalvejen, som COX-hæmning ikke adresserer
-- Brachyolmi-amelogenesis imperfecta-syndrom (99,83 %)
-- Myosklerose (99,82 %), hvor kun en svag, spekulativ symptomatisk smertelindring kan tænkes
+| Rang | Forudsagt sygdom | Score | Evidensniveau |
+|---|---|---|---|
+| 2 | Colobomatøs mikroftalmi-rhizomel dysplasi-syndrom | 0,9985 | L5 |
+| 3 | Akromesomel dysplasi, Hunter-Thompson-type | 0,9984 | L5 |
+| 4 | Brachyolmia-amelogenesis imperfecta-syndrom | 0,9983 | L5 |
+| 5 | Myosklerose | 0,9982 | L5 |
+| 6 | Brachyolmia | 0,9980 | L5 |
+| 7 | Pseudoachondroplasi | 0,9974 | L5 |
+| 8 | WHIM-syndrom | 0,9968 | L5 |
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
-
----
-
-## Evidens fra litteraturen
-
-Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
+Pseudoachondroplasi er den mest tænkelige af dem, da COMP-varianter giver tidlig ledsygdom og smerter. Et NSAID kunne her muligvis give symptomlindring, men ikke sygdomsmodificerende behandling, og der er ingen data, der understøtter det.
 
 ---
 
-## Markedsinformation for Danmark
+## Dokumentation fra kliniske forsøg
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+
+---
+
+## Litteraturevidens
+
+Der foreligger i øjeblikket ingen relateret litteratur.
+
+---
+
+## Information om det danske marked
+
+| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+
+Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført.
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. Der er ikke fundet registrerede lægemiddelinteraktioner i de data, der er indsamlet til denne rapport, men det skyldes manglende data og ikke dokumenteret fravær af interaktioner. Som NSAID-præparat har dexibuprofen kendte klasserelaterede risici (mave-tarm, hjerte-kar og nyrer), som bør verificeres i produktresuméet.
+Der er ikke fundet registrerede interaktioner i de data, der er indsamlet til denne rapport. Der er ingen kontraindikationsrelationer i videnskabsgrafen.
+
+Se det godkendte produktresumé (SmPC) for information om advarsler, kontraindikationer og interaktioner.
 
 ---
 
@@ -105,13 +115,14 @@ Der henvises til det godkendte produktresumé (SPC) for sikkerhedsoplysninger. D
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, litteratur eller en plausibel mekanistisk forbindelse. Sygdommene er genetiske udviklingsforstyrrelser, som COX-hæmning ikke forventes at påvirke.
+Forudsigelsen bygger kun på en grafbaseret modelscore uden kliniske forsøg eller publikationer (evidensniveau L5). Der er ingen plausibel mekanistisk sammenhæng mellem COX-hæmning og de forudsagte, overvejende genetiske udviklingsforstyrrelser.
 
 **For at komme videre kræves følgende:**
-- Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen (manglende sikkerhedsdata blokerer sikkerhedsscreeningen)
-- Litteraturgennemgang og prækliniske data, der kan underbygge en biologisk sammenhæng
-- Vurdering af administrationsvej og forenelighed med målpopulationen
+- Detaljerede data om virkningsmekanisme (MOA)
+- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
+- Præklinisk eller mekanistisk evidens for, at prostaglandinhæmning har relevans for sygdommen
+- Systematisk litteratursøgning for case-rapporter eller studier ved den forudsagte sygdom
+- Hvis relevant, vurdering af pseudoachondroplasi som symptomatisk smertebehandling frem for sygdomsmodificerende behandling
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -4,17 +4,17 @@ title: Mecasermin
 parent: Kun modelforudsigelse (L5)
 nav_order: 524
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Mecasermin: forudsagt ny indikation Monosomi X (Turner syndrom) (evidensniveau L5). Oprindelig indikation: Væksthormoninsensitivitetssyndrom og Laron syndrom (kilde: TxGNN-vide…"
 monitor_inn: "Mecasermin"
-predicted_indications: ["monosomy X", "monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices with bleeding", "esophageal varices without bleeding", "esophageal varices without bleeding"]
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Mecasermin: forudsagt ny indikation Monosomi X (monosomy X) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Mecasermin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Mecasermin: Fra væksthormoninsensitivitetssyndrom til monosomi X
+## Mecasermin: Monosomi X (monosomy X)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,12 +46,12 @@ Mecasermin er rekombinant IGF-1 (insulinlignende vækstfaktor 1), oprindeligt br
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Væksthormoninsensitivitetssyndrom og Laron syndrom (kilde: TxGNN-vidensgraf; indikationsteksten i den danske autorisation er ikke udfyldt) |
-| Forudsagt ny indikation | Monosomi X (Turner syndrom) |
-| TxGNN-forudsigelsesscore | 99,6 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Monosomi X (monosomy X) |
+| TxGNN-forudsigelsesscore | 0.9959 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -66,9 +66,6 @@ Turner syndrom (monosomi X) er kendetegnet ved lav legemshøjde og ofte ændret 
 
 | Sygdom | TxGNN-score | Vurdering |
 |------|------|------|
-| Væksthormoninsensitivitetssyndrom med immundysregulering 2, autosomal dominant | 99,1 % | Biologisk plausibel, tæt på den eksisterende indikation (formentlig STAT5B-relateret), men afspejler sandsynligvis nærhed i ontologien snarere end ny evidens. IGF-1 alene løser ikke immundysreguleringen. |
-| Wolmans sygdom med hypolipoproteinæmi og akantocytose | 99,1 % | Ingen klar mekanistisk begrundelse (lysosomal sur lipase-mangel); scoren er sandsynligvis et grafartefakt. |
-| Esophagusvaricer med og uden blødning | 99,0 % | Ingen etableret mekanistisk sammenhæng (portal hypertension). Hypoglykæmi-risiko ville kræve særskilt vurdering ved akut blødning. |
 
 ---
 

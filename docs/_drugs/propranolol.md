@@ -4,17 +4,17 @@ title: Propranolol
 parent: Kun modelforudsigelse (L5)
 nav_order: 692
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Propranolol: forudsagt ny indikation Distal myopati, Tateyama-type (evidensniveau L5). Oprindelig indikation: Hypertension, atrieflimren, hypertrofisk kardiomyopati, hæmangiom m.fl"
 monitor_inn: "propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: forudsagt ny indikation Distal myopati, Tateyama-type (distal myopathy, Tateyama type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Propranolol: Fra hypertension og hæmangiom til distal myopati, Tateyama-type
+## Propranolol: Distal myopati, Tateyama-type (distal myopathy, Tateyama type)
 {: .text-alpha }
 
 ## Opsummering i få sætninger
@@ -47,12 +47,12 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **distal myopat
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Hypertension, atrieflimren, hypertrofisk kardiomyopati, hæmangiom m.fl. (fra vidensgrafen; den danske godkendelsestekst er ikke angivet i de indsamlede data) |
-| Forudsagt ny indikation | Distal myopati, Tateyama-type |
-| TxGNN-forudsigelsesscore | 99,40 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Distal myopati, Tateyama-type (distal myopathy, Tateyama type) |
+| TxGNN-forudsigelsesscore | 0.9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **distal myopat
 
 Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Propranolol er kendt som uselektiv betablokker (membranstabiliserende, uden intrinsisk sympatomimetisk aktivitet), men dette er baseret på almen viden og ikke på de indsamlede data.
 
-De indsamlede data understøtter **ikke** en mekanistisk sammenhæng mellem betablokade og patofysiologien i distal myopati, Tateyama-type, som er en sjælden muskelsygdom. Den høje score (0,994) er en ren modelforudsigelse, sandsynligvis drevet af nærhed i vidensgrafen, og ikke et udtryk for dokumenteret effekt.
+De indsamlede data understøtter **ikke** en mekanistisk sammenhæng mellem betablokade og patofysiologien i distal myopati, Tateyama-type, som er en sjælden muskelsygdom. Den høje score (0,9940) er en ren modelforudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller dokumenteret effekt.
 
 Til orientering ligger de øvrige højt rangerede forudsigelser inden for lignende områder (kongenit myopati med overskud af tynde filamenter, kardiomyopati, cirrotisk kardiomyopati, kondrom). Af disse har kun cirrotisk kardiomyopati og generel kardiomyopati noget litteratur, og de er klassificeret som L4 ("forskningsspørgsmål").
 

@@ -50,10 +50,10 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 |------|------|
 | Oprindelig indikation | Cycloplegi (fra videnbasen; de danske markedsføringstilladelser indeholder ingen indikationstekst) |
 | Forudsagt ny indikation | Cauda equina-syndrom |
-| TxGNN-forudsigelsesscore | 99,53 % |
+| TxGNN-forudsigelsesscore | 0.9953 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 3 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -65,8 +65,8 @@ Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanismen i de 
 Forbindelsen til cauda equina-syndrom er spekulativ. Antimuskarin virkning kunne i teorien dæmpe detrusoroveraktivitet ved den blæredysfunktion, der ledsager syndromet. Den underliggende årsag er imidlertid mekanisk kompression af lumbosakrale nerverødder, som kræver kirurgisk dekompression, og antimuskarine midler behandler ikke dette. Tropicamid findes desuden kun som øjenpræparater med minimal systemisk eksponering.
 
 De to næstbedst rangerede forudsigelser er mekanistisk mere plausible på klasseniveau, men uden data for tropicamid selv:
-- **Neurogen blære** (score 99,13 %): Muskarin antagonisme er en valideret mekanisme ved neurogen detrusoroveraktivitet (fx oxybutynin, tolterodin, solifenacin). Tropicamid har ingen oral eller intravesikal formulering, og etablerede antimuskarine midler dækker allerede indikationen. Sygdomstermen er markeret som forældet og bør tilknyttes en aktuel ontologiterm.
-- **Irritabel tarm-syndrom** (score 99,12 %): Antispasmodiske midler som hyoscin og dicyclomin bruges mod mavesmerter og kramper, men tropicamid har ingen klinisk evidens og negligerbar eksponering i tarmen.
+- **Neurogen blære** (score 0,9913): Muskarin antagonisme er en valideret mekanisme ved neurogen detrusoroveraktivitet (fx oxybutynin, tolterodin, solifenacin). Tropicamid har ingen oral eller intravesikal formulering, og etablerede antimuskarine midler dækker allerede indikationen. Sygdomstermen er markeret som forældet og bør tilknyttes en aktuel ontologiterm.
+- **Irritabel tarm-syndrom** (score 0,9912): Antispasmodiske midler som hyoscin og dicyclomin bruges mod mavesmerter og kramper, men tropicamid har ingen klinisk evidens og negligerbar eksponering i tarmen.
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 373
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Fosphenytoin: forudsagt ny indikation Manisk bipolar affektiv lidelse (evidensniveau L5). Oprindelig indikation: Epilepsi og status epilepticus"
+description: "Fosphenytoin: forudsagt ny indikation Konjunktivitis (evidensniveau L5). Oprindelig indikation: Epilepsi og status epilepticus"
 monitor_inn: "fosphenytoin"
 predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Fosphenytoin: Fra epilepsi til manisk bipolar lidelse
+## Fosphenytoin: Fra epilepsi til konjunktivitis
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -41,7 +41,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 Fosphenytoin er et forstadie (prodrug) til phenytoin og anvendes oprindeligt til behandling af epilepsi og status epilepticus.
 TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **manisk bipolar affektiv lidelse**, men støtten er meget begrænset: der er **ingen registrerede kliniske forsøg** og kun **1 publikation** (en lille, tidlig undersøgelse af intravenøs fosphenytoin ved akut mani).
 
-Bemærk: Den højest rangerede forudsigelse fra modellen er konjunktivitis (score 99,4 %), men den mangler enhver mekanistisk eller klinisk understøttelse. Rapporten fokuserer derfor på manisk bipolar lidelse, som er den eneste forudsigelse med publiceret litteratur.
+Bemærk: Den højest rangerede forudsigelse fra modellen er konjunktivitis (score 0,9936), men den mangler enhver mekanistisk eller klinisk understøttelse. Rapporten fokuserer derfor på manisk bipolar lidelse, som er den eneste forudsigelse med publiceret litteratur.
 
 ## Hurtigt overblik
 
@@ -49,10 +49,10 @@ Bemærk: Den højest rangerede forudsigelse fra modellen er konjunktivitis (scor
 |------|------|
 | Oprindelig indikation | Epilepsi og status epilepticus (fra videnbasen; godkendelsesteksten for det danske produkt er ikke angivet i de indsamlede data) |
 | Forudsagt ny indikation | Manisk bipolar affektiv lidelse |
-| TxGNN-forudsigelsesscore | 99,18 % |
-| Evidensniveau | L4 (kun en enkelt, ikke-verificeret publikation; ingen registrerede forsøg) |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 1 |
+| TxGNN-forudsigelsesscore | 0,9936 |
+| Evidensniveau | L5 (kun en enkelt, ikke-verificeret publikation; ingen registrerede forsøg) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ## Hvorfor er forudsigelsen rimelig?

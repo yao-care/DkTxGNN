@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Kun modelforudsigelse (L5)
 nav_order: 538
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Methotrexate: forudsagt ny indikation Pulmonalt blastom (evidensniveau L5). Oprindelig indikation: Akut lymfoblastisk leukæmi, reumatoid artrit, psoriasis…"
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: forudsagt ny indikation Pulmonary blastoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Methotrexat: Fra leukæmi og gigt til pulmonalt blastom
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## Resumé i ét afsnit
 
 Methotrexat er et antimetabolit (folatantagonist), som oprindeligt anvendes til behandling af akut lymfoblastisk leukæmi, reumatoid artrit, psoriasis, kutane T-cellelymfomer og non-Hodgkin-lymfom.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonalt blastom** (den højest rangerede forudsigelse, score 99,45 %).
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **pulmonalt blastom** (den højest rangerede forudsigelse, score 0,9945).
 For denne forudsigelse er der **ingen kliniske forsøg** og **ingen publikationer**. Evidensen er kun modelbaseret. Blandt de øvrige forudsigelser er der mest støtte for **rhabdomyosarkom** (L2) og **Hodgkins lymfom** (L3).
 
 ---
@@ -48,12 +48,12 @@ For denne forudsigelse er der **ingen kliniske forsøg** og **ingen publikatione
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Akut lymfoblastisk leukæmi, reumatoid artrit, psoriasis, mycosis fungoides, non-Hodgkin-lymfom m.fl. (fra vidensgrafen; indikationsteksten i de danske tilladelser er ikke tilgængelig) |
-| Forudsagt ny indikation | Pulmonalt blastom |
-| TxGNN-forudsigelsesscore | 99,45 % |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Pulmonary blastoma |
+| TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført |
-| Antal markedsføringstilladelser | 2 |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -68,10 +68,9 @@ Pulmonalt blastom er en sjælden lungetumor. De tilgængelige data indeholder in
 
 | Forudsagt indikation | TxGNN-score | Evidensniveau | Kommentar |
 |------|------|------|------|
-| Primært pulmonalt lymfom | 99,45 % | L4 | Methotrexat indgår i lymfomregimer (fx højdosis ved CNS-lymfom), men litteraturen består mest af case reports og oversigter; ingen forsøg |
-| Småcellet lungekarcinom | 99,43 % | L4 | Ældre kombinationsregimer med methotrexat; de fundne forsøg vedrører ikke-småcellet lungekræft |
-| Hodgkins lymfom | 99,32 % | L3 | VBM-regimet (vinblastin, bleomycin, methotrexat) er undersøgt ved tidlig sygdom; mange forsøg vedrører non-Hodgkin-lymfom eller GVHD-profylakse |
-| Rhabdomyosarkom | 99,25 % | L2 | Fase II-forsøg med højdosis methotrexat hos børn (PMID 9329466) |
+| Primært pulmonalt lymfom | 0,9945 | L5 | Methotrexat indgår i lymfomregimer (fx højdosis ved CNS-lymfom), men litteraturen består mest af case reports og oversigter; ingen forsøg |
+| Hodgkins lymfom | 0,9932 | L3 | VBM-regimet (vinblastin, bleomycin, methotrexat) er undersøgt ved tidlig sygdom; mange forsøg vedrører non-Hodgkin-lymfom eller GVHD-profylakse |
+| Rhabdomyosarkom | 0,9925 | L2 | Fase II-forsøg med højdosis methotrexat hos børn (PMID 9329466) |
 
 Øvrige forudsigelser (vel, differentieret føtalt adenokarcinom i lungen, to CLL/SLL-subtyper, parameningealt og botryoidt embryonalt rhabdomyosarkom) har kun modelstøtte (L5).
 
