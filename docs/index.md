@@ -15,6 +15,50 @@ permalink: /
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Danmark: hvad dette websted dækker
+
+Dette websted offentliggør rapporter om **{{ site.data.drug_stats.total_drugs }}** lægemidler fra registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/) (Danmark).
+
+Rapporter efter evidensniveau: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Lægemidler med højeste evidensniveau på dette websted
+
+| Lægemiddel | Evidensniveau |
+|---|---|
+| [Amiodarone](/drugs/amiodarone/) | L1 |
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Oteracil](/drugs/oteracil/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Solriamfetol](/drugs/solriamfetol/) | L1 |
+| [Tegafur](/drugs/tegafur/) | L1 |
+| [Triptorelin](/drugs/triptorelin/) | L1 |
+
+### Lægemidler, som kun dette websted dækker blandt de 30 TxGNN-websteder
+
+| Lægemiddel | Evidensniveau |
+|---|---|
+| [Phenprocoumon](/drugs/phenprocoumon/) | L5 |
+| [Amprenavir](/drugs/amprenavir/) | L5 |
+| [Doramectin](/drugs/doramectin/) | L5 |
+| [Amitraz](/drugs/amitraz/) | N/A |
+| [Capsaicin](/drugs/capsaicin/) | N/A |
+| [Cenegermin](/drugs/cenegermin/) | N/A |
+| [Perflutren](/drugs/perflutren/) | N/A |
+| [Robenacoxib](/drugs/robenacoxib/) | N/A |
+| [Selamectin](/drugs/selamectin/) | N/A |
+| [Tepoxalin](/drugs/tepoxalin/) | N/A |
+| [Tilmicosin](/drugs/tilmicosin/) | N/A |
+| [Tislelizumab](/drugs/tislelizumab/) | N/A |
+| [Toripalimab](/drugs/toripalimab/) | N/A |
+| [Troxerutin](/drugs/troxerutin/) | N/A |
+| [Tylosin](/drugs/tylosin/) | N/A |
+
+<!-- local-home:end -->
+
 ## Drug Search
 
 Enter a **drug name** or **disease name** to find repurposing predictions. Supports generic names, brand names, and disease keywords.

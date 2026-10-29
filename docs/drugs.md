@@ -31,6 +31,11 @@ description: "Alle valideringsrapporter for lægemidler og statistik over eviden
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+Listen bygger på registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/) (Danmark).
+
+<!-- local-home:end -->
+
 ## Fordeling på evidensniveau
 
 | Evidensniveau | Lægemidler | Beskrivelse |
