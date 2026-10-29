@@ -46,7 +46,6 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | **DrugBank-ID** | [DB09055](https://go.drugbank.com/drugs/DB09055) |
 | **Handelsnavn** | Olbetam® (Pharmacia / Pfizer) |
 | **Godkendt indikation** | Hyperlipidemier (typerne IIa, IIb, IV, V) — supplering til diætbehandling |
-| **Foreslået omformål** | Flere nye indikationer forudsagt af TxGNN knowledge-graph-model (100 kandidater) |
 | **Nuværende bevisniveau** | **N/A** — Kun computerisk forudsigelse; ingen dedikerede omformålingskliniske forsøg identificeret |
 | **Danmarks markedsstatus** | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

@@ -5,10 +5,10 @@ parent: Høj evidens (L1-L2)
 nav_order: 476
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-description: "Lamotrigine: forudsagt ny indikation Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor… (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Lamotrigine: forudsagt ny indikation Trigeminal nerve neoplasm (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lamotrigine
@@ -33,7 +33,7 @@ Evidensniveau: **L2** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Lamotrigine: Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor, vurderes som et graf-artefakt og er ikke anbefalet (trigeminal nerve neoplasm)
+## Lamotrigine: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,7 +48,7 @@ TxGNN-modellen forudsiger, at det også kan have effekt ved **trigeminusneuralgi
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Trigeminusneuralgi (modellens rang 2). Rang 1, trigeminusnervetumor, vurderes som et graf-artefakt og er ikke anbefalet (trigeminal nerve neoplasm) |
+| Forudsagt ny indikation | Trigeminal nerve neoplasm |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L2 (trigeminusneuralgi) |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
