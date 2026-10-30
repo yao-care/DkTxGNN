@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 675
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: forudsagt ny indikation Attention deficit-hyperactivity disorder (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **ADHD**, men der 
 | Forudsagt ny indikation | Attention deficit-hyperactivity disorder |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

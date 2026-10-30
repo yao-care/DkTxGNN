@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Empagliflozin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Empagliflozin er en SGLT2-hæmmer, som oprindeligt anvendes til behandling af ty
 | Forudsagt ny indikation | Focal stiff limb syndrome |
 | TxGNN-forudsigelsesscore | 0.9906 |
 | Evidensniveau | L5 |
-| Status på markedet i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

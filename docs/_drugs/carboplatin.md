@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Carboplatin: forudsagt ny indikation Mucinøst adenokarcinom i rectum (evidensniveau L5). Oprindelig indikation: Ovarie­kræft"
 ---
 
@@ -50,7 +50,7 @@ Carboplatin er et platinbaseret kemoterapeutikum. I vidensgrafen er det registre
 | Forudsagt ny indikation | Mucinøst adenokarcinom i rectum |
 | TxGNN-forudsigelsesscore | 0,9928 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold (afvent) |

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Desmopressin: forudsagt ny indikation Congenital prothrombin deficiency (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **primær frigørelsesfors
 | Forudsagt ny indikation | Congenital prothrombin deficiency |
 | TxGNN-forudsigelsesscore | 0.9970 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Afvent (Hold) |
 

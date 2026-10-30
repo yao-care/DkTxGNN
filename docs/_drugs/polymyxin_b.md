@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 671
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,7 +48,7 @@ Polymyxin B er et antibiotikum mod gramnegative bakterier, som i Danmark er godk
 | Forudsagt ny indikation | Bronkitis (bronchitis) |
 | TxGNN-forudsigelsesscore | 0.9987 |
 | Evidensniveau | L4 (for bronkitis) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 4 af 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
 | Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 

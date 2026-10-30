@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketoprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Ketoprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID). TxGNN-mode
 | Forudsagt ny indikation | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national godkendelse (humant/veterinært ikke angivet i dataene; producenten er et veterinærfirma) |
 | Anbefalet beslutning | Hold |

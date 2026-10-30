@@ -5,7 +5,7 @@ layout: default
 title: Escitalopram
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 324
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Element | Indhold |
 |---------|---------|
 | Original indikation | Ikke registreret i de lokale data |
-| Status på dansk marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 > **Note om original indikation:** Selv om evidenspakken ikke angiver oprindelige indikationer, er escitalopram internationalt anerkendt som et SSRI godkendt til behandling af major depressiv lidelse (MDD) og generaliseret angstlidelse (GAD). I EU er escitalopram godkendt gennem flere nationale markedsføringstilladelser (f.eks. Cipralex®) til depression, panikklidelse, social angstlidelse, generaliseret angstlidelse og tvangslidelse.

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ men der er **ingen kliniske forsøg** og **14 publikationer** (primært præklin
 | Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
 | TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 10 af 10) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
 | Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 

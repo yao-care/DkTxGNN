@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Simvastatin: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Simvastatin er et kolesterolsænkende middel (statin). TxGNN-modellen (deep lear
 | Forudsagt ny indikation | Hjernestammeinfarkt (brain stem infarction) |
 | TxGNN-forudsigelsesscore | 0.9941 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

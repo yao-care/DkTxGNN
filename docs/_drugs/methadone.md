@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -50,7 +50,7 @@ Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemidde
 | Forudsagt ny indikation | Tourettes syndrom |
 | TxGNN-prædiktionsscore | 0,9976 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

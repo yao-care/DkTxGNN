@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fidaxomicin: forudsagt ny indikation Stafylokok-skoldet-hud-syndrom (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: Clostridium difficile-colitis…"
 ---
 
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **stafylokok-skoldet-hud-s
 | Forudsagt ny indikation | Stafylokok-skoldet-hud-syndrom |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

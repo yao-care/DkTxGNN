@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 328
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Estriol: forudsagt ny indikation Amenorré (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,7 +50,7 @@ Estriol er et svagt østrogen, som i Danmark er godkendt som vaginalindlæg (Est
 | Forudsagt ny indikation | Amenorré |
 | TxGNN-forudsigelsesscore | 0,9918 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

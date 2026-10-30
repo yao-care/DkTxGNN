@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Melphalan: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L2). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Relation registrere…"
 ---
 
@@ -50,7 +50,7 @@ Melphalan er et alkylerende kemoterapeutikum. TxGNN-modellen (deep learning) for
 | Forudsagt ny indikation | Kvindelig brystkarcinom |
 | TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Proceed with Guardrails |

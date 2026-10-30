@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Asfotase alfa"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices without bleeding", "esophageal varices with bleeding", "cystinosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Asfotase Alfa: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af nukleære DNA-anomalier (evidensniveau L5). Oprindelig indikation: Hypofosfatasi"
 ---
 
@@ -50,7 +50,7 @@ Asfotase alfa er et rekombinant enzym (tissue-nonspecific alkaline phosphatase),
 | Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af nukleære DNA-anomalier |
 | TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ofatumumab: forudsagt ny indikation Follikulært lymfom (evidensniveau L2). Oprindelig indikation: Relation registreret i videngrafen: akut lymfoblastær leukæmi og Rich…"
 ---
 
@@ -50,7 +50,7 @@ Ofatumumab er et fuldt humant anti-CD20-antistof. TxGNN-modellen (deep learning)
 | Forudsagt ny indikation | Follikulært lymfom |
 | TxGNN-forudsigelsesscore | 0,9970 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

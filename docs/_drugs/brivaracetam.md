@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brivaracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi og partiel motorisk epilepsi"
 ---
 
@@ -50,7 +50,7 @@ Brivaracetam er et antiepileptisk lægemiddel, hvis tilknyttede anvendelser i vi
 | Forudsagt ny indikation | Beta-ketothiolase-mangel |
 | TxGNN-forudsigelsesscore | 0,9914 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |

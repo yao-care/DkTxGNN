@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etofenamate: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L5). Oprindelig indikation: Relationer til slidgigt…"
 ---
 
@@ -50,7 +50,7 @@ Etofenamat er et topisk non-steroidt antiinflammatorisk lægemiddel (NSAID), som
 | Forudsagt ny indikation | Ankyloserende spondylitis |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Status på markedet i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

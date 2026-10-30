@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloramphenicol: forudsagt ny indikation Konjunktivitis (evidensniveau L3). Oprindelig indikation: Relationer registreret i videnskabsgrafen: tyfus, salmonellose…"
 ---
 
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**, me
 | Forudsagt ny indikation | Konjunktivitis |
 | TxGNN-forudsigelsesscore | 0,9966 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

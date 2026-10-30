@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en c
 | Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

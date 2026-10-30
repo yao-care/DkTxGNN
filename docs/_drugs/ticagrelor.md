@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ticagrelor: forudsagt ny indikation Intrakraniel arteriosklerose (evidensniveau L3). Oprindelig indikation: Akut koronarsyndrom, perifer karsygdom…"
 ---
 
@@ -52,7 +52,7 @@ Der er p.t. **2 kliniske forsøg** og **2 publikationer** om netop denne sygdom,
 | Forudsagt ny indikation | Intrakraniel arteriosklerose |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |

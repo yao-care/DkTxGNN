@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ og i de indsamlede data indgår **6 kliniske forsøg** (heraf 1 afsluttet fase 3
 | Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

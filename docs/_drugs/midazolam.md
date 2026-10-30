@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 551
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Midazolam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L3). Oprindelig indikation: Angst (fra videnbasen"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -50,7 +50,7 @@ Midazolam er et benzodiazepin, som oprindeligt er knyttet til behandling af angs
 | Forudsagt ny indikation | Søvnløshed (insomni) |
 | TxGNN-prædiktionsscore | 0,9974 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

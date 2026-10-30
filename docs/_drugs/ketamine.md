@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 468
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -52,7 +52,7 @@ Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endn
 | Forudsagt ny indikation | Hovedpinelidelse (headache disorder) |
 | TxGNN-forudsigelsesscore | 0,9933 |
 | Evidensniveau | L1 (formelt efter reglerne, men se forbehold nedenfor) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

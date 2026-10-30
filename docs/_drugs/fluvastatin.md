@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluvastatin: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: arteriosklerose…"
 ---
 
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have værdi ved **HIV-infektion**.
 | Forudsagt ny indikation | HIV-infektion |
 | TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national godkendelse |
 | Anbefalet beslutning | Hold |

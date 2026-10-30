@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 6
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sorafenib: forudsagt ny indikation Liposarkom (evidensniveau L4). Oprindelig indikation: Ikke angivet i licensteksten for det danske produkt. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens."
 ---
 
@@ -50,7 +50,7 @@ Sorafenib er en oral multikinasehæmmer, som er knyttet til leverkræft (hepatoc
 | Forudsagt ny indikation | Liposarkom |
 | TxGNN-forudsigelsesscore | 0,9982 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |

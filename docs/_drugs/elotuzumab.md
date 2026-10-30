@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ En genbrug-vurdering **kan ikke fuldføres** med de oplysninger, der for øjebli
 | Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser i aktuel bevismappe |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Bevisniveau | Kan ikke bestemmes — ingen prognoseoutput genereret |
-| Markant status i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | **Afvente** |
 

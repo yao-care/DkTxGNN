@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Capecitabine: forudsagt ny indikation gastrisk adenokarcinom og proksimal polypose i maven (gastric adenocarcinoma and proximal polyposis of the stomach) (evidensniveau L5). Oprindelig indikation: Ik…"
 ---
 
@@ -50,7 +50,7 @@ Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg**
 | Forudsagt ny indikation | gastrisk adenokarcinom og proksimal polypose i maven (gastric adenocarcinoma and proximal polyposis of the stomach) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

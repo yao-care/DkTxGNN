@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: forudsagt ny indikation Hypermobility of coccyx (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Evidensen for den forudsagte indikation er således kun modelbaseret og mekanist
 | Forudsagt ny indikation | Hypermobility of coccyx |
 | TxGNN-forudsigelsesscore | 0.9967 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

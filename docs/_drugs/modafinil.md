@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 564
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Modafinil: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (også narkolepsi med katapleksi) – indikationsteksten i de…"
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
@@ -51,7 +51,7 @@ TxGNN-modellen (deep learning) forudsiger, at det kan have effekt på **insomni*
 | Forudsagt ny indikation | Insomni |
 | TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Mannitol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mannitol: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
 ---
 
@@ -48,7 +48,7 @@ Mannitol er en osmotisk diuretikum. I den videnskabelige vidensgraf er det regis
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (nephrogenic syndrome of inappropriate antidiuresis) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

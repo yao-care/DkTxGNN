@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 864
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tryptophan: forudsagt ny indikation Insomni (den højest rangerede indikation, restless legs syndrome… (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data (de danske godkend…"
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -52,7 +52,7 @@ Evidensen består af **0 registrerede kliniske forsøg** og **19 publikationer**
 | Forudsagt ny indikation | Uroligt bensyndrom |
 | TxGNN-prædiktionsscore | 0,9972 (uroligt bensyndrom) |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
 | Antal markedsføringstilladelser | 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

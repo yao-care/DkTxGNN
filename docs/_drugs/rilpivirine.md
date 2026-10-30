@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,7 +49,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **felint erhvervet
 | Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 5 af 5) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
 | Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 

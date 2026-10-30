@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Eculizumab: forudsagt ny indikation Cyklisk hæmatopoese (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica"
 ---
 
@@ -48,7 +48,7 @@ Eculizumab er en komplement-C5-hæmmer, som i den viden, der er indsamlet til de
 | Forudsagt ny indikation | Cyklisk hæmatopoese |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |

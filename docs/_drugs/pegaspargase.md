@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pegaspargase: forudsagt ny indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Pegaspargase er et enzympræparat, der nedbryder aminosyren asparagin. TxGNN-mod
 | Forudsagt ny indikation | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

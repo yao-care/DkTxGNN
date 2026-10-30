@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Alglucosidase alfa"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alglucosidase Alfa: forudsagt ny indikation Adult polyglucosan body disease (evidensniveau L5). Oprindelig indikation: Glykogenlagringssygdom"
 ---
 
@@ -52,7 +52,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 | Forudsagt ny indikation | Adult polyglucosan body disease |
 | TxGNN-forudsigelsesscore | 0,9947 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |

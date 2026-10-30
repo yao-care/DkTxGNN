@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 881
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren"
 monitor_inn: "vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
@@ -52,7 +52,7 @@ Der findes dog **ingen kliniske forsøg** og kun **7 publikationer** (primært o
 | Forudsagt ny indikation | Slagtilfælde (stroke disorder) |
 | TxGNN-forudsigelsesscore | 0,9983 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

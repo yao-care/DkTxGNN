@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: forudsagt ny indikation Extracutaneous mastocytoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Den bedst understøttede forudsigelse blandt de ti højest rangerede er **fibrob
 | Forudsagt ny indikation | Extracutaneous mastocytoma |
 | TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L5 (fibroblastisk neoplasi); L5 for de øvrige ni forudsigelser |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (fibroblastisk neoplasi: forskningsspørgsmål, ikke klar til klinisk anvendelse) |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amlodipine: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Amlodipin er en calciumkanalblokker, som er markedsført i Danmark. Den TxGNN-mo
 | Forudsagt ny indikation | Hjernestammeinfarkt (brain stem infarction) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 5 af 5) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
 | Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 

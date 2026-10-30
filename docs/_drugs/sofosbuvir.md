@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sofosbuvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 ---
 
@@ -52,7 +52,7 @@ Bemærk: Rapporten er struktureret omkring det højest scorende forslag (hepatit
 | Foreslået ny indikation | Hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 for hepatitis B (se begrundelse nedenfor) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 (national markedsføringstilladelse) |
 | Anbefalet beslutning | Hold |

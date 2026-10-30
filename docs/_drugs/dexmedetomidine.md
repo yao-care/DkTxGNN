@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexmedetomidin: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (TxGNN-score 0.9960, evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -52,7 +52,7 @@ Bemærk: Den højest rangerede forudsigelse fra modellen var nefrogent syndrom m
 | Forudsagt ny indikation | Hovedpineforstyrrelse (rang 4 af 5; rang 1 var nefrogent syndrom med uhensigtsmæssig antidiurese uden evidens) |
 | TxGNN-prædiktionsscore | 0.9960 (nefrogent syndrom med uhensigtsmæssig antidiurese) |
 | Evidensniveau | L5 for hovedpineforstyrrelse (begrænset i praksis, se nedenfor) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (fortsat forskningsspørgsmål, ikke klar til klinisk implementering) |
 

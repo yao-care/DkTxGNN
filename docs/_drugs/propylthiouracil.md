@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: forudsagt ny indikation Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone d… (evidensniveau L4). Oprindelig indik…"
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **resistens over for thyro
 | Forudsagt ny indikation | Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta) |
 | TxGNN-prædiktionsscore | 0.9966 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

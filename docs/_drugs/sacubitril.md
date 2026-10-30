@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk nefrop
 | Forudsagt ny indikation | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
 | Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (fastholdes indtil resultater fra et kontrolleret forsøg foreligger) |
 

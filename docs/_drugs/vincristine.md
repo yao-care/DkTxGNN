@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vincristine: forudsagt ny indikation Vertebral anomalies and variable endocrine and T-cell dysfunction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -49,7 +49,7 @@ Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (hovedsag
 | Forudsagt ny indikation | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN-forudsigelsesscore | 0.9924 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

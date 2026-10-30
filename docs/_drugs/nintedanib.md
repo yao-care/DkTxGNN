@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en o
 | Forudsagt ny indikation | Dermatofibrosarcoma protuberans |
 | TxGNN-forudsigelsesscore | 0.9915 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

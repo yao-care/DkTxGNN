@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Reteplase: forudsagt ny indikation Medfødt koronararterieanomali (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de indsamlede licensdata. I vidensg…"
 ---
 
@@ -50,7 +50,7 @@ Reteplase er en rekombinant vævsplasminogenaktivator (trombolytikum). TxGNN-mod
 | Forudsagt ny indikation | Medfødt koronararterieanomali |
 | TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

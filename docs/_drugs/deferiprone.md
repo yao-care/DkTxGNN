@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ men evidensen er svag: der er **ingen registrerede kliniske forsøg** og kun **2
 | Forudsagt ny indikation | Hepatisk porfyri (hepatic porphyria) |
 | TxGNN-forudsigelsesscore | 0.9920 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

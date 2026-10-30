@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Alirocumab"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alirocumab: forudsagt ny indikation X-bundet ichthyosis uden steroidsulfatase-mangel (evidensniveau L5). Oprindelig indikation: Dyslipidæmi og aterosklerose"
 ---
 
@@ -50,7 +50,7 @@ Alirocumab er et monoklonalt antistof mod PCSK9. TxGNN-modellen (deep learning) 
 | Forudsagt ny indikation | X-bundet ichthyosis uden steroidsulfatase-mangel |
 | TxGNN-forudsigelsesscore | 0,9943 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

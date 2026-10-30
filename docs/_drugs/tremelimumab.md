@@ -5,7 +5,7 @@ layout: default
 title: Tremelimumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 854
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tremelimumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tremelimumab"
 predicted_indications: []
@@ -43,7 +43,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 ---

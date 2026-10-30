@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 58
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L4). Oprindelig indikation: Bakterielle infektioner, bl.a. urinvejsinfektion, mellemørebetændelse…"
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -52,7 +52,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **19 publikationer** a
 | Forudsagt ny indikation | Laryngitis |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

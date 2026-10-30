@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Catridecacog"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Catridecacog: forudsagt ny indikation primær frigivelsesforstyrrelse i blodplader (primary release disorder of platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Catridecacog er rekombinant koagulationsfaktor XIII (A-underenhed), som stabilis
 | Forudsagt ny indikation | primær frigivelsesforstyrrelse i blodplader (primary release disorder of platelets) |
 | TxGNN-forudsigelsesscore | 0,9929 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

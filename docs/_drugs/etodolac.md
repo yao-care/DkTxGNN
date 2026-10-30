@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Etodolac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etodolac: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de danske lægemiddeldata. Videnbase…"
 ---
 
@@ -49,7 +49,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomelisk dysplasi,
 | Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afvent) |
 

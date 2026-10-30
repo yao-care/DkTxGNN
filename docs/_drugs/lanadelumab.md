@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lanadelumab: forudsagt ny indikation C1-inhibitormangel (evidensniveau L1). Oprindelig indikation: Arveligt angioødem"
 ---
 
@@ -50,7 +50,7 @@ Lanadelumab er et monoklonalt antistof mod plasma-kallikrein, som oprindeligt an
 | Forudsagt ny indikation | C1-inhibitormangel |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

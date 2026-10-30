@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ Elvitegravir er en integrasehæmmer, der oprindeligt anvendes til behandling af 
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L3 (alene præklinisk dokumentation; tildelt som L3 i datagrundlaget, mens en streng læsning af reglerne ville pege mod L4) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

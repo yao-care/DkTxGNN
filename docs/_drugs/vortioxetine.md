@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 893
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: forudsagt ny indikation Neurotic disorder (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,7 +54,7 @@ Der er **6 kliniske forsøg** og **21 publikationer** i de data, der er indsamle
 | Forudsagt ny indikation | Neurotic disorder |
 | TxGNN-forudsigelsesscore | 0.9924 |
 | Evidensniveau | L1 (for svær depressiv lidelse generelt; indirekte for melankoli) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 

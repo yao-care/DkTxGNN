@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tenecteplase: forudsagt ny indikation Congenital coronary artery anomaly (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,7 +52,7 @@ Der er **ingen registrerede kliniske forsøg** og **9 publikationer**, men ingen
 | Forudsagt ny indikation | Congenital coronary artery anomaly |
 | TxGNN-forudsigelsesscore | 0.9961 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chlorambucil: forudsagt ny indikation prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemi… (evidensniveau L5). Oprindelig indikatio…"
 ---
 
@@ -50,7 +50,7 @@ De data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg
 | Forudsagt ny indikation | prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) |
 | TxGNN-forudsigelsesscore | 0,9972 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Glucarpidase"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glucarpidase: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 ---
 
@@ -50,7 +50,7 @@ Glucarpidase er et rekombinant enzym, som nedbryder metotrexat i blodet, og som 
 | Forudsagt ny indikation | Diabetisk katarakt |
 | TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (afvent) |
 

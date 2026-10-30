@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ergocalciferol: forudsagt ny indikation Akromesomelisk dysplasi, Campailla-Martinelli-type (evidensniveau L5). Oprindelig indikation: Ikke angivet i tilladelsesdata (indikationsteksten er tom). Viden…"
 ---
 
@@ -48,7 +48,7 @@ Ergocalciferol (D-vitamin2) er i videnbasen (knowledge graph) registreret i rela
 | Forudsagt ny indikation | Akromesomelisk dysplasi, Campailla-Martinelli-type |
 | TxGNN-forudsigelsesscore | 0,9983 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

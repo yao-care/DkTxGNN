@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Olmesartan: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for de danske…"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -55,7 +55,7 @@ Olmesartan er en angiotensin II-receptorblokker (AT1-antagonist), som oprindelig
 | Forudsagt ny indikation (bedst understøttet) | Migræne (migraine disorder) |
 | TxGNN-score (migræne) | 0,9964 |
 | Evidensniveau (migræne) | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (Prinzmetal-angina); forskningsspørgsmål (migræne) |
 

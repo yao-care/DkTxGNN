@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Regorafenib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Relationer registreret i vidensgrafen: metastaserende tyktarmskræft…"
 ---
 
@@ -50,7 +50,7 @@ Regorafenib er en oral multikinasehæmmer, der er knyttet til metastaserende tyk
 | Forudsagt ny indikation | Liposarkom |
 | TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |

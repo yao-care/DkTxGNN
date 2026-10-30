@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: forudsagt ny indikation HIV infectious disease (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Evidensen for netop denne forudsigelse er svag: Det eneste registrerede forsøg 
 | Forudsagt ny indikation | HIV infectious disease |
 | TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

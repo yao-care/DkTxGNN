@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Carbamazepine: forudsagt ny indikation trigeminusnerve-tumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **20 publikationer**, 
 | Forudsagt ny indikation | trigeminusnerve-tumor (trigeminal nerve neoplasm) |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

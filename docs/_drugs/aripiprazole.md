@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "aripiprazole"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aripiprazole: forudsagt ny indikation Svær affektiv lidelse (major affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-
 | Forudsagt ny indikation | Svær affektiv lidelse (major affective disorder) |
 | TxGNN-forudsigelsesscore | 0,9962 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

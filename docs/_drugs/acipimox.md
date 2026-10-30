@@ -5,7 +5,7 @@ layout: default
 title: Acipimox
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 19
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -47,7 +47,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | **Handelsnavn** | Olbetam® (Pharmacia / Pfizer) |
 | **Godkendt indikation** | Hyperlipidemier (typerne IIa, IIb, IV, V) — supplering til diætbehandling |
 | **Nuværende bevisniveau** | **N/A** — Kun computerisk forudsigelse; ingen dedikerede omformålingskliniske forsøg identificeret |
-| **Danmarks markedsstatus** | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 
 **Vigtigste fund:**

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Triptorelin: forudsagt ny indikation Hypertrichosis (disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Triptorelin er en GnRH-agonist, som i Danmark er markedsført som Gonapeptyl. De
 | Forudsagt ny indikation | Hypertrichosis (disease) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |

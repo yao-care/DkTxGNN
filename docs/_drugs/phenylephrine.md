@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 657
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **5 publikationer** me
 | Forudsagt ny indikation | Lidelser i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L4 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 5 af 5) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
 | Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 

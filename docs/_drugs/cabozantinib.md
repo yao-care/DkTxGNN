@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cabozantinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom og medullært thyreoideakarcinom"
 ---
 
@@ -48,7 +48,7 @@ Cabozantinib er en oral tyrosinkinasehæmmer, som i vidensgrafen er registreret 
 | Forudsagt ny indikation | Liposarkom |
 | TxGNN-forudsigelsesscore | 0,9983 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

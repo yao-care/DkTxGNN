@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dextromethorphan: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse. Videnbasen nævner…"
 monitor_inn: "dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
@@ -52,7 +52,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 (som angivet i data; ingen kliniske forsøg eller publikationer er tilgængelige) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

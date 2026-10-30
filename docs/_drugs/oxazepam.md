@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 616
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Oxazepam: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,7 +48,7 @@ Oxazepam er et benzodiazepin, der oprindeligt anvendes mod angst og alkoholabsti
 | Forudsagt ny indikation | Insomni (insomnia (disease)) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

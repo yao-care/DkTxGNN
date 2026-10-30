@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nystatin: forudsagt ny indikation Vulvovaginitis (evidensniveau L5). Oprindelig indikation: Candidiasis (kutan, oral…"
 ---
 
@@ -50,7 +50,7 @@ Nystatin er et antimykotikum, som i vidensgrafen er registreret med kutan, oral 
 | Forudsagt ny indikation | Vulvovaginitis |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

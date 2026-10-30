@@ -5,7 +5,7 @@ layout: default
 title: Bivalirudin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 123
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,7 +42,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 |---------|---------|
 | Original indikation | Ikke registreret i de lokale data |
 | Bevisniveau | Ikke evalueret |
-| Markeds tilstand i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet afgørelse | **Afvente** |
 

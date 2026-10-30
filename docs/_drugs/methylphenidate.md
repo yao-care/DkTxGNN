@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: forudsagt ny indikation Faciodigitogenital syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **specifik udviklingsforst
 | Forudsagt ny indikation | Faciodigitogenital syndrome |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

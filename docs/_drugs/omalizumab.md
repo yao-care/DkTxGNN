@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Omalizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Astma, allergisk astma og idiopatisk urticaria"
 ---
 
@@ -48,7 +48,7 @@ Omalizumab er et antistof mod immunglobulin E (IgE). TxGNN-modellen (deep learni
 | Forudsagt ny indikation | Bronkitis |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L2 (begrænset: ét lille forsøg i eosinofil bronkitis, 11 deltagere) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |

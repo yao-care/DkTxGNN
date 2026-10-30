@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: forudsagt ny indikation Papillary conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ Den højest scorende forudsigelse (papillær konjunktivitis) har ingen understø
 | Forudsagt ny indikation | Papillary conjunctivitis |
 | TxGNN-forudsigelsesscore | 0.9978 |
 | Evidensniveau | L5 (formelt); i praksis svagt, da kun ét lille Phase 2-forsøg uden kontrolgruppe |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
 | Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (der er sat "Research Question" i datagrundlaget; se konklusionen) |
 

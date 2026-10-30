@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 210
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clonazepam: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Early myoclonic encephalopathy, absence-epilepsi…"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -52,7 +52,7 @@ Forudsigelsen understøttes af **0 registrerede kliniske forsøg** og **20 publi
 | Forudsagt ny indikation | Rastløse ben-syndrom (restless legs syndrome) |
 | TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

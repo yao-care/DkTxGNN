@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluoxetine: forudsagt ny indikation Schizotypal personality disorder (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at fluoxetin kan have effekt ved **fobisk lidelse**. 
 | Forudsagt ny indikation | Schizotypal personality disorder |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

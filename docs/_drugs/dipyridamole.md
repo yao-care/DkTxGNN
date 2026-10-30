@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "dipyridamole"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dipyridamole: forudsagt ny indikation Thrombotic disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Dipyridamol er i videnskabsdatabasen (vidensgrafen) registreret med relation til
 | Forudsagt ny indikation | Thrombotic disease |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Avibactam: forudsagt ny indikation Ureter-tuberkulose (evidensniveau L5). Oprindelig indikation: Pyelonefritis"
 ---
 
@@ -48,7 +48,7 @@ Avibactam er en beta-lactamase-hæmmer. TxGNN-modellen (deep learning) forudsige
 | Forudsagt ny indikation | Ureter-tuberkulose |
 | TxGNN-forudsigelsesscore | 0,9911 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Antal tilladelser | 2 markedsføringstilladelser |
 | Anbefalet beslutning | Hold |

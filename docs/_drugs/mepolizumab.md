@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
@@ -52,7 +52,7 @@ Evidensen er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt 
 | Forudsagt ny indikation | Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) |
 | TxGNN-prædiktionsscore | 0.9966 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

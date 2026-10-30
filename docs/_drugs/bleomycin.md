@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bleomycin: forudsagt ny indikation Cauda equina-neoplasme (cauda equina neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **1 publikation**, som
 | Forudsagt ny indikation | Cauda equina-neoplasme (cauda equina neoplasm) |
 | TxGNN-forudsigelsesscore | 0,9930 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

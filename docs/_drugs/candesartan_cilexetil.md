@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Candesartan Cilexetil: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,7 +50,7 @@ Candesartancilexetil er en angiotensin II-receptorblokker, som markedsføres i D
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
 | TxGNN-forudsigelsesscore | 0,9968 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

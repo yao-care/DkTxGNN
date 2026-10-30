@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Hyaluronidase: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede registreringsdata"
 monitor_inn: "hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -50,7 +50,7 @@ Hyaluronidase er et enzym, der nedbryder hyaluronsyre i vævet, og som i Danmark
 | Forudsagt ny indikation | Diabetisk retinopati (rang 6 af 10 forudsagte indikationer; den mest evidensunderbyggede) |
 | TxGNN-prædiktionsscore | 0,9989 |
 | Evidensniveau | L5 i den indsamlede vurdering (to afsluttede fase 3-forsøg), men uden tilgængelige resultater. Forsigtig fortolkning anbefales |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Cerliponase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cerliponase Alfa: forudsagt ny indikation Scheies syndrom (evidensniveau L5). Oprindelig indikation: Neuronal ceroid lipofuscinose og infantil neuronal ceroid lipofuscino…"
 ---
 
@@ -50,7 +50,7 @@ Cerliponase alfa er et rekombinant enzym (TPP1), der gives direkte i hjerneventr
 | Forudsagt ny indikation | Scheies syndrom |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

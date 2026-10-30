@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Risankizumab: forudsagt ny indikation Dermatitis (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Risankizumab er et monoklonalt antistof, der blokerer IL-23 (p19-underenheden). 
 | Forudsagt ny indikation | Dermatitis |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L2 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 nationalt markedsføringstilladelse |
 | Anbefalet beslutning | Hold (afvent, forskningsspørgsmål) |

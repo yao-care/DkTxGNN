@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 614
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "oteracil"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 description: "Oteracil: forudsagt ny indikation Colonic neoplasm (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ og der er i de data, der er indsamlet til denne rapport, **6 kliniske forsøg** 
 | Forudsagt ny indikation | Colonic neoplasm |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "Conestat alfa"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Conestat Alfa: forudsagt ny indikation C1-hæmmermangel (C1 inhibitor deficiency) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,7 +52,7 @@ og i de indsamlede data findes **4 kliniske forsøg** (heraf 3 direkte relevante
 | Forudsagt ny indikation | C1-hæmmermangel (C1 inhibitor deficiency) |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med forholdsregler |
 

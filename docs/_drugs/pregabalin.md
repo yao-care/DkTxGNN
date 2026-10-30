@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L5)."
 ---
 
@@ -52,7 +52,7 @@ Bemærk: Den højest rangerede forudsigelse er senebetændelse (tendinitis, scor
 | Forudsagt ny indikation | Tendinitis |
 | TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L5 (se begrundelse nedenfor) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Busulfan: forudsagt ny indikation Myelodysplastisk syndrom (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata"
 ---
 
@@ -50,7 +50,7 @@ Busulfan er et alkylerende cytostatikum, som i Danmark er registreret som Busilv
 | Forudsagt ny indikation | Myelodysplastisk syndrom |
 | TxGNN-forudsigelsesscore | 0,9962 |
 | Evidensniveau | L1 |
-| Status på markedet i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |

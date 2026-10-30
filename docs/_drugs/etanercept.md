@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etanercept: forudsagt ny indikation Hypermobilitet af halebenet (evidensniveau L5). Oprindelig indikation: Psoriasisgigt, leddegigt, Bekhterevs sygdom…"
 ---
 
@@ -50,7 +50,7 @@ Etanercept er en TNF-hæmmer. TxGNN-modellen (deep learning) forudsiger, at læg
 | Forudsagt ny indikation | Hypermobilitet af halebenet |
 | TxGNN-forudsigelsesscore | 0,9963 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

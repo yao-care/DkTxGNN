@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: forudsagt ny indikation Hyperlucent lung (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,7 +50,7 @@ Forudsigelsen understøttes af **28 kliniske forsøg** og **20 publikationer** i
 | Forudsagt ny indikation | Hyperlucent lung |
 | TxGNN-forudsigelsesscore | 0.9972 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 3 af 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
 | Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

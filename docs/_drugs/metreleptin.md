@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Lipodystrofi, herunder medfødt generaliseret lipodystrofi"
 ---
 
@@ -50,7 +50,7 @@ Metreleptin er en rekombinant leptin-analog, som er knyttet til lipodystrofi, he
 | Forudsagt ny indikation | Familiær generaliseret lentiginose |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

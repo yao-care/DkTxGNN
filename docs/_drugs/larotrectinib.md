@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Larotrectinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom)"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -50,7 +50,7 @@ Larotrectinib er en selektiv TRK-hæmmer (NTRK1/2/3), som er markedsført i Danm
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
 | TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 (jf. de indsamlede data; kun indirekte evidens, reelt tæt på L5 for denne specifikke indikation) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

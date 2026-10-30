@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Certolizumab Pegol: forudsagt ny indikation Hypermobilitet af halebenet (hypermobility of coccyx) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -49,7 +49,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hypermobilitet a
 | Forudsagt ny indikation | Hypermobilitet af halebenet (hypermobility of coccyx) |
 | TxGNN-forudsigelsesscore | 0,9975 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

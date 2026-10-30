@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diazepam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske registerdata. Rela…"
 ---
 
@@ -50,7 +50,7 @@ Diazepam er et benzodiazepin, som i videnskabelig viden er knyttet til epilepsi,
 | Forudsagt ny indikation | Søvnløshed (insomni) |
 | TxGNN-forudsigelsesscore | 1,0000 (0,99999750) |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

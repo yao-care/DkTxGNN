@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: forudsagt ny indikation Congenital hypotrichosis with juvenile macular dystrophy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,7 +49,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid artrit
 | Forudsagt ny indikation | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN-forudsigelsesscore | 0.9965 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

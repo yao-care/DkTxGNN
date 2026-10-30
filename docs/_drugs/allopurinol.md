@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Allopurinol: forudsagt ny indikation Hepatisk porfyri (evidensniveau L5). Oprindelig indikation: Urinsyregigt, forhøjet urinsyre og akut urat-nefropati"
 ---
 
@@ -50,7 +50,7 @@ Allopurinol er en xanthinoxidasehæmmer, som oprindeligt bruges mod urinsyregigt
 | Forudsagt ny indikation | Hepatisk porfyri |
 | TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

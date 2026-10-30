@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 823
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: forudsagt ny indikation Trichotillomania (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,7 +50,7 @@ Thiopental er et barbiturat, som oprindeligt anvendes ved epilepsi, pseudotumor 
 | Forudsagt ny indikation | Trichotillomania |
 | TxGNN-prædiktionsscore | 0.9995 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

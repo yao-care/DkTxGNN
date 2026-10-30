@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ropinirole: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom (fra videnbasen"
 monitor_inn: "ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -52,7 +52,7 @@ Ropinirol er en dopamin D2/D3-agonist, som oprindeligt anvendes til behandling a
 | Forudsagt ny indikation | Skizofreni (rang 5; rang 1 er ADHD) |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 (skizofreni); L5 (ADHD og øvrige forudsigelser) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold (skizofreni vurderes som et forskningsspørgsmål) |
 

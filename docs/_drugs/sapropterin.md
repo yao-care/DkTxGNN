@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (evidensniveau L4). Oprindelig indikation: Phenylketonuri og forstyrrelse af phenylalaninmetabolismen"
 monitor_inn: "sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
@@ -52,7 +52,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der di
 | Forudsagt ny indikation | Forstyrrelse af tyrosinmetabolismen |
 | TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

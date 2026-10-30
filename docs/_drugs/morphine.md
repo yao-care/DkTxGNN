@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 568
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
@@ -52,7 +52,7 @@ Bemærk: Den højest rangerede forudsigelse efter TxGNN-score er myofascielt sme
 | Foreslået ny indikation | Uroligt bensyndrom (restless legs syndrome) |
 | TxGNN-forudsigelsesscore | 0,9975 |
 | Evidensniveau | L3 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
 

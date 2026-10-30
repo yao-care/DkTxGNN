@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PHENPROCOUMON"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "congenital coronary artery anomaly", "stroke disorder", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Phenprocoumon: forudsagt ny indikation Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,7 +52,7 @@ Forudsigelsen er ren modelberegning: der er fundet **0 kliniske forsøg** og **0
 | Forudsagt ny indikation | Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal tilladelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |

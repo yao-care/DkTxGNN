@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **hypervitaminose**, m
 | Forudsagt ny indikation | Hypervitaminose (hypervitaminosis) |
 | TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

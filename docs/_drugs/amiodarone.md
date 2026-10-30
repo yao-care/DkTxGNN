@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 52
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amiodarone: forudsagt ny indikation katekolaminerg polymorf ventrikulær takykardi (evidensniveau L1). Oprindelig indikation: Ventrikelflimren"
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
@@ -52,7 +52,7 @@ Forudsigelsen understøttes af **18 kliniske studier** og **20 publikationer**, 
 | Forudsagt ny indikation | Ventrikulær takykardi |
 | TxGNN-prædiktionsscore | 0,9978 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

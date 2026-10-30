@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 694
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pseudoephedrine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis…"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -51,7 +51,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **sygdomme i n�
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9975 |
 | Evidensniveau | L5 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 2 af 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 

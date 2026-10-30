@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 7
 monitor_inn: "PEGINTERFERON ALFA-2B"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Peginterferon Alfa-2B: forudsagt ny indikation Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L1). Oprindelig indikation: Ikke …"
 ---
 
@@ -50,7 +50,7 @@ Peginterferon alfa-2b er en pegyleret interferon. Denne indikation er ikke en go
 | Forudsagt ny indikation | Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion (hepatitis B virus infection) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |

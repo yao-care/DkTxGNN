@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske godkendelsesdata.…"
 ---
 
@@ -50,7 +50,7 @@ Ribavirin er et antiviralt middel, der i vidensgrafen er registreret med relatio
 | Forudsagt ny indikation | Kronisk hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 

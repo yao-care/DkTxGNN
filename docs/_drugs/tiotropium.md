@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 832
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "tiotropium"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Bemærk: den forudsagte indikation overlapper i høj grad med lægemidlets eksis
 | Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L1 |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 

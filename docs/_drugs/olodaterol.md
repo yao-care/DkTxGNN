@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OLODATEROL"
 predicted_indications: ["bronchitis"]
 description: "Olodaterol: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,7 +52,7 @@ Til bronkitis som selvstændig diagnose er der **0 kliniske forsøg** og **2 pub
 | Forudsagt ny indikation | Bronkitis (bronchitis) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L5 (for bronkitis som selvstændig indikation) |
-| Status på det danske marked | Markedsført (gyldige tilladelser: 1 af 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
