@@ -27,8 +27,8 @@ Evidensniveauerne går fra L1 (stærkere klinisk evidens) til L5 (kun modelforud
 ## Eksempler på lægemiddelrapporter
 
 - Amiodarone (L1): https://dktxgnn.yao.care/drugs/amiodarone/
-- Anastrozole (L1): https://dktxgnn.yao.care/drugs/anastrozole/
-- Aripiprazole (L1): https://dktxgnn.yao.care/drugs/aripiprazole/
+- Anastrozole (L5): https://dktxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L5): https://dktxgnn.yao.care/drugs/aripiprazole/
 
 ## Citation og begrænsninger
 

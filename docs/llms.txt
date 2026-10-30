@@ -27,8 +27,8 @@
 ## Eksempler på lægemiddelrapporter
 
 - Amiodarone (L1): https://dktxgnn.yao.care/drugs/amiodarone/
-- Anastrozole (L1): https://dktxgnn.yao.care/drugs/anastrozole/
-- Aripiprazole (L1): https://dktxgnn.yao.care/drugs/aripiprazole/
+- Anastrozole (L5): https://dktxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L5): https://dktxgnn.yao.care/drugs/aripiprazole/
 
 ## Rammer for besvarelse af spørgsmål
 
