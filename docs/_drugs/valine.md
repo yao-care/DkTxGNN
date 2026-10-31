@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 873
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Valine: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (alle godkendelser mangler indika…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -49,7 +49,7 @@ Valin er en forgrenet aminosyre (BCAA), som indgår i parenterale ernæringsprod
 | TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: forudsagt ny indikation Familiær visceral myopati (familial visceral myopathy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,7 +51,7 @@ TxGNN-modellen (deep learning) forudsiger, at serin kan have effekt ved **famili
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Histidine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesdata"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -51,7 +51,7 @@ Histidin er en essentiel aminosyre, som indgår i mange produkter til parenteral
 | TxGNN-forudsigelsesscore | 0,9955 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

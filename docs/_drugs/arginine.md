@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 76
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Arginine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksterne er tomme)"
 monitor_inn: "arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -51,7 +51,7 @@ Arginin er en aminosyre, der indgår i en lang række infusionsvæsker til paren
 | TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L4 (kun prækliniske studier og mekanistiske studier) |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

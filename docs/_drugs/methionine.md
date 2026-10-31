@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methionine: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (de danske tilladelser indeholder i…"
 ---
 
@@ -52,7 +52,7 @@ Diabetisk grå stær er den indikation, hvor den indirekte evidens er mest relev
 | TxGNN-forudsigelsesscore | 1,0000 (akne); 1,0000 (diabetisk grå stær) |
 | Evidensniveau | L5 for akne og diabetisk grå stær (se begrundelse nedenfor) |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | Mindst 20 (listen kan være ufuldstændig) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold (afvent; diabetisk grå stær kan overvejes som forskningsspørgsmål) |
 
 **Om evidensniveauet:** Ingen af de citerede studier undersøger methionin som behandling af akne eller diabetisk grå stær. Akne-litteraturen handler om homocystein under isotretinoin og et MTHFR-case. Litteraturen om diabetisk grå stær omhandler homocystein og reparationsenzymet MsrB1. Evidensniveauet er derfor L5, selvom datagrundlaget internt har angivet L4.

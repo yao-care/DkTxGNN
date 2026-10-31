@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Glycine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, pharyngitis, forkølelse…"
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -52,7 +52,7 @@ TxGNN-modellen forudsiger, at glycin kan have effekt ved **sygdom i næsehulen**
 | TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

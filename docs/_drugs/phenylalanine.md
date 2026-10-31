@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 655
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Phenylalanine: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -52,7 +52,7 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt ved **skleroserende kolang
 | TxGNN-forudsigelsesscore | 0,9943 |
 | Evidensniveau | L4 (L5 for den næstrangerede forudsigelse) |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

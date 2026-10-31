@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 824
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Threonine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -51,7 +51,7 @@ Threonin er en essentiel aminosyre, som i Danmark indgår i en lang række læge
 | TxGNN-forudsigelsesscore | 0,9932 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
-| Antal markedsføringstilladelser | 20 |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---
