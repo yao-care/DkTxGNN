@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: Kun modelforudsigelse (L5)
 nav_order: 214
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "clotrimazole"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-28
-description: "Clotrimazole: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+last_modified_at: 2026-11-03
+description: "Clotrimazole: forudsagt ny indikation akne (acne (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +33,53 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Clotrimazol: azol-svampemiddel → Akne (acne (disease))
+## Clotrimazole: akne (acne (disease))
 {: .text-alpha }
 
-## Resumé i få sætninger
+## Resumé
 
-Clotrimazol er et topisk azol-svampemiddel, som er markedsført i Danmark. TxGNN-modellen forudsiger, at det kan have effekt ved **akne (acne (disease))**. Evidensen er meget svag: der er **1 klinisk forsøg** med en kombination af tre lægemidler, som er suspenderet, og **ingen publikationer** om denne indikation.
+Clotrimazol er et antimykotikum, der anvendes lokalt mod svampeinfektioner.
+TxGNN-modellen forudsiger, at det kan have effekt mod **akne (acne (disease))**, men evidensen er meget begrænset: **1 klinisk forsøg** (suspenderet, kombinationspræparat) og **ingen publikationer**.
+
+---
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Foreslået ny indikation | Akne (acne (disease)) |
-| TxGNN-forudsigelsesscore | 0,9986 |
+| Forudsagt ny indikation | akne (acne (disease)) |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
 | Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
+---
+
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Clotrimazol tilhører azolgruppen af svampemidler. Det hæmmer generelt svampenes syntese af ergosterol og har desuden en vis antiinflammatorisk aktivitet. Dette er almen farmakologisk viden og ikke hentet fra de indsamlede data.
+Der foreligger ikke detaljerede data om clotrimazols virkningsmekanisme i de data, der er indsamlet til denne rapport. Clotrimazol er et antimykotikum af imidazolgruppen, og mekanistisk kan det tænkes at have betydning ved akne-lignende tilstande, hvor gær som *Malassezia* eller *Candida* spiller en rolle, f.eks. svampeassocieret folliculitis. Clotrimazol har desuden en vis antiinflammatorisk aktivitet.
 
-Forbindelsen til akne er indirekte. Malassezia- eller Candida-involvering i akneagtig folliculitis er tænkelig, men det er ikke det samme som acne vulgaris. Den høje score er en modelforudsigelse og ikke et bevis for klinisk effekt.
+Koblingen til acne vulgaris er dog indirekte. Det eneste registrerede forsøg tester en fast kombination af beclomethason, gentamicin og clotrimazol, så en eventuel effekt kan ikke tilskrives clotrimazol alene. Den høje score er en modelforudsigelse og ikke et bevis for klinisk effekt.
+
+---
 
 ## Klinisk evidens
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspenderet | 80 | Sammenligning af en fast kombination (beclomethason + gentamicin + clotrimazol) som creme ved kontamineret dermatose med bilaterale symmetriske læsioner. Ingen resultater foreligger. |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspenderet | 80 | Sammenlignende effekt af kombinationen beclomethason + gentamicin + clotrimazol som creme ved kontamineret dermatose med bilaterale symmetriske læsioner. Ingen resultater tilgængelige. Lav relevans, da clotrimazols bidrag ikke kan isoleres, og målsygdommen ikke kan bekræftes som akne vulgaris. |
 
-Forsøget tester en kombination, så clotrimazols bidrag kan ikke isoleres. Den præcise målsygdom (muligvis blandet dermatose frem for acne vulgaris) kan ikke bekræftes. Relevansen vurderes som lav.
+---
 
 ## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur om clotrimazol ved akne.
+På nuværende tidspunkt foreligger der ingen relateret litteratur.
 
-## Information om det danske marked
+---
+
+## Information om markedet i Danmark
 
 | Godkendelsesnummer | Produktnavn | Lægemiddelform | Producent |
 |---------|------|------|-----------|
@@ -79,25 +88,37 @@ Der er i øjeblikket ingen relateret litteratur om clotrimazol ved akne.
 | 28103247601 | Aurizon Vet. | Øredråber, suspension | Vetoquinol S.A. |
 | 28103082899 | Otomax Vet. | Øredråber, suspension | Intervet International B.V. |
 
-Alle fire godkendelser er gyldige. Produkter med tilføjelsen "Vet." er dyrlægemidler.
+Alle fire tilladelser er gyldige.
+
+---
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er registreret 1099 mulige interaktioner. Blandt de alvorlige (Major) er fentanyl, alfentanil, amiodaron og hydrocodon. Der er desuden moderate interaktioner, fx med abemaciclib, paclitaxel, nifedipin, amlodipin, apixaban og alprazolam. Betydningen afhænger af den systemiske eksponering, som er lav ved topisk brug.
+**Lægemiddelinteraktioner:** I de indsamlede data er der registreret 1099 mulige interaktioner. Blandt de viste er følgende af alvorlig (major) grad:
+- Fentanyl
+- Alfentanil
+- Amiodaron
+- Hydrocodon
 
-Se i øvrigt det godkendte produktresumé (SmPC) for øvrige sikkerhedsoplysninger.
+Flere interaktioner er af moderat grad, bl.a. med abemaciclib, paclitaxel, acalabrutinib, nifedipin, apixaban og aprepitant.
+
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+
+---
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Det eneste forsøg er en suspenderet kombinationsundersøgelse uden resultater, og der findes ingen litteratur, som direkte undersøger akne. Forudsigelsen hviler derfor alene på modellen (evidensniveau L5).
+Forudsigelsen bygger alene på modellen og på ét suspenderet forsøg med en kombinationsbehandling, hvor clotrimazols bidrag ikke kan isoleres. Der er ingen publikationer, som direkte undersøger clotrimazol ved akne, og evidensniveauet er derfor L5.
 
-**For at komme videre kræves:**
-- Kontrollerede forsøg med clotrimazol alene ved veldefineret akne eller Malassezia-folliculitis
-- Data om virkningsmekanisme, der kan belyse forbindelsen til akne
-- Gennemgang af produktresuméets advarsler og kontraindikationer for den relevante topiske formulering
+**For at gå videre kræves:**
+- Data om clotrimazols virkningsmekanisme
+- Kontrollerede studier af clotrimazol alene ved akne eller svampeassocieret folliculitis
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Vurdering af, om den tilgængelige creme er relevant for målpopulationen
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

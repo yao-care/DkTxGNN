@@ -4,17 +4,17 @@ title: Mitomycin
 parent: Kun modelforudsigelse (L5)
 nav_order: 562
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 monitor_inn: "MITOMYCIN"
-predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-10-28
-description: "Mitomycin: forudsagt ny indikation Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) (evidensniveau L5). Oprindelig indikation: Den godkendte indikation er…"
+predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+last_modified_at: 2026-11-03
+description: "Mitomycin: forudsagt ny indikation Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) (evidensniveau L5)."
 ---
 
 # Mitomycin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +33,80 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Mitomycin: DNA-tværbindende alkylerende cytostatikum → solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)
+## Mitomycin: Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Mitomycin er et cytostatikum, der virker ved at tværbinde DNA. Lægemidlet er markedsført i Danmark som pulver og solvens til intravesikal opløsning. TxGNN-modellen forudsiger, at det kan have effekt på **solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)**, men der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte understøtter forudsigelsen.
+Mitomycin er et cytostatikum, der virker ved at tværbinde DNA. TxGNN-modellen forudsiger, at det kan have effekt på **solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas)**. Der er dog **ingen kliniske forsøg og ingen publikationer** om netop denne sygdom i de data, der er indsamlet til rapporten. Forudsigelsen hviler alene på modellens score.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Den godkendte indikation er ikke registreret i de lokale data |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) |
-| TxGNN-forudsigelsesscore | 0,9986 |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Mitomycin er dog kendt som et alkylerende middel, der tværbinder DNA og dermed hæmmer celledeling. En cytotoksisk effekt på en beslægtet epitelial pancreastumor er biologisk set tænkelig.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til rapporten. Mitomycin er generelt kendt som et alkylerende cytostatikum, der tværbinder DNA og hæmmer celledeling. En cytotoksisk effekt på en beslægtet epitelial tumor i bugspytkirtlen er biologisk tænkelig.
 
-Forudsigelsen hviler alene på modellens score. Solid pseudopapillært karcinom er typisk indolent og kan oftest helbredes kirurgisk, så der er begrænset rationale for cytotoksisk kemoterapi. Forudsigelsen bør derfor tolkes med stor forsigtighed.
+Der er dog væsentlige forbehold. Solid pseudopapillært karcinom er typisk langsomt voksende og kan oftest helbredes ved kirurgi, så der er kun begrænset rationale for cytotoksisk kemoterapi. Modellens score er det eneste, der støtter forudsigelsen.
 
-## Klinisk evidens fra forsøg
+## Klinisk evidens
 
-Der er for tiden ingen relaterede kliniske forsøg registreret.
+Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er for tiden ingen relateret litteratur tilgængelig for den primære forudsigelse.
+Der er for nuværende ingen relateret litteratur om denne sygdom.
 
-## Information om markedet i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28105337913 | Mitomycin "medac" | Pulver og solvens til intravesikal opløsning | Indikationsteksten er ikke registreret i de lokale data |
 
+Tilladelsen er gyldig og omfatter et enkeltstofpræparat fra Medac GmbH. Lægemiddelformen er til intravesikal anvendelse (i blæren), hvilket ikke uden videre svarer til den vej, der ville være nødvendig ved en bugspytkirteltumor.
+
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionelt cytotoksisk middel (alkylerende, DNA-tværbindende) |
-| Risiko for knoglemarvssuppression | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitetsklassifikation | Se produktresumé (SmPC) for advarsler og forsigtighedsregler |
-| Monitoreringspunkter | Hæmatologiske parametre (blodtal), lever- og nyrefunktion; se i øvrigt produktresumé (SmPC) |
-| Håndteringsbeskyttelse | Skal håndteres efter gældende regler for cytotoksiske lægemidler |
+| Klassifikation | Konventionelt cytotoksisk middel (alkylerende/DNA-tværbindende antibiotikum) |
+| Risiko for knoglemarvssuppression | Høj; trombocytopeni og leukopeni er kendte risici |
+| Emetogenicitet | Moderat |
+| Monitorering | Fuldt blodbillede, nyre- og leverfunktion, trombocytter |
+| Håndtering | Skal håndteres efter gældende regler for cytostatika |
+
+Se produktresuméet (SmPC) for fuldstændige advarsler og forholdsregler.
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner** (ud af 100 registrerede interaktioner er de vigtigste nævnt her):
-- **Alvorlige (Major):** deferipron, samarium (153Sm) lexidronam
-- **Moderate:** palifermin, strontiumchlorid Sr-89, fostamatinib
-- **Milde (Minor):** levofloxacin
+- **Lægemiddelinteraktioner:** Der er registreret i alt 100 interaktioner. De mest alvorlige blandt de viste er **deferipron** og **samarium (153Sm) lexidronam** (begge alvorlige). Moderate interaktioner omfatter palifermin, strontiumchlorid Sr-89 og fostamatinib. Mange øvrige interaktioner er ikke klassificeret.
+- **Tilstande, hvor der er registreret forsigtighed:** nyresygdom, trombocytopeni, blodkoagulationsforstyrrelser, anæmi, leukopeni, hæmolytisk-uræmisk syndrom, hjertesvigt og stomatitis.
 
-Øvrige registrerede interaktioner har ukendt alvorlighedsgrad (bl.a. warfarin, simvastatin, prednisolon, dexamethason, ondansetron, leucovorin).
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen understøttes kun af TxGNN-scoren (evidensniveau L5), uden kliniske forsøg eller publikationer for denne sygdom. Tumoren er typisk indolent og kirurgisk helbredelig, hvilket svækker rationalet for cytotoksisk behandling.
+Forudsigelsen støttes udelukkende af modellens score (evidensniveau L5), uden kliniske forsøg eller direkte litteratur. Sygdommen er desuden typisk kirurgisk helbredelig, og mitomycin har betydelig knoglemarvstoksicitet.
 
-**For at komme videre er følgende nødvendigt:**
-- Direkte prækliniske eller kliniske data for mitomycin i solid pseudopapillært karcinom i bugspytkirtlen
-- Detaljerede data om virkningsmekanisme
-- Gennemgang af produktresuméets advarsler og kontraindikationer
-- Vurdering af administrationsvej, da det markedsførte præparat er til intravesikal brug
+**For at komme videre kræves:**
+- Systematisk litteratursøgning og kasuistikker for mitomycin ved denne tumortype
+- Data om virkningsmekanisme
+- Vurdering af relevant administrationsvej, da det godkendte præparat er intravesikalt
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Klinisk vurdering af, om kemoterapi overhovedet er relevant ved en tumor, der oftest behandles kirurgisk
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

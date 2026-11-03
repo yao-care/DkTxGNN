@@ -4,17 +4,17 @@ title: Sapropterin
 parent: Kun modelforudsigelse (L5)
 nav_order: 748
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-30
-description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (evidensniveau L4). Oprindelig indikation: Phenylketonuri og forstyrrelse af phenylalaninmetabolismen"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
+description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Sapropterin: Fra phenylketonuri til forstyrrelse af tyrosinmetabolismen
+## Sapropterin: Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Sapropterin er en syntetisk form af tetrahydrobiopterin (BH4) og anvendes oprindeligt til behandling af phenylketonuri (PKU) og andre forstyrrelser i phenylalaninmetabolismen.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **forstyrrelse af tyrosinmetabolismen**,
-men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der direkte understøtter netop denne indikation**. Den publicerede litteratur (15 artikler) vedrører næsten udelukkende PKU, som allerede er en godkendt indikation.
+Sapropterin er en syntetisk form af tetrahydrobiopterin (BH4), som fungerer som cofaktor for enzymet phenylalaninhydroxylase. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism)**. Der er **ingen kliniske forsøg** og **ingen publikationer, der direkte undersøger denne sygdom**, så forudsigelsen hviler alene på modellen.
 
 ---
 
@@ -48,9 +46,9 @@ men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der di
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Phenylketonuri og forstyrrelse af phenylalaninmetabolismen (den godkendte indikationstekst for det danske produkt indgår ikke i de indsamlede data) |
-| Forudsagt ny indikation | Forstyrrelse af tyrosinmetabolismen |
-| TxGNN-forudsigelsesscore | 0,9989 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism) |
+| TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
@@ -60,40 +58,39 @@ men der er **ingen registrerede kliniske forsøg** og **ingen litteratur, der di
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Sapropterin er dog kendt som syntetisk BH4, den essentielle kofaktor for enzymet phenylalaninhydroxylase (PAH), som omdanner phenylalanin til tyrosin. Lægemidlets virkning ved BH4-responsiv PKU er veletableret.
+Sapropterin er en syntetisk analog af tetrahydrobiopterin (BH4), som er en nødvendig cofaktor for phenylalaninhydroxylase (PAH). PAH omdanner phenylalanin til tyrosin. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, men den kendte farmakologi er beskrevet ovenfor.
 
-Forbindelsen til den forudsagte indikation er indirekte. Når PAH-aktiviteten er nedsat, dannes der mindre tyrosin, og den høje TxGNN-score afspejler sandsynligvis, at phenylalanin- og tyrosinstofskiftet ligger i samme metaboliske vej. Den fundne litteratur handler om PKU og ikke om primære tyrosinforstyrrelser såsom tyrosinæmi type I-III.
+Forbindelsen til den forudsagte sygdom er indirekte. Den høje score afspejler sandsynligvis, at phenylalanin- og tyrosinmetabolismen deler samme stofskillevej. Den fundne litteratur handler om phenylalaninmetabolisme og ikke om primære tyrosinforstyrrelser såsom tyrosinæmi type I-III. Der er intet, der viser, at BH4-tilskud gavner sygdomme forårsaget af defekter længere nede i tyrosinvejen (f.eks. mangel på FAH, TAT eller HPD).
 
-Der er intet, der tyder på, at BH4-tilskud gavner sygdomme, der skyldes enzymdefekter længere nede i tyrosinstofskiftet (f.eks. mangel på FAH, TAT eller HPD). Forudsigelsen bør derfor betragtes som mekanistisk hypotese og ikke som dokumenteret ny anvendelse.
+Da ingen af de angivne studier direkte undersøger den forudsagte sygdom, er evidensniveauet L5.
 
 ---
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne indikation.
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Nedenfor er de mest relevante publikationer. Bemærk, at de alle omhandler PKU (den allerede godkendte indikation) og ikke primære tyrosinforstyrrelser.
+Ingen af nedenstående publikationer undersøger direkte forstyrrelse af tyrosinmetabolismen; de handler om beslægtede tilstande og mekanismer og er medtaget som baggrund.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [29025426](https://pubmed.ncbi.nlm.nih.gov/29025426/) | 2017 | Retningslinje | Orphanet J Rare Dis | Samlede europæiske retningslinjer for diagnostik og behandling af PKU |
-| [39237321](https://pubmed.ncbi.nlm.nih.gov/39237321/) | 2025 | Observationelt register | J Inherit Metab Dis | Langtidssikkerhed af sapropterin hos børn og voksne med PAH-mangel (KAMPER-registret, 576 deltagere) |
-| [34784942](https://pubmed.ncbi.nlm.nih.gov/34784942/) | 2021 | Konsensusudtalelse | Orphanet J Rare Dis | Italiensk national konsensus om behandling af PKU |
-| [25563006](https://pubmed.ncbi.nlm.nih.gov/25563006/) | 2014 | Fase 3-studie (åbent, ikke-komparativt) | Vestn Ross Akad Med Nauk | Effekt og sikkerhed af sapropterin ved PKU og hyperphenylalaninæmi |
-| [26653793](https://pubmed.ncbi.nlm.nih.gov/26653793/) | 2016 | Dyrestudie (mus) | Mol Genet Metab | Højdosis sapropterin forbedrer omsætningen af monoamin-neurotransmittere i PKU-musemodel |
-| [34485013](https://pubmed.ncbi.nlm.nih.gov/34485013/) | 2021 | Case | JIMD Rep | Sapropterinbehandling ved DHPR-mangel (første molekylært diagnosticerede tilfælde i Brasilien) |
-| [20738029](https://pubmed.ncbi.nlm.nih.gov/20738029/) | 2010 | Oversigt/kommentar | Prescrire Int | Sapropterin hjælper kun en minoritet af PKU-patienter |
-| [30359206](https://pubmed.ncbi.nlm.nih.gov/30359206/) | 2020 | Oversigtsartikel | Nutr Neurosci | Nyere diætetiske tilgange til PKU-patienter |
-| [35899555](https://pubmed.ncbi.nlm.nih.gov/35899555/) | 2022 | Konsensus | Turk J Pediatr | Anbefalinger til diagnostik og opfølgning af pædiatrisk PKU |
-| [42123950](https://pubmed.ncbi.nlm.nih.gov/42123950/) | 2026 | Oversigtsartikel | Nutrients | Ernærings- og behandlingsstrategier ved pædiatrisk PKU |
+| [29025426](https://pubmed.ncbi.nlm.nih.gov/29025426/) | 2017 | Retningslinje | Orphanet J Rare Dis | Europæiske retningslinjer for diagnostik og behandling af phenylketonuri |
+| [34784942](https://pubmed.ncbi.nlm.nih.gov/34784942/) | 2021 | Konsensus | Orphanet J Rare Dis | Italiensk konsensus om behandling, herunder farmakologisk behandling |
+| [39237321](https://pubmed.ncbi.nlm.nih.gov/39237321/) | 2025 | Observationelt register | J Inherit Metab Dis | Langtidssikkerhed af sapropterin hos 576 børn og voksne med PAH-mangel (KAMPER-registret) |
+| [25563006](https://pubmed.ncbi.nlm.nih.gov/25563006/) | 2014 | Fase III, åbent | Vestn Ross Akad Med Nauk | Effekt og sikkerhed af sapropterin ved phenylketonuri og hyperphenylalaninæmi |
+| [26653793](https://pubmed.ncbi.nlm.nih.gov/26653793/) | 2016 | Præklinisk (mus) | Mol Genet Metab | Høj dosis sapropterin forbedrede omsætningen af monoamin-neurotransmittere i musemodel |
+| [34485013](https://pubmed.ncbi.nlm.nih.gov/34485013/) | 2021 | Case | JIMD Rep | Sapropterin ved dihydropteridinreduktase-mangel |
+| [20738029](https://pubmed.ncbi.nlm.nih.gov/20738029/) | 2010 | Kommentar | Prescrire Int | Sapropterin gavner kun et mindretal af patienterne |
+| [30359206](https://pubmed.ncbi.nlm.nih.gov/30359206/) | 2020 | Oversigtsartikel | Nutr Neurosci | Nyere diætbehandling ved phenylketonuri |
+| [42123950](https://pubmed.ncbi.nlm.nih.gov/42123950/) | 2026 | Oversigtsartikel | Nutrients | Ernærings- og behandlingsstrategier ved pædiatrisk phenylketonuri |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -103,14 +100,13 @@ Nedenfor er de mest relevante publikationer. Bemærk, at de alle omhandler PKU (
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer fra vidensgraf (ikke fra produktresuméet)**: Neutropeni og agranulocytose er registreret som kontraindikationer i TxGNN-vidensgrafen. Dette er ikke bekræftet af den officielle produkttekst.
-- **Lægemiddelinteraktioner**: 28 interaktioner er fundet i alt. De 20 detaljerede er alle af moderat sværhedsgrad. De vigtigste grupper er:
-  - Vasodilatatorer og nitrater: nitroglycerin, isosorbiddinitrat, isosorbidmononitrat, nitroprussid, nesiritid, hydralazin, minoxidil (også topisk), alprostadil
+- **Lægemiddelinteraktioner:** Der er registreret 28 interaktioner, alle af moderat niveau i de gennemgåede data. Blandt dem er:
+  - Folatantagonister og relaterede stoffer: methotrexat, pemetrexed, pralatrexat, trimetrexat, pyrimethamin, trimethoprim
+  - Nitrater og vasodilatatorer: nitroglycerin, isosorbiddinitrat, isosorbidmononitrat, nitroprussid, hydralazin, minoxidil (også topisk), nesiritid, alprostadil
   - PDE5-hæmmere: sildenafil, tadalafil, vardenafil
-  - Folatantagonister: methotrexat, pemetrexed, pralatrexat, trimetrexat, trimethoprim, pyrimethamin, proguanil
-  - Levodopa
+  - Andre: levodopa, proguanil
 
-Vedrørende advarsler og kontraindikationer fra produktresuméet henvises til det godkendte produktresumé (SmPC).
+Se i øvrigt det godkendte produktresumé (SmPC) for øvrige sikkerhedsoplysninger.
 
 ---
 
@@ -119,21 +115,14 @@ Vedrørende advarsler og kontraindikationer fra produktresuméet henvises til de
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om tyrosinmetabolisme bygger på en indirekte forbindelse via phenylalanin-tyrosin-vejen. Der er ingen kliniske forsøg og ingen litteratur, der direkte undersøger sapropterin ved primære tyrosinforstyrrelser (evidensniveau L4). Den fundne litteratur vedrører PKU, som allerede er godkendt.
+Forudsigelsen er alene modelbaseret (evidensniveau L5). Der findes hverken kliniske forsøg eller publikationer, der direkte undersøger sapropterin ved forstyrrelse af tyrosinmetabolismen, og den mekanistiske forbindelse er indirekte.
 
-**For at komme videre kræves følgende:**
-- Præklinisk eller klinisk dokumentation for, at BH4-tilskud har effekt ved primære tyrosinforstyrrelser (f.eks. tyrosinæmi type I-III)
-- Detaljerede data om virkningsmekanisme (MOA)
-- Gennemgang af advarsler og kontraindikationer i det danske produktresumé, da disse oplysninger mangler
-- Vurdering af sikkerhed ved neutropeni/agranulocytose og af de moderate interaktioner, hvis en ny anvendelse overvejes
+**For at komme videre kræves:**
+- Præcisering af, hvilke konkrete tyrosinforstyrrelser (f.eks. tyrosinæmi type I-III) der er målet, samt en biologisk begrundelse for, at BH4-tilskud kan påvirke dem
+- Prækliniske data eller case-materiale, der direkte undersøger sapropterin ved disse tilstande
+- Detaljerede data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer med henblik på sikkerhedsvurdering
 
----
-
-### Bemærkning om øvrige forudsigelser
-
-De data, der er indsamlet til denne rapport, indeholder yderligere tre forudsigelser:
-- **Teratogent Pierre Robin-syndrom** (score 0,9987, L5, Hold): Ingen sandsynlig mekanistisk forbindelse, ingen forsøg og ingen litteratur. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
-- **Hyperphenylalaninæmi pga. tetrahydrobiopterin-mangel** (score 0,9910, L3, Proceed with Guardrails): Mekanistisk rationel, og sapropterin indgår i standardbehandling ved syntesedefekter. Evidensen er dog hovedsageligt indirekte og retningslinjebaseret. Kræver specialistdiagnostik (pterinanalyse, DHPR-assay), og behandling med neurotransmitterprækursorer (L-dopa/carbidopa, 5-HTP) er ofte nødvendig, fordi BH4 alene ikke fuldt korrigerer neurotransmittermanglen i CNS.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
