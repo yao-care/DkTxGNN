@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
-description: "Propafenone: forudsagt ny indikation Manisk bipolar lidelse (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Propafenone: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Propafenone
@@ -33,111 +33,98 @@ Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Propafenone: Manisk bipolar lidelse (rang 1); klinisk mest relevante: katekolaminerg polymorf ventrikulær takykardi (manic bipolar affective disorder)
+## Propafenone: Manisk bipolar affektiv lidelse (manic bipolar affective disorder)
 {: .text-alpha }
 
-## Sammenfatning
+## Resumé
 
-Propafenon er et klasse IC-antiarytmikum (natriumkanalblokker), som oprindeligt anvendes til behandling af atrieflimren og ventrikulær takykardi.
-TxGNN-modellen (deep learning) forudsiger en række nye indikationer. Den bedst underbyggede er **manisk bipolar lidelse** (score 0,9980), støttet af **0 registrerede kliniske forsøg** og **10 publikationer** (primært prækliniske data og case-niveau data).
-Den højest scorende forudsigelse, **manisk bipolar lidelse**, støttes ikke af data, og litteraturen peger snarere på skade end gavn.
-
----
+Propafenon er et antiarytmikum af klasse IC, som markedsføres i Danmark som filmovertrukne tabletter (Rytmonorm). TxGNN-modellen forudsiger, at det kan have effekt ved **manisk bipolar affektiv lidelse (manic bipolar affective disorder)**. Der findes dog **ingen kliniske forsøg** og kun **3 publikationer**, og ingen af dem viser en gavnlig effekt. De beskriver tværtimod mani og psykose som mulige bivirkninger af propafenon.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Manisk bipolar lidelse (rang 1); klinisk mest relevante: katekolaminerg polymorf ventrikulær takykardi (manic bipolar affective disorder) |
+| Forudsagt ny indikation | Manisk bipolar affektiv lidelse (manic bipolar affective disorder) |
 | TxGNN-forudsigelsesscore | 0.9980 |
-| Evidensniveau | L5 (manisk bipolar lidelse); L3 (CPVT) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Hold (manisk bipolar lidelse); Proceed with Guardrails ved en målrettet forskningsundersøgelse af CPVT |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Data om propafenons virkningsmekanisme foreligger ikke i det materiale, der er indsamlet til denne rapport. Propafenon er et antiarytmikum af klasse IC, som især hæmmer hjertets natriumkanaler. Der er ikke fundet nogen kendt terapeutisk mekanisme, som kan forklare en effekt ved mani.
 
-Data om lægemidlets detaljerede virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Propafenon er dog kendt som klasse IC-antiarytmikum, og dets effekt ved atrieflimren og ventrikulær takykardi er veletableret.
+Litteraturen peger i modsat retning af forudsigelsen:
 
-**CPVT (rang 2):** Der er et stærkt mekanistisk rationale. CPVT skyldes typisk mutationer i ryanodinreceptor 2 (RyR2) eller calsequestrin, som giver spontane Ca²⁺-bølger. Prækliniske studier viser, at klasse IC-midler som flecainid og R-propafenon hæmmer RyR2-kanaler og undertrykker disse Ca²⁺-bølger (PMID 21270101, 26121139, 21798265). Et case-studie beskriver 35 års effektiv behandling med propafenon (PMID 30820400). Flecainid er dog det bedst etablerede klasse IC-middel ved CPVT.
+- En case report fra 1985 beskriver mani som en bivirkning af propafenon. Forfatteren foreslår, at stoffets kemiske slægtskab med bupropion kan give affektive psykiatriske bivirkninger.
+- En case report fra 2001 beskriver en organisk psykose ved interaktion mellem venlafaxin og propafenon hos en patient med bipolar lidelse.
+- Et review fra 2020 omhandler skadelige interaktioner mellem antipsykotika og hjerte-kar-lægemidler.
 
-**Manisk bipolar lidelse (rang 1):** Der er ikke påvist nogen plausibel terapeutisk mekanisme. Litteraturen beskriver tværtimod propafenon som mulig årsag til mani (case-rapport, 1985) og psykose ved interaktion med venlafaxin (2001). Den høje modelscore modsiges derfor af det kliniske signal.
-
-**Øvrige forudsigelser:**
-- *Vedvarende ventrikulær takykardi hos spædbørn (rang 5):* Natriumkanalblokade er i overensstemmelse med lægemidlets virkning, og der findes ældre pædiatriske data, men de er små og ikke specifikke. Risiko for proarytmi hos børn skal vurderes nøje.
-- *Arytmogen højre ventrikel-kardiomyopati (rang 6):* Sikkerhedssignaler dominerer (QRS-udvidelse og vedvarende VT udløst af propafenon). Anvendelse er ikke støttet.
-- *Periodisk paralyse, Prinzmetal-angina, nefrogent syndrom med uhensigtsmæssig antidiurese og trikotillomani (rang 3, 4, 7, 8):* Kun modelforudsigelse (L5) uden litteratur eller forsøg. For Prinzmetal-angina er der ingen kendt antivasospastisk mekanisme.
-
----
+Den høje modelscore er derfor ikke understøttet af den kliniske evidens, som snarere antyder risiko end gavn.
 
 ## Evidens fra kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret for nogen af de forudsagte indikationer.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Udvalgt for CPVT (de mest relevante publikationer):
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
-| [30820400](https://pubmed.ncbi.nlm.nih.gov/30820400/) | 2019 | Case-rapport | HeartRhythm Case Reports | 35 års effektiv behandling af CPVT med propafenon |
-| [21270101](https://pubmed.ncbi.nlm.nih.gov/21270101/) | 2011 | Præklinisk | Circ Arrhythm Electrophysiol | RyR2-hæmning bestemmer effekten af klasse I-antiarytmika ved CPVT |
-| [26121139](https://pubmed.ncbi.nlm.nih.gov/26121139/) | 2015 | Præklinisk | PLoS One | RyR2-aktivitet bestemmer styrke og effekt af flecainid og R-propafenon mod arytmogene Ca²⁺-bølger |
-| [21798265](https://pubmed.ncbi.nlm.nih.gov/21798265/) | 2011 | Præklinisk | J Mol Cell Cardiol | Screening af klasse I-antiarytmika mod Ca²⁺-bølger i myocytter uden calsequestrin |
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematisk review | Life (Basel) | Kliniske karakteristika og arytmiudfald ved CPVT i Kina (ikke propafenon-specifik) |
-| [39564160](https://pubmed.ncbi.nlm.nih.gov/39564160/) | 2024 | Kohorte | Ann Pediatr Cardiol | Langtidsforløb ved CPVT (ikke propafenon-specifik) |
+| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Case report | The Journal of Clinical Psychiatry | Mani opstået under behandling med propafenon. Muligt affektivt bivirkningspotentiale, ikke terapeutisk effekt. |
+| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Case report | International Journal of Psychiatry in Medicine | Organisk psykose ved interaktion mellem venlafaxin og propafenon hos en patient med bipolar lidelse. |
+| [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) | 2020 | Review | Pharmacological Reports | Skadelige interaktioner mellem antipsykotika og lægemidler mod hjerte-kar-sygdomme. Ingen evidens for effekt af propafenon ved bipolar lidelse. |
 
-Udvalgt for andre forudsagte indikationer:
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Case-rapport | J Clin Psychiatry | Mani som bivirkning til propafenon (manisk bipolar lidelse) |
-| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Case-rapport | Int J Psychiatry Med | Organisk psykose ved venlafaxin-propafenon-interaktion |
-| [8237821](https://pubmed.ncbi.nlm.nih.gov/8237821/) | 1993 | Kohorte/case-serie | Am J Cardiol | Oral propafenon ved vedvarende supraventrikulær og ventrikulær takykardi hos børn |
-| [2114081](https://pubmed.ncbi.nlm.nih.gov/2114081/) | 1990 | Case-serie | Arch Mal Coeur Vaiss | Vedvarende idiopatisk VT hos spædbørn; intravenøs flecainid eller propafenon hos de mest kritisk syge |
-| [33194879](https://pubmed.ncbi.nlm.nih.gov/33194879/) | 2020 | Case-rapport (bivirkning) | Front Pediatr | Propafenon-induceret QRS-udvidelse hos et barn med ARVC |
-| [8316922](https://pubmed.ncbi.nlm.nih.gov/8316922/) | 1993 | Case-serie (bivirkning) | S Afr Med J | Propafenon udløste vedvarende VT trods normal venstre ventrikelfunktion |
-
----
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101107082 | Rytmonorm (Viatris ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
----
-
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/risikotilstande (fra videngrafen, ikke fra produktresuméet):** Langt QT-syndrom (herunder familiær form), torsades de pointes, nyre- og leversygdom, galdeblæresygdom, kaliummangel, lavt blodtryk, myokardieinfarkt, koronararteriesygdom og åreforkalkning, myasthenia gravis og andre sygdomme i den neuromuskulære overgang, hæmoglobinopati samt agranulocytose og neutropeni (herunder kongenitte former).
+**Lægemiddelinteraktioner:** Der er registreret 198 interaktioner. De alvorligste (Major) er:
 
-**Lægemiddelinteraktioner:** I alt 198 interaktioner er registreret. Blandt de viste er to af alvorlig grad (**Major**): **dolasetron** og **eliglustat**. Flere moderate interaktioner omfatter bl.a. clarithromycin, levofloxacin, ondansetron, palonosetron, cimetidin, famotidin, bupropion, aprepitant, loperamid og alosetron.
+- dolasetron
+- eliglustat
 
-**Særlige forhold fra litteraturen:** Risiko for QRS-udvidelse og proarytmi (inkl. vedvarende VT) ved strukturel hjertesygdom og hos børn samt psykiatriske bivirkninger (mani, psykose).
+Blandt de moderate interaktioner er bl.a.:
 
-Oplysninger om advarsler i det godkendte produktresumé (SmPC) mangler; se SmPC for fuldstændige sikkerhedsoplysninger.
+- bupropion
+- clarithromycin
+- levofloxacin
+- ondansetron
+- cimetidine
+- famotidin
+- loperamid
+- aprepitant
 
----
+**Tilstande, hvor der er registreret risiko** (fra de indsamlede data, ikke fra produktresuméets tekst):
+
+- forlænget QT-syndrom og torsades de pointes
+- nyre- og leversygdom
+- hjerteinfarkt og kranspulsåresygdom
+- lavt blodtryk
+- kaliummangel
+- myasthenia gravis
+- agranulocytose og neutropeni
+
+Propafenon er desuden i litteraturen forbundet med mani og psykose. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold** (samlet) — med mulighed for **Proceed with Guardrails** for en målrettet forskningsundersøgelse af CPVT.
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Den højest scorende forudsigelse (manisk bipolar lidelse) modsiges af litteraturen, som peger på skade. For CPVT er der et stærkt mekanistisk rationale og et langtidscase, men evidensen er overvejende præklinisk, og flecainid er det bedre dokumenterede alternativ. Flere øvrige forudsigelser har kun modelstøtte eller overvejende negative sikkerhedssignaler.
+Der er ingen kliniske forsøg og ingen publikationer, der undersøger propafenon som behandling af manisk bipolar lidelse. Evidensniveauet er derfor L5, og den eksisterende litteratur peger på en risiko for mani og psykose. Den høje modelscore er ikke understøttet af klinisk evidens.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer (blokerende datamangel)
-- Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Klinisk data, helst kontrollerede studier, der sammenligner propafenon med flecainid ved CPVT
-- Vurdering af proarytmirisiko, især ved strukturel hjertesygdom og hos børn
-- Gennemgang af interaktioner for den aktuelle patientgruppe, især QT-forlængende lægemidler
+- Data om virkningsmekanismen, der kan påvise en plausibel biologisk sammenhæng
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Præklinisk eller klinisk evidens for gavnlig effekt ved mani, som modvejer signalet om psykiatriske bivirkninger
+- Vurdering af interaktionsrisiko med stemningsstabiliserende og antipsykotiske lægemidler
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
