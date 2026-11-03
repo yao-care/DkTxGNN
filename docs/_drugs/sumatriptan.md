@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 783
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Sumatriptan: kendte anvendelser og markedsstatus i Danmark; på nuværende tidspunkt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Modellens kandidater for Sumatriptan er alle kendte anvendelser, så der er på nuværende tidspunkt ingen ny forudsagt indikation. Den ene kandidat, der kan spores til en kilde, understøttes af en licens i et andet land.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Modellens kandidater for Sumatriptan er alle kendte anvendelser, så der er på 
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en licens eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Migræne med hjernestammeaura (migraine with brainstem aura) | Licens i et andet land; godkendt indikation: migraine |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

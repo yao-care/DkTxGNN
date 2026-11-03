@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 110
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Betaxolol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellens kandidater for Betaxolol er alle kendte anvendelser, så der er aktuelt ingen ny forudsagt indikation. Alle kandidater, der kan spores til en kilde, er allerede kendte, og siden viser derfor kun markedsstatus og de kendte anvendelser.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ TxGNN-modellens kandidater for Betaxolol er alle kendte anvendelser, så der er 
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

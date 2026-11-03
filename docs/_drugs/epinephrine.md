@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Epinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem…"
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -144,6 +144,7 @@ Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, me
 | Fødevareafhængig anstrengelsesudløst anafylaksi | 0,9957 | L5 | Forskningsspørgsmål (ingen specifikke forsøg; understøttet indirekte af generel anafylaksilitteratur) |
 | Rienhoff syndrom | 0,9957 | L5 | Hold (ingen forsøg, ingen litteratur, ingen mekanistisk forbindelse) |
 | Luftvejsmisdannelse | 0,9956 | L3 | Hold (ét fase 1-forsøg om forbigående takypnø hos nyfødte; litteraturen er overvejende irrelevant) |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

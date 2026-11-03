@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -136,6 +136,7 @@ Fremanezumab er allerede markedsført til migræne, og mekanismen er plausibel, 
 | Forudsagt indikation | TxGNN-score |
 |------|------|
 | Atrophoderma vermiculata | 0,9904 |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

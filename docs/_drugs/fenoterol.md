@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Fenoterol: forudsagt ny indikation Multipel systematrofi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten for det dans…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -126,6 +126,7 @@ Alle nedenstående har evidensniveau L5, ingen kliniske forsøg eller litteratur
 | 6 | Primær arvelig glaukom | 0,9937 | Strukturelle defekter; højst symptomatisk effekt |
 | 7 | Sinoatrial blok | 0,9935 | Kronotrop effekt plausibel, men proarytmisk risiko |
 | 8 | Sygdom i sinusknuden | 0,9925 | Behandles typisk med pacemaker; arytmirisiko |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

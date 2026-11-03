@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Acetaminophen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellens kandidater for Acetaminophen (score ≥ 0,99) er alle kendte anvendelser, når de spores til en kilde. Der er derfor aktuelt ingen ny forudsagt indikation for dette lægemiddel. Siden viser, hvilke kendte anvendelser der er fundet blandt modellens kandidater, og hvordan lægemidlet er markedsført i Danmark.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ TxGNN-modellens kandidater for Acetaminophen (score ≥ 0,99) er alle kendte anv
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

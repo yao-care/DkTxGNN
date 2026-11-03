@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: forudsagt ny indikation HIV infectious disease (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -136,6 +136,7 @@ Der foreligger ingen direkte evidens for pravastatin ved homozygot familiær hyp
 | Hiv-infektion | L2 | Research Question | Evidensen vedrører behandling af hiv-associeret dyslipidæmi og hjerte-kar-risiko, ikke behandling af selve hiv-infektionen. Der er bl.a. et randomiseret placebokontrolleret studie (PMID 16603852). Pravastatin omsættes ikke via CYP3A4, men darunavir/ritonavir øger eksponeringen. |
 | Hypoalfalipoproteinæmi | L4 | Hold | Statiner hæver HDL-kolesterol kun beskedent. Ingen forsøg. |
 | Øvrige (neuroudviklingsforstyrrelse, SIV, felint AIDS, CYP7A1-mangel, CETP-mangel) | L5 | Hold | Kun beregningsmæssig forudsigelse uden klinisk evidens. Flere er dyremodeller eller veterinære tilstande. |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

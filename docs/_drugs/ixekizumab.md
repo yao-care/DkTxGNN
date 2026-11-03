@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 467
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Ixekizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen (deep learning) har ingen ny forudsagt indikation for Ixekizumab på denne side. Lægemidlets registrerede anvendelser er opført nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen |
@@ -52,6 +53,7 @@ TxGNN-modellen (deep learning) har ingen ny forudsagt indikation for Ixekizumab 
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | aksial spondylartrit (axial spondyloarthritis) | Tilladelse i et andet land |
@@ -60,11 +62,13 @@ TxGNN-modellen (deep learning) har ingen ny forudsagt indikation for Ixekizumab 
 | psoriasisartrit (psoriatic arthritis) | Tilladelse i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Bechterews sygdom (ankylosing spondylitis) |

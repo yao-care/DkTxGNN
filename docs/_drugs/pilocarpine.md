@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 660
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Pilocarpine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle kandidater, som TxGNN-modellen har foreslået for Pilocarpine (score ≥ 0,99), og som kan spores til en kilde, er allerede kendte anvendelser. Der er derfor i øjeblikket ingen ny forudsagt indikation for dette lægemiddel.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Alle kandidater, som TxGNN-modellen har foreslået for Pilocarpine (score ≥ 0,
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | primær arvelig glaukom (primary hereditary glaucoma) | Tilladelse i et andet land; godkendt indikation: glaucoma |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

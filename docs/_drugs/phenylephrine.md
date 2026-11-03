@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 657
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -133,6 +133,7 @@ Forudsigelsen er mekanistisk plausibel, men overlapper i vid udstrækning med ek
 |------|------|------|------|------|
 | Akut laryngopharyngitis | 0,9997 | L5 | Hold | Ingen forsøg eller litteratur; laryngeal involvering er ikke tydeligt dækket af en dekongestiv mekanisme |
 | Trigeminal autonom cephalalgi | 0,9930 | L4 | Hold | 13 ældre pupillometriske studier (1987-2010), hvor fenylephrin kun er brugt som diagnostisk prøvestof, ikke som behandling |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

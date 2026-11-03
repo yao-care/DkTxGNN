@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 599
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Obinutuzumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellens kandidater for Obinutuzumab er alle allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation. De to kandidater, der kan spores til en kilde, tilhører samme sygdomskategori som en godkendt indikation, men de er ikke i sig selv angivet som godkendte.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,17 +53,20 @@ TxGNN-modellens kandidater for Obinutuzumab er alle allerede kendte anvendelser.
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | – |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Kronisk lymfatisk leukæmi/småcellet lymfocytært lymfom med somatisk hypermutation af immunglobulin-tungkædegenets variable region (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
 | Prægerminalcenter kronisk lymfatisk leukæmi/småcellet lymfocytært lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: forudsagt ny indikation Restless legs syndrome (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -137,6 +137,7 @@ Alle nedenstående forudsigelser har score over 0,9989, men ingen er understøtt
 | 8 | Tankeudløste anfald | L5 | Hold | Primært musestudier; tolerancesignal |
 | 9 | Status epilepticus | L5 | Hold | Ingen parenteral formulering; klinisk usandsynlig |
 | 10 | Læseudløste anfald | L5 | Hold | Ingen evidens for oxcarbazepin; enkelte casebeskrivelser af andre refleksepilepsier (kold- og varmtvandsudløst) nævner effekt af oxcarbazepin |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

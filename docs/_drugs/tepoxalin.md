@@ -3,7 +3,7 @@ layout: default
 title: Tepoxalin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 808
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Tepoxalin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tepoxalin, og der er derfor i øjeblikket ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er angivet nedenfor.
 
 ## Kort overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede 0,99 eller højere) |
@@ -51,16 +52,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tepoxa
 ## Registrerede anvendelser for dette lægemiddel
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

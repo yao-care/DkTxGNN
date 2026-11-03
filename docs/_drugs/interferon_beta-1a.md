@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 444
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Interferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle kandidater, som TxGNN-modellen har peget på for Interferon Beta-1A, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for dette lægemiddel.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Alle kandidater, som TxGNN-modellen har peget på for Interferon Beta-1A, er all
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | attakvis remitterende dissemineret sklerose (relapsing-remitting multiple sclerosis) | tilladelse i et andet land; godkendt indikation: multiple sclerosis |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | ingen | ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | ingen |

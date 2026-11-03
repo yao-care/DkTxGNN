@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 264
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Diltiazem: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Diltiazem, som kan spores til en kilde, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation for Diltiazem.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Diltiazem, som kan spore
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Prinzmetal angina (Prinzmetal angina) | Tilladelse i et andet land; godkendt indikation: angina |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

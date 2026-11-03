@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 796
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Tazobactam: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellens kandidater for Tazobactam er alle kendte anvendelser, så der er aktuelt ingen ny forudsagt indikation. Den ene kandidat er understøttet af en licens i et andet land, og den anden hører til samme sygdomskategori som en godkendt indikation. Siden er ikke en anbefaling om anvendelse uden for godkendt indikation.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ TxGNN-modellens kandidater for Tazobactam er alle kendte anvendelser, så der er
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en licens eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Lungebetændelse (pneumonia) | Licens i et andet land; godkendt indikation: hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Urinvejsinfektion (urinary tract infection (disease)) | urinary tract infection |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

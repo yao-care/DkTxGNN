@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 639
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Peginterferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Modellens kandidater for dette lægemiddel er alle kendte anvendelser, så der er aktuelt ingen ny forudsagt indikation. TxGNN-modellen (score ≥ 0,99) gav kandidater, men alle kandidater, der kan spores til en kilde, er allerede kendte anvendelser.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Modellens kandidater for dette lægemiddel er alle kendte anvendelser, så der e
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en licens eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | attakvis multipel sklerose (relapsing-remitting multiple sclerosis) | Licens i et andet land; godkendt indikation: multiple sclerosis |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | ingen | ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | ingen |

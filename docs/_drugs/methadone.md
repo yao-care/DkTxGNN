@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -126,6 +126,7 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 | Manisk bipolar affektiv lidelse | 0,9932 | L3 | Research Question | Ét lille dobbeltblindt studie fra 1982 (PMID 6959168) og en oversigt fra 2026 (PMID 41222827); begrænset tillid |
 | Trigeminal autonom cephalalgi | 0,9905 | L4 | Hold | Case-rapporter viser, at methadon kan udløse/forværre clusterhovedpine |
 | Forkølelse | 0,9902 | L5 | Hold | Litteraturen handler om kuldepresser-smerteforsøg, ikke forkølelse; søgeartefakt |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -138,6 +138,7 @@ OCD har den stærkeste evidens blandt de forudsagte indikationer (L2): ét dobbe
 | Godartet paroksysmal torticollis hos spædbørn | 0,9985 | L5 | Kun modelforudsigelse, ingen plausibel mekanisme; Hold |
 | Skizotypal, histrionisk, skizoid og paranoid personlighedsforstyrrelse | 0,9978 | L5 | Kun modelforudsigelse, ingen evidens; Hold |
 | Ohdo-syndrom og varianter, ligneous conjunctivitis, Ohdo-type blefarofimose | 0,9960-0,9969 | L5 | Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder mellem beslægtede sygdomme, som modellen har lært, ikke biologisk evidens; Hold |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

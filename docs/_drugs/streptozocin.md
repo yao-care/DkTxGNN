@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Streptozocin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "small cell lung carcinoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "hereditary breast ovarian cancer syndrome", "primary pulmonary lymphoma", "lymphosarcoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Streptozocin: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de sammenstillede data (godkendelsens indikationstekst…"
 ---
 
@@ -146,6 +146,7 @@ Alle nedenstående er modelforudsigelser med score på 99,93–0,9997. Anbefalin
 | Rhabdomyosarkom | L5 | Ingen forsøg eller litteratur; nyretoksicitet er en bekymring hos børn |
 | Parameningealt embryonalt rhabdomyosarkom | L5 | Ingen forsøg eller litteratur |
 | Embryonalt rhabdomyosarkom i de ekstrahepatiske galdegange | L5 | Ingen forsøg eller litteratur |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

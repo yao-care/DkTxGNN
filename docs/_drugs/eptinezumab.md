@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 319
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Eptinezumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle kandidater fra modellen for Eptinezumab er allerede kendte anvendelser, så der er på nuværende tidspunkt ingen ny forudsagt indikation. Den ene kendte anvendelse hører til samme sygdomskategori som en godkendt indikation. Den er ikke i sig selv godkendt.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Alle kandidater fra modellen for Eptinezumab er allerede kendte anvendelser, så
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Migræne med hjernestammeaura (migraine with brainstem aura) | migraine |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

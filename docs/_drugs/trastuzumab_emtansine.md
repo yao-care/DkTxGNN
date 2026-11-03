@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 852
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle modellens kandidater for Trastuzumab Emtansine (TxGNN, score ≥ 0,99) er allerede kendte anvendelser. Der er derfor i øjeblikket ingen ny forudsagt indikation. Kandidaterne tilhører samme sygdomskategori som en godkendt indikation, brystkræft, men er ikke selv godkendt som separate indikationer.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,11 +53,13 @@ Alle modellens kandidater for Trastuzumab Emtansine (TxGNN, score ≥ 0,99) er a
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | normal brystlignende subtype af brystkarcinom (normal breast-like subtype of breast carcinoma) | brystkræft (breast cancer) |
@@ -65,6 +68,7 @@ Alle modellens kandidater for Trastuzumab Emtansine (TxGNN, score ≥ 0,99) er a
 | brysttumor luminal A eller B (breast tumor luminal A or B) | brystkræft (breast cancer) |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

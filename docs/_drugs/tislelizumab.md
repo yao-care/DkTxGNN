@@ -3,7 +3,7 @@ layout: default
 title: Tislelizumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 836
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Tislelizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette lægemiddel, og der er derfor aktuelt ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er listet nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede en score på 0,99 eller højere) |
@@ -51,6 +52,7 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Pladecellekarcinom i spiserøret (esophageal squamous cell carcinoma) | Tilladelse i et andet land |
@@ -60,11 +62,13 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 | Mavekræft (stomach neoplasms) | Tilladelse i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

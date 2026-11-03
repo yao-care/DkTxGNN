@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 831
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Tilmicosin: known uses and market status in Denmark; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tilmicosin, så der er i øjeblikket ingen ny forudsagt indikation. De anvendelser, der er registreret for lægemidlet, er opført nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede 0,99 eller højere) |
@@ -52,16 +53,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tilmic
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en tilladelse eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

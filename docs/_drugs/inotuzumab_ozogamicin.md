@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 437
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Inotuzumab Ozogamicin: kendte anvendelser og markedsstatus i Danmark; foreløbig ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Inotuzumab Ozogamicin, og der er derfor foreløbig ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er angivet nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
@@ -52,16 +53,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Inotuz
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en licens eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Prækursor-celle lymfoblastisk leukæmi-lymfom (precursor cell lymphoblastic leukemia-lymphoma) | Licens i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

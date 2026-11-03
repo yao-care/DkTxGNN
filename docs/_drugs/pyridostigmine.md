@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -125,6 +125,7 @@ Produktresuméets advarsler og kontraindikationer var ikke tilgængelige. Se det
 | 5 | Sygdom i receptoraktivitet | 0,9973 | L4 | Hold | Meget bred term; litteraturen er uensartet og understøtter ikke en samlet indikation |
 | 6 | Hypersplenisme | 0,9930 | L5 | Hold | Ingen mekanistisk forbindelse og ingen evidens; sandsynligvis en grafbaseret artefakt |
 | 7 | Atypisk hæmolytisk-uræmisk syndrom med faktor B-anomali | 0,9922 | L5 | Hold | Pyridostigmin virker ikke på komplementsystemet; ingen evidens |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

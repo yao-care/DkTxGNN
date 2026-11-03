@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Valsartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -137,6 +137,7 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger valsarta
 | Braddock syndrom | 0,9996 | L5 | Ingen evidens |
 | Kronisk pulmonal hjertesygdom | 0,9958 | L5 | Ét Phase 1-forsøg om motion ved hypertension (NCT02966665) og overvejende litteratur om hjertesvigt; kun præklinisk studie om pulmonal hypertension (PMID 32552157) med sacubitril/valsartan |
 | Prinzmetal angina | 0,9945 | L5 | Eneste artikel (PMID 20555232) er irrelevant |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

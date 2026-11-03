@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Clozapine: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L2). Oprindelig indikation: Ikke oplyst i de sammenstillede data (den danske tilladelse har ingen…"
 monitor_inn: "clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -148,6 +148,7 @@ Der er et afsluttet fase 2-forsøg samt en metaanalyse fra 2020, der understøtt
 | ADHD, uopmærksom type | 0,9921 | L5 | Hold |
 | Psykotisk lidelse | 0,9912 | L1 | Proceed with Guardrails (reelt allerede etableret anvendelse) |
 | Malan overvækstsyndrom | 0,9902 | L5 | Hold |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

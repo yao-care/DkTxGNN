@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -122,6 +122,7 @@ Forudsigelsen for bronkitis bygger udelukkende på en beregningsmodel uden klini
 | Psoriasis | 0,9919 | L4 | Forskningsspørgsmål | Modstridende litteratur: en serie på 18 patienter viser bedring (PMID 33589543), mens flere case-rapporter beskriver udløsning eller forværring |
 | Svær non-proliferativ diabetisk retinopati | 0,9918 | L5 | Hold | Ingen evidens; PML-risiko gør risiko-nytte-forholdet ugunstigt |
 | Akut lichenoid pityriasis | 0,9904 | L5 | Hold | Kun den samme case-rapport (PMID 32470781), som beskriver en bivirkning |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

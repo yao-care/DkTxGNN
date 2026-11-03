@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 799
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Teicoplanin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Teicoplanin, så der er aktuelt ingen ny forudsagt indikation. Lægemidlets egne registrerede anvendelser er opført nedenfor. De er ikke modelkandidater.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede en score på 0,99 eller højere) |
@@ -52,16 +53,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Teicop
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en tilladelse eller godkendt produktinformation)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | stafylokokinfektion (staphylococcal infection) |

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Laronidase: forudsagt ny indikation Lysosomal lagringssygdom med skeletinvolvering (evidensniveau L4). Oprindelig indikation: Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom)"
 monitor_inn: "Laronidase"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
@@ -121,6 +121,7 @@ Modellen har også rangeret nedenstående indikationer. Ingen har understøttend
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
 | Sanfilippo syndrom (MPS III) | 0,9922 | L5 | Skyldes mangel på andre enzymer end alfa-L-iduronidase; sygdommen er overvejende cerebral, og intravenøs laronidase passerer ikke blod-hjerne-barrieren effektivt. Den tilgængelige litteratur (bl.a. RCT'er, PMID 15126990 og 40830667) omhandler MPS I, ikke MPS III |
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

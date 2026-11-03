@@ -3,7 +3,7 @@ layout: default
 title: Voclosporin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 890
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Voclosporin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Voclosporin, så der er aktuelt ingen ny forudsagt indikation. Lægemidlets egne registrerede anvendelser er opført nedenfor. De er ikke modelkandidater.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat har scoret 0,99 eller højere) |
@@ -51,16 +52,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Voclos
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en licens eller indlægsseddel/produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | lupusnefritis (lupus nephritis) | licens i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 697
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Rabeprazole: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen (deep learning, score ≥ 0,99) har givet kandidater for Rabeprazole, men alle kandidater, der kan spores til en kilde, er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation. De to kendte anvendelser nedenfor er registreret som relationer i vidensgrafen, og der er ikke fundet nogen godkendelse for dem.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ TxGNN-modellen (deep learning, score ≥ 0,99) har givet kandidater for Rabepraz
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | Ingen |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Smoldrende systemisk mastocytose (Smouldering systemic mastocytosis) |

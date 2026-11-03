@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 621
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Ozanimod: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Ozanimod er allerede kendte anvendelser. Der er derfor aktuelt ingen ny forudsagt indikation. Den ene kendte anvendelse er registreret som en relation i videngrafen og er ikke dokumenteret som godkendt i denne oversigt.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
@@ -52,16 +53,19 @@ Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Ozanimod er allerede ken
 ## Kendte anvendelser blandt modellens kandidater
 
 ### Godkendt (understøttet af en tilladelse eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Ingen | – |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | – |
 
 ### Relationer registreret i videngrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | progressiv recidiverende multipel sklerose (progressive relapsing multiple sclerosis) |

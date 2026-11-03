@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 72
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Apremilast: kendte anvendelser og markedsstatus i Danmark; på nuværende tidspunkt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette lægemiddel, så der er på nuværende tidspunkt ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er listet nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat scorede 0,99 eller højere) |
@@ -52,6 +53,7 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 ## Kendte anvendelser registreret for dette lægemiddel
 
 ### Godkendt (understøttet af en licens eller produktresumé)
+
 | Indikation | Kilde |
 |------|------|
 | Behcets syndrom (behcet syndrome) | Licens i et andet land |
@@ -60,11 +62,13 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 | Psoriasisgigt (psoriatic arthritis) | Licens i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Ingen |

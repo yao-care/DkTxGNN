@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 157
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Capsaicin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Capsaicin, så der er i øjeblikket ingen ny forudsagt indikation. Lægemidlets registrerede anvendelser er listet nedenfor.
 
 ## Hurtigt overblik
+
 | Punkt | Indhold |
 |------|------|
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat opnåede en score på 0,99 eller højere) |
@@ -52,16 +53,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Capsai
 ## Registrerede anvendelser for dette lægemiddel
 
 ### Godkendt (understøttet af en licens eller indlægsseddel)
+
 | Indikation | Kilde |
 |------|------|
 | Neuralgi (neuralgia) | Licens i et andet land |
 
 ### Relateret til en godkendt indikation (samme sygdomskategori)
+
 | Indikation | Godkendt kategori |
 |------|------|
 | Ingen | Ingen |
 
 ### Relationer registreret i vidensgrafen (ingen godkendelse fundet)
+
 | Indikation |
 |------|
 | Postherpetisk neuralgi (postherpetic neuralgia) |
