@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Lanadelumab"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 last_modified_at: 2026-11-03
-description: "Lanadelumab: forudsagt ny indikation Serpinopathy with toxic serpin polymerization (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Lanadelumab: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
 # Lanadelumab
@@ -33,99 +33,63 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Lanadelumab: Serpinopathy with toxic serpin polymerization
+## Lanadelumab: Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Lanadelumab er et monoklonalt antistof mod plasma-kallikrein, som oprindeligt anvendes til forebyggelse af anfald af arveligt angioødem. Forudsigelsen støttes af **5 kliniske forsøg** og **20 publikationer**, herunder et randomiseret placebokontrolleret forsøg.
-
----
+Lanadelumab er et monoklonalt antistof, der hæmmer plasmakallikrein. Lægemidlet er i forvejen markedsført i Danmark. TxGNN-modellen forudsiger, at det kan have effekt ved **serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)**, men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Serpinopathy with toxic serpin polymerization |
+| Forudsagt ny indikation | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
-
-Bemærk: Den forudsagte indikation falder sammen med lægemidlets kerneindikation og er dermed ikke egentlig omplacering af lægemidlet. Indikationen er her registreret som en relation i vidensgrafen. Den danske licenspost indeholder ikke selv indikationstekst.
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi hæmmer lanadelumab plasma-kallikrein (målgen KLKB1). Det er et fuldt humant monoklonalt antistof.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Lanadelumab er kendt som en hæmmer af plasmakallikrein (målprotein: KLKB1), og det virker dermed på kallikrein-bradykinin-systemet.
 
-Ved C1-inhibitormangel (arveligt angioødem type I/II) opstår der ukontrolleret plasma-kallikreinaktivitet. Det giver overdreven dannelse af bradykinin, som forårsager gentagne anfald af hævelse. Ved at hæmme kallikrein rammer lanadelumab direkte dette led i sygdomsmekanismen.
-
-Den meget høje modelscore stemmer derfor overens med den kendte biologi. Der er dog tale om en bekræftelse af den eksisterende anvendelse snarere end opdagelsen af en ny.
-
----
+Der er ikke påvist nogen direkte mekanistisk sammenhæng mellem lanadelumabs virkning og den forudsagte sygdom. Forudsigelsen skyldes sandsynligvis nærhed mellem relaterede proteiner i modellens netværk, især SERPING1 (C1-hæmmer) og andre serpinsygdomme. Lanadelumab hæmmer plasmakallikrein og påvirker ikke ophobning af toksiske serpinpolymerer. Forudsigelsen bør derfor betragtes som et hypotesegenererende modelresultat og ikke som en biologisk begrundet anbefaling.
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Afsluttet | 20 | Åbent multicenterforsøg med sikkerhed, farmakokinetik og effekt hos kinesiske patienter med arveligt angioødem (26 ugers behandling) |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) (SPRING) | Fase 3 | Afsluttet | 21 | Åbent forsøg hos børn på 2 til under 12 år: sikkerhed, farmakokinetik og forebyggelse af anfald |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Fase 3 | Afsluttet | 12 | Åbent forsøg med effekt og sikkerhed hos japanske patienter med type I eller II |
-| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | Ikke angivet | Aktiv, rekrutterer ikke | 155 | Japansk overvågningsundersøgelse efter markedsføring af 300 mg sprøjte ved langtidsbehandling |
-| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | Ikke angivet | Ikke længere tilgængelig | Ikke angivet | Program for udvidet adgang (compassionate use) hos børn med arveligt angioødem og ikke-histaminerg angioødem |
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Lanadelumab versus placebo til forebyggelse af anfald af arveligt angioødem (HELP-forsøget) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Åbent forlængelsesstudie | Allergy | Langtidseffekt og sikkerhed hos patienter ≥12 år (HELP OLE) |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Netværksmetaanalyse | Drugs in R&D | Indirekte sammenligning af langtidsprofylakse (garadacimab, lanadelumab, subkutan C1-INH, berotralstat) |
-| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Kohorte (fase 4) | Advances in Therapy | EMPOWER: vedvarende effekt og sikkerhed i virkelige forhold i op til 36 måneder |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Indirekte sammenligning | J Comp Eff Res | Lanadelumab versus C1-esterasehæmmer hos børn under 12 år |
-| [40637159](https://pubmed.ncbi.nlm.nih.gov/40637159/) | 2025 | Matchet indirekte sammenligning | J Comp Eff Res | Garadacimab versus to doseringsregimer af lanadelumab |
-| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Review | Drugs | Oversigt over lanadelumab ved arveligt angioødem; markant færre anfald end placebo i HELP |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | Første globale godkendelse af lanadelumab |
-| [39655944](https://pubmed.ncbi.nlm.nih.gov/39655944/) | 2024 | Review | Pediatr Allergy Immunol | Arveligt angioødem hos børn: praktisk behandling |
-| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Case | J Allergy Clin Immunol Pract | Effekt af lanadelumab ved erhvervet angioødem med C1-inhibitormangel |
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
----
-
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28106091818 | TAKHZYRO | Injektionsvæske, opløsning, hætteglas | Indikationstekst ikke angivet i licensdata |
 
-Indehaver: Takeda Pharmaceuticals International AG Ireland Branch. Status: gyldig, enkeltstofspræparat.
+## Sikkerhedsovervejelser
 
----
-
-## Sikkerhedsmæssige overvejelser
-
-- **Lægemiddelinteraktioner:** Der er registreret én farmakologisk relation, nemlig til lægemidlets eget mål, kallikrein B1 (KLKB1). Dette er målet for virkningen og ikke en klassisk interaktion med et andet lægemiddel.
+- **Lægemiddelinteraktioner**: Der er registreret én farmakologisk relation til målproteinet kallikrein B1 (KLKB1), som er lanadelumabs målmolekyle. Det er en målbeskrivelse og ikke en klinisk interaktion med et andet lægemiddel.
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
----
-
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger et randomiseret placebokontrolleret forsøg (HELP), flere afsluttede fase 3-forsøg, et langtidsforlængelsesstudie og data fra virkelige forhold, som direkte omhandler sygdommen. Da den forudsagte indikation i det store og hele svarer til den eksisterende anvendelse, handler vurderingen mere om at bekræfte og afgrænse brugen end om en ny anvendelse.
+Forudsigelsen er alene modelbaseret (evidensniveau L5), uden kliniske forsøg eller litteratur og uden en plausibel mekanistisk forbindelse mellem plasmakallikrein-hæmning og toksisk serpinpolymerisering.
 
-**For at komme videre kræves:**
-- Det danske produktresumé med godkendt indikation, advarsler og kontraindikationer, da disse ikke indgår i de indsamlede data
-- Data om virkningsmekanisme fra DrugBank
-- Afklaring af, om den forudsagte indikation reelt adskiller sig fra den allerede godkendte
+**For at komme videre kræves følgende:**
+- En biologisk begrundet hypotese for, hvordan hæmning af plasmakallikrein kunne påvirke serpinpolymerisering
+- Præklinisk evidens (celle- eller dyremodeller) for den forudsagte sygdom
+- Detaljerede data om virkningsmekanisme og produktresumé med advarsler og kontraindikationer til en sikkerhedsvurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

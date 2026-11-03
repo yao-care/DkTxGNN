@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 last_modified_at: 2026-11-03
-description: "Nystatin: forudsagt ny indikation Disease of orbital region (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Nystatin: forudsagt ny indikation Sygdom i orbitalregionen (disease of orbital region) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Nystatin
@@ -33,95 +33,67 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Nystatin: Disease of orbital region
+## Nystatin: Sygdom i orbitalregionen (disease of orbital region)
 {: .text-alpha }
 
-## Sammenfatning
+## Opsummering
 
-Nystatin er et antimykotikum, som i vidensgrafen er registreret med kutan, oral og vulvovaginal candidiasis. Der foreligger ingen godkendelsestekst i den danske registrering. Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (primært oversigtsartikler og laboratorie- eller dyrestudier), som vedrører vulvovaginal candidiasis. Forudsigelsen er i overvejende grad en anvendelse inden for den kendte svampeindikation, ikke egentlig repurposing.
-
----
+Nystatin er et antimykotikum af polyen-typen og markedsføres i Danmark som oral suspension. TxGNN-modellen forudsiger, at nystatin kan have effekt ved **sygdom i orbitalregionen (disease of orbital region)**. Forudsigelsen har dog meget svagt grundlag: der er fundet **1 registreret klinisk forsøg** og **ingen publikationer**, og forsøget undersøger ikke nystatin.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Disease of orbital region |
+| Forudsagt ny indikation | Sygdom i orbitalregionen (disease of orbital region) |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
+| Anbefalet beslutning | Hold |
 
-*Bemærkning om evidensniveau:* Litteraturen omhandler vulvovaginal candidiasis, ikke vulvovaginitis generelt. Ingen af de anførte studier undersøger direkte vulvovaginitis af alle årsager. Evidensniveauet er derfor sat til L5 i overensstemmelse med reglerne.
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
----
+Der foreligger i de data, der er sammenstillet til denne rapport, ingen detaljerede oplysninger om nystatins virkningsmekanisme. Nystatin hører til polyen-antimykotika, og stoffets kendte virkning er rettet mod svampeinfektioner.
 
-## Hvorfor er forudsigelsen rimelig?
+Der er ikke identificeret nogen plausibel mekanistisk sammenhæng mellem nystatin og sygdomme i øjenhulens region. Det eneste tilknyttede forsøg omhandler et andet lægemiddel til en nethindesygdom. Den høje score skyldes sandsynligvis en artefakt i modellens beregninger og ikke et reelt biologisk eller klinisk signal. Der er heller ikke fundet en begrundelse for lokal eller systemisk anvendelse af nystatin i øjenhulen.
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er udarbejdet til denne rapport. Nystatin er et polyen-antimykotikum, og det er alment kendt, at det binder ergosterol i svampens cellemembran, danner porer og dermed får cellen til at lække ioner og dø.
+## Klinisk evidens
 
-Vulvovaginitis skyldes ofte Candida-infektion, og vulvovaginal candidiasis er en af nystatins kendte anvendelser. Forudsigelsen er derfor i store træk en anvendelse, der allerede ligger tæt på den kendte brug. Ved ikke-candidale årsager (bakterielle, trichomonas, atrofiske) forventes nystatin ikke at virke.
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Fase 1 | Rekrutterer | 42 | Fase 1b-dosiseskaleringsstudie af cellebehandlingen ASP7317 ved geografisk atrofi som følge af aldersrelateret makuladegeneration. Studiet omfatter ikke nystatin og omhandler ikke sygdom i orbitalregionen. |
 
-Der bør også bemærkes, at nystatin i litteraturen beskrives som overgået af imidazoler og triazoler som førstevalg ved vulvovaginal candidiasis. Nystatin fremhæves dog som alternativ ved fluconazol-resistent sygdom.
-
----
-
-## Kliniske forsøg
-
-Der er i øjeblikket ingen registrerede kliniske forsøg for vulvovaginitis.
-
----
+Der er ikke registreret EudraCT-numre for dette forsøg i de tilgængelige data.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Oversigtsartikel | Pharmaceutics | Gennemgang af behandling af fluconazol-resistent vulvovaginal candidiasis; nystatin indgår blandt alternativerne |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Oversigtsartikel | BMJ Clinical Evidence | Oversigt over vulvovaginal candidiasis; Candida albicans står for 85-90 % af tilfældene |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Oversigtsartikel | J Womens Health | Borsyre ved recidiverende vulvovaginal candidiasis |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Oversigtsartikel | Drugs | Praktiske overvejelser ved lokal behandling af vulvovaginal candidose |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Klinisk studie | Mycoses | Korrelation mellem in vitro-følsomhed over for fluconazol og nystatin og klinisk resultat ved kompliceret vulvovaginal candidose (287 isolater) |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | Kohorte | Rom J Morphol Embryol | Kliniske og histopatologiske forhold ved candida-vaginitis før lokal behandling med nystatin hos gravide og ikke-gravide |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Cochrane-review | Cochrane Database Syst Rev | Topisk behandling af vaginal candidiasis under graviditet |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | Dyrestudie | BMC Microbiology | Nystatin styrkede immunresponset og beskyttede vaginalepitelet i rottemodel |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Oversigtsartikel | Obstet Gynecol Clin North Am | Nystatin er overgået af imidazoler og triazoler som førstevalg |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Oversigtsartikel | Med Clin North Am | Generel gennemgang af nystatin |
+Der findes i øjeblikket ingen relateret litteratur.
 
----
-
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101460791 | Mycostatin (Paranova Danmark A/S) | Oral suspension | Indikationstekst ikke tilgængelig |
 
-Den registrerede tilladelse omfatter kun oral suspension. Der er ikke fundet en vaginal formulering i de data, der er udarbejdet til denne rapport. Den lokale behandling af vulvovaginitis kræver derfor en anden formulering, end den der er registreret her.
-
----
-
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer registreret i vidensgrafen (ikke mærkningstekst):** binyrebarkinsufficiens, Addisons sygdom, hudatrofi, telangiektasi, kapillærsygdom og hereditær hæmoragisk telangiektasi. Disse er relationer i vidensgrafen og ikke bekræftede kontraindikationer fra produktresuméet.
-- **Lægemiddelinteraktioner:** Der er fundet 100 registrerede interaktioner, men uden angivet alvorsgrad. Blandt de registrerede er ciclosporin, fluconazol, erythromycin, azithromycin, bortezomib, tramadol og sildenafil.
+**Lægemiddelinteraktioner:** Der er registreret 100 mulige interaktioner, men alvorlighedsgraden er ikke klassificeret (niveau "ukendt"). Blandt de registrerede er ciclosporin, fluconazol, erythromycin, azithromycin, tramadol, lorazepam, bortezomib, sildenafil, pravastatin, valsartan og ramipril.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for yderligere sikkerhedsoplysninger, herunder advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Anvendelsen ved vulvovaginitis er i praksis anvendelse ved candidal vulvovaginitis, hvor nystatin er et kendt, om end ikke førstevalgs-, middel. Evidensen består hovedsageligt af oversigtsartikler og laboratorie- eller dyrestudier uden direkte studier af vulvovaginitis, så evidensniveauet er L5. Brug bør begrænses til bekræftet candidal vulvovaginitis (og tilsvarende vulvitis).
+Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5). Det eneste tilknyttede forsøg undersøger et andet lægemiddel til en anden sygdom, der er ingen publikationer, og der er ingen plausibel mekanistisk forbindelse. Forudsigelsen bør derfor ikke forfølges på nuværende tidspunkt.
 
-**For at komme videre kræves:**
-- Bekræftelse af, hvilken godkendt formulering (vaginal) der er tilgængelig i Danmark, og dens godkendte indikation
-- Indikationstekst og sikkerhedsoplysninger fra produktresuméet
-- Mikrobiologisk bekræftelse af Candida før behandling
-- Kontrollerede kliniske studier eller opdaterede retningslinjer, der direkte undersøger nystatin ved vulvovaginitis
+**Før en eventuel videreførelse kræves:**
+- Præklinisk eller klinisk dokumentation, der direkte undersøger nystatin ved sygdom i orbitalregionen
+- En biologisk begrundet hypotese for, hvorfor og via hvilken administrationsvej nystatin skulle have effekt i øjenhulen
+- Data om virkningsmekanisme og en gennemgang af produktresuméets advarsler og kontraindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

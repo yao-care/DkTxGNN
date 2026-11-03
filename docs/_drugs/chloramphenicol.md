@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 last_modified_at: 2026-11-03
-description: "Chloramphenicol: forudsagt ny indikation Diffuse scleroderma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Chloramphenicol: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Chloramphenicol
@@ -33,101 +33,74 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Chloramphenicol: Diffuse scleroderma
+## Chloramphenicol: Diffus sklerodermi (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumé
 
-Chloramphenicol er et bredspektret antibiotikum. I Danmark er det markedsført som øjendråber.
-Der er ingen kliniske forsøg, der direkte undersøger sygdommen, men flere publikationer behandler chloramphenicol-øjendråber ved bakteriel konjunktivitis.
-
----
+Chloramphenicol er et bredspektret antibiotikum. TxGNN-modellen forudsiger, at det kan have effekt ved **diffus sklerodermi (diffuse scleroderma)**, men der er **ingen kliniske forsøg** og kun **4 publikationer** på området. Alle fire er laboratoriestudier af sklerodermifibroblaster og viser ikke en behandlingseffekt af chloramphenicol.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Diffuse scleroderma |
+| Forudsagt ny indikation | Diffus sklerodermi (diffuse scleroderma) |
 | TxGNN-forudsigelsesscore | 0.9965 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen (ikke) rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Chloramphenicol er et antibiotikum, og dets kendte virkning er rettet mod bakterier. Der er ingen kendt mekanisme, hvorved det skulle påvirke den fibrotiske proces ved sklerodermi.
 
-Data om virkningsmekanisme foreligger ikke i de indsamlede data. Chloramphenicol er kendt som et bakteriostatisk bredspektret antibiotikum, der hæmmer den bakterielle 50S-ribosomunderenhed og dermed proteinsyntesen. Det forklarer direkte aktiviteten mod bakterier, som forårsager konjunktivitis.
+De fundne artikler handler om TGF-beta/Smad3-signalering og regulering af kollagengener i fibroblaster fra patienter med sklerodermi. Chloramphenicol optræder sandsynligvis kun, fordi disse studier bruger CAT-reporterassays (chloramphenicol-acetyltransferase) som laboratoriemetode. Det er derfor sandsynligvis en metodologisk artefakt og ikke et terapeutisk signal. Forudsigelsen hviler dermed hovedsageligt på modellens score. Knoglemarvstoksicitet ved chloramphenicol er desuden en betydelig bekymring ved et eventuelt kronisk behandlingsforsøg.
 
-Konjunktivitis ved bakteriel infektion ligger tæt på de infektionssygdomme, som lægemidlet er knyttet til i videnskabsgrafen. Topisk chloramphenicol er allerede i klinisk brug mod konjunktivitis i flere lande, bl.a. Storbritannien. Der er derfor tale om en etableret anvendelse snarere end egentlig repurposing. Debatten om en mulig sammenhæng mellem øjenbehandling med chloramphenicol og aplastisk anæmi er dog ikke afsluttet og skal håndteres.
+## Klinisk evidens
 
----
-
-## Evidens fra kliniske forsøg
-
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret for konjunktivitis.
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Evidensniveauet er sat til L3 på baggrund af publicerede sammenlignende studier og reviews om chloramphenicol-øjendråber ved konjunktivitis. Der er ingen gennemførte fase 3-forsøg i de indsamlede data. Bemærk, at evidensniveauet i dette skøn hviler på publikationer, der direkte handler om konjunktivitis.
-
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Sammenlignende studie | Current Therapeutic Research | Moxifloxacin sammenlignet med chloramphenicol ved bakterielle øjeninfektioner |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Åbent, randomiseret | Acta Ophthalmologica | Klinisk succes 48 % med chloramphenicol mod 93 % med fusidinsyre og 74 % med framycetin i Tanzania; høj in vitro-resistens |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Forebyggelse af neonatal konjunktivitis (ophthalmia neonatorum) med antiseptiske eller antibiotiske midler |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Sammenlignende gennemgang af topiske antibakterielle øjenpræparater |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clinical Pharmacokinetics | Behandling af okulære infektioner med topiske antibakterielle midler |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review/sikkerhed | Drug Safety | Diskussion af mulig sammenhæng mellem okulær chloramphenicol og aplastisk anæmi |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Kommentar | Eye | Brug eller misbrug af topisk chloramphenicol |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Observation | Journal of Hygiene | Chloramphenicol-øjendråber forsinkede symptomer ved klamydiakonjunktivitis hos nyfødte, men podninger forblev positive hos 85 % |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Kommentar | Clinical & Experimental Ophthalmology | Håndkøbssalg af chloramphenicol |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | Præklinisk/in vitro | Arthritis and Rheumatism | Blokade af endogen TGF-beta-signalering hæmmer opreguleret kollagensyntese i sklerodermifibroblaster |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | Præklinisk/in vitro | Arthritis and Rheumatism | Transkriptionel aktivering af COL1A1-genet i dermale fibroblaster ved diffus systemisk sklerose |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | Præklinisk/in vitro | Rheumatology (Oxford) | Konstitutivt fosforyleret Smad3 interagerer med Sp1 og p300 i sklerodermifibroblaster |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | Præklinisk/in vitro | Arthritis and Rheumatism | Elementer i promotorregionen af COL1A1 involveret i opreguleret ekspression ved systemisk sklerose |
 
----
+Ingen af publikationerne undersøger chloramphenicol som behandling.
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107150624 | Cefenicol | Øjendråber, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Tilladelsen er et nationalt præparat med ét aktivt stof (producent: CP-Pharma Handelsgesellschaft mbH). Listen er fuldstændig.
-
----
-
-## Cytotoksicitet
-
-Chloramphenicol er ikke et antineoplastisk middel, så dette afsnit er ikke relevant.
-
----
+Den eneste registrerede tilladelse er en øjendråbe til lokal anvendelse. Der er ikke registreret systemiske formuleringer i de lokale data, og de ville formentlig være nødvendige ved en indikation som sklerodermi.
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC).
+- **Knoglemarvstoksicitet:** Chloramphenicol er forbundet med risiko for knoglemarvspåvirkning, hvilket er en væsentlig begrænsning ved en eventuel ny systemisk anvendelse.
+- **Lægemiddelinteraktioner:** Der er registreret et stort antal interaktioner. De alvorligste (Major) er med **cisaprid** og **naloxegol**. Interaktioner af moderat grad omfatter blandt andet metronidazol, budesonid, jern, aprepitant, balsalazid, eliglustat, nitisinon, repaglinid, rosuvastatin, simvastatin, saxagliptin og sulfonylurinstoffer (glimepirid, glipizid, glibenclamid, chlorpropamid, acetohexamid).
 
-- **Relationer i videnskabsgrafen (ikke mærkningstekst):** Grafen registrerer kontraindikationer ved bl.a. nyresygdom, leversygdom, galdeblæresygdom, trombocytopeni, perifer neuropati, anæmi, aplastisk anæmi, agranulocytose, neutropeni (inkl. medfødte former), akut intermitterende porfyri, optikusneuritis og paroksysmal nattlig hæmoglobinuri. Der er især bekymring for knoglemarvstoksicitet.
-- **Lægemiddelinteraktioner:** 100 interaktioner er fundet. Eksempler på **alvorlige (Major)**: cisaprid og naloxegol. Eksempler på **moderate**: aprepitant, metronidazol, budesonid, jern, glimepirid, glipizid, glibenclamid, chlorpropamid, repaglinid, rosuvastatin, simvastatin, saxagliptin, eliglustat, nitisinon og naldemedin.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Den antibakterielle virkning forklarer direkte effekten ved bakteriel konjunktivitis, og der findes flere sammenlignende studier og reviews. Studierne er dog ældre, viser blandet effekt (bl.a. resistens) og kan ikke erstatte nyere forsøg, ligesom spørgsmålet om aplastisk anæmi stadig er omdiskuteret.
+Forudsigelsen understøttes kun af en høj modelscore. Den tilgængelige litteratur er præklinisk, handler om sklerodermi-biologi og ikke om en effekt af chloramphenicol, og sandsynligvis er navnet kun nævnt på grund af en laboratoriemetode. Sammen med risikoen for knoglemarvstoksicitet giver det ikke grundlag for at gå videre.
 
-**Andre forudsagte indikationer (kort):** Diffus sklerodermi, postinfektiøs vaskulitis, post-bakteriel lidelse, postinfektiøst syndrom, infektiøs uretral striktur, Chagas-kardiomyopati og infektionsrelateret hæmolytisk uræmisk syndrom har kun modelscore uden støttende evidens og anbefales som **Hold** (L5). Ved sklerodermi stammer litteraturhittene sandsynligvis fra laboratoriemetoder, hvor chloramphenicol-acetyltransferase bruges, ikke fra en terapeutisk effekt. Ved infektionsrelateret hæmolytisk uræmisk syndrom er antibiotika generelt ikke anbefalet. Punktat epitelial keratokonjunktivitis (L4 i grundmaterialet) vedrører mikrosporidier, som chloramphenicol ikke forventes at virke på; der findes ingen undersøgelse af selve sygdommen med dette lægemiddel, og den bør betragtes som et forskningsspørgsmål.
+**For at komme videre kræves:**
+- Mekanistisk eller præklinisk evidens for, at chloramphenicol påvirker fibrose eller TGF-beta-signalering ved sklerodermi
+- Mindst ét studie, der direkte undersøger chloramphenicol ved diffus sklerodermi
+- En vurdering af administrationsvej og en risiko-nytte-analyse med fokus på hæmatologisk sikkerhed
+- Oplysninger om virkningsmekanisme og fuld sikkerhedsprofil fra produktresuméet
 
-**For at komme videre skal følgende foreligge:**
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Data om virkningsmekanisme
-- Aktuelle sammenlignende forsøg med nutidig resistensdata
-- Plan for sikkerhedsovervågning, især ved risiko for knoglemarvspåvirkning
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

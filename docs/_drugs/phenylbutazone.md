@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
-description: "Phenylbutazone: forudsagt ny indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Phenylbutazone: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5)."
 ---
 
 # Phenylbutazone
@@ -33,21 +33,23 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Phenylbutazone: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
+## Phenylbutazone: Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
-## Resumé i en sætning
+## Resumé
 
-Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært præparat (oralt pulver, Butagran Equi). Samtidig er lægemidlets alvorlige bivirkninger en betydelig hindring.
+Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver.
+TxGNN-modellen forudsiger, at det kan have effekt ved **kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**,
+men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter forudsigelsen.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Forudsagt ny indikation | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
@@ -56,61 +58,50 @@ Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i 
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Phenylbutazon er en uselektiv hæmmer af COX-1 og COX-2. Det nedsætter dannelsen af prostaglandiner, som er med til at drive inflammation, smerte og hævelse ved leddegigt. Mekanismen er plausibel og i overensstemmelse med lægemidlets historiske kliniske brug. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data, så beskrivelsen bygger på almen farmakologisk viden.
+Data om phenylbutazons detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er udarbejdet til denne rapport. Phenylbutazon tilhører gruppen af NSAID'er, som hæmmer cyklooxygenase (COX) og dermed dæmper inflammation og smerte.
 
-Phenylbutazon har tidligere været anvendt til inflammatoriske ledsygdomme, og ældre studier viser en klinisk effekt. Det gør forudsigelsen biologisk sammenhængende med lægemidlets kendte virkning.
-
-Benefit-risk-forholdet er derimod ugunstigt. Alvorlig toksicitet (agranulocytose, aplastisk anæmi, mave-tarmblødning) har ført til, at lægemidlet er trukket tilbage eller stærkt begrænset til human brug. Sammenlignet med moderne DMARD'er og biologiske lægemidler er det ikke et rimeligt valg.
+Der kan ikke identificeres en mekanistisk sammenhæng mellem COX-hæmning og denne sygdom. Der er tale om et sjældent, medfødt misdannelsessyndrom med udviklingsmæssig og genetisk baggrund, og en COX-hæmmer forventes ikke at korrigere den underliggende defekt. Den høje score er udelukkende en modelberegning uden støtte fra undersøgelser.
 
 ---
 
-## Klinisk forsøgsevidens
+## Kliniske forsøg
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Et udvalg af de mest relevante publikationer (ingen RCT'er fundet; alle er ældre):
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [4903691](https://pubmed.ncbi.nlm.nih.gov/4903691/) | 1969 | Klinisk sammenligning (dobbeltblindet) | Canadian Medical Association Journal | Monophenylbutazon vs. phenylbutazon ved leddegigt; færre symptomer/bivirkninger med monophenylbutazon |
-| [913873](https://pubmed.ncbi.nlm.nih.gov/913873/) | 1977 | Klinisk farmakokinetisk/effektstudie (dobbeltblindet) | J Int Med Res | Doser på 50-400 mg/dag hos 7 patienter; plasmakoncentration sat i relation til effekt |
-| [788739](https://pubmed.ncbi.nlm.nih.gov/788739/) | 1976 | Dobbeltblindet studie | Br J Clin Pharmacol | Plasmakoncentration og terapeutisk effekt hos 7 patienter med leddegigt |
-| [13126544](https://pubmed.ncbi.nlm.nih.gov/13126544/) | 1954 | Klinisk rapport | British Medical Journal | Anvendelse af phenylbutazon ved leddegigt |
-| [13009482](https://pubmed.ncbi.nlm.nih.gov/13009482/) | 1952 | Klinisk studie | California Medicine | 409 patienter med reumatiske sygdomme; suppressiv effekt i en høj andel |
-| [7009135](https://pubmed.ncbi.nlm.nih.gov/7009135/) | 1981 | Review (fenbufen, beslægtet NSAID) | Drugs | Fenbufen sammenlignelig med bl.a. phenylbutazon (300-400 mg) ved leddegigt, men med færre bivirkninger |
-| [6368185](https://pubmed.ncbi.nlm.nih.gov/6368185/) | 1984 | Review | Drugs | Aktuel status for NSAID'er; ingen god evidens for, at de bremser sygdomsprogression |
-| [37855282](https://pubmed.ncbi.nlm.nih.gov/37855282/) | 2024 | Farmakovigilans-kommentar | Endocr Metab Immune Disord Drug Targets | Sikkerhedskontekst for NSAID'er; ikke effektevidens |
+Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ---
 
-## Information om markedet i Danmark
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28104996611 | Butagran Equi (Dopharma Research B.V.) | Oralt pulver | Ikke oplyst i de indsamlede data |
 
+Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.
+
 ---
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er identificeret 236 mulige interaktioner. Blandt de registrerede er størstedelen af moderat sværhedsgrad, bl.a.:
-- Kortikosteroider (hydrocortison, dexamethason, betamethason, triamcinolon, budesonid)
+**Lægemiddelinteraktioner:** Der er registreret 236 interaktioner. Blandt de registrerede er flere af moderat sværhedsgrad, bl.a. med:
+- Kortikosteroider (hydrocortison, dexamethason, betamethason, budesonid, triamcinolon)
 - Acetylsalicylsyre
 - Antidiabetika (metformin, chlorpropamid, glimepirid, saxagliptin, linagliptin)
 - Mesalazin og balsalazid
-- Aprepitant, eliglustat
+- Aprepitant og eliglustat
 
-Linaclotid er klassificeret som mindre alvorlig.
+Linaclotid er registreret med mindre (minor) interaktion.
 
-**Øvrige sikkerhedsforhold fra litteraturen:** Phenylbutazon er forbundet med agranulocytose, aplastisk anæmi og mave-tarmblødning, hvilket har begrænset brugen i human medicin.
+Derudover er der for phenylbutazon rapporteret leverskader og gastrointestinale risici, som bør indgå i enhver vurdering.
 
-Der foreligger ikke data om specifikke advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for yderligere sikkerhedsoplysninger.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
@@ -119,13 +110,14 @@ Der foreligger ikke data om specifikke advarsler og kontraindikationer. Se det g
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen består udelukkende af ældre, små kliniske studier og reviews uden registrerede forsøg. Den alvorlige hæmatologiske og gastrointestinale toksicitet gør benefit-risk-forholdet ugunstigt sammenlignet med nuværende standardbehandling. Det eneste danske præparat er desuden ikke dokumenteret med en human indikation.
+Forudsigelsen bygger alene på en modelberegning (evidensniveau L5) uden kliniske forsøg eller litteratur, og der er ingen plausibel mekanistisk forbindelse mellem COX-hæmning og et medfødt udviklingssyndrom. Sikkerhedsprofilen for phenylbutazon taler yderligere imod at gå videre.
 
-**For at komme videre kræves:**
-- Produktresumé med advarsler og kontraindikationer (kritisk datahul, blokerende for sikkerhedsscreening)
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Moderne kontrollerede forsøg, der sammenligner med nuværende standardbehandling
-- Vurdering af, om en human formulering overhovedet kan godkendes givet toksicitetsprofilen
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanisme (MOA) og en begrundet biologisk hypotese for sygdommen
+- Prækliniske data eller litteratur, som direkte undersøger sygdommen
+- Fuldstændige sikkerhedsoplysninger fra produktresuméet, herunder advarsler og kontraindikationer
+- Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

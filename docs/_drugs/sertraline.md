@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Sertraline: forudsagt ny indikation Schizoid personality disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sertraline: forudsagt ny indikation Skizoid personlighedsforstyrrelse (schizoid personality disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sertraline
@@ -33,94 +33,77 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Sertraline: Schizoid personality disorder
+## Sertraline: Skizoid personlighedsforstyrrelse (schizoid personality disorder)
 {: .text-alpha }
 
 ## Opsummering
 
-Sertralin er en selektiv serotonin-genoptagelseshæmmer (SSRI), som oprindeligt anvendes til angstlidelser, obsessiv-kompulsiv lidelse (OCD), posttraumatisk stresslidelse, social fobi og dysthymi.
-
----
+Sertralin er en selektiv serotonin-genoptagshæmmer (SSRI), der anvendes som antidepressivt og angstdæmpende lægemiddel. TxGNN-modellen forudsiger, at sertralin kan have effekt ved **skizoid personlighedsforstyrrelse (schizoid personality disorder)**. Evidensen er meget svag: der er **ingen kliniske forsøg** og kun **1 publikation**, som ikke handler direkte om denne sygdom.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Schizoid personality disorder |
+| Forudsagt ny indikation | Skizoid personlighedsforstyrrelse (schizoid personality disorder) |
 | TxGNN-forudsigelsesscore | 0.9993 |
-| Evidensniveau | L5 (baseret på RCT-litteratur om panikangst med/uden agorafobi; bør verificeres i fuldtekst) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Data om sertralins detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Sertralin tilhører SSRI-gruppen, som øger serotoninniveauet i synapsen ved at hæmme genoptagelsen.
 
-Der foreligger i de indsamlede data ingen detaljerede oplysninger om virkningsmekanisme. Sertralin er en SSRI, og dens effekt ved flere angstlidelser er veldokumenteret. Mekanistisk er det rimeligt, at serotonerg modulering kan dæmpe frygt- og undgåelsesreaktioner ved agorafobi.
+Teoretisk kan serotonerg påvirkning have betydning for symptomer som social tilbagetrækning og afflader affekt, som ses ved skizoid personlighedsforstyrrelse. Dette er imidlertid en hypotese baseret på en grafbaseret modelforudsigelse. Der foreligger ingen kliniske data, som understøtter en sådan effekt. Den høje score viser alene modellens forudsigelse og er ikke et bevis for klinisk virkning.
 
-Agorafobi optræder ofte sammen med panikangst, og sertralin er allerede et etableret behandlingsvalg ved panikangst. Litteraturen omfatter blandt andet et dobbeltblindt multicenterforsøg (PMID 9734541), sammenlignende RCT'er mod imipramin og alprazolam samt nyere netværksmetaanalyser.
+## Klinisk evidens fra forsøg
 
-Forbehold: Evidensen gælder panikangst med eller uden agorafobi, ikke agorafobi alene. De foreliggende data viser ikke et dedikeret fase 3-RCT for agorafobi som selvstændig diagnose. Forudsigelsen er derfor tæt på eksisterende anvendelsesområder snarere end en helt ny anvendelse.
-
----
-
-## Evidens fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT00182533](https://clinicaltrials.gov/study/NCT00182533) | Fase 4 | Afsluttet før tid (terminated) | 170 | Sertralin ved generaliseret social fobi med komorbiditet. Relevant for angst og undgåelse, men ikke specifikt for agorafobi |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | Ikke angivet | Ukendt | 1 | Psykoanalytisk behandling af autismespektrumforstyrrelse. Ikke relevant for sertralins effekt ved agorafobi |
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret for denne forudsagte indikation.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [35045991](https://pubmed.ncbi.nlm.nih.gov/35045991/) | 2022 | Systematisk review og netværksmetaanalyse af RCT'er | BMJ | Lægemiddelbehandling af panikangst med/uden agorafobi; sammenligning af SSRI'er |
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Netværksmetaanalyse | Cochrane Database Syst Rev | Farmakologiske behandlinger af panikangst hos voksne |
-| [9734541](https://pubmed.ncbi.nlm.nih.gov/9734541/) | 1998 | RCT (dobbeltblindt, multicenter) | Am J Psychiatry | Effekt og sikkerhed af sertralin ved panikangst |
-| [9819070](https://pubmed.ncbi.nlm.nih.gov/9819070/) | 1998 | Multicenterforsøg | Arch Gen Psychiatry | Sertralin med fleksibel dosis ved panikangst |
-| [14971862](https://pubmed.ncbi.nlm.nih.gov/14971862/) | 2003 | RCT | Ann Clin Psychiatry | Imipramin vs. sertralin ved panikangst, 24 uger |
-| [16053461](https://pubmed.ncbi.nlm.nih.gov/16053461/) | 2005 | RCT/sammenlignende forsøg | Bosn J Basic Med Sci | Sertralin vs. alprazolam ved panikangst med og uden agorafobi |
-| [15096081](https://pubmed.ncbi.nlm.nih.gov/15096081/) | 2004 | Dobbeltblindt forsøg | J Clin Psychiatry | Sertralin vs. paroxetin ved panikangst (non-inferioritet) |
-| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | Review | Int Clin Psychopharmacol | SSRI'er er bedre end placebo ved panikangst og agorafobi |
-| [11722304](https://pubmed.ncbi.nlm.nih.gov/11722304/) | 2001 | Langtidsstudie | Acta Psychiatr Scand | Langtidseffekt, tilbagefaldsforebyggelse og sikkerhed af sertralin ved panikangst |
-| [36573969](https://pubmed.ncbi.nlm.nih.gov/36573969/) | 2022 | Review | JAMA | Oversigt over angstlidelser |
+| [19794312](https://pubmed.ncbi.nlm.nih.gov/19794312/) | 2009 | Multimodal behandlingsrapport | International Clinical Psychopharmacology | 30 patienter med tvangsmæssig overspisning (binge-eating disorder) blev randomiseret til tre 6-måneders behandlinger (kost, kognitiv adfærdsterapi og sertralin i forskellige kombinationer). Studiet omhandler ikke skizoid personlighedsforstyrrelse og er kun indirekte relevant. |
 
----
-
-## Markedsinformation for Danmark
+## Information om markedet i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107154424 | Sertralin "2care4" (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
----
-
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/risikotilstande fra vidensgrafen** (ikke fra produktresuméets tekst): epilepsi, bipolar lidelse, større affektiv lidelse, leversygdom, galdeblæresygdom, blødningsforstyrrelser, malignt neuroleptikasyndrom, SIADH (inkl. nefrogent syndrom med uhensigtsmæssig antidiurese) og serotoninsyndrom.
-- **Lægemiddelinteraktioner:** 455 interaktioner er registreret. Blandt de alvorlige (Major) er bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron og phentermin. Moderate interaktioner omfatter bl.a. acetylsalicylsyre, morfin, clarithromycin, famotidin, loperamid, glimepirid og chlorpropamid.
+**Lægemiddelinteraktioner:** I alt 455 interaktioner er registreret. Blandt de vigtigste med alvorlighedsgraden "Major" er:
+- Bupropion
+- Lorcaserin
+- Diethylpropion
+- Dolasetron
+- Eliglustat
+- Palonosetron
+- Phentermin
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+Der findes desuden en lang række interaktioner af moderat grad, bl.a. med famotidin, loperamid, morfin, acetylsalicylsyre, clarithromycin, glimepirid og chlorpropamid.
 
----
+Der er desuden registreret en række tilstande, hvor sertralin er forbundet med forsigtighed eller kontraindikation, herunder epilepsi, bipolar lidelse, leversygdom, galdeblæresygdom, blødningsforstyrrelser, malignt neuroleptikasyndrom, uhensigtsmæssig ADH-sekretion og serotoninsyndrom. Disse oplysninger stammer ikke fra produktresuméet.
+
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med forbehold)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Sertralin har robust RCT-evidens ved panikangst med eller uden agorafobi, og mekanismen er plausibel. Evidensen gælder dog ikke agorafobi som selvstændig diagnose, og de to registrerede forsøg er ikke direkte afgørende.
+Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg og uden litteratur, der direkte omhandler skizoid personlighedsforstyrrelse. Evidensniveauet er derfor L5.
 
 **For at komme videre kræves:**
-- Verifikation af evidensniveauet i fuldtekst, herunder agorafobi-specifikke delanalyser
-- Gennemgang af produktresuméet (indikationer, advarsler, kontraindikationer) for det danske produkt
-- Oplysninger om virkningsmekanisme fra DrugBank
-- Plan for sikkerhedsmonitorering, især ved interaktioner med serotonerge lægemidler og ved risikogrupper (epilepsi, bipolar lidelse, blødningsrisiko, hyponatriæmi, børn og unge)
+- Studier eller systematiske gennemgange, der direkte undersøger sertralin ved skizoid personlighedsforstyrrelse
+- Data om virkningsmekanisme og biologisk sammenhæng med sygdommen
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Et sikkerhedsovervågningsprogram, hvis et klinisk studie planlægges
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

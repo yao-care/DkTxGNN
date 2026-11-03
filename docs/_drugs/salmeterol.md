@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: forudsagt ny indikation Respiratory malformation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Salmeterol: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Salmeterol
@@ -33,74 +33,66 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Salmeterol: Respiratory malformation
+## Salmeterol: Luftvejsmisdannelse (respiratory malformation)
 {: .text-alpha }
 
-## Resumé
+## Opsummering
 
-Salmeterol er en langtidsvirkende beta2-agonist (LABA), der oprindeligt anvendes til behandling af astma (allergisk og intrinsisk) og lungeemfysem.
-Forudsigelsen er tæt på de eksisterende indikationer og er mere en udvidelse inden for samme sygdomsfamilie end egentlig nyanvendelse.
+Salmeterol er en langtidsvirkende beta-2-agonist (bronkodilatator), som er markedsført i Danmark som inhalationspulver.
+TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **luftvejsmisdannelse (respiratory malformation)**.
+Forudsigelsen understøttes dog kun svagt: der er **2 kliniske forsøg** og **8 publikationer** i de data, der er indsamlet til denne rapport, men ingen af dem undersøger luftvejsmisdannelser direkte.
 
 ---
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Respiratory malformation |
+| Forudsagt ny indikation | Luftvejsmisdannelse (respiratory malformation) |
 | TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Salmeterol er dog kendt som en langtidsvirkende beta2-adrenoceptoragonist. Den afslapper de glatte muskler i luftvejene og giver bronkodilatation. Effekten ved astma og emfysem er veldokumenteret, og mekanistisk kan den være relevant for bronkitis.
+Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Salmeterol tilhører gruppen af langtidsvirkende beta-2-agonister, som afslapper glat muskulatur i luftvejene.
 
-Kronisk bronkitis er en KOL-fænotype og ligger tæt på de oprindelige respiratoriske indikationer. En lille randomiseret undersøgelse (PMID 15970448) peger desuden på, at salmeterol kan påvirke slimhindeclearance og hostclearance hos patienter med kronisk bronkitis. Flere fase 3-forsøg har inkluderet KOL-/kronisk bronkitis-patienter og testet salmeterol eller kombinationen salmeterol/fluticason.
-
-Forudsigelsen bør derfor forstås som en udvidelse inden for den samme sygdomsfamilie. Den ligger tæt på eksisterende klinisk praksis.
+Sammenhængen mellem salmeterol og luftvejsmisdannelser er indirekte og svag. Der er beskrevet nedsat mucociliær funktion ved KOL og primær ciliedyskinesi (PMID 22608352, 20703071), og salmeterol kan muligvis øge cilieslagfrekvensen. Det er imidlertid ikke dokumenteret, at dette gavner strukturelle misdannelser i luftvejene. De to registrerede forsøg handler om cystisk fibrose og astma under graviditet, og størstedelen af litteraturen omhandler KOL og astma. Forudsigelsen er derfor primært beregningsbaseret.
 
 ---
 
-## Kliniske forsøg
+## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
+Ingen af forsøgene undersøger luftvejsmisdannelser direkte.
+
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Fase 3 | Afsluttet | 130 | Salmeterol/fluticason 50/500 mikrogram mod placebo: effekt på inflammation i bronkierne ved KOL |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Fase 3 | Afsluttet | 584 | Tiotropium, salmeterol og placebo over 6 måneder ved KOL: bronkodilatation og sikkerhed |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Fase 3 | Afsluttet | 122 | Langtidsbehandling (56 uger) med salmeterol/fluticason ved KOL, herunder kronisk bronkitis og emfysem |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Fase 3 | Afsluttet | 741 | Arformoterol mod placebo og aktiv kontrol (sandsynligvis salmeterol) ved KOL |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Fase 3 | Afsluttet | 799 | 12 måneders sikkerhedsundersøgelse af arformoterol ved KOL; salmeterol er sandsynligvis aktiv komparator |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Fase 3 | Afsluttet | 150 | Sammenligning af to lægemidler ved KOL; designet kan ikke bekræftes ud fra data |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Fase 2 | Afsluttet | 457 | Dosisfinding for fluticason/formoterol med Advair (fluticason/salmeterol) som reference ved KOL |
-| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Fase 4 | Ukendt | 20 | Forneblet arformoterol mod salmeterol-pulverinhalator ved KOL; lille undersøgelse |
-| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | Ikke angivet | Afbrudt | 20 | Biomarkører i fremkaldt sputum ved KOL; eksplorativ og underdimensioneret |
+| [NCT00005110](https://clinicaltrials.gov/study/NCT00005110) | Ikke angivet | Suspenderet | Ikke angivet | Langtidseffekt af salmeterol sammenlignet med albuterol eller placebo ved cystisk fibrose; inhalation to gange dagligt i 6 måneder |
+| [NCT01681979](https://clinicaltrials.gov/study/NCT01681979) | Ikke angivet | Afsluttet | 1 | Astmabehandling under graviditet og hyppighed af uønskede graviditetsudfald; vedrører sikkerhed for fosteret, ikke behandling af misdannelse |
 
 ---
 
-## Litteratur
+## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | RCT | Pulm Pharmacol Ther | Effekt af salmeterol mod placebo på slimhinde- og hostclearance ved kronisk bronkitis (n=14) |
-| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | RCT | Thorax | Salmeterol/fluticason og luftvejsinflammation ved KOL |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Klinisk undersøgelse | Chest | Fluticason 250/salmeterol 50 i Diskus-inhalator ved KOL: effekt og sikkerhed |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Metaanalyse | Respir Res | Salmeterol sammenlignet med placebo/sædvanlig behandling ved KOL: forbedrede kliniske udfald |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | Salmeterol/fluticason ved KOL, herunder godkendelse ved KOL med kronisk bronkitis |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Klinisk undersøgelse | Ther Adv Respir Dis | Arformoterol og salmeterol ved KOL: 1-års sikkerhed og tolerans |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Kohorte | Curr Med Res Opin | Sundhedsforbrug og omkostninger ved kronisk bronkitis ved start på fluticason/salmeterol |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Åben undersøgelse | Clin Ther | Inhaleret salmeterol sammenlignet med oral theophyllin ved mild til moderat KOL |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Retningslinje | Basic Clin Pharmacol Toxicol | Finske retningslinjer for diagnostik og farmakoterapi af stabil KOL |
-| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | Langtidsvirkende beta2-agonister og risiko for suboptimal antiinflammatorisk effekt |
+| [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | Randomiseret klinisk forsøg | JAMA Pediatrics | Inhalerede kortikosteroider alene og sammen med langtidsvirkende β2-agonister ved nedsat lungefunktion hos børn født for tidligt |
+| [15293609](https://pubmed.ncbi.nlm.nih.gov/15293609/) | 2004 | Randomiseret klinisk forsøg | European Respiratory Journal | Effekt af salmeterol på ventilationsrespons under anstrengelse ved KOL (23 patienter, dobbeltblindet crossover) |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Oversigtsartikel | Journal of Asthma | Budesonid/formoterol-inhalation ved vedvarende astma |
+| [26229457](https://pubmed.ncbi.nlm.nih.gov/26229457/) | 2015 | Oversigtsartikel | Int J Chron Obstruct Pulmon Dis | Dobbelt bronkodilatation med indacaterol/glycopyrronium ved KOL |
+| [22608352](https://pubmed.ncbi.nlm.nih.gov/22608352/) | 2012 | Kohortestudie | Respiratory Medicine | Nedsat cilieslagfrekvens i næsecilier hos patienter med KOL |
+| [30021361](https://pubmed.ncbi.nlm.nih.gov/30021361/) | 2018 | Præklinisk | Biomedicine & Pharmacotherapy | Timianekstrakt øger cilieslagfrekvensen i celler fra KOL-patienter |
+| [37327273](https://pubmed.ncbi.nlm.nih.gov/37327273/) | 2023 | Case report | Medicine | Pulmonal aspergillose behandlet med omalizumab |
+| [20703071](https://pubmed.ncbi.nlm.nih.gov/20703071/) | 2010 | Case report | Arerugi | Primær ciliedyskinesi, der tidligere var behandlet som astma |
 
 ---
 
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -110,36 +102,25 @@ Forudsigelsen bør derfor forstås som en udvidelse inden for den samme sygdomsf
 
 ## Sikkerhedsovervejelser
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** I de indsamlede data er der registreret 854 interaktioner. Blandt de viste er den eneste med alvorlighedsgrad "Major" clarithromycin. Flere antidiabetika (fx acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin) og epinephrin er klassificeret som "Moderate", mens kortikosteroider (hydrocortison, triamcinolon, dexamethason, beclomethason, betamethason, budesonid) er klassificeret som "Minor".
 
-**Lægemiddelinteraktioner:** Der er registreret 854 mulige interaktioner. Blandt de viste er den vigtigste:
-- **Alvorlig (Major):** clarithromycin
-- **Moderat:** blandt andre acarbose, famotidin, epinephrin, albiglutid, alogliptin, canagliflozin, chlorpropamid, dapagliflozin, dulaglutid og empagliflozin (mange er antidiabetika, hvilket er relevant på grund af risikoen for hyperglykæmi)
-- **Mindre:** kortikosteroider såsom hydrocortison, dexamethason, budesonid og beclomethason
-
-**Sygdomme, hvor lægemidlet er markeret som kontraindiceret i videnbasen** (ikke fra produkttekst): hypertension, langt QT-syndrom, epilepsi, hyperglykæmi, hypopituitarisme/hypofysesvigt (herunder flere genetiske former), Kallmanns syndrom, thymussygdom og osteoporose.
-
-**Vigtig forholdsregel ved astma:** Cochrane-oversigter (f.eks. PMID 30521673) peger på øget risiko for alvorlige bivirkninger ved regelmæssig LABA-behandling. Salmeterol bør derfor kombineres med inhalationssteroid og ikke gives som monoterapi ved astma.
+Der foreligger ikke tekst fra produktresuméet om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Flere afsluttede fase 3-forsøg og en række publikationer understøtter salmeterol og salmeterol/fluticason ved KOL og kronisk bronkitis. Evidensen er stærk (L1), men anvendelsen ligger tæt på eksisterende indikationer og er ikke ny.
+Der findes ingen kliniske forsøg eller publikationer, som direkte undersøger salmeterol ved luftvejsmisdannelse, og evidensniveauet er derfor L5. Den høje modelscore (0,9991) er alene en beregningsbaseret forudsigelse, og den mekanistiske sammenhæng er indirekte og svag.
 
 **For at komme videre kræves:**
-- Gennemgang af produktresuméet for Airflusal Forspiro (indikationer, advarsler, kontraindikationer), da disse data mangler
-- Data om virkningsmekanisme fra DrugBank
-- Afklaring af, om bronkitis/KOL er omfattet af den danske godkendte indikation
-- Verifikation af designet i de forsøg, hvor salmeterol kun er sandsynlig komparator (f.eks. NCT00269126 og NCT00064402)
-- Plan for sikkerhedsovervågning, herunder kardiovaskulære risici, QT-forlængelse og interaktion med CYP3A4-hæmmere såsom clarithromycin
+- Data om virkningsmekanisme (MOA) og en begrundet biologisk sammenhæng mellem β2-agonisme og luftvejsmisdannelser
+- Studier, der direkte undersøger salmeterol hos patienter med luftvejsmisdannelse
+- Gennemgang af produktresuméet for advarsler og kontraindikationer samt en vurdering af interaktionsrisici (bl.a. clarithromycin)
+- Afklaring af relevante administrationsveje og patientgrupper
 
----
-
-*Øvrige forudsigelser (respiratorisk misdannelse, Rienhoffs syndrom, astmarelaterede dispositionstræk og atopisk eksem) har enten ingen eller kun indirekte evidens (L4–L5) og vurderes som "Hold". Obstruktiv lungesygdom og astma er allerede godkendte anvendelsesområder.*
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

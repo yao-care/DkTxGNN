@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 689
-evidence_level: L1
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone: forudsagt ny indikation Breast fibrocystic disease (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Progesterone: forudsagt ny indikation Fibrocystisk brystsygdom (breast fibrocystic disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,14 @@ Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 
 </div>
 
-## Progesterone: Breast fibrocystic disease
+## Progesterone: Fibrocystisk brystsygdom (breast fibrocystic disease)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Progesteron er et naturligt kvindeligt kønshormon, der oprindeligt anvendes ved endometriose, endometriecancer, postmenopausal osteoporose og postmenopausal atrofisk vaginitis.
-Forsøgene undersøger primært østrogenbehandling og kun indirekte progesteron.
+Progesteron er et naturligt kvindeligt kønshormon, som i Danmark er markedsført som vagitorier.
+TxGNN-modellen forudsiger, at det kan have effekt ved **fibrocystisk brystsygdom (breast fibrocystic disease)**.
+Der er **ingen kliniske forsøg** og **20 publikationer** i de indsamlede data, men ingen af dem er interventionsstudier med progesteron ved denne sygdom. Evidensen er derfor indirekte.
 
 ---
 
@@ -48,60 +49,51 @@ Forsøgene undersøger primært østrogenbehandling og kun indirekte progesteron
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Breast fibrocystic disease |
+| Forudsagt ny indikation | Fibrocystisk brystsygdom (breast fibrocystic disease) |
 | TxGNN-forudsigelsesscore | 0.9998 |
-| Evidensniveau | L1 efter skemaets formelle regler, men se bemærkning nedenfor |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
-
-**Bemærkning om evidensniveau:** Evidensen er formelt vurderet som L1 i de data, der ligger til grund for rapporten. Det er dog kun ét afsluttet fase 3-forsøg (NCT00946192), og det undersøger østrogen, ikke progesteron. Evidensen for progesteron specifikt er derfor svagere, end niveauet antyder.
+| Anbefalet beslutning | Hold |
 
 ---
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige. Progesteron virker dog som kendt via progesteronreceptorer i livmoderslimhinden. Det omdanner proliferativ slimhinde til sekretorisk slimhinde, og når hormonet fjernes, udløses afstødning (bortfaldsblødning).
+Der foreligger ingen detaljerede data om progesterons virkningsmekanisme i de data, der er indsamlet til denne rapport. Progesteron virker som hormon via progesteronreceptorer.
 
-Derfor bruges progesteron både diagnostisk (progesteron-udfordringstest ved amenoré) og terapeutisk til at udløse bortfaldsblødning og beskytte endometriet, når slimhinden er påvirket af østrogen. Litteraturen beskriver oral mikroniseret progesteron i endokrinologien (PMID 38652231). Amenoré er derfor tættere på en etableret anvendelse end på en egentlig ny anvendelse.
+Fibrocystiske forandringer i brystet er hormonelt drevne. Det er blevet foreslået, at et relativt progesteronunderskud eller østrogendominans bidrager til øget celleproliferation (bl.a. Vorherr 1986, PMID 3511705; Brkić et al. 2018, PMID 31168213, som undersøgte østradiol/progesteron-forholdet). Hypotesen er, at progesteron kan modvirke østrogendrevet proliferation i brystvæv.
 
-Fordi progesteron allerede bruges ved hormonfølsomme tilstande i livmoderen (endometriose), er mekanismen i overensstemmelse med dets kendte gynækologiske rolle.
+Det er dog kun en hypotese. De fundne artikler er hovedsageligt patofysiologiske og epidemiologiske oversigter samt studier af p-piller. Der er ikke identificeret interventionsstudier med progesteron ved fibrocystisk brystsygdom.
 
 ---
 
-## Evidens fra kliniske forsøg
+## Klinisk evidens
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Fase 3 | Afsluttet | 121 | Unge atleter med udeblevne menstruationer; transdermalt eller oralt østrogen vs. intet østrogen, effekt på knogletæthed og hormoner. Progesterons bidrag er uklart |
-| [NCT00088153](https://clinicaltrials.gov/study/NCT00088153) | Fase 2/3 | Afsluttet | 110 | Anorexia nervosa hos unge piger; østrogens effekt på knoglemasse. Indirekte relevans for progesteron |
-| [NCT03740204](https://clinicaltrials.gov/study/NCT03740204) | Fase 2 | Aktiv, ikke rekrutterende | 120 | Transdermalt østradiol med cyklisk progesteron vs. placebo ved spiseforstyrrelser; fokus på kognition og belønning |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Fase 2 | Afsluttet | 29 | Hjerte-kar-risiko og inflammation hos unge kvinder med funktionel hypothalamisk amenoré |
-
-Ingen af forsøgene tester progesteron alene mod amenoré.
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ---
 
 ## Litteraturevidens
 
-Kun et udvalg af de mest relevante publikationer er vist. De fleste er oversigtsartikler.
+Tabellen viser de mest relevante publikationer. Ingen af dem er et interventionsstudie med progesteron ved sygdommen.
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [38652231](https://pubmed.ncbi.nlm.nih.gov/38652231/) | 2024 | Oversigtsartikel | Rev Endocr Metab Disord | Diagnostisk og terapeutisk brug af oral mikroniseret progesteron i endokrinologien |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Oversigtsartikel | Rev Endocr Metab Disord | Hormonelle behandlinger af endometriose og det endokrine grundlag |
-| [33716979](https://pubmed.ncbi.nlm.nih.gov/33716979/) | 2021 | Oversigtsartikel | Front Endocrinol | Årsager, symptomer og behandling ved for tidlig ovarieinsufficiens |
-| [36653588](https://pubmed.ncbi.nlm.nih.gov/36653588/) | 2023 | Oversigtsartikel | Reprod Sci | Metoder til reparation af skadet endometrium (bl.a. amenoré ved intrauterine sammenvoksninger) |
-| [18756412](https://pubmed.ncbi.nlm.nih.gov/18756412/) | 2008 | Oversigtsartikel | Semin Reprod Med | Intrauterine adhærencer (Ashermans syndrom) |
-| [8629565](https://pubmed.ncbi.nlm.nih.gov/8629565/) | 1996 | Oversigtsartikel | Am Fam Physician | Udredning af amenoré |
-| [22283375](https://pubmed.ncbi.nlm.nih.gov/22283375/) | 2012 | Oversigt | Gynecol Endocrinol | Neuroendokrin kontrol af ægløsning og hypothalamisk amenoré |
-| [28257537](https://pubmed.ncbi.nlm.nih.gov/28257537/) | 2017 | Oversigt | South Med J | Primær ovarieinsufficiens og hormonerstatning |
-
-Der er ingen randomiserede kontrollerede forsøg blandt de indhentede publikationer.
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Oversigtsartikel | Am J Obstet Gynecol | Patofysiologi præget af østrogendominans og progesteronmangel; øget brystkræftrisiko to- til firedobbelt |
+| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Oversigtsartikel | J Reprod Med | Gennemgang af østrogens og progesterons betydning for brystsygdom |
+| [3902125](https://pubmed.ncbi.nlm.nih.gov/3902125/) | 1985 | Oversigtsartikel | Breast Cancer Res Treat | Epidemiologi og endokrinologi ved godartet brystsygdom |
+| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Oversigtsartikel | Fertil Steril | P-piller synes at beskytte mod de fleste former for godartet brystsygdom |
+| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Oversigtsartikel | Virchows Arch | Apokrine forandringer i brystet |
+| [41438397](https://pubmed.ncbi.nlm.nih.gov/41438397/) | 2025 | Tværsnitsstudie | Int J Reprod Biomed | Sammenhæng mellem fibrocystisk brystsygdom og PCOS-fænotyper |
+| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Sammenlignende studie | Acta Clin Croat | Rolle af E2/P-forholdet i sen lutealfase ved fibrocystisk brystsygdom (50 kvinder vs. 40 kontroller) |
+| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Randomiseret, dobbeltblindet forsøg | Breast Dis | Effekt af metformin (ikke progesteron) på fibrocystiske forandringer |
+| [22103710](https://pubmed.ncbi.nlm.nih.gov/22103710/) | 2012 | Observationsstudie | Gynecol Endocrinol | Fibrocystisk brystsygdom hos kvinder med PCOS og hormonelle parametre |
+| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Observationsstudie | Eur J Endocrinol | Skjoldbruskkirtelhormoner ved fibrocystisk brystsygdom |
 
 ---
 
-## Information om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -111,44 +103,25 @@ Der er ingen randomiserede kontrollerede forsøg blandt de indhentede publikatio
 
 ## Sikkerhedsovervejelser
 
-**Sygdomme, hvor vidensgrafen angiver kontraindikation** (ikke hentet fra produktresuméet): forhøjet blodtryk, leversvigt og leversygdom, epilepsi, angst og neurotiske lidelser, dysthymi, porfyri, nyresygdom, galdeblæresygdom, hyperglykæmi og diabetes (inkl. diabetisk ketoacidose), hypothyreose, osteoporose, systemisk lupus erythematosus, astma, stofmisbrug/afhængighed, hypertriglyceridæmi og humoral hyperkalcæmi ved malignitet.
+- **Lægemiddelinteraktioner:** Der er registreret 187 interaktioner i de indsamlede data. De viste er af moderat sværhedsgrad og omfatter primært antidiabetika, bl.a. metformin, pioglitazon, acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, glimepirid, repaglinid, chlorpropamid, semaglutid, liraglutid, dulaglutid, albiglutid samt insulin (aspart, degludec, detemir). Desuden er aprepitant og clarithromycin nævnt.
 
-**Lægemiddelinteraktioner:** I alt 187 interaktioner er registreret. De viste er alle af moderat grad og omfatter primært antidiabetika, f.eks. metformin, pioglitazon, acarbose, alogliptin, empagliflozin, dapagliflozin, canagliflozin, glimepirid, repaglinid, semaglutid, liraglutid og insuliner. Desuden er aprepitant og clarithromycin nævnt.
-
-Officielle advarsler og kontraindikationer fra produktresuméet er ikke indgået i datagrundlaget. Se det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinformation.
-
----
-
-## Øvrige forudsagte indikationer (kort)
-
-| Forudsagt indikation | Evidensniveau | Anbefaling |
-|------|------|------|
-| Brystfibrocystisk sygdom | L4 | Forskningsspørgsmål |
-| Benign mammær dysplasi | L4 | Forskningsspørgsmål |
-| Cervikal endometriose | L4 | Forskningsspørgsmål |
-| Endometriose i septum rectovaginale og vagina | L4 | Forskningsspørgsmål |
-| Endometriose i hudar | L4 | Forskningsspørgsmål |
-| Bilateral nyrehypoplasi / nyrehypoplasi | L5 | Hold |
-| Blunt duct adenosis i brystet | L5 | Hold |
-| Apokrin adenose i brystet | L5 | Hold |
-
-Forudsigelserne om nyrehypoplasi stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ---
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Progesterons brug ved amenoré er veletableret i litteraturen og mekanistisk rimelig. De kliniske forsøg undersøger dog hovedsageligt østrogenbehandling, og der findes ingen direkte randomiserede data for progesteron alene. Der mangler desuden et sikkerhedsgrundlag fra produktresuméet.
+Forudsigelsen bygger på en plausibel hormonel hypotese, men der er hverken kliniske forsøg eller publikationer, som direkte undersøger progesteron som behandling af fibrocystisk brystsygdom. Evidensniveauet er derfor L5.
 
 **For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet for Amelgen (advarsler, kontraindikationer, godkendt indikation), da dette datagab blokerer sikkerhedsscreeningen
-- Data om virkningsmekanisme (f.eks. fra DrugBank)
-- Vurdering af administrationsvej: det registrerede produkt er et vaginalt præparat, mens litteraturen om amenoré primært omhandler oral mikroniseret progesteron
-- Målrettet gennemgang af progesteronspecifikke forsøg ved amenoré
-- Hensyn til kontraindikationer og interaktioner, især hos patienter med diabetes, lever- eller nyresygdom og hypertension
+- Systematisk litteratursøgning efter interventionsstudier med progesteron (oralt, vaginalt eller topisk) ved fibrocystisk brystsygdom
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
+- Hvis hypotesen fastholdes: et pilotstudie eller randomiseret forsøg med relevante effektmål (brystsmerter, cystedannelse) og overvågning af brystsikkerhed
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

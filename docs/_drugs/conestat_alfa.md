@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Conestat alfa"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
 last_modified_at: 2026-11-03
-description: "Conestat Alfa: forudsagt ny indikation Serpinopathy with toxic serpin polymerization (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Conestat Alfa: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
 # Conestat Alfa
@@ -33,63 +33,38 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Conestat Alfa: Serpinopathy with toxic serpin polymerization
+## Conestat Alfa: Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
-## Kort resumé
+## Opsummering
 
-Conestat alfa er en rekombinant human C1-esterasehæmmer, som erstatter det manglende eller dysfunktionelle C1-hæmmerprotein.
-
----
+Conestat alfa er et rekombinant C1-esterasehæmmerprotein, som er registreret og markedsført i Danmark. Den TxGNN-model, der ligger til grund for rapporten, forudsiger, at lægemidlet kan have effekt ved **serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization)**. Der er **ingen kliniske forsøg og ingen publikationer**, som understøtter denne retning, så forudsigelsen er udelukkende beregningsbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Serpinopathy with toxic serpin polymerization |
+| Forudsagt ny indikation | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Fortsæt med forholdsregler |
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Conestat alfa er en rekombinant human C1-esterasehæmmer (C1-INH), der erstatter det manglende eller dysfunktionelle C1-INH-protein. Dermed genoprettes reguleringen af komplementets C1-led og kontakt-/kallikrein-kinin-systemet, og den bradykininmedierede hævelse (angioødem) mindskes.
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen. Conestat alfa er en rekombinant C1-esterasehæmmer (C1-INH), og C1-INH tilhører serpinfamilien (serinproteasehæmmere). Forudsigelsen afspejler sandsynligvis denne delte serpinbiologi.
 
-Mekanismen svarer direkte til sygdommens årsag, og de tilgængelige undersøgelser er i overensstemmelse hermed. Bemærk, at der i denne sammenhæng ikke er tale om en egentlig omplacering af et lægemiddel, da forudsigelsen ligger tæt på lægemidlets kendte anvendelse. Detaljerede mekanismedata (MOA) er ikke tilgængelige i de indsamlede data.
+Der er dog en væsentlig begrænsning: Erstatning af et ekstracellulært serpin forventes ikke at kunne korrigere den intracellulære, toksiske polymerisering, som kendetegner serpinopatier (f.eks. neuroserpin- eller alfa-1-antitrypsin-inklusioner). Den høje score er derfor et beregningsmæssigt resultat og ikke et tegn på dokumenteret klinisk nytte.
 
----
+## Kliniske forsøg
 
-## Evidens fra kliniske forsøg
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT00262301](https://clinicaltrials.gov/study/NCT00262301) | Fase 3 | Afsluttet | 75 | Randomiseret, placebokontrolleret, dobbeltblindet forsøg med effekt og sikkerhed af rekombinant C1-hæmmer ved akutte anfald af arveligt angioødem |
-| [NCT00225147](https://clinicaltrials.gov/study/NCT00225147) | Fase 2/3 | Afsluttet | 77 | Randomiseret, placebokontrolleret, dobbeltblindet forsøg med sikkerhed, effekt og farmakokinetik ved akutte anfald af arveligt angioødem |
-| [NCT02247739](https://clinicaltrials.gov/study/NCT02247739) | Fase 2 | Afsluttet | 32 | Randomiseret, dobbeltblindet, placebokontrolleret 3-perioders crossover-forsøg med forebyggelse af angioødemanfald |
-| [NCT04414631](https://clinicaltrials.gov/study/NCT04414631) | Fase 2 | Afbrudt | 80 | Forebyggelse af svær SARS-CoV-2-infektion hos indlagte COVID-19-patienter; omhandler ikke C1-hæmmermangel og bidrager ikke med evidens for denne indikation |
+## Litteratur
 
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedresultater |
-|------|-----|------|------|---------|
-| [30021471](https://pubmed.ncbi.nlm.nih.gov/30021471/) | 2018 | RCT-relateret oversigt | Expert Rev Clin Immunol | Conestat alfa som forebyggelse af anfald hos voksne og unge med arveligt angioødem |
-| [24801469](https://pubmed.ncbi.nlm.nih.gov/24801469/) | 2014 | Kohorte | Allergy Asthma Proc | Hjemmebehandling af anfald med conestat alfa under reelle forhold (65 episoder hos to patienter) |
-| [24556385](https://pubmed.ncbi.nlm.nih.gov/24556385/) | 2014 | Kohorte | Eur J Dermatol | Rekombinant C1-hæmmer ved resistente eller hyppige anfald af arveligt eller erhvervet angioødem |
-| [39675680](https://pubmed.ncbi.nlm.nih.gov/39675680/) | 2025 | Kohorte | J Allergy Clin Immunol | Klinisk respons og blodtranskriptom før og efter behandling af prodromer ved arveligt angioødem |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematisk oversigt | Pneumonol Alergol Pol | Sammenligning af conestat alfa, human C1-hæmmer og icatibant ved akutte anfald |
-| [22946752](https://pubmed.ncbi.nlm.nih.gov/22946752/) | 2012 | Oversigt | BioDrugs | Effekt af conestat alfa i to randomiserede, dobbeltblindede, placebokontrollerede forsøg |
-| [29357215](https://pubmed.ncbi.nlm.nih.gov/29357215/) | 2018 | Oversigt | Skin Therapy Lett | Nye behandlinger af arveligt angioødem, herunder rekombinant C1-hæmmer |
-| [23776358](https://pubmed.ncbi.nlm.nih.gov/23776358/) | 2010 | Oversigt | Appl Clin Genet | Nyere udvikling i behandling af akutte mave- og ansigtsanfald, med fokus på C1-esterasehæmmer |
-| [19093699](https://pubmed.ncbi.nlm.nih.gov/19093699/) | 2008 | Oversigt | Drugs | Aktuelle og nye behandlingsmuligheder ved arveligt angioødem |
-
----
+Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Information om det danske marked
 
@@ -99,31 +74,33 @@ Mekanismen svarer direkte til sygdommens årsag, og de tilgængelige undersøgel
 
 Producent: Pharming Group N.V. Tilladelsen er gyldig.
 
----
-
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er registreret 41 interaktioner. Blandt de oplyste er én klassificeret som **alvorlig (Major)**: carfilzomib. Flere er klassificeret som **moderate**, bl.a.:
-- Androgener og anabolske steroider: oxandrolon, oxymetholon, stanozolol, testosteron, danazol
-- Østrogener og relaterede stoffer: ethinylestradiol, estradiol, konjugerede østrogener, esterificerede østrogener, diethylstilbestrol, drospirenon
+**Lægemiddelinteraktioner:** Der er i de indsamlede data registreret 41 interaktioner. Blandt de viste er én klassificeret som **alvorlig (Major)**:
+
+- **Carfilzomib** (alvorlig)
+
+Flere er klassificeret som **moderate**, bl.a.:
+
+- Androgener og anabole steroider: oxandrolon, oxymetholon, stanozolol, testosteron, danazol
+- Østrogener og relaterede stoffer: ethinylestradiol, estradiol, konjugerede østrogener, diethylstilbestrol, drospirenon, esterificerede østrogener
 - Trombolytika: alteplase, anistreplase
-- Erytropoiese-stimulerende midler: erythropoietin, darbepoetin alfa
+- Erytropoiese-stimulerende stoffer: darbepoetin alfa, erythropoietin
 
-For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med forholdsregler**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger afsluttede, randomiserede og placebokontrollerede fase 2/3- og fase 3-forsøg direkte ved arveligt angioødem med C1-hæmmermangel, og mekanismen er direkte i overensstemmelse hermed. Produktet er allerede markedsført i Danmark, men oplysninger om advarsler og kontraindikationer mangler i de indsamlede data.
+Forudsigelsen bygger kun på modelbaseret slægtskab inden for serpinfamilien. Der er hverken kliniske forsøg eller publikationer, og den ekstracellulære erstatning med C1-INH forventes ikke at påvirke intracellulær toksisk polymerisering. Evidensniveauet er L5.
 
-**For at komme videre kræves:**
-- Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
-- Detaljerede data om virkningsmekanisme (MOA)
-- Vurdering af interaktioner med de nævnte lægemidler, især carfilzomib
+**For at komme videre kræves følgende:**
+- Data om virkningsmekanismen (MOA)
+- Præklinisk dokumentation for, at C1-INH kan påvirke serpinpolymerisering eller dens konsekvenser
+- Gennemgang af produktresuméets advarsler og kontraindikationer med henblik på sikkerhedsvurdering
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

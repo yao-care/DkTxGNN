@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 109
-evidence_level: L2
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-description: "Betamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Betamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,12 +36,9 @@ Evidensniveau: **L2** | Forudsagte indikationer: **7** stk.
 ## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering
 
-Betamethason er et potent glukokortikoid, som oprindeligt anvendes til autoimmune og inflammatoriske sygdomme, blandt andet Crohns sygdom, binyrebarkinsufficiens og eksem-lignende hudlidelser.
-Der er i de data, der er sammenstillet til denne rapport, **6 kliniske forsøg** og **20 publikationer**, hvoraf flere er randomiserede studier med betamethason som aktiv behandling.
-
----
+Betamethason er et kortikosteroid med antiinflammatorisk virkning. TxGNN-modellen forudsiger, at det kan have effekt ved **alopecia mucinosa (alopecia mucinosa)**. Evidensen er meget begrænset: ingen registrerede kliniske forsøg og kun **1 publikation** (en case-serie fra 1964).
 
 ## Hurtigt overblik
 
@@ -50,85 +47,63 @@ Der er i de data, der er sammenstillet til denne rapport, **6 kliniske forsøg**
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Alopecia mucinosa |
 | TxGNN-forudsigelsesscore | 0.9997 |
-| Evidensniveau | L2 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige. Betamethason er dog et potent glukokortikoid, som hæmmer cytokinproduktion og lymfocytaktivering og dæmper inflammation omkring hårsækkene.
+Data om betamethasons detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Betamethason tilhører gruppen af kortikosteroider, som er kendt for at dæmpe inflammation.
 
-Alopecia areata er en T-celle-medieret autoimmun sygdom, hvor immunforsvaret angriber hårsækkene, og hvor hårsækkenes immunprivilegium bryder sammen. Det passer med betamethasons virkning ved andre autoimmune sygdomme. Betamethason anvendes allerede klinisk ved alopecia areata som creme/opløsning på huden, som indsprøjtning i læsionen og som oral "mini-pulse"-behandling.
+Alopecia mucinosa (follikulær mucinose) er en inflammatorisk tilstand med ophobning af slim i hårsækkens epitel. Det er plausibelt, at et kortikosteroid kan påvirke den inflammatoriske komponent. Det er dog kun en teoretisk sammenhæng, og der findes ingen moderne undersøgelser, der bekræfter den.
 
-Langvarig brug af steroid på huden eller i kroppen indebærer risiko for hudatrofi, hæmning af binyre-hypofyse-aksen og tilbagefald efter seponering. Dosis, varighed og tilbagefald bør derfor monitoreres.
+## Evidens fra kliniske forsøg
 
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Fase 2 | Afsluttet | 60 | Ugentlig azathioprin-puls versus oral betamethason mini-puls ved moderat til svær alopecia areata. Betamethason er direkte evalueret behandlingsarm |
-| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Fase 4 | Afsluttet | 50 | Topisk latanoprost versus topisk kortikosteroid (betamethason) ved lokaliseret alopecia areata |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | Ikke relevant | Endnu ikke rekrutterende | 60 | Kombination af metformin, simvastatin og betamethasonvalerat; ingen resultater endnu |
-| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Fase 4 | Rekrutterer | 250 | Central centrifugal arrende alopeci (en anden type hårtab); kun løst relevant |
-
----
-
-## Litteraturevidens
+## Evidens fra litteraturen
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Netværksmetaanalyse | Cochrane Database Syst Rev | Oversigt over behandlinger af alopecia areata (immunsuppressiva, hårvækststimulerende midler, kontaktimmunterapi) |
-| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | RCT | J Am Acad Dermatol | Mikronåle-baseret transdermal tilførsel af sammensat betamethason ved alopecia areata |
-| [34400956](https://pubmed.ncbi.nlm.nih.gov/34400956/) | 2021 | RCT | Iran J Pharm Res | Oral betamethason-puls, methotrexat og kombination ved svær alopecia areata (placebokontrolleret, dobbeltblindet) |
-| [40510104](https://pubmed.ncbi.nlm.nih.gov/40510104/) | 2025 | RCT | Cureus | Oral ciclosporin versus oral betamethason mini-puls ved alopecia areata (60 patienter) |
-| [38623137](https://pubmed.ncbi.nlm.nih.gov/38623137/) | 2024 | RCT | Cureus | Topisk betamethasondipropionat versus topisk minoxidil |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT | Dermatol Ther | Latanoprost versus minoxidil og betamethason, også i kombination |
-| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | RCT | J Dermatol Treat | Intralæsional betamethason versus triamcinolonacetonid (intra-individuel sammenligning) |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Effekt og bivirkninger ved kortikosteroid-pulsbehandling ved alopecia areata |
-| [40519428](https://pubmed.ncbi.nlm.nih.gov/40519428/) | 2025 | Kohorte | Cureus | Oral betamethason mini-puls ved moderat til svær alopecia areata |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Dosering af pulskortikosteroid hos børn med alopecia areata |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case-rapport | Archives of Dermatology | Rapport om tre tilfælde af follikulær mucinose med gennemgang af behandlingsmuligheder. Ingen abstract tilgængelig, og ingen moderne data. |
 
----
+Det direkte studie af sygdommen er en historisk case-serie, som ikke kan dokumentere effekt af betamethason. Evidensniveauet er derfor sat til L5.
 
-## Markedsinformation for Danmark
+## Oplysninger om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101560293 | Diproderm | Creme | Indikationstekst ikke angivet |
 | 28106262919 | Calcipotriol/Betamethason "2care4" | Salve | Indikationstekst ikke angivet |
 
-Begge tilladelser er gyldige nationale tilladelser til enkeltstofprodukter (Lægemiddelstyrelsen).
-
----
+Begge godkendelser er gyldige. Bemærk, at Calcipotriol/Betamethason "2care4" er et kombinationspræparat, og at dets godkendelse ikke beskriver godkendelsen af betamethason som enkeltstof.
 
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra vidensgraf, ikke fra produktresumé):** Videngrafen angiver bl.a. hypertension, epilepsi, hyperglykæmi, hjertesvigt, mæslinger, herpes simplex-keratitis samt forskellige former for hypofysesvigt og væksthormonmangel.
-- **Lægemiddelinteraktioner:** 1883 interaktioner er registreret. Blandt de vigtigste er **adalimumab** (alvorlig), samt moderate interaktioner med bl.a. isotretinoin, ibuprofen, ketorolac, nifedipin, ethinylestradiol, acetazolamid, acarbose, fluvoxamin, fosamprenavir, zidovudin, aldesleukin og alemtuzumab.
-- **Særlige hensyn ved alopecia areata:** Langvarig brug kan give hudatrofi, binyre-hypofyse-suppression og tilbagefald efter seponering.
+**Lægemiddelinteraktioner:** Der er registreret i alt 1883 mulige interaktioner. Blandt de fremhævede er:
+- **Alvorlig (Major):** adalimumab
+- **Moderat:** blandt andre zidovudin, isotretinoin, acarbose, acebutolol, acetazolamid, ketorolac, nifedipin, ibuprofen, ethinylestradiol, albiglutid, aldesleukin, alefacept, alemtuzumab, fluvoxamin og fosamprenavir
+- **Mindre:** formoterol og salbutamol
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og kontraindikationer.
+Der foreligger desuden registrerede sygdomme, hvor betamethason er anført som kontraindiceret i datagrundlaget, bl.a. hypertension, epilepsi, hyperglykæmi, kongestiv hjertesvigt, herpes simplex-keratitis, mæslinger og forskellige former for hypofysesvigt. Disse oplysninger stammer ikke fra produktresuméer.
 
----
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Der foreligger et afsluttet fase 2-forsøg og flere RCT'er, hvor oral og topisk betamethason indgår direkte som behandlingsarm ved alopecia areata. Mekanismen er plausibel, og brugen er allerede etableret klinisk. Mange forsøg bruger dog betamethason som sammenligningsbehandling, er små og har ukendt status, så evidensen er begrænset (L2).
+Forudsigelsesscoren er høj (0,9997), men der er ingen kliniske forsøg og kun en historisk case-rapport om sygdommen. Der er ingen direkte evidens for effekt af betamethason, og evidensniveauet er L5.
 
-**For at komme videre er følgende nødvendigt:**
-- Produktresumé-data om advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
-- Større, veldesignede RCT'er med betamethason som den undersøgte behandling og langtidsopfølgning for tilbagefald
-- Plan for monitorering af dosis, behandlingsvarighed og systemiske bivirkninger (især binyresuppression ved oral pulsbehandling)
-- Afklaring af godkendte danske indikationer og lægemiddelformer i forhold til den tilsigtede administrationsvej
+**For at komme videre kræves:**
+- Systematisk litteratursøgning efter moderne studier af kortikosteroidbehandling ved follikulær mucinose
+- Data om betamethasons virkningsmekanisme
+- Gennemgang af produktresuméer for advarsler og kontraindikationer
+- Vurdering af egnet administrationsvej (lokal, intralæsionel eller systemisk) og af risikoen ved langvarig kortikosteroidbehandling i hovedbunden
+- Hvis hypotesen skal undersøges, et lille eksplorativt klinisk studie eller en case-serie med standardiserede effektmål
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

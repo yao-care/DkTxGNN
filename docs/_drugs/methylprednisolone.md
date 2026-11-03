@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Methylprednisolone
@@ -33,94 +33,75 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Methylprednisolone: Alopecia mucinosa
+## Methylprednisolone: Follikulær mucinose (alopecia mucinosa)
 {: .text-alpha }
 
-## Opsummering i én sætning
+## Resumé i én sætning
 
-Methylprednisolon er et systemisk glukokortikoid, der oprindeligt anvendes til bl.a. autoimmune sygdomme, Crohns sygdom, binyrebarkinsufficiens og akut lymfoblastær leukæmi.
-
----
+Methylprednisolon er et syntetisk glukokortikoid til systemisk brug med antiinflammatorisk og immunsuppressiv virkning. TxGNN-modellen forudsiger, at det kan have effekt ved **follikulær mucinose (alopecia mucinosa)**. Forudsigelsen understøttes dog ikke af **nogen kliniske forsøg** eller **publikationer** i de data, der er indsamlet til denne rapport, og den hviler alene på modelberegning.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Alopecia mucinosa |
+| Forudsagt ny indikation | Follikulær mucinose (alopecia mucinosa) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor kan forudsigelsen være rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Methylprednisolon tilhører gruppen af glukokortikoider, som dæmper inflammation og immunaktivering. Det er en mekanisme, der i princippet kan være relevant ved inflammatoriske hudlidelser med hårtab.
 
-Alopecia areata er en T-celle-medieret autoimmun sygdom, hvor hårsækkens immunprivilegium bryder sammen. Detaljerede data om methylprednisolons virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er dog alment kendt, at methylprednisolon er et glukokortikoid med bred antiinflammatorisk og immunsupprimerende effekt, bl.a. hæmning af T-celleaktivering og proinflammatoriske cytokiner.
+Den høje modelscore afspejler sandsynligvis, at sygdommen ligger tæt på andre alopeci- og inflammatoriske hudfænotyper i modellens datagrundlag. Det er en statistisk nærhed og ikke et klinisk belæg. Der er ikke fundet forsøg eller litteratur, som direkte undersøger methylprednisolon ved denne sygdom. En mekanistisk sammenhæng er derfor kun plausibel, ikke dokumenteret.
 
-Methylprednisolons oprindelige indikationer omfatter allerede autoimmune sygdomme, hvilket peger på en fælles underliggende mekanisme. Højdosis pulsbehandling (oral eller intravenøs) anvendes ved svær eller hurtigt progredierende sygdom.
+## Evidens fra kliniske forsøg
 
-De største bekymringer er tilbagefald efter seponering samt kumulativ steroidtoksicitet. Evidensen er overvejende observationel, og det eneste kliniske forsøg er et fase 4-studie, hvor design og resultater ikke er bekræftet.
-
----
-
-## Klinisk evidens
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Fase 4 | Afsluttet | 42 | Oral mega-puls methylprednisolon ved svær, behandlingsresistent alopecia areata; højere doser og hyppigere pulser end tidligere. Randomisering, kontrolarm og resultater foreligger ikke. |
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | Åbent prospektivt studie | J Am Acad Dermatol | Puls-methylprednisolon hos 45 patienter med svær alopecia areata |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Klinisk studie | Saudi Med J | Effekt og sikkerhed af oral mega-puls methylprednisolon ved behandlingsresistent sygdom |
-| [12746668](https://pubmed.ncbi.nlm.nih.gov/12746668/) | 2003 | Åbent studie | Ann Dermatol Venereol | IV puls-methylprednisolon hos 66 patienter med svær sygdom, gentagne månedlige pulser |
-| [23336179](https://pubmed.ncbi.nlm.nih.gov/23336179/) | 2014 | Klinisk studie | J Dermatolog Treat | Puls-methylprednisolon ved udbredt alopecia areata, vurderet som sikker behandlingsmulighed |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Klinisk studie | Indian J Dermatol Venereol Leprol | IV puls-methylprednisolon ved svær alopecia areata |
-| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | Retrospektiv kohorte | J Dermatol | Prognostiske faktorer for respons ved puls-methylprednisolon (70 patienter) |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Retrospektiv kohorte | Dermatol Ther | Methylprednisolon alene eller med methotrexat ved udbredt alopecia areata (26 patienter) |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Oversigtsartikel | Dermatol Pract Concept | Effekt, tilbagefald og bivirkninger ved kortikosteroid-pulsbehandling |
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Systematisk oversigt | Dermatol Ther | Ciclosporin med og uden systemiske kortikosteroider ved alopecia areata |
-| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | Studie | Pediatr Dermatol | Høj tilbagefaldsrate trods tidlig IV puls-methylprednisolon hos børn med svær alopecia areata |
+Der findes i øjeblikket ingen relateret litteratur.
 
----
+## Markedsinformation i Danmark
 
-## Information om det danske marked
+Status på det danske marked er **på markedet**. Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101336988 | Medrol (Pfizer ApS) | Tabletter | Indikationstekst ikke tilgængelig |
 
----
+Tabletterne gives gennem munden (oral administration). Der er ikke fundet godkendelser til andre administrationsveje i de lokale data.
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Kontraindikationer/sygdomme med risiko (fra vidensgraf, ikke produktresumé)**: bl.a. hypertension, epilepsi, hyperglykæmi, kongestivt hjertesvigt, herpes simplex-keratitis, mæslinger samt hypopituitarisme og tilknyttede hypofysemangeltilstande.
-- **Lægemiddelinteraktioner**: i alt 1.670 registrerede interaktioner. Blandt de væsentligste er de af sværhedsgrad **Major** med bupropion og clarithromycin. Moderate interaktioner omfatter bl.a. antidiabetika (metformin, pioglitazon, acarbose, alogliptin, dapagliflozin, empagliflozin), amphotericin B, aprepitant og acetylsalicylsyre.
+Der er ikke tilgængelige data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+**Lægemiddelinteraktioner:** Der er registreret i alt 1.670 interaktioner. Blandt de vigtigste er:
 
----
+- **Alvorlige (Major):** bupropion og clarithromycin.
+- **Moderate:** flere antidiabetika, bl.a. metformin, pioglitazon, acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, dulaglutid, albiglutid og chlorpropamid. Desuden amphotericin B, aprepitant, acetylsalicylsyre, bisacodyl og picosulfat.
+- **Milde (Minor):** zinksulfat.
+
+Interaktionerne med antidiabetika er særligt relevante, fordi glukokortikoider kan hæve blodsukkeret.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Methylprednisolon har en biologisk plausibel mekanisme ved alopecia areata, og der foreligger et fase 4-studie samt flere observationelle studier, der peger i samme retning. Evidensen er dog ikke på randomiseret niveau, og tilbagefald og steroidtoksicitet er væsentlige bekymringer.
+Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5). Der er hverken kliniske forsøg eller publikationer, som direkte undersøger methylprednisolon ved follikulær mucinose. Samtidig indebærer systemisk behandling med glukokortikoid en kendt risiko for bivirkninger.
 
 **For at komme videre er følgende nødvendigt:**
-- Gennemgang af advarsler og kontraindikationer i det danske produktresumé (SmPC)
-- Detaljerede data om virkningsmekanisme (MOA)
-- Design- og resultatdata fra NCT01167946 samt helst et randomiseret kontrolleret studie
-- Plan for sikkerhedsmonitorering (blodsukker, blodtryk, infektioner) og strategi mod tilbagefald
-- Afklaring af den godkendte indikation og relevant doseringsform (Medrol findes kun som tabletter i Danmark; IV-pulsregimer kræver anden formulering)
+- Systematisk litteratursøgning og gennemgang af kasuistikker og case-serier om glukokortikoidbehandling af follikulær mucinose.
+- Data om virkningsmekanisme og en vurdering af, om mekanismen passer til sygdommens patologi.
+- Oplysninger om advarsler og kontraindikationer fra det godkendte produktresumé (SmPC).
+- Vurdering af nytte og risiko ved systemisk behandling sammenlignet med lokal behandling.
+- Afklaring af relevant administrationsvej og dosering.
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
