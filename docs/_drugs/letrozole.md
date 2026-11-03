@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Letrozole
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 491
-evidence_level: L1
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Letrozole: forudsagt ny indikation Nipple carcinoma (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Letrozole: forudsagt ny indikation Brystkarcinom i brystvorten (nipple carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,119 +33,75 @@ Evidensniveau: **L1** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Letrozole: Nipple carcinoma
+## Letrozole: Brystkarcinom i brystvorten (nipple carcinoma)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Sammenfatning
 
-Letrozol er en aromatasehæmmer, der i Danmark er markedsført som filmovertrukne tabletter. Den primære forudsigelse fra TxGNN-modellen er **brystvortekarcinom** (rangeret som nr. 1). Evidensen omfatter **39 registrerede kliniske forsøg** for den primære forudsigelse.
-
-*Bemærkning: De data, der er indsamlet til denne rapport, indeholder ingen godkendt indikation for lægemidlet, og virkningsmekanismen mangler. Rapporten tager derfor udgangspunkt i den højest rangerede forudsigelse og i den bedst understøttede forudsigelse (østrogenreceptor-positiv brystkræft). Den ukorrigerede originalindikation bør rettes i grunddata.*
-
----
+Letrozol er en aromatasehæmmer, som er registreret i Danmark som filmovertrukne tabletter. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **brystkarcinom i brystvorten (nipple carcinoma)**. Der findes **ingen kliniske forsøg** og kun **8 publikationer** (primært case reports), og ingen af dem undersøger letrozol ved denne sygdom. Forudsigelsen hviler derfor hovedsageligt på modelscoren.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Nipple carcinoma |
+| Forudsagt ny indikation | Brystkarcinom i brystvorten (nipple carcinoma) |
 | TxGNN-forudsigelsesscore | 0.9976 |
-| Evidensniveau | L1 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails |
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra kendt farmakologi er letrozol en ikke-steroid aromatasehæmmer, der blokerer omdannelsen af androgener til østrogener og dermed nedsætter den østrogendrevne tumorvækst i hormonreceptor-positiv brystkræft.
+Der er i de data, der er indsamlet til denne rapport, ikke registreret oplysninger om letrozols detaljerede virkningsmekanisme. Letrozol er en aromatasehæmmer, dvs. et middel, der nedsætter dannelsen af østrogen.
 
-Forudsigelsen er derfor biologisk konsistent. Brystkræft med positiv østrogenreceptor afhænger af østrogen for at vokse, og sænkning af østrogenniveauet er den etablerede behandlingsstrategi. Den meget høje TxGNN-score afspejler denne kendte biologi.
+Karcinomer i brystvorten og i accessorisk brystvæv er brysttumorer. En østrogensænkende behandling kan derfor teoretisk være relevant, hvis tumoren er hormonreceptorpositiv. Det er en mekanistisk hypotese, og den er ikke bekræftet af studier af letrozol ved netop denne tumortype. Den fundne litteratur består af case reports og oversigter uden letrozol-specifikke data.
 
-Det er vigtigt at bemærke, at forudsigelsen om **østrogenreceptor-negativ brystkræft** (rang 3) ikke er mekanistisk understøttet: Aromatasehæmning forudsætter østrogenafhængig vækst, og de fundne forsøg omhandler HR-positiv sygdom. Mærkatet skyldes sandsynligvis termmapping. Øvrige forudsigelser (fx Ehrlich-tumor, brystfibrocystisk sygdom, benign mammadysplasi) har kun præklinisk eller ingen evidens og bør ikke tillægges vægt.
+## Klinisk forsøgsevidens
 
----
-
-## Evidens fra kliniske forsøg
-
-De mest relevante forsøg for brystkræft (kvindelig brystkræft og østrogenreceptor-positiv brystkræft):
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT02941926](https://clinicaltrials.gov/study/NCT02941926) | Fase 3 | Afsluttet | 3246 | Ribociclib + letrozol ved HR+/HER2- fremskreden brystkræft uden tidligere hormonbehandling; indsamling af sikkerheds- og effektdata |
-| [NCT01740427](https://clinicaltrials.gov/study/NCT01740427) | Fase 3 | Afsluttet | 666 | Palbociclib + letrozol vs. placebo + letrozol ved ER+/HER2- fremskreden brystkræft (PALOMA-2) |
-| [NCT02600923](https://clinicaltrials.gov/study/NCT02600923) | Fase 3 | Afsluttet | 131 | Adgang til palbociclib + letrozol hos postmenopausale kvinder med HR+/HER2- sygdom |
-| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Fase 3 | Aktiv, rekrutterer ikke | 1050 | SONIA: CDK4/6-hæmmer i første vs. andet behandlingsforløb sammen med aromatasehæmmer |
-| [NCT06760637](https://clinicaltrials.gov/study/NCT06760637) | Fase 3 | Aktiv, rekrutterer ikke | 1035 | PF-07220060 + letrozol sammenlignet med CDK4/6-hæmmer + letrozol (FOURLIGHT-3) |
-| [NCT00908531](https://clinicaltrials.gov/study/NCT00908531) | Fase 3 | Afbrudt | 123 | Dansk DBCG-forsøg: 4 måneders letrozol før operation vs. operation først |
-| [NCT00382070](https://clinicaltrials.gov/study/NCT00382070) | Fase 3 | Ukendt | 3966 | Fem års letrozol vs. placebo efter fem års hormonbehandling ved HR+ brystkræft |
-| [NCT04568616](https://clinicaltrials.gov/study/NCT04568616) | Fase 2 | Aktiv, rekrutterer ikke | 178 | Neoadjuverant letrozol ved ER+/HER2- brystkræft hos postmenopausale kvinder (NAOMI) |
-| [NCT04272801](https://clinicaltrials.gov/study/NCT04272801) | Fase 2 | Aktiv, rekrutterer ikke | 84 | Præoperativ endokrin behandling hos ældre kvinder for at vejlede strålebehandling |
-| [NCT01439711](https://clinicaltrials.gov/study/NCT01439711) | Fase 2 | Afsluttet | 108 | Neoadjuverant letrozol ved ER+ duktalt carcinoma in situ |
-
----
+Der er for øjeblikket ikke registreret relevante kliniske forsøg.
 
 ## Litteraturevidens
 
+Ingen af nedenstående publikationer undersøger letrozol ved brystkarcinom i brystvorten. De beskriver sjældne brysttumorer generelt.
+
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [27959613](https://pubmed.ncbi.nlm.nih.gov/27959613/) | 2016 | RCT | N Engl J Med | Palbociclib + letrozol ved ER+/HER2- fremskreden brystkræft (PALOMA-2) |
-| [27717303](https://pubmed.ncbi.nlm.nih.gov/27717303/) | 2016 | RCT | N Engl J Med | Ribociclib som førstelinjebehandling ved HR+ fremskreden brystkræft |
-| [35263519](https://pubmed.ncbi.nlm.nih.gov/35263519/) | 2022 | RCT | N Engl J Med | Samlet overlevelse med ribociclib + letrozol ved fremskreden brystkræft |
-| [38507751](https://pubmed.ncbi.nlm.nih.gov/38507751/) | 2024 | RCT | N Engl J Med | Ribociclib + endokrin behandling ved tidlig brystkræft |
-| [38729566](https://pubmed.ncbi.nlm.nih.gov/38729566/) | 2024 | RCT | Ann Oncol | Abemaciclib + ikke-steroid aromatasehæmmer: endelige overlevelsesresultater (MONARCH 3) |
-| [35123662](https://pubmed.ncbi.nlm.nih.gov/35123662/) | 2022 | Metaanalyse | Lancet Oncol | Aromatasehæmmere vs. tamoxifen hos præmenopausale kvinder med ovarie-suppression (7030 kvinder) |
-| [30475668](https://pubmed.ncbi.nlm.nih.gov/30475668/) | 2019 | Langtidsopfølgning | J Clin Oncol | Adjuverende letrozol og tamoxifen alene eller sekventielt (BIG 1-98) |
-| [29718092](https://pubmed.ncbi.nlm.nih.gov/29718092/) | 2018 | RCT | Ann Oncol | Opdaterede resultater fra MONALEESA-2 |
-| [38252901](https://pubmed.ncbi.nlm.nih.gov/38252901/) | 2024 | RCT | J Clin Oncol | Samlet overlevelse med palbociclib + letrozol ved fremskreden brystkræft |
-| [25524798](https://pubmed.ncbi.nlm.nih.gov/25524798/) | 2015 | RCT (fase 2) | Lancet Oncol | Palbociclib + letrozol vs. letrozol alene som førstelinjebehandling (PALOMA-1) |
+| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Case report/serie | Medicine | Neoadjuverant endokrin behandling ved dårligt differentieret neuroendokrint brystkarcinom; effekten af endokrin terapi er uklar |
+| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Case report og oversigt | Clinical Case Reports | Solidt papillært karcinom in situ, udgået fra brystvorten; begrænset evidens for diagnostik og behandling |
+| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Case report og oversigt | Surgical Case Reports | Sjældent tilfælde af accessorisk brystkræft i den inframammære region |
+| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Case report | Cureus | Aksillært recidiv hos patient med brystkræft og blodig udflåd fra brystvorten |
+| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Case report | Diagnostics | Metastatisk accessorisk brystkræft i den inframammære region samtidig med brystkræft på samme side |
+| [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Case report | Clinical Case Reports | Højcellet brystkarcinom med omvendt polaritet og IDH1 R132-mutation |
+| [42305961](https://pubmed.ncbi.nlm.nih.gov/42305961/) | 2026 | Case report | Frontiers in Medicine | Samtidig accessorisk brystkræft, papillært skjoldbruskkirtelkarcinom og nasal papillom |
+| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Case report | Cureus | Florid lobulært carcinoma in situ; ultralydsfund |
 
----
-
-## Markedsinformation i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28104319308 | Letrozol "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
----
-
-## Cytotoksicitet
-
-| Punkt | Indhold |
-|------|------|
-| Cytotoksicitetsklassifikation | Hormonbehandling (aromatasehæmmer); ikke konventionelt cytotoksisk, men anvendes ofte sammen med målrettet behandling (CDK4/6-hæmmere) |
-| Myelosuppressionsrisiko | Lav for letrozol alene; ved kombination med CDK4/6-hæmmere kan neutropeni forekomme |
-| Emetogenicitetsklassifikation | Lav |
-| Monitoreringspunkter | Knogletæthed, lipider, leverfunktion; blodtal (CBC) ved kombination med CDK4/6-hæmmere |
-| Håndteringsbeskyttelse | Se produktresuméet (SmPC) for krav til håndtering |
-
----
-
 ## Sikkerhedsovervejelser
 
-- **Sygdomme med kontraindikationssignal i vidensgrafen (ikke mærkningstekst):** leversvigt, skrumpelever, osteoporose (inkl. postmenopausal), hyperbilirubinæmi (inkl. arvelig og Gilberts syndrom) samt cerebrovaskulær sygdom.
-- **Lægemiddelinteraktioner:** 350 interaktioner er registreret. Den eneste med angivet sværhedsgrad er aprepitant (moderat). Øvrige omfatter bl.a. calcitriol, glimepirid, lansoprazol, dolasetron, granisetron, famotidin, acetylsalicylsyre, pantoprazol, morfin og metformin (sværhedsgrad ukendt).
-- **Bivirkninger beskrevet i litteraturen:** letrozol-relateret makulopati (case report) og tumor-flare/tumorlysesyndrom (case report).
+- **Lægemiddelinteraktioner:** Der er registreret 350 mulige interaktioner. Blandt de første er aprepitant (moderat), og en række andre har uklassificeret niveau, bl.a. calcitriol, glimepirid, lansoprazol, omeprazol, pantoprazol, famotidin, acetylsalicylsyre, morfin, metformin, simvastatin og prednison.
+- **Sygdomme, hvor forsigtighed kan være relevant (fra modeldata, ikke fra produktresumé):** leversvigt, levercirrose, osteoporose, hyperbilirubinæmi (inkl. Gilberts syndrom) og cerebrovaskulær sygdom.
 
-For advarsler og kontraindikationer henvises i øvrigt til det godkendte produktresumé (SmPC).
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Flere afsluttede fase 3-RCT'er (bl.a. PALOMA-2, MONALEESA-2, MONARCH 3) og en metaanalyse understøtter letrozolbaseret endokrin behandling ved HR+ brystkræft. Der er tale om en etableret anvendelse og ikke et nyt repurposing-fund. Forudsigelserne for ER-negativ sygdom, Ehrlich-tumor samt benigne brysttilstande bør afvises eller holdes (Hold) på grund af manglende evidens.
+Der findes ingen studier, der undersøger letrozol ved brystkarcinom i brystvorten, og litteraturen består af case reports. Evidensniveauet er derfor L5, og forudsigelsen hviler alene på modellen.
 
 **For at komme videre kræves:**
-- Rettelse af grunddata: oprindelig indikation og virkningsmekanisme mangler
-- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer mangler; markeret som blokerende datahul)
-- Retningslinjer (guardrails): postmenopausal status eller ovarie-suppression, monitorering af knogletæthed samt opmærksomhed på toksicitetsprofilen for kombinerede CDK4/6-hæmmere
-- Yderligere vurdering af den hormonresistente brystkræft (rang 6) som forskningsspørgsmål, da effekten primært skyldes kombinationspartneren
+- Letrozol-specifikke kliniske data eller case-serier for brystvortekarcinom, herunder hormonreceptorstatus
+- Oplysninger om virkningsmekanisme og godkendt indikation fra produktresuméet
+- Vurdering af sikkerhed, især knoglesundhed og leverfunktion, hos relevante patienter
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Morphine
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 568
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
-description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L3). Oprindelig indikation: Diarrésygdom (fra videnbasen"
+last_modified_at: 2026-11-03
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Morphine
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,113 +33,72 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Morfin: Fra diarrésygdom til myofascielt smertesyndrom (myofascial pain syndrome)
+## Morphine: Myofascielt smertesyndrom (myofascial pain syndrome)
 {: .text-alpha }
 
-## Opsummering
+## Resumé
 
-Morfin er en opioid, som oprindeligt er knyttet til behandling af diarrésygdom. TxGNN-modellen forudsiger, at morfin kan have effekt ved **uroligt bensyndrom (restless legs syndrome)**, som er den bedst understøttede af de forudsagte indikationer. Evidensen omfatter **1 klinisk fase 1-forsøg** og **19 publikationer**, hovedsageligt observationelle studier, registerdata og case-rapporter.
-
-Bemærk: Den højest rangerede forudsigelse efter TxGNN-score er myofascielt smertesyndrom (0,9975). Her er uroligt bensyndrom valgt som fokus, fordi det har den stærkeste evidens (L3). Se afsnittet om øvrige forudsigelser nedenfor.
-
----
+Morphin er en opioid og en µ-opioidreceptoragonist med veletableret smertestillende virkning. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **myofascielt smertesyndrom (myofascial pain syndrome)**. Der er dog **ingen registrerede kliniske forsøg** og kun indirekte litteratur, så evidensniveauet er **L5** (alene modelforudsigelse).
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Diarrésygdom (fra videnbasen; godkendt indikationstekst for det danske præparat er ikke tilgængelig) |
-| Foreslået ny indikation | Uroligt bensyndrom (restless legs syndrome) |
-| TxGNN-forudsigelsesscore | 0,9975 |
-| Evidensniveau | L3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Myofascielt smertesyndrom (myofascial pain syndrome) |
+| TxGNN-forudsigelsesscore | 0.9975 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails) |
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Morfin er en agonist ved mu-opioidreceptoren. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Morfins opioidvirkning er dog veldokumenteret.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Morphin er kendt som en µ-opioidreceptoragonist, der dæmper smertesignalering i centralnervesystemet. Myofascielt smertesyndrom har en nociceptiv komponent, og der er derfor en teoretisk mekanistisk forbindelse.
 
-Det endogene opioidsystem menes at spille en rolle i patofysiologien ved uroligt bensyndrom, i samspil med det dopaminerge system. Opioider kan lindre både sensoriske og motoriske symptomer og forbedre søvn. Lavdosis-opioider anvendes allerede som senere linjes behandling ved refraktær sygdom eller ved augmentation under dopaminagonister.
-
-Den oprindelige indikation (diarré) og den nye indikation har ikke en tæt sygdomsmæssig sammenhæng. Forbindelsen går via morfins generelle opioideffekt på nervesystemet og ikke via en fælles sygdomsmekanisme. Mekanismen kan dog være relevant, da opioider virker centralt og i rygmarven.
-
----
+Forbindelsen er dog svag. Opioider anbefales ikke til myofascielle smerter, og den tilgængelige litteratur er indirekte: et program med udstrækningsøvelser, orofaciale smerter, nerveblokader og en sammenligning, hvor morphin indgik som tillægsstof ved infiltration. Der er ikke fundet noget direkte studie af morphin ved denne tilstand.
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT01476124](https://clinicaltrials.gov/study/NCT01476124) | Fase 1 | Afsluttet | 18 | Dobbeltblindet 3-delt crossover-studie af farmakokinetik og tolerabilitet af gabapentin enacarbil og morfin (60 mg depotformulering) givet alene og i kombination hos raske forsøgspersoner. Ingen effektdata. |
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+Ingen af nedenstående studier undersøger morphin direkte ved myofascielt smertesyndrom.
+
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [41543123](https://pubmed.ncbi.nlm.nih.gov/41543123/) | 2026 | Kohorte (5-årigt register) | Sleep | Effekt og dosisstabilitet af opioider i det nationale RLS-opioidregister |
-| [36697248](https://pubmed.ncbi.nlm.nih.gov/36697248/) | 2023 | Kohorte (langtids, retrospektiv) | Neurology | 2-årig langtidssikkerhed, dosisstabilitet og effekt af opioider ved RLS |
-| [32918469](https://pubmed.ncbi.nlm.nih.gov/32918469/) | 2021 | Kohorte (register) | Sleep | Baseline- og 1-årsdata for dosering og symptomer i RLS-opioidregistret |
-| [39106456](https://pubmed.ncbi.nlm.nih.gov/39106456/) | 2024 | Case-serie | Pain | Langvarig intratekal lavdosis-morfin lindrede svær RLS uden toleransudvikling |
-| [31883387](https://pubmed.ncbi.nlm.nih.gov/31883387/) | 2020 | Case-serie | Acta Neurol Scand | Effekt og komplikationer ved implanteret pumpe med intratekal morfin ved refraktær RLS |
-| [27310338](https://pubmed.ncbi.nlm.nih.gov/27310338/) | 2016 | Review | Expert Opin Drug Metab Toxicol | Farmakologiske og kliniske aspekter af opioider ved RLS |
-| [27964861](https://pubmed.ncbi.nlm.nih.gov/27964861/) | 2017 | Review | Sleep Med | Smerte, opioider og søvn: betydning for RLS-behandling |
-| [29304922](https://pubmed.ncbi.nlm.nih.gov/29304922/) | 2018 | Ekspertoversigt | Mayo Clin Proc | Opioidbehandling anses som hjørnesten ved refraktær RLS |
-| [36692170](https://pubmed.ncbi.nlm.nih.gov/36692170/) | 2023 | Case-rapport/serie | J Clin Sleep Med | RLS kan opstå under seponering af opioider |
-| [31133964](https://pubmed.ncbi.nlm.nih.gov/31133964/) | 2019 | Case-rapport | Front Neurol | Bedring af RLS under behandling af kræftsmerter med morfin og fentanyl |
+| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | Randomiseret, dobbeltblindt forsøg | Asian Spine Journal | Dexmedetomidin og morphin sammenlignet med ropivacain alene ved myofascial infiltration efter rygsøjlefusion; morphin indgik som tillægsstof, ikke som behandling af tilstanden |
+| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Kohorteundersøgelse | Pain Practice | Struktureret udstrækningsprogram mod myofascielle smerter og opioidforbrug hos patienter med "legacy pain" |
+| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Oversigtsartikel | J Oral Maxillofac Surg | Langvarig opioidbrug ved kæbeledsdysfunktion kan hverken støttes eller afvises på baggrund af den nuværende evidens |
+| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Oversigtsartikel | J Oral Maxillofac Surg | Artrocentese af kæbeled efterfulgt af intraartikulær morphininfusion ved refraktære smerter |
+| [16967674](https://pubmed.ncbi.nlm.nih.gov/16967674/) | 2006 | Oversigtsartikel | J Calif Dent Assoc | Orale lægemidler, infusioner og injektioner i differentialdiagnostik af orofaciale smerter |
+| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | Klinisk studie | Eur J Obstet Gynecol Reprod Biol | Pudendusblokade ved myofascielle bækkensmerter efter botulinumtoksininjektion; morphin er ikke undersøgt |
 
----
-
-## Information om det danske marked
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101164183 | Contalgin (Mundipharma A/S) | Depottabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
 
----
-
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer (fra videnbasen, ikke fra produktresumé):** Videnbasen angiver bl.a. følgende tilstande: hypertension, ortostatisk hypotension, langt QT-syndrom og torsades de pointes, leversvigt og leversygdom, nyresygdom, epilepsi, kronisk obstruktiv lungesygdom (KOL), pancreatitis, galdeblæresygdom, hypothyreose, psykotiske lidelser og angstlidelser.
-- **Lægemiddelinteraktioner:** Der er identificeret 961 interaktioner. Vigtige alvorlige (Major) interaktioner omfatter fentanyl, codein, dihydrocodein, tramadol, butalbital, alkohol, alprazolam og dichloralphenazon, især på grund af additiv CNS- og respirationsdepression. Moderate interaktioner omfatter bl.a. chlorpheniramin, nifedipin, hydrochlorthiazid, cetirizin og metformin.
-- **Specifikke risici ved RLS:** Afhængighed, respirationsdepression samt augmentation eller opståen af RLS-symptomer ved opioidseponering.
-
-Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
-
----
-
-## Øvrige forudsigelser (til information)
-
-| Rang | Forudsagt indikation | TxGNN-score | Evidensniveau | Vurdering |
-|---|---|---|---|---|
-| 1 | Myofascielt smertesyndrom | 0,9975 | L4 | Hold – kun indirekte litteratur; opioider anbefales ikke |
-| 2 | Manisk bipolar lidelse | 0,9964 | L5 | Hold – spekulativ, afhængighedsrisiko |
-| 3 | Tourettes syndrom | 0,9948 | L5 | Hold – kun prækliniske/indirekte data |
-| 5 | ADHD, uopmærksom type | 0,9934 | L5 | Hold – ingen evidens |
-| 6 | Migræne | 0,9932 | L4 | Hold – retningslinjer fraråder opioider |
-| 7 | Trikotillomani | 0,9929 | L5 | Hold – mekanistisk modstridende (antagonister er undersøgt) |
-| 8 | Methæmoglobinæmi | 0,9915 | L5 | Hold – ingen relevant evidens |
-| 9 | Migræne med hjernestammeaura | 0,9915 | L5 | Hold – kun prækliniske data |
-| 10 | Specifik udviklingsforstyrrelse | 0,9906 | L5 | Hold – for bred kategori, ingen evidens |
-
----
+- **Lægemiddelinteraktioner:** Der er registreret 961 interaktioner. Blandt de alvorlige (større) er fentanyl, dihydrocodein, codein, tramadol, butalbital, dichloralphenazon, alprazolam og ethanol, hvilket især afspejler risikoen for additiv hæmning af centralnervesystemet og åndedrætsdepression.
+- Der foreligger ikke tilgængelige data om advarsler og kontraindikationer. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Fortsæt med sikkerhedsforanstaltninger (Proceed with Guardrails)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-- Uroligt bensyndrom har den stærkeste evidens blandt de forudsagte indikationer, med flere registerbaserede kohortestudier (op til 5 års opfølgning) og case-serier med intratekal morfin. Evidensen er dog overvejende observationel, og det eneste kliniske forsøg er et fase 1-forsøg uden effektdata, så evidensniveauet er kun L3. Opioider placeres som senere linjes behandling ved refraktære tilfælde.
+Evidensniveauet er L5, da intet studie undersøger morphin ved myofascielt smertesyndrom. Opioider anbefales ikke til tilstanden, og risikoen for afhængighed og åndedrætsdepression er betydelig.
 
-**For at komme videre kræves følgende:**
-- Randomiserede kontrollerede forsøg, der specifikt undersøger morfin ved refraktær RLS
-- Gennemgang af produktresuméet for Contalgin (advarsler og kontraindikationer), da disse data ikke var tilgængelige
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Plan for sikkerhedsmonitorering (afhængighed, respirationsdepression, augmentation, interaktioner) og afgrænsning til patienter, der ikke responderer på dopaminagonister eller alfa-2-delta-ligander
-- Afklaring af administrationsvej: det danske præparat er en oral depottablet, mens de stærkeste data vedrører intratekal morfin
+**For at gå videre kræves følgende:**
+- Direkte kliniske studier af morphin ved myofascielt smertesyndrom
+- Data om virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Vurdering af nytte og risiko sammenlignet med anbefalede ikke-opioide behandlinger
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

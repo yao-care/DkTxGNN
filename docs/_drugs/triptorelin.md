@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 last_modified_at: 2026-11-03
-description: "Triptorelin: forudsagt ny indikation Hypertrikose (hypertrichosis (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Triptorelin: forudsagt ny indikation Hypertrichose (hypertrichosis (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Triptorelin
@@ -33,40 +33,42 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Triptorelin: Hypertrikose (hypertrichosis (disease))
+## Triptorelin: Hypertrichose (hypertrichosis (disease))
 {: .text-alpha }
 
-## Resumé
+## Opsummering
 
-Triptorelin er en GnRH-agonist, der hæmmer dannelsen af kønssteroider fra kønskirtlerne. Den AI-baserede TxGNN-model forudsiger, at lægemidlet kan have effekt ved **hypertrikose (hypertrichosis (disease))**. Evidensen er meget svag: der findes **ingen kliniske forsøg** og kun **1 publikation** (en case-rapport), som ikke viser en behandlingseffekt af triptorelin.
+Triptorelin er en GnRH-agonist, der undertrykker kønshormoner fra kønskirtlerne. Den mest sandsynlige nye indikation ifølge TxGNN-modellen er **hypertrichose (hypertrichosis (disease))**. Evidensen er meget begrænset: ingen kliniske forsøg og én enkelt case-rapport, som ikke viser en behandlingseffekt af triptorelin.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Hypertrikose (hypertrichosis (disease)) |
+| Forudsagt ny indikation | Hypertrichose (hypertrichosis (disease)) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig (eller ej)?
+*Note: Den præcise score er 0,99997 (afrundet til fire decimaler: 1,0000).*
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Triptorelin er en GnRH-agonist, der over tid undertrykker produktionen af kønshormoner fra kønskirtlerne.
+## Hvorfor er forudsigelsen rimelig?
 
-Der er ikke identificeret en overbevisende mekanistisk sammenhæng mellem denne virkning og hypertrikose. Den eneste publikation beskriver hypertrikose som en bivirkning af ciclosporin hos en transkvinde, der samtidig fik østradiol og triptorelin. Der er altså tale om en lægemiddelbivirkning af et andet stof og ikke en behandlingseffekt af triptorelin. Den høje score skyldes sandsynligvis et artefakt i modellens netværksstruktur snarere end en reel biologisk sammenhæng.
+Der foreligger ingen detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Triptorelin er kendt som en GnRH-agonist, der nedregulerer hypofysens GnRH-receptorer og dermed sænker produktionen af kønshormoner.
+
+Der er ikke identificeret et plausibelt mekanistisk link mellem denne virkning og behandling af hypertrichose. Den eneste litteratur beskriver hypertrichose som en bivirkning af ciclosporin hos en transkønnet kvinde, der samtidig fik triptorelin og østradiol. Her er hypertrichose en bivirkning af et andet lægemiddel og ikke en behandlingseffekt af triptorelin. Den høje score skyldes sandsynligvis et artefakt i modellens netværksstruktur.
 
 ## Evidens fra kliniske forsøg
 
-Der er aktuelt ingen relaterede kliniske forsøg registreret.
+Der er aktuelt ingen relevante kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedresultater |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case-rapport | Cureus | Generaliseret hypertrikose udløst af ciclosporin hos en 25-årig transkvinde med svær plaque-psoriasis, som samtidig fik østradiol og triptorelin. Hypertrikosen var en bivirkning af ciclosporin og ikke en effekt af triptorelin. |
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case-rapport | Cureus | Ciclosporin-induceret generaliseret hypertrichose hos en transkønnet kvinde, der fik østradiol og triptorelin. Hypertrichosen skyldtes ciclosporin, ikke triptorelin. |
 
 ## Information om det danske marked
 
@@ -74,25 +76,23 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28104615709 | Gonapeptyl (Ferring Lægemidler A/S) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Gonapeptyl (Ferring Lægemidler A/S) er en gyldig enkeltstofgodkendelse.
-
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er registreret 100 interaktioner. Blandt de viste er én klassificeret som alvorlig (major): **dolasetron**. De øvrige viste er moderate, bl.a. antidiabetika (acarbose, metformin, pioglitazon, glimepirid, alogliptin, saxagliptin, dapagliflozin, empagliflozin, canagliflozin, dulaglutid, albiglutid, chlorpropamid), famotidin, loperamid, clarithromycin, palonosetron samt afføringsmidler (bisacodyl, picosulfat, polyethylenglykol).
+- **Lægemiddelinteraktioner:** Der er registreret i alt 100 interaktioner. Blandt de viste er én af stor alvorlighed: **dolasetron** (Major). De øvrige viste er af moderat alvorlighed og omfatter bl.a. antidiabetika (metformin, pioglitazon, glimepirid, acarbose, canagliflozin, dapagliflozin, empagliflozin, alogliptin, saxagliptin, albiglutid, dulaglutid, chlorpropamid), famotidin, loperamid, bisacodyl, picosulfat, polyethylenglycol, clarithromycin og palonosetron.
 
-For øvrige sikkerhedsoplysninger henvises til det godkendte produktresumé (SmPC).
+For øvrige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger kun på modellens score. Der er ingen kliniske forsøg, og den eneste publikation viser en bivirkning af et andet lægemiddel og ikke en effekt af triptorelin. Der er ingen plausibel mekanistisk forklaring, og ingen studier undersøger sygdommen direkte med triptorelin.
+Forudsigelsen hviler alene på en modelscore. Ingen kliniske forsøg eller studier undersøger triptorelin til hypertrichose, og den eneste litteratur beskriver en bivirkning af et andet lægemiddel. Evidensniveauet er derfor L5, og der er ikke noget plausibelt mekanistisk grundlag.
 
-**For at gå videre kræves følgende:**
-- Data om virkningsmekanisme og en begrundet biologisk hypotese for, hvorfor GnRH-agonisme skulle påvirke hypertrikose
-- Prækliniske eller kliniske studier, der direkte undersøger triptorelin ved hypertrikose
-- Gennemgang af sikkerhedsoplysninger i produktresuméet for Gonapeptyl
+**For at komme videre kræves:**
+- Data om virkningsmekanisme og en mekanistisk begrundelse for, at GnRH-agonisme kan påvirke hypertrichose
+- Prækliniske eller kliniske studier, der direkte undersøger triptorelin ved hypertrichose
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
 
 ## Ansvarsfraskrivelse
 

@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 807,
   "level_counts": {
-    "L1": 18,
-    "L2": 27,
+    "L1": 14,
+    "L2": 26,
     "L3": 18,
-    "L4": 55,
-    "L5": 628
+    "L4": 54,
+    "L5": 634
   },
   "all_drugs": [
     {
@@ -240,7 +240,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -1632,7 +1632,7 @@
     {
       "name": "Epirubicin",
       "slug": "epirubicin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 7
     },
     {
@@ -1896,7 +1896,7 @@
     {
       "name": "Fluoxetine",
       "slug": "fluoxetine",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 8
     },
     {
@@ -2550,7 +2550,7 @@
     {
       "name": "Letrozole",
       "slug": "letrozole",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {
@@ -2958,7 +2958,7 @@
     {
       "name": "Morphine",
       "slug": "morphine",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -3798,7 +3798,7 @@
     {
       "name": "Rifabutin",
       "slug": "rifabutin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -4764,7 +4764,7 @@
     {
       "name": "Vortioxetine",
       "slug": "vortioxetine",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 2
     },
     {

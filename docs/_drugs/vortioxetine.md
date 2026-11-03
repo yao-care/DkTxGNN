@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 893
-evidence_level: L1
+evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
-description: "Vortioxetine: forudsagt ny indikation Neurotic disorder (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Vortioxetine: forudsagt ny indikation Nervøs lidelse (neurotic disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,72 +33,40 @@ Evidensniveau: **L1** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Vortioxetine: Neurotic disorder
+## Vortioxetine: Nervøs lidelse (neurotic disorder)
 {: .text-alpha }
 
-Valget af den nye indikation er her gjort ud fra evidensen. Den højest rangerede forudsigelse (neurotisk lidelse) har kun et enkelt litteraturresultat og ingen forsøg. Den tredjerangerede forudsigelse, melankoli, har flest registrerede kliniske forsøg og er derfor valgt som hovedforslag.
+## Resumé
 
-## Resumé i én sætning
-
-Vortioxetin er et antidepressivum, der oprindeligt anvendes til behandling af unipolar depression, endogen depression, svær depressiv lidelse og angstlidelse.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **melankoli** (en sværere form for depression).
-Der er **6 kliniske forsøg** og **21 publikationer** i de data, der er indsamlet til denne rapport. Forsøgene er dog udført i svær depressiv lidelse generelt og ikke specifikt i melankoli.
-
----
+Vortioxetin er et antidepressivt lægemiddel med serotonerg virkning. TxGNN-modellen forudsiger, at det kan have effekt ved **nervøs lidelse (neurotic disorder)**. Der er dog **ingen kliniske forsøg** og kun **1 publikation**, som ikke undersøger vortioxetin direkte, så forudsigelsen bygger reelt kun på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Neurotic disorder |
+| Forudsagt ny indikation | Nervøs lidelse (neurotic disorder) |
 | TxGNN-forudsigelsesscore | 0.9924 |
-| Evidensniveau | L1 (for svær depressiv lidelse generelt; indirekte for melankoli) |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
+| Anbefalet beslutning | Hold |
 
----
+## Hvorfor er denne forudsigelse rimelig?
 
-## Hvorfor er forudsigelsen rimelig?
+Der foreligger på nuværende tidspunkt ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Vortioxetin er kendt som et antidepressivt middel med en multimodal serotonerg profil (hæmning af serotonintransportøren kombineret med modulering af 5-HT-receptorer). Denne mekanisme er plausibel, men ikke verificeret for den forudsagte indikation.
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ifølge den indsamlede litteratur er vortioxetin et multimodalt antidepressivum. Det hæmmer serotonintransportøren (SERT), er agonist ved 5-HT1A-receptoren, partiel agonist ved 5-HT1B og antagonist ved 5-HT3, 5-HT7 og 5-HT1D. Det øger transmissionen af flere signalstoffer i hjerneområder, der er knyttet til depression.
+"Nervøs lidelse" er en bred og forældet diagnosekategori, der overlapper med angst- og depressive tilstande. Den høje modelscore afspejler sandsynligvis denne nærhed i netværket snarere end en egentlig, selvstændig ny anvendelse. Ingen undersøgelser har testet vortioxetin ved nervøs lidelse.
 
-Melankoli er en alvorlig undertype af svær depressiv lidelse med melankolske træk. Den falder derfor inden for vortioxetins godkendte anvendelsesområde. Den samme serotonerge virkningsmekanisme kan derfor forventes at være relevant. Forudsigelsen er mere en præcisering af en eksisterende indikation end en egentlig ny anvendelse.
+## Klinisk evidens
 
-Forsøgsregistrene rapporterer ikke analyser af den melankolske undertype. Evidensen gælder svær depressiv lidelse som helhed og ikke melankoli specifikt.
-
----
-
-## Evidens fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
-|---------|------|------|------|---------|
-| [NCT01163266](https://clinicaltrials.gov/study/NCT01163266) | Fase 3 | Afsluttet | 462 | Randomiseret, dobbeltblindet, placebokontrolleret forsøg med faste doser (10 og 20 mg) ved akut behandling af svær depressiv lidelse |
-| [NCT01153009](https://clinicaltrials.gov/study/NCT01153009) | Fase 3 | Afsluttet | 614 | Placebokontrolleret forsøg med duloxetin som aktiv reference (vortioxetin 15 og 20 mg) ved svær depressiv lidelse |
-| [NCT00735709](https://clinicaltrials.gov/study/NCT00735709) | Fase 3 | Afsluttet | 560 | Placebokontrolleret forsøg med tre faste doser ved akut behandling af svær depressiv lidelse |
-| [NCT01255787](https://clinicaltrials.gov/study/NCT01255787) | Fase 2/3 | Afsluttet | 600 | Placebokontrolleret dosisintervalsstudie af effekt og sikkerhed ved svær depressiv lidelse |
-| [NCT01152996](https://clinicaltrials.gov/study/NCT01152996) | Fase 3 | Afsluttet | 1.075 | Langvarigt åbent forlængelsesforsøg med fleksibel dosis (15 og 20 mg); sikkerhed og tolerabilitet |
-| [NCT00707980](https://clinicaltrials.gov/study/NCT00707980) | Fase 3 | Afsluttet | 836 | Langvarigt åbent forlængelsesforsøg med fleksibel dosis; langtidssikkerhed og -effekt |
-
----
+Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Netværksmetaanalyse | Lancet | Sammenligning af effekt og acceptabilitet af 21 antidepressiva ved akut behandling af svær depressiv lidelse hos voksne |
-| [38957929](https://pubmed.ncbi.nlm.nih.gov/38957929/) | 2024 | Systematisk review og dosis-respons-metaanalyse af RCT'er | Psychiatry Clin Neurosci | Dosis-responsforhold for vortioxetin ved depression hos voksne |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematisk review/netværksmetaanalyse | Mol Psychiatry | Antidepressiva i vedligeholdelsesfasen ved svær depressiv lidelse |
-| [25016186](https://pubmed.ncbi.nlm.nih.gov/25016186/) | 2015 | Review | Pharmacol Ther | Præklinske og kliniske data for vortioxetins multimodale virkning |
-| [29189941](https://pubmed.ncbi.nlm.nih.gov/29189941/) | 2018 | Review | Clin Pharmacokinet | Farmakokinetik og lægemiddelinteraktioner (halveringstid ca. 66 timer, biotilgængelighed 75 %) |
-| [37032427](https://pubmed.ncbi.nlm.nih.gov/37032427/) | 2023 | Retningslinje | Clin Pharmacol Ther | CPIC-retningslinje for genotyper (CYP2D6, CYP2C19 m.fl.) og serotoningenoptagshæmmere |
-| [34029378](https://pubmed.ncbi.nlm.nih.gov/34029378/) | 2021 | Netværksmetaanalyse (pædiatrisk) | Cochrane Database Syst Rev | Nyere antidepressiva til børn og unge med depression |
-| [28881483](https://pubmed.ncbi.nlm.nih.gov/28881483/) | 2017 | Metaanalyse (bivirkninger) | Depress Anxiety | Risiko for hyperhidrose ved andengenerationsantidepressiva |
-| [33549697](https://pubmed.ncbi.nlm.nih.gov/33549697/) | 2021 | Metaanalyse (bivirkninger) | Prog Neuropsychopharmacol Biol Psychiatry | Gastrointestinale bivirkninger ved antidepressiv behandling |
-| [37424409](https://pubmed.ncbi.nlm.nih.gov/37424409/) | 2023 | Review | Clin Psychopharmacol Neurosci | Anhedoni som kernesymptom ved depression |
-
----
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Oversigtsartikel | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Gennemgår behandling af neurotisk depression med udgangspunkt i en patientcase. Fremhæver en integreret tilgang med antidepressiva og kognitiv adfærdsterapi. Omtaler ikke vortioxetin specifikt. |
 
 ## Information om det danske marked
 
@@ -106,36 +74,35 @@ Forsøgsregistrene rapporterer ikke analyser af den melankolske undertype. Evide
 |---------|------|------|-----------|
 | 28105175112 | Brintellix (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
 
----
+Producent: H. Lundbeck A/S. Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
 
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er registreret 153 interaktioner. Blandt de alvorlige (Major) er bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron og phentermin. Blandt de moderate er morfin, acetylsalicylsyre, dexamethason, flere insuliner, glimepirid og chlorpropamid.
-- **Bivirkninger fra litteraturen:** Gastrointestinale bivirkninger (kvalme) og øget svedtendens (hyperhidrose) er beskrevet. Der er desuden risiko for seksuel dysfunktion, som er almindelig ved antidepressiva.
-- **Genetik og metabolisme:** CYP2D6-relaterede interaktioner og genotypens betydning bør tages i betragtning (CPIC-retningslinje).
-- **Børn og unge:** Netværksmetaanalysen for børn og unge understøtter ikke overførsel af evidensen til denne gruppe.
+**Lægemiddelinteraktioner:** Der er registreret 153 interaktioner i alt. Blandt de alvorlige (Major) er:
+- Bupropion
+- Lorcaserin
+- Diethylpropion
+- Dolasetron
+- Palonosetron
+- Phentermin
 
-Oplysninger om advarsler og kontraindikationer fra det godkendte produktresumé (SmPC) indgår ikke i de indsamlede data. Se det godkendte produktresumé for fuldstændige sikkerhedsoplysninger.
+Moderate interaktioner omfatter bl.a. morfin, acetylsalicylsyre, dexamethason, flere insuliner samt glimepirid og chlorpropamid.
 
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails (fortsæt med forbehold)**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Flere afsluttede fase 3-forsøg og metaanalyser understøtter effekten af vortioxetin ved svær depressiv lidelse, og melankoli er en undertype heraf. Evidensen er indirekte, fordi der ikke foreligger analyser specifikt for melankolske træk.
+Evidensniveauet er L5: Intet studie har undersøgt vortioxetin ved nervøs lidelse, og den eneste publikation omhandler behandling af neurotisk depression generelt. Den høje score afspejler sandsynligvis nærhed til kendte angst- og depressionsdiagnoser frem for en ny, selvstændig indikation.
 
 **For at komme videre kræves:**
-- Analyse af undergruppen med melankolske træk i de eksisterende fase 3-forsøg
-- Gennemgang af produktresuméets advarsler, kontraindikationer og godkendte indikationstekst (disse data mangler)
-- Data om virkningsmekanismen fra DrugBank
-- Overvågningsplan for gastrointestinale bivirkninger, hyperhidrose og CYP2D6-relaterede interaktioner
-- Bekræftelse af, at evidensen ikke overføres til børn og unge
+- Data om virkningsmekanismen (MOA)
+- Kliniske studier, der direkte undersøger vortioxetin ved den forudsagte tilstand
+- En klar, moderne diagnostisk afgrænsning af "nervøs lidelse"
+- Gennemgang af produktresuméet for advarsler og kontraindikationer
 
----
-
-**Bemærkning om øvrige forudsigelser:** Neurotisk lidelse og benign paroksystisk torticollis hos spædbørn (Benign paroksystisk torticollis hos spædbørn) har ingen forsøg og svag eller ingen litteratur, og anbefales sat i bero (Hold).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
