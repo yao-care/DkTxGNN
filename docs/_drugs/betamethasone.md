@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: Kun modelforudsigelse (L5)
+parent: Moderat evidens (L3-L4)
 nav_order: 109
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-description: "Betamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Betamethasone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,72 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Betamethasone: Alopecia mucinosa
+## Betamethasone: Follikulær mucinose (alopecia mucinosa)
 {: .text-alpha }
 
-## Opsummering
+## Resumé i én sætning
 
-Betamethason er et kortikosteroid med antiinflammatorisk virkning. TxGNN-modellen forudsiger, at det kan have effekt ved **alopecia mucinosa (alopecia mucinosa)**. Evidensen er meget begrænset: ingen registrerede kliniske forsøg og kun **1 publikation** (en case-serie fra 1964).
+Betamethason er et kortikosteroid, som i Danmark er markedsført som topikale præparater (creme og salve). TxGNN-modellen forudsiger, at det kan have effekt ved **follikulær mucinose (alopecia mucinosa)**. Evidensen er svag: der er ingen kliniske forsøg og kun **1 publikation**, en case-serie fra 1964.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Alopecia mucinosa |
+| Forudsagt ny indikation | Follikulær mucinose (alopecia mucinosa) |
 | TxGNN-forudsigelsesscore | 0.9997 |
-| Evidensniveau | L5 |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er denne forudsigelse rimelig?
+## Hvorfor er forudsigelsen rimelig?
 
-Data om betamethasons detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Betamethason tilhører gruppen af kortikosteroider, som er kendt for at dæmpe inflammation.
+Data om betamethasons detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Betamethason tilhører gruppen af kortikosteroider med antiinflammatorisk og immundæmpende virkning.
 
-Alopecia mucinosa (follikulær mucinose) er en inflammatorisk tilstand med ophobning af slim i hårsækkens epitel. Det er plausibelt, at et kortikosteroid kan påvirke den inflammatoriske komponent. Det er dog kun en teoretisk sammenhæng, og der findes ingen moderne undersøgelser, der bekræfter den.
+Follikulær mucinose er en inflammatorisk proces, hvor der aflejres mucin i hårsækkens epitel. Kortikosteroiders antiinflammatoriske effekt er derfor mekanistisk plausibel for den inflammatoriske komponent. Beskrivelsen er imidlertid teoretisk. Den eneste tilgængelige evidens er en case-serie fra 1964 med en gennemgang af behandlingsmuligheder, og der findes ingen moderne forsøg, som bekræfter effekten af betamethason.
 
 ## Evidens fra kliniske forsøg
 
 Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case-rapport | Archives of Dermatology | Rapport om tre tilfælde af follikulær mucinose med gennemgang af behandlingsmuligheder. Ingen abstract tilgængelig, og ingen moderne data. |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case-serie | Archives of Dermatology | Rapport om tre tilfælde af follikulær mucinose (alopecia mucinosa) og gennemgang af behandlingsmuligheder. Ingen abstract tilgængeligt, og der er ikke data, der specifikt dokumenterer effekten af betamethason. |
 
-Det direkte studie af sygdommen er en historisk case-serie, som ikke kan dokumentere effekt af betamethason. Evidensniveauet er derfor sat til L5.
-
-## Oplysninger om det danske marked
+## Markedsinformation i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28101560293 | Diproderm | Creme | Indikationstekst ikke angivet |
 | 28106262919 | Calcipotriol/Betamethason "2care4" | Salve | Indikationstekst ikke angivet |
 
-Begge godkendelser er gyldige. Bemærk, at Calcipotriol/Betamethason "2care4" er et kombinationspræparat, og at dets godkendelse ikke beskriver godkendelsen af betamethason som enkeltstof.
+Begge tilladelser er gyldige, og ingen er annulleret.
 
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er registreret i alt 1883 mulige interaktioner. Blandt de fremhævede er:
+**Lægemiddelinteraktioner:** Der er registreret i alt 1883 mulige interaktioner. Blandt de mest relevante er:
 - **Alvorlig (Major):** adalimumab
-- **Moderat:** blandt andre zidovudin, isotretinoin, acarbose, acebutolol, acetazolamid, ketorolac, nifedipin, ibuprofen, ethinylestradiol, albiglutid, aldesleukin, alefacept, alemtuzumab, fluvoxamin og fosamprenavir
-- **Mindre:** formoterol og salbutamol
+- **Moderat:** isotretinoin, ibuprofen, ketorolac, nifedipin, ethinylestradiol, fluvoxamin, fosamprenavir, zidovudin, acetazolamid, acarbose, acebutolol, aldesleukin, alemtuzumab, albiglutid
+- **Mindre (Minor):** formoterol, salbutamol
 
-Der foreligger desuden registrerede sygdomme, hvor betamethason er anført som kontraindiceret i datagrundlaget, bl.a. hypertension, epilepsi, hyperglykæmi, kongestiv hjertesvigt, herpes simplex-keratitis, mæslinger og forskellige former for hypofysesvigt. Disse oplysninger stammer ikke fra produktresuméer.
-
-For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsesscoren er høj (0,9997), men der er ingen kliniske forsøg og kun en historisk case-rapport om sygdommen. Der er ingen direkte evidens for effekt af betamethason, og evidensniveauet er L5.
+Den forudsagte indikation understøttes kun af en case-serie fra 1964 (evidensniveau L4), uden kliniske forsøg eller moderne kohortedata. Selvom forudsigelsesscoren er høj (0,9997), er der ikke grundlag for at gå videre uden yderligere dokumentation.
 
-**For at komme videre kræves:**
-- Systematisk litteratursøgning efter moderne studier af kortikosteroidbehandling ved follikulær mucinose
+**For at komme videre kræves følgende:**
+- Systematisk litteraturgennemgang af behandling med topikale eller intralæsionale kortikosteroider ved follikulær mucinose
+- Retrospektive kohorte- eller case-serie-data fra nyere kliniske forløb
 - Data om betamethasons virkningsmekanisme
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
-- Vurdering af egnet administrationsvej (lokal, intralæsionel eller systemisk) og af risikoen ved langvarig kortikosteroidbehandling i hovedbunden
-- Hvis hypotesen skal undersøges, et lille eksplorativt klinisk studie eller en case-serie med standardiserede effektmål
+- Vurdering af administrationsvej og formulering (creme/salve) i forhold til hårsækkelokalisation
 
 ## Ansvarsfraskrivelse
 
