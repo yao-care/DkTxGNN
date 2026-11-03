@@ -12,6 +12,8 @@ description: "Kandidater til lægemiddelrepositionering på L1-L2 i DkTxGNN, und
 Kandidater, der kan prioriteres til klinisk vurdering
 </p>
 
+Hvilke af disse lægemidler har evidens fra forsøg for deres forudsagte nye indikation, og hvor mange registrerede forsøg citeres? Se [Lægemidler i Danmark med evidens fra kliniske forsøg for en ny indikation]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Kriterier

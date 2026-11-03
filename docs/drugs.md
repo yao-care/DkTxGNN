@@ -36,6 +36,8 @@ Listen bygger på registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/)
 
 <!-- local-home:end -->
 
+Udvalg: [Lægemidler i Danmark med evidens fra kliniske forsøg for en ny indikation]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, med forudsagt indikation og antal citerede registrerede forsøg).
+
 ## Fordeling på evidensniveau
 
 | Evidensniveau | Lægemidler | Beskrivelse |

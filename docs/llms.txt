@@ -14,6 +14,7 @@
 - Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark: https://dktxgnn.yao.care/
 - Alle lægemidler: https://dktxgnn.yao.care/drugs/
 - Høj evidens (L1-L2): https://dktxgnn.yao.care/evidence-high/
+- Lægemidler med forsøgsevidens for en ny indikation: https://dktxgnn.yao.care/clinical-trial-evidence/
 - Moderat evidens (L3-L4): https://dktxgnn.yao.care/evidence-medium/
 - Kun modelforudsigelse (L5): https://dktxgnn.yao.care/evidence-low/
 - Metode: https://dktxgnn.yao.care/methodology/
