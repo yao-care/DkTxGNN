@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: Kun modelforudsigelse (L5)
 nav_order: 226
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 monitor_inn: "cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-28
-description: "Cyclophosphamide: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-11-03
+description: "Cyclophosphamide: forudsagt ny indikation Vertebral anomalies and variable endocrine and T-cell dysfunction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 
 </div>
 
-## Cyclophosphamid: alkylerende cytostatikum → myeloid leukæmi (myeloid leukemia)
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Cyclophosphamid er et alkylerende kemoterapeutisk middel, som er markedsført i Danmark som injektions-/infusionsvæske og som overtrukne tabletter.
-TxGNN-modellen forudsiger, at det kan have effekt ved **myeloid leukæmi (myeloid leukemia)**, og der er i de data, der er indsamlet til denne rapport, **34 kliniske forsøg** og **20 publikationer**. Cyclophosphamid indgår dog i disse studier som en del af konditionerings- og kombinationsregimer, ikke som selvstændigt antileukæmisk middel.
+Cyclophosphamid indgår dog i disse studier som en del af konditionerings- og kombinationsregimer, ikke som selvstændigt antileukæmisk middel.
 
 ---
 
@@ -48,8 +48,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **myeloid leukæmi (myeloi
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Myeloid leukæmi (myeloid leukemia) |
-| TxGNN-forudsigelsesscore | 0,9947 |
+| Forudsagt ny indikation | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN-forudsigelsesscore | 0.9938 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |

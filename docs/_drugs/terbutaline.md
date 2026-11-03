@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 811
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: forudsagt ny indikation Respiratory malformation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Terbutaline: Obstruktiv lungesygdom (obstructive lung disease)
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Terbutalin er en selektiv beta-2-agonist, der oprindeligt anvendes til behandling af astma, bronkitis og lungeemfysem.
-TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **obstruktiv lungesygdom**, med **14 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport.
 Bemærk, at forudsigelsen i høj grad ligger tæt på de allerede kendte anvendelser og derfor ikke er et egentligt nyt repurposing-signal.
 
 ---
@@ -49,9 +48,9 @@ Bemærk, at forudsigelsen i høj grad ligger tæt på de allerede kendte anvende
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
-| TxGNN-forudsigelsesscore | 0.9996 |
-| Evidensniveau | L1 |
+| Forudsagt ny indikation | Respiratory malformation |
+| TxGNN-forudsigelsesscore | 0.9952 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

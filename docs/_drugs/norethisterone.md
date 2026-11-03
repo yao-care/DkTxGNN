@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Norethisterone
-parent: Moderat evidens (L3-L4)
+parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 593
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "norethisterone"
-predicted_indications: ["amenorrhea (disease)"]
-description: "Norethisterone: forudsagt ny indikation Amenorré (amenorrhea (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Norethisterone: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
+Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,18 @@ Evidensniveau: **L4** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Norethisterone: Amenorré (amenorrhea (disease))
+## Norethisterone
 {: .text-alpha }
-
-## Sammenfatning
-
-Norethisteron er et syntetisk progestin, der oprindeligt anvendes til blandt andet endometriose, primær ovarieinsufficiens og postmenopausal osteoporose.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **amenorré**,
-men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur** (21 publikationer, hovedsageligt om præventionsformuleringer, hvor amenorré er en bivirkning og ikke et behandlingsmål).
-
----
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Amenorré (amenorrhea (disease)) |
-| TxGNN-forudsigelsesscore | 0.9960 |
-| Evidensniveau | L4 (se bemærkning nedenfor) |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Hold |
 
 *Bemærkning: Der er hverken afsluttede RCT'er eller kliniske forsøg for den nye indikation. Litteraturen er indirekte og belyser mekanismer og bivirkningsmønstre, så L4 (mekanistisk/indirekte evidens) er det mest passende niveau.*
-
----
-
-## Hvorfor er forudsigelsen rimelig?
-
-Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige i de data, der er indsamlet til denne rapport. Norethisteron er dog et syntetisk progestin med progesteronreceptor-agonistisk virkning. Ved sekundær amenorré med østrogenpåvirket endometrium kan et progestin fremkalde bortfaldsblødning og regulere endometriets cyklus. Stoffet hæmmer desuden frigivelsen af gonadotropiner via hypothalamus-hypofyse-gonade-aksen.
-
-Sammenhængen mellem de oprindelige indikationer (f.eks. endometriose og primær ovarieinsufficiens) og amenorré er hormonel: alle er tilstande, hvor progestinbehandling modulerer endometriet og cyklussen. Mekanismen er derfor biologisk plausibel.
-
-Det er vigtigt at understrege, at den fremlagte litteratur primært omhandler norethisteron-holdige præventionsmidler (injicerbare, orale og mikrosfæreformuleringer), hvor amenorré beskrives som en bivirkning af blødningsmønsteret og ikke som et behandlingsmål. Koblingen til amenorré som terapeutisk indikation er derfor indirekte og plausibel, men ikke direkte påvist. Den meget høje TxGNN-score (0,996) er en beregningsmæssig forudsigelse og ikke klinisk evidens.
-
----
-
-## Evidens fra kliniske forsøg
-
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Hovedfund |
-|------|-----|------|------|---------|
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT (WHICH-studiet) | PloS one | Sammenligner DMPA-IM og NET-EN med hensyn til østradiolniveauer og menstruationsmønstre. |
-| [41489365](https://pubmed.ncbi.nlm.nih.gov/41489365/) | 2026 | Observationel/mekanistisk | Biology of Reproduction | Sekundær analyse af 521 kvinder: ens fald i østradiol, men mere amenorré med DMPA-IM end med NET-EN. |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Kombinerede injicerbare præventionsmidler er effektive; blødningsforstyrrelser kan begrænse acceptabiliteten. |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematisk review (Cochrane) | Cochrane Database Syst Rev | Tidligere version af ovenstående review. |
-| [8336583](https://pubmed.ncbi.nlm.nih.gov/8336583/) | 1993 | Randomiseret forsøg | Med J Aust | Kontinuerlig lavdosis østrogen-progestogen hormonbehandling; sammenligning af tre progestogener. |
-| [6230212](https://pubmed.ncbi.nlm.nih.gov/6230212/) | 1983 | Survey/review | Contraception | Håndtering af menstruationsforstyrrelser ved injicerbare progestogener (DMPA, NET-EN) på tværs af 20 lande. |
-| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Fase I-forsøg | Contraception | 20 cubanske kvinder; LH/FSH-toppe hæmmet; menstruationsforstyrrelser inkl. amenorré forekom. |
-| [3695501](https://pubmed.ncbi.nlm.nih.gov/3695501/) | 1987 | Formuleringsstudie | J Steroid Biochem | NET-mikrokapsler; ændret cyklus med korte blødninger, pletblødning og amenorré som hyppige bivirkninger. |
-| [31056890](https://pubmed.ncbi.nlm.nih.gov/31056890/) | 2019 | Case report | JBRA Assist Reprod | Autoimmun hypothyroidisme og intermitterende ovarieinsufficiens med sekundær amenorré. |
-| [12290848](https://pubmed.ncbi.nlm.nih.gov/12290848/) | 1994 | Review | J Obstet Gynaecol | Gennemgang af kombinerede månedlige injicerbare præventionsmidler. |
 
 ---
 
@@ -128,19 +83,6 @@ Tilgængelige data om advarsler og kontraindikationer fra produktresuméet mangl
 
 ---
 
-## Konklusion og næste skridt
-
-**Beslutning: Hold**
-
-**Begrundelse:**
-Forudsigelsen er mekanistisk plausibel, men der er hverken kliniske forsøg eller direkte litteratur, som viser effekt ved amenorré. Den høje TxGNN-score er ikke klinisk evidens, og de centrale sikkerhedsdata fra produktresuméet mangler.
-
-**For at komme videre kræves:**
-- Hentning og gennemgang af produktresuméet (SmPC) fra Lægemiddelstyrelsen, herunder advarsler, kontraindikationer og godkendt indikation
-- Detaljerede data om virkningsmekanisme (f.eks. fra DrugBank)
-- Systematisk litteraturgennemgang af norethisteron (og lignende progestiner) til behandling af primær og sekundær amenorré, hvor amenorré er behandlingsmålet
-- Afklaring af, om ruten (oral tablet) og dosering er egnet til den nye indikation
-- Vurdering af sikkerhed hos relevante patientgrupper i lyset af de angivne sygdomsforbehold og interaktioner
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

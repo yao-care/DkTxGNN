@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 541
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Methylprednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Autoimmune sygdomme, Crohns sygdom/inflammatorisk tarmsygdom…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "methylprednisolone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Methylprednisolon: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Methylprednisolon er et systemisk glukokortikoid, der oprindeligt anvendes til bl.a. autoimmune sygdomme, Crohns sygdom, binyrebarkinsufficiens og akut lymfoblastær leukæmi.
-TxGNN-modellen forudsiger, at det kan være virksomt ved **alopecia areata**,
-og der er i de data, der er indsamlet til denne rapport, **1 klinisk forsøg** og **20 publikationer** (primært observationelle studier og oversigtsartikler).
 
 ---
 
@@ -48,10 +46,10 @@ og der er i de data, der er indsamlet til denne rapport, **1 klinisk forsøg** o
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Autoimmune sygdomme, Crohns sygdom/inflammatorisk tarmsygdom, binyrebarkinsufficiens, akut lymfoblastær leukæmi m.fl. (den godkendte indikationstekst for det danske produkt er ikke tilgængelig) |
-| Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 0,9999 |
-| Evidensniveau | L3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Alopecia mucinosa |
+| TxGNN-forudsigelsesscore | 0.9999 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Kun modelforudsigelse (L5)
 nav_order: 323
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: forudsagt ny indikation Bacterial arthritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,10 +39,8 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 ## Resumé i én sætning
 
 Ertapenem er et bredspektret carbapenem-antibiotikum, der oprindeligt anvendes til bakteriel lungebetændelse (herunder streptokok-pneumoni) og infektioner med Peptostreptococcus.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **Staphylococcus aureus-infektion**, især som kombinationsbehandling med cefazolin ved vedvarende MSSA-bakteriæmi.
 Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultater) og **20 publikationer**, hovedsageligt case-serier og kohortestudier.
 
-Denne rapport fokuserer på Staphylococcus aureus-infektion, som har den stærkeste evidens blandt forudsigelserne (L2).*
 
 ---
 

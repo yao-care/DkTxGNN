@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Kun modelforudsigelse (L5)
 nav_order: 183
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-30
-description: "Chlorambucil: forudsagt ny indikation prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemi… (evidensniveau L5). Oprindelig indikatio…"
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-11-03
+description: "Chlorambucil: forudsagt ny indikation ALK-positive large B-cell lymphoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Chlorambucil: alkylerende cytostatikum → prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## Resumé
 
 Chlorambucil er et alkylerende middel, der anvendes til behandling af blodkræftsygdomme.
-TxGNN-modellen forudsiger, at det kan have effekt ved **prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)**.
 De data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg** og **én publikation** (en oversigtsartikel fra 2003), som kun indirekte understøtter forudsigelsen.
 
 ## Hurtigt overblik
@@ -47,8 +46,8 @@ De data, der er indsamlet til denne rapport, indeholder **ingen kliniske forsøg
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | prægerminal-center kronisk lymfatisk leukæmi/småcellet lymfatisk lymfom (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) |
-| TxGNN-forudsigelsesscore | 0,9972 |
+| Forudsagt ny indikation | ALK-positive large B-cell lymphoma |
+| TxGNN-forudsigelsesscore | 0.9961 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

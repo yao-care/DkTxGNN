@@ -4,17 +4,17 @@ title: Nystatin
 parent: Kun modelforudsigelse (L5)
 nav_order: 597
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Nystatin"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-10-30
-description: "Nystatin: forudsagt ny indikation Vulvovaginitis (evidensniveau L5). Oprindelig indikation: Candidiasis (kutan, oral…"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+last_modified_at: 2026-11-03
+description: "Nystatin: forudsagt ny indikation Disease of orbital region (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Nystatin: Fra svampeinfektioner til vulvovaginitis
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## Sammenfatning
 
-Nystatin er et antimykotikum, som i vidensgrafen er registreret med kutan, oral og vulvovaginal candidiasis. Der foreligger ingen godkendelsestekst i den danske registrering. TxGNN-modellen forudsiger, at nystatin kan have effekt ved **vulvovaginitis**. Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (primært oversigtsartikler og laboratorie- eller dyrestudier), som vedrører vulvovaginal candidiasis. Forudsigelsen er i overvejende grad en anvendelse inden for den kendte svampeindikation, ikke egentlig repurposing.
+Nystatin er et antimykotikum, som i vidensgrafen er registreret med kutan, oral og vulvovaginal candidiasis. Der foreligger ingen godkendelsestekst i den danske registrering. Der er **ingen registrerede kliniske forsøg** og **20 publikationer** (primært oversigtsartikler og laboratorie- eller dyrestudier), som vedrører vulvovaginal candidiasis. Forudsigelsen er i overvejende grad en anvendelse inden for den kendte svampeindikation, ikke egentlig repurposing.
 
 ---
 
@@ -46,9 +46,9 @@ Nystatin er et antimykotikum, som i vidensgrafen er registreret med kutan, oral 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Candidiasis (kutan, oral, vulvovaginal) – registreret som relation i vidensgrafen; den danske godkendelsestekst er ikke tilgængelig |
-| Forudsagt ny indikation | Vulvovaginitis |
-| TxGNN-forudsigelsesscore | 0,9992 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Disease of orbital region |
+| TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

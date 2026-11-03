@@ -4,17 +4,17 @@ title: Calcifediol
 parent: Kun modelforudsigelse (L5)
 nav_order: 148
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "calcifediol"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
-description: "Calcifediol: forudsagt ny indikation forældet D-vitaminmangel (obsolete vitamin D deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["renal tubular acidosis"]
+last_modified_at: 2026-11-03
+description: "Calcifediol: forudsagt ny indikation Renal tubular acidosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Calcifediol: D-vitamin-metabolit → forældet D-vitaminmangel (obsolete vitamin D deficiency)
+## Calcifediol: Renal tubular acidosis
 {: .text-alpha }
 
 ## Opsummering
 
 Calcifediol (25-hydroxyvitamin D3) er den direkte cirkulerende forstadie til calcitriol og den vigtigste markør for D-vitaminstatus.
-TxGNN-modellen forudsiger, at stoffet kan være effektivt ved **forældet D-vitaminmangel (obsolete vitamin D deficiency)**.
 Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede data, så forudsigelsen er alene modelbaseret.
 
 ## Hurtigt overblik
@@ -47,8 +46,8 @@ Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede dat
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | forældet D-vitaminmangel (obsolete vitamin D deficiency) |
-| TxGNN-forudsigelsesscore | 0,9999 |
+| Forudsagt ny indikation | Renal tubular acidosis |
+| TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

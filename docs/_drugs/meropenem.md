@@ -4,17 +4,17 @@ title: Meropenem
 parent: Kun modelforudsigelse (L5)
 nav_order: 532
 evidence_level: L5
-indication_count: 9
+indication_count: 7
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
-last_modified_at: 2026-10-28
-description: "Meropenem: forudsagt ny indikation Bakteriel artritis (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: infektion med Pseudomonas aerugi…"
+predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+last_modified_at: 2026-11-03
+description: "Meropenem: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Meropenem: Fra bakterielle infektioner til bakteriel artritis
+## Meropenem: Bakteriel artritis (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -48,9 +48,9 @@ Der er **ingen registrerede kliniske forsøg** og **19 publikationer**, hvoraf i
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Relation registreret i vidensgrafen: infektion med Pseudomonas aeruginosa, meningokokinfektion, peritonitis og bakteriel meningitis (ikke hentet fra dansk produktinformation; indikationsteksten i den danske registrering er ikke tilgængelig) |
-| Forudsagt ny indikation | Bakteriel artritis |
-| TxGNN-forudsigelsesscore | 0,9992 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Bakteriel artritis (bacterial arthritis) |
+| TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

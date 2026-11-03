@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 31
-evidence_level: L2
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 monitor_inn: "albendazole"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-28
-description: "Albendazole: forudsagt ny indikation Alveolær ekinokokkose (alveolar echinococcosis) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["coenurosis"]
+last_modified_at: 2026-11-03
+description: "Albendazole: forudsagt ny indikation Coenurosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidensniveau: **L2** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Albendazol: benzimidazol-ormemiddel (hæmmer parasittens beta-tubulin) → Alveolær ekinokokkose (alveolar echinococcosis)
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Albendazol er et bredspektret ormemiddel (benzimidazol), der hæmmer parasittens mikrotubuli-dannelse.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **alveolær ekinokokkose (alveolar echinococcosis)**,
-og der er i de data, der er indsamlet til denne rapport, **3 kliniske forsøg** og **19 publikationer** for denne retning, heraf ét afsluttet fase 2-forsøg med 194 patienter.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Alveolær ekinokokkose (alveolar echinococcosis) |
-| TxGNN-forudsigelsesscore | 0,9997 |
-| Evidensniveau | L2 |
+| Forudsagt ny indikation | Coenurosis |
+| TxGNN-forudsigelsesscore | 0.9983 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |

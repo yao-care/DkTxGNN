@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oteracil
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 614
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "oteracil"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: forudsagt ny indikation Colonic neoplasm (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Oteracil: Colonic neoplasm
+## Oteracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Opsummering
 
 Oteracil er en komponent i kombinationspræparatet S-1 (tegafur/gimeracil/oteracil), som oprindeligt anvendes til behandling af mavekræft.
-TxGNN-modellen forudsiger, at det kan have effekt ved **colonic neoplasm (tyktarmsneoplasi)**,
-og der er i de data, der er indsamlet til denne rapport, **6 kliniske forsøg** og **10 publikationer** inden for denne retning. Det bør bemærkes, at den kliniske effekt stammer fra tegafur, mens oteracils rolle er at reducere toksicitet i mave-tarm-kanalen.
+Det bør bemærkes, at den kliniske effekt stammer fra tegafur, mens oteracils rolle er at reducere toksicitet i mave-tarm-kanalen.
 
 ---
 
@@ -49,9 +48,9 @@ og der er i de data, der er indsamlet til denne rapport, **6 kliniske forsøg** 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Colonic neoplasm |
-| TxGNN-forudsigelsesscore | 0.9999 |
-| Evidensniveau | L1 |
+| Forudsagt ny indikation | Cecum villous adenoma |
+| TxGNN-forudsigelsesscore | 0.9998 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

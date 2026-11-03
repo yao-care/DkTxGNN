@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Kun modelforudsigelse (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-30
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
+last_modified_at: 2026-11-03
 description: "Haloperidol: forudsagt ny indikation Congenital disorder of glycosylation with defective fucosylation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -120,7 +120,7 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der er hverken kli
 - Gennemgang af produktresuméets advarsler og kontraindikationer for lægemidlet
 - Vurdering af sikkerhed i en sjælden, ofte pædiatrisk patientgruppe
 
-**Bemærkning om øvrige forudsigelser:** Blandt de lavere rangerede forudsigelser har kun *manisk bipolar lidelse* kliniske data, herunder et afsluttet fase 3-forsøg (NCT00129220) med haloperidol som aktiv kontrol. Denne indikation ligger tæt på haloperidols eksisterende psykiatriske anvendelse og er derfor snarere en udvidelse end egentlig omplacering af lægemidlet.
+Denne indikation ligger tæt på haloperidols eksisterende psykiatriske anvendelse og er derfor snarere en udvidelse end egentlig omplacering af lægemidlet.
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

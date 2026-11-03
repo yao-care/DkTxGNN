@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 253
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "dexamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Dexamethasone: Alopecia areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Opsummering i én sætning
 
 Dexamethason er et potent glukokortikoid, som oprindeligt anvendes til blandt andet binyrebarkinsufficiens, inflammatorisk tarmsygdom (Crohns sygdom), akut lymfoblastær leukæmi og eosinofil pneumoni.
-TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **alopecia areata** (pletvis hårtab).
 Forudsigelsen understøttes af **19 publikationer** i de indsamlede data (heraf 1 randomiseret kontrolleret studie og 1 systematisk review/netværksmetaanalyse), men **ingen registrerede kliniske forsøg**.
 
 ---
@@ -49,9 +48,9 @@ Forudsigelsen understøttes af **19 publikationer** i de indsamlede data (heraf 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Alopecia areata |
+| Forudsagt ny indikation | Alopecia mucinosa |
 | TxGNN-forudsigelsesscore | 0.9999 |
-| Evidensniveau | L2 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
 | Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails |

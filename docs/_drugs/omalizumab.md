@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Høj evidens (L1-L2)
 nav_order: 609
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 monitor_inn: "Omalizumab"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-10-30
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+last_modified_at: 2026-11-03
 description: "Omalizumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Astma, allergisk astma og idiopatisk urticaria"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---

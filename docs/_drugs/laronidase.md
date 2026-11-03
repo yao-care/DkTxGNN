@@ -4,17 +4,17 @@ title: Laronidase
 parent: Kun modelforudsigelse (L5)
 nav_order: 480
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-11-03
-description: "Laronidase: forudsagt ny indikation Lysosomal lagringssygdom med skeletinvolvering (evidensniveau L4). Oprindelig indikation: Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom)"
 monitor_inn: "Laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: forudsagt ny indikation Sanfilippo syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 </div>
 
-## Laronidase: Fra mukopolysakkaridose type I til lysosomal lagringssygdom med skeletinvolvering
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Opsummering
 
 Laronidase er et rekombinant alfa-L-iduronidase-enzym, som oprindeligt anvendes som enzymerstatningsterapi ved mukopolysakkaridose type I (Hurler, Hurler-Scheie og Scheie syndrom).
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **lysosomal lagringssygdom med skeletinvolvering**.
 Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (primært oversigtsartikler, ét in vitro-studie og ét case report) bag denne retning. Forudsigelsen afspejler i høj grad den eksisterende indikation snarere end egentlig repurposing.
 
 ---
@@ -48,9 +47,9 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (primært 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mukopolysakkaridose type I (Hurler, Hurler-Scheie, Scheie syndrom) |
-| Forudsagt ny indikation | Lysosomal lagringssygdom med skeletinvolvering |
-| TxGNN-forudsigelsesscore | 0,9931 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Sanfilippo syndrome |
+| TxGNN-forudsigelsesscore | 0.9922 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

@@ -4,17 +4,17 @@ title: Prednisone
 parent: Moderat evidens (L3-L4)
 nav_order: 681
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Prednisone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Autoimmune sygdomme, binyrebarkinsufficiens, Crohns sygdom…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "prednisone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisone: forudsagt ny indikation Alopecia areata (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Prednisone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L3** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Prednison: Fra autoimmune og inflammatoriske sygdomme til alopecia areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -46,9 +46,9 @@ Prednison er et systemisk glukokortikoid, der oprindeligt anvendes til autoimmun
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Autoimmune sygdomme, binyrebarkinsufficiens, Crohns sygdom, akut lymfatisk leukæmi m.fl. (indikationsteksten i den danske registrering er ikke angivet) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 0,9999 |
+| TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L3 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

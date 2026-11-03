@@ -4,17 +4,17 @@ title: Elosulfase Alfa
 parent: Kun modelforudsigelse (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "Elosulfase alfa"
-predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
-last_modified_at: 2026-10-30
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+last_modified_at: 2026-11-03
 description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose"
 ---
 
 # Elosulfase Alfa
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -81,7 +81,6 @@ Antal godkendelser: 1 enkeltstofsprodukt, gyldigt.
 
 | Sygdom | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
-| Lysosomal lagringssygdom med skeletinvolvering | 0,9959 | L5 | Bred kategori, der omfatter MPS IVA. Litteraturen handler om MPS IVA selv og understøtter den oprindelige anvendelse, ikke reel omplacering. |
 | Hurler syndrom | 0,9943 | L5 | Fase 1-forsøget NCT04532047 (PEARL, prænatal enzymerstatning, 10 deltagere, rekrutterer) undersøger lysosomale lagringssygdomme generelt. Det fremgår ikke, at elosulfase alfa indgår. Kun indirekte signal. |
 | Sanfilippo syndrom | 0,9942 | L5 | Litteraturen handler næsten udelukkende om Morquio A. Sygdommen er primært neurologisk, og intravenøse enzymer passerer dårligt blod-hjerne-barrieren. |
 | Camptodaktyli, myopi og fibrose af øjets mediale rectusmuskel | 0,9909 | L5 | Ingen identificerbar mekanistisk sammenhæng. Sandsynligvis grafartefakt. |

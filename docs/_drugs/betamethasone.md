@@ -4,17 +4,17 @@ title: Betamethasone
 parent: Høj evidens (L1-L2)
 nav_order: 109
 evidence_level: L2
-indication_count: 8
-last_modified_at: 2026-10-28
-description: "Betamethasone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Autoimmune sygdomme, inflammatoriske tilstande (bl.a. Crohns sygdom…"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+description: "Betamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Betamethason: Fra autoimmune sygdomme og inflammatoriske tilstande til alopecia areata
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Betamethason er et potent glukokortikoid, som oprindeligt anvendes til autoimmune og inflammatoriske sygdomme, blandt andet Crohns sygdom, binyrebarkinsufficiens og eksem-lignende hudlidelser.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **alopecia areata** (pletvis hårtab).
 Der er i de data, der er sammenstillet til denne rapport, **6 kliniske forsøg** og **20 publikationer**, hvoraf flere er randomiserede studier med betamethason som aktiv behandling.
 
 ---
@@ -48,9 +47,9 @@ Der er i de data, der er sammenstillet til denne rapport, **6 kliniske forsøg**
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Autoimmune sygdomme, inflammatoriske tilstande (bl.a. Crohns sygdom, binyrebarkinsufficiens, eksem, tinea pedis, akut lymfoblastær leukæmi). Der er ikke registreret indikationstekst for de danske tilladelser |
-| Forudsagt ny indikation | Alopecia areata |
-| TxGNN-forudsigelsesscore | 0,9997 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Alopecia mucinosa |
+| TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L2 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
@@ -74,8 +73,6 @@ Langvarig brug af steroid på huden eller i kroppen indebærer risiko for hudatr
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Fase 2 | Afsluttet | 60 | Ugentlig azathioprin-puls versus oral betamethason mini-puls ved moderat til svær alopecia areata. Betamethason er direkte evalueret behandlingsarm |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Fase 4 | Afsluttet | 50 | Topisk latanoprost versus topisk kortikosteroid (betamethason) ved lokaliseret alopecia areata |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | Ikke relevant | Ukendt | 59 | Topisk cetirizin versus topisk betamethasonvalerat 0,1 % ved lokaliseret alopecia areata. Betamethason er sammenligningsbehandling |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Fase 1 | Ukendt | 60 | Topisk pentoxifyllin/metformin versus betamethasonvalerat 0,1 % ved pletvis alopecia areata |
 | [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | Ikke relevant | Endnu ikke rekrutterende | 60 | Kombination af metformin, simvastatin og betamethasonvalerat; ingen resultater endnu |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Fase 4 | Rekrutterer | 250 | Central centrifugal arrende alopeci (en anden type hårtab); kun løst relevant |
 

@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Kun modelforudsigelse (L5)
 nav_order: 77
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-30
-description: "Aripiprazole: forudsagt ny indikation Svær affektiv lidelse (major affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole: forudsagt ny indikation Gaze palsy, familial horizontal, with progressive scoliosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Aripiprazol: dopamin D2-partiel agonist og serotoninmodulator → Svær affektiv lidelse (major affective disorder)
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Resumé
 
-Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-receptorer og serotonin 5-HT1A-receptorer og som antagonist på 5-HT2A-receptorer. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær affektiv lidelse (major affective disorder)**. Der findes **34 registrerede kliniske forsøg** i de data, der er indsamlet til denne rapport, men ingen publikationer direkte om denne sygdom.
+Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-receptorer og serotonin 5-HT1A-receptorer og som antagonist på 5-HT2A-receptorer. Der findes **34 registrerede kliniske forsøg** i de data, der er indsamlet til denne rapport, men ingen publikationer direkte om denne sygdom.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Svær affektiv lidelse (major affective disorder) |
-| TxGNN-forudsigelsesscore | 0,9962 |
+| Forudsagt ny indikation | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN-forudsigelsesscore | 0.9960 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |

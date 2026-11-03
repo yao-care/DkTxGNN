@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 419
-evidence_level: L1
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Icatibant"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-28
-description: "Icatibant: forudsagt ny indikation C1-hæmmermangel (C1 inhibitor deficiency) (evidensniveau L1). Oprindelig indikation: Den godkendte indikation er ikke registreret i de lokale data"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+last_modified_at: 2026-11-03
+description: "Icatibant: forudsagt ny indikation Serpinopathy with toxic serpin polymerization (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Icatibant: bradykinin B2-receptorantagonist → C1-hæmmermangel (C1 inhibitor deficiency)
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumé
 
-Icatibant er en selektiv bradykinin B2-receptorantagonist, som er godkendt til behandling af akutte anfald af arveligt angioødem. Den primære forudsigelse fra TxGNN-modellen er **C1-hæmmermangel (C1 inhibitor deficiency)**. Forudsigelsen understøttes af **11 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport. Bemærk, at forudsigelsen i vid udstrækning overlapper med lægemidlets kendte anvendelse, så der er tale om en indikation tæt på den eksisterende og ikke om egentlig omplacering.
+Icatibant er en selektiv bradykinin B2-receptorantagonist, som er godkendt til behandling af akutte anfald af arveligt angioødem. Forudsigelsen understøttes af **11 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport. Bemærk, at forudsigelsen i vid udstrækning overlapper med lægemidlets kendte anvendelse, så der er tale om en indikation tæt på den eksisterende og ikke om egentlig omplacering.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Den godkendte indikation er ikke registreret i de lokale data |
-| Forudsagt ny indikation | C1-hæmmermangel (C1 inhibitor deficiency) |
-| TxGNN-forudsigelsesscore | 0,9999 |
-| Evidensniveau | L1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Serpinopathy with toxic serpin polymerization |
+| TxGNN-forudsigelsesscore | 0.9999 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails |
@@ -107,7 +107,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for øvrige advarsler og kontra
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Flere afsluttede fase 3-forsøg undersøger icatibant ved arveligt angioødem med C1-hæmmermangel, og det danske præparat Firazyr er markedsført. Forudsigelsen ligger tæt på den eksisterende anvendelse, så den største uafklarede del gælder erhvervet C1-hæmmermangel, hvor evidensen er begrænset.
+Flere afsluttede fase 3-forsøg undersøger icatibant ved arveligt angioødem med C1-hæmmermangel, og det danske præparat Firazyr er markedsført.
 
 **For at gå videre kræves:**
 - Data om virkningsmekanismen fra en pålidelig kilde

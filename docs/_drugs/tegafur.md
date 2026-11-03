@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 798
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "tegafur"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: forudsagt ny indikation Colonic neoplasm (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tegafur: Colonic neoplasm
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Tegafur er en oral forstadie til 5-fluorouracil (5-FU) og blev oprindeligt brugt mod mavekræft.
-TxGNN-modellen forudsiger, at tegafur kan være effektivt mod **colonic neoplasm (tyktarmskræft)**.
 Retningen understøttes af **16 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport, herunder flere afsluttede fase 3-forsøg.
 
 ---
@@ -49,9 +48,9 @@ Retningen understøttes af **16 kliniske forsøg** og **20 publikationer** i de 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Colonic neoplasm |
-| TxGNN-forudsigelsesscore | 0.9990 |
-| Evidensniveau | L1 |
+| Forudsagt ny indikation | Cecum villous adenoma |
+| TxGNN-forudsigelsesscore | 0.9986 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

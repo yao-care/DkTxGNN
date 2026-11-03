@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Conestat Alfa
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 220
-evidence_level: L1
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Conestat alfa"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-last_modified_at: 2026-10-30
-description: "Conestat Alfa: forudsagt ny indikation C1-hæmmermangel (C1 inhibitor deficiency) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
+last_modified_at: 2026-11-03
+description: "Conestat Alfa: forudsagt ny indikation Serpinopathy with toxic serpin polymerization (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Conestat Alfa
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Conestat alfa: C1-esterasehæmmer, rekombinant → C1-hæmmermangel (C1 inhibitor deficiency)
+## Conestat Alfa: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Kort resumé
 
 Conestat alfa er en rekombinant human C1-esterasehæmmer, som erstatter det manglende eller dysfunktionelle C1-hæmmerprotein.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **C1-hæmmermangel (C1 inhibitor deficiency)**,
-og i de indsamlede data findes **4 kliniske forsøg** (heraf 3 direkte relevante) og **9 publikationer** inden for denne retning.
 
 ---
 
@@ -49,9 +47,9 @@ og i de indsamlede data findes **4 kliniske forsøg** (heraf 3 direkte relevante
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | C1-hæmmermangel (C1 inhibitor deficiency) |
-| TxGNN-forudsigelsesscore | 0,9999 |
-| Evidensniveau | L1 |
+| Forudsagt ny indikation | Serpinopathy with toxic serpin polymerization |
+| TxGNN-forudsigelsesscore | 1.0000 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med forholdsregler |

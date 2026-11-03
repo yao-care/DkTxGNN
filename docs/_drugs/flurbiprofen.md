@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Kun modelforudsigelse (L5)
 nav_order: 369
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-10-30
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+last_modified_at: 2026-11-03
 description: "Flurbiprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 ## Resumé i én sætning
 
-Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i videnskabsgrafen er knyttet til leddegigt, slidgigt og ledlidelser. TxGNN-modellen forudsiger, at det kan være virksomt ved **ankyloserende spondylitis**. Der er **ingen registrerede kliniske forsøg** i de data, der er sammenstillet til denne rapport, men der findes **flere publicerede randomiserede studier** af flurbiprofen ved netop denne sygdom.
+Flurbiprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i videnskabsgrafen er knyttet til leddegigt, slidgigt og ledlidelser. Der er **ingen registrerede kliniske forsøg** i de data, der er sammenstillet til denne rapport, men der findes **flere publicerede randomiserede studier** af flurbiprofen ved netop denne sygdom.
 
 ## Hurtigt overblik
 

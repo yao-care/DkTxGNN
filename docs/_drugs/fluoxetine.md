@@ -4,17 +4,17 @@ title: Fluoxetine
 parent: Høj evidens (L1-L2)
 nav_order: 367
 evidence_level: L2
-indication_count: 9
+indication_count: 8
 monitor_inn: "fluoxetine"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-30
+predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
+last_modified_at: 2026-11-03
 description: "Fluoxetine: forudsagt ny indikation Schizotypal personality disorder (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---

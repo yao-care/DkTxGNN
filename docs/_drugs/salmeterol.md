@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 747
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Salmeterol: forudsagt ny indikation Bronkitis (evidensniveau L1). Oprindelig indikation: Lungeemfysem, intrinsisk astma, allergisk astma (fra videnbasen"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: forudsagt ny indikation Respiratory malformation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Salmeterol: Fra astma og emfysem til bronkitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Resumé
 
 Salmeterol er en langtidsvirkende beta2-agonist (LABA), der oprindeligt anvendes til behandling af astma (allergisk og intrinsisk) og lungeemfysem.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **bronkitis** (især kronisk bronkitis som en del af KOL), og forudsigelsen understøttes af **9 kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport.
 Forudsigelsen er tæt på de eksisterende indikationer og er mere en udvidelse inden for samme sygdomsfamilie end egentlig nyanvendelse.
 
 ---
@@ -48,10 +47,10 @@ Forudsigelsen er tæt på de eksisterende indikationer og er mere en udvidelse i
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Lungeemfysem, intrinsisk astma, allergisk astma (fra videnbasen; den danske produkttekst indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Bronkitis |
-| TxGNN-forudsigelsesscore | 0,9992 |
-| Evidensniveau | L1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Respiratory malformation |
+| TxGNN-forudsigelsesscore | 0.9991 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

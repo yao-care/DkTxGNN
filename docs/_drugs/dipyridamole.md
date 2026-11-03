@@ -4,17 +4,17 @@ title: Dipyridamole
 parent: Kun modelforudsigelse (L5)
 nav_order: 267
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 monitor_inn: "dipyridamole"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-30
-description: "Dipyridamole: forudsagt ny indikation Thrombotic disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: forudsagt ny indikation Sick sinus syndrome 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Dipyridamole: Thrombotic disease
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -45,14 +45,14 @@ Dipyridamol er i videnskabsdatabasen (vidensgrafen) registreret med relation til
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Thrombotic disease |
-| TxGNN-forudsigelsesscore | 0.9994 |
+| Forudsagt ny indikation | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
-Bemærk: Den højest rangerede forudsigelse i modellen er "trombotisk sygdom" (score 0,9994), men den har ingen kliniske forsøg eller publikationer (L5). Denne rapport fokuserer på TIA, som er den forudsigelse, der har direkte evidens.
+Denne rapport fokuserer på TIA, som er den forudsigelse, der har direkte evidens.
 
 ## Hvorfor er forudsigelsen rimelig?
 
@@ -108,7 +108,6 @@ Et stort, afsluttet fase 4-forsøg (ESPRIT, n=4.500) og flere metaanalyser og Co
 - Hentning og gennemgang af produktresuméerne (SmPC) for de to danske produkter, så godkendt indikation, kontraindikationer og advarsler kan bekræftes
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af interaktionsbyrden (451 registrerede interaktioner), især med andre blodpladehæmmende og antikoagulerende lægemidler
-- Øvrige forudsigelser (f.eks. trombotisk sygdom, sinuskoncentreret trombose) har kun modelgrundlag (L5) og bør holdes tilbage, indtil der foreligger evidens
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

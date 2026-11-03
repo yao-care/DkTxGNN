@@ -4,17 +4,17 @@ title: Progesterone
 parent: Høj evidens (L1-L2)
 nav_order: 689
 evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: forudsagt ny indikation Breast fibrocystic disease (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L1** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Progesterone: Amenoré (amenorrhea (disease))
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Progesteron er et naturligt kvindeligt kønshormon, der oprindeligt anvendes ved endometriose, endometriecancer, postmenopausal osteoporose og postmenopausal atrofisk vaginitis.
-TxGNN-modellen forudsiger, at det kan være effektivt ved **amenoré**, med **4 kliniske forsøg** og **18 publikationer** i den indhentede evidens. Forsøgene undersøger primært østrogenbehandling og kun indirekte progesteron.
+Forsøgene undersøger primært østrogenbehandling og kun indirekte progesteron.
 
 ---
 
@@ -48,8 +48,8 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **amenoré**, med **4 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Amenoré (amenorrhea (disease)) |
-| TxGNN-forudsigelsesscore | 1.0000 |
+| Forudsagt ny indikation | Breast fibrocystic disease |
+| TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L1 efter skemaets formelle regler, men se bemærkning nedenfor |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |

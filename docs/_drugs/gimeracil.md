@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 391
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Gimeracil: forudsagt ny indikation Colonic neoplasm (tyktarmskræft) (evidensniveau L1). Oprindelig indikation: Mavekræft (gastric cancer)"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "gimeracil"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **6** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Gimeracil: Fra mavekræft til tyktarmskræft (colonic neoplasm)
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Opsummering
 
 Gimeracil er en komponent i kombinationspræparatet S-1 (tegafur/gimeracil/oteracil) og er oprindeligt anvendt til behandling af mavekræft.
-TxGNN-modellen forudsiger, at det kan være virksomt mod **colonic neoplasm (tyktarmskræft)**,
-og der er i de data, der er indsamlet til denne rapport, identificeret **6 kliniske studier** og **12 publikationer** (primært case reports) inden for denne retning.
 
 ---
 
@@ -48,10 +46,10 @@ og der er i de data, der er indsamlet til denne rapport, identificeret **6 klini
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Mavekræft (gastric cancer) |
-| Forudsagt ny indikation | Colonic neoplasm (tyktarmskræft) |
-| TxGNN-forudsigelsesscore | 0,9988 |
-| Evidensniveau | L1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Cecum villous adenoma |
+| TxGNN-forudsigelsesscore | 0.9982 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

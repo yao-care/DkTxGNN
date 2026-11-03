@@ -4,17 +4,17 @@ title: Sertraline
 parent: Kun modelforudsigelse (L5)
 nav_order: 758
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-28
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "sertraline"
-predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: forudsagt ny indikation Schizoid personality disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,8 +39,6 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 ## Opsummering
 
 Sertralin er en selektiv serotonin-genoptagelseshæmmer (SSRI), som oprindeligt anvendes til angstlidelser, obsessiv-kompulsiv lidelse (OCD), posttraumatisk stresslidelse, social fobi og dysthymi.
-TxGNN-modellen forudsiger, at sertralin også kan være virksom ved **agorafobi**,
-og der foreligger **2 registrerede kliniske forsøg** (hvoraf kun ét er direkte relevant) samt **20 publikationer**, hvoraf flere er randomiserede forsøg og netværksmetaanalyser om panikangst med eller uden agorafobi.
 
 ---
 

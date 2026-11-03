@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 477
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Lanadelumab"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-last_modified_at: 2026-10-30
-description: "Lanadelumab: forudsagt ny indikation C1-inhibitormangel (evidensniveau L1). Oprindelig indikation: Arveligt angioødem"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+last_modified_at: 2026-11-03
+description: "Lanadelumab: forudsagt ny indikation Serpinopathy with toxic serpin polymerization (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Lanadelumab: Fra arveligt angioødem til C1-inhibitormangel
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Lanadelumab er et monoklonalt antistof mod plasma-kallikrein, som oprindeligt anvendes til forebyggelse af anfald af arveligt angioødem. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **C1-inhibitormangel**, hvilket i praksis er den samme sygdom som den oprindelige indikation (arveligt angioødem type I/II). Forudsigelsen støttes af **5 kliniske forsøg** og **20 publikationer**, herunder et randomiseret placebokontrolleret forsøg.
+Lanadelumab er et monoklonalt antistof mod plasma-kallikrein, som oprindeligt anvendes til forebyggelse af anfald af arveligt angioødem. Forudsigelsen støttes af **5 kliniske forsøg** og **20 publikationer**, herunder et randomiseret placebokontrolleret forsøg.
 
 ---
 
@@ -46,10 +46,10 @@ Lanadelumab er et monoklonalt antistof mod plasma-kallikrein, som oprindeligt an
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Arveligt angioødem (registreret i vidensgrafen; licenstekst for det danske produkt indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | C1-inhibitormangel |
-| TxGNN-forudsigelsesscore | 1,0000 |
-| Evidensniveau | L1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Serpinopathy with toxic serpin polymerization |
+| TxGNN-forudsigelsesscore | 0.9999 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |

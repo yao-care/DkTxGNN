@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylbutazone
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 656
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Phenylbutazone: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L3). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsesteksten for det danske…"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "phenylbutazone"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
+description: "Phenylbutazone: forudsagt ny indikation Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Phenylbutazone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidensniveau: **L3** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Phenylbutazon: Fra veterinærmæssig anvendelse til leddegigt (rheumatoid arthritis)
+## Phenylbutazone: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Resumé i en sætning
 
-Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært præparat (oralt pulver, Butagran Equi). TxGNN-modellen forudsiger, at det kan have effekt ved **leddegigt (rheumatoid arthritis)**, men der findes **ingen registrerede kliniske forsøg** og kun **ældre publikationer** (primært fra 1950'erne-1980'erne), som understøtter retningen. Samtidig er lægemidlets alvorlige bivirkninger en betydelig hindring.
+Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært præparat (oralt pulver, Butagran Equi). Samtidig er lægemidlets alvorlige bivirkninger en betydelig hindring.
 
 ---
 
@@ -46,10 +46,10 @@ Phenylbutazon er et ikke-steroidt antiinflammatorisk lægemiddel (NSAID), som i 
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de indsamlede data (godkendelsesteksten for det danske præparat er tom) |
-| Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 0.9982 |
-| Evidensniveau | L3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN-forudsigelsesscore | 0.9971 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |

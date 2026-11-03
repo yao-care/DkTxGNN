@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 832
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: forudsagt ny indikation Respiratory malformation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **4** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **5** stk.
 
 </div>
 
-## Tiotropium: Obstruktiv lungesygdom (obstructive lung disease)
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## Resumé i én sætning
 
 Tiotropium er en langtidsvirkende antikolinerg luftvejsudvider (LAMA), der oprindeligt anvendes til bronkitis, astma og lungeemfysem.
-TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **obstruktiv lungesygdom**, med **mere end 30 registrerede kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport.
 Bemærk: den forudsagte indikation overlapper i høj grad med lægemidlets eksisterende anvendelse, så der er reelt ikke tale om en ny indikation.
 
 ---
@@ -49,9 +48,9 @@ Bemærk: den forudsagte indikation overlapper i høj grad med lægemidlets eksis
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
-| TxGNN-forudsigelsesscore | 0.9999 |
-| Evidensniveau | L1 |
+| Forudsagt ny indikation | Respiratory malformation |
+| TxGNN-forudsigelsesscore | 0.9995 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |

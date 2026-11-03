@@ -1,7 +1,7 @@
 {
   "generated": "2026-03-26",
   "drug_count": 78,
-  "indication_count": 295,
+  "indication_count": 288,
   "drugs": [
     {
       "slug": "sonidegib",
@@ -1274,7 +1274,6 @@
       },
       "related_drugs": [
         "cerliponase_alfa",
-        "sebelipase_alfa",
         "miglustat"
       ]
     },
@@ -2155,18 +2154,6 @@
       "keywords": {
         "en": [
           "hepatic infarction"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "anakinra"
-      ]
-    },
-    {
-      "name": "autosomal recessive familial Mediterranean fever",
-      "keywords": {
-        "en": [
-          "autosomal recessive familial Mediterranean fever"
         ],
         "zh": []
       },
@@ -3295,18 +3282,6 @@
       ]
     },
     {
-      "name": "external ear basal cell carcinoma",
-      "keywords": {
-        "en": [
-          "external ear basal cell carcinoma"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "cemiplimab"
-      ]
-    },
-    {
       "name": "adenosquamous prostate carcinoma",
       "keywords": {
         "en": [
@@ -3419,18 +3394,6 @@
       "keywords": {
         "en": [
           "atopic eczema"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "omalizumab"
-      ]
-    },
-    {
-      "name": "obstructive lung disease",
-      "keywords": {
-        "en": [
-          "obstructive lung disease"
         ],
         "zh": []
       },
@@ -3580,18 +3543,6 @@
       },
       "related_drugs": [
         "carboplatin"
-      ]
-    },
-    {
-      "name": "vulvovaginitis",
-      "keywords": {
-        "en": [
-          "vulvovaginitis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "nystatin"
       ]
     },
     {
@@ -4039,18 +3990,6 @@
       ]
     },
     {
-      "name": "C1 inhibitor deficiency",
-      "keywords": {
-        "en": [
-          "C1 inhibitor deficiency"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "conestat_alfa"
-      ]
-    },
-    {
       "name": "serpinopathy with toxic serpin polymerization",
       "keywords": {
         "en": [
@@ -4151,18 +4090,6 @@
       "keywords": {
         "en": [
           "epiglottitis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "meropenem"
-      ]
-    },
-    {
-      "name": "staphylococcus aureus infection",
-      "keywords": {
-        "en": [
-          "staphylococcus aureus infection"
         ],
         "zh": []
       },
@@ -4427,18 +4354,6 @@
       "keywords": {
         "en": [
           "benign PEComa"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "sirolimus"
-      ]
-    },
-    {
-      "name": "lymphangiomyoma",
-      "keywords": {
-        "en": [
-          "lymphangiomyoma"
         ],
         "zh": []
       },

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 184
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 monitor_inn: "CHLORAMPHENICOL"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
-description: "Chloramphenicol: forudsagt ny indikation Konjunktivitis (evidensniveau L3). Oprindelig indikation: Relationer registreret i videnskabsgrafen: tyfus, salmonellose…"
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-11-03
+description: "Chloramphenicol: forudsagt ny indikation Diffuse scleroderma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Chloramphenicol: Fra tyfus og andre bakterielle infektioner til konjunktivitis
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## Resumé
 
 Chloramphenicol er et bredspektret antibiotikum. I Danmark er det markedsført som øjendråber.
-TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**, med **0 registrerede kliniske forsøg** og **19 publikationer** i de indsamlede data. Der er ingen kliniske forsøg, der direkte undersøger sygdommen, men flere publikationer behandler chloramphenicol-øjendråber ved bakteriel konjunktivitis.
+Der er ingen kliniske forsøg, der direkte undersøger sygdommen, men flere publikationer behandler chloramphenicol-øjendråber ved bakteriel konjunktivitis.
 
 ---
 
@@ -47,10 +47,10 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **konjunktivitis**, me
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Relationer registreret i videnskabsgrafen: tyfus, salmonellose, paratyfus, meningokokinfektion, streptokokmeningitis, ydre øresygdomme m.fl. Det danske præparat har ingen indikationstekst i de indsamlede data |
-| Forudsagt ny indikation | Konjunktivitis |
-| TxGNN-forudsigelsesscore | 0,9966 |
-| Evidensniveau | L3 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Diffuse scleroderma |
+| TxGNN-forudsigelsesscore | 0.9965 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
@@ -78,7 +78,6 @@ Evidensniveauet er sat til L3 på baggrund af publicerede sammenlignende studier
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
 | [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Sammenlignende studie | Current Therapeutic Research | Moxifloxacin sammenlignet med chloramphenicol ved bakterielle øjeninfektioner |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomiseret, enkeltblindet | Acta Ophthalmologica | Klinisk succes hos 81 % med chloramphenicol 0,5 % mod 84 % med fusidinsyre ved akut purulent konjunktivitis; flere bivirkninger (stikken, ubehag) med chloramphenicol |
 | [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Åbent, randomiseret | Acta Ophthalmologica | Klinisk succes 48 % med chloramphenicol mod 93 % med fusidinsyre og 74 % med framycetin i Tanzania; høj in vitro-resistens |
 | [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Forebyggelse af neonatal konjunktivitis (ophthalmia neonatorum) med antiseptiske eller antibiotiske midler |
 | [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Sammenlignende gennemgang af topiske antibakterielle øjenpræparater |

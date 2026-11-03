@@ -4,17 +4,17 @@ title: Ziprasidone
 parent: Kun modelforudsigelse (L5)
 nav_order: 903
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "ziprasidone"
-predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: forudsagt ny indikation Trichotillomania (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,8 +39,6 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 ## Resumé
 
 Ziprasidon er et atypisk antipsykotikum, der oprindeligt anvendes til behandling af skizofreni og bipolær lidelse (inklusive mani).
-TxGNN-modellen forudsiger, at det kan have effekt ved **svær affektiv lidelse** (major affective disorder),
-og retningen understøttes af **7 kliniske forsøg** og **19 publikationer**.
 
 ---
 
