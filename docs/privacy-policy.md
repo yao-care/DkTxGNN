@@ -56,18 +56,8 @@ Eventuelle ændringer offentliggøres direkte på denne side.
 
 ## Om udvikleren
 
-Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care, virksomhedsregistreringsnummer
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-DkTxGNN er Danmarks-sitet i virksomhedens produktlinje "TxGNN Drug Repurposing".
-Det samme system er udrullet i 30 lande og regioner, hver med navnet `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN og så videre) på `{cc}txgnn.yao.care`.
-Produktoversigt: <https://www.yao.care/medical/txgnn/>.
-
-Selve TxGNN-modellen er udviklet af Zitnik Lab ved Harvard Medical School og offentliggjort
-i *Nature Medicine*. Denne platform er det produktionssystem, 藥提醒科技有限公司 har bygget oven på den
-model, og dækker integration af nationale lægemiddelregistreringsdata, forudsigelse med deep learning, hvor anvendelser, der allerede står i vidensgrafen, er udelukket, evidensgradering ud fra PubMed / ClinicalTrials samt SMART on FHIR-integration
-med elektroniske patientjournaler.
+Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care). Se siden
+<a href="{{ '/about/' | relative_url }}">Om platformen</a> for den fulde baggrund om virksomheden og metoden.
 
 ---
 
