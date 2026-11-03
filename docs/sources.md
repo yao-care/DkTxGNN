@@ -21,7 +21,7 @@ Enhver konklusion kan spores tilbage til en offentlig datakilde — intet er en 
 <tr><th>Type</th><th>Kilde</th><th>Anvendes til</th></tr>
 </thead>
 <tbody>
-<tr><td>Registreringsdata</td><td><a href="https://laegemiddelstyrelsen.dk/">DKMA</a></td><td>Liste over godkendte lægemidler og indholdsstoffer i Danmark</td></tr>
+<tr><td>Registreringsdata</td><td><a href="https://laegemiddelstyrelsen.dk/">DKMA</a></td><td>Liste over lægemidler med gældende markedsføringstilladelse i Danmark og deres indholdsstoffer</td></tr>
 <tr><td>Forudsigelsesmodel</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Forudsigelse af association mellem lægemiddel og sygdom</td></tr>
 <tr><td>Kliniske forsøg</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Evidensgradering (NCT)</td></tr>
 <tr><td>Litteratur</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Evidensgradering (PMID)</td></tr>
@@ -29,6 +29,21 @@ Enhver konklusion kan spores tilbage til en offentlig datakilde — intet er en 
 <tr><td>Interaktioner</td><td><a href="https://ddinter2.scbdd.com/">DDInter</a></td><td>Data om lægemiddelinteraktioner</td></tr>
 </tbody>
 </table>
+
+---
+
+## Lokale data på dette site
+
+Danske lægemidler og deres status kommer fra Lægemiddelstyrelsens liste over godkendte lægemidler
+(Excel-fil). Listen omfatter kun lægemidler med gældende tilladelse og har intet selvstændigt statusfelt.
+
+| Punkt | Detalje |
+|------|---------|
+| Datasæt | Liste over godkendte lægemidler (Excel-fil, opdateres dagligt af Lægemiddelstyrelsen) |
+| Udgiver | Lægemiddelstyrelsen (DKMA) |
+| Download | <https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=0BD4960F0D7744E3BABC951431681ECC&lang=en> (oversigt: <https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/>) |
+| Identifikator | Drugid |
+| Opdatering | Automatisk ugentlig download (hver mandag); et lægemiddel, der ikke længere står på listen, beholder sin hidtidige status |
 
 ---
 
@@ -47,7 +62,7 @@ Hver kilde har sin egen licens — kontrollér den, før du citerer:
 
 | Data | Frekvens |
 |------|-----------|
-| Registreringsdata | Efterhånden som myndigheden offentliggør dem |
+| Lægemiddelstyrelsens liste over godkendte lægemidler | Ugentligt (hver mandag) |
 | Evidens fra forsøg / litteratur | Indsamles på ny med jævne mellemrum |
 | Interaktionsdata | Gennemgås kvartalsvist |
 
@@ -62,18 +77,8 @@ Hver kilde har sin egen licens — kontrollér den, før du citerer:
 
 ## Om udvikleren
 
-Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care, virksomhedsregistreringsnummer
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-DkTxGNN er Danmarks-sitet i virksomhedens produktlinje "TxGNN Drug Repurposing".
-Det samme system er udrullet i 30 lande og regioner, hver med navnet `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN og så videre) på `{cc}txgnn.yao.care`.
-Produktoversigt: <https://www.yao.care/medical/txgnn/>.
-
-Selve TxGNN-modellen er udviklet af Zitnik Lab ved Harvard Medical School og offentliggjort
-i *Nature Medicine*. Denne platform er det produktionssystem, 藥提醒科技有限公司 har bygget oven på den
-model, og dækker integration af nationale lægemiddelregistreringsdata, forudsigelse med deep learning, hvor anvendelser, der allerede står i vidensgrafen, er udelukket, evidensgradering ud fra PubMed / ClinicalTrials samt SMART on FHIR-integration
-med elektroniske patientjournaler.
+Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care). Se siden
+<a href="{{ '/about/' | relative_url }}">Om platformen</a> for den fulde baggrund om virksomheden og metoden.
 
 ---
 
