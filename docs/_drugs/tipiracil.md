@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Kun modelforudsigelse (L5)
 nav_order: 833
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-description: "Tipiracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: forudsagt ny indikation Cøcal villøst adenom (cecum villous adenoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,91 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Tipiracil: Cecum villous adenoma
+## Tipiracil: Cøcal villøst adenom (cecum villous adenoma)
 {: .text-alpha }
 
-## Resumé
+## Kort resumé
 
-Tipiracil indgår i kombinationspræparatet trifluridin/tipiracil og anvendes oprindeligt til behandling af kolorektal cancer. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **cøkal villøst adenom** (en godartet forstadie-forandring i blindtarmen). Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøtter denne forudsigelse.
-
----
+Tipiracil er en thymidinphosphorylase-hæmmer, der markedsføres i Danmark som en del af kombinationen trifluridin/tipiracil (Lonsurf). TxGNN-modellen forudsiger, at stoffet kan have effekt ved **cøcal villøst adenom (cecum villous adenoma)**. Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der undersøger denne sygdom direkte, så forudsigelsen hviler udelukkende på modellen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Cecum villous adenoma |
+| Forudsagt ny indikation | Cøcal villøst adenom (cecum villous adenoma) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
-
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om tipiracils virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tipiracil er kendt som en hæmmer af thymidinphosphorylase og markedsføres kun i kombination med trifluridin (TAS-102) til metastatisk kolorektal cancer. Tipiracil er ikke selv cytotoksisk, men forhindrer nedbrydningen af trifluridin og øger dermed dets effekt.
+Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tipiracil hæmmer enzymet thymidinphosphorylase og forhindrer dermed nedbrydning af trifluridin, som er det cytotoksiske nukleosidanalog i kombinationen. Tipiracil har ikke selv antitumoraktivitet.
 
-Et villøst adenom er en godartet forstadie-forandring i samme organ som kolorektal cancer. Den høje TxGNN-score (0,9999) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens. Der er ingen direkte mekanistisk begrundelse for at behandle et godartet adenom med en cytotoksisk nukleosidanalog-kombination. Forudsigelsen bør derfor vurderes med stor forsigtighed.
+Et villøst adenom er en godartet forstadielæsion i samme organ som tyktarmskræft. Den høje modelscore afspejler sandsynligvis nær tilknytning til tyktarmskræft i modellens data og ikke en direkte biologisk begrundelse. Der er ingen mekanistisk grund til at behandle et godartet adenom med en cytotoksisk nukleosidkombination. Standardbehandling er endoskopisk eller kirurgisk fjernelse.
 
-Øvrige forudsagte indikationer (rang 2-10) omfatter bl.a. lipom i tyktarmen, neoplasi i overgangen mellem rectum og sigmoideum, neuroendokrin tumor G1 i cøkum, lymfangiom, leiomyom, hæmangiom og gastrointestinal stromatumor (GIST). Flertallet er godartede tilstande uden plausibel mekanistisk sammenhæng. Neoplasi i rectosigmoideum er hovedsageligt et anatomisk understed af den eksisterende indikation og ikke et reelt repurposing-mål.
+## Dokumentation fra kliniske forsøg
 
----
-
-## Klinisk evidens
-
-Der er for nuværende ingen relaterede kliniske forsøg registreret.
-
----
+Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Der er for nuværende ingen relateret litteratur for cøkal villøst adenom.
+Der er på nuværende tidspunkt ingen litteratur, der direkte omhandler cøcal villøst adenom og tipiracil.
 
----
-
-## Markedsinformation for Danmark
+## Markedsoplysninger i Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28105586915 | Lonsurf (Les Laboratoires Servier) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
 
----
+Produktet er en kombinationsvare med trifluridin, og tilladelsen beskriver ikke tipiracil som enkeltstof. Tilladelsen er gyldig, og producenten er Les Laboratoires Servier.
 
 ## Cytotoksicitet
 
 | Punkt | Indhold |
 |------|------|
-| Cytotoksicitetsklassifikation | Konventionel cytotoksisk kombination (trifluridin er en nukleosidanalog; tipiracil er en thymidinphosphorylase-hæmmer uden egen cytotoksicitet) |
-| Risiko for myelosuppression | Se produktresuméet (SmPC) for advarsler og forsigtighedsregler |
-| Emetogenicitet | Se produktresuméet (SmPC) |
-| Overvågningsparametre | Se produktresuméet (SmPC); typisk fuldt blodbillede samt lever- og nyrefunktion |
-| Håndteringsbeskyttelse | Følg gældende regler for håndtering af cytotoksiske lægemidler |
+| Cytotoksisk klassifikation | Tipiracil er ikke selv cytotoksisk; det indgår i kombinationen med trifluridin (konventionelt cytotoksisk nukleosidanalog) |
+| Knoglemarvssuppression | Se produktresuméet (SmPC) for kombinationen |
+| Emetogenicitet | Se produktresuméet (SmPC) for kombinationen |
+| Monitorering | Blodtal (differentialtælling samt lever- og nyrefunktion) i henhold til SmPC |
+| Håndtering | Følg gældende regler for håndtering af cytotoksiske lægemidler |
 
----
+Se produktresuméet (SmPC) for advarsler og forholdsregler.
 
 ## Sikkerhedsovervejelser
 
-Der foreligger ingen tilgængelige data om advarsler og kontraindikationer i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
+**Lægemiddelinteraktioner:** Der er registreret 13 interaktioner af moderat grad, bl.a. med:
+- cimetidin
+- tafenoquin
+- ketoconazol
+- brigatinib
+- crizotinib
+- encorafenib
+- ethinylestradiol
+- lenvatinib
+- medroxyprogesteronacetat
+- megestrolacetat
+- ribociclib
+- rucaparib
+- vandetanib
 
-**Lægemiddelinteraktioner** (13 registrerede, alle af moderat niveau):
-- Cimetidin
-- Tafenoquin
-- Ketoconazol
-- Brigatinib
-- Crizotinib
-- Encorafenib
-- Ethinylestradiol
-- Lenvatinib
-- Medroxyprogesteronacetat
-- Megestrolacetat
-- Ribociclib
-- Rucaparib
-- Vandetanib
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for sikkerhedsoplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om cøkal villøst adenom bygger udelukkende på modellens score (evidensniveau L5). Der er ingen kliniske forsøg eller litteratur, og der er ingen plausibel mekanistisk sammenhæng. Den eneste fundne artikel (PMID 37500124) handler om irinotecan-fyldte kemoembolisationskugler ved levermetastaser og omhandler hverken tipiracil eller godartede cøkale tumorer.
+Forudsigelsen bygger kun på modellen (evidensniveau L5). Der findes ingen kliniske forsøg eller publikationer om cøcal villøst adenom, og der er ingen mekanistisk begrundelse for systemisk cytotoksisk behandling af en godartet læsion, som normalt fjernes endoskopisk eller kirurgisk.
 
-**For at komme videre kræves følgende:**
-- Data om virkningsmekanisme (MOA)
-- Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
-- Prækliniske eller kliniske data, der understøtter effekt ved godartede adenomer
-- Vurdering af, om et godartet adenom overhovedet berettiger systemisk cytotoksisk behandling, da endoskopisk eller kirurgisk fjernelse er standardbehandling
+**For at komme videre kræves:**
+- Direkte prækliniske eller kliniske data for tipiracil (eller kombinationen) ved cøcal villøst adenom
+- Dokumentation af virkningsmekanisme og en begrundet fordel i forhold til endoskopisk resektion
+- Vurdering af nytte/risiko i en godartet tilstand, givet kombinationens cytotoksiske bivirkningsprofil
+- Gennemgang af det godkendte produktresumé for advarsler og kontraindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

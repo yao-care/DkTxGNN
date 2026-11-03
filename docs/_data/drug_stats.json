@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 807,
   "level_counts": {
-    "L1": 20,
-    "L2": 28,
+    "L1": 18,
+    "L2": 27,
     "L3": 18,
-    "L4": 54,
-    "L5": 626
+    "L4": 55,
+    "L5": 628
   },
   "all_drugs": [
     {
@@ -199,7 +199,7 @@
       "name": "Alprostadil",
       "slug": "alprostadil",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Alteplase",
@@ -240,8 +240,8 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L1",
-      "indication_count": 10
+      "level": "L4",
+      "indication_count": 9
     },
     {
       "name": "Amitraz",
@@ -301,7 +301,7 @@
       "name": "Anakinra",
       "slug": "anakinra",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Anastrozole",
@@ -559,7 +559,7 @@
       "name": "Bexarotene",
       "slug": "bexarotene",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Bezlotoxumab",
@@ -607,7 +607,7 @@
       "name": "Bleomycin",
       "slug": "bleomycin",
       "level": "L5",
-      "indication_count": 6
+      "indication_count": 5
     },
     {
       "name": "Bosentan",
@@ -877,7 +877,7 @@
       "name": "Ceftriaxone",
       "slug": "ceftriaxone",
       "level": "L5",
-      "indication_count": 7
+      "indication_count": 5
     },
     {
       "name": "Cefuroxime",
@@ -895,7 +895,7 @@
       "name": "Cemiplimab",
       "slug": "cemiplimab",
       "level": "L5",
-      "indication_count": 6
+      "indication_count": 5
     },
     {
       "name": "Cenegermin",
@@ -1009,7 +1009,7 @@
       "name": "Ciprofloxacin",
       "slug": "ciprofloxacin",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Cisatracurium",
@@ -1099,13 +1099,13 @@
       "name": "Clotrimazole",
       "slug": "clotrimazole",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Clozapine",
       "slug": "clozapine",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Cobicistat",
@@ -1669,7 +1669,7 @@
       "name": "Ergocalciferol",
       "slug": "ergocalciferol",
       "level": "L5",
-      "indication_count": 6
+      "indication_count": 5
     },
     {
       "name": "Ertapenem",
@@ -2622,8 +2622,8 @@
     {
       "name": "Lomustine",
       "slug": "lomustine",
-      "level": "L2",
-      "indication_count": 10
+      "level": "L5",
+      "indication_count": 3
     },
     {
       "name": "Lonafarnib",
@@ -2923,7 +2923,7 @@
       "name": "Mitomycin",
       "slug": "mitomycin",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 7
     },
     {
       "name": "Mitoxantrone",
@@ -3823,7 +3823,7 @@
       "name": "Riluzole",
       "slug": "riluzole",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Rimegepant",
@@ -3973,13 +3973,13 @@
       "name": "Sapropterin",
       "slug": "sapropterin",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Sebelipase Alfa",
       "slug": "sebelipase_alfa",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Selamectin",
@@ -4063,7 +4063,7 @@
       "name": "Sirolimus",
       "slug": "sirolimus",
       "level": "L5",
-      "indication_count": 7
+      "indication_count": 6
     },
     {
       "name": "Sofosbuvir",
@@ -4447,7 +4447,7 @@
       "name": "Tipiracil",
       "slug": "tipiracil",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Tipranavir",
@@ -4596,8 +4596,8 @@
     {
       "name": "Triptorelin",
       "slug": "triptorelin",
-      "level": "L1",
-      "indication_count": 10
+      "level": "L5",
+      "indication_count": 9
     },
     {
       "name": "Tropicamide",

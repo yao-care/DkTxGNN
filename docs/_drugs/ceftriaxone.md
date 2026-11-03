@@ -4,17 +4,17 @@ title: Ceftriaxone
 parent: Kun modelforudsigelse (L5)
 nav_order: 173
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "ceftriaxone"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
-last_modified_at: 2026-10-28
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
+last_modified_at: 2026-11-03
 description: "Ceftriaxone: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **5** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,66 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 </div>
 
-## Ceftriaxon: Cefalosporin af tredje generation, hæmmer bakteriel cellevægssyntese → polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome)
+## Ceftriaxone: Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
-## Resumé i en sætning
+## Resumé
 
-Ceftriaxon er et bredspektret cefalosporin-antibiotikum, der bruges mod bakterielle infektioner.
-TxGNN-modellen forudsiger, at det kan have effekt ved **polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome)**,
-men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsamlet til denne rapport. Forudsigelsen bygger alene på modellen.
+Ceftriaxon er et injicerbart beta-lactam-antibiotikum, der hæmmer bakteriers cellevægssyntese. TxGNN-modellen forudsiger, at det kan have effekt ved **polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome)**. Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, så den er udelukkende modelbaseret.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Foreslået ny indikation | Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) |
-| TxGNN-forudsigelsesscore | 0,9939 |
+| Forudsagt ny indikation | Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) |
+| TxGNN-forudsigelsesscore | 0.9939 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+## Hvorfor kan forudsigelsen være rimelig?
 
-Ceftriaxon er et beta-lactam-antibiotikum, som hæmmer bakteriens cellevægssyntese. Detaljerede mekanistiske data (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport.
+Der foreligger ingen detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ceftriaxon er et beta-lactam-antibiotikum, som hæmmer bakteriers cellevægssyntese og dermed virker mod bakterielle infektioner.
 
-Polyklonalt hyperviskositetssyndrom er en ikke-infektiøs hæmatologisk/immunologisk tilstand, som skyldes forhøjede immunglobuliner. Der er ingen kendt mekanistisk sammenhæng mellem en antibakteriel virkning og denne tilstand. Den høje modelscore er derfor ikke understøttet af biologisk rationale eller af studier. Prædiktionen bør betragtes som en hypotese uden dokumentation.
+Polyklonalt hyperviskositetssyndrom er ikke en infektion. Det er en hæmatologisk/immunologisk tilstand, hvor forhøjede immunglobuliner øger blodets viskositet. Der er derfor ikke identificeret en plausibel mekanistisk forbindelse mellem ceftriaxons antibakterielle virkning og denne tilstand. Den høje score (0,9939) er alene et modelresultat og er ikke bakket op af forsøg eller publikationer.
 
-## Kliniske forsøg
+## Klinisk evidens
 
-Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
+Der er på nuværende tidspunkt ikke registreret relaterede kliniske forsøg.
 
-## Litteratur
+## Litteraturevidens
 
-Der er i øjeblikket ingen relateret litteratur tilgængelig.
+Der er på nuværende tidspunkt ingen relateret litteratur.
 
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107112524 | Ceftriaxon "Hameln" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
-## Sikkerhedsovervejelser
+## Sikkerhedsmæssige overvejelser
 
-- **Lægemiddelinteraktioner** (213 interaktioner registreret i alt; udvalgte):
-  - **Alvorlige (Major):** calciumchlorid, calciumglucoheptonat, calciumgluconat
-  - **Moderate:** kanamycin, neomycin, streptomycin, picosulfat
+**Lægemiddelinteraktioner** (i alt 213 registrerede interaktioner; de vigtigste er angivet):
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
+- **Alvorlige (Major):** calciumchlorid, calciumglucoheptonat, calciumgluconat
+- **Moderate:** kanamycin, neomycin, streptomycin, picosulfat
+
+For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen om polyklonalt hyperviskositetssyndrom bygger udelukkende på modelscoren og har hverken kliniske forsøg, publikationer eller en plausibel mekanisme bag sig. Evidensniveauet er L5.
+Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske forsøg eller publikationer. Der er desuden ingen plausibel mekanistisk forbindelse mellem et antibakterielt middel og en ikke-infektiøs tilstand med forhøjede immunglobuliner.
 
 **For at komme videre kræves:**
-- En biologisk hypotese, der forbinder ceftriaxon med tilstandens patofysiologi
-- Præklinisk eller klinisk evidens, der direkte undersøger denne tilstand
-- Data om virkningsmekanisme og produktresumé (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
+- En biologisk begrundelse for, hvorfor ceftriaxon skulle påvirke serumviskositet eller immunglobulinniveauer
+- Prækliniske data eller case-/observationsdata, der direkte omhandler denne tilstand
+- Data om virkningsmekanismen (MOA) og en gennemgang af produktresuméets advarsler og kontraindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

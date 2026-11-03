@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Kun modelforudsigelse (L5)
 nav_order: 197
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-28
-description: "Ciprofloxacin: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+last_modified_at: 2026-11-03
+description: "Ciprofloxacin: forudsagt ny indikation diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +33,43 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Ciprofloxacin: fluorquinolon-antibiotikum → Diffus sklerodermi (diffuse scleroderma)
+## Ciprofloxacin: diffus sklerodermi (diffuse scleroderma)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Ciprofloxacin er et antibiotikum af fluorquinolon-klassen, som anvendes til bakterielle infektioner.
-TxGNN-modellen forudsiger, at det kan have effekt ved **diffus sklerodermi (diffuse scleroderma)**.
-Der er ingen registrerede kliniske forsøg, og kun **2 publikationer** er fundet i de indsamlede data, hvoraf den ene omhandler en mulig antifibrotisk effekt i huden, og den anden omhandler bakteriel overvækst i tyndtarmen hos patienter med systemisk sklerose.
+Ciprofloxacin er et antibiotikum af fluorquinolon-klassen, som anvendes til bakterielle infektioner. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **diffus sklerodermi (diffuse scleroderma)**. Der er **ingen registrerede kliniske forsøg** og **2 publikationer** i de indsamlede data, og ingen af dem er et bekræftet direkte forsøg med dokumenteret effekt på sygdommen.
 
-## Hurtig oversigt
+## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Diffus sklerodermi (diffuse scleroderma) |
-| TxGNN-forudsigelsesscore | 0,9987 |
+| Forudsagt ny indikation | diffus sklerodermi (diffuse scleroderma) |
+| TxGNN-forudsigelsesscore | 0.9987 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-## Hvorfor er forudsigelsen rimelig?
+## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger på nuværende tidspunkt ikke detaljerede data om ciprofloxacins virkningsmekanisme i de data, der er sammenstillet til denne rapport. Ciprofloxacin er kendt som et fluorquinolon, der hæmmer bakterielt DNA-gyrase og topoisomerase IV.
+Der foreligger på nuværende tidspunkt ikke detaljerede data om ciprofloxacins virkningsmekanisme i de indsamlede data. Ciprofloxacin er en fluorquinolon, hvis effekt ved bakterielle infektioner er veldokumenteret, og som virker antibakterielt gennem hæmning af bakterielt DNA-gyrase og topoisomerase IV.
 
-To mulige forbindelser til diffus sklerodermi er beskrevet i litteraturen:
-
-- **Antifibrotisk effekt i huden:** En undersøgelse fra 2010 (PMID 20507401) undersøgte, om oral ciprofloxacin kan reducere sværhedsgraden af sklerodermi. Mekanismen er ikke bekræftet, og undersøgelsens fulde design kan ikke vurderes ud fra de foreliggende data.
-- **Bakteriel overvækst i tyndtarmen:** Hos patienter med systemisk sklerose er overvækst af bakterier i tyndtarmen almindelig (PMID 7728404). Her virker ciprofloxacin som antibakteriel behandling af en komplikation og ikke som sygdomsmodificerende behandling.
-
-Den meget høje score er alene en beregningsmæssig forudsigelse. Der er ikke fundet undersøgelser, som direkte dokumenterer effekt på selve sygdomsforløbet ved diffus sklerodermi, og evidensniveauet er derfor L5.
+Der er to mulige forbindelser til diffus sklerodermi. For det første er der foreslået en antifibrotisk effekt i huden (PMID 20507401). Denne mekanisme er ikke bekræftet. For det andet kan ciprofloxacin behandle bakteriel overvækst i tyndtarmen, som er hyppig ved systemisk sklerose (PMID 7728404). Denne gevinst er en antibakteriel effekt på en komplikation og ikke en sygdomsmodificerende behandling. Den meget høje score er alene en computerbaseret forudsigelse.
 
 ## Evidens fra kliniske forsøg
 
 Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
-## Evidens fra litteraturen
+## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Undersøgelse af antifibrotisk effekt (design ikke fuldt bekræftet) | The Journal of Dermatology | Undersøgelse af, om oral ciprofloxacin kan reducere sværhedsgraden af sklerodermi og fibrose i huden |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Kohorte-/diagnostisk studie | British Journal of Rheumatology | 24 patienter med systemisk sklerose og symptomer på malabsorption undersøgt for bakteriel overvækst i tyndtarmen; behandlingsresultater vurderet |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Kontrolleret, dobbeltblindet randomiseret forsøg (design ikke fuldt bekræftet i de tilgængelige data) | The Journal of Dermatology | Undersøger, om oral ciprofloxacin kan mindske sværhedsgraden af sklerodermi og virke antifibrotisk i huden. Resultater er ikke tilgængelige i de indsamlede data. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Kohorte-/diagnostisk studie | British Journal of Rheumatology | 24 patienter med systemisk sklerose og symptomer på malabsorption blev undersøgt for bakteriel overvækst i tyndtarmen; behandlingsudbyttet blev vurderet. |
 
-## Markedsinformation i Danmark
+## Markedsinformation for Danmark
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -84,28 +77,25 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Sikkerhedsovervejelser
 
-**Væsentlige lægemiddelinteraktioner** (de mest alvorlige niveauer i de sammenstillede data):
+**Interaktioner (blandt i alt 100 registrerede):**
+- Alvorlige (Major): hydrocortison, triamcinolon, dexamethason, betamethason og bupropion.
+- Moderate: bl.a. acarbose, famotidin, metformin, pioglitazon, loperamid, acetylsalicylsyre og budesonid.
 
-- Hydrocortison, triamcinolon, dexamethason og betamethason: alvorlig (Major) interaktion
-- Bupropion: alvorlig (Major) interaktion
-- Der er desuden registreret en række moderate interaktioner, bl.a. med acarbose, famotidin, metformin, pioglitazon, loperamid og acetylsalicylsyre
-
-Der er i alt registreret 100 interaktioner.
-
-For øvrige oplysninger om advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
+Der er ikke tilgængelige data om advarsler og kontraindikationer fra produktresuméet i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen bygger på en meget høj modelscore, men der er ingen kliniske forsøg og kun to publikationer med begrænset direkte relevans for sygdomsmodificerende behandling af diffus sklerodermi. Evidensniveauet er derfor L5.
+Der findes ingen kliniske forsøg med direkte dokumentation for effekt ved diffus sklerodermi. De to fundne publikationer vedrører henholdsvis en uafklaret antifibrotisk effekt og en komplikation (bakteriel overvækst i tyndtarmen). Evidensen kan derfor ikke understøtte videre arbejde på nuværende tidspunkt. Et L4-niveau forudsætter et studie, der direkte undersøger sygdommen, og her er forsøget fra 2010 (PMID 20507401) den eneste mulige kandidat, men dets resultater er ikke bekræftet i de tilgængelige data.
 
 **For at komme videre kræves:**
-- Fuld gennemgang af undersøgelsen fra 2010 (PMID 20507401) med hensyn til design, population og resultater
-- Data om virkningsmekanisme for en eventuel antifibrotisk effekt
-- Gennemgang af produktresuméet for advarsler og kontraindikationer, især set i lyset af de alvorlige interaktioner med kortikosteroider, som ofte anvendes ved sklerodermi
-- Klarlæggelse af, om en eventuel nytteværdi er sygdomsmodificerende eller begrænset til behandling af bakteriel overvækst som komplikation
+- Fuldt gennemgang af resultaterne fra det randomiserede forsøg (PMID 20507401) og vurdering af, om de er reproducerbare
+- Data om virkningsmekanisme (MOA) og en bekræftelse af den antifibrotiske hypotese
+- Gennemgang af produktresuméet for advarsler og kontraindikationer, herunder risiko for seneskader, perifer neuropati og QT-forlængelse ved langvarig brug
+- Vurdering af administrationsvej, da det eneste danske godkendte produkt er øredråber
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

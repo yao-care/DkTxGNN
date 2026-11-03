@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amiodarone
-parent: Høj evidens (L1-L2)
+parent: Moderat evidens (L3-L4)
 nav_order: 52
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Amiodarone: forudsagt ny indikation katekolaminerg polymorf ventrikulær takykardi (evidensniveau L1). Oprindelig indikation: Ventrikelflimren"
+evidence_level: L4
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+description: "Amiodarone: forudsagt ny indikation Katekolaminerg polymorf ventrikulær takykardi (catecholaminergic polymorphic ventricular tachycardia) (evidensniveau L4)."
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,116 +33,87 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 </div>
 
-## Amiodaron: Fra ventrikelflimren til katekolaminerg polymorf ventrikulær takykardi
+## Amiodarone: Katekolaminerg polymorf ventrikulær takykardi (catecholaminergic polymorphic ventricular tachycardia)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Resumé
 
-Amiodaron er et antiarytmisk middel, som oprindeligt anvendes til behandling af ventrikelflimren.
-TxGNN-modellen forudsiger, at det også kan være effektivt ved **ventrikulær takykardi**, som er tæt beslægtet med den oprindelige indikation.
-Forudsigelsen understøttes af **18 kliniske studier** og **20 publikationer**, herunder to afsluttede fase 3-forsøg (AVID og ALPS).
-
----
+Amiodaron er et antiarytmikum, som i Danmark er markedsført som koncentrat til injektions-/infusionsvæske. Den TxGNN-model, der ligger til grund for rapporten, forudsiger, at lægemidlet kan have effekt ved **katekolaminerg polymorf ventrikulær takykardi (catecholaminergic polymorphic ventricular tachycardia)**. Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **ni publikationer** om sygdommen, men ingen af dem undersøger amiodaron som behandling.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ventrikelflimren (de danske markedsføringstilladelser indeholder ingen indikationstekst i de data, der er indsamlet til rapporten) |
-| Forudsagt ny indikation | Ventrikulær takykardi |
-| TxGNN-prædiktionsscore | 0,9978 |
-| Evidensniveau | L1 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Katekolaminerg polymorf ventrikulær takykardi (catecholaminergic polymorphic ventricular tachycardia) |
+| TxGNN-forudsigelsesscore | 0.9978 |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
-
----
+| Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til rapporten. Ud fra kendt viden er amiodaron en multikanalblokker (kalium-, natrium- og calciumkanaler) med betaadrenerg antagonisme. Det forlænger repolarisationen og dæmper re-entry-arytmier i ventriklerne.
+Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Amiodaron er dog kendt for at blokere flere ionkanaler (kalium, natrium og calcium) og har en betablokerende effekt. Det er teoretisk relevant ved arytmier, der udløses af adrenerg stimulation, som ved katekolaminerg polymorf ventrikulær takykardi.
 
-Ventrikulær takykardi og ventrikelflimren er nært beslægtede livstruende ventrikulære arytmier og har overlappende mekanismer. Der er derfor reelt tale om en etableret brug snarere end en egentlig ny repurposing.
+Sygdommen skyldes en defekt i calciumfrigivelsen fra cellens calciumlagre, typisk forårsaget af varianter i generne RYR2 eller CASQ2. Førstevalg er betablokkere, eventuelt kombineret med flecainid. Der er ingen direkte evidens for, at amiodaron korrigerer den underliggende calciumregulerings-defekt. I litteraturen optræder amiodaron mest som baggrundsbehandling eller som behandling, der ikke virkede.
 
-Bemærk, at de øvrige forudsigelser i modellen (fx katekolaminerg polymorf ventrikulær takykardi, inkessant ventrikulær takykardi hos spædbørn, leddegigt og urinsyregigt) har svagere eller ingen evidens. Denne rapport fokuserer på den bedst understøttede forudsigelse.
+Forudsigelsen er derfor biologisk plausibel, men uden støtte fra studier, der tester amiodaron ved denne sygdom.
 
----
+## Evidens fra kliniske forsøg
 
-## Evidens fra kliniske studier
-
-| Studienummer | Fase | Status | Antal deltagere | Hovedfund |
-|---------|------|------|------|---------|
-| [NCT00000531](https://clinicaltrials.gov/study/NCT00000531) | Fase 3 | Afsluttet | Ikke oplyst | AVID: antiarytmika (primært amiodaron) vs. implanterbar defibrillator hos patienter med overlevet pludselig hjertedød |
-| [NCT01401647](https://clinicaltrials.gov/study/NCT01401647) | Fase 3 | Afsluttet | 3.024 | Amiodaron vs. lidokain vs. placebo ved præhospitalt hjertestop pga. VF/VT |
-| [NCT00383799](https://clinicaltrials.gov/study/NCT00383799) | Fase 4 | Afbrudt | 302 | PROCAMIO: i.v. amiodaron vs. procainamid ved veltolereret bredkomplekset takykardi |
-| [NCT03299517](https://clinicaltrials.gov/study/NCT03299517) | Fase 4 | Ukendt | 80 | Amiodaron vs. lidokain ved stabil VT på skadestue |
-| [NCT00257959](https://clinicaltrials.gov/study/NCT00257959) | Fase 4 | Afsluttet | 400 | OPTIC: amiodaron + betablokker vs. sotalol vs. betablokker alene til forebyggelse af ICD-stød |
-| [NCT02830360](https://clinicaltrials.gov/study/NCT02830360) | Fase 4 | Afsluttet | 416 | Kateterablation vs. antiarytmisk behandling ved VT efter myokardieinfarkt |
-| [NCT01722942](https://clinicaltrials.gov/study/NCT01722942) | Ikke relevant | Ukendt | 1.100 | CHAGASICS: amiodaron vs. ICD ved Chagas-kardiomyopati og non-vedvarende VT |
-| [NCT03734562](https://clinicaltrials.gov/study/NCT03734562) | Ikke relevant | Afsluttet | 180 | Substratablation vs. antiarytmika ved iskæmisk kardiomyopati og VT |
-| [NCT03855826](https://clinicaltrials.gov/study/NCT03855826) | Fase 4 | Ukendt | 756 | Nifekalant vs. amiodaron ved VT/VF (amiodaron sandsynligvis komparator) |
-| [NCT02303639](https://clinicaltrials.gov/study/NCT02303639) | Fase 4 | Ukendt | 120 | Medicinsk antiarytmisk behandling vs. radiofrekvensablation ved iskæmisk VT |
-
-Flere yderligere studier (bl.a. NCT01097330, NCT02114528, NCT04208997) blev afbrudt eller trukket tilbage med meget få deltagere og bidrager derfor kun lidt.
-
----
+Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [27354046](https://pubmed.ncbi.nlm.nih.gov/27354046/) | 2017 | RCT | European Heart Journal | PROCAMIO: sikkerhed og effekt af i.v. procainamid vs. amiodaron ved veltolereret bredkomplekset takykardi |
-| [20730062](https://pubmed.ncbi.nlm.nih.gov/20730062/) | 2010 | Review | Vascular Health and Risk Management | Amiodaron er førende antiarytmikum til terminering og forebyggelse af VT/VF |
-| [9137212](https://pubmed.ncbi.nlm.nih.gov/9137212/) | 1997 | Review | J Am Coll Cardiol | Gennemgang af farmakologi og effekt af i.v. amiodaron ved maligne ventrikulære arytmier |
-| [30084131](https://pubmed.ncbi.nlm.nih.gov/30084131/) | 2018 | Kohorte | Emergency Medicine Australasia | Sikkerhed og effekt af amiodaron givet af paramedicinere ved stabil VT |
-| [41217320](https://pubmed.ncbi.nlm.nih.gov/41217320/) | 2026 | Substudie af RCT | J Am Coll Cardiol | VANISH2: kateterablation vs. sotalol eller amiodaron ved VT |
-| [37380314](https://pubmed.ncbi.nlm.nih.gov/37380314/) | 2023 | Sekundær analyse | JACC Clin Electrophysiol | VT- og ICD-byrde ved ablation vs. eskaleret antiarytmisk behandling |
-| [36878200](https://pubmed.ncbi.nlm.nih.gov/36878200/) | 2023 | Review | Cardiology | Farmakoterapi ved ventrikulære arytmier |
-| [28900864](https://pubmed.ncbi.nlm.nih.gov/28900864/) | 2017 | Review | Curr Cardiol Rep | Valg mellem medicin og ablation ved VT med ICD-stød; antiarytmika har begrænset effekt og ugunstig bivirkningsprofil |
-| [12028602](https://pubmed.ncbi.nlm.nih.gov/12028602/) | 2002 | Review | Heart Disease | ICD-behandling er overlegen medicinsk behandling i flere studier, hvor amiodaron eller sotalol var komparator |
-| [8258259](https://pubmed.ncbi.nlm.nih.gov/8258259/) | 1993 | Casebeskrivelse | Clinical Pharmacy | Amiodaron-induceret thyroideadysfunktion hos patient med recidiverende VT |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematisk oversigt | Life (Basel) | Kliniske træk, genetik og arytmiske forløb hos kinesiske patienter med sygdommen. Undersøger ikke amiodaron. |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Kohorteundersøgelse | Reviews in Cardiovascular Medicine | Retrospektiv beskrivelse af kliniske træk, genetik, ressourceforbrug og omkostninger i en kinesisk by. |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Oversigtsartikel | Expert Opinion on Pharmacotherapy | Generel gennemgang af medicinsk behandling af ventrikulære arytmier. Ikke specifik for denne sygdom. |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case report | Turk Pediatri Arsivi | Toårig dreng med pludseligt hjertestop som sjælden præsentation af sygdommen. |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case report | Pacing and Clinical Electrophysiology | Flecainid dæmpede gentagne defibrillatorudløsninger hos en 14-årig dreng med CASQ2-variant. |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case report | Medicine | Seks års forsinket diagnose hos et 9-årigt barn med RYR2-variant. |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case report | Frontiers in Cardiovascular Medicine | Vellykket behandling med højresidig kardial sympatisk denervering hos en teenager efter venstresidig denervering. |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case report | BMJ Case Reports | Overlevelse hos et lille barn med hjertestop uden for hospital, med diagnostisk dilemma og afvigelse fra standardretningslinjer. |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Case report | Anesthesia and Analgesia | Nyfødt med langt QT-syndrom og vanskelig behandlelig arytmi, behandlet med blandt andet lidokain, esmolol og amiodaron. |
 
----
-
-## Information om det danske marked
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28105965717 | Amiodaron "Hameln" | Koncentrat til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Produktet er en injicerbar formulering fremstillet af hameln pharma GmbH og har gyldig status.
+## Sikkerhedsmæssige overvejelser
 
----
+**Lægemiddelinteraktioner:** Der er registreret 397 interaktioner. Blandt de alvorlige (Major) er:
+- agalsidase beta
+- hydrocortison
+- dexamethason
+- amphotericin B (flere formuleringer)
+- cisaprid
+- clarithromycin
+- clotrimazol
+- dolasetron
+- eliglustat
 
-## Cytotoksicitet
+Blandt de moderate er blandt andet famotidin, aprepitant, bisacodyl, budesonid og cimetidin.
 
-Ikke relevant: amiodaron er ikke et antineoplastisk lægemiddel.
-
----
-
-## Sikkerhedsovervejelser
-
-- **Kontraindikationer (fra vidensgraf, ikke fra produktresumé):** Vidensgrafen peger på bl.a. langt QT-syndrom, torsades de pointes, atrioventrikulært blok, sick sinus-syndrom, leversygdom, skjoldbruskkirtelsygdomme (hypo- og hyperthyroidisme), interstitiel lungesygdom, overfølsomhedspneumonitis, optikusneuritis, perifer neuropati, kaliummangel og hornhindeaflejringer.
-- **Lægemiddelinteraktioner:** 397 kendte interaktioner er registreret. Blandt de større er amphotericin B (alle formuleringer), clarithromycin, cisaprid, clotrimazol, dexamethason, hydrocortison, dolasetron, eliglustat og agalsidase beta. Moderate interaktioner omfatter bl.a. famotidin, cimetidin, aprepitant og budesonid.
-- **Overvågning (ud fra litteratur og kontraindikationsprofil):** Thyroidea-, lunge-, lever- og øjentoksicitet samt QT-forlængelse og proarytmi bør monitoreres.
-
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger, da advarsler og kontraindikationer fra produktresuméet ikke er tilgængelige i de indsamlede data.
-
----
+For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
 
 ## Konklusion og næste skridt
 
-**Beslutning: Proceed with Guardrails**
+**Beslutning: Hold**
 
 **Begrundelse:**
-Ventrikulær takykardi er tæt knyttet til den oprindelige indikation, og der foreligger to afsluttede fase 3-forsøg (AVID og ALPS) samt flere fase 4-sammenligninger. Evidensen er stærk, men amiodarons omfattende toksicitetsprofil og mange interaktioner kræver tæt monitorering.
+Forudsigelsen har en høj modelscore, men der findes ingen kliniske forsøg og ingen studier, der tester amiodaron ved denne sygdom. Litteraturen er begrænset til beskrivende kohorter og enkelttilfælde. Standardbehandlingen (betablokkere og flecainid) virker via andre mekanismer, og der er ingen evidens for, at amiodaron påvirker den underliggende calciumregulerings-defekt.
 
 **For at komme videre kræves:**
-- Gennemgang af produktresuméet for Amiodaron "Hameln" for godkendt indikation, advarsler og kontraindikationer
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Plan for monitorering af thyroidea-, lunge-, lever- og øjenfunktion samt QT-interval
-- Systematisk interaktionsscreening mod patientens øvrige medicin
-- Vurdering af, om den injicerbare formulering dækker behovet, eller om en oral formulering er nødvendig til forebyggende behandling
+- Præklinisk eller mekanistisk dokumentation for amiodarons effekt på RYR2/CASQ2-medieret calciumfrigivelse
+- Systematisk gennemgang af, hvordan amiodaron har virket som tillægs- eller redningsbehandling i publicerede patientforløb
+- Detaljerede data om virkningsmekanisme og sikkerhedsoplysninger fra produktresuméet
+- Sikkerhedsvurdering for børn og unge, som er den typiske patientgruppe, især med hensyn til skjoldbruskkirtel, blodtryk og proarytmi
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
