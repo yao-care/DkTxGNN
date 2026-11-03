@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Elafibranor"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (amenorrhea (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Elafibranor
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Elafibranor: Amenoré (amenorrhea (disease)) (amenorrhea (disease))
+## Elafibranor: Amenoré (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,7 +47,7 @@ Elafibranor (handelsnavn Iqirvo) er en dobbelt PPARα/PPARδ-agonist, som oprind
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Amenoré (amenorrhea (disease)) (amenorrhea (disease)) |
+| Forudsagt ny indikation | Amenoré (amenorrhea (disease)) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |

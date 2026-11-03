@@ -5,10 +5,10 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Doramectin"
 predicted_indications: ["insomnia (disease)"]
-description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Doramectin
@@ -33,7 +33,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 
 </div>
 
-## Doramectin: Insomni (insomnia (disease)) (insomnia (disease))
+## Doramectin: Insomni (insomnia (disease))
 {: .text-alpha }
 
 ## Resumé i én sætning
@@ -47,7 +47,7 @@ Doramectin er et antiparasitært middel af avermectin-klassen, som i Danmark er 
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Forudsagt ny indikation | Insomni (insomnia (disease)) (insomnia (disease)) |
+| Forudsagt ny indikation | Insomni (insomnia (disease)) |
 | TxGNN-prædiktionsscore | 0.9922 |
 | Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
