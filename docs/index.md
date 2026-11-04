@@ -67,19 +67,13 @@ Rapporter efter evidensniveau:
 |---|---|
 | [Phenprocoumon](/drugs/phenprocoumon/) | L5 |
 | [Amprenavir](/drugs/amprenavir/) | L5 |
-| [Doramectin](/drugs/doramectin/) | L5 |
-| [Amitraz](/drugs/amitraz/) | N/A |
 | [Capsaicin](/drugs/capsaicin/) | N/A |
 | [Cenegermin](/drugs/cenegermin/) | N/A |
 | [Perflutren](/drugs/perflutren/) | N/A |
-| [Robenacoxib](/drugs/robenacoxib/) | N/A |
-| [Selamectin](/drugs/selamectin/) | N/A |
 | [Tepoxalin](/drugs/tepoxalin/) | N/A |
-| [Tilmicosin](/drugs/tilmicosin/) | N/A |
 | [Tislelizumab](/drugs/tislelizumab/) | N/A |
 | [Toripalimab](/drugs/toripalimab/) | N/A |
 | [Troxerutin](/drugs/troxerutin/) | N/A |
-| [Tylosin](/drugs/tylosin/) | N/A |
 
 <!-- local-home:end -->
 
