@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clozapine
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 215
-evidence_level: L5
+evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
-description: "Clozapine: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L2). Oprindelig indikation: Ikke oplyst i de sammenstillede data (den danske tilladelse har ingen…"
+last_modified_at: 2026-11-04
 monitor_inn: "clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
+description: "Clozapine: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Clozapine
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,120 +33,85 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Clozapin: Fra behandlingsresistent skizofreni til manisk bipolar lidelse
+## Clozapine: Manisk bipolar affektiv lidelse (manic bipolar affective disorder)
 {: .text-alpha }
 
-## Resumé
+## Resumé i én sætning
 
-Clozapin er et atypisk antipsykotikum, som er markedsført i Danmark som tabletter. Det er kendt til behandling af psykotiske lidelser, men indikationsteksten i den danske registrering er ikke tilgængelig i de data, der er sammenstillet til denne rapport.
-TxGNN-modellen forudsiger, at clozapin kan være effektivt ved **manisk bipolar lidelse**, og der er **1 klinisk forsøg** og **21 publikationer** for denne konkrete indikation (heriklusive en metaanalyse fra 2020).
-
----
+Clozapin er et atypisk antipsykotikum med bred receptorprofil (bl.a. D2/D4-, 5-HT2A-, muskarin-, alfa-adrenerg og histaminerg antagonisme).
+TxGNN-modellen forudsiger, at det kan have effekt ved **manisk bipolar affektiv lidelse (manic bipolar affective disorder)**.
+Evidensen består af **1 afsluttet fase 2-forsøg** og **en systematisk oversigt med metaanalyse**, så evidensen er begrænset og skal tolkes forsigtigt.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke oplyst i de sammenstillede data (den danske tilladelse har ingen indikationstekst) |
-| Forudsagt ny indikation | Manisk bipolar lidelse |
-| TxGNN-forudsigelsesscore | 0,9995 |
-| Evidensniveau | L5 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Manisk bipolar affektiv lidelse (manic bipolar affective disorder) |
+| TxGNN-forudsigelsesscore | 0.9995 |
+| Evidensniveau | L2 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
+| Anbefalet beslutning | Proceed with Guardrails |
 
----
+## Hvorfor er forudsigelsen rimelig?
 
-## Hvorfor er denne forudsigelse rimelig?
+Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport. Vurderingen bygger derfor på almen farmakologi.
 
-Data om clozapins virkningsmekanisme er ikke tilgængelige i de sammenstillede oplysninger. Ud fra almen farmakologi har clozapin en bred receptorprofil med antagonisme på D2/D4-, 5-HT2A-, muskarine, alfa-adrenerge og histaminerge receptorer. Denne profil kan bidrage til en antimanisk og stemningsstabiliserende effekt ved behandlingsresistent mani.
+Clozapins brede receptorprofil, med blokade af D2/D4-, 5-HT2A-, muskarine, alfa-adrenerge og histaminerge receptorer, kan plausibelt bidrage til en antimanisk og stemningsstabiliserende effekt, især ved behandlingsresistent mani. En systematisk oversigt og metaanalyse fra 2020 samt flere oversigtsartikler om behandlingsresistent bipolar lidelse understøtter denne retning.
 
-Clozapin anvendes i praksis til behandlingsresistente psykotiske lidelser, og bipolar lidelse med mani deler symptomer og dele af den underliggende dopaminerge dysfunktion med dem. En systematisk oversigt og metaanalyse fra 2020 samt flere oversigtsartikler om behandlingsresistent bipolar lidelse understøtter anvendelsen.
-
-Bemærk, at den foreliggende evidens for manisk bipolar lidelse består af ét lille fase 2-forsøg (42 deltagere). Evidensen er derfor mere begrænset end for den bredere diagnose "bipolar lidelse" (se nedenfor).
-
----
+Mekanismelinket er dermed rimeligt, men ikke bekræftet af målrettede mekanistiske data.
 
 ## Evidens fra kliniske forsøg
 
-| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
+| Forsøgsnummer | Fase | Status | Antal deltagere | Hovedfund |
 |---------|------|------|------|---------|
-| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Fase 2 | Afsluttet | 42 | Dobbeltblindt forsøg med clozapins sikkerhed og effekt ved behandlingsresistent mani; resultater er ikke angivet i data |
+| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Fase 2 | Afsluttet | 42 | Dobbeltblindet undersøgelse af clozapins sikkerhed og effekt ved behandlingsresistent mani i bipolar lidelse |
 
-**Supplerende evidens for den bredere diagnose bipolar lidelse** (rang 5 i forudsigelserne, TxGNN-score 0,9962, evidensniveau L1):
-
-| Forsøgsnummer | Fase | Status | Deltagere | Hovedpunkter |
-|---------|------|------|------|---------|
-| [NCT00036582](https://clinicaltrials.gov/study/NCT00036582) | Fase 3 | Afsluttet | 116 | Clozapin vs. placebo ved behandlingsrefraktær bipolar lidelse hos børn og unge; resultater ikke angivet |
-| [NCT02562287](https://clinicaltrials.gov/study/NCT02562287) | Fase 4 | Ukendt | 54 | Randomiseret sammenligning af clozapin med olanzapin, quetiapin eller risperidon ved behandlingsresistent bipolar lidelse |
-| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Fase 3 | Rekrutterer | 1254 | Intensiveret farmakologisk behandling efter første behandlingssvigt ved skizofreni, depression og bipolar depression; resultater afventes |
-| [NCT06011460](https://clinicaltrials.gov/study/NCT06011460) | Ikke angivet | Optager efter invitation | 30 | Register over bivirkninger ved clozapin ved bipolar lidelse |
-| [NCT04580134](https://clinicaltrials.gov/study/NCT04580134) | Fase 4 | Rekrutterer | 524 | Clozapinrespons ved B-SNIP biotype 1-psykose; biomarkørorienteret, delvis relevans for bipolar lidelse |
-
----
+Der er ikke identificeret fase 3-forsøg for denne specifikke forudsigelse.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedpunkter |
+| PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Metaanalyse | J Psychiatr Res | Systematisk oversigt og metaanalyse af clozapins effekt og bivirkninger ved bipolar lidelse |
-| [41192460](https://pubmed.ncbi.nlm.nih.gov/41192460/) | 2025 | Kohorte | Lancet Psychiatry | Transdiagnostisk effekt og sikkerhed af clozapin sammenlignet med andre antipsykotika |
-| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Systematisk oversigt | Bipolar Disord | Effekt og sikkerhed af clozapin ved behandlingsresistent bipolar lidelse |
-| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Oversigtsartikel | Mol Psychiatry | Behandlingsresistent bipolar lidelse |
-| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | Oversigtsartikel | Bull Menninger Clin | Behandlingsresistent bipolar lidelse; nyere behandlinger bygger mest på case-rapporter |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Oversigtsartikel | Acta Psychiatr Scand | Evidensbaserede behandlingsmuligheder ved mani |
-| [10682225](https://pubmed.ncbi.nlm.nih.gov/10682225/) | 2000 | Oversigtsartikel | Clin Neuropharmacol | 36 patienter behandlet med ECT og clozapin; 67 % havde gavn, bivirkninger hos 16,6 % |
-| [41262335](https://pubmed.ncbi.nlm.nih.gov/41262335/) | 2025 | Ikke klassificeret | Drug Des Devel Ther | Lægemiddelinteraktioner og individualiseret dosering af clozapin ved bipolar lidelse |
-| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Ikke klassificeret | Bipolar Disord | Clozapin ved bipolar lidelse: hvad ved vi, og hvad nu? |
+| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Metaanalyse | Journal of Psychiatric Research | Systematisk oversigt og metaanalyse af clozapins effekt og bivirkninger ved bipolar lidelse; clozapin sammenlignelig med andre antipsykotika ved mani og bedre ved behandlingsresistent bipolar lidelse |
+| [41192460](https://pubmed.ncbi.nlm.nih.gov/41192460/) | 2025 | Kohorte | The Lancet Psychiatry | Transdiagnostisk vurdering af clozapins effekt og sikkerhed på tværs af psykiatriske lidelser sammenlignet med andre antipsykotika |
+| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Oversigt | Bipolar Disorders | Oversigt over, hvad vi ved om clozapin ved bipolar lidelse, og hvad der bør undersøges videre |
+| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Systematisk oversigt | Bipolar Disorders | Vurdering af clozapins effekt og sikkerhed ved behandlingsresistent bipolar lidelse |
+| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Oversigt | Molecular Psychiatry | Behandlingsresistent bipolar lidelse; oversigt over utilstrækkelig respons ved akut mani og depression |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Oversigt | Acta Psychiatrica Scandinavica | Evidensbaserede behandlingsmuligheder ved manisk episode |
+| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | Oversigt | Bulletin of the Menninger Clinic | Behandlingsresistent bipolar lidelse; data består primært af case reports og caseserier |
+| [41262335](https://pubmed.ncbi.nlm.nih.gov/41262335/) | 2025 | Modelbaseret studie | Drug Design, Development and Therapy | Lægemiddelinteraktioner og individualiseret dosering af clozapin ved bipolar lidelse |
 
----
-
-## Oplysninger om det danske marked
+## Information om det danske marked
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28106883122 | Cloprinex (Nordic Prime ApS) | Tabletter | Indikationstekst ikke angivet |
 
----
+Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS).
 
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer/sygdomme, hvor clozapin er markeret som problematisk i vidensgrafen (TxGNN/PrimeKG, ikke produktresumé):** epilepsi, leversygdom, galdeblæresygdom, neutropeni, agranulocytose, leukopeni, hyperglykæmi, diabetes mellitus, diabetisk ketoacidose, hyperlipidæmi, koronar hjertesygdom, fedme, slagtilfælde og cerebrovaskulær sygdom, lungeemboli, pludseligt hjertestop, hjerteledningsforstyrrelser, ortostatisk hypotension, hypotension, respirationssvigt, snævervinklet glaukom, benign prostatahyperplasi, paralytisk ileus, multipel systematrofi og postural ortostatisk takykardisyndrom.
+**Lægemiddelinteraktioner:** Der er registreret i alt 468 mulige interaktioner. Blandt de registrerede er følgende klassificeret som alvorlige (Major): bupropion, morfin og kaliumcitrat. Mange øvrige er moderate, bl.a. metformin, pioglitazon, cimetidin, omeprazol, atropin og epinephrin.
 
-**Lægemiddelinteraktioner:** Der er registreret 468 interaktioner. Blandt de viste er følgende af alvorlig grad (Major): bupropion, morfin og kaliumcitrat. Moderate interaktioner omfatter bl.a. metformin, pioglitazon, acarbose, omeprazol, cimetidin, famotidin, atropin, glycopyrronium, hyoscyamin, loperamid og epinephrin.
+**Tilstande, hvor clozapin kræver særlig forsigtighed eller kan være uhensigtsmæssigt (ifølge de samlede data):** neutropeni, agranulocytose og leukopeni; epilepsi; lever- og galdeblæresygdom; diabetes, hyperglykæmi og diabetisk ketoacidose; hyperlipidæmi og fedme; koronarsygdom, hjerteledningsforstyrrelser og pludseligt hjertestop; slagtilfælde og cerebrovaskulær sygdom; lungeemboli; respirationssvigt; lavt blodtryk og ortostatisk hypotension; benign prostatahyperplasi; snævervinklet glaukom; paralytisk ileus.
 
-**Supplerende sikkerhedsemner fra litteraturen:** agranulocytose, myokarditis, krampeanfald og metabolisk belastning (vægtøgning, diabetes). Se også produktresuméet for de gældende krav til blodprøvekontrol.
-
----
+Disse oplysninger stammer ikke fra produktresuméets tekst og bør verificeres mod det godkendte produktresumé (SmPC). Af de litteraturbelyste risici er agranulocytose, myokarditis, krampeanfald og metabolisk belastning de væsentligste og kræver faste sikkerhedsrammer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Der er et afsluttet fase 2-forsøg samt en metaanalyse fra 2020, der understøtter brug ved behandlingsresistent mani, og for den bredere diagnose bipolar lidelse findes også et afsluttet fase 3-forsøg (resultater ikke tilgængelige). Evidensen er dog begrænset i omfang, og clozapins alvorlige risici kræver tæt overvågning.
+Et afsluttet, placebokontrolleret fase 2-forsøg ved behandlingsresistent mani og en systematisk oversigt med metaanalyse peger i samme retning, men der er ingen fase 3-forsøg, og de inkluderede studier er små. Evidensniveauet er derfor L2, og anvendelsen bør begrænses til behandlingsresistente tilfælde under tæt sikkerhedsovervågning.
 
 **For at komme videre kræves:**
-- Hentning af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendt indikation mangler i de sammenstillede data)
-- Oplysninger om virkningsmekanisme fra DrugBank
-- Resultater fra NCT00029458 og NCT00036582 samt gennemgang af metaanalysen fra 2020
-- Plan for hæmatologisk overvågning (agranulocytose/neutropeni), hjertemonitorering (myokarditis), vurdering af krampetærskel og metabolisk kontrol
-- Vurdering af interaktioner med patientens øvrige medicin
-
----
-
-## Andre forudsagte indikationer (kort overblik)
-
-| Forudsagt indikation | TxGNN-score | Evidensniveau | Anbefaling |
-|------|------|------|------|
-| Tourettes syndrom | 0,9991 | L4 | Hold (kun case-rapporter, ingen forsøg) |
-| Trikotillomani | 0,9990 | L5 | Hold |
-| Skizofreniform lidelse | 0,9969 | L3 | Proceed with Guardrails |
-| Bipolar lidelse | 0,9962 | L1 | Proceed with Guardrails |
-| Større affektiv lidelse | 0,9948 | L2 | Proceed with Guardrails |
-| ADHD | 0,9931 | L4 | Hold |
-| ADHD, uopmærksom type | 0,9921 | L5 | Hold |
-| Malan overvækstsyndrom | 0,9902 | L5 | Hold |
+- Publicerede resultater fra eller yderligere kontrollerede forsøg med større populationer ved behandlingsresistent mani
+- Detaljerede data om virkningsmekanisme
+- Gennemgang af produktresuméet (SmPC) for kontraindikationer og advarsler
+- Plan for hæmatologisk overvågning (neutrofiltal), samt kontrol af hjertefunktion, krampetærskel og metaboliske parametre
+- Plan for håndtering af lægemiddelinteraktioner, især med stoffer, der sænker krampetærsklen eller påvirker knoglemarven
 
 ## Ansvarsfraskrivelse
 
