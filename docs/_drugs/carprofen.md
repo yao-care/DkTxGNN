@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Carprofen
-parent: Kun modelforudsigelse (L5)
+parent: Høj evidens (L1-L2)
 nav_order: 164
-evidence_level: L5
+evidence_level: L2
 indication_count: 9
 monitor_inn: "Carprofen"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "trigeminal autonomic cephalalgia", "gout"]
-last_modified_at: 2026-10-30
-description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (indikationsteksten er tom)"
+last_modified_at: 2026-11-04
+description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Carprofen
 {: .fs-9 }
 
-Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L2** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,49 @@ Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Carprofen: Fra ukendt oprindelig indikation til leddegigt (rheumatoid arthritis)
+## Carprofen: Leddegigt (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Resumé i én sætning
 
-Carprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), og i Danmark er det kun registreret som dyrlægemiddel (Canicaral Vet., tabletter). TxGNN-modellen forudsiger, at det kan have effekt ved **leddegigt**. Der foreligger **ingen registrerede kliniske forsøg**, men **15 publikationer** i de samlede data, hvoraf flere ældre kliniske studier (1980-1988) undersøger carprofen hos patienter med leddegigt.
-
----
+Carprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der hæmmer cyklooxygenase (COX). TxGNN-modellen forudsiger, at det kan have effekt ved **leddegigt (rheumatoid arthritis)**. Der findes ingen registrerede kliniske forsøg, men **flere publicerede kliniske studier**, herunder et dobbeltblindet crossover-forsøg og et dobbeltblindet sammenlignende forsøg mod indometacin, understøtter retningen (evidensniveau L2).
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de danske godkendelsesdata (indikationsteksten er tom) |
-| Foreslået ny indikation | Leddegigt (rheumatoid arthritis) |
-| TxGNN-forudsigelsesscore | 0,9980 |
-| Evidensniveau | L5 (se begrundelse nedenfor) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
+| TxGNN-forudsigelsesscore | 0.9980 |
+| Evidensniveau | L2 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Hold |
+| Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
-**Om evidensniveauet:** Der findes ældre publikationer, der direkte studerer carprofen ved leddegigt, herunder et dobbeltblindt crossover-forsøg mod indomethacin (PMID 6340183). Disse studier er dog fra 1980'erne, kun små, og der er ingen registrerede kliniske forsøg og ingen fuldførte fase 3-forsøg. Evidensen understøtter symptomlindring, ikke sygdomsmodificerende effekt. Pakken indeholder en vurdering på L3; da der ikke er systematiske reviews eller fase 3-forsøg, og de forelagte studier er små og gamle, betragtes evidensen i denne rapport som begrænset og understøtter kun en forskningshypotese.
+## Hvorfor er forudsigelsen rimelig?
 
----
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi hæmmer carprofen COX-enzymerne (bl.a. COX-2) og dermed prostaglandin-medieret inflammation og smerte. Det er direkte relevant for symptomlindring ved leddegigt.
 
-## Hvorfor er denne forudsigelse rimelig?
-
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er carprofen et NSAID, der hæmmer cyclooxygenase (COX) og dermed reducerer prostaglandin-medieret inflammation og smerte. Interaktionsdata nævner COX-2 (PTGS2) som mål for carprofen.
-
-Leddegigt er kendetegnet ved kronisk ledbetændelse og smerte, hvor NSAID'er traditionelt anvendes til symptomkontrol. Mekanismen er derfor biologisk plausibel. Det er vigtigt at understrege, at NSAID'er lindrer symptomer, men ikke ændrer sygdomsforløbet.
-
-I Danmark er carprofen registreret til dyr. Brug hos mennesker ville derfor være en ny anvendelse uden dansk human godkendelse.
-
----
+Det er vigtigt at understrege, at evidensen gælder symptomer (smerte og ledbetændelse), ikke sygdomsmodificerende effekt. Studier af synovialvæske viser desuden, at carprofen bliver til stede i leddet, og at det nedsætter prostaglandinniveauer, hvilket understøtter den biologiske plausibilitet.
 
 ## Evidens fra kliniske forsøg
 
-Der er for tiden ingen relaterede kliniske forsøg registreret.
-
----
+Currently ingen relaterede kliniske forsøg er registreret i de indsamlede data.
 
 ## Litteraturevidens
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | Dobbeltblindt crossover-RCT | Scand J Rheumatol Suppl | Carprofen 300 mg/dag sammenlignet med indomethacin 75 mg/dag hos 28 patienter med leddegigt over 4 måneder |
-| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | Dobbeltblindt, randomiseret klinisk forsøg | Int J Clin Pharmacol Ther Toxicol | 36 patienter med leddegigt fik carprofen i to dosisgrupper eller indomethacin 100 mg/dag over 6 uger |
-| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | Dosis-respons-studie (crossover) | Clin Pharmacol Ther | 38 patienter; lineær dosis-respons-sammenhæng for de fleste effektmål og sammenhæng mellem plasmakoncentration og effekt |
-| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Review | Pharmacotherapy | Gennemgang af farmakologi, klinisk effekt og bivirkninger; styrke omtrent en fjerdedel af indomethacin |
-| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | Farmakokinetisk studie | Scand J Rheumatol Suppl | Carprofen når målbare koncentrationer i ledvæske (gennemsnit ca. 6,2 µg/ml) hos 13 patienter |
-| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Klinisk fysiologisk studie | J Clin Pharmacol | Effekter af carprofen og indomethacin på nyrernes salt- og vandbalance |
-| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Klinisk mekanistisk studie | Scand J Rheumatol | Effekter af flere NSAID'er og prednisolon på ledvæskens hvide blodlegemer og prostaglandiner |
-| [3864577](https://pubmed.ncbi.nlm.nih.gov/3864577/) | 1985 | Klinisk mekanistisk studie | Clin Rheumatol | Eendags-behandling med NSAID'er reducerede PGE2 og TxB2 i ledvæske |
-| [6120390](https://pubmed.ncbi.nlm.nih.gov/6120390/) | 1982 | In vitro | Lancet | Carprofen, indomethacin og piroxicam hæmmede IgM-reumatoid faktor-produktion med ca. 50 % |
-| [6697075](https://pubmed.ncbi.nlm.nih.gov/6697075/) | 1984 | Sammenlignende smertestudie | Br J Rheumatol | Sammenligning af smertelindrende effekt af ti NSAID'er hos 90 patienter |
-
----
+| [6340183](https://pubmed.ncbi.nlm.nih.gov/6340183/) | 1983 | Dobbeltblindet crossover-RCT | Scand J Rheumatol Suppl | Carprofen 300 mg/dag sammenlignet med indometacin 75 mg/dag hos 28 patienter med leddegigt over fire måneder |
+| [7009441](https://pubmed.ncbi.nlm.nih.gov/7009441/) | 1980 | Dobbeltblindet sammenlignende forsøg | Int J Clin Pharmacol Ther Toxicol | 36 patienter med leddegigt randomiseret til to carprofen-dosisniveauer eller indometacin i 6 uger; sygdomsaktivitet og toksicitet vurderet |
+| [3293874](https://pubmed.ncbi.nlm.nih.gov/3293874/) | 1988 | Dosis-respons-studie | Clin Pharmacol Ther | 38 patienter; lineært dosis-respons-forhold for seks af ni effektmål |
+| [3554157](https://pubmed.ncbi.nlm.nih.gov/3554157/) | 1987 | Oversigtsartikel | Pharmacotherapy | Gennemgang af farmakologi, klinisk effekt og bivirkninger; styrke omtrent en fjerdedel af indometacin |
+| [6697075](https://pubmed.ncbi.nlm.nih.gov/6697075/) | 1984 | Sammenlignende studie | Br J Rheumatol | Smertelindrende effekt af ti NSAID'er hos 90 patienter med leddegigt |
+| [3864577](https://pubmed.ncbi.nlm.nih.gov/3864577/) | 1985 | Klinisk mekanistisk studie | Clin Rheumatol | Effekt på prostanoidkoncentrationer i synovialvæske |
+| [2155476](https://pubmed.ncbi.nlm.nih.gov/2155476/) | 1990 | Klinisk mekanistisk studie | Scand J Rheumatol | Effekt af NSAID'er og prednisolon på hvide blodlegemer og prostaglandin E2 i synovialvæske |
+| [6573017](https://pubmed.ncbi.nlm.nih.gov/6573017/) | 1983 | Farmakokinetisk studie | Scand J Rheumatol Suppl | Carprofen-koncentrationer i serum og synovialvæske hos 13 patienter |
+| [7037867](https://pubmed.ncbi.nlm.nih.gov/7037867/) | 1981 | Klinisk fysiologisk studie | J Clin Pharmacol | Effekt på nyrernes salt- og vandbalance sammenlignet med indometacin |
+| [6120390](https://pubmed.ncbi.nlm.nih.gov/6120390/) | 1982 | In vitro | Lancet | Hæmning af IgM-reumafaktorproduktion ca. 50 % |
 
 ## Information om det danske marked
 
@@ -97,30 +83,26 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28105446814 | Canicaral Vet. | Tabletter | Indikationsteksten er ikke angivet i de danske data; produktet er et dyrlægemiddel (indehaver: Le Vet Beheer B.V.) |
 
----
-
 ## Sikkerhedsovervejelser
 
-- **Lægemiddelinteraktioner:** Der er kun registreret et farmakologisk målpunkt (COX-2/PTGS2) og ingen klinisk graderede interaktioner.
-- **Fotosensibilitet:** Publikationer beskriver fototoksiske og fotoallergiske reaktioner på carprofen (fx fotopletstest, hvor 24,4 % af 86 testede reagerede).
-- **Nyrefunktion:** Et studie har undersøgt carprofens og indomethacins påvirkning af nyrernes salt- og vandbalance.
+- **Lægemiddelinteraktioner**: Farmakologiske data viser, at carprofen virker på COX-2 (PTGS2) hos mennesker. Der er ikke angivet specifikke interagerende lægemidler.
+- **Fotosensibilitet**: Litteraturen beskriver fototoksiske og fotoallergiske reaktioner på carprofen (bl.a. positive fotopatch-tests hos ca. 24 % af de testede).
+- **Nyrefunktion**: Et studie har undersøgt effekten på nyrernes salt- og vandbalance sammenlignet med indometacin.
 
-Der foreligger ingen godkendt human produktresumé i de data, der er indsamlet. Der henvises til gældende produktresumé for yderligere sikkerhedsinformation.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
-**Beslutning: Hold**
+**Beslutning: Fortsæt med sikkerhedsforanstaltninger**
 
 **Begrundelse:**
-Der er en biologisk plausibel mekanisme og nogle få ældre, små kliniske studier ved leddegigt, men ingen registrerede forsøg, ingen fuldførte fase 3-forsøg og kun symptomatisk evidens. Carprofen er i Danmark kun godkendt som dyrlægemiddel, og mange velkendte humane NSAID'er dækker allerede samme behov, så en ny human anvendelse er ikke differentieret.
+Der foreligger randomiserede, dobbeltblindede sammenligninger med indometacin ved leddegigt (evidensniveau L2), og mekanismen er biologisk plausibel. Studierne er dog små og gamle (1980'erne), viser symptomlindring frem for sygdomsmodifikation, og det eneste markedsførte danske produkt er et veterinærpræparat.
 
 **For at komme videre kræves:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Sikkerhedsoplysninger (advarsler og kontraindikationer) fra et godkendt produktresumé; de danske data indeholder ingen
-- Moderne, velgennemførte kontrollerede forsøg ved leddegigt sammenlignet med nuværende standard-NSAID'er
-- Vurdering af, om et human-godkendt produkt overhovedet er tilgængeligt, da det danske produkt er til dyr
+- Data om virkningsmekanisme og produktresumé med advarsler og kontraindikationer
+- Moderne, tilstrækkeligt store kontrollerede forsøg sammenlignet med nuværende standardbehandling
+- Vurdering af en human formulering og af kardiovaskulær, gastrointestinal og renal sikkerhed samt fotosensibilitet
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

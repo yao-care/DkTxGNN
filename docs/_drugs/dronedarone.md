@@ -3,18 +3,18 @@ layout: default
 title: Dronedarone
 parent: Moderat evidens (L3-L4)
 nav_order: 282
-evidence_level: L3
+evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
-description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,13 +36,9 @@ Evidensniveau: **L3** | Forudsagte indikationer: **9** stk.
 ## Dronedarone: Slagtilfælde (stroke disorder)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Dronedaron er et antiarytmisk middel, der oprindeligt anvendes til behandling af **atrieflimren**.
-TxGNN-modellen forudsiger, at det kan have effekt ved **slagtilfælde (stroke disorder)**.
-Der findes **ingen registrerede kliniske forsøg**, men **20 publikationer** i de indsamlede data, hvoraf de fleste er oversigtsartikler og post hoc-analyser. Evidensen er derfor indirekte og knyttet til atrieflimren.
-
----
+Dronedaron er et antiarytmisk lægemiddel, der blokerer flere ionkanaler. TxGNN-modellen forudsiger, at det kan have effekt ved **slagtilfælde (stroke disorder)**. Evidensen er begrænset: der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de data, der er indsamlet til denne rapport, men ingen af dem tester dronedaron direkte som behandling af slagtilfælde. Evidensniveauet er **L4**.
 
 ## Hurtigt overblik
 
@@ -50,83 +46,67 @@ Der findes **ingen registrerede kliniske forsøg**, men **20 publikationer** i d
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Slagtilfælde (stroke disorder) |
-| TxGNN-prædiktionsscore | 0.9997 |
-| Evidensniveau | L3 |
+| TxGNN-forudsigelsesscore | 0.9997 |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
----
-
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra litteraturen er dronedaron et antiarytmisk middel med flere ionkanalblokerende egenskaber (hæmmer Na⁺-, K⁺- og Ca²⁺-strømme), strukturelt beslægtet med amiodaron, men uden jod.
+Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Dronedaron er dog et multikanalblokerende antiarytmikum (klasse III), som hæmmer natrium-, kalium- og calciumstrømme og har antiadrenerge egenskaber.
 
-Slagtilfælde er en af de vigtigste følgesygdomme ved atrieflimren, og de fleste tilfælde er kardioemboliske. Rytmekontrol kunne derfor tænkes at nedsætte risikoen for slagtilfælde. Post hoc-analyser af ATHENA-studiet antyder en lavere forekomst af slagtilfælde under dronedaron. Det er dog en sekundær effekt inden for atrieflimren og ikke en selvstændig slagtilfælde-indikation.
+Slagtilfælde er en velkendt og alvorlig komplikation til atrieflimren, hvor blodpropper dannes i hjertet (kardioemboli). Rytmekontrol kan derfor tænkes at nedsætte risikoen for kardioembolisk slagtilfælde. Post hoc-analyser af ATHENA-forsøget og en metaanalyse (PMID 22149318) tyder på lavere forekomst af slagtilfælde. Det afspejler en sekundær effekt inden for atrieflimren og ikke en dokumenteret selvstændig effekt på slagtilfælde.
 
-En præklinisk oversigtsartikel (PMID 22366819) beskriver mulige pleiotrope effekter ved iskæmi/reperfusionsskade i hjerte og hjerne, og et forsøg (PMID 28992468) peger på antikoagulerende og trombocythæmmende effekter. Begge dele er hypotesegenererende.
-
-Sikkerhedsbegrænsninger er vigtige: dronedaron er kontraindiceret ved permanent atrieflimren og ved dekompenseret eller nylig hjertesvigt (PALLAS, ANDROMEDA). Det begrænser brugen hos mange patienter med høj risiko for slagtilfælde.
-
----
+Et præklinisk studie (PMID 28992468) beskriver, at dronedaron har antikoagulerende og antitrombotiske virkninger uafhængigt af den antiarytmiske effekt. Det er hypotesegenererende, og effekten er ikke vist hos patienter med slagtilfælde.
 
 ## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
+Ingen studier tester dronedaron direkte mod slagtilfælde; slagtilfælde optræder som udfald i studier af atrieflimren. De mest relevante publikationer er:
+
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT (PALLAS) | N Engl J Med | Dronedaron ved højrisiko permanent atrieflimren; undersøgte store vaskulære hændelser |
-| [22149318](https://pubmed.ncbi.nlm.nih.gov/22149318/) | 2011 | Systematisk oversigt/metaanalyse (post hoc) | Am J Cardiovasc Drugs | Dronedaron og forekomst af slagtilfælde ved paroksystisk eller vedvarende atrieflimren; post hoc-data antyder lavere risiko |
-| [20396635](https://pubmed.ncbi.nlm.nih.gov/20396635/) | 2010 | Oversigtsartikel | Clin Interv Aging | Dronedarons indflydelse på reduktion af slagtilfælde ved atrieflimren og flutter |
-| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Eksperimentelt studie | Atherosclerosis | Dronedaron har antikoagulerende og trombocythæmmende effekter uafhængigt af den antiarytmiske virkning |
-| [22366819](https://pubmed.ncbi.nlm.nih.gov/22366819/) | 2012 | Præklinisk oversigt | Cardiovasc Drugs Ther | Pleiotrope effekter ved iskæmi/reperfusionsskade i hjerte og hjerne |
-| [25820938](https://pubmed.ncbi.nlm.nih.gov/25820938/) | 2015 | Metaanalyse | Cochrane Database Syst Rev | Antiarytmika til at opretholde sinusrytme efter kardioversion |
+| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT | N Engl J Med | Dronedaron hos højrisikopatienter med permanent atrieflimren (PALLAS); større vaskulære hændelser var et centralt udfald |
+| [22149318](https://pubmed.ncbi.nlm.nih.gov/22149318/) | 2011 | Systematisk review og metaanalyse | Am J Cardiovasc Drugs | Dronedaron og forekomst af slagtilfælde ved paroxysmal eller persisterende atrieflimren; post hoc-data tyder på lavere risiko |
+| [20396635](https://pubmed.ncbi.nlm.nih.gov/20396635/) | 2010 | Review | Clin Interv Aging | Dronedarons effekt på reduktion af slagtilfælde ved atrieflimren og atrieflagren |
+| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Præklinisk | Atherosclerosis | Antikoagulerende og antitrombotiske effekter uafhængigt af den antiarytmiske virkning |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Kohorte | J Atr Fibrillation | Risiko for kardiovaskulære hændelser, slagtilfælde, hjertesvigt og leverskade ved dronedaron sammenlignet med amiodaron og andre antiarytmika |
 | [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | Kohorte | Clin Res Cardiol | Sikkerhed og effekt af amiodaron og dronedaron til tidlig rytmekontrol i EAST-AFNET 4 |
-| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Kohorte | Circ Arrhythm Electrophysiol | Dronedaron versus sotalol hos veteraner med atrieflimren |
-| [29776576](https://pubmed.ncbi.nlm.nih.gov/29776576/) | 2018 | Kohorte | Int J Cardiol | Blødningsrisiko ved apixaban + dronedaron versus warfarin + dronedaron |
-| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Kohorte | BMC Med | Samtidig brug af DOAK og interagerende antiarytmika og risiko for slagtilfælde og blødning |
+| [22366819](https://pubmed.ncbi.nlm.nih.gov/22366819/) | 2012 | Præklinisk review | Cardiovasc Drugs Ther | Pleiotrope effekter på iskæmi/reperfusionsskade i hjerte og hjerne |
+| [29776576](https://pubmed.ncbi.nlm.nih.gov/29776576/) | 2018 | Kohorte | Int J Cardiol | Blødningsrisiko ved apixaban sammen med dronedaron sammenlignet med warfarin sammen med dronedaron |
+| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Kohorte | BMC Med | Samtidig brug af direkte orale antikoagulantia og interagerende antiarytmika og risiko for slagtilfælde og blødning |
+| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | Review | Lancet | Overblik over behandling af atrieflimren og risikostratificering for slagtilfælde |
 
----
-
-## Information om markedet i Danmark
+## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107542226 | Dronedaron 2care4 (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
----
-
 ## Sikkerhedsovervejelser
 
-**Kontraindikationer ifølge vidensgrafen** (ikke fra produktresuméet): langt QT-syndrom (herunder familiært), torsades de pointes, leversvigt, kaliummangel, atrioventrikulært blok og sick sinus-syndrom (herunder familiær form).
+- **Lægemiddelinteraktioner:** Der er registreret 277 interaktioner. Blandt de alvorlige (Major) er hydrocortison, amphotericin B (flere formuleringer), loperamid, clarithromycin, picosulfat, polyethylenglycol med elektrolytter og dolasetron. Moderate interaktioner omfatter blandt andet famotidin, alvimopan, aprepitant, dexamethason, bisacodyl, budesonid, cimetidin og saxagliptin.
+- **Klinisk relevante forhold fra litteraturen:** Dronedaron er kontraindiceret ved permanent atrieflimren og ved dekompenseret eller nylig hjertesvigt (PALLAS, ANDROMEDA), hvilket begrænser brugen hos mange patienter med risiko for slagtilfælde. Samtidig brug af orale antikoagulantia kræver opmærksomhed på blødningsrisiko og interaktioner.
 
-**Kontraindikationer nævnt i litteraturen:** permanent atrieflimren og dekompenseret eller nylig hjertesvigt (PALLAS, ANDROMEDA).
-
-**Lægemiddelinteraktioner:** Der er identificeret 277 interaktioner. Eksempler på **alvorlige (Major)**: hydrocortison, amphotericin B (inklusive lipidkompleks, kolesterylsulfat og liposomal form), loperamid, clarithromycin, picosulfat, polyethylenglycol (3350 med elektrolytter) og dolasetron. Eksempler på **moderate**: famotidin, alvimopan, aprepitant, dexamethason, bisacodyl, budesonid, cimetidin, saxagliptin og ricinusolie.
-
-Ved samtidig behandling med orale antikoagulantia er blødningsrisikoen relevant (PMID 29776576, 41152878).
-
-Gennemgå desuden det godkendte produktresumé (SmPC), da advarsler og kontraindikationer fra produktresuméet ikke indgik i de indsamlede data.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Forudsigelsen har en høj modelscore, men evidensen er indirekte (post hoc-analyser, oversigtsartikler og observationelle studier) og knyttet til atrieflimren, ikke til en selvstændig slagtilfælde-indikation. Ingen kliniske forsøg er registreret, og de kendte kontraindikationer begrænser anvendelsen hos mange patienter med risiko for slagtilfælde. De øvrige forudsigelser mangler evidens; scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+Ingen studier tester dronedaron direkte mod slagtilfælde. Observationerne stammer fra atrieflimren-studier, hvor slagtilfælde er et udfald, og fra præklinisk arbejde. Effekten formidles sandsynligvis via den eksisterende behandling af atrieflimren og ikke via en selvstændig indikation, og sikkerhedsbegrænsninger indskrænker den relevante population.
 
-**For at komme videre kræves:**
-- Prospektive, randomiserede studier med slagtilfælde som primært endepunkt
-- Detaljerede data om virkningsmekanisme (MOA)
-- Gennemgang af SmPC for advarsler og kontraindikationer
-- Plan for sikkerhedsmonitorering, især ved samtidig antikoagulation, hjertesvigt og QT-forlængelse
+**For at komme videre kræves følgende:**
+- Specifikke kliniske studier, helst randomiserede, med slagtilfælde som primært udfald
+- Data om virkningsmekanismen
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+- Plan for sikkerhedsovervågning, især vedrørende hjertesvigt, bradykardi, QT-forlængelse, leverfunktion og interaktioner med antikoagulantia
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

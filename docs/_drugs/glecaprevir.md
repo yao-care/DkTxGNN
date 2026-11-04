@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 393
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Glecaprevir er en hæmmer af hepatitis C-virussets NS3/4A-protease og anvendes sammen med pibrentasvir (Maviret) til behandling af kronisk hepatitis C. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**, men de **7 kliniske forsøg** og **20 publikationer** i de indsamlede data omhandler hepatitis C-behandling hos patienter med HIV-samsygelighed, ikke behandling af selve HIV. Forudsigelsen er derfor ikke understøttet af direkte evidens.
-
----
+Glecaprevir er en proteasehæmmer rettet mod hepatitis C-virus og indgår i kombinationspræparatet Maviret sammen med pibrentasvir. TxGNN-modellen forudsiger, at stoffet kan have effekt ved **HIV-infektion (HIV infectious disease)**, men der foreligger ingen studier, der direkte undersøger glecaprevir som behandling af selve HIV-infektionen. Evidensniveauet er **L5** (kun modelforudsigelse).
 
 ## Hurtigt overblik
 
@@ -48,92 +46,74 @@ Glecaprevir er en hæmmer af hepatitis C-virussets NS3/4A-protease og anvendes s
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | HIV-infektion (HIV infectious disease) |
-| TxGNN-prædiktionsscore | 0.9987 |
-| Evidensniveau | L4 (se bemærkning nedenfor) |
+| TxGNN-forudsigelsesscore | 0.9987 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
 | Anbefalet beslutning | Hold |
 
-*Bemærkning om evidensniveau:* De indsamlede data angiver L4. Eftersom forsøgene ikke har HIV-specifikke endepunkter og ingen studier viser aktivitet mod HIV, svarer evidensen reelt til kun modelforudsigelse (L5). Under alle omstændigheder er niveauet ikke tilstrækkeligt til at støtte en ny indikation.
+## Hvorfor er forudsigelsen rimelig?
 
----
+Der foreligger i de data, der er indsamlet til denne rapport, ingen detaljerede oplysninger om virkningsmekanisme. Glecaprevir er kendt som en hæmmer af NS3/4A-serinproteasen hos hepatitis C-virus. HIV har en anden type protease, og der er ikke påvist anti-HIV-aktivitet for glecaprevir.
 
-## Hvorfor er forudsigelsen (ikke) rimelig?
+Den høje score (0,9987) afspejler sandsynligvis nærhed til andre antivirale stoffer i modellens netværk snarere end en reel biologisk sammenhæng. De kliniske studier, der er knyttet til forudsigelsen, inkluderede patienter med både HIV og hepatitis C, men målet var helbredelse af hepatitis C (vedvarende virologisk respons, SVR12), ikke kontrol af HIV. Studierne viser således, at glecaprevir/pibrentasvir kan anvendes til hepatitis C hos personer med HIV, men de viser ikke et repurposing-signal mod HIV selv. Evidensen er derfor vurderet til L5.
 
-Der foreligger ingen detaljerede data om virkningsmekanismen i de indsamlede data. Glecaprevir er dog kendt som en NS3/4A-proteasehæmmer rettet mod hepatitis C-virus og anvendes i fastdosiskombination med pibrentasvir, en NS5A-hæmmer. Effekten ved hepatitis C er veldokumenteret.
+## Evidens fra kliniske studier
 
-Der er ingen kendt anti-HIV-aktivitet. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. HIV-proteasen og HCV NS3/4A-proteasen er forskellige enzymer.
+Studierne nedenfor undersøger hepatitis C hos personer med eller uden HIV-saminfektion. Ingen har et HIV-specifikt effektmål.
 
-De forsøg og kohortestudier, der er fundet, inkluderede patienter med HIV/HCV-samsygelighed, men endepunktet var hepatitis C-helbredelse (vedvarende viral respons, SVR12), ikke HIV-kontrol. Det viser, at glecaprevir/pibrentasvir kan anvendes til hepatitis C hos mennesker med HIV, hvilket allerede er en del af den eksisterende indikation. Det er ikke et signal om gensidig anvendelse mod HIV.
-
----
-
-## Evidens fra kliniske forsøg
-
-| Forsøgsnummer | Fase | Status | Antal deltagere | Vigtigste fund |
+| Studienummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Afsluttet | 153 | EXPEDITION-2: effekt og sikkerhed af glecaprevir/pibrentasvir ved hepatitis C (genotype 1-6) hos patienter med HIV-1-samsygelighed |
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Afsluttet | 546 | Randomiseret, placebokontrolleret studie hos asiatiske voksne uden cirrose med hepatitis C, med eller uden HIV-samsygelighed |
-| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Afsluttet | 160 | Åbent studie hos asiatiske voksne med kompenseret cirrose og hepatitis C, med eller uden HIV-samsygelighed |
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Afsluttet | 83 | Pilotstudie af DAA-regimer ved nyligt erhvervet hepatitis C, med eller uden HIV-samsygelighed |
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Fase 3 | Afsluttet | 153 | EXPEDITION-2: effekt og sikkerhed af glecaprevir/pibrentasvir ved hepatitis C (genotype 1-6) med HIV-1-saminfektion |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Fase 3 | Afsluttet | 546 | Placebokontrolleret studie hos asiatiske voksne uden cirrhose med hepatitis C, med eller uden HIV-saminfektion |
+| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Fase 3 | Afsluttet | 160 | Åbent studie hos asiatiske voksne med kompenseret cirrhose og hepatitis C, med eller uden HIV-saminfektion |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Fase 3 | Afsluttet | 83 | Pilotstudie af direkte virkende antivirale midler ved nyligt erhvervet hepatitis C, med eller uden HIV |
 | [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Fase 2 | Afsluttet | 45 | PURGE-C: 4 ugers glecaprevir/pibrentasvir ved akut hepatitis C, med eller uden HIV-1 |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Afsluttet | 87 | Kardiovaskulær risiko efter helbredelse af hepatitis C hos patienter med HIV/HCV-samsygelighed |
-| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Fase 1/2 | Rekrutterer | 30 | Farmakokinetik og sikkerhed ved opstart under graviditet hos kvinder med hepatitis C, med eller uden HIV |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Fase 4 | Afsluttet | 87 | Kardiovaskulær risiko efter helbredelse af hepatitis C hos HIV-samsmittede |
+| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Fase 1/2 | Rekrutterer | 30 | Farmakokinetik og sikkerhed ved opstart af glecaprevir/pibrentasvir under graviditet, med eller uden HIV |
 
-Intet af forsøgene har et HIV-specifikt effektendepunkt.
+## Evidens fra litteraturen
 
----
-
-## Litteraturevidens
-
-| PMID | År | Type | Tidsskrift | Vigtigste fund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohorte | J Antimicrob Chemother | Respons på glecaprevir/pibrentasvir ved hepatitis C hos HIV/HCV-samsmittede i klinisk praksis |
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Kohorte | Clin Exp Hepatol | Effekt og sikkerhed af glecaprevir/pibrentasvir hos HIV/HCV-patienter behandlet med bictegravir/emtricitabin/tenofoviralafenamid |
-| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Interaktionsstudie | J Infect Dis | Lægemiddelinteraktioner mellem glecaprevir/pibrentasvir og antiretrovirale HIV-lægemidler |
-| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Enkeltarmet fase IIIb | J Hepatol | 8 ugers glecaprevir/pibrentasvir ved akut hepatitis C |
-| [32754824](https://pubmed.ncbi.nlm.nih.gov/32754824/) | 2020 | Real-world kohorte | Adv Ther | 8 ugers behandling hos behandlingsnaive med kompenseret cirrose |
-| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematisk review og metaanalyse | Int J Antimicrob Agents | 13 studier, 3082 patienter; samlet SVR12 på 97,8 % ved hepatitis C |
-| [38293756](https://pubmed.ncbi.nlm.nih.gov/38293756/) | 2024 | Systematisk review og metaanalyse | Liver Int | Effekt og sikkerhed af DAA hos børn og unge med kronisk hepatitis C |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohorte | J Antimicrob Chemother | Respons på glecaprevir/pibrentasvir hos HIV/HCV-samsmittede i klinisk praksis |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Kohorte | Clin Exp Hepatol | Effekt af glecaprevir/pibrentasvir hos HIV/HCV-samsmittede behandlet med bictegravir/emtricitabin/tenofoviralafenamid |
+| [31504702](https://pubmed.ncbi.nlm.nih.gov/31504702/) | 2020 | Interaktionsstudie | J Infect Dis | Lægemiddelinteraktioner mellem glecaprevir/pibrentasvir og antiretrovirale hiv-midler |
+| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematisk review og metaanalyse | Int J Antimicrob Agents | Samlet SVR12-rate på 97,8 % ved kronisk hepatitis C (13 studier, 3082 patienter) |
+| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Enkeltarmet fase IIIb | J Hepatol | 8 ugers glecaprevir/pibrentasvir ved akut hepatitis C hos voksne |
+| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Review | Expert Opin Pharmacother | Proteasehæmmere ved hepatitis C; oversigt over DAA-behandling |
 | [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Review | Future Microbiol | Glecaprevir/pibrentasvir ved kronisk hepatitis C |
-| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Review | Expert Opin Pharmacother | Proteasehæmmere ved hepatitis C |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Review | Lancet Gastroenterol Hepatol | Hepatitis C hos børn og unge |
 
-Al litteratur omhandler hepatitis C. Ingen publikation dokumenterer en effekt mod HIV.
-
----
+Alle publikationer omhandler hepatitis C (herunder hos personer med HIV); ingen dokumenterer effekt mod HIV-infektion.
 
 ## Information om markedet i Danmark
 
-
----
+| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
+|---------|------|------|-----------|
+| 28105901416 | Maviret | Filmovertrukne tabletter | Indikationsteksten er ikke registreret i de lokale data |
 
 ## Sikkerhedsovervejelser
 
-Der er ikke indsamlet data om advarsler eller kontraindikationer fra produktresuméet.
+Der er ikke tilgængelige data om advarsler og kontraindikationer i de data, der er indsamlet til denne rapport. Der er registreret 61 mulige lægemiddelinteraktioner. Blandt de væsentligste er:
 
-**Lægemiddelinteraktioner:** Der er registreret 61 interaktioner. Blandt de udvalgte er følgende af alvorlig betydning:
-- **Større (Major):** rosuvastatin, simvastatin, edoxaban
-- **Moderate:** bl.a. apixaban, betrixaban, dexamethason, esomeprazol, omeprazol, cobicistat, deferasirox, metreleptin, naldemedin, troglitazon, lusutrombopag, revefenacin
-- **Mindre (Minor):** bl.a. fidaxomicin, naloxegol, prucaloprid, indacaterol
+- **Alvorlige (Major):** rosuvastatin, simvastatin, edoxaban
+- **Moderate:** bl.a. omeprazol, esomeprazol, dexamethason, apixaban, betrixaban, cobicistat, deferasirox
+- **Milde (Minor):** bl.a. fidaxomin, naloxegol, prucaloprid
 
-Der henvises i øvrigt til det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Interaktioner med antiretrovirale midler er særligt relevante ved HIV/HCV-samsmitte. Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-- Den høje TxGNN-score (0,9987) understøttes ikke af biologisk rationale eller direkte evidens. Glecaprevir har ingen kendt aktivitet mod HIV, og alle fundne forsøg og publikationer vedrører hepatitis C, også hos patienter med HIV-samsygelighed. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
+Forudsigelsen er alene baseret på modellen (evidensniveau L5). De tilknyttede studier har hepatitis C-helbredelse som effektmål og viser ikke aktivitet mod HIV. Glecaprevir hæmmer et HCV-specifikt proteasemål, og der er ingen biologisk eller klinisk understøttelse af anvendelse mod HIV-infektion.
 
-**For at komme videre kræves følgende:**
-- In vitro-data, der viser eventuel aktivitet mod HIV (prækliniske studier)
-- Detaljerede data om virkningsmekanismen
-- Gennemgang af produktresuméet for advarsler og kontraindikationer
-- Øvrige forudsigelser (bl.a. hepatitis B, hepatitis A, hepatitis E, Omsk hæmoragisk feber, Kyasanur-skovsygdom) har ligeledes kun modelbaseret støtte uden relevant evidens og bør ikke prioriteres.
-- Til hepatitis B er det relevant at bemærke, at HBV-reaktivering under DAA-behandling er et kendt overvågningsemne, ikke en terapeutisk mulighed.
+**For at komme videre kræves:**
+- Præklinisk (in vitro) dokumentation for anti-HIV-aktivitet af glecaprevir
+- Data om virkningsmekanisme, der kan begrunde en sammenhæng med HIV
+- Gennemgang af produktresuméets advarsler, kontraindikationer og interaktioner, herunder med antiretrovirale midler
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

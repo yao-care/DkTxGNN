@@ -3,18 +3,18 @@ layout: default
 title: Elvitegravir
 parent: Moderat evidens (L3-L4)
 nav_order: 300
-evidence_level: L3
+evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
-description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L5). Oprindelig indikation: HIV-infektion og AIDS"
+last_modified_at: 2026-11-04
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Elvitegravir
 {: .fs-9 }
 
-Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
+Evidensniveau: **L4** | Forudsagte indikationer: **3** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,49 @@ Evidensniveau: **L3** | Forudsagte indikationer: **3** stk.
 
 </div>
 
-## Elvitegravir: Fra HIV-infektion til simian immundefektvirus-infektion
+## Elvitegravir: simian immundefektvirus-infektion (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Kort resumé
 
-Elvitegravir er en integrasehæmmer, der oprindeligt anvendes til behandling af HIV-infektion og AIDS. TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **simian immundefektvirus-infektion (SIV)**. Der findes **ingen registrerede kliniske forsøg**, men **8 publikationer**, som udelukkende er præklinisk forskning (dyremodeller og laboratorieforsøg).
-
----
+Elvitegravir er en integrasestrandoverførselshæmmer (INSTI), som bruges i kombinationspræparater mod HIV-infektion. TxGNN-modellen forudsiger, at stoffet kan have effekt mod **simian immundefektvirus-infektion (simian immunodeficiency virus infection)**. Der er ingen registrerede kliniske forsøg, men **8 publikationer** med udelukkende prækliniske data (makakforsøg, cellekulturer og musemodeller) understøtter retningen.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | HIV-infektion og AIDS (de danske markedsføringstilladelser indeholder ingen indikationstekst i de data, der er indsamlet til denne rapport) |
-| Forudsagt ny indikation | Simian immundefektvirus-infektion |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
 | TxGNN-forudsigelsesscore | 0.9989 |
-| Evidensniveau | L3 (alene præklinisk dokumentation; tildelt som L3 i datagrundlaget, mens en streng læsning af reglerne ville pege mod L4) |
+| Evidensniveau | L4 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
----
-
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Elvitegravir er dog kendt som en HIV-1-integrase-strengoverførselshæmmer (INSTI), som blokerer indbygningen af viralt DNA i værtscellens genom.
+Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Elvitegravir er dog kendt som en HIV-1-integrasehæmmer, der blokerer indbygningen af viralt DNA i værtscellens genom.
 
-SIV's integrase ligner HIV-1's integrase meget, og derfor er det mekanistisk plausibelt, at samme virkning gælder for SIV. Præklinisk forskning understøtter dette: studier af resistensprofiler for INSTI'er i SIVmac239 og en makakmodel, hvor en topisk indsats med tenofoviralafenamid/elvitegravir gav delvis beskyttelse efter eksponering.
+Integrasen hos simian immundefektvirus (SIV) ligner HIV-1-integrasen meget. Derfor er det mekanistisk plausibelt, at samme princip virker mod SIV. Prækliniske studier viser aktivitet mod SIV/SHIV, bl.a. resistensprofilering af INSTI'er i SIVmac239 og en topisk indsats med tenofoviralafenamid/elvitegravir, som gav delvis beskyttelse efter eksponering i en makakmodel.
 
-Det er vigtigt at bemærke, at SIV er en dyremodel for den oprindelige HIV-indikation. Der er derfor tale om støtte til forskningsmodeller og ikke en ny human indikation. Den terapeutiske værdi ved genanvendelse til mennesker er begrænset.
-
----
+Det er vigtigt at bemærke, at SIV primært er en dyremodel for HIV. Fundene er derfor støtte til forskningsmodeller og ikke en ny indikation til behandling af mennesker. Den potentielle værdi for human behandling er begrænset.
 
 ## Evidens fra kliniske forsøg
 
-Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
-
----
+Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-| PMID | År | Type | Tidsskrift | Hovedfund |
+| PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Præklinisk (makak, SHIV) | J Infect Dis | Vaginale indsatser med tenofoviralafenamid/elvitegravir gav forlænget beskyttelse efter eksponering; tidligere 93 % (før) og 100 % (efter) beskyttelse |
-| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Præklinisk (makak, SHIV, rektal) | J Infect Dis | Delvis beskyttelse efter eksponering (82,9 %) med topiske indsatser |
-| [17977962](https://pubmed.ncbi.nlm.nih.gov/17977962/) | 2008 | Præklinisk in vitro | J Virol | Bred antiviral aktivitet og resistensprofil for integrasehæmmeren (forbindelsen er ikke bekræftet pga. afkortet titel) |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Præklinisk (humaniseret musemodel) | Front Immunol | Musemodel til test af antivirale strategier mod både SIV og HIV |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Præklinisk in vitro | Antimicrob Agents Chemother | Abe-tropisk HIV som model for resistens mod integrasehæmmere |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Præklinisk in vitro | J Virol | Effekt af HIV-integraseresistensmutationer i SIVmac239 på følsomhed over for INSTI'er |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Præklinisk (makak) | J Infect Dis | Vaginale indlæg med tenofoviralafenamid/elvitegravir gav forlænget beskyttelse efter eksponering for SHIV; tidligere 93 % og 100 % beskyttelse ved indgivelse 4 timer før/efter eksponering |
+| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Præklinisk (makak) | J Infect Dis | Rektale indlæg med tenofoviralafenamid/elvitegravir gav delvis beskyttelse efter SHIV-eksponering (82,9 %) |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Præklinisk (humaniseret mus) | Front Immunol | Musemodel til test af antivirale strategier mod både SIV og HIV |
+| [17977962](https://pubmed.ncbi.nlm.nih.gov/17977962/) | 2008 | Præklinisk in vitro | J Virol | Bred antiviral aktivitet og resistensprofil for en ny integrasehæmmer (titlen er afkortet, så stoffet er ikke bekræftet som elvitegravir) |
 | [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Præklinisk in vitro | J Virol | Resistensprofiler for INSTI'er i SIVmac239 |
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Præklinisk in vitro | Antimicrob Agents Chemother | Aktivitet af bictegravir og cabotegravir mod INSTI-resistent SIVmac239 og HIV-1 |
-
----
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Præklinisk in vitro | Antimicrob Agents Chemother | Simian-tropisk HIV som model for resistens mod integrasehæmmere |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Præklinisk in vitro | J Virol | Effekt af integraseresistensmutationer i SIVmac239 på følsomhed over for INSTI'er |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Præklinisk in vitro | Antimicrob Agents Chemother | Bictegravir og cabotegravir mod INSTI-resistent SIVmac239 og HIV-1 |
 
 ## Information om det danske marked
 
@@ -94,37 +84,26 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 | 28105019912 | Stribild | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 | 28105550014 | Genvoya | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
-Begge produkter markedsføres af Gilead Sciences Ireland UC og er oralt administrerede kombinationspræparater, hvor elvitegravir indgår.
-
----
-
 ## Sikkerhedsovervejelser
 
-**Lægemiddelinteraktioner:** Der er registreret 31 interaktioner. De vigtigste er:
+- **Lægemiddelinteraktioner:** 31 interaktioner er registreret. Blandt de vigtigste er:
+  - **Alvorlige (Major):** zinkacetat, zinkglukonat, zinksulfat, zinkchlorid og lumacaftor.
+  - **Moderate:** dexamethason, diclofenac, orlistat samt syrebindende midler og mineralpræparater (magnesiumoxid, magnesiumhydroxid, magnesiumcarbonat, aluminiumhydroxid, calciumcarbonat, magaldrat, natriumcitrat, natriumbicarbonat).
 
-- **Alvorlige (Major):** zinksalte (zinkacetat, zinkglukonat, zinksulfat, zinkchlorid) og lumacaftor
-- **Moderate:** dexamethason, antacida og mineralpræparater (magnesiumoxid, -carbonat og -hydroxid, aluminiumhydroxid, calciumcarbonat, magaldrat), natriumcitrat, natriumbicarbonat, orlistat og diclofenac
-
-Det anbefales at overholde tidsmæssig adskillelse fra polyvalente kationer (antacida, mineraler), da disse kan nedsætte optagelsen.
-
-For advarsler og kontraindikationer henvises til det godkendte produktresumé (SmPC).
-
----
+Der henvises i øvrigt til det godkendte produktresumé (SmPC) for øvrige advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen for SIV-infektion består udelukkende af prækliniske modelstudier uden kliniske forsøg. SIV er en dyremodel for HIV, som elvitegravir allerede er godkendt til, så der er ingen reel ny human indikation at forfølge. Dermed er den kliniske relevans for genanvendelse begrænset.
+Evidensniveauet er L4, da der udelukkende findes prækliniske studier (makak SHIV-modeller og in vitro-data mod SIV). SIV er en dyremodel for HIV, så der er ingen ny human indikation, og den humane behandlingsværdi er begrænset.
 
-**For at gå videre kræves følgende:**
-- Data om virkningsmekanisme (MOA) fra DrugBank
-- Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen (mangler og blokerer sikkerhedsscreeningen)
-- Afklaring af, om den relevante anvendelse er forskningsmæssig (dyremodeller) eller en egentlig human indikation, fx topisk forebyggelse (præ-/postekspositionsprofylakse)
-- Bekræftelse af, at litteraturen faktisk vedrører elvitegravir (PMID 17977962)
+**For at komme videre kræves:**
+- Data om virkningsmekanismen (MOA)
+- Gennemgang af produktresuméer for advarsler og kontraindikationer
+- Afklaring af, om forskningsmodelanvendelsen har et relevant formål, før der overvejes yderligere udvikling
 
-**Bemærkning om øvrige forudsigelser:** Forudsigelserne om felint erhvervet immundefektsyndrom (veterinær, ingen evidens) og en sjælden neuroudviklingsforstyrrelse (ingen identificerbar mekanistisk sammenhæng, sandsynligvis en artefakt i grafmodellen) har begge evidensniveau L5 og anbefales ikke fulgt op (Hold).
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

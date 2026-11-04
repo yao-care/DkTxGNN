@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ampicillin
-parent: Moderat evidens (L3-L4)
+parent: Kun modelforudsigelse (L5)
 nav_order: 58
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
-description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L4). Oprindelig indikation: Bakterielle infektioner, bl.a. urinvejsinfektion, mellemørebetændelse…"
+last_modified_at: 2026-11-04
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **9** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,76 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 </div>
 
-## Ampicillin: Fra bakterielle infektioner til laryngitis
+## Ampicillin: Laryngitis
 {: .text-alpha }
 
-## Resumé i en sætning
+## Resumé i én sætning
 
-Ampicillin er et bredspektret penicillin-antibiotikum, der oprindeligt bruges til bl.a. urinvejsinfektioner, mellemørebetændelse, lungebetændelse og hjernehindebetændelse.
-TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **laryngitis (strubehoved-/strubelågsbetændelse)**,
-men der er **ingen registrerede kliniske forsøg** og kun **19 publikationer** af overvejende lav evidenskvalitet (kasuistikker, oversigter og dyrestudier).
-
----
+Ampicillin er et penicillin-antibiotikum, der virker mod modtagelige bakterier. TxGNN-modellen forudsiger, at det kan have effekt ved **laryngitis (laryngitis)**. Der findes **ingen registrerede kliniske forsøg** og kun indirekte litteratur (hovedsageligt om akut epiglottitis), så evidensniveauet er **L5**.
 
 ## Hurtigt overblik
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Bakterielle infektioner, bl.a. urinvejsinfektion, mellemørebetændelse, bakteriel lungebetændelse og bakteriel meningitis (godkendt indikationstekst for de danske præparater er ikke tilgængelig i de indsamlede data) |
+| Oprindelig indikation | Ikke registreret i de lokale data |
 | Forudsagt ny indikation | Laryngitis |
-| TxGNN-forudsigelsesscore | 0,9997 |
-| Evidensniveau | L4 |
+| TxGNN-forudsigelsesscore | 0.9997 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
----
-
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om ampicillins detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Ampicillin tilhører betalaktamerne (aminopenicilliner), som generelt hæmmer bakteriers cellevægssyntese og er virksomme mod følsomme luftvejspatogener som *Haemophilus influenzae* og streptokokker.
+Der foreligger ikke detaljerede data om virkningsmekanismen. Ampicillin er et betalaktam-antibiotikum, der hæmmer bakteriers celleväggssyntese og er aktivt mod modtagelige luftvejsbakterier som *Haemophilus influenzae* og streptokokker.
 
-Laryngitis og især epiglottitis (strubelågsbetændelse) kan have bakteriel årsag, og ampicillin har historisk været brugt til behandling, ofte sammen med chloramphenicol eller som ampicillin/sulbactam. Dermed er der en plausibel antibakteriel forbindelse til den oprindelige brug ved luftvejsinfektioner.
+Bakterielle infektioner i strubeområdet, fx akut epiglottitis, er historisk behandlet med ampicillin-lignende midler. Det giver en plausibel, men indirekte begrundelse. Størstedelen af ægte laryngitis er imidlertid viral, så en antibakteriel effekt kan kun komme på tale for en lille bakteriel undergruppe. Ingen af de fundne studier har undersøgt ampicillin ved laryngitis selv.
 
-Rationalet gælder dog kun en bakteriel delmængde. Det meste laryngitis er virusbetinget, hvor antibiotika ikke virker. Desuden er ampicillinresistente (betalaktamaseproducerende) *H. influenzae*-stammer beskrevet, hvilket har begrænset brugen. Forudsigelsen bør derfor ses som en bekræftelse af kendt klinisk praksis snarere end en ny repurposing-mulighed.
+## Klinisk evidens
 
----
-
-## Klinisk evidens fra forsøg
-
-Der er for tiden ingen relaterede kliniske forsøg registreret.
-
----
+Der er for nærværende ingen relaterede kliniske forsøg registreret.
 
 ## Litteraturevidens
 
-Udvalgte publikationer (ingen RCT'er identificeret):
+Ingen af publikationerne undersøger ampicillin direkte ved laryngitis. De nedenfor er de mest relevante, men omhandler beslægtede tilstande.
 
 | PMID | År | Type | Tidsskrift | Hovedfund |
 |------|-----|------|------|---------|
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Klinisk serie/oversigt | Anaesthesia and Intensive Care | 161 børn med akut epiglottitis; 45 komplikationer og 5 dødsfald; anbefaling om luftvejssikring ved intubation |
-| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Klinisk oversigt | Reviews of Infectious Diseases | Sulbactam/ampicillin ved akut epiglottitis hos børn, hvor betalaktamaseproducerende Hib er en udfordring |
-| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Klinisk serie | Monatsschrift Kinderheilkunde | 27 børn med epiglottitis; ampicillinresistent Hib-stamme optrådte og ændrede behandlingen |
-| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Retrospektiv serie | Clinical Otolaryngology | 19 voksne med epiglottitis; bakteriologi og behandlingsprincipper |
-| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Klinisk serie | Anesthesia and Analgesia | 23 børn med epiglottitis behandlet med ampicillin eller chloramphenicol; varighed af intubation |
-| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Klinisk serie | Western Journal of Medicine | 9 voksne med akut epiglottitis; fire krævede intubation |
-| [3573912](https://pubmed.ncbi.nlm.nih.gov/3573912/) | 1987 | Retrospektiv analyse | The Laryngoscope | 194 børn med krup og epiglottitis; sondring mellem tilstandene er afgørende |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Oversigt/kasuistik | Annals of Otology, Rhinology & Laryngology | Sjældent spontant larynxabsces i den moderne antibiotikaæra |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Kohorte | Otolaryngology–Head and Neck Surgery | Komplikationer efter laryngektomi hænger sammen med valg af perioperativt antibiotikum |
-| [7487676](https://pubmed.ncbi.nlm.nih.gov/7487676/) | 1995 | Dyreforsøg | Auris Nasus Larynx | Ibuprofen sammen med ampicillin ved eksperimentel mellemørebetændelse hos chinchillaer (ikke direkte relevant) |
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Klinisk serie | Anaesth Intensive Care | 161 børn med akut epiglottitis; komplikationer hos 34 og fem dødsfald; fokus på luftvejshåndtering |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Gennemgang | Rev Infect Dis | Sulbactam/ampicillin ved akut epiglottitis hos børn; op til 25 % af Hib-stammer er ampicillinresistente |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Klinisk serie | Monatsschr Kinderheilkd | Epiglottitis hos 27 børn; resistens hos *H. influenzae* type b ændrede behandlingen |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Klinisk serie | Clin Otolaryngol | 19 voksne med epiglottitis; bakteriologi og behandlingsprincipper |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Klinisk serie | Anesth Analg | 23 børn med epiglottitis behandlet med ampicillin eller chloramphenicol; varighed af intubation |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Klinisk serie | West J Med | Ni voksne med akut epiglottitis; diagnostiske vanskeligheder |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case/oversigt | Ann Otol Rhinol Laryngol | Sjælden spontan larynxabsces; historisk og moderne gennemgang |
+| [7487676](https://pubmed.ncbi.nlm.nih.gov/7487676/) | 1995 | Dyreforsøg | Auris Nasus Larynx | Ibuprofen plus ampicillin ved eksperimentel mellemørebetændelse hos chinchillaer |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Retningslinjevurdering | CoDAS | Kvalitetsvurdering af kliniske retningslinjer for laryngitis og faryngitis |
 
----
-
-## Information om det danske marked
+## Information om markedet i Danmark
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28106954323 | Ampicillin "Medochemie" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 | 28107042523 | Ampicillin/Sulbactam "Aptapharma" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Begge præparater er injicerbare. Ampicillin/Sulbactam er en kombination, men er registreret som enkeltstående tilladelse i de indsamlede data.
-
----
-
 ## Sikkerhedsovervejelser
 
-- **Kontraindikationer/sygdomme med risiko (fra videnbaseret graf, ikke fra produktresumé)**: nyresygdom og nedsat nyrefunktion, pyoureter, hæmatologiske sygdomme, mavesår, *Clostridium difficile*-colitis, perinatal nekrotiserende enterokolitis, infektiøs mononukleose, kronisk Epstein-Barr-virusinfektion og akut urat-nefropati. Ampicillinrelateret udslæt ved mononukleose er velkendt.
-- **Lægemiddelinteraktioner**: 88 interaktioner er identificeret. Moderate interaktioner omfatter bl.a. doxycyclin, minocyclin, tetracyclin, kanamycin, balsalazid, lansoprazol, dexlansoprazol og picosulfat. Clarithromycin er klassificeret som mindre. Flere er af ukendt alvorlighed (fx morfin, omeprazol, pantoprazol, vancomycin, prednisolon).
+- **Lægemiddelinteraktioner:** Der er registreret 88 interaktioner. Blandt de moderate er doxycyclin, minocyclin, tetracyclin, kanamycin, balsalazid, picosulfat samt protonpumpehæmmere (lansoprazol, dexlansoprazol). Clarithromycin er registreret som mindre betydende.
 
-Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data. Se det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
-
----
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsler og kontraindikationer.
 
 ## Konklusion og næste skridt
 
 **Beslutning: Hold**
 
 **Begrundelse:**
-Evidensen er indirekte og overvejende historisk (kasuistikker, serier og oversigter), uden kliniske forsøg eller RCT'er. Det meste laryngitis er virusbetinget, og resistens begrænser brugen, så der er ingen støtte til ændret brug.
+Ingen studier har undersøgt ampicillin ved laryngitis; den tilgængelige litteratur omhandler akut epiglottitis og andre beslægtede tilstande, hvorfor evidensniveauet er L5. Størstedelen af laryngitis er viral, så en klinisk relevant effekt kan højst forventes i en bakteriel undergruppe.
 
 **For at komme videre kræves:**
-- Hentning af produktresuméet (advarsler, kontraindikationer og godkendt indikationstekst) fra Lægemiddelstyrelsen, da manglende sikkerhedsdata blokerer sikkerhedsscreening
-- Data om virkningsmekanisme (fx fra DrugBank)
-- Kontrollerede studier eller nuværende retningslinjer, der afgrænser den bakterielle delgruppe (fx epiglottitis) og aktuelle resistensmønstre
-- Vurdering af, om anvendelsen allerede er dækket af eksisterende indikationer (bakterielle luftvejsinfektioner)
+- Kontrollerede kliniske studier af ampicillin ved bakteriel laryngitis
+- Data om virkningsmekanismen og afgrænsning af den bakterielle patientgruppe
+- Gennemgang af produktresuméets advarsler og kontraindikationer
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
