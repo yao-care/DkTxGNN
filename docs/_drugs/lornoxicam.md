@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lornoxicam
-parent: Høj evidens (L1-L2)
+parent: Kun modelforudsigelse (L5)
 nav_order: 510
-evidence_level: L2
+evidence_level: L5
 indication_count: 8
 monitor_inn: "Lornoxicam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
-last_modified_at: 2026-10-28
-description: "Lornoxicam: forudsagt ny indikation Migræne (evidensniveau L2). Oprindelig indikation: Ikke angivet i de data…"
+last_modified_at: 2026-11-04
+description: "Lornoxicam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
+Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ Evidensniveau: **L2** | Forudsagte indikationer: **8** stk.
 
 </div>
 
-## Lornoxicam: Fra smertelindring og betændelsestilstande til migræne
+## Lornoxicam: Migræne (migraine disorder)
 {: .text-alpha }
 
-## Resumé i én sætning
+## Opsummering
 
-Lornoxicam er et non-steroidt antiinflammatorisk lægemiddel (NSAID) af oxicam-klassen og er registreret i Danmark som filmovertrukne tabletter. TxGNN-modellen forudsiger, at det kan have effekt ved **migræne (migraine disorder)**. Der findes **1 afsluttet fase 2-forsøg** og **2 oversigtsartikler** for denne retning, men ingen bekræftende fase 3-forsøg.
+Lornoxicam er et non-steroidt antiinflammatorisk lægemiddel (NSAID) af oxicam-klassen med smertestillende, antiinflammatoriske og febernedsættende egenskaber.
+TxGNN-modellen forudsiger, at det kan have effekt ved **migræne (migraine disorder)**.
+Der findes **1 afsluttet fase 2-forsøg** og **2 oversigtsartikler**, men intet publiceret studie, der direkte viser effekt af lornoxicam ved migræne. Evidensniveauet er derfor **L5**.
 
 ---
 
@@ -46,23 +48,21 @@ Lornoxicam er et non-steroidt antiinflammatorisk lægemiddel (NSAID) af oxicam-k
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de data, der er indsamlet til denne rapport (den danske tilladelse indeholder ingen indikationstekst) |
-| Forudsagt ny indikation | Migræne |
-| TxGNN-forudsigelsesscore | 0,9987 |
-| Evidensniveau | L2 |
+| Oprindelig indikation | Ikke registreret i de lokale data |
+| Forudsagt ny indikation | Migræne (migraine disorder) |
+| TxGNN-forudsigelsesscore | 0.9987 |
+| Evidensniveau | L5 |
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
 | Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Anbefalet beslutning | Hold (forskningsspørgsmål; kræver yderligere afklaring før videre skridt) |
+| Anbefalet beslutning | Hold |
 
 ---
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra klassekendskab er lornoxicam en uselektiv hæmmer af COX-1 og COX-2. Ved at hæmme prostaglandinsyntesen kan det dæmpe neurogen inflammation og sensibilisering af det trigeminovaskulære system, som spiller en rolle ved migræneanfald.
+Detaljerede data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Lornoxicam er imidlertid en uselektiv hæmmer af COX-1 og COX-2. Ved at hæmme prostaglandinsyntesen kan det mindske neurogen inflammation og sensibilisering af det trigeminovaskulære system, som er den samme begrundelse, der ligger bag brugen af andre NSAID'er ved akutte migræneanfald.
 
-Det er den samme begrundelse, som ligger bag brugen af andre NSAID'er ved akut migræne. Mekanismen er biologisk plausibel, men den bygger på generel klassefarmakologi og ikke på lornoxicam-specifikke mekanismedata.
-
-Bemærk, at der ikke er en dokumenteret godkendt indikation i den danske tilladelsestekst. Lægemidlets kendte anvendelse som smertestillende og antiinflammatorisk middel er beskrevet i litteraturen, men er ikke bekræftet af dansk produkttekst i de foreliggende data.
+Mekanismen er biologisk plausibel, men begrundelsen bygger på generel farmakologi for stofklassen og ikke på specifikke mekanistiske data for lornoxicam. En modelforudsigelse er desuden ikke i sig selv evidens for klinisk effekt.
 
 ---
 
@@ -70,7 +70,7 @@ Bemærk, at der ikke er en dokumenteret godkendt indikation i den danske tillade
 
 | Forsøgsnummer | Fase | Status | Antal deltagere | Hovedresultater |
 |---------|------|------|------|---------|
-| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Afsluttet | 150 | Randomiseret, dobbeltblindet, placebokontrolleret enkeltdosisforsøg med intravenøs lornoxicam (8 mg eller 16 mg) mod placebo ved moderat til svær hovedpine under et migræneanfald (2005-12 til 2006-04). Primære endepunkter og resultater fremgår ikke af de foreliggende data og skal verificeres. |
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Afsluttet | 150 | Randomiseret, dobbeltblindet, placebokontrolleret enkeltdosisstudie af intravenøs lornoxicam (8 mg eller 16 mg) mod placebo ved moderat til svær hovedpine under et migræneanfald. Der er ikke offentliggjort eller indberettet resultater, så effekten kan ikke vurderes. |
 
 ---
 
@@ -78,10 +78,8 @@ Bemærk, at der ikke er en dokumenteret godkendt indikation i den danske tillade
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
-| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Oversigtsartikel | Pathologie-biologie | Gennemgår kontrollerede studier af NSAID'er (bl.a. lornoxicam) ved akut behandling og forebyggelse af migræne. |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Oversigtsartikel | Drugs | Gennemgang af lornoxicams farmakologi og terapeutiske potentiale ved smerte- og betændelsestilstande; kort halveringstid (3-5 timer). Handler ikke specifikt om migræne. |
-
-Ingen af de to oversigtsartikler er et direkte studie af lornoxicam ved migræne som primært emne, men forsøget NCT00293657 undersøger sygdommen direkte.
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Oversigtsartikel | Pathologie-biologie | Gennemgang af kontrollerede studier af NSAID'er (bl.a. lornoxicam) ved akutte migræneanfald og forebyggende behandling. |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Oversigtsartikel | Drugs | Oversigt over lornoxicams farmakologi og terapeutiske potentiale ved smerte- og inflammationstilstande; kort halveringstid (3-5 timer). Omhandler ikke migræne specifikt. |
 
 ---
 
@@ -91,28 +89,13 @@ Ingen af de to oversigtsartikler er et direkte studie af lornoxicam ved migræne
 |---------|------|------|-----------|
 | 28101924697 | Lornoxicam "Takeda" (Takeda Pharma A/S) | Filmovertrukne tabletter | Ikke angivet i tilladelsesdata |
 
-Antal tilladelser: 1 (national, enkeltstofspræparat, gyldig). Kun oral formulering er registreret; forsøget ovenfor anvendte intravenøs administration, så rutekompatibilitet er ikke afklaret.
+Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).
 
 ---
 
 ## Sikkerhedsovervejelser
 
-Der er ikke fundet oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i de data, der er indsamlet til denne rapport. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
-
-Som klassehensyn gælder generelt for NSAID'er, at der skal tages hensyn til mave-tarm-, nyre- og hjerte-kar-risici, men dette er ikke bekræftet af lornoxicam-specifikke data her.
-
----
-
-## Øvrige forudsagte indikationer (kort)
-
-| Forudsagt indikation | Score | Evidensniveau | Bemærkning |
-|------|------|------|------|
-| Hovedpinelidelse (headache disorder) | 0,9980 | L2 | Bygger på det samme fase 2-forsøg som migræne; ikke uafhængig evidens |
-| Tendinitis | 0,9972 | L5 | Ét studie af injektion ved subakromielt impingement-syndrom (lornoxicam var dårligere end betamethason); studerer ikke tendinitis direkte |
-| Migræne med hjernestammeaura | 0,9985 | L5 | Ingen specifikke data; sandsynligvis høj score pga. nærhed til migræne |
-| Trigeminal autonom cephalalgi | 0,9975 | L5 | Spekulativ forbindelse, ingen data |
-| Myositis fibrosa | 0,9970 | L5 | Ingen data |
-| Brachydaktyli-syndaktyli-syndrom og kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom | 0,9982 / 0,9981 | L5 | Ingen plausibel mekanistisk forbindelse; sandsynligvis modelartefakt |
+Der er ikke registreret oplysninger om advarsler, kontraindikationer eller lægemiddelinteraktioner i de indsamlede data. Se det godkendte produktresumé (SmPC) for sikkerhedsoplysninger.
 
 ---
 
@@ -121,14 +104,14 @@ Som klassehensyn gælder generelt for NSAID'er, at der skal tages hensyn til mav
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der findes ét afsluttet, placebokontrolleret fase 2-forsøg direkte på migræne (150 deltagere), hvilket understøtter evidensniveau L2, men resultaterne er ikke tilgængelige i de foreliggende data, og der er ingen fase 3-forsøg. Sikkerhedsdata og virkningsmekanisme mangler, og den danske tilladelse omfatter kun orale tabletter, mens forsøget brugte intravenøs administration. Migræne er desuden allerede dækket af veletablerede NSAID-behandlinger, så den merværdi, lornoxicam kan tilføre, er uafklaret.
+Det eneste kontrollerede forsøg ved migræne (NCT00293657) er afsluttet uden offentliggjorte eller indberettede resultater, og de øvrige kilder er oversigtsartikler. Der foreligger derfor ingen publiceret evidens for, at lornoxicam virker ved migræne (evidensniveau L5).
 
 **For at komme videre kræves følgende:**
-- Hent resultaterne (primært endepunkt, effekt og bivirkninger) fra NCT00293657 og vurder dem kritisk.
-- Hent det danske produktresumé (SmPC) fra Lægemiddelstyrelsen for advarsler, kontraindikationer, interaktioner og godkendt indikation.
-- Hent data om virkningsmekanisme fra DrugBank.
-- Afklar, om oral dosering kan give tilsvarende effekt som den intravenøse dosering i forsøget.
-- Overvej et fase 3-forsøg eller en sammenligning med etablerede NSAID'er og triptaner ved akut migræne.
+- Resultater fra forsøg NCT00293657 (primære effektmål og sikkerhedsdata), evt. ved henvendelse til sponsor
+- Data om lornoxicams virkningsmekanisme
+- Gennemgang af produktresuméets advarsler og kontraindikationer, især ved gentagen eller langvarig brug
+- Vurdering af, om oral administration er relevant, da forsøget anvendte intravenøs indgivelse, mens den danske tilladelse omfatter filmovertrukne tabletter
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
