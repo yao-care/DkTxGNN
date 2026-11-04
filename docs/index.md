@@ -44,7 +44,7 @@ Rapporter efter evidensniveau:
 | L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
 {% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
-12 forudsagte par af lægemiddel og sygdom på dette websted findes ikke på noget andet af de 30 TxGNN-websteder.
+11 forudsagte par af lægemiddel og sygdom på dette websted findes ikke på noget andet af de 30 TxGNN-websteder.
 
 ### Lægemidler med højeste evidensniveau på dette websted
 
@@ -70,7 +70,6 @@ Rapporter efter evidensniveau:
 | [Capsaicin](/drugs/capsaicin/) | N/A |
 | [Cenegermin](/drugs/cenegermin/) | N/A |
 | [Perflutren](/drugs/perflutren/) | N/A |
-| [Tepoxalin](/drugs/tepoxalin/) | N/A |
 | [Tislelizumab](/drugs/tislelizumab/) | N/A |
 | [Toripalimab](/drugs/toripalimab/) | N/A |
 | [Troxerutin](/drugs/troxerutin/) | N/A |
