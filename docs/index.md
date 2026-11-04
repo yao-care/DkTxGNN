@@ -3,15 +3,16 @@ layout: default
 title: "Forudsigelser for L\u00e6gemiddelrepositionering \u2014 Danmark"
 nav_order: 1
 description: "AI-baserede forudsigelser af ny anvendelse af lægemidler for 807 lægemidler godkendt af Lægemiddelstyrelsen (DKMA). TxGNN-modellen finder mulige nye terapeutiske anvendelser med evidensbaseret validering."
+last_modified_at: 2026-11-04
 permalink: /
 ---
 
 # Ny anvendelse af lægemidler: fra AI til evidens
 
-**DkTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **807** DKMA-approved drugs, identifying potential new therapeutic uses.
+**DkTxGNN** bruger Harvards TxGNN-model til at forudsige kandidater til lægemiddelrepositionering for **{{ site.data.drug_stats.total_drugs }}** lægemidler godkendt af DKMA og finder mulige nye terapeutiske anvendelser.
 
-[Browse Drug Reports](/drugs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Learn Methodology](/methodology/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Se lægemiddelrapporter](/drugs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Læs om metoden](/methodology/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -20,22 +21,45 @@ permalink: /
 
 Dette websted offentliggør rapporter om **{{ site.data.drug_stats.total_drugs }}** lægemidler fra registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/) (Danmark).
 
-Rapporter efter evidensniveau: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### Lokale data på dette site
+
+| Punkt | Detalje |
+|------|---------|
+| Datasæt | Liste over godkendte lægemidler (Excel-fil, opdateres dagligt af Lægemiddelstyrelsen) |
+| Udgiver | Lægemiddelstyrelsen (DKMA) |
+| Download | <https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=0BD4960F0D7744E3BABC951431681ECC&lang=en> (oversigt: <https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/>) |
+| Identifikator | Drugid |
+| Opdatering | Automatisk ugentlig download (hver mandag); et lægemiddel, der ikke længere står på listen, beholder sin hidtidige status |
+
+Detaljer: [Datakilder]({{ '/sources/' | relative_url }}).
+
+Rapporter efter evidensniveau:
+
+| Evidensniveau | Rapporter | Andel |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+12 forudsagte par af lægemiddel og sygdom på dette websted findes ikke på noget andet af de 30 TxGNN-websteder.
 
 ### Lægemidler med højeste evidensniveau på dette websted
 
 | Lægemiddel | Evidensniveau |
 |---|---|
-| [Amiodarone](/drugs/amiodarone/) | L1 |
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
-| [Oteracil](/drugs/oteracil/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Solriamfetol](/drugs/solriamfetol/) | L1 |
-| [Tegafur](/drugs/tegafur/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
+| [Ribavirin](/drugs/ribavirin/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Peginterferon Alfa-2B](/drugs/peginterferon-alfa-2b/) | L1 |
+| [Tocilizumab](/drugs/tocilizumab/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
 
 ### Lægemidler, som kun dette websted dækker blandt de 30 TxGNN-websteder
 
@@ -59,9 +83,9 @@ Rapporter efter evidensniveau: L1 {{ site.data.drug_stats.level_counts.L1 }} · 
 
 <!-- local-home:end -->
 
-## Drug Search
+## Lægemiddelsøgning
 
-Enter a **drug name** or **disease name** to find repurposing predictions. Supports generic names, brand names, and disease keywords.
+Indtast et **lægemiddelnavn** eller **sygdomsnavn** for at finde forudsigelser om ny anvendelse. Generiske navne, handelsnavne og sygdomsnøgleord understøttes.
 
 <style>
 .drug-lookup-container { margin: 1.5rem 0; }
@@ -81,13 +105,13 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 <div class="drug-lookup-container">
   <div class="lookup-search-box">
     <div class="lookup-input-wrapper">
-      <input type="text" id="lookup-input" placeholder="Enter drug name or disease name..." autocomplete="off">
+      <input type="text" id="lookup-input" placeholder="Indtast lægemiddel- eller sygdomsnavn..." autocomplete="off">
       <button id="lookup-clear" class="lookup-clear-btn" style="display: none;">✕</button>
     </div>
-    <button id="lookup-search" class="lookup-search-btn">Search</button>
+    <button id="lookup-search" class="lookup-search-btn">Søg</button>
   </div>
   <div class="lookup-filters">
-    <span class="filter-label">Evidence Level:</span>
+    <span class="filter-label">Evidensniveau:</span>
     <label><input type="checkbox" class="level-filter" value="L1" checked> L1</label>
     <label><input type="checkbox" class="level-filter" value="L2" checked> L2</label>
     <label><input type="checkbox" class="level-filter" value="L3" checked> L3</label>
@@ -108,61 +132,61 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 
 ---
 
-## Key Features
+## Hovedfunktioner
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #2E7D32;">
-    <strong style="font-size: 1.1rem;">From Prediction to Evidence</strong><br>
-    <span style="color: #666;">Each report integrates clinical trial IDs (NCT), literature references (PMID), and DKMA approval information for complete traceability.</span>
+    <strong style="font-size: 1.1rem;">Fra forudsigelse til evidens</strong><br>
+    <span style="color: #666;">Hver rapport samler ID'er for kliniske forsøg (NCT), litteraturhenvisninger (PMID) og godkendelsesoplysninger fra DKMA, så alt kan spores.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #1976D2;">
-    <strong style="font-size: 1.1rem;">Five-Level Evidence Classification</strong><br>
-    <span style="color: #666;">L1 (Multiple Phase 3 RCTs) to L5 (AI prediction only) classification helps prioritize candidates for validation.</span>
+    <strong style="font-size: 1.1rem;">Evidensklassificering i fem niveauer</strong><br>
+    <span style="color: #666;">Klassificeringen fra L1 (flere fase 3-RCT'er) til L5 (kun AI-forudsigelse) hjælper med at prioritere kandidater til validering.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
-    <strong style="font-size: 1.1rem;">Danish Drug Coverage</strong><br>
-    <span style="color: #666;">Focused on 807 DKMA-approved medicines with repurposing predictions ready for research.</span>
+    <strong style="font-size: 1.1rem;">Dækning af danske lægemidler</strong><br>
+    <span style="color: #666;">Fokuserer på {{ site.data.drug_stats.total_drugs }} DKMA-godkendte lægemidler med forudsigelser om ny anvendelse klar til forskning.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
-    <strong style="font-size: 1.1rem;">FHIR Integration</strong><br>
-    <span style="color: #666;">FHIR R4 compliant API and SMART on FHIR app for seamless EHR integration.</span>
+    <strong style="font-size: 1.1rem;">FHIR-integration</strong><br>
+    <span style="color: #666;">FHIR R4-kompatibelt API og SMART on FHIR-app til integration med elektroniske patientjournaler.</span>
   </div>
 </div>
 
 ---
 
-## Quick Navigation
+## Hurtig navigation
 
-| Category | Description | Link |
+| Kategori | Beskrivelse | Link |
 |----------|-------------|------|
-| **High Evidence** | L1-L2, priority for clinical evaluation | [View drugs](/evidence-high/) |
-| **Medium Evidence** | L3-L4, requires additional validation | [View drugs](/evidence-medium/) |
-| **AI Predictions** | L5, research direction reference | [View drugs](/evidence-low/) |
-| **Full Drug List** | All 807 drugs (searchable) | [Drug List](/drugs/) |
-| **Health News** | Automated health news monitoring | [View News](/news/) |
-| **FHIR API** | Integration endpoints | [FHIR Metadata](/fhir/metadata) |
+| **Høj evidens** | L1-L2, prioriteres til klinisk vurdering | [Se lægemidler](/evidence-high/) |
+| **Moderat evidens** | L3-L4, kræver yderligere validering | [Se lægemidler](/evidence-medium/) |
+| **AI-forudsigelser** | L5, reference for forskningsretning | [Se lægemidler](/evidence-low/) |
+| **Alle lægemidler** | Alle {{ site.data.drug_stats.total_drugs }} lægemidler (søgbar) | [Lægemiddelliste](/drugs/) |
+| **Sundhedsnyheder** | Automatisk overvågning af sundhedsnyheder | [Se nyheder](/news/) |
+| **FHIR API** | Integrationsendepunkter | [FHIR-metadata](/fhir/metadata) |
 
 ---
 
-## About This Project
+## Om projektet
 
-DkTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab in *Nature Medicine* to predict potential new therapeutic uses for DKMA-approved medications.
+DkTxGNN bruger deep learning-modellen **TxGNN**, som Harvards Zitnik Lab har offentliggjort i *Nature Medicine*, til at forudsige mulige nye terapeutiske anvendelser af DKMA-godkendte lægemidler.
 
-> "TxGNN is the first foundation model designed for clinician-centered drug repurposing, integrating knowledge graphs with deep learning to predict drug efficacy for rare diseases."
+> "TxGNN er den første grundmodel designet til klinikercentreret lægemiddelrepositionering; den kombinerer vidensgrafer med deep learning for at forudsige lægemidlers virkning ved sjældne sygdomme."
 > <cite>— Huang et al., Nature Medicine (2024)</cite>
 
-### Statistics
+### Statistik
 
-| Item | Count |
+| Punkt | Antal |
 |------|-------|
-| Drug Reports | 807 |
-| Regulatory Agency | Danish Medicines Agency (DKMA) |
+| Lægemiddelrapporter | {{ site.data.drug_stats.total_drugs }} |
+| Myndighed | Lægemiddelstyrelsen (DKMA) |
 
-[Learn More](/about/) | [Methodology](/methodology/) | [Data Sources](/sources/)
+[Læs mere](/about/) | [Metode](/methodology/) | [Datakilder](/sources/)
 
 ---
 
-## Data Sources
+## Datakilder
 
 <style>
 .data-source-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; }
@@ -182,47 +206,37 @@ DkTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab
   <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener" class="data-source-card">
     <div class="data-source-icon" style="background: #E8F0F8;">🏥</div>
     <strong style="color: #205493;">ClinicalTrials.gov</strong>
-    <small>NIH Clinical Trials</small>
+    <small>NIH's kliniske forsøg</small>
   </a>
   <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener" class="data-source-card">
     <div class="data-source-icon" style="background: #E8F0F5;">📚</div>
     <strong style="color: #326599;">PubMed</strong>
-    <small>Biomedical Literature</small>
+    <small>Biomedicinsk litteratur</small>
   </a>
   <a href="https://go.drugbank.com/" target="_blank" rel="noopener" class="data-source-card">
     <div class="data-source-icon" style="background: #FDEDEC;">💊</div>
     <strong style="color: #E74C3C;">DrugBank</strong>
-    <small>Drug Database</small>
+    <small>Lægemiddeldatabase</small>
   </a>
   <a href="https://laegemiddelstyrelsen.dk/" target="_blank" rel="noopener" class="data-source-card">
     <div class="data-source-icon" style="background: #E8F8EE;">🇩🇰</div>
     <strong style="color: #C60C30;">DKMA</strong>
-    <small>Danish Medicines Agency</small>
+    <small>Lægemiddelstyrelsen</small>
   </a>
 </div>
 
 ---
 
 <div style="background: #fff3cd; padding: 1rem; border-left: 4px solid #ffc107; border-radius: 4px; margin: 1rem 0;">
-<strong>Disclaimer</strong><br>
-This report is for <strong>research purposes only</strong> and does not constitute medical advice. Drug use should follow physician guidance. Any drug repurposing decisions require complete clinical validation and regulatory review.
+<strong>Ansvarsfraskrivelse</strong><br>
+Denne rapport er <strong>kun til forskningsformål</strong> og udgør ikke medicinsk rådgivning. Brug af lægemidler bør følge lægens anvisninger. Enhver beslutning om lægemiddelrepositionering kræver fuld klinisk validering og myndighedsvurdering.
 <br><br>
-<small>Last updated: 2026-03-10 | Maintainer: 藥提醒科技有限公司 (yao.care)</small>
+<small>Senest opdateret: {{ page.last_modified_at | date: "%Y-%m-%d" }} | Ansvarlig: 藥提醒科技有限公司 (yao.care)</small>
 </div>
 
 ---
 
 ## Om udvikleren
 
-Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care, virksomhedsregistreringsnummer
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-DkTxGNN er Danmarks-sitet i virksomhedens produktlinje "TxGNN Drug Repurposing".
-Det samme system er udrullet i 30 lande og regioner, hver med navnet `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN og så videre) på `{cc}txgnn.yao.care`.
-Produktoversigt: <https://www.yao.care/medical/txgnn/>.
-
-Selve TxGNN-modellen er udviklet af Zitnik Lab ved Harvard Medical School og offentliggjort
-i *Nature Medicine*. Denne platform er det produktionssystem, 藥提醒科技有限公司 har bygget oven på den
-model, og dækker integration af nationale lægemiddelregistreringsdata, forudsigelse med deep learning, hvor anvendelser, der allerede står i vidensgrafen, er udelukket, evidensgradering ud fra PubMed / ClinicalTrials samt SMART on FHIR-integration
-med elektroniske patientjournaler.
+Denne platform er udviklet og drives af **藥提醒科技有限公司** (yao.care). Se siden
+<a href="{{ '/about/' | relative_url }}">Om platformen</a> for den fulde baggrund om virksomheden og metoden.
