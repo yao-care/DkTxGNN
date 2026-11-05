@@ -149,9 +149,10 @@ def load_fda_drugs(filepath: Optional[Path] = None) -> pd.DataFrame:
         if col not in df.columns:
             df[col] = ""
 
-    # Remove duplicates by ingredient
+    # 2026-11-05：不再依成分字串去重（舊版 drop_duplicates(subset=["Active_Ingredients"]) 讓同一成分字串只留第一個產品，
+    # 證據包每個藥只收到一兩張「代表品」許可，張數錯、常只剩獸用品）。每個 Drugid 一列，空成分仍排除。
     df = df[df["Active_Ingredients"].notna() & (df["Active_Ingredients"] != "")]
-    df = df.drop_duplicates(subset=["Active_Ingredients"]).reset_index(drop=True)
+    df = df.drop_duplicates(subset=["License_Number"]).reset_index(drop=True)
 
     print(f"  Total medicines: {len(df)}")
     print(f"  Unique ingredients: {df['Active_Ingredients'].nunique()}")

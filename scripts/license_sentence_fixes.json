@@ -1,0 +1,41 @@
+{
+ "naldemedine": [
+  {
+   "sentence": "Med nul markedsføringstilladelser i Danmark og kritiske datahullter",
+   "cut": "nul markedsføringstilladelser i Danmark og ",
+   "reason": "Lægemiddelstyrelsen 已許可清單有本藥人用許可，「nul markedsføringstilladelser」與事實矛盾；資料缺口與評估結論保留"
+  }
+ ],
+ "metronidazole": [
+  {
+   "sentence": "Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette.",
+   "reason": "新清單依 ATC Q／Vet. 分出獸用：這兩張獸用許可已移出人用許可表，本藥另有人用許可；句子講的是已移出的兩張，刪子句會斷句，整句刪"
+  }
+ ],
+ "ivermectin": [
+  {
+   "sentence": "| Antal godkendelser | 1 national godkendelse (veterinærlægemiddel) |",
+   "reason": "整列：舊資料只收到 1 張獸用許可；新清單有人用許可，張數以概覽表的程式列為準"
+  }
+ ],
+ "epoprostenol": [
+  {
+   "sentence": "Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU",
+   "cut": "Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: ",
+   "reason": "前一句「nul markedsføringstilladelser」已刪（與新清單矛盾），「Dette」失去指涉；EMA 集中許可的內容保留"
+  }
+ ],
+ "ganciclovir": [
+  {
+   "sentence": "(almene medicinske kundskaber — ingen dansk godkendelse registreret)",
+   "cut": " — ingen dansk godkendelse registreret",
+   "reason": "Lægemiddelstyrelsen 已許可清單有本藥人用許可，「ingen dansk godkendelse registreret」與事實矛盾；適應症來源註記「almene medicinske kundskaber」保留"
+  }
+ ],
+ "melatonin": [
+  {
+   "sentence": "| Markedsstatus | Ikke markedsført i Danmark (ifølge Evidenspakke) |",
+   "reason": "整列：舊證據包沒收到許可；Lægemiddelstyrelsen 清單有本藥人用許可，狀態以概覽表的程式列為準"
+  }
+ ]
+}
