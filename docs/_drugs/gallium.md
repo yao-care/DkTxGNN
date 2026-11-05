@@ -52,8 +52,8 @@ En fuldstændig datagennemgang og -korrektion er påkrævet, før denne kandidat
 | Forudsagt ny indikation | Ingen prognosdata tilgængelig |
 | TxGNN prognosescore | N/A |
 | Bevisniveau | L5 (modelprognosedata fraværende — ingen understøttende studier kan hentes) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Ikke markedsført (ingen tilladelse registreret) |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | **Afvent** |
 
 ---
