@@ -20,38 +20,39 @@ Forudsigelser for laegemiddelrepositionering af DKMA-godkendte laegemidler (Denm
 | Element | Antal |
 |------|------|
 | **Laegemiddelrapporter** | 807 |
-| **Samlede forudsigelser** | 8,553,242 |
-| **Unikke laegemidler** | 501 |
+| **Samlede forudsigelser** | 11,010,010 |
+| **Unikke laegemidler** | 1,074 |
 | **Unikke indikationer** | 17,081 |
 | **DDI-data** | 160,235 |
-| **FHIR-ressourcer** | 501 MK / 50,000 CUD |
+| **FHIR-ressourcer** | 928 MK / 4,871 CUD |
 
 ### Fordeling af evidensniveauer
 
 | Evidensniveau | Antal rapporter | Beskrivelse |
 |---------|-------|------|
-| **L1** | 0 | Flere Fase 3 RCT'er |
-| **L2** | 0 | Enkelt RCT eller flere Fase 2 |
-| **L3** | 0 | Observationelle studier |
-| **L4** | 0 | Praekliniske / mekanistiske studier |
-| **L5** | 501 | Kun computationel forudsigelse |
+| **L1** | 13 | Flere Fase 3 RCT'er |
+| **L2** | 31 | Enkelt RCT eller flere Fase 2 |
+| **L3** | 22 | Observationelle studier |
+| **L4** | 48 | Praekliniske / mekanistiske studier |
+| **L5** | 632 | Kun computationel forudsigelse |
+| **N/A** | 61 | Kun kendte anvendelser (ingen nye forudsigelser) |
 
 ### Efter kilde
 
 | Kilde | Forudsigelser |
 |------|------|
 | KG | 7,257,992 |
+| DL | 2,458,467 |
 | KG + DL | 1,293,551 |
-| DL | 1,699 |
 
 ### Efter tillid
 
 | Tillid | Forudsigelser |
 |------|------|
 | very_high | 56,640 |
-| high | 1,238,042 |
-| medium | 7,258,270 |
-| low | 290 |
+| high | 1,363,804 |
+| medium | 7,543,635 |
+| low | 2,045,931 |
 
 ---
 
@@ -70,7 +71,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrik | Vaerdi |
 |------|------|
-| DKMA Samlet antal laegemidler | 2,733 |
+| DKMA Samlet antal laegemidler | 3,336 |
 | Repositioneringskandidater | 8,551,543 |
 
 ### Deep Learning-metode
@@ -82,8 +83,8 @@ PYTHONPATH=src python -m dktxgnn.predict.txgnn_model
 
 | Metrik | Vaerdi |
 |------|------|
-| Samlede DL-forudsigelser | 1,295,249 |
-| Unikke laegemidler | 501 |
+| Samlede DL-forudsigelser | 2,324,682 |
+| Unikke laegemidler | 1,074 |
 | Unikke indikationer | 17,081 |
 
 ### Scorefortolkning
