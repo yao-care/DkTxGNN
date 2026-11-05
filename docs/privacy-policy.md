@@ -32,7 +32,7 @@ politikker:
 | Tjeneste | Formål | Privatlivspolitik |
 |---------|---------|----------------|
 | GitHub Pages | Hosting af sitet | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | Diagrambibliotek | CDN for statiske ressourcer |
+| cdn.jsdelivr.net | Diagrambibliotek | CDN for statiske ressourcer |
 | giscus | Kommentarer (hvor de er aktiveret) | [giscus](https://giscus.app/) |
 
 Når du aktivt starter SMART on FHIR-appen, henter den medicindata fra dit elektroniske
