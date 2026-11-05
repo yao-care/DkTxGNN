@@ -87,7 +87,9 @@ Der er ingen sikkerhedsdata tilgængelig i denne evidenspakke. Alle felter under
 **Beslutning: Afvent**
 
 **Begrundelse:**
-Evidenspakken for Gallium er ikke brugbar i sin nuværende form — det forudsagte indikations array er tomt, og alle sikkerhedsfelter mangler. Der er ingen TxGNN-output til vurdering, og ingen evidensbasis (kliniske forsøg eller litteratur) var knyttet til nogen indikation.
+Ingen markedsføringstilladelser er registreret for Gallium hos Lægemiddelstyrelsen.
+
+Evidenspakken for Gallium er ikke brugbar i sin nuværende form — det forudsagte indikations array er tomt, ingen regulatorisk godkendelse eksisterer i Danmark, og alle sikkerhedsfelter mangler. Der er ingen TxGNN-output til vurdering, og ingen evidensbasis (kliniske forsøg eller litteratur) var knyttet til nogen indikation.
 
 **For at fortsætte er følgende nødvendigt:**
 
