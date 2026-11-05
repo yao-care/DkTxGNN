@@ -1,0 +1,13 @@
+{
+ "_doc": "依成分重建許可證的人工清單（2026-11-05 用戶決定；scripts/rebuild_licenses_by_ingredient.py 讀取）。每頁：exclude_atc＝這些 ATC 開頭的產品不算本藥；exclude＝不算本藥的 Drugid；veterinary＝判為獸用的 Drugid（放進 veterinary_records）。每筆附依據。",
+ "gallium": {
+  "exclude_atc": ["V09"],
+  "reason": "本頁是 gallium（DrugBank DB05260，治療用鎵化合物）；DKMA 清單裡含鎵的產品全是診斷用放射性藥品（Ga-68 gozetotid／edotreotid 套組、Ge-68/Ga-68 發生器、Ga-67 citrate 注射液），是放射性核種造影劑，不是本藥，不算本藥的許可",
+  "basis": "Lægemiddelstyrelsen godkendte lægemidler xlsx（2026-11-05）：上列產品 ATC 全為 V09（V09IX14、V09IX09、V09HX01、V09X＝diagnostic radiopharmaceuticals）"
+ },
+ "phenylbutazone": {
+  "veterinary": ["28104996611"],
+  "reason": "Butagran Equi（Dopharma Research B.V.，oralt pulver 200 mg/g）是馬用製劑，判為獸用，不算人用許可",
+  "basis": "品名 Equi（馬）；DKMA xlsx ATC QM01AA01（Q 開頭＝獸藥）；AEMPS CIMAVet 獸藥 SmPC BUTAGRAN EQUI 200 mg/g polvo oral，目標動物 caballos（https://cimavet.aemps.es/cimavet/pdfs/es/ft/2715+ESP/FT_2715+ESP.pdf）"
+ }
+}

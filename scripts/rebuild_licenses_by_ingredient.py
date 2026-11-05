@@ -15,6 +15,8 @@
    license_table_sync.drop_excluded_rows 刪除）。只有獸用許可的藥，概覽狀態列寫「Kun godkendt som veterinærlægemiddel」
    （check_drug_page.VET_ONLY）。
 4. records：人用產品，單方在前，最多 20 筆；total_matches＝人用不重複 Drugid 數（多於 20 筆時頁面寫「mindst N」）。
+4b. 人工清單 scripts/license_manual_overrides.json（2026-11-05 用戶決定，每筆附依據）：exclude_atc／exclude 的產品不算本藥，
+   veterinary 的產品判為獸用（gallium 排除 V09 放射性診斷藥；phenylbutazone 的 Butagran Equi 判為獸用）。
 5. 新清單查不到的舊紀錄照留（不推定為撤銷，與 license_adapter 相同）。停損：原本收錄、仍在清單上的人用許可有一半以上
    不在新結果裡 → 對應可能有誤，不改、列進報告。
 用法（repo 根目錄）：python3 scripts/rebuild_licenses_by_ingredient.py [--download] [--dry-run] [--report out.tsv] [頁 ...]
@@ -30,6 +32,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLES = ROOT / "data/bundles"
 XLSX = ROOT / "data/raw/danish_medicines.xlsx"
 MAPPING = ROOT / "data/processed/drug_mapping.csv"
+OVERRIDES = ROOT / "scripts/license_manual_overrides.json"
 CAP = 20
 
 
@@ -134,6 +137,7 @@ def main(argv):
     if "--download" in argv:
         download()
     prods, by_raw = load_products(), load_mapping()
+    overrides = {k: v for k, v in json.loads(OVERRIDES.read_text(encoding="utf-8")).items() if not k.startswith("_")} if OVERRIDES.exists() else {}
     by_base = base_map(by_raw)
     in_list = {p["license_id"]: p for p in prods}
     if len(prods) < 10000:
@@ -152,17 +156,37 @@ def main(argv):
         reg = b.get("thaifda") or {}
         old = reg.get("records") or []
         if not db:
+            ov = overrides.get(page)
+            if not ov or not old:
+                continue
+            # 證據包沒有 DrugBank ID（gallium）：不重建，只對原紀錄套人工清單
+            def drop(r):
+                q = in_list.get(r.get("license_id")) or {}
+                return r.get("license_id") in ov.get("exclude", []) or any(str(q.get("_atc") or "").upper().startswith(a) for a in ov.get("exclude_atc", []))
+            keep = [r for r in old if not drop(r)]
+            if len(keep) == len(old):
+                continue
+            nreg = dict(reg, found=bool(keep), records=keep, total_matches=len(keep),
+                        excluded_records=[r for r in old if drop(r)], excluded_reason=ov.get("reason", ""))
+            rows.append(f"{page}\t{len(old)}\t{len(keep)}\t0\tmanual_exclude")
+            changed += 1
+            if not dry:
+                b["thaifda"] = nreg
+                f.write_text(json.dumps(b, ensure_ascii=False, indent=2), encoding="utf-8")
             continue
         seen, human, vet = set(), [], []
+        ov = overrides.get(page) or {}
         for p in by_db.get(db, []):
             if p["license_id"] in seen:
                 continue
             seen.add(p["license_id"])
-            (vet if is_vet(p) else human).append({k: v for k, v in p.items() if not k.startswith("_")})
+            if p["license_id"] in ov.get("exclude", []) or any(p["_atc"].upper().startswith(a) for a in ov.get("exclude_atc", [])):
+                continue  # 人工清單：不是本藥
+            (vet if is_vet(p) or p["license_id"] in ov.get("veterinary", []) else human).append({k: v for k, v in p.items() if not k.startswith("_")})
         new_ids = {r["license_id"] for r in human} | {r["license_id"] for r in vet}
         # 新清單查不到的舊紀錄（下架或改號）：不推定為撤銷，原紀錄照留（與 license_adapter 相同）
         for r in old:
-            if r.get("license_id") not in in_list and r.get("license_id") not in new_ids:
+            if r.get("license_id") not in in_list and r.get("license_id") not in new_ids and r.get("license_id") not in ov.get("exclude", []):
                 (vet if re.search(r"\bVet\.", r.get("brand_name_zh") or "") else human).append(r)
                 new_ids.add(r.get("license_id"))
         lost = [r.get("license_id") for r in old if r.get("license_id") in in_list and not is_vet(in_list[r["license_id"]])

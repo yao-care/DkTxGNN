@@ -37,5 +37,12 @@
    "sentence": "| Markedsstatus | Ikke markedsført i Danmark (ifølge Evidenspakke) |",
    "reason": "整列：舊證據包沒收到許可；Lægemiddelstyrelsen 清單有本藥人用許可，狀態以概覽表的程式列為準"
   }
+ ],
+ "gallium": [
+  {
+   "sentence": "bekræft, hvorvidt nogen galliumforbindelse har en centraliseret eller gensidigt anerkendt godkendelse, der er gyldig i Danmark",
+   "keep": true,
+   "reason": "checker 誤判（M3a）：這是下一步建議（到 EMA／國家資料庫確認是否有有效許可），不是說本藥有有效許可，不刪"
+  }
  ]
 }
