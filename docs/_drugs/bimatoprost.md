@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bimatoprost: forudsagt ny indikation Misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal compo… (evidensniveau L5). Oprindelig indikation…"
 ---
 
@@ -50,8 +50,8 @@ Bimatoprost er en prostamid-analog (prostaglandin F2-alfa-analog), som anvendes 
 | Forudsagt ny indikation | Misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal component) |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

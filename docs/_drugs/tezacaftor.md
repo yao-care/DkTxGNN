@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tezacaftor: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Cystisk fibrose (de danske godkendelser indeholder ingen indikationst…"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -50,8 +50,8 @@ Tezacaftor er en CFTR-korrektor, som oprindeligt anvendes til behandling af **cy
 | Forudsagt ny indikation | HIV-infektion |
 | TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

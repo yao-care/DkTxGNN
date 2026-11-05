@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nebivolol: forudsagt ny indikation malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -52,8 +52,8 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom |
 | TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

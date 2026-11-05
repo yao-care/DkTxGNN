@@ -5,7 +5,7 @@ layout: default
 title: Dapagliflozin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 234
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Element | Indhold |
 |---------|---------|
 | Original indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 
 Dette afspejler næsten sikkert en **fejl ved dataindsamling**, ikke faktisk fraværelse fra markedet. Dapagliflozin er centralt godkendt i EU under **Forxiga® (EU/1/12/795)** af AstraZeneca, med fuld gyldighed i Danmark. Pipelinen for regulatoriske data bør køres på ny mod EMA-produktdatabasen og Lægemiddelstyrelsens register.
 

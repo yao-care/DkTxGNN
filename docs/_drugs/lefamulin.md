@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lefamulin: forudsagt ny indikation Diffus kutan leishmaniasis (evidensniveau L5). Oprindelig indikation: Bakteriel lungebetændelse (ifølge videnbasen"
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 | Forudsagt ny indikation | Diffus kutan leishmaniasis |
 | TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

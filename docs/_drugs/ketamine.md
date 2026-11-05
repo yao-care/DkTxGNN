@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 468
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -38,7 +38,7 @@ Evidensniveau: **L1** | Forudsagte indikationer: **1** stk.
 
 ## Resumé i én sætning
 
-Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.
+Ketamin er en NMDA-receptorantagonist, og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.
 TxGNN-modellen forudsiger, at ketamin kan være effektivt mod **hovedpinelidelse (headache disorder)**, med **9 kliniske forsøg** og **20 publikationer** som understøtter retningen.
 Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endnu ikke tilgængelige.
 
@@ -48,12 +48,12 @@ Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endn
 
 | Punkt | Indhold |
 |------|------|
-| Oprindelig indikation | Ikke angivet i de indsamlede data (det registrerede produkt er et veterinærlægemiddel) |
+| Oprindelig indikation | Ikke angivet i de indsamlede data |
 | Forudsagt ny indikation | Hovedpinelidelse (headache disorder) |
 | TxGNN-forudsigelsesscore | 0,9933 |
 | Evidensniveau | L1 (formelt efter reglerne, men se forbehold nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 Bemærkning om evidensniveau: Fase 3-forsøget NCT03081416 er afsluttet (n=80), men der foreligger ingen resultater i de indsamlede data. Det andet fase 3-forsøg (NCT05306899) er stadig i rekruttering. Kriteriet om mindst to afsluttede fase 3-RCT'er er derfor ikke dokumenteret opfyldt, og L1 bør betragtes som foreløbigt og kræver verifikation.
@@ -110,7 +110,8 @@ Flere af de øvrige fundne publikationer vedrører primært depression og er kun
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105064312 | Anesketin (Eurovet Animal Health B.V.) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
+| 28105493214 | Ketamin "Abcur" | Injektionsvæske, opløsning | Ikke angivet |
+| 28105493314 | Ketamin "Abcur" | Injektionsvæske, opløsning | Ikke angivet |
 
 Bemærk: Anesketin er et veterinærlægemiddel. Der er ikke identificeret en human, godkendt ketaminpræparat-licens i de indsamlede data.
 
@@ -130,7 +131,7 @@ Der foreligger ikke produktresuméoplysninger om advarsler og kontraindikationer
 **Beslutning: Hold**
 
 **Begrundelse:**
-Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening.
+Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data.
 
 **For at komme videre kræves:**
 - Hente og gennemgå produktresuméet (advarsler/kontraindikationer) for et relevant humant ketaminpræparat fra Lægemiddelstyrelsen

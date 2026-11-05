@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "oteracil"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 description: "Oteracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ Det bør bemærkes, at den kliniske effekt stammer fra tegafur, mens oteracils r
 | Forudsagt ny indikation | Cecum villous adenoma |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

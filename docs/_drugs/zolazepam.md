@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Zolazepam: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (veterinærpræparat til anæstesi)"
 monitor_inn: "zolazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -50,8 +50,8 @@ Zolazepam er et benzodiazepinlignende stof (pyrazolodiazepinon), som i Danmark k
 | Forudsagt ny indikation | Insomni |
 | TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -79,10 +79,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101417090 | Zoletil 100 Vet. (Virbac S.A.) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data (veterinærpræparat) |
 
 ---
 

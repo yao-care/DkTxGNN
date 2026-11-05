@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Isoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse (indikationstekste…"
 monitor_inn: "isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 
 ## Resumé i én sætning
 
-Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.). Den primære TxGNN-forudsigelse er **Prinzmetal-angina** (score 0,9967), men der er **ingen registrerede kliniske forsøg og ingen publikationer** til at understøtte denne retning. Evidensen er udelukkende modelbaseret. Blandt de øvrige forudsigelser har **migrænelidelse** det mest omfattende (men overvejende prækliniske) datagrundlag.
+Isoflurane er et inhalationsanæstetikum. Den primære TxGNN-forudsigelse er **Prinzmetal-angina** (score 0,9967), men der er **ingen registrerede kliniske forsøg og ingen publikationer** til at understøtte denne retning. Evidensen er udelukkende modelbaseret. Blandt de øvrige forudsigelser har **migrænelidelse** det mest omfattende (men overvejende prækliniske) datagrundlag.
 
 ---
 
@@ -50,8 +50,8 @@ Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veter
 | Forudsagt ny indikation | Prinzmetal-angina |
 | TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -105,7 +105,8 @@ Der er i øjeblikket ingen relateret litteratur for Prinzmetal-angina.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104741710 | Attane Vet. | Væske til inhalationsdamp | Ikke angivet |
+| 28101543293 | Isofluran "Baxter" | Væske til inhalationsdamp | Ikke angivet |
+| 28106543820 | Sedaconda | Væske til inhalationsdamp | Ikke angivet |
 
 Produktet er et veterinærlægemiddel fra Piramal Critical Care B.V.
 

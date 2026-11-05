@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Hydromorphone: forudsagt ny indikation Pharyngitis (evidensniveau L5). Oprindelig indikation: Forkølelse og nasopharyngitis (fra TxGNN-videnbasen"
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **pharyngitis** (score 0,9
 | Forudsagt ny indikation | Pharyngitis |
 | TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L5 (ingen direkte studier af pharyngitis; kun indirekte studier af postoperativ smerte) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

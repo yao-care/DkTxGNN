@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: forudsagt ny indikation Manic bipolar affective disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **migræne** (r
 | Forudsagt ny indikation | Manic bipolar affective disorder |
 | TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 (se note nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Note om evidensniveau:* De kliniske forsøg, der er indgået i datagrundlaget, omfatter tre fase 3-forsøg, hvoraf to er afsluttet (NCT05632133 og NCT05851781). Det tredje (NCT06243692) har ukendt status. Det ene af de afsluttede forsøg er et pilotstudie med biomarkørfokus. Evidensniveauet L1 er den klassificering, der ligger i de indsamlede data, men bør tolkes forsigtigt, da resultaterne ikke er uafhængigt bekræftet og ingen af fase 3-forsøgene er placebokontrollerede.

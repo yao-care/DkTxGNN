@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: forudsagt ny indikation Brystkarcinom i brystvorten (nipple carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Letrozol er en aromatasehæmmer, som er registreret i Danmark som filmovertrukne
 | Forudsagt ny indikation | Brystkarcinom i brystvorten (nipple carcinoma) |
 | TxGNN-forudsigelsesscore | 0.9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

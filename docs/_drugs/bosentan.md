@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bosentan: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Bosentan er en dobbelt endothelinreceptorantagonist, som anvendes i tablet-form.
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
 | TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

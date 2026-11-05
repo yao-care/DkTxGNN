@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carvedilol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Carvedilol er en betablokker, som er registreret på det danske marked. TxGNN-mo
 | Forudsagt ny indikation | malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
 | TxGNN-forudsigelsesscore | 0,9955 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

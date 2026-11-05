@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duodenal obstruk
 | Forudsagt ny indikation | Duodenal obstruction |
 | TxGNN-forudsigelsesscore | 0.9968 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---

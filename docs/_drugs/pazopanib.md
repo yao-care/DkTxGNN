@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pazopanib: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Pazopanib er en multi-target tyrosinkinasehæmmer, som i vidensgrafen er registr
 | Forudsagt ny indikation | Liposarkom (liposarcoma) |
 | TxGNN-forudsigelsesscore | 0.9959 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---

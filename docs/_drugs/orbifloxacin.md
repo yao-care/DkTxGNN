@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Orbifloxacin: forudsagt ny indikation Hjertesygdom (heart disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de registrerede data"
 monitor_inn: "orbifloxacin"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
@@ -50,8 +50,8 @@ Orbifloxacin er et fluorquinolon-antibiotikum til dyr, som i Danmark er registre
 | Forudsagt ny indikation | Hjertesygdom (heart disease) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -86,10 +86,6 @@ For den ottende forudsigelse (forstyrrelse i fucoglycan-syntese) er der to publi
 ---
 
 ## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104034306 | Posatex (S-P Veterinary) | Øredråber, suspension | Ikke angivet i de tilgængelige data |
 
 ---
 

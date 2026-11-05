@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Insulin Aspart: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 ---
 
@@ -48,8 +48,8 @@ Insulin aspart er en hurtigtvirkende insulinanalog. TxGNN-modellen (deep learnin
 | Forudsagt ny indikation | Autoimmun oophoritis |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

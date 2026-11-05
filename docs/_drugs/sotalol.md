@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sotalol: forudsagt ny indikation sick sinus syndrome 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Atrieflimren (fra videnbasen"
 monitor_inn: "sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
@@ -50,8 +50,8 @@ Sotalol er et antiarytmisk lægemiddel med betablokerende og klasse III-virkning
 | Foreslået ny indikation | Sick sinus-syndrom 2, autosomal dominant |
 | TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

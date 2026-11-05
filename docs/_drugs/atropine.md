@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 86
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atropine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom f…"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -50,8 +50,8 @@ Atropin er en uselektiv muskarin acetylcholinreceptorantagonist, som er markedsf
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0.9956 |
 | Evidensniveau | L4 (kun præklinisk/mekanistisk og indirekte litteratur) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

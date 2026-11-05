@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Iodixanol: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for det danske…"
 ---
 
@@ -50,8 +50,8 @@ Iodixanol er et iso-osmolart, jodholdigt røntgenkontrastmiddel, der anvendes ti
 | Forudsagt ny indikation | Osteoartrose |
 | TxGNN-forudsigelsesscore | 0,9907 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyanocobalamin: forudsagt ny indikation Biotinstofskiftesygdom (biotin metabolic disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Cyanocobalamin er en syntetisk form af vitamin B12. TxGNN-modellen forudsiger, a
 | Forudsagt ny indikation | Biotinstofskiftesygdom (biotin metabolic disease) |
 | TxGNN-forudsigelsesscore | 0,9960 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

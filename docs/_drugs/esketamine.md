@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Esketamine: forudsagt ny indikation Agorafobi (agoraphobia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Esketamin var oprindeligt knyttet til behandling af angstlidelse, neurotisk lide
 | Forudsagt ny indikation | Agorafobi (agoraphobia) |
 | TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

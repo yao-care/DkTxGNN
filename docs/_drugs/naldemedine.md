@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Naldemedine: forudsagt ny indikation — (Ingen forudsigelser returneret) (evidensniveau L5). Oprindelig indikation: Opioid-induceret obstipation (OIC) — kroniske ikke-kræftrelaterede sm…"
 predicted_indications: []
 ---
@@ -41,7 +41,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 
 Naldemedine (DB11691) er en perifer myopioid-receptorantagonist (PAMORA) godkendt internationalt til behandling af opioid-induceret obstipation (OIC) hos voksne med kroniske ikke-kræftrelaterede smerter.
 Den aktuelle Evidence Pack indeholder **ingen TxGNN-forudsagte nye indikationer**, da forudsigelsespipelinen ikke returnerede kandidatsygdomme for dette lægemiddel.
-Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.
+Med kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.
 
 ---
 

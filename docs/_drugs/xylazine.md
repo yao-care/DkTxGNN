@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 897
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Xylazine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (kun veterinære præparater)"
 monitor_inn: "xylazine"
 predicted_indications: ["migraine disorder", "open-angle glaucoma", "migraine with brainstem aura", "primary hereditary glaucoma"]
@@ -50,8 +50,8 @@ Xylazin er en alfa-2-adrenerg agonist, som i Danmark kun er godkendt som dyrlæg
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9964 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -89,11 +89,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 ---
 
 ## Markedsinformation i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100566969 | Rompun Vet. (Elanco Animal Health GmbH) | Injektionsvæske, opløsning | Ikke angivet i data (veterinært præparat) |
-| 28104812410 | Nerfasin Vet. (Le Vet B.V.) | Injektionsvæske, opløsning | Ikke angivet i data (veterinært præparat) |
 
 ---
 

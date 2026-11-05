@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Temozolomide: forudsagt ny indikation Cauda equina-neoplasme (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: anaplastisk astrocytom…"
 ---
 
@@ -52,8 +52,8 @@ Evidensen består kun af **0 kliniske forsøg** og **3 publikationer** (alle cas
 | Forudsagt ny indikation | Cauda equina-neoplasme |
 | TxGNN-forudsigelsesscore | 0,9930 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

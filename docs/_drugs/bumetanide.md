@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: forudsagt ny indikation Akut pulmonal hjertesygdom (acute pulmonary heart disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Der er ingen registrerede kliniske forsøg for denne sygdom og kun indirekte lit
 | Forudsagt ny indikation | Akut pulmonal hjertesygdom (acute pulmonary heart disease) |
 | TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

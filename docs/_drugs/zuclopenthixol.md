@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 908
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Zuclopenthixol er et antipsykotikum af thioxanthen-typen, som oprindeligt anvend
 | Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

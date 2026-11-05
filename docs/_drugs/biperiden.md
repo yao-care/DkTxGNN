@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Biperiden: forudsagt ny indikation Rasmussen subakut encephalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom og beslægtede parkinsonistiske lidelser"
 monitor_inn: "biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 | Forudsagt ny indikation | Rasmussen subakut encephalitis |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

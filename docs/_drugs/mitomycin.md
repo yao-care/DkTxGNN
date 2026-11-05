@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Mitomycin: forudsagt ny indikation Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) (evidensniveau L5)."
 ---
 
@@ -48,8 +48,8 @@ Mitomycin er et cytostatikum, der virker ved at tværbinde DNA. TxGNN-modellen f
 | Forudsagt ny indikation | Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

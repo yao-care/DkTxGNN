@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 235
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ og der er i de indsamlede data **10 kliniske forsøg** og **20 publikationer**, 
 | Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
 | TxGNN-prædiktionsscore | 0.9973 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

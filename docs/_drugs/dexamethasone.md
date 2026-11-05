@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Dexamethason er et syntetisk glukokortikoid med kraftig antiinflammatorisk og im
 | Forudsagt ny indikation | Alopecia mucinosa |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -70,9 +70,7 @@ Der er i øjeblikket ingen relateret litteratur for alopecia mucinosa.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105891516 | Dexacortone Vet. | Tyggetabletter | Ikke angivet |
 | 28106123618 | Oridecin | Øjendråber, suspension | Ikke angivet |
-| 28105725316 | Otoxolan | Øredråber, suspension | Ikke angivet |
 
 Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel, og at ingen af de registrerede formuleringer er til systemisk humant brug eller direkte målrettet mod hudsygdomme.
 

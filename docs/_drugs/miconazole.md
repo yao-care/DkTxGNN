@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 550
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Miconazole: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Svampeinfektioner i hud og slimhinder (fodsvamp, tinea corporis…"
 monitor_inn: "miconazole"
 predicted_indications: ["acne (disease)"]
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (1 oversig
 | Forudsagt ny indikation | Akne |
 | TxGNN-forudsigelsesscore | 0,9954 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Streptozocin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "small cell lung carcinoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "hereditary breast ovarian cancer syndrome", "primary pulmonary lymphoma", "lymphosarcoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Streptozocin: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de sammenstillede data (godkendelsens indikationstekst…"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **recidiverende-re
 | Forudsagt ny indikation | Recidiverende-remitterende multipel sklerose |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

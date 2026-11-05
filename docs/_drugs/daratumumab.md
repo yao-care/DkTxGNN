@@ -5,7 +5,7 @@ layout: default
 title: Daratumumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 237
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,8 +42,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 |-------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Bevisniveau | Ikke vurderbar (L5-niveau ikke nået — ingen prognoseoutput) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 
 Dette er inkonsistent med den offentligt kendte centraliserede EMA-tilladelse for Darzalex (daratumumab) til multipel myelomatose, som er gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Reguleringskilden bør verificeres, før denne feltværdi stoles på.
 

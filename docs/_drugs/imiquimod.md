@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Imiquimod: forudsagt ny indikation Præmalign neoplasi (pre-malignant neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **præmaligne neop
 | Forudsagt ny indikation | Præmalign neoplasi (pre-malignant neoplasm) |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 *Evidensniveau: Der er forsøg og artikler om specifikke præmaligne tilstande (aktinisk keratose, cervikal, vulvær og anal intraepitelial neoplasi). Den forudsagte diagnose "præmalign neoplasi" er imidlertid en bred kategori, og ingen af de citerede studier belyser den som sådan. Efter reglen om direkte evidens for den forudsagte sygdom placeres den derfor på L5. Evidensen for de enkelte delmængder er tydeligere og taler for at gå videre med en snævrere afgrænsning.*

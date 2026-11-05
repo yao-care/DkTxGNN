@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bendamustine: forudsagt ny indikation Mantelcellelymfom (mantle cell lymphoma) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Bendamustin er et alkylerende cytostatikum, som er godkendt i Danmark som pulver
 | Forudsagt ny indikation | Mantelcellelymfom (mantle cell lymphoma) |
 | TxGNN-forudsigelsesscore | 0,9963 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ---

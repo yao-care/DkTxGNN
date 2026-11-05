@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amylmetacresol: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (de danske markedsføringstilladel…"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -50,8 +50,8 @@ Amylmetacresol er et lokalt antiseptisk middel, der markedsføres i Danmark som 
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

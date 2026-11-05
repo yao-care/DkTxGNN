@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dobutamine: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
 monitor_inn: "dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -50,8 +50,8 @@ Dobutamin er et inotropt lægemiddel (beta-1-adrenerg agonist), der gives som in
 | Forudsagt ny indikation | Alopeci |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Propafenon er et antiarytmikum af klasse IC, som markedsføres i Danmark som fil
 | Forudsagt ny indikation | Manisk bipolar affektiv lidelse (manic bipolar affective disorder) |
 | TxGNN-forudsigelsesscore | 0.9980 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

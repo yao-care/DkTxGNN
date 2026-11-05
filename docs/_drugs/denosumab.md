@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Denosumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk… (evidensniveau L5). Oprindelig indikation: Osteoporose"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og kun **2 indirekte publikationer** til at un
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk retinopati) |
 | TxGNN-forudsigelsesscore | 0.9963 (svær non-proliferativ diabetisk retinopati); 0.9923 (diabetisk retinopati) |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

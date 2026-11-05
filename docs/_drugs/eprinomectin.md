@@ -5,7 +5,7 @@ layout: default
 title: Eprinomectin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 317
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Eprinomectin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Eprinomectin"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Original indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ---
 
 ## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105376714 | Eprecis Vet. (Ceva Sante Animale) | Injektionsvæske, opløsning | Ikke oplyst |
 
 Produktet er et dyrelægemiddel (veterinært). Der er ikke registreret humane præparater.
 

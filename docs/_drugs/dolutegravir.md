@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 272
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Dolutegravir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen består af **0 kliniske forsøg** og **14 publikationer**, som udelukk
 | Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
 | TxGNN-prædiktionsscore | 0.9985 |
 | Evidensniveau | L4 (prækliniske studier) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---

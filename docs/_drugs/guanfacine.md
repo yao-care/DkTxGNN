@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 description: "Guanfacine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **faciodigitogenitalt synd
 | Forudsagt ny indikation | Faciodigitogenitalt syndrom (faciodigitogenital syndrome) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

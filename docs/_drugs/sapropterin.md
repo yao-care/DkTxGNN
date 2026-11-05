@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
 description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Sapropterin er en syntetisk form af tetrahydrobiopterin (BH4), som fungerer som 
 | Forudsagt ny indikation | Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism) |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---

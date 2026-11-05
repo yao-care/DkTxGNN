@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 139
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Buprenorphine: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L4). Oprindelig indikation: Opioidafhængighed, stofmisbrug/-afhængighed…"
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akut intermitterende por
 | Forudsagt ny indikation | Akut intermitterende porfyri |
 | TxGNN-prædiktionsscore | 0,9941 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -93,8 +93,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105494014 | Bupredine Vet. | Injektionsvæske, opløsning | Ikke oplyst (veterinærlægemiddel) |
-| 28105298213 | Bupaq Multidose Vet. | Injektionsvæske, opløsning | Ikke oplyst (veterinærlægemiddel) |
 | 28105866216 | Bunalict | Sublinguale resoribletter | Ikke oplyst |
 
 Bemærk: To af de tre tilladelser er veterinærlægemidler. Kun Bunalict (Sandoz A/S) er en human formulering.

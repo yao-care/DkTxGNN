@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Abacavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Abacavir er en antiviral nukleosid revers transkriptase-hæmmer (NRTI), som anve
 | Forudsagt ny indikation | Simian immundefektvirus-infektion (simian immunodeficiency virus infection) |
 | TxGNN-forudsigelsesscore | 0,9979 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
-| Antal markedsføringstilladelser | 7 (gyldige: 7) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

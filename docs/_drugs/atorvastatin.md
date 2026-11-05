@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atorvastatin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Der er **14 kliniske forsøg** og **20 publikationer** i de data, der er indsaml
 | Forudsagt ny indikation | HIV-infektion (HIV infectious disease) |
 | TxGNN-forudsigelsesscore | 0,9931 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

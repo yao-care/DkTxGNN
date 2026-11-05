@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Apixaban er en direkte oral hæmmer af koagulationsfaktor Xa (antikoagulans). Tx
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0.9902 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

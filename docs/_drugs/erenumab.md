@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 321
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Erenumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Alle kandidater, som TxGNN-modellen har produceret for Erenumab, og som kan spor
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
 | Kendte anvendelser blandt modelkandidater | 1 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 
 ## Kendte anvendelser blandt modellens kandidater
 

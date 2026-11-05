@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen (deep learning) forudsiger, at det kan have effekt ved **brachyda
 | Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) |
 | TxGNN-forudsigelsesscore | 0.9935 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

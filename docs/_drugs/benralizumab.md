@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Benralizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benralizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale …"
 ---
 
@@ -48,8 +48,8 @@ Benralizumab er et monoklonalt antistof, der blokerer IL-5-receptorens alfa-unde
 | Forudsagt ny indikation | Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction) |
 | TxGNN-prædiktionsscore | 0,9934 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

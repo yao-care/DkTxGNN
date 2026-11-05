@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tildrakizumab: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den danske godkendelse har ingen i…"
 monitor_inn: "Tildrakizumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **svær ikke-proli
 | Forudsagt ny indikation | Svær ikke-proliferativ diabetisk retinopati |
 | TxGNN-forudsigelsesscore | 0,9963 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Datasættet indeholder dublerede poster for de samme forudsigelser. Disse er her samlet, så hver indikation kun nævnes én gang.

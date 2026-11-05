@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 | Forudsagt ny indikation | Focal stiff limb syndrome |
 | TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
-| Antal markedsføringstilladelser | 18 (gyldige: 18) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

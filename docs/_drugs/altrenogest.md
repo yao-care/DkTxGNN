@@ -5,7 +5,7 @@ layout: default
 title: Altrenogest
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 46
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Altrenogest: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Altrenogest"
 predicted_indications: []
@@ -43,14 +43,10 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ## Oplysninger om markedet i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104983211 | Altresyn (Ceva Sante Animale) | Oral opløsning | Ikke oplyst |
 
 ## Sikkerhedsovervejelser
 

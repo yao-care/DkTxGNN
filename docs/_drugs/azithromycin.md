@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Azithromycin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **polyklonalt hyperviskosi
 | Forudsagt ny indikation | Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) |
 | TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

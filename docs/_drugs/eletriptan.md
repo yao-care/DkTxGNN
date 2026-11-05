@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur
 | Forudsagt ny indikation | Atrophoderma vermiculata |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

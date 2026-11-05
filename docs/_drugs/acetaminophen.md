@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Acetaminophen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ TxGNN-modellens kandidater for Acetaminophen (score ≥ 0,99) er alle kendte anv
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
 | Kendte anvendelser blandt modellens kandidater | 0 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 
 ## Kendte anvendelser blandt modellens kandidater
 
@@ -74,7 +74,11 @@ TxGNN-modellens kandidater for Acetaminophen (score ≥ 0,99) er alle kendte anv
 
 | Tilladelse | Produkt | Lægemiddelform | Status |
 |------|------|------|------|
-| 28106075918 | Apiretam | opløsning til anvendelse i drikkevand | Gyldig |
+| 28105497714 | Apotel | Infusionsvæske, opløsning | Ikke angivet |
+| 28103909506 | Arax | Tabletter | Ikke angivet |
+| 28104372108 | Arax Forte | Tabletter | Ikke angivet |
+| 28106604321 | Arax Hot | Pulver til oral opløsning, breve | Ikke angivet |
+| 28104372008 | Arax Junior | Tabletter | Ikke angivet |
 
 ## Sikkerhedsovervejelser
 

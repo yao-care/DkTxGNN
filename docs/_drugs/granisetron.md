@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Granisetron: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (godkendelsens indikationstekst…"
 ---
 
@@ -50,8 +50,8 @@ Granisetron er en selektiv 5-HT3-receptorantagonist, og i Danmark er det registr
 | Forudsagt ny indikation | Manisk bipolar lidelse |
 | TxGNN-forudsigelsesscore | 0,9962 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

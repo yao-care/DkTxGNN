@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Desogestrel: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Ikke angivet i licensdata"
 ---
 
@@ -48,8 +48,8 @@ Desogestrel er et gestagen (progestin), som i Danmark er markedsført i form af 
 | Forudsagt ny indikation | Amenorré |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

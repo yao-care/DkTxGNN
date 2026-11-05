@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 330
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Etelcalcetide: forudsagt ny indikation Hyperfosfatæmi (evidensniveau L4). Oprindelig indikation: Hyperparathyroidisme"
 monitor_inn: "etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
@@ -50,8 +50,8 @@ Etelcalcetid er et calcimimetikum, der oprindeligt anvendes til behandling af hy
 | Forudsagt ny indikation | Hyperfosfatæmi |
 | TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sorbitol: forudsagt ny indikation Udøvelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "sorbitol"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **udøvelsesudløst ma
 | Forudsagt ny indikation | Udøvelsesudløst malign hypertermi |
 | TxGNN-forudsigelsesscore | 0.9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

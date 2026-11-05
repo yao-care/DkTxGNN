@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pneumocystose**, men
 | Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -94,10 +94,13 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28105933217 | Eradia | Oral suspension | Ikke angivet |
-| MA 28105835216 | Spizobactin Vet. | Tyggetabletter | Ikke angivet |
+| 28105586315 | Flagyl | Filmovertrukne tabletter | Ikke angivet |
+| 28105929117 | Flagyl | Filmovertrukne tabletter | Ikke angivet |
+| 28105874816 | Flagyl | Vagitorier | Ikke angivet |
+| 28106095818 | Flagyl | Vagitorier | Ikke angivet |
+| 28104707310 | Metronidazol "2care4" | Creme | Ikke angivet |
 
-Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen. Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette.
+Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen.
 
 ---
 

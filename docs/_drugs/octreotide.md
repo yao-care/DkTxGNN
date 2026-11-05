@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Octreotid er en somatostatinanalog, som oprindeligt anvendes til behandling af a
 | Forudsagt ny indikation | Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) |
 | TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ---

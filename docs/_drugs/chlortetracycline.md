@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Chlortetracycline: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Chlortetracyclin er et antibiotikum af tetracyklin-klassen. TxGNN-modellen forud
 | Forudsagt ny indikation | Postinfektiøs vaskulitis (postinfectious vasculitis) |
 | TxGNN-forudsigelsesscore | 0,9982 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -67,11 +67,6 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104153307 | Animedazon Spray | Kutanspray, suspension | Indikationstekst ikke registreret |
-| 28107001023 | Chloromed | Pulver til oral opløsning | Indikationstekst ikke registreret |
 
 Begge tilladelser er gyldige enkeltstofpræparater.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men evidensen er svag: der er **1 klinisk forsøg** (indirekte relevans) og kun 
 | Forudsagt ny indikation | Gastroduodenitis |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Droperidol: forudsagt ny indikation Tourette syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Bemærk: Modellens højest rangerede forudsigelse er Tourettes syndrom, men denn
 | Forudsagt ny indikation | Tourette syndrome |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 *Den rangerede førsteplads (Tourettes syndrom, score 0,9989) har evidensniveau L5 og anbefalingen "Hold". Øvrige forudsigelser (trichotillomani, ADHD, almindelig forkølelse m.fl.) er udelukkende modelbaserede.*

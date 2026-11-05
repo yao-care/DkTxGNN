@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amantadine: forudsagt ny indikation Rasmussen subakut encephalitis (Rasmussen subacute encephalitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Amantadin er et lægemiddel, der er markedsført i Danmark som hårde kapsler. D
 | Forudsagt ny indikation | Rasmussen subakut encephalitis (Rasmussen subacute encephalitis) |
 | TxGNN-forudsigelsesscore | 0,9948 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Voxilaprevir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -52,8 +52,8 @@ Forudsigelsen er derfor udelukkende en modelberegning (evidensniveau L5).
 | Forudsagt ny indikation | Hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

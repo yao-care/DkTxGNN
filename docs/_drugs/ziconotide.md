@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 901
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ziconotide: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "ziconotide"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
@@ -50,8 +50,8 @@ Ziconotid er et lægemiddel, der gives intratekalt (direkte i rygmarvsvæsken), 
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

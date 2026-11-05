@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ponatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: BCR-ABL1-positiv kronisk myeloid leukæmi"
 monitor_inn: "ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -50,8 +50,8 @@ Den næstrangerende forudsigelse, **liposarkom**, understøttes kun af **1 præk
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 0.9904 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

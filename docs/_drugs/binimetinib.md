@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ En meningsfuld vurdering af lægemiddelnyudnyttelse kan ikke være afsluttet, f�
 | Prognostiseret ny indikation | Ingen prognoser genereret |
 | TxGNN-prognosescore | N/A |
 | Bevisniveau | N/A — pipeline producerede ikke kandidater |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet afgørelse | **Hold** |
 
 ---

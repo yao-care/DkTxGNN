@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (HER2 positive breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Ocrelizumab er et humaniseret anti-CD20-antistof, der oprindeligt anvendes til b
 | Forudsagt ny indikation | HER2-positiv brystkarcinom (HER2 positive breast carcinoma) |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

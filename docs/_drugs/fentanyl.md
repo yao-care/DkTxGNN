@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fentanyl: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst…"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -50,8 +50,8 @@ Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark markedsf�
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese |
 | TxGNN-forudsigelsesscore | 0,9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score 0,9905, evidensniveau L5, anbefaling Hold). Begge forudsigelser optræder to gange i datagrundlaget.

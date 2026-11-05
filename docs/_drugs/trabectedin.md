@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Trabectedin: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L3). Oprindelig indikation: Ovariecancer (ifølge videnbasen"
 monitor_inn: "Trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -52,8 +52,8 @@ og i dag understøttes retningen af **1 klinisk forsøg** (med svag relevans) og
 | Forudsagt ny indikation | Kvindelig brystkarcinom |
 | TxGNN-forudsigelsesscore | 0,9973 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold (kan genoptages som forskningsspørgsmål) |
 
 ---

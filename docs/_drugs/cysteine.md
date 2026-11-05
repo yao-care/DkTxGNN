@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cysteine: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L4). Oprindelig indikation: Bronkitis, paracetamolforgiftning, cystisk fibrose…"
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -52,8 +52,8 @@ Der er **ingen kliniske forsøg** og **18 publikationer** (hovedsageligt prækli
 | Forudsagt ny indikation | Tørre øjne (dry eye syndrome) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
-| Antal markedsføringstilladelser | 7 (gyldige: 7) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

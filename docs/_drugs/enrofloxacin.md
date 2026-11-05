@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Enrofloxacin"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "mitral valve disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Enrofloxacin: forudsagt ny indikation Hjertesygdom (evidensniveau L5). Oprindelig indikation: Ikke oplyst i den danske registrering (godkendelsesteksten er tom). P…"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan være virksomt mod **hjertesygdom**, men d
 | Forudsagt ny indikation | Hjertesygdom |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
@@ -92,10 +92,6 @@ Ingen af de fundne publikationer undersøger enrofloxacin direkte som behandling
 ---
 
 ## Markedsinformation i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101348088 | Baytril Vet. (Elanco Animal Health GmbH) | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
 Der er tale om et enkeltstofpræparat til veterinær brug. Der er ingen kendt godkendt humanindikation i de indsamlede data.
 

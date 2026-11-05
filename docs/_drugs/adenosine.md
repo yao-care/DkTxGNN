@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adenosine"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adenosine: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede
 | Forudsagt ny indikation | Obsolet grenblok (obsolete bundle branch block) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?

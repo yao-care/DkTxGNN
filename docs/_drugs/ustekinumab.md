@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ustekinumab: forudsagt ny indikation Dermatitis (evidensniveau L2). Oprindelig indikation: Psoriasisgigt, psoriasis og parapsoriasis"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **dermatitis** (primært a
 | Forudsagt ny indikation | Dermatitis |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nystatin: forudsagt ny indikation Sygdom i orbitalregionen (disease of orbital region) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Nystatin er et antimykotikum af polyen-typen og markedsføres i Danmark som oral
 | Forudsagt ny indikation | Sygdom i orbitalregionen (disease of orbital region) |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

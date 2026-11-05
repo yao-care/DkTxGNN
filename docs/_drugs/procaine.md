@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 687
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Procaine: forudsagt ny indikation Methæmoglobinæmi (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de data…"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -52,8 +52,8 @@ Forudsigelsen understøttes derfor ikke, og den bør ikke forfølges i sin nuvæ
 | Forudsagt ny indikation | Methæmoglobinæmi |
 | TxGNN-forudsigelsesscore | 0,9950 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
-| Antal markedsføringstilladelser | 6 (gyldige: 6) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -89,14 +89,6 @@ Ingen af publikationerne viser en terapeutisk effekt af procain ved methæmoglob
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106841822 | Procamidor | Injektionsvæske, opløsning | Ikke oplyst |
-| 28106098618 | Procamidor Comp. Vet. | Injektionsvæske, opløsning | Ikke oplyst |
-| 28103593003 | Benzylpenicillin Vetcare | Intramammær suspension | Ikke oplyst |
-| 28100193656 | Streptocillin Vet. | Injektionsvæske, suspension | Ikke oplyst |
-| 28100916877 | Mastitar Retard Vet. | Intramammær salve | Ikke oplyst |
 
 Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor. Flere af produkterne er til veterinær brug.
 

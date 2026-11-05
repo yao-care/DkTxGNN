@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,11 +52,11 @@ Amphotericin B er et velkendt polyenantimykotikum, der bruges til alvorlige inva
 | Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser genereret |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Evidensniveau | Ikke vurderbart |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | **Afvent** |
 
-> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb. Resultatet med nul-licens afspejler næsten helt sikkert et **databehandlingshul** snarere end den faktiske reguleringsmæssige situation og skal verificeres mod Laegemiddelstyelsens produktdatabase, før der drages reguleringsmæssige konklusioner.
+> Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb. Resultatet med nul-licens afspejler næsten helt sikkert et **databehandlingshul** snarere end den faktiske reguleringsmæssige situation og skal verificeres mod Laegemiddelstyelsens produktdatabase, før der drages reguleringsmæssige konklusioner.
 
 ---
 
@@ -92,7 +92,6 @@ TxGNN-prognose-pipelinen producerede ingen genfindingskandidater for Amphoterici
 
 **For at fortsætte er følgende nødvendigt:**
 
-1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisationsregistre, herunder EMA's centraliserede autorisation for AmBisome® (EU/1/97/049)
 2. **[Blokerende]** Genindkør TxGNN-prognose-pipelinen når inputdata er korrigeret, for at generere rangerede genfindingskandidater med tillidsscores
 3. **[Høj]** Hent Virkningsmekanisme (MOA) data via DrugBank API for DrugBank ID DB00681 for at understøtte analyse af mekanistisk plausibilitet
 4. **[Høj]** Download og parse det aktuelle Produktresumé (via EMA eller Laegemiddelstyrelsen) for at udfylde vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata til indledende sikkerhedsscreening

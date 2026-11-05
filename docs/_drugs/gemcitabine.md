@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: forudsagt ny indikation Rectum mucinous adenocarcinoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ De indsamlede data viser **mindst 3 fase 3-forsøg** (heraf 1 afsluttet, direkte
 | Forudsagt ny indikation | Rectum mucinous adenocarcinoma |
 | TxGNN-forudsigelsesscore | 0.9977 |
 | Evidensniveau | L5 (i henhold til den beregnede vurdering; se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* L1 forudsætter mindst to afsluttede fase 3-RCT'er. Blandt de indsamlede forsøg er kun ét direkte relevant fase 3-forsøg markeret som afsluttet og vurderet som direkte relevant (NCT00006459), mens NCT00093795 også er afsluttet, men her indgår gemcitabin i én af tre arme. Niveauet L1 bør derfor verificeres manuelt.

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 description: "Insulin Degludec: forudsagt ny indikation Autoimmune oophoritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Insulin degludec er en ultralangtidsvirkende basalinsulinanalog, der oprindeligt
 | Forudsagt ny indikation | Autoimmune oophoritis |
 | TxGNN-forudsigelsesscore | 0.9923 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

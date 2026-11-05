@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Roxadustat: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L5). Oprindelig indikation: Refraktær anæmi"
 monitor_inn: "Roxadustat"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
@@ -52,8 +52,8 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 | Foreslået ny indikation | Tørre øjne (dry eye syndrome) |
 | TxGNN-forudsigelsesscore | 0,9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

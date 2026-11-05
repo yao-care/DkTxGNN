@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ivermectin: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Strongyloidiasis og onchocerciasis"
 ---
 
@@ -48,9 +48,8 @@ Ivermectin er et middel mod parasitter, og i videnskabsgrafen er det registreret
 | Forudsagt ny indikation | Vulvovaginal candidiasis |
 | TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
-| Antal godkendelser | 1 national godkendelse (veterinærlægemiddel) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
@@ -73,9 +72,11 @@ Bemærk: For andre forudsagte candidiasis-indikationer er der fundet to artikler
 
 | Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103169900 | Bimectin Vet. | Injektionsvæske, opløsning | Ingen indikationstekst tilgængelig |
-
-Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig.
+| 28106797922 | Ivermectin "Carefarm" | Tabletter | Ikke angivet |
+| 28107602026 | Ivermectin "Epione" | Tabletter | Ikke angivet |
+| 28106780422 | Ivermectin "Mashal" | Tabletter | Ikke angivet |
+| 28107073723 | Ivermectin "Medartuum" | Tabletter | Ikke angivet |
+| 28106601321 | Ivermectin "Medical Valley" | Tabletter | Ikke angivet |
 
 ## Sikkerhedsovervejelser
 

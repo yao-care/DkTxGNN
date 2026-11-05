@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "levocabastine"
 predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
 description: "Levocabastine: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Levocabastin er et antihistamin, som oprindeligt anvendes til behandling af alle
 | Forudsagt ny indikation | Allergisk urticaria (allergic urticaria) |
 | TxGNN-forudsigelsesscore | 0.9918 |
 | Evidensniveau | L5 (kun modelforudsigelse uden direkte studier af indikationen; de tilgængelige artikler er indirekte) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

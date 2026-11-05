@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 751
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Selamectin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Selame
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
 | Kendte anvendelser registreret for dette lægemiddel | 0 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ## Kendte anvendelser registreret for dette lægemiddel
 
@@ -71,10 +71,6 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Selame
 | Ingen |
 
 ## Information om det danske marked
-
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106025117 | Chanhold til hund 10,1 - 20,0 kg | spot-on, opløsning | Gyldig |
 
 ## Sikkerhedsovervejelser
 

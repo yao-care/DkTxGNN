@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "itraconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer** (
 | Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
 | TxGNN-forudsigelsesscore | 0.9934 |
 | Evidensniveau | L5 (kun modelforudsigelse; litteraturen indeholder ingen studier af itraconazol mod pneumocystose) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -97,7 +97,11 @@ Litteraturen handler primært om opportunistiske infektioner hos immunsvækkede 
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106703021 | Fugasol Vet. | Oral opløsning | Indikationstekst ikke angivet |
+| 28103435002 | Itraconazol "Stada" | Kapsler, hårde | Ikke angivet |
+| 28103701004 | Niddazol | Kapsler, hårde | Ikke angivet |
+| 28107122424 | Orungal | Kapsler, hårde | Ikke angivet |
+| 28101377789 | Sporanox | Kapsler, hårde | Ikke angivet |
+| 28107181124 | Sporanox | Kapsler, hårde | Ikke angivet |
 
 Bemærk: Produktet er ifølge navnet et veterinært præparat (Vet.). Der er ikke registreret humane itraconazolpræparater i de data, der er indsamlet til denne rapport.
 

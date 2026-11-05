@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (renal cell carcinoma (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Vandetanib er en oral multi-tyrosinkinasehæmmer, der markedsføres i Danmark so
 | Forudsagt ny indikation | Nyrecellekarcinom (renal cell carcinoma (disease)) |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

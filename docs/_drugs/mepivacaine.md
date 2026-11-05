@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mepivacaine: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 monitor_inn: "mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -50,8 +50,8 @@ Mepivacain er et amid-type lokalanæstetikum, der markedsføres i Danmark som in
 | Forudsagt ny indikation | Gastroduodenitis |
 | TxGNN-forudsigelsesscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---

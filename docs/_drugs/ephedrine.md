@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er kun **0 registrerede kliniske forsøg** og **2 ældre publikationer m
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -87,7 +87,11 @@ Begge publikationer er af lav evidensværdi (kombinationsprodukter, ingen kontro
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106650921 | Caniphedrin | Tabletter | Ingen indikationstekst tilgængelig |
+| 28106766222 | Efedrin "Abboxia" | Injektionsvæske, opløsning | Ikke angivet |
+| 28106766122 | Efedrin "Abboxia" | Injektionsvæske, opløsning | Ikke angivet |
+| 28104785010 | Efedrin "Aguettant" | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet |
+| 28101610585 | Efedrin "SAD" | Injektionsvæske, opløsning | Ikke angivet |
+| 28105934117 | Efedrin "Unimedic" | Injektionsvæske, opløsning | Ikke angivet |
 
 Bemærk: Præparatet er udbudt af VetViva Richter GmbH, og navnet tyder på et veterinærlægemiddel. Det er derfor ikke dokumenteret, at der findes et godkendt humant ephedrinpræparat i Danmark ud fra de foreliggende data.
 

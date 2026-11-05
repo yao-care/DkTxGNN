@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sevoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (anvendes generelt til generel an…"
 monitor_inn: "sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -50,8 +50,8 @@ Sevofluran er en inhalationsanæstesi, som anvendes til generel anæstesi. De da
 | Forudsagt ny indikation | Prinzmetal-angina |
 | TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -98,7 +98,11 @@ TxGNN forudsagde yderligere ni indikationer. Ingen af dem har kliniske forsøg, 
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106657021 | Petrem Vet. | Væske til inhalationsdamp | Ikke angivet i de tilgængelige data |
+| 28103501503 | Sevofluran "Baxter" | Væske til inhalationsdamp | Ikke angivet |
+| 28107300424 | Sevofluran Baxter | Væske til inhalationsdamp | Ikke angivet |
+| 28101697994 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
+| 28104728510 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
+| 28105097712 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
 
 Indehaver: Piramal Critical Care B.V. Status: gyldig. Bemærk, at produktnavnet "Vet." tyder på et veterinærlægemiddel; dette bør verificeres.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Albendazole: forudsagt ny indikation Coenurosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Albendazol er et bredspektret ormemiddel (benzimidazol), der hæmmer parasittens
 | Forudsagt ny indikation | Coenurosis |
 | TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -82,10 +82,6 @@ Alveolær ekinokokkose skyldes *Echinococcus multilocularis*, som er tæt beslæ
 | [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Dyreforsøg | Antimicrob Agents Chemother | Albendazols metabolisme og nye formuleringer i rottemodel |
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101043480 | Valbazen Vet. | Oral opløsning | Indikationstekst er ikke registreret i de lokale data |
 
 Bemærk: Den registrerede tilladelse gælder et veterinært præparat (Zoetis Animal Health ApS).
 

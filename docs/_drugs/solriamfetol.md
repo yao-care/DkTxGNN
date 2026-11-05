@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 766
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
 description: "Solriamfetol: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2)."
@@ -50,8 +50,8 @@ Evidensen omfatter **5 kliniske forsøg** (heraf 2 afsluttede) og **6 publikatio
 | Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er denne forudsigelse rimelig?

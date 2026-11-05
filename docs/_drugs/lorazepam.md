@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dett
 | Forudsagt ny indikation | Trigeminusnervetumor (trigeminal nerve neoplasm) |
 | TxGNN-forudsigelsesscore | 0.9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

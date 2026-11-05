@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale dat"
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **godartet paroksysmal tor
 | Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) |
 | TxGNN-prædiktionsscore | 0.9949 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

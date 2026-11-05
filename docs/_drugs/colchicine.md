@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (Plasmodium falciparum malaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Colchicin er et tubulinbindende middel, der hæmmer mikrotubulidannelse. Den TxG
 | Forudsagt ny indikation | Plasmodium falciparum-malaria (Plasmodium falciparum malaria) |
 | TxGNN-forudsigelsesscore | 0,9960 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

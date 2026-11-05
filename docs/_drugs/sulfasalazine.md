@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 781
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: forudsagt ny indikation Brachydactyly-syndactyly syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,8 +54,8 @@ Bemærk: Valget af slidgigt som hovedindikation er foretaget, fordi den som den 
 | Forudsagt ny indikation | Brachydactyly-syndactyly syndrome |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 (prækliniske studier) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; ingen humane forsøg) |
 
 ---

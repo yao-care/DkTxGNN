@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ethosuximide: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Absence-epilepsi (iht. videnbasen i TxGNN"
 monitor_inn: "ethosuximide"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publik
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

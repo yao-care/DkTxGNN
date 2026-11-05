@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Piperacillin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsernes indikationstekst…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -50,8 +50,8 @@ Piperacillin er et bredspektret penicillin-antibiotikum, som i Danmark markedsf�
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ---

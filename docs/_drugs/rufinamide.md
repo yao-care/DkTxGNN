@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: forudsagt ny indikation Perioral myoclonia with absences (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Rufinamid er et antiepileptisk lægemiddel, der oprindeligt anvendes til behandl
 | Forudsagt ny indikation | Perioral myoclonia with absences |
 | TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

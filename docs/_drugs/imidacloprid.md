@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Imidacloprid"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Imidacloprid: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt ved **cauda equina-syndrom
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -86,10 +86,6 @@ Til sammenligning findes der for den femte forudsagte indikation (esophagussygdo
 ---
 
 ## Information om det danske marked
-
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101891197 | Advantage Vet. til hund (Elanco Animal Health GmbH) | Kutanopløsning | Ikke angivet |
 
 Der er tale om ét dyrelægemiddel, som er gyldigt og markedsført. Tilladelsen omfatter ikke human anvendelse.
 

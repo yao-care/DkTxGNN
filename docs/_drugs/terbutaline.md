@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Terbutalin er en beta-2-adrenerg agonist, der udvider luftvejene. TxGNN-modellen
 | Forudsagt ny indikation | Luftvejsmisdannelse (respiratory malformation) |
 | TxGNN-forudsigelsesscore | 0.9952 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

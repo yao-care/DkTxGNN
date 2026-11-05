@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ivabradine: forudsagt ny indikation Hypertrichose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (indikationsteksten for den danske m…"
 monitor_inn: "ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -52,8 +52,8 @@ Forudsigelsen er udelukkende modelbaseret.
 | Forudsagt ny indikation | Hypertrichose |
 | TxGNN-forudsigelsesscore | 0,9979 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 20 af 20) |
+| Antal markedsføringstilladelser | 20 (gyldige: 20) |
 | Anbefalet beslutning | Hold |
 
 ---

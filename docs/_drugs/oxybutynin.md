@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Oxybutynin: forudsagt ny indikation Restless legs syndrom (evidensniveau L5). Oprindelig indikation: Overaktiv blære, neurogen blære, cauda equina-syndrom (fra videnbasen"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** for denne indik
 | Forudsagt ny indikation | Restless legs syndrom |
 | TxGNN-prædiktionsscore | 0,9974 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

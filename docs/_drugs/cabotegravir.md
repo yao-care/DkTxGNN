@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **reumatoid artrit
 | Forudsagt ny indikation | Reumatoid artritis (rheumatoid arthritis) |
 | TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Flucloxacillin: forudsagt ny indikation Konjunktivitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -50,8 +50,8 @@ Flucloxacillin er et penicillin mod stafylokokker, som anvendes til behandling a
 | Forudsagt ny indikation | Konjunktivitis |
 | TxGNN-prædiktionsscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

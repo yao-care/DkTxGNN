@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Pyridostigmin er en acetylcholinesterasehæmmer, der oprindeligt anvendes til sy
 | Forudsagt ny indikation | Autoimmune disease of peripheral nervous system |
 | TxGNN-forudsigelsesscore | 0.9975 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

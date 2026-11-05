@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alpelisib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
 monitor_inn: "Alpelisib"
 predicted_indications: ["pulmonary hypertension"]
@@ -50,8 +50,8 @@ Alpelisib er en PI3K-alfa-hæmmer, som er markedsført i Danmark under handelsna
 | Forudsagt ny indikation | Pulmonal hypertension |
 | TxGNN-forudsigelsesscore | 0.9903 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

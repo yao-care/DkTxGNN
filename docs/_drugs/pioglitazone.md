@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pioglitazone: forudsagt ny indikation Opsismodysplasi (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus"
 monitor_inn: "pioglitazone"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -52,8 +52,8 @@ Forudsigelsen understøttes af **0 kliniske forsøg** og **0 publikationer**, og
 | Forudsagt ny indikation | Opsismodysplasi |
 | TxGNN-forudsigelsesscore | 0,9959 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---

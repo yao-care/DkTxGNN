@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Citalopram: forudsagt ny indikation Tvangslidelse (obsessive-compulsive disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Citalopram er en selektiv serotoningenoptagelseshæmmer (SSRI), som i Danmark er
 | Forudsagt ny indikation | Tvangslidelse (obsessive-compulsive disorder) |
 | TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?

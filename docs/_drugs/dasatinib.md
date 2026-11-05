@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dasatinib: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Der er **2 kliniske forsøg** (heraf ét afsluttet fase 2-forsøg i blandede ava
 | Forudsagt ny indikation | Ewing-sarkom (Ewing sarcoma) |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

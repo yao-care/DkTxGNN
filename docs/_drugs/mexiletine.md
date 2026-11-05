@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mexiletine: forudsagt ny indikation Hypertrikose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede godkendelsesdata (klasse IB natriumkanal…"
 monitor_inn: "mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
@@ -50,8 +50,8 @@ Mexiletin er en natriumkanalblokker (klasse IB), som markedsføres i Danmark som
 | Forudsagt ny indikation | Hypertrikose |
 | TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

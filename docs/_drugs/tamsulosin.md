@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tamsulosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi (BPH)"
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 Note: Den oprindelige indikation er ikke angivet i de danske tilladelser i de indsamlede data, da de ikke indeholder indikationstekst. Scorerne kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.

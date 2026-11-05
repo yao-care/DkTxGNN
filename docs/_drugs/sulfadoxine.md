@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sulfadoxine: forudsagt ny indikation Gout (urinsyregigt) (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de data…"
 monitor_inn: "sulfadoxine"
 predicted_indications: ["gout"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **urinsyregigt (gout)*
 | Forudsagt ny indikation | Gout (urinsyregigt) |
 | TxGNN-forudsigelsesscore | 0,9910 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -80,10 +80,6 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100591171 | Borgal Vet. (Ceva Sante Animale) | Injektionsvæske, opløsning | Ingen indikationstekst registreret (veterinærlægemiddel) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Zidovudin er en nukleosid-revers transkriptasehæmmer, der oprindeligt bruges mo
 | Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
 | TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

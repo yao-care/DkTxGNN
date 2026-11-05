@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -48,8 +48,8 @@ Estradiol (østradiol) er et naturligt forekommende østrogenhormón, der bruges
 | Forudsagt ny indikation | Ingen (ingen TxGNN-forudsigelse genereret) |
 | TxGNN-forudsigelsesscore | I/A |
 | Bevisniveau | L5 (ingen understøttende studier) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal markedsføringsgodkendelser | 0 |
 | Anbefalet beslutning | **Afvent** |
 

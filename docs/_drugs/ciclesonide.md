@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ciclesonide: forudsagt ny indikation Atopisk eksem (atopic eczema) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Ciclesonide er et inhaleret kortikosteroid, der aktiveres til des-ciclesonide, o
 | Forudsagt ny indikation | Atopisk eksem (atopic eczema) |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -73,7 +73,6 @@ Der er i øjeblikket ingen relateret litteratur for den forudsagte hovedindikati
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28103707804 | Alvesco | Inhalationsspray, opløsning | Ikke angivet i de lokale data |
-| 28106165918 | Aservo EquiHaler | Inhalationsvæske, opløsning | Ikke angivet i de lokale data |
 
 ## Sikkerhedsovervejelser
 

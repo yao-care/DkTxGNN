@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Roxithromycin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt mod **leprae (spedalskhed)
 | Forudsagt ny indikation | Leprae (spedalskhed) |
 | TxGNN-forudsigelsesscore | 0,9970 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Evidensniveauet er L5, fordi ingen af de citerede studier undersøger roxithromycin hos patienter med spedalskhed. De tilgængelige studier er laboratorie- og dyreforsøg samt reviews. Det er derfor lavere end det L3, som er angivet i de underliggende data.

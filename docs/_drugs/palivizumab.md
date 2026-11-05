@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Palivizumab: forudsagt ny indikation Godartet tumor i tungen (evidensniveau L5). Oprindelig indikation: Respiratorisk syncytialvirus-infektion"
 ---
 
@@ -50,8 +50,8 @@ Palivizumab er et monoklonalt antistof, som i den viden, der er indsamlet til de
 | Foreslået ny indikation | Godartet svulst i tungen |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

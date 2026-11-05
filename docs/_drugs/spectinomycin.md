@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
 description: "Spectinomycin: forudsagt ny indikation Disease of uterine broad ligament (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Spectinomycin er et aminocyclitol-antibiotikum, der oprindeligt blev brugt til b
 | Forudsagt ny indikation | Disease of uterine broad ligament |
 | TxGNN-forudsigelsesscore | 0.9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -77,11 +77,6 @@ Der er i øjeblikket ingen relevant litteratur for den forudsagte indikation.
 ---
 
 ## Information om det danske marked
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106307819 | Lismay | Pulver til anvendelse i drikkevand | Ikke angivet |
-| 28101550493 | Norospeclin Vet. | Injektionsvæske, opløsning | Ikke angivet |
 
 Begge tilladelser er nationale og gyldige. Ud fra produktnavn, producent og lægemiddelform ser de ud til at være veterinærlægemidler. Der er derfor ikke identificeret et humant præparat med spectinomycin på det danske marked i de data, der er sammenstillet til denne rapport.
 

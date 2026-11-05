@@ -5,7 +5,7 @@ layout: default
 title: Disulfiram
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 268
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,8 +43,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Element | Indhold |
 |---------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Antal godkendelser til markedsføring | **0** |
 
 ---

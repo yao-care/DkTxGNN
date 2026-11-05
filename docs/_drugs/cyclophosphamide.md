@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cyclophosphamide: forudsagt ny indikation Hvirvelanomalier med variabel endokrin og T-celledysfunktion (vertebral anomalies and variable endocrine and T-cell dysfunction) (evidensniveau L5)."
 ---
 
@@ -50,8 +50,8 @@ Forudsigelsen støttes af **0 kliniske forsøg** og **0 publikationer**, så den
 | Forudsagt ny indikation | Hvirvelanomalier med variabel endokrin og T-celledysfunktion (vertebral anomalies and variable endocrine and T-cell dysfunction) |
 | TxGNN-forudsigelsesscore | 0.9938 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Brigatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Brigatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft"
 ---
 
@@ -50,8 +50,8 @@ Brigatinib er en tyrosinkinasehæmmer, som oprindeligt anvendes til behandling a
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

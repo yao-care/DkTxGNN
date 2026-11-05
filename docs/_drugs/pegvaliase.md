@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pegvaliase: forudsagt ny indikation diabetic retinopathy (evidensniveau L5). Oprindelig indikation: Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. I…"
 monitor_inn: "Pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -48,8 +48,8 @@ Pegvaliase (markedsført som Palynziq) er et PEGyleret enzym, som nedbryder phen
 | Foreslået ny indikation | Diabetisk retinopati |
 | TxGNN-forudsigelsesscore | 0.9917 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?

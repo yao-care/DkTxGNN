@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Vonicog Alfa"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vonicog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Vonicog alfa er rekombinant von Willebrand-faktor (VWF), som oprindeligt er knyt
 | Forudsagt ny indikation | Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Antal godkendelser | 1 (national godkendelse; listen er fuldstændig) |
 | Anbefalet beslutning | Hold |
 

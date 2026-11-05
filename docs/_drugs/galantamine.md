@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Galantamine: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (evidensniveau L5). Oprindelig indikation: Alzheimers sygdom"
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** til at underst�
 | Forudsagt ny indikation | Psykogene bevægelsesforstyrrelser |
 | TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---

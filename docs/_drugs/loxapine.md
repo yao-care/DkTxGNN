@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg** i de indsamlede data, men **20 pu
 | Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 (jf. bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* Niveauet L1 er tildelt i de kompilerede data på baggrund af publiceret litteratur om to fase 3-forsøg med inhaleret loxapin. Der er ingen registrerede forsøg i datagrundlaget, og fase 3-evidensen er kun udledt af publikationstitler og er ikke verificeret her. Niveauet bør derfor tolkes med forsigtighed.

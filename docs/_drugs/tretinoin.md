@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: forudsagt ny indikation Reumatoid nodulose (rheumatoid nodulosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 | Forudsagt ny indikation | Reumatoid nodulose (rheumatoid nodulosis) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

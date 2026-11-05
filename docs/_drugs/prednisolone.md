@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 680
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Der er ingen registrerede kliniske forsøg i de indsamlede data, men **20 publik
 | Forudsagt ny indikation | Alopecia areata |
 | TxGNN-prædiktionsscore | 0.9999 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -85,8 +85,11 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105656215 | Dermipred (Ceva Sante Animale) | Tabletter | Ikke angivet |
-| 28100643674 | Canaural (Dechra Veterinary Products A/S) | Øredråber | Ikke angivet |
+| 28105565015 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
+| 28105564815 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
+| 28105565215 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
+| 28105564915 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
+| 28100744276 | Prednisolon "DAK" | Tabletter | Ikke angivet |
 
 Begge tilladelser er gyldige enkeltstof-tilladelser. Produktnavnene og producenterne indikerer, at der er tale om veterinærlægemidler, og der er ikke fundet humane prednisolonpræparater i de data, der er indsamlet til denne rapport.
 
@@ -106,7 +109,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 Prednisolons immunsuppressive mekanisme passer godt til alopecia areatas patogenese, og der findes et placebokontrolleret RCT samt flere systematiske reviews og en netværksmetaanalyse. Evidensen er dog begrænset af manglende registrerede forsøg, små studier, tilbagefald og toksicitet ved langtidsbrug, og JAK-hæmmere er nu foretrukne ved svær sygdom.
 
 **For at komme videre kræves:**
-- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)
+- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark
 - Produktresumé med advarsler og kontraindikationer
 - Detaljerede data om virkningsmekanisme
 - Registrerede, veldesignede kliniske forsøg med prednisolon ved alopecia areata

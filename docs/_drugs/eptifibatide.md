@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: forudsagt ny indikation Rheumatoid arthritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,8 +54,8 @@ Evidensen er begrænset til små, tidlige studier, og effekt er ikke påvist.
 | Forudsagt ny indikation | Rheumatoid arthritis |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 (kun små tidlige studier; ingen afsluttet fase 3 RCT) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål, ikke klar til klinisk anvendelse) |
 
 ---

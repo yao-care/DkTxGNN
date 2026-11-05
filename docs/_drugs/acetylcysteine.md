@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetylcysteine: forudsagt ny indikation Trombotisk sygdom (thrombotic disease) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Acetylcystein er et thiol-baseret mukolytikum og antioxidant, som er markedsfør
 | Forudsagt ny indikation | Trombotisk sygdom (thrombotic disease) |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 Bemærk om evidensniveau: Der foreligger ét fuldført fase 3-forsøg (NCT03252925) i transplantationsassocieret trombotisk mikroangiopati, men uden tilgængelige resultater og uden en bekræftende RCT-publikation. Et enkelt fuldført fase 3-forsøg opfylder ikke L1 (kræver mindst to), og evidensen placeres derfor på L2.

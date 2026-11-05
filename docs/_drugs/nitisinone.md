@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: forudsagt ny indikation Renal tubulær acidose (renal tubular acidosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Nitisinon er en hæmmer af enzymet HPPD og anvendes oprindeligt til behandling a
 | Forudsagt ny indikation | Renal tubulær acidose (renal tubular acidosis) |
 | TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---

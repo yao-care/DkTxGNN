@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 411
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hydrocortisone: forudsagt ny indikation Alopecia areata (evidensniveau L5). Oprindelig indikation: Binyrebarkinsufficiens, Addisons sygdom, autoimmune sygdomme…"
 monitor_inn: "hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -52,8 +52,8 @@ Evidensen består af **1 kliniske forsøg** (fase 3, hvor hydrocortison var samm
 | Forudsagt ny indikation | Alopecia areata |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L2 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
-| Antal markedsføringstilladelser | 6 (gyldige: 6) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 *Bemærkning om evidensniveau:* De data, der er indsamlet til rapporten, angiver L1. Der foreligger dog kun ét afsluttet fase 3-forsøg, og hydrocortison indgik her som lavpotent sammenligningsstof og ikke som forsøgsbehandling. Reglerne for L1 (mindst to afsluttede fase 3-RCT'er) er derfor ikke opfyldt, og jeg vurderer evidensen til højst L2.

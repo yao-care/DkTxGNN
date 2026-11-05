@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dutasteride: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Indikationsteksten i de danske tilladelser er ikke tilgængelig i de indsamlede data. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.

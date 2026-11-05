@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Treosulfan: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Konditionering før hæmatopoietisk stamcelletransplantation"
 monitor_inn: "Treosulfan"
 predicted_indications: ["diabetic cataract"]
@@ -50,8 +50,8 @@ Treosulfan (handelsnavn Trecondi) er et alkylerende cytostatikum, som anvendes t
 | Forudsagt ny indikation | Diabetisk katarakt |
 | TxGNN-prædiktionsscore | 0.9901 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 

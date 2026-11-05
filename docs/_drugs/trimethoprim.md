@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 860
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Trimethoprim: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion, infektiøs mellemørebetændelse, pneumocystose…"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og **0 publikationer** direkte knyttet til den
 | Forudsagt ny indikation | Punktat epitelial keratokonjunktivitis |
 | TxGNN-forudsigelsesscore | 0,9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

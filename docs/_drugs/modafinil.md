@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **søvnløshed (insomnia)*
 | Forudsagt ny indikation | Søvnløshed (insomnia (disease)) |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

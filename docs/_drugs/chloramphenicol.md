@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Chloramphenicol: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Chloramphenicol er et bredspektret antibiotikum. TxGNN-modellen forudsiger, at d
 | Forudsagt ny indikation | Diffus sklerodermi (diffuse scleroderma) |
 | TxGNN-forudsigelsesscore | 0.9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
@@ -77,7 +77,11 @@ Ingen af publikationerne undersøger chloramphenicol som behandling.
 
 | Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107150624 | Cefenicol | Øjendråber, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28107399025 | Kloramfenikol "2care4" | Øjendråber, opløsning | Ikke angivet |
+| 28106831822 | Kloramfenikol "2care4" | Øjensalve | Ikke angivet |
+| 28100724176 | Kloramfenikol "DAK" | Øjendråber, opløsning | Ikke angivet |
+| 28100724276 | Kloramfenikol "DAK" | Øjensalve | Ikke angivet |
+| 28106156418 | Kloramfenikol "Orifarm" | Øjensalve | Ikke angivet |
 
 Den eneste registrerede tilladelse er en øjendråbe til lokal anvendelse. Der er ikke registreret systemiske formuleringer i de lokale data, og de ville formentlig være nødvendige ved en indikation som sklerodermi.
 

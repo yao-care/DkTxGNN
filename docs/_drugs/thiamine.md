@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at thiamin kan have effekt ved **åbenvinklet glaukom
 | Forudsagt ny indikation | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN-forudsigelsesscore | 0.9943 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Den automatiske scoring i datagrundlaget angav L4 for åbenvinklet glaukom. Ingen af de citerede studier undersøger dog thiamin som behandling af sygdommen, og et enkelt ældre studie fra 1979 måler kun blodniveauer. Evidensniveauet er derfor sat til L5 efter de gældende regler.

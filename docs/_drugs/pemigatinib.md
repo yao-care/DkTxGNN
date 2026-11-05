@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pemigatinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -50,8 +50,8 @@ Pemigatinib er en selektiv hæmmer af FGFR1-3 (fibroblastvækstfaktorreceptor), 
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

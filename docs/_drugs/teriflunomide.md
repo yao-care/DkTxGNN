@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 812
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Teriflunomide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Alle kandidater, som TxGNN-modellen har foreslået for Teriflunomide, og som kan
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
 | Kendte anvendelser blandt modellens kandidater | 1 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 
 ## Kendte anvendelser blandt modellens kandidater
 

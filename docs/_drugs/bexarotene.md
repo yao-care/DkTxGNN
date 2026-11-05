@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bexarotene: forudsagt ny indikation Primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Bexarotene er en selektiv retinoid X-receptor (RXR)-agonist i kapselform, som ma
 | Forudsagt ny indikation | Primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma) |
 | TxGNN-forudsigelsesscore | 0.9944 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

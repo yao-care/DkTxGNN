@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluconazole: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -52,8 +52,8 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 | Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis |
 | TxGNN-forudsigelsesscore | 0,9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

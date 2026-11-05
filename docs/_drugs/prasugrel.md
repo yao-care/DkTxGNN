@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Prasugrel: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Akut koronarsyndrom"
 ---
 
@@ -50,8 +50,8 @@ Prasugrel er en blodpladehæmmer (P2Y12-antagonist). TxGNN-modellen (deep learni
 | Forudsagt ny indikation | Pulmonal hypertension |
 | TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---

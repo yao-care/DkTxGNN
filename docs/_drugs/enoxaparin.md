@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ENOXAPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"
@@ -52,8 +52,8 @@ Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 | Forudsagt ny indikation | Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency, autosomal recessive) |
 | TxGNN-forudsigelsesscore | 0.9958 |
 | Evidensniveau | L5 (kun modelforudsigelse; ingen kliniske forsøg eller publikationer) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 *Note: Evidensniveauet er angivet som L4 i de underliggende data, men da der hverken er forsøg, litteratur eller præklinisk evidens i det udleverede materiale, svarer det til L5 efter de gældende kriterier.*

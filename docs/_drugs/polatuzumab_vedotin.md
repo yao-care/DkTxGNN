@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Polatuzumab Vedotin: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (litteraturen peger på diffust…"
 monitor_inn: "Polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -50,8 +50,8 @@ Polatuzumab vedotin er et antistof-lægemiddelkonjugat rettet mod CD79b på B-ce
 | Forudsagt ny indikation | HER2-positiv brystkarcinom |
 | TxGNN-forudsigelsesscore | 0,9934 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

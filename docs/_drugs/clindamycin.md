@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clindamycin: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Clindamycin er et lincosamid-antibiotikum, der hæmmer bakteriers proteinsyntese
 | Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -70,9 +70,11 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103406702 | Antirobe Vet. | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
-
-Bemærk: Det registrerede produkt er et veterinærlægemiddel (Zoetis Animal Health ApS). Det er gyldigt og markedsført som monopræparat.
+| 28106332619 | Clindamycin "2care4" | Vaginalcreme | Ikke angivet |
+| 28106516520 | Clindamycin "Abcur" | Injektions-/infusionsvæske, opløsning | Ikke angivet |
+| 28103782505 | Clindamycin "Alternova" | Kapsler, hårde | Ikke angivet |
+| 28103782605 | Clindamycin "Alternova" | Kapsler, hårde | Ikke angivet |
+| 28106264719 | Clindamycin "Hameln" | Injektions-/infusionsvæske, opløsning | Ikke angivet |
 
 ## Sikkerhedsovervejelser
 
@@ -89,7 +91,7 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske fors�
 
 **For at komme videre kræves følgende:**
 - Direkte præklinisk eller klinisk evidens for clindamycin ved punktformet epitelial keratokonjunktivitis
-- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering), da det eneste registrerede produkt er et veterinært oralt præparat
+- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering)
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 ## Ansvarsfraskrivelse
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Understøttelsen er svag: **0 kliniske forsøg** og **1 generel oversigtsartikel
 | Forudsagt ny indikation | Duodenal obstruction |
 | TxGNN-forudsigelsesscore | 0.9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

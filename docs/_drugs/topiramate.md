@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Topiramate: forudsagt ny indikation Trigeminusnervetumor (rang 1) (evidensniveau L5). Oprindelig indikation: Epilepsi med generaliserede tonisk-kloniske anfald, partiel epilepsi…"
 monitor_inn: "topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ Blandt de øvrige forudsigelser har **audiogene anfald** den stærkeste støtte 
 | Forudsagt ny indikation | Trigeminusnervetumor (rang 1) |
 | TxGNN-forudsigelsesscore | 0,9970 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Den højest rangerede forudsigelse (trigeminusnervetumor) har ingen understøttende evidens. Tabellen nedenfor viser de øvrige forudsigelser til sammenligning.

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Leflunomid er oprindeligt anvendt til behandling af **psoriasisgigt** og **ledde
 | Forudsagt ny indikation | Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) |
 | TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ---

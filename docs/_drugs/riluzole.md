@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: forudsagt ny indikation Bilateral parasagittal parieto-okcipital polymikrogyri (bilateral parasagittal parieto-occipital polymicrogyria) (evidensniveau L5)."
@@ -48,8 +48,8 @@ Riluzol er et lægemiddel, der modulerer glutamatfrigivelse, og som anvendes til
 | Forudsagt ny indikation | Bilateral parasagittal parieto-okcipital polymikrogyri (bilateral parasagittal parieto-occipital polymicrogyria) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen give mening?

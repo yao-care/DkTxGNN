@@ -5,7 +5,7 @@ layout: default
 title: Encorafenib
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 304
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Element | Indhold |
 |---------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet afgørelse | **Aflyst** |
 
 ---

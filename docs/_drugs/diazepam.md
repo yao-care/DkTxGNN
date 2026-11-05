@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Diazepam: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Diazepam er et benzodiazepin, der forstærker den hæmmende GABA-A-transmission 
 | Forudsagt ny indikation | Søvnløshed (insomnia (disease)) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Afvent |
 
 ---

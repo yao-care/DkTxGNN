@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Maraviroc: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsens indikationstekst e…"
 ---
 
@@ -50,8 +50,8 @@ Maraviroc er en CCR5-antagonist, som er markedsført i Danmark som Celsentri (fi
 | Forudsagt ny indikation | Multipel endokrin neoplasi |
 | TxGNN-forudsigelsesscore | 0,9982 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

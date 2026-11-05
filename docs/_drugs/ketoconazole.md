@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 469
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ketoconazole: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Svampeinfektioner i huden (bl.a. tinea pedis, seboroisk dermatitis…"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **akne**, men evidensen er
 | Forudsagt ny indikation | Akne |
 | TxGNN-forudsigelsesscore | 0,9980 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -94,7 +94,11 @@ Størstedelen af de øvrige fundne publikationer (bl.a. om PCOS og ektopisk Cush
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105309613 | Canizol Vet. | Tabletter | Ingen indikationstekst angivet |
+| 28105380914 | Ketoconazole Esteve | Tabletter | Ikke angivet |
+| 28103470003 | Ketoconazole Shampoo "Actavis" 2 % | Shampoo | Ikke angivet |
+| 28101173483 | Nizoral | Creme | Ikke angivet |
+| 28101720894 | Nizoral | Shampoo | Ikke angivet |
+| 28101333788 | Nizoral | Shampoo | Ikke angivet |
 
 Produktet er et veterinærlægemiddel (Dechra Regulatory B.V.), og der er ikke fundet nogen godkendt topikal formulering til mennesker i de data, der er indsamlet til denne rapport.
 

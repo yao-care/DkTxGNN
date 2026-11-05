@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alfentanil: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst er…"
 monitor_inn: "alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ Alfentanil er en kortvirkende opioid, der er markedsført i Danmark som injektio
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

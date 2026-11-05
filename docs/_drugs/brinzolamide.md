@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 131
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brinzolamide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ TxGNN-modellens kandidater for Brinzolamide (score ≥ 0,99) er alle kendte anve
 | Nye forudsagte indikationer | Ingen (alle sporbare modelkandidater er kendte anvendelser) |
 | Kendte anvendelser blandt modelkandidater | 1 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 
 ## Kendte anvendelser blandt modellens kandidater
 

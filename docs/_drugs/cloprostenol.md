@@ -5,7 +5,7 @@ layout: default
 title: Cloprostenol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 213
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cloprostenol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Cloprostenol"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ---
 
 ## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103906606 | Genestran Vet. (til heste) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
 Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser.
 

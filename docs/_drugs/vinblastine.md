@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 887
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: forudsagt ny indikation Rhabdomyosarkom (rhabdomyosarcoma (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer** (p
 | Forudsagt ny indikation | Rhabdomyosarkom (rhabdomyosarcoma (disease)) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (kan undersøges som forskningsspørgsmål) |
 
 ---

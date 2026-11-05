@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lactulose: forudsagt ny indikation Acute urate nephropathy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **obstruktiv gulsot** (sco
 | Forudsagt ny indikation | Acute urate nephropathy |
 | TxGNN-prædiktionsscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; ikke klar til klinisk implementering) |
 
 Bemærk: Obstruktiv gulsot er valgt som den stærkest underbyggede forudsigelse. TxGNN's rangering placerer "akut uratnefropati" (0,9989) og "nefrolitiasis" (0,9978) højere, men de har ingen evidens og er vurderet til L5 (se afsnittet om øvrige forudsigelser).

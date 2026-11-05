@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 615
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: forudsagt ny indikation Malign pleural mesotheliom (malignant pleural mesothelioma) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ med **3 registrerede kliniske forsøg** (heraf 2 direkte relevante fase II-fors�
 | Forudsagt ny indikation | Malign pleural mesotheliom (malignant pleural mesothelioma) |
 | TxGNN-forudsigelsesscore | 0.9968 |
 | Evidensniveau | L2 (fase II-forsøg; ingen fase 3-RCT) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---

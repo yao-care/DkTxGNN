@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rivaroxaban: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -50,8 +50,8 @@ Rivaroxaban er en oral faktor Xa-hæmmer, der bruges som blodfortyndende middel.
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
 | TxGNN-prædiktionsscore | 0,9957 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ Forudsigelsen understøttes af **25 registrerede kliniske forsøg** og **20 publ
 | Forudsagt ny indikation | Nasal cavity disease |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

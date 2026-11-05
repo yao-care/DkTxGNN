@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Halofuginone: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "halofuginone"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -50,8 +50,8 @@ Halofuginon er registreret i Danmark som oral opløsning, men den oprindelige go
 | Forudsagt ny indikation | Svær non-proliferativ diabetisk retinopati |
 | TxGNN-forudsigelsesscore | 0,9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: En bredere forudsigelse, **diabetisk retinopati** (score 0,9904), overlapper med den ovenstående og udgør ikke uafhængig evidens.
@@ -81,10 +81,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105693615 | Halagon (Emdoka) | Oral opløsning | Ikke angivet |
 
 ---
 

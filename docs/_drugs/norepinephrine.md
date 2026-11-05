@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 592
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **obstruktiv lungesygdom**
 | Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

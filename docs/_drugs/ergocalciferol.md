@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ergocalciferol: forudsagt ny indikation Akromesomelisk dysplasi, Campailla-Martinelli-type (acromesomelic dysplasia, Campailla Martinelli type) (evidensniveau L5)."
 ---
 
@@ -50,8 +50,8 @@ Der er dog **ingen kliniske forsøg og ingen publikationer** for denne sygdom i 
 | Forudsagt ny indikation | Akromesomelisk dysplasi, Campailla-Martinelli-type (acromesomelic dysplasia, Campailla Martinelli type) |
 | TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bupivacaine: forudsagt ny indikation akrodermatitis chronica atrophicans (acrodermatitis chronica atrophicans) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **akrodermatitis chronica 
 | Forudsagt ny indikation | akrodermatitis chronica atrophicans (acrodermatitis chronica atrophicans) |
 | TxGNN-forudsigelsesscore | 0,9923 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
-| Antal markedsføringstilladelser | 5 (gyldige: 5) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

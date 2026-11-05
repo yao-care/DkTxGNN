@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nitrofurantoin: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **reumatoid artritis**
 | Forudsagt ny indikation | Reumatoid artritis |
 | TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

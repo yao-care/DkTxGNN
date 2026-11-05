@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cladribine: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede
 | Forudsagt ny indikation | Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) |
 | TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?

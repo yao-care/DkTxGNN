@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Budesonide: forudsagt ny indikation Atopisk eksem (score 0,9996)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
 monitor_inn: "budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -52,8 +52,8 @@ og der er **10 kliniske forsøg** og **20 publikationer** knyttet til denne retn
 | Forudsagt ny indikation | Atopisk eksem |
 | TxGNN-forudsigelsesscore | 0,9996 (atopisk eksem) |
 | Evidensniveau | L5 (bronkitis) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Carprofen"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "trigeminal autonomic cephalalgia", "gout"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Carprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der hæmmer
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
 | TxGNN-forudsigelsesscore | 0.9980 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -78,10 +78,6 @@ Currently ingen relaterede kliniske forsøg er registreret i de indsamlede data.
 | [6120390](https://pubmed.ncbi.nlm.nih.gov/6120390/) | 1982 | In vitro | Lancet | Hæmning af IgM-reumafaktorproduktion ca. 50 % |
 
 ## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105446814 | Canicaral Vet. | Tabletter | Indikationsteksten er ikke angivet i de danske data; produktet er et dyrlægemiddel (indehaver: Le Vet Beheer B.V.) |
 
 ## Sikkerhedsovervejelser
 

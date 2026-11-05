@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Milrinone: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske registrering. Litteraturen beskriver intrav…"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -48,8 +48,8 @@ Milrinon er en PDE3-hæmmer, der gives som infusion og bruges til hjertesvigt (i
 | Forudsagt ny indikation | Alopeci |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?

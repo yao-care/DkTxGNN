@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dexmedetomidin: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (TxGNN-score 0.9960, evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -52,8 +52,8 @@ Bemærk: Den højest rangerede forudsigelse fra modellen var nefrogent syndrom m
 | Forudsagt ny indikation | Hovedpineforstyrrelse (rang 4 af 5; rang 1 var nefrogent syndrom med uhensigtsmæssig antidiurese uden evidens) |
 | TxGNN-prædiktionsscore | 0.9960 (nefrogent syndrom med uhensigtsmæssig antidiurese) |
 | Evidensniveau | L5 for hovedpineforstyrrelse (begrænset i praksis, se nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold (fortsat forskningsspørgsmål, ikke klar til klinisk implementering) |
 
 Evidensniveauet L2 bygger på ét afsluttet fase 3-forsøg. Der er ingen offentliggjorte resultater, så niveauet bør tolkes forsigtigt. Forsøgene vedrører desuden udelukkende postdural punkturhovedpine, en sekundær hovedpinetype.
@@ -97,8 +97,11 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105772316 | Cepedex (CP-Pharma Handelsgesellschaft mbH) | Injektionsvæske, opløsning | Ikke angivet |
-| 28105039811 | Dexdomitor (Orion Corporation) | Injektionsvæske, opløsning | Ikke angivet |
+| 28104789810 | Dexdor | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+| 28105766216 | Dexmedetomidin "Ever Pharma" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+| 28106641321 | Dexmedetomidin "Ever Valinject" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+| 28106108718 | Dexmedetomidin "Kalceks" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+| 28105982117 | Dexmedetomidin "Mylan" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
 
 Begge tilladelser er gyldige. De forsøg, der er identificeret, anvender inhalation (nebulisering), som ikke er en godkendt administrationsvej i de danske tilladelser (kun injektionsvæske). Dette skal afklares.
 

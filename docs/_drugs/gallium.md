@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -70,8 +70,6 @@ Fordi `predicted_indications` arrayet er tomt, er det ikke muligt at vurdere, hv
 
 ## Markeredsinformation for Danmark
 
-Ingen markedsføringstilladelser er registreret for Gallium hos Lægemiddelstyrelsen. Lægemidlet er ikke i øjeblikket tilgængeligt på det danske marked i nogen form.
-
 > Bemærk: Gallium nitrat (Ganite®) har godkendelse i USA til hyperkalcæmi ved malignitet, men ingen tilsvarende EU/EMA eller national dansk godkendelse blev identificeret i dette datasæt.
 
 ---
@@ -89,7 +87,7 @@ Der er ingen sikkerhedsdata tilgængelig i denne evidenspakke. Alle felter under
 **Beslutning: Afvent**
 
 **Begrundelse:**
-Evidenspakken for Gallium er ikke brugbar i sin nuværende form — det forudsagte indikations array er tomt, ingen regulatorisk godkendelse eksisterer i Danmark, og alle sikkerhedsfelter mangler. Der er ingen TxGNN-output til vurdering, og ingen evidensbasis (kliniske forsøg eller litteratur) var knyttet til nogen indikation.
+Evidenspakken for Gallium er ikke brugbar i sin nuværende form — det forudsagte indikations array er tomt, og alle sikkerhedsfelter mangler. Der er ingen TxGNN-output til vurdering, og ingen evidensbasis (kliniske forsøg eller litteratur) var knyttet til nogen indikation.
 
 **For at fortsætte er følgende nødvendigt:**
 

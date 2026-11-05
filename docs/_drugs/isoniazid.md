@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: forudsagt ny indikation Konjunktivitis (conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Isoniazid er et antimykobakterielt lægemiddel, som oprindeligt bruges til behan
 | Forudsagt ny indikation | Konjunktivitis (conjunctivitis) |
 | TxGNN-forudsigelsesscore | 0.9936 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

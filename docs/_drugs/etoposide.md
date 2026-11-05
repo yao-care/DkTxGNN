@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: forudsagt ny indikation Well-differentiated fetal adenocarcinoma of the lung (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **Ewing-sarkom** (det 
 | Forudsagt ny indikation | Well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN-score | 0.9994 |
 | Evidensniveau | L5 (Ewing-sarkom) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Proceed with Guardrails (Ewing-sarkom og rabdomyosarkom); Hold for øvrige forudsigelser |
 
 ## Hvorfor er forudsigelsen rimelig?

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluoxetine: forudsagt ny indikation Skizotypisk personlighedsforstyrrelse (schizotypal personality disorder) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Fluoxetin er en selektiv serotoningenoptagelseshæmmer (SSRI), som anvendes mod 
 | Forudsagt ny indikation | Skizotypisk personlighedsforstyrrelse (schizotypal personality disorder) |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

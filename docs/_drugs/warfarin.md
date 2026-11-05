@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Warfarin: forudsagt ny indikation Heparin-cofaktor-2-mangel (rang 4) (evidensniveau L5). Oprindelig indikation: Lungeemboli, trombotisk sygdom, intrakraniel emboli"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -54,8 +54,8 @@ Evidensen er dog overvejende indirekte (oversigtsartikler og retningslinjer), og
 | Forudsagt ny indikation | Trombofili (rang 4); højest scorende: heparin cofactor 2-mangel (rang 1) |
 | TxGNN-forudsigelsesscore | Trombofili: 0,9975; Heparin-cofaktor-2-mangel: 0,9987 |
 | Evidensniveau | L5 (foreløbigt) for trombofili; L4 for heparin cofactor 2-mangel |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold (afventer; trombofili er markeret som forskningsspørgsmål) |
 
 **Vurdering af L1:** Det ene fase 3-forsøg har ukendt status, ingen resultater og tester en varighedsstrategi frem for warfarins effekt. Kriteriet om mindst to afsluttede fase 3-RCT'er er ikke opfyldt, så L1 bør betragtes som tvivlsomt, og et mere realistisk niveau er L3–L4.

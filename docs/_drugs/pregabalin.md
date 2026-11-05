@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L5)."
 ---
 
@@ -52,8 +52,8 @@ Bemærk: Den højest rangerede forudsigelse er senebetændelse (tendinitis, scor
 | Forudsagt ny indikation | Tendinitis |
 | TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L5 (se begrundelse nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |
 
@@ -102,7 +102,11 @@ Klinisk er signalerne dog begrænsede: de randomiserede studier er små og pædi
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106447720 | Bonqat | Oral opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28106528520 | Galberin | Kapsler, hårde | Ikke angivet |
+| 28107200424 | Galberin | Kapsler, hårde | Ikke angivet |
+| 28107200524 | Galberin | Kapsler, hårde | Ikke angivet |
+| 28106528420 | Galberin | Kapsler, hårde | Ikke angivet |
+| 28105832916 | Lyribastad | Kapsler, hårde | Ikke angivet |
 
 Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig.
 

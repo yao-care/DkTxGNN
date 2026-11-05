@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Bortezomib er en proteasom-inhibitor godkendt internationalt til multipelt myelo
 | Forudsagt ny indikation | Ikke tilgængelig — ingen forudsigelser til stede i aktuel evidenspakke |
 | TxGNN forudsigelsesscore | Ikke tilgængelig |
 | Bevisgrundlag | Ikke vurderbar |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | **Afvente** |
 
 > ⚠️ **Dataanmærkning:** Bortezomib markedsføres som **Velcade** under en EMA-centraliseret markedsføringstilladelse, der er gyldig på tværs af EU/EØS, herunder Danmark. Resultatet nul-licenser afspejler sandsynligvis et datalakke i den lokale Laegemiddelstyrelsen-databaseforespørgsel snarere end faktisk ikke-tilgængelighed. Dette bør verificeres mod EMA-produktdatabasen, før der drages konklusioner om dansk markedsstatus.

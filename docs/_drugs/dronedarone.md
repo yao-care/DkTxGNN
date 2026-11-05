@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 282
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Dronedaron er et antiarytmisk lægemiddel, der blokerer flere ionkanaler. TxGNN-
 | Forudsagt ny indikation | Slagtilfælde (stroke disorder) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

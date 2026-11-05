@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Flubendazole: forudsagt ny indikation Urinary bladder carcinoma (blærekræft) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
@@ -50,8 +50,8 @@ Flubendazol er et benzimidazol-ormemiddel, som i Danmark kun er registreret som 
 | Forudsagt ny indikation | Urinary bladder carcinoma (blærekræft) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 (kun modelforudsigelse). Den overordnede diagnose "urinary bladder neoplasm" er L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -84,10 +84,6 @@ Ingen af publikationerne omhandler flubendazol. De vedrører fenbendazol og er i
 ---
 
 ## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105012711 | Flimabend Vet. (KRKA d.d. Novo mesto) | Suspension til anvendelse i drikkevand | Ikke angivet |
 
 Produktet er et veterinærlægemiddel. Der er ikke fundet humane præparater med flubendazol.
 

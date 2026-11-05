@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ravulizumab: forudsagt ny indikation Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri"
 ---
 
@@ -48,8 +48,8 @@ Ravulizumab er et langtidsvirkende antistof mod komplementfaktor C5, og relation
 | Forudsagt ny indikation | Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

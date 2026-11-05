@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tolvaptan: forudsagt ny indikation Renal-hepatic-pancreatic dysplasia (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at den kan have effekt ved **renal-hepatisk-pankreati
 | Forudsagt ny indikation | Renal-hepatic-pancreatic dysplasia |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

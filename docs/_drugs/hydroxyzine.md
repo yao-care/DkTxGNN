@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Rosacea-konjunkt
 | Forudsagt ny indikation | Rosacea conjunctivitis |
 | TxGNN-forudsigelsesscore | 0.9970 |
 | Evidensniveau | L5 (ingen kliniske forsøg; litteraturen består af oversigtsartikler og kasuistikker, og der foreligger ingen hydroxyzin-specifikke forsøgsdata for netop denne indikation) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

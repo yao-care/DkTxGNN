@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ritonavir: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -54,8 +54,8 @@ Bemærk: Rapporten omhandler den næstrangerede forudsigelse, da den har det mes
 | Forudsagt ny indikation | Feline acquired immunodeficiency syndrome |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 Evidensniveauet er L5, fordi ingen af de citerede studier undersøger ritonavir som behandling af SIV-infektion direkte i en måde, der kan understøtte en ny indikation. Studierne er dyremodel- eller laboratoriestudier, hvor ritonavir i højst to tilfælde indgår eksplicit.

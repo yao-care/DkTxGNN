@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Morphin er en opioid og en µ-opioidreceptoragonist med veletableret smertestill
 | Forudsagt ny indikation | Myofascielt smertesyndrom (myofascial pain syndrome) |
 | TxGNN-forudsigelsesscore | 0.9975 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

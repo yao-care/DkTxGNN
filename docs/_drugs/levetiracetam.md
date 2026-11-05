@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Levetiracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 
@@ -50,8 +50,8 @@ Levetiracetam er et antiepileptikum, som i den viden, der er indgået i denne ra
 | Forudsagt ny indikation | Beta-ketothiolase-mangel |
 | TxGNN-forudsigelsesscore | 0,9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

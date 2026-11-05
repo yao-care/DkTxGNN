@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,8 +54,8 @@ Bemærk: Den højest rangerede forudsigelse i modellen er *benign paroksystisk t
 | Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
 | TxGNN-forudsigelsesscore | 0.9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---

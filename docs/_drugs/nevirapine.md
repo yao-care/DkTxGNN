@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nevirapin: forudsagt ny indikation felint ervervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS"
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en p
 | Forudsagt ny indikation | Felint ervervet immundefektsyndrom |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

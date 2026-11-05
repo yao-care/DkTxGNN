@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Codein er et opioid, som i Danmark er markedsført som oral opløsning. Den prim
 | Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ibuprofen: forudsagt ny indikation Akromesomel dysplasi af Hunter-Thompson-typen (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokal…"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomel dysplasi af 
 | Forudsagt ny indikation | Akromesomel dysplasi af Hunter-Thompson-typen (acromesomelic dysplasia, Hunter-Thompson type) |
 | TxGNN-forudsigelsesscore | 0.9974 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

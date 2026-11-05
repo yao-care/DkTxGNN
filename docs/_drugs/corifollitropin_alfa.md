@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Corifollitropin Alfa: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (teksten om godkendt indikation er…"
 ---
 
@@ -50,8 +50,8 @@ Corifollitropin alfa er en langtidsvirkende, rekombinant FSH-agonist, som er reg
 | Forudsagt ny indikation | Gastroduodenitis |
 | TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

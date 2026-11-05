@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ranolazine: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (ranolazin er kendt …"
 monitor_inn: "ranolazine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ Ranolazin er et lægemiddel mod kroniske hjertekramper (angina pectoris), der i 
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

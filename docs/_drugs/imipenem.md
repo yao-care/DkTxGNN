@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** ti
 | Forudsagt ny indikation | Diffus sklerodermi (diffuse scleroderma) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

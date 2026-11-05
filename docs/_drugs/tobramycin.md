@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tobramycin: forudsagt ny indikation Eksponeringskeratitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske produkttekst. Videnskabsgrafen registrerer…"
 ---
 
@@ -52,8 +52,8 @@ Forudsigelsen bygger derfor reelt kun på modellen.
 | Forudsagt ny indikation | Eksponeringskeratitis |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 | Anbefalet beslutning | Hold |
 
 ---

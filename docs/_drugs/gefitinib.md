@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Gefitinib: forudsagt ny indikation Fibromatose i gingiva (fibromatosis, gingival) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Gefitinib er en EGFR-tyrosinkinasehæmmer, som oprindeligt anvendes til behandli
 | Forudsagt ny indikation | Fibromatose i gingiva (fibromatosis, gingival) |
 | TxGNN-prædiktionsscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

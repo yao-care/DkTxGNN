@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cilastatin: forudsagt ny indikation Staphylococcus aureus-infektion (staphylococcus aureus infection) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Cilastatin er en hæmmer af enzymet dehydropeptidase-I i nyrerne og bruges samme
 | Forudsagt ny indikation | Staphylococcus aureus-infektion (staphylococcus aureus infection) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

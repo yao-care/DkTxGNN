@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Entacapone: forudsagt ny indikation PLA2G6-associeret neurodegeneration (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom"
 monitor_inn: "entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 | Forudsagt ny indikation | PLA2G6-associeret neurodegeneration |
 | TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

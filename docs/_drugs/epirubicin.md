@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: forudsagt ny indikation Primært pulmonalt lymfom (primary pulmonary lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Epirubicin er et cytotoksisk antracyklin, der virker som topoisomerase II-hæmme
 | Forudsagt ny indikation | Primært pulmonalt lymfom (primary pulmonary lymphoma) |
 | TxGNN-forudsigelsesscore | 0.9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,8 +54,8 @@ Forudsigelsen med højest score er pulmonal hypertension (0,9954), men den er ku
 | Forudsagt ny indikation | Pulmonary hypertension |
 | TxGNN-forudsigelsesscore | 0.9954 |
 | Evidensniveau | L5 (et gennemført fase 3-RCT samt metaanalyser; styrken er begrænset af lille stikprøve) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

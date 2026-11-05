@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Siltuximab: forudsagt ny indikation Ekstrakutant mastocytom (evidensniveau L5). Oprindelig indikation: Castlemans sygdom"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **ekstrakutant mastocytom*
 | Forudsagt ny indikation | Ekstrakutant mastocytom |
 | TxGNN-forudsigelsesscore | 0,9964 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

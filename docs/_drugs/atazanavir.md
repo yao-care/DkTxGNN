@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "atazanavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atazanavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Atazanavir er en proteasehæmmer, som er udviklet til behandling af hiv-infektio
 | Forudsagt ny indikation | Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

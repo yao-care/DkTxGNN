@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en c
 | Forudsagt ny indikation | Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -87,7 +87,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107387325 | Doxycyclin "Cabo" (Cabo Medicine ApS) | Tabletter | Indikationsteksten var ikke tilgængelig i de indsamlede data |
-| 28101310287 | Ronaxan Vet. (Boehringer Ingelheim Animal Health Nordics A/S) | Tabletter | Indikationsteksten var ikke tilgængelig. Produktet er et veterinærlægemiddel til dyr |
 
 Begge tilladelser er gyldige nationale tilladelser for enkeltstofpræparater. Kun oral administration (tabletter) er repræsenteret. Der er ingen øjendråber eller andre okulære formuleringer blandt tilladelserne, og kompatibiliteten med en eventuel okulær administrationsvej er ikke vurderet.
 

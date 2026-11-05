@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Denne rapport opsummerer den aktuelle datastatus og identificerer de løsningstr
 | Forudsagt ny indikation | Ikke tilgængelig — TxGNN-modellen returnerede ingen forudsigelser |
 | TxGNN-forudsigelsesscore | Ikke tilgængelig |
 | Evidensniveau | Ikke bestemmelig |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | **Vent** |
 
 ---

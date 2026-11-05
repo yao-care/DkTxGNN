@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Epinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem…"
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -52,8 +52,8 @@ og der er i de data, der er indsamlet til denne rapport, **15 kliniske forsøg**
 | Forudsagt ny indikation | Obstruktiv lungesygdom |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

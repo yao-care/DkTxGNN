@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Axitinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom"
 ---
 
@@ -50,8 +50,8 @@ Axitinib er en tyrosinkinasehæmmer, som oprindeligt er registreret i vidensgraf
 | Forudsagt ny indikation | Liposarkom |
 | TxGNN-forudsigelsesscore | 0,9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 | Anbefalet beslutning | Hold |
 
 ---

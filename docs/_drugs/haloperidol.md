@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Haloperidol: forudsagt ny indikation Congenital disorder of glycosylation with defective fucosylation (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,8 +51,8 @@ Forudsigelsen er rent beregningsbaseret. De sammenstillede data indeholder **ing
 | Forudsagt ny indikation | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

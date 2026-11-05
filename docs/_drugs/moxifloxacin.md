@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Moxifloxacin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (bl.a. streptokok- og stafylokokinfektioner…"
 monitor_inn: "moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 | Forudsagt ny indikation | Polyklonalt hyperviskositetssyndrom |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---

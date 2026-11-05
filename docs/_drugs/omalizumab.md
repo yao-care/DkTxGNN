@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Omalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Omalizumab er et humaniseret monoklonalt antistof, der binder immunglobulin E (I
 | Forudsagt ny indikation | Bronkitis (bronchitis) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

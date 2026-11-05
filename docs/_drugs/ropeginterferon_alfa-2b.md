@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ropeginterferon Alfa-2B: forudsagt ny indikation Laubry-Pezzi syndrom (evidensniveau L5). Oprindelig indikation: Relationer registreret i knowledge graph'et: erhvervet polycythaemia…"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **Laubry-Pezzi syndrom**, 
 | Forudsagt ny indikation | Laubry-Pezzi syndrom |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

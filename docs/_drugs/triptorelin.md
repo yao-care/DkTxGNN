@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Triptorelin: forudsagt ny indikation Hypertrichose (hypertrichosis (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Triptorelin er en GnRH-agonist, der undertrykker kønshormoner fra kønskirtlern
 | Forudsagt ny indikation | Hypertrichose (hypertrichosis (disease)) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 *Note: Den præcise score er 0,99997 (afrundet til fire decimaler: 1,0000).*

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dalbavancin: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Dalbavancin er et lipoglykopeptid-antibiotikum med virkning mod grampositive bak
 | Forudsagt ny indikation | Postinfektiøs vaskulitis (postinfectious vasculitis) |
 | TxGNN-forudsigelsesscore | 0,9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?

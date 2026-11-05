@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Calcipotriol: forudsagt ny indikation Seboroisk keratose (evidensniveau L3). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 ---
 
@@ -50,8 +50,8 @@ Calcipotriol er et D3-vitaminanalog, som i Danmark er markedsført som salve (Ca
 | Forudsagt ny indikation | Seboroisk keratose |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal godkendelser | 1 national godkendelse |
 | Anbefalet beslutning | Hold (kan genvurderes som forskningsspørgsmål) |
 

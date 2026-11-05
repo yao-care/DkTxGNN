@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Remimazolam: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de tilgængelige data (godkendt indikationstekst er tom…"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -50,8 +50,8 @@ Remimazolam er en ultrakortvirkende benzodiazepin, som i Danmark er markedsført
 | Forudsagt ny indikation | Insomni |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Der er også en anden forudsigelse, **alkoholabstinensdelirium** (score 0,9930, evidensniveau L5), som er beskrevet nedenfor som et forskningsspørgsmål.

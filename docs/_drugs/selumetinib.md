@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 description: "Selumetinib: forudsagt ny indikation Familial generalized lentiginosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Selumetinib er en MEK-hæmmer, der oprindeligt anvendes mod neurofibromatose. Tx
 | Forudsagt ny indikation | Familial generalized lentiginosis |
 | TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold (afvent resultater; se begrundelse) |
 
 ---

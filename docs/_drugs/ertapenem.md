@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: forudsagt ny indikation Bacterial arthritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultate
 | Forudsagt ny indikation | Bacterial arthritis |
 | TxGNN-forudsigelsesscore | 0.9972 |
 | Evidensniveau | L5 (jf. klassificering i de kompilerede data; ingen afsluttede RCT'er, evidensen er case-serier, kohorter og to igangværende forsøg) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ---

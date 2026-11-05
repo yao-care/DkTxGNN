@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 215
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Evidensen består af **1 afsluttet fase 2-forsøg** og **en systematisk oversigt
 | Forudsagt ny indikation | Manisk bipolar affektiv lidelse (manic bipolar affective disorder) |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ## Hvorfor er forudsigelsen rimelig?

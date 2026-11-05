@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 595
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale …"
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg**, men **16 publikationer** er iden
 | Forudsagt ny indikation | Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) |
 | TxGNN-forudsigelsesscore | 0.9942 |
 | Evidensniveau | L2 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 *Bemærkning om evidensniveau:* L2 er den klassificering, der fremgår af de sammenstillede data. Den bygger på ét RCT i børn og unge (Prince et al., 2000) samt en Cochrane-oversigt, ikke på et registreret Fase 2/3-forsøg. Evidensen skal derfor tolkes med forsigtighed.

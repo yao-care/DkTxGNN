@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 689
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: forudsagt ny indikation Fibrocystisk brystsygdom (breast fibrocystic disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de inds
 | Forudsagt ny indikation | Fibrocystisk brystsygdom (breast fibrocystic disease) |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

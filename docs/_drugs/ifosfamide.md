@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ifosfamide: forudsagt ny indikation Kvindelig brystkarcinom (female breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for Holoxan er…"
 monitor_inn: "ifosfamide"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -50,8 +50,8 @@ Ifosfamid er et alkylerende cytostatikum (prodrug), som i Danmark er markedsfør
 | Forudsagt ny indikation (højeste score) | Kvindelig brystkarcinom (female breast carcinoma) |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 for brystkarcinom (fase 2-forsøg, ingen fase 3). Til sammenligning: L1 for rhabdomyosarkom |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Brystkarcinom: Hold (forskningsspørgsmål). Rhabdomyosarkom: Proceed with Guardrails |
 
 > **Bemærk:** Den højest rangerede forudsigelse er brystkarcinom. Rhabdomyosarkom (rang 7, score 0,9967) har dog markant stærkere evidens. Rapporten fokuserer primært på brystkarcinom og beskriver rhabdomyosarkom som sammenligning. Øvrige forudsigelser omtales kort nedenfor.

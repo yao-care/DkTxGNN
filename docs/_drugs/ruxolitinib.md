@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: forudsagt ny indikation Uterine corpus perivascular epithelioid cell tumor (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Ruxolitinib er en JAK1/2-hæmmer, der oprindeligt anvendes ved myeloproliferativ
 | Forudsagt ny indikation | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN-forudsigelsesscore | 0.9973 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

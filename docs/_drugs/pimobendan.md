@@ -5,7 +5,7 @@ layout: default
 title: Pimobendan
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 662
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pimobendan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Pimobendan"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ---
 
 ## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106691121 | Cardisan Vet. (Alfasan Nederland BV) | Tyggetabletter | Indikationstekst ikke angivet |
 
 Tilladelsen er national, gyldig og omfatter et enkeltstofprodukt til oral anvendelse. Produktet er et veterinærlægemiddel, ikke en human specialitet.
 

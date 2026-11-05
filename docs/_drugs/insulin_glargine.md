@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Insulin Glargine: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus"
 monitor_inn: "insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -52,8 +52,8 @@ men der foreligger **ingen kliniske forsøg** og **ingen publikationer** for den
 | Forudsagt ny indikation | Autoimmun oophoritis |
 | TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---

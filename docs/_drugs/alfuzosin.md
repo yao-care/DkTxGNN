@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alfuzosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -52,8 +52,8 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøt
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---

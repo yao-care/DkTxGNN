@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Anagrelide: forudsagt ny indikation Reaktiv trombocytose (evidensniveau L4). Oprindelig indikation: Trombocytæmi og familiær trombocytose"
 monitor_inn: "anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -50,8 +50,8 @@ men der findes **ingen registrerede kliniske forsøg** og kun **10 publikationer
 | Forudsagt ny indikation | Reaktiv trombocytose |
 | TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

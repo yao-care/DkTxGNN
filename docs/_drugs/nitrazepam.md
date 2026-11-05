@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan være effektivt ved **søvnforstyr
 | Forudsagt ny indikation | Søvnforstyrrelse, initiering og vedligeholdelse af søvn |
 | TxGNN-prædiktionsscore | 0,9931 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

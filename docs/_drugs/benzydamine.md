@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzydamine: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsernes indikationstekst e…"
 monitor_inn: "benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt ved **benign prostatahyper
 | Forudsagt ny indikation | Benign prostatahyperplasi |
 | TxGNN-forudsigelsesscore | 0.9926 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---

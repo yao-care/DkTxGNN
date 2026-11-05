@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Entecavir: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Datagrundlaget omfatter **2 kliniske forsøg** og **20 publikationer**, men inge
 | Forudsagt ny indikation | Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) |
 | TxGNN-prædiktionsscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ---

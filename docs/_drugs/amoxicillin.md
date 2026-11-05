@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amoxicillin: forudsagt ny indikation polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsa
 | Forudsagt ny indikation | polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) |
 | TxGNN-forudsigelsesscore | 0,9963 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -72,9 +72,11 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denn
 
 | Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106096118 | Trymox Vet. | Injektionsvæske, suspension | Ikke registreret i lokale data |
-
-Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført.
+| 28106689521 | Ageniprim | Dispergible tabletter | Ikke angivet |
+| 28106689621 | Ageniprim | Dispergible tabletter | Ikke angivet |
+| 28107596826 | Amoklax | Filmovertrukne tabletter | Ikke angivet |
+| 28105275113 | Amoxar | Dispergible tabletter | Ikke angivet |
+| 28105275213 | Amoxar | Dispergible tabletter | Ikke angivet |
 
 ## Sikkerhedsovervejelser
 

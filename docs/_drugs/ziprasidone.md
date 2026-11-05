@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 903
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: forudsagt ny indikation Trikotillomani (trichotillomania) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ Forudsigelsen er derfor alene modelbaseret.
 | Forudsagt ny indikation | Trikotillomani (trichotillomania) |
 | TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

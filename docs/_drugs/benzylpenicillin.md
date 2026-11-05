@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzylpenicillin: forudsagt ny indikation Pericoronitis (evidensniveau L5). Oprindelig indikation: Infektiøs mellemørebetændelse, streptokokinfektion…"
 monitor_inn: "benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pericoronitis**, men
 | Forudsagt ny indikation | Pericoronitis |
 | TxGNN-forudsigelsesscore | 0,9936 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
-| Antal markedsføringstilladelser | 6 (gyldige: 6) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -96,9 +96,6 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28106654121 | Penicryl | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 | 28106837822 | Benzylpenicillin "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28103593003 | Benzylpenicillin Vetcare (veterinær) | Intramammær suspension | Indikationstekst ikke tilgængelig |
-| 28100193656 | Streptocillin Vet. (veterinær) | Injektionsvæske, suspension | Indikationstekst ikke tilgængelig |
-| 28100916877 | Mastitar Retard Vet. (veterinær) | Intramammær salve | Indikationstekst ikke tilgængelig |
 
 En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion.
 

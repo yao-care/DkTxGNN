@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benazepril: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Benazepril er en ACE-hæmmer. Ifølge de data, der er indsamlet til denne rappor
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom (malignant hypertensive renal disease) |
 | TxGNN-forudsigelsesscore | 0,9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -79,12 +79,6 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 ## Markedsinformation for Danmark
 
 Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof. De er ikke godkendt til human brug.
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107214724 | Benadil Vet. | Filmovertrukne tabletter | Ikke angivet i lokale data |
-| 28104952611 | Cardalis | Tyggetabletter | Ikke angivet i lokale data |
-| 28105341413 | Fortekor Plus | Tabletter | Ikke angivet i lokale data |
 
 ---
 

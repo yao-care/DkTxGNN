@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 692
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: forudsagt ny indikation Distal myopati, Tateyama-type (distal myopathy, Tateyama type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **distal myopat
 | Forudsagt ny indikation | Distal myopati, Tateyama-type (distal myopathy, Tateyama type) |
 | TxGNN-forudsigelsesscore | 0.9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---

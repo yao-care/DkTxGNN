@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 691
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Propofol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propo…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -50,8 +50,8 @@ Propofol er et intravenøst narkosemiddel, der anvendes til bedøvelse og sedati
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9969 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -97,7 +97,11 @@ Forholdet mellem den oprindelige brug (anæstesi/sedation) og migræne er derfor
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28105054212 | Norfol (Norbrook Laboratories (Ireland) Limited) | Injektionsvæske, emulsion | Indikationstekst ikke tilgængelig i de indsamlede data |
+| 28104629609 | Profast | Injektions-/infusionsvæske, emulsion | Ikke angivet |
+| 28104629709 | Profast | Injektions-/infusionsvæske, emulsion | Ikke angivet |
+| 28106567521 | Propofol "2care4" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
+| 28103114099 | Propofol "B. Braun" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
+| 28103294001 | Propofol "B. Braun" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
 
 ---
 

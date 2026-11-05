@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: forudsagt ny indikation Nervøs lidelse (neurotic disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Vortioxetin er et antidepressivt lægemiddel med serotonerg virkning. TxGNN-mode
 | Forudsagt ny indikation | Nervøs lidelse (neurotic disorder) |
 | TxGNN-forudsigelsesscore | 0.9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

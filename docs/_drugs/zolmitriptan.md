@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 906
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ men der er **ingen registrerede kliniske forsøg** og kun **generel litteratur o
 | Forudsagt ny indikation | Atrophoderma vermiculata |
 | TxGNN-prædiktionsscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---

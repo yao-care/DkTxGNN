@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Azathioprine: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5). Oprindelig indikation: Ikke reg…"
 ---
 
@@ -48,8 +48,8 @@ Azathioprin er et immunsuppressivt middel, der hæmmer purinsyntesen. Den højes
 | Forudsagt ny indikation | Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rifampicin: forudsagt ny indikation Konjunktivitis (evidensniveau L5). Oprindelig indikation: Lungetuberkulose"
 ---
 
@@ -48,8 +48,8 @@ Rifampicin er et antibiotikum, der oprindeligt anvendes til behandling af lunget
 | Forudsagt ny indikation | Konjunktivitis |
 | TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 Bemærkning om evidensniveau: De hentede studier omhandler for det meste bakteriel følsomhed, kasuistikker og ældre undersøgelser af lokal behandling. Ingen af dem er et kontrolleret forsøg med rifampicin ved konjunktivitis, der kan løfte evidensen over L5. Det ældre trakomstudie (1975) vedrører en beslægtet øjeninfektion, ikke konjunktivitis som sådan.

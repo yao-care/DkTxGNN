@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Finasteride: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -52,8 +52,8 @@ Forudsigelsen er udelukkende beregningsbaseret og bør derfor tolkes med stor fo
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

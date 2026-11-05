@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clobazam: forudsagt ny indikation Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **2 publika
 | Forudsagt ny indikation | Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome) |
 | TxGNN-forudsigelsesscore | 0,9982 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Etonogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (implantatet er et hormonelt præv…"
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
@@ -52,8 +52,8 @@ Amenoré er en kendt bivirkning af implantatet, så scoren stammer fra TxGNN-mod
 | Forudsagt ny indikation | Amenoré |
 | TxGNN-forudsigelsesscore | 0,9984 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

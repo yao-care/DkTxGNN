@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
 description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Pentobarbital er et barbiturat, der oprindeligt anvendes mod epilepsi, søvnløs
 | Forudsagt ny indikation | Fedme (obesity disorder) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -88,10 +88,6 @@ Ingen af artiklerne undersøger pentobarbital som behandling af fedme. Nedenfor 
 ---
 
 ## Information om markedet i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105220513 | Euthanimal (Alfasan Nederland BV) | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
 
 ---
 

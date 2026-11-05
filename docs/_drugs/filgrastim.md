@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Filgrastim: forudsagt ny indikation Primary release disorder of platelets (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 | Forudsagt ny indikation | Primary release disorder of platelets |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---

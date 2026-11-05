@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: forudsagt ny indikation Glaukom (glaucoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Rivastigmin er en kolinesterasehæmmer, der oprindeligt anvendes til behandling 
 | Forudsagt ny indikation | Glaukom (glaucoma) |
 | TxGNN-forudsigelsesscore | 0.9927 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

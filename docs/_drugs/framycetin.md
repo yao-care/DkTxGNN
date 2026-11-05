@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Framycetin: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -50,8 +50,8 @@ Framycetin er et aminoglykosid-antibiotikum (neomycin B), der i Danmark er godke
 | Forudsagt ny indikation | Skleroserende cholangitis |
 | TxGNN-forudsigelsesscore | 0,9966 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -82,8 +82,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28100578370 | Benestermycin Vet. (Boehringer Ingelheim Vetmedica GmbH) | Intramammær suspension | Ikke angivet |
-| 28100643674 | Canaural (Dechra Veterinary Products A/S) | Øredråber | Ikke angivet |
 | 28101903697 | Proctosedyl (Orifarm A/S) | Rektalsalve | Ikke angivet |
 
 Bemærk, at to af de tre produkter er veterinærlægemidler (Benestermycin Vet. og Canaural). Humant er kun Proctosedyl (rektalsalve) repræsenteret.

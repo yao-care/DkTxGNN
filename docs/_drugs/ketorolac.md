@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Forudsigelsen understøttes af **17 kliniske forsøg** og **19 publikationer** i
 | Forudsagt ny indikation | Hovedpinelidelser (headache disorder) |
 | TxGNN-forudsigelsesscore | 0.9943 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---
@@ -135,7 +135,6 @@ Begge tilladelser er gyldige og gælder ketorolac som enkeltstof. Ingen af de da
 Der foreligger flere afsluttede kliniske forsøg (fase 2–4), flere systematiske reviews/meta-analyser og retningslinjer for ketorolac ved akut migræne og spændingshovedpine, hvilket giver et solidt evidensgrundlag (L1). Sikkerhedsprofilen (mave-tarm, nyrer, hjerte-kar, mange interaktioner) kræver dog klare rammer, og de danske godkendelser dækker kun øjenprodukter.
 
 **For at komme videre kræves:**
-- Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data.
 - Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler.
 - Data om den oprindelige virkningsmekanisme (MOA) fra DrugBank.
 - Tydelig doserings- og varighedsbegrænsning samt screening for kontraindikationer og interaktioner (især acetylsalicylsyre, lithium og antikoagulantia).

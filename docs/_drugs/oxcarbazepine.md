@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: forudsagt ny indikation Restless legs syndrome (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **visuel epilepsi**, men d
 | Forudsagt ny indikation | Restless legs syndrome |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 20 af 20) |
+| Antal markedsføringstilladelser | 20 (gyldige: 20) |
 | Anbefalet beslutning | Hold |
 
 ---

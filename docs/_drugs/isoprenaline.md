@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Isoprenaline: forudsagt ny indikation Næsehulesygdom (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
 monitor_inn: "isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
@@ -52,8 +52,8 @@ Bemærk, at den højest rangerede forudsigelse er *næsehulesygdom* (score 0,999
 | Forudsagt ny indikation | Bronkial sygdom (rang 6; rang 1 er næsehulesygdom) |
 | TxGNN-forudsigelsesscore | 0,9995 (næsehulesygdom) |
 | Evidensniveau | L5 (bronkial sygdom); L5 (næsehulesygdom) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (for den højest rangerede forudsigelse); Research Question (bronkial sygdom) |
 
 ---

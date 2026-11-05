@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 20
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acitretin: forudsagt ny indikation Akne (acne) (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **akne**. Evidense
 | Forudsagt ny indikation | Akne (acne) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

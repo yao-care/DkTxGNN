@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dipyridamole: forudsagt ny indikation Sick sinus syndrome 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Dipyridamol er i videnskabsdatabasen (vidensgrafen) registreret med relation til
 | Forudsagt ny indikation | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN-forudsigelsesscore | 0.9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 Denne rapport fokuserer på TIA, som er den forudsigelse, der har direkte evidens.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Pembrolizumab"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pembrolizumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, lungekræft og metastatisk melanom"
 ---
 
@@ -48,8 +48,8 @@ Pembrolizumab er et PD-1-hæmmende antistof, som i den viden, der er indsamlet t
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 0,9940 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Antal godkendelser | 1 markedsføringstilladelse (enkeltstofpræparat) |
 | Anbefalet beslutning | Hold |
 

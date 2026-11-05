@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 878
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Velpatasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **hepatitis B-viru
 | Forudsagt ny indikation | Hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 0,9987 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

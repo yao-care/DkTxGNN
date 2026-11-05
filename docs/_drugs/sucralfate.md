@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 776
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sucralfate: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L2). Oprindelig indikation: Duodenalsår"
 monitor_inn: "sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg**, men **10 publikationer** (heribl
 | Forudsagt ny indikation | Duodenogastrisk refluks |
 | TxGNN-forudsigelsesscore | 0,9937 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

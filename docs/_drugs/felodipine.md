@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Felodipin er en dihydropyridin-calciumkanalblokker, der oprindeligt anvendes til
 | Forudsagt ny indikation | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN-prædiktionsscore | 0.9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: De data, der er sammenstillet til denne rapport, indeholder ikke godkendt indikationstekst fra Lægemiddelstyrelsen.

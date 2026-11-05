@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fosfomycin: forudsagt ny indikation Uterine inflammatory disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Fosfomycin er et antibiotikum, hvis tilknytning til urinvejsinfektion er registr
 | Forudsagt ny indikation | Uterine inflammatory disease |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

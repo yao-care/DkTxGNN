@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ambrisentan: forudsagt ny indikation Pulmonal arteriovenøs malformation (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
@@ -50,8 +50,8 @@ Ambrisentan er en selektiv endothelin-A-receptorantagonist, der oprindeligt er k
 | Forudsagt ny indikation | Pulmonal arteriovenøs malformation |
 | TxGNN-forudsigelsesscore | 0,9941 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "Idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Idelalisib: forudsagt ny indikation Mantelcellelymfom (mantle cell lymphoma) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Idelalisib er en oral, selektiv hæmmer af PI3K-delta, som anvendes til behandli
 | Forudsagt ny indikation | Mantelcellelymfom (mantle cell lymphoma) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?

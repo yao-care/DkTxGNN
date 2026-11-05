@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Melatonin (DB01065) er et endogent neurohormom, der primært er forbundet med re
 | Forudsagt ny indikation | Ingen forudsigelser tilgængelige |
 | TxGNN-forudsigelsesscore | N/A |
 | Bevisniveau | N/A — pipeline har ikke produceret output |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | **Vent** |
 
 ---
@@ -86,11 +86,8 @@ Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel. Der er ikk
 
 ## Danmarks markedsinformation
 
-Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske Lægemiddelstyrelse på fil.
-
 | Emne | Detalje |
 |------|---------|
-| Markedsstatus | Ikke markedsført i Danmark (ifølge Evidenspakke) |
 | Samlede tilladelser | 0 |
 
 > **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark.

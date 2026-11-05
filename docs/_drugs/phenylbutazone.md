@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
 description: "Phenylbutazone: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5)."
@@ -38,7 +38,7 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 ## Resumé
 
-Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver.
+Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID).
 TxGNN-modellen forudsiger, at det kan have effekt ved **kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**,
 men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøtter forudsigelsen.
 
@@ -82,7 +82,7 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104996611 | Butagran Equi (Dopharma Research B.V.) | Oralt pulver | Ikke oplyst i de indsamlede data |
+| 28100713876 | Fenylbutazon "OBA" | Tabletter | Ikke angivet |
 
 Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.
 
@@ -116,7 +116,7 @@ Forudsigelsen bygger alene på en modelberegning (evidensniveau L5) uden klinisk
 - Data om virkningsmekanisme (MOA) og en begrundet biologisk hypotese for sygdommen
 - Prækliniske data eller litteratur, som direkte undersøger sygdommen
 - Fuldstændige sikkerhedsoplysninger fra produktresuméet, herunder advarsler og kontraindikationer
-- Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært
+- Vurdering af administrationsvej og målgruppe
 
 ## Ansvarsfraskrivelse
 

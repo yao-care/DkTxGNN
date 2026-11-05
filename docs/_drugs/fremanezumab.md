@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ Der er endnu **ingen registrerede kliniske forsøg** og **20 publikationer** i d
 | Forudsagt ny indikation | Atrophoderma vermiculata |
 | TxGNN-forudsigelsesscore | 0.9904 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (fortsat som forskningsspørgsmål) |
 
 Bemærk: Den godkendte indikationstekst for det danske produkt er ikke tilgængelig i de indsamlede data. Den oprindelige indikation er derfor baseret på de indikationer, der fremgår af videnbasen (migræne).

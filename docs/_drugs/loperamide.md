@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Den høje score afspejler sandsynligvis ligheder, som TxGNN-modellen (deep learn
 | Foreslået ny indikation | Akut smitsom konjunktivitis (acute contagious conjunctivitis) |
 | TxGNN-prædiktionsscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 ---

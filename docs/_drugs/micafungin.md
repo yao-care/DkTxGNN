@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 549
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen består af **0 registrerede kliniske forsøg** og **13 publikationer**
 | Forudsagt ny indikation | Urinvejsinfektion (urinary tract infection (disease)) |
 | TxGNN-forudsigelsesscore | 0.9903 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

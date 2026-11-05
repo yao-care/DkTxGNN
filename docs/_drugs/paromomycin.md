@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: forudsagt ny indikation Idiopathic copper-associated cirrhosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **idiopatisk kobberassocie
 | Forudsagt ny indikation | Idiopathic copper-associated cirrhosis |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -82,10 +82,6 @@ Til information: For den lavere rangerede forudsigelse *peritonitis* blev der fu
 ---
 
 ## Markedsinformation i Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106115918 | Cryptofor | Oral opløsning | Ikke angivet i de tilgængelige data |
 
 Producent: Huvepharma NV. Status: gyldig, enkeltstofpræparat.
 

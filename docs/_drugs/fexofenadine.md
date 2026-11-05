@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Der er i øjeblikket **0 kliniske forsøg** og **0 publikationer**, der underst�
 | Forudsagt ny indikation | Rosacea-konjunktivitis (rosacea conjunctivitis) |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

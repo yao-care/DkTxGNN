@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 66
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Anidulafungin: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Anidul
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
 | Registrerede kendte anvendelser for dette lægemiddel | 3 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 
 ## Registrerede kendte anvendelser for dette lægemiddel
 

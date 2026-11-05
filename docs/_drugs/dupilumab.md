@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dupilumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Atopisk eksem"
 ---
 
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **bronkitis**. 
 | Forudsagt ny indikation | Bronkitis |
 | TxGNN-prædiktionsscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

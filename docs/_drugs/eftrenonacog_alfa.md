@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Eftrenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
@@ -50,8 +50,8 @@ men der er **0 kliniske forsøg** og **0 publikationer**, som støtter denne ret
 | Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
 | TxGNN-forudsigelsesscore | 0.9948 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?

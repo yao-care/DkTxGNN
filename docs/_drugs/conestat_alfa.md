@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Conestat alfa"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Conestat Alfa: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
@@ -48,8 +48,8 @@ Conestat alfa er et rekombinant C1-esterasehæmmerprotein, som er registreret og
 | Forudsagt ny indikation | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

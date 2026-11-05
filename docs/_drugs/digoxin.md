@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Digoxin: forudsagt ny indikation Prinzmetal angina (evidensniveau L5). Oprindelig indikation: Atrieflimren og digitalisforgiftning"
 ---
 
@@ -50,8 +50,8 @@ Digoxin er en hjerteglykosid, som i videnbasen (knowledge graph) er registreret 
 | Forudsagt ny indikation | Prinzmetal angina |
 | TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

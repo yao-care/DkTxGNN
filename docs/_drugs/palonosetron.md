@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 627
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Palonosetron: forudsagt ny indikation Migraine disorder (migræne) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -50,8 +50,8 @@ Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmar
 | Forudsagt ny indikation | Migraine disorder (migræne) |
 | TxGNN-forudsigelsesscore | 0,9974 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

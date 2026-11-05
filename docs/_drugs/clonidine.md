@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clonidine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Clonidin er en alfa-2-adrenerg agonist, som dæmper noradrenerg aktivitet i cent
 | Forudsagt ny indikation | Faciodigitogenitalt syndrom (faciodigitogenital syndrome) |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

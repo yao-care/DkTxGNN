@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyclopentolate: forudsagt ny indikation Cauda equina-syndrom (cauda equina syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ men der er hverken registreret **kliniske forsøg** eller **publikationer**, der
 | Forudsagt ny indikation | Cauda equina-syndrom (cauda equina syndrome) |
 | TxGNN-forudsigelsesscore | 0,9954 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

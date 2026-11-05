@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices without bleeding (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **esophageal varic
 | Forudsagt ny indikation | Esophageal varices without bleeding |
 | TxGNN-prædiktionsscore | 0.9923 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

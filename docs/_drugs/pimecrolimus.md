@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 661
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: forudsagt ny indikation Seborrheic dermatitis (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -49,8 +49,8 @@ og forudsigelsen understøttes af **1 klinisk fase 2-forsøg** og **18 publikati
 | Forudsagt ny indikation | Seborrheic dermatitis |
 | TxGNN-prædiktionsscore | 0.9973 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ## Hvorfor er forudsigelsen rimelig?

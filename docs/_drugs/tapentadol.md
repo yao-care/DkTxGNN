@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tapentadol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten er tom)"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 0,9967
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

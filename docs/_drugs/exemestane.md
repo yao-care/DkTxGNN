@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: forudsagt ny indikation Antithrombin deficiency type 2 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Rapporten fokuserer på den forudsagte indikation med mest litteratur (amenoré)
 | Forudsagt ny indikation | Antithrombin deficiency type 2 |
 | TxGNN-forudsigelsesscore | 0.9983 |
 | Evidensniveau | L5 (amenoré); L5 (antitrombin-mangel type 2) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

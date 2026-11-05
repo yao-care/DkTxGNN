@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: forudsagt ny indikation Skizoid personlighedsforstyrrelse (schizoid personality disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Sertralin er en selektiv serotonin-genoptagshæmmer (SSRI), der anvendes som ant
 | Forudsagt ny indikation | Skizoid personlighedsforstyrrelse (schizoid personality disorder) |
 | TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

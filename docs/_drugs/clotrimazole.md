@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clotrimazole: forudsagt ny indikation akne (acne (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **akne (acne (disease))**,
 | Forudsagt ny indikation | akne (acne (disease)) |
 | TxGNN-forudsigelsesscore | 0.9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -84,9 +84,6 @@ På nuværende tidspunkt foreligger der ingen relateret litteratur.
 | Godkendelsesnummer | Produktnavn | Lægemiddelform | Producent |
 |---------|------|------|-----------|
 | 28100608472 | Canesten | Creme | Bayer AB |
-| 28105725316 | Otoxolan | Øredråber, suspension | KRKA d.d. Novo mesto |
-| 28103247601 | Aurizon Vet. | Øredråber, suspension | Vetoquinol S.A. |
-| 28103082899 | Otomax Vet. | Øredråber, suspension | Intervet International B.V. |
 
 Alle fire tilladelser er gyldige.
 

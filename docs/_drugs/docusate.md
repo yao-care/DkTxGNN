@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Docusate: forudsagt ny indikation Plummer-Vinson syndrom (evidensniveau L5). Oprindelig indikation: Forstoppelse"
 monitor_inn: "docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
@@ -52,8 +52,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 | Forudsagt ny indikation | Plummer-Vinson syndrom |
 | TxGNN-forudsigelsesscore | 0.9918 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "phenylpropanolamine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der findes **ingen registrerede kliniske forsøg** og kun **3 publikationer*
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0.9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -85,10 +85,6 @@ Der er i øjeblikket ingen registrerede kliniske forsøg relateret til denne for
 ---
 
 ## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103455102 | Propaline Vet. til hund | Oral opløsning | Indikationstekst ikke angivet (veterinærlægemiddel, Vetoquinol S.A.) |
 
 Den eneste gyldige tilladelse gælder et veterinærlægemiddel til hund. Der er ikke fundet godkendte humane lægemidler med phenylpropanolamin i de data, der er indsamlet til denne rapport.
 

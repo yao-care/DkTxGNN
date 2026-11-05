@@ -5,7 +5,7 @@ layout: default
 title: Canagliflozin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 150
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,8 +42,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 |---------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Bevisniveau | L5 (modelprognosedata mangler; ingen understøttende undersøgelser linket i mappe) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Antal godkendelser til markedsføring | 0 (per Bevismappe) |
 
 ---

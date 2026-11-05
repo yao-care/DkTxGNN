@@ -5,7 +5,7 @@ layout: default
 title: Thiamphenicol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 822
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Thiamphenicol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Thiamphenicol"
 predicted_indications: []
@@ -43,14 +43,10 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ## Information om det danske marked
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105341713 | Taf Vet. (Eurovet Animal Health B.V.) | Kutanspray, opløsning | Ikke angivet |
 
 Bemærk, at det eneste godkendte præparat er et veterinærlægemiddel til anvendelse på huden. Der er ingen kendte humane præparater med thiamphenicol i de indsamlede data, og en kutan formulering er næppe egnet til en hjertetilstand.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Simoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 | Forudsagt ny indikation | Pseudo-von Willebrand sygdom |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pemetrexed: forudsagt ny indikation Pleural adenomatoid tumor (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg** og **18 publikationer** (10 vist 
 | Forudsagt ny indikation | Pleural adenomatoid tumor |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 (se begrundelse nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 19 af 19) |
+| Antal markedsføringstilladelser | 19 (gyldige: 19) |
 | Anbefalet beslutning | Hold |
 
 Evidensniveauet er L5, fordi ingen af de citerede studier undersøger pemetrexed ved perikardiecancer som sådan i et prospektivt eller kontrolleret design. Litteraturen omfatter overvejende generelle mesoteliom-oversigter og enkelte case-rapporter. Den automatiske vurdering i datagrundlaget angav L4, men den er nedjusteret efter reglerne om, at L4 eller højere kræver et studie, der direkte belyser den forudsagte sygdom med lægemidlet.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acrivastine: forudsagt ny indikation Recalcitrant atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Acrivastin er en andengenerations H1-antihistamin med minimal sedation. TxGNN-mo
 | Forudsagt ny indikation | Recalcitrant atopisk dermatitis (recalcitrant atopic dermatitis) |
 | TxGNN-forudsigelsesscore | 0,9966 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

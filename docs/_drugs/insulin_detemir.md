@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Insulin Detemir: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 ---
 
@@ -50,8 +50,8 @@ Insulin detemir er et langtidsvirkende insulinanalog, der oprindeligt anvendes t
 | Forudsagt ny indikation | Autoimmun oophoritis |
 | TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

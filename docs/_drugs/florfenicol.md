@@ -5,7 +5,7 @@ layout: default
 title: Florfenicol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 360
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Florfenicol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Florfenicol"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106130018 | Amphen (Huvepharma NV) | Granulat til anvendelse i drikkevand | Indikationstekst ikke angivet i de tilgængelige data |
 
 Produktet er en enkeltstof-tilladelse med gyldig status. Den eneste tilgængelige formulering er granulat til drikkevand, hvilket ikke er forenelig med en human anvendelse.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ezetimibe: forudsagt ny indikation Kolesterolester-transferprotein-mangel (evidensniveau L5). Oprindelig indikation: Hyperlipidæmi og beslægtede lidelser"
 ---
 
@@ -52,8 +52,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer, der direkte unde
 | Forudsagt ny indikation | Kolesterolester-transferprotein-mangel |
 | TxGNN-forudsigelsesscore | 0,9909 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

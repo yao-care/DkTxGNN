@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fulvestrant: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (den danske tilladelse indeholder in…"
 ---
 
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **HIV-infektion**.
 | Forudsagt ny indikation | HIV-infektion |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Antal godkendelser | 1 national markedsføringstilladelse (Lægemiddelstyrelsen) |
 | Anbefalet beslutning | Hold |
 

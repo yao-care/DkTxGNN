@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 | Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) |
 | TxGNN-forudsigelsesscore | 0.9926 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -84,8 +84,11 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106973823 | Cepeloron (CP-Pharma Handelsgesellschaft mbH) | Tyggetabletter | Indikationstekst ikke angivet |
-| MA 28104952611 | Cardalis (Ceva Santé Animale) | Tyggetabletter | Indikationstekst ikke angivet |
+| 28106702821 | Qaialdo | Oral suspension | Ikke angivet |
+| 28101084681 | Spirix | Tabletter | Ikke angivet |
+| 28100996278 | Spirix | Tabletter | Ikke angivet |
+| 28101199184 | Spirix | Tabletter | Ikke angivet |
+| 28104925811 | Spiron | Tabletter | Ikke angivet |
 
 Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater. Det bør verificeres, om tilladelserne vedrører human eller veterinær anvendelse, før de bruges som grundlag for en human indikationsvurdering.
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Clomipramine: forudsagt ny indikation Angstlidelse (anxiety disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Clomipramin er et tricyklisk antidepressivum, der hæmmer genoptagelsen af serot
 | Forudsagt ny indikation | Angstlidelse (anxiety disorder) |
 | TxGNN-forudsigelsesscore | 0.9993 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?

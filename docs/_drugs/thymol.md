@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Thymol: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den eneste autorisation har ingen…"
 ---
 
@@ -50,8 +50,8 @@ Thymol er et naturligt fenolisk monoterpen, som i Danmark findes i et veterinær
 | Forudsagt ny indikation | Interventrikulært septumaneurisme |
 | TxGNN-forudsigelsesscore | 0,9925 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---
@@ -79,10 +79,6 @@ Der er i øjeblikket ingen relateret litteratur om thymol og interventrikulært 
 ---
 
 ## Information om markedet i Danmark
-
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103399802 | Apiguard Vet. (Vita Bee Health Ltd.) | Gel | Indikationstekst er ikke angivet |
 
 Tilladelsen er en national enkeltstofstilladelse, og der er ikke anført flere. Produktet er et veterinært præparat.
 

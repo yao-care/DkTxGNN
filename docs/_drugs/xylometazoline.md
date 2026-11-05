@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 898
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ og der findes aktuelt **6 publikationer**, men **ingen registrerede kliniske for
 | Forudsagt ny indikation | Sygdomme i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

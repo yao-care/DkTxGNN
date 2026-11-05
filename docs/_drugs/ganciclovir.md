@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -48,12 +48,12 @@ Kritiske huller i sikkerhedsdata og mekanisme-for-handling-felter forhindrer en 
 
 | Element | Indhold |
 |---------|---------|
-| Original indikation | CMV-retinitis; CMV-sygdomsprofylakse hos immunsupprimerede patienter (almene medicinske kundskaber — ingen dansk godkendelse registreret) |
+| Original indikation | CMV-retinitis; CMV-sygdomsprofylakse hos immunsupprimerede patienter (almene medicinske kundskaber) |
 | Forudsagt ny indikation | Ingen tilgængelig |
 | TxGNN-prognosescore | N/A |
 | Evidensniveau | L5 — ingen prognoser genereret |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Antal markeringsgodkendelser | 0 |
 | Anbefalet beslutning | Afvente |
 

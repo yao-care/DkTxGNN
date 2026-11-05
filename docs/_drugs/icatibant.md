@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Icatibant: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
@@ -48,8 +48,8 @@ Icatibant er en peptidbaseret bradykininreceptorantagonist. Modellen TxGNN forud
 | Forudsagt ny indikation | Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
+| Antal markedsføringstilladelser | 17 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

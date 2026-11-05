@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ Denne rapport dokumenterer de identificerede datakløfter og anbefaler en strukt
 | Forudsagt ny indikation | Ingen forudsigelsesdata tilgængelige |
 | TxGNN-forudsigelsesscore | Ingen forudsigelsesdata tilgængelige |
 | Evidensniveau | Ikke vurderbart |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | **Afvent** — kritiske datakløfter skal løses først |
 
 ---
@@ -75,7 +75,7 @@ Indtil disse kløfter er løst, og TxGNN-pipelinen køres igen med komplette inp
 
 ## Markedsinformation Danmark
 
-Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks. *Flolan*, *Veletri*), som automatisk giver autorisation i alle EU/EEA-medlemsstater, herunder Danmark.
+Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks. *Flolan*, *Veletri*), som automatisk giver autorisation i alle EU/EEA-medlemsstater, herunder Danmark.
 
 **Dette tyder stærkt på en datakollektionsfejl snarere end sand fravær fra det danske marked.**
 
@@ -108,7 +108,6 @@ Evidenspakken for Epoprostenol mangler både TxGNN-forudsigelsesoutput og sikker
 1. **Kør TxGNN-pipelinen igen** for DB01240 og bekræft, at `predicted_indications` er udfyldt med mindst ét kandidat, før der genereres en fuldstændig rapport.
 2. **Hent MOA-data (DG002)** fra DrugBank API (DrugBank-ID: DB01240) — Epoprostenol forventes at virke via prostacyclinreceptor (IP-receptor) agonisme, hvilket fører til cAMP-medieret vasodilatation og hæmning af blodpladeaggregation; bekræft og udfyld `original_moa`.
 3. **Hent SmPC-advarsler og kontraindikationer (DG001)** fra EMA EPAR-dokumenter for Flolan/Veletri; parse og udfyld `safety.key_warnings` og `safety.contraindications`.
-4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé-register; opdater `taiwan_regulatory.market_status`, `total_licenses` og `licenses[]`.
 5. **Gensend den udfyldte Evidenspakke** for at regenerere en fuldstændig evalueringsrapport med forudsagte indikationer, mekanistisk begrundelse, kliniske forsøgsevidens og en endelig Go / Proceed with Guardrails-anbefaling.
 
 ---

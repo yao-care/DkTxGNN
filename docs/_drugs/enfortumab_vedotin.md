@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Enfortumab Vedotin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske licenstekst"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **leprae (spedalsk
 | Forudsagt ny indikation | Leprae (spedalskhed) |
 | TxGNN-forudsigelsesscore | 0,9953 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

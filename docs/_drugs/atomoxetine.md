@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atomoxetine: forudsagt ny indikation Specifik udviklingsforstyrrelse (specific developmental disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Atomoxetin er en selektiv hæmmer af noradrenalin-genoptagelse. TxGNN-modellen f
 | Forudsagt ny indikation | Specifik udviklingsforstyrrelse (specific developmental disorder) |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

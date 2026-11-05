@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ men evidensen er svag: der er kun **1 klinisk studie** (afbrudt uden inkluderede
 | Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; kræver yderligere evidens før videre arbejde) |
 
 ## Hvorfor er forudsigelsen rimelig?

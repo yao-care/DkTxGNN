@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Norgestimat er et gestagen. TxGNN-modellen (deep learning) forudsiger, at det ka
 | Forudsagt ny indikation | Forhøjet plasmazink (zinc, elevated plasma) |
 | TxGNN-forudsigelsesscore | 0.9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

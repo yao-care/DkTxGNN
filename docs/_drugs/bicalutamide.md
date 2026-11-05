@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Bicalutamide: forudsagt ny indikation Hypertrikose (hypertrichosis (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Bicalutamid er en ikke-steroid androgenreceptorantagonist. TxGNN-modellen foruds
 | Forudsagt ny indikation | Hypertrikose (hypertrichosis (disease)) |
 | TxGNN-forudsigelsesscore | 0.9969 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

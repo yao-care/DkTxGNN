@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vancomycin: forudsagt ny indikation Diffus sklerodermi (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis"
 ---
 
@@ -52,8 +52,8 @@ Forudsigelsen vurderes som en grafbaseret artefakt uden biologisk grundlag.
 | Forudsagt ny indikation | Diffus sklerodermi |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

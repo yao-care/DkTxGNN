@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Iloprost: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
@@ -48,8 +48,8 @@ Iloprost er en stabil prostacyklinanalog, som i den viden, der er indsamlet til 
 | Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden |
 | TxGNN-forudsigelsesscore | 0,9945 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen give mening?

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: forudsagt ny indikation Chronic rhinosinusitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen består af **0 registrerede kliniske forsøg** og **18 publikationer**
 | Forudsagt ny indikation | Chronic rhinosinusitis |
 | TxGNN-forudsigelsesscore | 0.9961 |
 | Evidensniveau | L5 for kronisk rhinosinuitis; L3 for otitis externa |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
-| Antal markedsføringstilladelser | 6 (gyldige: 6) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold for kronisk rhinosinuitis; Proceed with Guardrails (forskningsspørgsmål) for otitis externa |
 
 *Bemærkning: Den højest rangerede forudsigelse (kronisk rhinosinuitis) har ingen evidens. Rapporten fokuserer derfor også på otitis externa, hvor der findes data.*
@@ -104,8 +104,6 @@ Der er ingen litteratur for de øvrige forudsagte indikationer.
 | MA 28100286458 | Terramycin-Polymyxin B | Øjensalve | Indikationstekst ikke tilgængelig |
 | MA 28100049355 | Hydrocortison med Terramycin | Salve | Indikationstekst ikke tilgængelig |
 | MA 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
-| MA 28101221385 | Alamycin Prolongatum Vet. | Injektionsvæske, opløsning | Veterinærpræparat; indikationstekst ikke tilgængelig |
-| MA 28100974378 | Engemycin Vet. | Injektionsvæske, opløsning | Veterinærpræparat; indikationstekst ikke tilgængelig |
 
 Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat. Det er bemærkelsesværdigt, at det humane præparat med øredråber (MA 28107137824) allerede er markedsført i Danmark, hvilket er relevant for otitis externa.
 

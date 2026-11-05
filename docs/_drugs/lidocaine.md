@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lidocaine: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5)."
 ---
 
@@ -51,8 +51,8 @@ Lidokain er en lokalbedøvende natriumkanalblokker. I videngrafen er den registr
 | TxGNN-score (rang 1) | 0,9999 |
 | Evidensniveau (rang 1) | L5 |
 | Mest understøttede forudsigelse | Punktat epitelial keratokonjunktivitis |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 9) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Antal godkendelser | 9 nationale markedsføringstilladelser |
 | Anbefalet beslutning | Hold (afvent) |
 

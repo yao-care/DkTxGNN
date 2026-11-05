@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -53,8 +53,8 @@ Rapporten fokuserer på den højest rangerede forudsigelse (psykogene bevægelse
 | Forudsagt ny indikation | Psykogene bevægelsesforstyrrelser (rang 1); supplerende: kronisk tic-lidelse (psychogenic movement disorders) |
 | TxGNN-forudsigelsesscore | 0.9923 |
 | Evidensniveau | L5 (psykogene bevægelsesforstyrrelser); L3 (kronisk tic-lidelse) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold (psykogene bevægelsesforstyrrelser); forskningsspørgsmål for kronisk tic-lidelse |
 
 ---

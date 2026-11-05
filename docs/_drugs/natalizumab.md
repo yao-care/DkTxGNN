@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 | Forudsagt ny indikation | Bronkitis (bronchitis) |
 | TxGNN-forudsigelsesscore | 0.9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

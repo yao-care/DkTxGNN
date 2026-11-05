@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 606
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "OLODATEROL"
 description: "Olodaterol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 
 ---
 

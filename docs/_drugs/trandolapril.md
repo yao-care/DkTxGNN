@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Trandolapril: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -50,8 +50,8 @@ Trandolapril er en ACE-hæmmer, som i videnskabsgrafen (PrimeKG) er knyttet til 
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ---

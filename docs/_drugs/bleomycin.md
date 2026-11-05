@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bleomycin: forudsagt ny indikation Cauda equina neoplasm (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Bleomycin er et cytotoksisk stof, der beskadiger DNA ved at give enkelt- og dobb
 | Forudsagt ny indikation | Cauda equina neoplasm |
 | TxGNN-forudsigelsesscore | 0.9930 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

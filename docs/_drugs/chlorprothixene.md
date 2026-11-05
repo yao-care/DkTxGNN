@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "chlorprothixene"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "myopia X-linked", "syndromic myopia", "manic bipolar affective disorder"]
 description: "Chlorprothixene: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Blandt de ti forudsagte indikationer er **manisk bipolar lidelse** den eneste me
 | Forudsagt ny indikation | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN-forudsigelsesscore | 1.0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 Til sammenligning: for den mest plausible kandidat, manisk bipolar lidelse (rang 10), er TxGNN-scoren 0,9996, evidensniveauet L4, og den foreslåede status er "forskningsspørgsmål".

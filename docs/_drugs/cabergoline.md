@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabergoline: forudsagt ny indikation Progeri-lav vækst-pigmenterede nævi-syndrom (progeria-short stature-pigmented nevi syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de loka…"
 ---
 
@@ -50,8 +50,8 @@ Cabergolin er en dopaminagonist, som er markedsført i Danmark i tabletform. TxG
 | Forudsagt ny indikation | Progeri-lav vækst-pigmenterede nævi-syndrom (progeria-short stature-pigmented nevi syndrome) |
 | TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Letermovir"
 predicted_indications: ["vulvovaginal candidiasis"]
 description: "Letermovir: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Letermovir er et antiviralt middel, der oprindeligt anvendes mod **cytomegalovir
 | Forudsagt ny indikation | Vulvovaginal candidiasis |
 | TxGNN-prædiktionsscore | 0.9988 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

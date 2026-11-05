@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (infectious otitis media) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Cefazolin er et første generations cefalosporin-antibiotikum, der hæmmer bakte
 | Forudsagt ny indikation | Infektiøs mellemørebetændelse (infectious otitis media) |
 | TxGNN-forudsigelsesscore | 0,9944 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

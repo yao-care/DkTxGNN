@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale…"
@@ -49,8 +49,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomelisk dysplasi,
 | Forudsagt ny indikation | Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
@@ -77,7 +77,6 @@ Der er ingen litteratur om tramadol ved den forudsagte hovedindikation. For en l
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| MA 28106908323 | Cepedol Vet. | Tyggetabletter | Ikke angivet |
 | MA 28106733122 | Tramadolhydrochlorid/Paracetamol "Opko" | Filmovertrukne tabletter | Ikke angivet |
 
 ## Sikkerhedsovervejelser

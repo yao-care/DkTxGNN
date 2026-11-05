@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Domperidone: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data om den danske godkendelse…"
 monitor_inn: "domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ Domperidon er en perifer dopamin D2/D3-receptorantagonist, som anvendes som prok
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 0.9908 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

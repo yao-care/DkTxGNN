@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atosiban"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atosiban: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelse. Farmakologiske kilder beskriver…"
 ---
 
@@ -48,8 +48,8 @@ Atosiban er et peptidlægemiddel, som er registreret i Danmark som injektionsvæ
 | Forudsagt ny indikation | Primær arvelig glaukom |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

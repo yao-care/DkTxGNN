@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Salbutamol: forudsagt ny indikation Papillær konjunktivitis (evidensniveau L5). Oprindelig indikation: Astma og bronkial sygdom"
 monitor_inn: "salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis
 | Forudsagt ny indikation | Papillær konjunktivitis |
 | TxGNN-forudsigelsesscore | 1,0000 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

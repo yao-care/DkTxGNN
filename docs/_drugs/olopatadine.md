@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Olopatadin er en histamin H1-receptorantagonist med mastcellestabiliserende effe
 | Forudsagt ny indikation | Rosacea-konjunktivitis (rosacea conjunctivitis) |
 | TxGNN-forudsigelsesscore | 0.9941 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---

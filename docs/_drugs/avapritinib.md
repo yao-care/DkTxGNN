@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avapritinib"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Avapritinib: forudsagt ny indikation aksial spondylometafyseal dysplasi (axial spondylometaphyseal dysplasia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Avapritinib er en tyrosinkinasehæmmer rettet mod KIT og PDGFRA. TxGNN-modellen 
 | Forudsagt ny indikation | aksial spondylometafyseal dysplasi (axial spondylometaphyseal dysplasia) |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

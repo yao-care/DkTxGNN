@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cisatracurium: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom)"
 monitor_inn: "cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -50,8 +50,8 @@ Cisatracurium er et ikke-depolariserende neuromuskulært blokerende middel, som 
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 0,9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

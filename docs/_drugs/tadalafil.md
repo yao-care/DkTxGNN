@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tadalafil: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Relationer registreret i vidensgrafen: benign prostatahyperplasi…"
 ---
 
@@ -52,8 +52,8 @@ Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske forsøg** og 
 | Forudsagt ny indikation | Ambras-type hypertrichosis universalis congenita |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

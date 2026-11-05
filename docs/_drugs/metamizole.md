@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 534
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Metamizole: forudsagt ny indikation Reumatoid artritis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for begge god…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -52,8 +52,8 @@ Den høje modelscore understøttes derfor ikke af klinisk evidens.
 | Forudsagt ny indikation | Reumatoid artritis |
 | TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -96,11 +96,6 @@ Ingen af publikationerne viser effekt af metamizol ved reumatoid artritis.
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106167118 | Rivalgin Vet. | Injektionsvæske, opløsning | Ikke angivet |
-| 28105452714 | Spasmium Vet. | Injektionsvæske, opløsning | Ikke angivet |
 
 Begge er veterinære præparater (VetViva Richter GmbH), og der er ingen godkendte humane præparater i de tilgængelige data.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nicorandil: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst. Kronisk stabil angina pe…"
 ---
 
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg** og **3 publikationer** (to oversi
 | Forudsagt ny indikation | Benign prostatahyperplasi |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 Evidensniveauet er L5, fordi ingen af de citerede studier undersøger nicorandil som behandling af BPH hos mennesker. Dyreforsøget og oversigtsartiklerne belyser kun en mulig mekanisme.

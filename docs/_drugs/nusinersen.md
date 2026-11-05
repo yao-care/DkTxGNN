@@ -5,7 +5,7 @@ layout: default
 title: Nusinersen
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 596
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nusinersen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Nusinersen"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 
 ## Information om det danske marked
 

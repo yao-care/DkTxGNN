@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Aripiprazole: forudsagt ny indikation Gaze palsy, familial horizontal, with progressive scoliosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-
 | Forudsagt ny indikation | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN-forudsigelsesscore | 0.9960 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?

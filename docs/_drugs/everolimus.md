@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Everolimus: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose"
 ---
 
@@ -50,8 +50,8 @@ Everolimus er en mTOR-hæmmer, som i vidensgrafen er registreret med blandt ande
 | Forudsagt ny indikation | Liposarkom |
 | TxGNN-forudsigelsesscore | 0,9988 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

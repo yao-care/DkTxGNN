@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Levodopa: forudsagt ny indikation Rasmussens subakutte encefalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (og beslægtede parkinsonistiske syndromer)"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -50,8 +50,8 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 | Forudsagt ny indikation | Rasmussens subakutte encefalitis |
 | TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

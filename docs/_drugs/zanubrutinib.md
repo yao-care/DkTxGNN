@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Zanubrutinib"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Zanubrutinib er en selektiv BTK-hæmmer (Bruton-tyrosinkinase). TxGNN-modellen (
 | Forudsagt ny indikation | Myeloid leukæmi (myeloid leukemia) |
 | TxGNN-forudsigelsesscore | 0.9965 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

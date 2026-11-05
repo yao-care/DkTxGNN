@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Phenobarbital: forudsagt ny indikation Trigeminal nerve neoplasm (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Phenobarbital er et barbiturat, der oprindeligt anvendes til behandling af epile
 | Forudsagt ny indikation | Trigeminal nerve neoplasm |
 | TxGNN-forudsigelsesscore | 0.9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 **Bemærkning om valg af forudsigelse:** Den højest rangerede forudsigelse er trigeminal nervetumor (score 0,9996), men for den foreligger der kun én artikel om Sturge-Weber syndrom, som ikke omhandler sygdommen, og der er intet biologisk grundlag for en antitumoreffekt. Trigeminusneuralgi er klinisk mere meningsfuld og belyses i dette dokument. Beta-ketothiolase-mangel (score 0,9981) har hverken forsøg eller litteratur.
@@ -94,9 +94,9 @@ Ingen af nedenstående artikler er phenobarbital-specifikke effektstudier ved tr
 
 | Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106282619 | Epibarb Vet. | Tabletter | Indikationstekst ikke angivet i de foreliggende data |
-
-Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkendelse til human anvendelse. Listen er komplet.
+| 28100713476 | Fenemal "DLF" | Tabletter | Ikke angivet |
+| 28100713276 | Fenemal "DLF" | Tabletter | Ikke angivet |
+| 28100713376 | Fenemal "DLF" | Tabletter | Ikke angivet |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Ampicillin er et penicillin-antibiotikum, der virker mod modtagelige bakterier. 
 | Forudsagt ny indikation | Laryngitis |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

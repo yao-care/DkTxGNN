@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Delamanid"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Delamanid: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Multiresistent tuberkulose"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **allergisk urticaria**, m
 | Forudsagt ny indikation | Allergisk urticaria |
 | TxGNN-forudsigelsesscore | 0,9956 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

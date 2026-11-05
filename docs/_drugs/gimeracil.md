@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 description: "Gimeracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Gimeracil er en komponent i kombinationspræparatet S-1 (tegafur/gimeracil/otera
 | Forudsagt ny indikation | Cecum villous adenoma |
 | TxGNN-forudsigelsesscore | 0.9982 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med sikkerhedsforanstaltninger) |
 
 ---

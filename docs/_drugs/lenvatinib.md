@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 5
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Lenvatinib: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -50,8 +50,8 @@ Evidensen består af **1 klinisk forsøg** (et enkeltarmet fase Ib/II-studie i k
 | Forudsagt ny indikation | Liposarkom (liposarcoma) |
 | TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 ## Hvorfor er denne forudsigelse rimelig?

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Dexpanthenol: forudsagt ny indikation Anorectal stricture (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Dexpanthenol omdannes i kroppen til pantothensyre (vitamin B5) og bruges blandt 
 | Forudsagt ny indikation | Anorectal stricture |
 | TxGNN-forudsigelsesscore | 0.9972 |
 | Evidensniveau | L5 (indirekte evidens) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 *Bemærk: Den højest rangerede forudsigelse i dataene er anorektal striktur (score 0,9972), men uden nogen evidens (L5). Eksantem er den eneste forudsigelse med klinisk forsøgsdata og er derfor valgt som fokus i denne rapport.*

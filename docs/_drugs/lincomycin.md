@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lincomycin: forudsagt ny indikation hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Pneumokokinfektion, stafylokokinfektion og streptokokinfektion"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 | Forudsagt ny indikation | Hyperamylasæmi |
 | TxGNN-prædiktionsscore | 0,9914 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
-| Antal markedsføringstilladelser | 5 (gyldige: 5) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -83,14 +83,6 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 ## Markedsinformation for Danmark
 
 Alle fem tilladelser er enkeltstofpræparater med status gyldig. Bemærk, at de angivne præparater er registreret som veterinære lægemidler (dosisformer til dyr), og at godkendte indikationstekster ikke er tilgængelige i de indsamlede data.
-
-| Markedsføringstilladelsesnr. | Produktnavn | Dosisform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107249924 | Lyncoo | Pulver til anvendelse i drikkevand | Ikke angivet |
-| 28106718821 | Lincoral-s | Pulver til anvendelse i drikkevand | Ikke angivet |
-| 28106307819 | Lismay | Pulver til anvendelse i drikkevand | Ikke angivet |
-| 28101924097 | Albiotic | Intramammær opløsning | Ikke angivet |
-| 28101550493 | Norospeclin Vet. | Injektionsvæske, opløsning | Ikke angivet |
 
 ---
 

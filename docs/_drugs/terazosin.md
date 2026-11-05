@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 | Forudsagt ny indikation | Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

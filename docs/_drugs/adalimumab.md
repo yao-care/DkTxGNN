@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Adalimumab: forudsagt ny indikation Hypermobilitet af coccyx (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i den danske registrer…"
 ---
 
@@ -50,8 +50,8 @@ Adalimumab er en TNF-alfa-hæmmer. Den mest scorende forudsigelse fra TxGNN-mode
 | Forudsagt ny indikation | Hypermobilitet af coccyx |
 | TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

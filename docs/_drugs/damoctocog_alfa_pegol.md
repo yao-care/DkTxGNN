@@ -5,7 +5,7 @@ layout: default
 title: Damoctocog Alfa Pegol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 233
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Element | Indhold |
 |---------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet afgørelse | Ventetilstand |
 
 ---

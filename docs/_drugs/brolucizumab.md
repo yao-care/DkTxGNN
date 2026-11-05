@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Brolucizumab: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernens DNA-abnormiteter (mitochondrial oxidative phospho… (evidensniveau L5). Oprindelig indikatio…"
 ---
 
@@ -50,8 +50,8 @@ Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 | Forudsagt ny indikation | Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernens DNA-abnormiteter (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
 | TxGNN-forudsigelsesscore | 0,9967 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

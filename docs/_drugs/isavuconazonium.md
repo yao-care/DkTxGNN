@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Isavuconazonium: forudsagt ny indikation Pneumocystose (rang 1) og mycetom (rang 2) (evidensniveau L5). Oprindelig indikation: Aspergillose, zygomycose, coccidioidomycose, histoplasmose…"
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
@@ -50,8 +50,8 @@ Isavuconazonium er et forstadie (prodrug) til isavuconazol, et bredspektret svam
 | Forudsagt ny indikation | Pneumocystose (rang 1) og mycetom (rang 2); rapporten fokuserer på begge |
 | TxGNN-forudsigelsesscore | Pneumocystose: 0,9956; mycetom: 0,9934 |
 | Evidensniveau | Pneumocystose: L5; mycetom: L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold (for begge forudsigelser) |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 551
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Midazolam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L3). Oprindelig indikation: Angst (fra videnbasen"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -50,8 +50,8 @@ Midazolam er et benzodiazepin, som oprindeligt er knyttet til behandling af angs
 | Forudsagt ny indikation | Søvnløshed (insomni) |
 | TxGNN-prædiktionsscore | 0,9974 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -94,9 +94,13 @@ Midazolams korte halveringstid kan fremme indsovning, men kan begrænse søvnved
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28107058223 | Midaquin Vet. | Injektionsvæske, opløsning | Indikationstekst ikke angivet |
+| 28104768310 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
+| 28104768010 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
+| 28104768110 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
+| 28104768210 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
+| 28106177218 | Epistatus | Mundhulevæske, opløsning | Ikke angivet |
 
-Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.). Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.
+Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.
 
 ---
 
@@ -115,7 +119,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Beslutning: Hold**
 
 **Begrundelse:**
-Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni. Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler.
+Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni.
 
 **For at komme videre kræves:**
 - Gennemgang af produktresumé (advarsler og kontraindikationer) for et humant midazolampræparat

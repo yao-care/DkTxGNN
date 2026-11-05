@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Baclofen: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Spasticitet"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -50,8 +50,8 @@ Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til beh
 | Forudsagt ny indikation | Attention deficit-hyperactivity disorder (ADHD) |
 | TxGNN-prædiktionsscore | 0,9932 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

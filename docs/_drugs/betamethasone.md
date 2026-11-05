@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Betamethason er et kortikosteroid, som i Danmark er markedsført som topikale pr
 | Forudsagt ny indikation | Follikulær mucinose (alopecia mucinosa) |
 | TxGNN-forudsigelsesscore | 0.9997 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

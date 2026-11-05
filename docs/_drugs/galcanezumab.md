@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related 
 | Forudsagt ny indikation | Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) |
 | TxGNN-prædiktionsscore | 0.9950 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

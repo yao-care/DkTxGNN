@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Doramectin"
 predicted_indications: ["insomnia (disease)"]
 description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Doramectin er et antiparasitært middel af avermectin-klassen, som i Danmark er 
 | Forudsagt ny indikation | Insomni (insomnia (disease)) |
 | TxGNN-prædiktionsscore | 0.9922 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -85,10 +85,6 @@ Der er ingen litteratur om insomni.
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104654310 | Dectomax (Zoetis Animal Health ApS) | Pour-on, opløsning | Indikationstekst ikke oplyst |
 
 ---
 

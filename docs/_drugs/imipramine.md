@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 431
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: forudsagt ny indikation Attention deficit-hyperactivity disorder (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Imipramin er et tricyklisk antidepressivum, som oprindeligt anvendes ved angstli
 | Forudsagt ny indikation | Attention deficit-hyperactivity disorder |
 | TxGNN-forudsigelsesscore | 0.9990 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål; kræver yderligere data før videre arbejde) |
 
 ---

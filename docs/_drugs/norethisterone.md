@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 593
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "norethisterone"
 description: "Norethisterone: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 
 *Bemærkning: Der er hverken afsluttede RCT'er eller kliniske forsøg for den nye indikation. Litteraturen er indirekte og belyser mekanismer og bivirkningsmønstre, så L4 (mekanistisk/indirekte evidens) er det mest passende niveau.*
 

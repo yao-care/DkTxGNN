@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Baricitinib: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5). Oprindelig indikation: Ikke r…"
 ---
 
@@ -48,8 +48,8 @@ Baricitinib er en lægemiddelsubstans, der markedsføres i Danmark som filmovert
 | Forudsagt ny indikation | Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

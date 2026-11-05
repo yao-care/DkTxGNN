@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tropicamide: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Cycloplegi (fra videnbasen"
 monitor_inn: "tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -52,8 +52,8 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 | Forudsagt ny indikation | Cauda equina-syndrom |
 | TxGNN-forudsigelsesscore | 0.9953 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

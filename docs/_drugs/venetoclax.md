@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Venetoclax: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Venetoclax er en oral hæmmer af proteinet BCL-2. I den vidensgraf, som TxGNN by
 | Foreslået ny indikation | Hodgkins lymfom (Hodgkins lymphoma) |
 | TxGNN-forudsigelsesscore | 0.9951 |
 | Evidensniveau | L5 (kun modelforudsigelse; ingen studier direkte ved Hodgkins lymfom) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Antal tilladelser | 1 |
 | Anbefalet beslutning | Hold |
 

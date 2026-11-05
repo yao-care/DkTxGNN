@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 777
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg**, og der foreligger **19 publikati
 | Forudsagt ny indikation | Bakteriel artritis (bacterial arthritis) |
 | TxGNN-forudsigelsesscore | 0.9979 |
 | Evidensniveau | L5 (ingen kliniske forsøg; kun modelforudsigelse og indirekte litteratur). Bemærk: dataene angiver L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

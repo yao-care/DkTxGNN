@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 681
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Prednison er et systemisk glukokortikoid med immundæmpende og antiinflammatoris
 | Forudsagt ny indikation | Alopecia areata |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
 ## Hvorfor er forudsigelsen rimelig?

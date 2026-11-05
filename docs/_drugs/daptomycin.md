@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Daptomycin: forudsagt ny indikation Slidgigt (osteoarthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data . Daptomycin er et antibiotikum mod…"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **slidgigt (osteoarthritis
 | Forudsagt ny indikation | Slidgigt (osteoarthritis) |
 | TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 16 af 16) |
+| Antal markedsføringstilladelser | 16 (gyldige: 16) |
 | Anbefalet beslutning | Hold |
 
 ---

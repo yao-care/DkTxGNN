@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluorescein: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsernes indikationstekst er…"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -50,8 +50,8 @@ Fluorescein er et diagnostisk farvestof, som anvendes til fluorescein-angiografi
 | Forudsagt ny indikation | Prinzmetal-angina |
 | TxGNN-forudsigelsesscore | 0,9981 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (papillary conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der 
 | Forudsagt ny indikation | Papillær konjunktivitis (papillary conjunctivitis) |
 | TxGNN-forudsigelsesscore | 0,9938 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -84,7 +84,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28106271419 | Optomease Vet. | Koncentrat til opløsning til behandling af fisk | Ikke angivet i lokale data |
 | 28100834380 | Dolodent | Opløsning til tandkød | Ikke angivet i lokale data |
 
 ---

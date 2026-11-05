@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: forudsagt ny indikation Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensniveau L5). Oprindelig indikation: Ik…"
@@ -52,8 +52,8 @@ Der er **0 kliniske forsøg** og **0 publikationer**, der støtter denne forudsi
 | Forudsagt ny indikation | Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) |
 | TxGNN-forudsigelsesscore | 0.9976 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

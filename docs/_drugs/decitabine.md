@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
 description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (refractory cytopenia of childhood) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Evidensen er begrænset: der er **0 registrerede kliniske forsøg** og **2 publi
 | Forudsagt ny indikation | Refraktær cytopeni hos børn (refractory cytopenia of childhood) |
 | TxGNN-prædiktionsscore | 0.9903 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ---

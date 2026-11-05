@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Forudsigelsen bygger primært på lægemiddelklassen og vurderes som mekanistisk
 | Forudsagt ny indikation | Pneumocystose (pneumocystosis) |
 | TxGNN-forudsigelsesscore | 0.9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -95,8 +95,6 @@ Ingen af publikationerne viser direkte, at posaconazol er effektivt mod pneumocy
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28106510720 | Noxafil | Enteropulver og solvens til oral suspension | Ikke angivet i de indsamlede data |
-| 28104034306 | Posatex | Øredråber, suspension (veterinært; S-P Veterinary) | Ikke angivet i de indsamlede data |
-| 28106606421 | Mometamax Ultra | Øredråber, suspension (veterinært; Intervet International B.V.) | Ikke angivet i de indsamlede data |
 
 ---
 

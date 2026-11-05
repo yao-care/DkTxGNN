@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aprepitant: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -50,8 +50,8 @@ Aprepitant er et lægemiddel, der er registreret i Danmark som hårde kapsler, m
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese |
 | TxGNN-forudsigelsesscore | 0,9997 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---

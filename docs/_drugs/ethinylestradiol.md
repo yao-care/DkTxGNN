@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **forhøjet plasmazink**, 
 | Forudsagt ny indikation | Forhøjet plasmazink (zinc, elevated plasma) |
 | TxGNN-forudsigelsesscore | 0.9963 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 9) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Selpercatinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
 monitor_inn: "Selpercatinib"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -50,8 +50,8 @@ Selpercatinib er en selektiv RET-kinasehæmmer, der markedsføres i Danmark som 
 | Forudsagt ny indikation | Pulmonal hypertension |
 | TxGNN-forudsigelsesscore | 0,9918 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---

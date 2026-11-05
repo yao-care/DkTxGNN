@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 496
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Levonorgestrel er et syntetisk gestagen, der bruges i hormonelle præventionsmid
 | Forudsagt ny indikation | Akne (acne (disease)) |
 | TxGNN-forudsigelsesscore | 0.9988 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Afvent |
 
 ## Hvorfor er forudsigelsen rimelig?

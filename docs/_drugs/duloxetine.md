@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,8 +54,8 @@ Evidensen består af **3 kliniske forsøg** (heraf 1 direkte relevant, lille fas
 | Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
 ---

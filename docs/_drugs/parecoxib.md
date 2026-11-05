@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Parecoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "Parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -50,8 +50,8 @@ Parecoxib (handelsnavn Dynastat) er en selektiv COX-2-hæmmer, der gives som inj
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9955 |
 | Evidensniveau | L3 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---

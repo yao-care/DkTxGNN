@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: forudsagt ny indikation Irritabel tyktarm (irritable bowel syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Glucagon er et peptidhormon, der bruges som glukoseforøgende middel, og som i D
 | Forudsagt ny indikation | Irritabel tyktarm (irritable bowel syndrome) |
 | TxGNN-forudsigelsesscore | 0.9924 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

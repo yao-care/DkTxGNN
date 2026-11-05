@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sotatercept: forudsagt ny indikation Akut lymfatisk leukæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -48,8 +48,8 @@ Sotatercept markedsføres i Danmark som Winrevair, men de data, der er indsamlet
 | Forudsagt ny indikation | Akut lymfatisk leukæmi |
 | TxGNN-forudsigelsesscore | 0,9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 

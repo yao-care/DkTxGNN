@@ -5,7 +5,7 @@ layout: default
 title: Gamithromycin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 385
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gamithromycin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Gamithromycin"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ---
 
 ## Markedsinformation for Danmark
-
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107002523 | Gamrozyne Vet. (Bimeda Animal Health Limited) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 Bemærk: Produktet er et veterinærlægemiddel og er ikke godkendt til human anvendelse.
 

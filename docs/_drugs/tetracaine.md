@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tetracaine: forudsagt ny indikation Akrodermatitis chronica atrophicans (evidensniveau L5). Oprindelig indikation: Dermatitis (fra TxGNN-videnbasen"
 monitor_inn: "tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
@@ -50,8 +50,8 @@ Tetracain er et lokalbedøvelsesmiddel, der i videnbasen er knyttet til dermatit
 | Forudsagt ny indikation | Akrodermatitis chronica atrophicans |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---

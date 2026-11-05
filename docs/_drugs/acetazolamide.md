@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetazolamide: forudsagt ny indikation Udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Acetazolamid er en carboanhydrasehæmmer, som er markedsført i Danmark som tabl
 | Forudsagt ny indikation | Udløst malign hypertermi ved anstrengelse (exercise-induced malignant hyperthermia) |
 | TxGNN-forudsigelsesscore | 0,9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

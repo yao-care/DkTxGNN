@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 837
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "tizanidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
@@ -48,8 +48,8 @@ Tizanidin er en centralt virkende alfa-2-adrenerg agonist og muskelafslappende l
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9979 |
 | Evidensniveau | L2 (se bemærkning nedenfor) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Proceed with Guardrails |
 
 *Bemærkning om evidensniveau:* Det eneste fase 3-forsøg i migræneprofylakse har status "ukendt" og ingen resultater, så L2 er et forsigtigt skøn. Det understøttes primært af et ældre randomiseret, dobbeltblindet forsøg i kronisk daglig hovedpine, ikke af bekræftede fase 3-resultater.

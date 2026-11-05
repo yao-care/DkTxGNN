@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 513
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "lumacaftor"
 predicted_indications: ["leprosy"]
 description: "Lumacaftor: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ men der er på nuværende tidspunkt **ingen registrerede kliniske forsøg** og *
 | Forudsagt ny indikation | Spedalskhed (leprosy) |
 | TxGNN-forudsigelsesscore | 0.9944 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

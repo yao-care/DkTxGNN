@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale da…"
@@ -52,8 +52,8 @@ Bemærk: Der er yderligere to forudsagte indikationer i de data, der er udarbejd
 | Forudsagt ny indikation | Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) |
 | TxGNN-forudsigelsesscore | 0.9954 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) (evidensniveau L4). Oprindelig indikation: Ikke registreret…"
@@ -50,8 +50,8 @@ Ciclosporin er en calcineurinhæmmer, der oprindeligt anvendes til reumatoid art
 | Forudsagt ny indikation | Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) |
 | TxGNN-forudsigelsesscore | 0.9968 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -82,9 +82,11 @@ Aktuelt er der ingen relaterede kliniske forsøg registreret.
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28103513803 | Atopica Vet. | Bløde kapsler | Ikke angivet i de tilgængelige data (veterinært præparat, Elanco GmbH) |
-
-Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport.
+| 28105045312 | Ciqorin | Kapsler, bløde | Ikke angivet |
+| 28105045012 | Ciqorin | Kapsler, bløde | Ikke angivet |
+| 28105045112 | Ciqorin | Kapsler, bløde | Ikke angivet |
+| 28105045212 | Ciqorin | Kapsler, bløde | Ikke angivet |
+| 28105370414 | Ikervis | Øjendråber, emulsion | Ikke angivet |
 
 ---
 
@@ -108,7 +110,7 @@ Forudsigelsen bygger på en høj modelscore, men uden kliniske forsøg og med en
 - Data om virkningsmekanisme (MOA) og en vurdering af, om calcineurinhæmning har en plausibel rolle ved CGD
 - Målrettet litteratursøgning efter direkte evidens for ciclosporin ved CGD
 - Hentning og gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen, da disse mangler
-- Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel
+- Afklaring af, om et humant præparat er tilgængeligt i Danmark
 
 ---
 

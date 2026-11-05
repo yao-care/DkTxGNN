@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Meloxicam: forudsagt ny indikation Akromesomel dysplasi af Hunter-Thompson-typen (evidensniveau L5). Oprindelig indikation: Reumatoid artritis, slidgigt og juvenil idiopatisk artritis"
 ---
 
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akromesomel dysp
 | Forudsagt ny indikation | Akromesomel dysplasi af Hunter-Thompson-typen |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -83,7 +83,11 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104143007 | Animeloxan (aniMedica GmbH) | Oral suspension | Indikationstekst er ikke angivet i de foreliggende data |
+| 28107483825 | Meloxicam "Nordic Prime" | Tabletter | Ikke angivet |
+| 28103335901 | Meloxicam "Stada" | Tabletter | Ikke angivet |
+| 28103335801 | Meloxicam "Stada" | Tabletter | Ikke angivet |
+| 28103439502 | Meloxicam "Teva" | Tabletter | Ikke angivet |
+| 28103439402 | Meloxicam "Teva" | Tabletter | Ikke angivet |
 
 Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).
 

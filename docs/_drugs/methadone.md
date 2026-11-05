@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -38,7 +38,7 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 
 ## Resumé i én sætning
 
-Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.). Der foreligger ingen godkendt human indikation i de data, der er samlet til denne rapport. TxGNN-modellen forudsiger, at methadon kan have effekt ved **Tourettes syndrom**, men evidensen er svag: der er **ingen registrerede kliniske forsøg** og **4 publikationer**, hvoraf kun én (en case-rapport fra 1992) direkte omhandler methadon ved Tourettes syndrom.
+Methadon er et opioid. Der foreligger ingen godkendt human indikation i de data, der er samlet til denne rapport. TxGNN-modellen forudsiger, at methadon kan have effekt ved **Tourettes syndrom**, men evidensen er svag: der er **ingen registrerede kliniske forsøg** og **4 publikationer**, hvoraf kun én (en case-rapport fra 1992) direkte omhandler methadon ved Tourettes syndrom.
 
 ---
 
@@ -50,8 +50,8 @@ Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemidde
 | Forudsagt ny indikation | Tourettes syndrom |
 | TxGNN-prædiktionsscore | 0,9976 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -87,7 +87,11 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 | Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
-| 28104679310 | Comfortan Vet. (Eurovet Animal Health B.V.) | Injektionsvæske, opløsning | Ikke oplyst (veterinært lægemiddel) |
+| 28105951917 | Marlodon | Tabletter | Ikke angivet |
+| 28105952017 | Marlodon | Tabletter | Ikke angivet |
+| 28105952117 | Marlodon | Tabletter | Ikke angivet |
+| 28105951817 | Marlodon | Tabletter | Ikke angivet |
+| 28105990317 | Metadon "2care4" | Tabletter | Ikke angivet |
 
 ---
 
@@ -97,7 +101,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 - **Lægemiddelinteraktioner:** 292 registrerede interaktioner. Eksempler på **alvorlige** (Major): alvimopan, bupropion, morfin, dexamethason, clarithromycin, cisaprid, picosulfat og polyethylenglycol (3350 med elektrolytter). Eksempler på moderate: famotidin, hyoscyamin, loperamid, aprepitant, atropin, cimetidin og bisacodyl.
 - **Signaler i litteraturen:** Methadon er i case-rapporter forbundet med bradykardi og ved høje doser med udløsning/forværring af clusterhovedpine.
 
-Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært.
+Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
 
@@ -110,7 +114,7 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 
 **For at komme videre kræves:**
 - Data om virkningsmekanismen (MOA) og en analyse af den mekanistiske sammenhæng med tic-lidelser
-- Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)
+- Sikkerhedsoplysninger fra et humant produktresumé
 - Kontrollerede kliniske data, evt. et lille eksplorativt forsøg, med en klar vurdering af risiko for misbrug, QT-forlængelse og interaktioner
 - Vurdering af alternativer med bedre dokumenteret sikkerhed og effekt ved Tourettes syndrom
 

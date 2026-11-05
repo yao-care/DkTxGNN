@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dienogest: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske licensdata (indikationsteksten er tom). Litt…"
 ---
 
@@ -50,8 +50,8 @@ Dienogest er et progestin i tabletform, som er registreret i Danmark, men den da
 | Forudsagt ny indikation | Amenoré |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ---

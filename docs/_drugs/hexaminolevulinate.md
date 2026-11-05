@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Hexaminolevulinate: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst for Hexvi…"
 monitor_inn: "hexaminolevulinate"
 predicted_indications: ["bronchitis"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **bronkitis**, men der er 
 | Forudsagt ny indikation | Bronkitis |
 | TxGNN-forudsigelsesscore | 0,9906 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

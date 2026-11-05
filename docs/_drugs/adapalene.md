@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adapalene: forudsagt ny indikation Zink, forhøjet i plasma (zinc, elevated plasma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,8 +52,8 @@ men der er i dag **ingen kliniske forsøg** og **ingen publikationer** i de data
 | Forudsagt ny indikation | Zink, forhøjet i plasma (zinc, elevated plasma) |
 | TxGNN-forudsigelsesscore | 0,9951 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---

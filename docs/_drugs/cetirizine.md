@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cetirizine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Cetirizin er et antihistamin (H1-receptorantagonist), der anvendes mod allergisk
 | Forudsagt ny indikation | Sygdom i næsehulen (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

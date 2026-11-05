@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lonoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Lonoctocog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
@@ -52,8 +52,8 @@ Forudsigelsen er **udelukkende modelbaseret**: der er hverken registrerede klini
 | Forudsagt ny indikation | Pseudo-von Willebrands sygdom |
 | TxGNN-forudsigelsesscore | 0,9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
+| Antal markedsføringstilladelser | 7 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---

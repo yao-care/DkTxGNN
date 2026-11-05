@@ -5,7 +5,7 @@ layout: default
 title: Ciclopirox
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 192
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,8 +42,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 |---------|---------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
 | Bevisniveau | L5 (ingen understøttende studier identificeret i denne samling) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 
 ---
 

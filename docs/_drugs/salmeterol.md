@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Forudsigelsen understøttes dog kun svagt: der er **2 kliniske forsøg** og **8 
 | Forudsagt ny indikation | Luftvejsmisdannelse (respiratory malformation) |
 | TxGNN-forudsigelsesscore | 0.9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ---

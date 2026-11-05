@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tildipirosin"
 predicted_indications: ["leprosy"]
 description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -50,8 +50,8 @@ Tildipirosin er et makrolid-antibiotikum, som er markedsført i Danmark som vete
 | Forudsagt ny indikation | Spedalskhed (leprosy) |
 | TxGNN-forudsigelsesscore | 0.9901 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Modellen leverede en forudsigelse for spedalskhed (Lepra) med scoren 0.9901. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Denne rapport fokuserer på spedalskhed.
@@ -84,10 +84,6 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation i Danmark
-
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104673010 | Zuprevo (Intervet International B.V.) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat. Produktet er et veterinærlægemiddel.
 

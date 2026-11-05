@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Toksoplasmose"
 monitor_inn: "sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
@@ -50,8 +50,8 @@ Sulfadiazin er et sulfonamid, der oprindeligt anvendes mod toksoplasmose og besl
 | Forudsagt ny indikation | Pneumocystose |
 | TxGNN-forudsigelsesscore | 0,9939 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Kun godkendt som veterinærlægemiddel |
+| Antal markedsføringstilladelser | 0 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -92,11 +92,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 ---
 
 ## Markedsinformation i Danmark
-
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107325825 | Cubarmix Vet. | Oralt pulver | Ikke angivet |
-| 28106781622 | Hydrotrim | Pulver til anvendelse i drikkevand/mælk | Ikke angivet |
 
 Begge tilladelser er nationale godkendelser af veterinære præparater. Der er ikke fundet humane præparater med sulfadiazin som enkeltstof i de data, der er indsamlet til denne rapport.
 

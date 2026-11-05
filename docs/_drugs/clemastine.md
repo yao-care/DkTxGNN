@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "clemastine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clemastine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Clemastin er en antihistamin, der blokerer H1-receptorer. Den TxGNN-model foruds
 | Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9987 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?

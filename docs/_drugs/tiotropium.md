@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -48,8 +48,8 @@ Tiotropium er en langtidsvirkende antikolinergisk luftvejsmedicin givet som inha
 | Forudsagt ny indikation | Respiratorisk misdannelse (respiratory malformation) |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 8) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

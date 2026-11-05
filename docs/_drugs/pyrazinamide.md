@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pyrazinamide: forudsagt ny indikation Infektiøs otitis media (evidensniveau L5). Oprindelig indikation: Lungetuberkulose, meningeal tuberkulose og tuberkuløs meningitis"
 monitor_inn: "pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt på **infektiøs otitis media*
 | Forudsagt ny indikation | Infektiøs otitis media |
 | TxGNN-forudsigelsesscore | 0,9996 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---
