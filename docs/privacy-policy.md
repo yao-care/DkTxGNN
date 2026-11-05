@@ -3,13 +3,13 @@ layout: default
 title: Privatlivspolitik
 nav_order: 95
 permalink: /privacy-policy/
-description: "Privatlivspolitik for DkTxGNN: dette er et statisk site, som ikke indsamler persondata."
+description: "Privatlivspolitik for DkTxGNN: et statisk site uden konti og formularer; det bruger analysecookies fra Google Analytics 4 til brugsstatistik."
 ---
 
 # Privatlivspolitik
 
 <div class="key-takeaway">
-Dette er et statisk site — ingen registrering påkrævet, ingen personhenførbare data indsamles.
+Dette er et statisk site — ingen registrering og ingen formularer. Det bruger analysecookies fra Google Analytics 4 til at udarbejde brugsstatistik.
 </div>
 
 ---
@@ -17,9 +17,11 @@ Dette er et statisk site — ingen registrering påkrævet, ingen personhenførb
 ## Hvad vi indsamler
 
 <p class="key-answer" data-question="Indsamler DkTxGNN persondata?">
-<strong>Nej.</strong> Dette site hostes på GitHub Pages som et rent statisk site. Der findes intet
-kontosystem, ingen formularer og ingen sporingscookies. Vi indsamler ikke navne, e-mailadresser,
-patientjournaler eller nogen form for personhenførbare oplysninger.
+<strong>Kun brugsstatistik via Google Analytics 4.</strong> Dette site hostes på GitHub Pages som et rent statisk site. Der
+findes intet kontosystem og ingen formularer, og vi indsamler ikke navne, e-mailadresser eller patientjournaler.
+Sitet bruger analysecookies fra Google Analytics 4 til at udarbejde brugsstatistik (viste sider, henvisende site,
+rulledybde og tid på siden). Cookies sættes, når en side indlæses; søgeord, formularindhold og
+URL-forespørgselsparametre sendes ikke.
 </p>
 
 ---
@@ -38,14 +40,18 @@ politikker:
 | rxnav.nlm.nih.gov | SMART-appen: RxNorm-koderne for de lægemidler, der læses fra din elektroniske patientjournal, sendes til NLM’s RxNav-API for at slå navnet på det aktive stof op (ingen patientidentifikatorer) | [NLM’s webpolitikker](https://www.nlm.nih.gov/web_policies.html) |
 
 Når du aktivt starter SMART on FHIR-appen, henter den medicindata fra dit elektroniske
-patientjournalsystem. Disse data <strong>behandles udelukkende i din browser</strong>; de sendes
-aldrig til dette sites servere og gemmes ikke.
+patientjournalsystem. Patientens identitet og journaldata <strong>sendes ikke til dette sites servere</strong> (det er
+et statisk site uden backend) og gemmes ikke af dette site. For at matche lægemiddelnavne sender appen
+lægemidlernes RxNorm-koder til RxNav-tjenesten hos det amerikanske National Library of Medicine; koderne
+indeholder ingen oplysninger, der identificerer patienten. Når du beder om kliniske forsøg, sendes
+lægemiddelnavnet og indikationen til ClinicalTrials.gov.
 
 ---
 
 ## Den registreredes rettigheder
 
-Da dette site ikke indsamler persondata, er der intet at få indsigt i, rette eller slette.
+Dette site har ingen konti og gemmer ingen personoplysninger på egne servere (det har ingen). Brugsstatistikken
+indsamles af Google Analytics 4; du kan blokere eller slette dets cookies i dine browserindstillinger.
 Har du spørgsmål til denne politik, kan du kontakte service@yao.care.
 
 ---
