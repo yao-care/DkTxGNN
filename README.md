@@ -24,9 +24,6 @@ Forudsigelser for laegemiddelrepositionering af DKMA-godkendte laegemidler (Denm
 | **Unikke laegemidler** | 501 |
 | **Unikke indikationer** | 17,081 |
 | **DDI-data** | 160,235 |
-| **DFI-data** | 857 |
-| **DHI-data** | 35 |
-| **DDSI-data** | 8,359 |
 | **FHIR-ressourcer** | 501 MK / 50,000 CUD |
 
 ### Fordeling af evidensniveauer
@@ -219,7 +216,7 @@ PYTHONPATH=src python -m dktxgnn.predict.txgnn_model
 | **Vidensgraf** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Laegemiddeldatabase** | DrugBank | [DrugBank](https://go.drugbank.com/) | Kortlaegning af laegemiddelingredienser |
 | **Laegemiddelinteraktioner** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-par |
-| **Laegemiddelinteraktioner** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Godkendte laegemiddelinteraktioner |
+| **Laegemiddelinteraktioner** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Laegemiddel-target-data for godkendte laegemidler (ikke interaktioner) |
 | **Kliniske forsoeg** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Register for kliniske forsoeg |
 | **Kliniske forsoeg** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | International platform for kliniske forsoeg |
 | **Litteratur** | PubMed | [NCBI E-utilities](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) | Medicinsk litteratursoeging |
