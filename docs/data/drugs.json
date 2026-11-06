@@ -259,7 +259,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Forudsagt sygdom",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/alglucosidase-alfa/"
     },
@@ -809,7 +809,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/belimumab/"
     },
@@ -1399,7 +1399,7 @@
       "evidence_level": "L5",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/catumaxomab/"
     },
@@ -1769,7 +1769,7 @@
       "evidence_level": "L1",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/clofarabine/"
     },
@@ -2699,7 +2699,7 @@
       "evidence_level": "L5",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/epinephrine/"
     },
@@ -2929,7 +2929,7 @@
       "evidence_level": "L2",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Sygdom",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/everolimus/"
     },
@@ -2999,7 +2999,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Lægemiddelinduceret osteoporose",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/felypressin/"
     },
@@ -3239,7 +3239,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fremanezumab/"
     },
@@ -3919,7 +3919,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/isoflurane/"
     },
@@ -4089,7 +4089,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lactulose/"
     },
@@ -4529,7 +4529,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Sygdom",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mecasermin/"
     },
@@ -4639,7 +4639,7 @@
       "evidence_level": "L4",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/methadone/"
     },
@@ -4659,7 +4659,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/methotrexate/"
     },
@@ -4929,7 +4929,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/moxifloxacin/"
     },
@@ -4989,7 +4989,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/natalizumab/"
     },
@@ -5749,7 +5749,7 @@
       "evidence_level": "L4",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/phenylephrine/"
     },
@@ -5879,7 +5879,7 @@
       "evidence_level": "L4",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/polymyxin-b/"
     },
@@ -6399,7 +6399,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/risdiplam/"
     },
@@ -6519,7 +6519,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/roxadustat/"
     },
@@ -6559,7 +6559,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/sacituzumab-govitecan/"
     },
@@ -6679,7 +6679,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Familiær generaliseret lentiginose",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/selumetinib/"
     },
@@ -7149,7 +7149,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Medfødt koronararterieanomali",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tenecteplase/"
     },
@@ -7359,7 +7359,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tildrakizumab/"
     },
@@ -7479,7 +7479,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Trigeminusnervetumor",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/topiramate/"
     },
@@ -7759,7 +7759,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Forudsagt indikation",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/valsartan/"
     },
@@ -7959,7 +7959,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Heparin cofactor 2-mangel",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/warfarin/"
     },
