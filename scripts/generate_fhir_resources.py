@@ -2,7 +2,7 @@
 """Generate FHIR R4 resources for DkTxGNN predictions.
 
 This script generates MedicationKnowledge and ClinicalUseDefinition
-resources for the Australia drug repurposing predictions.
+resources for the Denmark drug repurposing predictions.
 """
 
 import json
@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 
 import pandas as pd
 
-# Australia-specific configuration
+# Denmark-specific configuration
 BASE_URL = "https://dktxgnn.yao.care"
 JURISDICTION = "DK"
 PUBLISHER = "yao.care"
@@ -301,7 +301,7 @@ def main():
         "experimental": True,
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "publisher": PUBLISHER,
-        "description": "FHIR R4 server for Australia drug repurposing predictions using TxGNN",
+        "description": "FHIR R4 server for Denmark drug repurposing predictions using TxGNN",
         "jurisdiction": [
             {
                 "coding": [
