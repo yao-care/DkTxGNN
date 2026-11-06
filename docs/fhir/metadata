@@ -20,6 +20,17 @@
     }
   ],
   "description": "DkTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "DK",
+          "display": "Denmark"
+        }
+      ]
+    }
+  ],
   "kind": "instance",
   "software": {
     "name": "DkTxGNN Static FHIR API",
