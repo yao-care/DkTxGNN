@@ -6,7 +6,7 @@ nav_order: 588
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
+description: "Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L5). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 ---

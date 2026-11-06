@@ -6,7 +6,7 @@ nav_order: 837
 evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
+description: "Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "tizanidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 ---

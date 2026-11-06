@@ -6,7 +6,7 @@ nav_order: 70
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Apomorphine: forudsagt ny indikation polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (evidensniveau L4). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen"
+description: "Apomorphine: forudsagt ny indikation polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen"
 monitor_inn: "apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---

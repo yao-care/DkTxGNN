@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
 last_modified_at: 2026-11-06
-description: "Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L2). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
+description: "Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 ---
 
 # Cabazitaxel

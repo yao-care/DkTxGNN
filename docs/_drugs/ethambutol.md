@@ -6,7 +6,7 @@ nav_order: 331
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Ethambutol: forudsagt ny indikation Epiglottitis (evidensniveau L4). Oprindelig indikation: Pulmonal tuberkulose"
+description: "Ethambutol: forudsagt ny indikation Epiglottitis (evidensniveau L5). Oprindelig indikation: Pulmonal tuberkulose"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 ---

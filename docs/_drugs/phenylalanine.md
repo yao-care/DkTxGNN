@@ -6,7 +6,7 @@ nav_order: 655
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-31
-description: "Phenylalanine: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…"
+description: "Phenylalanine: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
 ---

@@ -6,7 +6,7 @@ nav_order: 881
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-30
-description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren"
+description: "Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L5). Oprindelig indikation: Atrieflimren"
 monitor_inn: "vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---

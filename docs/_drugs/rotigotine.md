@@ -6,7 +6,7 @@ nav_order: 737
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
+description: "Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
 monitor_inn: "rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 ---

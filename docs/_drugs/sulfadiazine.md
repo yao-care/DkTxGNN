@@ -6,7 +6,7 @@ nav_order: 778
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Toksoplasmose"
+description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Toksoplasmose"
 monitor_inn: "sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 ---

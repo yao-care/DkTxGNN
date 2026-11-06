@@ -24,7 +24,7 @@ Forudsigelser for laegemiddelrepositionering af DKMA-godkendte laegemidler (Denm
 | **Unikke laegemidler** | 1,074 |
 | **Unikke indikationer** | 17,081 |
 | **DDI-data** | 160,235 |
-| **FHIR-ressourcer** | 928 MK / 4,871 CUD |
+| **FHIR-ressourcer** | 846 MK / 4,871 CUD |
 
 ### Fordeling af evidensniveauer
 

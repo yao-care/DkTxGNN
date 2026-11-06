@@ -6,7 +6,7 @@ nav_order: 230
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Dacarbazine: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tr… (evidensniveau L4). Oprindelig indikation: Metastatisk melanom og Hodgkins lymfom (fra vide…"
+description: "Dacarbazine: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tr… (evidensniveau L5). Oprindelig indikation: Metastatisk melanom og Hodgkins lymfom (fra vide…"
 monitor_inn: "dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 ---

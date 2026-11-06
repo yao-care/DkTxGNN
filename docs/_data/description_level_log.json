@@ -1,0 +1,237 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/apomorphine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Apomorphine: forudsagt ny indikation polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (evidensniveau L4). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/arginine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Arginine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksterne er tomme)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/atropine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Atropine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom f…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cabazitaxel.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L2). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/caffeine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Caffeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Den videnbaserede…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dacarbazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dacarbazine: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tr… (evidensniveau L4). Oprindelig indikation: Metastatisk melanom og Hodgkins lymfom (fra vide…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/epinephrine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Epinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L1). Oprindelig indikation: Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ethambutol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ethambutol: forudsagt ny indikation Epiglottitis (evidensniveau L4). Oprindelig indikation: Pulmonal tuberkulose\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/flucloxacillin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Flucloxacillin: forudsagt ny indikation Konjunktivitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydrocortisone.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Hydrocortisone: forudsagt ny indikation Alopecia areata (evidensniveau L5). Oprindelig indikation: Binyrebarkinsufficiens, Addisons sygdom, autoimmune sygdomme…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/imiglucerase.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Imiglucerase: forudsagt ny indikation Hurlers syndrom (evidensniveau L4). Oprindelig indikation: Gauchers sygdom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_glulisine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Glulisine: forudsagt ny indikation thiamine-responsive dysfunction syndrome (evidensniveau L1). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ketamine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/lenalidomide.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Lenalidomide: forudsagt ny indikation Myeloid leukæmi (evidensniveau L5). Oprindelig indikation: Plasmacellemyelom, mantlecellelymfom, B-celleneoplasi…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/melphalan.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Melphalan: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L2). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Relation registrere…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/misoprostol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Misoprostol: forudsagt ny indikation Amenoré (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nevirapine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nevirapin: forudsagt ny indikation felint ervervet immundefektsyndrom (evidensniveau L4). Oprindelig indikation: HIV-infektion, AIDS\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nitrazepam.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L4). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/phenylalanine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Phenylalanine: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pitolisant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pitolisant: forudsagt ny indikation Insomni (evidensniveau L4). Oprindelig indikation: Narkolepsi (med eller uden katapleksi)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pseudoephedrine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rotigotine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L4). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/salicylamide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Salicylamide: forudsagt ny indikation Faryngitis (evidensniveau L4). Oprindelig indikation: Hovedpine (headache disorder)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulfadiazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L4). Oprindelig indikation: Toksoplasmose\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ticagrelor.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Ticagrelor: forudsagt ny indikation Intrakraniel arteriosklerose (evidensniveau L3). Oprindelig indikation: Akut koronarsyndrom, perifer karsygdom…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tizanidine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/topotecan.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Topotecan: forudsagt ny indikation Kvindeligt brystkarcinom (evidensniveau L3). Oprindelig indikation: Ovariecancer (ifølge videnbasen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trabectedin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Trabectedin: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L3). Oprindelig indikation: Ovariecancer (ifølge videnbasen\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vernakalant.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vernakalant: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Atrieflimren\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}
