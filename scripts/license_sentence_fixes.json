@@ -44,5 +44,12 @@
    "keep": true,
    "reason": "checker 誤判（M3a）：這是下一步建議（到 EMA／國家資料庫確認是否有有效許可），不是說本藥有有效許可，不刪"
   }
+ ],
+ "phenylbutazone": [
+  {
+   "sentence": "Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.",
+   "cut": "; producenten er Dopharma Research B.V",
+   "reason": "2026-11-06 用戶決定：表列許可 28100713876 Fenylbutazon \"OBA\" 的持有人依 Lægemiddelstyrelsen 已許可清單（05-11-2026）是 Oba-Pharma ApS；Dopharma Research B.V. 是獸用藥 Butagran Equi（28104996611）的持有人，製造商說法錯，只刪該子句，許可屬國家許可的說法保留"
+  }
  ]
 }

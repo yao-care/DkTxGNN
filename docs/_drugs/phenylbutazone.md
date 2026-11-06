@@ -84,7 +84,7 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28100713876 | Fenylbutazon "OBA" | Tabletter | Ikke angivet |
 
-Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.
+Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig.
 
 ---
 

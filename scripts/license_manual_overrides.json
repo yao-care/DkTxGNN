@@ -8,6 +8,18 @@
  "phenylbutazone": {
   "veterinary": ["28104996611"],
   "reason": "Butagran Equi（Dopharma Research B.V.，oralt pulver 200 mg/g）是馬用製劑，判為獸用，不算人用許可",
-  "basis": "品名 Equi（馬）；DKMA xlsx ATC QM01AA01（Q 開頭＝獸藥）；AEMPS CIMAVet 獸藥 SmPC BUTAGRAN EQUI 200 mg/g polvo oral，目標動物 caballos（https://cimavet.aemps.es/cimavet/pdfs/es/ft/2715+ESP/FT_2715+ESP.pdf）"
+  "basis": "品名 Equi（馬）；DKMA xlsx ATC QM01AA01（Q 開頭＝獸藥）；AEMPS CIMAVet 獸藥 SmPC BUTAGRAN EQUI 200 mg/g polvo oral，目標動物 caballos（https://cimavet.aemps.es/cimavet/pdfs/es/ft/2715+ESP/FT_2715+ESP.pdf）",
+  "human_note": {
+   "license_id": "28100713876",
+   "product": "Fenylbutazon \"OBA\"（Oba-Pharma ApS，tabletter 200 mg）",
+   "verdict": "人用（不列入 veterinary；只是紀錄，不改判定）",
+   "basis": [
+    "Lægemiddelstyrelsen godkendte lægemidler xlsx（Sidst opdateret 05-11-2026，https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=0BD4960F0D7744E3BABC951431681ECC&lang=en）：ATC M01AA01（人用碼），同清單兩個獸用 phenylbutazone（Butagran Equi、Equipalazone Vet.）是 QM01AA01；National／DKMA，1976-12-14 註冊，Er i Medicinpriser＝Nej",
+    "Lægemiddelstyrelsen 供應中斷公告 2021-09-09「Forsyningsvanskeligheder for Fenylbutazon tabletter 200 mg」：ATC-kode M01AA01（https://laegemiddelstyrelsen.dk/da/godkendelse/kontrol-og-inspektion/mangel-paa-medicin/meddelelser-om-forsyning-af-medicin/veterinaer/forsyningsvanskeligheder-for-fenylbutazon-tabletter-200-mg/）。公告放在「Veterinær」欄，但同欄的合併公告也列人用輸液 Soluvit（Fresenius Kabi）；欄位歸類不等於許可類別，公告本身寫的 ATC 是人用碼",
+    "Oba-Pharma ApS 在同一清單的其他許可（Litiumkarbonat、Isoniazid、Glycerol、Papaverin、Oxybuprokain \"OBA\"、Amilco、Noacid、Dolodent）ATC 都是人用碼，沒有 Q 碼；pro.medicin.dk（人用藥資訊）的廠商頁 OBA Pharma ApS 列出 Glycerol \"OBA\"、Litiumkarbonat \"OBA\"（https://pro.medicin.dk/Adresser/Medicinvirksomheder/491）",
+    "pro.medicin.dk 成分頁 Phenylbutazon（https://pro.medicin.dk/Medicin/Indholdsstoffer/840）：「Der findes pt. ingen præparater med indholdsstoffet Phenylbutazon」——目前無上市品項，與 Medicinpriser＝Nej 一致，不涉及人用或獸用",
+    "EU 獸藥資料庫 UPD（medicines.health.europa.eu/veterinary）2026-11-06 查詢回 HTTP 429（限流），未能確認"
+   ]
+  }
  }
 }
