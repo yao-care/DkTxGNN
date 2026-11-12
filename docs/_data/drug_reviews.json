@@ -547,6 +547,46 @@
    "checked": "2026-11-05",
    "summary": "Fjernet: \"(de fundne tilladelser er veterinære)\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+  },
+  {
+   "id": "dk-lic-20261112-thiamine-1",
+   "drug": "thiamine",
+   "file": "thiamine.md",
+   "action": "correct",
+   "claim": "Antal tilladelser: 4 (alle nationale, gyldige).",
+   "replacement": "Antal tilladelser: 13 (alle nationale, gyldige; tabellen viser 4 af dem).",
+   "summary": "Antal tilladelser: 4 → 13",
+   "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 13 gyldige nationale tilladelser med thiamin til mennesker; tabellen viser kun 4 af dem. Der er desuden 1 veterinærlægemiddel.",
+   "finding": "AI 產生的正文把表格列出的 4 張當成總數；事實層（data-20261105-231027）人用 13 張全有效、獸用 1 張，13 張號碼全是丹麥國家許可號（非 EU/1/）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+  },
+  {
+   "id": "dk-lic-20261112-oxytetracycline-1",
+   "drug": "oxytetracycline",
+   "file": "oxytetracycline.md",
+   "action": "correct",
+   "claim": "Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat.",
+   "replacement": "Der findes i alt 8 gyldige nationale tilladelser til lægemidler til mennesker (alle kombinationspræparater med oxytetracyclin, ingen annullerede). Desuden er der 10 tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske).",
+   "summary": "Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære",
+   "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 8 gyldige tilladelser til mennesker, som alle indeholder oxytetracyclin sammen med polymyxin B og/eller hydrocortison, og 10 tilladelser til veterinærlægemidler.",
+   "finding": "AI 產生的正文寫「6 張、全是單方、第六張是獸用」；證據包：人用 8 張全有效，成分欄全是 oxytetracycline＋polymyxin B／hydrocortisone 複方；獸用 10 張（含 Terralon 28101396190）。事實層 single_total＝8 是 Dk 事實層把複方也算單方的口徑問題，這裡照證據包的成分欄寫",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
   }
  ]
 }

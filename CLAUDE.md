@@ -516,3 +516,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 27 筆紀錄（17 頁；沒有因 AI 重產而原句已不在頁面的）。gallium 的刪句是依錯配事實刪的、之後已修正事實並還原（6266374ab 還原一句、2026-11-12 還原另一句），不轉紀錄（site.py RESTORED）；事實層漏收但人工對照主管機關清單確屬本藥的許可證號記在 site.py EXTRA_OWN（目前 cysteine 1 張）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
+2026-11-12 正文許可證張數對事實層的掃描：thiamine（寫 4 張，實為 13 張）、oxytetracycline（寫 6 張單方、第六張獸用，實為人用 8 張全是複方＋獸用 10 張）以 `dk-lic-20261112-*` 更正；Dk 事實層把複方也算進 single_total，「單方」字樣照證據包的成分欄判斷。

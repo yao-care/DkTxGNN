@@ -97,7 +97,13 @@ Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 | 28107099123 | Zubatmin | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
 | 28105939417 | Viant | Pulver til infusionsvæske, opløsning | Ikke angivet |
 
-Antal tilladelser: 4 (alle nationale, gyldige). Ingen af disse har angivet indikationstekst i de indsamlede data.
+Antal tilladelser: 13 (alle nationale, gyldige; tabellen viser 4 af dem). Ingen af disse har angivet indikationstekst i de indsamlede data.
+
+<!-- review:begin dk-lic-20261112-thiamine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal tilladelser: 4 (alle nationale, gyldige)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 13 gyldige nationale tilladelser med thiamin til mennesker; tabellen viser kun 4 af dem. Der er desuden 1 veterinærlægemiddel. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-thiamine-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ Forudsigelsen bygger på en høj modelscore, men der er hverken kliniske forsøg
 - Supplér data om virkningsmekanisme
 - Gennemfør en systematisk litteraturgennemgang og eventuelt prækliniske studier af thiamin ved glaukom
 - Planlæg kun kliniske studier, hvis prækliniske eller epidemiologiske data styrker hypotesen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: 4 → 13 | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

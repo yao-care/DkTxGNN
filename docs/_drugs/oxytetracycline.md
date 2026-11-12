@@ -105,7 +105,13 @@ Der er ingen litteratur for de øvrige forudsagte indikationer.
 | MA 28100049355 | Hydrocortison med Terramycin | Salve | Indikationstekst ikke tilgængelig |
 | MA 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
 
-Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat. Det er bemærkelsesværdigt, at det humane præparat med øredråber (MA 28107137824) allerede er markedsført i Danmark, hvilket er relevant for otitis externa.
+Der findes i alt 8 gyldige nationale tilladelser til lægemidler til mennesker (alle kombinationspræparater med oxytetracyclin, ingen annullerede). Desuden er der 10 tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske). Det er bemærkelsesværdigt, at det humane præparat med øredråber (MA 28107137824) allerede er markedsført i Danmark, hvilket er relevant for otitis externa.
+
+<!-- review:begin dk-lic-20261112-oxytetracycline-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 8 gyldige tilladelser til mennesker, som alle indeholder oxytetracyclin sammen med polymyxin B og/eller hydrocortison, og 10 tilladelser til veterinærlægemidler. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-oxytetracycline-1 -->
 
 ---
 
@@ -133,6 +139,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 - Fuldtekstgennemgang af de identificerede RCT'er og vurdering af, om oxytetracyclin tilfører effekt ud over steroid og polymyxin B
 - Afklaring af, om det eksisterende danske øre-/øjendråbepræparat allerede dækker otitis externa som godkendt indikation
 - Vurdering af administrationsvej og lægemiddelform for de øvrige forudsagte indikationer (f.eks. bihulesygdomme), hvor ingen egnet formulering er dokumenteret
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
