@@ -829,6 +829,26 @@
       "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
     },
     {
+      "id": "dk-lic-20261112-dexpanthenol-2",
+      "drug": "dexpanthenol",
+      "file": "dexpanthenol.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige",
+      "replacement": "Alle 4 tilladelser er gyldige",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige” → “Alle 4 tilladelser er gyldige”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 0、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
       "id": "dk-lic-20261112-dimenhydrinate-1",
       "drug": "dimenhydrinate",
       "file": "dimenhydrinate.md",
@@ -1270,6 +1290,26 @@
       "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
     },
     {
+      "id": "dk-lic-20261112-tezacaftor-2",
+      "drug": "tezacaftor",
+      "file": "tezacaftor.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland) Limited.",
+      "replacement": "Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (Ireland) Limited.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland)” → “Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (I”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 8、valid 8、single_total 0、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
       "id": "dk-lic-20261112-tropicamide-1",
       "drug": "tropicamide",
       "file": "tropicamide.md",
@@ -1328,6 +1368,1406 @@
       ],
       "checked": "2026-11-12",
       "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-adalimumab-1",
+      "drug": "adalimumab",
+      "file": "adalimumab.md",
+      "action": "correct",
+      "claim": "Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.",
+      "replacement": "Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene er ikke komplet.",
+      "summary": "Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.” → “Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene e”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-alirocumab-1",
+      "drug": "alirocumab",
+      "file": "alirocumab.md",
+      "action": "correct",
+      "claim": "Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og listen er fuldstændig.",
+      "replacement": "Der er registreret 5 nationale tilladelser, og listen er fuldstændig.",
+      "summary": "Antal tilladelser: “Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og li” → “Der er registreret 5 nationale tilladelser, og listen er fuldstændig.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 5 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 5、valid 5、single_total 5、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-alitretinoin-1",
+      "drug": "alitretinoin",
+      "file": "alitretinoin.md",
+      "action": "correct",
+      "claim": "Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof.",
+      "replacement": "Der er 8 gyldige tilladelser for lægemidler med enkelt indholdsstof.",
+      "summary": "Antal tilladelser: “Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof.” → “Der er 8 gyldige tilladelser for lægemidler med enkelt indholdsstof.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 8、valid 8、single_total 8、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-allopurinol-1",
+      "drug": "allopurinol",
+      "file": "allopurinol.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræparat).",
+      "replacement": "Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofpræparater).",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” → “Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofp”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 12 tilladelser for dette lægemiddel (heraf 12 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 12、valid 12、single_total 12、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-ambrisentan-1",
+      "drug": "ambrisentan",
+      "file": "ambrisentan.md",
+      "action": "correct",
+      "claim": "Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.",
+      "replacement": "Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.",
+      "summary": "Antal tilladelser: “Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.” → “Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 13 tilladelser for dette lægemiddel (heraf 13 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 13、valid 13、single_total 13、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-apixaban-1",
+      "drug": "apixaban",
+      "file": "apixaban.md",
+      "action": "correct",
+      "claim": "Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral).",
+      "replacement": "Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater (administrationsvej: oral).",
+      "summary": "Antal tilladelser: “Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræp” → “Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltst”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-atorvastatin-1",
+      "drug": "atorvastatin",
+      "file": "atorvastatin.md",
+      "action": "correct",
+      "claim": "De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
+      "replacement": "De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
+      "summary": "Antal tilladelser: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstil” → “De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføri”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-axitinib-1",
+      "drug": "axitinib",
+      "file": "axitinib.md",
+      "action": "correct",
+      "claim": "Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.",
+      "replacement": "Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er gyldige.",
+      "summary": "Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er g”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 16、valid 16、single_total 16、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-brigatinib-1",
+      "drug": "brigatinib",
+      "file": "brigatinib.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).",
+      "replacement": "Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 4、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-cabazitaxel-1",
+      "drug": "cabazitaxel",
+      "file": "cabazitaxel.md",
+      "action": "correct",
+      "claim": "Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.",
+      "replacement": "Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.",
+      "summary": "Antal tilladelser: “Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.” → “Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 10 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 10、valid 10、single_total 10、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-cefuroxime-1",
+      "drug": "cefuroxime",
+      "file": "cefuroxime.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.",
+      "replacement": "Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste a”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 16、valid 16、single_total 16、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-clotrimazole-1",
+      "drug": "clotrimazole",
+      "file": "clotrimazole.md",
+      "action": "correct",
+      "claim": "Alle fire tilladelser er gyldige.",
+      "replacement": "Alle 14 tilladelser er gyldige.",
+      "summary": "Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 14、valid 14、single_total 14、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-clozapine-1",
+      "drug": "clozapine",
+      "file": "clozapine.md",
+      "action": "correct",
+      "claim": "Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS).",
+      "replacement": "Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpr” → “Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkelt”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-corifollitropin_alfa-1",
+      "drug": "corifollitropin_alfa",
+      "file": "corifollitropin_alfa.md",
+      "action": "correct",
+      "claim": "Der er tale om 1 national tilladelse til et enkeltstofpræparat. Tilladelsen er gyldig.",
+      "replacement": "Der er tale om 2 nationale tilladelser til enkeltstofpræparater. Tilladelserne er gyldige.",
+      "summary": "Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat. Tilladelsen er g” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater. Tilladelserne e”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-daptomycin-1",
+      "drug": "daptomycin",
+      "file": "daptomycin.md",
+      "action": "correct",
+      "claim": "Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), status gyldig.",
+      "replacement": "Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.",
+      "summary": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” → “Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 16、valid 16、single_total 16、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-delamanid-1",
+      "drug": "delamanid",
+      "file": "delamanid.md",
+      "action": "correct",
+      "claim": "Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral anvendelse.",
+      "replacement": "Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral anvendelse.",
+      "summary": "Antal tilladelser: “Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral ” → “Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-desmopressin-1",
+      "drug": "desmopressin",
+      "file": "desmopressin.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.",
+      "replacement": "Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enkeltstof.",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.” → “Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enke”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-desogestrel-1",
+      "drug": "desogestrel",
+      "file": "desogestrel.md",
+      "action": "correct",
+      "claim": "Der er tale om én gyldig tilladelse til et enkeltstofprodukt til oral anvendelse.",
+      "replacement": "Der er tale om mindst 20 gyldige tilladelser, heraf mindst 9 til enkeltstofprodukter til oral anvendelse.",
+      "summary": "Antal tilladelser: “Der er tale om én gyldig tilladelse til et enkeltstofprodukt til oral anvendelse” → “Der er tale om mindst 20 gyldige tilladelser, heraf mindst 9 til enkeltstofprodu”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 9 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 9、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-diclofenac-1",
+      "drug": "diclofenac",
+      "file": "diclofenac.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige.",
+      "replacement": "Mindst 20 tilladelser er gyldige.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-dienogest-1",
+      "drug": "dienogest",
+      "file": "dienogest.md",
+      "action": "correct",
+      "claim": "Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoires Besins Int. S.A.S.",
+      "replacement": "Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én af dem er fra Laboratoires Besins Int. S.A.S.",
+      "summary": "Antal tilladelser: “Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoi” → “Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 8、valid 8、single_total 5、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-droperidol-1",
+      "drug": "droperidol",
+      "file": "droperidol.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig national tilladelse for et enkeltstof-præparat.",
+      "replacement": "Der er registreret 4 gyldige nationale tilladelser for enkeltstof-præparater.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig national tilladelse for et enkeltstof-præparat.” → “Der er registreret 4 gyldige nationale tilladelser for enkeltstof-præparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 4、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-eculizumab-1",
+      "drug": "eculizumab",
+      "file": "eculizumab.md",
+      "action": "correct",
+      "claim": "Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen Technology (Ireland) Unlimited Company.",
+      "replacement": "Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).",
+      "summary": "Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 3 tilladelser for dette lægemiddel (heraf 3 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 3、valid 3、single_total 3、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-efmoroctocog_alfa-1",
+      "drug": "efmoroctocog_alfa",
+      "file": "efmoroctocog_alfa.md",
+      "action": "correct",
+      "claim": "Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.",
+      "replacement": "Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 10 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 10、valid 10、single_total 10、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-emtricitabine-1",
+      "drug": "emtricitabine",
+      "file": "emtricitabine.md",
+      "action": "correct",
+      "claim": "Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholdsstof.",
+      "replacement": "Der er mindst 20 gyldige tilladelser, alle til lægemidler med emtricitabin som indholdsstof.",
+      "summary": "Antal tilladelser: “Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholds” → “Der er mindst 20 gyldige tilladelser, alle til lægemidler med emtricitabin som i”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 6、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-enfortumab_vedotin-1",
+      "drug": "enfortumab_vedotin",
+      "file": "enfortumab_vedotin.md",
+      "action": "correct",
+      "claim": "Der er registreret 1 national tilladelse, og den har status som gyldig.",
+      "replacement": "Der er registreret 2 nationale tilladelser, og de har status som gyldige.",
+      "summary": "Antal tilladelser: “Der er registreret 1 national tilladelse, og den har status som gyldig.” → “Der er registreret 2 nationale tilladelser, og de har status som gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-epinephrine-1",
+      "drug": "epinephrine",
+      "file": "epinephrine.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og omfatter kun injektionsform.",
+      "replacement": "Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun injektionsform.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter kun injektionsform.” → “Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun in”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-erdafitinib-1",
+      "drug": "erdafitinib",
+      "file": "erdafitinib.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).",
+      "replacement": "Antal godkendelser: 3 nationale markedsføringstilladelser (enkeltstof, gyldige).",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).” → “Antal godkendelser: 3 nationale markedsføringstilladelser (enkeltstof, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 3 tilladelser for dette lægemiddel (heraf 3 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 3、valid 3、single_total 3、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-fidaxomicin-1",
+      "drug": "fidaxomicin",
+      "file": "fidaxomicin.md",
+      "action": "correct",
+      "claim": "Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts Pharma GmbH).",
+      "replacement": "Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-galantamine-1",
+      "drug": "galantamine",
+      "file": "galantamine.md",
+      "action": "correct",
+      "claim": "Der er én gyldig national tilladelse (enkeltstofpræparat).",
+      "replacement": "Der er 15 gyldige nationale tilladelser (enkeltstofpræparater).",
+      "summary": "Antal tilladelser: “Der er én gyldig national tilladelse (enkeltstofpræparat).” → “Der er 15 gyldige nationale tilladelser (enkeltstofpræparater).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 15 tilladelser for dette lægemiddel (heraf 15 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 15、valid 15、single_total 15、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-glimepiride-1",
+      "drug": "glimepiride",
+      "file": "glimepiride.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige.",
+      "replacement": "Mindst 20 tilladelser er gyldige.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-haloperidol-1",
+      "drug": "haloperidol",
+      "file": "haloperidol.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig tilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 4、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-hydrocortisone-1",
+      "drug": "hydrocortisone",
+      "file": "hydrocortisone.md",
+      "action": "correct",
+      "claim": "Der findes i alt 6 gyldige nationale tilladelser;",
+      "replacement": "Der findes mindst 20 gyldige nationale tilladelser;",
+      "summary": "Antal tilladelser: “Der findes i alt 6 gyldige nationale tilladelser;” → “Der findes mindst 20 gyldige nationale tilladelser;”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-ibuprofen-1",
+      "drug": "ibuprofen",
+      "file": "ibuprofen.md",
+      "action": "correct",
+      "claim": "Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).",
+      "replacement": "Der er registreret mindst 20 tilladelser (enkeltstofpræparater, gyldige).",
+      "summary": "Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret mindst 20 tilladelser (enkeltstofpræparater, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-iloprost-1",
+      "drug": "iloprost",
+      "file": "iloprost.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig tilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er registreret 5 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 5 gyldige tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 5 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 5、valid 5、single_total 5、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-imiquimod-1",
+      "drug": "imiquimod",
+      "file": "imiquimod.md",
+      "action": "correct",
+      "claim": "Der findes 1 gyldig tilladelse for enkeltstofpræparat.",
+      "replacement": "Der findes 2 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-insulin_detemir-1",
+      "drug": "insulin_detemir",
+      "file": "insulin_detemir.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig tilladelse for et enkeltstofspræparat.",
+      "replacement": "Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofspræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 4、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-insulin_lispro-1",
+      "drug": "insulin_lispro",
+      "file": "insulin_lispro.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.",
+      "replacement": "Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyldige.",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyld”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-iodixanol-1",
+      "drug": "iodixanol",
+      "file": "iodixanol.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healthcare AS.",
+      "replacement": "Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healt” → “Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-iopromide-1",
+      "drug": "iopromide",
+      "file": "iopromide.md",
+      "action": "correct",
+      "claim": "Der er tale om én gyldig tilladelse for et enkeltstofspræparat.",
+      "replacement": "Der er tale om 4 gyldige tilladelser for enkeltstofspræparater.",
+      "summary": "Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofspræparat.” → “Der er tale om 4 gyldige tilladelser for enkeltstofspræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 4、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-lamivudine-1",
+      "drug": "lamivudine",
+      "file": "lamivudine.md",
+      "action": "correct",
+      "claim": "Der findes i alt 10 gyldige tilladelser, herunder",
+      "replacement": "Der findes mindst 20 gyldige tilladelser, herunder",
+      "summary": "Antal tilladelser: “Der findes i alt 10 gyldige tilladelser, herunder” → “Der findes mindst 20 gyldige tilladelser, herunder”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 8、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-levetiracetam-1",
+      "drug": "levetiracetam",
+      "file": "levetiracetam.md",
+      "action": "correct",
+      "claim": "Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse).",
+      "replacement": "Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral anvendelse).",
+      "summary": "Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse)” → “Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral an”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-lidocaine-1",
+      "drug": "lidocaine",
+      "file": "lidocaine.md",
+      "action": "correct",
+      "claim": "Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain).",
+      "replacement": "Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain).",
+      "summary": "Antal tilladelser: “Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain).” → “Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-lornoxicam-1",
+      "drug": "lornoxicam",
+      "file": "lornoxicam.md",
+      "action": "correct",
+      "claim": "Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).",
+      "replacement": "Markedsstatus: På markedet (7 gyldige tilladelser).",
+      "summary": "Antal tilladelser: “Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).” → “Markedsstatus: På markedet (7 gyldige tilladelser).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 7 tilladelser for dette lægemiddel (heraf 7 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 7、valid 7、single_total 7、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-meloxicam-1",
+      "drug": "meloxicam",
+      "file": "meloxicam.md",
+      "action": "correct",
+      "claim": "Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).",
+      "replacement": "Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).",
+      "summary": "Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 6 tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 6、valid 6、single_total 6、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-melphalan-1",
+      "drug": "melphalan",
+      "file": "melphalan.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig national tilladelse (enkeltstof, oral administration).",
+      "replacement": "Der er registreret 8 gyldige nationale tilladelser (enkeltstof).",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der er registreret 8 gyldige nationale tilladelser (enkeltstof).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 8、valid 8、single_total 8、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-metformin-1",
+      "drug": "metformin",
+      "file": "metformin.md",
+      "action": "correct",
+      "claim": "Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anvendelse.",
+      "replacement": "Mindst 20 tilladelser er gyldige; de gennemgåede omfatter filmovertrukne tabletter til oral anvendelse.",
+      "summary": "Antal tilladelser: “Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anv” → “Mindst 20 tilladelser er gyldige; de gennemgåede omfatter filmovertrukne tablett”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-milrinone-1",
+      "drug": "milrinone",
+      "file": "milrinone.md",
+      "action": "correct",
+      "claim": "Der er kun én gyldig tilladelse (monopræparat). Den foreligger",
+      "replacement": "Der er 2 gyldige tilladelser (monopræparater). De foreligger",
+      "summary": "Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige tilladelser (monopræparater). De foreligger”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-moroctocog_alfa-1",
+      "drug": "moroctocog_alfa",
+      "file": "moroctocog_alfa.md",
+      "action": "correct",
+      "claim": "Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).",
+      "replacement": "Antal tilladelser: 13 nationale tilladelser (gyldige, enkeltstofpræparater).",
+      "summary": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal tilladelser: 13 nationale tilladelser (gyldige, enkeltstofpræparater).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 13 tilladelser for dette lægemiddel (heraf 13 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 13、valid 13、single_total 13、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-nitrofurantoin-1",
+      "drug": "nitrofurantoin",
+      "file": "nitrofurantoin.md",
+      "action": "correct",
+      "claim": "Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).",
+      "replacement": "Der er 2 gyldige tilladelser til enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2 gyldige tilladelser til enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-palonosetron-1",
+      "drug": "palonosetron",
+      "file": "palonosetron.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Ltd.",
+      "replacement": "Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceuticals Ltd.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceut”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 12 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 12、valid 12、single_total 8、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-pazopanib-1",
+      "drug": "pazopanib",
+      "file": "pazopanib.md",
+      "action": "correct",
+      "claim": "Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).",
+      "replacement": "Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).",
+      "summary": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 14、valid 14、single_total 14、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-pemetrexed-1",
+      "drug": "pemetrexed",
+      "file": "pemetrexed.md",
+      "action": "correct",
+      "claim": "Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).",
+      "replacement": "Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).",
+      "summary": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 19 tilladelser for dette lægemiddel (heraf 19 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 19、valid 19、single_total 19、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-piperacillin-1",
+      "drug": "piperacillin",
+      "file": "piperacillin.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og gælder intravenøse præparater.",
+      "replacement": "Alle 18 tilladelser er gyldige og gælder intravenøse præparater.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “Alle 18 tilladelser er gyldige og gælder intravenøse præparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 18 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 18、valid 18、single_total 0、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-prasugrel-1",
+      "drug": "prasugrel",
+      "file": "prasugrel.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.",
+      "replacement": "Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 14、valid 14、single_total 14、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-ramipril-1",
+      "drug": "ramipril",
+      "file": "ramipril.md",
+      "action": "correct",
+      "claim": "Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig).",
+      "replacement": "Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige).",
+      "summary": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-riluzole-1",
+      "drug": "riluzole",
+      "file": "riluzole.md",
+      "action": "correct",
+      "claim": "Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.",
+      "replacement": "Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.",
+      "summary": "Antal tilladelser: “Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.” → “Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 6 tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 6、valid 6、single_total 6、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-ruxolitinib-1",
+      "drug": "ruxolitinib",
+      "file": "ruxolitinib.md",
+      "action": "correct",
+      "claim": "Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er mindst 20 gyldige nationale markedsføringstilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræpar” → “Der er mindst 20 gyldige nationale markedsføringstilladelser for enkeltstofpræpa”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-salbutamol-1",
+      "drug": "salbutamol",
+      "file": "salbutamol.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige.",
+      "replacement": "Mindst 20 tilladelser er gyldige.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-streptozocin-1",
+      "drug": "streptozocin",
+      "file": "streptozocin.md",
+      "action": "correct",
+      "claim": "Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldig.",
+      "replacement": "Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldig.",
+      "summary": "Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldi”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 2、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-sulfamethoxazole-1",
+      "drug": "sulfamethoxazole",
+      "file": "sulfamethoxazole.md",
+      "action": "correct",
+      "claim": "Den eneste tilladelse er en enkeltstående national tilladelse (gyldig).",
+      "replacement": "Der er 2 gyldige nationale tilladelser, begge til kombinationspræparater.",
+      "summary": "Antal tilladelser: “Den eneste tilladelse er en enkeltstående national tilladelse (gyldig).” → “Der er 2 gyldige nationale tilladelser, begge til kombinationspræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 2、valid 2、single_total 0、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-sunitinib-1",
+      "drug": "sunitinib",
+      "file": "sunitinib.md",
+      "action": "correct",
+      "claim": "Der er registreret én gyldig national markedsføringstilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er registreret én gyldig national markedsføringstilladelse for et enkeltstof” → “Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstof”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 14、valid 14、single_total 14、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-tenecteplase-1",
+      "drug": "tenecteplase",
+      "file": "tenecteplase.md",
+      "action": "correct",
+      "claim": "Der er tale om én gyldig tilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er tale om 3 gyldige tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofpræparat.” → “Der er tale om 3 gyldige tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 3 tilladelser for dette lægemiddel (heraf 3 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 3、valid 3、single_total 3、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-tenofovir_alafenamide-1",
+      "drug": "tenofovir_alafenamide",
+      "file": "tenofovir_alafenamide.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.",
+      "replacement": "Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland UC.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland ”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 10、valid 10、single_total 5、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-theophylline-1",
+      "drug": "theophylline",
+      "file": "theophylline.md",
+      "action": "correct",
+      "claim": "De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof.",
+      "replacement": "De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.",
+      "summary": "Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 5 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 5、valid 5、single_total 5、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-ticagrelor-1",
+      "drug": "ticagrelor",
+      "file": "ticagrelor.md",
+      "action": "correct",
+      "claim": "Der er kun registreret én tilladelse (enkeltstof, gyldig).",
+      "replacement": "Der er registreret mindst 20 tilladelser (enkeltstof, gyldige).",
+      "summary": "Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst 20 tilladelser (enkeltstof, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-trastuzumab-1",
+      "drug": "trastuzumab",
+      "file": "trastuzumab.md",
+      "action": "correct",
+      "claim": "Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er registreret mindst 20 gyldige markedsføringstilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der er registreret mindst 20 gyldige markedsføringstilladelser for enkeltstofpræ”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-treprostinil-1",
+      "drug": "treprostinil",
+      "file": "treprostinil.md",
+      "action": "correct",
+      "claim": "Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.",
+      "replacement": "Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.",
+      "summary": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 16、valid 16、single_total 16、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-vancomycin-1",
+      "drug": "vancomycin",
+      "file": "vancomycin.md",
+      "action": "correct",
+      "claim": "Der er 1 national tilladelse (enkeltstofpræparat, gyldig).",
+      "replacement": "Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige).",
+      "summary": "Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige).”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-vilanterol-1",
+      "drug": "vilanterol",
+      "file": "vilanterol.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.",
+      "replacement": "Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 0、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
+    },
+    {
+      "id": "dk-lic-20261112-zidovudine-1",
+      "drug": "zidovudine",
+      "file": "zidovudine.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.",
+      "replacement": "Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.",
+      "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.”",
+      "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 1 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+      "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 4、valid 4、single_total 1、partial False（data-20261105-231027）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層）"
     }
   ]
 }

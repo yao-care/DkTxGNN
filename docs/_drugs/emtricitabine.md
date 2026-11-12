@@ -82,7 +82,13 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholdsstof. De danske godkendelsesdata indeholder ingen indikationstekst. De fem vigtigste er vist her:
+Der er mindst 20 gyldige tilladelser, alle til lægemidler med emtricitabin som indholdsstof. De danske godkendelsesdata indeholder ingen indikationstekst. De fem vigtigste er vist her:
+
+<!-- review:begin dk-lic-20261112-emtricitabine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholdsstof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-emtricitabine-1 -->
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -123,6 +129,19 @@ Forudsigelsen vedrører en veterinær sygdom, og evidensen består af ét prækl
 
 - **Simian immundefektvirusinfektion (rang 2, L4):** Flere prækliniske studier i makaker viser, at emtricitabin sammen med tenofovir beskytter mod SHIV/SIV-smitte. Det er dyremodeldata og i praksis et forskningsværktøj for den allerede godkendte HIV-indikation. Der er ingen kliniske forsøg for denne indikation, og den giver kun lille repurposing-værdi.
 - **Neuroudviklingsforstyrrelse med ataksisk gang, manglende tale og nedsat kortikal hvid substans (rang 3, L5):** Der er ingen identificeret mekanistisk sammenhæng og hverken kliniske forsøg eller litteratur. Forudsigelsen er rent beregningsmæssig.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholds” → “Der er mindst 20 gyldige tilladelser, alle til lægemidler med emtricitabin som i” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

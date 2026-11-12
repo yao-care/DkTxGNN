@@ -79,7 +79,13 @@ Ingen af de fundne publikationer undersøger theophyllin som behandling af tromb
 
 ## Information om det danske marked
 
-De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof. Der foreligger ingen godkendt indikationstekst i de indsamlede data.
+De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof. Der foreligger ingen godkendt indikationstekst i de indsamlede data.
+
+<!-- review:begin dk-lic-20261112-theophylline-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 5 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-theophylline-1 -->
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -116,6 +122,19 @@ Forudsigelsen hviler alene på en beregnet score. Der findes ingen kliniske fors
 - Prækliniske studier af theophyllins effekt på trombocytaggregation og trombedannelse
 - Gennemgang af produktresuméer fra Lægemiddelstyrelsen for godkendte indikationer, advarsler og kontraindikationer
 - Sikkerhedsplan for lægemiddelinteraktioner og overvågning af serumkoncentration, hvis klinisk afprøvning overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

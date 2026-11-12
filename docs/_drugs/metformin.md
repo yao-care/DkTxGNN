@@ -91,7 +91,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anvendelse. De fleste er kombinationspræparater, der indeholder metformin, men er registreret som enkeltstående tilladelser. Indikationstekst er ikke tilgængelig i de foreliggende data. Nedenfor ses fem af tilladelserne.
+Mindst 20 tilladelser er gyldige; de gennemgåede omfatter filmovertrukne tabletter til oral anvendelse. De fleste er kombinationspræparater, der indeholder metformin, men er registreret som enkeltstående tilladelser. Indikationstekst er ikke tilgængelig i de foreliggende data. Nedenfor ses fem af tilladelserne.
+
+<!-- review:begin dk-lic-20261112-metformin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anvendelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-metformin-1 -->
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -130,6 +136,19 @@ Forudsigelsen er udelukkende baseret på en beregningsmodel (evidensniveau L5) u
 - Systematisk litteratursøgning og søgning efter prækliniske eller mekanistiske studier om metformin ved stiff person-spektret
 - Vurdering af, om den autoimmune baggrund (GAD65) og eventuel samtidig diabetes kan forklare modelsignalet
 - Afklaring af klinisk behov og alternative, veletablerede behandlinger, før der overvejes et forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anv” → “Mindst 20 tilladelser er gyldige; de gennemgåede omfatter filmovertrukne tablett” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

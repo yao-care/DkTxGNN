@@ -99,7 +99,13 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 | 28105622115 | Descovy | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
 | 28105970117 | Biktarvy | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
 
-Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.
+Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland UC.
+
+<!-- review:begin dk-lic-20261112-tenofovir_alafenamide-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tenofovir_alafenamide-1 -->
 
 ---
 
@@ -120,6 +126,19 @@ Evidensen består udelukkende af prækliniske dyrestudier (L4), og SIV er en syg
 - Oplysninger om virkningsmekanisme (MOA) fra DrugBank
 - Advarsler og kontraindikationer fra de danske produktresuméer hos Lægemiddelstyrelsen
 - En afklaring af, om der overhovedet findes en human indikation at forfølge ud over den eksisterende HIV-godkendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland ” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

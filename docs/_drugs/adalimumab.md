@@ -86,7 +86,13 @@ Til orientering fandt dataindsamlingen for det bredere begreb "vertebral sygdom"
 |---------|------|------|-----------|
 | 28105710015 | Amgevita (Amgen Europe BV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i registreringen |
 
-Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.
+Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene er ikke komplet.
+
+<!-- review:begin dk-lic-20261112-adalimumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-adalimumab-1 -->
 
 ---
 
@@ -113,6 +119,19 @@ Forudsigelsen er rent modelbaseret (L5) uden kliniske forsøg eller publikatione
 - Gennemgang af produktresuméets advarsler og kontraindikationer (sikkerhedsscreening kan ikke gennemføres uden)
 - En litteratursøgning målrettet coccyx-hypermobilitet og en klinisk begrundelse for, at TNF-hæmning er relevant
 - Overvejelse af, om de øvrige forudsigelser (fx "vertebral sygdom") skal præciseres til en konkret tilstand, da de aksiale inflammatoriske indikationer allerede er dækket af eksisterende anvendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.” → “Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene e” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

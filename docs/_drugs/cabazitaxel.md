@@ -94,7 +94,13 @@ Der er for tiden ingen relaterede kliniske forsøg registreret i datagrundlaget.
 |---------|------|------|-----------|
 | 28106241519 | Cabazitaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i data |
 
-Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.
+Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.
+
+<!-- review:begin dk-lic-20261112-cabazitaxel-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 10 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-cabazitaxel-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ Der er ingen registrerede kliniske forsøg for brystkræft i datagrundlaget. Der
 - Detaljerede data om virkningsmekanisme
 - Gennemgang af de fulde GENEVIEVE-resultater (pCR og langtidsudfald) samt vurdering af, om fase 3-data findes
 - Plan for sikkerhedsmonitorering, især med hensyn til myelosuppression og lægemiddelinteraktioner (CYP3A4)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.” → “Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

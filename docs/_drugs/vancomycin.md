@@ -88,7 +88,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28103008798 | Vancocin | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
 
-Der er 1 national tilladelse (enkeltstofpræparat, gyldig). Producent: Strides Pharma (Cyprus) Limited.
+Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige). Producent: Strides Pharma (Cyprus) Limited.
+
+<!-- review:begin dk-lic-20261112-vancomycin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 1 national tilladelse (enkeltstofpræparat, gyldig)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-vancomycin-1 -->
 
 ---
 
@@ -114,6 +120,19 @@ Der er ingen kliniske forsøg og ingen litteratur, der direkte undersøger vanco
 - Produktresuméets advarsler og kontraindikationer, som mangler i de indsamlede data
 
 **Bemærkning om øvrige forudsigelser:** De øvrige forudsigelser i listen (bl.a. paratyfus, salmonellose, tyfus, medfødt analbuminæmi, hyperamylasæmi, polyklonalt hyperviskositetssyndrom, blodtypeinkompatibilitet og præmaligne hæmatologiske sygdomme) er alle vurderet som L5 med anbefalingen Hold. For gramnegative Salmonella-arter er vancomycin ikke virksomt, da stoffet ikke kan trænge gennem den ydre membran. Streptokokpneumoni har en biologisk plausibel mekanisme, men evidensen er indirekte (retningslinjer, overvågnings- og resistensstudier), og der findes en rapport om vancomycin-tolerante pneumokokker; betalaktamer er fortsat førstevalg. Der er ingen studier, der direkte viser effekt af vancomycin ved disse tilstande i de indsamlede data.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

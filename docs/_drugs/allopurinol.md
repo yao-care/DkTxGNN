@@ -89,7 +89,13 @@ Ingen af de to artikler tester allopurinol hos patienter med porfyri.
 |---------|------|------|-----------|
 | 28106017917 | Allopurinol "Accord" (Accord Healthcare B.V.) | Tabletter | Indikationstekst er ikke tilgængelig |
 
-Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræparat). Administrationsvej: oral.
+Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofpræparater). Administrationsvej: oral.
+
+<!-- review:begin dk-lic-20261112-allopurinol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræparat)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 12 tilladelser for dette lægemiddel (heraf 12 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-allopurinol-1 -->
 
 ---
 
@@ -114,6 +120,19 @@ Forudsigelsen bygger kun på en beregningsmodel. Der er ingen kliniske forsøg o
 - Prækliniske studier eller case-serier af allopurinol ved hepatisk porfyri
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især ved leversygdom
 - Vurdering af, om allopurinol kan forværre porfyri, før nogen klinisk afprøvning overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” → “Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofp” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

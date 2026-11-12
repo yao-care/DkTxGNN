@@ -88,7 +88,13 @@ Der er i øjeblikket ingen relateret litteratur for den primære forudsagte indi
 | 28104188207 | Tandemact | Tabletter | Indikationstekst ikke angivet |
 | 28103811905 | Avaglim | Filmovertrukne tabletter | Indikationstekst ikke angivet |
 
-Alle tre tilladelser er gyldige. Administrationsvejen er oral.
+Mindst 20 tilladelser er gyldige. Administrationsvejen er oral.
+
+<!-- review:begin dk-lic-20261112-glimepiride-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-glimepiride-1 -->
 
 ---
 
@@ -113,6 +119,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden relev
 - Gennemgang af produktresuméer for advarsler, kontraindikationer og godkendte indikationer fra Lægemiddelstyrelsen
 - Systematisk litteratursøgning og prækliniske data, der kan underbygge en biologisk sammenhæng
 - Sikkerhedsvurdering for målgruppen, herunder risiko for hypoglykæmi hos patienter uden diabetes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

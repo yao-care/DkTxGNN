@@ -83,7 +83,13 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 |---------|------|------|-----------|
 | 28100966159 | Serenase (Essential Pharma Limited) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
 
-Der er registreret én gyldig tilladelse for et enkeltstofpræparat.
+Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-haloperidol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig tilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-haloperidol-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der er hverken kli
 - Vurdering af sikkerhed i en sjælden, ofte pædiatrisk patientgruppe
 
 Denne indikation ligger tæt på haloperidols eksisterende psykiatriske anvendelse og er derfor snarere en udvidelse end egentlig omplacering af lægemidlet.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

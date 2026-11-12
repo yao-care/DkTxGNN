@@ -84,7 +84,13 @@ Der er i øjeblikket ingen relateret litteratur om alitretinoin ved amenorré.
 |---------|------|------|-----------|
 | 28107150024 | Alitretinoin "Nordic Prime" | Bløde kapsler | Ikke angivet i de indsamlede data |
 
-Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof. Den præcise godkendte indikation skal bekræftes i produktresuméet (SmPC).
+Der er 8 gyldige tilladelser for lægemidler med enkelt indholdsstof. Den præcise godkendte indikation skal bekræftes i produktresuméet (SmPC).
+
+<!-- review:begin dk-lic-20261112-alitretinoin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-alitretinoin-1 -->
 
 ---
 
@@ -116,6 +122,19 @@ Der findes hverken kliniske forsøg eller publikationer, som undersøger alitret
 - Data om virkningsmekanisme fra DrugBank
 - Prækliniske eller kliniske data, der direkte undersøger alitretinoin ved amenorré
 - En vurdering af, om nogen af de øvrige forudsigelser (fx akne) har bedre grundlag
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof.” → “Der er 8 gyldige tilladelser for lægemidler med enkelt indholdsstof.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

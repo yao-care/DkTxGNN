@@ -95,7 +95,13 @@ Der foreligger desuden randomiseret evidens for ticagrelor ved akut iskæmisk sl
 |---------|------|------|
 | 28105591315 | Brilique (AstraZeneca AB) | Filmovertrukne tabletter |
 
-Der er kun registreret én tilladelse (enkeltstof, gyldig). Indikationsteksten er ikke angivet i de indsamlede data.
+Der er registreret mindst 20 tilladelser (enkeltstof, gyldige). Indikationsteksten er ikke angivet i de indsamlede data.
+
+<!-- review:begin dk-lic-20261112-ticagrelor-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er kun registreret én tilladelse (enkeltstof, gyldig)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ticagrelor-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ Mekanismen er plausibel, og sygdommen undersøges direkte i et stort fase 3-fors
 - Resultater fra det genotypestyrede forsøg (NCT06714526) og større randomiserede data for ticagrelor ved intrakraniel åreforkalkning.
 - Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen.
 - En plan for blødningsovervågning, især for intrakraniel blødning, og for håndtering af interaktioner med bl.a. clarithromycin.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst 20 tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

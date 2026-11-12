@@ -85,7 +85,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for recidiverende-r
 |---------|------|------|-----------|
 | 28105693315 | Zanosar (Esteve Pharmaceuticals S.A.S.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke oplyst |
 
-Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldig.
+Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldig.
+
+<!-- review:begin dk-lic-20261112-streptozocin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-streptozocin-1 -->
 
 ---
 
@@ -146,6 +152,18 @@ Alle nedenstående er modelforudsigelser med score på 99,93–0,9997. Anbefalin
 | Rhabdomyosarkom | L5 | Ingen forsøg eller litteratur; nyretoksicitet er en bekymring hos børn |
 | Parameningealt embryonalt rhabdomyosarkom | L5 | Ingen forsøg eller litteratur |
 | Embryonalt rhabdomyosarkom i de ekstrahepatiske galdegange | L5 | Ingen forsøg eller litteratur |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldi” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -100,7 +100,13 @@ Ingen af publikationerne undersøger koronar stenose som sygdom direkte. De hand
 |---------|------|------|-----------|
 | 28103119499 (national) | Metalyse (Boehringer Ingelheim Int. GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de foreliggende data |
 
-Der er tale om én gyldig tilladelse for et enkeltstofpræparat. Markedsføringsstatus er "På markedet".
+Der er tale om 3 gyldige tilladelser for enkeltstofpræparater. Markedsføringsstatus er "På markedet".
+
+<!-- review:begin dk-lic-20261112-tenecteplase-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én gyldig tilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 3 tilladelser for dette lægemiddel (heraf 3 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tenecteplase-1 -->
 
 ---
 
@@ -140,6 +146,19 @@ Ingen kliniske forsøg eller publikationer undersøger koronar stenose som sygdo
 - Advarsler og kontraindikationer fra det danske produktresumé fra Lægemiddelstyrelsen, som er en blokerende datamangel for sikkerhedsscreening
 - Indikationstekst for den danske tilladelse
 - Vurdering af blødningsrisiko og interaktioner med antikoagulantia og trombocythæmmere ved den tilsigtede brug
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofpræparat.” → “Der er tale om 3 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

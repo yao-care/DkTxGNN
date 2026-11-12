@@ -88,7 +88,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28106940523 | Axitinib "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
 
-Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gyldig. Administrationsvejen er oral.
+Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er gyldige. Administrationsvejen er oral.
+
+<!-- review:begin dk-lic-20261112-axitinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-axitinib-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ Forudsigelsen understøttes kun af én præklinisk publikation om myxoid liposar
 - Data om virkningsmekanisme fra DrugBank
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - En vurdering af lægemiddelinteraktioner, især med clarithromycin og dexamethason
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er g” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

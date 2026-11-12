@@ -88,7 +88,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28106116918 | Ambrisentan "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i registreringen |
 
-Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.
+Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.
+
+<!-- review:begin dk-lic-20261112-ambrisentan-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 13 tilladelser for dette lægemiddel (heraf 13 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ambrisentan-1 -->
 
 ---
 
@@ -117,6 +123,19 @@ Forudsigelsen bygger på en modelscore og en enkelt case report om en beslægtet
 - Data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer, som ikke indgik i de indsamlede data
 - Sikkerhedsvurdering af shuntrisiko og anæmi (herunder blødningstendens ved HHT)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.” → “Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

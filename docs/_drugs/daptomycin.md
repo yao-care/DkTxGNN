@@ -98,7 +98,13 @@ Ingen af nedenstående studier undersøger daptomycin som behandling af slidgigt
 |---------|------|------|-----------|
 | 28103762004 | Cubicin | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
-Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), status gyldig.
+Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.
+
+<!-- review:begin dk-lic-20261112-daptomycin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), status gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-daptomycin-1 -->
 
 ---
 
@@ -135,6 +141,19 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger daptomyc
 - Godkendt produktresumé (SmPC) med advarsler, kontraindikationer og indikationstekst for Cubicin
 - Præklinisk dokumentation for en mulig effekt ved slidgigt, hvis hypotesen skal forfølges
 - Eventuelt prioritering af leddegigt som forskningsspørgsmål frem for slidgigt, med uafhængig replikation af dyreforsøgene
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” → “Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

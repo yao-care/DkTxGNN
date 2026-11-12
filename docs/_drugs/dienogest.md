@@ -92,7 +92,13 @@ Ingen af nedenstående publikationer undersøger direkte dienogest som behandlin
 |---------|------|------|-----------|
 | 28106335019 | Dienogest "Besins" | Tabletter | Ikke angivet i de tilgængelige data |
 
-Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoires Besins Int. S.A.S.
+Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én af dem er fra Laboratoires Besins Int. S.A.S.
+
+<!-- review:begin dk-lic-20261112-dienogest-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoires Besins Int. S.A.S." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-dienogest-1 -->
 
 ---
 
@@ -127,6 +133,19 @@ Forudsigelsen om amenoré er kun modelbaseret (evidensniveau L5). Ingen kliniske
 - Advarsler og kontraindikationer fra det danske produktresumé samt den godkendte indikationstekst
 - Kontrollerede kliniske studier eller systematisk litteratursøgning direkte på amenoré
 - Vurdering af interaktionsrisici og sygdomme, hvor brug kan være uhensigtsmæssig
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoi” → “Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

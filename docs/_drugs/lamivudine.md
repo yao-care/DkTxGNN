@@ -105,7 +105,13 @@ Et udvalg af de mest relevante publikationer (ingen RCT'er; prækliniske studier
 | 28105684015 | Abacavir/Lamivudine "Stada" | Filmovertrukne tabletter | Indikationstekst ikke angivet |
 | 28105723816 | Abacavir/Lamivudine "Viatris" | Filmovertrukne tabletter | Indikationstekst ikke angivet |
 
-Der findes i alt 10 gyldige tilladelser, herunder Dovato, Triumeq (filmovertrukne og dispergible tabletter), Delstrigo og Trizivir. Alle er til oral anvendelse.
+Der findes mindst 20 gyldige tilladelser, herunder Dovato, Triumeq (filmovertrukne og dispergible tabletter), Delstrigo og Trizivir. Alle er til oral anvendelse.
+
+<!-- review:begin dk-lic-20261112-lamivudine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 10 gyldige tilladelser, herunder" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-lamivudine-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ Evidensen for SIV-infektion er udelukkende prækliniske dyrestudier (evidensnive
 - Hentning og gennemgang af produktresuméer fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer)
 - Data om virkningsmekanisme fra DrugBank
 - Afklaring af, om der findes en relevant human indikation, da SIV og felint immundefektsyndrom primært er forskningsmodeller og veterinære tilstande
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der findes i alt 10 gyldige tilladelser, herunder” → “Der findes mindst 20 gyldige tilladelser, herunder” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

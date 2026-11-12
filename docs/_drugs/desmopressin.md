@@ -96,7 +96,13 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28103652104 | Minirin (Ferring Lægemidler A/S) | Frysetørret tablet | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
-Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.
+Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enkeltstof.
+
+<!-- review:begin dk-lic-20261112-desmopressin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-desmopressin-1 -->
 
 ---
 
@@ -134,6 +140,19 @@ Forudsigelsen er mekanistisk plausibel og understøttes af små observationelle 
 - Data om virkningsmekanisme og produktresumé (advarsler, kontraindikationer)
 - Plan for test-dosisvurdering af respons og overvågning af natrium (hyponatriæmi)
 - Afklaring af, om tabletformuleringen (Minirin) er egnet; kun oral tablet er registreret i Danmark i de indsamlede data
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.” → “Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enke” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -83,7 +83,13 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for gingival fibr
 |---------|------|------|-----------|
 | 28105913017 | Alunbrig (Takeda Pharma A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
-Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).
+Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).
+
+<!-- review:begin dk-lic-20261112-brigatinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-brigatinib-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ Forudsigelsen støttes hverken af kliniske forsøg eller litteratur, og der er i
 - **Fibrom i lunge, hamartom i lunge, benign lungetumor, pulmonær sulcus-neoplasi, junktional epidermolysis bullosa og inklusionslegememyopati med Paget-sygdom:** kun modelforudsigelse (L5). For benign lungetumor handler de fundne publikationer om ALK-positiv NSCLC og ikke om benigne tumorer.
 - **Lungegermcelletumor:** Litteraturen omfatter ALK-drevne tumorer uden for NSCLC (neuroblastom, fæokromocytom, storcellet neuroendokrint karcinom), men intet direkte om denne sygdom. Det er ikke påvist, at germcelletumorer har ALK-forandringer.
 - **Leukomelanoderma-infantilisme-syndromet:** Litteraturen handler om NF2-relateret schwannomatose, en anden sygdom, hvor brigatinib har præklinisk og en tidlig klinisk rapport (NEJM 2024). Evidensen skal gen-kurateres, før der drages konklusioner for det nævnte syndrom.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

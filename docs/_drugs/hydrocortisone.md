@@ -103,7 +103,13 @@ De øvrige publikationer er enten historiske artikler uden tilgængeligt resumé
 | 28100049355 | Hydrocortison med Terramycin | Salve | – |
 | 28103080599 | Ciflox | Øredråber, suspension | – |
 
-Der findes i alt 6 gyldige nationale tilladelser; en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5. Godkendt indikationstekst indgår ikke i de data, der er indsamlet til rapporten.
+Der findes mindst 20 gyldige nationale tilladelser; en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5. Godkendt indikationstekst indgår ikke i de data, der er indsamlet til rapporten.
+
+<!-- review:begin dk-lic-20261112-hydrocortisone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 6 gyldige nationale tilladelser;" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-hydrocortisone-1 -->
 
 ---
 
@@ -128,6 +134,19 @@ Den eneste støtte er ét lille fase 3-forsøg, hvor hydrocortison var det svage
 - Gennemgang af produktresuméer (SmPC) for advarsler og kontraindikationer, som ikke var tilgængelige
 - Resultaterne af forsøget NCT01453686 for hydrocortison-armen alene
 - Kontrollerede studier, der undersøger hydrocortison som forsøgsbehandling ved alopecia areata
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der findes i alt 6 gyldige nationale tilladelser;” → “Der findes mindst 20 gyldige nationale tilladelser;” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

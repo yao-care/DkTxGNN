@@ -78,7 +78,13 @@ Sammenhængen til migræne er indirekte. En mulig hypotese er, at migræne med a
 |---------|------|------|-----------|
 | 28106803222 | Apinovia (Innovis Pharma S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
-Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral).
+Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater (administrationsvej: oral).
+
+<!-- review:begin dk-lic-20261112-apixaban-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-apixaban-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -104,6 +110,18 @@ Der er ingen undersøgelser, der understøtter apixaban ved migræne; de to kasu
 - Data om virkningsmekanisme, som kan belyse en biologisk sammenhæng med migræne
 - Kontrollerede kliniske data for apixaban ved migræne (eventuelt i afgrænsede undergrupper, fx migræne med aura og PFO eller antifosfolipidantistoffer)
 - Gennemgang af produktresuméets advarsler og kontraindikationer med henblik på sikkerhedsvurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræp” → “Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltst” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

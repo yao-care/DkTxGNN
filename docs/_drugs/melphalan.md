@@ -102,7 +102,13 @@ De fleste studier er gamle, små og ofte uden kontrolgruppe. Flere indgår som l
 |---------|------|------|-----------|
 | 28103204700 | Alkeran | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Der er registreret én gyldig national tilladelse (enkeltstof, oral administration). Fabrikant: Aspen Pharma Trading Limited.
+Der er registreret 8 gyldige nationale tilladelser (enkeltstof). Fabrikant: Aspen Pharma Trading Limited.
+
+<!-- review:begin dk-lic-20261112-melphalan-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig national tilladelse (enkeltstof, oral administration)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-melphalan-1 -->
 
 ---
 
@@ -146,6 +152,19 @@ Der foreligger direkte kliniske data om melphalan ved brystkræft, herunder ét 
 ---
 
 *Øvrige forudsigelser (rektalt, colon-, galdeblære-, cervikalt og endometrielt mucinøst adenokarcinom) har kun TxGNN-score (0,9926–0,9938) som støtte uden kliniske forsøg eller litteratur. De er evidensniveau L5 og vurderes som Hold.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der er registreret 8 gyldige nationale tilladelser (enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

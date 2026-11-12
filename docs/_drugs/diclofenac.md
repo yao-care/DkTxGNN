@@ -88,7 +88,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 | 28103185700 | Diclofenac Rapid "Teva" | Filmovertrukne tabletter | Teva B.V. |
 | 28105017612 | Arthrotec Forte | Tabletter med modificeret udløsning | Orifarm A/S |
 
-Alle tre tilladelser er gyldige. Indikationsteksten indgår ikke i de indsamlede data, så der henvises til produktresuméerne (SmPC).
+Mindst 20 tilladelser er gyldige. Indikationsteksten indgår ikke i de indsamlede data, så der henvises til produktresuméerne (SmPC).
+
+<!-- review:begin dk-lic-20261112-diclofenac-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-diclofenac-1 -->
 
 Der findes hverken en lokal formulering til hovedbunden eller andre relevante administrationsveje blandt de danske tilladelser. Det betyder, at ingen af de eksisterende produkter uden videre kan bruges til den forudsagte indikation.
 
@@ -127,6 +133,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litter
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 
 **Bemærkning om andre forudsigelser:** Blandt de ti øverste forudsigelser er **juvenil idiopatisk artritis** den eneste med litteraturstøtte (evidensniveau L3, anbefaling "Proceed with Guardrails"). Støtten består af små, ældre studier, og vurderingen bygger kun på titler, ikke verificerede studiedesign. Hvis der ønskes en mere realistisk repurposing-kandidat for diclofenac, bør denne indikation vurderes særskilt, med opmærksomhed på pædiatrisk dosering, mave-tarm-, nyre- og hjerte-kar-sikkerhed samt interaktioner.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

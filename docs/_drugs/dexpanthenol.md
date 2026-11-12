@@ -90,13 +90,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 | 28103270301 | Cernevit (Baxter A/S) | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet |
 | 28105939417 | Viant (B. Braun Melsungen AG) | Pulver til infusionsvæske, opløsning | Ikke angivet |
 
-Alle tre tilladelser er gyldige og omfatter kombinationspræparater med dexpanthenol. Der er ikke registreret topikale præparater (f.eks. creme) blandt tilladelserne i dataene.
+Alle 4 tilladelser er gyldige og omfatter kombinationspræparater med dexpanthenol. Der er ikke registreret topikale præparater (f.eks. creme) blandt tilladelserne i dataene.
 
 <!-- review:begin dk-lic-20261112-dexpanthenol-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "omfatter præparater med dexpanthenol som enkeltstof" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Cernevit, Viant og Zymelin Care indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-dexpanthenol-1 -->
+
+<!-- review:begin dk-lic-20261112-dexpanthenol-2 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-dexpanthenol-2 -->
 
 ---
 
@@ -132,6 +138,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige” → “Alle 4 tilladelser er gyldige” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

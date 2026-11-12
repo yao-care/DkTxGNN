@@ -97,7 +97,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28103002398 | ReFacto (Pfizer Europe MA EEIG) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de foreliggende data |
 
-Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).
+Antal tilladelser: 13 nationale tilladelser (gyldige, enkeltstofpræparater).
+
+<!-- review:begin dk-lic-20261112-moroctocog_alfa-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 13 tilladelser for dette lægemiddel (heraf 13 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-moroctocog_alfa-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 - Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendt indikationstekst
 - Kuratering af sygdomsnavnet "flood factor deficiency" mod kildeontologien
 - Hvis der ønskes videre udforskning, bør "erhvervet koagulationsfaktormangel" undersøges som et forskningsspørgsmål med en systematisk litteratursøgning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal tilladelser: 13 nationale tilladelser (gyldige, enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

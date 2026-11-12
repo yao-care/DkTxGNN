@@ -97,7 +97,13 @@ Ingen af publikationerne undersøger nitrofurantoin som behandling af reumatoid 
 |---------|------|------|-----------|
 | 28100739776 | Nitrofurantoin "EQL Pharma" | Tabletter | Indikationstekst ikke tilgængelig |
 
-Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).
+Der er 2 gyldige tilladelser til enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-nitrofurantoin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-nitrofurantoin-1 -->
 
 ---
 
@@ -125,6 +131,19 @@ Der er ingen kliniske forsøg og ingen studier, der viser behandlingseffekt af n
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Gennemgang af det danske produktresumé for godkendt indikation, advarsler og kontraindikationer
 - En vurdering af, om forudsigelsen blot er en grafartefakt
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2 gyldige tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

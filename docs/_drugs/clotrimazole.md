@@ -85,7 +85,13 @@ På nuværende tidspunkt foreligger der ingen relateret litteratur.
 |---------|------|------|-----------|
 | 28100608472 | Canesten | Creme | Bayer AB |
 
-Alle fire tilladelser er gyldige.
+Alle 14 tilladelser er gyldige.
+
+<!-- review:begin dk-lic-20261112-clotrimazole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle fire tilladelser er gyldige." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-clotrimazole-1 -->
 
 ---
 
@@ -115,6 +121,18 @@ Forudsigelsen bygger alene på modellen og på ét suspenderet forsøg med en ko
 - Kontrollerede studier af clotrimazol alene ved akne eller svampeassocieret folliculitis
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af, om den tilgængelige creme er relevant for målpopulationen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

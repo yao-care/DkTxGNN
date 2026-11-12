@@ -84,7 +84,13 @@ Der foreligger for øjeblikket ingen relateret litteratur.
 |---------|------|------|-----------|
 | 28106501620 | Treprostinil "Tillomed" (Tillomed Pharma GmbH) | Infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
 
-Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.
+Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-treprostinil-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-treprostinil-1 -->
 
 ---
 
@@ -111,6 +117,19 @@ Forudsigelsen bygger kun på modellens score og er uden kliniske forsøg og publ
 - Prækliniske eller kliniske data, der direkte undersøger treprostinil ved pulmonal arteriovenøs malformation
 - Vurdering af shunt-, hypoksæmi- og blødningsrisiko hos relevante patienter
 - Afklaring af administrationsvej og forenelighed med den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

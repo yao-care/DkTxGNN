@@ -74,7 +74,13 @@ Der foreligger i øjeblikket ingen relateret litteratur for alopeci.
 |---------|------|------|-----------|
 | 28105826516 | Milnocor (Macure Pharma ApS) | Injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
-Der er kun én gyldig tilladelse (monopræparat). Den foreligger udelukkende som injicerbar form, hvilket ikke uden videre passer til en indikation som hårtab, hvor lokal eller oral behandling ville være mere sandsynlig.
+Der er 2 gyldige tilladelser (monopræparater). De foreligger udelukkende som injicerbar form, hvilket ikke uden videre passer til en indikation som hårtab, hvor lokal eller oral behandling ville være mere sandsynlig.
+
+<!-- review:begin dk-lic-20261112-milrinone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er kun én gyldig tilladelse (monopræparat). Den foreligger" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-milrinone-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -97,6 +103,19 @@ Forudsigelsen om alopeci er alene baseret på en modelscore, uden kliniske fors�
 - Detaljerede data om virkningsmekanismen
 
 **Bemærkning:** Andre forudsigelser for milrinon har væsentligt mere evidens, men er i praksis etableret eller nært beslægtet med eksisterende brug. For kongestiv hjerteinsufficiens (evidensniveau L2, "Proceed with Guardrails") og akut pulmonal hjertesygdom (L1, bør tolkes forsigtigt, da det eneste forsøg omfatter en blandet kritisk syg population) kunne en særskilt vurdering være mere relevant. Headache disorder (L4, kun case reports om reversibelt cerebralt vasokonstriktionssyndrom) er en forskningsmæssig problemstilling.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige tilladelser (monopræparater). De foreligger” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -96,7 +96,13 @@ Der er ingen publikationer, som direkte undersøger prasugrel ved pulmonal hyper
 |---------|------|------|-----------|
 | 28107432225 | Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
 
-Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.
+Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug.
+
+<!-- review:begin dk-lic-20261112-prasugrel-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-prasugrel-1 -->
 
 ---
 
@@ -125,6 +131,19 @@ Forudsigelsen for pulmonal hypertension støttes kun af modellen (evidensniveau 
 - Detaljerede data om virkningsmekanisme (MOA)
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, som mangler i de indsamlede data
 - Overvejelse af migræne med PFO som mere lovende, men stadig kun indirekte understøttet, forskningsspørgsmål. Her findes kun en åben pilotundersøgelse (ticagrelor) og en retrospektiv gennemgang af tienopyridiner, og de omfatter ikke prasugrel specifikt
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

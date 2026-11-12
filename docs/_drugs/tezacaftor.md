@@ -74,13 +74,19 @@ Modellen har også forudsagt to andre indikationer med samme manglende evidensgr
 | 28106594021 | Kaftrio | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 | 28107176424 | Alyftrek | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
-Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland) Limited. Alle er kombinationspræparater, og alle er til oral anvendelse.
+Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (Ireland) Limited. Alle er kombinationspræparater, og alle er til oral anvendelse.
 
 <!-- review:begin dk-lic-20261112-tezacaftor-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle er enkeltstofspræparater i de registrerede data" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Symkevi, Kaftrio og Alyftrek indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-tezacaftor-1 -->
+
+<!-- review:begin dk-lic-20261112-tezacaftor-2 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland) Limited." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 8 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tezacaftor-2 -->
 
 ---
 
@@ -115,6 +121,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland)” → “Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (I” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

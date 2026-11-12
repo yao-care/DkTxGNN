@@ -84,7 +84,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28103070399 | Keppra (UCB S.A. UCB Center) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
 
-Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse).
+Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral anvendelse).
+
+<!-- review:begin dk-lic-20261112-levetiracetam-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-levetiracetam-1 -->
 
 ---
 
@@ -109,6 +115,19 @@ Forudsigelsen bygger kun på modellens score uden understøttende forsøg eller 
 - Mekanistisk begrundelse og præklinisk evidens
 - Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
 - Vurdering af, om en eventuel nytte blot er symptomatisk og ikke sygdomsmodificerende
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse)” → “Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral an” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

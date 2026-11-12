@@ -88,7 +88,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 |---------|------|------|-----------|
 | 28101651185 | Sulfametoxazol med Trimetoprim "SAD" (Amgros I/S) | Tabletter (oral) | Indikationstekst ikke angivet i de tilgængelige data |
 
-Den eneste tilladelse er en enkeltstående national tilladelse (gyldig). Der er kun oral tabletform, mens konjunktivitis normalt behandles lokalt i øjet, så administrationsvejens egnethed er uafklaret.
+Der er 2 gyldige nationale tilladelser, begge til kombinationspræparater. Der er kun oral tabletform, mens konjunktivitis normalt behandles lokalt i øjet, så administrationsvejens egnethed er uafklaret.
+
+<!-- review:begin dk-lic-20261112-sulfamethoxazole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Den eneste tilladelse er en enkeltstående national tilladelse (gyldig)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-sulfamethoxazole-1 -->
 
 ---
 
@@ -116,6 +122,19 @@ Forudsigelsen er ikke en ægte repurposing-kandidat, fordi konjunktivitis allere
 - Afklaring af, om forudsigelsen tilfører noget ud over den eksisterende konjunktivitis-indikation
 - Vurdering af administrationsvej, da kun orale tabletter er markedsført i Danmark
 - Kliniske studier eller systematiske oversigter, der undersøger sulfamethoxazol (evt. med trimethoprim) ved akut smitsom konjunktivitis, samt lokale resistensdata
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Den eneste tilladelse er en enkeltstående national tilladelse (gyldig).” → “Der er 2 gyldige nationale tilladelser, begge til kombinationspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

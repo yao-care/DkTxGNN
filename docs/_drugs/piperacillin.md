@@ -99,7 +99,13 @@ Fundene afspejler, at piperacillin bruges til at behandle infektioner hos patien
 | 28106711921 | Piperacillin/Tazobactam "Antibiotice" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 | 28104035606 | Piperacillin/Tazobactam "Reig Jofre" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
-Alle tre tilladelser er gyldige og gælder intravenøse præparater.
+Alle 18 tilladelser er gyldige og gælder intravenøse præparater.
+
+<!-- review:begin dk-lic-20261112-piperacillin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og gælder intravenøse præparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 18 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-piperacillin-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ Forudsigelsen bygger kun på modellen (evidensniveau L5). Der er hverken klinisk
 - Vurdering af, om intravenøs administration er egnet til en kronisk sygdom som leddegigt
 
 Øvrige forudsigelser (fx sklerosende kolangitis, osteoartrose, diabetisk nefropati, WHIM-syndrom) har ligeledes kun evidensniveau L5 og anbefales også sat på Hold.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “Alle 18 tilladelser er gyldige og gælder intravenøse præparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

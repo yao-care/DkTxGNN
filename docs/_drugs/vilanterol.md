@@ -58,7 +58,6 @@ Forudsigelsen understøttes af **28 kliniske forsøg** og **20 publikationer** i
 
 Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Vilanterol er dog kendt som en langtidsvirkende beta2-adrenoceptoragonist, som afslapper de glatte muskler i luftvejene via cAMP-medieret bronkodilatation og har en effekt, der varer 24 timer, hvilket muliggør dosering én gang dagligt.
 
-
 De øvrige forudsagte indikationer (rang 2-10, bl.a. interstitielt emfysem, trakealstenose, medfødt lobært emfysem og laryngotracheitis) har enten ingen kliniske data eller kun indirekte data. Der er ingen oplagt mekanistisk begrundelse for bronkodilatation ved strukturelle eller infektiøse tilstande. Disse vurderes som **Hold**. For bronkialneoplasi (rang 6) vedrører evidensen perioperativ behandling af KOL hos lungekræftpatienter, ikke selve tumoren.
 
 ## Kliniske forsøg
@@ -103,7 +102,13 @@ Nogle forsøg er trukket tilbage uden deltagere (f.eks. NCT04671355, NCT01435902
 | 28105147812 | Relvar Ellipta | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig |
 | 28105889816 | Trelegy Ellipta | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig |
 
-Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
+Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
+
+<!-- review:begin dk-lic-20261112-vilanterol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-vilanterol-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -123,6 +128,19 @@ Flere afsluttede fase 3-RCT'er og store studier understøtter vilanterol-holdige
 - Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
 - Hvis en ny indikation ud over KOL/astma ønskes undersøgt, skal der indhentes målrettede data, da der ikke findes støtte for de strukturelle eller infektiøse tilstande
 - Overvågningsplan for patienter med kardiovaskulær sygdom og diabetes samt ved samtidig brug af interagerende lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

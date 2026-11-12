@@ -84,7 +84,13 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig for denne indikation
 | 28104894011 | Aprokam | Pulver til injektionsvæske, opløsning | – |
 | 28103323601 | Cefudoc | Filmovertrukne tabletter | – |
 
-Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.
+Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.
+
+<!-- review:begin dk-lic-20261112-cefuroxime-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 16 tilladelser for dette lægemiddel (heraf 16 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-cefuroxime-1 -->
 
 ---
 
@@ -111,6 +117,19 @@ For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, hen
 - Data om virkningsmekanisme, der kan begrunde en sammenhæng med hyperamylasæmi
 - Prækliniske eller kliniske studier, der direkte undersøger cefuroxim ved denne tilstand
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste a” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

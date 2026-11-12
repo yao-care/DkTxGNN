@@ -85,7 +85,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 | 28101774595 | Combivent (Boehringer Ingelheim Int. GmbH) | Inhalationsvæske til nebulisator, opløsning, enkeltdosisbeholder | Ikke angivet i de tilgængelige data |
 | 28104130807 | Ipramol Steri-Neb (Teva B.V.) | Inhalationsvæske til nebulisator, opløsning, enkeltdosisbeholder | Ikke angivet i de tilgængelige data |
 
-Alle tre tilladelser er gyldige. Ingen af de markedsførte produkter er til øjenbrug. Samtlige er til inhalation.
+Mindst 20 tilladelser er gyldige. Ingen af de markedsførte produkter er til øjenbrug. Samtlige er til inhalation.
+
+<!-- review:begin dk-lic-20261112-salbutamol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-salbutamol-1 -->
 
 ---
 
@@ -119,6 +125,18 @@ Forudsigelsen har en høj modelscore, men der findes hverken kliniske forsøg el
 - Vurdering af administrationsvej og formulering til øjet, da de nuværende produkter kun er til inhalation
 - Vurdering af lokal øjensikkerhed, især med hensyn til glaukom og forhøjet intraokulært tryk
 - Gennemgang af produktresuméet (SmPC) for fuldstændige advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

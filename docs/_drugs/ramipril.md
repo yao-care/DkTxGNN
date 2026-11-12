@@ -74,7 +74,13 @@ Der er i øjeblikket ingen relateret litteratur for den forudsagte indikation.
 |---------|------|------|-----------|
 | 28103931806 | Alarimed | Tabletter | Ingen indikationstekst i de indsamlede data |
 
-Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig). Producent: Zaktady Farmaceutyczne POLPHARMA. Administrationsvej: oral.
+Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige). Producent: Zaktady Farmaceutyczne POLPHARMA. Administrationsvej: oral.
+
+<!-- review:begin dk-lic-20261112-ramipril-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ramipril-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -97,6 +103,19 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikation
 - Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Systematisk litteratursøgning og afklaring af, om der findes kliniske data for ACE-hæmmere ved pulmonal hypertension
 - Eventuelt præklinisk eller eksplorativt studie, før klinisk vurdering overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

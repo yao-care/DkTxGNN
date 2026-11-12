@@ -85,7 +85,13 @@ Der er ingen litteratur, som direkte undersøger fidaxomicin ved stafylokok-skol
 |---------|------|------|-----------|
 | 28104752610 | Dificlir | Filmovertrukne tabletter (oral) | Indikationstekst er ikke tilgængelig i de indsamlede data |
 
-Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts Pharma GmbH). Listen er fuldstændig.
+Der er i alt 2 gyldige tilladelser for enkeltstofpræparater. Listen er fuldstændig.
+
+<!-- review:begin dk-lic-20261112-fidaxomicin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts Pharma GmbH)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-fidaxomicin-1 -->
 
 ---
 
@@ -113,6 +119,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller p
 - Præklinisk dokumentation for aktivitet mod toksinproducerende *S. aureus* samt vævsfordelingsdata
 - Gennemgang af advarsler og kontraindikationer i det danske produktresumé
 - Vurdering af, om en anden administrationsvej eller formulering ville være nødvendig for at opnå systemisk eller topisk eksponering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

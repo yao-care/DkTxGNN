@@ -84,7 +84,13 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28101272286 | Ultravist (Bayer AB) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
-Der er tale om én gyldig tilladelse for et enkeltstofspræparat. Administration sker som injektion/infusion.
+Der er tale om 4 gyldige tilladelser for enkeltstofspræparater. Administration sker som injektion/infusion.
+
+<!-- review:begin dk-lic-20261112-iopromide-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én gyldig tilladelse for et enkeltstofspræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-iopromide-1 -->
 
 ---
 
@@ -114,6 +120,19 @@ Forudsigelsen om osteoartrose er udelukkende baseret på en beregningsmæssig mo
 - Produktresumé med advarsler, kontraindikationer og godkendt indikation fra Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske studier, der undersøger iopromid ved osteoartrose
 - Vurdering af, om forudsigelsen blot er en artefakt af kontrastmidlets anvendelse ved artrografi
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofspræparat.” → “Der er tale om 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

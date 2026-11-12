@@ -99,7 +99,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28105539814 | Elocta (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
 
-Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.
+Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-efmoroctocog_alfa-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 10 tilladelser for dette lægemiddel (heraf 10 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-efmoroctocog_alfa-1 -->
 
 ---
 
@@ -124,6 +130,19 @@ Forudsigelsen for pseudo-von Willebrand sygdom bygger udelukkende på modelscore
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Systematisk litteratursøgning og søgning efter kliniske forsøg for de udvalgte indikationer
 - Vurdering af ruteforenelighed, som endnu ikke er udført
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

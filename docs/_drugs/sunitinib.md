@@ -99,7 +99,13 @@ Fordelen ser dog ud til at afhænge af subtypen. Det publicerede fase 2-studie p
 |---------|------|------|-----------|
 | 28106347719 | Sunitinib "Accord" (Accord Healthcare S.L.U.) | Kapsler, hårde | Indikationsteksten er ikke angivet i de indsamlede data |
 
-Der er registreret én gyldig national markedsføringstilladelse for et enkeltstofpræparat.
+Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-sunitinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig national markedsføringstilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-sunitinib-1 -->
 
 ---
 
@@ -140,6 +146,19 @@ To afsluttede fase 2-studier og et publiceret fase 2-studie omfatter liposarkomp
 - Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
 - Plan for sikkerhedsmonitorering (QT, lever, hjerte, blodtryk, skjoldbruskkirtel) samt vurdering af interaktioner
 - Vurdering af sunitinib i forhold til etablerede behandlinger af liposarkom (f.eks. doxorubicin, trabectedin)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national markedsføringstilladelse for et enkeltstof” → “Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstof” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

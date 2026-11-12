@@ -97,7 +97,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne for
 | 28101882997 | Combivir | Filmovertrukne tabletter | Ikke tilgængelig i de indsamlede data |
 | 28103123099 | Trizivir | Filmovertrukne tabletter | Ikke tilgængelig i de indsamlede data |
 
-Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV. Combivir og Trizivir er kombinationspræparater, som indeholder zidovudin sammen med andre antiretrovirale stoffer.
+Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV. Combivir og Trizivir er kombinationspræparater, som indeholder zidovudin sammen med andre antiretrovirale stoffer.
+
+<!-- review:begin dk-lic-20261112-zidovudine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 1 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-zidovudine-1 -->
 
 ---
 
@@ -124,6 +130,19 @@ Se i øvrigt den godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 - Data om virkningsmekanisme fra DrugBank
 - En afklaring af, om der er et reelt behov for en veterinær eller human indikation, hvis forskningsspørgsmålet skal forfølges
 - Ved en eventuel veterinær anvendelse: vurdering af dokumenteret hæmatologisk toksicitet hos katte og af resistensudvikling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

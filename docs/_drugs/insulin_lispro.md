@@ -102,7 +102,13 @@ Til orientering er der for rang 7 (pancreasagenesi) fundet én artikel, som ikke
 |---------|------|------|-----------|
 | 28101706394 | Humalog | Injektionsvæske | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.
+Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyldige.
+
+<!-- review:begin dk-lic-20261112-insulin_lispro-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-insulin_lispro-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ Forudsigelsen om autoimmun oophoritis bygger udelukkende på en beregningsmæssi
 - Litteratursøgning og prækliniske eller kliniske data, der direkte undersøger insulin lispro ved autoimmun oophoritis
 - Gennemgang af godkendelsesteksten og produktresuméet for Humalog (advarsler og kontraindikationer)
 - Vurdering af, om signalerne for lipodystrofi og diabetesrelaterede tilstande er falsk positive eller blot overlapper med den kendte diabetesindikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyld” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

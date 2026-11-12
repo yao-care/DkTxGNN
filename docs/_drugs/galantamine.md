@@ -129,7 +129,13 @@ Litteraturen er blandet: kolinesterasehæmmere er forbundet med bevægelsesforst
 |---------|------|------|-----------|
 | 28107316025 | Galantamin Carefarm (Orifarm A/S) | Depotkapsler, hårde | Indikationstekst ikke tilgængelig |
 
-Der er én gyldig national tilladelse (enkeltstofpræparat). Der er ingen annullerede tilladelser.
+Der er 15 gyldige nationale tilladelser (enkeltstofpræparater). Der er ingen annullerede tilladelser.
+
+<!-- review:begin dk-lic-20261112-galantamine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er én gyldig national tilladelse (enkeltstofpræparat)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 15 tilladelser for dette lægemiddel (heraf 15 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-galantamine-1 -->
 
 ---
 
@@ -167,6 +173,19 @@ Forudsigelsen om psykogene bevægelsesforstyrrelser bygger kun på modelscore (e
 - Vurdering af lighed mellem Alzheimers sygdom og den forudsagte indikation
 - Overvej at prioritere lingual-facial-bukkal dyskinesi (tardiv dyskinesi) som forskningsspørgsmål, da der findes et randomiseret crossover-forsøg og Cochrane-reviews, dog uden galantamin-specifik effektdokumentation
 - Ved overvejelse af akut intermitterende porfyri: forudgående gennemgang af porfyrinogenicitet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er én gyldig national tilladelse (enkeltstofpræparat).” → “Der er 15 gyldige nationale tilladelser (enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

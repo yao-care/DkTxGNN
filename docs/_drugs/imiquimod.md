@@ -99,7 +99,13 @@ Den forudsagte sygdomskategori er bred. Evidensen gælder specifikke tilstande o
 |---------|------|------|-----------|
 | 28101813496 | Aldara (Viatris Healthcare Limited) | Creme | Indikationstekst ikke angivet i de indsamlede data |
 
-Der findes 1 gyldig tilladelse for enkeltstofpræparat. Listen er ikke delvis.
+Der findes 2 gyldige tilladelser for enkeltstofpræparater. Listen er ikke delvis.
+
+<!-- review:begin dk-lic-20261112-imiquimod-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes 1 gyldig tilladelse for enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-imiquimod-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ Den forudsagte diagnose er bred, og ingen citerede studier belyser "præmalign n
 - Verificeret information om virkningsmekanisme samt advarsler og kontraindikationer fra det danske produktresumé
 - Gennemgang af de registrerede lægemiddelinteraktioner og sikkerhedsplan, især for slimhindeanvendelse
 - Større randomiserede forsøg med tilstrækkelig styrke
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

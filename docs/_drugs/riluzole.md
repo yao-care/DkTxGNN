@@ -70,7 +70,13 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28104899411 | Glentek (Glenmark Arzneimittel GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
 
-Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.
+Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.
+
+<!-- review:begin dk-lic-20261112-riluzole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 6 tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-riluzole-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -90,6 +96,18 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, publik
 - Præklinisk eller mekanistisk belæg for relevans ved kortikal udviklingsforstyrrelse
 - Gennemgang af produktresumé for advarsler og kontraindikationer
 - Litteraturgennemgang af, om der findes studier af sygdommen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.” → “Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

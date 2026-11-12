@@ -86,7 +86,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for spedalskhed.
 |---------|------|------|-----------|
 | 28106584021 | Padcev | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
 
-Indehaver af markedsføringstilladelsen er Astellas Pharma Europe B.V. Der er registreret 1 national tilladelse, og den har status som gyldig.
+Indehaver af markedsføringstilladelsen er Astellas Pharma Europe B.V. Der er registreret 2 nationale tilladelser, og de har status som gyldige.
+
+<!-- review:begin dk-lic-20261112-enfortumab_vedotin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret 1 national tilladelse, og den har status som gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-enfortumab_vedotin-1 -->
 
 ---
 
@@ -126,6 +132,19 @@ Forudsigelsen for spedalskhed hviler udelukkende på en modelscore uden kliniske
 - Præklinisk evidens, der direkte undersøger lægemidlet ved spedalskhed
 - Advarsler og kontraindikationer fra det danske produktresumé
 - Vurdering af, om et cytotoksisk konjugat overhovedet er hensigtsmæssigt ved en infektionssygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse, og den har status som gyldig.” → “Der er registreret 2 nationale tilladelser, og de har status som gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

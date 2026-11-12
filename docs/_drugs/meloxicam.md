@@ -89,7 +89,13 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 | 28103439502 | Meloxicam "Teva" | Tabletter | Ikke angivet |
 | 28103439402 | Meloxicam "Teva" | Tabletter | Ikke angivet |
 
-Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).
+Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).
+
+<!-- review:begin dk-lic-20261112-meloxicam-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 6 tilladelser for dette lægemiddel (heraf 6 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-meloxicam-1 -->
 
 ---
 
@@ -116,6 +122,19 @@ Forudsigelsen bygger udelukkende på scoren fra TxGNN-modellen (deep learning) u
 - Godkendt produktresumé med advarsler, kontraindikationer og godkendt indikationstekst for det danske præparat
 - Prækliniske eller kliniske data, der direkte undersøger meloxicam ved akromesomel dysplasi af Hunter-Thompson-typen
 - Hvis der ønskes et realistisk spor, bør man i stedet vurdere reumatoid nodulose, hvor kun symptomlindring er plausibel, og hvor der også mangler evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

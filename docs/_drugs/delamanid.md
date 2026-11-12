@@ -89,7 +89,13 @@ Den eneste identificerede publikation omhandler ikke delamanid, men en anden læ
 |---------|------|------|-----------|
 | 28106493520 | Deltyba (Otsuka Novel Products GmbH) | Dispergible tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
 
-Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral anvendelse.
+Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral anvendelse.
+
+<!-- review:begin dk-lic-20261112-delamanid-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral anvendelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-delamanid-1 -->
 
 ---
 
@@ -118,6 +124,19 @@ Forudsigelsen bygger alene på en modelscore. Der findes ingen kliniske forsøg 
 - Prækliniske data (fx effekt på mastcelle-degranulering eller histaminfrigivelse), som kan understøtte en mekanistisk sammenhæng
 - En systematisk litteratursøgning, der specifikt undersøger delamanid ved urticaria
 - Vurdering af, om indikationen overhovedet er biologisk plausibel, før der afsættes yderligere ressourcer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral ” → “Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

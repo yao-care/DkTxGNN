@@ -102,7 +102,13 @@ Et udvalg af de mest relevante publikationer (konjunktival lidelse, medmindre an
 
 ## Markedsinformation i Danmark
 
-Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain). Der er ingen indikationstekst i de indsamlede data.
+Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain). Der er ingen indikationstekst i de indsamlede data.
+
+<!-- review:begin dk-lic-20261112-lidocaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-lidocaine-1 -->
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -137,6 +143,19 @@ Forudsigelserne har meget høje modelscorer, men ingen undersøgelse har direkte
 - Data om virkningsmekanisme og produktresuméer med indikationer, advarsler og kontraindikationer for de danske godkendelser
 - Prækliniske eller kliniske studier, der direkte undersøger lidokain ved en konkret øjenoverfladesygdom (f.eks. atopisk konjunktivitis), med fokus på sygdomsforløb og ikke kun symptomlindring
 - Vurdering af hornhindesikkerhed ved gentagen brug og af egnet lægemiddelform til øjet (ingen af de nuværende danske produkter er øjenpræparater)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain).” → “Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

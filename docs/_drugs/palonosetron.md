@@ -89,7 +89,13 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 | 28106508820 | Akynzeo | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
 | 28105375314 | Akynzeo | Kapsler, hårde | Ikke angivet |
 
-Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Ltd.
+Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceuticals Ltd.
+
+<!-- review:begin dk-lic-20261112-palonosetron-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Ltd." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 12 tilladelser for dette lægemiddel (heraf 8 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-palonosetron-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ Den høje TxGNN-score er en netværksbaseret forudsigelse uden klinisk støtte. 
 - Systematisk litteraturgennemgang af 5-HT3-antagonister ved migræne, herunder vurdering af sikkerhedssignalet
 - Prækliniske eller eksplorative kliniske data, før en egentlig vurdering af forsøg kan overvejes
 - Vurdering af administrationsvej og forenelighed med migrænebehandling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceut” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

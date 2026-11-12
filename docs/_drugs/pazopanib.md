@@ -100,7 +100,13 @@ Pazopanibs relation til bløddelssarkom og nyrecellekarcinom er registreret i vi
 |---------|------|------|-----------|
 | 28106801522 | Pazopanib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof). Listen er ikke delvis.
+Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof). Listen er ikke delvis.
+
+<!-- review:begin dk-lic-20261112-pazopanib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 14 tilladelser for dette lægemiddel (heraf 14 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-pazopanib-1 -->
 
 ---
 
@@ -154,6 +160,19 @@ To afsluttede fase 2-forsøg undersøger pazopanib direkte ved liposarkom (NCT01
 | Dermatofibrosarcoma protuberans | 0,9929 | L2 | Forskningsspørgsmål |
 
 For L5-indikationerne findes hverken forsøg eller litteratur. Scorerne er rene modelforudsigelser. Evidensniveauet L2 for fibroblastisk neoplasme og dermatofibrosarcoma protuberans er baseret på enkeltarmede fase 2-studier i nært beslægtede tumorer (fx solitær fibrøs tumor, DFSP), hvor flere forsøg er afsluttet eller afbrudt for tidligt.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -82,7 +82,13 @@ Der foreligger aktuelt ingen relateret litteratur.
 |---------|------|------|-----------|
 | 28105680115 | Praluent | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke tilgængelig i de foreliggende data |
 
-Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og listen er fuldstændig.
+Der er registreret 5 nationale tilladelser, og listen er fuldstændig.
+
+<!-- review:begin dk-lic-20261112-alirocumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og listen er fuldstændig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 5 tilladelser for dette lægemiddel (heraf 5 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-alirocumab-1 -->
 
 ---
 
@@ -106,6 +112,19 @@ Forudsigelsen mangler både kliniske forsøg, publikationer og en plausibel meka
 - Præklinisk eller mekanistisk dokumentation for sygdommen
 - Produktresumé (SmPC) med advarsler, kontraindikationer og godkendt indikationstekst
 - Data om virkningsmekanisme fra DrugBank
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og li” → “Der er registreret 5 nationale tilladelser, og listen er fuldstændig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

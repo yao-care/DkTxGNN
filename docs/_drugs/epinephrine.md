@@ -109,7 +109,13 @@ Bemærk: Flere af forsøgene er farmakokinetiske studier på raske frivillige og
 | 28107364425 | Norardent | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
 | 28101593094 | Scandonest-Adrenalin | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
 
-Alle tre tilladelser er gyldige og omfatter kun injektionsform. Der er ikke fundet inhalationsprodukter med epinephrin i de indsamlede data.
+Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun injektionsform. Der er ikke fundet inhalationsprodukter med epinephrin i de indsamlede data.
+
+<!-- review:begin dk-lic-20261112-epinephrine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og omfatter kun injektionsform." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-epinephrine-1 -->
 
 ---
 
@@ -144,6 +150,18 @@ Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, me
 | Fødevareafhængig anstrengelsesudløst anafylaksi | 0,9957 | L5 | Forskningsspørgsmål (ingen specifikke forsøg; understøttet indirekte af generel anafylaksilitteratur) |
 | Rienhoff syndrom | 0,9957 | L5 | Hold (ingen forsøg, ingen litteratur, ingen mekanistisk forbindelse) |
 | Luftvejsmisdannelse | 0,9956 | L3 | Hold (ét fase 1-forsøg om forbigående takypnø hos nyfødte; litteraturen er overvejende irrelevant) |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter kun injektionsform.” → “Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun in” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

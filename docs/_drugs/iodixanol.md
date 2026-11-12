@@ -92,7 +92,13 @@ Ingen af publikationerne undersøger iodixanol som behandling af osteoartrose.
 |---------|------|------|-----------|
 | 28101593294 | Visipaque | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
 
-Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healthcare AS.
+Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).
+
+<!-- review:begin dk-lic-20261112-iodixanol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healthcare AS." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 2 tilladelser for dette lægemiddel (heraf 2 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-iodixanol-1 -->
 
 ---
 
@@ -133,6 +139,19 @@ Der findes ingen kliniske forsøg og ingen studier, der undersøger iodixanol so
 ## Sekundær forudsigelse: reumatoid arthritis
 
 Modellen forudsiger også **reumatoid arthritis** (score 0,9900, evidensniveau L5, beslutning: Hold). Der er ingen kliniske forsøg. Den eneste publikation (PMID [36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, Cureus) er en case report om desensibilisering over for et andet kontrastmiddel, iohexol, hos en patient med overfølsomhed. Den handler om håndtering af kontrastallergi og ikke om behandling af reumatoid arthritis. Iodixanol har ingen kendt antiinflammatorisk eller immunmodulerende virkning, der understøtter denne forudsigelse.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healt” → “Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

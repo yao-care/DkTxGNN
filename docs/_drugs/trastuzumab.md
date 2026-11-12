@@ -83,7 +83,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28107106624 | Dazublys (Curateq Biologics s.r.o.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
 
-Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.
+Der er registreret mindst 20 gyldige markedsføringstilladelser for enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-trastuzumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-trastuzumab-1 -->
 
 ---
 
@@ -126,6 +132,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden støtte fra kliniske for
 - Data om virkningsmekanisme fra DrugBank
 - Sikkerhedsoplysninger fra det danske produktresumé (SmPC)
 - Til sammenligning: blandt de øvrige forudsigelser (urotelialt karcinom i prostatisk urinrør og nyrebækken) er HER2-overekspression biologisk mere troværdig og kan vurderes først
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der er registreret mindst 20 gyldige markedsføringstilladelser for enkeltstofpræ” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

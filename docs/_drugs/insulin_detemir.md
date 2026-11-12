@@ -82,7 +82,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28103680904 | Levemir FlexPen (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Indikationstekst er ikke angivet i de indsamlede data |
 
-Der er registreret én gyldig tilladelse for et enkeltstofspræparat.
+Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.
+
+<!-- review:begin dk-lic-20261112-insulin_detemir-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er registreret én gyldig tilladelse for et enkeltstofspræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 4 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-insulin_detemir-1 -->
 
 ---
 
@@ -115,6 +121,19 @@ Forudsigelsen bygger kun på en grafbaseret modelscore uden kliniske forsøg ell
 - Litteraturgennemgang og eventuelle prækliniske eller kliniske studier af insulin ved autoimmun oophoritis
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Vurdering af, om andre forudsagte indikationer er mere relevante. Flere af dem (fx pancreatisk agenesi og thiaminresponsivt syndrom) ligger tæt på den eksisterende diabetesbehandling, mens lipodystrofi-relaterede tilstande snarere peger på en bivirkningsrisiko ved injektionsstedet end en terapeutisk gevinst.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofspræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

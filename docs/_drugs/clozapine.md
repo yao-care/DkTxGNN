@@ -89,7 +89,13 @@ Der er ikke identificeret fase 3-forsøg for denne specifikke forudsigelse.
 |---------|------|------|-----------|
 | 28106883122 | Cloprinex (Nordic Prime ApS) | Tabletter | Indikationstekst ikke angivet |
 
-Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS).
+Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater.
+
+<!-- review:begin dk-lic-20261112-clozapine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-clozapine-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -112,6 +118,18 @@ Et afsluttet, placebokontrolleret fase 2-forsøg ved behandlingsresistent mani o
 - Gennemgang af produktresuméet (SmPC) for kontraindikationer og advarsler
 - Plan for hæmatologisk overvågning (neutrofiltal), samt kontrol af hjertefunktion, krampetærskel og metaboliske parametre
 - Plan for håndtering af lægemiddelinteraktioner, især med stoffer, der sænker krampetærsklen eller påvirker knoglemarven
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpr” → “Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkelt” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

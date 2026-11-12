@@ -75,7 +75,13 @@ Der er i øjeblikket ingen litteratur, som direkte omhandler cyklisk hæmatopoes
 |---------|------|------|-----------|
 | 28106750622 | BEKEMV | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i registreringen |
 
-Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen Technology (Ireland) Unlimited Company.
+Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).
+
+<!-- review:begin dk-lic-20261112-eculizumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen Technology (Ireland) Unlimited Company." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 3 tilladelser for dette lægemiddel (heraf 3 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-eculizumab-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -99,6 +105,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller direk
 - Præklinisk eller mekanistisk evidens for komplementets rolle i cyklisk hæmatopoese
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (manglende i de indsamlede data)
 - Vurdering af infektionsrisiko ved komplementhæmning hos patienter med neutropeni
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
