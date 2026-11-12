@@ -92,7 +92,13 @@ Ingen af publikationerne undersøger direkte fenofibrat som behandling af CETP-m
 | 28107198624 | Rosufenx | Hårde kapsler | Indikationstekst ikke tilgængelig |
 | 28104611809 | Pravafenix | Hårde kapsler | Indikationstekst ikke tilgængelig |
 
-Bemærk: Rosufenx og Pravafenix er navne på produkter, som i data er registreret som enkeltstofpræparater; der er ikke tilstrækkelige oplysninger i de indsamlede data til at beskrive godkendelsesstatus for fenofibrat som enkeltstof ud over disse registreringer.
+Bemærk: Rosufenx og Pravafenix er kombinationspræparater (med rosuvastatin henholdsvis pravastatin); der er ikke tilstrækkelige oplysninger i de indsamlede data til at beskrive godkendelsesstatus for fenofibrat som enkeltstof ud over disse registreringer.
+
+<!-- review:begin dk-lic-20261112-fenofibrate-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "er navne på produkter, som i data er registreret som enkeltstofpræparater;" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Rosufenx (fenofibrat/rosuvastatin) og Pravafenix (fenofibrat/pravastatin) er registreret som kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-fenofibrate-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ Der er ingen kliniske forsøg og ingen studier, som direkte undersøger fenofibr
 - Dokumentation for et klinisk behandlingsbehov ved CETP-mangel
 - Data om virkningsmekanisme og produktresuméets indikationer, advarsler og kontraindikationer for de danske præparater
 - Humane data, der direkte undersøger fenofibrat ved denne tilstand
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

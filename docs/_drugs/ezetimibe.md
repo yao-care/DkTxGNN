@@ -95,7 +95,13 @@ Godkendelsesteksten for indikationerne er ikke angivet i de tilgængelige data.
 | 28106230919 | Nustendi | Filmovertrukne tabletter | Ikke angivet |
 | 28106300219 | Ezetimibe/Simvastatin "Accord" | Tabletter | Ikke angivet |
 
-Bemærk: Nustendi og Ezetimibe/Simvastatin "Accord" er i praksis kombinationspræparater, selvom de er registreret som enkeltstofpræparater i datagrundlaget. Deres tilladelser siger derfor ikke noget om, hvordan ezetimib som enkeltstof er godkendt.
+Bemærk: Nustendi og Ezetimibe/Simvastatin "Accord" er i praksis kombinationspræparater. Deres tilladelser siger derfor ikke noget om, hvordan ezetimib som enkeltstof er godkendt.
+
+<!-- review:begin dk-lic-20261112-ezetimibe-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: ", selvom de er registreret som enkeltstofpræparater i datagrundlaget" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Nustendi (bempedoinsyre/ezetimib) og Ezetimibe/Simvastatin "Accord" er også registreret som kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ezetimibe-1 -->
 
 ---
 
@@ -127,6 +133,19 @@ Forudsigelsen understøttes kun af modellen (evidensniveau L5). Der findes ingen
 - Dokumentation for et klinisk behandlingsbehov ved CETP-mangel
 - Præklinisk eller klinisk evidens, der direkte undersøger ezetimib ved denne tilstand
 - Indhentning af produktresuméer fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendte indikationer)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

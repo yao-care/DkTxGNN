@@ -78,7 +78,13 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 | 28105600015 | Zavicefta | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 | 28107028323 | Emblaveo | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
 
-Begge tilladelser er gyldige og er registreret som præparater med avibactam som enkeltstof i datagrundlaget. Begge findes kun som intravenøs infusion.
+Begge tilladelser er gyldige og er kombinationspræparater (avibactam med ceftazidim henholdsvis aztreonam). Begge findes kun som intravenøs infusion.
+
+<!-- review:begin dk-lic-20261112-avibactam-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "og er registreret som præparater med avibactam som enkeltstof i datagrundlaget" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Zavicefta og Emblaveo er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-avibactam-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -96,6 +102,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller p
 - Data om virkningsmekanisme og laboratoriedata (BlaC-hæmning) i kombination med relevante partner-beta-lactamer mod *M. tuberculosis*
 - Prækliniske eller kliniske studier, der direkte undersøger ureter-tuberkulose
 - Vurdering af egnede partnerlægemidler og af, hvordan avibactam kan indgå i et tuberkuloseregime
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

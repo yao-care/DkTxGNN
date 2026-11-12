@@ -90,7 +90,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 | 28103905906 | Mydriasert (Laboratoires Thea S.A.S.) | Øjenlamel | Ikke angivet i de indsamlede data |
 | 28105410714 | Mydrane (Laboratoires Thea S.A.S.) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
 
-Alle tre tilladelser er gyldige enkeltstofpræparater.
+Alle tre tilladelser er gyldige; Mydriacyl er et enkeltstofpræparat, Mydriasert og Mydrane er kombinationspræparater.
+
+<!-- review:begin dk-lic-20261112-tropicamide-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige enkeltstofpræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Mydriasert og Mydrane indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tropicamide-1 -->
 
 ---
 
@@ -116,6 +122,19 @@ Forudsigelsen hviler alene på en computermodel (L5) uden kliniske forsøg eller
 - Præklinisk eller mekanistisk evidens for tropicamid i den forudsagte indikation
 - Afklaring af egnet administrationsvej og systemisk eksponering
 - Kortlægning af den forældede sygdomsterm (neurogen blære) til en aktuel ontologi, hvis denne forudsigelse skal vurderes videre
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

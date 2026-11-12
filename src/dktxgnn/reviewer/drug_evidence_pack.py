@@ -11,6 +11,8 @@ from pathlib import Path
 
 from ..collectors.drug_bundle import DrugBundle
 from .llm_client import LLMClient
+from ..regulatory import ingredients as _dk_ingredients
+from ..regulatory import site as _dk_site
 
 
 # 2026-10-17：status 欄有值不代表註銷（各國是 Authorised／有効／Vigente…），只認註銷類字樣
@@ -131,9 +133,20 @@ class DrugEvidencePackGenerator:
                 "dosage_form": r.get("dosage_form", r.get("劑型", "")),
                 "manufacturer": r.get("license_holder") or r.get("製造廠") or r.get("申請商") or r.get("holder") or r.get("company", ""),
                 "approved_indication_text": r.get("indication", r.get("適應症", "")),
-                "kind": r.get("kind") or ("single" if len(ings) <= 1 else "combo"),
+                # 2026-11-12：成分欄是 Lægemiddelstyrelsen 原文、以「, 」分隔（不是「;;」），單方／複方改用本站的切分規則
+                "kind": r.get("kind") or _dk_ingredients.kind(r.get("ingredients") or ""),
                 "status": status,
             })
+        # 2026-11-12：依成分重建漏收、人工對照 Lægemiddelstyrelsen 清單確屬本藥的許可證（regulatory/site.py EXTRA_OWN，每筆附依據）
+        # 併進張數；清單只列現行許可，所以跟其他紀錄一樣視為有效
+        page = str(((getattr(bundle, "drug", None) or {}).get("inn") or "")).strip().lower().replace(" ", "_").replace("-", "_")
+        for lid, ex in (_dk_site.EXTRA_OWN.get(page) or {}).items():
+            if lid in seen or not isinstance(ex, dict):
+                continue
+            seen.add(lid)
+            lics.append({"license_number": lid, "product_name_zh": ex.get("product", ""), "dosage_form": ex.get("dosage_form", ""),
+                         "manufacturer": ex.get("holder", ""), "approved_indication_text": "",
+                         "kind": _dk_ingredients.kind(ex.get("ingredients") or ""), "status": "valid", "extra_own": True})
         valid = [x for x in lics if x["status"] == "valid"]
         partial = int(reg.get("total_matches") or 0) > len(recs)
         return {

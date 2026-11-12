@@ -82,7 +82,13 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur for cauda equ
 
 ## Information om det danske marked
 
-Tyrosin indgår i 20 gyldige markedsføringstilladelser (alle enkeltstofspræparater, ingen annullerede). Godkendelsesteksterne for indikationerne er ikke tilgængelige i de indsamlede data. Der vises de fem første:
+Tyrosin indgår i 20 gyldige markedsføringstilladelser (alle kombinationspræparater, ingen annullerede). Godkendelsesteksterne for indikationerne er ikke tilgængelige i de indsamlede data. Der vises de fem første:
+
+<!-- review:begin dk-lic-20261112-tyrosine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofspræparater, ingen annullerede)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med tyrosin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tyrosine-1 -->
 
 | Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -115,6 +121,19 @@ Forudsigelsen om cauda equina-syndrom bygger udelukkende på en modelscore (evid
 - Dokumenteret oprindelig indikation for at kunne vurdere sammenhængen til den nye indikation
 - Præklinisk eller mekanistisk evidens, der forbinder tyrosin med patofysiologien ved cauda equina-syndrom
 - Vurdering af administrationsvej og formulering, da ruteforenelighed endnu ikke er vurderet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

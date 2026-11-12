@@ -97,7 +97,13 @@ For den nærliggende forudsigelse **alopeci** (rang 9) blev der fundet to publik
 | MA 28106705621 | Foxalite | Tabletter med modificeret udløsning | Ikke angivet i de indsamlede data |
 | MA 28106107318 | Dutasteride/Tamsulosinhydrochloride "Stada" | Kapsler, hårde | Ikke angivet i de indsamlede data |
 
-Alle tre tilladelser er gyldige enkeltstofpræparater (national godkendelse).
+Alle tre tilladelser er gyldige (national godkendelse); Bladasin er et enkeltstofpræparat, Dutasteride/Tamsulosinhydrochloride "Stada" og Vantamsolus er kombinationspræparater.
+
+<!-- review:begin dk-lic-20261112-tamsulosin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige enkeltstofpræparater (national godkendelse)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Dutasteride/Tamsulosinhydrochloride "Stada" og Vantamsolus (solifenacin/tamsulosin) indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tamsulosin-1 -->
 
 ---
 
@@ -125,6 +131,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk evidens, der kan underbygge en biologisk sammenhæng
 - Systematisk litteratursøgning specifikt for tamsulosin og hårrelaterede lidelser
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

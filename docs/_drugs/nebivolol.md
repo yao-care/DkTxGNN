@@ -100,7 +100,13 @@ Til sammenligning er der for den tredjerangerende forudsigelse, pulmonal hyperte
 | MA 28104444608 | Dublock (Alapis S.A.) | Tabletter | Ikke angivet i de indsamlede data |
 | MA 28104096107 | Hypoloc Comp (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
 
-Begge tilladelser er gyldige nationale tilladelser for monopræparater.
+Begge tilladelser er gyldige nationale tilladelser; Dublock er et monopræparat, Hypoloc Comp et kombinationspræparat.
+
+<!-- review:begin dk-lic-20261112-nebivolol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige nationale tilladelser for monopræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Hypoloc Comp indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-nebivolol-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg ell
 - Systematisk litteratursøgning og søgning efter kliniske forsøg specifikt for malign hypertensiv nyresygdom og renovaskulær hypertension
 - Klinisk vurdering af, om en oral betablokker overhovedet er relevant i en hypertensiv nødsituation
 - Ekspertgennemgang af de øvrige forudsigelser (pulmonal hypertension og Braddock-syndrom), som kun har indirekte eller ingen evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

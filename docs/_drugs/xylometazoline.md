@@ -64,7 +64,6 @@ Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er i
 
 Den forudsagte indikation overlapper betydeligt med den allerede markedsførte anvendelse (tilstoppet næse ved forkølelse). "Repurposing" er derfor i høj grad en udvidelse af den eksisterende indikation til proceduremæssige og anatomiske sammenhænge, fx forberedelse af næsen før næseendoskopi eller nasotrakeal intubation.
 
-
 Farmakologiske data viser desuden, at xylometazolin er knyttet til alfa-2A-, alfa-2B- og alfa-2C-adrenoceptorer (humane) samt alfa-1D-adrenoceptor (rotte). Der er dog ikke fundet offentligt tilgængelige affinitetsdata til at fastlægge en primær målstruktur.
 
 ---
@@ -97,7 +96,13 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 | 28106006317 | Zymelin Care | Næsespray, opløsning | Indikationstekst ikke angivet |
 | 28104314008 | Otrivin Comp | Næsespray, opløsning | Indikationstekst ikke angivet |
 
-Alle fire er nationale tilladelser med status gyldig og indeholder xylometazolin som enkeltstof.
+Alle fire er nationale tilladelser med status gyldig; Xylometazolin "Orifarm" og Klarigen indeholder xylometazolin som enkeltstof, Otrivin Comp og Zymelin Care er kombinationspræparater.
+
+<!-- review:begin dk-lic-20261112-xylometazoline-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle fire er nationale tilladelser med status gyldig og indeholder xylometazolin som enkeltstof." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Otrivin Comp (med ipratropium) og Zymelin Care (med dexpanthenol) indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-xylometazoline-1 -->
 
 ---
 
@@ -123,6 +128,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 - Præcisering af den godkendte indikationstekst for de danske tilladelser
 - Vurdering af kardiovaskulære og endokrine risikogrupper (hypertension, diabetes, hjertesygdom, hyperthyroidisme) ved udvidet eller proceduremæssig anvendelse
 - Fuld gennemgang af de udvalgte studier for at afklare design og relevans
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

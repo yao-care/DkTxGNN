@@ -103,7 +103,13 @@ Den samme model forudsiger også andre sygdomme (bl.a. hepatitis E, hepatitis A,
 |---------|------|------|-----------|
 | 28105402814 | Harvoni (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
 
-Harvoni er et enkeltstof-præparat (status: gyldig) og er den eneste tilladelse. Det gives oralt.
+Harvoni er et kombinationspræparat (ledipasvir/sofosbuvir, status: gyldig). Det gives oralt.
+
+<!-- review:begin dk-lic-20261112-ledipasvir-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Harvoni er et enkeltstof-præparat (status: gyldig) og er den eneste tilladelse." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Harvoni indeholder ledipasvir og sofosbuvir; der er 4 gyldige tilladelser med ledipasvir. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ledipasvir-1 -->
 
 ---
 
@@ -134,6 +140,19 @@ Der findes kun ét lille, enkeltarmet fase 2-studie ved HBV-monoinfektion, og de
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (bl.a. HBV-reaktivering)
 - Overvågningsplan for HBV-DNA og leverfunktion, samt vurdering af interaktioner med syrehæmmende midler og antiretrovirale midler
 - Afklaring af godkendt indikationstekst for Harvoni i Danmark
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

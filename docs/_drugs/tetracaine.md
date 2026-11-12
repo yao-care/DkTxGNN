@@ -105,7 +105,13 @@ Alle øvrige forudsigelser har ligeledes evidensniveau L4–L5 og anbefalingen H
 |---------|------|------|-----------|
 | 28104887111 | Pliapel | Creme | Indikationstekst ikke angivet |
 
-Produktet er fremstillet af ADOH B.V. og har status som gyldig (enkeltstofpræparat).
+Produktet er fremstillet af ADOH B.V. og har status som gyldig (kombinationspræparat).
+
+<!-- review:begin dk-lic-20261112-tetracaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(enkeltstofpræparat)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Pliapel indeholder lidocain og tetracain. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tetracaine-1 -->
 
 ---
 
@@ -137,6 +143,19 @@ Forudsigelsen for akrodermatitis chronica atrophicans bygger kun på en grafbase
 - Præklinisk eller mekanistisk dokumentation for en relevant effekt, før yderligere vurdering er meningsfuld
 - Registrering af cauda equina-syndrom som sikkerhedsflag ved enhver videre vurdering
 - Afklaring af, om forudsigelsen skyldes en navneforveksling mellem tetracain og tetracyclin
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

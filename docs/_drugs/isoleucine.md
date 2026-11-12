@@ -81,7 +81,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-Der er 20 gyldige markedsføringstilladelser (alle enkeltstofpræparater, ingen annullerede). Indikationsteksten er ikke angivet i de tilgængelige data. Nedenfor vises de fem første.
+Der er 20 gyldige markedsføringstilladelser (alle kombinationspræparater, ingen annullerede). Indikationsteksten er ikke angivet i de tilgængelige data. Nedenfor vises de fem første.
+
+<!-- review:begin dk-lic-20261112-isoleucine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofpræparater, ingen annullerede)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med isoleucin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-isoleucine-1 -->
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -126,6 +132,19 @@ Forudsigelsen er rent beregningsbaseret (evidensniveau L5) uden kliniske forsøg
 - Hentning og gennemgang af produktresuméer (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
 - Vurdering af, om en relevant administrationsvej og dosering er mulig for den nye indikation
 - Præklinisk eller mekanistisk støtte før eventuel klinisk planlægning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -72,7 +72,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28105499514 | Zerbaxa | Pulver til koncentrat til infusionsvæske, opløsning | – |
 
-Produktet er et enkeltstofspræparat i de lokale data og er registreret som gyldigt. Indehaveren er Merck Sharp & Dohme B.V.
+Produktet er et kombinationspræparat (ceftolozan/tazobactam) og er registreret som gyldigt. Indehaveren er Merck Sharp & Dohme B.V.
+
+<!-- review:begin dk-lic-20261112-ceftolozane-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Produktet er et enkeltstofspræparat i de lokale data og er registreret som gyldigt." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Zerbaxa indeholder ceftolozan og tazobactam. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ceftolozane-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -96,6 +102,19 @@ Forudsigelsen bygger udelukkende på modellen uden kliniske forsøg eller publik
 - Laboratoriedata (in vitro-følsomhed) for ceftolozan mod *Ureaplasma* – ud fra mekanismen er det dog usandsynligt, at sådanne data vil støtte indikationen
 - Data om virkningsmekanismen og produktresuméets advarsler og kontraindikationer
 - Vurdering af, om etablerede alternativer allerede dækker behovet (taler imod yderligere udvikling)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

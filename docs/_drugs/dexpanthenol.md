@@ -90,7 +90,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 | 28103270301 | Cernevit (Baxter A/S) | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet |
 | 28105939417 | Viant (B. Braun Melsungen AG) | Pulver til infusionsvæske, opløsning | Ikke angivet |
 
-Alle tre tilladelser er gyldige og omfatter præparater med dexpanthenol som enkeltstof. Der er ikke registreret topikale præparater (f.eks. creme) blandt tilladelserne i dataene.
+Alle tre tilladelser er gyldige og omfatter kombinationspræparater med dexpanthenol. Der er ikke registreret topikale præparater (f.eks. creme) blandt tilladelserne i dataene.
+
+<!-- review:begin dk-lic-20261112-dexpanthenol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "omfatter præparater med dexpanthenol som enkeltstof" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Cernevit, Viant og Zymelin Care indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-dexpanthenol-1 -->
 
 ---
 
@@ -116,6 +122,19 @@ Forudsigelsen bygger på en biologisk plausibel, men indirekte kobling. Det enes
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Gennemgang af produktresuméer for advarsler og kontraindikationer, især vedrørende hæmofili
 - Afklaring af, om en topikal formulering er tilgængelig på det danske marked, da de nuværende tilladelser er næsespray og injektions-/infusionspræparater
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

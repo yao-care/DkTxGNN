@@ -115,7 +115,13 @@ Tabellen viser et udvalg af de mest relevante publikationer.
 | 28101575493 | Acular (Abbvie A/S) | Øjendråber, opløsning | Indikationstekst ikke angivet |
 | 28105324513 | Omidria (Rayner Surgical (Ireland) Limited) | Koncentrat til intraokulær skyllevæske, opløsning | Indikationstekst ikke angivet |
 
-Begge tilladelser er gyldige og gælder ketorolac som enkeltstof. Ingen af de danske produkter er i en form, der er egnet til systemisk behandling af hovedpine (injektion eller næsespray).
+Begge tilladelser er gyldige; Acular indeholder ketorolac som enkeltstof, Omidria er et kombinationspræparat (med phenylephrin). Ingen af de danske produkter er i en form, der er egnet til systemisk behandling af hovedpine (injektion eller næsespray).
+
+<!-- review:begin dk-lic-20261112-ketorolac-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder ketorolac som enkeltstof." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Omidria indeholder phenylephrin og ketorolac. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ketorolac-1 -->
 
 ---
 
@@ -159,6 +165,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

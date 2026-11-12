@@ -1,592 +1,1333 @@
 {
- "_doc": "藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的本站語言說明）／finding（內部查證結論）／sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。2026-10-31、11-05～06 依成分重建許可證後直接刪掉的矛盾子句，2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（id 以 <站碼>-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。",
- "schema_version": 1,
- "records": [
-  {
-   "id": "dk-lic-20261105-amoxicillin-1",
-   "drug": "amoxicillin",
-   "file": "amoxicillin.md",
-   "action": "correct",
-   "claim": "Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført.",
-   "replacement": "",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+  "_doc": "藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的本站語言說明）／finding（內部查證結論）／sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。2026-10-31、11-05～06 依成分重建許可證後直接刪掉的矛盾子句，2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（id 以 <站碼>-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。",
+  "schema_version": 1,
+  "records": [
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denne indikation."
-  },
-  {
-   "id": "dk-lic-20261105-amphotericin_b-1",
-   "drug": "amphotericin_b",
-   "file": "amphotericin_b.md",
-   "action": "correct",
-   "claim": "> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb.",
-   "replacement": "> Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb.",
-   "note": "Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 4 markedsføringstilladelser (gyldige: 4); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
-   "sources": [
+      "id": "dk-lic-20261105-amoxicillin-1",
+      "drug": "amoxicillin",
+      "file": "amoxicillin.md",
+      "action": "correct",
+      "claim": "Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført.",
+      "replacement": "",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denne indikation."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"**⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-amphotericin_b-2",
-   "drug": "amphotericin_b",
-   "file": "amphotericin_b.md",
-   "action": "correct",
-   "claim": "1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisationsregistre, herunder EMA's centraliserede autorisation for AmBisome® (EU/1/97/049)\n2.",
-   "replacement": "2.",
-   "note": "Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
-   "sources": [
+      "id": "dk-lic-20261105-amphotericin_b-1",
+      "drug": "amphotericin_b",
+      "file": "amphotericin_b.md",
+      "action": "correct",
+      "claim": "> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb.",
+      "replacement": "> Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb.",
+      "note": "Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 4 markedsføringstilladelser (gyldige: 4); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"**⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisat\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-clindamycin-1",
-   "drug": "clindamycin",
-   "file": "clindamycin.md",
-   "action": "correct",
-   "claim": "Bemærk: Det registrerede produkt er et veterinærlægemiddel (Zoetis Animal Health ApS). Det er gyldigt og markedsført som monopræparat.",
-   "replacement": "",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-amphotericin_b-2",
+      "drug": "amphotericin_b",
+      "file": "amphotericin_b.md",
+      "action": "correct",
+      "claim": "1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisationsregistre, herunder EMA's centraliserede autorisation for AmBisome® (EU/1/97/049)\n2.",
+      "replacement": "2.",
+      "note": "Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisat\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Bemærk: Det registrerede produkt er et veterinærlægemiddel (Zoetis Animal Health ApS). Det er gyldigt og markedsført som monopræparat\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "Der er i øjeblikket ingen relateret litteratur tilgængelig."
-  },
-  {
-   "id": "dk-lic-20261105-clindamycin-2",
-   "drug": "clindamycin",
-   "file": "clindamycin.md",
-   "action": "correct",
-   "claim": "- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering), da det eneste registrerede produkt er et veterinært oralt præparat",
-   "replacement": "- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering)",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-clindamycin-1",
+      "drug": "clindamycin",
+      "file": "clindamycin.md",
+      "action": "correct",
+      "claim": "Bemærk: Det registrerede produkt er et veterinærlægemiddel (Zoetis Animal Health ApS). Det er gyldigt og markedsført som monopræparat.",
+      "replacement": "",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Bemærk: Det registrerede produkt er et veterinærlægemiddel (Zoetis Animal Health ApS). Det er gyldigt og markedsført som monopræparat\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "Der er i øjeblikket ingen relateret litteratur tilgængelig."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"da det eneste registrerede produkt er et veterinært oralt præparat\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-cyclosporine-1",
-   "drug": "cyclosporine",
-   "file": "cyclosporine.md",
-   "action": "correct",
-   "claim": "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport.",
-   "replacement": "",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-clindamycin-2",
+      "drug": "clindamycin",
+      "file": "clindamycin.md",
+      "action": "correct",
+      "claim": "- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering), da det eneste registrerede produkt er et veterinært oralt præparat",
+      "replacement": "- Data om virkningsmekanisme og relevant administrationsvej (fx okulær formulering)",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"da det eneste registrerede produkt er et veterinært oralt præparat\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne \"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "- **Kontraindikationer fra vidensgrafen (ikke fra produktresumé):** Vidensgrafen angiver blandt andet hypertension, epilepsi, nyresygdom, leversygdom, galdeblæresygdom, infektionssygdomme (herunder øjeninfektioner og konjunktivitis), hyperurikæmi, hypertriglyceridæmi, hyperbilirubinæmi (herunder Gilberts syndrom), trombocytopenisk purpura, pseudotumor cerebri/intrakraniel hypertension, cancer og lymfom (herunder primært lymfom i centralnervesystemet).\n- **Lægemiddelinteraktioner:** I alt 1085 registrerede interaktioner. Blandt de viste er en alvorlig (major) med loperamid. Moderate interaktioner omfatter bl.a. amphotericin B, hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, acetylsalicylsyre, metronidazol, bupropion, aprepitant, mesalazin, balsalazid, rabeprazol og chlorpropamid. Ranitidin og doxycyclin er klassificeret som minor."
-  },
-  {
-   "id": "dk-lic-20261105-cyclosporine-2",
-   "drug": "cyclosporine",
-   "file": "cyclosporine.md",
-   "action": "correct",
-   "claim": "- Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel",
-   "replacement": "- Afklaring af, om et humant præparat er tilgængeligt i Danmark",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-cyclosporine-1",
+      "drug": "cyclosporine",
+      "file": "cyclosporine.md",
+      "action": "correct",
+      "claim": "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport.",
+      "replacement": "",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne \"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "- **Kontraindikationer fra vidensgrafen (ikke fra produktresumé):** Vidensgrafen angiver blandt andet hypertension, epilepsi, nyresygdom, leversygdom, galdeblæresygdom, infektionssygdomme (herunder øjeninfektioner og konjunktivitis), hyperurikæmi, hypertriglyceridæmi, hyperbilirubinæmi (herunder Gilberts syndrom), trombocytopenisk purpura, pseudotumor cerebri/intrakraniel hypertension, cancer og lymfom (herunder primært lymfom i centralnervesystemet).\n- **Lægemiddelinteraktioner:** I alt 1085 registrerede interaktioner. Blandt de viste er en alvorlig (major) med loperamid. Moderate interaktioner omfatter bl.a. amphotericin B, hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, acetylsalicylsyre, metronidazol, bupropion, aprepitant, mesalazin, balsalazid, rabeprazol og chlorpropamid. Ranitidin og doxycyclin er klassificeret som minor."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"da den eneste registrerede tilladelse gælder et veterinærlægemiddel\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-epoprostenol-1",
-   "drug": "epoprostenol",
-   "file": "epoprostenol.md",
-   "action": "correct",
-   "claim": "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks.",
-   "replacement": "Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks.",
-   "note": "Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "前一句「nul markedsføringstilladelser」已刪（與新清單矛盾），「Dette」失去指涉；EMA 集中許可的內容保留",
-   "sources": [
+      "id": "dk-lic-20261105-cyclosporine-2",
+      "drug": "cyclosporine",
+      "file": "cyclosporine.md",
+      "action": "correct",
+      "claim": "- Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel",
+      "replacement": "- Afklaring af, om et humant præparat er tilgængeligt i Danmark",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"da den eneste registrerede tilladelse gælder et veterinærlægemiddel\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt mynd\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-epoprostenol-2",
-   "drug": "epoprostenol",
-   "file": "epoprostenol.md",
-   "action": "correct",
-   "claim": "4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé-register; opdater `taiwan_regulatory.market_status`, `total_licenses` og `licenses[]`.\n5.",
-   "replacement": "5.",
-   "note": "Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
-   "sources": [
+      "id": "dk-lic-20261105-epoprostenol-1",
+      "drug": "epoprostenol",
+      "file": "epoprostenol.md",
+      "action": "correct",
+      "claim": "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks.",
+      "replacement": "Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks.",
+      "note": "Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "前一句「nul markedsføringstilladelser」已刪（與新清單矛盾），「Dette」失去指涉；EMA 集中許可的內容保留",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt mynd\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-isoflurane-1",
-   "drug": "isoflurane",
-   "file": "isoflurane.md",
-   "action": "correct",
-   "claim": "Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.).",
-   "replacement": "Isoflurane er et inhalationsanæstetikum.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-epoprostenol-2",
+      "drug": "epoprostenol",
+      "file": "epoprostenol.md",
+      "action": "correct",
+      "claim": "4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé-register; opdater `taiwan_regulatory.market_status`, `total_licenses` og `licenses[]`.\n5.",
+      "replacement": "5.",
+      "note": "Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-ivermectin-1",
-   "drug": "ivermectin",
-   "file": "ivermectin.md",
-   "action": "correct",
-   "claim": "Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig.",
-   "replacement": "",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-isoflurane-1",
+      "drug": "isoflurane",
+      "file": "isoflurane.md",
+      "action": "correct",
+      "claim": "Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.).",
+      "replacement": "Isoflurane er et inhalationsanæstetikum.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "Bemærk: For andre forudsagte candidiasis-indikationer er der fundet to artikler (PMID 35835488 om dissemineret strongyloidiasis efter langvarig kortikosteroidbehandling og PMID 10098288 om svær fnat hos immunsvækkede børn). Ingen af dem undersøger candidiasis som behandlingsmål, og de understøtter ikke forudsigelsen."
-  },
-  {
-   "id": "dk-lic-20261105-ketamine-1",
-   "drug": "ketamine",
-   "file": "ketamine.md",
-   "action": "correct",
-   "claim": "Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.",
-   "replacement": "Ketamin er en NMDA-receptorantagonist, og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-ivermectin-1",
+      "drug": "ivermectin",
+      "file": "ivermectin.md",
+      "action": "correct",
+      "claim": "Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig.",
+      "replacement": "",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "Bemærk: For andre forudsagte candidiasis-indikationer er der fundet to artikler (PMID 35835488 om dissemineret strongyloidiasis efter langvarig kortikosteroidbehandling og PMID 10098288 om svær fnat hos immunsvækkede børn). Ingen af dem undersøger candidiasis som behandlingsmål, og de understøtter ikke forudsigelsen."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-ketamine-2",
-   "drug": "ketamine",
-   "file": "ketamine.md",
-   "action": "correct",
-   "claim": "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening.",
-   "replacement": "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-ketamine-1",
+      "drug": "ketamine",
+      "file": "ketamine.md",
+      "action": "correct",
+      "claim": "Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.",
+      "replacement": "Ketamin er en NMDA-receptorantagonist, og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-ketorolac-1",
-   "drug": "ketorolac",
-   "file": "ketorolac.md",
-   "action": "correct",
-   "claim": "- Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data.\n- Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler.",
-   "replacement": "- Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler.",
-   "note": "Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 9 markedsføringstilladelser (gyldige: 9); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
-   "sources": [
+      "id": "dk-lic-20261105-ketamine-2",
+      "drug": "ketamine",
+      "file": "ketamine.md",
+      "action": "correct",
+      "claim": "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening.",
+      "replacement": "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede \"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-melatonin-1",
-   "drug": "melatonin",
-   "file": "melatonin.md",
-   "action": "correct",
-   "claim": "Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske Lægemiddelstyrelse på fil.",
-   "replacement": "",
-   "note": "Fjernet: det stod, at lægemidlet ikke var godkendt eller markedsført i Danmark, eller at tilladelsen var udløbet, hvilket ikke passer med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
-   "sources": [
+      "id": "dk-lic-20261105-ketorolac-1",
+      "drug": "ketorolac",
+      "file": "ketorolac.md",
+      "action": "correct",
+      "claim": "- Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data.\n- Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler.",
+      "replacement": "- Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler.",
+      "note": "Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 9 markedsføringstilladelser (gyldige: 9); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede \"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske \"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "> **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark."
-  },
-  {
-   "id": "dk-lic-20261105-methadone-1",
-   "drug": "methadone",
-   "file": "methadone.md",
-   "action": "correct",
-   "claim": "Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.).",
-   "replacement": "Methadon er et opioid.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261112-ketorolac-1",
+      "drug": "ketorolac",
+      "file": "ketorolac.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige og gælder ketorolac som enkeltstof.",
+      "replacement": "Begge tilladelser er gyldige; Acular indeholder ketorolac som enkeltstof, Omidria er et kombinationspræparat (med phenylephrin).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Omidria indeholder phenylephrin og ketorolac.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-methadone-2",
-   "drug": "methadone",
-   "file": "methadone.md",
-   "action": "correct",
-   "claim": "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært.",
-   "replacement": "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-melatonin-1",
+      "drug": "melatonin",
+      "file": "melatonin.md",
+      "action": "correct",
+      "claim": "Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske Lægemiddelstyrelse på fil.",
+      "replacement": "",
+      "note": "Fjernet: det stod, at lægemidlet ikke var godkendt eller markedsført i Danmark, eller at tilladelsen var udløbet, hvilket ikke passer med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske \"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "> **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Bemærk, at det eneste danske produkt er veterinært\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-methadone-3",
-   "drug": "methadone",
-   "file": "methadone.md",
-   "action": "correct",
-   "claim": "- Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)",
-   "replacement": "- Sikkerhedsoplysninger fra et humant produktresumé",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-methadone-1",
+      "drug": "methadone",
+      "file": "methadone.md",
+      "action": "correct",
+      "claim": "Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.).",
+      "replacement": "Methadon er et opioid.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"(det eneste danske produkt er veterinært)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-metronidazole-1",
-   "drug": "metronidazole",
-   "file": "metronidazole.md",
-   "action": "correct",
-   "claim": "Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen. Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette.",
-   "replacement": "Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "新清單依 ATC Q／Vet. 分出獸用：這兩張獸用許可已移出人用許可表，本藥另有人用許可；句子講的是已移出的兩張，刪子句會斷句，整句刪",
-   "sources": [
+      "id": "dk-lic-20261105-methadone-2",
+      "drug": "methadone",
+      "file": "methadone.md",
+      "action": "correct",
+      "claim": "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært.",
+      "replacement": "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Bemærk, at det eneste danske produkt er veterinært\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-midazolam-1",
-   "drug": "midazolam",
-   "file": "midazolam.md",
-   "action": "correct",
-   "claim": "Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.). Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.",
-   "replacement": "Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-methadone-3",
+      "drug": "methadone",
+      "file": "methadone.md",
+      "action": "correct",
+      "claim": "- Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)",
+      "replacement": "- Sikkerhedsoplysninger fra et humant produktresumé",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"(det eneste danske produkt er veterinært)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-midazolam-2",
-   "drug": "midazolam",
-   "file": "midazolam.md",
-   "action": "correct",
-   "claim": "Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni. Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler.",
-   "replacement": "Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni.",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-metronidazole-1",
+      "drug": "metronidazole",
+      "file": "metronidazole.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen. Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette.",
+      "replacement": "Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "新清單依 ATC Q／Vet. 分出獸用：這兩張獸用許可已移出人用許可表，本藥另有人用許可；句子講的是已移出的兩張，刪子句會斷句，整句刪",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-naldemedine-1",
-   "drug": "naldemedine",
-   "file": "naldemedine.md",
-   "action": "correct",
-   "claim": "Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.",
-   "replacement": "Med kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.",
-   "note": "Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "Lægemiddelstyrelsen 已許可清單有本藥人用許可，「nul markedsføringstilladelser」與事實矛盾；資料缺口與評估結論保留",
-   "sources": [
+      "id": "dk-lic-20261105-midazolam-1",
+      "drug": "midazolam",
+      "file": "midazolam.md",
+      "action": "correct",
+      "claim": "Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.). Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.",
+      "replacement": "Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"nul markedsføringstilladelser i Danmark og\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-phenobarbital-1",
-   "drug": "phenobarbital",
-   "file": "phenobarbital.md",
-   "action": "correct",
-   "claim": "Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkendelse til human anvendelse. Listen er komplet.",
-   "replacement": "",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-midazolam-2",
+      "drug": "midazolam",
+      "file": "midazolam.md",
+      "action": "correct",
+      "claim": "Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni. Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler.",
+      "replacement": "Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni.",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkend\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
-   "anchor": "Ingen af nedenstående artikler er phenobarbital-specifikke effektstudier ved trigeminusneuralgi."
-  },
-  {
-   "id": "dk-lic-20261105-phenylbutazone-1",
-   "drug": "phenylbutazone",
-   "file": "phenylbutazone.md",
-   "action": "correct",
-   "claim": "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver.",
-   "replacement": "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID).",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-naldemedine-1",
+      "drug": "naldemedine",
+      "file": "naldemedine.md",
+      "action": "correct",
+      "claim": "Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.",
+      "replacement": "Med kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.",
+      "note": "Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "Lægemiddelstyrelsen 已許可清單有本藥人用許可，「nul markedsføringstilladelser」與事實矛盾；資料缺口與評估結論保留",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"nul markedsføringstilladelser i Danmark og\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"som i Danmark er registreret i et veterinært oralt pulver\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261105-phenylbutazone-2",
-   "drug": "phenylbutazone",
-   "file": "phenylbutazone.md",
-   "action": "correct",
-   "claim": "- Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært",
-   "replacement": "- Vurdering af administrationsvej og målgruppe",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-phenobarbital-1",
+      "drug": "phenobarbital",
+      "file": "phenobarbital.md",
+      "action": "correct",
+      "claim": "Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkendelse til human anvendelse. Listen er komplet.",
+      "replacement": "",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkend\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）",
+      "anchor": "Ingen af nedenstående artikler er phenobarbital-specifikke effektstudier ved trigeminusneuralgi."
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"da det eneste registrerede produkt er veterinært\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261106-phenylbutazone-3",
-   "drug": "phenylbutazone",
-   "file": "phenylbutazone.md",
-   "action": "correct",
-   "claim": "Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.",
-   "replacement": "Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig.",
-   "note": "Fjernet: oplysningen om producent eller indehaver af tilladelsen passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-06.",
-   "finding": "2026-11-06 用戶決定：表列許可 28100713876 Fenylbutazon \"OBA\" 的持有人依 Lægemiddelstyrelsen 已許可清單（05-11-2026）是 Oba-Pharma ApS；Dopharma Research B.V. 是獸用藥 Butagran Equi（28104996611）的持有人，製造商說法錯，只刪該子句，許可屬國家許可的說法保留",
-   "sources": [
+      "id": "dk-lic-20261105-phenylbutazone-1",
+      "drug": "phenylbutazone",
+      "file": "phenylbutazone.md",
+      "action": "correct",
+      "claim": "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver.",
+      "replacement": "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID).",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"som i Danmark er registreret i et veterinært oralt pulver\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-06"
-    }
-   ],
-   "checked": "2026-11-06",
-   "summary": "Fjernet: \"producenten er Dopharma Research B.V\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：47c61b3a4（2026-11-06）"
-  },
-  {
-   "id": "dk-lic-20261105-prednisolone-1",
-   "drug": "prednisolone",
-   "file": "prednisolone.md",
-   "action": "correct",
-   "claim": "- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)",
-   "replacement": "- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark",
-   "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 17 markedsføringstilladelser (gyldige: 17); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
-   "sources": [
+      "id": "dk-lic-20261105-phenylbutazone-2",
+      "drug": "phenylbutazone",
+      "file": "phenylbutazone.md",
+      "action": "correct",
+      "claim": "- Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært",
+      "replacement": "- Vurdering af administrationsvej og målgruppe",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"da det eneste registrerede produkt er veterinært\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-05",
-   "summary": "Fjernet: \"(de fundne tilladelser er veterinære)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
-  },
-  {
-   "id": "dk-lic-20261112-thiamine-1",
-   "drug": "thiamine",
-   "file": "thiamine.md",
-   "action": "correct",
-   "claim": "Antal tilladelser: 4 (alle nationale, gyldige).",
-   "replacement": "Antal tilladelser: 13 (alle nationale, gyldige; tabellen viser 4 af dem).",
-   "summary": "Antal tilladelser: 4 → 13",
-   "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 13 gyldige nationale tilladelser med thiamin til mennesker; tabellen viser kun 4 af dem. Der er desuden 1 veterinærlægemiddel.",
-   "finding": "AI 產生的正文把表格列出的 4 張當成總數；事實層（data-20261105-231027）人用 13 張全有效、獸用 1 張，13 張號碼全是丹麥國家許可號（非 EU/1/）",
-   "sources": [
+      "id": "dk-lic-20261106-phenylbutazone-3",
+      "drug": "phenylbutazone",
+      "file": "phenylbutazone.md",
+      "action": "correct",
+      "claim": "Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig; producenten er Dopharma Research B.V.",
+      "replacement": "Tilladelsen er national (Lægemiddelstyrelsen) og er gyldig.",
+      "note": "Fjernet: oplysningen om producent eller indehaver af tilladelsen passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-06.",
+      "finding": "2026-11-06 用戶決定：表列許可 28100713876 Fenylbutazon \"OBA\" 的持有人依 Lægemiddelstyrelsen 已許可清單（05-11-2026）是 Oba-Pharma ApS；Dopharma Research B.V. 是獸用藥 Butagran Equi（28104996611）的持有人，製造商說法錯，只刪該子句，許可屬國家許可的說法保留",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-06"
+        }
+      ],
+      "checked": "2026-11-06",
+      "summary": "Fjernet: \"producenten er Dopharma Research B.V\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：47c61b3a4（2026-11-06）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
-    }
-   ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
-  },
-  {
-   "id": "dk-lic-20261112-oxytetracycline-1",
-   "drug": "oxytetracycline",
-   "file": "oxytetracycline.md",
-   "action": "correct",
-   "claim": "Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat.",
-   "replacement": "Der findes i alt 8 gyldige nationale tilladelser til lægemidler til mennesker (alle kombinationspræparater med oxytetracyclin, ingen annullerede). Desuden er der 10 tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske).",
-   "summary": "Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære",
-   "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 8 gyldige tilladelser til mennesker, som alle indeholder oxytetracyclin sammen med polymyxin B og/eller hydrocortison, og 10 tilladelser til veterinærlægemidler.",
-   "finding": "AI 產生的正文寫「6 張、全是單方、第六張是獸用」；證據包：人用 8 張全有效，成分欄全是 oxytetracycline＋polymyxin B／hydrocortisone 複方；獸用 10 張（含 Terralon 28101396190）。事實層 single_total＝8 是 Dk 事實層把複方也算單方的口徑問題，這裡照證據包的成分欄寫",
-   "sources": [
+      "id": "dk-lic-20261105-prednisolone-1",
+      "drug": "prednisolone",
+      "file": "prednisolone.md",
+      "action": "correct",
+      "claim": "- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)",
+      "replacement": "- Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark",
+      "note": "Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller \"Vet.\" i navnet) er skilt ud. Lægemidlet har 17 markedsføringstilladelser (gyldige: 17); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.",
+      "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：vet）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-05",
+      "summary": "Fjernet: \"(de fundne tilladelser er veterinære)\"",
+      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c57b56f26（2026-11-05）"
+    },
     {
-     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
-     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
+      "id": "dk-lic-20261112-thiamine-1",
+      "drug": "thiamine",
+      "file": "thiamine.md",
+      "action": "correct",
+      "claim": "Antal tilladelser: 4 (alle nationale, gyldige).",
+      "replacement": "Antal tilladelser: 13 (alle nationale, gyldige; tabellen viser 4 af dem).",
+      "summary": "Antal tilladelser: 4 → 13",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 13 gyldige nationale tilladelser med thiamin til mennesker; tabellen viser kun 4 af dem. Der er desuden 1 veterinærlægemiddel.",
+      "finding": "AI 產生的正文把表格列出的 4 張當成總數；事實層（data-20261105-231027）人用 13 張全有效、獸用 1 張，13 張號碼全是丹麥國家許可號（非 EU/1/）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+    },
+    {
+      "id": "dk-lic-20261112-oxytetracycline-1",
+      "drug": "oxytetracycline",
+      "file": "oxytetracycline.md",
+      "action": "correct",
+      "claim": "Der findes i alt 6 gyldige nationale tilladelser (alle enkeltstofpræparater, ingen annullerede). Den sjette, Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske), er et veterinærpræparat.",
+      "replacement": "Der findes i alt 8 gyldige nationale tilladelser til lægemidler til mennesker (alle kombinationspræparater med oxytetracyclin, ingen annullerede). Desuden er der 10 tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske).",
+      "summary": "Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05) er der 8 gyldige tilladelser til mennesker, som alle indeholder oxytetracyclin sammen med polymyxin B og/eller hydrocortison, og 10 tilladelser til veterinærlægemidler.",
+      "finding": "AI 產生的正文寫「6 張、全是單方、第六張是獸用」；證據包：人用 8 張全有效，成分欄全是 oxytetracycline＋polymyxin B／hydrocortisone 複方；獸用 10 張（含 Terralon 28101396190）。事實層 single_total＝8 是 Dk 事實層把複方也算單方的口徑問題，這裡照證據包的成分欄寫",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
+    },
+    {
+      "id": "dk-lic-20261112-acetylcysteine-1",
+      "drug": "acetylcysteine",
+      "file": "acetylcysteine.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige enkeltstofpræparater.",
+      "replacement": "Begge tilladelser er gyldige; Acetylcysteine \"Macure\" er et enkeltstofpræparat, Amiped et kombinationspræparat.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Amiped indeholder flere aktive stoffer (aminosyreopløsning).",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-alanine-1",
+      "drug": "alanine",
+      "file": "alanine.md",
+      "action": "correct",
+      "claim": "(alle enkeltstofprodukter); her vises de 5 første",
+      "replacement": "(alle kombinationspræparater); her vises de 5 første",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med alanin er kombinationspræparater (aminosyre- og ernæringsopløsninger).",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-amiloride-1",
+      "drug": "amiloride",
+      "file": "amiloride.md",
+      "action": "correct",
+      "claim": "Der er to gyldige markedsføringstilladelser for enkeltstofpræparater med amilorid.",
+      "replacement": "Der er tre gyldige markedsføringstilladelser for kombinationspræparater med amilorid.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 3 gyldige tilladelser (bl.a. Amilco og Frusamil) er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-amylmetacresol-1",
+      "drug": "amylmetacresol",
+      "file": "amylmetacresol.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter.",
+      "replacement": "Begge tilladelser er gyldige nationale tilladelser for kombinationsprodukter.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Strepsils Citrus Sukkerfri og Betolo indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-arginine-1",
+      "drug": "arginine",
+      "file": "arginine.md",
+      "action": "correct",
+      "claim": "Der er 20 gyldige tilladelser (alle enkeltstofprodukter).",
+      "replacement": "Der er 20 gyldige tilladelser (alle kombinationspræparater).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med arginin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-avibactam-1",
+      "drug": "avibactam",
+      "file": "avibactam.md",
+      "action": "correct",
+      "claim": "og er registreret som præparater med avibactam som enkeltstof i datagrundlaget",
+      "replacement": "og er kombinationspræparater (avibactam med ceftazidim henholdsvis aztreonam)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Zavicefta og Emblaveo er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-benzydamine-1",
+      "drug": "benzydamine",
+      "file": "benzydamine.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter.",
+      "replacement": "Begge tilladelser er gyldige nationale tilladelser; Andolex er et enkeltstofprodukt, Septabene et kombinationsprodukt.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Septabene indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-ceftolozane-1",
+      "drug": "ceftolozane",
+      "file": "ceftolozane.md",
+      "action": "correct",
+      "claim": "Produktet er et enkeltstofspræparat i de lokale data og er registreret som gyldigt.",
+      "replacement": "Produktet er et kombinationspræparat (ceftolozan/tazobactam) og er registreret som gyldigt.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Zerbaxa indeholder ceftolozan og tazobactam.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-clioquinol-1",
+      "drug": "clioquinol",
+      "file": "clioquinol.md",
+      "action": "correct",
+      "claim": "omfatter et enkeltstofpræparat (indehaver: Amdipharm Limited)",
+      "replacement": "omfatter et kombinationspræparat (indehaver: Amdipharm Limited)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Locacorten-Vioform indeholder flumetason og clioquinol.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-cysteine-1",
+      "drug": "cysteine",
+      "file": "cysteine.md",
+      "action": "correct",
+      "claim": "I alt 7 gyldige tilladelser (alle enkeltstofprodukter, ingen annullerede).",
+      "replacement": "I alt 9 gyldige tilladelser (alle kombinationspræparater, ingen annullerede).",
+      "summary": "Antal tilladelser: 7 → 9; alle kombinationspræparater",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Der er 9 gyldige tilladelser med cystein, herunder Pedismof Preterm (28107076923); alle er kombinationspræparater (aminosyre- og ernæringsopløsninger).",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正；cysteine 另把 EXTRA_OWN 的 Pedismof Preterm 算進張數（8→9 張，加上正文原寫的 7 張不符）",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-dexpanthenol-1",
+      "drug": "dexpanthenol",
+      "file": "dexpanthenol.md",
+      "action": "correct",
+      "claim": "omfatter præparater med dexpanthenol som enkeltstof",
+      "replacement": "omfatter kombinationspræparater med dexpanthenol",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Cernevit, Viant og Zymelin Care indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-dimenhydrinate-1",
+      "drug": "dimenhydrinate",
+      "file": "dimenhydrinate.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige og omfatter enkeltstofpræparater.",
+      "replacement": "Begge tilladelser er gyldige; Dimenhydrinat \"Galenica\" er et enkeltstofpræparat, Arlevert et kombinationspræparat (med cinnarizin).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Arlevert indeholder cinnarizin og dimenhydrinat.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-docusate-1",
+      "drug": "docusate",
+      "file": "docusate.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige enkeltstofpræparater til rektal anvendelse.",
+      "replacement": "Begge tilladelser er gyldige kombinationspræparater til rektal anvendelse.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Klyx og Glyoktyl indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-ethinylestradiol-1",
+      "drug": "ethinylestradiol",
+      "file": "ethinylestradiol.md",
+      "action": "correct",
+      "claim": "Der findes i alt 9 gyldige tilladelser (alle enkeltstofpræparater).",
+      "replacement": "Der findes mindst 20 gyldige tilladelser (alle kombinationspræparater).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Lægemiddelstyrelsens liste har mindst 20 gyldige tilladelser med ethinylestradiol; alle er kombinationspræparater (p-piller m.m.).",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-ezetimibe-1",
+      "drug": "ezetimibe",
+      "file": "ezetimibe.md",
+      "action": "correct",
+      "claim": ", selvom de er registreret som enkeltstofpræparater i datagrundlaget",
+      "replacement": "",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Nustendi (bempedoinsyre/ezetimib) og Ezetimibe/Simvastatin \"Accord\" er også registreret som kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）",
+      "anchor": "Bemærk: Nustendi og Ezetimibe/Simvastatin \"Accord\" er i praksis kombinationspræparater"
+    },
+    {
+      "id": "dk-lic-20261112-fenofibrate-1",
+      "drug": "fenofibrate",
+      "file": "fenofibrate.md",
+      "action": "correct",
+      "claim": "er navne på produkter, som i data er registreret som enkeltstofpræparater;",
+      "replacement": "er kombinationspræparater (med rosuvastatin henholdsvis pravastatin);",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Rosufenx (fenofibrat/rosuvastatin) og Pravafenix (fenofibrat/pravastatin) er registreret som kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-fluorescein-1",
+      "drug": "fluorescein",
+      "file": "fluorescein.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige enkeltstofpræparater.",
+      "replacement": "Begge tilladelser er gyldige; Anatera er et enkeltstofpræparat, Combiflure et kombinationspræparat.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Combiflure indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-glycine-1",
+      "drug": "glycine",
+      "file": "glycine.md",
+      "action": "correct",
+      "claim": "(alle enkeltstofpræparater)",
+      "replacement": "(alle kombinationspræparater)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med glycin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-histidine-1",
+      "drug": "histidine",
+      "file": "histidine.md",
+      "action": "correct",
+      "claim": "De er alle enkeltstofprodukter (ingen kombinationsprodukter), og ingen er annulleret.",
+      "replacement": "De er alle kombinationsprodukter, og ingen er annulleret.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle registrerede produkter med histidin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-ipratropium-1",
+      "drug": "ipratropium",
+      "file": "ipratropium.md",
+      "action": "correct",
+      "claim": "Alle fire tilladelser er gyldige enkeltstofpræparater (ingen annullerede).",
+      "replacement": "Alle fire tilladelser er gyldige (ingen annullerede); Iprazap er et enkeltstofpræparat, Berodual, Ipramol Steri-Neb og Otrivin Comp er kombinationspræparater.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Berodual, Ipramol Steri-Neb og Otrivin Comp indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-isoleucine-1",
+      "drug": "isoleucine",
+      "file": "isoleucine.md",
+      "action": "correct",
+      "claim": "(alle enkeltstofpræparater, ingen annullerede)",
+      "replacement": "(alle kombinationspræparater, ingen annullerede)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med isoleucin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-ledipasvir-1",
+      "drug": "ledipasvir",
+      "file": "ledipasvir.md",
+      "action": "correct",
+      "claim": "Harvoni er et enkeltstof-præparat (status: gyldig) og er den eneste tilladelse.",
+      "replacement": "Harvoni er et kombinationspræparat (ledipasvir/sofosbuvir, status: gyldig).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Harvoni indeholder ledipasvir og sofosbuvir; der er 4 gyldige tilladelser med ledipasvir.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-mepivacaine-1",
+      "drug": "mepivacaine",
+      "file": "mepivacaine.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige, og alle er nationale enkeltstofpræparater.",
+      "replacement": "Alle tre tilladelser er gyldige nationale tilladelser; Carbocain er et enkeltstofpræparat, Carbocain-adrenalin og Scandonest-Adrenalin er kombinationspræparater med adrenalin.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Carbocain-adrenalin og Scandonest-Adrenalin indeholder også adrenalin.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-nebivolol-1",
+      "drug": "nebivolol",
+      "file": "nebivolol.md",
+      "action": "correct",
+      "claim": "Begge tilladelser er gyldige nationale tilladelser for monopræparater.",
+      "replacement": "Begge tilladelser er gyldige nationale tilladelser; Dublock er et monopræparat, Hypoloc Comp et kombinationspræparat.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Hypoloc Comp indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-norgestimate-1",
+      "drug": "norgestimate",
+      "file": "norgestimate.md",
+      "action": "correct",
+      "claim": "gælder et enkeltstofpræparat til oral anvendelse",
+      "replacement": "gælder et kombinationspræparat til oral anvendelse",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Amorina indeholder ethinylestradiol og norgestimat.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-olopatadine-1",
+      "drug": "olopatadine",
+      "file": "olopatadine.md",
+      "action": "correct",
+      "claim": "omfatter præparater med olopatadin som enkelt aktivt stof",
+      "replacement": "gælder Olopatadin \"Epione\" (olopatadin som enkelt aktivt stof) og Ryaltris (kombinationspræparat med mometason)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Ryaltris indeholder mometason og olopatadin.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-phenylalanine-1",
+      "drug": "phenylalanine",
+      "file": "phenylalanine.md",
+      "action": "correct",
+      "claim": "(alle nationale, enkeltstofspræparater)",
+      "replacement": "(alle nationale, kombinationspræparater)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med phenylalanin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-pseudoephedrine-1",
+      "drug": "pseudoephedrine",
+      "file": "pseudoephedrine.md",
+      "action": "correct",
+      "claim": "Begge godkendelser er gyldige og omfatter enkeltstofpræparater i registret.",
+      "replacement": "Begge godkendelser er gyldige og omfatter kombinationspræparater (Clarinase med loratadin, Aerinaze med desloratadin).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Clarinase og Aerinaze er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-serine-1",
+      "drug": "serine",
+      "file": "serine.md",
+      "action": "correct",
+      "claim": "(alle enkeltstof-præparater, ingen annulleret)",
+      "replacement": "(alle kombinationspræparater, ingen annulleret)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med serin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tamsulosin-1",
+      "drug": "tamsulosin",
+      "file": "tamsulosin.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige enkeltstofpræparater (national godkendelse).",
+      "replacement": "Alle tre tilladelser er gyldige (national godkendelse); Bladasin er et enkeltstofpræparat, Dutasteride/Tamsulosinhydrochloride \"Stada\" og Vantamsolus er kombinationspræparater.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Dutasteride/Tamsulosinhydrochloride \"Stada\" og Vantamsolus (solifenacin/tamsulosin) indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tegafur-1",
+      "drug": "tegafur",
+      "file": "tegafur.md",
+      "action": "correct",
+      "claim": "Tilladelsen er gyldig og omfatter et enkeltstofpræparat.",
+      "replacement": "Tilladelsen er gyldig og omfatter et kombinationspræparat (tegafur/gimeracil/oteracil).",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Teysuno indeholder tegafur, gimeracil og oteracil.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tetracaine-1",
+      "drug": "tetracaine",
+      "file": "tetracaine.md",
+      "action": "correct",
+      "claim": "(enkeltstofpræparat)",
+      "replacement": "(kombinationspræparat)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Pliapel indeholder lidocain og tetracain.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tezacaftor-1",
+      "drug": "tezacaftor",
+      "file": "tezacaftor.md",
+      "action": "correct",
+      "claim": "Alle er enkeltstofspræparater i de registrerede data",
+      "replacement": "Alle er kombinationspræparater",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Symkevi, Kaftrio og Alyftrek indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tropicamide-1",
+      "drug": "tropicamide",
+      "file": "tropicamide.md",
+      "action": "correct",
+      "claim": "Alle tre tilladelser er gyldige enkeltstofpræparater.",
+      "replacement": "Alle tre tilladelser er gyldige; Mydriacyl er et enkeltstofpræparat, Mydriasert og Mydrane er kombinationspræparater.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Mydriasert og Mydrane indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-tyrosine-1",
+      "drug": "tyrosine",
+      "file": "tyrosine.md",
+      "action": "correct",
+      "claim": "(alle enkeltstofspræparater, ingen annullerede)",
+      "replacement": "(alle kombinationspræparater, ingen annullerede)",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med tyrosin er kombinationspræparater.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+    },
+    {
+      "id": "dk-lic-20261112-xylometazoline-1",
+      "drug": "xylometazoline",
+      "file": "xylometazoline.md",
+      "action": "correct",
+      "claim": "Alle fire er nationale tilladelser med status gyldig og indeholder xylometazolin som enkeltstof.",
+      "replacement": "Alle fire er nationale tilladelser med status gyldig; Xylometazolin \"Orifarm\" og Klarigen indeholder xylometazolin som enkeltstof, Otrivin Comp og Zymelin Care er kombinationspræparater.",
+      "summary": "Enkeltstof/kombination rettet",
+      "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Otrivin Comp (med ipratropium) og Zymelin Care (med dexpanthenol) indeholder flere aktive stoffer.",
+      "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+      "sources": [
+        {
+          "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+          "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+          "accessed": "2026-11-05"
+        }
+      ],
+      "checked": "2026-11-12",
+      "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
     }
-   ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）"
-  }
- ]
+  ]
 }

@@ -82,7 +82,13 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-Der findes 20 gyldige markedsføringstilladelser for produkter, der indeholder histidin. De er alle enkeltstofprodukter (ingen kombinationsprodukter), og ingen er annulleret. De indsamlede data indeholder ikke tekst om godkendte indikationer. De fem første er vist nedenfor.
+Der findes 20 gyldige markedsføringstilladelser for produkter, der indeholder histidin. De er alle kombinationsprodukter, og ingen er annulleret. De indsamlede data indeholder ikke tekst om godkendte indikationer. De fem første er vist nedenfor.
+
+<!-- review:begin dk-lic-20261112-histidine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "De er alle enkeltstofprodukter (ingen kombinationsprodukter), og ingen er annulleret." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle registrerede produkter med histidin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-histidine-1 -->
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -118,6 +124,19 @@ Trods en høj modelscore findes der ingen kliniske forsøg og ingen litteratur, 
 - Godkendte indikationstekster og produktresuméer (SPC) for de relevante produkter, herunder advarsler og kontraindikationer
 - Vurdering af sikkerhedssignalerne fra TxGNN-modellen (deep learning), som kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, især ved nyre- og hjertesygdom
 - Afklaring af egnede administrationsveje og doseringer til den nye indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

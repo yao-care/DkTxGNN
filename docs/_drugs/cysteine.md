@@ -52,8 +52,8 @@ Der er **ingen kliniske forsøg** og **18 publikationer** (hovedsageligt prækli
 | Forudsagt ny indikation | Tørre øjne (dry eye syndrome) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
-| Antal markedsføringstilladelser | 8 (gyldige: 8) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -103,7 +103,13 @@ De mest relevante publikationer (alle præklinisk, formulerings- eller mekanisme
 | MA 28107076923 | Pedismof Preterm | Infusionsvæske, emulsion | Indikationstekst ikke angivet |
 | MA 28104593209 | Numeta G16E | Infusionsvæske, emulsion | Indikationstekst ikke angivet |
 
-I alt 7 gyldige tilladelser (alle enkeltstofprodukter, ingen annullerede). Alle er infusionsprodukter. Der er ingen registreret øjendråbe- eller anden topisk formulering med cystein, hvilket er relevant for en eventuel øjenindikation.
+I alt 9 gyldige tilladelser (alle kombinationspræparater, ingen annullerede). Alle er infusionsprodukter. Der er ingen registreret øjendråbe- eller anden topisk formulering med cystein, hvilket er relevant for en eventuel øjenindikation.
+
+<!-- review:begin dk-lic-20261112-cysteine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "I alt 7 gyldige tilladelser (alle enkeltstofprodukter, ingen annullerede)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Der er 9 gyldige tilladelser med cystein, herunder Pedismof Preterm (28107076923); alle er kombinationspræparater (aminosyre- og ernæringsopløsninger). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-cysteine-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ Forudsigelsen for tørre øjne har en høj modelscore, men evidensen er udelukke
 - Formulerings- og okulær sikkerhedsvurdering til topisk anvendelse
 - Gennemgang af sikkerhedsoplysninger i produktresuméer (advarsler og kontraindikationer mangler i de data, der er indsamlet)
 - Konsolidering af de overlappende glaukomforudsigelser, hvis disse skal følges op
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Antal tilladelser: 7 → 9; alle kombinationspræparater | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

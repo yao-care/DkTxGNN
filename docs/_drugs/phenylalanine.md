@@ -85,7 +85,13 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-Der er 20 gyldige markedsføringstilladelser (alle nationale, enkeltstofspræparater). Godkendte indikationstekster er ikke tilgængelige i de indsamlede data. De fem første er vist nedenfor.
+Der er 20 gyldige markedsføringstilladelser (alle nationale, kombinationspræparater). Godkendte indikationstekster er ikke tilgængelige i de indsamlede data. De fem første er vist nedenfor.
+
+<!-- review:begin dk-lic-20261112-phenylalanine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle nationale, enkeltstofspræparater)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med phenylalanin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-phenylalanine-1 -->
 
 | Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -126,6 +132,19 @@ Forudsigelsen bygger udelukkende på en beregningsmodel. Der er ingen kliniske f
 - Præklinisk eller mekanistisk evidens for en terapeutisk rolle ved skleroserende kolangitis
 - Vurdering af administrationsvej og formulering, da de nuværende præparater er infusionsvæsker til parenteral ernæring
 - Særlig sikkerhedsvurdering vedrørende phenylketonuri samt nyre- og hjerte-kar-sygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

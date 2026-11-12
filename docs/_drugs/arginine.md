@@ -90,7 +90,13 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-Der er 20 gyldige tilladelser (alle enkeltstofprodukter). De godkendte indikationstekster er ikke tilgængelige i de indsamlede data. Fem hovedprodukter er vist:
+Der er 20 gyldige tilladelser (alle kombinationspræparater). De godkendte indikationstekster er ikke tilgængelige i de indsamlede data. Fem hovedprodukter er vist:
+
+<!-- review:begin dk-lic-20261112-arginine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er 20 gyldige tilladelser (alle enkeltstofprodukter)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med arginin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-arginine-1 -->
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -130,6 +136,19 @@ Forudsigelsen bygger kun på en computermodel og indirekte dyreforsøg (evidensn
 - Præklinisk validering af, at arginintilskud forbedrer mavetømning, samt en vurdering af egnet administrationsvej (data om dette mangler)
 - Gennemgang af de kontraindikationer, der er fundet i videnbasen, særligt ved nyresygdom og elektrolytforstyrrelser
 - Hvis hypotesen holder, et lille eksplorativt klinisk forsøg (fase 2) hos patienter med gastroparese
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

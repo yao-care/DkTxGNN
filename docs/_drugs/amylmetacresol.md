@@ -97,7 +97,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 | 28104954311 | Strepsils Citrus Sukkerfri | Sugetabletter | Ikke angivet i de tilgængelige data |
 | 28106844022 | Betolo | Mundhulespray, opløsning | Ikke angivet i de tilgængelige data |
 
-Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter. Producenter: Reckitt Benckiser Healthcare (Scandinavia) A/S (Strepsils) og Geiser Pharma S.L. (Betolo).
+Begge tilladelser er gyldige nationale tilladelser for kombinationsprodukter. Producenter: Reckitt Benckiser Healthcare (Scandinavia) A/S (Strepsils) og Geiser Pharma S.L. (Betolo).
+
+<!-- review:begin dk-lic-20261112-amylmetacresol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Strepsils Citrus Sukkerfri og Betolo indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-amylmetacresol-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litter
 - Produktresuméer fra Lægemiddelstyrelsen med godkendte indikationer, advarsler og kontraindikationer
 - Hvis der alligevel ønskes en videre vurdering, bør den afgrænses til infektiøs anterior uveitis som den mest plausible kandidat, startende med prækliniske data om okulær penetration og tolerabilitet
 - Omsætning af den forældede sygdomsbetegnelse (neurogen blære) til gældende ontologitermer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

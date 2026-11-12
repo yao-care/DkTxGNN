@@ -92,7 +92,13 @@ Der er ingen litteratur for kold urticaria.
 | 28105260213 | Dimenhydrinat "Galenica" (Galenica SA) | Resoriblette, sublingual | Indikationstekst ikke tilgængelig |
 | 28104050606 | Arlevert (Hennig Arzneimittel AG) | Tablet | Indikationstekst ikke tilgængelig |
 
-Begge tilladelser er gyldige og omfatter enkeltstofpræparater.
+Begge tilladelser er gyldige; Dimenhydrinat "Galenica" er et enkeltstofpræparat, Arlevert et kombinationspræparat (med cinnarizin).
+
+<!-- review:begin dk-lic-20261112-dimenhydrinate-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige og omfatter enkeltstofpræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Arlevert indeholder cinnarizin og dimenhydrinat. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-dimenhydrinate-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ Forudsigelsen hviler alene på en høj beregnet score og en plausibel, men indir
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Vurdering af administrationsvej og doseringsform i forhold til den nye indikation
 - Sikkerhedsvurdering af sedation, antikolinerge effekter og interaktioner i relevante patientgrupper
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

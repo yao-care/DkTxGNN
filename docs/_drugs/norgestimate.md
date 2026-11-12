@@ -82,7 +82,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28106259819 | Amorina (EFFIK S.A.) | Tabletter | Indikationstekst ikke angivet |
 
-Tilladelsen er gyldig og gælder et enkeltstofpræparat til oral anvendelse.
+Tilladelsen er gyldig og gælder et kombinationspræparat til oral anvendelse.
+
+<!-- review:begin dk-lic-20261112-norgestimate-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "gælder et enkeltstofpræparat til oral anvendelse" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Amorina indeholder ethinylestradiol og norgestimat. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-norgestimate-1 -->
 
 ---
 
@@ -114,6 +120,19 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg ell
 - Advarsler og kontraindikationer fra det danske produktresumé hos Lægemiddelstyrelsen
 - Afklaring af, om forhøjet plasmazink overhovedet er en klinisk relevant behandlingsindikation
 - Primær litteratur- og forsøgsgennemgang, der kan underbygge eller afkræfte en sammenhæng
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

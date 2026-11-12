@@ -92,7 +92,13 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 | 28105461714 | Nutriflex Omega Special elektrolytfri | Infusionsvæske, emulsion | Ikke angivet |
 | 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke angivet |
 
-Der er i alt 20 gyldige tilladelser (alle enkeltstofprodukter); her vises de 5 første. Øvrige produkter omfatter bl.a. Vamin, Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta, Vaminolac, Clinimix, Olimel, SmofKabiven og Kabiven.
+Der er i alt 20 gyldige tilladelser (alle kombinationspræparater); her vises de 5 første. Øvrige produkter omfatter bl.a. Vamin, Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta, Vaminolac, Clinimix, Olimel, SmofKabiven og Kabiven.
+
+<!-- review:begin dk-lic-20261112-alanine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofprodukter); her vises de 5 første" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med alanin er kombinationspræparater (aminosyre- og ernæringsopløsninger). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-alanine-1 -->
 
 ---
 
@@ -122,6 +128,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), uden kliniske fors
 - Præklinisk eller eksplorativ klinisk dokumentation for effekt på gastroparese
 - Produktresuméer med advarsler og kontraindikationer samt gennemgang af de kontraindikationer, videngrafen angiver (især nyre- og hjertesygdom)
 - Afklaring af godkendte indikationer, administrationsvej og dosering (nuværende produkter er infusionsvæsker; gastroparese behandles normalt enteralt)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -68,7 +68,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-Der er to gyldige markedsføringstilladelser for enkeltstofpræparater med amilorid. Ingen er annulleret.
+Der er tre gyldige markedsføringstilladelser for kombinationspræparater med amilorid. Ingen er annulleret.
+
+<!-- review:begin dk-lic-20261112-amiloride-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er to gyldige markedsføringstilladelser for enkeltstofpræparater med amilorid." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 3 gyldige tilladelser (bl.a. Amilco og Frusamil) er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-amiloride-1 -->
 
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -105,6 +111,19 @@ Forudsigelsen understøttes kun af modellens score (0,9982). Der er hverken klin
 - Data om virkningsmekanismen (MOA) og en vurdering af, om ENaC-hæmning er relevant for denne tilstand
 - Gennemgang af produktresuméet (SmPC) med henblik på advarsler og kontraindikationer, især ved nedsat nyrefunktion og risiko for hyperkaliæmi
 - Prækliniske data eller et eksplorativt klinisk studie, før der overvejes anvendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

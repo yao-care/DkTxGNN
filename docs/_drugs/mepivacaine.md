@@ -92,7 +92,13 @@ For mavesår blev der fundet én publikation, men den vurderes som irrelevant:
 | 28101593094 | Scandonest-Adrenalin (Septodont) | Injektionsvæske, opløsning | Ikke angivet |
 | 28101002156 | Carbocain-adrenalin (Sandoz A/S) | Injektionsvæske, opløsning | Ikke angivet |
 
-Alle tre tilladelser er gyldige, og alle er nationale enkeltstofpræparater.
+Alle tre tilladelser er gyldige nationale tilladelser; Carbocain er et enkeltstofpræparat, Carbocain-adrenalin og Scandonest-Adrenalin er kombinationspræparater med adrenalin.
+
+<!-- review:begin dk-lic-20261112-mepivacaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige, og alle er nationale enkeltstofpræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Carbocain-adrenalin og Scandonest-Adrenalin indeholder også adrenalin. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-mepivacaine-1 -->
 
 ---
 
@@ -128,6 +134,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske fors�
 - Systematisk litteratursøgning specifikt for mepivacain ved gastroduodenitis og mavesår
 - Vurdering af administrationsvej: de nuværende præparater er injektionsvæsker, og det er uafklaret, om de er forenelige med en gastrointestinal indikation
 - Prækliniske eller mekanistiske studier, der kan underbygge en eventuel effekt ud over symptomatisk smertelindring
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

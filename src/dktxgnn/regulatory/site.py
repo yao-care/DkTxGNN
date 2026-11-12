@@ -75,10 +75,17 @@ MARKET_SEC = re.compile(r"^## (?!.*Kendte anvendelser)(?=.*(?:marked|Market))(?=
 ID_RE = re.compile(r"\b\d{11}\b")  # Lægemiddelstyrelsen 許可證號（2026-11-12 依證據包實測：全部 11 碼數字）
 
 
-# 事實層（依成分重建）漏收、但 Lægemiddelstyrelsen 已許可清單確有本藥成分的許可證號：{頁: {號碼: 依據}}（gate 視為本藥號碼）
+# 事實層（依成分重建）漏收、但 Lægemiddelstyrelsen 已許可清單確有本藥成分的許可證號：{頁: {號碼: {依據與產品資料}}}。
+# gate 視為本藥號碼（licenses.py）；2026-11-12 起也併進事實層張數（reviewer/drug_evidence_pack.py 的 _local_regulatory 補成一張有效許可，
+# 單方／複方依 ingredients 判定），所以狀態列、張數列、快照都會算到它。產品資料抄自清單原文，清單改版時要再對一次。
 EXTRA_OWN = {
-    "cysteine": {"28107076923": "data/raw/danish_medicines.xlsx（data-20261105-231027）：Pedismof Preterm，AktiveSubstanser 含 Cystein；"
-                                "同系列 Pedismof、Pedismof Infant 已在事實層，Preterm 漏收（2026-11-12 人工對照）"},
+    "cysteine": {"28107076923": {
+        "basis": "data/raw/danish_medicines.xlsx（data-20261105-231027，Sidst opdateret 05-11-2026）：Pedismof Preterm，AktiveSubstanser 含 Cystein；"
+                 "同系列 Pedismof、Pedismof Infant 已在事實層，Preterm 漏收（2026-11-12 人工對照）",
+        "product": "Pedismof Preterm", "dosage_form": "infusionsvæske, emulsion", "holder": "Fresenius Kabi AB",
+        "ingredients": "ALANIN, Arginin, Asparaginsyre, Cystein, Fiskeolie, rig på omega-3-syrer, GLUCOSEMONOHYDRAT, Glutaminsyre, GLYCIN, "
+                       "HISTIDIN, Isoleucin, Leucin, LYSINMONOHYDRAT, METHIONIN, Olivenolie, renset, Phenylalanin, PROLIN, Serin, SOYAOLIE, "
+                       "RENSET, Taurin, Threonin, Triglycerider, middelkædelængde, Tryptophan, Tyrosin, Valin"}},
 }
 
 

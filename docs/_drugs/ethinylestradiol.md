@@ -89,7 +89,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 | 28106259819 | Amorina | Tabletter | Ikke angivet |
 | 28104614709 | Celia | Filmovertrukne tabletter | Ikke angivet |
 
-Der findes i alt 9 gyldige tilladelser (alle enkeltstofpræparater). Yderligere produkter omfatter Evra (depotplaster), NuvaRing (vaginalindlæg), Kelzyn (depottabletter) og Asubtela (filmovertrukne tabletter).
+Der findes mindst 20 gyldige tilladelser (alle kombinationspræparater). Yderligere produkter omfatter Evra (depotplaster), NuvaRing (vaginalindlæg), Kelzyn (depottabletter) og Asubtela (filmovertrukne tabletter).
+
+<!-- review:begin dk-lic-20261112-ethinylestradiol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 9 gyldige tilladelser (alle enkeltstofpræparater)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Lægemiddelstyrelsens liste har mindst 20 gyldige tilladelser med ethinylestradiol; alle er kombinationspræparater (p-piller m.m.). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ethinylestradiol-1 -->
 
 ---
 
@@ -122,6 +128,19 @@ Forudsigelsen bygger kun på en beregningsmodel (evidensniveau L5) uden kliniske
 - En afklaring af, om forhøjet plasmazink er et meningsfuldt terapeutisk mål
 - Præklinisk eller observationel evidens, der kan understøtte en sammenhæng mellem ethinylestradiol og zinkniveauer
 - En vurdering af administrationsvej og lægemiddelform, som endnu ikke er foretaget
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -94,7 +94,13 @@ Derudover har stoffet antioxidative og endotelbeskyttende egenskaber, som er rel
 | 28106965723 | Acetylcysteine "Macure" | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
 | 28104977411 | Amiped | Infusionsvæske, opløsning | Ikke angivet i de lokale data |
 
-Begge tilladelser er gyldige enkeltstofpræparater.
+Begge tilladelser er gyldige; Acetylcysteine "Macure" er et enkeltstofpræparat, Amiped et kombinationspræparat.
+
+<!-- review:begin dk-lic-20261112-acetylcysteine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige enkeltstofpræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Amiped indeholder flere aktive stoffer (aminosyreopløsning). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-acetylcysteine-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -114,6 +120,19 @@ Mekanismen er plausibel, og der findes et fuldført fase 3-forsøg og et igangv�
 - Mindst et yderligere velgennemført randomiseret fase 3-forsøg
 - Data om virkningsmekanisme (MOA) og gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af, om de godkendte infusionspræparater kan anvendes til den nye indikation (dosis, administrationsvej)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

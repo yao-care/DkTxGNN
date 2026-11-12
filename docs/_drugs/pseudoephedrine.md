@@ -97,7 +97,13 @@ Bemærk: Der er ingen randomiserede kontrollerede forsøg blandt de fundne publi
 | 28103985806 | Aerinaze (N.V. Organon) | Tabletter med modificeret udløsning | Ikke angivet |
 | 28101715494 | Clarinase (Merck Sharp & Dohme B.V.) | Depottabletter | Ikke angivet |
 
-Begge godkendelser er gyldige og omfatter enkeltstofpræparater i registret.
+Begge godkendelser er gyldige og omfatter kombinationspræparater (Clarinase med loratadin, Aerinaze med desloratadin).
+
+<!-- review:begin dk-lic-20261112-pseudoephedrine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge godkendelser er gyldige og omfatter enkeltstofpræparater i registret." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Clarinase og Aerinaze er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-pseudoephedrine-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ Forudsigelsen om sygdomme i næsehulen overlapper i høj grad med allerede godke
 - Afklaring af, om "sygdomme i næsehulen" repræsenterer en reel ny indikation eller blot en omformulering af eksisterende indikationer
 - Humane kliniske data (kontrollerede forsøg) for enhver egentlig ny indikation
 - En sikkerhedsvurdering for patienter med hjerte-kar-sygdom, hypertension og diabetes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

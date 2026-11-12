@@ -109,7 +109,13 @@ Flere forsøg testerer kombinationer, hvor tegafurs bidrag er svært at isolere.
 |---------|------|------|-----------|
 | 28104621809 | Teysuno | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
 
-Indehaver: Nordic Group BV. Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
+Indehaver: Nordic Group BV. Tilladelsen er gyldig og omfatter et kombinationspræparat (tegafur/gimeracil/oteracil).
+
+<!-- review:begin dk-lic-20261112-tegafur-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Tilladelsen er gyldig og omfatter et enkeltstofpræparat." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Teysuno indeholder tegafur, gimeracil og oteracil. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-tegafur-1 -->
 
 ---
 
@@ -148,6 +154,19 @@ Flere afsluttede fase 3-forsøg med mere end 900 deltagere hver (bl.a. NCT003787
 - Plan for sikkerhedsmonitorering, herunder screening for DPD-mangel og særlige patientgrupper
 
 **Bemærk om øvrige forudsigelser:** De øvrige ni forudsagte indikationer (bl.a. godartede tumorer i tyktarmen som cecum villous adenoma, lipom og hæmangiom) har ingen eller kun indirekte evidens og bør foreløbig have status Hold. Rektosigmoid neoplasm er mekanistisk plausibel via kolorektal kræft, men kræver yderligere evidens.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

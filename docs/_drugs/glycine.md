@@ -63,7 +63,6 @@ Der foreligger på nuværende tidspunkt ingen detaljerede data om glycins virkni
 
 Den høje score (0,9985) afspejler sandsynligvis, at "sygdom i næsehulen" ligger tæt på de eksisterende indikationer (rhinitis og nasopharyngitis) i netværket. Forudsigelsen er derfor snarere en udvidelse af en eksisterende indikationskategori end et selvstændigt repurposing-signal. Et mekanistisk rationale kan ikke vurderes ud fra de foreliggende data.
 
-
 ---
 
 ## Evidens fra kliniske forsøg
@@ -87,7 +86,13 @@ Begge publikationer er grundforskning og er ikke vurderet som relevante for den 
 
 ## Markedsinformation for Danmark
 
-Der er i alt 20 gyldige markedsføringstilladelser (alle enkeltstofpræparater). Ingen af dem har angivet indikationstekst i de indsamlede data. De fem første er vist nedenfor:
+Der er i alt 20 gyldige markedsføringstilladelser (alle kombinationspræparater). Ingen af dem har angivet indikationstekst i de indsamlede data. De fem første er vist nedenfor:
+
+<!-- review:begin dk-lic-20261112-glycine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofpræparater)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med glycin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-glycine-1 -->
 
 | Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -121,6 +126,19 @@ Forudsigelsen har en meget høj modelscore, men evidensniveauet er L5. Der er in
 - Indsamling og gennemgang af advarsler og kontraindikationer fra produktresuméerne hos Lægemiddelstyrelsen
 - Præklinisk eller klinisk evidens, der specifikt knytter glycin til patologi i næsehulen eller svælget
 - Vurdering af egnet administrationsvej og formulering (f.eks. nasal eller topisk), da de nuværende danske præparater er parenterale
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

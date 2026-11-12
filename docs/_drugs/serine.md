@@ -82,7 +82,13 @@ Der er i øjeblikket ingen relateret litteratur for familiær visceral myopati.
 
 ## Markedsinformation i Danmark
 
-Serin indgår i 20 gyldige markedsføringstilladelser (alle enkeltstof-præparater, ingen annulleret). Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. Nedenfor er et udvalg på fem:
+Serin indgår i 20 gyldige markedsføringstilladelser (alle kombinationspræparater, ingen annulleret). Godkendt indikationstekst er ikke tilgængelig i de indsamlede data. Nedenfor er et udvalg på fem:
+
+<!-- review:begin dk-lic-20261112-serine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstof-præparater, ingen annulleret)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med serin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-serine-1 -->
 
 | Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
@@ -123,6 +129,19 @@ Forudsigelsen er rent beregningsbaseret (evidensniveau L5) uden kliniske forsøg
 - Prækliniske eller mekanistiske studier, der undersøger serin ved visceral myopati eller intestinal pseudoobstruktion
 - Vurdering af administrationsvej og formulering (ruteforenelighed er endnu ikke vurderet)
 - Gennemgang af de vidensgraf-baserede kontraindikationer, især nyre- og hjerte-/stofskiftesygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

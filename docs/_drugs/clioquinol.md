@@ -74,7 +74,13 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28100540268 | Locacorten-Vioform | Ørdråber, opløsning | Indikationstekst er ikke registreret i de lokale data |
 
-Tilladelsen er gyldig og omfatter et enkeltstofpræparat (indehaver: Amdipharm Limited).
+Tilladelsen er gyldig og omfatter et kombinationspræparat (indehaver: Amdipharm Limited).
+
+<!-- review:begin dk-lic-20261112-clioquinol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "omfatter et enkeltstofpræparat (indehaver: Amdipharm Limited)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Locacorten-Vioform indeholder flumetason og clioquinol. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-clioquinol-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -92,6 +98,19 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5), uden kliniske 
 - Gennemgang af produktresuméets advarsler og kontraindikationer (nødvendigt før sikkerhedsvurdering)
 - Vurdering af, om en lokal formulering kan nå effektive koncentrationer i hårskaftet, sammenlignet med standard systemisk behandling
 - Registrerede kliniske forsøg eller publicerede studier, der direkte undersøger ektotrix-infektion
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

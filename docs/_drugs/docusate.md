@@ -89,7 +89,13 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 | 28100312259 | Klyx (Ferring Lægemidler A/S) | Rektalvæske, opløsning | Ikke angivet |
 | 28100717276 | Glyoktyl (Viatris ApS) | Rektalvæske, opløsning | Ikke angivet |
 
-Begge tilladelser er gyldige enkeltstofpræparater til rektal anvendelse.
+Begge tilladelser er gyldige kombinationspræparater til rektal anvendelse.
+
+<!-- review:begin dk-lic-20261112-docusate-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige enkeltstofpræparater til rektal anvendelse." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Klyx og Glyoktyl indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-docusate-1 -->
 
 ---
 
@@ -125,6 +131,19 @@ Forudsigelsen bygger kun på modelscore (L5) uden kliniske forsøg, litteratur e
 - Data om virkningsmekanisme (fx fra DrugBank)
 - Dokumentation for en plausibel biologisk sammenhæng mellem docusat og Plummer-Vinson syndrom, samt prækliniske eller kliniske data
 - Vurdering af, om rektale formuleringer er relevante for den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

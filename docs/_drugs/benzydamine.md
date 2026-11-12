@@ -86,7 +86,13 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 | 28101253286 | Andolex (Cooper Consumer Health B.V.) | Mundskyllevæske | Ikke angivet |
 | 28106370119 | Septabene (KRKA d.d. Novo mesto) | Mundhulespray, opløsning | Ikke angivet |
 
-Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter.
+Begge tilladelser er gyldige nationale tilladelser; Andolex er et enkeltstofprodukt, Septabene et kombinationsprodukt.
+
+<!-- review:begin dk-lic-20261112-benzydamine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige nationale tilladelser for enkeltstofprodukter." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Septabene indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-benzydamine-1 -->
 
 ---
 
@@ -109,6 +115,19 @@ Forudsigelsen bygger kun på en høj modelscore uden kliniske forsøg, litteratu
 - Præklinisk eller mekanistisk dokumentation for en effekt på prostatainflammation eller BPH
 - Farmakokinetisk vurdering af, om relevant vævseksponering i prostata kan opnås, og hvilken administrationsvej der i så fald kræves
 - Litteratur- og forsøgssøgning, der kan afklare, om der findes relevant evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

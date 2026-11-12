@@ -73,7 +73,13 @@ Et mekanistisk overlap er plausibelt, fordi mastcelleaktivering og histaminrelat
 | 28107358125 | Olopatadin "Epione" (Epione Medicine ApS) | Øjendråber, opløsning | Indikationstekst ikke tilgængelig |
 | 28106382020 | Ryaltris (Glenmark Pharmaceuticals s.r.o.) | Næsespray, suspension | Indikationstekst ikke tilgængelig |
 
-Begge tilladelser er gyldige og omfatter præparater med olopatadin som enkelt aktivt stof. Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione.
+Begge tilladelser er gyldige og gælder Olopatadin "Epione" (olopatadin som enkelt aktivt stof) og Ryaltris (kombinationspræparat med mometason). Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione.
+
+<!-- review:begin dk-lic-20261112-olopatadine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "omfatter præparater med olopatadin som enkelt aktivt stof" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Ryaltris indeholder mometason og olopatadin. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-olopatadine-1 -->
 
 ---
 
@@ -99,6 +105,19 @@ Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5) uden regi
 - Litteratursøgning og prækliniske eller eksplorative kliniske data for olopatadin ved okulær rosacea
 - Vurdering af formuleringens egnethed (øjendråber) og af relevansen af de registrerede kontraindikationer fra vidensgrafen
 - Afklaring af klinisk relevans af interaktionerne, hvor alvorlighedsgraden er ukendt
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -112,7 +112,13 @@ Listen viser et udvalg af de mest relevante forsøg. Flere af forsøgene er æld
 | 28104314008 | Otrivin Comp | Næsespray, opløsning | Ikke angivet i de tilgængelige data |
 | 28103223300 | Berodual | Inhalationsspray, opløsning | Ikke angivet i de tilgængelige data |
 
-Alle fire tilladelser er gyldige enkeltstofpræparater (ingen annullerede).
+Alle fire tilladelser er gyldige (ingen annullerede); Iprazap er et enkeltstofpræparat, Berodual, Ipramol Steri-Neb og Otrivin Comp er kombinationspræparater.
+
+<!-- review:begin dk-lic-20261112-ipratropium-1 -->
+
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle fire tilladelser er gyldige enkeltstofpræparater (ingen annullerede)." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Berodual, Ipramol Steri-Neb og Otrivin Comp indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261112-ipratropium-1 -->
 
 ---
 
@@ -146,6 +152,19 @@ Den forudsagte indikation (obstruktiv lungesygdom) falder sammen med ipratropium
 - Klarlæggelse af, om der ønskes en reel ny indikation ud over den eksisterende KOL-indikation. I så fald bør de forsøg, hvor ipratropium kun er komparator, vurderes kritisk
 - Sikkerhedsovervågning af patienter med de ovenfor nævnte risikotilstande (især glaukom, prostatahyperplasi og hjerterytmeforstyrrelser) samt opmærksomhed på overfølsomhedsreaktioner
 - For indikationer med kun L4/L5-evidens (fx faryngitis, trakeal sygdom): kontrollerede kliniske studier, før der kan tages stilling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
