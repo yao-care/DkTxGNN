@@ -93,8 +93,8 @@ COMMITS = ["c57b56f26", "96dc2e6a1", "47c61b3a4"]
 REGEN_COMMITS = ["666777573", "0083fa7c5", "cd85608fc", "f1449cd15", "6b61328c0", "48f665477", "0cb31009a", "b7f7e2bbf",
                  "1bfec7fc4", "521af6aca"]
 # 依錯配事實刪句、之後修正事實的頁：這些刪句不是錯誤更正，整頁不轉紀錄（gallium：c57b56f26 依錯配事實刪掉兩處「丹麥無許可」，
-# 96dc2e6a1 修正事實為 0 張、6266374ab 還原其中一句；另一處（"Lægemidlet er ikke i øjeblikket tilgængeligt …"）沒有還原，頁面暫不動）
-RESTORED = {"gallium.md": "c57b56f26 依錯配事實刪句，96dc2e6a1 修正事實、6266374ab 部分還原"}
+# 96dc2e6a1 修正事實為 0 張、6266374ab 還原其中一句；另一處（"Lægemidlet er ikke i øjeblikket tilgængeligt …"）2026-11-12 也還原（跟事實層 0 張、未上市一致））
+RESTORED = {"gallium.md": "c57b56f26 依錯配事實刪句，96dc2e6a1 修正事實、6266374ab 與 2026-11-12 還原兩處刪句"}
 SOURCES = [{"title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
             "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/"}]
 SENT = re.compile(r'(?<=[.!?])\s+(?=[A-ZÆØÅ0-9(*"\[])|\n')

@@ -514,5 +514,5 @@ python3 scripts/build_license_snapshot.py --ws <工作目錄>   # 證據包或�
 python3 scripts/check_seo_docs.py              # 必須 exit 0
 ```
 
-2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 27 筆紀錄（17 頁；沒有因 AI 重產而原句已不在頁面的）。gallium 的刪句是依錯配事實刪的、之後已修正事實並部分還原，不轉紀錄（site.py RESTORED）；事實層漏收但人工對照主管機關清單確屬本藥的許可證號記在 site.py EXTRA_OWN（目前 cysteine 1 張）。
+2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 27 筆紀錄（17 頁；沒有因 AI 重產而原句已不在頁面的）。gallium 的刪句是依錯配事實刪的、之後已修正事實並還原（6266374ab 還原一句、2026-11-12 還原另一句），不轉紀錄（site.py RESTORED）；事實層漏收但人工對照主管機關清單確屬本藥的許可證號記在 site.py EXTRA_OWN（目前 cysteine 1 張）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
