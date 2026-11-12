@@ -327,7 +327,9 @@ def finalize(by, current, regen, fixes, facts, existing_ids):
             first, last = r["_meta"][0], r["_meta"][-1]
             rm = removed_text(r["claim"], r["replacement"])
             reason = manual_reason(fixes, stem, r["claim"])
-            kind = (C.reason_kind(reason) if reason and hasattr(C, "reason_kind") else None) or classify(rm)
+            # 刪掉的字太短（例 ES「no comercializado」→「comercializado」只刪 "no"）時改用整句分類
+            kind = (C.reason_kind(reason) if reason and hasattr(C, "reason_kind") else None) or \
+                classify(rm if len(rm.strip()) >= 8 else r["claim"])
             rec = {
                 "id": f"{C.CODE}-lic-{first['date'].replace('-', '')}-{stem}-{n}",
                 "drug": stem, "file": fname, "action": "correct",
