@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -140,9 +140,28 @@ Der foreligger flere afsluttede kliniske forsøg (fase 2–4), flere systematisk
 - Tydelig doserings- og varighedsbegrænsning samt screening for kontraindikationer og interaktioner (især acetylsalicylsyre, lithium og antikoagulantia).
 - Vurdering af den kliniske evidens' overførbarhed til dansk praksis og de relevante patientgrupper (voksne vs. børn).
 
+<!-- review:begin dk-lic-20261105-ketorolac-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data. / Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 9 markedsføringstilladelser (gyldige: 9); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-ketorolac-1 -->
+
 **Øvrige forudsagte indikationer (til orientering):**
 - *Rosacea-konjunktivitis* (score 0,9940): Ingen kliniske forsøg eller litteratur (L5). Beslutning: Hold.
 - *Trigeminal autonom cephalalgi* (score 0,9939): Kun ét tilbagetrukket fase 1-forsøg og to ældre publikationer, heriblandt en case om lithiumtoksicitet (L4). Behandles som et forskningsspørgsmål.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

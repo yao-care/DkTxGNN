@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 551
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Midazolam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L3). Oprindelig indikation: Angst (fra videnbasen"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -102,6 +102,12 @@ Midazolams korte halveringstid kan fremme indsovning, men kan begrænse søvnved
 
 Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.
 
+<!-- review:begin dk-lic-20261105-midazolam-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.). Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-midazolam-1 -->
+
 ---
 
 ## Sikkerhedsovervejelser
@@ -121,12 +127,32 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 **Begrundelse:**
 Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni.
 
+<!-- review:begin dk-lic-20261105-midazolam-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni understøtter hypotesen, men de to kliniske forsøg støtter ikke effekt ved insomni. Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-midazolam-2 -->
+
 **For at komme videre kræves:**
 - Gennemgang af produktresumé (advarsler og kontraindikationer) for et humant midazolampræparat
 - Detaljerede data om virkningsmekanisme (MOA)
 - Vurdering af ældre RCT'er og sammenligning med nuværende, sikrere sovemidler
 - Afklaring af tilgængelig oral formulering i Danmark
 - Plan for sikkerhedsovervågning (tolerans, afhængighed, interaktioner, KOL, lever- og nyresygdom)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

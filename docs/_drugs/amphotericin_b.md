@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -58,6 +58,12 @@ Amphotericin B er et velkendt polyenantimykotikum, der bruges til alvorlige inva
 
 > Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb. Resultatet med nul-licens afspejler næsten helt sikkert et **databehandlingshul** snarere end den faktiske reguleringsmæssige situation og skal verificeres mod Laegemiddelstyelsens produktdatabase, før der drages reguleringsmæssige konklusioner.
 
+<!-- review:begin dk-lic-20261105-amphotericin_b-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 4 markedsføringstilladelser (gyldige: 4); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-amphotericin_b-1 -->
+
 ---
 
 ## Hvorfor er denne prognose rimelig?
@@ -96,6 +102,25 @@ TxGNN-prognose-pipelinen producerede ingen genfindingskandidater for Amphoterici
 3. **[Høj]** Hent Virkningsmekanisme (MOA) data via DrugBank API for DrugBank ID DB00681 for at understøtte analyse af mekanistisk plausibilitet
 4. **[Høj]** Download og parse det aktuelle Produktresumé (via EMA eller Laegemiddelstyrelsen) for at udfylde vigtige advarsler, kontraindikationer og lægemiddelinteraktionsdata til indledende sikkerhedsscreening
 5. Når prognoser er tilgængelige, genindkør den fulde evidensindsamlingspipeline (ClinicalTrials.gov, PubMed, EudraCT) for den højest rangerede forudsagte indikation
+
+<!-- review:begin dk-lic-20261105-amphotericin_b-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "**[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisationsregistre, herunder EMA's centraliserede autorisation for AmBisome® (EU/1/97/049) / 2." Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-amphotericin_b-2 -->
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "**⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisat" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

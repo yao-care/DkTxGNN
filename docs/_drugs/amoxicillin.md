@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amoxicillin: forudsagt ny indikation polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -68,6 +68,12 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret fo
 
 Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denne indikation.
 
+<!-- review:begin dk-lic-20261105-amoxicillin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-amoxicillin-1 -->
+
 ## Information om det danske marked
 
 | Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
@@ -98,6 +104,19 @@ Forudsigelsen om polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity 
 - Data om virkningsmekanisme (MOA) og en begrundet biologisk hypotese
 - Præklinisk eller klinisk evidens, der direkte undersøger amoxicillin ved denne tilstand
 - Produktresumé (SmPC) med advarsler og kontraindikationer for human anvendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

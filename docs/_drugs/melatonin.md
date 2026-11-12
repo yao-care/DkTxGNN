@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -92,6 +92,12 @@ Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel. Der er ikk
 
 > **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark.
 
+<!-- review:begin dk-lic-20261105-melatonin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske Lægemiddelstyrelse på fil." Fjernet: det stod, at lægemidlet ikke var godkendt eller markedsført i Danmark, eller at tilladelsen var udløbet, hvilket ikke passer med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-melatonin-1 -->
+
 ---
 
 ## Sikkerhedsovervejelser
@@ -123,6 +129,18 @@ TxGNN-pipeline har ikke produceret nogen forudsagte indikationer for melatonin i
 - **Kør TxGNN-pipeline igen** efter datakløfter er løst for at generere kandidatindikationer
 - **Verificer Danmarks registreringsstatus**: Dobbelttjek, om Circadin® eller nogen melatoninprodukt i øjeblikket har en national eller centraliseret godkendelse, der er gyldig i Danmark, da 0-licensantal i denne Evidenspakke kan afspejle et dataindsamlingsproblem
 - **Opdater Evidenspakken** til version v5, når de ovenstående trin er fuldført, og genindlæg til formel evaluering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Melatonin er ikke registreret som markedsført i Danmark inden for denne Evidenspakke. Der er ingen markedsføringstilladelser fra Det Danske " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

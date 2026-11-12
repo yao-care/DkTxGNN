@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -39,6 +39,12 @@ Evidensniveau: **L4** | Forudsagte indikationer: **7** stk.
 ## Resumé i én sætning
 
 Methadon er et opioid. Der foreligger ingen godkendt human indikation i de data, der er samlet til denne rapport. TxGNN-modellen forudsiger, at methadon kan have effekt ved **Tourettes syndrom**, men evidensen er svag: der er **ingen registrerede kliniske forsøg** og **4 publikationer**, hvoraf kun én (en case-rapport fra 1992) direkte omhandler methadon ved Tourettes syndrom.
+
+<!-- review:begin dk-lic-20261105-methadone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-methadone-1 -->
 
 ---
 
@@ -103,6 +109,12 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
+<!-- review:begin dk-lic-20261105-methadone-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-methadone-2 -->
+
 ---
 
 ## Konklusion og næste skridt
@@ -118,6 +130,12 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 - Kontrollerede kliniske data, evt. et lille eksplorativt forsøg, med en klar vurdering af risiko for misbrug, QT-forlængelse og interaktioner
 - Vurdering af alternativer med bedre dokumenteret sikkerhed og effekt ved Tourettes syndrom
 
+<!-- review:begin dk-lic-20261105-methadone-3 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-methadone-3 -->
+
 ---
 
 ## Øvrige forudsagte indikationer (kort)
@@ -130,6 +148,20 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 | Manisk bipolar affektiv lidelse | 0,9932 | L3 | Research Question | Ét lille dobbeltblindt studie fra 1982 (PMID 6959168) og en oversigt fra 2026 (PMID 41222827); begrænset tillid |
 | Trigeminal autonom cephalalgi | 0,9905 | L4 | Hold | Case-rapporter viser, at methadon kan udløse/forværre clusterhovedpine |
 | Forkølelse | 0,9902 | L5 | Hold | Litteraturen handler om kuldepresser-smerteforsøg, ikke forkølelse; søgeartefakt |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Bemærk, at det eneste danske produkt er veterinært" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "(det eneste danske produkt er veterinært)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

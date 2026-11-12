@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) (evidensniveau L4). Oprindelig indikation: Ikke registreret…"
@@ -95,6 +95,12 @@ Aktuelt er der ingen relaterede kliniske forsøg registreret.
 - **Kontraindikationer fra vidensgrafen (ikke fra produktresumé):** Vidensgrafen angiver blandt andet hypertension, epilepsi, nyresygdom, leversygdom, galdeblæresygdom, infektionssygdomme (herunder øjeninfektioner og konjunktivitis), hyperurikæmi, hypertriglyceridæmi, hyperbilirubinæmi (herunder Gilberts syndrom), trombocytopenisk purpura, pseudotumor cerebri/intrakraniel hypertension, cancer og lymfom (herunder primært lymfom i centralnervesystemet).
 - **Lægemiddelinteraktioner:** I alt 1085 registrerede interaktioner. Blandt de viste er en alvorlig (major) med loperamid. Moderate interaktioner omfatter bl.a. amphotericin B, hydrocortison, dexamethason, betamethason, budesonid, triamcinolon, acetylsalicylsyre, metronidazol, bupropion, aprepitant, mesalazin, balsalazid, rabeprazol og chlorpropamid. Ranitidin og doxycyclin er klassificeret som minor.
 
+<!-- review:begin dk-lic-20261105-cyclosporine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-cyclosporine-1 -->
+
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 
 ---
@@ -112,9 +118,29 @@ Forudsigelsen bygger på en høj modelscore, men uden kliniske forsøg og med en
 - Hentning og gennemgang af produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen, da disse mangler
 - Afklaring af, om et humant præparat er tilgængeligt i Danmark
 
+<!-- review:begin dk-lic-20261105-cyclosporine-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-cyclosporine-2 -->
+
 ---
 
 *Bemærkning: De øvrige forudsagte indikationer (bl.a. hjerneaneurisme, med 7 publikationer men kun små, ældre studier om subarachnoidal blødning, samt flere sjældne medfødte syndromer uden evidens) er ikke vurderet i dybden i denne rapport, som fokuserer på den højest rangerede forudsigelse.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "da den eneste registrerede tilladelse gælder et veterinærlægemiddel" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

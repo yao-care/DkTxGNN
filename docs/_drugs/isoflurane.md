@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse (indikationstekste…"
 monitor_inn: "isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -39,6 +39,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **7** stk.
 ## Resumé i én sætning
 
 Isoflurane er et inhalationsanæstetikum. Den primære TxGNN-forudsigelse er **Prinzmetal-angina** (score 0,9967), men der er **ingen registrerede kliniske forsøg og ingen publikationer** til at understøtte denne retning. Evidensen er udelukkende modelbaseret. Blandt de øvrige forudsigelser har **migrænelidelse** det mest omfattende (men overvejende prækliniske) datagrundlag.
+
+<!-- review:begin dk-lic-20261105-isoflurane-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-isoflurane-1 -->
 
 ---
 
@@ -144,6 +150,19 @@ Den primære forudsigelse (Prinzmetal-angina) er ren modelforudsigelse uden klin
 - Systematisk litteraturgennemgang og eventuelt kontrollerede studier for status migrainosus
 - Vurdering af administrationsvej og kompatibilitet med den nye indikation
 - Kardiologisk sikkerhedsvurdering (herunder "coronary steal") før enhver overvejelse vedrørende angina
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

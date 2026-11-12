@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 680
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -115,9 +115,28 @@ Prednisolons immunsuppressive mekanisme passer godt til alopecia areatas patogen
 - Registrerede, veldesignede kliniske forsøg med prednisolon ved alopecia areata
 - Plan for sikkerhedsmonitorering (infektioner, knogler, stofskifte, vækst hos børn) og strategi for at undgå tilbagefald
 
+<!-- review:begin dk-lic-20261105-prednisolone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 17 markedsføringstilladelser (gyldige: 17); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-prednisolone-1 -->
+
 ## Øvrige forudsagte indikationer (kort)
 
 Øvrige forudsigelser har svagere støtte: **idiopatisk steroidfølsomt nefrotisk syndrom** har evidensniveau L1 og er veletableret standardbehandling (snarere bekræftelse end ny repurposing), mens **alopecia mucinosa** og **Quinquauds folliculitis decalvans** har evidensniveau L4 med kun enkelte case reports (Hold). De resterende (telogent effluvium, arvelig hypotrikose m.fl.) har evidensniveau L5, kun modelforudsigelse, og anbefales sat i bero (Hold).
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "(de fundne tilladelser er veterinære)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

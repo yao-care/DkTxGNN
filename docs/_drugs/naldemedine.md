@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Naldemedine: forudsagt ny indikation — (Ingen forudsigelser returneret) (evidensniveau L5). Oprindelig indikation: Opioid-induceret obstipation (OIC) — kroniske ikke-kræftrelaterede sm…"
 predicted_indications: []
 ---
@@ -42,6 +42,12 @@ Evidensniveau: **L5** | Forudsagte indikationer: **0** stk.
 Naldemedine (DB11691) er en perifer myopioid-receptorantagonist (PAMORA) godkendt internationalt til behandling af opioid-induceret obstipation (OIC) hos voksne med kroniske ikke-kræftrelaterede smerter.
 Den aktuelle Evidence Pack indeholder **ingen TxGNN-forudsagte nye indikationer**, da forudsigelsespipelinen ikke returnerede kandidatsygdomme for dette lægemiddel.
 Med kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt.
+
+<!-- review:begin dk-lic-20261105-naldemedine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-naldemedine-1 -->
 
 ---
 
@@ -128,6 +134,18 @@ Evidence Pack er kritisk ufuldstændig — der blev ikke genereret TxGNN-forudsi
 ---
 
 > ⚠️ *Denne rapport er genereret til forskningsmæssige formål udelukkende og udgør ikke medicinsk rådgivning. Enhver lægemiddel-omformål-kandidat kræver klinisk validering før terapeutisk anvendelse.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "nul markedsføringstilladelser i Danmark og" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

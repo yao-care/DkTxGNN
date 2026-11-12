@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 468
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -41,6 +41,12 @@ Evidensniveau: **L1** | Forudsagte indikationer: **1** stk.
 Ketamin er en NMDA-receptorantagonist, og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport.
 TxGNN-modellen forudsiger, at ketamin kan være effektivt mod **hovedpinelidelse (headache disorder)**, med **9 kliniske forsøg** og **20 publikationer** som understøtter retningen.
 Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endnu ikke tilgængelige.
+
+<!-- review:begin dk-lic-20261105-ketamine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-ketamine-1 -->
 
 ---
 
@@ -133,12 +139,32 @@ Der foreligger ikke produktresuméoplysninger om advarsler og kontraindikationer
 **Begrundelse:**
 Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data.
 
+<!-- review:begin dk-lic-20261105-ketamine-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-ketamine-2 -->
+
 **For at komme videre kræves:**
 - Hente og gennemgå produktresuméet (advarsler/kontraindikationer) for et relevant humant ketaminpræparat fra Lægemiddelstyrelsen
 - Indhente publicerede resultater fra THINK-forsøget (NCT03081416) og de øvrige afsluttede forsøg samt afvente KetHead-forsøget (NCT05306899, forventet 2027)
 - Supplere med data om virkningsmekanisme (f.eks. fra DrugBank)
 - Afklare administrationsvej (i.v., intranasal, oral) og lægemiddelform, da rutekompatibilitet endnu ikke er vurderet
 - Vurdere kardiovaskulær sikkerhed og misbrugspotentiale for en hovedpinepopulation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

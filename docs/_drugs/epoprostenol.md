@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -77,6 +77,12 @@ Indtil disse kløfter er løst, og TxGNN-pipelinen køres igen med komplette inp
 
 Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks. *Flolan*, *Veletri*), som automatisk giver autorisation i alle EU/EEA-medlemsstater, herunder Danmark.
 
+<!-- review:begin dk-lic-20261105-epoprostenol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-epoprostenol-1 -->
+
 **Dette tyder stærkt på en datakollektionsfejl snarere end sand fravær fra det danske marked.**
 
 | Forventet autorisation | Produktnavn | Doseringform | Bemærkning |
@@ -110,9 +116,28 @@ Evidenspakken for Epoprostenol mangler både TxGNN-forudsigelsesoutput og sikker
 3. **Hent SmPC-advarsler og kontraindikationer (DG001)** fra EMA EPAR-dokumenter for Flolan/Veletri; parse og udfyld `safety.key_warnings` og `safety.contraindications`.
 5. **Gensend den udfyldte Evidenspakke** for at regenerere en fuldstændig evalueringsrapport med forudsagte indikationer, mekanistisk begrundelse, kliniske forsøgsevidens og en endelig Go / Proceed with Guardrails-anbefaling.
 
+<!-- review:begin dk-lic-20261105-epoprostenol-2 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "**Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé-register; opdater `taiwan_regulatory.market_status`, `total_licenses` og `licenses[]`. / 5." Fjernet: resterende skabelontekst om Taiwans TFDA, som ikke vedrører denne danske side. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-epoprostenol-2 -->
+
 ---
 
 *Denne rapport er genereret til forskningsreference alene og udgør ikke medicinsk rådgivning. Alle lægemiddelomformålskandidater kræver klinisk validering før nogen terapeutisk anvendelse.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt mynd" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

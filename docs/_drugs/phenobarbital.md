@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenobarbital: forudsagt ny indikation Trigeminal nerve neoplasm (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -78,6 +78,12 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 Ingen af nedenstående artikler er phenobarbital-specifikke effektstudier ved trigeminusneuralgi.
 
+<!-- review:begin dk-lic-20261105-phenobarbital-1 -->
+
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkendelse til human anvendelse. Listen er komplet." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261105-phenobarbital-1 -->
+
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
 | [6264347](https://pubmed.ncbi.nlm.nih.gov/6264347/) | 1981 | Dyreforsøg (katte) | Neurology | Carbamazepin, baclofen og phenytoin forstærkede hæmning i trigeminuskernen; phenobarbital svækkede den typisk |
@@ -121,6 +127,19 @@ Forudsigelsen er udelukkende modelbaseret (L5). Der findes ingen kliniske forsø
 - Mekanismedata (MOA) og en vurdering af, om phenobarbital tilfører noget i forhold til carbamazepin, baclofen og andre alternativer
 - Gennemgang af sikkerhedsoplysninger fra produktresuméet for en human phenobarbital-præparat, især interaktionsprofilen ved enzyminduktion
 - Hvis forudsigelsen skal forfølges, et veldesignet klinisk forsøg efter en forudgående risk-benefit-vurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-05 | Fjernet: "Den eneste tilladelse er en national tilladelse til et veterinærlægemiddel (single-ingrediens, oral). Den siger derfor ikke noget om godkend" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
