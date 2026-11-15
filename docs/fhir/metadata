@@ -7,7 +7,7 @@
   "title": "DkTxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-13",
+  "date": "2026-11-15",
   "publisher": "DkTxGNN",
   "contact": [
     {
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "DkTxGNN drug repurposing prediction data exposed as FHIR resources. Contains 846 drugs and 4871 predicted indications.",
+  "description": "DkTxGNN drug repurposing prediction data exposed as FHIR resources. Contains 807 drugs and 4392 predicted indications.",
   "jurisdiction": [
     {
       "coding": [
@@ -76,15 +76,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 846
+          "valueInteger": 807
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 4871
+          "valueInteger": 4392
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-13"
+          "valueDate": "2026-11-15"
         }
       ]
     }
