@@ -1,6 +1,6 @@
 {
   "total": 746,
-  "generated_at": "2026-11-16T05:37:58.995759",
+  "generated_at": "2026-11-16T21:47:18.828383",
   "drugs": [
     {
       "name": "Abacavir",
@@ -3018,7 +3018,7 @@
         "retroperitoneal neoplasm",
         "neuroblastoma"
       ],
-      "approved_indication": "acute lymphoblastic leukemia (disease)；leukemia, lymphocytic, susceptibility to；acute lymphoblastic/lymphocytic leukemia；precursor T-cell acute lymphoblastic leukemia；myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8;21)(q22;q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8;16)(p11;p13) translocation；acute myeloid leukemia with t(6;9)(p23;q34)；acute myeloid leukemia with t(9;11)(p22;q23)"
+      "approved_indication": "acute lymphoblastic leukemia (disease)；leukemia, lymphocytic, susceptibility to；acute lymphoblastic/lymphocytic leukemia；precursor T-cell acute lymphoblastic leukemia；myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8；21)(q22；q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8；16)(p11；p13) translocation；acute myeloid leukemia with t(6；9)(p23；q34)；acute myeloid leukemia with t(9；11)(p22；q23)"
     },
     {
       "name": "Dacarbazine",
@@ -3169,7 +3169,7 @@
         "primary pulmonary lymphoma",
         "pulmonary blastoma"
       ],
-      "approved_indication": "acute lymphoblastic leukemia (disease)；leukemia, lymphocytic, susceptibility to；acute lymphoblastic/lymphocytic leukemia；precursor T-cell acute lymphoblastic leukemia；myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8;21)(q22;q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8;16)(p11;p13) translocation；acute myeloid leukemia with t(6;9)(p23;q34)；acute myeloid leukemia with t(9;11)(p22;q23)"
+      "approved_indication": "acute lymphoblastic leukemia (disease)；leukemia, lymphocytic, susceptibility to；acute lymphoblastic/lymphocytic leukemia；precursor T-cell acute lymphoblastic leukemia；myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8；21)(q22；q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8；16)(p11；p13) translocation；acute myeloid leukemia with t(6；9)(p23；q34)；acute myeloid leukemia with t(9；11)(p22；q23)"
     },
     {
       "name": "Decitabine",
@@ -3181,7 +3181,7 @@
       "predicted_indications": [
         "refractory cytopenia of childhood"
       ],
-      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8;21)(q22;q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8;16)(p11;p13) translocation；acute myeloid leukemia with t(6;9)(p23;q34)；acute myeloid leukemia with t(9;11)(p22;q23)；acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
+      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8；21)(q22；q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8；16)(p11；p13) translocation；acute myeloid leukemia with t(6；9)(p23；q34)；acute myeloid leukemia with t(9；11)(p22；q23)；acute myeloid leukemia with inv3(p21；q26.2) or t(3；3)(p21；q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
     },
     {
       "name": "Deferasirox",
@@ -6335,7 +6335,7 @@
       "predicted_indications": [
         "bulbar polio"
       ],
-      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8;21)(q22;q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8;16)(p11;p13) translocation；acute myeloid leukemia with t(6;9)(p23;q34)；acute myeloid leukemia with t(9;11)(p22;q23)；acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
+      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8；21)(q22；q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8；16)(p11；p13) translocation；acute myeloid leukemia with t(6；9)(p23；q34)；acute myeloid leukemia with t(9；11)(p22；q23)；acute myeloid leukemia with inv3(p21；q26.2) or t(3；3)(p21；q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
     },
     {
       "name": "Ketamine",
@@ -7713,7 +7713,7 @@
         "head and neck cancer",
         "bladder exstrophy-epispadias-cloacal exstrophy complex"
       ],
-      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8;21)(q22;q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8;16)(p11;p13) translocation；acute myeloid leukemia with t(6;9)(p23;q34)；acute myeloid leukemia with t(9;11)(p22;q23)；acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
+      "approved_indication": "myeloid leukemia；unclassified acute myeloid leukemia；acute myeloid leukemia with minimal differentiation；acute myeloblastic leukemia without maturation；acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor；acute myeloid leukemia with t(8；21)(q22；q22) translocation；inherited acute myeloid leukemia；acute myeloid leukemia with CEBPA somatic mutations；acute myeloid leukemia with t(8；16)(p11；p13) translocation；acute myeloid leukemia with t(6；9)(p23；q34)；acute myeloid leukemia with t(9；11)(p22；q23)；acute myeloid leukemia with inv3(p21；q26.2) or t(3；3)(p21；q26.2)；acute myeloid leukemia with NPM1 somatic mutations；therapy related acute myeloid leukemia and myelodysplastic syndrome；acute myeloblastic leukemia with maturation"
     },
     {
       "name": "Modafinil",
