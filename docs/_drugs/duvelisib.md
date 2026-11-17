@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-17
 monitor_inn: "duvelisib"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -52,8 +52,8 @@ Der er dog **ingen undersøgelser specifikt i Hodgkins lymfom**: de 10 identific
 | Forudsagt ny indikation | Hodgkins lymfom (Hodgkins lymphoma) |
 | TxGNN-forudsigelsesscore | 0.9994 |
 | Evidensniveau | L5 (kun oversigtsartikler og meta-analyse; ingen Hodgkin-specifikke studier) |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---

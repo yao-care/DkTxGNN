@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-17
 monitor_inn: "ibritumomab tiuxetan"
 predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
 description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale d…"
@@ -50,8 +50,8 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 | Forudsagt ny indikation | Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia) |
 | TxGNN-forudsigelsesscore | 0.9978 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -78,7 +78,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikatio
 |---------|------|------|-----------|
 | 28120222503 | Zevalin | Radiofarmaceutisk præparationssæt til infusion | Ikke angivet i de indsamlede data |
 
-Tilladelsen er national, gyldig og indehaves af Schering AG.
+Tilladelsen var national og indehavet af Schering AG; den blev afregistreret 2026-10-12.
+
+<!-- review:begin dk-lic-20261117-ibritumomab_tiuxetan-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Tilladelsen er national, gyldig og indehaves af Schering AG." Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28120222503 (Zevalin) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-ibritumomab_tiuxetan-1 -->
 
 ## Cytotoksicitet
 
@@ -124,6 +130,19 @@ Forudsigelsen for akut lymfoblastær/lymfocytær leukæmi har en høj modelscore
 - Gennemgang af den danske produktinformation (SmPC) for advarsler og kontraindikationer
 - Overvejelse af at prioritere mantelcellelymfom (L2) som mere evidensbaseret kandidat til videre vurdering
 - Plan for sikkerhedsmonitorering (knoglemarvstoksicitet, tidligere behandling og strålebeskyttelse)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: “gyldig” → “afregistreret 2026-10-12” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Becaplermin"
 predicted_indications: ["amenorrhea (disease)", "erectile dysfunction (disease)", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "pulmonary hypertension", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "hypogonadotropic hypogonadism with or without anosmia", "Leydig cell hypoplasia due to LH resistance"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-17
 description: "Becaplermin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er registreret i den danske godkendel…"
 ---
 
@@ -50,8 +50,8 @@ Becaplermin er en rekombinant human trombocytafledt vækstfaktor (PDGF-BB), der 
 | Forudsagt ny indikation | Amenoré |
 | TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Antal godkendelser | 1 |
 | Anbefalet beslutning | Hold |
 

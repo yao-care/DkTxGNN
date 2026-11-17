@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Antazoline: forudsagt ny indikation Behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -38,7 +38,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 ## Kort resumé
 
-Antazolin er et antihistamin, som i Danmark er markedsført som øjendråber. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis)**. Der er i de data, der er sammenstillet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som understøtter denne retning.
+Antazolin er et antihistamin, hvis eneste danske markedsføringstilladelse (Antistina-privin, øjendråber) blev afregistreret 2026-07-20. TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis)**. Der er i de data, der er sammenstillet til denne rapport, **ingen kliniske forsøg og ingen publikationer**, som understøtter denne retning.
+
+<!-- review:begin dk-lic-20261117-antazoline-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "som i Danmark er markedsført som øjendråber" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28100546168 (Antistina-privin) blev afregistreret 2026-07-20 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-antazoline-1 -->
 
 ## Hurtigt overblik
 
@@ -48,8 +54,8 @@ Antazolin er et antihistamin, som i Danmark er markedsført som øjendråber. Tx
 | Forudsagt ny indikation | Behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis) |
 | TxGNN-forudsigelsesscore | 0,9971 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -88,6 +94,19 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5). Der er ingen k
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske eller kliniske studier af antazolin ved atopisk dermatitis
 - Vurdering af administrationsvej, da det eneste danske produkt er øjendråber
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Markedsstatus: “markedsført som øjendråber” → “eneste tilladelse afregistreret 2026-07-20” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

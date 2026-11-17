@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Nebivolol: forudsagt ny indikation malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -52,8 +52,8 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 | Forudsagt ny indikation | Malign hypertensiv nyresygdom |
 | TxGNN-forudsigelsesscore | 0,9942 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
-| Antal markedsføringstilladelser | 8 (gyldige: 8) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 8) |
+| Antal markedsføringstilladelser | 8 (gyldige: 7) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -100,11 +100,11 @@ Til sammenligning er der for den tredjerangerende forudsigelse, pulmonal hyperte
 | MA 28104444608 | Dublock (Alapis S.A.) | Tabletter | Ikke angivet i de indsamlede data |
 | MA 28104096107 | Hypoloc Comp (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
 
-Begge tilladelser er gyldige nationale tilladelser; Dublock er et monopræparat, Hypoloc Comp et kombinationspræparat.
+Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.
 
 <!-- review:begin dk-lic-20261112-nebivolol-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Begge tilladelser er gyldige nationale tilladelser for monopræparater." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Hypoloc Comp indeholder flere aktive stoffer. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Begge tilladelser er gyldige nationale tilladelser for monopræparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28104444608 Dublock afregistreret 2026-10-08. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-nebivolol-1 -->
 
@@ -144,7 +144,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

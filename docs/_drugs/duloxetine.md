@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
@@ -54,7 +54,7 @@ Evidensen består af **3 kliniske forsøg** (heraf 1 direkte relevant, lille fas
 | Forudsagt ny indikation | Benign paroxysmal torticollis of infancy |
 | TxGNN-forudsigelsesscore | 0.9985 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 19) |
 | Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Proceed with Guardrails (fortsæt med forbehold) |
 
@@ -103,7 +103,13 @@ Et udvalg af de mest relevante publikationer (19 i alt):
 |---------|------|------|-----------|
 | 28104194907 | Ariclaim | Enterokapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
 
-Indehaver: Eli Lilly Netherland B.V. Status: gyldig.
+Indehaver: Eli Lilly Netherland B.V. Status: tilladelsen står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for Ariclaim blev trukket tilbage 2018-07-09.
+
+<!-- review:begin dk-lic-20261117-duloxetine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Indehaver: Eli Lilly Netherland B.V. Status: gyldig." Rettet: tilladelsen 28104194907 (Ariclaim) står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen Ariclaim EMEA/H/C/000552, Withdrawn 2018-07-09. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end dk-lic-20261117-duloxetine-1 -->
 
 ---
 
@@ -138,6 +144,18 @@ OCD har den stærkeste evidens blandt de forudsagte indikationer (L2): ét dobbe
 | Godartet paroksysmal torticollis hos spædbørn | 0,9985 | L5 | Kun modelforudsigelse, ingen plausibel mekanisme; Hold |
 | Skizotypal, histrionisk, skizoid og paranoid personlighedsforstyrrelse | 0,9978 | L5 | Kun modelforudsigelse, ingen evidens; Hold |
 | Ohdo-syndrom og varianter, ligneous conjunctivitis, Ohdo-type blefarofimose | 0,9960-0,9969 | L5 | Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder mellem beslægtede sygdomme, som modellen har lært, ikke biologisk evidens; Hold |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

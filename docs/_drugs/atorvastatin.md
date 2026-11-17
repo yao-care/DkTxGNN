@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Atorvastatin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -52,7 +52,7 @@ Der er **14 kliniske forsøg** og **20 publikationer** i de data, der er indsaml
 | Forudsagt ny indikation | HIV-infektion (HIV infectious disease) |
 | TxGNN-forudsigelsesscore | 0,9931 |
 | Evidensniveau | L2 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 18) |
 | Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
@@ -108,11 +108,11 @@ Den eksisterende evidens understøtter primært brug til proteasehæmmer-associe
 
 ## Information om markedet i Danmark
 
-Atorvastatin er **markedsført** i Danmark. De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret. Alle er filmovertrukne tabletter til oral anvendelse. Produkter omfatter bl.a. Atorker (Medochemie Limited), Atorvastatin "1A Farma" (1A Farma A/S) og Atozet (N.V. Organon).
+Atorvastatin er **markedsført** i Danmark. De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin "1A Farma") blev afregistreret i 2026. Alle er filmovertrukne tabletter til oral anvendelse. Produkter omfatter bl.a. Atorker (Medochemie Limited), Atorvastatin "1A Farma" (1A Farma A/S) og Atozet (N.V. Organon).
 
 <!-- review:begin dk-lic-20261112-atorvastatin-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28104234907 Atorker afregistreret 2026-03-10, 28105675015 Atorvastatin "1A Farma" afregistreret 2026-03-16. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-atorvastatin-1 -->
 
@@ -153,7 +153,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstil” → “De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføri” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.” → “De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin "1A Farma") blev afregistreret i 2026.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

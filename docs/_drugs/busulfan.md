@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Busulfan: forudsagt ny indikation Myelodysplastisk syndrom (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata"
 ---
 
@@ -38,7 +38,13 @@ Evidensniveau: **L1** | Forudsagte indikationer: **10** stk.
 
 ## Resumé i én sætning
 
-Busulfan er et alkylerende cytostatikum, som i Danmark er registreret som Busilvex (koncentrat til infusionsvæske). Licenstekstens indikationsangivelse er ikke tilgængelig i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at busulfan kan have værdi ved **myelodysplastisk syndrom (MDS)**. Forudsigelsen understøttes af **mange registrerede kliniske forsøg** (bl.a. to afsluttede fase 3-forsøg) og flere publikationer, men busulfan indgår her som konditioneringsbehandling før allogen stamcelletransplantation og ikke som selvstændig behandling.
+Busulfan er et alkylerende cytostatikum, som i Danmark har været registreret som Busilvex (koncentrat til infusionsvæske; afregistreret 2026-10-12). Licenstekstens indikationsangivelse er ikke tilgængelig i de data, der er sammenstillet til denne rapport. TxGNN-modellen forudsiger, at busulfan kan have værdi ved **myelodysplastisk syndrom (MDS)**. Forudsigelsen understøttes af **mange registrerede kliniske forsøg** (bl.a. to afsluttede fase 3-forsøg) og flere publikationer, men busulfan indgår her som konditioneringsbehandling før allogen stamcelletransplantation og ikke som selvstændig behandling.
+
+<!-- review:begin dk-lic-20261117-busulfan-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "som i Danmark er registreret som Busilvex (koncentrat til infusionsvæske)" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28103362802 (Busilvex) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-busulfan-1 -->
 
 ---
 
@@ -50,8 +56,8 @@ Busulfan er et alkylerende cytostatikum, som i Danmark er registreret som Busilv
 | Forudsagt ny indikation | Myelodysplastisk syndrom |
 | TxGNN-forudsigelsesscore | 0,9962 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 2) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
@@ -157,6 +163,19 @@ Der foreligger direkte undersøgelser af MDS, bl.a. to afsluttede fase 3-forsøg
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af, om anvendelse ved MDS allerede er dækket af den godkendte konditioneringsindikation
 - Plan for sikkerhedsovervågning (myelosuppression, hepatisk veno-okklusiv sygdom, krampeprofylakse, lægemiddelinteraktioner) og afklaring af håndtering efter regler for cytotoksiske lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: Busilvex afregistreret 2026-10-12 | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

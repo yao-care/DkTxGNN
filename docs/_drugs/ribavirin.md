@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske godkendelsesdata.…"
 ---
 
@@ -50,8 +50,8 @@ Ribavirin er et antiviralt middel, der i vidensgrafen er registreret med relatio
 | Forudsagt ny indikation | Kronisk hepatitis B-virusinfektion |
 | TxGNN-forudsigelsesscore | 0,9986 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -104,7 +104,13 @@ Der er ikke fundet randomiserede publikationer i materialet. Litteraturen bestå
 |---------|------|------|-----------|
 | 28104528909 | Ribavirin "Biopartners" | Filmovertrukne tabletter | Indikationstekst foreligger ikke |
 
-Den ene tilladelse er en national tilladelse for et enkeltstofpræparat (Biopartners GmbH), og den er gyldig.
+Den ene tilladelse gjaldt et enkeltstofpræparat (Biopartners GmbH); den står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler, og EMA's tilladelse for Ribavirin BioPartners bortfaldt 2013-04-09.
+
+<!-- review:begin dk-lic-20261117-ribavirin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Den ene tilladelse er en national tilladelse for et enkeltstofpræparat (Biopartners GmbH), og den er gyldig." Rettet: tilladelsen 28104528909 (Ribavirin "Biopartners") står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen Ribavirin BioPartners EMEA/H/C/001184, Lapsed 2013-04-09. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end dk-lic-20261117-ribavirin-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ Der findes direkte forsøg med ribavirin ved hepatitis B, bl.a. et fase 3-forsø
 - Data om virkningsmekanisme
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Vurdering af hæmolytisk anæmi og andre risici hos patienter med leversygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: “gyldig” → “ikke længere godkendt (EMA: bortfaldet 2013-04-09)” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

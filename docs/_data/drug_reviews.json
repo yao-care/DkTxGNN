@@ -1095,19 +1095,48 @@
    "file": "nebivolol.md",
    "action": "correct",
    "claim": "Begge tilladelser er gyldige nationale tilladelser for monopræparater.",
-   "replacement": "Begge tilladelser er gyldige nationale tilladelser; Dublock er et monopræparat, Hypoloc Comp et kombinationspræparat.",
-   "summary": "Enkeltstof/kombination rettet",
-   "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Hypoloc Comp indeholder flere aktive stoffer.",
-   "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+   "replacement": "Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.",
+   "summary": "Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28104444608 Dublock afregistreret 2026-10-08. De aktuelle tal står i hurtigt overblik.",
+   "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正；2026-11-17 重發：撤銷清單（Afregistrerede lægemidler）28104444608 Dublock afregistreret 2026-10-08",
    "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
     {
      "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）"
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認；同 id 重發）",
+   "history": [
+    {
+     "id": "dk-lic-20261112-nebivolol-1",
+     "drug": "nebivolol",
+     "file": "nebivolol.md",
+     "action": "correct",
+     "claim": "Begge tilladelser er gyldige nationale tilladelser for monopræparater.",
+     "replacement": "Begge tilladelser er gyldige nationale tilladelser; Dublock er et monopræparat, Hypoloc Comp et kombinationspræparat.",
+     "summary": "Enkeltstof/kombination rettet",
+     "note": "Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Hypoloc Comp indeholder flere aktive stoffer.",
+     "finding": "AI 正文照舊證據包的單方標記寫「單方」；Dk 事實層以前用「;;」切成分欄（實際以「, 」分隔），每張都被判成單方。2026-11-12 改用 regulatory/ingredients.py 判定後，依 Lægemiddelstyrelsen 清單 AktiveSubstanser 更正",
+     "sources": [
+      {
+       "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+       "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（單方／複方判定修正後逐句對照證據包與清單）",
+     "retired": "2026-11-17",
+     "reason": "更正文字在 2026-11-17 已跟 Lægemiddelstyrelsen 撤銷清單不符（28104444608 Dublock afregistreret 2026-10-08），同 id 重發"
+    }
+   ]
   },
   {
    "id": "dk-lic-20261112-norgestimate-1",
@@ -1495,19 +1524,48 @@
    "file": "atorvastatin.md",
    "action": "correct",
    "claim": "De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
-   "replacement": "De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
-   "summary": "Antal tilladelser: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstil” → “De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføri”",
-   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
-   "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+   "replacement": "De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin \"1A Farma\") blev afregistreret i 2026.",
+   "summary": "Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.” → “De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin \"1A Farma\") blev afregistreret i 2026.”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28104234907 Atorker afregistreret 2026-03-10, 28105675015 Atorvastatin \"1A Farma\" afregistreret 2026-03-16. De aktuelle tal står i hurtigt overblik.",
+   "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）；2026-11-17 重發：撤銷清單（Afregistrerede lægemidler）28104234907 Atorker afregistreret 2026-03-10, 28105675015 Atorvastatin \"1A Farma\" afregistreret 2026-03-16",
    "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
     {
      "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認；同 id 重發）",
+   "history": [
+    {
+     "id": "dk-lic-20261112-atorvastatin-1",
+     "drug": "atorvastatin",
+     "file": "atorvastatin.md",
+     "action": "correct",
+     "claim": "De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
+     "replacement": "De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.",
+     "summary": "Antal tilladelser: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstil” → “De data, der er indsamlet til denne rapport, viser mindst 20 gyldige markedsføri”",
+     "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+     "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total None、valid 20、single_total 20、partial True（data-20261105-231027）",
+     "sources": [
+      {
+       "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+       "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文張數對事實層）",
+     "retired": "2026-11-17",
+     "reason": "更正文字在 2026-11-17 已跟 Lægemiddelstyrelsen 撤銷清單不符（28104234907 Atorker afregistreret 2026-03-10, 28105675015 Atorvastatin \"1A Farma\" afregistreret 2026-03-16），同 id 重發"
+    }
+   ]
   },
   {
    "id": "dk-lic-20261112-axitinib-1",
@@ -2415,19 +2473,48 @@
    "file": "piperacillin.md",
    "action": "correct",
    "claim": "Alle tre tilladelser er gyldige og gælder intravenøse præparater.",
-   "replacement": "Alle 18 tilladelser er gyldige og gælder intravenøse præparater.",
-   "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “Alle 18 tilladelser er gyldige og gælder intravenøse præparater.”",
-   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 18 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
-   "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 18、valid 18、single_total 0、partial False（data-20261105-231027）",
+   "replacement": "17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam \"Antibiotice\" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.",
+   "summary": "Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam \"Antibiotice\" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28106711921 Piperacillin/Tazobactam \"Antibiotice\" afregistreret 2026-10-21. De aktuelle tal står i hurtigt overblik.",
+   "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 18、valid 18、single_total 0、partial False（data-20261105-231027）；2026-11-17 重發：撤銷清單（Afregistrerede lægemidler）28106711921 Piperacillin/Tazobactam \"Antibiotice\" afregistreret 2026-10-21",
    "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
     {
      "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
      "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認；同 id 重發）",
+   "history": [
+    {
+     "id": "dk-lic-20261112-piperacillin-1",
+     "drug": "piperacillin",
+     "file": "piperacillin.md",
+     "action": "correct",
+     "claim": "Alle tre tilladelser er gyldige og gælder intravenøse præparater.",
+     "replacement": "Alle 18 tilladelser er gyldige og gælder intravenøse præparater.",
+     "summary": "Antal tilladelser: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “Alle 18 tilladelser er gyldige og gælder intravenøse præparater.”",
+     "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 18 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik.",
+     "finding": "AI 正文的張數是 10-31 依成分重建前舊證據包（多數只收 1～3 張）的數字；事實層 total 18、valid 18、single_total 0、partial False（data-20261105-231027）",
+     "sources": [
+      {
+       "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+       "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文張數對事實層）",
+     "retired": "2026-11-17",
+     "reason": "更正文字在 2026-11-17 已跟 Lægemiddelstyrelsen 撤銷清單不符（28106711921 Piperacillin/Tazobactam \"Antibiotice\" afregistreret 2026-10-21），同 id 重發"
+    }
+   ]
   },
   {
    "id": "dk-lic-20261112-prasugrel-1",
@@ -2768,6 +2855,331 @@
    ],
    "checked": "2026-11-12",
    "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "dk-lic-20261117-antazoline-1",
+   "drug": "antazoline",
+   "file": "antazoline.md",
+   "action": "correct",
+   "claim": "som i Danmark er markedsført som øjendråber",
+   "replacement": "hvis eneste danske markedsføringstilladelse (Antistina-privin, øjendråber) blev afregistreret 2026-07-20",
+   "summary": "Markedsstatus: “markedsført som øjendråber” → “eneste tilladelse afregistreret 2026-07-20”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28100546168 (Antistina-privin) blev afregistreret 2026-07-20 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-07-20；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-parathyroid_hormone-1",
+   "drug": "parathyroid_hormone",
+   "file": "parathyroid_hormone.md",
+   "action": "correct",
+   "claim": "(markedsført i Danmark som Natpar)",
+   "replacement": "(handelsnavn Natpar; den danske markedsføringstilladelse blev afregistreret 2026-10-12)",
+   "summary": "Markedsstatus: “markedsført i Danmark som Natpar” → “den danske tilladelse afregistreret 2026-10-12”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28105528114 (Natpar) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-12；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-busulfan-1",
+   "drug": "busulfan",
+   "file": "busulfan.md",
+   "action": "correct",
+   "claim": "som i Danmark er registreret som Busilvex (koncentrat til infusionsvæske)",
+   "replacement": "som i Danmark har været registreret som Busilvex (koncentrat til infusionsvæske; afregistreret 2026-10-12)",
+   "summary": "Status: Busilvex afregistreret 2026-10-12",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28103362802 (Busilvex) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-12；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "som i Danmark markedsføres som depotplaster (Durogesic)",
+   "replacement": "som i Danmark bl.a. markedsføres som depotplaster",
+   "summary": "Durogesic afregistreret 2026-09-14; andre fentanyl-depotplastre er fortsat godkendt",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101545493 (Durogesic) blev afregistreret 2026-09-14 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-09-14；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-fentanyl-2",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "Status: gyldig, enkeltstofpræparat. Der er ingen annullerede tilladelser.",
+   "replacement": "Status: afregistreret 2026-09-14 (enkeltstofpræparat). Øvrige fentanyl-tilladelser står i hurtigt overblik.",
+   "summary": "Status: “gyldig” → “afregistreret 2026-09-14”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101545493 (Durogesic) blev afregistreret 2026-09-14 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-09-14；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-ibritumomab_tiuxetan-1",
+   "drug": "ibritumomab_tiuxetan",
+   "file": "ibritumomab_tiuxetan.md",
+   "action": "correct",
+   "claim": "Tilladelsen er national, gyldig og indehaves af Schering AG.",
+   "replacement": "Tilladelsen var national og indehavet af Schering AG; den blev afregistreret 2026-10-12.",
+   "summary": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28120222503 (Zevalin) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-12；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-necitumumab-1",
+   "drug": "necitumumab",
+   "file": "necitumumab.md",
+   "action": "correct",
+   "claim": "Tilladelsen er en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) med status gyldig.",
+   "replacement": "Tilladelsen var en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) og blev afregistreret 2026-10-12.",
+   "summary": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28105547314 (Portrazza) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-12；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-tazobactam-1",
+   "drug": "tazobactam",
+   "file": "tazobactam.md",
+   "action": "correct",
+   "claim": "| 28106711921 | Piperacillin/Tazobactam \"Antibiotice\" | pulver til infusionsvæske, opløsning | Gyldig |",
+   "replacement": "| 28106711921 | Piperacillin/Tazobactam \"Antibiotice\" | pulver til infusionsvæske, opløsning | Afregistreret |",
+   "summary": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21)",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28106711921 (Piperacillin/Tazobactam \"Antibiotice\") blev afregistreret 2026-10-21 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-21；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-teicoplanin-1",
+   "drug": "teicoplanin",
+   "file": "teicoplanin.md",
+   "action": "correct",
+   "claim": "| 28101359689 | Targocid | pulver til injektions-/infusionsvæske, o | Gyldig |",
+   "replacement": "| 28101359689 | Targocid | pulver til injektions-/infusionsvæske, o | Afregistreret |",
+   "summary": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09)",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101359689 (Targocid) blev afregistreret 2026-11-09 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-11-09；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-tepoxalin-1",
+   "drug": "tepoxalin",
+   "file": "tepoxalin.md",
+   "action": "correct",
+   "claim": "| 28103092999 | Zubrin | smeltetabletter | Gyldig |",
+   "replacement": "| 28103092999 | Zubrin | smeltetabletter | Afregistreret |",
+   "summary": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12)",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28103092999 (Zubrin) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單（godkendte lægemidler）沒有、撤銷清單（Afregistrerede lægemidler）列撤銷日 2026-10-12；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)",
+     "url": "https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-duloxetine-1",
+   "drug": "duloxetine",
+   "file": "duloxetine.md",
+   "action": "correct",
+   "claim": "Indehaver: Eli Lilly Netherland B.V. Status: gyldig.",
+   "replacement": "Indehaver: Eli Lilly Netherland B.V. Status: tilladelsen står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for Ariclaim blev trukket tilbage 2018-07-09.",
+   "summary": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)”",
+   "note": "Rettet: tilladelsen 28104194907 (Ariclaim) står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen Ariclaim EMEA/H/C/000552, Withdrawn 2018-07-09. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；現行清單與撤銷清單（只列近一年）都沒有，EMA medicines output：Ariclaim EMEA/H/C/000552, Withdrawn 2018-07-09；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "EMA: Medicines output – medicines report (Excel)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-peginterferon_alfa-2b-1",
+   "drug": "peginterferon_alfa-2b",
+   "file": "peginterferon_alfa-2b.md",
+   "action": "correct",
+   "claim": "Tilladelsen er national, gyldig og for et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.).",
+   "replacement": "Tilladelsen gjaldt et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.) og står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for PegIntron blev trukket tilbage 2021-04-21.",
+   "summary": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2021-04-21)”",
+   "note": "Rettet: tilladelsen 28103228501 (PegIntron) står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen PegIntron EMEA/H/C/000280, Withdrawn 2021-04-21. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；現行清單與撤銷清單（只列近一年）都沒有，EMA medicines output：PegIntron EMEA/H/C/000280, Withdrawn 2021-04-21；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "EMA: Medicines output – medicines report (Excel)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-ribavirin-1",
+   "drug": "ribavirin",
+   "file": "ribavirin.md",
+   "action": "correct",
+   "claim": "Den ene tilladelse er en national tilladelse for et enkeltstofpræparat (Biopartners GmbH), og den er gyldig.",
+   "replacement": "Den ene tilladelse gjaldt et enkeltstofpræparat (Biopartners GmbH); den står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler, og EMA's tilladelse for Ribavirin BioPartners bortfaldt 2013-04-09.",
+   "summary": "Status: “gyldig” → “ikke længere godkendt (EMA: bortfaldet 2013-04-09)”",
+   "note": "Rettet: tilladelsen 28104528909 (Ribavirin \"Biopartners\") står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen Ribavirin BioPartners EMEA/H/C/001184, Lapsed 2013-04-09. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；現行清單與撤銷清單（只列近一年）都沒有，EMA medicines output：Ribavirin BioPartners EMEA/H/C/001184, Lapsed 2013-04-09；證據包標 license_status=cancelled（dkma_not_listed）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "EMA: Medicines output – medicines report (Excel)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
   }
  ]
 }

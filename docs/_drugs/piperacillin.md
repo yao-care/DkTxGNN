@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Piperacillin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsernes indikationstekst…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -50,8 +50,8 @@ Piperacillin er et bredspektret penicillin-antibiotikum, som i Danmark markedsf�
 | Forudsagt ny indikation | Leddegigt (rheumatoid arthritis) |
 | TxGNN-forudsigelsesscore | 0,9994 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
-| Antal markedsføringstilladelser | 18 (gyldige: 18) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 17) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -99,11 +99,11 @@ Fundene afspejler, at piperacillin bruges til at behandle infektioner hos patien
 | 28106711921 | Piperacillin/Tazobactam "Antibiotice" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 | 28104035606 | Piperacillin/Tazobactam "Reig Jofre" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
 
-Alle 18 tilladelser er gyldige og gælder intravenøse præparater.
+17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.
 
 <!-- review:begin dk-lic-20261112-piperacillin-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og gælder intravenøse præparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 18 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og gælder intravenøse præparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler og liste over afregistrerede lægemidler (hentet 2026-11-17): 28106711921 Piperacillin/Tazobactam "Antibiotice" afregistreret 2026-10-21. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-piperacillin-1 -->
 
@@ -146,7 +146,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “Alle 18 tilladelser er gyldige og gælder intravenøse præparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

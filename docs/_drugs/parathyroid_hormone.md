@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-17
 description: "Parathyroid Hormone: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 monitor_inn: "parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -38,8 +38,14 @@ Evidensniveau: **L4** | Forudsagte indikationer: **9** stk.
 
 ## Resumé
 
-Parathyroidhormon (markedsført i Danmark som Natpar) er et rekombinant hormonpræparat, der indgår i regulering af calcium- og knoglestofskifte. Der er ikke angivet en godkendt indikationstekst i de data, der er sammenstillet til denne rapport.
+Parathyroidhormon (handelsnavn Natpar; den danske markedsføringstilladelse blev afregistreret 2026-10-12) er et rekombinant hormonpræparat, der indgår i regulering af calcium- og knoglestofskifte. Der er ikke angivet en godkendt indikationstekst i de data, der er sammenstillet til denne rapport.
 TxGNN-modellen forudsiger, at det kan have effekt ved **migræne**, men der er **ingen kliniske forsøg** og kun **5 publikationer**, hvoraf ingen viser en behandlingseffekt. Evidensen er i det væsentlige beregningsbaseret og observationel.
+
+<!-- review:begin dk-lic-20261117-parathyroid_hormone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "(markedsført i Danmark som Natpar)" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28105528114 (Natpar) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-parathyroid_hormone-1 -->
 
 ---
 
@@ -51,8 +57,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **migræne**, men der er *
 | Forudsagt ny indikation | Migræne (migraine disorder) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -118,6 +124,19 @@ Forudsigelsen er baseret på en høj modelscore og ét genetisk studie, men der 
 - Præklinisk eller mekanistisk validering af, om PTH1R-agonisme ændrer migrænemodtagelighed, og i hvilken retning
 - Vurdering af egnethed af administrationsvej og dosering (Natpar er en injektion) til en migrænepopulation
 - Ved fortsat interesse: et lille eksplorativt studie, først efter afklaring af sikkerhed og effektretning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Markedsstatus: “markedsført i Danmark som Natpar” → “den danske tilladelse afregistreret 2026-10-12” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

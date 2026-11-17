@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "AMPRENAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Amprenavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,8 +48,8 @@ Amprenavir er en proteasehæmmer rettet mod HIV-1. TxGNN-modellen forudsiger, at
 | Forudsagt ny indikation | Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) |
 | TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?

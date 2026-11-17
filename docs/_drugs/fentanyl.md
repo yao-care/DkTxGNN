@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Fentanyl: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst…"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -38,7 +38,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **2** stk.
 
 ## Resumé i én sætning
 
-Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark markedsføres som depotplaster (Durogesic). Den oprindelige godkendte indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at fentanyl kan være effektivt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Evidensen er udelukkende modelbaseret.
+Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark bl.a. markedsføres som depotplaster. Den oprindelige godkendte indikationstekst er ikke tilgængelig i de data, der er indsamlet til denne rapport. TxGNN-modellen forudsiger, at fentanyl kan være effektivt ved **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)**, men der er **0 kliniske forsøg** og **0 publikationer**, som understøtter forudsigelsen. Evidensen er udelukkende modelbaseret.
+
+<!-- review:begin dk-lic-20261117-fentanyl-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "som i Danmark markedsføres som depotplaster (Durogesic)" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101545493 (Durogesic) blev afregistreret 2026-09-14 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-fentanyl-1 -->
 
 ---
 
@@ -50,7 +56,7 @@ Fentanyl er en stærk opioid (mu-opioidreceptoragonist), som i Danmark markedsf�
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese |
 | TxGNN-forudsigelsesscore | 0,9946 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 19) |
 | Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
@@ -86,7 +92,13 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 |---------|------|------|-----------|
 | 28101545493 | Durogesic (Janssen-Cilag A/S) | Depotplaster | Indikationstekst ikke tilgængelig |
 
-Status: gyldig, enkeltstofpræparat. Der er ingen annullerede tilladelser.
+Status: afregistreret 2026-09-14 (enkeltstofpræparat). Øvrige fentanyl-tilladelser står i hurtigt overblik.
+
+<!-- review:begin dk-lic-20261117-fentanyl-2 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Status: gyldig, enkeltstofpræparat. Der er ingen annullerede tilladelser." Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101545493 (Durogesic) blev afregistreret 2026-09-14 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-fentanyl-2 -->
 
 ---
 
@@ -123,6 +135,20 @@ Forudsigelsen hviler udelukkende på en grafbaseret modelscore uden kliniske for
 - Prækliniske data eller et mekanistisk rationale for den forudsagte indikation
 - En sikkerhedsfokuseret gennemgang før yderligere overvejelser
 - Vurdering af administrationsvej (depotplaster) i forhold til den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Durogesic afregistreret 2026-09-14; andre fentanyl-depotplastre er fortsat godkendt | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Status: “gyldig” → “afregistreret 2026-09-14” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

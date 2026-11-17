@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 7
 monitor_inn: "PEGINTERFERON ALFA-2B"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Peginterferon Alfa-2B: forudsagt ny indikation Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L1). Oprindelig indikation: Ikke …"
 ---
 
@@ -50,8 +50,8 @@ Peginterferon alfa-2b er en pegyleret interferon. Denne indikation er ikke en go
 | Forudsagt ny indikation | Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion (hepatitis B virus infection) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L1 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Antal godkendelser | 1 national markedsføringstilladelse |
 | Anbefalet beslutning | Fortsæt med sikkerhedsforanstaltninger |
 
@@ -109,7 +109,13 @@ Tabellen viser et udvalg af de 10 mest relevante forsøg for kronisk hepatitis B
 |---------|------|------|-----------|
 | 28103228501 | PegIntron | Injektionsvæske, opløsning i fyldt pen | Ingen indikationstekst i de indsamlede data |
 
-Tilladelsen er national, gyldig og for et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.).
+Tilladelsen gjaldt et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.) og står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for PegIntron blev trukket tilbage 2021-04-21.
+
+<!-- review:begin dk-lic-20261117-peginterferon_alfa-2b-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Tilladelsen er national, gyldig og for et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.)." Rettet: tilladelsen 28103228501 (PegIntron) står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler (hentet 2026-11-17), og ifølge EMA's medicines output er markedsføringstilladelsen PegIntron EMEA/H/C/000280, Withdrawn 2021-04-21. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end dk-lic-20261117-peginterferon_alfa-2b-1 -->
 
 ---
 
@@ -153,6 +159,19 @@ Evidensen for de øvrige forudsigelser er utilstrækkelig, og alle har beslutnin
 - **Hepatitis A-virusinfektion** (L5): De tilknyttede forsøg omhandler hepatitis C eller B, ikke hepatitis A.
 - **Viral hepatitis, dyr** (L5): Kun et præklinisk rottestudie om bivirkninger, ikke antiviral effekt.
 - **Omsk hæmoragisk feber** og **Kyasanur-skovsyge** (L5): Rene beregningsmæssige forudsigelser uden forsøg eller litteratur.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2021-04-21)” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Meropenem: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
 ---
 
@@ -48,7 +48,7 @@ Meropenem er et bredspektret carbapenem-antibiotikum, der hæmmer bakteriers cel
 | Forudsagt ny indikation | Bakteriel artritis (bacterial arthritis) |
 | TxGNN-forudsigelsesscore | 0.9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 19) |
 | Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Necitumumab"
 predicted_indications: ["fibromatosis, gingival", "hamartoma of lung", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-17
 description: "Necitumumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft / lungekræft"
 ---
 
@@ -52,8 +52,8 @@ Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede dat
 | Forudsagt ny indikation | Gingival fibromatose |
 | TxGNN-forudsigelsesscore | 0,9992 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Ikke markedsført (afregistrerede tilladelser: 1 af 1) |
+| Antal markedsføringstilladelser | 1 (gyldige: 0) |
 | Antal godkendelser | 1 markedsføringstilladelse |
 | Anbefalet beslutning | Hold |
 
@@ -89,7 +89,13 @@ Bemærk: For andre forudsagte sygdomme (fx godartet lungeneoplasme) fandtes publ
 |---------|------|------|-----------|
 | 28105547314 | Portrazza | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
 
-Tilladelsen er en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) med status gyldig.
+Tilladelsen var en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) og blev afregistreret 2026-10-12.
+
+<!-- review:begin dk-lic-20261117-necitumumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "Tilladelsen er en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) med status gyldig." Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28105547314 (Portrazza) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261117-necitumumab-1 -->
 
 ---
 
@@ -132,6 +138,19 @@ Forudsigelsen om gingival fibromatose bygger udelukkende på en beregningsscore 
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (den danske indikationstekst mangler)
 - Vurdering af risikoen for hudtoksicitet og elektrolytforstyrrelser i den relevante patientgruppe
 - Afklaring af, om en sygdom med så lav forekomst og en benign karakter kan retfærdiggøre behandling med et onkologisk antistof
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-17 | Status: “gyldig” → “afregistreret 2026-10-12” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -519,3 +519,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-11-12 正文許可證張數對事實層的掃描：thiamine（寫 4 張，實為 13 張）、oxytetracycline（寫 6 張單方、第六張獸用，實為人用 8 張全是複方＋獸用 10 張）以 `dk-lic-20261112-*` 更正；Dk 事實層把複方也算進 single_total，「單方」字樣照證據包的成分欄判斷。
 2026-11-12 單方／複方判定修正：證據包成分欄是 Lægemiddelstyrelsen「AktiveSubstanser」原文、以「, 」分隔，原本用「;;」切，每張都判成單方（事實層 single_total＝total）。改用 `src/dktxgnn/regulatory/ingredients.py`（只切括號外的「, 」；renset／VANDFRIT／humant 等修飾語併回前一段；同一成分的基底與鹽類算一個），事實層 162 頁的單方張數因此改變（狀態列與張數列不寫單方，只有 cysteine 因 EXTRA_OWN 由 8 張變 9 張）。正文照舊標記寫「單方／全部單方」而跟新判定相反的 37 頁，以 37 筆 `dk-lic-20261112-*` 更正（cysteine「7 張、全部單方」→「9 張、全部複方」）；只講「X 屬於某複方」的背景句不改。
 2026-11-12 正文張數再掃一次：72 頁 AI 正文依 10-31 前舊證據包（多數只收 1～3 張）寫的市場張數（「Der er registreret én gyldig tilladelse…」「Alle tre tilladelser er gyldige」等），以 `dk-lic-20261112-*` 照事實層改寫（partial 頁寫「mindst 20」；只指某一張的廠商／持有人說明拿掉或改成「tre af dem」）。點名列舉表上產品的句子、待辦條目、講證據包的句子、獸用句不改。
+
+## 新資料查不到的許可證（2026-11-17）
+
+每週排程原本把「Lægemiddelstyrelsen 現行清單（Liste over godkendte lægemidler）查不到」的 Drugid 保留原狀態，2026-11-16 列出 36 張（11-17 試跑 38 張，涵蓋 99.4%，沒開 issue）。
+用戶要求確認實際狀態：下載 Lægemiddelstyrelsen「lister med information om medicin」頁上的各份清單逐號比對——
+38 張中 32 張在「Afregistrerede lægemidler」（撤銷清單，工作表：上個月／過去一年）有撤銷日（2025-12-15～2026-11-16，例：Zinplava 2026-11-09、Natpar／Zevalin 2026-10-12、Bortezomib "Waverley" 2026-11-16）；證據包獸用紀錄裡的 Stabox Vet.（amoxicillin，2026-11-09 撤銷）一併標記；
+4 張撤銷超過一年、已不在撤銷清單的集中許可以 EMA medicines output 確認（PegIntron、Ariclaim Withdrawn，Ribavirin BioPartners Lapsed，Nyxthracis Withdrawn）。
+放射性、naturlægemidler、vitamin／mineral、produktionsdyr、specialister 各清單都沒有這批號。判斷不了、照舊列為查不到的 2 張：Omidria 28105324513（EMA 仍 Authorised、丹麥清單不列）、Oxbryta 28106561320（EMA Suspended、不是撤銷）。
+- `scripts/license_adapter.py` 另下載撤銷清單（xls，讀取用 xlrd，已加進 pyproject／uv.lock）：現行清單沒有、撤銷清單有（或在 EMA_CONFIRMED，每筆附 EMA 依據）的號，preprocess 標
+  `license_status: cancelled`＋`dkma_not_listed`（第一次發現日）＋`dkma_afreg_dato`（撤銷日）或 `ema_confirmed`；又出現在現行清單就取消；現行清單少於 10,000 筆或撤銷清單下載失敗時不做新判定。
+  撤銷清單只留一年，標過的號由 MARKED（證據包裡已標的）延續；`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」、不開 issue（母目錄 license_refresh 的掛鉤）。
+- 35 頁的概覽狀態列／張數列照事實層同步（16 頁變成 Ikke markedsført：依成分對現行清單確認都沒有其他現行產品；peginterferon alfa-2b 只剩 ropeginterferon，是別的藥）；
+  正文或表格寫成有效的 13 句以 `dk-lic-20261117-*` 更正（表格狀態「Gyldig」→「Afregistreret」3 列、「gyldig」敘述 6 句、「markedsført／registreret som …」4 處），
+  更正文字跟撤銷清單不符的 3 筆 11-12 紀錄（nebivolol、atorvastatin、piperacillin）同 id 重發、前版存 history。

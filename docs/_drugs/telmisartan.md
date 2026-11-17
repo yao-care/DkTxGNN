@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Telmisartan: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -50,7 +50,7 @@ Telmisartan er en angiotensin II-receptorblokker (ARB), som oprindeligt bruges t
 | Forudsagt ny indikation | Prinzmetal-angina |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 20) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: mindst 19) |
 | Antal markedsføringstilladelser | mindst 20 |
 | Anbefalet beslutning | Hold |
 
