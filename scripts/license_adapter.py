@@ -8,7 +8,9 @@
 xls，兩個工作表：上個月、過去一年，欄位 DrugId／AfRegDato）。現行清單沒有、而且在撤銷清單上的 Drugid＝官方確認已撤銷，
 preprocess 標 license_status＝cancelled、dkma_not_listed（第一次發現日）與 dkma_afreg_dato（撤銷清單的撤銷日）；
 撤銷超過一年、已不在撤銷清單的號，只收在 EMA_CONFIRMED（集中許可，EMA medicines output 為 Withdrawn／Lapsed，每筆附依據）。
-現行清單沒有、但兩者都不能證明已撤銷的號（例：Omidria EMA 仍 Authorised、Oxbryta EMA 為 Suspended）不判定，照舊列為查不到。
+EMA 暫停（Suspended）的集中許可收在 EMA_SUSPENDED（每筆附依據）：暫停不是撤銷，標 license_status＝not_marketed
+（事實層「核准但未上市」，不算有效、也不算撤銷），status 改「Suspenderet (EMA)」（原值存 status_before_ema_suspended），也標 dkma_not_listed。
+現行清單沒有、但 EMA 仍 Authorised 的號（Omidria 28105324513，2015-07-28 許可、未在 EU 上市）不判定，照舊列為查不到。
 標過的號之後又出現在現行清單就取消標記；現行清單少於 MIN_CURRENT 或撤銷清單下載失敗時不做新的判定（已標的維持）。
 """
 import io
@@ -33,6 +35,12 @@ EMA_CONFIRMED = {
     "28104528909": "Ribavirin BioPartners EMEA/H/C/001184: EMA Lapsed 2013-04-09",
     "28106295319": "Nyxthracis (previously Obiltoxaximab SFL) EMEA/H/C/005169: EMA Withdrawn",
 }
+# 現行清單沒有、EMA 集中許可為暫停（Suspended）的號：EMA medicines output（2026-11-17 下載）的狀態；暫停期間不得上市，但不是撤銷
+EMA_SUSPENDED = {
+    "28106561320": "Oxbryta EMEA/H/C/004869: EMA Suspended (medicines output 2026-11-17; EPAR: currently suspended from use in the EU; "
+                   "EMA recommended suspension 2024-09-26)",
+}
+SUSPENDED_STATUS = "Suspenderet (EMA)"
 
 
 def fetch():
@@ -121,7 +129,7 @@ def confirmed_absent(lid):
     lid = str(lid).strip()
     if not CURRENT or lid in CURRENT:
         return False
-    return lid in AFREG or lid in EMA_CONFIRMED or lid in MARKED
+    return lid in AFREG or lid in EMA_CONFIRMED or lid in EMA_SUSPENDED or lid in MARKED
 
 
 def preprocess(bundle):
@@ -136,9 +144,18 @@ def preprocess(bundle):
             continue
         if lid in CURRENT:
             if r.get("dkma_not_listed"):
-                for k in ("dkma_not_listed", "license_status", "dkma_afreg_dato", "ema_confirmed"):
+                if "status_before_ema_suspended" in r:
+                    r["status"] = r.pop("status_before_ema_suspended")
+                for k in ("dkma_not_listed", "license_status", "dkma_afreg_dato", "ema_confirmed", "ema_suspended"):
                     r.pop(k, None)
                 ch = True
+        elif not r.get("dkma_not_listed") and lid in EMA_SUSPENDED and lid not in AFREG:
+            r["dkma_not_listed"] = today
+            r["license_status"] = "not_marketed"
+            r["ema_suspended"] = EMA_SUSPENDED[lid]
+            r["status_before_ema_suspended"] = r.get("status", "")
+            r["status"] = SUSPENDED_STATUS
+            ch = True
         elif not r.get("dkma_not_listed") and (lid in AFREG or lid in EMA_CONFIRMED):
             r["dkma_not_listed"] = today
             r["license_status"] = "cancelled"

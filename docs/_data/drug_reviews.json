@@ -3180,6 +3180,36 @@
    ],
    "checked": "2026-11-17",
    "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單逐號確認）"
+  },
+  {
+   "id": "dk-lic-20261117-voxelotor-1",
+   "drug": "voxelotor",
+   "file": "voxelotor.md",
+   "action": "correct",
+   "claim": "Der er 1 gyldig tilladelse for et enkeltstofpræparat (oral anvendelse).",
+   "replacement": "Der er 1 tilladelse for et enkeltstofpræparat (oral anvendelse); den er suspenderet af EMA, og Oxbryta står ikke på Lægemiddelstyrelsens liste over godkendte lægemidler.",
+   "summary": "Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA”",
+   "note": "Rettet efter EMA's medicines output (hentet 2026-11-17): den centrale markedsføringstilladelse for Oxbryta (EMEA/H/C/004869, Drugid 28106561320) har status Suspended – lægemidlet er suspenderet i EU (EMA anbefalede suspensionen 2024-09-26) og må ikke markedsføres, så længe suspensionen gælder. En suspension er ikke en afregistrering; tilladelsen er ikke tilbagekaldt. Oxbryta står ikke på Lægemiddelstyrelsens liste over godkendte lægemidler. De aktuelle tal står i hurtigt overblik.",
+   "finding": "2026-11-17 每週排程列為新資料查不到；Lægemiddelstyrelsen 現行清單與撤銷清單都沒有；EMA medicines output（2026-11-17）Oxbryta EMEA/H/C/004869 為 Suspended（EPAR：currently suspended from use in the EU），暫停不是撤銷；證據包標 license_status=not_marketed、status「Suspenderet (EMA)」（dkma_not_listed、ema_suspended）",
+   "sources": [
+    {
+     "title": "European Medicines Agency: medicines output – medicines report (Excel), Oxbryta EMEA/H/C/004869: Medicine status = Suspended",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "European Medicines Agency: Oxbryta (EPAR) – “This medicine is currently suspended from use in the European Union”",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/oxbryta",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "method": "2026-11-17 人工查核（新資料查不到的許可證，對 Lægemiddelstyrelsen 現行與撤銷清單及 EMA medicines output 逐號確認）"
   }
  ]
 }
