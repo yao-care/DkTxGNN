@@ -136,6 +136,17 @@ lægemiddelliste) samt deres licenser og opdateringsfrekvens er beskrevet på si
 
 ---
 
+## Ofte stillede spørgsmål
+
+<p class="key-answer" data-question="Kan man downloade et gratis datasæt med forudsigelser om lægemiddelrepositionering?">
+<strong>Nej, ikke som én samlet fil.</strong> DkTxGNN er bygget til at blive brugt rapport for rapport, ikke som et
+bulk-datasæt til download. Al evidens er gratis tilgængelig direkte fra kilden: åbn en lægemiddelrapport
+og klik videre til de tilknyttede forsøg på ClinicalTrials.gov eller artikler på PubMed for at se den
+underliggende dokumentation for netop den forudsigelse.
+</p>
+
+---
+
 ## Kontakt
 
 - **GitHub Issues**: <https://github.com/yao-care/DkTxGNN/issues>
