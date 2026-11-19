@@ -14,25 +14,25 @@ Enhver konklusion kan spores tilbage til en offentlig datakilde — intet er en 
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Danmark: data bag dette websted
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Danmark: hvad de lokale data dækker
 
-Dette websted offentliggør rapporter om **{{ site.data.drug_stats.total_drugs }}** lægemidler fra registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/) (Danmark).
+Lokale data: [Lægemiddelstyrelsen: Liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/). De lokale data er Lægemiddelstyrelsens liste over godkendte lægemidler og listen over afregistrerede lægemidler. Afregistrerede tilladelser tælles ikke som gyldige.
 
-Rapporter efter evidensniveau:
+| Punkt | Værdi |
+|---|---|
+| Lægemidler i de lokale data | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …med mindst én gyldige post | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …med poster, men ingen gyldige | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Lægemidler uden for de lokale data | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Lokale poster (tilladelser fra Lægemiddelstyrelsen) | {{ site.data.local_facts.licence.items_total }} |
+| …heraf gyldige | {{ site.data.local_facts.licence.items_current }} |
 
-| Evidensniveau | Rapporter | Andel |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}Lægemidler med tilladelser fra Lægemiddelstyrelsen i disse data, men ingen gyldige: {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, og {{ site.data.local_facts.no_current_more }} mere{% endif %}{% endif %}
 
-12 forudsagte par af lægemiddel og sygdom på dette websted findes ikke på noget andet af de 30 TxGNN-websteder.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}Seneste rettelser af lokale registreringsoplysninger: {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Oversigt over kilder
 

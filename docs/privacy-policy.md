@@ -48,11 +48,32 @@ lægemiddelnavnet og indikationen til ClinicalTrials.gov.
 
 ---
 
-## Den registreredes rettigheder
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Gældende lovgivning
 
-Dette site har ingen konti og gemmer ingen personoplysninger på egne servere (det har ingen). Brugsstatistikken
-indsamles af Google Analytics 4; du kan blokere eller slette dets cookies i dine browserindstillinger.
-Har du spørgsmål til denne politik, kan du kontakte service@yao.care.
+For besøgende i Danmark gælder [databeskyttelsesforordningen (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) og [databeskyttelsesloven](https://www.retsinformation.dk/eli/lta/2018/502); cookies er desuden omfattet af cookiereglerne. Tilsynsmyndigheden er [Datatilsynet](https://www.datatilsynet.dk/). Den dataansvarlige har sæde i Taiwan og intet forretningssted i EU; behandlingen omfatter de brugsdata, Google Analytics 4 indsamler via cookies.
+
+## Dine rettigheder, og hvordan du bruger dem
+
+- Ret til indsigt (artikel 15) og til berigtigelse (artikel 16).
+- Ret til sletning (artikel 17) og begrænsning (artikel 18).
+- Ret til indsigelse (artikel 21), også mod webanalyse.
+- Ret til at klage til Datatilsynet (artikel 77).
+
+Henvendelser: service@yao.care. Da webstedet ikke har konti, kan vi kun handle på data hos Google Analytics, hvis du giver os nok oplysninger (fx dato og sider for dit besøg); du kan også blokere eller slette analysecookies i din browser.
+
+## Ophavsret og datakilder
+
+Webstedets tekster er beskyttet efter [ophavsretsloven](https://www.retsinformation.dk/eli/lta/2023/1093). Webstedets kode er udgivet under MIT-licensen i [GitHub-repositoriet](https://github.com/yao-care/DkTxGNN); rapporttekster er © 藥提醒科技有限公司 (yao.care).
+
+Datakilder på dette websted og deres vilkår:
+
+- **TxGNN**-forudsigelsesdata (Harvard Dataverse): CC0 1.0 (frigivet til public domain); citér Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov** og **PubMed**: US National Library of Medicine; se [vilkårene for ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions) og [NCBI's politikker](https://www.ncbi.nlm.nih.gov/home/about/policies/) (nogle PubMed-resuméer er stadig omfattet af forlagets ophavsret).
+- **DrugBank**-id'er og -data: efter [DrugBank](https://go.drugbank.com/)s licensvilkår (ikke-kommerciel brug).
+- **Lokalt datasæt**: [Lægemiddelstyrelsen: Liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/), offentliggjort af Lægemiddelstyrelsen; genbrug er underlagt udgiverens vilkår, og dette websted giver ikke yderligere rettigheder.
+
+<!-- privacy-law:end -->
 
 ---
 

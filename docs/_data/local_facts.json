@@ -1,0 +1,532 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 807,
+ "level_counts": {
+  "L1": 13,
+  "L2": 31,
+  "L3": 22,
+  "L4": 48,
+  "L5": 632
+ },
+ "level_na": 61,
+ "public_pages": 807,
+ "licence_snapshot": "dk_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 639,
+  "drugs_with_current": 622,
+  "drugs_none_current": 17,
+  "drugs_without_data": 168,
+  "drugs_partial": 0,
+  "items_total": 3571,
+  "items_current": 3543
+ },
+ "reviews": {
+  "records": 152,
+  "pages": 138,
+  "public_pages_with_records": 134,
+  "by_action": {
+   "correct": 152
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 807,
+  "clinical_use_definition": 4392
+ },
+ "top_licensed": [
+  {
+   "t": "Eplerenone",
+   "u": "/drugs/eplerenone/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "pulmonary hypertension owing to lung disease and/or hypoxia"
+  },
+  {
+   "t": "Ivabradine",
+   "u": "/drugs/ivabradine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "hypertrichosis (disease)"
+  },
+  {
+   "t": "Oxcarbazepine",
+   "u": "/drugs/oxcarbazepine/",
+   "l": "L4",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "restless legs syndrome"
+  },
+  {
+   "t": "Enzalutamide",
+   "u": "/drugs/enzalutamide/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "prostate leiomyoma"
+  },
+  {
+   "t": "Pemetrexed",
+   "u": "/drugs/pemetrexed/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 1,
+   "i": "pleural adenomatoid tumor"
+  },
+  {
+   "t": "Azithromycin",
+   "u": "/drugs/azithromycin/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "Polyklonalt hyperviskositetssyndrom"
+  },
+  {
+   "t": "Bosutinib",
+   "u": "/drugs/bosutinib/",
+   "l": "N/A",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Cyclosporine",
+   "u": "/drugs/cyclosporine/",
+   "l": "L4",
+   "lt": 18,
+   "lv": 18,
+   "r": 2,
+   "i": "autosomal recessiv"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Amprenavir",
+   "u": "/drugs/amprenavir/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Felint ervervet immundefektsyndrom"
+  },
+  {
+   "t": "Antazoline",
+   "u": "/drugs/antazoline/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Behandlingsresistent atopisk dermatitis"
+  },
+  {
+   "t": "Becaplermin",
+   "u": "/drugs/becaplermin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "amenorrhea (disease)"
+  },
+  {
+   "t": "Bezlotoxumab",
+   "u": "/drugs/bezlotoxumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Akut kvindelig bækkenperitonitis"
+  },
+  {
+   "t": "Duvelisib",
+   "u": "/drugs/duvelisib/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Hodgkins lymfom"
+  },
+  {
+   "t": "Fosamprenavir",
+   "u": "/drugs/fosamprenavir/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "feline acquired immunodeficiency syndrome"
+  },
+  {
+   "t": "Ibritumomab Tiuxetan",
+   "u": "/drugs/ibritumomab-tiuxetan/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Akut lymfoblastær/lymfocytær leukæmi"
+  },
+  {
+   "t": "Lusutrombopag",
+   "u": "/drugs/lusutrombopag/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "hereditary thrombocytopenia with normal platelets"
+  },
+  {
+   "t": "Necitumumab",
+   "u": "/drugs/necitumumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "fibromatosis, gingival"
+  },
+  {
+   "t": "Obiltoxaximab",
+   "u": "/drugs/obiltoxaximab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Postinfektiøs vaskulitis"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "l": "L4",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Migræne"
+  },
+  {
+   "t": "Peginterferon Alfa-2B",
+   "u": "/drugs/peginterferon-alfa-2b/",
+   "l": "L1",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion"
+  }
+ ],
+ "no_current_more": 5,
+ "most_reviewed": [
+  {
+   "t": "Methadone",
+   "u": "/drugs/methadone/",
+   "l": "L4",
+   "lt": 12,
+   "lv": 12,
+   "r": 3,
+   "i": "Tourette syndrome"
+  },
+  {
+   "t": "Phenylbutazone",
+   "u": "/drugs/phenylbutazone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom"
+  },
+  {
+   "t": "Clindamycin",
+   "u": "/drugs/clindamycin/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 2,
+   "i": "Punktformet epitelial keratokonjunktivitis"
+  },
+  {
+   "t": "Cyclosporine",
+   "u": "/drugs/cyclosporine/",
+   "l": "L4",
+   "lt": 18,
+   "lv": 18,
+   "r": 2,
+   "i": "autosomal recessiv"
+  },
+  {
+   "t": "Dexpanthenol",
+   "u": "/drugs/dexpanthenol/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 2,
+   "i": "anorectal stricture"
+  },
+  {
+   "t": "Fentanyl",
+   "u": "/drugs/fentanyl/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 19,
+   "r": 2,
+   "i": "nephrogenic syndrome of inappropriate antidiuresis"
+  }
+ ],
+ "example": {
+  "t": "Tocilizumab",
+  "u": "/drugs/tocilizumab/",
+  "l": "L1",
+  "lt": 15,
+  "lv": 15,
+  "r": 0,
+  "i": "ankylosing spondylitis"
+ },
+ "recent_reviews": [
+  {
+   "t": "Voxelotor",
+   "u": "/drugs/voxelotor/",
+   "s": "Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tepoxalin",
+   "u": "/drugs/tepoxalin/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Teicoplanin",
+   "u": "/drugs/teicoplanin/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tazobactam",
+   "u": "/drugs/tazobactam/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ribavirin",
+   "u": "/drugs/ribavirin/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: bortfaldet 2013-04-09)”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Peginterferon Alfa-2B",
+   "u": "/drugs/peginterferon-alfa-2b/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2021-04-21)”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Markedsstatus: “markedsført i Danmark som Natpar” → “den danske tilladelse afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Necitumumab",
+   "u": "/drugs/necitumumab/",
+   "s": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ibritumomab Tiuxetan",
+   "u": "/drugs/ibritumomab-tiuxetan/",
+   "s": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Fentanyl",
+   "u": "/drugs/fentanyl/",
+   "s": "Status: “gyldig” → “afregistreret 2026-09-14”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Duloxetine",
+   "u": "/drugs/duloxetine/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Busulfan",
+   "u": "/drugs/busulfan/",
+   "s": "Status: Busilvex afregistreret 2026-10-12",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Antazoline",
+   "u": "/drugs/antazoline/",
+   "s": "Markedsstatus: “markedsført som øjendråber” → “eneste tilladelse afregistreret 2026-07-20”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Piperacillin",
+   "u": "/drugs/piperacillin/",
+   "s": "Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er…",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Nebivolol",
+   "u": "/drugs/nebivolol/",
+   "s": "Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale…",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Atorvastatin",
+   "u": "/drugs/atorvastatin/",
+   "s": "Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for…",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Xylometazoline",
+   "u": "/drugs/xylometazoline/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tropicamide",
+   "u": "/drugs/tropicamide/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Treprostinil",
+   "u": "/drugs/treprostinil/",
+   "s": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der…",
+   "d": "2026-11-12"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Voxelotor",
+   "u": "/drugs/voxelotor/",
+   "s": "Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tepoxalin",
+   "u": "/drugs/tepoxalin/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Teicoplanin",
+   "u": "/drugs/teicoplanin/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tazobactam",
+   "u": "/drugs/tazobactam/",
+   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ribavirin",
+   "u": "/drugs/ribavirin/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: bortfaldet 2013-04-09)”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Peginterferon Alfa-2B",
+   "u": "/drugs/peginterferon-alfa-2b/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2021-04-21)”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Parathyroid Hormone",
+   "u": "/drugs/parathyroid-hormone/",
+   "s": "Markedsstatus: “markedsført i Danmark som Natpar” → “den danske tilladelse afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Necitumumab",
+   "u": "/drugs/necitumumab/",
+   "s": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  }
+ ],
+ "files": {
+  "search_index": 807,
+  "drugs_json": 807
+ },
+ "by_level": {
+  "L1": {
+   "n": 13,
+   "current": 11
+  },
+  "L2": {
+   "n": 31,
+   "current": 30
+  },
+  "L3": {
+   "n": 22,
+   "current": 22
+  },
+  "L4": {
+   "n": 48,
+   "current": 45
+  },
+  "L5": {
+   "n": 632,
+   "current": 594
+  }
+ },
+ "cross": {
+  "unique_pairs": 12,
+  "unique_examples": [
+   {
+    "t": "Amprenavir",
+    "u": "/drugs/amprenavir/",
+    "i": "Felint ervervet immundefektsyndrom"
+   },
+   {
+    "t": "Doramectin",
+    "u": "/drugs/doramectin/",
+    "i": "Insomni"
+   },
+   {
+    "t": "Isocarboxazid",
+    "u": "/drugs/isocarboxazid/",
+    "i": "paranoid personality disorder"
+   },
+   {
+    "t": "Phenprocoumon",
+    "u": "/drugs/phenprocoumon/",
+    "i": "Heparin cofactor 2-mangel"
+   }
+  ]
+ }
+}

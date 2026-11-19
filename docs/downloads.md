@@ -14,27 +14,23 @@ Forudsigelserne udgives i FHIR R4-format, klar til integration med EPJ-systemer.
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Danmark: data bag dette websted
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Danmark: hvad filerne indeholder nu
 
-Dette websted offentliggør rapporter om **{{ site.data.drug_stats.total_drugs }}** lægemidler fra registreringsdata fra [DKMA](https://laegemiddelstyrelsen.dk/) (Danmark).
+| Fil | Indhold nu |
+|---|---|
+| `/data/search-index.json` | {{ site.data.local_facts.files.search_index }} lægemidler med deres forudsagte indikationer |
+| `/data/drugs.json` | {{ site.data.local_facts.files.drugs_json }} lægemidler med evidensniveau og oprindelig indikation |
+| `/fhir/MedicationKnowledge/` | {{ site.data.local_facts.fhir.medication_knowledge }} MedicationKnowledge-ressourcer (én pr. lægemiddel) |
+| `/fhir/ClinicalUseDefinition/` | {{ site.data.local_facts.fhir.clinical_use_definition }} ClinicalUseDefinition-ressourcer (én pr. forudsagt indikation) |
 
-Datasæt: [Lægemiddelstyrelsen: Liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); det hentes og sammenlignes automatisk hver uge (mandag). Detaljer: [Datakilder]({{ '/sources/' | relative_url }}).
+Genbrug af det lokale datasæt: [Lægemiddelstyrelsen: Liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/), offentliggjort af Lægemiddelstyrelsen; genbrug er underlagt udgiverens vilkår, og dette websted giver ikke yderligere rettigheder.
 
-Rapporter efter evidensniveau:
+{% if site.data.local_facts.top_licensed.size > 0 %}Lægemidler med flest gyldige tilladelser fra Lægemiddelstyrelsen: {% for r in site.data.local_facts.top_licensed limit: 5 offset: 3 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Evidensniveau | Rapporter | Andel |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Seneste rettelser i kontrolloggen: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 16 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-12 forudsagte par af lægemiddel og sygdom på dette websted findes ikke på noget andet af de 30 TxGNN-websteder.
-
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## FHIR-ressourcer
 

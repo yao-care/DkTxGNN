@@ -533,3 +533,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 35 頁的概覽狀態列／張數列照事實層同步（16 頁變成 Ikke markedsført：依成分對現行清單確認都沒有其他現行產品；peginterferon alfa-2b 只剩 ropeginterferon，是別的藥）；
   正文或表格寫成有效的 13 句以 `dk-lic-20261117-*` 更正（表格狀態「Gyldig」→「Afregistreret」3 列、「gyldig」敘述 6 句、「markedsført／registreret som …」4 處），
   更正文字跟撤銷清單不符的 3 筆 11-12 紀錄（nebivolol、atorvastatin、piperacillin）同 id 重發、前版存 history。
+
+## 說明頁與證據等級頁的在地資料（2026-11-19）
+
+用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
+資料檔 `docs/_data/local_facts.json`、`docs/_data/evidence_tier_facts.json` 由 `scripts/local_facts.py`（＝母目錄 `.claude/local_facts_lib.py`）依藥物頁、許可證快照、查核紀錄、FHIR 算；`apply_drug_reviews.py`、許可證快照程式結尾會自動 `--write`，`check_seo_docs.py` 跑 `--check` 擋過期。跨站欄位（cross：本站獨有預測、30 站中位數）與頁面區塊只由母目錄產生器更新；藥物頁改等級、noindex 或預測後要在母目錄重跑。

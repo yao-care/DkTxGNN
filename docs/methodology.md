@@ -14,6 +14,23 @@ Fra AI-forudsigelse til evidensgradering — hver kandidat har et sporbart grund
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Danmark: sådan anvendes metoden på dette websted
+
+Lokale data: [Lægemiddelstyrelsen: Liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/). De lokale data er Lægemiddelstyrelsens liste over godkendte lægemidler og listen over afregistrerede lægemidler. Afregistrerede tilladelser tælles ikke som gyldige.
+
+| Niveau | Rapporter | …med gyldige lokal post |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+Kontrolloggen har **{{ site.data.local_facts.reviews.records }}** poster på **{{ site.data.local_facts.reviews.public_pages_with_records }}** lægemiddelsider; rettelser ændrer kun registreringsoplysninger, aldrig modellens forudsigelser.
+
+<!-- local-facts:end -->
+
 ## Samlet pipeline
 
 <p class="key-answer" data-question="Hvordan producerer DkTxGNN sine forudsigelser?">
