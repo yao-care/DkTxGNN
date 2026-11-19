@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Phenylephrine

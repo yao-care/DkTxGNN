@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Lornoxicam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
 last_modified_at: 2026-11-12
-description: "Lornoxicam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Lornoxicam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
 # Lornoxicam

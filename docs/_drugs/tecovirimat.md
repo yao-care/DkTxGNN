@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "tecovirimat"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "arbovirus infection", "equine infectious anemia", "idiopathic recurrent and disabling cutaneous herpes", "Astroviridae infectious disease", "Arterivirus infectious disease"]
-description: "Tecovirimat: forudsagt ny indikation Hordeolum (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tecovirimat: forudsagt ny indikation Hordeolum (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Tecovirimat

@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 last_modified_at: 2026-11-06
-description: "Clopidogrel: forudsagt ny indikation Migræne med hjernestammeaura (migraine with brainstem aura) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clopidogrel: forudsagt ny indikation Migræne med hjernestammeaura (migraine with brainstem aura) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Clopidogrel

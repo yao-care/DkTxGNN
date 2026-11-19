@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 last_modified_at: 2026-11-12
-description: "Amiloride: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Amiloride: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Amiloride

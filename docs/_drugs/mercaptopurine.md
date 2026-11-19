@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Mercaptopurine: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L3). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Mercaptopurine

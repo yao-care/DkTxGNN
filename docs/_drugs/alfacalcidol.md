@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
 last_modified_at: 2026-11-06
-description: "Alfacalcidol: forudsagt ny indikation Kraniofacial konodysplasi (craniofacial conodysplasia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Alfacalcidol: forudsagt ny indikation Kraniofacial konodysplasi (craniofacial conodysplasia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Alfacalcidol

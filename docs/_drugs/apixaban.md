@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
-description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Apixaban

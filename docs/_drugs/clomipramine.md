@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 last_modified_at: 2026-11-06
-description: "Clomipramine: forudsagt ny indikation Angstlidelse (anxiety disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clomipramine: forudsagt ny indikation Angstlidelse (anxiety disorder) (evidensniveau L1). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
 # Clomipramine

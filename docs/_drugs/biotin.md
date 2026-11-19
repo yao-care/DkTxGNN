@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 last_modified_at: 2026-10-28
-description: "Biotin: forudsagt ny indikation dyspepsi (dyspepsia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Biotin: forudsagt ny indikation dyspepsi (dyspepsia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Biotin

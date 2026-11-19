@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-28
 monitor_inn: "orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
-description: "Orphenadrine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Orphenadrine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Orphenadrine

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 last_modified_at: 2026-11-06
-description: "Triptorelin: forudsagt ny indikation Hypertrichose (hypertrichosis (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Triptorelin: forudsagt ny indikation Hypertrichose (hypertrichosis (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Triptorelin

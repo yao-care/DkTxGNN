@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Ampicillin

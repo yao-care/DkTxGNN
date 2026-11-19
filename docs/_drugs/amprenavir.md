@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "AMPRENAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-17
-description: "Amprenavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Amprenavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
 ---
 
 # Amprenavir

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
-description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (Ohdo syndrome and variants) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (Ohdo syndrome and variants) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Mirtazapine

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
-description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Phentermine

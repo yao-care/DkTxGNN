@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 last_modified_at: 2026-10-30
-description: "Ambroxol: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ambroxol: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Ambroxol

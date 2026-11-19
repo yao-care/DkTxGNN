@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "ceftriaxone"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 last_modified_at: 2026-11-06
-description: "Ceftriaxone: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ceftriaxone: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Ceftriaxone

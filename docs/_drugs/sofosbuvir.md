@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 last_modified_at: 2026-11-06
-description: "Sofosbuvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sofosbuvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L3). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
 # Sofosbuvir

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
-description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
 # Xylometazoline

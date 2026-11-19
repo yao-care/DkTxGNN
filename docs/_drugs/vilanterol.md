@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-description: "Vilanterol: forudsagt ny indikation Hyperlucent lung (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Vilanterol: forudsagt ny indikation Hyperlucent lung (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Vilanterol

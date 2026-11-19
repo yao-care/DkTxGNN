@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
-description: "Articaine: forudsagt ny indikation Gigt (gout) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Articaine: forudsagt ny indikation Gigt (gout) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
 # Articaine

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-06
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
-description: "Propafenone: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Propafenone: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Propafenone

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 last_modified_at: 2026-11-06
-description: "Ciprofloxacin: forudsagt ny indikation diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ciprofloxacin: forudsagt ny indikation diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Ciprofloxacin

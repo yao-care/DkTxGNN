@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
-description: "Paromomycin: forudsagt ny indikation Idiopathic copper-associated cirrhosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Paromomycin: forudsagt ny indikation Idiopathic copper-associated cirrhosis (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Paromomycin

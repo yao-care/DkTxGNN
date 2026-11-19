@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
 last_modified_at: 2026-10-28
-description: "Alectinib: forudsagt ny indikation Gingival fibromatose (fibromatosis, gingival) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Alectinib: forudsagt ny indikation Gingival fibromatose (fibromatosis, gingival) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Alectinib

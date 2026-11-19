@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Irbesartan

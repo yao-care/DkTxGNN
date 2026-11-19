@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-06
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
-description: "Lisinopril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Lisinopril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Lisinopril

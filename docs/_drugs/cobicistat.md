@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-06
-description: "Cobicistat: forudsagt ny indikation Simian immundefektvirusinfektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cobicistat: forudsagt ny indikation Simian immundefektvirusinfektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
 # Cobicistat

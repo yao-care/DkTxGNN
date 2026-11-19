@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 last_modified_at: 2026-11-12
-description: "Clotrimazole: forudsagt ny indikation akne (acne (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clotrimazole: forudsagt ny indikation akne (acne (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
 # Clotrimazole

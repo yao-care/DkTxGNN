@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
-description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Dronedarone

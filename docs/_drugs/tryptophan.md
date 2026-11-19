@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-04
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
-description: "Tryptophan: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tryptophan: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Tryptophan

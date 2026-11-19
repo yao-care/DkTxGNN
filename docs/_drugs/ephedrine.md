@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
 # Ephedrine

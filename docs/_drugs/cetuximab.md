@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Cetuximab"
 predicted_indications: ["non-seminomatous lesion", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 last_modified_at: 2026-10-28
-description: "Cetuximab: forudsagt ny indikation Ikke-seminomatøs læsion (non-seminomatous lesion) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cetuximab: forudsagt ny indikation Ikke-seminomatøs læsion (non-seminomatous lesion) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Cetuximab

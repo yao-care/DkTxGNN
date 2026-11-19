@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
-description: "Mupirocin: forudsagt ny indikation Pleural empyem (pleural empyema (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Mupirocin: forudsagt ny indikation Pleural empyem (pleural empyema (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
 # Mupirocin

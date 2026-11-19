@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 last_modified_at: 2026-11-06
-description: "Docetaxel: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Docetaxel: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L2). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Docetaxel

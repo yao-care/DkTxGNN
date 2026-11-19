@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
 last_modified_at: 2026-11-06
-description: "Ciclesonide: forudsagt ny indikation Atopisk eksem (atopic eczema) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ciclesonide: forudsagt ny indikation Atopisk eksem (atopic eczema) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Ciclesonide

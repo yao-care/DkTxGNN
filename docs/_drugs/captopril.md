@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 last_modified_at: 2026-11-06
-description: "Captopril: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Captopril: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Captopril

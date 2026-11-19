@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
 last_modified_at: 2026-11-06
-description: "Aflibercept: forudsagt ny indikation Esotropi (esotropia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Aflibercept: forudsagt ny indikation Esotropi (esotropia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Aflibercept

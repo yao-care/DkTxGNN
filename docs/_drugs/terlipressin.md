@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-30
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
-description: "Terlipressin: forudsagt ny indikation Open-angle glaucoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Terlipressin: forudsagt ny indikation Open-angle glaucoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Terlipressin

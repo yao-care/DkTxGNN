@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
-description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Moxonidine

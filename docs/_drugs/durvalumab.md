@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Durvalumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 last_modified_at: 2026-10-30
-description: "Durvalumab: forudsagt ny indikation Uterine ligament adenocarcinoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Durvalumab: forudsagt ny indikation Uterine ligament adenocarcinoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Durvalumab

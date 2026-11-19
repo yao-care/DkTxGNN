@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-description: "Desloratadine: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Desloratadine: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Desloratadine

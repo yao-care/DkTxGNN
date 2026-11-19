@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "elvitegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Elvitegravir: forudsagt ny indikation simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Elvitegravir

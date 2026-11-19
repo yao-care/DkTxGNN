@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Nintedanib

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
-description: "Vortioxetine: forudsagt ny indikation Nervøs lidelse (neurotic disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Vortioxetine: forudsagt ny indikation Nervøs lidelse (neurotic disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Vortioxetine

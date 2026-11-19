@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 last_modified_at: 2026-11-06
-description: "Tamoxifen: forudsagt ny indikation Mammary Paget disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tamoxifen: forudsagt ny indikation Mammary Paget disease (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Tamoxifen

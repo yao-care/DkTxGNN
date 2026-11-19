@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
 last_modified_at: 2026-11-06
-description: "Acrivastine: forudsagt ny indikation Recalcitrant atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Acrivastine: forudsagt ny indikation Recalcitrant atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Acrivastine

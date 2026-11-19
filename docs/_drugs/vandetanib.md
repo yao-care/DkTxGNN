@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 last_modified_at: 2026-11-06
-description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (renal cell carcinoma (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (renal cell carcinoma (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Vandetanib

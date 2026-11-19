@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Ipratropium

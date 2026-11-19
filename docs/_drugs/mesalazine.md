@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-06
 monitor_inn: "mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
-description: "Mesalazine: forudsagt ny indikation Congenital hypotrichosis with juvenile macular dystrophy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Mesalazine: forudsagt ny indikation Congenital hypotrichosis with juvenile macular dystrophy (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Mesalazine

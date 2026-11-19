@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 last_modified_at: 2026-11-06
-description: "Amlodipine: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Amlodipine: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Amlodipine

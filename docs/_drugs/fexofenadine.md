@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Fexofenadine

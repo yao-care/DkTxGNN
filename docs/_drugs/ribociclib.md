@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
-description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Ribociclib

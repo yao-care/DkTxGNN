@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 last_modified_at: 2026-11-06
-description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
 # Codeine

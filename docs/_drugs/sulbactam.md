@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
-description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Sulbactam

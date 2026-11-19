@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-description: "Enzalutamide: forudsagt ny indikation Prostate leiomyoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Enzalutamide: forudsagt ny indikation Prostate leiomyoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 19 (gyldige: 19)"
 ---
 
 # Enzalutamide

@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "clemastine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 last_modified_at: 2026-11-06
-description: "Clemastine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clemastine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Clemastine

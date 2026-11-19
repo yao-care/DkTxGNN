@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
-description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Fremanezumab

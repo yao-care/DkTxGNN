@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
 # Midodrine

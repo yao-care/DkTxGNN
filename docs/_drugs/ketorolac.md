@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
 # Ketorolac

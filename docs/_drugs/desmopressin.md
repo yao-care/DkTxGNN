@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 last_modified_at: 2026-11-12
-description: "Desmopressin: forudsagt ny indikation Congenital prothrombin deficiency (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Desmopressin: forudsagt ny indikation Congenital prothrombin deficiency (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Desmopressin

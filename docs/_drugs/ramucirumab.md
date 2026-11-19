@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 last_modified_at: 2026-10-30
-description: "Ramucirumab: forudsagt ny indikation Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ramucirumab: forudsagt ny indikation Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Ramucirumab

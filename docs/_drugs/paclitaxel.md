@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 last_modified_at: 2026-11-06
-description: "Paclitaxel: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Paclitaxel: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
 # Paclitaxel

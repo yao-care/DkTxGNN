@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Catridecacog"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
 last_modified_at: 2026-10-30
-description: "Catridecacog: forudsagt ny indikation primær frigivelsesforstyrrelse i blodplader (primary release disorder of platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Catridecacog: forudsagt ny indikation primær frigivelsesforstyrrelse i blodplader (primary release disorder of platelets) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Catridecacog

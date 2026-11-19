@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-description: "Felodipine: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Felodipine: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Felodipine

@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
 last_modified_at: 2026-11-06
-description: "Citalopram: forudsagt ny indikation Tvangslidelse (obsessive-compulsive disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Citalopram: forudsagt ny indikation Tvangslidelse (obsessive-compulsive disorder) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Citalopram

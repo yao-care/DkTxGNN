@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Zolmitriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Zolmitriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
 ---
 
 # Zolmitriptan

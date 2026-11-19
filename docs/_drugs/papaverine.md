@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-30
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
-description: "Papaverine: forudsagt ny indikation Iskæmisk sygdom (ischemic disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Papaverine: forudsagt ny indikation Iskæmisk sygdom (ischemic disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Papaverine

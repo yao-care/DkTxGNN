@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Metoclopramide: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
 # Metoclopramide

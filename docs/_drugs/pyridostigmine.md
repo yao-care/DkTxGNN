@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Pyridostigmine

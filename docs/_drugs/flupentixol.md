@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
-description: "Flupentixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Flupentixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Flupentixol

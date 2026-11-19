@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Donepezil

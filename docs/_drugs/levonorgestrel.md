@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Levonorgestrel

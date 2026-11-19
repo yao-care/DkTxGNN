@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "Tildipirosin"
 predicted_indications: ["leprosy"]
-description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Tildipirosin

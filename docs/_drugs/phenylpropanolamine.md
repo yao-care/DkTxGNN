@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "phenylpropanolamine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
-description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Phenylpropanolamine

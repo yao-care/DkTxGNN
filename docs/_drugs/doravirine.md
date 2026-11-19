@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Doravirine

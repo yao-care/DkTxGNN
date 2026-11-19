@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 last_modified_at: 2026-11-12
-description: "Ceftolozane: forudsagt ny indikation Ureaplasma-urethritis (Ureaplasma urethritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ceftolozane: forudsagt ny indikation Ureaplasma-urethritis (Ureaplasma urethritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Ceftolozane

@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 last_modified_at: 2026-11-06
-description: "Clarithromycin: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clarithromycin: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Clarithromycin

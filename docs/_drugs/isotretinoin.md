@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
-description: "Isotretinoin: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Isotretinoin: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Isotretinoin

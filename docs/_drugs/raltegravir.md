@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Raltegravir: forudsagt ny indikation Simian immunodeficiency virus infection (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Raltegravir: forudsagt ny indikation Simian immunodeficiency virus infection (evidensniveau L4). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
 # Raltegravir

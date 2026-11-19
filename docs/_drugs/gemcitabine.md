@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
-description: "Gemcitabine: forudsagt ny indikation Rectum mucinous adenocarcinoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Gemcitabine: forudsagt ny indikation Rectum mucinous adenocarcinoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Gemcitabine

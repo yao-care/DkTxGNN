@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "Doramectin"
 predicted_indications: ["insomnia (disease)"]
-description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Doramectin

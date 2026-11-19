@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab: forudsagt ny indikation Hypermobility of coccyx (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Golimumab: forudsagt ny indikation Hypermobility of coccyx (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
 # Golimumab

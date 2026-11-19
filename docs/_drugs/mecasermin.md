@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
-description: "Mecasermin: forudsagt ny indikation Monosomi X (monosomy X) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Mecasermin: forudsagt ny indikation Monosomi X (monosomy X) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Mecasermin

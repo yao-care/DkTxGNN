@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
 last_modified_at: 2026-11-06
-description: "Anastrozole: forudsagt ny indikation neuroblastom (neuroblastoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Anastrozole: forudsagt ny indikation neuroblastom (neuroblastoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Anastrozole

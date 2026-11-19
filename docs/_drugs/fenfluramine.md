@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
-description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Fenfluramine

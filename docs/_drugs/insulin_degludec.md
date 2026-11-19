@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
-description: "Insulin Degludec: forudsagt ny indikation Autoimmune oophoritis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Insulin Degludec: forudsagt ny indikation Autoimmune oophoritis (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Insulin Degludec

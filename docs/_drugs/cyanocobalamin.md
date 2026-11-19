@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
 last_modified_at: 2026-11-06
-description: "Cyanocobalamin: forudsagt ny indikation Biotinstofskiftesygdom (biotin metabolic disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cyanocobalamin: forudsagt ny indikation Biotinstofskiftesygdom (biotin metabolic disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Cyanocobalamin

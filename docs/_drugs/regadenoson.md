@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
-description: "Regadenoson: forudsagt ny indikation Anafylaksi (anaphylaxis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Regadenoson: forudsagt ny indikation Anafylaksi (anaphylaxis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Regadenoson

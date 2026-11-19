@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "oteracil"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Oteracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Oteracil

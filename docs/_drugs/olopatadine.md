@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Olopatadine

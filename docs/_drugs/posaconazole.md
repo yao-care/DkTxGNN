@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
-description: "Posaconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Posaconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Posaconazole

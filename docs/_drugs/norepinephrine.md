@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Norepinephrine

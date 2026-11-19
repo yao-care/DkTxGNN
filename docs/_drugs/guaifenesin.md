@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
-description: "Guaifenesin: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Guaifenesin: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Guaifenesin

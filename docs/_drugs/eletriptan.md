@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-description: "Eletriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Eletriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
 # Eletriptan

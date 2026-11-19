@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "calcifediol"
 predicted_indications: ["renal tubular acidosis"]
 last_modified_at: 2026-11-06
-description: "Calcifediol: forudsagt ny indikation Renal tubular acidosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Calcifediol: forudsagt ny indikation Renal tubular acidosis (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Calcifediol

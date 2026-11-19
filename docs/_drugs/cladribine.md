@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 last_modified_at: 2026-11-06
-description: "Cladribine: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cladribine: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Cladribine

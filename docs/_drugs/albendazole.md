@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "albendazole"
 predicted_indications: ["coenurosis"]
 last_modified_at: 2026-11-06
-description: "Albendazole: forudsagt ny indikation Coenurosis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Albendazole: forudsagt ny indikation Coenurosis (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Albendazole

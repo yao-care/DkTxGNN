@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
-description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Loperamide

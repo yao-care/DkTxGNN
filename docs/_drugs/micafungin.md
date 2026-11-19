@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
-description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection (disease)) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Micafungin

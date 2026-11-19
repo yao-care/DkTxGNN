@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "Elafibranor"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Elafibranor

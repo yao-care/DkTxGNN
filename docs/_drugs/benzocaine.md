@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
 last_modified_at: 2026-11-06
-description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (papillary conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (papillary conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Benzocaine

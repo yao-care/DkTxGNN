@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 last_modified_at: 2026-11-06
-description: "Carvedilol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Carvedilol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Carvedilol

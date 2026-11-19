@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 last_modified_at: 2026-11-06
-description: "Abatacept: forudsagt ny indikation Ankyloserende spondylitis (ankylosing spondylitis) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Abatacept: forudsagt ny indikation Ankyloserende spondylitis (ankylosing spondylitis) (evidensniveau L3). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Abatacept

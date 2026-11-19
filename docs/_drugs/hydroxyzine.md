@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Hydroxyzine

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 last_modified_at: 2026-11-06
-description: "Omalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Omalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Omalizumab

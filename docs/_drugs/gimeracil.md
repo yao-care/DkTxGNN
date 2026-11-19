@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-06
 monitor_inn: "gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
-description: "Gimeracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Gimeracil: forudsagt ny indikation Cecum villous adenoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Gimeracil

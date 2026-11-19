@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-06
 monitor_inn: "exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
-description: "Exemestane: forudsagt ny indikation Antithrombin deficiency type 2 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Exemestane: forudsagt ny indikation Antithrombin deficiency type 2 (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Exemestane

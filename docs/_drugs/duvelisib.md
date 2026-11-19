@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "duvelisib"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
 ---
 
 # Duvelisib

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 last_modified_at: 2026-11-12
-description: "Amoxicillin: forudsagt ny indikation polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Amoxicillin: forudsagt ny indikation polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Amoxicillin

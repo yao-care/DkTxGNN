@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
 # Spironolactone

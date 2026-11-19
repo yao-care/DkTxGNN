@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Grazoprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Grazoprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Grazoprevir

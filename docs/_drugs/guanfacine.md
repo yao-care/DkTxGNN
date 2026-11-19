@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-06
 monitor_inn: "guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-description: "Guanfacine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Guanfacine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
 # Guanfacine

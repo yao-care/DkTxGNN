@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "paranoid personality disorder"]
 last_modified_at: 2026-10-30
-description: "Isocarboxazid: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Isocarboxazid: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Isocarboxazid

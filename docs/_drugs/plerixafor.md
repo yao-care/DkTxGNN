@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 last_modified_at: 2026-11-06
-description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Plerixafor

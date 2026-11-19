@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 last_modified_at: 2026-11-12
-description: "Clioquinol: forudsagt ny indikation Ektotrix-infektionssygdom (ectothrix infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Clioquinol: forudsagt ny indikation Ektotrix-infektionssygdom (ectothrix infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Clioquinol

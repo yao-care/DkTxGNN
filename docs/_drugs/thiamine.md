@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
 last_modified_at: 2026-11-12
-description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Thiamine

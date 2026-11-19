@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Memantine

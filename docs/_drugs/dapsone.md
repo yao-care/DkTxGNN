@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "dapsone"
 predicted_indications: ["pneumocystosis"]
-description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Dapsone

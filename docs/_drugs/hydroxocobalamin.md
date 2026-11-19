@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
-description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices without bleeding (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices without bleeding (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Hydroxocobalamin

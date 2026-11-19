@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L4). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
 # Deferiprone

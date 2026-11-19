@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
-description: "Rufinamide: forudsagt ny indikation Perioral myoclonia with absences (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Rufinamide: forudsagt ny indikation Perioral myoclonia with absences (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
 # Rufinamide

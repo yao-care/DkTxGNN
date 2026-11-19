@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
 last_modified_at: 2026-11-17
-description: "Antazoline: forudsagt ny indikation Behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Antazoline: forudsagt ny indikation Behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
 ---
 
 # Antazoline

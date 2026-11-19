@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-description: "Lacosamide: forudsagt ny indikation Manic bipolar affective disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Lacosamide: forudsagt ny indikation Manic bipolar affective disorder (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Lacosamide

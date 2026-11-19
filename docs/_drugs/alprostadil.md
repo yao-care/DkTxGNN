@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 last_modified_at: 2026-11-06
-description: "Alprostadil: forudsagt ny indikation Aortamisdannelse (aortic malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Alprostadil: forudsagt ny indikation Aortamisdannelse (aortic malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Alprostadil

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
-description: "Temsirolimus: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Temsirolimus: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Temsirolimus

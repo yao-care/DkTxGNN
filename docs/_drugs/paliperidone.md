@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-description: "Paliperidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Paliperidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Paliperidone

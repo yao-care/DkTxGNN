@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Terbutaline: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
 # Terbutaline

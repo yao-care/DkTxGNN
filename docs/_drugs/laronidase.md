@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "Laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
-description: "Laronidase: forudsagt ny indikation Sanfilippo syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Laronidase: forudsagt ny indikation Sanfilippo syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Laronidase

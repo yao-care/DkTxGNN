@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
-description: "Ziprasidone: forudsagt ny indikation Trikotillomani (trichotillomania) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ziprasidone: forudsagt ny indikation Trikotillomani (trichotillomania) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)"
 ---
 
 # Ziprasidone

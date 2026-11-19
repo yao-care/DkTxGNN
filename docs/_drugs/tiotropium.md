@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
 # Tiotropium

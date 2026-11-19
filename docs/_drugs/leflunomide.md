@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-06
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
 # Leflunomide

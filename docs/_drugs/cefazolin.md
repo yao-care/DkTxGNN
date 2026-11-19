@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 last_modified_at: 2026-11-06
-description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (infectious otitis media) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (infectious otitis media) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Cefazolin

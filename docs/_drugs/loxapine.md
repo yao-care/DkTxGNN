@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-06
 monitor_inn: "loxapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
-description: "Loxapine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Loxapine: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Loxapine

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-06
 monitor_inn: "levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-description: "Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
 ---
 
 # Levocetirizine

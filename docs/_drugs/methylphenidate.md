@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-06
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
-description: "Methylphenidate: forudsagt ny indikation Faciodigitogenital syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Methylphenidate: forudsagt ny indikation Faciodigitogenital syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Methylphenidate

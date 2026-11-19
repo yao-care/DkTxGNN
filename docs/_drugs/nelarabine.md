@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
-description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Nelarabine

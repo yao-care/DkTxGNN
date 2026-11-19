@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
-description: "Nitisinone: forudsagt ny indikation Renal tubulær acidose (renal tubular acidosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Nitisinone: forudsagt ny indikation Renal tubulær acidose (renal tubular acidosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
 ---
 
 # Nitisinone

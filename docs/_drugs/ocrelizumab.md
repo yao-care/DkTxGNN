@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "Ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
-description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (HER2 positive breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (HER2 positive breast carcinoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Ocrelizumab

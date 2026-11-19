@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-06
 monitor_inn: "bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
-description: "Bumetanide: forudsagt ny indikation Akut pulmonal hjertesygdom (acute pulmonary heart disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Bumetanide: forudsagt ny indikation Akut pulmonal hjertesygdom (acute pulmonary heart disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
 # Bumetanide

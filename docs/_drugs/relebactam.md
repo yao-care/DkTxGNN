@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-28
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
-description: "Relebactam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Relebactam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Relebactam

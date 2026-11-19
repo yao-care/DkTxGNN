@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 last_modified_at: 2026-11-06
-description: "Nystatin: forudsagt ny indikation Sygdom i orbitalregionen (disease of orbital region) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Nystatin: forudsagt ny indikation Sygdom i orbitalregionen (disease of orbital region) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
 # Nystatin

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
 last_modified_at: 2026-11-06
-description: "Bicalutamide: forudsagt ny indikation Hypertrikose (hypertrichosis (disease)) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Bicalutamide: forudsagt ny indikation Hypertrikose (hypertrichosis (disease)) (evidensniveau L4). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
 # Bicalutamide

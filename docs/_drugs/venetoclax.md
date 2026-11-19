@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 last_modified_at: 2026-11-06
-description: "Venetoclax: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Venetoclax: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Venetoclax

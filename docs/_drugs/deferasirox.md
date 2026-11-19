@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 last_modified_at: 2026-11-06
-description: "Deferasirox: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Deferasirox: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Deferasirox

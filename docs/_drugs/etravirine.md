@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-06
 monitor_inn: "etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
-description: "Etravirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Etravirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Etravirine

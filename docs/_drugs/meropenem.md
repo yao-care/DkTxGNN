@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 last_modified_at: 2026-11-17
-description: "Meropenem: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Meropenem: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Meropenem

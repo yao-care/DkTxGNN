@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
-description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Sacubitril

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
-description: "Pirfenidone: forudsagt ny indikation Extracutaneous mastocytoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Pirfenidone: forudsagt ny indikation Extracutaneous mastocytoma (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Pirfenidone

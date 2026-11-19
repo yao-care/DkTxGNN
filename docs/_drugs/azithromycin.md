@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 last_modified_at: 2026-11-06
-description: "Azithromycin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Azithromycin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)"
 ---
 
 # Azithromycin

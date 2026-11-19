@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 last_modified_at: 2026-11-12
-description: "Cefuroxime: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Cefuroxime: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
 # Cefuroxime

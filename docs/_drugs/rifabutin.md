@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 last_modified_at: 2026-11-04
-description: "Rifabutin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Rifabutin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
 # Rifabutin

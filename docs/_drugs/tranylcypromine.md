@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-06
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
-description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Tranylcypromine

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 last_modified_at: 2026-11-06
-description: "Chlortetracycline: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Chlortetracycline: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
 # Chlortetracycline

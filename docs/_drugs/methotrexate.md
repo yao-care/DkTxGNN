@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-06
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-description: "Methotrexate: forudsagt ny indikation Pulmonary blastoma (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Methotrexate: forudsagt ny indikation Pulmonary blastoma (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Methotrexate

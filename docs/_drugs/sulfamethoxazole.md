@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
-description: "Sulfamethoxazole: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sulfamethoxazole: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Sulfamethoxazole

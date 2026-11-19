@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
-description: "Metronidazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Metronidazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Metronidazole

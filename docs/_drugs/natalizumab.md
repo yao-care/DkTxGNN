@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-06
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
-description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Natalizumab

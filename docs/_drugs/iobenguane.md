@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-28
 monitor_inn: "iobenguane"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
-description: "Iobenguane: forudsagt ny indikation Hypotensive disorder (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Iobenguane: forudsagt ny indikation Hypotensive disorder (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Iobenguane

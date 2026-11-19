@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Canakinumab"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 last_modified_at: 2026-11-06
-description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (hepatic infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (hepatic infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Canakinumab

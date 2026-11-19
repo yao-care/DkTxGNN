@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-06
 monitor_inn: "sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Sertraline: forudsagt ny indikation Skizoid personlighedsforstyrrelse (schizoid personality disorder) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Sertraline: forudsagt ny indikation Skizoid personlighedsforstyrrelse (schizoid personality disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Sertraline

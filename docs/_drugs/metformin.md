@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-description: "Metformin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Metformin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Metformin

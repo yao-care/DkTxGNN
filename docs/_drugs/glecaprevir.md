@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-06
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Glecaprevir

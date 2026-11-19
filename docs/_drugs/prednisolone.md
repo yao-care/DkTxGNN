@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
 # Prednisolone

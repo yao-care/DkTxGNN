@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-06
-description: "Simvastatin: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Simvastatin: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Simvastatin

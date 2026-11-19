@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-06
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone: forudsagt ny indikation Fibrocystisk brystsygdom (breast fibrocystic disease) (evidensniveau L4). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Progesterone: forudsagt ny indikation Fibrocystisk brystsygdom (breast fibrocystic disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
 # Progesterone

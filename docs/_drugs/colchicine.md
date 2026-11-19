@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 last_modified_at: 2026-11-06
-description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (Plasmodium falciparum malaria) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"
+description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (Plasmodium falciparum malaria) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
 # Colchicine
