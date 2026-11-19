@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Docusate: forudsagt ny indikation Plummer-Vinson syndrom (evidensniveau L5). Oprindelig indikation: Forstoppelse"
 monitor_inn: "docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]

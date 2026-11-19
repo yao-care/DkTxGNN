@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Erdafitinib"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Erdafitinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 

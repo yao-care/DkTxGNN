@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "fosphenytoin"
 predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
 description: "Fosphenytoin: forudsagt ny indikation Konjunktivitis (conjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data"

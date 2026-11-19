@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 864
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 description: "Tryptophan: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Ikke registreret i de lokale data"
