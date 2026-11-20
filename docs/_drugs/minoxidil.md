@@ -54,7 +54,7 @@ Minoxidil er i videnskabsgrafen registreret med relationer til forhøjet blodtry
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Minoxidil (uofficiel oversættelse): »Sulfonylurinstofreceptor 2, Kir6.2-åbner« Engelsk originaltekst: "Sulfonylurea receptor 2, Kir6.2 opener" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; hentet 2026-11-19). Ifølge den indhentede litteratur anses minoxidil for et hårvækststimulerende middel. Dets sulfatmetabolit åbner kaliumkanaler, og lægemidlet menes at forlænge anagenfasen og udvide blodkarrene. Det kan også påvirke follikulær proliferation.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Minoxidil (uofficiel oversættelse): »Sulfonylurinstofreceptor 2, Kir6.2-åbner«. Engelsk originaltekst: "Sulfonylurea receptor 2, Kir6.2 opener" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; hentet 2026-11-19). Ifølge den indhentede litteratur anses minoxidil for et hårvækststimulerende middel. Dets sulfatmetabolit åbner kaliumkanaler, og lægemidlet menes at forlænge anagenfasen og udvide blodkarrene. Det kan også påvirke follikulær proliferation.
 
 Hypotrichosis simplex i hovedbunden er en arvelig, ikke-arrdannende hårtabsform. Mekanismen kan derfor teoretisk være relevant, fordi hårsækkene er til stede, men ikke vokser normalt. De tre case-rapporter (2022-2024) kombinerer dog minoxidil med væksfaktorer, blodpladerigt plasma (PRP) eller plantekstrakter. Effekten kan derfor ikke tilskrives minoxidil alene.
 
@@ -106,7 +106,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

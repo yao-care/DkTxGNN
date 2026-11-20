@@ -60,7 +60,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt mod **urotelcarcinom i
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Tasonermin er rekombinant humant TNF-alfa. Det anvendes sammen med melphalan ved isoleret lemperfusion ved bløddelssarkom. Den foreslåede antitumorvirkning er selektiv ødelæggelse af tumorens karsystem og øget indtrængning af kemoterapi i tumoren. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tasonermin (uofficiel oversættelse): »Ukendt« Engelsk originaltekst: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19).
+Tasonermin er rekombinant humant TNF-alfa. Det anvendes sammen med melphalan ved isoleret lemperfusion ved bløddelssarkom. Den foreslåede antitumorvirkning er selektiv ødelæggelse af tumorens karsystem og øget indtrængning af kemoterapi i tumoren. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tasonermin (uofficiel oversættelse): »Ukendt«. Engelsk originaltekst: "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0; hentet 2026-11-19).
 
 Forbindelsen til urotelcarcinom bygger alene på TxGNN-forudsigelsen. Der er ingen kliniske eller litterære data, som understøtter den. Desuden er isoleret lemperfusion anatomisk ikke anvendelig til tumorer i urethra prostatica, og systemisk TNF-alfa har dosisbegrænsende toksicitet. Der er ikke beskrevet nogen alternativ lokal indgivelsesvej.
 
@@ -145,7 +145,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

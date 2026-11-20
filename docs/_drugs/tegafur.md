@@ -59,7 +59,7 @@ Retningen understøttes af **16 kliniske forsøg** og **20 publikationer** i de 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tegafur (uofficiel oversættelse): »RNA-hæmmer; thymidylatsyntasehæmmer; DNA-hæmmer« Engelsk originaltekst: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19). Ud fra generel farmakologi er tegafur et prodrug af 5-FU, som omdannes i leveren, primært via CYP2C8 og CYP2A6. 5-FU hæmmer thymidylatsyntase og indbygges i RNA og DNA, hvilket er en central cytotoksisk mekanisme ved kolorektal kræft. Tegafur kombineres typisk med uracil (UFT) for at blokere DPD-medieret nedbrydning af 5-FU, eller med gimeracil og oteracil (S-1).
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tegafur (uofficiel oversættelse): »RNA-hæmmer; thymidylatsyntasehæmmer; DNA-hæmmer«. Engelsk originaltekst: "RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; hentet 2026-11-19). Ud fra generel farmakologi er tegafur et prodrug af 5-FU, som omdannes i leveren, primært via CYP2C8 og CYP2A6. 5-FU hæmmer thymidylatsyntase og indbygges i RNA og DNA, hvilket er en central cytotoksisk mekanisme ved kolorektal kræft. Tegafur kombineres typisk med uracil (UFT) for at blokere DPD-medieret nedbrydning af 5-FU, eller med gimeracil og oteracil (S-1).
 
 Mavekræft og tyktarmskræft er begge kræftformer i mave-tarm-kanalen, og fluoropyrimidiner er allerede etableret behandling ved kolorektal kræft. Mekanismen er derfor den samme som ved den kendte behandling, og forudsigelsen er biologisk plausibel. Bemærk, at koblingen bygger på generel farmakologi og ikke på en registreret MOA.
 
@@ -164,7 +164,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->
 

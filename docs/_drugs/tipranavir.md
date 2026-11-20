@@ -61,7 +61,7 @@ Der er **0 kliniske forsøg** og **0 publikationer** i de data, der er udarbejde
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tipranavir (uofficiel oversættelse): »Proteasehæmmer for humant immundefektvirus type 1« Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19). Tipranavir er kendt som en ikke-peptidisk HIV-1-proteasehæmmer, og dens anvendelse ved HIV er registreret i videnbasen. Mekanisk kan en proteasehæmmer tænkes at være relevant for beslægtede lentivira.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Tipranavir (uofficiel oversættelse): »Proteasehæmmer for humant immundefektvirus type 1«. Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0; hentet 2026-11-19). Tipranavir er kendt som en ikke-peptidisk HIV-1-proteasehæmmer, og dens anvendelse ved HIV er registreret i videnbasen. Mekanisk kan en proteasehæmmer tænkes at være relevant for beslægtede lentivira.
 
 Felint immundefektvirus (FIV) er et lentivirus, der er beslægtet med HIV-1. Der er derfor en teoretisk begrundelse via proteasehæmning. FIV-proteasen adskiller sig dog fra HIV-1-proteasen i substratspecificitet og følsomhed over for hæmmere, så effekt kan ikke forudsættes. Den høje score afspejler sandsynligvis den tætte sygdomsontologiske relation til HIV/AIDS og ikke uafhængig evidens.
 
@@ -133,7 +133,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

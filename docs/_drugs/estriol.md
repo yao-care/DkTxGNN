@@ -58,7 +58,7 @@ Estriol er et svagt østrogen, som i Danmark er godkendt som vaginalindlæg (Est
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Estriol (uofficiel oversættelse): »Østrogenreceptormodulator« Engelsk originaltekst: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; hentet 2026-11-19). Estriol binder sig dog til østrogenreceptorerne alfa (ESR1) og beta (ESR2) og virker som en svag østrogenreceptoragonist. Stoffet har i Europa og Asien i mere end 40 år været anvendt mod hedeture hos postmenopausale kvinder.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Estriol (uofficiel oversættelse): »Østrogenreceptormodulator«. Engelsk originaltekst: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; hentet 2026-11-19). Estriol binder sig dog til østrogenreceptorerne alfa (ESR1) og beta (ESR2) og virker som en svag østrogenreceptoragonist. Stoffet har i Europa og Asien i mere end 40 år været anvendt mod hedeture hos postmenopausale kvinder.
 
 Ved funktionel hypothalamisk amenorré (FHA) er udskillelsen af GnRH fra hypothalamus nedsat, hvilket giver lav udskillelse af LH og FSH, nedsat ovariefunktion og en tilstand med østrogenmangel. Lavdosis-østrogen kan fungere som neuroendokrin modulator, der påvirker feedbackmekanismerne i hypothalamus-hypofyse-aksen. Et studie fra 2012 rapporterede, at estriol modulerede LH-udskillelsen hos kvinder med FHA, og en oversigtsartikel fra 2023 foreslår en tilsvarende rolle for lavdosis-østrogener.
 
@@ -123,7 +123,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
 
 <!-- review:end log -->
 

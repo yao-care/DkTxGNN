@@ -54,7 +54,7 @@ Amprenavir er en proteasehæmmer rettet mod HIV-1. TxGNN-modellen forudsiger, at
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Amprenavir (uofficiel oversættelse): »Proteasehæmmer for humant immundefektvirus type 1« Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL116 (amprenavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL116), CC BY-SA 3.0; hentet 2026-11-19). Amprenavir er kendt som en HIV-1-proteasehæmmer. Felint immundefektvirus (FIV) er et lentivirus, hvis protease er strukturelt beslægtet med HIV-1-proteasen. Det giver en begrundelse på klasseniveau for, hvorfor en proteasehæmmer teoretisk kan have effekt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Amprenavir (uofficiel oversættelse): »Proteasehæmmer for humant immundefektvirus type 1«. Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL116 (amprenavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL116), CC BY-SA 3.0; hentet 2026-11-19). Amprenavir er kendt som en HIV-1-proteasehæmmer. Felint immundefektvirus (FIV) er et lentivirus, hvis protease er strukturelt beslægtet med HIV-1-proteasen. Det giver en begrundelse på klasseniveau for, hvorfor en proteasehæmmer teoretisk kan have effekt.
 
 Der er dog en vigtig begrænsning: FIV-proteasen adskiller sig fra HIV-1-proteasen i substratspecificitet og følsomhed over for hæmmere, og publicerede arbejder tyder på, at HIV-proteasehæmmere ofte er mindre aktive mod FIV-protease. Den høje score er alene en modelforudsigelse. Koblingen bygger på generel viden om lægemiddelklassen og ikke på dokumenterede data for amprenavir.
 
@@ -105,7 +105,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL116 (amprenavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL116) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL116 (amprenavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL116) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Der er **ingen kliniske forsøg og ingen publikationer** i de data, der er indsa
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Susoctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19). Susoctocog alfa er et rekombinant faktor VIII med porcin sekvens og deleteret B-domæne, som kan omgå hæmmende antistoffer mod humant faktor VIII.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Susoctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein«. Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0; hentet 2026-11-19). Susoctocog alfa er et rekombinant faktor VIII med porcin sekvens og deleteret B-domæne, som kan omgå hæmmende antistoffer mod humant faktor VIII.
 
 Primære frigørelsesforstyrrelser af blodplader skyldes defekter i blodpladernes granulesekretion eller signalering, ikke mangel på faktor VIII. Sammenhængen med faktor VIII-substitution er derfor i bedste fald indirekte. Forudsigelsen stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens, og den har ingen klinisk eller litteraturmæssig støtte.
 
@@ -113,7 +113,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
 
 <!-- review:end log -->
 

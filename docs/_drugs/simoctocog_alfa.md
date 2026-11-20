@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Simoctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19). Simoctocog alfa er et rekombinant humant faktor VIII-præparat (B-domæne-deleteret, produceret i en human cellelinje), som erstatter manglende faktor VIII ved hæmofili.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Simoctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein«. Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0; hentet 2026-11-19). Simoctocog alfa er et rekombinant humant faktor VIII-præparat (B-domæne-deleteret, produceret i en human cellelinje), som erstatter manglende faktor VIII ved hæmofili.
 
 Pseudo-von Willebrand sygdom (blodpladetype) skyldes en funktionsforøgende defekt i blodpladernes GPIbα, som øger bindingen til von Willebrand-faktor (VWF). Det medfører tab af højmolekylære VWF-multimerer og nedsat VWF-funktion. Faktor VIII-niveauet kan være normalt eller kun let nedsat, og faktor VIII-substitution adresserer derfor ikke den primære blodpladedefekt.
 
@@ -134,7 +134,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->
 

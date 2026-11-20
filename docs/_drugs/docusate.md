@@ -60,7 +60,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Docusat er en anionisk overfladeaktiv afføringsblødgører, der øger vandets indtrængning i afføringen. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Docusate (uofficiel oversættelse): »Overfladeaktivt laksativ« Engelsk originaltekst: "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; hentet 2026-11-19).
+Docusat er en anionisk overfladeaktiv afføringsblødgører, der øger vandets indtrængning i afføringen. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Docusate (uofficiel oversættelse): »Overfladeaktivt laksativ«. Engelsk originaltekst: "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; hentet 2026-11-19).
 
 Forudsigelsen afspejler sandsynligvis grafnærhed i videnbasen: Plummer-Vinson syndrom (jernmangelanæmi med synkebesvær og øsofagale membraner) ligger tæt på docusats tilknyttede anæmiindikationer. Det er en statistisk association og ikke en biologisk begrundelse. Docusat korrigerer hverken jernmangel eller behandler øsofagale membraner.
 
@@ -141,7 +141,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Bendroflumethiazide (uofficiel oversættelse): »Hæmmer af thiazidfølsom natrium-chlorid-cotransporter« Engelsk originaltekst: "Thiazide-sensitive sodium-chloride cotransporter inhibitor" ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; hentet 2026-11-19). Ud fra almen farmakologi hæmmer bendroflumethiazid Na+/Cl--kotransportøren i det distale tubulus, hvilket øger udskillelsen af salt og vand og sænker blodtrykket.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Bendroflumethiazide (uofficiel oversættelse): »Hæmmer af thiazidfølsom natrium-chlorid-cotransporter«. Engelsk originaltekst: "Thiazide-sensitive sodium-chloride cotransporter inhibitor" ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; hentet 2026-11-19). Ud fra almen farmakologi hæmmer bendroflumethiazid Na+/Cl--kotransportøren i det distale tubulus, hvilket øger udskillelsen af salt og vand og sænker blodtrykket.
 
 Malign hypertensiv nyresygdom opstår på baggrund af svært forhøjet blodtryk. Det er derfor plausibelt, at en blodtrykssænkende mekanisme er relevant. Forudsigelsen er imidlertid i høj grad en udvidelse af lægemidlets kendte anvendelsesområde snarere end egentlig repurposing.
 
@@ -105,7 +105,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
 
 <!-- review:end log -->
 

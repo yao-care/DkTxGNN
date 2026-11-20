@@ -58,7 +58,7 @@ Pentobarbital er et barbiturat, der oprindeligt anvendes mod epilepsi, søvnløs
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Pentobarbital (uofficiel oversættelse): »GABA-A-receptor; positiv allosterisk modulator af anionkanal« Engelsk originaltekst: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448), CC BY-SA 3.0; hentet 2026-11-19). Det er generelt kendt, at barbiturater forstærker GABA-A-receptorernes signalering og dermed virker beroligende og søvnfremkaldende. Denne mekanisme forklarer de oprindelige indikationer (anfald og søvn).
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Pentobarbital (uofficiel oversættelse): »GABA-A-receptor; positiv allosterisk modulator af anionkanal«. Engelsk originaltekst: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448), CC BY-SA 3.0; hentet 2026-11-19). Det er generelt kendt, at barbiturater forstærker GABA-A-receptorernes signalering og dermed virker beroligende og søvnfremkaldende. Denne mekanisme forklarer de oprindelige indikationer (anfald og søvn).
 
 Der er ingen troværdig mekanistisk forbindelse til fedme. De fundne artikler nævner pentobarbital udelukkende som bedøvelsesmiddel i gnavermodeller (f.eks. insulinomsætning, renale nerver, hypothalamus-læsioner) eller som værktøj i en søvntest. Pentobarbital er ikke det terapeutiske middel, der undersøges. Den høje modelscore understøttes derfor ikke af farmakologisk evidens. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -124,7 +124,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448) |
 
 <!-- review:end log -->
 

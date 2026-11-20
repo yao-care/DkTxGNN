@@ -54,7 +54,7 @@ Clioquinol er et halogeneret hydroxyquinolin med antifungal og antibakteriel vir
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ektotrix-infektion er en dermatofytinfektion i hårskaftet, hvor svampens artrokonidier dannes på hårets yderside. Clioquinol er et halogeneret hydroxyquinolin, hvis antifungale og antibakterielle virkning formodes at hænge sammen med chelering af metalioner. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Clioquinol (uofficiel oversættelse): »Zinkchelerende middel; Kobberchelerende middel; Jernchelerende middel« Engelsk originaltekst: "Zinc chelating agent; Copper chelating agent; Iron chelating agent" ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; hentet 2026-11-19).
+Ektotrix-infektion er en dermatofytinfektion i hårskaftet, hvor svampens artrokonidier dannes på hårets yderside. Clioquinol er et halogeneret hydroxyquinolin, hvis antifungale og antibakterielle virkning formodes at hænge sammen med chelering af metalioner. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Clioquinol (uofficiel oversættelse): »Zinkchelerende middel; Kobberchelerende middel; Jernchelerende middel«. Engelsk originaltekst: "Zinc chelating agent; Copper chelating agent; Iron chelating agent" ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; hentet 2026-11-19).
 
 Den høje score er alene en beregningsmæssig forudsigelse. Den afspejler sandsynligvis, at de forårsagende organismer (dermatofytter som *Microsporum* og *Trichophyton*) er de samme som ved andre dermatofytinfektioner i huden, hvor clioquinol er kendt.
 
@@ -108,7 +108,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

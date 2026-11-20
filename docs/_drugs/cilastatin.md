@@ -54,7 +54,7 @@ Cilastatin er en hæmmer af enzymet dehydropeptidase-I i nyrerne og bruges samme
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Cilastatin (uofficiel oversættelse): »Renal dipeptidasehæmmer« Engelsk originaltekst: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19). Det er dog kendt, at cilastatin ikke har egen antibakteriel aktivitet. Det hæmmer dehydropeptidase-I i nyrerne og forhindrer dermed nedbrydning af imipenem, så antibiotikaet bliver i kroppen i højere koncentration.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Cilastatin (uofficiel oversættelse): »Renal dipeptidasehæmmer«. Engelsk originaltekst: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; hentet 2026-11-19). Det er dog kendt, at cilastatin ikke har egen antibakteriel aktivitet. Det hæmmer dehydropeptidase-I i nyrerne og forhindrer dermed nedbrydning af imipenem, så antibiotikaet bliver i kroppen i højere koncentration.
 
 Forudsigelsen afspejler således kombinationspartneren: Imipenem/cilastatin er et bredspektret carbapenem-præparat, og der er historiske kliniske data for behandling af både meticillinfølsom (MSSA) og meticillinresistent (MRSA) Staphylococcus aureus. Et nyere case-kommentar beskriver desuden imipenem/cilastatin sammen med fosfomycin ved vanskelig behandlelig MRSA-infektion. Der er tale om en effekt fra kombinationspartneren og ikke en selvstændig cilastatin-effekt.
 
@@ -112,7 +112,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

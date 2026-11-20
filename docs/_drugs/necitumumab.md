@@ -61,7 +61,7 @@ Der er **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede dat
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Necitumumab (uofficiel oversættelse): »Hæmmer af epidermal vækstfaktorreceptor erbB1« Engelsk originaltekst: "Epidermal growth factor receptor erbB1 inhibitor" ([ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047), CC BY-SA 3.0; hentet 2026-11-19). Necitumumab er et fuldt humant IgG1-monoklonalt antistof, der binder EGFR og blokerer ligandbindingen. Dets effekt i pladecellet NSCLC er dokumenteret i fase 3-forsøget SQUIRE, og mekanismisk kunne EGFR-signalering teoretisk spille en rolle ved fibroblastproliferation.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Necitumumab (uofficiel oversættelse): »Hæmmer af epidermal vækstfaktorreceptor erbB1«. Engelsk originaltekst: "Epidermal growth factor receptor erbB1 inhibitor" ([ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047), CC BY-SA 3.0; hentet 2026-11-19). Necitumumab er et fuldt humant IgG1-monoklonalt antistof, der binder EGFR og blokerer ligandbindingen. Dets effekt i pladecellet NSCLC er dokumenteret i fase 3-forsøget SQUIRE, og mekanismisk kunne EGFR-signalering teoretisk spille en rolle ved fibroblastproliferation.
 
 Denne kobling er dog spekulativ. Der er ingen data, der understøtter, at EGFR-blokade har effekt ved gingival fibromatose, som er en bindevævslidelse og ikke en kræftsygdom. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -148,7 +148,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Status: “gyldig” → “afregistreret 2026-10-12” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL1743047 (necitumumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1743047) |
 
 <!-- review:end log -->
 

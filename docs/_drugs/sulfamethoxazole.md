@@ -60,7 +60,7 @@ Konjunktivitis findes allerede blandt lægemidlets oprindelige indikationer, så
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Sulfamethoxazole (uofficiel oversættelse): »Bakteriel dihydropteroatsyntasehæmmer« Engelsk originaltekst: "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; hentet 2026-11-19). Ud fra almen viden hæmmer sulfamethoxazol bakteriens enzym dihydropteroatsyntase og blokerer dermed syntesen af folat. Det gives typisk sammen med trimethoprim, som hæmmer et senere trin i samme syntesevej. Mekanismen er derfor i princippet relevant over for bakterier, der forårsager akut smitsom konjunktivitis.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Sulfamethoxazole (uofficiel oversættelse): »Bakteriel dihydropteroatsyntasehæmmer«. Engelsk originaltekst: "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; hentet 2026-11-19). Ud fra almen viden hæmmer sulfamethoxazol bakteriens enzym dihydropteroatsyntase og blokerer dermed syntesen af folat. Det gives typisk sammen med trimethoprim, som hæmmer et senere trin i samme syntesevej. Mekanismen er derfor i princippet relevant over for bakterier, der forårsager akut smitsom konjunktivitis.
 
 Konjunktivitis er allerede opført blandt lægemidlets oprindelige indikationer i videngrafen. Akut smitsom konjunktivitis er en mere specifik undertype af en eksisterende indikation, og den høje score (0,9963) skyldes sandsynligvis overlappet med denne. Scoren er en modelforudsigelse og ikke klinisk evidens.
 
@@ -132,7 +132,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Den eneste tilladelse er en enkeltstående national tilladelse (gyldig).” → “Der er 2 gyldige nationale tilladelser, begge til kombinationspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

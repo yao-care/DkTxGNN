@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** ti
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Imipenem (uofficiel oversættelse): »Hæmmer af bakterielt penicillinbindende protein« Engelsk originaltekst: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19). Imipenem er et carbapenem, der binder til penicillinbindende proteiner og dermed hæmmer bakteriens cellevægssyntese.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Imipenem (uofficiel oversættelse): »Hæmmer af bakterielt penicillinbindende protein«. Engelsk originaltekst: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; hentet 2026-11-19). Imipenem er et carbapenem, der binder til penicillinbindende proteiner og dermed hæmmer bakteriens cellevægssyntese.
 
 Diffus sklerodermi er derimod en autoimmun, fibrotisk sygdom. Der er ingen kendt biologisk forbindelse mellem en antibakteriel virkningsmekanisme og sygdommens kerneprocesser, fibrose og autoimmunitet. Carbapenemer er ikke kendt for at påvirke disse processer. Den høje score skal derfor betragtes som en ren modelbaseret forudsigelse uden mekanistisk eller klinisk støtte, og den bør tolkes med stor forsigtighed.
 
@@ -117,7 +117,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->
 

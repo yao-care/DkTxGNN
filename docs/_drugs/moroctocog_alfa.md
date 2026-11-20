@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **primær frigivel
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Moroctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; hentet 2026-11-19). Moroctocog alfa er dog en rekombinant faktor VIII med deleteret B-domæne, som indgår i det intrinsiske tenasekompleks i den sekundære hæmostase og erstatter manglende faktor VIII.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Moroctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein«. Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; hentet 2026-11-19). Moroctocog alfa er dog en rekombinant faktor VIII med deleteret B-domæne, som indgår i det intrinsiske tenasekompleks i den sekundære hæmostase og erstatter manglende faktor VIII.
 
 Primære frigivelsesforstyrrelser af blodplader (defekter i lagring og sekretion) er fejl i den primære hæmostase. Erstatning af faktor VIII forventes derfor ikke mekanistisk at rette op på dem. Den høje score skyldes sandsynligvis grafnærhed, fordi sygdommene deler knudepunkter med andre blødningssygdomme, og ikke en reel mekanistisk sammenhæng.
 
@@ -135,7 +135,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal tilladelser: 13 nationale tilladelser (gyldige, enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
 
 <!-- review:end log -->
 

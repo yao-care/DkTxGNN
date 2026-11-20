@@ -61,7 +61,7 @@ Forudsigelsen er derfor udelukkende modelbaseret og savner mekanistisk og klinis
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Telbivudine (uofficiel oversættelse): »DNA-polymerase/revers transkriptase-hæmmer« Engelsk originaltekst: "DNA polymerase/reverse transcriptase inhibitor" ([ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731), CC BY-SA 3.0; hentet 2026-11-19). Ud fra den kendte farmakologi er telbivudin en thymidin-nukleosidanalog, der selektivt hæmmer HBV-DNA-polymerasen (revers transkriptase).
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Telbivudine (uofficiel oversættelse): »DNA-polymerase/revers transkriptase-hæmmer«. Engelsk originaltekst: "DNA polymerase/reverse transcriptase inhibitor" ([ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731), CC BY-SA 3.0; hentet 2026-11-19). Ud fra den kendte farmakologi er telbivudin en thymidin-nukleosidanalog, der selektivt hæmmer HBV-DNA-polymerasen (revers transkriptase).
 
 HCV er en RNA-virus, som replikerer via NS5B RNA-afhængig RNA-polymerase og behandles med direkte virkende antivirale midler. Der er derfor ikke noget etableret mekanistisk grundlag for aktivitet af telbivudin mod HCV.
 
@@ -137,7 +137,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
 
 <!-- review:end log -->
 

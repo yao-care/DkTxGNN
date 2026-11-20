@@ -60,7 +60,7 @@ Evidensen er begrænset: **ét afsluttet fase 2-forsøg uden kontrolgruppe (21 p
 
 ## Hvorfor er forudsigelsen rimelig – og hvor er den svag?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Ledipasvir (uofficiel oversættelse): »Nonstrukturelt protein 5A-hæmmer« Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19). Ledipasvir er kendt som HCV NS5A-hæmmer og gives sammen med sofosbuvir, en NS5B-polymerasehæmmer.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Ledipasvir (uofficiel oversættelse): »Nonstrukturelt protein 5A-hæmmer«. Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; hentet 2026-11-19). Ledipasvir er kendt som HCV NS5A-hæmmer og gives sammen med sofosbuvir, en NS5B-polymerasehæmmer.
 
 HBV har ikke noget kendt NS5A-homologt protein, så en direkte antiviral mekanisme er **ikke påvist**. Det statistiske signal fra modellen hænger sandsynligvis sammen med, at de to sygdomme er virale leversygdomme med fælles patientgrupper. I et retrospektivt materiale sås en beskeden reduktion af HBsAg hos patienter med HBV/HCV-saminfektion behandlet med ledipasvir/sofosbuvir. Det førte til hypotesen om, at det samme kunne ses ved HBV-monoinfektion, og hypotesen blev testet i fase 2-studiet nedenfor.
 
@@ -150,7 +150,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 

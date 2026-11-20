@@ -66,7 +66,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøt
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Phenylbutazone (uofficiel oversættelse): »Cyclooxygenasehæmmer« Engelsk originaltekst: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101), CC BY-SA 3.0; hentet 2026-11-19). Phenylbutazon tilhører gruppen af NSAID'er, som hæmmer cyklooxygenase (COX) og dermed dæmper inflammation og smerte.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Phenylbutazone (uofficiel oversættelse): »Cyclooxygenasehæmmer«. Engelsk originaltekst: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101), CC BY-SA 3.0; hentet 2026-11-19). Phenylbutazon tilhører gruppen af NSAID'er, som hæmmer cyklooxygenase (COX) og dermed dæmper inflammation og smerte.
 
 Der kan ikke identificeres en mekanistisk sammenhæng mellem COX-hæmning og denne sygdom. Der er tale om et sjældent, medfødt misdannelsessyndrom med udviklingsmæssig og genetisk baggrund, og en COX-hæmmer forventes ikke at korrigere den underliggende defekt. Den høje score er udelukkende en modelberegning uden støtte fra undersøgelser.
 
@@ -147,7 +147,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | 2026-11-05 | Fjernet: "som i Danmark er registreret i et veterinært oralt pulver" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "da det eneste registrerede produkt er veterinært" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-06 | Fjernet: "producenten er Dopharma Research B.V" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
 
 <!-- review:end log -->
 

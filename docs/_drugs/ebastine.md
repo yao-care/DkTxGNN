@@ -57,7 +57,7 @@ Bemærk: Der er også en anden forudsigelse med næsten identisk score, **myokar
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Ebastine (uofficiel oversættelse): »Invers agonist ved histamin-H1-receptoren« Engelsk originaltekst: "Histamine H1 receptor inverse agonist" ([ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660), CC BY-SA 3.0; hentet 2026-11-19). Ebastin er en andengenerations H1-antihistamin, og effekten ved allergiske tilstande er kendt. Mekanistisk er det en hypotese, at det kan have relevans for koronararteriesygdom.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Ebastine (uofficiel oversættelse): »Invers agonist ved histamin-H1-receptoren«. Engelsk originaltekst: "Histamine H1 receptor inverse agonist" ([ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660), CC BY-SA 3.0; hentet 2026-11-19). Ebastin er en andengenerations H1-antihistamin, og effekten ved allergiske tilstande er kendt. Mekanistisk er det en hypotese, at det kan have relevans for koronararteriesygdom.
 
 Det mulige link er, at histamin og mastcelleaktivitet har været impliceret i koronar vasospasme og aterosklerose. Dette er plausibelt, men ikke verificeret. Forudsigelsen om myokardieiskæmi overlapper kraftigt med koronararteriesygdom, så de to forudsigelser skyldes sandsynligvis de samme mønstre i TxGNN-modellen (deep learning) og udgør ikke uafhængig evidens. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -107,7 +107,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
 
 <!-- review:end log -->
 

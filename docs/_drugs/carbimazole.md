@@ -56,7 +56,7 @@ Evidensen er meget svag: der er **ingen kliniske forsøg** og kun **1 publikatio
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Carbimazole (uofficiel oversættelse): »Thyroideaperoxidasehæmmer« Engelsk originaltekst: "Thyroid peroxidase inhibitor" ([ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102), CC BY-SA 3.0; hentet 2026-11-19). Carbimazol omdannes til methimazol, som hæmmer thyreoperoxidase og dermed nedsætter dannelsen af thyreoideahormon.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Carbimazole (uofficiel oversættelse): »Thyroideaperoxidasehæmmer«. Engelsk originaltekst: "Thyroid peroxidase inhibitor" ([ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102), CC BY-SA 3.0; hentet 2026-11-19). Carbimazol omdannes til methimazol, som hæmmer thyreoperoxidase og dermed nedsætter dannelsen af thyreoideahormon.
 
 Ved resistens over for thyreoideahormon (RTH-beta) ligger defekten på receptorniveau: T4/T3 er forhøjet, og TSH er ikke undertrykt. Hvis hormonsyntesen sænkes, vil TSH i princippet stige yderligere, hvilket kan stimulere væksten af skjoldbruskkirtlen (struma) og forværre vævshypothyreose i receptorresistente væv. Den høje score afspejler sandsynligvis modellens nærhed til fænotyper med hormonoverskud snarere end en reel behandlingsmæssig begrundelse. Antithyreoide lægemidler anses generelt for uhensigtsmæssige ved RTH-beta.
 
@@ -100,7 +100,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
 
 <!-- review:end log -->
 

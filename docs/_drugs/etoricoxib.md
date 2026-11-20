@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (scor
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Etoricoxib (uofficiel oversættelse): »Cyclooxygenase-2-hæmmer« Engelsk originaltekst: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; hentet 2026-11-19). Etoricoxib er dog kendt som en selektiv hæmmer af COX-2 (kodet af genet PTGS2). Hæmning af enzymet nedsætter dannelsen af prostaglandiner, som bidrager til smerte og inflammation.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Etoricoxib (uofficiel oversættelse): »Cyclooxygenase-2-hæmmer«. Engelsk originaltekst: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; hentet 2026-11-19). Etoricoxib er dog kendt som en selektiv hæmmer af COX-2 (kodet af genet PTGS2). Hæmning af enzymet nedsætter dannelsen af prostaglandiner, som bidrager til smerte og inflammation.
 
 Det er biologisk plausibelt, at nedsat prostaglandinmedieret neurogen inflammation og smertesensibilisering kan hjælpe ved migræne, og andre NSAID-præparater er etablerede behandlinger af akutte migræneanfald. Den høje modelscore er imidlertid en modelforudsigelse og ikke klinisk evidens.
 
@@ -125,7 +125,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Catridecacog er rekombinant koagulationsfaktor XIII (A-underenhed), som stabilis
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Catridecacog (uofficiel oversættelse): »Eksogent koagulationsfaktor XIII-protein« Engelsk originaltekst: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19). Catridecacog er rekombinant faktor XIII A-underenhed, som stabiliserer fibrinblodpropper ved at tværbinde fibrin.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Catridecacog (uofficiel oversættelse): »Eksogent koagulationsfaktor XIII-protein«. Engelsk originaltekst: "Coagulation factor XIII exogenous protein" ([ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282), CC BY-SA 3.0; hentet 2026-11-19). Catridecacog er rekombinant faktor XIII A-underenhed, som stabiliserer fibrinblodpropper ved at tværbinde fibrin.
 
 Primære frigivelsesforstyrrelser i blodplader skyldes derimod iboende defekter i blodpladernes granulasekretion, ikke mangel på fibrintværbinding. Der er derfor ingen åbenlys mekanistisk støtte for, at supplerende faktor XIII kan korrigere blodpladedefekten. Den høje score er en modelbaseret forudsigelse alene og bør ikke tolkes som klinisk evidens.
 
@@ -96,7 +96,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2108282 (catridecacog): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108282) |
 
 <!-- review:end log -->
 

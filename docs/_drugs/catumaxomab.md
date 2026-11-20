@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **svær non-proliferativ d
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Catumaxomab binder EpCAM på tumorceller og CD3 på T-celler, og via Fc-delen rekrutteres yderligere immunceller (accessoriske celler). Dermed omdirigeres immunsystemet mod EpCAM-positive tumorceller. Ifølge farmakologidata er CD3E identificeret som det primære molekylære mål. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Catumaxomab (uofficiel oversættelse): »Krydsbindende middel for T-celleoverfladeglykoprotein CD3; krydsbindende middel for epitelcelleadhæsionsmolekyle« Engelsk originaltekst: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19).
+Catumaxomab binder EpCAM på tumorceller og CD3 på T-celler, og via Fc-delen rekrutteres yderligere immunceller (accessoriske celler). Dermed omdirigeres immunsystemet mod EpCAM-positive tumorceller. Ifølge farmakologidata er CD3E identificeret som det primære molekylære mål. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Catumaxomab (uofficiel oversættelse): »Krydsbindende middel for T-celleoverfladeglykoprotein CD3; krydsbindende middel for epitelcelleadhæsionsmolekyle«. Engelsk originaltekst: "T cell surface glycoprotein CD3 cross-linking agent; Epithelial cell adhesion molecule cross-linking agent" ([ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581), CC BY-SA 3.0; hentet 2026-11-19).
 
 Der er ikke påvist nogen mekanistisk sammenhæng mellem catumaxomab og diabetisk retinopati. Sygdommen drives af hyperglykæmi-induceret mikrovaskulær skade, VEGF-medieret karlækage og neovaskularisering og er ikke en EpCAM-drevet eller T-celle-omdirigeringsfølsom sygdom. Der findes desuden veletablerede behandlinger (anti-VEGF, laserfotokoagulation, kortikosteroidimplantater). Systemisk eller intravitreal immunaktivering vil give sikkerhedsmæssige bekymringer, f.eks. cytokinfrigivelse og inflammation i øjet.
 
@@ -138,7 +138,7 @@ Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkning
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL2108581 (catumaxomab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108581) |
 
 <!-- review:end log -->
 
