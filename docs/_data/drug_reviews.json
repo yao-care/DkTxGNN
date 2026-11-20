@@ -5544,9 +5544,9 @@
    "drug": "clozapine",
    "file": "clozapine.md",
    "action": "mechanism",
-   "claim": "Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport.",
-   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clozapine (uofficiel oversættelse): »Virkningsmekanismen for clozapin er ukendt. Det er dog blevet foreslået, at den terapeutiske virkning af clozapin ved skizofreni medieres gennem antagonisme af dopamin type 2 (D 2 )- og serotonin type 2A (5-HT 2A )-receptorerne.« Engelsk originaltekst: \"The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors.\" ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), version af 2026-09-06; hentet 2026-11-19).",
-   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "claim": "Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport. Vurderingen bygger derfor på almen farmakologi.",
+   "replacement": "Vurderingen bygger derfor på almen farmakologi. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clozapine (uofficiel oversættelse): »Virkningsmekanismen for clozapin er ukendt. Det er dog blevet foreslået, at den terapeutiske virkning af clozapin ved skizofreni medieres gennem antagonisme af dopamin type 2 (D 2 )- og serotonin type 2A (5-HT 2A )-receptorerne.« Engelsk originaltekst: \"The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors.\" ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), version af 2026-09-06; hentet 2026-11-19).",
+   "summary": "\"Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport. Vurderingen bygger derfor på almen farmakologi\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -5563,8 +5563,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "dk-moa-20261119-clozapine-1",
+     "drug": "clozapine",
+     "file": "clozapine.md",
+     "action": "mechanism",
+     "claim": "Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport.",
+     "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clozapine (uofficiel oversættelse): »Virkningsmekanismen for clozapin er ukendt. Det er dog blevet foreslået, at den terapeutiske virkning af clozapin ved skizofreni medieres gennem antagonisme af dopamin type 2 (D 2 )- og serotonin type 2A (5-HT 2A )-receptorerne.« Engelsk originaltekst: \"The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors.\" ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), version af 2026-09-06; hentet 2026-11-19).",
+     "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355",
+       "accessed": "2026-11-19",
+       "excerpt": "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors.",
+       "label_version": "2026-09-06",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "2592c9a8-fd74-4e0d-a895-b07b014cf355",
+       "translation": "Virkningsmekanismen for clozapin er ukendt. Det er dog blevet foreslået, at den terapeutiske virkning af clozapin ved skizofreni medieres gennem antagonisme af dopamin type 2 (D 2 )- og serotonin type 2A (5-HT 2A )-receptorerne.",
+       "translation_lang": "da",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "dk-moa-20261119-cobicistat-1",
@@ -10229,9 +10260,9 @@
    "drug": "nimodipine",
    "file": "nimodipine.md",
    "action": "mechanism",
-   "claim": "Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport.",
-   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nimodipine (uofficiel oversættelse): »Nimodipin er en calciumkanalblokker af dihydropyridintypen. Glatte muskelcellers kontraktile processer er afhængige af calciumioner, som trænger ind i disse celler under depolarisering som langsomme transmembrane ionstrømme.« Engelsk originaltekst: \"Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents.\" ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), version af 2024-08-30; hentet 2026-11-19).",
-   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "claim": "Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Den kendte lægemiddelklasse er derfor lagt til grund.",
+   "replacement": "Den kendte lægemiddelklasse er derfor lagt til grund. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nimodipine (uofficiel oversættelse): »Nimodipin er en calciumkanalblokker af dihydropyridintypen. Glatte muskelcellers kontraktile processer er afhængige af calciumioner, som trænger ind i disse celler under depolarisering som langsomme transmembrane ionstrømme.« Engelsk originaltekst: \"Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents.\" ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), version af 2024-08-30; hentet 2026-11-19).",
+   "summary": "\"Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Den kendte lægemiddelklasse er derfor lagt til grund\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -10248,8 +10279,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "dk-moa-20261119-nimodipine-1",
+     "drug": "nimodipine",
+     "file": "nimodipine.md",
+     "action": "mechanism",
+     "claim": "Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport.",
+     "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nimodipine (uofficiel oversættelse): »Nimodipin er en calciumkanalblokker af dihydropyridintypen. Glatte muskelcellers kontraktile processer er afhængige af calciumioner, som trænger ind i disse celler under depolarisering som langsomme transmembrane ionstrømme.« Engelsk originaltekst: \"Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents.\" ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), version af 2024-08-30; hentet 2026-11-19).",
+     "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10",
+       "accessed": "2026-11-19",
+       "excerpt": "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents.",
+       "label_version": "2024-08-30",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "e660fa26-b5c4-4d6d-8887-9e22b6666a10",
+       "translation": "Nimodipin er en calciumkanalblokker af dihydropyridintypen. Glatte muskelcellers kontraktile processer er afhængige af calciumioner, som trænger ind i disse celler under depolarisering som langsomme transmembrane ionstrømme.",
+       "translation_lang": "da",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "dk-moa-20261119-nintedanib-1",
@@ -14353,7 +14415,7 @@
    "file": "diphenhydramine.md",
    "action": "mechanism",
    "claim": "Mekanismeforbindelsen kan ikke kontrolleres mod kildedata, da lægemidlets oprindelige virkningsmekanisme mangler.",
-   "replacement": "Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Diphenhydramine (uofficiel oversættelse): »Diphenhydraminhydrochlorid er et antihistamin med antikolinerge (udtørrende) og sederende bivirkninger. Antihistaminer synes at konkurrere med histamin om cellereceptorsteder på effektorceller. Diphenhydraminhydrochlorid i injicerbar form har en hurtigt indsættende virkning.« Engelsk originaltekst: \"Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action.\" ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), version af 2026-10-28; hentet 2026-11-20).",
+   "replacement": "Virkningsmekanismen er citeret ovenfor med kildeangivelse ([DailyMed](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4)).",
    "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -14367,6 +14429,442 @@
      "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
      "set_id": "af972e71-62ab-40c6-925a-cbcb4d6720a4",
      "translation": "Diphenhydraminhydrochlorid er et antihistamin med antikolinerge (udtørrende) og sederende bivirkninger. Antihistaminer synes at konkurrere med histamin om cellereceptorsteder på effektorceller. Diphenhydraminhydrochlorid i injicerbar form har en hurtigt indsættende virkning.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "dk-moa-20261120-diphenhydramine-2",
+     "drug": "diphenhydramine",
+     "file": "diphenhydramine.md",
+     "action": "mechanism",
+     "claim": "Mekanismeforbindelsen kan ikke kontrolleres mod kildedata, da lægemidlets oprindelige virkningsmekanisme mangler.",
+     "replacement": "Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Diphenhydramine (uofficiel oversættelse): »Diphenhydraminhydrochlorid er et antihistamin med antikolinerge (udtørrende) og sederende bivirkninger. Antihistaminer synes at konkurrere med histamin om cellereceptorsteder på effektorceller. Diphenhydraminhydrochlorid i injicerbar form har en hurtigt indsættende virkning.« Engelsk originaltekst: \"Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action.\" ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), version af 2026-10-28; hentet 2026-11-20).",
+     "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4",
+       "accessed": "2026-11-20",
+       "excerpt": "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action.",
+       "label_version": "2026-10-28",
+       "section": "Clinical Pharmacology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "af972e71-62ab-40c6-925a-cbcb4d6720a4",
+       "translation": "Diphenhydraminhydrochlorid er et antihistamin med antikolinerge (udtørrende) og sederende bivirkninger. Antihistaminer synes at konkurrere med histamin om cellereceptorsteder på effektorceller. Diphenhydraminhydrochlorid i injicerbar form har en hurtigt indsættende virkning.",
+       "translation_lang": "da",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
+  },
+  {
+   "id": "dk-moa-20261120-aztreonam-1",
+   "drug": "aztreonam",
+   "file": "aztreonam.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata fra lægemiddeldatabasen er ikke tilgængelige i de data, der er indsamlet til denne rapport.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Aztreonam (uofficiel oversættelse): »Aztreonam er et baktericidt middel, der virker ved at hæmme syntesen af bakteriernes cellevæg. Aztreonam har aktivitet i tilstedeværelse af visse beta-lactamaser, både penicillinaser og cefalosporinaser, fra gramnegative og grampositive bakterier.« Engelsk originaltekst: \"Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria.\" ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), version af 2024-06-03; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: aztreonam prescribing information, Hospira, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6",
+     "accessed": "2026-11-20",
+     "excerpt": "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria.",
+     "label_version": "2024-06-03",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "d4500795-3b07-4a7d-b432-73cafbb3dbc6",
+     "translation": "Aztreonam er et baktericidt middel, der virker ved at hæmme syntesen af bakteriernes cellevæg. Aztreonam har aktivitet i tilstedeværelse af visse beta-lactamaser, både penicillinaser og cefalosporinaser, fra gramnegative og grampositive bakterier.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-baclofen-1",
+   "drug": "baclofen",
+   "file": "baclofen.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata er ikke tilgængelige i de data, der er indsamlet til denne rapport.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Baclofen (uofficiel oversættelse): »Baclofens præcise virkningsmekanisme er ikke fuldt klarlagt. Baclofen hæmmer både monosynaptiske og polysynaptiske reflekser på spinalt niveau, muligvis ved at nedsætte frigivelsen af excitatoriske neurotransmittere fra afferente nerveterminaler, selvom virkninger på supraspinale steder også kan forekomme og bidrage til den kliniske virkning.« Engelsk originaltekst: \"The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect.\" ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), version af 2026-09-22; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2",
+     "accessed": "2026-11-20",
+     "excerpt": "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect.",
+     "label_version": "2026-09-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5b13c40d-a109-f838-e063-6294a90aecf2",
+     "translation": "Baclofens præcise virkningsmekanisme er ikke fuldt klarlagt. Baclofen hæmmer både monosynaptiske og polysynaptiske reflekser på spinalt niveau, muligvis ved at nedsætte frigivelsen af excitatoriske neurotransmittere fra afferente nerveterminaler, selvom virkninger på supraspinale steder også kan forekomme og bidrage til den kliniske virkning.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-bexarotene-1",
+   "drug": "bexarotene",
+   "file": "bexarotene.md",
+   "action": "mechanism",
+   "claim": "Der foreligger ikke detaljerede mekanismedata for lægemidlet i de data, der er indsamlet til denne rapport.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bexarotene (uofficiel oversættelse): »Bexaroten binder selektivt til og aktiverer retinoid X-receptorsubtyper (RXRα, RXRß, RXRγ). RXR'er kan danne heterodimerer med forskellige receptorpartnere såsom retinsyrereceptorer (RAR'er), D-vitaminreceptoren, thyroideareceptoren og peroxisomproliferatoraktiverede receptorer (PPAR'er).« Engelsk originaltekst: \"Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs).\" ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), version af 2020-04-30; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc",
+     "accessed": "2026-11-20",
+     "excerpt": "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs).",
+     "label_version": "2020-04-30",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "1d056725-0576-4338-8089-6336e768ccdc",
+     "translation": "Bexaroten binder selektivt til og aktiverer retinoid X-receptorsubtyper (RXRα, RXRß, RXRγ). RXR'er kan danne heterodimerer med forskellige receptorpartnere såsom retinsyrereceptorer (RAR'er), D-vitaminreceptoren, thyroideareceptoren og peroxisomproliferatoraktiverede receptorer (PPAR'er).",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-clofarabine-1",
+   "drug": "clofarabine",
+   "file": "clofarabine.md",
+   "action": "mechanism",
+   "claim": "Den detaljerede virkningsmekanisme (MOA) er ikke tilgængelig fra DrugBank, men ovenstående beskrives i de indsamlede oversigtsartikler.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clofarabine (uofficiel oversættelse): »Clofarabin metaboliseres sekventielt intracellulært til 5’-monophosphatmetabolitten af deoxycytidinkinase og til den aktive 5’-triphosphatmetabolit af mono- og diphosphokinaser. Clofarabin har en affinitet for det aktiverende phosphorylerende enzym, deoxycytidinkinase, der er lig med eller større end affiniteten for det naturlige substrat, deoxycytidin.« Engelsk originaltekst: \"Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.\" ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), version af 2026-08-24; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873",
+     "accessed": "2026-11-20",
+     "excerpt": "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.",
+     "label_version": "2026-08-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "26b2de66-6518-49ab-820e-492454cbc873",
+     "translation": "Clofarabin metaboliseres sekventielt intracellulært til 5’-monophosphatmetabolitten af deoxycytidinkinase og til den aktive 5’-triphosphatmetabolit af mono- og diphosphokinaser. Clofarabin har en affinitet for det aktiverende phosphorylerende enzym, deoxycytidinkinase, der er lig med eller større end affiniteten for det naturlige substrat, deoxycytidin.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-fosfomycin-1",
+   "drug": "fosfomycin",
+   "file": "fosfomycin.md",
+   "action": "mechanism",
+   "claim": "Der foreligger ikke detaljerede mekanismedata fra DrugBank for stoffet.",
+   "replacement": "Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fosfomycin (uofficiel oversættelse): »CONTEPO er et antibakterielt lægemiddel. […] Fosfomycin er et antibakterielt lægemiddel af epoxidtypen, der forstyrrer syntesen af bakteriernes cellevæg ved kovalent at binde til og hæmme phosphoenolpyruvattransferase (MurA), hvorved syntesen af peptidoglycan blokeres. Fosfomycin er baktericidt over for Enterobacterales.« Engelsk originaltekst: \"CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales.\" ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), version af 2025-11-04; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94",
+     "accessed": "2026-11-20",
+     "excerpt": "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales.",
+     "label_version": "2025-11-04",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "855574f2-39f8-43bc-a3d2-79dbb578cb94",
+     "translation": "CONTEPO er et antibakterielt lægemiddel. […] Fosfomycin er et antibakterielt lægemiddel af epoxidtypen, der forstyrrer syntesen af bakteriernes cellevæg ved kovalent at binde til og hæmme phosphoenolpyruvattransferase (MurA), hvorved syntesen af peptidoglycan blokeres. Fosfomycin er baktericidt over for Enterobacterales.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-idelalisib-1",
+   "drug": "idelalisib",
+   "file": "idelalisib.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata (MOA) er ikke tilgængelige i de data, der er indsamlet til rapporten.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Idelalisib (uofficiel oversættelse): »Idelalisib er en hæmmer af phosphatidylinositol-3-kinase, PI3Kδ, som udtrykkes i normale og maligne B-celler. Idelalisib inducerede apoptose og hæmmede proliferationen i cellelinjer afledt af maligne B-celler og i primære tumorceller.« Engelsk originaltekst: \"Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells.\" ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), version af 2026-09-10; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+     "accessed": "2026-11-20",
+     "excerpt": "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells.",
+     "label_version": "2026-09-10",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+     "translation": "Idelalisib er en hæmmer af phosphatidylinositol-3-kinase, PI3Kδ, som udtrykkes i normale og maligne B-celler. Idelalisib inducerede apoptose og hæmmede proliferationen i cellelinjer afledt af maligne B-celler og i primære tumorceller.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-ifosfamide-1",
+   "drug": "ifosfamide",
+   "file": "ifosfamide.md",
+   "action": "mechanism",
+   "claim": "Der foreligger ikke detaljerede mekanismedata i de indsamlede data, så beskrivelsen bygger på almindeligt kendt farmakologi.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ifosfamide (uofficiel oversættelse): »Ifosfamid er et prodrug, der kræver metabolisk aktivering af hepatiske cytokrom P450-isoenzymer for at udøve sin cytotoksiske aktivitet. Aktiveringen sker ved hydroxylering ved ringens carbonatom, hvorved det ustabile intermediat 4-hydroxyifosfamid og dets ringåbnede aldotautomer dannes, som nedbrydes til den cytotoksiske og urotoksiske forbindelse acrolein og et alkylerende isophosphoramidsennep.« Engelsk originaltekst: \"Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.\" ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), version af 2026-10-07; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a",
+     "accessed": "2026-11-20",
+     "excerpt": "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.",
+     "label_version": "2026-10-07",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b7241707-7538-4d1a-91e7-3a25a91e0b9a",
+     "translation": "Ifosfamid er et prodrug, der kræver metabolisk aktivering af hepatiske cytokrom P450-isoenzymer for at udøve sin cytotoksiske aktivitet. Aktiveringen sker ved hydroxylering ved ringens carbonatom, hvorved det ustabile intermediat 4-hydroxyifosfamid og dets ringåbnede aldotautomer dannes, som nedbrydes til den cytotoksiske og urotoksiske forbindelse acrolein og et alkylerende isophosphoramidsennep.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-ipratropium-1",
+   "drug": "ipratropium",
+   "file": "ipratropium.md",
+   "action": "mechanism",
+   "claim": "Mekanismen er beskrevet i den tilgængelige litteratur; detaljerede mekanismedata fra DrugBank var ikke tilgængelige i de data, der er indsamlet til denne rapport.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ipratropium (uofficiel oversættelse): »Ipratropiumbromid er et antikolinergt (parasympatolytisk) middel, som på baggrund af dyreforsøg synes at hæmme vagalt medierede reflekser ved at antagonisere virkningen af acetylcholin, det transmitterstof, der frigives ved de neuromuskulære forbindelser i lungen. Antikolinergika forhindrer de stigninger i den intracellulære koncentration af Ca++, som forårsages af acetylcholins interaktion med de muskarine receptorer på bronkiernes glatte muskulatur.« Engelsk originaltekst: \"Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle.\" ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), version af 2025-11-05; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884",
+     "accessed": "2026-11-20",
+     "excerpt": "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle.",
+     "label_version": "2025-11-05",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "170e98ef-5560-4068-be7d-e649068eb884",
+     "translation": "Ipratropiumbromid er et antikolinergt (parasympatolytisk) middel, som på baggrund af dyreforsøg synes at hæmme vagalt medierede reflekser ved at antagonisere virkningen af acetylcholin, det transmitterstof, der frigives ved de neuromuskulære forbindelser i lungen. Antikolinergika forhindrer de stigninger i den intracellulære koncentration af Ca++, som forårsages af acetylcholins interaktion med de muskarine receptorer på bronkiernes glatte muskulatur.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-nepafenac-1",
+   "drug": "nepafenac",
+   "file": "nepafenac.md",
+   "action": "mechanism",
+   "claim": "De detaljerede mekanismedata i databasen er ikke tilgængelige, så beskrivelsen bygger på den kendte farmakologi og de indsamlede studier.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nepafenac (uofficiel oversættelse): »Efter topikal okulær dosering penetrerer nepafenac cornea og omdannes af hydrolaser i øjets væv til amfenac, et NSAID. Nepafenac og amfenac menes at hæmme virkningen af prostaglandin H-syntase (cyclooxygenase), et enzym, der er nødvendigt for dannelsen af prostaglandiner.« Engelsk originaltekst: \"After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production.\" ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), version af 2026-04-01; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547",
+     "accessed": "2026-11-20",
+     "excerpt": "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production.",
+     "label_version": "2026-04-01",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "10f411d3-a81e-074a-e063-6294a90ab547",
+     "translation": "Efter topikal okulær dosering penetrerer nepafenac cornea og omdannes af hydrolaser i øjets væv til amfenac, et NSAID. Nepafenac og amfenac menes at hæmme virkningen af prostaglandin H-syntase (cyclooxygenase), et enzym, der er nødvendigt for dannelsen af prostaglandiner.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-ofatumumab-1",
+   "drug": "ofatumumab",
+   "file": "ofatumumab.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata er ikke tilgængelige i de indsamlede data.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ofatumumab (uofficiel oversættelse): »Den præcise mekanisme, hvormed ofatumumab udøver sine terapeutiske virkninger ved multipel sklerose, er ukendt, men formodes at involvere binding til CD20, et celleoverfladeantigen, der findes på præ-B-lymfocytter og modne B-lymfocytter. Efter binding til celleoverfladen af B-lymfocytter medfører ofatumumab antistofafhængig cellulær cytolyse og komplementmedieret lyse.« Engelsk originaltekst: \"The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.\" ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), version af 2026-04-01; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+     "accessed": "2026-11-20",
+     "excerpt": "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.",
+     "label_version": "2026-04-01",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+     "translation": "Den præcise mekanisme, hvormed ofatumumab udøver sine terapeutiske virkninger ved multipel sklerose, er ukendt, men formodes at involvere binding til CD20, et celleoverfladeantigen, der findes på præ-B-lymfocytter og modne B-lymfocytter. Efter binding til celleoverfladen af B-lymfocytter medfører ofatumumab antistofafhængig cellulær cytolyse og komplementmedieret lyse.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-phenprocoumon-1",
+   "drug": "phenprocoumon",
+   "file": "phenprocoumon.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på lægemiddelklassens kendte virkning.",
+   "replacement": "Beskrivelsen her bygger på lægemiddelklassens kendte virkning. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Phenprocoumon (uofficiel oversættelse): »Hæmmer af vitamin K-epoxidreduktasekompleks-underenhed 1, isoform 1«. Engelsk originaltekst: \"Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor\" ([ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465), CC BY-SA 3.0; hentet 2026-11-20).",
+   "summary": "\"Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på lægemiddelklassens kendte virkning\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465",
+     "accessed": "2026-11-20",
+     "excerpt": "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL1465",
+     "translation": "Hæmmer af vitamin K-epoxidreduktasekompleks-underenhed 1, isoform 1",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "dk-moa-20261120-phenprocoumon-1",
+     "drug": "phenprocoumon",
+     "file": "phenprocoumon.md",
+     "action": "mechanism",
+     "claim": "Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige.",
+     "replacement": "Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Phenprocoumon (uofficiel oversættelse): »Hæmmer af vitamin K-epoxidreduktasekompleks-underenhed 1, isoform 1«. Engelsk originaltekst: \"Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor\" ([ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465), CC BY-SA 3.0; hentet 2026-11-20).",
+     "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465",
+       "accessed": "2026-11-20",
+       "excerpt": "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL1465",
+       "translation": "Hæmmer af vitamin K-epoxidreduktasekompleks-underenhed 1, isoform 1",
+       "translation_lang": "da",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "dk-moa-20261120-pyridostigmine-1",
+   "drug": "pyridostigmine",
+   "file": "pyridostigmine.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata var ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen farmakologisk viden.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pyridostigmine (uofficiel oversættelse): »Pyridostigminbromid oral opløsning hæmmer cholinesterases nedbrydning af acetylcholin og muliggør derved en friere transmission af nerveimpulser over den neuromuskulære forbindelse. Pyridostigmin er en analog af neostigmin (Prostigmine TM ), men adskiller sig fra det på visse klinisk betydningsfulde punkter; for eksempel er pyridostigmin karakteriseret ved en længere virkningsvarighed og færre gastrointestinale bivirkninger.« Engelsk originaltekst: \"Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects.\" ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), version af 2022-09-07; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780",
+     "accessed": "2026-11-20",
+     "excerpt": "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects.",
+     "label_version": "2022-09-07",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "beda905e-005a-439d-ac74-92db4e269780",
+     "translation": "Pyridostigminbromid oral opløsning hæmmer cholinesterases nedbrydning af acetylcholin og muliggør derved en friere transmission af nerveimpulser over den neuromuskulære forbindelse. Pyridostigmin er en analog af neostigmin (Prostigmine TM ), men adskiller sig fra det på visse klinisk betydningsfulde punkter; for eksempel er pyridostigmin karakteriseret ved en længere virkningsvarighed og færre gastrointestinale bivirkninger.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-selinexor-1",
+   "drug": "selinexor",
+   "file": "selinexor.md",
+   "action": "mechanism",
+   "claim": "De detaljerede mekanismedata var ikke tilgængelige i de sammenstillede data, men lægemidlets klasse er kendt som selektiv hæmmer af nuklear eksport og anvendes i kræftbehandling.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Selinexor (uofficiel oversættelse): »I ikke-kliniske studier hæmmer selinexor reversibelt nukleær eksport af tumorsuppressorproteiner (TSP'er), vækstregulatorer og mRNA'er for onkogene proteiner ved at blokere exportin 1 (XPO1). Selinexors hæmning af XPO1 fører til ophobning af TSP'er i cellekernen og reduktion af flere onkoproteiner, såsom c-myc og cyclin D1, cellecyklusstop og apoptose af cancerceller.« Engelsk originaltekst: \"In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.\" ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), version af 2026-05-12; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+     "accessed": "2026-11-20",
+     "excerpt": "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells.",
+     "label_version": "2026-05-12",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+     "translation": "I ikke-kliniske studier hæmmer selinexor reversibelt nukleær eksport af tumorsuppressorproteiner (TSP'er), vækstregulatorer og mRNA'er for onkogene proteiner ved at blokere exportin 1 (XPO1). Selinexors hæmning af XPO1 fører til ophobning af TSP'er i cellekernen og reduktion af flere onkoproteiner, såsom c-myc og cyclin D1, cellecyklusstop og apoptose af cancerceller.",
+     "translation_lang": "da",
+     "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "dk-moa-20261120-sorafenib-1",
+   "drug": "sorafenib",
+   "file": "sorafenib.md",
+   "action": "mechanism",
+   "claim": "Detaljerede mekanismedata for sorafenib indgår ikke i det opsamlede datamateriale.",
+   "replacement": "Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sorafenib (uofficiel oversættelse): »Sorafenib er en kinasehæmmer, der nedsætter tumorcelleproliferationen in vitro. Sorafenib er vist at hæmme flere intracellulære kinaser (c-CRAF, BRAF og muteret BRAF) og celleoverfladekinaser (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3 og PDGFR-ß).« Engelsk originaltekst: \"Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).\" ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), version af 2023-08-28; hentet 2026-11-20).",
+   "summary": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+     "accessed": "2026-11-20",
+     "excerpt": "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).",
+     "label_version": "2023-08-28",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b50667e4-5ebc-4968-a646-d605058dbef0",
+     "translation": "Sorafenib er en kinasehæmmer, der nedsætter tumorcelleproliferationen in vitro. Sorafenib er vist at hæmme flere intracellulære kinaser (c-CRAF, BRAF og muteret BRAF) og celleoverfladekinaser (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3 og PDGFR-ß).",
      "translation_lang": "da",
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }

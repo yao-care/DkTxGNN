@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Baclofen: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Spasticitet"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -58,7 +58,7 @@ Baclofen er en GABA-B-receptoragonist, som ifølge litteraturen anvendes til beh
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Baclofen virker som agonist på GABA-B-receptoren. Detaljerede mekanismedata er ikke tilgængelige i de data, der er indsamlet til denne rapport. Et muligt link til ADHD er, at baclofen kan påvirke den GABA-erge hæmmende tonus og dermed den efterfølgende dopaminerge og glutamaterge signalering i de fronto-striatale kredsløb, der er involveret i impulsivitet og opmærksomhed.
+Baclofen virker som agonist på GABA-B-receptoren. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Baclofen (uofficiel oversættelse): »Baclofens præcise virkningsmekanisme er ikke fuldt klarlagt. Baclofen hæmmer både monosynaptiske og polysynaptiske reflekser på spinalt niveau, muligvis ved at nedsætte frigivelsen af excitatoriske neurotransmittere fra afferente nerveterminaler, selvom virkninger på supraspinale steder også kan forekomme og bidrage til den kliniske virkning.« Engelsk originaltekst: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), version af 2026-09-22; hentet 2026-11-20). Et muligt link til ADHD er, at baclofen kan påvirke den GABA-erge hæmmende tonus og dermed den efterfølgende dopaminerge og glutamaterge signalering i de fronto-striatale kredsløb, der er involveret i impulsivitet og opmærksomhed.
 
 Dette er en hypotese og ikke dokumenteret. Ingen af de fundne publikationer undersøger baclofen ved ADHD. De handler om Tourettes syndrom, alfa-2-adrenerge agonister, methylphenidat og dyremodeller for impulsivitet, belønning og legeadfærd. Den høje score afspejler sandsynligvis netværksnærhed: ADHD og tics deler komorbiditet og farmakologi. Den afspejler ikke direkte evidens.
 
@@ -129,6 +129,19 @@ Forudsigelsen for ADHD er udelukkende modelbaseret (evidensniveau L5). Der er hv
 - Vurdering af administrationsvej og lægemiddelform, da den eneste danske tilladelse i data er en infusionsvæske
 
 **Supplerende observation:** Den samme analyse forudsiger også **nikotinafhængighed** (score 0,9919) med evidensniveau L2. Der findes tre fase 2-forsøg med baclofen hos rygere ([NCT01228994](https://clinicaltrials.gov/study/NCT01228994), [NCT00257894](https://clinicaltrials.gov/study/NCT00257894), [NCT01821560](https://clinicaltrials.gov/study/NCT01821560)) samt prækliniske data. To af forsøgene blev afbrudt tidligt, og det eneste afsluttede (n=44) er et mekanistisk studie og ikke et rygestopforsøg. Denne indikation er derfor et bedre udgangspunkt for videre afklaring end ADHD, men også her er evidensen begrænset.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

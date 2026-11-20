@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Fosfomycin: forudsagt ny indikation Uterine inflammatory disease (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -58,7 +58,7 @@ Fosfomycin er et antibiotikum, hvis tilknytning til urinvejsinfektion er registr
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede mekanismedata fra DrugBank for stoffet. Generelt er fosfomycin kendt for at hæmme enzymet MurA (UDP-N-acetylglucosamin-enolpyruvyltransferase) og dermed blokere bakteriens cellevægssyntese. Stoffet har aktivitet mod almindelige urogenitale bakterier som *E. coli* og *Enterococcus*.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fosfomycin (uofficiel oversættelse): »CONTEPO er et antibakterielt lægemiddel. […] Fosfomycin er et antibakterielt lægemiddel af epoxidtypen, der forstyrrer syntesen af bakteriernes cellevæg ved kovalent at binde til og hæmme phosphoenolpyruvattransferase (MurA), hvorved syntesen af peptidoglycan blokeres. Fosfomycin er baktericidt over for Enterobacterales.« Engelsk originaltekst: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), version af 2025-11-04; hentet 2026-11-20). Generelt er fosfomycin kendt for at hæmme enzymet MurA (UDP-N-acetylglucosamin-enolpyruvyltransferase) og dermed blokere bakteriens cellevægssyntese. Stoffet har aktivitet mod almindelige urogenitale bakterier som *E. coli* og *Enterococcus*.
 
 Det er derfor tænkeligt, at denne aktivitet kan række til bakterielle infektioner i livmoderen. Det er dog kun en teoretisk betragtning. Ingen af de tilknyttede studier viser, at fosfomycin virker ved uterin inflammation. Den eneste tilknyttede publikation handler om blærebetændelse hos kvinder med endometriose, som er en urinvejstilstand og ikke en livmoderbetændelse.
 
@@ -120,6 +120,19 @@ Den godkendte produktresumé (SmPC) bør konsulteres for fuldstændige advarsler
 - Afklaring af, hvilke sygdomsundergrupper under uterin inflammatorisk sygdom der er relevante (f.eks. endometritis).
 
 Bemærk, at en anden forudsigelse i samme datasæt, pyelitis (nyrebækkenbetændelse), har mere litteratur, herunder et fase 2/3-randomiseret studie af intravenøs fosfomycin ved komplicerede urinvejsinfektioner (PMID 30861061). Den er dog tæt på den eksisterende urinvejsindikation og er ikke en del af denne vurdering.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Selinexor: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
 monitor_inn: "Selinexor"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -58,10 +58,9 @@ Selinexor er en selektiv hæmmer af nuklear eksport (XPO1/CRM1-hæmmer) og er ma
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Selinexor hæmmer XPO1 (CRM1), et protein der transporterer en række tumorsuppressorer og regulatoriske proteiner ud af cellekernen. De detaljerede mekanismedata var ikke tilgængelige i de sammenstillede data, men lægemidlets klasse er kendt som selektiv hæmmer af nuklear eksport og anvendes i kræftbehandling.
+Selinexor hæmmer XPO1 (CRM1), et protein der transporterer en række tumorsuppressorer og regulatoriske proteiner ud af cellekernen. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Selinexor (uofficiel oversættelse): »I ikke-kliniske studier hæmmer selinexor reversibelt nukleær eksport af tumorsuppressorproteiner (TSP'er), vækstregulatorer og mRNA'er for onkogene proteiner ved at blokere exportin 1 (XPO1). Selinexors hæmning af XPO1 fører til ophobning af TSP'er i cellekernen og reduktion af flere onkoproteiner, såsom c-myc og cyclin D1, cellecyklusstop og apoptose af cancerceller.« Engelsk originaltekst: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), version af 2026-05-12; hentet 2026-11-20).
 
 Der er ikke dokumenteret en direkte mekanistisk sammenhæng mellem XPO1-hæmning og lægemiddelinduceret osteoporose. Selinexor er forbundet med bivirkninger som kvalme, appetitløshed, vægttab og træthed, som muligvis kan påvirke knoglehelbredet indirekte. Dette er imidlertid spekulativt og ikke understøttet af data. Den høje score (0,9922) bør derfor ses som en computerbaseret hypotese, der kræver validering, og ikke som tegn på dokumenteret effekt.
-
 
 ---
 
@@ -121,6 +120,19 @@ Forudsigelsen for lægemiddelinduceret osteoporose bygger udelukkende på models
 - Systematisk litteratursøgning og registersøgning efter kliniske forsøg for lægemiddelinduceret osteoporose
 - Vurdering af, om selinexors kendte bivirkninger (vægttab, appetitløshed) udgør en risiko for knoglehelbredet snarere end en gevinst
 - Manuel gennemgang af de højt rangerede brystkræftforudsigelser, da den tilknyttede litteratur ikke omhandler brystkræft
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

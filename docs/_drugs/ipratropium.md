@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -59,7 +59,7 @@ Forudsigelsen understøttes af **25 registrerede kliniske forsøg** og **20 publ
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ipratropium er en ikke-selektiv muskarin antagonist. Det blokerer især M3-receptor-medieret bronkokonstriktion i luftvejenes glatte muskulatur og dæmper dermed den kolinerge tonus, som spiller en central rolle ved obstruktive lungesygdomme. Mekanismen er beskrevet i den tilgængelige litteratur; detaljerede mekanismedata fra DrugBank var ikke tilgængelige i de data, der er indsamlet til denne rapport.
+Ipratropium er en ikke-selektiv muskarin antagonist. Det blokerer især M3-receptor-medieret bronkokonstriktion i luftvejenes glatte muskulatur og dæmper dermed den kolinerge tonus, som spiller en central rolle ved obstruktive lungesygdomme. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ipratropium (uofficiel oversættelse): »Ipratropiumbromid er et antikolinergt (parasympatolytisk) middel, som på baggrund af dyreforsøg synes at hæmme vagalt medierede reflekser ved at antagonisere virkningen af acetylcholin, det transmitterstof, der frigives ved de neuromuskulære forbindelser i lungen. Antikolinergika forhindrer de stigninger i den intracellulære koncentration af Ca++, som forårsages af acetylcholins interaktion med de muskarine receptorer på bronkiernes glatte muskulatur.« Engelsk originaltekst: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), version af 2025-11-05; hentet 2026-11-20).
 
 Forudsagt indikation (obstruktiv lungesygdom) overlapper i høj grad med den allerede kendte KOL-indikation. Der er derfor tale om dokumentation for eksisterende brug snarere end en reel ny anvendelse. Litteraturen om antikolinerge bronkodilatatorer og flere fase 3-forsøg understøtter den kliniske effekt.
 
@@ -157,11 +157,12 @@ Den forudsagte indikation (obstruktiv lungesygdom) falder sammen med ipratropium
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

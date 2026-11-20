@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Bexarotene: forudsagt ny indikation Primært kutant B-celle-lymfom (primary cutaneous B-cell lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -54,7 +54,7 @@ Bexarotene er en selektiv retinoid X-receptor (RXR)-agonist i kapselform, som ma
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Bexarotene binder og aktiverer retinoid X-receptorer, som styrer genekspression, cellevækst, apopTose og differentiering. I de tilgængelige data induceres apoptose og cellecyklusstop i maligne T-celler. Der foreligger ikke detaljerede mekanismedata for lægemidlet i de data, der er indsamlet til denne rapport.
+Bexarotene binder og aktiverer retinoid X-receptorer, som styrer genekspression, cellevækst, apopTose og differentiering. I de tilgængelige data induceres apoptose og cellecyklusstop i maligne T-celler. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bexarotene (uofficiel oversættelse): »Bexaroten binder selektivt til og aktiverer retinoid X-receptorsubtyper (RXRα, RXRß, RXRγ). RXR'er kan danne heterodimerer med forskellige receptorpartnere såsom retinsyrereceptorer (RAR'er), D-vitaminreceptoren, thyroideareceptoren og peroxisomproliferatoraktiverede receptorer (PPAR'er).« Engelsk originaltekst: "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)." ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), version af 2020-04-30; hentet 2026-11-20).
 
 Primære kutane lymfomer omfatter både T- og B-celle-former, og de tilhører gruppen af non-Hodgkin-lymfomer. Den meget høje score afspejler sandsynligvis, at disse lymfomtyper ligger tæt på hinanden i modellens sygdomsstruktur, snarere end en dokumenteret B-celle-specifik virkning. Der er ikke påvist nogen B-celle-specifik mekanisme, så det mekanistiske link kan ikke bekræftes. Forudsigelsen bør derfor ses som en hypotese.
 
@@ -114,6 +114,18 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger bexarote
 - Kliniske data (case-serier eller forsøg) hos patienter med kutant B-celle-lymfom
 - Detaljerede data om virkningsmekanisme
 - Gennemgang af advarsler og kontraindikationer i det godkendte produktresumé (SmPC), især vedrørende lever, bugspytkirtel, skjoldbruskkirtel, blodfedt og diabetes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

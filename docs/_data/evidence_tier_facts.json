@@ -9,7 +9,7 @@
   "with_current": 41,
   "none_current": 2,
   "without_data": 13,
-  "with_reviews": 37,
+  "with_reviews": 40,
   "rows": [
    {
     "t": "Bendamustine",
@@ -40,8 +40,8 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -106,8 +106,8 @@
     "i": "eye disease",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -348,8 +348,8 @@
     "i": "follicular lymphoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -524,7 +524,7 @@
   "with_current": 67,
   "none_current": 1,
   "without_data": 15,
-  "with_reviews": 49,
+  "with_reviews": 51,
   "rows": [
    {
     "t": "Abatacept",
@@ -632,8 +632,8 @@
     "i": "Mantelcellelymfom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1237,8 +1237,8 @@
     "i": "liposarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1320,7 +1320,7 @@
   "with_current": 594,
   "none_current": 13,
   "without_data": 131,
-  "with_reviews": 382,
+  "with_reviews": 390,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1450,8 +1450,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1879,7 +1879,7 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -4278,7 +4278,7 @@
     "lt": 6,
     "lv": 6,
     "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "rs": "\"Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport.…",
     "x": 0
    },
    {
@@ -4310,8 +4310,8 @@
     "i": "autoimmune disease of peripheral nervous system",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5608,8 +5608,8 @@
     "i": "uterine inflammatory disease",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5641,8 +5641,8 @@
     "i": "Kvindelig brystkarcinom",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5949,8 +5949,8 @@
     "i": "Primært kutant B-celle-lymfom",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6532,8 +6532,8 @@
     "i": "Heparin cofactor 2-mangel",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på…",
     "x": 7
    },
    {
@@ -6928,8 +6928,8 @@
     "i": "Hyperamylasæmi",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -7643,8 +7643,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {

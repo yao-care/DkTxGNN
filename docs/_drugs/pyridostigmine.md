@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -58,7 +58,7 @@ Pyridostigmin er en acetylcholinesterasehæmmer, der oprindeligt anvendes til sy
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Pyridostigmin er en reversibel acetylcholinesterasehæmmer. Den øger mængden af acetylcholin ved den neuromuskulære overgang og kompenserer dermed for det reducerede antal fungerende acetylcholinreceptorer ved myasthenia gravis. Detaljerede mekanismedata var ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen farmakologisk viden.
+Pyridostigmin er en reversibel acetylcholinesterasehæmmer. Den øger mængden af acetylcholin ved den neuromuskulære overgang og kompenserer dermed for det reducerede antal fungerende acetylcholinreceptorer ved myasthenia gravis. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pyridostigmine (uofficiel oversættelse): »Pyridostigminbromid oral opløsning hæmmer cholinesterases nedbrydning af acetylcholin og muliggør derved en friere transmission af nerveimpulser over den neuromuskulære forbindelse. Pyridostigmin er en analog af neostigmin (Prostigmine TM ), men adskiller sig fra det på visse klinisk betydningsfulde punkter; for eksempel er pyridostigmin karakteriseret ved en længere virkningsvarighed og færre gastrointestinale bivirkninger.« Engelsk originaltekst: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), version af 2022-09-07; hentet 2026-11-20).
 
 Myasthenia gravis med thymushyperplasi er en undertype af den sygdom, pyridostigmin allerede anvendes til. Mekanismen er symptomatisk og afhænger ikke af, om thymus er forstørret. Det er derfor mekanistisk rimeligt, at lægemidlet virker i denne undergruppe.
 
@@ -125,6 +125,18 @@ Produktresuméets advarsler og kontraindikationer var ikke tilgængelige. Se det
 | 5 | Sygdom i receptoraktivitet | 0,9973 | L4 | Hold | Meget bred term; litteraturen er uensartet og understøtter ikke en samlet indikation |
 | 6 | Hypersplenisme | 0,9930 | L5 | Hold | Ingen mekanistisk forbindelse og ingen evidens; sandsynligvis en grafbaseret artefakt |
 | 7 | Atypisk hæmolytisk-uræmisk syndrom med faktor B-anomali | 0,9922 | L5 | Hold | Pyridostigmin virker ikke på komplementsystemet; ingen evidens |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

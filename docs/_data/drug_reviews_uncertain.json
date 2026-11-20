@@ -533,6 +533,32 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'zuclopenthixol'"
+  },
+  {
+   "file": "gimeracil.md",
+   "drug": "gimeracil",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'gimeracil' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'gimeracil'"
+  },
+  {
+   "file": "vernakalant.md",
+   "drug": "vernakalant",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vernakalant' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL2111112 has no mechanism entry"
   }
  ]
 }

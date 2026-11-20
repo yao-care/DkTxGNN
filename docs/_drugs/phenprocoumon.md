@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PHENPROCOUMON"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "congenital coronary artery anomaly", "stroke disorder", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Phenprocoumon: forudsagt ny indikation Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -61,7 +61,7 @@ Forudsigelsen er ren modelberegning: der er fundet **0 kliniske forsøg** og **0
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Phenprocoumon hæmmer vitamin K-epoxidreduktase (VKORC1). Det mindsker dannelsen af de vitamin K-afhængige koagulationsfaktorer II, VII, IX og X samt protein C og S. Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på lægemiddelklassens kendte virkning.
+Phenprocoumon hæmmer vitamin K-epoxidreduktase (VKORC1). Det mindsker dannelsen af de vitamin K-afhængige koagulationsfaktorer II, VII, IX og X samt protein C og S. Beskrivelsen her bygger på lægemiddelklassens kendte virkning. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Phenprocoumon (uofficiel oversættelse): »Hæmmer af vitamin K-epoxidreduktasekompleks-underenhed 1, isoform 1«. Engelsk originaltekst: "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor" ([ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465), CC BY-SA 3.0; hentet 2026-11-20).
 
 Heparin cofactor 2-mangel er en trombofil tilstand med øget tendens til blodpropper. Hæmning af koagulationsfaktorer kan derfor i princippet dæmpe den øgede koagulationstendens. En sådan mekanistisk sammenhæng er plausibel, men ikke dokumenteret.
 
@@ -111,6 +111,19 @@ Forudsigelsen er baseret udelukkende på modelberegning (evidensniveau L5), uden
 - Klinisk vurdering af, om vitamin K-antagonisme har rationel merværdi i denne sjældne tilstand i forhold til nuværende standardbehandling
 
 **Bemærkning:** Modellen forudsiger også andre indikationer, bl.a. slagtilfælde og trombofili, hvor der findes mere publiceret materiale. Disse er ikke vurderet i denne rapport og kræver en separat evaluering.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | "Detaljerede mekanismedata fra lægemiddeldatabasen var ikke tilgængelige. Beskrivelsen her bygger på lægemiddelklassens kendte virkning" replaced with a sourced mechanism-of-action statement | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL1465 (phenprocoumon): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1465) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

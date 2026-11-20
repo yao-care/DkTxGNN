@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Ifosfamide: forudsagt ny indikation Kvindelig brystkarcinom (female breast carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for Holoxan er…"
 monitor_inn: "ifosfamide"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -60,7 +60,7 @@ Ifosfamid er et alkylerende cytostatikum (prodrug), som i Danmark er markedsfør
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ifosfamid er et alkylerende stof og et prodrug, som aktiveres i leveren af cytokrom P450-enzymer (især CYP3A4 og CYP2B6) til isofosforamid-sennep. Denne aktive metabolit krydsbinder DNA og udløser apoptose i hurtigt delende tumorceller. Der foreligger ikke detaljerede mekanismedata i de indsamlede data, så beskrivelsen bygger på almindeligt kendt farmakologi.
+Ifosfamid er et alkylerende stof og et prodrug, som aktiveres i leveren af cytokrom P450-enzymer (især CYP3A4 og CYP2B6) til isofosforamid-sennep. Denne aktive metabolit krydsbinder DNA og udløser apoptose i hurtigt delende tumorceller. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ifosfamide (uofficiel oversættelse): »Ifosfamid er et prodrug, der kræver metabolisk aktivering af hepatiske cytokrom P450-isoenzymer for at udøve sin cytotoksiske aktivitet. Aktiveringen sker ved hydroxylering ved ringens carbonatom, hvorved det ustabile intermediat 4-hydroxyifosfamid og dets ringåbnede aldotautomer dannes, som nedbrydes til den cytotoksiske og urotoksiske forbindelse acrolein og et alkylerende isophosphoramidsennep.« Engelsk originaltekst: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), version af 2026-10-07; hentet 2026-11-20).
 
 Mekanismen er plausibel for brystkarcinom. Fase 2-forsøg med ifosfamidholdige regimer (f.eks. docetaxel-ifosfamid og højdosisregimer) og flere publikationer om ifosfamid ved fremskreden brystkræft, metaplastisk brystkræft og phyllodes-tumorer understøtter dette. Der er imidlertid ikke registreret noget fase 3-forsøg i brystkræft, og fase 2-forsøgene har status ukendt eller afsluttet i utide.
 
@@ -188,6 +188,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 - For rhabdomyosarkom: verifikation af ifosfamids rolle i de nævnte forsøg og undergruppeanalyser for rhabdomyosarkom.
 - Monitoreringsplan for nefrotoksicitet, neurotoksicitet, myelosuppression og urotoksicitet (mesna), samt gennemgang af lægemiddelinteraktioner.
 - Vurdering af, om forskellen mellem godkendt og forudsagt indikation kræver en ny ansøgning eller off-label-anvendelse.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Nepafenac: forudsagt ny indikation Øjensygdom (bred kategori) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata for Danmark (indikationstek…"
 ---
 
@@ -58,7 +58,7 @@ Nepafenac er en øjendråbe med et non-steroidt antiinflammatorisk lægemiddel (
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Nepafenac er et prodrug. Efter instillation i øjet omdannes det af vævets hydrolaser til amfenac, som hæmmer enzymerne COX-1 og COX-2. Dermed falder dannelsen af prostaglandiner, hvilket forklarer effekten på betændelse, smerter og cystoidt makulaødem efter øjenoperation. De detaljerede mekanismedata i databasen er ikke tilgængelige, så beskrivelsen bygger på den kendte farmakologi og de indsamlede studier.
+Nepafenac er et prodrug. Efter instillation i øjet omdannes det af vævets hydrolaser til amfenac, som hæmmer enzymerne COX-1 og COX-2. Dermed falder dannelsen af prostaglandiner, hvilket forklarer effekten på betændelse, smerter og cystoidt makulaødem efter øjenoperation. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nepafenac (uofficiel oversættelse): »Efter topikal okulær dosering penetrerer nepafenac cornea og omdannes af hydrolaser i øjets væv til amfenac, et NSAID. Nepafenac og amfenac menes at hæmme virkningen af prostaglandin H-syntase (cyclooxygenase), et enzym, der er nødvendigt for dannelsen af prostaglandiner.« Engelsk originaltekst: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), version af 2026-04-01; hentet 2026-11-20).
 
 Kategorien "øjensygdom" er meget bred og svarer til den markedsførte anvendelse. Forudsigelsen er derfor tættere på etableret brug end på reel omplacering. Specifikke underindikationer, fx diabetisk makulaødem eller nethindesygdomme, kræver særskilt vurdering.
 
@@ -134,6 +134,19 @@ Flere store fase 3-forsøg og fase 2-forsøg samt systematiske reviews og RCT'er
 - Bekræftelse af den godkendte indikationstekst for Nevanac i Danmark.
 - Særskilt evaluering af specifikke underindikationer (fx diabetisk makulaødem og nethindesygdomme) før en eventuel udvidelse.
 - Overvågning af hornhindebivirkninger og forsinket sårheling, især hos patienter med risikofaktorer.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

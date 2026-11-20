@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Ofatumumab: forudsagt ny indikation Follikulært lymfom (evidensniveau L2). Oprindelig indikation: Relation registreret i videngrafen: akut lymfoblastær leukæmi og Rich…"
 ---
 
@@ -58,7 +58,7 @@ Ofatumumab er et fuldt humant anti-CD20-antistof. TxGNN-modellen (deep learning)
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata er ikke tilgængelige i de indsamlede data. Ofatumumab er imidlertid et fuldt humant monoklonalt antistof mod CD20. CD20 findes på overfladen af maligne B-celler ved follikulært lymfom. Lægemidlet kan derfor virke gennem samme mål og mekanismer som ved andre B-cellemaligniteter: komplementafhængig cytotoksicitet, antistofafhængig cellemedieret cytotoksicitet og direkte udtømning af B-celler.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ofatumumab (uofficiel oversættelse): »Den præcise mekanisme, hvormed ofatumumab udøver sine terapeutiske virkninger ved multipel sklerose, er ukendt, men formodes at involvere binding til CD20, et celleoverfladeantigen, der findes på præ-B-lymfocytter og modne B-lymfocytter. Efter binding til celleoverfladen af B-lymfocytter medfører ofatumumab antistofafhængig cellulær cytolyse og komplementmedieret lyse.« Engelsk originaltekst: "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), version af 2026-04-01; hentet 2026-11-20). Ofatumumab er imidlertid et fuldt humant monoklonalt antistof mod CD20. CD20 findes på overfladen af maligne B-celler ved follikulært lymfom. Lægemidlet kan derfor virke gennem samme mål og mekanismer som ved andre B-cellemaligniteter: komplementafhængig cytotoksicitet, antistofafhængig cellemedieret cytotoksicitet og direkte udtømning af B-celler.
 
 Ofatumumab binder til et epitop tæt på cellemembranen, som adskiller sig fra rituximabs. Det understøtter en mulig aktivitet ved rituximab-refraktær sygdom. Den meget høje TxGNN-score er forenelig med denne biologiske begrundelse.
 
@@ -152,6 +152,19 @@ Der foreligger flere afsluttede fase 2-forsøg og publicerede studier, der direk
 - Vurdering af resultaterne fra fase 3-forsøget NCT01077518
 - Afklaring af formulering og administrationsvej: den danske tilladelse omfatter kun en subkutan injektionssprøjte, mens kræftstudierne anvendte intravenøs administration
 - Sikkerhedsplan for patienter med øget infektionsrisiko og for samtidig medicin med alvorlige interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

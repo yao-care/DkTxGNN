@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 208
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Clofarabine: forudsagt ny indikation Myeloid leukæmi (evidensniveau L1). Oprindelig indikation: Akut lymfoblastær leukæmi (ALL)"
 monitor_inn: "clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -60,7 +60,7 @@ Clofarabin er et purinnukleosidanalog, der oprindeligt anvendes til behandling a
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Clofarabin er et andengenerations purinnukleosidanalog. Det hæmmer DNA-polymerase og ribonukleotidreduktase, hvorved mængden af intracellulære deoxynukleosidtrifosfater, som er nødvendige for DNA-replikation, falder. Desuden udløser det apoptose via mitokondrielle veje. Disse mekanismer virker på hurtigt delende celler. Den detaljerede virkningsmekanisme (MOA) er ikke tilgængelig fra DrugBank, men ovenstående beskrives i de indsamlede oversigtsartikler.
+Clofarabin er et andengenerations purinnukleosidanalog. Det hæmmer DNA-polymerase og ribonukleotidreduktase, hvorved mængden af intracellulære deoxynukleosidtrifosfater, som er nødvendige for DNA-replikation, falder. Desuden udløser det apoptose via mitokondrielle veje. Disse mekanismer virker på hurtigt delende celler. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clofarabine (uofficiel oversættelse): »Clofarabin metaboliseres sekventielt intracellulært til 5’-monophosphatmetabolitten af deoxycytidinkinase og til den aktive 5’-triphosphatmetabolit af mono- og diphosphokinaser. Clofarabin har en affinitet for det aktiverende phosphorylerende enzym, deoxycytidinkinase, der er lig med eller større end affiniteten for det naturlige substrat, deoxycytidin.« Engelsk originaltekst: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), version af 2026-08-24; hentet 2026-11-20).
 
 ALL og akut myeloid leukæmi (AML) er begge akutte leukæmier med hurtigt delende blaster. Den fælles antimetabolitmekanisme gør det mekanistisk plausibelt, at clofarabin også virker på myeloide maligniteter. Et stort fase 3-forsøg og flere fase 1/2-forsøg har direkte undersøgt dette.
 
@@ -172,6 +172,19 @@ Der foreligger ingen tilgængelige data fra produktresuméet om advarsler og kon
 | Kronisk lymfatisk leukæmi (to subtyper) | 0,9926 | L5 | Hold |
 
 *Bemærkning: Akut lymfoblastær leukæmi er den allerede godkendte indikation og er derfor ikke en egentlig repurposing-kandidat.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

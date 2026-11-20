@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 6
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Sorafenib: forudsagt ny indikation Liposarkom (evidensniveau L4). Oprindelig indikation: Ikke angivet i licensteksten for det danske produkt. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens."
 ---
 
@@ -59,7 +59,7 @@ Sorafenib er en oral multikinasehæmmer, som er knyttet til leverkræft (hepatoc
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata for sorafenib indgår ikke i det opsamlede datamateriale. Ud fra de tilgængelige analyser hæmmer sorafenib RAF/MEK/ERK-signalvejen samt receptortyrosinkinaserne VEGFR og PDGFR. Disse veje driver angiogenese og celleproliferation i bløddelssarkomer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sorafenib (uofficiel oversættelse): »Sorafenib er en kinasehæmmer, der nedsætter tumorcelleproliferationen in vitro. Sorafenib er vist at hæmme flere intracellulære kinaser (c-CRAF, BRAF og muteret BRAF) og celleoverfladekinaser (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3 og PDGFR-ß).« Engelsk originaltekst: "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß)." ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), version af 2023-08-28; hentet 2026-11-20). Ud fra de tilgængelige analyser hæmmer sorafenib RAF/MEK/ERK-signalvejen samt receptortyrosinkinaserne VEGFR og PDGFR. Disse veje driver angiogenese og celleproliferation i bløddelssarkomer.
 
 Der er prækliniske holdepunkter for, at mekanismen er relevant i liposarkom. Sorafenib hæmmede vækst og MAPK-signalering i cellelinjer fra dedifferentieret liposarkom (PMID 18413802). Dedifferentierede liposarkom-xenograftmodeller viste desuden nedregulering af PTEN som malignt kendetegn (PMID 23416162, undersøgelse af PI3K-hæmning, ikke af sorafenib).
 
@@ -133,6 +133,19 @@ Der er ikke noget forsøg specifikt i liposarkom. Den kliniske evidens kommer fr
 - Data om virkningsmekanisme og fuldstændige sikkerhedsdata fra produktresuméet
 - Et liposarkomspecifikt klinisk forsøg, helst med en kontrolarm, eller en vurdering af, om andre godkendte behandlinger er mere relevante
 - Vurdering af sikkerhed og interaktioner hos den aktuelle patientgruppe
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

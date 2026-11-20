@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "Idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Idelalisib: forudsagt ny indikation Mantelcellelymfom (mantle cell lymphoma) (evidensniveau L3). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -54,7 +54,7 @@ Idelalisib er en oral, selektiv hæmmer af PI3K-delta, som anvendes til behandli
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede mekanismedata (MOA) er ikke tilgængelige i de data, der er indsamlet til rapporten. Ud fra kendt farmakologi hæmmer idelalisib selektivt PI3K-delta, som er centralt for B-cellereceptorsignalering og for overlevelse af maligne B-celler.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Idelalisib (uofficiel oversættelse): »Idelalisib er en hæmmer af phosphatidylinositol-3-kinase, PI3Kδ, som udtrykkes i normale og maligne B-celler. Idelalisib inducerede apoptose og hæmmede proliferationen i cellelinjer afledt af maligne B-celler og i primære tumorceller.« Engelsk originaltekst: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), version af 2026-09-10; hentet 2026-11-20). Ud fra kendt farmakologi hæmmer idelalisib selektivt PI3K-delta, som er centralt for B-cellereceptorsignalering og for overlevelse af maligne B-celler.
 
 Mantelcellelymfom er en moden B-celle-neoplasi, som er afhængig af denne signalvej. Præklinisk arbejde viser, at idelalisib hæmmer væksten af MCL-celler via hæmning af translationsregulerende mekanismer. Effekten kan forstærkes af p300/CBP-hæmning eller CDK4/6-hæmning (palbociclib). Resistens via tab af CBX5 er også beskrevet. En tidlig publikation (PMID 24795031) rapporterer aktivitet af idelalisib hos kraftigt forbehandlede patienter med mantelcellelymfom.
 
@@ -121,6 +121,18 @@ Idelalisibs mekanisme passer til B-celle-afhængig MCL, og der findes tidlige fa
 - Detaljerede mekanismedata (MOA)
 - Gennemgang af SmPC-advarsler og kontraindikationer samt plan for overvågning af diarré/colitis, infektioner og leverpåvirkning
 - Vurdering af lægemiddelinteraktioner i den konkrete patientpopulation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 
