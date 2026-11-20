@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Tezacaftor: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Cystisk fibrose (de danske godkendelser indeholder ingen indikationst…"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]

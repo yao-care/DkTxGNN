@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"

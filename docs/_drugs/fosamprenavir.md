@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "fosamprenavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 description: "Fosamprenavir: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"

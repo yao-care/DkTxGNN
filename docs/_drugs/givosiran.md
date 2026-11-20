@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 description: "Givosiran: forudsagt ny indikation Hepatoportal sclerosis (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"

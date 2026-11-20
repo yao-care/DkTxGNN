@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Imiglucerase: forudsagt ny indikation Hurlers syndrom (evidensniveau L5). Oprindelig indikation: Gauchers sygdom"
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"

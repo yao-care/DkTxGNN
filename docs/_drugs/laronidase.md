@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "Laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: forudsagt ny indikation Sanfilippo syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"

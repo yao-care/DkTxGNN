@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Cabergoline: forudsagt ny indikation Progeri-lav vækst-pigmenterede nævi-syndrom (progeria-short stature-pigmented nevi syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de loka…"
 ---
 

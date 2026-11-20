@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
 description: "Sapropterin: forudsagt ny indikation Forstyrrelse af tyrosinmetabolismen (disorder of tyrosine metabolism) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"

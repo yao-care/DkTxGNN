@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Risankizumab: forudsagt ny indikation Dermatitis (evidensniveau L2). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 

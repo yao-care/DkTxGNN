@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 616
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Oxazepam: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"

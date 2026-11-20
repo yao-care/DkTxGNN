@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Fluoxetine: forudsagt ny indikation Skizotypisk personlighedsforstyrrelse (schizotypal personality disorder) (evidensniveau L3). I Danmark, markedsføringstilladelser: 11 (gyldige: 10)"
 ---
 

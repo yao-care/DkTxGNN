@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"

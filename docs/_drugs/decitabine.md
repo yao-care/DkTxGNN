@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
 description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (refractory cytopenia of childhood) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"

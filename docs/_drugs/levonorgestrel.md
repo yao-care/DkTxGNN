@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 496
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Carprofen"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "trigeminal autonomic cephalalgia", "gout"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L2). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 

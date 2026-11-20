@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"

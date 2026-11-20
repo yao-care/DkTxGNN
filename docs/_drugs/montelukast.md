@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 566
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Montelukast: forudsagt ny indikation Bronkitis (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]

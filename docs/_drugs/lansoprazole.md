@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"

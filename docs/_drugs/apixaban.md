@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"

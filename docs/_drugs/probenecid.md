@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 686
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: forudsagt ny indikation Renal hypouricæmi (hypouricemia, renal) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"

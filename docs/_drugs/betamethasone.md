@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"

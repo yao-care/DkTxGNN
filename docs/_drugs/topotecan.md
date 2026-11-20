@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Topotecan: forudsagt ny indikation Kvindeligt brystkarcinom (evidensniveau L5). Oprindelig indikation: Ovariecancer (ifølge videnbasen"
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: forudsagt ny indikation Primært pulmonalt lymfom (primary pulmonary lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"

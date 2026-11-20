@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pazopanib: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L2). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
