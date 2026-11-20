@@ -60,7 +60,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om nebivolols detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er nebivolol en beta-1-selektiv betablokker med en yderligere kvælstofoxid (NO)-medieret karudvidende effekt, som formodes at opstå via aktivering af endotel-eNOS gennem beta-3-agonisme. Det er relevant for blodtrykskontrol og mulig beskyttelse af nyrernes kar.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nebivolol (uofficiel oversættelse): »Virkningsmekanismen for det antihypertensive respons af BYSTOLIC er ikke endeligt fastlagt. Mulige faktorer, der kan være involveret, omfatter: nedsat hjertefrekvens, nedsat myokardiel kontraktilitet, formindskelse af det toniske sympatiske udløb til periferien fra cerebrale vasomotoriske centre, hæmning af reninaktivitet samt vasodilatation og nedsat perifer vaskulær modstand.« Engelsk originaltekst: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), version af 2024-08-01; hentet 2026-11-19). Ud fra almen viden er nebivolol en beta-1-selektiv betablokker med en yderligere kvælstofoxid (NO)-medieret karudvidende effekt, som formodes at opstå via aktivering af endotel-eNOS gennem beta-3-agonisme. Det er relevant for blodtrykskontrol og mulig beskyttelse af nyrernes kar.
 
 Malign hypertensiv nyresygdom er en alvorlig form for forhøjet blodtryk med nyrepåvirkning, og den er derfor tæt knyttet til lægemidlets oprindelige indikation. Den høje score afspejler sandsynligvis denne nærhed i modellens sygdomsnetværk og ikke selvstændig evidens. Tilstanden er desuden en hypertensiv nødsituation, som normalt behandles med intravenøse lægemidler, så en oral betablokker er næppe førstevalg.
 
@@ -140,11 +140,12 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg ell
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->
 

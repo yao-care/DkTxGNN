@@ -60,7 +60,7 @@ Forudsigelsen er rent beregningsbaseret: der er **0 kliniske forsøg** og **0 pu
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til rapporten. Roxadustat er dog kendt som en hæmmer af HIF-prolylhydroxylase (EGLN-enzymer). Hæmningen stabiliserer HIF (hypoxia-inducible factor) og øger bl.a. erythropoietin, hvilket er grundlaget for effekten ved anæmi.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Roxadustat (uofficiel oversættelse): »Hæmmer af hypoxi-inducerbar faktor-prolylhydroxylase« Engelsk originaltekst: "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0; hentet 2026-11-19). Roxadustat er dog kendt som en hæmmer af HIF-prolylhydroxylase (EGLN-enzymer). Hæmningen stabiliserer HIF (hypoxia-inducible factor) og øger bl.a. erythropoietin, hvilket er grundlaget for effekten ved anæmi.
 
 HIF-signalering påvirker cellernes respons på iltmangel, inflammation og vævsreparation. Det kan hypotetisk have betydning for hornhindens og øjenoverfladens epitelreparation og inflammation ved tørre øjne. Koblingen er dog **hypotetisk**: den oprindelige indikation (anæmi) og tørre øjne har ikke et oplagt patofysiologisk slægtskab, og der er hverken kliniske forsøg eller litteratur, der underbygger den. Den høje score er alene en beregningsmæssig forudsigelse. Ruteforenlighed er heller ikke vurderet: roxadustat findes kun som oral tablet, og en okulær anvendelse ville sandsynligvis kræve en anden formulering.
 
@@ -113,6 +113,19 @@ Forudsigelsen om tørre øjne bygger udelukkende på en modelscore (0,9951) uden
 - Prækliniske studier eller litteraturgennemgang af HIF-stabilisering ved øjenoverfladen
 - Vurdering af, om en okulær formulering er nødvendig, samt af systemisk versus lokal sikkerhed
 - Registrering af eventuelle kliniske forsøg, før en egentlig vurdering kan påbegyndes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

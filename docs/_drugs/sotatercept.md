@@ -55,7 +55,7 @@ Sotatercept markedsføres i Danmark som Winrevair, men de data, der er indsamlet
 
 ## Hvorfor kan forudsigelsen give mening?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Ud fra almen viden er sotatercept et fusionsprotein med aktivin-receptor type IIA, der virker som "ligandfælde" for aktivin og vækstdifferentieringsfaktorer (GDF'er) og dermed genbalancerer BMP/aktivin-signalering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sotatercept (uofficiel oversættelse): »Sotatercept-csrk, et rekombinant aktivinreceptor type IIA-Fc (ActRIIA-Fc)-fusionsprotein, er en hæmmer af aktinsignalering, der binder til aktivin A og andre ligander i TGF- β -superfamilien. Som følge heraf forbedrer sotatercept-csrk balancen mellem den proproliferative (ActRIIA/Smad2/3-medierede) og den antiproliferative (BMPRII/Smad1/5/8-medierede) signalering og modulerer derved den vaskulære proliferation.« Engelsk originaltekst: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), version af 2026-09-21; hentet 2026-11-19). Ud fra almen viden er sotatercept et fusionsprotein med aktivin-receptor type IIA, der virker som "ligandfælde" for aktivin og vækstdifferentieringsfaktorer (GDF'er) og dermed genbalancerer BMP/aktivin-signalering.
 
 Aktivin/TGF-beta-signalering påvirker bloddannelsen, men der er ingen direkte mekanistisk eller klinisk evidens for en rolle ved akut lymfatisk leukæmi. Koblingen er derfor spekulativ, og scoren er alene et modelresultat. Da der ikke findes en kendt godkendt indikation i datagrundlaget, kan der heller ikke redegøres for sammenhængen mellem oprindelig og ny indikation.
 
@@ -105,6 +105,19 @@ Forudsigelsen for akut lymfatisk leukæmi bygger kun på en modelscore uden klin
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Præklinisk evidens for effekt af aktivin-ligandfangst ved akut lymfatisk leukæmi
 - En systematisk søgning efter kliniske forsøg og litteratur for den forudsagte sygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

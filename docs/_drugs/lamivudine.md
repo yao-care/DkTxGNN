@@ -60,7 +60,7 @@ men der er **ingen kliniske forsøg** og **14 publikationer** (primært præklin
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Lamivudin er dog kendt som en nukleosid-revers transkriptasehæmmer (NRTI), der hæmmer revers transkriptase hos HIV-1 og HBV-polymerasen.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lamivudine (uofficiel oversættelse): »Lamivudin er et antiretroviralt middel. […] Lamivudin er en syntetisk nukleosidanalog. Intracellulært fosforyleres lamivudin til sin aktive 5′-trifosfatmetabolit, lamivudintrifosfat (3TC-TP). Den primære virkningsmåde for 3TC-TP er hæmning af HIV-1-revers transkriptase (RT) via DNA-kædeterminering efter inkorporering af nukleotidanalogen.« Engelsk originaltekst: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), version af 2024-08-15; hentet 2026-11-19). Lamivudin er dog kendt som en nukleosid-revers transkriptasehæmmer (NRTI), der hæmmer revers transkriptase hos HIV-1 og HBV-polymerasen.
 
 SIV er en tæt beslægtet lentivirus med en homolog revers transkriptase. Mekanismen kan derfor overføres plausibelt. Makakstudier beskriver bl.a. M184V-resistensmutationen i SIV's revers transkriptase (en klassisk lamivudin-resistensmarkør) og virussuppression med kombinationsregimer af antiretroviral behandling.
 
@@ -140,11 +140,12 @@ Evidensen for SIV-infektion er udelukkende prækliniske dyrestudier (evidensnive
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der findes i alt 10 gyldige tilladelser, herunder” → “Der findes mindst 20 gyldige tilladelser, herunder” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Der foreligger **ingen kliniske forsøg** og **ingen publikationer** direkte for
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Reslizumab er dog et monoklonalt anti-IL-5-antistof, som nedsætter eosinofilernes aktivitet og overlevelse. Det forklarer den oprindelige tilknytning til eosinofile lungesygdomme.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Reslizumab (uofficiel oversættelse): »Reslizumab er en interleukin-5-antagonist (IgG4, kappa). IL-5 er det vigtigste cytokin, der er ansvarligt for eosinofilers vækst og differentiering, rekruttering, aktivering og overlevelse. Reslizumab binder til IL-5 med en dissociationskonstant på 81 pM og hæmmer IL-5's bioaktivitet ved at blokere dets binding til alfakæden i IL-5-receptorkomplekset, der udtrykkes på eosinofilernes overflade.« Engelsk originaltekst: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), version af 2020-02-29; hentet 2026-11-19). Reslizumab er dog et monoklonalt anti-IL-5-antistof, som nedsætter eosinofilernes aktivitet og overlevelse. Det forklarer den oprindelige tilknytning til eosinofile lungesygdomme.
 
 Immunmedieret trombocytopeni drives primært af autoantistof- og T-cellemedieret nedbrydning af blodplader samt nedsat megakaryopoiese. Der er ingen kendt eosinofil- eller IL-5-afhængig sygdomsvej, og derfor er den mekanistiske sammenhæng svag. Den høje score (0,9953) er det eneste, der støtter forudsigelsen.
 
@@ -112,6 +112,19 @@ Forudsigelsen bygger udelukkende på en høj modelscore uden kliniske forsøg, u
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, da sikkerhedsscreening ikke kan gennemføres uden disse
 - Litteratursøgning og prækliniske data, der kan underbygge en mulig rolle for IL-5/eosinofiler i immunmedieret trombocytopeni
 - Godkendt indikationstekst for Cinqaero i Danmark til sammenligning med den oprindelige indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Ranolazin er et lægemiddel mod kroniske hjertekramper (angina pectoris), der i 
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ikke data om ranolazins virkningsmekanisme i de sammenstillede data. Ud fra almen farmakologisk viden hæmmer ranolazin den sene natriumstrøm (INa) i hjertemusklen og i mindre grad hERG-kaliumstrømmen (IKr), og det påvirker myokardiets metabolisme. Disse egenskaber forklarer den antianginale effekt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ranolazine (uofficiel oversættelse): »Virkningsmekanismen for ranolazins antianginøse virkninger er ikke fastlagt. Ranolazin har anti-iskæmiske og antianginøse virkninger, som ikke afhænger af reduktioner i hjertefrekvens eller blodtryk. Det påvirker ikke frekvens-tryk-produktet, et mål for myokardiets arbejde, ved maksimal belastning.« Engelsk originaltekst: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), version af 2025-01-29; hentet 2026-11-19). Ud fra almen farmakologisk viden hæmmer ranolazin den sene natriumstrøm (INa) i hjertemusklen og i mindre grad hERG-kaliumstrømmen (IKr), og det påvirker myokardiets metabolisme. Disse egenskaber forklarer den antianginale effekt.
 
 NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2, fx R137C/R137L) eller i nogle tilfælde aktiverende varianter i GNAS. Disse medfører konstitutiv receptorsignalering og vandretention uafhængigt af vasopressin. Ranolazin har ingen kendt effekt på V2-receptorsignalering, cAMP-dannelse eller aquaporin-2-transport.
 
@@ -119,6 +119,19 @@ Forudsigelsen bygger udelukkende på en modelscore (L5) uden kliniske forsøg, u
 - Præklinisk eller mekanistisk dokumentation for en eventuel effekt på AVPR2/GNAS-drevet signalering
 - Litteratur- og forsøgssøgning efter evidens for ranolazin ved NSIAD
 - Vurdering af QT- og elektrolytrisiko hos patienter med hyponatriæmi, samt af interaktioner og nyrefunktion, før en eventuel udforskning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

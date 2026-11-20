@@ -60,7 +60,7 @@ Forudsigelsen er **udelukkende modelbaseret**: der er **0 kliniske forsøg** og 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstillede data. Tadalafil er kendt som PDE5-hæmmer, der øger niveauet af cGMP og giver karudvidelse.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tadalafil (uofficiel oversættelse): »Peniserektion under seksuel stimulation skyldes øget blodgennemstrømning i penis som følge af afslapning af penisarterierne og den glatte muskulatur i corpus cavernosum. Dette respons medieres af frigivelse af nitrogenoxid (NO) fra nerveender og endotelceller, hvilket stimulerer syntesen af cGMP i glatte muskelceller. […] Tadalafil hæmmer PDE5.« Engelsk originaltekst: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), version af 2026-06-03; hentet 2026-11-19). Tadalafil er kendt som PDE5-hæmmer, der øger niveauet af cGMP og giver karudvidelse.
 
 Der er ingen etableret mekanisme, der forbinder PDE5-hæmning med Ambras-syndrom. Sygdommen er en sjælden medfødt lidelse med hårvækst over hele kroppen, som skyldes genetiske eller kromatinrelaterede årsager. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis kun ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Overdreven hårvækst er en kendt bivirkning ved visse karudvidende lægemidler (fx minoxidil), hvilket kan forklare noget af associationen. Det er dog ikke et bevis for effekt eller et rationale for behandling.
 
@@ -122,6 +122,19 @@ Forudsigelsen er rent beregningsbaseret uden kliniske forsøg, litteratur eller 
 - Præklinisk evidens (fx i modeller af hårfollikel eller relevante genetiske modeller)
 - Gennemgang af produktresuméet fra Lægemiddelstyrelsen for advarsler og kontraindikationer
 - Et sikkerhedsvurderingsgrundlag for den kardiovaskulære risiko hos den aktuelle patientgruppe
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

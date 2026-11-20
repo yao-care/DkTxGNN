@@ -60,7 +60,7 @@ Den forudsagte virkning er mekanistisk modsat rettet af det, man ville forvente,
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi hæmmer probenecid urattransportøren URAT1 (SLC22A12) samt OAT1/OAT3. Det reducerer genoptagelsen af urat i nyrerne og øger udskillelsen af urinsyre, hvilket er grunden til, at det virker mod urinsyregigt.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Probenecid (uofficiel oversættelse): »Probenecid er et urikosurisk og renalt tubulusblokerende middel.« Engelsk originaltekst: "Probenecid is a uricosuric and renal tubular blocking agent." ([DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069), version af 2026-11-06; hentet 2026-11-19). Ud fra kendt farmakologi hæmmer probenecid urattransportøren URAT1 (SLC22A12) samt OAT1/OAT3. Det reducerer genoptagelsen af urat i nyrerne og øger udskillelsen af urinsyre, hvilket er grunden til, at det virker mod urinsyregigt.
 
 Renal hypouricæmi skyldes hovedsageligt funktionstabsmutationer i URAT1 (SLC22A12) eller GLUT9 (SLC2A9), så patienterne har allerede en for høj urat-udskillelse via nyrerne. Yderligere hæmning af URAT1 ville forventeligt forværre tilstanden frem for at behandle den. Den høje TxGNN-score skyldes sandsynligvis, at lægemidlet og sygdommen ligger tæt på hinanden i vidensnetværket (fælles urattransportgener og -veje) og afspejler næppe et reelt terapeutisk signal.
 
@@ -131,6 +131,19 @@ Der er ingen kliniske forsøg og kun indirekte litteratur, og probenecids virkni
 - Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
 - Specialistvurdering af, om der overhovedet er et klinisk rationale; for HPRT-relaterede tilstande eventuelt kun som supplement eller ved intolerans over for xanthinoxidasehæmmere
 - Prækliniske eller kliniske data, der kan påvise en reel gavnlig effekt, før en evaluering kan fortsætte
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

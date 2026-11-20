@@ -56,7 +56,7 @@ Tizanidin er en centralt virkende alfa-2-adrenerg agonist og muskelafslappende l
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er tizanidin en central alfa-2-adrenerg agonist, der nedsætter frigivelsen af excitatoriske neurotransmittere og modulerer nociceptiv signaltransmission i trigeminale og spinale baner. Det mindsker desuden spænding i pericraniel muskulatur. Disse virkninger kan principielt understøtte forebyggelse af migræne og kronisk daglig hovedpine. Koblingen er udledt af kendt farmakologi, ikke af data om den oprindelige mekanisme.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tizanidine (uofficiel oversættelse): »Tizanidin er en central alfa-2-adrenerg receptoragonist og reducerer formentlig spasticitet ved at øge den præsynaptiske hæmning af motoriske neuroner. Tizanidins virkninger er størst på polysynaptiske baner. Den samlede effekt af disse virkninger menes at være en reduceret facilitering af spinale motoriske neuroner.« Engelsk originaltekst: "Tizanidine is a central alpha-2-adrenergic receptor agonist and presumably reduces spasticity by increasing presynaptic inhibition of motor neurons. The effects of tizanidine are greatest on polysynaptic pathways. The overall effect of these actions is thought to reduce facilitation of spinal motor neurons." ([DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08), version af 2026-01-02; hentet 2026-11-19). Ud fra kendt farmakologi er tizanidin en central alfa-2-adrenerg agonist, der nedsætter frigivelsen af excitatoriske neurotransmittere og modulerer nociceptiv signaltransmission i trigeminale og spinale baner. Det mindsker desuden spænding i pericraniel muskulatur. Disse virkninger kan principielt understøtte forebyggelse af migræne og kronisk daglig hovedpine. Koblingen er udledt af kendt farmakologi, ikke af data om den oprindelige mekanisme.
 
 Tizanidin bruges oprindeligt mod muskeltonus-lidelser. Muskelspænding og central smertemodulation er også relevante i hovedpinelidelser. Et review (PMID 12696998) omtaler tizanidin, baclofen og botulinumtoxin A som midler mod muskeltonus, der er undersøgt til forebyggelse af migræne og spændingshovedpine.
 
@@ -117,6 +117,19 @@ Der foreligger et ældre randomiseret, placebokontrolleret forsøg i kronisk dag
 - Data om den oprindelige virkningsmekanisme fra DrugBank
 - Vurdering af depotkapslens (Sirdalud Retard) egnethed til migræneprofylakse, herunder dosering og tolerabilitet
 - Plan for sikkerhedsmonitorering, især for lever- og nyrefunktion, blodtryk og samtidig medicin (bl.a. cimetidin, famotidin og morfin)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

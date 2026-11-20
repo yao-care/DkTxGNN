@@ -54,7 +54,7 @@ Codein er et opioid, som i Danmark er markedsført som oral opløsning. Den prim
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om codeins virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Codein er et opioid, der generelt anvendes til smertelindring og hostedæmpning.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Codeine (uofficiel oversættelse): »Codeinsulfat er en opioidagonist, der er relativt selektiv for mu-opioidreceptoren, men med en meget svagere affinitet end morfin. Det er blevet antaget, at codeins analgetiske egenskaber skyldes dets omdannelse til morfin, selvom den nøjagtige analgetiske virkningsmekanisme fortsat er ukendt.« Engelsk originaltekst: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), version af 2026-01-16; hentet 2026-11-19). Codein er et opioid, der generelt anvendes til smertelindring og hostedæmpning.
 
 Den høje score (0,9993) afspejler sandsynligvis nærheden i modellens netværk til øvre luftvejstilstande, hvor codein indgår i kombinationspræparater til symptomlindring. Der er ikke noget belæg for en terapeutisk mekanisme i sygdomme i næsehulen. Den eneste fundne publikation beskriver en usædvanlig årsag til næsesten (rhinolit), hvor en fremmedlegeme bestod af en hærdet blanding af codein og opium. Det er en skadelig hændelse og ikke en gavnlig effekt.
 
@@ -91,6 +91,19 @@ Forudsigelsen understøttes ikke af nogen studier, der direkte undersøger codei
 - Data om virkningsmekanisme
 - Kontrollerede studier, der direkte undersøger codein ved sygdomme i næsehulen
 - Gennemgang af produktresuméets advarsler og kontraindikationer, som ikke var tilgængelige i de indsamlede data
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

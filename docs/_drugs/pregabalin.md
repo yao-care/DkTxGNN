@@ -65,7 +65,7 @@ Bemærk: Den højest rangerede forudsigelse er senebetændelse (tendinitis, scor
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i den indsamlede dokumentation. Ud fra de kilder, der er vurderet, binder pregabalin sig til alfa-2-delta-underenheden på spændingsstyrede calciumkanaler og reducerer frigivelsen af excitatoriske neurotransmittere. Det mindsker neuronal overeksitabilitet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pregabalin (uofficiel oversættelse): »Pregabalin binder sig med høj affinitet til alfa 2 ‑delta-stedet (en hjælpesubenhed af spændingsafhængige calciumkanaler) i væv i centralnervesystemet. Selvom virkningsmekanismen for pregabalin ikke er fuldt klarlagt, tyder resultater med genetisk modificerede mus og med stoffer, der er strukturelt beslægtet med pregabalin (såsom gabapentin), på, at binding til alfa 2 ‑delta-subenheden kan være involveret i pregabalins antinociceptive og antikonvulsive virkninger hos dyr.« Engelsk originaltekst: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), version af 2026-03-12; hentet 2026-11-19). Ud fra de kilder, der er vurderet, binder pregabalin sig til alfa-2-delta-underenheden på spændingsstyrede calciumkanaler og reducerer frigivelsen af excitatoriske neurotransmittere. Det mindsker neuronal overeksitabilitet.
 
 Kendte anvendelser i vidensgrafen (neuropatiske og kroniske smertetilstande samt angst) deler et fælles element med migræne: central sensibilisering og øget neuronal eksitabilitet. Prækliniske studier viser desuden, at pregabalin hæver tærsklen for kortikal spreading depression, som menes at ligge bag migræneaura (PMID 28223480 og 37924146).
 
@@ -136,6 +136,19 @@ Der er plausibel mekanistisk begrundelse og enkelte pædiatriske RCT'er, men det
 - Data om virkningsmekanisme fra DrugBank
 - Gennemgang af produktresumé for advarsler og kontraindikationer (manglende i den indsamlede dokumentation)
 - Vurdering af sikkerhed ved kombination med opioider og hos patienter med nedsat nyrefunktion
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

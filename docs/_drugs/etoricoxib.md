@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **migræne** (scor
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etoricoxib er dog kendt som en selektiv hæmmer af COX-2 (kodet af genet PTGS2). Hæmning af enzymet nedsætter dannelsen af prostaglandiner, som bidrager til smerte og inflammation.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Etoricoxib (uofficiel oversættelse): »Cyclooxygenase-2-hæmmer« Engelsk originaltekst: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; hentet 2026-11-19). Etoricoxib er dog kendt som en selektiv hæmmer af COX-2 (kodet af genet PTGS2). Hæmning af enzymet nedsætter dannelsen af prostaglandiner, som bidrager til smerte og inflammation.
 
 Det er biologisk plausibelt, at nedsat prostaglandinmedieret neurogen inflammation og smertesensibilisering kan hjælpe ved migræne, og andre NSAID-præparater er etablerede behandlinger af akutte migræneanfald. Den høje modelscore er imidlertid en modelforudsigelse og ikke klinisk evidens.
 
@@ -116,6 +116,19 @@ Der er ingen kliniske forsøg og ingen publikationer, der direkte undersøger et
 - Detaljerede data om virkningsmekanisme og den godkendte indikationstekst i det danske produktresumé
 - Gennemgang af advarsler og kontraindikationer i produktresuméet, især kardiovaskulær og renal risiko
 - Vurdering af, om de mere lovende signaler ved den bredere gruppe af hovedpineforstyrrelser (evidens begrænset til kasuistikker) og trigeminale autonome hovedpiner bør undersøges som et separat forskningsspørgsmål
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

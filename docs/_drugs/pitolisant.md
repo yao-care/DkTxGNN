@@ -62,7 +62,7 @@ Forudsigelsen bør derfor betragtes som et modelartefakt og ikke som et reelt te
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra litteraturen er pitolisant en histamin H3-receptor-antagonist/invers agonist, som øger histaminerg neurotransmission i hjernen og dermed fremmer vågenhed.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pitolisant (uofficiel oversættelse): »Virkningsmekanismen for pitolisant ved udtalt søvnighed i dagtiden (EDS) eller kataplexi hos patienter på 6 år og derover med narkolepsi er uklar. Virkningen kan dog medieres gennem dets aktivitet som antagonist/invers agonist ved histamin-3 (H3)-receptorer.« Engelsk originaltekst: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), version af 2026-02-13; hentet 2026-11-19). Ud fra litteraturen er pitolisant en histamin H3-receptor-antagonist/invers agonist, som øger histaminerg neurotransmission i hjernen og dermed fremmer vågenhed.
 
 Denne farmakologiske retning er stik modsat det, der kræves ved insomni. Insomni er en hyperarousal-lidelse, hvor et vågenhedsfremmende middel forventeligt vil forværre symptomerne. Insomni er faktisk en kendt bivirkning ved pitolisant. Den høje score (0,9971) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme (insomni ligger tæt på narkolepsi), ikke et reelt behandlingssignal eller biologisk evidens.
 
@@ -131,6 +131,19 @@ Pitolisant virker vågenhedsfremmende, og insomni er en kendt bivirkning, så en
 - Detaljerede data om virkningsmekanismen (MOA) fra DrugBank
 - Hvis ADHD ønskes undersøgt som alternativ: præklinisk og eksplorativ klinisk dokumentation specifikt for pitolisant ved ADHD
 - Faciodigitogenitalt syndrom bør ikke prioriteres uden en mekanistisk hypotese
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

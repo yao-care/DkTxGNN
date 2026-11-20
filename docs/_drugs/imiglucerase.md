@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan være virksomt ved **Hurlers syndrom** (MP
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Imiglucerase erstatter det manglende enzym glucocerebrosidase (GBA) ved Gauchers sygdom og nedbryder dermed glucosylceramid.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Imiglucerase (uofficiel oversættelse): »Gauchers sygdom er karakteriseret ved mangel på β-glucocerebrosidaseaktivitet, hvilket resulterer i ophobning af glucocerebrosid i forskellige væv, herunder lever, milt og knoglemarv. Mannosesukkerne på imiglucerase medierer binding til og internalisering i celler, herunder makrofager.« Engelsk originaltekst: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), version af 2026-08-27; hentet 2026-11-19). Imiglucerase erstatter det manglende enzym glucocerebrosidase (GBA) ved Gauchers sygdom og nedbryder dermed glucosylceramid.
 
 Hurlers syndrom (MPS I) skyldes mangel på enzymet alfa-L-iduronidase, hvilket medfører ophobning af glykosaminoglykaner (dermatan- og heparansulfat). Begge sygdomme er lysosomale lagringssygdomme, der behandles med enzymerstatning, men forbindelsen er kun konceptuel (fælles behandlingsklasse). Imiglucerase har en anden substratspecificitet og kan ikke erstatte alfa-L-iduronidase. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Laronidase er den specifikke, godkendte enzymerstatning ved MPS I.
 
@@ -117,6 +117,19 @@ Forudsigelsen bygger alene på modelnærhed mellem lysosomale lagringssygdomme. 
 - Data om virkningsmekanisme (MOA) og præklinisk dokumentation for enhver aktivitet mod glykosaminoglykan-ophobning
 - Gennemgang af produktresumé (warnings og kontraindikationer), som mangler i datagrundlaget
 - Kliniske eller prækliniske data, der understøtter en reel fordel frem for eksisterende enzymerstatning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

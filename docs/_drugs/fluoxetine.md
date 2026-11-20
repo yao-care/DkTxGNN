@@ -54,7 +54,7 @@ Fluoxetin er en selektiv serotoningenoptagelseshæmmer (SSRI), som anvendes mod 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om fluoxetins detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Fluoxetin tilhører SSRI-gruppen, som hæmmer genoptagelsen af serotonin i hjernen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fluoxetine (uofficiel oversættelse): »Selvom den nøjagtige virkningsmekanisme for PROZAC er ukendt, formodes den at være forbundet med hæmning af den neuronale optagelse af serotonin i CNS.« Engelsk originaltekst: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), version af 2026-01-08; hentet 2026-11-19). Fluoxetin tilhører SSRI-gruppen, som hæmmer genoptagelsen af serotonin i hjernen.
 
 Et muligt mekanistisk argument er, at serotonerg modulation kan dæmpe følelsesmæssig ustabilitet, tvangsprægede og angstpregede træk samt impulsivitet, som overlapper med personlighedsforstyrrelser. Det er en hypotese og ikke dokumenteret effekt. Evidensen er begrænset til et lille, ældre, åbent studie og narrative oversigter. Der findes ingen kontrollerede forsøg.
 
@@ -107,6 +107,18 @@ Forudsigelsen har en høj TxGNN-score (0,9992), men evidensen er L3 og begrænse
 - Data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af interaktionsrisiko, især for samtidig behandling med lægemidler med alvorlige interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -58,7 +58,7 @@ Ziconotid er et lægemiddel, der gives intratekalt (direkte i rygmarvsvæsken), 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) fra DrugBank er ikke tilgængelige. De data, der er indsamlet til rapporten, beskriver dog ziconotid som en selektiv blokker af N-type (Cav2.2) spændingsstyrede calciumkanaler. Blokaden mindsker frigivelsen af smerteoverførende signalstoffer (substans P, CGRP og glutamat) fra primære nociceptive afferente nerver.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ziconotide (uofficiel oversættelse): »Ziconotid binder til calciumkanaler af N-typen, der er lokaliseret på de primære nociceptive (A-δ og C) afferente nerver i de overfladiske lag (Rexed-lamina I og II) af rygmarvens dorsalhorn. Selvom virkningsmekanismen for ziconotid ikke er klarlagt hos mennesker, tyder resultater fra dyreforsøg på, at bindingen blokerer calciumkanaler af N-typen, hvilket fører til en blokering af frigivelsen af excitatoriske neurotransmittere fra de primære afferente nerveterminaler og til antinociception.« Engelsk originaltekst: "Ziconotide binds to N-type calcium channels located on the primary nociceptive (A-δ and C) afferent nerves in the superficial layers (Rexed laminae I and II) of the dorsal horn in the spinal cord. Although the mechanism of action of ziconotide has not been established in humans, results in animals suggest that its binding blocks N-type calcium channels, which leads to a blockade of excitatory neurotransmitter release from the primary afferent nerve terminals and antinociception." ([DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe), version af 2026-09-15; hentet 2026-11-19). De data, der er indsamlet til rapporten, beskriver dog ziconotid som en selektiv blokker af N-type (Cav2.2) spændingsstyrede calciumkanaler. Blokaden mindsker frigivelsen af smerteoverførende signalstoffer (substans P, CGRP og glutamat) fra primære nociceptive afferente nerver.
 
 Da signalering i det trigeminovaskulære system og frigivelse af CGRP er centrale i migræne, er der en plausibel mekanistisk sammenhæng mellem den kendte smerteindikation og migræne. Der er tale om en teoretisk sammenhæng, ikke en påvist effekt.
 
@@ -120,6 +120,19 @@ Evidensen for migræne består kun af en enkelt case report og en diskussionsart
 - Detaljerede data om virkningsmekanismen fra DrugBank
 - Systematisk litteraturgennemgang og eventuelt kontrollerede studier ved behandlingsrefraktær kronisk migræne
 - Vurdering af risk-benefit, herunder psykiatrisk screening og alternativer med mindre invasive administrationsveje
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

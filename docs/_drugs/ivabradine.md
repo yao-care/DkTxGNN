@@ -60,7 +60,7 @@ Forudsigelsen er udelukkende modelbaseret.
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Ud fra almen farmakologisk viden hæmmer ivabradin HCN-kanalen (If-strømmen) i sinusknuden og sænker dermed hjertefrekvensen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ivabradine (uofficiel oversættelse): »Corlanor blokerer den hyperpolarisationsaktiverede, cykliske nukleotid-styrede (HCN) kanal, der er ansvarlig for den kardiale pacemaker-I f -strøm, som regulerer hjertefrekvensen. I kliniske elektrofysiologiske studier var de kardiale virkninger mest udtalte i sinoatrialknuden (SA-knuden), men der er forekommet forlængelse af AH-intervallet såvel som forlængelse af PR-intervallet.« Engelsk originaltekst: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), version af 2026-11-09; hentet 2026-11-19). Ud fra almen farmakologisk viden hæmmer ivabradin HCN-kanalen (If-strømmen) i sinusknuden og sænker dermed hjertefrekvensen.
 
 Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og hårfollikelvækst. HCN-kanaler findes i nogle ikke-kardiale væv, men intet i de tilgængelige data kobler dem til regulering af hårvækst. Hypertrichose ses desuden som en bivirkning af andre lægemidler, så en terapeutisk rolle for ivabradin er biologisk usandsynlig uden yderligere data.
 
@@ -124,6 +124,19 @@ Forudsigelsen er udelukkende baseret på modellen (evidensniveau L5), uden klini
 - Detaljerede data om virkningsmekanisme fra DrugBank
 - Præklinisk eller mekanistisk evidens for en rolle for HCN-kanaler i hårfollikelbiologi
 - En litteratur- og forsøgsgennemgang, der kan identificere eventuelle relevante signaler, før en videre vurdering overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

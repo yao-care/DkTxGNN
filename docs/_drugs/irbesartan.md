@@ -65,7 +65,7 @@ Andre forudsigelser med samme høje score i datasættet (se afsnittet om øvrige
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Irbesartan blokkerer angiotensin II type 1-receptoren (AT1) og hæmmer dermed renin-angiotensin-aldosteron-systemets (RAAS) blodtrykshævende og nyrebeskadigende virkning. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de indsamlede data, men AT1-blokade er velkendt for denne lægemiddelklasse.
+Irbesartan blokkerer angiotensin II type 1-receptoren (AT1) og hæmmer dermed renin-angiotensin-aldosteron-systemets (RAAS) blodtrykshævende og nyrebeskadigende virkning. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Irbesartan (uofficiel oversættelse): »Angiotensin II er en potent vasokonstriktor, der dannes ud fra angiotensin I i en reaktion katalyseret af angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det primære vasoaktive hormon i renin-angiotensin-systemet og en vigtig komponent i hypertensionens patofysiologi. […] Irbesartan blokerer de vasokonstriktive og aldosteronsecernerende virkninger af angiotensin II ved selektivt at binde til AT 1 -angiotensin II-receptoren, som findes i mange væv (f.eks. vaskulær glat muskulatur, binyre).« Engelsk originaltekst: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), version af 2026-08-24; hentet 2026-11-19).
 
 Malign hypertensiv nyresygdom (hypertensiv nefrosklerose ved malign hypertension) er en tilstand, hvor kraftigt forhøjet blodtryk skader nyrernes små kar. Da irbesartan allerede er godkendt til hypertension og diabetisk nefropati, er både blodtrykssænkning og nyrebeskyttelse via RAAS-blokade mekanistisk plausible.
 
@@ -163,6 +163,19 @@ Forudsigelsen for malign hypertensiv nyresygdom bygger udelukkende på en beregn
 - Systematisk litteratursøgning og søgning efter kliniske forsøg for malign hypertensiv nyresygdom
 - Vurdering af nyrefunktions- og kaliumovervågning samt udelukkelse af bilateral nyrearteriestenose
 - For pulmonal hypertension: humane data eller kontrollerede studier, der viser effekt på lungekarrene
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

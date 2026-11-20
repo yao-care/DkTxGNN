@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** ti
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er dog almindeligt kendt, at mupirocin hæmmer bakteriens isoleucyl-tRNA-syntetase og dermed proteinsyntesen. Stoffet er aktivt over for *Staphylococcus aureus* og visse streptokokker.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mupirocin (uofficiel oversættelse): »Mupirocin er et antibakterielt middel, der hæmmer RNA-syntetase. […] Mupirocin hæmmer den bakterielle proteinsyntese ved reversibelt og specifikt at binde sig til bakteriel isoleucyl-transfer-RNA (tRNA)-syntetase. Mupirocin er baktericidt ved de koncentrationer, der opnås ved topikal administration.« Engelsk originaltekst: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), version af 2020-03-20; hentet 2026-11-19). Det er dog almindeligt kendt, at mupirocin hæmmer bakteriens isoleucyl-tRNA-syntetase og dermed proteinsyntesen. Stoffet er aktivt over for *Staphylococcus aureus* og visse streptokokker.
 
 Disse bakterier kan også forårsage pleural empyem, så der findes en teoretisk antibakteriel sammenhæng med den oprindelige indikation. Den høje modelscore afspejler sandsynligvis denne ligheden i mikrobiologi.
 
@@ -128,6 +128,19 @@ Andre forudsigelser i de indsamlede data har ligeledes begrænset evidens:
 | [24021363](https://pubmed.ncbi.nlm.nih.gov/24021363/) | 2013 | Case report | Dermatology Online Journal | Perianal og periumbilikal dermatitis med gruppe G-streptokokinfektion samt gennemgang af lignende hudlidelser |
 
 Mupirocin er primært antibakterielt og ikke et egentligt antimykotikum. En eventuel effekt kan skyldes behandling af samtidige bakterielle infektioner. Etablerede antimykotika forbliver standardbehandling.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

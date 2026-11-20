@@ -56,7 +56,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Levocetirizin er dog kendt som en selektiv H1-receptorantagonist, og dets effekt ved allergiske tilstande er veldokumenteret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Levocetirizine (uofficiel oversættelse): »Levocetirizin, den aktive enantiomer af cetirizin, er et antihistamin; dets primære virkninger medieres via selektiv hæmning af H 1 -receptorer. Levocetirizins antihistaminerge aktivitet er dokumenteret i en række dyre- og humane modeller.« Engelsk originaltekst: "Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models." ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), version af 2025-07-22; hentet 2026-11-19). Levocetirizin er dog kendt som en selektiv H1-receptorantagonist, og dets effekt ved allergiske tilstande er veldokumenteret.
 
 En mulig, men ubekræftet hypotese er, at levocetirizin kan dæmpe histaminmedieret inflammation og mastcelleaktivitet, som menes at spille en rolle ved synovial inflammation ved reumatoid arthritis. Hypotesen hviler alene på den høje TxGNN-score og er ikke afprøvet.
 
@@ -104,6 +104,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 - Systematisk litteratursøgning og prækliniske studier af histaminreceptorers rolle i synovial inflammation
 - Vurdering af, om en antihistamin kan tilføre noget ud over eksisterende sygdomsmodificerende behandling
 - Særlig opmærksomhed på nedsat nyrefunktion i en eventuel fremtidig studiepopulation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

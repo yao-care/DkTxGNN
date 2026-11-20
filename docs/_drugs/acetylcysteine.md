@@ -56,7 +56,7 @@ Bemærk om evidensniveau: Der foreligger ét fuldført fase 3-forsøg (NCT032529
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige. Ud fra den publicerede litteratur er acetylcystein en thiol-reducerende forbindelse, som kan spalte disulfidbindinger i von Willebrand-faktor (VWF). Det kan mindske multimerstørrelsen og dermed bindingen mellem VWF og blodplader (GPIb) samt dannelsen af mikrotromber. Dette understøttes af prækliniske mus- og bavianmodeller af trombotisk trombocytopenisk purpura (TTP).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Acetylcysteine (uofficiel oversættelse): »Acetylcystein har vist sig at reducere omfanget af leverskade efter overdosering med paracetamol. Paracetamoldoser på 150 mg/kg eller derover er blevet forbundet med hepatotoksicitet. Acetylcystein beskytter sandsynligvis leveren ved at opretholde eller genoprette glutathionniveauerne eller ved at fungere som et alternativt substrat for konjugering med, og dermed detoksificering af, den reaktive metabolit af paracetamol.« Engelsk originaltekst: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), version af 2025-04-30; hentet 2026-11-19). Ud fra den publicerede litteratur er acetylcystein en thiol-reducerende forbindelse, som kan spalte disulfidbindinger i von Willebrand-faktor (VWF). Det kan mindske multimerstørrelsen og dermed bindingen mellem VWF og blodplader (GPIb) samt dannelsen af mikrotromber. Dette understøttes af prækliniske mus- og bavianmodeller af trombotisk trombocytopenisk purpura (TTP).
 
 Derudover har stoffet antioxidative og endotelbeskyttende egenskaber, som er relevante ved transplantationsassocieret trombotisk mikroangiopati og ved den protrombotiske fænotype ved nyreinsufficiens. Mekanismen er plausibel, men den kliniske gavnlige effekt er ikke bekræftet: de fleste forsøg er små eller i tidlig fase.
 
@@ -125,11 +125,12 @@ Mekanismen er plausibel, og der findes et fuldført fase 3-forsøg og et igangv�
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

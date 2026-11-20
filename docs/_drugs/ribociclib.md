@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **1 relevant præklini
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ribociclib hører dog til klassen af CDK4/6-hæmmere. CDK4/6 driver cellecyklussens overgang fra G1- til S-fase i prolifererende celler, og hæmning kan derfor i princippet bremse væksten af leukæmiceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ribociclib (uofficiel oversættelse): »Ribociclib er en hæmmer af cyklinafhængig kinase (CDK) 4 og 6. Disse kinaser aktiveres ved binding til D-cykliner og ligger nedstrøms for signalveje, der fører til cellecyklusprogression og cellulær proliferation.« Engelsk originaltekst: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), version af 2026-07-01; hentet 2026-11-19). Ribociclib hører dog til klassen af CDK4/6-hæmmere. CDK4/6 driver cellecyklussens overgang fra G1- til S-fase i prolifererende celler, og hæmning kan derfor i princippet bremse væksten af leukæmiceller.
 
 Den eneste støtte i litteraturen er et præklinisk in vitro-studie (PMID 32560251, 2020). Det beskriver, at CDK4/6-hæmmere kan modvirke farmakokinetisk lægemiddelresistens i AML-celler, som er forbundet med overekspression af ABCB1- og ABCG2-transportere. Studiet er indirekte støtte og omhandler CDK4/6-hæmmere som klasse. Den høje TxGNN-score er en beregnet forudsigelse og ikke klinisk evidens.
 
@@ -126,6 +126,19 @@ Litteraturen beskriver trombocytopeni som en **bivirkning** af CDK4/6-hæmmere, 
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Yderligere præklinisk dokumentation (in vivo) for effekt i myeloid leukæmi og, om muligt, kliniske fase 1/2-forsøg
 - En vurdering af hæmatologisk sikkerhed i en population med påvirket knoglemarv
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -66,7 +66,7 @@ Bemærk: Den højest rangerede forudsigelse (trigeminusnervetumor) har ingen und
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den evidens, der er indsamlet, virker topiramat via blokade af spændingsafhængige natriumkanaler, potensering af GABA-A-receptorer, antagonisme af AMPA/kainat-receptorer og svag hæmning af kulsyreanhydrase.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Topiramate (uofficiel oversættelse): »De præcise mekanismer, hvorved topiramat udøver sine antikonvulsive og migræneforebyggende virkninger, er ukendte; prækliniske studier har dog afdækket fire egenskaber, der kan bidrage til topiramats virkning ved epilepsi og forebyggende behandling af migræne.« Engelsk originaltekst: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), version af 2026-10-05; hentet 2026-11-19). Ud fra den evidens, der er indsamlet, virker topiramat via blokade af spændingsafhængige natriumkanaler, potensering af GABA-A-receptorer, antagonisme af AMPA/kainat-receptorer og svag hæmning af kulsyreanhydrase.
 
 **Trigeminusnervetumor (rang 1):** Der er ingen oplagt mekanistisk sammenhæng. De antiepileptiske virkninger har ingen kendt forbindelse til tumorbiologi. Den høje score er alene en videnskabsgrafbaseret forudsigelse. Symptomkontrol, fx af neuropatisk smerte, er højst spekulativ.
 
@@ -137,6 +137,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 - For trigeminusnervetumor: biologisk rationale og præklinisk dokumentation, før yderligere evaluering
 - For refleksepilepsierne: målrettede kliniske studier eller case-serier med topiramat, og vurdering af, om de reelt udgør nye indikationer
 - Sikkerhedsplan med fokus på de markerede kontraindikationer (nyre, lever, acidose, nyresten, øjentryk) og de alvorlige interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

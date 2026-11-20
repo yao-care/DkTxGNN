@@ -58,7 +58,7 @@ Pazopanib er en multi-target tyrosinkinasehæmmer, som i vidensgrafen er registr
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de indsamlede data. Pazopanib er ud fra almen farmakologisk viden en multi-target tyrosinkinasehæmmer, der blokerer VEGFR, PDGFR og c-Kit og dermed hæmmer angiogenese og tumorvækst. Denne mekanisme er ikke bekræftet af kildedata.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pazopanib (uofficiel oversættelse): »Pazopanib er en multi-tyrosinkinasehæmmer af vaskulær endotelial vækstfaktorreceptor (VEGFR)-1, VEGFR-2, VEGFR-3, trombocytafledt vækstfaktorreceptor (PDGFR)-α og -β, fibroblastvækstfaktorreceptor (FGFR)-1 og -3, cytokinreceptor (Kit), interleukin-2-receptor-inducerbar T-cellekinase (Itk), lymfocytspecifik proteintyrosinkinase (Lck) og transmembran glykoproteinreceptor-tyrosinkinase (c-Fms). In vitro hæmmede pazopanib ligandinduceret autofosforylering af VEGFR-2-, Kit- og PDGFR-β-receptorer.« Engelsk originaltekst: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), version af 2025-12-16; hentet 2026-11-19). Pazopanib er ud fra almen farmakologisk viden en multi-target tyrosinkinasehæmmer, der blokerer VEGFR, PDGFR og c-Kit og dermed hæmmer angiogenese og tumorvækst. Denne mekanisme er ikke bekræftet af kildedata.
 
 Pazopanibs relation til bløddelssarkom og nyrecellekarcinom er registreret i vidensgrafen. Litteraturen i datagrundlaget beskriver pazopanib som et af de godkendte lægemidler til avanceret bløddelssarkom i anden linje, men godkendelsens præcise ordlyd kan ikke bekræftes af de danske licensdata. Ifølge vurderingen i datagrundlaget omfatter den pivotale fase 3-undersøgelse (PALETTE) ikke adipocytære tumorer, så liposarkom er ikke dækket af denne evidens. Angiogenese og PDGFR-signalering er plausible drivere i liposarkom, og fase 2-forsøg har vist tegn på aktivitet, især ved intermediær- til højgradige former.
 
@@ -165,11 +165,12 @@ For L5-indikationerne findes hverken forsøg eller litteratur. Scorerne er rene 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

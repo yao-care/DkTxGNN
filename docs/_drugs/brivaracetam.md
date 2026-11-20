@@ -59,7 +59,7 @@ Brivaracetam er et antiepileptisk lægemiddel, hvis tilknyttede anvendelser i vi
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det materiale, der er sammenstillet til denne rapport. Der kan derfor ikke påvises en valideret mekanistisk sammenhæng mellem brivaracetam og den forudsagte sygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Brivaracetam (uofficiel oversættelse): »Den nøjagtige mekanisme, hvormed BRIVIACT udøver sin antikonvulsive aktivitet, er ikke kendt. Brivaracetam udviser en høj og selektiv affinitet for synaptisk vesikelprotein 2A (SV2A) i hjernen, hvilket kan bidrage til den antikonvulsive virkning.« Engelsk originaltekst: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), version af 2026-11-05; hentet 2026-11-19). Der kan derfor ikke påvises en valideret mekanistisk sammenhæng mellem brivaracetam og den forudsagte sygdom.
 
 Beta-ketothiolase-mangel (ACAT1-mangel) er en arvelig forstyrrelse i nedbrydningen af isoleucin og i udnyttelsen af ketonlegemer. Det vigtigste kliniske problem er episodisk ketoacidose. Krampeanfald kan opstå som følge af metabolisk afsporing, men behandlingen retter sig primært mod den metaboliske krise. Et antiepileptikum vil ikke korrigere den underliggende enzymdefekt.
 
@@ -114,6 +114,19 @@ Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg elle
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen, som er en forudsætning for sikkerhedsvurdering
 - Systematisk litteratursøgning og prækliniske data, der direkte undersøger brivaracetam ved beta-ketothiolase-mangel
 - Klinisk vurdering af, om anfald ved denne sygdom er forårsaget af metabolisk afsporing, og om en antiepileptisk behandling overhovedet har en rolle
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Icatibant er en peptidbaseret bradykininreceptorantagonist. Modellen TxGNN forud
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra offentligt kendt farmakologi binder icatibant som antagonist til bradykinin B2-receptoren (og i data også til B1-receptoren) og dæmper dermed bradykininmedieret karpermeabilitet og vævssvulst.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Icatibant (uofficiel oversættelse): »Icatibant er en kompetitiv antagonist, der er selektiv for bradykinin-B2-receptoren, med en affinitet svarende til bradykinins. Hereditært angioødem skyldes fravær eller dysfunktion af C1-esterasehæmmer, en central regulator af den proteolytiske faktor XII/kallikrein-kaskade, der fører til produktion af bradykinin.« Engelsk originaltekst: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), version af 2025-07-07; hentet 2026-11-19). Ud fra offentligt kendt farmakologi binder icatibant som antagonist til bradykinin B2-receptoren (og i data også til B1-receptoren) og dæmper dermed bradykininmedieret karpermeabilitet og vævssvulst.
 
 Den forudsagte sygdom er kendetegnet ved en proteinfoldnings- og polymeriseringsfejl i serinproteasehæmmere (serpiner). Toksisk polymerisering er en mekanisme, som blokade af bradykininreceptoren ikke påvirker. Den eneste tænkelige forbindelse er symptomlindring af bradykininmedierede hævelser, hvis den underliggende serpinfejl medfører sådanne symptomer. Den høje score skyldes sandsynligvis, at sygdommen ligger tæt på beslægtede tilstande i modellens netværksstruktur, og ikke at der findes en egentlig mekanistisk eller klinisk begrundelse. Scoren bør derfor tolkes med stor forsigtighed.
 
@@ -105,6 +105,18 @@ Forudsigelsen bygger udelukkende på modelscoren (0,9999). Der findes hverken kl
 - Præklinisk eller klinisk evidens, der direkte undersøger sygdommen
 - Data om virkningsmekanisme og produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - En vurdering af, om der overhovedet er et klinisk behov, som icatibant kan dække
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

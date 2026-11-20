@@ -58,7 +58,7 @@ Mebendazol er et ormemiddel, der oprindeligt bruges til behandling af parasitinf
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der er i øjeblikket ikke tilgængelige data om mebendazols detaljerede virkningsmekanisme i de data, der er indsamlet til denne rapport. Mebendazol er generelt kendt som en hæmmer af tubulinpolymerisering hos orme, men dette er ikke understøttet af de foreliggende data og skal verificeres i andre kilder.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mebendazole (uofficiel oversættelse): »Mebendazol, et benzimidazol, er et anthelmintikum. […] Mebendazol griber ind i den cellulære tubulindannelse hos helminten og forårsager ultrastrukturelle degenerative forandringer i dens tarm. Som følge heraf forstyrres dens glucoseoptagelse samt fordøjelses- og reproduktionsfunktionerne, hvilket fører til immobilisering, hæmning af ægproduktionen og død af helminten.« Engelsk originaltekst: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), version af 2021-10-05; hentet 2026-11-19). Mebendazol er generelt kendt som en hæmmer af tubulinpolymerisering hos orme, men dette er ikke understøttet af de foreliggende data og skal verificeres i andre kilder.
 
 Der er ikke dokumenteret en plausibel mekanistisk sammenhæng mellem mebendazol og akne. De indsamlede data viser ingen antiinflammatorisk, antibakteriel, talgregulerende eller anti-*Cutibacterium acnes*-effekt. Den oprindelige indikation (tarmparasitter) og akne (en kronisk inflammatorisk hudlidelse i talgkirtlerne) er klinisk og patofysiologisk meget forskellige.
 
@@ -114,6 +114,19 @@ Forudsigelsen er udelukkende baseret på en computermodel (evidensniveau L5), og
 - Præklinisk litteratursøgning (f.eks. effekt på inflammation, talgproduktion og *C. acnes*)
 - Vurdering af administrationsvej: mebendazol er markedsført som oral suspension, og en eventuel topisk eller anden formulering til akne er ikke vurderet
 - Ved fortsat interesse: eksplorative laboratorie- eller små pilotstudier, før der overvejes kliniske forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

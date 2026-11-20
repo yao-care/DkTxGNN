@@ -58,7 +58,7 @@ Sapropterin er en syntetisk form af tetrahydrobiopterin (BH4), som fungerer som 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Sapropterin er en syntetisk analog af tetrahydrobiopterin (BH4), som er en nødvendig cofaktor for phenylalaninhydroxylase (PAH). PAH omdanner phenylalanin til tyrosin. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, men den kendte farmakologi er beskrevet ovenfor.
+Sapropterin er en syntetisk analog af tetrahydrobiopterin (BH4), som er en nødvendig cofaktor for phenylalaninhydroxylase (PAH). PAH omdanner phenylalanin til tyrosin. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sapropterin (uofficiel oversættelse): »Sapropterindihydrochlorid er en syntetisk form af BH4, kofaktoren for enzymet phenylalaninhydroxylase (PAH). PAH hydroxylerer Phe gennem en oxidativ reaktion, hvorved der dannes tyrosin. Hos patienter med PKU er PAH-aktiviteten fraværende eller nedsat.« Engelsk originaltekst: "Sapropterin dihydrochloride is a synthetic form of BH4, the cofactor for the enzyme phenylalanine hydroxylase (PAH). PAH hydroxylates Phe through an oxidative reaction to form tyrosine. In patients with PKU, PAH activity is absent or deficient." ([DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1), version af 2025-04-30; hentet 2026-11-19).
 
 Forbindelsen til den forudsagte sygdom er indirekte. Den høje score afspejler sandsynligvis, at phenylalanin- og tyrosinmetabolismen deler samme stofskillevej. Den fundne litteratur handler om phenylalaninmetabolisme og ikke om primære tyrosinforstyrrelser såsom tyrosinæmi type I-III. Der er intet, der viser, at BH4-tilskud gavner sygdomme forårsaget af defekter længere nede i tyrosinvejen (f.eks. mangel på FAH, TAT eller HPD).
 
@@ -122,6 +122,18 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5). Der findes hverken klini
 - Prækliniske data eller case-materiale, der direkte undersøger sapropterin ved disse tilstande
 - Detaljerede data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer med henblik på sikkerhedsvurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

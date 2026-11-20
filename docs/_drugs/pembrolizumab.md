@@ -55,7 +55,7 @@ Pembrolizumab er et PD-1-hæmmende antistof, som i den viden, der er indsamlet t
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Farmakologiske data viser, at pembrolizumab er et antistof, der binder PD-1 (PDCD1, CD279) og dermed blokerer en immuncheckpoint-vej, som tumorer udnytter til at undgå immunforsvaret. Denne mekanisme er relevant ved kræftsygdomme med en immunrig tumormikromiljø, som lungekræft og melanom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pembrolizumab (uofficiel oversættelse): »Binding af PD-1-liganderne PD-L1 og PD-L2 til PD-1-receptoren på T-celler hæmmer T-celleproliferation og cytokinproduktion. Opregulering af PD-1-ligander forekommer i nogle tumorer, og signalering via denne signalvej kan bidrage til hæmning af den aktive T-cellemedierede immunovervågning af tumorer. […] Pembrolizumab er et monoklonalt antistof, der bindes til PD-1-receptoren og blokerer dens interaktion med PD-L1 og PD-L2, hvorved den PD-1-signalvejsmedierede hæmning af immunresponset, herunder det antitumorale immunrespons, ophæves.« Engelsk originaltekst: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), version af 2026-10-16; hentet 2026-11-19). Farmakologiske data viser, at pembrolizumab er et antistof, der binder PD-1 (PDCD1, CD279) og dermed blokerer en immuncheckpoint-vej, som tumorer udnytter til at undgå immunforsvaret. Denne mekanisme er relevant ved kræftsygdomme med en immunrig tumormikromiljø, som lungekræft og melanom.
 
 Gingival fibromatose er en overvækst af tandkødsvæv, som ikke er en immunologisk tumorsygdom. Der kan ikke identificeres nogen sammenhæng mellem PD-1-blokade og denne tilstand. Den høje modelscore er derfor en beregningsmæssig forudsigelse uden understøttende biologisk eller klinisk belæg.
 
@@ -105,6 +105,19 @@ Forudsigelsen bygger udelukkende på modellen. Der findes ingen forsøg eller pu
 - Præklinisk eller mekanistisk belæg for en rolle for PD-1-vejen ved gingival fibromatose
 - Detaljerede data om virkningsmekanisme og produktresumé (indikationer, advarsler, kontraindikationer) for det danske præparat
 - Systematisk litteraturgennemgang specifikt for sygdommen, før en eventuel klinisk undersøgelse overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

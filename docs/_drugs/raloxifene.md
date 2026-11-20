@@ -58,7 +58,7 @@ Raloxifen er en selektiv østrogenreceptormodulator (SERM), der oprindeligt anve
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om raloxifens virkningsmekanisme foreligger ikke i de indsamlede data. Raloxifen er kendt som en selektiv østrogenreceptormodulator, og dets effekt ved osteoporose hos kvinder efter overgangsalderen er veldokumenteret. Mekanistisk kunne man spekulere i, at østrogenreceptorsignalering påvirker slimhindebeskyttelse eller inflammation i mave-tarmkanalen, men dette er hverken understøttet eller verificeret af de foreliggende data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Raloxifene (uofficiel oversættelse): »Raloxifen er en østrogenagonist/-antagonist, almindeligvis betegnet som en selektiv østrogenreceptormodulator (SERM). Raloxifens biologiske virkninger medieres i vid udstrækning gennem binding til østrogenreceptorer. Denne binding resulterer i aktivering af østrogene signalveje i nogle væv (agonisme) og blokering af østrogene signalveje i andre (antagonisme).« Engelsk originaltekst: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), version af 2026-02-11; hentet 2026-11-19). Raloxifen er kendt som en selektiv østrogenreceptormodulator, og dets effekt ved osteoporose hos kvinder efter overgangsalderen er veldokumenteret. Mekanistisk kunne man spekulere i, at østrogenreceptorsignalering påvirker slimhindebeskyttelse eller inflammation i mave-tarmkanalen, men dette er hverken understøttet eller verificeret af de foreliggende data.
 
 Der er ikke påvist nogen klar sammenhæng mellem osteoporose og duodenalsår. Den høje score (0,9972) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og er ikke biologisk evidens for effekt. Forudsigelsen bør derfor betragtes som en hypotese, der kræver et dedikeret litteraturstudie, før den prioriteres.
 
@@ -110,6 +110,19 @@ Forudsigelsen understøttes kun af en computermodel (evidensniveau L5) uden klin
 - Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) for at kunne gennemføre sikkerhedsscreening
 - Vurdering af, om den kendte risikoprofil (bl.a. tromboemboliske hændelser) er acceptabel i en ny patientgruppe
 - Afklaring af administrationsvej og lægemiddelform i forhold til den nye indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ Evidensen er svag: der er **ingen registrerede kliniske forsøg** og kun **3 pub
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Fenofibrat er dog kendt som en PPARα-agonist (peroxisomproliferator-aktiveret receptor alfa). Et museforsøg viser, at fenofibrat inducerer genet for fosfolipidtransferprotein (PLTP), hvilket medfører forstørrede HDL-partikler (PMID 11342537). Det overlapper med lipoproteinomsætningen, som også er påvirket ved CETP-mangel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fenofibrate (uofficiel oversættelse): »Den aktive del af Antara er fenofibrinsyre. De farmakologiske virkninger af fenofibrinsyre hos både dyr og mennesker er undersøgt ved oral administration af fenofibrat. De lipidmodificerende virkninger af fenofibrinsyre, der ses i klinisk praksis, er blevet forklaret in vivo hos transgene mus og in vitro i humane hepatocytkulturer ved aktivering af PPAR alpha-receptoren.« Engelsk originaltekst: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), version af 2025-10-01; hentet 2026-11-19). Fenofibrat er dog kendt som en PPARα-agonist (peroxisomproliferator-aktiveret receptor alfa). Et museforsøg viser, at fenofibrat inducerer genet for fosfolipidtransferprotein (PLTP), hvilket medfører forstørrede HDL-partikler (PMID 11342537). Det overlapper med lipoproteinomsætningen, som også er påvirket ved CETP-mangel.
 
 Der er imidlertid vigtige forbehold. CETP-mangel er en genetisk tilstand med i forvejen forhøjet HDL-kolesterol og nedsat overførsel af kolesterylestere, og den behandles generelt ikke som en sygdom, der kræver korrektion. Et behandlingsrationale for yderligere at øge HDL er derfor svagt. Den høje score afspejler sandsynligvis nærhed i lipidmetaboliske netværk snarere end et dokumenteret behandlingsbehov. Derudover tyder en publikation (PMID 30271349) på, at plasma-HDL ikke korrelerer med fækal kolesteroludskillelse eller efflukskapacitet, hvilket underminerer HDL-stigning som meningsfuldt behandlingsmål.
 
@@ -132,11 +132,12 @@ Der er ingen kliniske forsøg og ingen studier, som direkte undersøger fenofibr
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
 
 <!-- review:end log -->
 

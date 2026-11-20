@@ -60,7 +60,7 @@ Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle lighed
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Pibrentasvir er kendt som en hæmmer af HCV NS5A-proteinet, og dets effekt ved hepatitis C er veldokumenteret.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Pibrentasvir (uofficiel oversættelse): »Nonstrukturelt protein 5A-hæmmer« Engelsk originaltekst: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; hentet 2026-11-19). Pibrentasvir er kendt som en hæmmer af HCV NS5A-proteinet, og dets effekt ved hepatitis C er veldokumenteret.
 
 Hepatitis B-virus (HBV) er et hepadnavirus med et DNA-genom, der replikeres via revers transkription. HBV har ikke noget NS5A-homolog, og en direkte antiviral mekanisme understøttes derfor ikke. Den høje TxGNN-score skyldes sandsynligvis netværksnærhed til HCV og andre virale leverinfektioner. Den fundne litteratur omhandler udelukkende HCV, og der findes ingen HBV-forsøg.
 
@@ -119,7 +119,6 @@ Der er ingen litteratur om pibrentasvir ved hepatitis B. Nedenfor ses et udvalg 
 
 ## Markedsinformation for Danmark
 
-
 ---
 
 ## Sikkerhedsovervejelser
@@ -139,6 +138,19 @@ Forudsigelsen om hepatitis B er alene modelbaseret (evidensniveau L5). Der er in
 - Præklinisk in vitro-dokumentation for anti-HBV-aktivitet (eller aktivitet mod øvrige forudsagte vira)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) før en egentlig sikkerhedsscreening
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

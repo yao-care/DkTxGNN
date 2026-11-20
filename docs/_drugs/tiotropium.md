@@ -54,7 +54,7 @@ Tiotropium er en langtidsvirkende antikolinergisk luftvejsmedicin givet som inha
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tiotropium er et muskarinreceptorblokerende stof, som afslapper glat muskulatur i luftvejene og dermed kan lindre reversibel luftvejsobstruktion.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tiotropium (uofficiel oversættelse): »Tiotropium er et langtidsvirkende antimuskarint middel, som ofte betegnes som et antikolinergikum. Det har tilsvarende affinitet for undertyperne af muskarinreceptorer, M 1 til M 5. I luftvejene udøver det farmakologiske virkninger gennem hæmning af M 3 -receptorer i den glatte muskulatur, hvilket fører til bronkodilatation.« Engelsk originaltekst: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), version af 2025-11-10; hentet 2026-11-19). Tiotropium er et muskarinreceptorblokerende stof, som afslapper glat muskulatur i luftvejene og dermed kan lindre reversibel luftvejsobstruktion.
 
 Den høje score afspejler sandsynligvis, at sygdommen ligger tæt på andre luftvejssygdomme i modellens netværk, snarere end en specifik mekanisme ved strukturelle misdannelser. Tiotropium kan muligvis lindre en samtidig luftvejsobstruktion, men kan ikke korrigere udviklingsmæssige anatomiske defekter. Forudsigelsen er derfor et beregnet signal og ikke et påvist mekanistisk link.
 
@@ -109,6 +109,18 @@ Forudsigelsen bygger alene på en beregnet modelscore. Ingen af de citerede fors
 - Præcisering af, hvilke konkrete tilstande der dækkes af betegnelsen respiratorisk misdannelse, og om en reversibel obstruktiv komponent kan være et relevant behandlingsmål
 - Forsøg eller kliniske observationer hos patienter med denne diagnose
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

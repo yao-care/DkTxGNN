@@ -60,7 +60,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der er ikke tilgængelige detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Moxifloxacin tilhører imidlertid fluorokinolonerne, som hæmmer bakteriel DNA-gyrase og topoisomerase IV, og lægemidlet har dokumenteret effekt ved en række bakterielle infektioner.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Moxifloxacin (uofficiel oversættelse): »Moxifloxacin tablet tilhører fluorquinolonklassen af antibakterielle midler. […] Moxifloxacins baktericide virkning skyldes hæmning af topoisomerase II (DNA-gyrase) og topoisomerase IV, som er nødvendige for bakteriel DNA-replikation, -transkription, -reparation og -rekombination.« Engelsk originaltekst: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), version af 2026-11-06; hentet 2026-11-19). Moxifloxacin tilhører imidlertid fluorokinolonerne, som hæmmer bakteriel DNA-gyrase og topoisomerase IV, og lægemidlet har dokumenteret effekt ved en række bakterielle infektioner.
 
 Der kan ikke identificeres en rimelig mekanistisk sammenhæng mellem denne antibakterielle virkning og polyklonalt hyperviskositetssyndrom. Tilstanden skyldes forhøjet serumviskositet i forbindelse med immunglobulin-dysregulering, og moxifloxacin har ingen kendt effekt herpå. Den høje TxGNN-score bør derfor betragtes som en ren modelforudsigelse uden understøttende kliniske eller prækliniske data.
 
@@ -148,6 +148,19 @@ Forudsigelsen om polyklonalt hyperviskositetssyndrom er udelukkende modelbaseret
 - Gennemgang af det danske produktresumé (advarsler, kontraindikationer og godkendt indikationstekst), som mangler i de indsamlede data
 - Hvis der ønskes et sporbart forskningsspørgsmål: fokus på bubonic pest med afklaring af, om indikationen allerede er dækket af eksisterende godkendelse, samt humane kliniske data
 - Ingen yderligere ressourcer bør afsættes til polyklonalt hyperviskositetssyndrom, medmindre der fremkommer nye data om en biologisk sammenhæng
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ Bemærk: De data, der er sammenstillet til denne rapport, indeholder ikke godken
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstillede data. Felodipin er imidlertid kendt som en dihydropyridin-calciumkanalblokker (L-type), som afslapper vaskulær glat muskulatur og giver vasodilation. Denne effekt er årsagen til den blodtrykssænkende virkning ved hypertension.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Felodipine (uofficiel oversættelse): »Felodipin tilhører dihydropyridin-klassen af calciumkanalantagonister (calciumkanalblokkere). Det konkurrerer reversibelt med nitrendipin og/eller andre calciumkanalblokkere om dihydropyridin-bindingssteder, blokerer spændingsafhængige Ca ++-strømme i vaskulær glat muskulatur og i dyrkede atrieceller fra kanin og blokerer kaliuminduceret kontraktur af rottens portvene.« Engelsk originaltekst: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), version af 2024-08-07; hentet 2026-11-19). Felodipin er imidlertid kendt som en dihydropyridin-calciumkanalblokker (L-type), som afslapper vaskulær glat muskulatur og giver vasodilation. Denne effekt er årsagen til den blodtrykssænkende virkning ved hypertension.
 
 Pulmonal hypertension handler om forhøjet tryk og tonus i lungernes kar. Vasodilation kan i princippet nedsætte karmodstanden, så der er en plausibel, men generisk mekanistisk sammenhæng. Forudsigelsen understøttes ikke af indikationsspecifikke data, og TxGNN-scoren alene er ikke tilstrækkelig dokumentation.
 
@@ -134,6 +134,19 @@ Den forudsagte indikation har en meget høj modelscore, men ingen kliniske fors�
 - Systematisk litteratursøgning efter kliniske data om felodipin ved pulmonal hypertension (hæmodynamiske endepunkter)
 - Hvis relevant: vurdering af Prinzmetals angina som en separat forskningsstilling (L3), hvor der findes små kliniske studier
 - Vurdering af interaktionsrisici (især CYP3A4-hæmmere som clarithromycin) og sikkerhed hos patienter med hjertesygdom, før en klinisk undersøgelse planlægges
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

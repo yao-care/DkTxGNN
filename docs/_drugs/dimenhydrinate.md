@@ -61,7 +61,7 @@ Bemærk: En sekundær forudsigelse, **kold urticaria** (score 0,9924), har evide
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Dimenhydrinat er dog et salt af diphenhydramin og 8-chlortheophyllin. Efter absorption virker diphenhydramin-delen som en første generations H1-receptorantagonist.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dimenhydrinate (uofficiel oversættelse): »Selvom den præcise virkningsmåde for dimenhydrinat ikke er kendt, har det en dæmpende virkning på hyperstimuleret labyrintfunktion.« Engelsk originaltekst: "While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function." ([DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c), version af 2025-01-15; hentet 2026-11-19). Dimenhydrinat er dog et salt af diphenhydramin og 8-chlortheophyllin. Efter absorption virker diphenhydramin-delen som en første generations H1-receptorantagonist.
 
 Blokade af H1-receptoren er en veletableret mekanisme til at lindre histaminmedierede symptomer ved urticaria (kvaddel og kløe). Sammenhængen med de oprindelige indikationer er den antihistaminerge og antikolinerge virkning, som også bruges mod køresyge og svimmelhed. Koblingen til urticaria er derfor plausibel, men indirekte via den aktive diphenhydramin-komponent.
 
@@ -132,11 +132,12 @@ Forudsigelsen hviler alene på en høj beregnet score og en plausibel, men indir
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Olsalazin er et prodrug af 5-aminosalicylsyre (mesalazin), som anvendes ved infl
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om olsalazins detaljerede virkningsmekanisme er ikke tilgængelige. Olsalazin er et prodrug af 5-aminosalicylsyre, som bruges ved colitis ulcerosa. Dets antiinflammatoriske og NF-κB-modulerende aktivitet har ikke nogen etableret sammenhæng med patofysiologien ved myelodysplastisk syndrom (MDS), som er en klonal knoglemarvssygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Olsalazine (uofficiel oversættelse): »Når olsalazin når colon, omdanner bakterier i colon olsalazin til 5‑aminosalicylsyre (5-ASA eller mesalazin). Virkningsmekanismen for 5-ASA (mesalazin) er ikke fuldt klarlagt, men synes at være en topisk antiinflammatorisk virkning på colons epitelceller.« Engelsk originaltekst: "Upon reaching the colon, colonic bacteria convert olsalazine into 5‑aminosalicylic acid (5-ASA or mesalazine). The mechanism of action of 5-ASA (mesalamine) is not fully understood, but appears to be a topical anti-inflammatory effect on colonic epithelial cells." ([DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f), version af 2026-05-15; hentet 2026-11-19). Olsalazin er et prodrug af 5-aminosalicylsyre, som bruges ved colitis ulcerosa. Dets antiinflammatoriske og NF-κB-modulerende aktivitet har ikke nogen etableret sammenhæng med patofysiologien ved myelodysplastisk syndrom (MDS), som er en klonal knoglemarvssygdom.
 
 TxGNN-scoren (0,9991) er en ren modelforudsigelse. Scoren kommer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Stoffet absorberes desuden dårligt systemisk, hvilket yderligere begrænser en plausibel effekt på knoglemarven.
 
@@ -112,6 +112,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publi
 - Præklinisk eller mekanistisk evidens for en effekt på knoglemarv eller MDS-biologi
 - Systematisk litteratur- og forsøgsgennemgang, før en eventuel ny vurdering
 - Vurdering af administrationsvej og systemisk eksponering, da olsalazin virker lokalt i tarmen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

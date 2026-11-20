@@ -58,7 +58,7 @@ Prasugrel er en blodpladehæmmer (P2Y12-antagonist). TxGNN-modellen (deep learni
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Prasugrel er kendt som en P2Y12-receptorantagonist, der hæmmer blodpladeaggregation, og dette er grundlaget for brugen ved akut koronarsyndrom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Prasugrel (uofficiel oversættelse): »Prasugrel er en hæmmer af trombocytaktivering og -aggregation gennem irreversibel binding af dets aktive metabolit til P2Y 12 -klassen af ADP-receptorer på trombocytter.« Engelsk originaltekst: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), version af 2022-09-07; hentet 2026-11-19). Prasugrel er kendt som en P2Y12-receptorantagonist, der hæmmer blodpladeaggregation, og dette er grundlaget for brugen ved akut koronarsyndrom.
 
 Ved pulmonal hypertension spiller blodpladeaktivering og trombose in situ en rolle i ombygningen af lungekarrene. Der er derfor en plausibel, men ubevist forbindelse mellem P2Y12-hæmning og sygdommen. Modellens score er høj, men der er ingen klinisk evidens, der understøtter den.
 
@@ -136,11 +136,12 @@ Forudsigelsen for pulmonal hypertension støttes kun af modellen (evidensniveau 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

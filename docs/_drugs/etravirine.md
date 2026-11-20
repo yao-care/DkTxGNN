@@ -60,7 +60,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der direkte un
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Etravirin hæmmer HIV-1's revers transkriptase og forhindrer dermed virussets omdannelse af RNA til DNA. Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport, men NNRTI-klassens virkemåde er velkendt.
+Etravirin hæmmer HIV-1's revers transkriptase og forhindrer dermed virussets omdannelse af RNA til DNA. Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etravirine (uofficiel oversættelse): »Etravirin er et antiretroviralt lægemiddel. […] Etravirin er en NNRTI af HIV-1. Etravirin bindes direkte til revers transkriptase (RT) og blokerer de RNA-afhængige og DNA-afhængige DNA-polymeraseaktiviteter ved at forårsage en forstyrrelse af enzymets katalytiske site. Etravirin hæmmer ikke de humane DNA-polymeraser α, β og γ.« Engelsk originaltekst: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), version af 2023-08-15; hentet 2026-11-19).
 
 Felint immundefektvirus (FIV) er ligesom HIV et lentivirus, og forbindelsen mellem de to sygdomme er den sandsynlige forklaring på den høje score. Den høje score afspejler sandsynligvis primært nærhed til HIV/AIDS i videnbasens netværk.
 
@@ -128,6 +128,19 @@ Den forudsagte indikation, felint erhvervet immundefektsyndrom, er kun understø
 - Advarsler og kontraindikationer fra det danske produktresumé (SmPC) fra Lægemiddelstyrelsen, som mangler og blokerer sikkerhedsscreening
 - Direkte prækliniske data (fx enzymhæmning eller cellebaseret aktivitet mod FIV) før yderligere vurdering
 - Afklaring af, om en veterinær indikation overhovedet er relevant for en humanmedicinsk repurposing-vurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **lægemiddelinduc
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Guselkumab er dog et anti-IL-23 p19-antistof. IL-23/IL-17-signalering er i litteraturen sat i forbindelse med inflammatorisk knogletab, så en teoretisk sammenhæng findes.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Guselkumab (uofficiel oversættelse): »Guselkumab er et humant monoklonalt IgG1λ-antistof, der selektivt binder til p19-underenheden af interleukin 23 (IL-23) og hæmmer dets interaktion med IL-23-receptoren. IL-23 er et naturligt forekommende cytokin, der er involveret i normale inflammatoriske og immunologiske responser.« Engelsk originaltekst: "Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23) and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in normal inflammatory and immune responses." ([DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56), version af 2026-10-20; hentet 2026-11-19). Guselkumab er dog et anti-IL-23 p19-antistof. IL-23/IL-17-signalering er i litteraturen sat i forbindelse med inflammatorisk knogletab, så en teoretisk sammenhæng findes.
 
 Der er ingen kliniske forsøg eller publikationer i datagrundlaget, som undersøger guselkumab ved lægemiddelinduceret osteoporose. Den høje score (0,998) er derfor en ren modelforudsigelse og kan ikke i sig selv betragtes som evidens for effekt. Sammenhængen med den oprindelige indikation kan ikke vurderes, da denne ikke er oplyst.
 
@@ -122,6 +122,19 @@ Forudsigelsen om lægemiddelinduceret osteoporose bygger kun på modellen. Der e
 - Oplysninger om lægemidlets virkningsmekanisme og godkendte indikationer fra produktresuméet
 - Gennemgang af advarsler og kontraindikationer i SmPC, før en sikkerhedsvurdering kan foretages
 - Hvis en klinisk hypotese opstår, et eksplorativt forsøg i en veldefineret population
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

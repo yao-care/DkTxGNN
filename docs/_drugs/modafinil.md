@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **søvnløshed (insomnia)*
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om modafinils detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Modafinil er generelt beskrevet som et vågnefremmende stof, der påvirker dopamintransport samt histaminerge, orexinerge og glutamaterge systemer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Modafinil (uofficiel oversættelse): »Den eller de mekanismer, hvorved modafinil fremmer vågenhed, er ukendte. Modafinil har vågenhedsfremmende virkninger, der ligner virkningerne af sympatomimetiske stoffer, herunder amfetamin og methylphenidat, selvom den farmakologiske profil ikke er identisk med de sympatomimetiske aminers.« Engelsk originaltekst: "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), version af 2026-09-16; hentet 2026-11-19). Modafinil er generelt beskrevet som et vågnefremmende stof, der påvirker dopamintransport samt histaminerge, orexinerge og glutamaterge systemer.
 
 Mekanistisk er der snarere et modsætningsforhold: søvnløshed er kendetegnet ved nedsat søvn og overvågenhed (hyperarousal), og et vågnefremmende stof behandler ikke i sig selv denne kerneforstyrrelse. Den meget høje score (0,9985) afspejler sandsynligvis, at modafinil ligger tæt på søvn-vågen-forstyrrelser i modellens netværk, snarere end en reel terapeutisk sammenhæng. En eventuel gavn ville være indirekte, fx bedre dagsfunktion eller mindre søvnighed hos patienter med søvn-/vågenforstyrrelser, ikke behandling af selve søvnløsheden.
 
@@ -105,6 +105,18 @@ Evidensniveauet er L5: det eneste afsluttede forsøg ved søvnløshed (NCT001243
 - Resultater fra NCT00124384 eller nye kontrollerede forsøg direkte ved søvnløshed
 - Data om virkningsmekanisme og sikkerhedsoplysninger fra produktresuméet
 - Vurdering af, om en eventuel gavn kun er indirekte (dagsfunktion) frem for behandling af selve søvnløsheden
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

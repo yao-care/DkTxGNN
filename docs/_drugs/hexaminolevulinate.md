@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **bronkitis**, men der er 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at hexaminolevulinat er en forstadie (prodrug), som omdannes til protoporfyrin IX (PpIX) i neoplastiske celler. PpIX lyser rødt under blåt lys, hvilket gør det muligt at se tumorvæv ved cystoskopi af blæren.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hexaminolevulinate (uofficiel oversættelse): »Hexaminolevulinat er en ester af hæmprækursoren aminolevulinsyre. Efter instillation i blæren trænger hexaminolevulinat ind i blæreslimhinden og formodes at trænge ind i det intracellulære rum i slimhindecellerne, hvor det anvendes som prækursor i dannelsen af det fotoaktive intermediat protoporfyrin IX (PpIX) og andre fotoaktive porfyriner (PAP'er).« Engelsk originaltekst: "Hexaminolevulinate is an ester of the heme precursor, aminolevulinic acid. After bladder instillation, hexaminolevulinate enters the bladder mucosa and is proposed to enter the intracellular space of mucosal cells where it is used as a precursor in the formation of the photoactive intermediate protoporphyrin IX (PpIX) and other photoactive porphyrins (PAPs)." ([DailyMed: Cysview (hexaminolevulinate hydrochloride) prescribing information, Photocure Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5aeed40d-6841-4adf-8940-f51d439fdfa3), version af 2026-06-03; hentet 2026-11-19). Det er kendt, at hexaminolevulinat er en forstadie (prodrug), som omdannes til protoporfyrin IX (PpIX) i neoplastiske celler. PpIX lyser rødt under blåt lys, hvilket gør det muligt at se tumorvæv ved cystoskopi af blæren.
 
 Der er **ikke** påvist en etableret mekanistisk sammenhæng mellem PpIX-ophobning eller fotodynamiske effekter og bronkitis, som er en inflammatorisk eller infektiøs luftvejstilstand. Mulige spekulative forklaringer, fx fotodynamisk antimikrobiel effekt, understøttes ikke af de foreliggende data. Desuden gives lægemidlet intravesikalt, og levering til bronkietræet er usandsynlig uden en anden formulering. Den høje modelscore bør derfor ses som en statistisk modeludgang og ikke som biologisk dokumentation.
 
@@ -105,6 +105,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske fors�
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk evidens for en relevant effekt i luftvejene
 - Vurdering af en alternativ formulering eller administrationsvej, hvis forskning i indikationen overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cysview (hexaminolevulinate hydrochloride) prescribing information, Photocure Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5aeed40d-6841-4adf-8940-f51d439fdfa3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

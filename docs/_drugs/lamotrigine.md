@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det også kan have effekt ved **trigeminusneuralgi
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om lamotrigins virkningsmekanisme i de indsamlede data. Lamotrigin er dog kendt som en blokker af spændingsafhængige natriumkanaler, der dæmper frigørelsen af glutamat. Denne vurdering bygger på den generelle farmakologiske viden og de mekanistiske vurderinger i datagrundlaget.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lamotrigine (uofficiel oversættelse): »Den eller de præcise mekanismer, hvorved lamotrigin udøver sin antikonvulsive virkning, er ukendte. I dyremodeller designet til at påvise antikonvulsiv aktivitet var lamotrigin effektivt til at forhindre spredning af anfald i maksimalt elektroshock (MES)- og pentylentetrazol (scMet)-testene og forhindrede anfald i testene for visuelt og elektrisk fremkaldt efterudladning (EEAD) for antiepileptisk aktivitet.« Engelsk originaltekst: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), version af 2026-10-12; hentet 2026-11-19). Lamotrigin er dog kendt som en blokker af spændingsafhængige natriumkanaler, der dæmper frigørelsen af glutamat. Denne vurdering bygger på den generelle farmakologiske viden og de mekanistiske vurderinger i datagrundlaget.
 
 Trigeminusneuralgi opstår typisk ved karkompression af trigeminusnervens rod, hvilket giver fokal demyelinisering og unormale, højfrekvente udladninger. Det er den samme type overeksciterbarhed, som natriumkanalblokkere som carbamazepin og oxcarbazepin dæmper. Da lamotrigin virker via en tilsvarende mekanisme, og da det allerede er etableret ved epilepsi, er det mekanistisk plausibelt ved denne lidelse. EAN-retningslinjen fra 2019 nævner lamotrigin som tillægs- eller andenlinjemulighed.
 
@@ -133,6 +133,19 @@ Lamotrigin har plausibel mekanisme, er nævnt i europæisk retningslinje og er u
 - Anvendelse som tillægsbehandling eller ved intolerance over for førstelinjemidler, med langsom optitrering
 - Gennemgang af relevante interaktioner (især valproat og østrogenholdige p-piller) og overvågning af blodbillede og leverfunktion
 - Yderligere observationelle data for startle-epilepsi før en anbefaling kan overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Inclisiran er et siRNA-lægemiddel, der hæmmer PCSK9 i leveren. Den oprindelige
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Det er dog kendt, at inclisiran er et siRNA, som dæmper PCSK9 i leveren. Det øger genbrugen af LDL-receptorer og sænker LDL-kolesterol.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Inclisiran (uofficiel oversættelse): »Inclisiran er en dobbeltstrenget small interfering ribonukleinsyre (siRNA), konjugeret på sense-strengen med triantennær N-acetylgalactosamin (GalNAc) for at fremme optagelse i hepatocytter. I hepatocytter udnytter inclisiran RNA-interferensmekanismen og styrer katalytisk nedbrydning af mRNA for PCSK9.« Engelsk originaltekst: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), version af 2026-08-19; hentet 2026-11-19). Det er dog kendt, at inclisiran er et siRNA, som dæmper PCSK9 i leveren. Det øger genbrugen af LDL-receptorer og sænker LDL-kolesterol.
 
 PCSK9 har ingen kendt rolle i kaliumhomeostase. Der kan derfor ikke identificeres en plausibel mekanistisk sammenhæng mellem lægemidlets virkning og kaliummangel. Den høje score er en beregningsmæssig forudsigelse uden støtte fra kliniske data eller litteratur. Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som et holdepunkt for klinisk anvendelse.
 
@@ -123,6 +123,19 @@ Der er ingen kliniske studier eller publikationer, som direkte undersøger incli
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Mekanistiske eller præklinske data, der kan understøtte en forbindelse mellem PCSK9-hæmning og kaliumhomeostase
 - Verifikation af, hvilke tilstande de to pædiatriske studier faktisk omfatter
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

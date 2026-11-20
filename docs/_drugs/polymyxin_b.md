@@ -56,7 +56,7 @@ Bemærk: Der blev forudsagt tre indikationer. Bronkitis har højest score, men s
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Polymyxin B er kendt som et kationisk lipopeptid, der skader den ydre membran hos gramnegative bakterier. Der er derfor en teoretisk antibakteriel begrundelse for at anvende det ved bronkitis eller trakeobronkitis forårsaget af multiresistente gramnegative bakterier.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Polymyxin B (uofficiel oversættelse): »Polymyxin B-sulfat har en baktericid virkning mod næsten alle gramnegative stave undtagen Proteus-gruppen. Polymyxiner øger permeabiliteten af bakteriens cellemembran, hvilket fører til cellens død. Alle grampositive bakterier, svampe og gramnegative kokker er resistente over for polymyxin B. For specifik information om kriterier for følsomhedstestning og tilhørende testmetoder og kvalitetskontrolstandarder, som er anerkendt af FDA for dette lægemiddel, se: www.fda.gov/STIC.« Engelsk originaltekst: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6), version af 2026-06-22; hentet 2026-11-19). Polymyxin B er kendt som et kationisk lipopeptid, der skader den ydre membran hos gramnegative bakterier. Der er derfor en teoretisk antibakteriel begrundelse for at anvende det ved bronkitis eller trakeobronkitis forårsaget af multiresistente gramnegative bakterier.
 
 Den tilgængelige litteratur er dog hovedsageligt indirekte. Den omfatter kasuistiske serier og kohortestudier om ventilatorassocieret pneumoni og trakeobronkitis (med inhaleret polymyxin B som redningsbehandling) samt ældre studier, hvor inhaleret polymyxin B blev brugt til at fremkalde bronkial provokation. Disse viser bronkokonstriktion og øget bronkial reaktivitet hos patienter med astma og kronisk obstruktiv bronkitis, hvilket er et sikkerhedssignal for inhalation. Flere øvrige artikler handler om dyremodeller for eosinofil bronkitis, hvor polymyxin B bruges til at fremkalde sygdommen, og ikke om behandling.
 
@@ -89,7 +89,6 @@ Nedenfor er de mest relevante publikationer for bronkitis (op til 10).
 |---------|------|------|-----------|
 | 28100286458 | Terramycin-Polymyxin B | Øjensalve | Indikationstekst ikke tilgængelig |
 | 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
-
 
 ## Sikkerhedsovervejelser
 
@@ -124,6 +123,19 @@ Der findes ingen kliniske forsøg for bronkitis, og litteraturen er hovedsagelig
 - Produktresumé-data (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
 - Kontrollerede kliniske data for inhaleret polymyxin B ved bakteriel bronkitis, herunder en vurdering af bronkospasmerisikoen
 - Afklaring af, om kombinationen polymyxin B/trimethoprim til konjunktivitis allerede er dækket af eksisterende danske godkendelser, da den indikation kan vurderes særskilt (Proceed with Guardrails)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

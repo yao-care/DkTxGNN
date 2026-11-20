@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **reumatoid artrit
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er cabotegravir en integrase-strengoverførselshæmmer (INSTI), der blokerer HIV-1-integrase, et viralt enzym uden kendt humant homolog.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cabotegravir (uofficiel oversættelse): »Cabotegravir er et antiretroviralt lægemiddel mod HIV-1. […] Cabotegravir hæmmer HIV-integrase ved at binde sig til integrasens aktive sted og blokere strengoverførselstrinnet i integrationen af retroviral deoxyribonukleinsyre (DNA), som er essentielt for HIV's replikationscyklus. Den gennemsnitlige 50 % hæmmende koncentration (IC 50 ) for cabotegravir i et strengoverførselsassay med oprenset rekombinant HIV-1-integrase var 3,0 nM.« Engelsk originaltekst: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), version af 2025-04-11; hentet 2026-11-19). Ud fra almen viden er cabotegravir en integrase-strengoverførselshæmmer (INSTI), der blokerer HIV-1-integrase, et viralt enzym uden kendt humant homolog.
 
 Der er ikke påvist nogen mekanistisk sammenhæng mellem denne virkning og reumatoid artritis. Cabotegravir har ingen kendt immunmodulerende aktivitet i de centrale sygdomsveje (TNF, IL-6, JAK/STAT, B-celle- eller T-cellesignalering). Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -118,6 +118,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litter
 - Oplysninger om godkendt indikation, advarsler og kontraindikationer fra produktresuméet
 - Kontrol og oprydning af dublerede forudsigelser i datagrundlaget
 - Vurdering af administrationsvej og formulering, hvis forudsigelsen skal forfølges
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

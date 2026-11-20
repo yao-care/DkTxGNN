@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt på **neoplasmer i de øvre lu
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Dacarbazin er et alkylerende middel (methylerende prodrug, aktiveret i leveren til MTIC) med cytotoksisk aktivitet mod melanom og Hodgkins lymfom. Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, så mekanismen er udledt af almen farmakologi.
+Dacarbazin er et alkylerende middel (methylerende prodrug, aktiveret i leveren til MTIC) med cytotoksisk aktivitet mod melanom og Hodgkins lymfom. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Dacarbazine (uofficiel oversættelse): »DNA-hæmmer« Engelsk originaltekst: "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; hentet 2026-11-19).
 
 Sammenhængen med den forudsagte indikation er indirekte. Både melanom og Hodgkins lymfom kan involvere hoved- og halsregionen og slimhinderne i de øvre luft- og fordøjelsesveje (f.eks. slimhindemetastaser af melanom og ekstranodal/nodal Hodgkins lymfom i hoved-halsregionen). Lægemidlet behandler altså tumortyper, der forekommer på disse steder, snarere end en veldefineret enhed kaldet "neoplasmer i de øvre luft- og fordøjelsesveje". Dacarbazinholdige regimer har desuden været brugt ved neuroendokrine tumorer (medullært thyreoideakarcinom, malign paragangliom), hvilket er et yderligere indirekte signal.
 
@@ -136,6 +136,19 @@ Forudsigelsen er udelukkende modelbaseret (L4). Der er ingen kliniske forsøg og
 - Produktresuméet fra Lægemiddelstyrelsen med advarsler og kontraindikationer samt godkendt indikationstekst
 - Systematisk litteratursøgning og evt. kliniske forsøg specifikt for dacarbazin ved den forudsagte indikation
 - Vurdering af sammenhængen med den oprindelige indikation og af administrationsvej
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

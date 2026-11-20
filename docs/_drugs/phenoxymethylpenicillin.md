@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **epiglottitis** (og s
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra klassen er phenoxymethylpenicillin et betalaktam-antibiotikum, der hæmmer bakteriel cellevægssyntese via penicillinbindende proteiner. Det er virksomt mod streptokokker og penicillinfølsomme bakterier.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Phenoxymethylpenicillin (uofficiel oversættelse): »Phenoxymethylpenicillin udøver en baktericid virkning over for penicillinfølsomme mikroorganismer i fasen med aktiv formering. Det virker ved at hæmme biosyntesen af cellevæggens mukopeptid. Det er ikke aktivt over for penicillinaseproducerende bakterier, som omfatter mange stammer af stafylokokker.« Engelsk originaltekst: "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea), version af 2026-11-12; hentet 2026-11-19). Ud fra klassen er phenoxymethylpenicillin et betalaktam-antibiotikum, der hæmmer bakteriel cellevægssyntese via penicillinbindende proteiner. Det er virksomt mod streptokokker og penicillinfølsomme bakterier.
 
 Epiglottitis er typisk bakteriel (historisk *Haemophilus influenzae* type b, men også *Streptococcus pyogenes*, *S. pneumoniae* og *S. aureus*). Der er derfor en biologisk sammenhæng med lægemidlets kendte anvendelse mod streptokok- og øvre luftvejsinfektioner.
 
@@ -118,6 +118,19 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller direkte lit
 - Produktresumé med advarsler og kontraindikationer for det danske produkt
 - Vurdering af rutekompatibilitet (oral vs. parenteral behandling i en akut situation)
 - Klinisk vurdering af mikrobiologisk dækning og lokale resistensmønstre
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

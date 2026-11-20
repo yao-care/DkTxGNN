@@ -60,7 +60,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** i de data, der 
 
 ## Hvorfor kan forudsigelsen forekomme rimelig, og hvorfor er den svag?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige. Efmoroctocog alfa er et rekombinant faktor VIII (FVIII) koblet til et Fc-fragment. Det erstatter manglende FVIII i den indre koagulationskaskade og er kendt i relation til hæmofili.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Efmoroctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0; hentet 2026-11-19). Efmoroctocog alfa er et rekombinant faktor VIII (FVIII) koblet til et Fc-fragment. Det erstatter manglende FVIII i den indre koagulationskaskade og er kendt i relation til hæmofili.
 
 Pseudo-von Willebrand sygdom er en trombocytlidelse, som skyldes funktionsforstærkende varianter i GP1BA. De øger trombocytternes binding til von Willebrand-faktor (VWF) og fører til tab af højmolekylære VWF-multimerer. FVIII-erstatning løber ikke ind i denne trombocytreceptordefekt. Et eventuelt udbytte ville være indirekte. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -135,11 +135,12 @@ Forudsigelsen for pseudo-von Willebrand sygdom bygger udelukkende på modelscore
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

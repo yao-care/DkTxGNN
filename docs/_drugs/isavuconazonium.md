@@ -58,7 +58,7 @@ Isavuconazonium er et forstadie (prodrug) til isavuconazol, et bredspektret svam
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt viden er isavuconazonium et prodrug af isavuconazol, som hæmmer svampens enzym lanosterol 14-alfa-demethylase (CYP51) og dermed blokerer syntesen af ergosterol, en nødvendig komponent i svampens cellemembran.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Isavuconazonium (uofficiel oversættelse): »Isavuconazoniumsulfat er prodrug for isavuconazol, et azol-antimykotikum. […] Isavuconazoniumsulfat er prodrug for isavuconazol, et antimykotisk lægemiddel af azoltypen. Isavuconazol hæmmer syntesen af ergosterol, en central bestanddel af svampecellemembranen, gennem hæmning af det cytokrom P-450-afhængige enzym lanosterol-14-alfa-demethylase.« Engelsk originaltekst: "Isavuconazonium sulfate is the prodrug of isavuconazole, an azole antifungal. […] Isavuconazonium sulfate is the prodrug of isavuconazole, an azole antifungal drug. Isavuconazole inhibits the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14-alpha-demethylase." ([DailyMed: Cresemba (isavuconazonium sulfate) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c), version af 2025-04-25; hentet 2026-11-19). Ud fra kendt viden er isavuconazonium et prodrug af isavuconazol, som hæmmer svampens enzym lanosterol 14-alfa-demethylase (CYP51) og dermed blokerer syntesen af ergosterol, en nødvendig komponent i svampens cellemembran.
 
 **Mycetom:** Eumycetom (den svampeforårsagede form, fx *Madurella mycetomatis*) skyldes svampe med ergosterol i cellemembranen, som generelt er følsomme over for azoler. Mekanismen er derfor plausibel. Itraconazol er nuværende standardbehandling, og fosravuconazol, et andet azol-prodrug, har vist gavnlig effekt i et fase 2-forsøg. Isavuconazol er et beslægtet triazol, hvilket giver indirekte støtte. Actinomycetom er derimod bakteriel og forventes ikke at responderere på et svampemiddel.
 
@@ -112,6 +112,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 - Prækliniske data (in vitro-følsomhed af *Madurella mycetomatis* over for isavuconazol) og kliniske data eller case-serier for mycetom
 - Afklaring af sygdomsform (eumycetom vs. actinomycetom) og vurdering af dosering, behandlingsvarighed og interaktionsstyring
 - Afklaring af, hvilke indikationer der er godkendt for Cresemba i Danmark
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cresemba (isavuconazonium sulfate) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

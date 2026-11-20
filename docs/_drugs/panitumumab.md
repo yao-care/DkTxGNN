@@ -56,7 +56,7 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Panitumumab er kendt som et fuldt humant monoklonalt antistof, der blokerer den epidermale vækstfaktorreceptor (EGFR). Dets effekt ved metastatisk tyktarmskræft er etableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Panitumumab (uofficiel oversættelse): »EGFR er et transmembrant glykoprotein, der tilhører en underfamilie af type I-receptortyrosinkinaser, som omfatter EGFR, HER2, HER3 og HER4. EGFR udtrykkes konstitutivt i normalt epitelvæv, herunder huden og hårfolliklerne. […] Panitumumab bindes specifikt til EGFR på både normale celler og tumorceller og hæmmer kompetitivt bindingen af ligander til EGFR.« Engelsk originaltekst: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), version af 2026-06-23; hentet 2026-11-19). Panitumumab er kendt som et fuldt humant monoklonalt antistof, der blokerer den epidermale vækstfaktorreceptor (EGFR). Dets effekt ved metastatisk tyktarmskræft er etableret.
 
 EGFR-signalering spiller en rolle i osteoblastdifferentiering og knogleomsætning, så EGFR-blokade kan i princippet påvirke knoglemetabolismen. Retningen er dog tvivlsom: EGFR-hæmning vil sandsynligvis snarere hæmme knogledannelsen end beskytte mod osteoporose. Anti-EGFR-behandling er desuden forbundet med hypomagnesæmi og hypokalcæmi, som kan påvirke knoglerne negativt.
 
@@ -116,6 +116,19 @@ Forudsigelsen er udelukkende beregningsbaseret (evidensniveau L5) uden kliniske 
 - Produktresuméets advarsler og kontraindikationer (blokerende datamangel for sikkerhedsscreening)
 - Afklaring af administrationsvej og risk-benefit i forhold til eksisterende behandlinger
 - Systematisk litteratur- og forsøgssøgning for den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

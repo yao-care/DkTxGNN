@@ -60,7 +60,7 @@ Forudsigelsen understøttes dog kun svagt: der er **2 kliniske forsøg** og **8 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Salmeterol tilhører gruppen af langtidsvirkende beta-2-agonister, som afslapper glat muskulatur i luftvejene.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Salmeterol (uofficiel oversættelse): »Salmeterol er en selektiv LABA. In vitro-studier viser, at salmeterol er mindst 50 gange mere selektiv for beta 2 -adrenoceptorer end salbutamol. Selvom beta 2 -adrenoceptorer er de dominerende adrenerge receptorer i bronkiernes glatte muskulatur, og beta 1 -adrenoceptorer er de dominerende receptorer i hjertet, findes der også beta 2 -adrenoceptorer i det humane hjerte, som udgør 10 % til 50 % af de samlede beta-adrenoceptorer.« Engelsk originaltekst: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), version af 2022-10-10; hentet 2026-11-19). Salmeterol tilhører gruppen af langtidsvirkende beta-2-agonister, som afslapper glat muskulatur i luftvejene.
 
 Sammenhængen mellem salmeterol og luftvejsmisdannelser er indirekte og svag. Der er beskrevet nedsat mucociliær funktion ved KOL og primær ciliedyskinesi (PMID 22608352, 20703071), og salmeterol kan muligvis øge cilieslagfrekvensen. Det er imidlertid ikke dokumenteret, at dette gavner strukturelle misdannelser i luftvejene. De to registrerede forsøg handler om cystisk fibrose og astma under graviditet, og størstedelen af litteraturen omhandler KOL og astma. Forudsigelsen er derfor primært beregningsbaseret.
 
@@ -120,6 +120,18 @@ Der findes ingen kliniske forsøg eller publikationer, som direkte undersøger s
 - Studier, der direkte undersøger salmeterol hos patienter med luftvejsmisdannelse
 - Gennemgang af produktresuméet for advarsler og kontraindikationer samt en vurdering af interaktionsrisici (bl.a. clarithromycin)
 - Afklaring af relevante administrationsveje og patientgrupper
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

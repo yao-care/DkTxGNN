@@ -56,7 +56,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer, der direkte unde
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Theophyllin er dog kendt som en uselektiv phosphodiesterasehæmmer og adenosinreceptorantagonist. Hæmning af phosphodiesterase øger cAMP i blodplader, hvilket teoretisk kan dæmpe trombocytaggregation. Der er således en mekanistisk begrundelse for forudsigelsen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Theophylline (uofficiel oversættelse): »Theophyllin har to forskellige virkninger i luftvejene hos patienter med reversibel obstruktion: afslapning af glat muskulatur (dvs. bronkodilatation) og hæmning af luftvejenes respons på stimuli (dvs. ikke-bronkodilaterende profylaktiske virkninger).« Engelsk originaltekst: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), version af 2024-07-08; hentet 2026-11-19). Theophyllin er dog kendt som en uselektiv phosphodiesterasehæmmer og adenosinreceptorantagonist. Hæmning af phosphodiesterase øger cAMP i blodplader, hvilket teoretisk kan dæmpe trombocytaggregation. Der er således en mekanistisk begrundelse for forudsigelsen.
 
 Samtidig er retningen af effekten usikker: Adenosinantagonisme kan modvirke hæmning af blodplader. Ingen af de fundne publikationer tester theophyllin som antitrombotisk middel. De handler om ticlopidins farmakokinetik, analyser af trombocytmarkører, antikoagulation ved prøvehåndtering og en theophyllinsensor. Den høje score er en beregnet forudsigelse uden klinisk støtte.
 
@@ -127,11 +127,12 @@ Forudsigelsen hviler alene på en beregnet score. Der findes ingen kliniske fors
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
 
 <!-- review:end log -->
 

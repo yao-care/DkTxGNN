@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **symptomatisk hæ
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Evolocumab er et antistof, der binder PCSK9 og blokerer dets virkning uden for cellen. Dermed bevares flere LDL-receptorer på leverceller, og LDL-kolesterol i blodet falder. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data, men målet (PCSK9, gen *PCSK9*) fremgår af farmakologidata.
+Evolocumab er et antistof, der binder PCSK9 og blokerer dets virkning uden for cellen. Dermed bevares flere LDL-receptorer på leverceller, og LDL-kolesterol i blodet falder. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Evolocumab (uofficiel oversættelse): »Evolocumab er et humant monoklonalt IgG2 rettet mod human proproteinkonvertase subtilisin/kexin type 9 (PCSK9). PCSK9 bindes til low-density lipoprotein-receptoren (LDLR) på overfladen af hepatocytter og fremmer nedbrydningen af LDLR i leveren.« Engelsk originaltekst: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), version af 2026-10-12; hentet 2026-11-19).
 
 Der er ikke identificeret nogen plausibel biologisk sammenhæng mellem denne mekanisme og den forudsagte sygdom. Symptomatisk hæmofili hos kvindelige bærere skyldes nedsat aktivitet af faktor VIII eller IX som følge af X-bundne varianter og skæv X-inaktivering. PCSK9-hæmning påvirker ikke koagulationsfaktorer.
 
@@ -107,6 +107,19 @@ Forudsigelsen bygger udelukkende på en grafbaseret model uden kliniske forsøg 
 - Detaljerede data om virkningsmekanisme
 - Prækliniske eller kliniske data, der direkte undersøger evolocumab ved den forudsagte sygdom, før en videre vurdering er meningsfuld
 - Overvejelse af, om andre kandidater (fx familiær apolipoprotein C-II-mangel) fortjener en separat, målrettet vurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

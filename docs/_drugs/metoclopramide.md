@@ -60,7 +60,7 @@ men evidensen er svag: der er **1 klinisk forsøg** (indirekte relevans) og kun 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme var ikke tilgængelige i de indsamlede data. Ud fra den kendte farmakologi er metoclopramid en dopamin D2-antagonist og 5-HT4-agonist, som øger mavesækkens tømning og motiliteten i den øvre mave-tarm-kanal.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Metoclopramide (uofficiel oversættelse): »Metoclopramid stimulerer motiliteten i den øvre del af mave-tarm-kanalen uden at stimulere ventrikel-, galde- eller pankreassekretionen. Den nøjagtige virkningsmekanisme for metoclopramid ved behandling af gastroøsofageal refluks og akut og recidiverende diabetisk gastroparese er ikke fuldt fastlagt.« Engelsk originaltekst: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), version af 2026-02-09; hentet 2026-11-19). Ud fra den kendte farmakologi er metoclopramid en dopamin D2-antagonist og 5-HT4-agonist, som øger mavesækkens tømning og motiliteten i den øvre mave-tarm-kanal.
 
 Den oprindelige indikation (reflux og øsofagitis) og gastroduodenitis hører begge til de øvre gastrointestinale sygdomme. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Metoclopramid har dog hverken syrehæmmende eller slimhindebeskyttende effekt og adresserer ikke sygdommens patofysiologi (syre, *H. pylori*, NSAID-skade).
 
@@ -128,6 +128,19 @@ Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og afspejler san
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - Kontrollerede studier med sårheling som endepunkt, hvis hypotesen skal forfølges
 - Afklaring af, om anvendelsen før endoskopi ved øvre GI-blødning bør vurderes som en separat, procedurerelateret indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

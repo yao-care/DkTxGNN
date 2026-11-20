@@ -60,7 +60,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer** for denne indik
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Oxybutynin er kendt som en muskarin antagonist med direkte spasmolytisk effekt på glat muskulatur.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Oxybutynin (uofficiel oversættelse): »Oxybutynin afslapper blærens glatte muskulatur. Oxybutyninchlorid udøver en direkte spasmolytisk virkning på glat muskulatur og hæmmer acetylcholins muskarine virkning på glat muskulatur. Der forekommer ingen blokerende virkninger ved skeletmuskulaturens neuromuskulære overgange eller i autonome ganglier (antinikotinerge virkninger).« Engelsk originaltekst: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), version af 2026-11-11; hentet 2026-11-19). Oxybutynin er kendt som en muskarin antagonist med direkte spasmolytisk effekt på glat muskulatur.
 
 Restless legs syndrom hænger primært sammen med dysfunktion i dopaminsystemet og jernmangel i hjernen. Etablerede behandlingsklasser omfatter bl.a. alfa-2-delta-ligander. Antikolinerge midler er ikke en etableret behandling, og den antikolinerge byrde kan forværre søvn og kognition.
 
@@ -129,6 +129,19 @@ Forudsigelsen for restless legs syndrom bygger udelukkende på en modelscore (L5
 
 - **Gastroduodenitis** (score 0,9962, L5, Hold): Teoretisk effekt via nedsat motilitet og sekretion, men ingen forsøg eller litteratur. Antikolinerge midler kan nedsætte tonus i nedre øsofagussfinkter og forværre reflux.
 - **Ulcus pepticum** (score 0,9931, L4, Hold): Støttes kun af indirekte, historisk litteratur: en klinisk evaluering fra 1964 ([PMID 14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/)), en farmakologisk oversigt fra 1965 ([PMID 4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/)) og en case-rapport fra 1990 om oxybutynin-induceret refluksøsofagitis ([PMID 2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/)), som udgør et sikkerhedssignal. Med moderne standardbehandling (PPI, H. pylori-eradikation) er den tilføjede værdi lav.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

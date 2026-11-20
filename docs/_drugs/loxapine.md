@@ -62,7 +62,7 @@ Der er **ingen registrerede kliniske forsøg** i de indsamlede data, men **20 pu
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om virkningsmekanisme er ikke tilgængelige i de kompilerede data. Ud fra almen farmakologisk viden er loxapin et dibenzoxazepin-antipsykotikum med antagonisme af dopamin D2- og serotonin 5-HT2A-receptorer. Det stemmer overens med antimane og beroligende (anti-agiterende) effekter.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Loxapine (uofficiel oversættelse): »Farmakologisk er loxapin et antipsykotikum, hvis nøjagtige virkningsmåde ikke er fastlagt. Der er dog hos flere dyrearter observeret ændringer i excitabilitetsniveauet i subkortikale hæmmende områder i forbindelse med sådanne udtryk for trankvillisering som beroligende virkning og undertrykkelse af aggressiv adfærd.« Engelsk originaltekst: "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), version af 2026-11-03; hentet 2026-11-19). Ud fra almen farmakologisk viden er loxapin et dibenzoxazepin-antipsykotikum med antagonisme af dopamin D2- og serotonin 5-HT2A-receptorer. Det stemmer overens med antimane og beroligende (anti-agiterende) effekter.
 
 Den forudsagte indikation er i vid udstrækning en forlængelse af den oprindelige bipolare indikation og ikke en egentlig ny anvendelse. Inhaleret loxapin (Adasuve) er godkendt i EU og USA til akut agitation hos patienter med bipolar lidelse eller skizofreni. Litteraturen indeholder flere oversigtsartikler og ekspertkommentarer om effekt og sikkerhed.
 
@@ -124,6 +124,19 @@ Den forudsagte indikation er tæt knyttet til den kendte bipolare indikation, og
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - Afklaring af, om den forudsagte indikation (manisk bipolar lidelse generelt) går ud over den godkendte indikation (akut agitation)
 - Plan for sikkerhedsovervågning: lungefunktion/bronkospasme, sedation, ekstrapyramidale symptomer og gennemgang af samtidig medicin
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

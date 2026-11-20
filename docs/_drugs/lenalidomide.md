@@ -60,7 +60,7 @@ og der er i de indsamlede data identificeret **47 kliniske forsøg** og **19 pub
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen for den oprindelige indikation er ikke tilgængelige i de data, der er indsamlet til denne rapport. Følgende bygger derfor på almen viden og ikke på de leverede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lenalidomide (uofficiel oversættelse): »Lenalidomid er en analog af thalidomid med immunmodulerende, antiangiogene og antineoplastiske egenskaber. Lenalidomids cellulære aktiviteter medieres via dets mål cereblon, en komponent i et cullin-ring-E3-ubiquitinligase-enzymkompleks.« Engelsk originaltekst: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), version af 2023-03-24; hentet 2026-11-19). Følgende bygger derfor på almen viden og ikke på de leverede data.
 
 Lenalidomid binder cereblon (CRBN) og omdirigerer E3-ligasekomplekset CRL4-CRBN, så proteinerne IKZF1, IKZF3 og CK1alpha nedbrydes. Nedbrydningen af CK1alpha er central for responset ved MDS med del(5q). Derudover har stoffet immunmodulerende virkning (aktivering af T- og NK-celler), som kan understøtte vedligeholdelsesbehandling efter remission eller efter transplantation.
 
@@ -150,6 +150,19 @@ Der foreligger en række afsluttede fase 2-forsøg ved AML og højrisiko-MDS, og
 - Randomiserede data, der isolerer lenalidomids bidrag, samt afklaring af effekten i undergrupper (del(5q) versus ikke-del(5q))
 - Plan for sikkerhedsovervågning (blodtal, tromboserisiko, teratogenicitet og interaktioner med statiner)
 - Afklaring af, om forslagene om del(5q) og uklassificeret MDS reelt blot er delmængder af den allerede godkendte MDS-indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

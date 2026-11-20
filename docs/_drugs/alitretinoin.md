@@ -58,7 +58,7 @@ Alitretinoin (9-cis-retinsyre) er et retinoid, der aktiverer retinsyre- og retin
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Farmakologiske data viser, at alitretinoin binder til retinsyrereceptorerne RAR-α, -β og -γ samt retinoid X-receptorerne RXR-α, -β og -γ. Disse nukleære receptorer regulerer genekspression. Databasen nævner også VKORC1 som mål.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Alitretinoin (uofficiel oversættelse): »Alitretinoin (9-cis-retinsyre) er et naturligt forekommende endogent retinoid, der binder til og aktiverer alle kendte intracellulære retinoidreceptorsubtyper (RARα, RARβ, RARγ, RXRα, RXRβ og RXRγ). Når disse receptorer er aktiveret, fungerer de som transkriptionsfaktorer, der regulerer ekspressionen af gener, som styrer processen for celledifferentiering og -proliferation i både normale og neoplastiske celler.« Engelsk originaltekst: "Alitretinoin (9-cis-retinoic acid) is a naturally occurring endogenous retinoid that binds to and activates all known intracellular retinoid receptor subtypes (RARα, RARβ, RARγ, RXRα, RXRβ and RXRγ). Once activated these receptors function as transcription factors that regulate the expression of genes that control the process of cellular differentiation and proliferation in both normal and neoplastic cells." ([DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555), version af 2025-11-25; hentet 2026-11-19). Farmakologiske data viser, at alitretinoin binder til retinsyrereceptorerne RAR-α, -β og -γ samt retinoid X-receptorerne RXR-α, -β og -γ. Disse nukleære receptorer regulerer genekspression. Databasen nævner også VKORC1 som mål.
 
 Der er ingen dokumenteret mekanistisk forbindelse mellem disse receptorer og den hypothalamiske-hypofysære-ovarie-akse, som styrer menstruationscyklus. Den høje score er en ren modelberegning. Retinoider er desuden teratogene og kan give menstruationsforstyrrelser, så et sikkerhedssignal er mere sandsynligt end en terapeutisk effekt.
 
@@ -127,11 +127,12 @@ Der findes hverken kliniske forsøg eller publikationer, som undersøger alitret
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof.” → “Der er 8 gyldige tilladelser for lægemidler med enkelt indholdsstof.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555) |
 
 <!-- review:end log -->
 

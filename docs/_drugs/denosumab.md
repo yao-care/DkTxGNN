@@ -60,7 +60,7 @@ men der er **0 kliniske forsøg** og kun **2 indirekte publikationer** til at un
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om denosumabs virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til rapporten. Denosumab er kendt som en hæmmer af RANKL, og effekten ved osteoporose er veldokumenteret. Om denne mekanisme kan overføres til diabetisk retinopati, er imidlertid ikke påvist.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Denosumab (uofficiel oversættelse): »Denosumab-præparater binder sig til RANKL, et transmembrant eller opløseligt protein, der er essentielt for dannelsen, funktionen og overlevelsen af osteoklaster, de celler, der er ansvarlige for knogleresorption. Denosumab-præparater forhindrer RANKL i at aktivere sin receptor, RANK, på overfladen af osteoklaster og deres forstadier.« Engelsk originaltekst: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), version af 2026-11-04; hentet 2026-11-19). Denosumab er kendt som en hæmmer af RANKL, og effekten ved osteoporose er veldokumenteret. Om denne mekanisme kan overføres til diabetisk retinopati, er imidlertid ikke påvist.
 
 RANKL/RANK-signalering er spekulativt blevet sat i forbindelse med inflammation og karforkalkning. En sandsynlig vej til retinal mikrovaskulær sygdom (VEGF-drevet angiogenese, neurovaskulær degeneration) er dog ikke etableret i de foreliggende data. Forudsigelsen er derfor en ren beregningsmæssig association.
 
@@ -116,6 +116,19 @@ Forudsigelsen bygger udelukkende på TxGNN-modellen (evidensniveau L5). Der find
 - Gennemgang af fuldtekst for PMID 38899553 med fokus på retinopati-resultater
 - Prækliniske studier og efterfølgende velgennemførte kliniske forsøg (helst randomiserede) ved diabetisk retinopati
 - Oprydning af dublerede forudsigelser (begge indikationer optræder to gange i datagrundlaget)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

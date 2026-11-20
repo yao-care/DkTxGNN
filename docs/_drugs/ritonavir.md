@@ -64,7 +64,7 @@ Evidensniveauet er L5, fordi ingen af de citerede studier undersøger ritonavir 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ritonavir er ud fra almen farmakologisk viden en hæmmer af HIV-1-proteasen og anvendes også som farmakokinetisk booster via hæmning af CYP3A4. Dette er ikke bekræftet af de leverede data.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ritonavir (uofficiel oversættelse): »Ritonavir er et antiretroviralt lægemiddel. […] Ritonavir er en peptidomimetisk hæmmer af HIV-1-protease. Hæmning af HIV-protease gør enzymet ude af stand til at processere Gag-Pol-polyproteinprækursoren, hvilket fører til dannelse af ikke-infektiøse, umodne HIV-partikler.« Engelsk originaltekst: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), version af 2026-07-23; hentet 2026-11-19). Ritonavir er ud fra almen farmakologisk viden en hæmmer af HIV-1-proteasen og anvendes også som farmakokinetisk booster via hæmning af CYP3A4. Dette er ikke bekræftet af de leverede data.
 
 SIV er et lentivirus, der er nært beslægtet med HIV, og dets protease ligner HIV-1-proteasen. Et laboratoriestudie (PMID 12709355) viste, at SIVmac239 blev hæmmet af ritonavir med en 50 % effektiv koncentration på ca. 13 nM mod ca. 25 nM for HIV-1. Det gør en hæmning af viral protease mekanistisk plausibel.
 
@@ -103,7 +103,6 @@ Kun to studier (PMID 12709355 og 12951220) nævner ritonavir direkte i de tilgæ
 |---------|------|------|-----------|
 | 28104456009 | Norvir | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
 
-
 ---
 
 ## Sikkerhedsovervejelser
@@ -128,6 +127,19 @@ Der findes ingen kliniske forsøg, og litteraturen består af laboratorie- og dy
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Afklaring af, om der overhovedet er et humant eller veterinært behandlingsbehov, som en repurposing-indsats skal adressere
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

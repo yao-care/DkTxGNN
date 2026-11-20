@@ -58,7 +58,7 @@ Telmisartan er en angiotensin II-receptorblokker (ARB), som oprindeligt bruges t
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke i øjeblikket detaljerede data om virkningsmekanismen i de sammenstillede data. Telmisartan er kendt som en selektiv AT1-receptorblokker. Dens effekt ved forhøjet blodtryk er veletableret, og mekanistisk kan den tænkes at være relevant for Prinzmetal-angina.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Telmisartan (uofficiel oversættelse): »Angiotensin II dannes ud fra angiotensin I i en reaktion katalyseret af angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det primære pressorstof i renin-angiotensin-systemet med virkninger, der omfatter vasokonstriktion, stimulering af syntese og frigivelse af aldosteron, hjertestimulering og renal reabsorption af natrium. […] Telmisartan blokerer de vasokonstriktive og aldosteronsekretionsfremmende virkninger af angiotensin II ved selektivt at blokere bindingen af angiotensin II til AT 1-receptoren i mange væv, såsom glat muskulatur i karvæggen og binyren.« Engelsk originaltekst: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), version af 2026-11-02; hentet 2026-11-19). Telmisartan er kendt som en selektiv AT1-receptorblokker. Dens effekt ved forhøjet blodtryk er veletableret, og mekanistisk kan den tænkes at være relevant for Prinzmetal-angina.
 
 Prinzmetal-angina skyldes spasmer i kranspulsårerne. Det er teoretisk muligt, at blokade af AT1-receptoren og en forbedret endotelfunktion kan dæmpe karspasmer. Dette er imidlertid kun en hypotese baseret på netværksnærhed i modellen; der er ikke leveret forsøg eller litteratur, som understøtter den.
 
@@ -116,6 +116,19 @@ Forudsigelsen for Prinzmetal-angina bygger udelukkende på en modelscore uden kl
 - Detaljerede data om virkningsmekanisme (MOA)
 - Indikationstekst og sikkerhedsoplysninger fra det danske produktresumé (advarsler og kontraindikationer)
 - Vurdering af, om andre veletablerede behandlinger af Prinzmetal-angina gør nyt forsøgsarbejde relevant
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

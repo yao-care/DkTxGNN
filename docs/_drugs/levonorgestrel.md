@@ -54,7 +54,7 @@ Levonorgestrel er et syntetisk gestagen, der bruges i hormonelle præventionsmid
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om levonorgestrels virkningsmekanisme i de data, der er indsamlet til denne rapport. Levonorgestrel er et gestagen, og akne er en lidelse i talgkirtelenhederne i huden, hvor androgener (mandlige kønshormoner) spiller en vigtig rolle. Derfor er der en overordnet hormonel sammenhæng.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Levonorgestrel (uofficiel oversættelse): »Den lokale mekanisme, hvorved kontinuerligt frigivet LNG bidrager til den kontraceptive virkning af Skyla, er ikke endegyldigt påvist. Undersøgelser af Skyla og lignende LNG IUS-prototyper har peget på flere mekanismer, der forhindrer graviditet: fortykkelse af cervixslimen, som forhindrer passage af sædceller ind i uterus, hæmning af sædcellernes kapacitering eller overlevelse samt ændring af endometriet.« Engelsk originaltekst: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), version af 2026-03-04; hentet 2026-11-19). Levonorgestrel er et gestagen, og akne er en lidelse i talgkirtelenhederne i huden, hvor androgener (mandlige kønshormoner) spiller en vigtig rolle. Derfor er der en overordnet hormonel sammenhæng.
 
 Mekanismen er dog ikke entydig. Gennemgangsartiklerne beskriver levonorgestrel som et gestagen med en vis restandrogen aktivitet, hvilket i princippet er det modsatte af, hvad man ønsker ved akne. Den dermatologiske gevinst i litteraturen tilskrives hovedsageligt kombinerede p-piller, hvor østrogenkomponenten øger SHBG og sænker de frie androgener. Den tilskrives også gestagener med antiandrogen effekt, fx chlormadinonacetat. Levonorgestrel-holdige hormonspiraler og implantater beskrives mest i præventionsoversigter, hvor akne oftere nævnes som en mulig bivirkning end som en fordel.
 
@@ -109,6 +109,18 @@ Evidensniveauet er L2, men det bygger på ét forsøg med en kombinationspille m
 - Sammenlignende forsøg med levonorgestrel som enkeltstof eller med relevante sammenligningspræparater
 - Detaljerede data om virkningsmekanisme og en gennemgang af produktresuméet for advarsler og kontraindikationer
 - Vurdering af sikkerhed og interaktioner for den relevante patientgruppe
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

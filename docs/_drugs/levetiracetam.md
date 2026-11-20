@@ -58,7 +58,7 @@ Levetiracetam er et antiepileptikum, som i den viden, der er indgået i denne ra
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at levetiracetam binder til det synaptiske vesikelprotein SV2A og moduler frigivelsen af neurotransmittere.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Levetiracetam (uofficiel oversættelse): »Den/de præcise mekanisme(r), hvorved levetiracetam udøver sin antiepileptiske virkning, er ukendt. Der er beskrevet et mætteligt og stereoselektivt neuronalt bindingssted for levetiracetam i hjernevæv fra rotter. Eksperimentelle data indikerer, at dette bindingssted er det synaptiske vesikelprotein SV2A, som menes at være involveret i reguleringen af vesikeleksocytose.« Engelsk originaltekst: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), version af 2026-11-11; hentet 2026-11-19). Det er generelt kendt, at levetiracetam binder til det synaptiske vesikelprotein SV2A og moduler frigivelsen af neurotransmittere.
 
 Beta-ketothiolase-mangel (ACAT1/T2-mangel) er en medfødt stofskiftesygdom i nedbrydningen af isoleucin og ketonstoffer, hvor den centrale kliniske udfordring er episodisk ketoacidose. Der er ingen etableret mekanistisk forbindelse mellem SV2A-modulation og denne metaboliske defekt.
 
@@ -120,11 +120,12 @@ Forudsigelsen bygger kun på modellens score uden understøttende forsøg eller 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse)” → “Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral an” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

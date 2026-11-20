@@ -58,7 +58,7 @@ Cisatracurium er et ikke-depolariserende neuromuskulært blokerende middel, som 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Cisatracurium er dog kendt som et ikke-depolariserende neuromuskulært blokerende middel, der virker på nikotinerge acetylcholinreceptorer ved den neuromuskulære endeplade og giver skeletmuskelrelaksation.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cisatracurium (uofficiel oversættelse): »Cisatracuriumbesilat binder kompetitivt til kolinerge receptorer på den motoriske endeplade og antagoniserer virkningen af acetylcholin, hvilket resulterer i blokade af den neuromuskulære transmission. Denne virkning antagoniseres af acetylcholinesterasehæmmere såsom neostigmin.« Engelsk originaltekst: "Cisatracurium besylate binds competitively to cholinergic receptors on the motor end-plate to antagonize the action of acetylcholine, resulting in blockade of neuromuscular transmission. This action is antagonized by acetylcholinesterase inhibitors such as neostigmine." ([DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0), version af 2026-10-14; hentet 2026-11-19). Cisatracurium er dog kendt som et ikke-depolariserende neuromuskulært blokerende middel, der virker på nikotinerge acetylcholinreceptorer ved den neuromuskulære endeplade og giver skeletmuskelrelaksation.
 
 Der er ingen oplagt terapeutisk sammenhæng med cauda equina-syndrom. Tilstanden er en kompressionsbetinget nerverodsskade, som normalt kræver kirurgisk dekompression. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den understøttes ikke af kliniske data eller litteratur.
 
@@ -117,6 +117,19 @@ Forudsigelsen for cauda equina-syndrom bygger udelukkende på modellen (L5) uden
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk dokumentation, der kan underbygge en biologisk sammenhæng, før yderligere evaluering overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Alprazolam er et benzodiazepin med beroligende og angstdæmpende virkning. TxGNN
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Alprazolam tilhører benzodiazepinerne, som forstærker GABA-A-receptorens signalering. Det giver sederende og angstdæmpende effekter, som i princippet kan forkorte indsovningstiden.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Alprazolam (uofficiel oversættelse): »Alprazolam er et 1,4-benzodiazepin. Alprazolam udøver sin virkning ved behandling af panikangst gennem binding til benzodiazepinbindingsstedet på gamma-aminosmørsyre-A (GABA A )-receptorer i hjernen og forstærker GABA-medieret synaptisk hæmning.« Engelsk originaltekst: "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), version af 2025-02-11; hentet 2026-11-19). Alprazolam tilhører benzodiazepinerne, som forstærker GABA-A-receptorens signalering. Det giver sederende og angstdæmpende effekter, som i princippet kan forkorte indsovningstiden.
 
 Søvnløshed optræder ofte sammen med angst, og en eventuel gavnlig effekt kan derfor delvist skyldes angstdæmpning frem for en direkte søvnfremmende virkning. Koblingen bygger på klasseviden om benzodiazepiner og ikke på dokumenterede data om mekanismen for netop alprazolam. Den høje score er alene en beregningsmæssig forudsigelse.
 
@@ -101,6 +101,18 @@ Der findes ingen kliniske forsøg og ingen randomiserede studier af alprazolam v
 - Data om virkningsmekanisme for alprazolam
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Sammenligning med etablerede behandlinger af søvnløshed og en plan for begrænset behandlingsvarighed og overvågning af afhængighed
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

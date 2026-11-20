@@ -60,7 +60,7 @@ Evidensen er meget svag: **0 kliniske forsøg** og **1 publikation** (en enkelt 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Mepolizumab er dog kendt som et monoklonalt anti-IL-5-antistof, der nedsætter antallet af eosinofile granulocytter. Det er den biologiske baggrund for den oprindelige anvendelse ved eosinofile lungesygdomme.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mepolizumab (uofficiel oversættelse): »Mepolizumab er en IL-5-antagonist (IgG1 kappa). IL-5 er det vigtigste cytokin, der er ansvarligt for eosinofilers vækst og differentiering, rekruttering, aktivering og overlevelse. Mepolizumab bindes til IL-5 med en dissociationskonstant på 100 pM og hæmmer IL-5's bioaktivitet ved at blokere dets binding til alfakæden i IL-5-receptorkomplekset, som udtrykkes på eosinofilernes celleoverflade.« Engelsk originaltekst: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), version af 2025-08-06; hentet 2026-11-19). Mepolizumab er dog kendt som et monoklonalt anti-IL-5-antistof, der nedsætter antallet af eosinofile granulocytter. Det er den biologiske baggrund for den oprindelige anvendelse ved eosinofile lungesygdomme.
 
 Den eneste støtte for den nye indikation er en case report fra 2018. Her forsvandt en steroidresistent hypereosinofil immunforstyrrelse under behandling med mepolizumab sammen med anden behandling, og en samtidig trombotisk mikroangiopati blev bedre. Det antyder en mulig, indirekte sammenhæng, hvor eosinofildrevet immundysregulering bidrager til immunmedierede cytopenier.
 
@@ -114,6 +114,19 @@ Støtten består af en enkelt case report og en computerbaseret forudsigelse ude
 - Sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk evidens for, at eosinofiler eller IL-5 spiller en rolle ved immunmedieret trombocytopeni
 - Systematisk litteratursøgning og, hvis den er positiv, kontrollerede kliniske studier i veldefinerede patientgrupper
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

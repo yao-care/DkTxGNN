@@ -63,7 +63,7 @@ Bemærk: Forudsigelsen optrådte to gange i inputtet (duplikat) og er vurderet �
 
 ## Hvorfor er denne forudsigelse rimelig (eller ikke)?
 
-Data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Misoprostol er dog kendt som et syntetisk prostaglandin E1-analog, der fremkalder livmodersammentrækninger og modner livmoderhalsen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for diclofenac sodium and misoprostol (kombinationspræparat med Misoprostol) (uofficiel oversættelse): »Misoprostol Misoprostol er en syntetisk PGE1-analog med gastrisk antisekretoriske og slimhindebeskyttende egenskaber. Misoprostol kan øge bicarbonat- og slimproduktionen, men dette er påvist ved doser på 200 mcg og derover, som også er antisekretoriske.« Engelsk originaltekst: "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), version af 2026-08-31; hentet 2026-11-19). Misoprostol er dog kendt som et syntetisk prostaglandin E1-analog, der fremkalder livmodersammentrækninger og modner livmoderhalsen.
 
 Den fundne litteratur handler hovedsageligt om misoprostol (oftest kombineret med mifepriston) til tidlig medicinsk abort og udeblevet abort. Det vil sige håndtering af graviditetsrelateret blødning eller afbrydelse af graviditet, ikke behandling af selve amenorén. Forbindelsen til amenoré er indirekte: Amenoré (udeblevne menstruationer) indgår som inklusionskriterium (≤35 dages amenoré) i abortstudierne, men det er ikke et behandlingsmål.
 
@@ -136,6 +136,19 @@ Der er ingen kliniske forsøg og ingen litteratur, der viser, at misoprostol beh
 - Præklinisk eller klinisk evidens, der direkte undersøger misoprostol ved amenoré
 - Sikkerhedsvurdering for målpopulationen, herunder graviditetstest og teratogen risiko
 - Kontrol af, om Angusta er den relevante formulering for en eventuel ny indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

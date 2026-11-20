@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** fo
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Fluorouracil er dog kendt som en hæmmer af thymidylatsyntase og en antimetabolit, der forstyrrer DNA- og RNA-syntese i hurtigt delende celler. Dette er en generel cytotoksisk mekanisme, som teoretisk kan være relevant for en hurtigt prolifererende sarkomtype.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fluorouracil (uofficiel oversættelse): »Fluorouracil er en nukleosidmetabolisk hæmmer, der påvirker syntesen af deoxyribonukleinsyre (DNA) og i mindre grad hæmmer dannelsen af ribonukleinsyre (RNA); dette påvirker hurtigt voksende celler og kan føre til celledød. Fluorouracil omdannes til tre aktive hovedmetabolitter: 5-fluor-2′-deoxyuridin-5′-monophosphat (FdUMP), 5-fluoruridin-5′-triphosphat (FUTP) og 5-fluor-2′-deoxyuridin-5′-triphosphat (FdUTP).« Engelsk originaltekst: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), version af 2026-10-23; hentet 2026-11-19). Fluorouracil er dog kendt som en hæmmer af thymidylatsyntase og en antimetabolit, der forstyrrer DNA- og RNA-syntese i hurtigt delende celler. Dette er en generel cytotoksisk mekanisme, som teoretisk kan være relevant for en hurtigt prolifererende sarkomtype.
 
 Rhabdomyosarkom er en bløddelssarkom, der især rammer børn. Den oprindelige brug af fluorouracil er derimod primært ved epiteliale tumorer (mave, bugspytkirtel, tyktarm) og hudlidelser. Sammenhængen er derfor mekanistisk generel og ikke specifik. Standardbehandlingen af rhabdomyosarkom (fx vincristin, actinomycin D og cyclophosphamid) bygger ikke på fluorouracil.
 
@@ -138,6 +138,19 @@ Forudsigelsen har en høj modelscore, men evidensniveauet er L5: der er ingen kl
 - Systematisk litteratursøgning og søgning efter prækliniske data for fluorouracil ved rhabdomyosarkom
 - Vurdering af, om forudsigelsen tilfører noget ud over eksisterende standardregimer
 - Vurdering af administrationsvej og målgruppe (typisk børn), herunder DPD-testning og plan for monitorering af knoglemarv
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Etanercept er en TNF-hæmmer. TxGNN-modellen (deep learning) forudsiger, at læg
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etanercept er kendt som et TNF-alfa-hæmmende fusionsprotein, og den kendte effekt ved inflammatoriske ledsygdomme hænger sammen med TNF-blokade.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etanercept (uofficiel oversættelse): »TNF er et naturligt forekommende cytokin, der indgår i normale inflammatoriske og immunologiske responser. Det spiller en vigtig rolle i de inflammatoriske processer ved RA, polyartikulær JIA, PsA og AS og den deraf følgende ledpatologi. […] Etanercept er en dimer, opløselig form af p75-TNF-receptoren, der kan binde TNF-molekyler.« Engelsk originaltekst: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), version af 2026-05-11; hentet 2026-11-19). Etanercept er kendt som et TNF-alfa-hæmmende fusionsprotein, og den kendte effekt ved inflammatoriske ledsygdomme hænger sammen med TNF-blokade.
 
 Hypermobilitet af coccyx er en mekanisk eller posttraumatisk tilstand uden veletableret inflammatorisk mekanisme. En forbindelse til TNF-hæmning er derfor spekulativ. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -111,6 +111,19 @@ Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg elle
 - Produktresumé fra Lægemiddelstyrelsen med advarsler, kontraindikationer og godkendte indikationer
 - Præklinisk eller klinisk evidens, der direkte undersøger TNF-hæmning ved hypermobilitet af halebenet
 - Klinisk vurdering af, om tilstanden overhovedet har et inflammatorisk behandlingsmål
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

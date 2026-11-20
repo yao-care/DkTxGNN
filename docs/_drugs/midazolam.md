@@ -58,7 +58,7 @@ Midazolam er et benzodiazepin, som oprindeligt er knyttet til behandling af angs
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om midazolams virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra den kendte klasseeffekt er midazolam et benzodiazepin, der forstærker GABA-A-receptor-medieret hæmning (positiv allosterisk modulation). Denne beroligende og søvnfremkaldende virkning er relevant for både angst og søvn.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Midazolam (uofficiel oversættelse): »Midazolam er et korttidsvirkende benzodiazepin, der virker dæmpende på centralnervesystemet (CNS).« Engelsk originaltekst: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), version af 2025-07-31; hentet 2026-11-19). Ud fra den kendte klasseeffekt er midazolam et benzodiazepin, der forstærker GABA-A-receptor-medieret hæmning (positiv allosterisk modulation). Denne beroligende og søvnfremkaldende virkning er relevant for både angst og søvn.
 
 Angst og insomni overlapper klinisk, og begge involverer en tilstand af overaktivering (hyperarousal). Midazolam tilhører samme lægemiddelklasse som etablerede sovemidler som flurazepam og triazolam. Oralt midazolam har tidligere været undersøgt og markedsført som sovemiddel i flere lande.
 
@@ -144,12 +144,13 @@ Den høje TxGNN-score og de ældre RCT'er med oral midazolam ved insomni underst
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Bemærk: Den eneste danske tilladelse er et veterinært lægemiddel (Dechra Regulatory B.V.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "Det eneste danske præparat er et veterinært injektionsprodukt, og sikkerhedsdata fra et godkendt humant produktresumé mangler" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

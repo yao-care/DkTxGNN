@@ -54,7 +54,7 @@ Pretomanid er et tuberkulosemiddel (nitroimidazooxazin), der er markedsført i D
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er i øjeblikket ikke tilgængelige detaljerede data om virkningsmekanisme i de indsamlede data. Ud fra almen viden er pretomanid et prodrug, der aktiveres af nitroreduktasen Ddn i *Mycobacterium tuberculosis*. Det frigiver reaktive kvælstofforbindelser (bl.a. nitrogenoxid) og hæmmer syntesen af mykolsyre.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pretomanid (uofficiel oversættelse): »Pretomanid er et nitroimidazooxazin-antimykobakterielt lægemiddel. […] Pretomanid tablet er et nitroimidazooxazin-antimykobakterielt lægemiddel. Pretomanid dræber aktivt replikerende M. tuberculosis ved at hæmme biosyntesen af mykolsyre og derved blokere dannelsen af cellevæggen. Under anaerobe forhold virker pretomanid mod ikke-replikerende bakterier som en respirationsgift efter frigivelse af nitrogenoxid.« Engelsk originaltekst: "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release." ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), version af 2024-11-15; hentet 2026-11-19). Ud fra almen viden er pretomanid et prodrug, der aktiveres af nitroreduktasen Ddn i *Mycobacterium tuberculosis*. Det frigiver reaktive kvælstofforbindelser (bl.a. nitrogenoxid) og hæmmer syntesen af mykolsyre.
 
 Svampe som *Candida* har ikke en tilsvarende aktiveringsvej og er ikke kendt for at være følsomme over for denne mekanisme. Det biologiske grundlag for forudsigelsen er derfor svagt. Den høje score stammer fra TxGNN-modellen (deep learning) og afspejler muligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -116,6 +116,19 @@ Forudsigelsen om candidiasis er alene modelbaseret (L5) uden kliniske forsøg el
 - Sikkerhedsdata (advarsler og kontraindikationer) fra produktresuméet
 - For candidiasis: in vitro-følsomhedstest af *Candida*-arter, før yderligere arbejde overvejes
 - For spedalskhed: genomisk undersøgelse af, om *M. leprae* har Ddn/F420-aktiveringsvejen, samt in vitro- eller musefodsålstudie af følsomhed
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

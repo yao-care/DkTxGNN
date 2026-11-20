@@ -54,12 +54,11 @@ Treosulfan (handelsnavn Trecondi) er et alkylerende cytostatikum, som anvendes t
 | Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Treosulfan er kendt som en bifunktionel alkylerende prodrug, der omdannes til epoxid-mellemprodukter, som skader DNA. Det anvendes til myeloablativ konditionering før stamcelletransplantation.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Treosulfan (uofficiel oversættelse): »Treosulfan er et alkylerende middel. DNA-alkylering menes at være ansvarlig for treosulfans cytotoksiske aktivitet. Treosulfan udviste hæmatopoietisk stamcelledepleterende aktivitet samt immunsuppressiv og antitumoraktivitet i musemodeller af leukæmi.« Engelsk originaltekst: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), version af 2025-01-31; hentet 2026-11-19). Treosulfan er kendt som en bifunktionel alkylerende prodrug, der omdannes til epoxid-mellemprodukter, som skader DNA. Det anvendes til myeloablativ konditionering før stamcelletransplantation.
 
 Der kan ikke udledes en plausibel mekanistisk sammenhæng mellem denne virkning og katarakt. Diabetisk katarakt skyldes primært polyolvejen, oxidativt stress og osmotisk skade på linsen. Nuklear og kortikal katarakt skyldes bl.a. oxidation og aggregering af linseproteiner. Moden katarakt behandles kirurgisk, og tetanisk katarakt hænger sammen med lavt calciumniveau (f.eks. ved hypoparathyroidisme). Treosulfan har ingen kendt påvirkning af disse processer.
 
@@ -117,6 +116,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske fors�
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Prækliniske data, der kan understøtte en biologisk sammenhæng mellem Treosulfan og linsepatologi
 - En vurdering af, om andre, mindre toksiske lægemidler allerede dækker indikationen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

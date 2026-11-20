@@ -58,7 +58,7 @@ Bemærk: Den registrerede tilladelse i Danmark (Vaniqa creme) er ikke godkendt t
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Eflornithin er en irreversibel hæmmer af ornitindecarboxylase (ODC, kodet af *ODC1*), som er det hastighedsbegrænsende enzym i polyaminsyntesen. Ved sovesyge hæmmer lægemidlet parasittens polyaminsyntese. Der foreligger ikke yderligere detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport.
+Eflornithin er en irreversibel hæmmer af ornitindecarboxylase (ODC, kodet af *ODC1*), som er det hastighedsbegrænsende enzym i polyaminsyntesen. Ved sovesyge hæmmer lægemidlet parasittens polyaminsyntese. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Eflornithine (uofficiel oversættelse): »Eflornithin er en irreversibel hæmmer af enzymet ornithindecarboxylase (ODC), det første og hastighedsbegrænsende enzym i biosyntesen af polyaminer og et transkriptionelt mål for MYCN. Polyaminer indgår i differentiering og proliferation af pattedyrceller og er vigtige for neoplastisk transformation.« Engelsk originaltekst: "Eflornithine is an irreversible inhibitor of the enzyme ornithine decarboxylase (ODC), the first and rate-limiting enzyme in the biosynthesis of polyamines and a transcriptional target of MYCN. Polyamines are involved in differentiation and proliferation of mammalian cells and are important for neoplastic transformation." ([DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5), version af 2026-03-26; hentet 2026-11-19).
 
 Der er ikke påvist nogen etableret mekanistisk sammenhæng mellem ODC-hæmning eller polyaminnedsættelse og patofysiologien ved esotropi, som handler om ubalance i de ydre øjenmuskler, udvikling af binokulært syn og nervøs kontrol af øjets stilling. Den meget høje score er alene en modelberegning og er ikke bakket op af kliniske forsøg eller litteratur. En eventuel sammenhæng (fx effekt på celleproliferation i øjenmuskelvæv) er på nuværende tidspunkt spekulativ og biologisk ikke plausibel som terapeutisk begrundelse.
 
@@ -105,6 +105,19 @@ Forudsigelsen om esotropi er alene modelbaseret (L5) uden kliniske forsøg eller
 - Prækliniske eller mekanistiske studier, der kan underbygge en biologisk sammenhæng mellem ODC-hæmning og esotropi
 - Afklaring af administrationsvej (den danske tilladelse er kun en creme) og lighed med den oprindelige indikation
 - Systematisk litteratur- og forsøgssøgning for at bekræfte, at der reelt ikke findes evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

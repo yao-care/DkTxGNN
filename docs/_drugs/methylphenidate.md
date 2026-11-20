@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **specifik udviklingsforst
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om detaljeret virkningsmekanisme er ikke tilgængelige i de indsamlede data. Methylphenidat er kendt som hæmmer af genoptagelsen af dopamin og noradrenalin (via transportørerne DAT og NET), og effekten ved ADHD er veldokumenteret. Mekanismen er relevant for de neuroudviklingsmæssige symptomer ved ADHD, som ofte optræder sammen med specifikke udviklingsforstyrrelser (fx indlæringsvanskeligheder).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Methylphenidate (uofficiel oversættelse): »Methylphenidathydrochlorid er et stimulerende middel til centralnervesystemet (CNS). Den terapeutiske virkningsmåde for METADATE CD ved behandling af ADHD hos pædiatriske patienter på 6 år og derover er ikke kendt. Methylphenidat blokerer genoptagelsen af noradrenalin og dopamin i den præsynaptiske neuron og øger frigivelsen af disse monoaminer til det ekstraneuronale rum.« Engelsk originaltekst: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), version af 2026-10-21; hentet 2026-11-19). Methylphenidat er kendt som hæmmer af genoptagelsen af dopamin og noradrenalin (via transportørerne DAT og NET), og effekten ved ADHD er veldokumenteret. Mekanismen er relevant for de neuroudviklingsmæssige symptomer ved ADHD, som ofte optræder sammen med specifikke udviklingsforstyrrelser (fx indlæringsvanskeligheder).
 
 Den fremlagte litteratur handler næsten udelukkende om ADHD (neurobiologi, transportørbesættelse, genetik bag behandlingsrespons, kvantitativt EEG ved ADHD med indlæringsvanskeligheder). Evidensen for specifikke udviklingsforstyrrelser som dysleksi eller udviklingsrelateret koordinationsforstyrrelse er dermed indirekte. På grund af overlappet med den allerede godkendte ADHD-indikation kan der være tale om en omdefinering af en eksisterende anvendelse snarere end ægte lægemiddelrepurposing.
 
@@ -126,6 +126,19 @@ Forudsigelsen bygger på en høj modelscore, men uden registrerede kliniske fors
 - Indhentning af produktresuméets advarsler, kontraindikationer og godkendte indikationstekst fra Lægemiddelstyrelsen (manglende data blokerer sikkerhedsscreening)
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af misbrugspotentiale, kardiovaskulær risiko og interaktionsbyrde (herunder bupropion) i målpopulationen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

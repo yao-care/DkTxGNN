@@ -60,7 +60,7 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter dett
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Lorazepam er et benzodiazepin, og dets kendte virkning er positiv allosterisk modulering af GABA-A-receptoren, hvilket giver angstdæmpende, beroligende og antikonvulsiv effekt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lorazepam (uofficiel oversættelse): »Lorazepam udøver sin virkning ved behandling af angstlidelser ved at binde til benzodiazepinbindingsstedet på gamma-aminosmørsyre-A (GABA A )-receptorerne i hjernen og forstærker den GABA-medierede synaptiske hæmning.« Engelsk originaltekst: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), version af 2025-10-08; hentet 2026-11-19). Lorazepam er et benzodiazepin, og dets kendte virkning er positiv allosterisk modulering af GABA-A-receptoren, hvilket giver angstdæmpende, beroligende og antikonvulsiv effekt.
 
 Der er ingen kendt antitumoreffekt. Mekanismen kan på sit højeste lindre symptomer som angst eller smertebetinget ubehag hos patienter med tumor, men den er ikke en behandling af selve tumoren. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen optrådte to gange i inputtet og er behandlet som én indikation.
 
@@ -80,7 +80,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for trigeminu
 ## Litteraturevidens
 
 Der er i øjeblikket ingen relateret litteratur for trigeminusnervetumor.
-
 
 | PMID | År | Type | Tidsskrift | Hovedresultater |
 |------|-----|------|------|---------|
@@ -126,6 +125,19 @@ Trods en meget høj TxGNN-score er der hverken kliniske forsøg eller litteratur
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske data, der kan underbygge en eventuel tumorrelateret effekt
 - Hvis symptomlindring hos patienter med tumor er målet, bør det vurderes som en separat symptomatisk problemstilling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

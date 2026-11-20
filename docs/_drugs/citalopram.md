@@ -54,7 +54,7 @@ Citalopram er en selektiv serotoningenoptagelseshæmmer (SSRI), som i Danmark er
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme for citalopram er ikke tilgængelige i de data, der er indsamlet til denne rapport. Klassemekanismen er dog velbeskrevet: Citalopram hæmmer genoptagelsen af serotonin i nerveterminalerne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Citalopram (uofficiel oversættelse): »Virkningsmekanismen for citalopram er uklar, men formodes at være relateret til potensering af serotonerg aktivitet i centralnervesystemet (CNS) som følge af hæmning af den neuronale genoptagelse af serotonin (5-HT) i CNS.« Engelsk originaltekst: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), version af 2023-10-09; hentet 2026-11-19). Klassemekanismen er dog velbeskrevet: Citalopram hæmmer genoptagelsen af serotonin i nerveterminalerne.
 
 Tvangslidelse responderer på serotonerg behandling. Andre SSRI-præparater som fluoxetin, sertralin og fluvoxamin er etablerede førstevalgsbehandlinger. Det er derfor mekanistisk plausibelt, at citalopram kan virke på samme måde.
 
@@ -119,6 +119,18 @@ Evidensniveauet er L2: Ét lille enkeltblindet sammenlignende studie og flere å
 - Verifikation af, hvilket lægemiddel der indgik i de SSRI/SRI-baserede forsøg (NCT02022709, NCT00074815)
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, især vedrørende QT-forlængelse, serotoninsyndrom og de alvorlige interaktioner
 - Detaljerede data om virkningsmekanisme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

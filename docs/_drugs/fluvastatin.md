@@ -62,7 +62,7 @@ Evidensniveauet er L5, fordi ingen af de citerede studier undersøger, om fluvas
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Fluvastatin hæmmer som statin HMG-CoA-reduktase og sænker dermed LDL-kolesterol. Fluvastatin er ikke et antiviralt middel mod HIV.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fluvastatin (uofficiel oversættelse): »Fluvastatin er en kompetitiv hæmmer af HMG-CoA-reduktase, det hastighedsbegrænsende enzym, der omdanner 3-hydroxy-3-methylglutaryl-coenzym A (HMG-CoA) til mevalonat, et forstadie til kolesterol.« Engelsk originaltekst: "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310), version af 2024-01-31; hentet 2026-11-19). Fluvastatin hæmmer som statin HMG-CoA-reduktase og sænker dermed LDL-kolesterol. Fluvastatin er ikke et antiviralt middel mod HIV.
 
 Den mest plausible forbindelse er behandling af dyslipidæmi hos HIV-patienter i proteasehæmmerbaseret antiretroviral behandling. Fluvastatin omsættes hovedsageligt via CYP2C9 frem for CYP3A4, og har derfor færre farmakokinetiske interaktioner med proteasehæmmere end fx simvastatin eller lovastatin. Sekundære hypoteser er mindsket inflammation og immunaktivering (statiners pleiotrope effekter) samt beskyttelse mod podocytskade i en musemodel for HIV-associeret nefropati.
 
@@ -122,6 +122,19 @@ Der findes ingen studier, som direkte undersøger fluvastatin som behandling af 
 - Data om virkningsmekanisme
 - Gennemgang af produktresumé for kontraindikationer og advarsler, især ved samtidig brug af proteasehæmmere
 - Afklaring af, om det relevante mål er HIV-associeret dyslipidæmi (tættere på den eksisterende indikation) frem for HIV-infektion som sådan
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

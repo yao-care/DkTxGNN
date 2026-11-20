@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akromesomelisk dysplasi,
 
 ## Hvorfor kan forudsigelsen forekomme rimelig?
 
-Der er på nuværende tidspunkt ikke tilgængelige detaljerede data om virkningsmekanismen. Etodolac er et NSAID med fortrinsvis COX-2-hæmmende virkning, som nedsætter dannelsen af prostaglandiner og dermed smerte og betændelse i led.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etodolac (uofficiel oversættelse): »Virkningsmekanismen for etodolac depottabletter er, som for andre NSAID'er, ikke fuldstændigt klarlagt, men kan være relateret til hæmning af prostaglandinsyntetase.« Engelsk originaltekst: "The mechanism of action of etodolac extended-release tablets, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition." ([DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331), version af 2024-12-31; hentet 2026-11-19). Etodolac er et NSAID med fortrinsvis COX-2-hæmmende virkning, som nedsætter dannelsen af prostaglandiner og dermed smerte og betændelse i led.
 
 Akromesomelisk dysplasi af Hunter-Thompson-typen er en sjælden skeletdysplasi, der skyldes funktionstabsvarianter i *GDF5* (BMP/TGF-beta-signalering) og påvirker knoglevækst og -udvikling. Der er ikke påvist nogen mekanistisk forbindelse mellem etodolac og GDF5-signalering eller kondrocytdifferentiering. Den høje score afspejler sandsynligvis nærhed i videnbasen til muskel-skeletfænotyper, der deles med artropati, og ikke et farmakologisk rationale. Symptomlindring af smerte er tænkelig, men ville ikke være sygdomsmodificerende.
 
@@ -105,6 +105,19 @@ Forudsigelsen bygger udelukkende på modellens score uden kliniske forsøg, litt
 - Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Prækliniske eller kliniske data for etodolac ved den forudsagte sygdom
 - Overvejelse af, om symptomlindring ved sekundær ledsmerte (fx pseudoachondroplasi) er en mere realistisk anvendelse end sygdomsmodificerende effekt
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -62,7 +62,7 @@ Evidensen består af **1 kliniske forsøg** (fase 3, hvor hydrocortison var samm
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen. Hydrocortison er et glukokortikoid med antiinflammatoriske og immunsuppressive egenskaber, og dets virkning ved autoimmune og inflammatoriske tilstande er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hydrocortisone (uofficiel oversættelse): »Hydrocortison er et glukokortikoid. Glukokortikoider, binyrebarksteroider, forårsager forskellige metaboliske virkninger. Derudover modificerer de kroppens immunresponser på forskellige stimuli..« Engelsk originaltekst: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), version af 2026-04-21; hentet 2026-11-19). Hydrocortison er et glukokortikoid med antiinflammatoriske og immunsuppressive egenskaber, og dets virkning ved autoimmune og inflammatoriske tilstande er veletableret.
 
 Alopecia areata er en T-celle-medieret autoimmun sygdom, hvor immunsystemet angriber hårsækkene. Det er derfor mekanistisk plausibelt, at dæmpning af lokal immunaktivitet kan hjælpe, og hydrocortisons oprindelige indikationer omfatter allerede autoimmune sygdomme.
 
@@ -139,11 +139,12 @@ Den eneste støtte er ét lille fase 3-forsøg, hvor hydrocortison var det svage
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der findes i alt 6 gyldige nationale tilladelser;” → “Der findes mindst 20 gyldige nationale tilladelser;” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
 
 <!-- review:end log -->
 

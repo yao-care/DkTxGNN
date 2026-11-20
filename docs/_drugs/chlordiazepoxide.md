@@ -54,7 +54,7 @@ Chlordiazepoxid er et benzodiazepin, der virker beroligende og angstdæmpende vi
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Chlordiazepoxid er dog et benzodiazepin, og stoffer i denne klasse forstærker GABA-A-receptorens hæmmende signalering. Det giver sedativ-hypnotisk effekt, som teoretisk kan forkorte indsovningstiden og mindske opvågninger, især når søvnløsheden optræder sammen med angst.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Chlordiazepoxide (uofficiel oversættelse): »Chlordiazepoxid HCl har angstdæmpende, sederende, appetitstimulerende og svagt analgetiske virkninger. Den præcise virkningsmekanisme kendes ikke. Lægemidlet blokerer EEG-arousal udløst af stimulation af hjernestammens formatio reticularis.« Engelsk originaltekst: "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937), version af 2026-11-05; hentet 2026-11-19). Chlordiazepoxid er dog et benzodiazepin, og stoffer i denne klasse forstærker GABA-A-receptorens hæmmende signalering. Det giver sedativ-hypnotisk effekt, som teoretisk kan forkorte indsovningstiden og mindske opvågninger, især når søvnløsheden optræder sammen med angst.
 
 Den tilgængelige litteratur er imidlertid begrænset til farmakokinetiske oversigter, geriatriske benzodiazepinreviews og ældre angstundersøgelser. Der foreligger ikke noget søvnløshedsspecifikt forsøg med chlordiazepoxid. Langtidsvirkende benzodiazepiner indebærer desuden risiko for sedation næste dag og akkumulering, især hos ældre. Da ingen af de citerede studier direkte undersøger søvnløshed med chlordiazepoxid, er evidensniveauet sat til L5, trods en høj modelscore.
 
@@ -97,6 +97,19 @@ Forudsigelsen bygger på modellen alene, da ingen af de citerede studier direkte
 - Data om virkningsmekanisme og farmakologisk profil
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Plan for sikkerhedsovervågning hos ældre og ved risiko for afhængighed
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

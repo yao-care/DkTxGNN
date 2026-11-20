@@ -54,7 +54,7 @@ Turoctocog alfa pegol er et rekombinant, glycoPEGyleret faktor VIII-præparat me
 
 ## Hvorfor er forudsigelsen rimelig (eller ej)?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Turoctocog alfa pegol er en rekombinant faktor VIII-erstatning, og dens kendte funktion er at erstatte manglende faktor VIII ved hæmofili.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Turoctocog Alfa Pegol (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; hentet 2026-11-19). Turoctocog alfa pegol er en rekombinant faktor VIII-erstatning, og dens kendte funktion er at erstatte manglende faktor VIII ved hæmofili.
 
 Primær frigørelsesforstyrrelse af blodplader skyldes derimod defekter i blodpladernes granulaindhold og signalering og ikke mangel på faktor VIII. Tilførsel af faktor VIII løser derfor ikke den grundlæggende blodpladedefekt.
 
@@ -107,6 +107,19 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller litteratur,
 - Den godkendte indikationstekst for Esperoct
 - Præcisering af sygdomsenheden og eventuelt en undergruppe, fx erhvervet FVIII-mangel uden inhibitor, som den mest oplagte kandidat til en videre vurdering
 - Publicerede eller registrerede studier, der direkte undersøger den forudsagte sygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Alprostadil er et syntetisk prostaglandin E1, som bl.a. anvendes til at holde du
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Alprostadil (PGE1) er kendt for at afslappe glat muskulatur i ductus arteriosus og dermed holde den åben. Det er den etablerede begrundelse for brug ved duktusafhængige medfødte hjertefejl, hvor kroppens eller lungernes blodgennemstrømning afhænger af en åben ductus.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Alprostadil (uofficiel oversættelse): »Alprostadil (PGE1) er et prostaglandin med en lang række farmakologiske virkninger, herunder vasodilatation og hæmning af trombocytaggregation. Alprostadil inducerer erektion ved relaksation af trabekulær glat muskulatur og ved dilatation af kavernøse arterier ved at binde til sine receptorer og øge de intracellulære niveauer af cyklisk adenosinmonofosfat (cAMP) via modulering af adenylatcyclase.« Engelsk originaltekst: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), version af 2024-05-13; hentet 2026-11-19). Alprostadil (PGE1) er kendt for at afslappe glat muskulatur i ductus arteriosus og dermed holde den åben. Det er den etablerede begrundelse for brug ved duktusafhængige medfødte hjertefejl, hvor kroppens eller lungernes blodgennemstrømning afhænger af en åben ductus.
 
 Forudsigelsen er mekanistisk sammenhængende, men den overlapper i høj grad med den kendte anvendelse som midlertidig overbygning frem til operation. Den udgør derfor næppe en egentlig ny repurposing-mulighed. De antiinflammatoriske og lungebeskyttende effekter, der er set i forbindelse med hjerte-lunge-maskine, er en separat og sekundær mekanisme.
 
@@ -102,6 +102,18 @@ Ingen kliniske forsøg og ingen studier, der direkte undersøger alprostadil ved
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Kontrollerede eller systematiske kliniske studier, der direkte vurderer alprostadil ved aortamisdannelse
 - Afklaring af, om forudsigelsen tilfører noget ud over den eksisterende anvendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

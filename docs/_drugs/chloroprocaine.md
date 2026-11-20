@@ -59,7 +59,7 @@ TxGNN-modellen (deep learning) forudsiger en mulig effekt ved **cauda equina-syn
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om detaljeret virkningsmekanisme er ikke tilgængelige i de indsamlede data. Chloroprocain er et lokalanæstetikum af estertypen, som blokerer spændingsafhængige natriumkanaler og dermed hæmmer nerveledning.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Chloroprocaine (uofficiel oversættelse): »Chloroprocain blokerer ligesom andre lokalanæstetika dannelsen og ledningen af nerveimpulser, formodentlig ved at øge tærsklen for elektrisk excitation i nerven, ved at forsinke udbredelsen af nerveimpulsen og ved at reducere aktionspotentialets stigningshastighed. Generelt er anæstesiens progression relateret til de påvirkede nervefibres diameter, myelinisering og ledningshastighed.« Engelsk originaltekst: "Chloroprocaine, like other local anesthetics, blocks the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination and conduction velocity of affected nerve fibers." ([DailyMed: Nesacaine (chloroprocaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a844e68a-1462-40e4-be5e-f56214906eb9), version af 2022-09-01; hentet 2026-11-19). Chloroprocain er et lokalanæstetikum af estertypen, som blokerer spændingsafhængige natriumkanaler og dermed hæmmer nerveledning.
 
 Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Scoren er sandsynligvis drevet af en **bivirkningsrelation** og ikke af en terapeutisk relation. Cauda equina-syndrom er en anerkendt komplikation ved neuraxial anæstesi og er sat i forbindelse med neurotoksicitet af lokalanæstetika, særligt ved høje koncentrationer, langvarig eksponering eller uens fordeling i intratekalrummet. Effektretningen er derfor **skade frem for gavn**.
 
@@ -116,6 +116,19 @@ Forudsigelsen hviler alene på modellen (evidensniveau L4), uden kliniske forsø
 - Produktresumé (SmPC) fra Lægemiddelstyrelsen med godkendt indikation, advarsler og kontraindikationer. Mangler i dag og blokerer sikkerhedsscreeningen.
 - Data om virkningsmekanisme (MOA) fra DrugBank.
 - Biologisk eller klinisk begrundelse for en terapeutisk effekt, før yderligere vurdering overvejes. Ellers bør signalet afvises som falsk positivt.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nesacaine (chloroprocaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a844e68a-1462-40e4-be5e-f56214906eb9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

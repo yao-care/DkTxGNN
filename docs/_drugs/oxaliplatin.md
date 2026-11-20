@@ -60,7 +60,7 @@ med **3 registrerede kliniske forsøg** (heraf 2 direkte relevante fase II-fors�
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om oxaliplatins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt viden er oxaliplatin et platinstof, der danner DNA-addukter og tværbindinger (inter- og intrastrand). Det blokerer DNA-replikation og transkription og udløser apoptose.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Oxaliplatin (uofficiel oversættelse): »Oxaliplatin undergår ikke-enzymatisk omdannelse i fysiologiske opløsninger til aktive derivater ved fortrængning af den labile oxalatligand. Der dannes flere forbigående reaktive forbindelser, herunder monoaquo- og diaquo-DACH-platin, som bindes kovalent til makromolekyler.« Engelsk originaltekst: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), version af 2026-08-24; hentet 2026-11-19). Ud fra kendt viden er oxaliplatin et platinstof, der danner DNA-addukter og tværbindinger (inter- og intrastrand). Det blokerer DNA-replikation og transkription og udløser apoptose.
 
 Platinbaseret kemoterapi (cisplatin/carboplatin) er allerede grundstenen i behandlingen af mesotheliom. Der er derfor en mekanistisk begrundelse for, at oxaliplatin kan virke i samme sygdom. Fase II-data viser aktivitet i kombinationsregimer (gemcitabin, raltitrexed, vinorelbin).
 
@@ -139,6 +139,19 @@ Der foreligger flere fase II-studier og forsøg med aktivitet i kombinationsregi
 - Afklaring af regulatoriske og kliniske rammer for off-label-anvendelse
 
 Øvrige forudsigelser i datasættet (epitelioid og sarkomatoid mesotheliom, malign visceral pleuratumor) har kun indirekte evidens (L4-L5) og anbefales sat på hold. Forudsigelsen for brystkræft (L2) bygger på ét afbrudt forsøg med 18 patienter og betragtes som et forskningsspørgsmål.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

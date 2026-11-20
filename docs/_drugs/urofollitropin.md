@@ -58,7 +58,7 @@ Urofollitropin er et oprenset follikelstimulerende hormon (FSH) udvundet af urin
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Urofollitropin er et oprenset FSH-præparat, der stimulerer follikelvækst i æggestokkene.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Urofollitropin (uofficiel oversættelse): »Follikelstimulerende hormon-receptoragonist« Engelsk originaltekst: "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520), CC BY-SA 3.0; hentet 2026-11-19). Urofollitropin er et oprenset FSH-præparat, der stimulerer follikelvækst i æggestokkene.
 
 Der er ingen etableret mekanisme, som forbinder FSH med migræne. Et muligt, men indirekte og spekulativt led er, at migræne har hormonelle sammenhænge, især udsving i østrogen. Gonadotropinbehandling kan ændre østradiolniveauer, men det er ikke noget terapeutisk rationale. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -107,6 +107,19 @@ Der er ingen kliniske forsøg eller publikationer, der undersøger urofollitropi
 - Litteratursøgning og forsøgsregistersøgning målrettet migræne og hormonelle udløsende faktorer
 - Præklinisk eller mekanistisk understøttelse, før der overvejes kliniske studier
 - Afklaring af indikationsteksten for den danske tilladelse og vurdering af administrationsvej i forhold til en eventuel ny indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1201520 (urofollitropin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201520) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -56,7 +56,7 @@ men der er **0 kliniske forsøg** og **0 publikationer** i de data, der er indsa
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de indsamlede data. Amoxicillin er et beta-laktam-antibiotikum, som hæmmer syntesen af bakteriers cellevæg.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Amoxicillin (uofficiel oversættelse): »Amoxicillin er et antibakterielt lægemiddel. […] Amoxicillin ligner penicillin i sin baktericide virkning over for følsomme bakterier i stadiet med aktiv formering. Det virker gennem hæmning af cellevægsbiosyntesen, hvilket fører til bakteriernes død.« Engelsk originaltekst: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), version af 2026-11-13; hentet 2026-11-19). Amoxicillin er et beta-laktam-antibiotikum, som hæmmer syntesen af bakteriers cellevæg.
 
 Polyklonal hyperviskositet skyldes forhøjede niveauer af immunglobuliner eller serumproteiner. Der er ingen identificerbar mekanistisk sammenhæng mellem amoxicillins antibakterielle virkning og denne tilstand. Den høje score (0,9963) er en ren modelforudsigelse og afspejler sandsynligvis nærhed til infektions- eller immunrelaterede noder i modellens netværk. Den bør ikke tolkes som klinisk støtte.
 
@@ -109,11 +109,12 @@ Forudsigelsen om polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Bemærk: Den eneste registrerede tilladelse er et veterinærlægemiddel (Trymox Vet., Univet Limited), som er gyldigt og markedsført" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
 
 <!-- review:end log -->
 

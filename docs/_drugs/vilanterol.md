@@ -56,7 +56,7 @@ Forudsigelsen understøttes af **28 kliniske forsøg** og **20 publikationer** i
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Vilanterol er dog kendt som en langtidsvirkende beta2-adrenoceptoragonist, som afslapper de glatte muskler i luftvejene via cAMP-medieret bronkodilatation og har en effekt, der varer 24 timer, hvilket muliggør dosering én gang dagligt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for fluticasone furoate and vilanterol (kombinationspræparat med Vilanterol) (uofficiel oversættelse): »De farmakologiske virkninger af beta 2 -adrenerge agonister, herunder vilanterol, kan i det mindste delvis tilskrives stimulering af intracellulær adenylcyclase, det enzym, der katalyserer omdannelsen af adenosintriphosphat (ATP) til cyklisk 3′,5′-adenosinmonophosphat (cyklisk AMP).« Engelsk originaltekst: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), version af 2024-11-21; hentet 2026-11-19). Vilanterol er dog kendt som en langtidsvirkende beta2-adrenoceptoragonist, som afslapper de glatte muskler i luftvejene via cAMP-medieret bronkodilatation og har en effekt, der varer 24 timer, hvilket muliggør dosering én gang dagligt.
 
 De øvrige forudsagte indikationer (rang 2-10, bl.a. interstitielt emfysem, trakealstenose, medfødt lobært emfysem og laryngotracheitis) har enten ingen kliniske data eller kun indirekte data. Der er ingen oplagt mekanistisk begrundelse for bronkodilatation ved strukturelle eller infektiøse tilstande. Disse vurderes som **Hold**. For bronkialneoplasi (rang 6) vedrører evidensen perioperativ behandling af KOL hos lungekræftpatienter, ikke selve tumoren.
 
@@ -133,11 +133,12 @@ Flere afsluttede fase 3-RCT'er og store studier understøtter vilanterol-holdige
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->
 

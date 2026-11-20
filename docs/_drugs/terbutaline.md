@@ -54,7 +54,7 @@ Terbutalin er en beta-2-adrenerg agonist, der udvider luftvejene. TxGNN-modellen
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Terbutalin tilhører gruppen af beta-2-agonister, som afslapper glat muskulatur i luftvejene og dermed kan lindre luftvejsobstruktion og overfølsomhed.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Terbutaline (uofficiel oversættelse): »Farmakologiske in vitro- og in vivo-studier har vist, at terbutalin udøver en præferentiel virkning på beta 2 -adrenerge receptorer. Selvom det er anerkendt, at beta2-adrenerge receptorer er de dominerende receptorer i bronkiernes glatte muskulatur, tyder data på, at der findes en population af beta2-receptorer i det humane hjerte, i en koncentration på mellem 10 % og 50 %.« Engelsk originaltekst: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), version af 2025-12-10; hentet 2026-11-19). Terbutalin tilhører gruppen af beta-2-agonister, som afslapper glat muskulatur i luftvejene og dermed kan lindre luftvejsobstruktion og overfølsomhed.
 
 Det er teoretisk muligt, at denne bronkodilaterende effekt kan lindre symptomer ved strukturelle luftvejsafvigelser. Lægemidlet kan imidlertid ikke korrigere selve misdannelsen. Den høje score skyldes sandsynligvis et delt respiratorisk fænotypemønster i modellen og ikke dokumenteret klinisk effekt. Forudsigelsen bør derfor betragtes som en hypotese.
 
@@ -102,6 +102,18 @@ Forudsigelsen bygger alene på modelscoren. Der findes ingen studier, som direkt
 - Data om lægemidlets virkningsmekanisme og en biologisk begrundelse for effekt ved strukturelle luftvejsafvigelser
 - Studier eller kliniske data, der direkte undersøger terbutalin ved luftvejsmisdannelse
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, især hos børn og ved hjerte-kar-sygdomme og diabetes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

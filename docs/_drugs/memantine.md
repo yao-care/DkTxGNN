@@ -62,7 +62,7 @@ Forudsigelsen med højest score er pulmonal hypertension (0,9954), men den er ku
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Memantin er imidlertid kendt som en NMDA-receptorantagonist, der dæmper glutamaterg signalering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Memantine (uofficiel oversættelse): »Det er blevet fremsat som hypotese, at vedvarende aktivering af N-methyl-D-aspartat (NMDA)-receptorer i centralnervesystemet ved den excitatoriske aminosyre glutamat bidrager til symptomatologien ved Alzheimers sygdom. Det antages, at memantin udøver sin terapeutiske virkning gennem sin funktion som en ukompetitiv (åben kanal-) NMDA-receptorantagonist med lav til moderat affinitet, som fortrinsvis bindes til de NMDA-receptorstyrede kationkanaler.« Engelsk originaltekst: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), version af 2026-11-11; hentet 2026-11-19). Memantin er imidlertid kendt som en NMDA-receptorantagonist, der dæmper glutamaterg signalering.
 
 Glutamat og NMDA-receptorer spiller en rolle i migrænens patofysiologi, herunder kortikal spreading depression og central sensitisering. Hos migrænepatienter er glutamatniveauerne forhøjede i hjernen og muligvis i blodet, især under anfald. Blokade af NMDA-receptorer kan derfor teoretisk reducere kortikal hyperexcitabilitet og smertefølsomhed.
 
@@ -127,6 +127,19 @@ Der foreligger et afsluttet fase 3-RCT, et placebokontrolleret RCT i migræne ud
 - Gennemgang af effektstørrelser i metaanalyserne (de indsamlede data indeholder ikke resultattal)
 - Større placebokontrollerede forsøg for at bekræfte effekt og dosering ved migræne
 - Subtypespecifik bekræftelse, hvis migræne med hjernestammeaura skal vurderes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

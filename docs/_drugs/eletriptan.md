@@ -59,7 +59,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **indirekte litteratur
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra lægemiddelklassen er eletriptan en 5-HT1B/1D-agonist, hvis effekt ved akut migræne er veldokumenteret. Litteraturen angiver en 6 gange højere affinitet for 5-HT1D-receptoren og en 3 gange højere affinitet for 5-HT1B-receptoren end sumatriptan.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Eletriptan (uofficiel oversættelse): »Eletriptan bindes med høj affinitet til 5-HT 1B-, 5-HT 1D- og 5-HT 1F-receptorer og har moderat affinitet for 5-HT 1A-, 5-HT 1E-, 5-HT 2B- og 5-HT 7-receptorer. Migræne skyldes sandsynligvis lokal kranial vasodilatation og/eller frigivelse af sensoriske neuropeptider (vasoaktivt intestinalt peptid, substans P og calcitonin-genrelateret peptid) gennem nerveender i trigeminussystemet.« Engelsk originaltekst: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), version af 2024-01-15; hentet 2026-11-19). Ud fra lægemiddelklassen er eletriptan en 5-HT1B/1D-agonist, hvis effekt ved akut migræne er veldokumenteret. Litteraturen angiver en 6 gange højere affinitet for 5-HT1D-receptoren og en 3 gange højere affinitet for 5-HT1B-receptoren end sumatriptan.
 
 Migræne med hjernestammeaura er en migrænesubtype, som deler den centrale patofysiologi med øvrig migræne: aktivering af det trigeminovaskulære system, frigivelse af CGRP og kranial vasodilatation. Mekanismen kan derfor teoretisk være relevant.
 
@@ -138,6 +138,19 @@ Der findes ingen kliniske forsøg eller litteratur specifikt om eletriptan ved m
 ---
 
 *Bemærkning om øvrige forudsigelser:* TxGNN forudsagde også atrophoderma vermiculata (0,9994), ulerythema ophryogenes (0,9989) og iskiasneuropati (0,9903). Ingen af disse har kliniske forsøg eller litteratur (evidensniveau L5), og der er ingen eller kun en spekulativ mekanistisk sammenhæng. Alle er vurderet til **Hold**.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

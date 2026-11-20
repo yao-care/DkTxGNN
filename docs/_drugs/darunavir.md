@@ -54,7 +54,7 @@ Darunavir er en proteasehæmmer, der anvendes mod HIV-infektion. TxGNN-modellen 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om darunavirs virkningsmekanisme i de data, der er indsamlet til denne rapport. Darunavir er kendt som en HIV-1-proteasehæmmer, og SIV er en lentivirus, der er tæt beslægtet med HIV. Proteasehæmning er derfor en tænkelig mekanisme, men darunavirs aktivitet over for SIV-protease er ikke dokumenteret i det foreliggende materiale.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Darunavir (uofficiel oversættelse): »Darunavir er et antiviralt lægemiddel mod HIV-1. […] Darunavir er en hæmmer af HIV-1-proteasen. Det hæmmer selektivt spaltningen af HIV-1-kodede Gag-Pol-polyproteiner i inficerede celler og forhindrer derved dannelsen af modne viruspartikler.« Engelsk originaltekst: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), version af 2025-08-29; hentet 2026-11-19). Darunavir er kendt som en HIV-1-proteasehæmmer, og SIV er en lentivirus, der er tæt beslægtet med HIV. Proteasehæmning er derfor en tænkelig mekanisme, men darunavirs aktivitet over for SIV-protease er ikke dokumenteret i det foreliggende materiale.
 
 De fire fundne artikler er studier af kombinationsbehandling mod SIV hos makaker. De afprøver hovedsageligt tillægsstoffer (en HDAC-hæmmer, auranofin) eller langtidsvirkende formuleringer og isolerer ikke darunavirs egen effekt. De viser, at SIV-makakmodellen kan bruges til at studere antiretroviral behandling, men de undersøger ikke darunavir som behandling af SIV-infektion. Indikationen er i praksis en forskningsmodel-/veterinær udvidelse og ikke en ny human terapeutisk anvendelse.
 
@@ -97,6 +97,19 @@ Forudsigelsen bygger alene på modellen. De fire fundne artikler er dyrestudier 
 - Studier, der direkte undersøger darunavir ved SIV-infektion
 - Afklaring af, om der overhovedet er et humant eller veterinært behandlingsbehov
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Valsartan er en angiotensin II-receptorblokker, som oprindeligt anvendes til beh
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Valsartan tilhører klassen af angiotensin II type 1-receptorblokkere (ARB). Dens effekt ved forhøjet blodtryk er kendt, og mekanistisk kan den være relevant for blodtryksrelateret nyreskade.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Valsartan (uofficiel oversættelse): »Angiotensin II dannes ud fra angiotensin I i en reaktion, der katalyseres af angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det vigtigste pressorstof i renin-angiotensin-systemet med virkninger, der omfatter vasokonstriktion, stimulering af syntese og frigivelse af aldosteron, kardiel stimulering og renal reabsorption af natrium. […] Diovan (valsartan) blokerer de vasokonstriktive og aldosteronsecernerende virkninger af angiotensin II ved selektivt at blokere bindingen af angiotensin II til AT 1-receptoren i mange væv, såsom glat muskulatur i karvæggen og binyren.« Engelsk originaltekst: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Diovan (valsartan) blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213), version af 2026-08-11; hentet 2026-11-19). Valsartan tilhører klassen af angiotensin II type 1-receptorblokkere (ARB). Dens effekt ved forhøjet blodtryk er kendt, og mekanistisk kan den være relevant for blodtryksrelateret nyreskade.
 
 Blokade af renin-angiotensin-aldosteronsystemet (RAAS) kan teoretisk beskytte nyrerne ved svær hypertension gennem lavere blodtryk, lavere tryk i nyrernes glomeruli og mindre fibrose. Det er en plausibel, men ikke dokumenteret forklaring for netop denne sygdom.
 
@@ -137,6 +137,18 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger valsarta
 | Braddock syndrom | 0,9996 | L5 | Ingen evidens |
 | Kronisk pulmonal hjertesygdom | 0,9958 | L5 | Ét Phase 1-forsøg om motion ved hypertension (NCT02966665) og overvejende litteratur om hjertesvigt; kun præklinisk studie om pulmonal hypertension (PMID 32552157) med sacubitril/valsartan |
 | Prinzmetal angina | 0,9945 | L5 | Eneste artikel (PMID 20555232) er irrelevant |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -54,7 +54,7 @@ Captopril er en ACE-hæmmer (angiotensinkonverterende enzym), som sænker dannel
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Captopril tilhører klassen af ACE-hæmmere, som hæmmer omdannelsen af angiotensin I til angiotensin II. Det sænker karmodstand og blodtryk og kan nedsætte trykket i nyrernes glomeruli.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Captopril (uofficiel oversættelse): »Virkningsmekanismen for captopril tabletter er endnu ikke fuldt klarlagt. Dets gavnlige virkninger ved hypertension og hjertesvigt synes primært at skyldes hæmning af renin-angiotensin-aldosteron-systemet.« Engelsk originaltekst: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), version af 2026-11-11; hentet 2026-11-19). Captopril tilhører klassen af ACE-hæmmere, som hæmmer omdannelsen af angiotensin I til angiotensin II. Det sænker karmodstand og blodtryk og kan nedsætte trykket i nyrernes glomeruli.
 
 Malign hypertension med nyrepåvirkning er kendetegnet ved stærkt forhøjet blodtryk og aktivering af renin-angiotensin-systemet. Mekanismen er derfor biologisk plausibel. Forudsigelsen ligger tæt på stoffets kendte virkningsområde og er mere en udvidelse end en egentlig nyanvendelse. Den høje score er alene en modelforudsigelse og understøttes ikke af kliniske data i datagrundlaget.
 
@@ -97,6 +97,19 @@ Der findes ingen kliniske forsøg og kun en enkelt case-rapport uden terapeutisk
 - Data om virkningsmekanisme (MOA)
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Sikkerhedsvurdering for særlige patientgrupper, herunder gravide og patienter med nedsat nyrefunktion
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

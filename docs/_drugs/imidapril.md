@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Imidapril er en ACE-hæmmer, der omdannes til den aktive metabolit imidaprilat. Stoffet hæmmer angiotensin-konverterende enzym (ACE) og mindsker dermed dannelsen af angiotensin II, hvilket kan reducere karsammentrækning og vaskulær remodellering.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Imidapril (uofficiel oversættelse): »Angiotensinkonverterende enzym-hæmmer« Engelsk originaltekst: "Angiotensin-converting enzyme inhibitor" ([ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094), CC BY-SA 3.0; hentet 2026-11-19). Imidapril er en ACE-hæmmer, der omdannes til den aktive metabolit imidaprilat. Stoffet hæmmer angiotensin-konverterende enzym (ACE) og mindsker dermed dannelsen af angiotensin II, hvilket kan reducere karsammentrækning og vaskulær remodellering.
 
 Teoretisk kan det renin-angiotensin-aldosteron-system (RAAS)-relaterede mekanismer være relevante for lungekarsygdom. Forbindelsen er dog plausibel, men ikke verificeret. Ved pulmonal hypertension forårsaget af lungesygdom er hypoksisk pulmonal vasokonstriktion den dominerende drivkraft, og ACE-hæmmere har ikke vist ensartet gavn. Desuden er systemisk hypotension en bekymring hos patienter med lungesygdom.
 
@@ -119,6 +119,19 @@ Forudsigelsen hviler udelukkende på en modelscore og generel klasseviden (evide
 - Systematisk litteratursøgning og præklinisk eller klinisk evidens for imidapril eller ACE-hæmmere ved de forudsagte indikationer
 - Afklaring af, om et humant lægemiddel med imidapril er tilgængeligt og godkendt i Danmark
 - Vurdering af administrationsvej og kompatibilitet med den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL317094 (imidapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL317094) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

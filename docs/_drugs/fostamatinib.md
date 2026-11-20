@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen relevant litteratu
 
 ## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Fostamatinib er en hæmmer af spleen tyrosine kinase (SYK). Den aktive metabolit er R406. Stoffet nedsætter den antistofmedierede nedbrydning af blodplader ved at blokere Fc-receptorsignalering i makrofager. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen viden om stoffet.
+Fostamatinib er en hæmmer af spleen tyrosine kinase (SYK). Den aktive metabolit er R406. Stoffet nedsætter den antistofmedierede nedbrydning af blodplader ved at blokere Fc-receptorsignalering i makrofager. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fostamatinib (uofficiel oversættelse): »Fostamatinib er en tyrosinkinasehæmmer med påvist aktivitet over for miltens tyrosinkinase (SYK). Fostamatinibs hovedmetabolit, R406, hæmmer signaltransduktionen af Fc-aktiverende receptorer og B-cellereceptoren.« Engelsk originaltekst: "Fostamatinib is a tyrosine kinase inhibitor with demonstrated activity against spleen tyrosine kinase (SYK). The major metabolite of fostamatinib, R406, inhibits signal transduction of Fc-activating receptors and B-cell receptor." ([DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c), version af 2025-11-05; hentet 2026-11-19).
 
 Forudsigelsen hviler hovedsageligt på ligheden i sygdomsnavnet med den godkendte indikation. Autosomal trombocytopeni er en arvelig tilstand, som normalt skyldes genetiske defekter i blodpladeproduktionen og ikke immunmedieret destruktion. SYK-hæmning ville derfor sandsynligvis ikke have effekt. Den høje score (0,9945) afspejler en grafbaseret forudsigelse uden understøttende kliniske data eller litteratur.
 
@@ -77,7 +77,6 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 ## Litteraturevidens
 
 Der er aktuelt ingen relateret litteratur for den primære forudsigelse (autosomal trombocytopeni med normale blodplader).
-
 
 | PMID | År | Type | Tidsskrift | Hovedpunkter |
 |------|-----|------|------|---------|
@@ -124,6 +123,19 @@ Forudsigelsen er kun modelbaseret (evidensniveau L5) uden kliniske forsøg eller
 - En mekanistisk begrundelse for en specifik undertype af arvelig trombocytopeni, hvor øget clearance af blodplader er involveret
 - Gennemgang af produktresuméet for advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Præklinisk eller litteraturbaseret understøttelse, før kliniske forsøg overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tavalisse (fostamatinib) prescribing information, Rigel Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21149cc3-049b-43e2-b141-c9499160556c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

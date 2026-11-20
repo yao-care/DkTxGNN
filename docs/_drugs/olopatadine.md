@@ -58,7 +58,7 @@ Olopatadin er en histamin H1-receptorantagonist med mastcellestabiliserende effe
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Olopatadin er dog kendt som H1-receptorantagonist med mastcellestabiliserende aktivitet og er godkendt til allergisk, atopisk, vernal og papillær konjunktivitis.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Olopatadine (uofficiel oversættelse): »Olopatadin er en histamin H 1 -receptorantagonist. Olopatadins antihistaminaktivitet er dokumenteret i isolerede væv, dyremodeller og hos mennesker.« Engelsk originaltekst: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), version af 2026-09-15; hentet 2026-11-19). Olopatadin er dog kendt som H1-receptorantagonist med mastcellestabiliserende aktivitet og er godkendt til allergisk, atopisk, vernal og papillær konjunktivitis.
 
 Okulær rosacea (rosacea-konjunktivitis) skyldes primært dysfunktion i meibomske kirtler, inflammation i øjenlågsranden, mikrobielle faktorer eller Demodex samt aktivering af det medfødte immunsystem og cytokiner (f.eks. IL-1 og MMP'er). Den er således ikke en klassisk IgE-medieret allergi.
 
@@ -110,11 +110,12 @@ Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5) uden regi
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->
 

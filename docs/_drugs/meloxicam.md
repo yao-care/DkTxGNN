@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **akromesomel dysp
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen for meloxicam i de data, der er samlet til denne rapport. Meloxicam er kendt som en præferentiel COX-2-hæmmer med smertestillende og antiinflammatorisk effekt ved ledlidelser. Det begrænser mulighederne for en mekanistisk vurdering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Meloxicam (uofficiel oversættelse): »Meloxicam har analgetiske, antiinflammatoriske og antipyretiske egenskaber. Virkningsmekanismen for Zybic™ er, ligesom for andre NSAID'er, ikke fuldt klarlagt, men involverer hæmning af cyclooxygenase (COX-1 og COX-2).« Engelsk originaltekst: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), version af 2026-09-25; hentet 2026-11-19). Meloxicam er kendt som en præferentiel COX-2-hæmmer med smertestillende og antiinflammatorisk effekt ved ledlidelser. Det begrænser mulighederne for en mekanistisk vurdering.
 
 Akromesomel dysplasi af Hunter-Thompson-typen er en sjælden skeletdysplasi, som skyldes funktionstabsvarianter i CDMP1/GDF5 og påvirker udviklingen af bruskvæv i lemmerne. Meloxicam virker ikke på GDF5-signalering eller på den underliggende udviklingsdefekt. Den høje score stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens for en reel terapeutisk sammenhæng.
 
@@ -127,11 +127,12 @@ Forudsigelsen bygger udelukkende på scoren fra TxGNN-modellen (deep learning) u
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

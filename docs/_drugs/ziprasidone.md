@@ -57,7 +57,7 @@ Forudsigelsen er derfor alene modelbaseret.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om ziprasidons virkningsmekanisme foreligger ikke i de data, der er indsamlet til rapporten. Ziprasidon er kendt som et atypisk antipsykotikum med dopamin D2- og serotonin 5-HT2A-antagonisme.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ziprasidone (uofficiel oversættelse): »Virkningsmekanismen for ziprasidon ved behandling af de anførte indikationer kunne medieres via en kombination af antagonisme af dopamin type 2 (D 2 )- og serotonin type 2 (5HT 2 )-receptorer.« Engelsk originaltekst: "The mechanism of action of ziprasidone in the treatment of the listed indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348), version af 2026-09-18; hentet 2026-11-19). Ziprasidon er kendt som et atypisk antipsykotikum med dopamin D2- og serotonin 5-HT2A-antagonisme.
 
 Trikotillomani er kendetegnet ved gentagen, tvangspræget adfærd. Det er teoretisk muligt, at påvirkning af dopamin- og serotoninsystemerne kan modulere sådan adfærd. Dette er imidlertid en hypotese og ikke understøttet af de foreliggende data. Den høje score afspejler en netværksbaseret modelforudsigelse og ikke dokumenteret klinisk effekt.
 
@@ -97,6 +97,18 @@ Der er ingen kliniske forsøg eller publikationer, som direkte undersøger zipra
 - Data om virkningsmekanisme (MOA) og receptorprofil
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især QTc-forlængelse og hjertesikkerhed
 - Et velafgrænset pilotstudie eller klinisk forsøg, før en anvendelse kan overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

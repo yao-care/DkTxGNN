@@ -55,12 +55,11 @@ Der er **ingen registrerede kliniske forsøg** og **20 publikationer** i de inds
 | Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra den kendte farmakologi er naratriptan en selektiv 5-HT1B/1D-agonist. Stoffet hæmmer aktiveringen af det trigeminovaskulære system, begrænser frisætning af CGRP og indsnævrer udvidede kranielle kar.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Naratriptan (uofficiel oversættelse): »Naratriptan bindes med høj affinitet til humane klonede 5-HT 1B/1D -receptorer. Migræne skyldes sandsynligvis lokal kraniel vasodilatation og/eller frigivelse af sensoriske neuropeptider (herunder substans P og calcitonin-gen-relateret peptid) gennem nerveender i trigeminussystemet.« Engelsk originaltekst: "Naratriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (including substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938), version af 2026-08-07; hentet 2026-11-19). Ud fra den kendte farmakologi er naratriptan en selektiv 5-HT1B/1D-agonist. Stoffet hæmmer aktiveringen af det trigeminovaskulære system, begrænser frisætning af CGRP og indsnævrer udvidede kranielle kar.
 
 Migræne med hjernestammeaura (tidligere basilaristype-migræne) er en undertype af migræne med aura og har sandsynligvis samme neurovaskulære patofysiologi som de indikationer, naratriptan allerede anvendes til. Der er derfor et plausibelt mekanistisk led.
 
@@ -132,6 +131,19 @@ Der findes ingen kliniske forsøg eller litteratur, som specifikt omhandler migr
 - Data om virkningsmekanismen (MOA) fra DrugBank
 - Målrettet litteraturgennemgang og sikkerhedsvurdering af triptaner ved hjernestammeaura/basilaristype-migræne
 - Klinisk vurdering af den vaskulære risiko, før der overvejes forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

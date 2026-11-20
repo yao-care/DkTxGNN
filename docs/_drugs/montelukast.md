@@ -60,7 +60,7 @@ Der er **17 kliniske forsøg** og **20 publikationer** knyttet til denne forudsi
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Montelukast er imidlertid kendt som en CysLT1-receptorantagonist. Ved at blokere denne receptor kan det dæmpe luftvejsinflammation, slimsekretion og bronkokonstriktion/hvæsen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Montelukast (uofficiel oversættelse): »Cysteinyl-leukotrienerne (LTC 4, LTD 4, LTE 4 ) er produkter af arachidonsyremetabolismen og frigives fra forskellige celler, herunder mastceller og eosinofiler. Disse eicosanoider bindes til cysteinyl-leukotrien (CysLT)-receptorer. […] Montelukast er en oralt aktiv forbindelse, der bindes med høj affinitet og selektivitet til CysLT 1 -receptoren (frem for andre farmakologisk vigtige receptorer i luftvejene, såsom prostanoid-, kolinerge eller β-adrenerge receptorer).« Engelsk originaltekst: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), version af 2025-04-30; hentet 2026-11-19). Montelukast er imidlertid kendt som en CysLT1-receptorantagonist. Ved at blokere denne receptor kan det dæmpe luftvejsinflammation, slimsekretion og bronkokonstriktion/hvæsen.
 
 Cysteinyl-leukotriener frigives ved virale luftvejsinfektioner, herunder RSV-bronkiolitis, og bidrager til inflammationen. Derfor er det mekanistisk plausibelt, at et lægemiddel, der virker mod astma og allergisk luftvejsinflammation, også kan påvirke bronkiolitis og postbronkiolitisk hvæsen. Ved bronkiolitis obliterans efter stamcelle- eller lungetransplantation er rationalet desuden antiinflammatorisk og antifibrotisk virkning.
 
@@ -134,6 +134,19 @@ Der findes flere randomiserede forsøg, herunder et stort fase 3-forsøg (n=1125
 - Gennemgang af resultaterne fra det store fase 3-forsøg (NCT00076973) og den seneste Cochrane-konklusion
 - Data om virkningsmekanisme og det danske produktresumé (advarsler og kontraindikationer), som mangler i de indsamlede data
 - En plan for overvågning af neuropsykiatriske bivirkninger, især hos børn
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

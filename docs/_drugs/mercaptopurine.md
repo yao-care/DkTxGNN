@@ -54,7 +54,7 @@ Mercaptopurin er en purinantimetabolit, der er markedsført i Danmark som tablet
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Mercaptopurin er dog en purinantimetabolit: Dets thioguaninnukleotid-metabolitter indbygges i DNA og hæmmer den *de novo* purinsyntese, hvilket er cytotoksisk for hurtigt delende myeloide blaster.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mercaptopurine (uofficiel oversættelse): »Mercaptopurin er en purinanalog, som undergår intracellulær transport og aktivering under dannelse af metabolitter, herunder thioguaninnukleotider (TGN'er). Inkorporering af TGN'er i DNA eller RNA resulterer i cellecyklusstop og celledød.« Engelsk originaltekst: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), version af 2026-07-22; hentet 2026-11-19). Mercaptopurin er dog en purinantimetabolit: Dets thioguaninnukleotid-metabolitter indbygges i DNA og hæmmer den *de novo* purinsyntese, hvilket er cytotoksisk for hurtigt delende myeloide blaster.
 
 Evidensen er stærkest for oral vedligeholdelsesbehandling med 6-mercaptopurin og methotrexat ved akut myeloid leukæmi (AML) og for regimer ved akut promyelocytær leukæmi (APL), hvor stoffet indgår i vedligeholdelsesbehandlingen. Der findes fase 3-forsøg i AML og APL, men de afprøver kombinationsregimer. Mercaptopurins specifikke bidrag kan derfor ikke adskilles. Farmakogenetik for NUDT15/TPMT bør styre doseringen.
 
@@ -122,6 +122,18 @@ Kohorte- og pilotstudier understøtter oral vedligeholdelse med mercaptopurin ve
 - Randomiserede data, der isolerer mercaptopurins bidrag ved AML
 - Data om virkningsmekanisme og produktresumé (advarsler, kontraindikationer)
 - Genotypestyret doseringsplan (NUDT15/TPMT) og plan for blodbilledovervågning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

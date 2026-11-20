@@ -58,7 +58,7 @@ Mogamulizumab er et monoklonalt antistof rettet mod CCR4, som er optaget i viden
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra almen viden er mogamulizumab et anti-CCR4-antistof, der via antistofafhængig cellulær cytotoksicitet nedbryder CCR4-positive celler, herunder regulatoriske T-celler (Tregs). Den teoretiske forbindelse til urotelialt karcinom er, at fjernelse af Tregs i tumorens mikromiljø kan styrke det anti-tumorale immunrespons, evt. sammen med checkpoint-hæmmere.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mogamulizumab (uofficiel oversættelse): »Mogamulizumab-kpkc er et defucosyleret, humaniseret IgG1 kappa monoklonalt antistof, som bindes til CCR4, en G-proteinkoblet receptor for CC-kemokiner, der er involveret i transporten af lymfocytter til forskellige organer. Non-kliniske in vitro-studier viser, at mogamulizumab-kpkc-binding gør en celle til mål for antistofafhængig cellemedieret cytotoksicitet (ADCC), hvilket resulterer i depletering af målcellerne.« Engelsk originaltekst: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), version af 2026-03-02; hentet 2026-11-19). Ud fra almen viden er mogamulizumab et anti-CCR4-antistof, der via antistofafhængig cellulær cytotoksicitet nedbryder CCR4-positive celler, herunder regulatoriske T-celler (Tregs). Den teoretiske forbindelse til urotelialt karcinom er, at fjernelse af Tregs i tumorens mikromiljø kan styrke det anti-tumorale immunrespons, evt. sammen med checkpoint-hæmmere.
 
 Denne sammenhæng er spekulativ. Ingen forsøg eller publikationer understøtter den, CCR4-ekspression i denne tumortype er ikke bekræftet, og den høje score er kun en modelforudsigelse. Den oprindelige indikation (T-celle-lymfom) er en CCR4-positiv malignitet, mens urotelialt karcinom ikke er T-cellederiveret, så ligheden mellem indikationerne er ikke afklaret.
 
@@ -126,6 +126,19 @@ Forudsigelsen bygger udelukkende på en modelscore og en teoretisk Treg-depletio
 - Prækliniske data eller litteratur, der direkte undersøger mogamulizumab ved urotelialt karcinom
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet
 - Vurdering af ruteforenelighed og sikkerhed i den nye patientgruppe
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Oxazepam er et benzodiazepin, der oprindeligt anvendes mod angst og alkoholabsti
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den kendte klasse-mekanisme er oxazepam et kortvirkende benzodiazepin, som forstærker den hæmmende GABA-A-receptorfunktion. Det giver beroligende og søvnfremmende effekt, hvilket er biologisk plausibelt ved insomni.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Oxazepam (uofficiel oversættelse): »GABA-A-receptor; positiv allosterisk modulator af anionkanal« Engelsk originaltekst: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; hentet 2026-11-19). Ud fra den kendte klasse-mekanisme er oxazepam et kortvirkende benzodiazepin, som forstærker den hæmmende GABA-A-receptorfunktion. Det giver beroligende og søvnfremmende effekt, hvilket er biologisk plausibelt ved insomni.
 
 Angst og søvnforstyrrelser optræder ofte sammen, og søvnløshed er et almindeligt symptom ved alkoholabstinens. Det understøtter, at et stof med effekt på angst og abstinens også kan påvirke søvn. Oxazepam nedbrydes via glukuronidering og har ingen aktive mellemprodukter med lang halveringstid. Det bruges derfor ofte til ældre og patienter med nedsat leverfunktion. Den korte halveringstid kan hjælpe på indsovning, men giver muligvis mindre dækning af søvnvedligeholdelse.
 
@@ -111,6 +111,19 @@ Forudsigelsen er biologisk plausibel, men understøttes kun af beregning og få,
 - Systematisk litteraturgennemgang af oxazepam ved insomni, herunder vurdering af studiedesign
 - Afklaring af godkendt indikation for Oxabenz og vurdering af, om brug mod insomni ligger inden for eksisterende godkendelse
 - Vurdering af risiko for afhængighed, tolerans og abstinens ved længerevarende brug, særligt hos ældre
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

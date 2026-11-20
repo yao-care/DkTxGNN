@@ -60,7 +60,7 @@ Bemærk, at homozygot familiær hyperkolesterolæmi allerede er blandt de oprind
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Rosuvastatin er dog kendt som en HMG-CoA-reduktasehæmmer. Den nedsætter leverens kolesterolsyntese og øger antallet af LDL-receptorer, hvilket sænker LDL-kolesterol. Dette er kernemekanismen ved familiær hyperkolesterolæmi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rosuvastatin (uofficiel oversættelse): »CRESTOR er en hæmmer af HMG‑CoA-reduktase, det hastighedsbegrænsende enzym, der omdanner 3‑hydroxy‑3‑methylglutaryl-coenzym A til mevalonat, en forløber for kolesterol.« Engelsk originaltekst: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), version af 2026-09-23; hentet 2026-11-19). Rosuvastatin er dog kendt som en HMG-CoA-reduktasehæmmer. Den nedsætter leverens kolesterolsyntese og øger antallet af LDL-receptorer, hvilket sænker LDL-kolesterol. Dette er kernemekanismen ved familiær hyperkolesterolæmi.
 
 Rosuvastatins effekt på forhøjede blodfedtstoffer er veldokumenteret, og homozygot familiær hyperkolesterolæmi er allerede en kendt indikation. Heterozygot form og pædiatriske patienter er de vigtigste udvidelser. Flere fase 3-forsøg, bl.a. hos børn og unge, understøtter effekt og sikkerhed.
 
@@ -138,6 +138,19 @@ Flere afsluttede fase 3-forsøg, bl.a. hos børn med homozygot og heterozygot FH
 - Pædiatrisk dosering og vækstopfølgning
 - Plan for tillægsbehandling hos LDL-receptor-negative homozygote patienter
 - Gennemgang af interaktioner, især med fenofibrat og atazanavir
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

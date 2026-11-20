@@ -66,7 +66,7 @@ Bemærk: Den næsthøjest rangerede forudsigelse er **Tourettes syndrom** (score
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om fentanyls detaljerede virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Fentanyl er dog generelt kendt som en mu-opioidreceptoragonist med stærk smertestillende effekt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fentanyl (uofficiel oversættelse): »Fentanylcitrat injektionsvæske er en opioidagonist, hvis primære terapeutisk værdifulde virkninger er analgesi og sedation.« Engelsk originaltekst: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), version af 2026-10-23; hentet 2026-11-19). Fentanyl er dog generelt kendt som en mu-opioidreceptoragonist med stærk smertestillende effekt.
 
 NSIAD skyldes en aktiverende (gain-of-function) mutation i vasopressin V2-receptoren (AVPR2), som virker uafhængigt af vasopressin. Opioider kan påvirke frigivelsen af antidiuretisk hormon og nyrernes vandhåndtering, men en mu-opioidagonist forventes ikke at kunne korrigere en defekt på receptorniveau. Forudsigelsen er derfor biologisk usandsynlig uden yderligere evidens. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -140,12 +140,13 @@ Forudsigelsen hviler udelukkende på en grafbaseret modelscore uden kliniske for
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Durogesic afregistreret 2026-09-14; andre fentanyl-depotplastre er fortsat godkendt | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-17 | Status: “gyldig” → “afregistreret 2026-09-14” | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

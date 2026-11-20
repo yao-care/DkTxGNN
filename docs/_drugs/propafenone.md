@@ -54,7 +54,7 @@ Propafenon er et antiarytmikum af klasse IC, som markedsføres i Danmark som fil
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om propafenons virkningsmekanisme foreligger ikke i det materiale, der er indsamlet til denne rapport. Propafenon er et antiarytmikum af klasse IC, som især hæmmer hjertets natriumkanaler. Der er ikke fundet nogen kendt terapeutisk mekanisme, som kan forklare en effekt ved mani.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Propafenone (uofficiel oversættelse): »Propafenon er et klasse 1C-antiarytmikum med lokalbedøvende virkning og en direkte stabiliserende virkning på myokardiemembraner. Den elektrofysiologiske virkning af propafenon viser sig ved en reduktion af optaktshastigheden (fase 0) af det monofasiske aktionspotentiale.« Engelsk originaltekst: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), version af 2026-06-04; hentet 2026-11-19). Propafenon er et antiarytmikum af klasse IC, som især hæmmer hjertets natriumkanaler. Der er ikke fundet nogen kendt terapeutisk mekanisme, som kan forklare en effekt ved mani.
 
 Litteraturen peger i modsat retning af forudsigelsen:
 
@@ -124,6 +124,18 @@ Der er ingen kliniske forsøg og ingen publikationer, der undersøger propafenon
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Præklinisk eller klinisk evidens for gavnlig effekt ved mani, som modvejer signalet om psykiatriske bivirkninger
 - Vurdering af interaktionsrisiko med stemningsstabiliserende og antipsykotiske lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

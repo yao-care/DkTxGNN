@@ -41,7 +41,6 @@ Evidensniveau: **L5** | Forudsagte indikationer: **1** stk.
 Ertapenem er et bredspektret carbapenem-antibiotikum, der oprindeligt anvendes til bakteriel lungebetændelse (herunder streptokok-pneumoni) og infektioner med Peptostreptococcus.
 Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultater) og **20 publikationer**, hovedsageligt case-serier og kohortestudier.
 
-
 ---
 
 ## Hurtigt overblik
@@ -60,7 +59,7 @@ Evidensen består af **2 kliniske forsøg** (begge igangværende, uden resultate
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om ertapenems oprindelige virkningsmekanisme er ikke tilgængelige i de kompilerede data. Ertapenem er et carbapenem, som hæmmer bakteriens cellevægssyntese ved at binde til penicillinbindende proteiner (PBP), primært PBP 2 og 3. Det har bredt spektrum mod Enterobacterales (inkl. ESBL-producenter) og anaerobe bakterier.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ertapenem (uofficiel oversættelse): »Ertapenemnatrium er et carbapenem-antibiotikum. […] Ertapenem har in vitro-aktivitet mod grampositive og gramnegative aerobe og anaerobe bakterier. Ertapenems baktericide aktivitet skyldes hæmning af cellevægssyntesen og medieres gennem ertapenems binding til penicillinbindende proteiner (PBP'er).« Engelsk originaltekst: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), version af 2026-02-04; hentet 2026-11-19). Ertapenem er et carbapenem, som hæmmer bakteriens cellevægssyntese ved at binde til penicillinbindende proteiner (PBP), primært PBP 2 og 3. Det har bredt spektrum mod Enterobacterales (inkl. ESBL-producenter) og anaerobe bakterier.
 
 Ertapenem anvendes normalt ikke som monoterapi mod S. aureus. I kombination med cefazolin ses der imidlertid synergi mod methicillin-følsom S. aureus (MSSA). Den foreslåede mekanisme er, at de to betalaktamer mætter komplementære PBP'er (bl.a. PBP1), hvilket øger den baktericide effekt og kan rydde vedvarende bakteriæmi. Det er en udvidelse af den antibakterielle anvendelse snarere end en ny virkningsmekanisme.
 
@@ -125,6 +124,19 @@ Der findes konsistente case-serier, kohortestudier og dyredata for cefazolin + e
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Retningslinjer for carbapenem-stewardship og monitorering (albuminniveau, krampetærskel, C. difficile)
 - Gennemgang af den alvorlige interaktion med bupropion samt de moderate interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

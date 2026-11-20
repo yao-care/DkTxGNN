@@ -62,7 +62,7 @@ Evidensen består af **3 kliniske forsøg** (heraf 1 direkte relevant, lille fas
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Duloxetin er dog kendt som en dobbelt hæmmer af genoptagelsen af serotonin (SERT) og noradrenalin (NET). Serotonerg modulering er kernen i den etablerede farmakoterapi ved OCD (SSRI og clomipramin), så en mekanistisk rolle er plausibel, især hos patienter, der ikke responderer på SSRI.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Duloxetine (uofficiel oversættelse): »Selvom de nøjagtige mekanismer bag duloxetins antidepressive, centralt smertehæmmende og anxiolytiske virkninger hos mennesker er ukendte, menes disse virkninger at være relateret til dets potensering af den serotonerge og noradrenerge aktivitet i CNS.« Engelsk originaltekst: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), version af 2026-08-20; hentet 2026-11-19). Duloxetin er dog kendt som en dobbelt hæmmer af genoptagelsen af serotonin (SERT) og noradrenalin (NET). Serotonerg modulering er kernen i den etablerede farmakoterapi ved OCD (SSRI og clomipramin), så en mekanistisk rolle er plausibel, især hos patienter, der ikke responderer på SSRI.
 
 Depression og angstlidelser har ofte OCD som komorbiditet og deler delvist de samme monoaminerge systemer. Duloxetin har dokumenteret effekt ved depression og generaliseret angst, hvilket understøtter biologisk sandsynlighed. Gennemgangsartikler peger dog på, at evidensen for SNRI ved OCD er mindre konsistent end for SSRI og clomipramin.
 
@@ -149,11 +149,12 @@ OCD har den stærkeste evidens blandt de forudsagte indikationer (L2): ét dobbe
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/); [EMA: Medicines output – medicines report (Excel)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

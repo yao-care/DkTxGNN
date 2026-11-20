@@ -56,7 +56,7 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Levodopa er et forstadie til dopamin og bruges til at erstatte det manglende dopamin i striatum ved Parkinsons sygdom og relaterede syndromer. Data for lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport.
+Levodopa er et forstadie til dopamin og bruges til at erstatte det manglende dopamin i striatum ved Parkinsons sygdom og relaterede syndromer. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Levodopa (uofficiel oversættelse): »Levodopa, den metaboliske forløber for dopamin, passerer blod-hjerne-barrieren og omdannes formentlig til dopamin i hjernen. Dette menes at være den mekanisme, hvorved levodopa lindrer symptomerne på Parkinsons sygdom.« Engelsk originaltekst: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), version af 2026-07-20; hentet 2026-11-19).
 
 Rasmussens encefalitis er en kronisk, ensidig, immunmedieret inflammatorisk hjernebetændelse med vanskeligt behandlelige fokale anfald og fremadskridende atrofi af den ene hjernehalvdel. Den centrale patologi (T-celle-medieret cytotoksicitet og neuroinflammation) har ingen oplagt kobling til en dopaminerg mekanisme.
 
@@ -98,6 +98,19 @@ Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5), uden k
 - Gennemgang af produktresuméet (advarsler og kontraindikationer) fra Lægemiddelstyrelsen
 - Vurdering af, om forudsigelsen blot afspejler nærhed til hemiparkinsonistiske fænotyper, og om der er et reelt klinisk behov for symptomatisk behandling af bevægelsesforstyrrelser ved denne sygdom
 - Vurdering af administrationsvejens egnethed, da det eneste danske præparat (Inbrija) er inhalationspulver til brug ved Parkinsons sygdom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

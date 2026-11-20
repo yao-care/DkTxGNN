@@ -60,7 +60,7 @@ Amikacin er et aminoglykosid-antibiotikum, der virker bakteriedræbende mod gram
 
 Amikacin er et bakteriedræbende aminoglykosid, der binder til den lille (30S) ribosomale underenhed og hæmmer proteinsyntesen. Det har aktivitet mod gramnegative enterobakterier, herunder Salmonella, og det gør forudsigelsen biologisk plausibel.
 
-Der er dog vigtige forbehold. Aminoglykosider trænger dårligt ind i celler, og Salmonella overlever inde i makrofager. Aminoglykosider anses derfor generelt for klinisk utilstrækkelige ved enterisk feber. De foretrukne midler er fluorokinoloner, azithromycin og tredjegenerations cefalosporiner. Data om virkningsmekanisme (MOA) fra DrugBank er ikke tilgængelige i de indsamlede data.
+Der er dog vigtige forbehold. Aminoglykosider trænger dårligt ind i celler, og Salmonella overlever inde i makrofager. Aminoglykosider anses derfor generelt for klinisk utilstrækkelige ved enterisk feber. De foretrukne midler er fluorokinoloner, azithromycin og tredjegenerations cefalosporiner. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Amikacin (uofficiel oversættelse): »Amikacin, et aminoglykosid, binder til det prokaryote ribosom og hæmmer proteinsyntesen i følsomme bakterier. Det er baktericidt in vitro over for grampositive og gramnegative bakterier.« Engelsk originaltekst: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), version af 2026-07-27; hentet 2026-11-19).
 
 ---
 
@@ -114,6 +114,19 @@ Der findes ingen kliniske forsøg og ingen publikationer, der direkte undersøge
 - Kliniske data om amikacins effekt ved enterisk feber, herunder sammenligning med standardbehandling
 - Data om virkningsmekanisme (MOA)
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især nyre- og øre-toksicitet samt neuromuskulære forhold
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

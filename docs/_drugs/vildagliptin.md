@@ -59,7 +59,7 @@ Vildagliptin er et lægemiddel til behandling af type 2-diabetes. TxGNN-modellen
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Vildagliptin er kendt som en hæmmer af dipeptidylpeptidase-4 (DPP-4), og farmakologidata bekræfter DPP-4 som mål. Desuden er DPP-8, DPP-9 og TRPV4 registreret som mål. Virkningen er veldokumenteret ved type 2-diabetes.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Vildagliptin (uofficiel oversættelse): »Dipeptidylpeptidase IV-hæmmer« Engelsk originaltekst: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; hentet 2026-11-19). Vildagliptin er kendt som en hæmmer af dipeptidylpeptidase-4 (DPP-4), og farmakologidata bekræfter DPP-4 som mål. Desuden er DPP-8, DPP-9 og TRPV4 registreret som mål. Virkningen er veldokumenteret ved type 2-diabetes.
 
 Der er ikke identificeret nogen mekanistisk forbindelse mellem DPP-4-hæmning og fokalt stiff limb-syndrom. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et grundlag for klinisk anvendelse.
 
@@ -132,6 +132,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), og der findes hver
 - Præklinisk eller kasuistisk evidens, der direkte vedrører fokalt stiff limb-syndrom
 - Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer, da disse data mangler
 - Vurdering af relevansen af pankreatitis-signalet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

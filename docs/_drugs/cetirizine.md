@@ -54,7 +54,7 @@ Cetirizin er et antihistamin (H1-receptorantagonist), der anvendes mod allergisk
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Cetirizin tilhører gruppen af H1-antihistaminer, som blokerer histaminets virkning på H1-receptorer. Det er en mekanisme, der er relevant ved allergiske og vasomotoriske tilstande i næsen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cetirizine (uofficiel oversættelse): »Cetirizinhydrochlorid, en human metabolit af hydroxyzin, er et antihistamin; dets primære virkninger medieres via selektiv hæmning af perifere H 1 -receptorer. Cetirizinhydrochlorids antihistaminaktivitet er klart dokumenteret i en række dyre- og humane modeller.« Engelsk originaltekst: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), version af 2026-09-22; hentet 2026-11-19). Cetirizin tilhører gruppen af H1-antihistaminer, som blokerer histaminets virkning på H1-receptorer. Det er en mekanisme, der er relevant ved allergiske og vasomotoriske tilstande i næsen.
 
 "Sygdom i næsehulen" er en bred og uspecifik betegnelse. Den høje score afspejler sandsynligvis, at cetirizin allerede bruges ved næserelaterede tilstande som allergisk og vasomotorisk rhinitis, snarere end en egentlig ny anvendelse. Der kan derfor ikke formuleres en specifik repurposing-hypotese ud fra de foreliggende data.
 
@@ -102,6 +102,19 @@ Forudsigelsen er kun modelbaseret (evidensniveau L5) og understøttes ikke af kl
 - Systematisk litteratur- og forsøgssøgning for den specificerede tilstand
 - Data om virkningsmekanisme (MOA)
 - Gennemgang af produktresuméets advarsler og kontraindikationer for en sikkerhedsvurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

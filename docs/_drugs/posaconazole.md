@@ -60,7 +60,7 @@ Forudsigelsen bygger primært på lægemiddelklassen og vurderes som mekanistisk
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Posaconazol hæmmer svampeenzymet lanosterol-14-alfa-demethylase (CYP51) og blokerer dermed syntesen af ergosterol, en vigtig bestanddel af svampes cellemembran. Data om virkningsmekanismen i de indsamlede data er ikke tilgængelige, så denne vurdering bygger på almen viden om lægemiddelklassen.
+Posaconazol hæmmer svampeenzymet lanosterol-14-alfa-demethylase (CYP51) og blokerer dermed syntesen af ergosterol, en vigtig bestanddel af svampes cellemembran. Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Posaconazole (uofficiel oversættelse): »Posaconazol er et azolsvampemiddel. […] Posaconazol blokerer syntesen af ergosterol, en vigtig bestanddel af svampecellemembranen, ved at hæmme det cytochrom P-450-afhængige enzym lanosterol-14α-demethylase, som er ansvarligt for omdannelsen af lanosterol til ergosterol i svampecellemembranen. Dette medfører en ophobning af methylerede sterolprækursorer og en udtømning af ergosterol i cellemembranen, hvorved svampecellemembranens struktur og funktion svækkes.« Engelsk originaltekst: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), version af 2026-02-13; hentet 2026-11-19).
 
 *Pneumocystis jirovecii* har i modsætning til de fleste svampe ikke ergosterol i sin cellemembran, men anvender primært kolesterol. Azolers virkningsmekanisme er derfor ikke mekanistisk plausibel mod denne organisme. Den høje TxGNN-score skyldes sandsynligvis lægemidlets brede tilknytning til antimykotika som klasse og ikke en reel mekanistisk sammenhæng.
 
@@ -127,6 +127,19 @@ Forudsigelsen hviler alene på modellen (evidensniveau L4). Det eneste identific
 - Gennemgang af produktresumé (SmPC) for advarsler og kontraindikationer, da disse mangler i de indsamlede data
 - Vurdering af administrationsvej og relevant formulering til lungeinfektion
 - Sammenligning med etableret behandling og profylakse af pneumocystose (fx trimethoprim-sulfamethoxazol)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

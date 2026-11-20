@@ -56,7 +56,7 @@ Der er dog **ingen kliniske forsøg og ingen publikationer** i de data, der er i
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det vides dog fra lægemiddelklassen, at cemiplimab er et monoklonalt antistof mod PD-1-receptoren (programmeret celledød-1, PDCD1). Det blokerer interaktionen mellem PD-1 og PD-L1 (IC50 under 1 nM i en ELISA-analyse) og kan dermed genaktivere T-cellernes immunrespons mod tumorceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cemiplimab (uofficiel oversættelse): »Binding af PD-1-ligandserne PD-L1 og PD-L2 til PD-1-receptoren på T-celler hæmmer T-celleproliferation og cytokinproduktion. Opregulering af PD-1-ligander forekommer i nogle tumorer, og signalering via denne signalvej kan bidrage til hæmning af den aktive T-cellemedierede immunovervågning af tumorer. […] Cemiplimab-rwlc er et rekombinant humant immunglobulin G4 (IgG4) monoklonalt antistof, der binder til PD-1 og blokerer dets interaktion med PD-L1 og PD-L2, hvorved PD-1-signalvejsmedieret hæmning af immunresponset ophæves, herunder det antitumorale immunrespons.« Engelsk originaltekst: "Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a), version af 2026-08-31; hentet 2026-11-19). Det vides dog fra lægemiddelklassen, at cemiplimab er et monoklonalt antistof mod PD-1-receptoren (programmeret celledød-1, PDCD1). Det blokerer interaktionen mellem PD-1 og PD-L1 (IC50 under 1 nM i en ELISA-analyse) og kan dermed genaktivere T-cellernes immunrespons mod tumorceller.
 
 Modellen har sandsynligvis fundet en lighed mellem den pladecellekomponent, der findes i adenoskvamøse tumorer, og de pladecellekræftformer, som cemiplimab allerede anvendes mod. Hvis PD-1/PD-L1-aksen spiller en lignende rolle i den skvamøse del af galdeblæretumoren, kunne blokade være relevant. Det er en hypotese uden klinisk støtte: der er hverken forsøgsdata eller litteratur for cemiplimab i denne sygdom, og mekanismen er udledt af generel viden om lægemiddelklassen.
 
@@ -116,6 +116,18 @@ Forudsigelsen har en meget høj modelscore (0,9999), men der findes ingen klinis
 - Data om virkningsmekanismen fra DrugBank
 - Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
 - Hvis en forundersøgelse er lovende: et prospektivt eller tidligt klinisk forsøg med klar sikkerhedsovervågning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

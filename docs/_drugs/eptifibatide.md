@@ -62,7 +62,7 @@ Evidensen er begrænset til små, tidlige studier, og effekt er ikke påvist.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Eptifibatid er dog kendt som en antagonist af GPIIb/IIIa (integrin αIIbβ3), som blokerer blodpladeaggregation. Dette er grundlaget for anvendelsen ved akut koronarsyndrom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Eptifibatide (uofficiel oversættelse): »Eptifibatid hæmmer reversibelt trombocytaggregation ved at forhindre binding af fibrinogen, von Willebrand-faktor og andre adhæsive ligander til GP IIb/IIIa. Ved intravenøs administration hæmmer eptifibatid ex vivo-trombocytaggregation dosis- og koncentrationsafhængigt.« Engelsk originaltekst: "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), version af 2026-10-02; hentet 2026-11-19). Eptifibatid er dog kendt som en antagonist af GPIIb/IIIa (integrin αIIbβ3), som blokerer blodpladeaggregation. Dette er grundlaget for anvendelsen ved akut koronarsyndrom.
 
 Ved seglcellesygdom bidrager blodpladeaktivering, adhæsion til endotel og seglformede røde blodlegemer samt inflammation til smertefulde vaso-okklusive kriser. Da eptifibatid hæmmer blodpladeaggregation, er der en biologisk sammenhæng mellem den oprindelige og den nye indikation. Små studier har undersøgt lægemidlet i denne sammenhæng, og de understøtter sikkerhed og biologisk plausibilitet, men ikke effekt.
 
@@ -131,6 +131,19 @@ Evidensen for hæmoglobinopati/seglcellesygdom består af ét tidligt afsluttet 
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (herunder trombocytopeni, koagulationsforstyrrelser og nedsat nyrefunktion)
 - Vurdering af administrationsvej og doseringsstrategi, da eptifibatid kun foreligger som intravenøs infusion
 - Sikkerhedsplan for blødningsrisiko og interaktioner, især med andre antitrombotiske midler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

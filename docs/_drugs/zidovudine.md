@@ -58,7 +58,7 @@ Zidovudin er en nukleosid-revers transkriptasehæmmer, der oprindeligt bruges mo
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Zidovudin er dog kendt som en thymidinanalog, der virker som kædeterminator og hæmmer HIV's revers transkriptase. Felint immundefektvirus (FIV) er en lentivirus, der bruger det samme enzym. Mekanismen er derfor biologisk plausibel.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Zidovudine (uofficiel oversættelse): »Zidovudin er et antiretroviralt middel. […] Zidovudin er en syntetisk nukleosidanalog. Intracellulært fosforyleres zidovudin til sin aktive 5′-trifosfatmetabolit, zidovudintrifosfat (ZDV-TP). Den primære virkningsmåde for ZDV-TP er hæmning af revers transkriptase (RT) via DNA-kædeterminering efter inkorporering af nukleotidanalogen.« Engelsk originaltekst: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), version af 2024-11-13; hentet 2026-11-19). Zidovudin er dog kendt som en thymidinanalog, der virker som kædeterminator og hæmmer HIV's revers transkriptase. Felint immundefektvirus (FIV) er en lentivirus, der bruger det samme enzym. Mekanismen er derfor biologisk plausibel.
 
 Den oprindelige indikation (HIV/AIDS) og den forudsagte indikation (FAIDS) er to beslægtede lentivirale immundefektsygdomme. Dyrestudierne viser, at zidovudin kan sænke virusmængden i plasma og i nogle modeller forbedre CD4-tal. Det forebygger dog ikke selve infektionen.
 
@@ -135,11 +135,12 @@ Se i øvrigt den godkendte produktresumé (SmPC) for fuldstændige oplysninger o
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

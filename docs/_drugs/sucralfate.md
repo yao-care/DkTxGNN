@@ -60,7 +60,7 @@ Der er **ingen registrerede kliniske forsøg**, men **10 publikationer** (heribl
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke i øjeblikket detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen viden danner sucralfat en beskyttende, klæbende barriere over beskadiget slimhinde i mave og spiserør og binder galdesyrer og pepsin.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sucralfate (uofficiel oversættelse): »Selvom mekanismen bag sucralfats evne til at fremskynde helingen af duodenalsår endnu ikke er fuldt klarlagt, vides det, at det udøver sin virkning gennem en lokal snarere end systemisk virkning. Følgende observationer synes også relevante: 1.« Engelsk originaltekst: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), version af 2026-01-06; hentet 2026-11-19). Ud fra almen viden danner sucralfat en beskyttende, klæbende barriere over beskadiget slimhinde i mave og spiserør og binder galdesyrer og pepsin.
 
 Ved alkalisk (galde-)refluksgastritis og -øsofagitis skyldes slimhindeskaden tilbagestrømmet galde og bugspytkirtelsekret og ikke kun mavesyre. Derfor er en slimhindebeskyttende og galdebindende effekt biologisk plausibel, og den høje TxGNN-score er i overensstemmelse hermed.
 
@@ -124,6 +124,19 @@ To randomiserede forsøg (1985 og 2003) og flere mindre studier undersøger sucr
 - Det godkendte indikationsområde for Antepsin i Danmark
 - Et moderne, velkontrolleret forsøg, der sammenligner sucralfat med protonpumpehæmmere
 - Særlig forsigtighed hos patienter med nedsat nyrefunktion og ved samtidig brug af lægemidler med relevante interaktioner (fx dolutegravir, bictegravir, tetracykliner og bisfosfonater)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

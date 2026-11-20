@@ -64,7 +64,7 @@ Methadon er et opioid. Der foreligger ingen godkendt human indikation i de data,
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er samlet til denne rapport. Methadon er dog kendt som en mu-opioidagonist og NMDA-receptorantagonist. Opioidmodulering af dopaminerge og striatale kredsløb er en mulig vej til at dæmpe tics. Det er en hypotese og ikke dokumenteret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Methadone (uofficiel oversættelse): »Methadonhydrochlorid er en mu-agonist; et syntetisk opioid med flere virkninger, der kvalitativt ligner morfins, hvoraf de mest fremtrædende involverer centralnervesystemet og organer bestående af glat muskulatur. Methadon-abstinenssyndromet ligner kvalitativt morfins, men adskiller sig ved, at debut er langsommere, forløbet er mere langvarigt, og symptomerne er mindre svære.« Engelsk originaltekst: "Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe." ([DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05), version af 2026-08-04; hentet 2026-11-19). Methadon er dog kendt som en mu-opioidagonist og NMDA-receptorantagonist. Opioidmodulering af dopaminerge og striatale kredsløb er en mulig vej til at dæmpe tics. Det er en hypotese og ikke dokumenteret.
 
 Den eneste direkte kliniske indikation er en case-rapport fra 1992 om methadonbehandling af Tourettes syndrom (PMID 1728167). Et prækliniske studie (PMID 17102981) kobler atypiske opioider til 5-HT2A/C-medieret adfærd i en OCD-model, hvilket kun er indirekte støtte. Den meget høje modelscore er en forudsigelse og kan ikke erstatte klinisk evidens.
 
@@ -153,13 +153,14 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "Bemærk, at det eneste danske produkt er veterinært" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "(det eneste danske produkt er veterinært)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
 
 <!-- review:end log -->
 

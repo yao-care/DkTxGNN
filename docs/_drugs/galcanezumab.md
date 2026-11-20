@@ -58,7 +58,7 @@ Galcanezumab er et humaniseret monoklonalt antistof mod calcitonin gene-related 
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Galcanezumab neutraliserer CGRP, som spiller en central rolle i migrænens patofysiologi. Lægemidlet er godkendt til forebyggelse af migræne og af episodisk clusterhovedpine. Detaljerede data om virkningsmekanismen fra lægemiddeldatabasen er ikke tilgængelige i de data, der er indsamlet til denne rapport.
+Galcanezumab neutraliserer CGRP, som spiller en central rolle i migrænens patofysiologi. Lægemidlet er godkendt til forebyggelse af migræne og af episodisk clusterhovedpine. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Galcanezumab (uofficiel oversættelse): »Galcanezumab-gnlm er et humaniseret monoklonalt antistof, der binder til liganden calcitonin gene-related peptide (CGRP) og blokerer dens binding til receptoren.« Engelsk originaltekst: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), version af 2026-06-05; hentet 2026-11-19).
 
 Galcanezumab påvirker hverken koagulationskaskaden eller heparin-cofaktor II. Der er derfor ingen mekanistisk sammenhæng mellem migræne og heparin-cofaktor-2-mangel. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -125,6 +125,19 @@ Forudsigelsen om heparin-cofaktor-2-mangel er udelukkende modelbaseret (L5) uden
 - Gennemgang af cerebrovaskulære sikkerhedsdata (bl.a. PMID 42390441 og 39365416) før enhver anvendelse til aurasubtyper.
 - Hentning og gennemgang af SmPC for advarsler og kontraindikationer, da disse data mangler.
 - Supplerende data om virkningsmekanisme fra lægemiddeldatabasen.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Benazepril er en ACE-hæmmer. Ifølge de data, der er indsamlet til denne rappor
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme foreligger ikke i detaljeret form. Benazepril tilhører gruppen af ACE-hæmmere, som nedsætter dannelsen af angiotensin II. Det sænker blodtrykket og reducerer trykket i nyrens glomeruli, hvilket biologisk er plausibelt ved hypertensiv nyreskade.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Benazepril (uofficiel oversættelse): »Benazepril og benazeprilat hæmmer angiotensinkonverterende enzym (ACE) hos mennesker og dyr. Benazeprilat har langt større ACE-hæmmende aktivitet end benazepril. ACE er en peptidyldipeptidase, der katalyserer omdannelsen af angiotensin I til det vasokonstriktive stof angiotensin II.« Engelsk originaltekst: "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), version af 2025-09-30; hentet 2026-11-19). Benazepril tilhører gruppen af ACE-hæmmere, som nedsætter dannelsen af angiotensin II. Det sænker blodtrykket og reducerer trykket i nyrens glomeruli, hvilket biologisk er plausibelt ved hypertensiv nyreskade.
 
 Den høje score (0,9965) afspejler sandsynligvis, at sygdommen ligger tæt på lægemidlets kendte anvendelse ved forhøjet blodtryk i modellens datagrundlag. Det er ikke et bevis for klinisk effekt. Malign hypertension behandles desuden normalt akut med intravenøse midler. En oral ACE-hæmmer ville derfor højst få en rolle i langsigtet nyrebeskyttelse efter stabilisering, ikke som primær behandling.
 
@@ -107,6 +107,19 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5). Der foreligger
 - Data om virkningsmekanisme (MOA)
 - Sikkerhedsoplysninger fra produktresuméet for humane præparater, da de danske tilladelser kun omfatter veterinærprodukter
 - Vurdering af klinisk rolle (langtidsbeskyttelse af nyrerne efter akut stabilisering) af nefrologisk og kardiologisk ekspertise
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

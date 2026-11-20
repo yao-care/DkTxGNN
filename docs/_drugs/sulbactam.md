@@ -60,7 +60,7 @@ Der er **ingen registrerede kliniske forsøg**, og der foreligger **19 publikati
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er sulbactam en irreversibel hæmmer af betalaktamaser, og stoffet har egen aktivitet mod *Acinetobacter* spp. I kombination med ampicillin udvides dækningen til betalaktamaseproducerende *S. aureus*, *E. coli* og anaerobe bakterier.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for ampicillin and sulbactam (kombinationspræparat med Sulbactam) (uofficiel oversættelse): »Det er i biokemiske undersøgelser med cellefrie bakteriesystemer påvist, at en bred vifte af beta-lactamaser, som findes i mikroorganismer, der er resistente over for penicilliner og cefalosporiner, hæmmes irreversibelt af sulbactam. Selvom sulbactam alene kun har ringe anvendelig antibakteriel aktivitet, undtagen over for Neisseriaceae, har undersøgelser med hele organismer vist, at sulbactam genopretter ampicillins aktivitet over for beta-lactamaseproducerende stammer.« Engelsk originaltekst: "A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the Neisseriaceae, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains." ([DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398), version af 2026-11-12; hentet 2026-11-19). Ud fra kendt farmakologi er sulbactam en irreversibel hæmmer af betalaktamaser, og stoffet har egen aktivitet mod *Acinetobacter* spp. I kombination med ampicillin udvides dækningen til betalaktamaseproducerende *S. aureus*, *E. coli* og anaerobe bakterier.
 
 Disse bakterier er almindelige årsager til knogle- og ledinfektioner. Da kendte indikationer allerede omfatter *S. aureus*- og *E. coli*-infektioner, er den biologiske kobling til bakteriel artritis plausibel. Koblingen er dog udledt af almen farmakologi og ikke af de foreliggende data.
 
@@ -124,6 +124,19 @@ Den mekanistiske kobling er plausibel, og ampicillin/sulbactam er allerede marke
 - Gennemgang af nyere kliniske retningslinjer for septisk artritis og lokale resistensmønstre
 - Vurdering af, om bakteriel artritis allerede dækkes af eksisterende indikationer for ampicillin/sulbactam
 - Eventuelt et velgennemført klinisk studie eller systematisk review, hvis der skal søges ny indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

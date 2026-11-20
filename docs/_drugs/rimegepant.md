@@ -59,7 +59,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer spec
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Rimegepant er dog kendt som en CGRP-receptorantagonist. CGRP (calcitonin gene-related peptide) spiller en central rolle i migrænens patofysiologi, og lægemidlet er godkendt til akut behandling af migræne med eller uden aura samt forebyggelse af episodisk migræne hos voksne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rimegepant (uofficiel oversættelse): »Rimegepant er en calcitonin-genrelateret peptidreceptorantagonist.« Engelsk originaltekst: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), version af 2026-06-04; hentet 2026-11-19). Rimegepant er dog kendt som en CGRP-receptorantagonist. CGRP (calcitonin gene-related peptide) spiller en central rolle i migrænens patofysiologi, og lægemidlet er godkendt til akut behandling af migræne med eller uden aura samt forebyggelse af episodisk migræne hos voksne.
 
 Migræne med hjernestammeaura er en klinisk undertype af migræne. Den mekanistiske sammenhæng er derfor plausibel, men der er reelt tale om en sygdomsfamilie, der allerede er omfattet af den eksisterende indikation, snarere end egentlig lægemiddelomplacering.
 
@@ -127,6 +127,19 @@ Rimegepant er allerede markedsført i Danmark til migræne, og den mekanistiske 
 ---
 
 *Bemærk: De øvrige forudsigelser (atrophoderma vermiculata, ulerythema ophryogenesis, heparin cofactor 2-mangel, antithrombinmangel type 2 og faktor 5-overskud med spontan trombose) har ingen identificerbar mekanistisk sammenhæng og ingen klinisk evidens (L5) og anbefales sat på Hold. Ved faktor 5-overskud bør der desuden udvises særlig forsigtighed på grund af trombosefaren.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

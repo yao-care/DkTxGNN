@@ -54,7 +54,7 @@ Betamethason er et kortikosteroid, som i Danmark er markedsført som topikale pr
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om betamethasons detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Betamethason tilhører gruppen af kortikosteroider med antiinflammatorisk og immundæmpende virkning.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Betamethasone (uofficiel oversættelse): »Kortikosteroider spiller en rolle i cellulær signalering, immunfunktion, inflammation og proteinregulering; den præcise virkningsmekanisme for SERNIVO Spray ved psoriasis er dog ukendt.« Engelsk originaltekst: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), version af 2026-04-22; hentet 2026-11-19). Betamethason tilhører gruppen af kortikosteroider med antiinflammatorisk og immundæmpende virkning.
 
 Follikulær mucinose er en inflammatorisk proces, hvor der aflejres mucin i hårsækkens epitel. Kortikosteroiders antiinflammatoriske effekt er derfor mekanistisk plausibel for den inflammatoriske komponent. Beskrivelsen er imidlertid teoretisk. Den eneste tilgængelige evidens er en case-serie fra 1964 med en gennemgang af behandlingsmuligheder, og der findes ingen moderne forsøg, som bekræfter effekten af betamethason.
 
@@ -99,6 +99,18 @@ Den forudsagte indikation understøttes kun af en case-serie fra 1964 (evidensni
 - Data om betamethasons virkningsmekanisme
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
 - Vurdering af administrationsvej og formulering (creme/salve) i forhold til hårsækkelokalisation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

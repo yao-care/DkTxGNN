@@ -58,7 +58,7 @@ Sulfadiazin er et sulfonamid, der oprindeligt anvendes mod toksoplasmose og besl
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Sulfadiazin er imidlertid et sulfonamid, og denne stofklasse hæmmer enzymet dihydropteroatsyntase i folatsyntesen. Pneumocystis jirovecii er afhængig af samme vej, og sulfonamider er veletableret behandling af pneumocystose, især i kombinationen trimethoprim-sulfamethoxazol.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sulfadiazine (uofficiel oversættelse): »De systemiske sulfonamider er bakteriostatiske midler med et lignende aktivitetsspektrum. Sulfonamider hæmmer kompetitivt bakteriers syntese af folsyre (pteroylglutaminsyre) ud fra aminobenzoesyre. Resistente stammer er i stand til at udnytte folsyreforstadier eller præformeret folsyre.« Engelsk originaltekst: "The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid." ([DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91), version af 2024-09-24; hentet 2026-11-19). Sulfadiazin er imidlertid et sulfonamid, og denne stofklasse hæmmer enzymet dihydropteroatsyntase i folatsyntesen. Pneumocystis jirovecii er afhængig af samme vej, og sulfonamider er veletableret behandling af pneumocystose, især i kombinationen trimethoprim-sulfamethoxazol.
 
 Toksoplasmose og pneumocystose er begge opportunistiske infektioner, som især rammer patienter med nedsat immunforsvar, fx ved AIDS. Mekanistisk er en overførsel af sulfonamidets effekt derfor plausibel.
 
@@ -122,6 +122,19 @@ Forudsigelsen er mekanistisk plausibel, men understøttes ikke af kliniske fors�
 - Gennemgang af produktresumé med advarsler og kontraindikationer for et humant sulfadiazinpræparat
 - Afklaring af tilgængelighed af et humant præparat i Danmark (evt. udleveringstilladelse)
 - Sikkerhedsplan med fokus på nyrefunktion, blodstatus og interaktion med antidiabetika
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

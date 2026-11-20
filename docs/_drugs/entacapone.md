@@ -60,7 +60,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om entacapons virkningsmekanisme i de data, der er indsamlet til denne rapport. Entacapon er kendt som COMT-hæmmer, der forlænger virkningen af levodopa, og effekten ved Parkinsons sygdom er veletableret. Mekanistisk kan det derfor tænkes at have relevans ved sygdomme med lignende dopaminerg dysfunktion.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Entacapone (uofficiel oversættelse): »Entacapon er en selektiv og reversibel hæmmer af COMT. Hos pattedyr er COMT fordelt i forskellige organer med den højeste aktivitet i lever og nyrer. COMT findes også i hjerte, lunger, glat muskulatur og skeletmuskulatur, mave-tarm-kanalen, reproduktionsorganer, forskellige kirtler, fedtvæv, hud, blodceller og nervevæv, især i gliaceller.« Engelsk originaltekst: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), version af 2026-02-16; hentet 2026-11-19). Entacapon er kendt som COMT-hæmmer, der forlænger virkningen af levodopa, og effekten ved Parkinsons sygdom er veletableret. Mekanistisk kan det derfor tænkes at have relevans ved sygdomme med lignende dopaminerg dysfunktion.
 
 PLA2G6-associeret neurodegeneration (herunder PARK14-typen med dystoni-parkinsonisme) deler dopaminerg dysfunktion med Parkinsons sygdom. En COMT-hæmmer, der forlænger levodopas virkning, kunne derfor muligvis lindre parkinsonistiske symptomer. Det er imidlertid alene en hypotese: Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der er ingen kliniske data, der viser effekt eller sikkerhed hos disse patienter.
 
@@ -118,6 +118,19 @@ Forudsigelsen har en høj modelscore, men er udelukkende beregningsbaseret (evid
 ## Øvrige forudsigelser (til information)
 
 Blandt de øvrige topforudsigelser er der ingen med reel behandlingsevidens. Forudsigelsen for **Lewy body-demens** (score 0,9925) er vurderet som et forskningsspørgsmål. Det eneste tilknyttede forsøg, [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) (fase 1, rekrutterer, 40 deltagere), er et [18F]F-DOPA-billeddiagnostisk studie ved autonom svigt og tester ikke entacapon som behandling. Det samme gælder **progressiv supranukleær parese-kortikobasalt syndrom** (score 0,9904) med [NCT02994719](https://clinicaltrials.gov/study/NCT02994719), et observationelt ganganalysestudie uden entacapon som intervention.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

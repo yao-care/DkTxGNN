@@ -60,7 +60,7 @@ og der foreligger **2 kliniske forsøg** og **6 publikationer** (heraf 2 randomi
 
 ## Hvorfor er denne prædiktion rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Desloratadin er dog en kendt selektiv perifer H1-receptor-inverse agonist. Kuldeurticaria er en fysisk urticaria, hvor kuldeeksponering udløser mastcelledegranulering og histaminfrigivelse. H1-blokade rammer dermed den centrale mediator direkte.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Desloratadine (uofficiel oversættelse): »Desloratadin er en langtidsvirkende tricyklisk histaminantagonist med selektiv H1-receptor-histaminantagonistisk aktivitet. Receptorbindingsdata viser, at desloratadin ved en koncentration på 2-3 ng/mL (7 nanomolær) udviser betydelig interaktion med den humane histamin-H1-receptor.« Engelsk originaltekst: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), version af 2025-10-23; hentet 2026-11-19). Desloratadin er dog en kendt selektiv perifer H1-receptor-inverse agonist. Kuldeurticaria er en fysisk urticaria, hvor kuldeeksponering udløser mastcelledegranulering og histaminfrigivelse. H1-blokade rammer dermed den centrale mediator direkte.
 
 Desloratadin anvendes allerede ved beslægtede tilstande, nemlig idiopatisk og allergisk urticaria. Den nye indikation ligger derfor tæt på den eksisterende anvendelse. Der er desuden undersøgt doser over den godkendte dosis (op til 20 mg), og resultaterne tyder på en dosis-responssammenhæng for kuldeprovokationstærskler.
 
@@ -125,6 +125,19 @@ Der foreligger afsluttede, randomiserede fase 4-forsøg og to RCT'er i litteratu
 ---
 
 *Øvrige forudsagte indikationer (nasal cavity disease, akut laryngopharyngitis, recalcitrant atopisk dermatitis, atopisk IgE-responsivitet og rosacea-konjunktivitis) har kun svag eller ingen evidens (L4–L5) og anbefales sat på hold (Hold).*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

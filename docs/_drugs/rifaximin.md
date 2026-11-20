@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **oral candidiasis**, men 
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om rifaximins virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Rifaximin er et antibakterielt middel, som næsten ikke optages fra tarmen, og det har ingen kendt direkte antimykotisk virkning.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rifaximin (uofficiel oversættelse): »Rifaximin er et antibakterielt lægemiddel. […] Rifaximin er et semisyntetisk derivat af rifampicin og virker ved at binde til beta-underenheden af bakteriel DNA-afhængig RNA-polymerase, hvorved et af trinnene i transkriptionen blokeres. Dette medfører hæmning af den bakterielle proteinsyntese og hæmmer dermed bakteriernes vækst.« Engelsk originaltekst: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), version af 2025-08-27; hentet 2026-11-19). Rifaximin er et antibakterielt middel, som næsten ikke optages fra tarmen, og det har ingen kendt direkte antimykotisk virkning.
 
 Det eneste tilknyttede studie (PMID 34180023) tyder på, at brug af rifaximin hos patienter, der har fået allogen stamcelletransplantation, var forbundet med flere infektioner med micafungin-resistente Candida-arter. Det kan afspejle en forstyrret tarmflora (dysbiose) med øget svampevækst. Den høje TxGNN-score skyldes derfor sandsynligvis grafnærhed og ikke biologisk plausibilitet. Studiet omhandler desuden invasive Candida-infektioner hos transplantationspatienter og ikke oral candidiasis som sådan.
 
@@ -115,6 +115,19 @@ Der er ingen kliniske forsøg, og den eneste direkte litteratur peger på en mul
 - Advarsler og kontraindikationer fra det danske produktresumé, som mangler i de indsamlede data
 - Prækliniske eller kliniske data, der direkte undersøger rifaximin ved oral candidiasis
 - Vurdering af risikoen for svampeovervækst ved rifaximin-behandling, især hos immunsupprimerede patienter
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Scheie syndrom**
 
 ## Hvorfor er forudsigelsen rimelig (eller ikke)?
 
-Der er i øjeblikket ikke tilgængelige detaljerede data om virkningsmekanismen. Elosulfase alfa erstatter enzymet N-acetylgalactosamin-6-sulfatase (GALNS), som nedbryder keratansulfat og chondroitin-6-sulfat. Litteraturen i datagrundlaget beskriver brugen ved MPS IVA (Morquio A).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Elosulfase Alfa (uofficiel oversættelse): »Mucopolysakkaridoser omfatter en gruppe lysosomale aflejringssygdomme forårsaget af mangel på specifikke lysosomale enzymer, der er nødvendige for katabolismen af glykosaminoglykaner (GAG). Mucopolysakkaridose IVA (MPS IVA, Morquio A-syndrom) er karakteriseret ved fravær af eller markant nedsat N -acetylgalaktosamin-6-sulfatase-aktivitet. […] Cellernes optagelse af elosulfase alfa i lysosomer medieres af bindingen af elosulfase alfas mannose-6-fosfat-terminerede oligosakkaridkæder til mannose-6-fosfat-receptorer.« Engelsk originaltekst: "Mucopolysaccharidoses comprise a group of lysosomal storage disorders caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis IVA (MPS IVA, Morquio A Syndrome) is characterized by the absence or marked reduction in N -acetylgalactosamine-6-sulfatase activity. […] Elosulfase alfa uptake by cells into lysosomes is mediated by the binding of mannose-6-phosphate-terminated oligosaccharide chains of elosulfase alfa to mannose-6-phosphate receptors." ([DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc), version af 2025-10-30; hentet 2026-11-19). Elosulfase alfa erstatter enzymet N-acetylgalactosamin-6-sulfatase (GALNS), som nedbryder keratansulfat og chondroitin-6-sulfat. Litteraturen i datagrundlaget beskriver brugen ved MPS IVA (Morquio A).
 
 Scheie syndrom (afsvækket MPS I) skyldes mangel på alfa-L-iduronidase, hvor dermatansulfat og heparansulfat ophobes. Enzym og substrat er altså andre end dem, elosulfase alfa virker på, så den mekanistiske sammenhæng er svag. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (MPS-familien), ikke biologisk evidens. Laronidase er den specifikke enzymerstatningsterapi ved MPS I.
 
@@ -107,6 +107,19 @@ Forudsigelsen for Scheie syndrom hviler kun på modellen. Der findes hverken for
 - Præklinisk dokumentation for, at elosulfase alfa kan påvirke ophobningen af dermatan- og heparansulfat, eller en afklaring af, at forudsigelsen er en grafartefakt
 - Indikationstekst og sikkerhedsoplysninger fra produktresuméet for Vimizim (advarsler og kontraindikationer)
 - Sammenligning med eksisterende godkendt behandling (laronidase)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -59,7 +59,7 @@ Brentuximab vedotin er et antistof-lægemiddelkonjugat rettet mod CD30, og relat
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Det kendes dog, at brentuximab vedotin består af et antistof mod CD30, koblet til det cytotoksiske stof MMAE (vedotin). Antistoffet binder til CD30-positive celler og afleverer det toksiske stof målrettet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Brentuximab Vedotin (uofficiel oversættelse): »CD30 er medlem af tumornekrosefaktorreceptorfamilien og udtrykkes på overfladen af sALCL-celler og på Hodgkin Reed-Sternberg (HRS)-celler ved cHL. CD30 udtrykkes i varierende grad i andre T-cellelymfomer. […] Brentuximab vedotin er et antistof-lægemiddelkonjugat (ADC).« Engelsk originaltekst: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), version af 2025-11-11; hentet 2026-11-19). Det kendes dog, at brentuximab vedotin består af et antistof mod CD30, koblet til det cytotoksiske stof MMAE (vedotin). Antistoffet binder til CD30-positive celler og afleverer det toksiske stof målrettet.
 
 Hodgkins lymfom og follikulært lymfom er begge B-cellelymfomer, hvilket kan forklare modellens forudsigelse. Den mekanistiske sammenhæng er dog svag: CD30-udtrykket i follikulært lymfom er variabelt og generelt lavt. En eventuel effekt vil derfor sandsynligvis kræve udvælgelse af CD30-positive patienter.
 
@@ -133,6 +133,19 @@ Ingen af de citerede studier har afsluttede resultater for brentuximab vedotin v
 - Data om CD30-udtryk ved follikulært lymfom og kriterier for patientudvælgelse
 - Data om virkningsmekanisme og en gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
 - Vurdering af interaktionsprofilen, herunder samtidig brug af antidiabetika
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

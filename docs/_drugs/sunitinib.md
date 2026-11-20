@@ -61,7 +61,7 @@ Evidensniveauet L2 hviler på fase 2-studiet NCT00474994 (afsluttet, n=53), der 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Ud fra almen farmakologisk viden er sunitinib en multitargeteret receptortyrosinkinasehæmmer (bl.a. VEGFR, PDGFR, KIT, FLT3 og RET). Den kan have anti-angiogene og antiproliferative effekter.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sunitinib (uofficiel oversættelse): »Sunitinib er et lille molekyle, der hæmmer flere receptortyrosinkinaser (RTK'er), hvoraf nogle er involveret i tumorvækst, patologisk angiogenese og metastatisk progression af cancer.« Engelsk originaltekst: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), version af 2026-02-20; hentet 2026-11-19). Ud fra almen farmakologisk viden er sunitinib en multitargeteret receptortyrosinkinasehæmmer (bl.a. VEGFR, PDGFR, KIT, FLT3 og RET). Den kan have anti-angiogene og antiproliferative effekter.
 
 Nyrecellekarcinom og GIST er solide tumorer, hvor disse signalveje spiller en central rolle. Blødtsdelssarkomer, herunder liposarkom, er også tumorer, hvor angiogenese og receptortyrosinkinase-signalering menes at have betydning. Det giver en plausibel mekanistisk begrundelse for forudsigelsen.
 
@@ -151,11 +151,12 @@ To afsluttede fase 2-studier og et publiceret fase 2-studie omfatter liposarkomp
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national markedsføringstilladelse for et enkeltstof” → “Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstof” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

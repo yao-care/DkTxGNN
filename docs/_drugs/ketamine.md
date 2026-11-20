@@ -68,7 +68,7 @@ Bemærkning om evidensniveau: Fase 3-forsøget NCT03081416 er afsluttet (n=80), 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om ketamins oprindelige virkningsmekanisme i de indsamlede data. Nedenstående mekanisme er derfor udledt af almen farmakologisk viden og ikke fra de leverede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ketamine (uofficiel oversættelse): »KETALAR, en racemisk blanding af ketamin, er en ikke-selektiv, ikke-kompetitiv antagonist af N-methyl-D-aspartat (NMDA)-receptoren, en ionotrop glutamatreceptor. Ketamins vigtigste cirkulerende metabolit (norketamin) udviste aktivitet ved den samme receptor med lavere affinitet.« Engelsk originaltekst: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), version af 2026-03-27; hentet 2026-11-19). Nedenstående mekanisme er derfor udledt af almen farmakologisk viden og ikke fra de leverede data.
 
 Ketamin er en NMDA-receptorantagonist. Central sensibilisering og glutamaterg signalering menes at spille en rolle ved migræne, clusterhovedpine og kronisk daglig hovedpine, bl.a. via kortikal spredende depression og trigeminovaskulær smertebehandling. Blokade af NMDA-receptorer kan mindske central sensibilisering og smerteforstærkning.
 
@@ -156,12 +156,13 @@ Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fles
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

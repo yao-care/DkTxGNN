@@ -58,7 +58,7 @@ Elafibranor (handelsnavn Iqirvo) er en dobbelt PPARα/PPARδ-agonist, som oprind
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Ud fra de tilgængelige oplysninger er elafibranor en dobbelt agonist af de nukleære receptorer PPARα (PPARA) og PPARδ (PPARD). Aktivt stof omdannes i leveren til hovedmetabolitten GFT-1007. Præklinisk har stoffet vist reduceret fedtophobning, inflammation og fibrose i leveren. Stoffet blev udviklet til NASH, men udviklingen blev stoppet i 2020, da et interimsstudie ikke viste bedre effekt end placebo. Det blev derefter genpositioneret til PBC, godkendt af FDA i juni 2024 og af EMA i september 2024.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Elafibranor (uofficiel oversættelse): »Elafibranor og dets primære aktive metabolit GFT1007 er peroxisom-proliferator-aktiveret receptor (PPAR)-agonister, som begge aktiverer PPAR-alfa, PPAR-gamma og PPAR-delta in vitro. Mekanismen, hvorved elafibranor udøver sine terapeutiske virkninger hos patienter med PBC, er dog ikke fuldt klarlagt.« Engelsk originaltekst: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), version af 2026-08-11; hentet 2026-11-19). Ud fra de tilgængelige oplysninger er elafibranor en dobbelt agonist af de nukleære receptorer PPARα (PPARA) og PPARδ (PPARD). Aktivt stof omdannes i leveren til hovedmetabolitten GFT-1007. Præklinisk har stoffet vist reduceret fedtophobning, inflammation og fibrose i leveren. Stoffet blev udviklet til NASH, men udviklingen blev stoppet i 2020, da et interimsstudie ikke viste bedre effekt end placebo. Det blev derefter genpositioneret til PBC, godkendt af FDA i juni 2024 og af EMA i september 2024.
 
 Der er ikke påvist en direkte mekanistisk sammenhæng mellem PPARα/δ-agonisme og amenoré. En spekulativ forbindelse kunne gå via regulering af lipid- og glukosestofskifte, som kan påvirke ovariefunktionen, men dette understøttes ikke af de foreliggende data. Forudsigelsen hviler alene på modellens score.
 
@@ -107,6 +107,19 @@ Forudsigelsen om amenoré hviler udelukkende på en høj modelscore (L5) uden kl
 - Litteratur- og forsøgssøgning målrettet PPAR-agonister og amenoré/ovariefunktion
 - Præklinisk eller mekanistisk validering af en hypotese om PPARα/δ og reproduktiv endokrinologi
 - Bekræftelse af den godkendte indikation for den danske tilladelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

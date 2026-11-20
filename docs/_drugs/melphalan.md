@@ -59,7 +59,7 @@ Melphalan er et alkylerende kemoterapeutikum. TxGNN-modellen (deep learning) for
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Melphalan er dog kendt som et bifunktionelt alkylerende nitrogen­mustard-stof, der danner tværbindinger mellem DNA-strengene. Det hæmmer delingen af hurtigt prolifererende celler, og mekanismen er relevant for brystkræftceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Melphalan (uofficiel oversættelse): »Melphalan er et alkylerende stof af bischlorethylamintypen. Dets cytotoksicitet synes derfor at være relateret til omfanget af dets krydsbinding mellem DNA-strengene, sandsynligvis ved binding i N 7 -positionen i guanin.« Engelsk originaltekst: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), version af 2026-09-15; hentet 2026-11-19). Melphalan er dog kendt som et bifunktionelt alkylerende nitrogen­mustard-stof, der danner tværbindinger mellem DNA-strengene. Det hæmmer delingen af hurtigt prolifererende celler, og mekanismen er relevant for brystkræftceller.
 
 Præklinisk forskning peger desuden på, at BRCA1-defekte brysttumorer er særligt følsomme over for DNA-tværbindende stoffer, fordi deres evne til at reparere DNA ved homolog rekombination er nedsat.
 
@@ -157,11 +157,12 @@ Der foreligger direkte kliniske data om melphalan ved brystkræft, herunder ét 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der er registreret 8 gyldige nationale tilladelser (enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Alteplase er et rekombinant vævsplasminogenaktivator-lægemiddel, der opløser 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Alteplase omdanner plasminogen til plasmin, som nedbryder fibrin i blodpropper.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Alteplase (uofficiel oversættelse): »Alteplase er et enzym (serinprotease), der har den egenskab at fremme fibrinforstærket omdannelse af plasminogen til plasmin. Det medfører begrænset omdannelse af plasminogen i fravær af fibrin. Alteplase binder til fibrin i en trombe og omdanner det indesluttede plasminogen til plasmin, hvorved der initieres lokal fibrinolyse.« Engelsk originaltekst: "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9), version af 2026-01-20; hentet 2026-11-19). Alteplase omdanner plasminogen til plasmin, som nedbryder fibrin i blodpropper.
 
 Heparin-cofaktor 2-mangel er en arvelig trombofili, hvor hæmningen af trombin er nedsat. Alteplase kunne derfor i princippet bruges til at opløse akutte blodpropper hos disse patienter. Koblingen gælder dog kun den trombotiske komplikation og ikke selve manglen. Der er ingen kliniske data, der understøtter dette, og forudsigelsen skal betragtes som en hypotese.
 
@@ -101,6 +101,19 @@ Forudsigelsen har en høj modelscore (0,9972), men hverken kliniske forsøg elle
 - Data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især blødningsrisiko ved samtidig antikoagulation
 - Vurdering af, om en klinisk undersøgelse er hensigtsmæssig og gennemførlig
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

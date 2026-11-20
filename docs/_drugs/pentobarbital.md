@@ -58,7 +58,7 @@ Pentobarbital er et barbiturat, der oprindeligt anvendes mod epilepsi, søvnløs
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om pentobarbitals detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at barbiturater forstærker GABA-A-receptorernes signalering og dermed virker beroligende og søvnfremkaldende. Denne mekanisme forklarer de oprindelige indikationer (anfald og søvn).
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Pentobarbital (uofficiel oversættelse): »GABA-A-receptor; positiv allosterisk modulator af anionkanal« Engelsk originaltekst: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448), CC BY-SA 3.0; hentet 2026-11-19). Det er generelt kendt, at barbiturater forstærker GABA-A-receptorernes signalering og dermed virker beroligende og søvnfremkaldende. Denne mekanisme forklarer de oprindelige indikationer (anfald og søvn).
 
 Der er ingen troværdig mekanistisk forbindelse til fedme. De fundne artikler nævner pentobarbital udelukkende som bedøvelsesmiddel i gnavermodeller (f.eks. insulinomsætning, renale nerver, hypothalamus-læsioner) eller som værktøj i en søvntest. Pentobarbital er ikke det terapeutiske middel, der undersøges. Den høje modelscore understøttes derfor ikke af farmakologisk evidens. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -115,6 +115,19 @@ Forudsigelsen om fedme hviler udelukkende på modelscoren (evidensniveau L5). De
 - Prækliniske data, hvor pentobarbital selv er det undersøgte middel i en fedmemodel, før yderligere vurdering giver mening
 
 **Supplerende bemærkning om andre forudsigelser:** Blandt de øvrige forudsagte indikationer har *manisk bipolar lidelse* og *major affektiv lidelse* kun historiske eller indirekte rapporter (evidensniveau L4), og *søvnforstyrrelse* er allerede en oprindelig indikation. Alle er vurderet til Hold.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL448 (pentobarbital): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL448) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

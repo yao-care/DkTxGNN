@@ -60,7 +60,7 @@ Der er **ingen kliniske forsøg** og **ingen publikationer**, som direkte unders
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Dalteparin er en lavmolekylær heparin, som forstærker antitrombin og hæmmer faktor Xa. Det er biologisk plausibelt ved en protrombotisk tilstand som protein C-mangel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dalteparin (uofficiel oversættelse): »Dalteparin er et lavmolekylært heparin med antitrombotiske egenskaber. Det virker ved at forstærke antitrombins hæmning af faktor Xa og trombin. Hos mennesker potenserer dalteparin fortrinsvis hæmningen af koagulationsfaktor Xa, mens det kun i ringe grad påvirker den aktiverede partielle tromboplastintid (APTT).« Engelsk originaltekst: "Dalteparin is a low molecular weight heparin with antithrombotic properties. It acts by enhancing the inhibition of Factor Xa and thrombin by antithrombin. In humans, dalteparin potentiates preferentially the inhibition of coagulation Factor Xa, while only slightly affecting the activated partial thromboplastin time (APTT)." ([DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7), version af 2025-09-30; hentet 2026-11-19). Dalteparin er en lavmolekylær heparin, som forstærker antitrombin og hæmmer faktor Xa. Det er biologisk plausibelt ved en protrombotisk tilstand som protein C-mangel.
 
 Lægemidlet anvendes allerede ved beslægtede tilstande med øget koagulation, fx DIC og purpura fulminans. Sidstnævnte ses netop også ved svær medfødt protein C-mangel. Antikoagulation anvendes i klinisk praksis ved svær kongenit protein C-mangel, men støtten her er indirekte og skal verificeres selvstændigt.
 
@@ -125,6 +125,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 - Data om virkningsmekanisme fra DrugBank
 - Gennemgang af Fragmin-produktresuméet for indikationer, advarsler og kontraindikationer
 - Vurdering af sikkerhed og dosering hos patienter med sjælden medfødt protein C-mangel, evt. i samråd med specialister i koagulationssygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

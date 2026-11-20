@@ -54,7 +54,7 @@ Sertralin er en selektiv serotonin-genoptagshæmmer (SSRI), der anvendes som ant
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om sertralins detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Sertralin tilhører SSRI-gruppen, som øger serotoninniveauet i synapsen ved at hæmme genoptagelsen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sertraline (uofficiel oversættelse): »Sertralin potenserer den serotonerge aktivitet i centralnervesystemet gennem hæmning af den neuronale genoptagelse af serotonin (5-HT).« Engelsk originaltekst: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), version af 2023-08-08; hentet 2026-11-19). Sertralin tilhører SSRI-gruppen, som øger serotoninniveauet i synapsen ved at hæmme genoptagelsen.
 
 Teoretisk kan serotonerg påvirkning have betydning for symptomer som social tilbagetrækning og afflader affekt, som ses ved skizoid personlighedsforstyrrelse. Dette er imidlertid en hypotese baseret på en grafbaseret modelforudsigelse. Der foreligger ingen kliniske data, som understøtter en sådan effekt. Den høje score viser alene modellens forudsigelse og er ikke et bevis for klinisk virkning.
 
@@ -103,6 +103,18 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg og uden
 - Data om virkningsmekanisme og biologisk sammenhæng med sygdommen
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Et sikkerhedsovervågningsprogram, hvis et klinisk studie planlægges
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

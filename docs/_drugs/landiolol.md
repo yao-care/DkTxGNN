@@ -60,7 +60,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de data, der 
 
 ## Hvorfor er forudsigelsen rimelig (eller ikke)?
 
-Der foreligger ikke detaljerede data om landiolols virkningsmekanisme i de samlede data. Det er dog kendt, at landiolol er en intravenøs, ultrakortvirkende beta-1-selektiv blokker, ca. 250 gange mere selektiv for beta-1- end for beta-2-adrenoceptorer. Dets kendte farmakologi er kardial (frekvenskontrol ved supraventrikulære takyarytmier).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Landiolol (uofficiel oversættelse): »RAPIBLYK er en selektiv beta-1-adrenoreceptorantagonist, som hæmmer de positive kronotrope virkninger af katekolaminerne adrenalin og noradrenalin på hjertet, hvor beta-1-receptorerne overvejende er lokaliseret. Landiolol udviser ikke nogen membranstabiliserende aktivitet eller intrinsisk sympatomimetisk aktivitet ved den godkendte anbefalede dosering in vitro.« Engelsk originaltekst: "RAPIBLYK is a selective beta-1-adrenoreceptor antagonist that inhibits the positive chronotropic effects of the catecholamines, epinephrine and norepinephrine, on the heart, where beta-1-receptors are predominantly located. Landiolol does not exhibit any membrane-stabilizing activity or intrinsic sympathomimetic activity at the approved recommended dosage in vitro." ([DailyMed: Rapiblyk (landiolol) prescribing information, AOP Orphan Pharmaceuticals GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27e7f20f-78a4-f1a9-e063-6394a90ae465), version af 2026-10-19; hentet 2026-11-19). Det er dog kendt, at landiolol er en intravenøs, ultrakortvirkende beta-1-selektiv blokker, ca. 250 gange mere selektiv for beta-1- end for beta-2-adrenoceptorer. Dets kendte farmakologi er kardial (frekvenskontrol ved supraventrikulære takyarytmier).
 
 Orofacial dyskinesi hænger sammen med dysfunktion i de dopaminerge systemer i basalganglierne. Der er ingen etableret central mekanisme, hvorigennem selektiv beta-1-blokade kan påvirke tilstanden. Nogle beta-blokkere virker perifert på visse bevægelsessymptomer (f.eks. tremor), men landiolol er hydrofilt med minimal penetration til centralnervesystemet. Sammenhængen er derfor svag og spekulativ.
 
@@ -123,6 +123,19 @@ Forudsigelsen hviler udelukkende på en grafbaseret modelscore uden kliniske for
 - Prækliniske eller mekanistiske data, der kan understøtte en effekt ved dyskinesi
 - Litteratur- og forsøgssøgning for beta-blokkere ved orofaciale dyskinesier og tics
 - Vurdering af administrationsvej og -varighed i forhold til en kronisk tilstand
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Rapiblyk (landiolol) prescribing information, AOP Orphan Pharmaceuticals GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27e7f20f-78a4-f1a9-e063-6394a90ae465) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

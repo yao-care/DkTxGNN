@@ -60,7 +60,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer, der direkte unde
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Ezetimib er kendt som en hæmmer af optagelsen af kolesterol i tarmen (via NPC1L1) og sænker dermed LDL-kolesterol. Dette er baseret på almen farmakologisk viden og ikke på de sammenstillede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ezetimibe (uofficiel oversættelse): »Ezetimib nedsætter kolesterol i blodet ved at hæmme tyndtarmens absorption af kolesterol. Det er påvist, at det molekylære mål for ezetimib er steroltransportøren Niemann-Pick C1-Like 1 (NPC1L1), som er involveret i tarmens optagelse af kolesterol og fytosteroler.« Engelsk originaltekst: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), version af 2026-10-08; hentet 2026-11-19). Ezetimib er kendt som en hæmmer af optagelsen af kolesterol i tarmen (via NPC1L1) og sænker dermed LDL-kolesterol. Dette er baseret på almen farmakologisk viden og ikke på de sammenstillede data.
 
 CETP-mangel er en genetisk tilstand med forhøjet HDL-kolesterol og nedsat overførsel af kolesterolestere mellem lipoproteiner. Et muligt link er, at begge forhold vedrører kolesterolets samlede fordeling mellem lipoproteiner. Der findes dog ingen direkte mekanistiske eller kliniske data, der forbinder ezetimib med CETP-mangel.
 
@@ -138,11 +138,12 @@ Forudsigelsen understøttes kun af modellen (evidensniveau L5). Der findes ingen
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 
 <!-- review:end log -->
 

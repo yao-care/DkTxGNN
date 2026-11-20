@@ -60,7 +60,7 @@ Indikationen understøttes af **28 kliniske forsøg** (heraf flere fase 3-forsø
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Doxorubicin er generelt kendt som en topoisomerase II-hæmmer og DNA-interkalator, som hæmmer celledeling i hurtigt prolifererende tumorceller. Dets effekt ved leukæmier og lymfomer er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Doxorubicin (uofficiel oversættelse): »Den cytotoksiske virkning af doxorubicinhydrochlorid på maligne celler og dets toksiske virkninger på forskellige organer menes at være relateret til doxorubicins interkalering mellem nukleotidbaser og dets binding til cellemembranlipider. Interkaleringen hæmmer nukleotidreplikationen og DNA- og RNA-polymerasernes virkning.« Engelsk originaltekst: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), version af 2026-11-12; hentet 2026-11-19). Doxorubicin er generelt kendt som en topoisomerase II-hæmmer og DNA-interkalator, som hæmmer celledeling i hurtigt prolifererende tumorceller. Dets effekt ved leukæmier og lymfomer er veletableret.
 
 Ewing-sarkom er en aggressiv knogle- og bløddelstumor, der primært rammer børn, unge og unge voksne. Standardbehandlingen er multiagens-kemoterapi, hvor doxorubicin er en bærende komponent (VDC/IE: vincristin, doxorubicin, cyclophosphamid, ifosfamid og etoposid). Mekanismen, der virker mod hurtigt delende lymfoide tumorer, er således også relevant for denne sarkomtype.
 
@@ -151,6 +151,19 @@ Doxorubicin er allerede en kernekomponent i standardkemoterapi for Ewing-sarkom,
 ---
 
 *Øvrige forudsigelser (rang 2-10) har generelt svagere evidens. Pulmonalt blastom og rhabdomyosarkom har fase 3-forsøg eller studier i bløddelssarkom, men mangler specifik dokumentation for doxorubicin. De øvrige (bl.a. monocytær leukæmi, primært pulmonalt lymfom, ganglioneuroblastom) er vurderet som "Hold" eller "Research Question".*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

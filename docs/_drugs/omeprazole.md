@@ -60,7 +60,7 @@ Evidensen består af **1 klinisk forsøg** (ikke direkte relevant) og **15 publi
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om omeprazols detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Omeprazol tilhører klassen af protonpumpehæmmere, som hæmmer mavesyresekretionen, og er veldokumenteret ved syrerelaterede tilstande i øvre mave-tarm-kanal.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Omeprazole (uofficiel oversættelse): »Omeprazol tilhører en klasse af antisekretoriske forbindelser, de substituerede benzimidazoler, som undertrykker mavesyresekretionen ved specifik hæmning af H + /K + -ATPase-enzymsystemet på den sekretoriske overflade af mavens parietalceller. Da dette enzymsystem betragtes som syrepumpen (protonpumpen) i mavens slimhinde, er omeprazol blevet karakteriseret som en mavesyrepumpehæmmer, idet det blokerer det sidste trin i syreproduktionen.« Engelsk originaltekst: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), version af 2024-03-19; hentet 2026-11-19). Omeprazol tilhører klassen af protonpumpehæmmere, som hæmmer mavesyresekretionen, og er veldokumenteret ved syrerelaterede tilstande i øvre mave-tarm-kanal.
 
 Duodenogastrisk refluks har overlappende symptomer og slimhindeskader med refluks og mavesår. Små kliniske studier ved Barretts øsofagus og galderefluks hos børn har beskrevet effekt af omeprazol på galderefluks-parametre. Mekanismen er derfor plausibel for symptomlindring.
 
@@ -130,6 +130,19 @@ Evidensen er på L3-niveau og bygger på få, små kliniske studier samt dyrestu
 ## Sekundær forudsigelse: Duodenal obstruktion
 
 Duodenal obstruktion (TxGNN-score 0,9964, evidensniveau L4, beslutning **Hold**) er en mekanisk komplikation, som omeprazol ikke afhjælper direkte. Den høje score afspejler sandsynligvis tilknytningen til mavesårssygdom. Det registrerede forsøg ([NCT00557921](https://clinicaltrials.gov/study/NCT00557921), fase 3, afsluttet i utide, 5000 deltagere) undersøgte clopidogrel plus omeprazol mod øvre gastrointestinale hændelser og er kun indirekte relevant. Litteraturen består hovedsageligt af kasuistikker.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

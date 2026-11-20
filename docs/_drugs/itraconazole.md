@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **20 publikationer** (
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Itraconazol hæmmer svampeenzymet CYP51 (lanosterol 14-alfa-demethylase) og blokerer dermed syntesen af ergosterol i svampens cellemembran. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, så vurderingen bygger på almen farmakologisk viden.
+Itraconazol hæmmer svampeenzymet CYP51 (lanosterol 14-alfa-demethylase) og blokerer dermed syntesen af ergosterol i svampens cellemembran. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Itraconazole (uofficiel oversættelse): »In vitro-studier har vist, at itraconazol hæmmer den cytokrom P450-afhængige syntese af ergosterol, som er en vital bestanddel af svampecellemembraner.« Engelsk originaltekst: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), version af 2026-07-13; hentet 2026-11-19).
 
 *Pneumocystis jirovecii* er taksonomisk en svamp, men dens cellemembran indeholder overvejende kolesterol frem for ergosterol. Azoler forventes derfor kun at have begrænset aktivitet. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme (fx pneumocystose og de godkendte svampeindikationer histoplasmose og aspergillose), snarere end biologisk evidens eller en dokumenteret mekanisme.
 
@@ -133,6 +133,19 @@ Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som m
 - Fuldstændige data om virkningsmekanisme
 - Gennemgang af produktresumé (SmPC) for et humant itraconazolpræparat, da det danske registrerede produkt er veterinært
 - Sikkerhedsvurdering af hjerte-, lever- og interaktionsrisici, før eventuelle kliniske studier overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

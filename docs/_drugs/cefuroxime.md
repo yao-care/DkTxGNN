@@ -58,7 +58,7 @@ Cefuroxim er et cefalosporin af anden generation, der hæmmer bakteriers cellev�
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Cefuroxim er et baktericidt cefalosporin, der hæmmer bakteriers cellevægssyntese.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cefuroxime (uofficiel oversættelse): »Cefuroxim er et baktericidt middel, der virker ved at hæmme syntesen af bakteriers cellevæg. Cefuroxim har aktivitet i tilstedeværelse af visse beta-laktamaser, både penicillinaser og cefalosporinaser, fra Gram-negative og Gram-positive bakterier.« Engelsk originaltekst: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), version af 2025-03-27; hentet 2026-11-19). Cefuroxim er et baktericidt cefalosporin, der hæmmer bakteriers cellevægssyntese.
 
 Hyperamylasæmi er et laboratoriefund (forhøjet amylase i blodet) uden en bakteriel drivende årsag. Der er derfor ikke en plausibel mekanistisk forbindelse mellem cefuroxims virkning og denne tilstand. Den høje forudsigelsesscore afspejler en beregningsmæssig modelforudsigelse og er ikke understøttet af kliniske eller litteraturbaserede data. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
@@ -122,11 +122,12 @@ For øvrige sikkerhedsoplysninger, herunder advarsler og kontraindikationer, hen
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste a” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->
 

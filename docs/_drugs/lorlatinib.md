@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **gingival fibroma
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lorlatinibs virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ifølge den tilgængelige litteratur er lorlatinib en hjernepenetrerende tredjegenerations tyrosinkinasehæmmer, der hæmmer ALK og ROS1, og som anvendes ved ALK-positiv ikke-småcellet lungekræft.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lorlatinib (uofficiel oversættelse): »Lorlatinib er en kinasehæmmer med in vitro-aktivitet mod ALK og ROS1 samt TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 og ACK. Lorlatinib udviste in vitro-aktivitet mod flere muterede former af ALK-enzymet, herunder visse mutationer påvist i tumorer på tidspunktet for sygdomsprogression under behandling med crizotinib og andre ALK-hæmmere.« Engelsk originaltekst: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), version af 2026-06-26; hentet 2026-11-19). Ifølge den tilgængelige litteratur er lorlatinib en hjernepenetrerende tredjegenerations tyrosinkinasehæmmer, der hæmmer ALK og ROS1, og som anvendes ved ALK-positiv ikke-småcellet lungekræft.
 
 Gingival fibromatose er en arvelig eller lægemiddelinduceret fibrotisk overvækst af tandkødsvæv. Den er ikke kendt for at være drevet af ALK- eller ROS1-signalering. Der er derfor ikke identificeret en plausibel mekanistisk sammenhæng mellem lorlatinibs virkning og denne sygdom. Den høje score er udelukkende en grafbaseret forudsigelse uden støtte fra forsøg eller litteratur.
 
@@ -125,6 +125,19 @@ Der er hverken kliniske forsøg, publikationer eller en plausibel mekanisme, der
 - Mekanistisk eller prækliniske data, der forbinder ALK/ROS1-hæmning med gingival fibromatose
 - Gennemgang af produktresuméet for sikkerhedsoplysninger (advarsler og kontraindikationer er ikke tilgængelige i de indsamlede data)
 - Overvejelse af mere lovende ALK-ændrede tumorer (f.eks. neuroblastom), som bør vurderes som selvstændig indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

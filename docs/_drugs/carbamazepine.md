@@ -56,7 +56,7 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **20 publikationer**, 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Carbamazepin er dog kendt som natriumkanalblokker, og lægemidlet er et etableret valg ved trigeminusneuralgi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Carbamazepine (uofficiel oversættelse): »Tegretol har udvist antikonvulsive egenskaber hos rotter og mus med elektrisk og kemisk inducerede krampeanfald. Det synes at virke ved at reducere polysynaptiske responser og blokere den posttetaniske potensering. […] Tegretols primære metabolit, carbamazepin-10,11-epoxid, har antikonvulsiv aktivitet, som påvist i adskillige in vivo-dyremodeller for krampeanfald.« Engelsk originaltekst: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), version af 2026-08-20; hentet 2026-11-19). Carbamazepin er dog kendt som natriumkanalblokker, og lægemidlet er et etableret valg ved trigeminusneuralgi.
 
 Tumorer på eller nær trigeminusnerven (f.eks. schwannom, meningeom, lipom, dermoidcyste og lymfom) kan give neuralgiske smerter. I flere af de fundne case-rapporter blev carbamazepin givet til sådanne smerter, men uden tilstrækkelig effekt, før tumoren blev opdaget.
 
@@ -108,6 +108,19 @@ Forudsigelsen bygger alene på modellen. Ingen kliniske forsøg eller publikatio
 - Studier, der direkte undersøger carbamazepin ved smerter forårsaget af trigeminusnerve-tumorer
 - Data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer for relevante patientgrupper (herunder blodbilledforstyrrelser og lever- og nyresygdom)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

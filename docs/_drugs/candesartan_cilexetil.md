@@ -58,7 +58,7 @@ Candesartancilexetil er en angiotensin II-receptorblokker, som markedsføres i D
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der er ikke tilgængelige detaljerede data om virkningsmekanismen for dette lægemiddel. Candesartancilexetil tilhører gruppen af angiotensin II-receptorblokkere (ARB), og mekanistisk kan det være relevant ved malign hypertensiv nyresygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Candesartan Cilexetil (uofficiel oversættelse): »Angiotensin II dannes ud fra angiotensin I i en reaktion katalyseret af angiotensinkonverterende enzym (ACE, kininase II). Angiotensin II er det primære pressorstof i renin-angiotensin-systemet med virkninger, der omfatter vasokonstriktion, stimulering af syntese og frigivelse af aldosteron, hjertestimulering og renal reabsorption af natrium. […] Candesartan blokerer de vasokonstriktive og aldosteronsecernerende virkninger af angiotensin II ved selektivt at blokere bindingen af angiotensin II til AT 1 -receptoren i mange væv, såsom glat muskulatur i karvæggen og binyren.« Engelsk originaltekst: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), version af 2025-12-22; hentet 2026-11-19). Candesartancilexetil tilhører gruppen af angiotensin II-receptorblokkere (ARB), og mekanistisk kan det være relevant ved malign hypertensiv nyresygdom.
 
 Blokade af renin-angiotensin-aldosteron-systemet (RAAS) kan sænke trykket i nyrernes glomeruli og reducere proteinuri. ARB-præparater har derfor et teoretisk nyrebeskyttende rationale ved hypertensiv nyrepåvirkning.
 
@@ -102,6 +102,19 @@ Forudsigelsen bygger udelukkende på modellens score. Der er hverken kliniske fo
 - Data om virkningsmekanismen (MOA) for candesartancilexetil
 - Vurdering af, om oral kronisk behandling er klinisk relevant efter den akutte fase, fx til nyrebeskyttelse
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især vedrørende nedsat nyrefunktion
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

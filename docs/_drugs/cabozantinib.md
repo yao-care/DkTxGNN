@@ -54,7 +54,7 @@ Cabozantinib er en oral tyrosinkinasehæmmer, som i vidensgrafen er registreret 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den tilgængelige information er cabozantinib en multi-target tyrosinkinasehæmmer, der rammer bl.a. MET, VEGFR2, AXL, RET, KIT og FLT3.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cabozantinib (uofficiel oversættelse): »Biokemiske og/eller cellulære in vitro-assays har vist, at cabozantinib hæmmer tyrosinkinaseaktiviteten af MET, VEGFR-1, -2 og -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 og TIE-2. Disse receptortyrosinkinaser er involveret i både normal cellefunktion og patologiske processer såsom onkogenese, metastasering, tumorangiogenese, lægemiddelresistens og opretholdelse af tumormikromiljøet.« Engelsk originaltekst: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), version af 2025-10-19; hentet 2026-11-19). Ud fra den tilgængelige information er cabozantinib en multi-target tyrosinkinasehæmmer, der rammer bl.a. MET, VEGFR2, AXL, RET, KIT og FLT3.
 
 Bløddelssarkomer, herunder liposarkomer, afhænger ofte af angiogenese (VEGFR) og af MET/AXL-signalering for vækst og resistens. Det er den biologiske begrundelse for, at en kinasehæmmer kan være relevant. Kombination med immunterapi kan desuden ændre tumormiljøet og understøtter hypotesen. Den meget høje TxGNN-score er i tråd med denne biologi, men er alene en computerbaseret forudsigelse.
 
@@ -113,6 +113,19 @@ Der er ingen undersøgelser, der direkte omhandler liposarkom; kun ét randomise
 - Gennemgang af advarsler og kontraindikationer i det danske produktresumé
 - Vurdering af interaktionsrisici, især med stærke CYP3A4-påvirkende stoffer og QT-forlængende lægemidler
 - Afklaring af godkendt indikationstekst for Cabometyx i Danmark
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

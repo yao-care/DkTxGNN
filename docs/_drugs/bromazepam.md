@@ -58,7 +58,7 @@ Bromazepam er et benzodiazepin, som i Danmark er markedsført som Lexotan (table
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de sammenstillede data. Bromazepam tilhører dog benzodiazepinerne, som forstærker GABA-A-receptorens signalering og dermed har dæmpende effekt på centralnervesystemet.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Bromazepam (uofficiel oversættelse): »Positiv allosterisk modulator af GABA-receptorens alfa-2-underenhed« Engelsk originaltekst: "GABA receptor alpha-2 subunit positive allosteric modulator" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; hentet 2026-11-19). Bromazepam tilhører dog benzodiazepinerne, som forstærker GABA-A-receptorens signalering og dermed har dæmpende effekt på centralnervesystemet.
 
 En mulig, men spekulativ, forbindelse til migræne kan være nedsat hyperexcitabilitet i hjernebarken og i trigeminussystemet. Det kan også tænkes, at lindring af muskelspændinger og angst, som kan fungere som udløsende faktorer, spiller en rolle. Denne sammenhæng er udelukkende udledt af lægemiddelklassen.
 
@@ -108,6 +108,19 @@ Forudsigelsen er udelukkende baseret på modellen (evidensniveau L5), uden klini
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Systematisk litteratursøgning og søgning i forsøgsregistre efter bromazepam eller benzodiazepiner ved migræne
 - Vurdering af nytte/risiko, herunder afhængighed og medicinoverforbrug, før der overvejes prækliniske eller kliniske studier
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

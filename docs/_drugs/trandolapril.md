@@ -58,7 +58,7 @@ Trandolapril er en ACE-hæmmer, som i videnskabsgrafen (PrimeKG) er knyttet til 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige. På baggrund af generel viden om lægemiddelklassen er trandolapril en ACE-hæmmer. ACE-hæmning sænker blodtrykket og kan mindske trykket i nyrernes glomeruli, hvilket biologisk set er plausibelt ved nyreskade forårsaget af forhøjet blodtryk.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Trandolapril (uofficiel oversættelse): »Trandolapril deesterificeres til disyremetabolitten trandolaprilat, som er ca. otte gange mere aktiv som hæmmer af ACE-aktivitet. ACE er en peptidyldipeptidase, der katalyserer omdannelsen af angiotensin I til det vasokonstriktive stof angiotensin II.« Engelsk originaltekst: "Trandolapril is deesterified to the diacid metabolite, trandolaprilat, which is approximately eight times more active as an inhibitor of ACE activity. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34), version af 2025-10-31; hentet 2026-11-19). På baggrund af generel viden om lægemiddelklassen er trandolapril en ACE-hæmmer. ACE-hæmning sænker blodtrykket og kan mindske trykket i nyrernes glomeruli, hvilket biologisk set er plausibelt ved nyreskade forårsaget af forhøjet blodtryk.
 
 Den forudsagte indikation ligger tæt på den kendte brug ved hypertension og er i praksis en udvidelse af den. Den høje modelscore er en beregnet forudsigelse og ikke et klinisk bevis. Ingen studier i datagrundlaget undersøger trandolapril ved malign hypertensiv nyresygdom.
 
@@ -110,6 +110,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), og ingen forsøg e
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Indhentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler, kontraindikationer, godkendt indikation)
 - Vurdering af sikkerhed hos patienter med nedsat nyrefunktion, risiko for hyperkaliæmi og angioødem
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

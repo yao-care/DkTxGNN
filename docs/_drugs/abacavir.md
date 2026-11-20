@@ -58,7 +58,7 @@ Abacavir er en antiviral nukleosid revers transkriptase-hæmmer (NRTI), som anve
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om abacavirs detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Abacavir tilhører klassen af NRTI-præparater, som hæmmer virusets revers transkriptase. Simian immundefektvirus (SIV) er en nært beslægtet lentivirus med et homologt revers transkriptase-enzym, så en hæmmende effekt er biologisk plausibel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for abacavir and lamivudine (kombinationspræparat med Abacavir) (uofficiel oversættelse): »Abacavir og lamivudin er et antiretroviralt middel med aktivitet mod HIV-1.« Engelsk originaltekst: "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), version af 2026-09-18; hentet 2026-11-19). Abacavir tilhører klassen af NRTI-præparater, som hæmmer virusets revers transkriptase. Simian immundefektvirus (SIV) er en nært beslægtet lentivirus med et homologt revers transkriptase-enzym, så en hæmmende effekt er biologisk plausibel.
 
 Det er dog vigtigt at bemærke, at SIV-infektion er en model hos ikke-menneskelige primater og ikke en klinisk indikation hos mennesker. Værdien ligger derfor i præklinisk modellering frem for i en egentlig behandlingsindikation. Koblingen er udledt af lægemiddelklassen og er ikke dokumenteret ved direkte mekanistiske data.
 
@@ -110,6 +110,19 @@ Den eneste evidens er et in vitro-studie, der er indirekte, og SIV-infektion er 
 - Direkte præklinisk evidens for abacavir som enkeltstof i SIV-modeller
 - Afklaring af, om en dyremodelindikation overhovedet er relevant for human anvendelse
 - Gennemgang af advarsler og kontraindikationer i det godkendte produktresumé (SmPC)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

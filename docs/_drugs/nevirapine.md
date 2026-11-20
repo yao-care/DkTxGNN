@@ -60,7 +60,7 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en p
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Nevirapin hæmmer allosterisk HIV-1 revers transkriptase. Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Baseret på kendt viden tilhører nevirapin NNRTI-klassen, dets effekt ved HIV-1 er dokumenteret, og mekanistisk kan det tænkes at have relevans for beslægtede lentivira.
+Nevirapin hæmmer allosterisk HIV-1 revers transkriptase. Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nevirapine (uofficiel oversættelse): »Nevirapin er et antiretroviralt lægemiddel. […] Nevirapin er en non-nukleosid revers transkriptase-hæmmer (NNRTI) af HIV-1. Nevirapin bindes direkte til revers transkriptase (RT) og blokerer de RNA-afhængige og DNA-afhængige DNA-polymeraseaktiviteter ved at forårsage en forstyrrelse af enzymets katalytiske sted.« Engelsk originaltekst: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), version af 2026-10-08; hentet 2026-11-19). Baseret på kendt viden tilhører nevirapin NNRTI-klassen, dets effekt ved HIV-1 er dokumenteret, og mekanistisk kan det tænkes at have relevans for beslægtede lentivira.
 
 FIV er et lentivirus med en revers transkriptase og forårsager et AIDS-lignende syndrom hos katte. Der findes ingen effektiv behandling til smittede katte. Den eneste tilgængelige undersøgelse (2023) sammenlignede biokemisk og strukturelt NNRTI'er (nevirapin, efavirenz, rilpivirin) over for FIV og HIV.
 
@@ -120,6 +120,19 @@ Evidensen består kun af én præklinisk, indirekte undersøgelse, og der findes
 
 - **Simian immundefektvirus-infektion (SIV):** score 0,9985, evidensniveau L4, anbefaling Hold. Litteraturen er overvejende præklinisk og viser, at SIV og HIV-2 generelt er naturligt resistente over for HIV-1-specifikke NNRTI'er, mens SIV/HIV-kimærer (SHIV) med HIV-1 RT er følsomme. SIV er ikke en human sygdom, og værdien er primært som dyremodel for HIV.
 - **Neuroudviklingsforstyrrelse med ataktisk gang, fraværende tale og nedsat kortikal hvid substans:** score 0,9982, evidensniveau L5, anbefaling Hold. Der er hverken kliniske forsøg eller litteratur, og der er ikke påvist nogen mekanistisk sammenhæng. Forudsigelsen skyldes sandsynligvis artefakter i videnbasen.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ Bemærk, at den højest rangerede forudsigelse er *næsehulesygdom* (score 0,999
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Isoprenalin er dog kendt som en uselektiv beta-1/beta-2-agonist. Beta-2-aktivering afslapper glat muskulatur i bronkierne, mens beta-1-aktivering øger hjertefrekvens og kontraktilitet, hvilket forklarer den kardiale anvendelse.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Isoprenaline (uofficiel oversættelse): »Isoprenalin er en potent ikke-selektiv beta-adrenerg agonist med meget lav affinitet for alfa-adrenerge receptorer.« Engelsk originaltekst: "Isoproterenol is a potent nonselective beta-adrenergic agonist with very low affinity for alpha‑adrenergic receptors." ([DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b), version af 2026-11-12; hentet 2026-11-19). Isoprenalin er dog kendt som en uselektiv beta-1/beta-2-agonist. Beta-2-aktivering afslapper glat muskulatur i bronkierne, mens beta-1-aktivering øger hjertefrekvens og kontraktilitet, hvilket forklarer den kardiale anvendelse.
 
 For bronkial sygdom er sammenhængen veldokumenteret, men historisk: Isoprenalin blev i mange år brugt som bronkodilatator ved astma, især inhaleret. Reviews i datagrundlaget beskriver, at det er blevet erstattet af selektive beta-2-agonister på grund af hjertepåvirkning og en sammenhæng mellem høje doser isoprenalin-aerosoler og øget astmadødelighed i 1960'erne. Forudsigelsen er derfor snarere en genopdagelse af en tidligere indikation end en reel ny repurposing.
 
@@ -126,6 +126,19 @@ Den højest rangerede forudsigelse (næsehulesygdom) har ingen relevant evidens 
 - Vurdering af, om et injicerbart produkt kan have relevans for bronkial anvendelse, eller om en inhalationsformulering ville være nødvendig
 - Sammenligning med nuværende selektive beta-2-agonister med hensyn til nytte og kardiel risiko
 - Manuel gennemgang af litteraturens relevans (alle fund er endnu ikke vurderet)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

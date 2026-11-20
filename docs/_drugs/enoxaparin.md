@@ -62,7 +62,7 @@ Der er dog **ingen registrerede kliniske forsøg** og **ingen publikationer** i 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Enoxaparin er et lavmolekylært heparin, der forstærker antitrombin III og hæmmer faktor Xa (og i mindre grad trombin). Antikoagulationen er uafhængig af protein C. Detaljerede data om virkningsmekanisme fra lægemiddeldatabasen er ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på almen farmakologisk viden.
+Enoxaparin er et lavmolekylært heparin, der forstærker antitrombin III og hæmmer faktor Xa (og i mindre grad trombin). Antikoagulationen er uafhængig af protein C. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Enoxaparin (uofficiel oversættelse): »Enoxaparin er et lavmolekylært heparin, som har antitrombotiske egenskaber.« Engelsk originaltekst: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), version af 2026-05-28; hentet 2026-11-19).
 
 Ved svær autosomal recessiv protein C-mangel er den naturlige protein C-antikoagulantvej nedsat. Det giver uhæmmet trombindannelse og trombotiske komplikationer som purpura fulminans. Enoxaparins oprindelige indikationer (purpura fulminans, erhvervet purpura fulminans og dissemineret intravaskulær koagulation) er nært beslægtede manifestationer af svigt i protein C-systemet. Det giver en plausibel, men indirekte mekanistisk begrundelse for brug som antikoagulans til forebyggelse eller behandling af trombose hos disse patienter.
 
@@ -116,6 +116,19 @@ Forudsigelsen har en meget høj modelscore, men der er hverken kliniske forsøg 
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af plads i behandlingen ift. proteinC-koncentrat og vitamin K-antagonister (fx som overbyggende behandling)
 - Afklaring af godkendt indikationstekst og relevante administrationsveje for Inhixa
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

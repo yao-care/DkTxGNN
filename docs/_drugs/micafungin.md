@@ -60,7 +60,7 @@ Evidensen består af **0 registrerede kliniske forsøg** og **13 publikationer**
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Micafungin tilhører imidlertid echinocandin-klassen, som hæmmer 1,3-beta-D-glucansyntase, et enzym i svampes cellevæg. Stoffet har veletableret aktivitet mod Candida-arter.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Micafungin (uofficiel oversættelse): »Micafungin tilhører echinocandinklassen af antimykotika. […] Micafungin hæmmer syntesen af 1,3-beta-D-glucan, en essentiel komponent i svampecellevægge, som ikke findes i pattedyrceller. Aktivitet i dyremodeller for candidiasis Micafungins aktivitet er påvist i både mukosale og disseminerede muse- og kaninmodeller for candidiasis.« Engelsk originaltekst: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), version af 2025-11-08; hentet 2026-11-19). Micafungin tilhører imidlertid echinocandin-klassen, som hæmmer 1,3-beta-D-glucansyntase, et enzym i svampes cellevæg. Stoffet har veletableret aktivitet mod Candida-arter.
 
 Candida-urinvejsinfektion og candiduri forårsages af de samme patogener som de godkendte indikationer (candidæmi og invasiv candidiasis). Det er derfor en patogenkonsistent udvidelse af den kendte svampehæmmende effekt. Den traditionelle bekymring har været, at echinocandiner udskilles i urinen i lav grad. Et farmakokinetisk studie (PMID 27424599) rapporterer dog, at urinkoncentrationerne af micafungin er tilstrækkelige til at behandle Candida-urinvejsinfektioner.
 
@@ -132,6 +132,19 @@ Der er et konsistent litteratursignal for micafungin ved Candida-urinvejsinfekti
 - Detaljerede data om virkningsmekanisme fra DrugBank
 - Klare kriterier for patientudvælgelse (symptomatiske eller højrisikopatienter, fluconazol-resistente arter) og vurdering af nyrefunktion, givet de kontraindikationer, der er angivet i videngrafen
 - Gennemgang af relevante interaktioner, især med immunsuppressiva (sirolimus, everolimus) og amphotericin B
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

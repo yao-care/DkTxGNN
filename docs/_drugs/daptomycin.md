@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **slidgigt (osteoarthritis
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Daptomycin er kendt som et cyklisk lipopeptid, der forstyrrer grampositive bakteriers cellemembran. Dette er en antibakteriel virkning og har ikke en kendt sammenhæng med slidgigt, som er en ikke-infektiøs, degenerativ ledsygdom.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Daptomycin (uofficiel oversættelse): »Daptomycin er et antibakterielt lægemiddel. […] Daptomycin binder sig til bakterielle cellemembraner og forårsager en hurtig depolarisering af membranpotentialet. Dette tab af membranpotentiale medfører hæmning af DNA-, RNA- og proteinsyntesen, hvilket resulterer i bakteriel celledød.« Engelsk originaltekst: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), version af 2022-01-25; hentet 2026-11-19). Daptomycin er kendt som et cyklisk lipopeptid, der forstyrrer grampositive bakteriers cellemembran. Dette er en antibakteriel virkning og har ikke en kendt sammenhæng med slidgigt, som er en ikke-infektiøs, degenerativ ledsygdom.
 
 Den litteratur, der er fundet, handler om knogle- og ledinfektioner, herunder infektion i ledproteser, hvor daptomycin bruges som antibiotikum. Det er anti-infektiv anvendelse og ikke behandling af selve slidgigten. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -146,11 +146,12 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger daptomyc
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” → “Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
 
 <!-- review:end log -->
 

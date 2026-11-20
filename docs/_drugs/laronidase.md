@@ -59,7 +59,7 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (primært 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Laronidase er dog rekombinant alfa-L-iduronidase, som nedbryder glykosaminoglykaner (GAG'er), dvs. dermatansulfat og heparansulfat. Enzymet erstatter det manglende enzym ved MPS I.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Laronidase (uofficiel oversættelse): »Mukopolysakkarid-oplagringssygdomme skyldes mangel på specifikke lysosomale enzymer, der er nødvendige for katabolismen af glykosaminoglykaner (GAG). Mukopolysakkaridose I (MPS I) er karakteriseret ved mangel på α-L-iduronidase, en lysosomal hydrolase, som katalyserer hydrolysen af terminale α-L-iduronsyrerester i dermatansulfat og heparansulfat. […] Cellernes optagelse af ALDURAZYME i lysosomerne medieres sandsynligvis af laronidases mannose-6-fosfat-terminerede oligosakkaridkæder, der bindes til specifikke mannose-6-fosfat-receptorer.« Engelsk originaltekst: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), version af 2026-09-11; hentet 2026-11-19). Laronidase er dog rekombinant alfa-L-iduronidase, som nedbryder glykosaminoglykaner (GAG'er), dvs. dermatansulfat og heparansulfat. Enzymet erstatter det manglende enzym ved MPS I.
 
 Den forudsagte indikation overlapper i høj grad med den godkendte MPS I-indikation, hvor skeletsygdom (dysostosis multiplex) er et centralt kendetegn. Forudsigelsen er derfor primært en gengivelse af den oprindelige indikation. Et in vitro-studie (PMID 18758061) viser, at laronidase optages af fibroblaster og osteoblaster, hvilket understøtter en mulig cellulær vej til knogle. Den kliniske evidens for effekt på skelettet er dog begrænset, da intravenøs enzymerstatning har dårlig penetration til knogle og brusk.
 
@@ -120,6 +120,18 @@ Modellen har også rangeret nedenstående indikationer. Ingen har understøttend
 | Forudsagt indikation | Score | Evidensniveau | Vurdering |
 |------|------|------|------|
 | Sanfilippo syndrom (MPS III) | 0,9922 | L5 | Skyldes mangel på andre enzymer end alfa-L-iduronidase; sygdommen er overvejende cerebral, og intravenøs laronidase passerer ikke blod-hjerne-barrieren effektivt. Den tilgængelige litteratur (bl.a. RCT'er, PMID 15126990 og 40830667) omhandler MPS I, ikke MPS III |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

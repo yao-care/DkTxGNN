@@ -64,7 +64,7 @@ Evidensen er dog overvejende indirekte (oversigtsartikler og retningslinjer), og
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Warfarin er dog kendt som en hæmmer af vitamin K-afhængig carboxylering af koagulationsfaktorerne II, VII, IX og X. Lægemidlets effekt ved tromboembolisk sygdom er veldokumenteret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Warfarin (uofficiel oversættelse): »Warfarin virker ved at hæmme syntesen af vitamin K-afhængige koagulationsfaktorer, herunder faktor II, VII, IX og X, samt de antikoagulerende proteiner C og S. Vitamin K er en essentiel cofaktor for den post-ribosomale syntese af de vitamin K-afhængige koagulationsfaktorer. Vitamin K fremmer biosyntesen af γ-carboxyglutaminsyre-residuer i proteinerne, som er essentielle for den biologiske aktivitet.« Engelsk originaltekst: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), version af 2026-10-28; hentet 2026-11-19). Warfarin er dog kendt som en hæmmer af vitamin K-afhængig carboxylering af koagulationsfaktorerne II, VII, IX og X. Lægemidlets effekt ved tromboembolisk sygdom er veldokumenteret.
 
 Trombofili (arvelig eller erhvervet hyperkoagulabilitet) medfører øget risiko for venøs tromboembolisme. Da warfarin dæmper dannelsen af trombin, er det mekanistisk sammenhængende at bruge det til langtidsforebyggelse hos disse patienter. Warfarin virker nedstrøms for de underliggende defekter (f.eks. antitrombin-, protein C-/S-mangel eller faktor V Leiden).
 
@@ -147,6 +147,19 @@ Warfarins brug ved trombofili hviler på etableret klinisk praksis, men de indsa
 - Opfølgning på resultaterne af NCT00895505 samt systematisk gennemgang af sammenlignende data mellem warfarin og DOAK ved svær trombofili
 - Vurdering af sikkerhedsplan for særlige grupper (protein C-/S-mangel, graviditet, nedsat lever- og nyrefunktion)
 - Eventuel målrettet litteratursøgning for heparin cofactor 2-mangel og antitrombinmangel
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

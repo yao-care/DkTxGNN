@@ -58,7 +58,7 @@ Domperidon er en perifer dopamin D2/D3-receptorantagonist, som anvendes som prok
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ifølge farmakologidata virker domperidon som antagonist på dopamin D2-receptoren (DRD2) og D3-receptoren (DRD3). Det er dette, der ligger bag den prokinetiske og antiemetiske effekt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Domperidone (uofficiel oversættelse): »Dopamin D2-receptorantagonist« Engelsk originaltekst: "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; hentet 2026-11-19). Ifølge farmakologidata virker domperidon som antagonist på dopamin D2-receptoren (DRD2) og D3-receptoren (DRD3). Det er dette, der ligger bag den prokinetiske og antiemetiske effekt.
 
 NSIAD skyldes aktiverende (gain-of-function) mutationer i vasopressin V2-receptoren (AVPR2, f.eks. R137C/R137L). De giver konstitutiv receptoraktivitet og ukontrolleret reabsorption af vand i nyrerne. Domperidon har ikke kendt virkning på V2-receptoren eller aquaporin-2-vejen, og der er derfor ikke noget klart mekanistisk led mellem den oprindelige anvendelse og den forudsagte indikation.
 
@@ -116,6 +116,19 @@ Forudsigelsen er rent beregningsbaseret (evidensniveau L5) uden kliniske forsøg
 - Foretag en målrettet litteratursøgning og en prækliniske vurdering af en eventuel effekt på V2-receptor- eller aquaporin-2-vejen
 - Vurder kardiel sikkerhed (QT-forlængelse) i den relevante patientgruppe, hvis projektet fortsættes
 - Afklar administrationsvej og lægemiddelformens kompatibilitet med den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

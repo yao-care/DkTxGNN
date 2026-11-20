@@ -62,7 +62,7 @@ Evidensniveauet L2 bygger på ét afsluttet fase 3-forsøg. Der er ingen offentl
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Dexmedetomidin er dog kendt som en meget selektiv alfa-2-adrenerg agonist med sederende, smertestillende og angstdæmpende virkning.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dexmedetomidine (uofficiel oversættelse): »PRECEDEX er en relativt selektiv, centralt virkende alfa 2 -adrenerg agonist med sederende egenskaber. Alfa 2 -selektivitet ses hos dyr efter langsom intravenøs infusion af lave og mellemstore doser (10-300 mcg/kg).« Engelsk originaltekst: "PRECEDEX is a relatively selective centrally acting alpha 2 -adrenergic agonist with sedative properties. Alpha 2 selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg)." ([DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6), version af 2026-06-17; hentet 2026-11-19). Dexmedetomidin er dog kendt som en meget selektiv alfa-2-adrenerg agonist med sederende, smertestillende og angstdæmpende virkning.
 
 Alfa-2-agonisme nedsætter den noradrenerge og sympatiske aktivitet og kan dæmpe smertesignaler i trigeminovaskulære baner samt central sensibilisering. Ved postdural punkturhovedpine foreslås desuden en cerebral vasokonstriktion med nedsat cerebral blodgennemstrømning, som kan modvirke den kompensatoriske intrakranielle vasodilatation.
 
@@ -137,6 +137,19 @@ Evidensen er begrænset til små forsøg med inhaleret dexmedetomidin ved en sek
 - Afklaring af, om inhalation som administrationsvej kan anvendes med de eksisterende danske produkter
 - Data om virkningsmekanisme (f.eks. fra DrugBank)
 - Sikkerhedsvurdering for patienter med kardiovaskulære, lever- og nyrelidelser, diabetes og ledningsforstyrrelser (bradykardi, AV-blok)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

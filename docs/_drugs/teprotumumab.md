@@ -60,7 +60,7 @@ Der er i de sammenstillede data **ingen kliniske forsøg og ingen publikationer*
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de sammenstillede data. Teprotumumab er kendt som et monoklonalt antistof, der blokerer IGF-1-receptoren (IGF-1R).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Teprotumumab (uofficiel oversættelse): »Virkningsmekanismen for teprotumumab-trbw hos patienter med thyroidea-associeret øjensygdom er ikke fuldt karakteriseret. Teprotumumab-trbw binder til IGF-1R og blokerer dets aktivering og signalering.« Engelsk originaltekst: "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), version af 2026-09-28; hentet 2026-11-19). Teprotumumab er kendt som et monoklonalt antistof, der blokerer IGF-1-receptoren (IGF-1R).
 
 Monosomi X er kendetegnet ved væksthæmning og gonadal dysgenesi, og GH/IGF-1-aksen spiller en rolle i behandlingen. Men hæmning af IGF-1R forventes at modvirke vækst snarere end at understøtte den, så sammenhængen er spekulativ og muligvis uhensigtsmæssig, især hos børn. Den høje score afspejler en netværksbaseret association og ikke dokumenteret klinisk gavn.
 
@@ -108,6 +108,19 @@ Forudsigelsen bygger udelukkende på netværksassociation uden kliniske forsøg 
 - Præklinisk eller mekanistisk evidens, der direkte vedrører monosomi X
 - Sikkerhedsdata fra produktresumé (advarsler og kontraindikationer), herunder særligt for børn
 - Godkendt indikationstekst for den danske tilladelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

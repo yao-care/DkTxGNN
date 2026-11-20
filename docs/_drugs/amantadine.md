@@ -54,7 +54,7 @@ Amantadin er et lægemiddel, der er markedsført i Danmark som hårde kapsler. D
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Amantadin er dog kendt som NMDA-receptorantagonist med dopaminerg effekt. Ved Rasmussen-encephalitis har man foreslået, at glutamatreceptor-medieret excitotoksicitet og autoimmunitet mod GluR3 spiller en rolle. Det giver en tænkelig, men uafprøvet, mekanistisk forbindelse.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Amantadine (uofficiel oversættelse): »Den mekanisme, hvormed amantadin udøver sin virkning i behandlingen af dyskinesi hos patienter med Parkinsons sygdom eller som supplerende behandling til levodopa/carbidopa hos patienter med Parkinsons sygdom, der oplever 'off'-episoder, er ukendt. Amantadin er en svag ikke-kompetitiv antagonist af NMDA-receptoren.« Engelsk originaltekst: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28), version af 2026-10-05; hentet 2026-11-19). Amantadin er dog kendt som NMDA-receptorantagonist med dopaminerg effekt. Ved Rasmussen-encephalitis har man foreslået, at glutamatreceptor-medieret excitotoksicitet og autoimmunitet mod GluR3 spiller en rolle. Det giver en tænkelig, men uafprøvet, mekanistisk forbindelse.
 
 Dette er en ren beregningsmæssig forudsigelse og er ikke understøttet af kliniske eller publicerede data i materialet. Sammenhængen skal derfor betragtes som en hypotese.
 
@@ -92,6 +92,19 @@ Forudsigelsen har en høj score (0,9948), men der findes hverken kliniske forsø
 - Data om lægemidlets virkningsmekanisme
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Vurdering af sikkerhed hos børn, som er den hyppigst ramte gruppe, før et eventuelt klinisk forsøg planlægges
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

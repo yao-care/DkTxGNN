@@ -58,7 +58,7 @@ Sacituzumab govitecan er et Trop-2-rettet antistof-lægemiddelkonjugat (ADC) med
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det er dog kendt, at sacituzumab govitecan er et antistof-lægemiddelkonjugat, der binder til Trop-2 på tumorceller og afgiver SN-38, en topoisomerase I-hæmmer, som skader cellernes DNA.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sacituzumab Govitecan (uofficiel oversættelse): »Sacituzumab govitecan-hziy er et Trop-2-rettet antistof-lægemiddelkonjugat. Sacituzumab er et humaniseret antistof, der genkender Trop-2. Det lille molekyle, SN-38, er en topoisomerase I-hæmmer, som er kovalent bundet til antistoffet via en linker.« Engelsk originaltekst: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), version af 2026-06-24; hentet 2026-11-19). Det er dog kendt, at sacituzumab govitecan er et antistof-lægemiddelkonjugat, der binder til Trop-2 på tumorceller og afgiver SN-38, en topoisomerase I-hæmmer, som skader cellernes DNA.
 
 Der er ikke noget i de foreliggende data, der peger på en plausibel knoglebeskyttende effekt. Cytotoksisk kemoterapi er tværtimod generelt forbundet med knogletab frem for beskyttelse mod det. Scoren på 0,9978 er en ren modelforudsigelse og kan ikke tolkes som tegn på effekt.
 
@@ -145,6 +145,19 @@ Forudsigelsen bygger kun på en modelscore uden kliniske forsøg, litteratur ell
 - Den godkendte indikationstekst for Trodelvy
 - Præklinisk eller mekanistisk evidens for en mulig knoglebeskyttende eller øjenrelateret effekt
 - En vurdering af nytte/risiko og alternative behandlinger for de forudsagte tilstande
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

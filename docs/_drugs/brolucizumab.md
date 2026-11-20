@@ -56,7 +56,7 @@ Der er dog **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Brolucizumab er et antistoffragment, der binder og hæmmer VEGF-A og dermed dæmper patologisk karnydannelse og øget karpermeabilitet. Data om den oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport, ud over denne generelle beskrivelse.
+Brolucizumab er et antistoffragment, der binder og hæmmer VEGF-A og dermed dæmper patologisk karnydannelse og øget karpermeabilitet. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Brolucizumab (uofficiel oversættelse): »Brolucizumab er en human VEGF-hæmmer. Brolucizumab binder til de tre vigtigste isoformer af VEGF-A (f.eks. VEGF 110 , VEGF 121 og VEGF 165 ) og forhindrer derved interaktion med receptorerne VEGFR-1 og VEGFR-2. Ved at hæmme VEGF-A undertrykker brolucizumab endotelcelleproliferation, neovaskularisering og vaskulær permeabilitet.« Engelsk originaltekst: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), version af 2026-10-26; hentet 2026-11-19).
 
 Der er ikke identificeret en etableret mekanistisk sammenhæng mellem VEGF-A-hæmning og oxidative fosforyleringsforstyrrelser, som skyldes afvigelser i kernens DNA. En spekulativ forbindelse kunne være nethinde- eller karkomplikationer ved mitokondriel sygdom, men dette understøttes ikke af data. Scoren er en ren grafbaseret modelforudsigelse og bør ikke tolkes som klinisk evidens.
 
@@ -92,6 +92,19 @@ Forudsigelsen bygger kun på en modelscore uden kliniske forsøg, publikationer 
 - Prækliniske studier eller litteratur, der direkte undersøger sygdommen
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af, om intravitreal administration er forenelig med den ønskede behandling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

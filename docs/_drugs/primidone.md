@@ -60,7 +60,7 @@ Forudsigelsen er udelukkende modelbaseret og bør ikke behandles som evidens for
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om primidons detaljerede virkningsmekanisme er ikke tilgængelige i de samlede data. Det er generelt kendt, at primidon er et antiepileptikum, hvis effekt delvis tilskrives omdannelse til phenobarbital og PEMA, og at lægemidlet påvirker natriumkanaler og GABA-erg hæmning.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Primidone (uofficiel oversættelse): »MYSOLINE hæver tærsklen for krampeanfald fremkaldt ved elektro- eller kemoshock eller ændrer anfaldsmønstre hos forsøgsdyr. Mekanismen/mekanismerne bag primidons antiepileptiske virkning er ikke kendt. Primidon har i sig selv antikonvulsiv aktivitet, ligesom dets to metabolitter, phenobarbital og phenylethylmalonamid (PEMA).« Engelsk originaltekst: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), version af 2026-09-10; hentet 2026-11-19). Det er generelt kendt, at primidon er et antiepileptikum, hvis effekt delvis tilskrives omdannelse til phenobarbital og PEMA, og at lægemidlet påvirker natriumkanaler og GABA-erg hæmning.
 
 Den meget høje score synes primært at skyldes nærhed i videnskabsgrafen til trigeminusneuralgi og epilepsirelaterede knuder. Der er ingen etableret antineoplastisk begrundelse for primidon ved denne tumortype. Forudsigelsen er derfor sandsynligvis et grafartefakt og ikke udtryk for en reel mekanistisk sammenhæng.
 
@@ -133,6 +133,19 @@ Forudsigelsen for trigeminusnervetumor bygger udelukkende på en grafbaseret mod
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Præklinisk eller litteraturbaseret belæg for en antineoplastisk eller tumorrelateret effekt
 - Overvej i stedet at prioritere de epilepsinære forudsigelser (f.eks. refleksepilepsier) og trigeminusneuralgi som forskningsspørgsmål, da de er biologisk mere plausible, men fortsat kræver primidon-specifikke data
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Palonosetron er en selektiv 5-HT3-receptorantagonist, der markedsføres i Danmar
 
 ## Hvorfor er denne forudsigelse rimelig (eller ej)?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er indsamlet til denne rapport. Palonosetron er dog kendt som en selektiv 5-HT3-receptorantagonist. Serotonerg signalering indgår i migrænens patofysiologi, og andre 5-HT3-antagonister er undersøgt ved migræne med begrænsede resultater. Det giver en indirekte, teoretisk forbindelse.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Palonosetron (uofficiel oversættelse): »Palonosetron er en 5-HT 3 -receptorantagonist med en stærk bindingsaffinitet for denne receptor og ringe eller ingen affinitet for andre receptorer. Kemoterapi mod cancer kan være forbundet med en høj forekomst af kvalme og opkastning, især når visse stoffer, såsom cisplatin, anvendes.« Engelsk originaltekst: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), version af 2025-04-29; hentet 2026-11-19). Palonosetron er dog kendt som en selektiv 5-HT3-receptorantagonist. Serotonerg signalering indgår i migrænens patofysiologi, og andre 5-HT3-antagonister er undersøgt ved migræne med begrænsede resultater. Det giver en indirekte, teoretisk forbindelse.
 
 Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den eneste fundne litteratur peger i modsat retning: en case-rapport beskriver palonosetron-induceret migrænelignende hovedpine, hvilket er et sikkerhedssignal frem for tegn på gavnlig effekt.
 
@@ -134,11 +134,12 @@ Den høje TxGNN-score er en netværksbaseret forudsigelse uden klinisk støtte. 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceut” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

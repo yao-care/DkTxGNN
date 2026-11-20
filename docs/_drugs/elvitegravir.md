@@ -54,7 +54,7 @@ Elvitegravir er en integrasestrandoverførselshæmmer (INSTI), som bruges i komb
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Elvitegravir er dog kendt som en HIV-1-integrasehæmmer, der blokerer indbygningen af viralt DNA i værtscellens genom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (kombinationspræparat med Elvitegravir) (uofficiel oversættelse): »STRIBILD er en fastdosiskombination af de antiretrovirale lægemidler elvitegravir (boostet af CYP3A-hæmmeren cobicistat), emtricitabin og TDF.« Engelsk originaltekst: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), version af 2025-02-04; hentet 2026-11-19). Elvitegravir er dog kendt som en HIV-1-integrasehæmmer, der blokerer indbygningen af viralt DNA i værtscellens genom.
 
 Integrasen hos simian immundefektvirus (SIV) ligner HIV-1-integrasen meget. Derfor er det mekanistisk plausibelt, at samme princip virker mod SIV. Prækliniske studier viser aktivitet mod SIV/SHIV, bl.a. resistensprofilering af INSTI'er i SIVmac239 og en topisk indsats med tenofoviralafenamid/elvitegravir, som gav delvis beskyttelse efter eksponering i en makakmodel.
 
@@ -103,6 +103,18 @@ Evidensniveauet er L4, da der udelukkende findes prækliniske studier (makak SHI
 - Data om virkningsmekanismen (MOA)
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
 - Afklaring af, om forskningsmodelanvendelsen har et relevant formål, før der overvejes yderligere udvikling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -60,7 +60,7 @@ Evidensen for den forudsagte indikation er således kun modelbaseret og mekanist
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige i de indsamlede data. Golimumab er dog et fuldt humant monoklonalt antistof, der neutraliserer TNF-alfa. TNF-alfa er en central cytokin ved leddegigt, og lægemidlets effekt ved leddegigt er veldokumenteret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Golimumab (uofficiel oversættelse): »Golimumab er et humant monoklonalt antistof, der binder til både den opløselige og den transmembrane bioaktive form af humant TNFα. Denne interaktion forhindrer binding af TNFα til dets receptorer og hæmmer derved den biologiske aktivitet af TNFα (et cytokinprotein).« Engelsk originaltekst: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), version af 2026-11-02; hentet 2026-11-19). Golimumab er dog et fuldt humant monoklonalt antistof, der neutraliserer TNF-alfa. TNF-alfa er en central cytokin ved leddegigt, og lægemidlets effekt ved leddegigt er veldokumenteret.
 
 Reumatoid vaskulitis er en alvorlig ekstraartikulær komplikation til leddegigt, som især ses hos seropositive patienter. Da TNF-alfa også spiller en rolle ved vaskulær inflammation, er der et mekanistisk grundlag for, at TNF-hæmning kunne være relevant. Forekomsten af reumatoid vaskulitis er desuden faldet efter introduktionen af biologiske lægemidler, herunder TNF-hæmmere.
 
@@ -130,6 +130,19 @@ Der er et plausibelt mekanistisk grundlag via TNF-hæmning, men der er hverken k
 - En vurdering af risikoen for paradoksal vaskulitis under TNF-hæmning
 
 **Bemærkning om andre forudsigelser:** De øvrige forudsigelser i de indsamlede data er enten ikke reelle nyindikationer eller mangler evidens. Inflammatorisk spondylopati (L1) og polyartikulær juvenil reumatoid artrit (L1) overlapper i høj grad med allerede godkendte indikationer eller udgør en pædiatrisk udvidelse heraf. Hypermobilitet af coccyx og Kümmells sygdom (L5) er alene beregningsmæssige forudsigelser uden kliniske forsøg eller litteratur.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

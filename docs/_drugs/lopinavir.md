@@ -60,7 +60,7 @@ men evidensen består kun af **3 prækliniske publikationer** på aber og **inge
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om lopinavirs virkningsmekanisme i de data, der er indsamlet til denne rapport. Lopinavir er kendt som HIV-1-proteasehæmmer, og dets effekt ved HIV er veletableret. Mekanistisk kan det være relevant for SIV, da SIV er en nært beslægtet lentivirus med en strukturelt lignende protease.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Lopinavir (uofficiel oversættelse): »Proteasehæmmer for humant immundefektvirus type 1« Engelsk originaltekst: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; hentet 2026-11-19). Lopinavir er kendt som HIV-1-proteasehæmmer, og dets effekt ved HIV er veletableret. Mekanistisk kan det være relevant for SIV, da SIV er en nært beslægtet lentivirus med en strukturelt lignende protease.
 
 Den høje TxGNN-score afspejler sandsynligvis den tætte lighed med den oprindelige HIV-indikation. De tre understøttende publikationer er forsøg på makakaber, hvor antiretrovirale regimer indeholdende proteasehæmmere er undersøgt. Det er indirekte, prækliniske data.
 
@@ -91,7 +91,6 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-
 ---
 
 ## Sikkerhedsovervejelser
@@ -115,6 +114,19 @@ Evidensen består udelukkende af prækliniske forsøg på aber, og SIV-infektion
 - Data om virkningsmekanisme fra DrugBank
 - Afklaring af, om en veterinær- eller forskningsmæssig anvendelse overhovedet er relevant
 - For humane indikationer: identifikation af en forudsagt indikation med et biologisk plausibelt og klinisk relevant grundlag
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

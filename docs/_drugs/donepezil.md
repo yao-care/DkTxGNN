@@ -61,7 +61,7 @@ Rapporten fokuserer på den højest rangerede forudsigelse (psykogene bevægelse
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Donepezil er kendt som en acetylcholinesterase-hæmmer, der øger det cholinerge niveau i centralnervesystemet. Dets effekt ved Alzheimers sygdom er veldokumenteret, og mekanistisk kan øget cholinerg aktivitet påvirke motoriske kredsløb.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Donepezil (uofficiel oversættelse): »Nuværende teorier om patogenesen af de kognitive tegn og symptomer ved Alzheimers sygdom tilskriver nogle af dem en mangel på kolinerg neurotransmission. Det antages, at donepezilhydrochlorid udøver sin terapeutiske virkning ved at forstærke den kolinerge funktion.« Engelsk originaltekst: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), version af 2021-12-30; hentet 2026-11-19). Donepezil er kendt som en acetylcholinesterase-hæmmer, der øger det cholinerge niveau i centralnervesystemet. Dets effekt ved Alzheimers sygdom er veldokumenteret, og mekanistisk kan øget cholinerg aktivitet påvirke motoriske kredsløb.
 
 For **psykogene bevægelsesforstyrrelser** er koblingen udelukkende baseret på grafforudsigelsen. Der er ingen data, der understøtter en mekanistisk sammenhæng, og tilstanden behandles hovedsageligt med ikke-farmakologiske tilgange.
 
@@ -129,6 +129,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 - Kontrollerede studier (helst randomiserede) af donepezil ved kronisk tic-lidelse
 - Afklaring af balancen mellem fordel og risiko for ekstrapyramidale bivirkninger
 - Verifikation af designet i de identificerede studier
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

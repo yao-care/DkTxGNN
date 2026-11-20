@@ -58,7 +58,7 @@ Glucarpidase er et rekombinant enzym, som nedbryder metotrexat i blodet, og som 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det indsamlede materiale. Ud fra almindelig farmakologisk viden er glucarpidase en rekombinant bakteriel carboxypeptidase G2, som hydrolyserer ekstracellulært metotrexat og andre folater til inaktive metabolitter. Det er et stort protein, som holder sig i det ekstracellulære rum.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Glucarpidase (uofficiel oversættelse): »Glucarpidase er et rekombinant bakterielt enzym, der hydrolyserer den carboxyl-terminale glutamatrest fra folinsyre og klassiske antifolater såsom methotrexat. Glucarpidase omdanner methotrexat til dets inaktive metabolitter 4-deoxy-4-amino-N 10 -methylpteroinsyre (DAMPA) og glutamat.« Engelsk originaltekst: "Glucarpidase is a recombinant bacterial enzyme that hydrolyzes the carboxyl- terminal glutamate residue from folic acid and classical antifolates such as methotrexate. Glucarpidase converts methotrexate to its inactive metabolites 4-deoxy-4-amino-N 10 - methylpteroic acid (DAMPA) and glutamate." ([DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c), version af 2024-11-27; hentet 2026-11-19). Ud fra almindelig farmakologisk viden er glucarpidase en rekombinant bakteriel carboxypeptidase G2, som hydrolyserer ekstracellulært metotrexat og andre folater til inaktive metabolitter. Det er et stort protein, som holder sig i det ekstracellulære rum.
 
 Diabetisk katarakt skyldes primært polyolvejen (aldosereduktase), glykering af linseproteiner og oxidativ stress. Glucarpidase påvirker ingen af disse processer, og det er ikke sandsynligt, at et så stort protein når ind i linsen.
 
@@ -118,6 +118,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, publik
 - Prækliniske data, der viser en biologisk sammenhæng mellem folat-/metotrexatnedbrydning og linsepatologi
 - Dokumentation for, at lægemidlet kan nå målvævet (linse/nethinde)
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

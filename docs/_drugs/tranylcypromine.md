@@ -62,7 +62,7 @@ Bemærk: Den højest rangerede forudsigelse i modellen er *benign paroksystisk t
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er i øjeblikket ikke tilgængelige i de data, der er indsamlet til rapporten. Tranylcypromin er kendt som en irreversibel MAO-hæmmer, der øger tilgængeligheden af monoaminer (serotonin, noradrenalin og dopamin) i hjernen. Dets effekt ved depression er veldokumenteret, og mekanismen kan derfor teoretisk være relevant for dysthymi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tranylcypromine (uofficiel oversættelse): »Virkningsmekanismen for PARNATE som antidepressivum er ikke fuldt klarlagt, men antages at være knyttet til forstærkning af monoaminerg neurotransmitteraktivitet i centralnervesystemet (CNS) som følge af dets irreversible hæmning af enzymet monoaminoxidase (MAO).« Engelsk originaltekst: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27), version af 2025-07-02; hentet 2026-11-19). Tranylcypromin er kendt som en irreversibel MAO-hæmmer, der øger tilgængeligheden af monoaminer (serotonin, noradrenalin og dopamin) i hjernen. Dets effekt ved depression er veldokumenteret, og mekanismen kan derfor teoretisk være relevant for dysthymi.
 
 Dysthymi er en kronisk, mildere form for depression og står klinisk meget tæt på de godkendte depressionsindikationer. Det monoaminforstærkende princip er derfor direkte relevant.
 
@@ -121,6 +121,19 @@ Evidensen er kun på klasseniveau (L4) og indeholder ingen tranylcypromin-specif
 - Sammenligning med mindre risikobetonede antidepressiva samt en plan for kost- og interaktionsrådgivning
 
 **Øvrige forudsigelser (til information):** Flere højt scorende forudsigelser (benign paroxysmal torticollis hos spædbørn, Ohdo-syndrom og varianter, ligneøs konjunktivitis, Keppen-Lubinsky syndrom) har kun modelstøtte (L5) uden forsøg eller litteratur og vurderes som Hold. Agorafobi (L4) har noget historisk støtte for MAO-hæmmere, men kun reviews og en enkelt case-rapport. Melancholi og neurotisk depression overlapper i høj grad med de allerede godkendte indikationer og udgør derfor ikke ny repurposing-evidens.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

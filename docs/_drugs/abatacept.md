@@ -56,7 +56,7 @@ Evidensen er begrænset: **1 åbent pilotforsøg i fase 2** og **1 åben 24-uger
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Abatacept er et CTLA4-Ig-fusionsprotein, som blokerer CD28-CD80/86-signalvejen og dermed T-cellernes kostimulation.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Abatacept (uofficiel oversættelse): »Abatacept, en selektiv costimulationsmodulator, hæmmer T-celle (T-lymfocyt)-aktivering ved at binde til CD80 og CD86 og derved blokere interaktionen med CD28. Denne interaktion giver et costimulatorisk signal, der er nødvendigt for fuld aktivering af T-lymfocytter.« Engelsk originaltekst: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), version af 2025-11-13; hentet 2026-11-19). Abatacept er et CTLA4-Ig-fusionsprotein, som blokerer CD28-CD80/86-signalvejen og dermed T-cellernes kostimulation.
 
 Ankyloserende spondylitis hører til spondyloartritgruppen, som har slægtskab med de sygdomme, abatacept allerede anvendes ved. T-cellemedieret inflammation er derfor biologisk plausibel. De dominerende sygdomsmekanismer er dog TNF og IL-17/IL-23, og abatacept har ikke vist klar effekt på disse akser. En oversigtsartikel (Sieper, 2016) angiver direkte, at T-celle-rettet behandling med abatacept ikke er effektiv ved aksial spondyloartrit. Den høje score afspejler biologisk nærhed og er ikke et klinisk bevis.
 
@@ -109,6 +109,18 @@ Evidensen er på niveau L3: kun et åbent pilotforsøg og en åben 24-ugers pilo
 - Et randomiseret, kontrolleret forsøg, hvis der skal undersøges yderligere
 - Data om virkningsmekanisme specifikt ved aksial sygdom
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

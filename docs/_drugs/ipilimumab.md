@@ -58,7 +58,7 @@ Ipilimumab er et antistof, der blokerer CTLA-4, og som oprindeligt anvendes til 
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ipilimumab er dog kendt som et CTLA-4-blokerende antistof, der fjerner en hæmmende kontrol på T-celler og dermed forstærker immunsystemets angreb på tumorer. Denne mekanisme er veldokumenteret ved melanom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ipilimumab (uofficiel oversættelse): »CTLA-4 er en negativ regulator af T-celleaktivitet. Ipilimumab er et monoklonalt antistof, der binder til CTLA-4 og blokerer interaktionen mellem CTLA-4 og dets ligander, CD80/CD86. Blokade af CTLA-4 har vist sig at øge T-celleaktivering og -proliferation, herunder aktivering og proliferation af tumorinfiltrerende T-effektorceller.« Engelsk originaltekst: "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), version af 2026-08-20; hentet 2026-11-19). Ipilimumab er dog kendt som et CTLA-4-blokerende antistof, der fjerner en hæmmende kontrol på T-celler og dermed forstærker immunsystemets angreb på tumorer. Denne mekanisme er veldokumenteret ved melanom.
 
 Choroideremi er en arvelig degeneration af nethinden, forårsaget af funktionstabsmutationer i CHM-genet (REP1-mangel). Sygdommen er ikke drevet af en hæmmet immunrespons, og der er ingen kendt sammenhæng mellem CTLA-4-blokade og sygdommens patogenese. Tværtimod kan øget immunaktivering give risiko for øjenbetændelse (f.eks. uveitis), som er en kendt immunrelateret bivirkning.
 
@@ -123,6 +123,18 @@ Forudsigelsen mangler enhver klinisk eller litteraturmæssig støtte (evidensniv
 - Vurdering af øjensikkerhed (risiko for uveitis) hos patienter med arvelige nethindesygdomme.
 - Hentning af advarsler og kontraindikationer fra produktresuméet (SmPC) samt data om virkningsmekanisme.
 - Fjernelse af den dublerede forudsigelse i modellens output.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

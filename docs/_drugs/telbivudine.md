@@ -61,7 +61,7 @@ Forudsigelsen er derfor udelukkende modelbaseret og savner mekanistisk og klinis
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i den oprindelige lægemiddelpost. Ud fra den kendte farmakologi er telbivudin en thymidin-nukleosidanalog, der selektivt hæmmer HBV-DNA-polymerasen (revers transkriptase).
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Telbivudine (uofficiel oversættelse): »DNA-polymerase/revers transkriptase-hæmmer« Engelsk originaltekst: "DNA polymerase/reverse transcriptase inhibitor" ([ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731), CC BY-SA 3.0; hentet 2026-11-19). Ud fra den kendte farmakologi er telbivudin en thymidin-nukleosidanalog, der selektivt hæmmer HBV-DNA-polymerasen (revers transkriptase).
 
 HCV er en RNA-virus, som replikerer via NS5B RNA-afhængig RNA-polymerase og behandles med direkte virkende antivirale midler. Der er derfor ikke noget etableret mekanistisk grundlag for aktivitet af telbivudin mod HCV.
 
@@ -128,6 +128,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden mekan
 ---
 
 *Bemærk: De øvrige forudsigelser (bl.a. HIV, hepatitis C, fenylalanin- og tyrosinstofskiftesygdomme) er alle L4-L5 og understøttes ikke af data.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

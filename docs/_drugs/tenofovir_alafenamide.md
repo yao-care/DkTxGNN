@@ -60,7 +60,7 @@ Forudsigelsen støttes af **8 publikationer** (udelukkende prækliniske studier 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Tenofovir alafenamid er dog kendt som en prodrug af tenofovir og en nukleotid-revers transkriptasehæmmer. Dets aktive metabolit, tenofovirdiphosphat, afbryder forlængelsen af viral DNA-kæde.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tenofovir Alafenamide (uofficiel oversættelse): »Tenofoviralafenamid er et antiviralt lægemiddel mod hepatitis B-virus. […] Tenofoviralafenamid er et phosphonamidat-prodrug af tenofovir (2'-deoxyadenosinmonophosphat-analog). Tenofoviralafenamid, som er en lipofil, cellepermeabel forbindelse, optages i primære hepatocytter ved passiv diffusion og via de hepatiske optagelsestransportører OATP1B1 og OATP1B3.« Engelsk originaltekst: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), version af 2025-07-14; hentet 2026-11-19). Tenofovir alafenamid er dog kendt som en prodrug af tenofovir og en nukleotid-revers transkriptasehæmmer. Dets aktive metabolit, tenofovirdiphosphat, afbryder forlængelsen af viral DNA-kæde.
 
 SIV og SHIV er lentivira, der er tæt beslægtet med HIV-1, og de anvender samme revers transkriptase som mål. Mekanismen er derfor direkte overførbar. De otte publikationer er prækliniske studier i makakaber og humaniserede mus samt lægemiddelafgivelsesstudier, og de viser effekt som præ- og postekspositionsprofylakse i dyremodeller.
 
@@ -131,11 +131,12 @@ Evidensen består udelukkende af prækliniske dyrestudier (L4), og SIV er en syg
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland ” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Fluconazol er dog et kendt triazol-svampemiddel, som hæmmer svampens enzym CYP51 (lanosterol 14-alfa-demethylase) og dermed blokerer syntesen af ergosterol, en vigtig bestanddel af svampens cellemembran.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fluconazole (uofficiel oversættelse): »Fluconazol er en meget selektiv hæmmer af svampens cytokrom P450-afhængige enzym lanosterol-14-α-demethylase. Dette enzym omdanner lanosterol til ergosterol. Det efterfølgende tab af normale steroler korrelerer med ophobning af 14-α-methylsteroler i svampe og kan være årsag til fluconazols fungistatiske aktivitet.« Engelsk originaltekst: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), version af 2026-04-02; hentet 2026-11-19). Fluconazol er dog et kendt triazol-svampemiddel, som hæmmer svampens enzym CYP51 (lanosterol 14-alfa-demethylase) og dermed blokerer syntesen af ergosterol, en vigtig bestanddel af svampens cellemembran.
 
 Den mekanisme er kun relevant, hvis øjenbetændelsen har en svampeårsag. Punktformet epitelial keratokonjunktivitis er typisk forårsaget af virus (især adenovirus), er immunmedieret eller hænger sammen med tørre øjne eller toksisk påvirkning. En plausibel antimykotisk virkning er derfor ikke påvist.
 
@@ -110,6 +110,19 @@ Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5), uden k
 - Systematisk litteratur- og forsøgssøgning efter fluconazol ved keratokonjunktivitis, herunder svampeætiologi
 - Vurdering af administrationsvej og lægemiddelform (oral kapsel vs. lokal øjenbehandling), som endnu ikke er afklaret
 - Prækliniske eller mekanistiske data, der understøtter en terapeutisk sammenhæng
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

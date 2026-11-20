@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** af
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er sammenstillet til denne rapport. Koffein er dog kendt som en adenosinreceptorantagonist og fosfodiesterasehæmmer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Caffeine (uofficiel oversættelse): »Koffein er strukturelt beslægtet med andre methylxanthiner, theophyllin og theobromin. Det er et afslappende middel for bronkiernes glatte muskulatur, et CNS-stimulans, et stimulans for hjertemusklen og et diuretikum. Selvom virkningsmekanismen for koffein ved apnø hos præmature ikke kendes, er der fremsat hypoteser om flere mekanismer.« Engelsk originaltekst: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), version af 2026-07-29; hentet 2026-11-19). Koffein er dog kendt som en adenosinreceptorantagonist og fosfodiesterasehæmmer.
 
 Bittersmagsreceptorer (TAS2R) findes i humant luftvejsepitel og aktiveres bl.a. af koffein. De kan påvirke cilieslag og det medfødte forsvar, hvilket giver en tænkelig, men ubevist forbindelse til sygdomme i næsen. Koffein indgår desuden i kombinationspræparater med indikationer som allergisk og vasomotorisk rhinitis, men evidensen for dette er tynd.
 
@@ -132,6 +132,19 @@ Forudsigelsen om næsehulesygdom er baseret på en høj modelscore, men underst�
 ---
 
 *Bemærk: Andre forudsagte indikationer (f.eks. hypnic headache og trigeminal autonom cephalalgi, begge evidensniveau L3–L4) ligger tættere på koffeins kendte brug og kan være mere oplagte at undersøge nærmere.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

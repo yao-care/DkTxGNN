@@ -61,7 +61,7 @@ Bemærk, at type 1-diabetes reelt er en kerneindikation for lægemidlet, så der
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra den kendte farmakologi er insulin glulisin et hurtigtvirkende humant insulinanalog, der binder til insulinreceptoren og sænker blodsukkeret. Det har hurtigere indtræden og kortere varighed end almindeligt humant insulin og bruges som måltidsinsulin.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Insulin Glulisine (uofficiel oversættelse): »Regulering af glucosemetabolismen er den primære aktivitet for insuliner og insulinanaloger, herunder insulin glulisin. Insuliner sænker blodglucose ved at stimulere perifer glucoseoptagelse i skeletmuskulatur og fedtvæv og ved at hæmme leverens glucoseproduktion.« Engelsk originaltekst: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), version af 2025-11-25; hentet 2026-11-19). Ud fra den kendte farmakologi er insulin glulisin et hurtigtvirkende humant insulinanalog, der binder til insulinreceptoren og sænker blodsukkeret. Det har hurtigere indtræden og kortere varighed end almindeligt humant insulin og bruges som måltidsinsulin.
 
 Type 1-diabetes er kendetegnet ved absolut insulinmangel, og insulinerstatning er hjørnestenen i behandlingen. Den meget høje score fra TxGNN er derfor i overensstemmelse med lægemidlets kendte farmakologi og godkendte anvendelse. Der er som nævnt ikke tale om en ny anvendelse, men en bekræftelse af en eksisterende.
 
@@ -139,6 +139,19 @@ Flere afsluttede fase 3-forsøg (bl.a. NCT00115570, NCT00290979 og NCT00467376) 
 - Plan for overvågning af hypoglykæmi og håndtering af interaktioner med andre lægemidler
 - Retningslinjer for rotation af injektionssteder for at forebygge lipodystrofi
 - Hvis de øvrige forudsagte indikationer (f.eks. pancreasagenesi) skal vurderes, kræves specifik klinisk evidens, da der for dem i dag kun foreligger modelforudsigelser
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ Der er dog **ingen undersøgelser specifikt i Hodgkins lymfom**: de 10 identific
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra litteraturen hæmmer duvelisib både PI3K-delta og PI3K-gamma. PI3K-delta understøtter B-cellereceptorsignalering og overlevelse af maligne B-celler, mens PI3K-gamma bidrager til tumormikromiljøet og T-celle-/myeloid støtte.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Duvelisib (uofficiel oversættelse): »Duvelisib er en hæmmer af PI3K med hæmmende aktivitet overvejende rettet mod PI3K-δ- og PI3K-γ-isoformerne, der udtrykkes i normale og maligne B-celler. Duvelisib inducerede væksthæmning og nedsatte levedygtigheden i cellelinjer afledt af maligne B-celler og i primære CLL-tumorceller.« Engelsk originaltekst: "Duvelisib is an inhibitor of PI3K with inhibitory activity predominantly against PI3K-δ and PI3K-γ isoforms expressed in normal and malignant B-cells. Duvelisib induced growth inhibition and reduced viability in cell lines derived from malignant B-cells and in primary CLL tumor cells." ([DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780), version af 2025-12-18; hentet 2026-11-19). Ud fra litteraturen hæmmer duvelisib både PI3K-delta og PI3K-gamma. PI3K-delta understøtter B-cellereceptorsignalering og overlevelse af maligne B-celler, mens PI3K-gamma bidrager til tumormikromiljøet og T-celle-/myeloid støtte.
 
 Hodgkins lymfom er ligesom de lymfoide kræftformer, hvor duvelisib allerede er godkendt, afhængigt af PI3K/AKT-signalvejen, hvilket gør forudsigelsen biologisk plausibel. En præklinisk undersøgelse af Epstein-Barr-virus-associerede lymfomer (PMID 29522278), som omfatter en del Hodgkin-tilfælde, peger i samme retning.
 
@@ -151,6 +151,19 @@ Selvom TxGNN-scoren er høj (0,9994), findes der ingen forsøg eller publikation
 - Data om virkningsmekanisme (MOA) og PI3K-afhængighed i Hodgkin-tumorer og deres mikromiljø
 - Sikkerhedsoplysninger (advarsler og kontraindikationer) fra det danske produktresumé
 - Om muligt et eksplorativt kliniktforsøg i recidiverende/refraktært Hodgkins lymfom med klare sikkerhedsregler (infektionsprofylakse, monitorering af colitis, pneumonitis og hudreaktioner)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Copiktra (duvelisib) prescribing information, Secura Bio, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3c5ac56-e1f6-473a-bc73-687836534780) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

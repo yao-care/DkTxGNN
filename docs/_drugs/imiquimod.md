@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **præmaligne neop
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden er imiquimod en agonist af Toll-like receptor 7 (TLR7). Den aktiverer lokalt det medfødte og det adaptive immunforsvar (bl.a. interferon-alfa, TNF-alfa og IL-12) og fremmer dermed fjernelse af dysplastisk epitel. Denne forklaring bygger på almen viden og ikke på de leverede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Imiquimod (uofficiel oversættelse): »Virkningsmekanismen for ZYCLARA ved behandling af AK og EGW er ukendt.« Engelsk originaltekst: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), version af 2025-05-23; hentet 2026-11-19). Ud fra almen farmakologisk viden er imiquimod en agonist af Toll-like receptor 7 (TLR7). Den aktiverer lokalt det medfødte og det adaptive immunforsvar (bl.a. interferon-alfa, TNF-alfa og IL-12) og fremmer dermed fjernelse af dysplastisk epitel. Denne forklaring bygger på almen viden og ikke på de leverede data.
 
 Mange præmaligne læsioner, fx aktinisk keratose samt cervikale, vulvære og anale intraepitelialle neoplasier, er HPV-relaterede eller er hudlæsioner med dysplastisk epitel. Det gør en immunmedieret mekanisme biologisk plausibel. Det er dog en antagelse og ikke et bevis.
 
@@ -142,11 +142,12 @@ Den forudsagte diagnose er bred, og ingen citerede studier belyser "præmalign n
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

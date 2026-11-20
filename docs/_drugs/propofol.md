@@ -58,7 +58,7 @@ Propofol er et intravenøst narkosemiddel, der anvendes til bedøvelse og sedati
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om propofols virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra den kendte farmakologi er propofol en positiv allosterisk modulator af GABA-A-receptoren. Den øgede GABA-erge hæmning kan dæmpe smertesignaler i det trigeminovaskulære system og den kortikale hyperexcitabilitet, som man mener spiller en rolle ved migræne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Propofol (uofficiel oversættelse): »Virkningsmekanismen er, som for alle generelle anæstetika, dårligt forstået. Propofol menes dog at frembringe sine sederende/anæstetiske virkninger ved positiv modulering af den hæmmende funktion af neurotransmitteren GABA via de ligandstyrede GABA A -receptorer.« Engelsk originaltekst: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), version af 2025-09-11; hentet 2026-11-19). Ud fra den kendte farmakologi er propofol en positiv allosterisk modulator af GABA-A-receptoren. Den øgede GABA-erge hæmning kan dæmpe smertesignaler i det trigeminovaskulære system og den kortikale hyperexcitabilitet, som man mener spiller en rolle ved migræne.
 
 Prækliniske data peger i samme retning: et derivat, propofolhemisuccinat, hæmmer kortikal spreading depression, som er den neurofysiologiske forklaring på migrænens aura (PMID 22390898). Det giver en plausibel mekanisme for en afkortende (abortiv) effekt ved refraktær migræne.
 
@@ -139,6 +139,19 @@ Der foreligger et afsluttet fase 2/3-forsøg, flere RCT'er og systematiske revie
 - Større, veldesignede fase 3-forsøg med fastlagte dosis- og overvågningsprotokoller
 - Vurdering af administrationsvej og setting (akutafdeling med monitorering) og tilgængelighed i Danmark
 - Særlig sikkerhedsvurdering hos patienter med hypotension, respirationsproblemer, epilepsi og koronar vasospasme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

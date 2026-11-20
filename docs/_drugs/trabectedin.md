@@ -60,7 +60,7 @@ og i dag understøttes retningen af **1 klinisk forsøg** (med svag relevans) og
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den publicerede litteratur binder trabectedin sig til DNA's lille rille og udløser DNA-dobbeltstrengsbrud via transkriptionskoblet nukleotid-excisionsreparation. Stoffet er især aktivt i celler med mangelfuld homolog rekombination, f.eks. BRCA1/2-deficiente tumorer. Desuden påvirker det tumormikromiljøet ved at reducere tumorassocierede makrofager.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Trabectedin (uofficiel oversættelse): »Trabectedin er et alkylerende lægemiddel, der binder til guaninrester i den lille fure i DNA, danner addukter og resulterer i en bøjning af DNA-helixen mod den store fure. Adduktdannelsen udløser en kaskade af hændelser, der kan påvirke den efterfølgende aktivitet af DNA-bindende proteiner, herunder visse transkriptionsfaktorer, og DNA-reparationsveje, hvilket resulterer i forstyrrelse af cellecyklus og i sidste ende celledød.« Engelsk originaltekst: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), version af 2026-06-29; hentet 2026-11-19). Ud fra den publicerede litteratur binder trabectedin sig til DNA's lille rille og udløser DNA-dobbeltstrengsbrud via transkriptionskoblet nukleotid-excisionsreparation. Stoffet er især aktivt i celler med mangelfuld homolog rekombination, f.eks. BRCA1/2-deficiente tumorer. Desuden påvirker det tumormikromiljøet ved at reducere tumorassocierede makrofager.
 
 Ovariecancer og brystcancer deler biologiske træk, bl.a. forekomsten af BRCA-relaterede reparationsdefekter. Mekanismen kan derfor være relevant for BRCA-deficient og triple-negativ brystcancer. Et prækliniske studie (PMID 39777457) tyder på, at trabectedin kan forstærke effekten af IL-12 ved triple-negativ brystcancer.
 
@@ -140,6 +140,19 @@ Den kliniske støtte består af tidlige fase 2-studier med enkeltstof og et enke
 ---
 
 *Øvrige forudsigelser (ovarie-choriocarcinom, gonadal kønscelletumor, ovarieprimitiv kønscelletumor, ovarie-malign mesoteliom) har evidensniveau L4-L5 uden kliniske data og anbefales sat på Hold.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -56,7 +56,7 @@ Der er ingen registrerede kliniske forsøg i de indsamlede data, men **20 publik
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Prednisolon er et glukokortikoid, og dets effekt ved autoimmune og inflammatoriske sygdomme er veldokumenteret. Mekanistisk kan det derfor være relevant ved alopecia areata.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Prednisolone (uofficiel oversættelse): »Prednisolon er et syntetisk binyrebarksteroid med overvejende glukokortikoide egenskaber. Nogle af disse egenskaber gengiver de fysiologiske virkninger af endogene glukokortikosteroider, men andre afspejler ikke nødvendigvis nogen af binyrehormonernes normale funktioner; de ses kun efter administration af store terapeutiske doser af lægemidlet.« Engelsk originaltekst: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), version af 2025-06-03; hentet 2026-11-19). Prednisolon er et glukokortikoid, og dets effekt ved autoimmune og inflammatoriske sygdomme er veldokumenteret. Mekanistisk kan det derfor være relevant ved alopecia areata.
 
 Alopecia areata er en T-celle-medieret autoimmun sygdom, hvor immunsystemet angriber hårfolliklerne, og follikelens immunprivilegium bryder sammen. Glukokortikoider hæmmer T-celleaktivering og produktionen af pro-inflammatoriske cytokiner og rammer dermed direkte sygdommens patogenese. En af de inkluderede studier peger desuden på, at orale pulssteroider ændrer serum- og vævsniveauer af TNF-α, som spiller en central rolle i sygdommen (PMID 30294905).
 
@@ -129,11 +129,12 @@ Prednisolons immunsuppressive mekanisme passer godt til alopecia areatas patogen
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "(de fundne tilladelser er veterinære)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt på **migræne** (score 0,9967
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Tapentadol er generelt kendt som både en agonist på mu-opioidreceptoren og en hæmmer af noradrenalingenoptag. Den noradrenerge komponent giver kun et spekulativt link til central smertemodulering ved migræne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tapentadol (uofficiel oversættelse): »Tapentadol er et centralt virkende syntetisk analgetikum. Den nøjagtige virkningsmekanisme er ukendt. Selvom den kliniske relevans er uklar, har prækliniske studier vist, at tapentadol er en mu-opioidreceptor (MOR)-agonist og en noradrenalingenoptagshæmmer (NRI).« Engelsk originaltekst: "Tapentadol is a centrally-acting synthetic analgesic. The exact mechanism of action is unknown. Although the clinical relevance is unclear, preclinical studies have shown that tapentadol is a mu-opioid receptor (MOR) agonist and a norepinephrine reuptake inhibitor (NRI)." ([DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d), version af 2025-12-30; hentet 2026-11-19). Tapentadol er generelt kendt som både en agonist på mu-opioidreceptoren og en hæmmer af noradrenalingenoptag. Den noradrenerge komponent giver kun et spekulativt link til central smertemodulering ved migræne.
 
 TxGNN-scoren er meget høj, men den kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Opioider anbefales generelt ikke til migræne på grund af begrænset effekt, risiko for medicinoverforbrugshovedpine (medication-overuse headache), risiko for kronificering samt afhængighed.
 
@@ -113,6 +113,19 @@ Forudsigelsen bygger udelukkende på en beregningsmodel (L5) uden kliniske fors�
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Prækliniske eller kliniske data, der direkte undersøger tapentadol ved migræne
 - Vurdering af, om fordelene kan opveje risikoen sammenlignet med etablerede migrænebehandlinger
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

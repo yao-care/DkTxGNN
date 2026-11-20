@@ -56,7 +56,7 @@ og i de indsamlede data indgår **6 kliniske forsøg** (heraf 1 afsluttet fase 3
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden hæmmer bupropion genoptagelsen af noradrenalin og dopamin. Det er de samme katekolaminerge signalveje, som er målet for etablerede ADHD-behandlinger, f.eks. methylphenidat og atomoxetin.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bupropion (uofficiel oversættelse): »Den nøjagtige mekanisme, hvorved bupropionhydrochlorid depottabletter (SR) forbedrer patienters evne til at afholde sig fra rygning, kendes ikke, men formodes at være relateret til noradrenerge og/eller dopaminerge mekanismer. Bupropion er en relativt svag hæmmer af den neuronale genoptagelse af noradrenalin og dopamin og hæmmer ikke genoptagelsen af serotonin.« Engelsk originaltekst: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), version af 2026-11-11; hentet 2026-11-19). Ud fra almen farmakologisk viden hæmmer bupropion genoptagelsen af noradrenalin og dopamin. Det er de samme katekolaminerge signalveje, som er målet for etablerede ADHD-behandlinger, f.eks. methylphenidat og atomoxetin.
 
 Dette udgør et plausibelt farmakologisk grundlag for effekt ved ADHD. Forudsigelsen understøttes desuden af, at flere forsøg har undersøgt bupropion ved ADHD, bl.a. hos voksne og unge med samtidig misbrug. Mekanismen er dog ikke bekræftet i de leverede data, og de nærmere sammenhænge bør vurderes mod produktresuméet og den kliniske litteratur.
 
@@ -100,6 +100,19 @@ Der foreligger et afsluttet, placebokontrolleret fase 3-forsøg direkte ved ADHD
 - Indhentning af advarsler og kontraindikationer fra produktresuméet (SmPC)
 - Detaljerede data om virkningsmekanismen
 - Vurdering af interaktionsrisici ved samtidig medicinering samt sikkerhed hos udvalgte patientgrupper
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

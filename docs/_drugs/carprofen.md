@@ -54,7 +54,7 @@ Carprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID), der hæmmer
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi hæmmer carprofen COX-enzymerne (bl.a. COX-2) og dermed prostaglandin-medieret inflammation og smerte. Det er direkte relevant for symptomlindring ved leddegigt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Carprofen (uofficiel oversættelse): »Cyclooxygenase-2-hæmmer« Engelsk originaltekst: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316), CC BY-SA 3.0; hentet 2026-11-19). Ud fra kendt farmakologi hæmmer carprofen COX-enzymerne (bl.a. COX-2) og dermed prostaglandin-medieret inflammation og smerte. Det er direkte relevant for symptomlindring ved leddegigt.
 
 Det er vigtigt at understrege, at evidensen gælder symptomer (smerte og ledbetændelse), ikke sygdomsmodificerende effekt. Studier af synovialvæske viser desuden, at carprofen bliver til stede i leddet, og at det nedsætter prostaglandinniveauer, hvilket understøtter den biologiske plausibilitet.
 
@@ -98,6 +98,18 @@ Der foreligger randomiserede, dobbeltblindede sammenligninger med indometacin ve
 - Data om virkningsmekanisme og produktresumé med advarsler og kontraindikationer
 - Moderne, tilstrækkeligt store kontrollerede forsøg sammenlignet med nuværende standardbehandling
 - Vurdering af en human formulering og af kardiovaskulær, gastrointestinal og renal sikkerhed samt fotosensibilitet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1316 (carprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1316) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

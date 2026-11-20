@@ -58,7 +58,7 @@ Ceritinib er en ALK-hæmmer (tyrosinkinasehæmmer), som oprindeligt anvendes til
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ceritinib er kendt som ALK-hæmmer, og dets relation til ikke-småcellet lungekræft er registreret i vidensgrafen. Der er imidlertid ikke identificeret nogen mekanistisk forbindelse mellem ALK-hæmning og gingival fibromatose.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ceritinib (uofficiel oversættelse): »Ceritinib er en kinasehæmmer. Mål for ceritinibs hæmning, identificeret i enten biokemiske eller cellulære assays ved klinisk relevante koncentrationer, omfatter ALK, insulinlignende vækstfaktor 1-receptor (IGF-1R), insulinreceptor (InsR) og ROS1.« Engelsk originaltekst: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), version af 2026-10-28; hentet 2026-11-19). Ceritinib er kendt som ALK-hæmmer, og dets relation til ikke-småcellet lungekræft er registreret i vidensgrafen. Der er imidlertid ikke identificeret nogen mekanistisk forbindelse mellem ALK-hæmning og gingival fibromatose.
 
 Den høje score (0,9986) er udelukkende en modelforudsigelse og understøttes ikke af forsøg eller litteratur. Gingival fibromatose er en ikke-malign tilstand med bindevævsovervækst i tandkødet og adskiller sig biologisk fra ALK-drevet lungekræft. Forudsigelsen bør derfor betragtes som et hypotesegenererende signal og ikke som et grundlag for klinisk anvendelse.
 
@@ -120,6 +120,19 @@ Forudsigelsen bygger kun på en modelscore uden kliniske forsøg, publikationer 
 - Præklinisk evidens eller litteratur, der direkte omhandler sygdommen
 - Oplysninger om advarsler og kontraindikationer fra det danske produktresumé (SmPC)
 - Vurdering af risk/benefit, da en kræftmedicin med betydelige bivirkninger skal afvejes mod en benign tilstand
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Nimodipin er en calciumkanalblokker, der oprindeligt anvendes til behandling af 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Nimodipin er en dihydropyridin og en blokker af L-type calciumkanaler. Detaljerede data om virkningsmekanisme var ikke tilgængelige i de data, der er indsamlet til denne rapport. Den kendte lægemiddelklasse er derfor lagt til grund.
+Nimodipin er en dihydropyridin og en blokker af L-type calciumkanaler. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nimodipine (uofficiel oversættelse): »Nimodipin er en calciumkanalblokker af dihydropyridintypen. Glatte muskelcellers kontraktile processer er afhængige af calciumioner, som trænger ind i disse celler under depolarisering som langsomme transmembrane ionstrømme.« Engelsk originaltekst: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), version af 2024-08-30; hentet 2026-11-19). Den kendte lægemiddelklasse er derfor lagt til grund.
 
 Homozygot familiær hyperkolesterolæmi skyldes hovedsageligt funktionstabsmutationer i LDLR (sjældnere APOB, PCSK9 eller LDLRAP1), som hæmmer udskillelsen af LDL fra blodet. Calciumkanalblokade adresserer ikke denne defekt. Nogle dihydropyridiner er i prækliniske studier beskrevet med beskedne effekter på vaskulær lipidhåndtering eller aterosklerose, men det er spekulativt og understøttes ikke af nogen data i dette materiale.
 
@@ -100,6 +100,19 @@ Forudsigelsen er udelukkende modelbaseret (L5), uden kliniske forsøg eller litt
 ## Supplerende bemærkning: Forudsagt indikation nr. 2
 
 TxGNN forudsiger også **nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD)** (score 0,9905, evidensniveau L5, anbefaling: Hold). Sygdommen skyldes aktiverende varianter i AVPR2 med konstitutiv V2-receptoraktivitet. En teoretisk forbindelse via calciumsignalering og aquaporin-2-transport findes, men er spekulativ og uden støtte i forsøg eller litteratur. Nimodipins blodtrykssænkende effekt er desuden en sikkerhedsbekymring hos patienter med væske- og elektrolytforstyrrelser.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

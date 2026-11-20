@@ -60,7 +60,7 @@ Evidensen er begrænset: **3 kliniske forsøg** (alle tidlige faser eller kun in
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra kendt viden er topotecan en topoisomerase I-hæmmer, der giver DNA-skader i hurtigt delende tumorceller. Dets effekt ved ovariecancer er veldokumenteret, og mekanismen er i princippet ikke begrænset til én tumortype.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Topotecan (uofficiel oversættelse): »Topoisomerase I afhjælper torsionsspænding i DNA ved at inducere reversible enkeltstrengsbrud. Topotecan binder til topoisomerase I-DNA-komplekset og forhindrer genligering af disse enkeltstrengsbrud. Topotecans cytotoksicitet menes at skyldes dobbeltstrengede DNA-skader, der opstår under DNA-syntesen, når replikationsenzymer interagerer med det ternære kompleks dannet af topotecan, topoisomerase I og DNA.« Engelsk originaltekst: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), version af 2023-09-18; hentet 2026-11-19). Ud fra kendt viden er topotecan en topoisomerase I-hæmmer, der giver DNA-skader i hurtigt delende tumorceller. Dets effekt ved ovariecancer er veldokumenteret, og mekanismen er i princippet ikke begrænset til én tumortype.
 
 Et præklinisk studie (PMID 37987734) tyder på, at hæmning af TOP1 medfører ophobning af R-loops og syntetisk letalitet i MYC-drevne kræftformer. Det kan være relevant for MYC-amplificerede brystkræftformer, f.eks. triple-negativ sygdom. Topotecan er desuden substrat for BCRP/ABCG2-effluxtransportøren, hvilket kan give resistens.
 
@@ -137,6 +137,19 @@ Der foreligger ingen afsluttede fase 2/3-forsøg med topotecan ved brystkræft. 
 - Målrettede kliniske data for topotecan ved brystkræft, især MYC-drevne/triple-negative undertyper
 - Vurdering af, om den orale kapselformulering (Hycamtin) er hensigtsmæssig for den nye indikation
 - Plan for overvågning af myelosuppression og håndtering af interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Carvedilol er en betablokker, som er registreret på det danske marked. TxGNN-mo
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Carvedilol er kendt som en ikke-selektiv betablokker med supplerende alfa-1-adrenerg blokade og antioxidativ aktivitet, og stoffet anvendes ved hypertension og hjertesygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Carvedilol (uofficiel oversættelse): »COREG er en racemisk blanding, hvor nonselektiv β-adrenoceptorblokerende aktivitet findes i S(-)-enantiomeren, og α1-adrenerg blokerende aktivitet findes i både R(+)- og S(-)-enantiomeren med samme styrke. COREG har ingen intrinsisk sympatomimetisk aktivitet.« Engelsk originaltekst: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), version af 2026-07-31; hentet 2026-11-19). Carvedilol er kendt som en ikke-selektiv betablokker med supplerende alfa-1-adrenerg blokade og antioxidativ aktivitet, og stoffet anvendes ved hypertension og hjertesygdom.
 
 Malign hypertensiv nyresygdom ligger inden for hypertensionsspektret, og blodtrykssænkning samt mulige nyrebeskyttende effekter er begrebsmæssigt relevante. Det er dog en akut tilstand med høj risiko, hvor behandlingen typisk kræver hurtig og kontrolleret blodtrykssænkning. Der er ingen data, der viser, at carvedilol er egnet i denne situation. Forudsigelsen er derfor kun et hypotesegenererende signal.
 
@@ -91,6 +91,19 @@ Forudsigelsen er kun baseret på modellen (evidensniveau L5), uden kliniske fors
 - Data om virkningsmekanisme og nyrebeskyttende effekt i denne tilstand
 - Gennemgang af produktresuméets advarsler og kontraindikationer (sikkerhedsscreening kan ikke gennemføres uden)
 - Vurdering af, om den orale tabletform er egnet til en akut tilstand, hvor hurtig, kontrolleret blodtrykssænkning kan være nødvendig
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

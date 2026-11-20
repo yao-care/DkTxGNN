@@ -57,7 +57,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **reumatoid artrit
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om mesalazins detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Mesalazin er den aktive del af sulfasalazin og antages at virke antiinflammatorisk via hæmning af prostaglandin- og leukotrienveje, NF-κB-modulation og PPAR-gamma-aktivering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mesalazine (uofficiel oversættelse): »Virkningsmekanismen for mesalazin er ikke fuldt klarlagt, men det synes at have en topisk antiinflammatorisk virkning på kolons epitelceller. Slimhindens produktion af arachidonsyremetabolitter, både via cyclooxygenase- og lipoxygenasevejene, er øget hos patienter med colitis ulcerosa, og det er muligt, at mesalazin mindsker inflammationen ved at blokere cyclooxygenase og hæmme prostaglandinproduktionen i kolon.« Engelsk originaltekst: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), version af 2026-10-26; hentet 2026-11-19). Mesalazin er den aktive del af sulfasalazin og antages at virke antiinflammatorisk via hæmning af prostaglandin- og leukotrienveje, NF-κB-modulation og PPAR-gamma-aktivering.
 
 Sulfasalazin er et etableret sygdomsmodificerende antireumatisk lægemiddel (DMARD) ved reumatoid artritis. Det spaltes af tarmbakterier til sulfapyridin og mesalazin. Den antireumatiske effekt tilskrives dog hovedsageligt sulfapyridin-delen og ikke mesalazin, så den direkte mekanistiske kobling er svag. Fælles inflammatoriske signalveje og den hyppige forekomst af ledmanifestationer ved inflammatorisk tarmsygdom giver en vis indirekte begrundelse, men den er spekulativ.
 
@@ -109,6 +109,19 @@ Der findes ingen kliniske forsøg, og litteraturen består af indirekte evidens 
 - Den godkendte indikationstekst for Asacol i Danmark
 - Prækliniske eller eksplorative kliniske studier, der direkte undersøger mesalazin ved reumatoid artritis, herunder afklaring af 5-ASA's bidrag sammenlignet med sulfapyridin
 - Vurdering af nyre- og overfølsomhedsrisici hos patienter med reumatoid artritis, som ofte samtidig får NSAID eller andre interagerende lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

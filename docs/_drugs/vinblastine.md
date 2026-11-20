@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **7 publikationer** (p
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Vinblastin tilhører dog vinca-alkaloiderne, som er kendt for at binde tubulin og hæmme mikrotubulipolymerisering, hvilket giver mitotisk standsning i hurtigt delende celler. Denne mekanisme er veldokumenteret for klassen, men er ikke bekræftet i dataene for netop dette lægemiddel.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Vinblastine (uofficiel oversættelse): »Andre undersøgelser viser, at vinblastinsulfat påvirker den cellulære energiproduktion, der er nødvendig for mitose, og interfererer med nukleinsyresyntesen. Virkningsmekanismen for vinblastin er blevet sat i forbindelse med hæmning af mikrotubulidannelsen i den mitotiske tentråd, hvilket medfører, at celler i deling standses i metafasestadiet.« Engelsk originaltekst: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), version af 2025-04-15; hentet 2026-11-19). Vinblastin tilhører dog vinca-alkaloiderne, som er kendt for at binde tubulin og hæmme mikrotubulipolymerisering, hvilket giver mitotisk standsning i hurtigt delende celler. Denne mekanisme er veldokumenteret for klassen, men er ikke bekræftet i dataene for netop dette lægemiddel.
 
 Lymfomer og rhabdomyosarkom er begge hurtigt prolifererende maligniteter, og en antimitotisk mekanisme kan derfor tænkes at være relevant. Vinca-alkaloider (især vincristin) indgår allerede i standardregimer for rhabdomyosarkom. Vinblastin ses i metronomiske regimer og salvage-kombinationer, og prækliniske studier peger på syntetisk letalitet mellem mikrotubuli-destabiliserende stoffer og PLK1-hæmning i rhabdomyosarkommodeller.
 
@@ -140,6 +140,19 @@ Forudsigelsen er mekanistisk plausibel, men understøttes kun af case-rapporter,
 ---
 
 **Bemærkning om andre forudsigelser:** Øvrige forudsagte indikationer (bl.a. monocytær leukæmi, neuroblastom, prostata-rhabdomyosarkom, leversarkom og ganglioneuroblastom) har enten kun modelforudsigelse (L5) eller svag historisk/præklinisk evidens (L3–L4) og anbefales ligeledes ikke fremmet på nuværende grundlag.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

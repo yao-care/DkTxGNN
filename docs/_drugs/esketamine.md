@@ -58,7 +58,7 @@ Esketamin var oprindeligt knyttet til behandling af angstlidelse, neurotisk lide
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om esketamins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er derfor ikke muligt at verificere en mekanisme ud fra disse data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Esketamine (uofficiel oversættelse): »Esketamin, S-enantiomeren af racemisk ketamin, er en ikke-selektiv, ikke-kompetitiv antagonist af N -methyl- D -aspartat (NMDA)-receptoren, en ionotrop glutamatreceptor. Mekanismen, hvorved esketamin udøver sin antidepressive virkning, er ukendt.« Engelsk originaltekst: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), version af 2026-09-22; hentet 2026-11-19). Det er derfor ikke muligt at verificere en mekanisme ud fra disse data.
 
 Agorafobi er en angstlidelse, og esketamins oprindelige indikationer omfatter angstlidelse. Det antyder et muligt fælles symptomområde, men det er kun en sygdomskategori-association og ikke evidens for effekt.
 
@@ -115,6 +115,19 @@ Forudsigelsen understøttes kun af en høj modelscore (evidensniveau L5), uden k
 ## Bemærkning om den andenrangerede forudsigelse
 
 Den næste forudsigelse, **benign paroxysmal torticollis hos spædbørn** (score 0.9949), har heller ingen kliniske forsøg eller litteratur (evidensniveau L5, anbefaling: Hold). Der er ingen klar mekanistisk sammenhæng med esketamins psykiatriske indikationer hos voksne, og scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Esketamin er ikke etableret til pædiatrisk brug, tilstanden går over af sig selv, og risk-benefit-forholdet er derfor ugunstigt.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

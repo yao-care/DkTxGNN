@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **migræne** (r
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om lacosamids virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den kendte farmakologi forstærker lacosamid den langsomme inaktivering af spændingsstyrede natriumkanaler og påvirker proteinet CRMP2. Dette kan dæmpe neuronal overeksitabilitet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lacosamide (uofficiel oversættelse): »Den præcise mekanisme, hvorved Lacosamid oral opløsning udøver sin antiepileptiske virkning hos mennesker, mangler endnu at blive fuldt klarlagt. Elektrofysiologiske in vitro-studier har vist, at lacosamid selektivt forstærker langsom inaktivering af spændingsafhængige natriumkanaler, hvilket resulterer i stabilisering af hyperexcitable neuronale membraner og hæmning af repetitiv neuronal fyring.« Engelsk originaltekst: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), version af 2026-09-09; hentet 2026-11-19). Ud fra den kendte farmakologi forstærker lacosamid den langsomme inaktivering af spændingsstyrede natriumkanaler og påvirker proteinet CRMP2. Dette kan dæmpe neuronal overeksitabilitet.
 
 Migræne er forbundet med neuronal overeksitabilitet og kortikal spredende depolarisering. I en musemodel har lacosamid vist effekt på kortikal spredende depolarisering. Andre antiepileptika, f.eks. topiramat, anvendes allerede til migrænprofylakse. Det understøtter, at et natriumkanalaktivt antiepileptikum kan have effekt.
 
@@ -119,6 +119,19 @@ Migræne har den stærkeste evidens blandt de forudsagte indikationer: flere fas
 - Manisk bipolar lidelse (L3, forskningsspørgsmål): kun retrospektive og små observationelle studier samt et neutropenisignal.
 - Myofasciale smerter (L2, forskningsspørgsmål): ét afsluttet fase 2-forsøg (NCT00401830, fibromyalgi, n=159), men uden tilgængelige resultater.
 - Tourettes syndrom, trichotillomani, nefrogent syndrom med uhensigtsmæssig antidiurese, søvnløshed, obsessiv-kompulsiv lidelse og papillær konjunktivitis: ingen understøttende evidens (Hold). For Tourettes syndrom peger litteraturen på, at antiepileptika kan fremkalde tics, hvilket er et sikkerhedssignal.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

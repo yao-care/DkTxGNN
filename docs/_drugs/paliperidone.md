@@ -61,7 +61,7 @@ Blandt de øvrige forudsigelser er **behandlingsrefraktær skizofreni** den enes
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Paliperidon er kendt som en antagonist af dopamin D2- og serotonin 5-HT2A-receptorer, og denne mekanisme forklarer virkningen ved skizofreni.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Paliperidone (uofficiel oversættelse): »Paliperidon er den vigtigste aktive metabolit af risperidon. Virkningsmekanismen for paliperidon ved skizofreni er uklar. Lægemidlets terapeutiske virkning ved skizofreni kan dog medieres gennem en kombination af central antagonisme af dopamin type 2 (D 2 )- og serotonin type 2 (5HT 2A )-receptorer.« Engelsk originaltekst: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), version af 2025-01-31; hentet 2026-11-19). Paliperidon er kendt som en antagonist af dopamin D2- og serotonin 5-HT2A-receptorer, og denne mekanisme forklarer virkningen ved skizofreni.
 
 Der er ikke identificeret en plausibel mekanistisk sammenhæng mellem denne receptorfarmakologi og retinal dystrofi. Den meget høje score er en grafbaseret forudsigelse og afspejler sandsynligvis netværksartefakter for en sjælden genetisk sygdom, ikke en reel biologisk sammenhæng.
 
@@ -136,6 +136,19 @@ Topforslaget (retinal dystrofi) bygger udelukkende på en grafbaseret forudsigel
 - Produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen samt godkendte indikationstekster
 - Præklinisk eller mekanistisk understøttelse af en eventuel sammenhæng med retinal dystrofi, før kliniske tiltag overvejes
 - For behandlingsrefraktær skizofreni: direkte sammenlignende data for paliperidon mod clozapin og en afklaring af paliperidons rolle i de identificerede forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

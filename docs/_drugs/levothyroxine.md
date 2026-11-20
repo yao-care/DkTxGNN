@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **renal hypodyspla
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige. Levothyroxin er syntetisk skjoldbruskkirtelhormon, og i videnskabsgrafen er det knyttet til tilstande som hypothyreose, myxødem, struma, Hashimotos thyroiditis og skjoldbruskkirtelkræft.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Levothyroxine (uofficiel oversættelse): »Thyroideahormoner udøver deres fysiologiske virkninger gennem kontrol af DNA-transkription og proteinsyntese. Triiodthyronin (T3) og L-thyroxin (T4) diffunderer ind i cellekernen og bindes til thyroideareceptorproteiner, der er bundet til DNA.« Engelsk originaltekst: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), version af 2026-11-06; hentet 2026-11-19). Levothyroxin er syntetisk skjoldbruskkirtelhormon, og i videnskabsgrafen er det knyttet til tilstande som hypothyreose, myxødem, struma, Hashimotos thyroiditis og skjoldbruskkirtelkræft.
 
 Skjoldbruskkirtelhormon spiller generelt en rolle i nyrernes udvikling og modning. Det er dog ikke et bevis for, at levothyroxin kan behandle eller omvende strukturelle nyremisdannelser, som opstår under fosterlivet. Der er ingen direkte mekanistisk sammenhæng understøttet af de foreliggende data. Den høje score kan afspejle nærhed i netværket, f.eks. fælles tilknytning til medfødte eller udviklingsrelaterede sygdomme, snarere end en reel terapeutisk sammenhæng.
 
@@ -116,6 +116,19 @@ Forudsigelserne er alene modelbaserede (evidensniveau L5) uden kliniske forsøg 
 - Advarsler og kontraindikationer fra det godkendte produktresumé (SmPC) fra Lægemiddelstyrelsen
 - Præklinisk eller klinisk evidens, der direkte undersøger levothyroxin ved den forudsagte sygdom
 - For Carney-kompleks: en særskilt vurdering af, om brug ved skjoldbruskkirtelknuder er relevant
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

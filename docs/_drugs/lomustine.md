@@ -54,7 +54,7 @@ Lomustine er et alkylerende middel af nitrosourinstof-typen, som kan passere blo
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Lomustine er dog kendt som et lipofilt alkylerende middel af nitrosourinstof-typen, der krydser blod-hjerne-barrieren. Alkylerende stoffer er en grundsten i flere kemoterapiregimer mod lymfoide maligniteter, og lomustine indgår i kombinationsregimer, bl.a. mod primært lymfom i centralnervesystemet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lomustine (uofficiel oversættelse): »Lomustin alkylerer DNA og RNA. Ligesom andre nitrosourinstoffer kan det også hæmme flere vigtige enzymatiske processer ved carbamoylering af aminosyrer i proteiner.« Engelsk originaltekst: "Lomustine alkylates DNA and RNA. As with other nitrosoureas, it may also inhibit several key enzymatic processes by carbamoylation of amino acids in proteins." ([DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082), version af 2025-09-25; hentet 2026-11-19). Lomustine er dog kendt som et lipofilt alkylerende middel af nitrosourinstof-typen, der krydser blod-hjerne-barrieren. Alkylerende stoffer er en grundsten i flere kemoterapiregimer mod lymfoide maligniteter, og lomustine indgår i kombinationsregimer, bl.a. mod primært lymfom i centralnervesystemet.
 
 Lymfosarkom (non-Hodgkin-lymfom) deler kemofølsomhed over for alkylerende stoffer med de lymfoide sygdomme, hvor lomustine allerede er kendt. Det understøtter, at forudsigelsen er biologisk plausibel. Plausibiliteten bygger dog på mekanistisk ræsonnement og på forsøg med kombinationsregimer, ikke på direkte dokumentation for lomustine alene ved lymfosarkom.
 
@@ -130,6 +130,18 @@ Forudsigelsen er mekanistisk plausibel og scoren er meget høj (0,9990), men evi
 - Systematisk gennemgang af humane data for lomustine-holdige regimer ved non-Hodgkin-lymfom
 - Om muligt kontrollerede studier, der isolerer lomustines bidrag
 - Plan for blodtalsovervågning og håndtering af myelosuppression
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

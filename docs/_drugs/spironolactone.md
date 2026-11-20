@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og **ingen publikationer**, d
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi er spironolacton både en mineralokortikoidreceptorantagonist og en antiandrogen. Det anvendes off-label ved androgendrevet hårtab, f.eks. kvindeligt hårtab (female pattern hair loss).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Spironolactone (uofficiel oversættelse): »Spironolacton og dets aktive metabolitter er specifikke farmakologiske antagonister af aldosteron, som primært virker gennem kompetitiv binding af receptorer på det aldosteronafhængige natrium-kalium-udvekslingssted i den distale snoede nyretubulus. Spironolacton medfører, at øgede mængder natrium og vand udskilles, mens kalium tilbageholdes.« Engelsk originaltekst: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), version af 2025-11-28; hentet 2026-11-19). Ud fra almen farmakologi er spironolacton både en mineralokortikoidreceptorantagonist og en antiandrogen. Det anvendes off-label ved androgendrevet hårtab, f.eks. kvindeligt hårtab (female pattern hair loss).
 
 Hypotrichosis simplex i hovedbunden er derimod en sjælden arvelig, ikke-androgen hårtabslidelse, forbundet med gener som CDSN, APCDD1 og RPL21. En antiandrogen mekanisme har derfor ingen klar relevans. Sammenhængen er plausibel, men ikke bevist. Den høje score (0,9926) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -123,6 +123,19 @@ Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5) uden kl
 - Præklinisk eller mekanistisk evidens for en rolle af mineralokortikoid- eller androgenreceptorblokade i hypotrichosis simplex
 - Litteratursøgning og case-rapporter om spironolacton ved arvelige hårtabslidelser
 - Vurdering af lægemiddelform og administrationsvej (oral vs. topisk) for den nye indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

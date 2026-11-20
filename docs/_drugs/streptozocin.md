@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **recidiverende-re
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Streptozocin er kendt som et alkylerende nitrosourinstof-middel, der optages selektivt af celler med GLUT2-transportøren, f.eks. betaceller i bugspytkirtlen.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Streptozocin (uofficiel oversættelse): »DNA-hæmmer« Engelsk originaltekst: "DNA inhibitor" ([ChEMBL CHEMBL1977579 (streptozocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1977579), CC BY-SA 3.0; hentet 2026-11-19). Streptozocin er kendt som et alkylerende nitrosourinstof-middel, der optages selektivt af celler med GLUT2-transportøren, f.eks. betaceller i bugspytkirtlen.
 
 Man kunne teoretisk argumentere for en immunsuppressiv eller cytotoksisk effekt på lymfocytter, hvilket i princippet kunne være relevant ved en immunmedieret sygdom som multipel sklerose. Det er dog en spekulativ tankerække uden understøttende data.
 
@@ -157,11 +157,12 @@ Alle nedenstående er modelforudsigelser med score på 99,93–0,9997. Anbefalin
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldi” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1977579 (streptozocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1977579) |
 
 <!-- review:end log -->
 

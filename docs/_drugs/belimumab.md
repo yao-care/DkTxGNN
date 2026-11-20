@@ -56,7 +56,7 @@ Der er dog **0 kliniske forsøg** og **0 publikationer** i de indsamlede data, s
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i det sammenstillede datagrundlag. Belimumab er ud fra generel viden et antistof, der neutraliserer BLyS (BAFF), hvilket nedsætter B-cellers overlevelse og produktionen af autoantistoffer. Det er relevant ved autoimmune sygdomme som SLE.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Belimumab (uofficiel oversættelse): »BENLYSTA er en BLyS-specifik hæmmer, der blokerer bindingen af opløseligt BLyS, en overlevelsesfaktor for B-celler, til dets receptorer på B-celler. BENLYSTA binder ikke direkte til B-celler, men ved at binde BLyS hæmmer BENLYSTA overlevelsen af B-celler, herunder autoreaktive B-celler, og reducerer differentieringen af B-celler til immunglobulinproducerende plasmaceller.« Engelsk originaltekst: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), version af 2026-10-30; hentet 2026-11-19). Belimumab er ud fra generel viden et antistof, der neutraliserer BLyS (BAFF), hvilket nedsætter B-cellers overlevelse og produktionen af autoantistoffer. Det er relevant ved autoimmune sygdomme som SLE.
 
 Primære frigivelsesforstyrrelser af blodplader er typisk arvelige eller erhvervede kvalitative defekter i trombocytfunktionen og er ikke primært drevet af B-celler eller autoantistoffer. Der er derfor ikke identificeret en plausibel mekanistisk sammenhæng. Den høje score (0,9996) er alene en computerbaseret forudsigelse og understøttes ikke af kliniske data eller litteratur.
 
@@ -109,6 +109,19 @@ Alle forudsigelser er på evidensniveau L5: der findes ingen kliniske forsøg el
 - Advarsler og kontraindikationer fra produktresuméet (blokerende datahul for sikkerhedsscreening)
 - Prækliniske eller kliniske studier, der direkte undersøger belimumab ved den forudsagte sygdom
 - Hvis én forudsigelse skal prioriteres til yderligere vurdering, er FNAIT den mekanistisk mest sammenhængende, men kræver først en grundig vurdering af graviditetssikkerhed
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Empagliflozin er en SGLT2-hæmmer, som oprindeligt anvendes til behandling af ty
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er udarbejdet til denne rapport. Empagliflozin er kendt som SGLT2-hæmmer, som sænker blodsukkeret ved at øge udskillelsen af glukose i urinen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Empagliflozin (uofficiel oversættelse): »Empagliflozin er en hæmmer af SGLT2, den dominerende transportør, der er ansvarlig for reabsorptionen af glucose fra glomerulusfiltratet tilbage til kredsløbet. Ved at hæmme SGLT2 nedsætter empagliflozin den renale reabsorption af filtreret glucose og sænker nyretærsklen for glucose, hvorved udskillelsen af glucose i urinen øges.« Engelsk originaltekst: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), version af 2026-11-10; hentet 2026-11-19). Empagliflozin er kendt som SGLT2-hæmmer, som sænker blodsukkeret ved at øge udskillelsen af glukose i urinen.
 
 Fokalt stiff limb-syndrom er en sjælden, sandsynligvis autoimmun eller neurologisk lidelse i stiff person-spektret, hvor den GABAerge hæmning er svækket. Der kendes ingen klar biologisk vej, som forbinder SGLT2-hæmning med denne mekanisme. Den høje modelscore er en ren grafbaseret forudsigelse, og enhver tænkt sammenhæng (fx metabolisk eller antiinflammatorisk effekt) er spekulativ og ikke understøttet af data.
 
@@ -85,7 +85,6 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 | Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
 |---------|------|------|-----------|
 | 28107095624 | Bifoglan | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig |
-
 
 ---
 
@@ -117,6 +116,19 @@ Forudsigelsen bygger kun på en grafbaseret model uden kliniske forsøg, littera
 - Prækliniske eller kliniske studier, der direkte undersøger sygdommen
 - Advarsler og kontraindikationer fra det danske produktresumé
 - Vurdering af ketoacidoserisiko hos autoimmune patienter
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

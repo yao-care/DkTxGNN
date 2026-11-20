@@ -60,7 +60,7 @@ men der er **0 kliniske forsøg** og **0 publikationer** til at understøtte den
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Moxonidin er kendt som en centralt virkende agonist på imidazolin I1-receptorer og alfa-2-adrenerge receptorer. Den sænker blodtrykket ved at hæmme den sympatiske aktivitet. Bindingsdata viser, at stoffet virker på ADRA2A-, ADRA2B- og ADRA2C-receptorerne.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Moxonidine (uofficiel oversættelse): »Nischarin-agonist« Engelsk originaltekst: "Nischarin agonist" ([ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236), CC BY-SA 3.0; hentet 2026-11-19). Moxonidin er kendt som en centralt virkende agonist på imidazolin I1-receptorer og alfa-2-adrenerge receptorer. Den sænker blodtrykket ved at hæmme den sympatiske aktivitet. Bindingsdata viser, at stoffet virker på ADRA2A-, ADRA2B- og ADRA2C-receptorerne.
 
 Der er ikke påvist nogen sandsynlig biologisk sammenhæng mellem denne mekanisme og hårsækkens biologi ved en genetisk betinget hypotrichose. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Forudsigelsen bør derfor betragtes som en hypotese uden dokumentation.
 
@@ -116,6 +116,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, uden relev
 - Data om moxonidins virkningsmekanisme (f.eks. fra DrugBank)
 - Målrettet litteratursøgning, især for de hypertensionsnære forudsigelser (malign hypertensiv nyresygdom og malign renovaskulær hypertension), som er de mest biologisk plausible kandidater
 - Prækliniske data, der kan belyse en eventuel rolle i hårsækkens biologi, før der overvejes kliniske studier af hårsygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

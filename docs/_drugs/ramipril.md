@@ -54,7 +54,7 @@ Ramipril er en ACE-hæmmer, der oprindeligt bruges mod forhøjet blodtryk og til
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ramipril tilhører klassen af ACE-hæmmere, som nedsætter dannelsen af angiotensin II. Teoretisk kan det påvirke tonus og ombygning af lungekarrene, men dette understøttes ikke af de foreliggende data for netop denne sygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ramipril (uofficiel oversættelse): »Ramipril og ramiprilat hæmmer ACE hos mennesker og dyr. Angiotensinkonverterende enzym er en peptidyldipeptidase, der katalyserer omdannelsen af angiotensin I til det vasokonstriktive stof angiotensin II. Angiotensin II stimulerer også binyrebarkens sekretion af aldosteron.« Engelsk originaltekst: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), version af 2026-11-11; hentet 2026-11-19). Ramipril tilhører klassen af ACE-hæmmere, som nedsætter dannelsen af angiotensin II. Teoretisk kan det påvirke tonus og ombygning af lungekarrene, men dette understøttes ikke af de foreliggende data for netop denne sygdom.
 
 Pulmonal hypertension er en karsygdom, og ramiprils kendte anvendelsesområder (blodtryk og karbeskyttelse) ligger i samme fysiologiske område. Det er en plausibel, men ubekræftet sammenhæng.
 
@@ -108,11 +108,12 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikation
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

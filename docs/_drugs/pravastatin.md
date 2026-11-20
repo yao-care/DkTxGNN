@@ -60,7 +60,7 @@ Evidensen for netop denne forudsigelse er svag: Det eneste registrerede forsøg 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Pravastatin er dog en kendt HMG-CoA-reduktasehæmmer. Den sænker leverens kolesterolsyntese og øger antallet af LDL-receptorer på leverceller, hvilket sænker LDL-kolesterol.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pravastatin (uofficiel oversættelse): »Pravastatin er en reversibel hæmmer af HMG-CoA-reduktase, det hastighedsbegrænsende enzym, der omdanner HMG-CoA til mevalonat, en forløber for kolesterol.« Engelsk originaltekst: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), version af 2026-10-23; hentet 2026-11-19). Pravastatin er dog en kendt HMG-CoA-reduktasehæmmer. Den sænker leverens kolesterolsyntese og øger antallet af LDL-receptorer på leverceller, hvilket sænker LDL-kolesterol.
 
 Ved homozygot familiær hyperkolesterolæmi er LDL-receptorfunktionen stærkt nedsat eller helt fraværende. Statiners effekt er derfor begrænset og varierer. Mekanismen er biologisk plausibel for delvis LDL-sænkning hos patienter med restfunktion af receptoren (receptordefekte genotyper), men pravastatin er ikke en kerneterapi ved denne tilstand. En af kilderne bemærker direkte, at statiner ikke er særligt effektive ved homozygot form.
 
@@ -136,6 +136,18 @@ Der foreligger ingen direkte evidens for pravastatin ved homozygot familiær hyp
 | Hiv-infektion | L2 | Research Question | Evidensen vedrører behandling af hiv-associeret dyslipidæmi og hjerte-kar-risiko, ikke behandling af selve hiv-infektionen. Der er bl.a. et randomiseret placebokontrolleret studie (PMID 16603852). Pravastatin omsættes ikke via CYP3A4, men darunavir/ritonavir øger eksponeringen. |
 | Hypoalfalipoproteinæmi | L4 | Hold | Statiner hæver HDL-kolesterol kun beskedent. Ingen forsøg. |
 | Øvrige (neuroudviklingsforstyrrelse, SIV, felint AIDS, CYP7A1-mangel, CETP-mangel) | L5 | Hold | Kun beregningsmæssig forudsigelse uden klinisk evidens. Flere er dyremodeller eller veterinære tilstande. |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -54,7 +54,7 @@ Milrinon er en PDE3-hæmmer, der gives som infusion og bruges til hjertesvigt (i
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Milrinon er kendt som PDE3-hæmmer. Det øger cAMP og giver både øget hjertekontraktilitet og karudvidelse (en "inodilator"-effekt).
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Milrinone (uofficiel oversættelse): »Milrinon er et positivt inotropt og vasodilaterende stof med ringe kronotrop aktivitet, som i struktur og virkningsmåde adskiller sig fra både digitalisglykosiderne og katekolaminerne.« Engelsk originaltekst: "Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines." ([DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964), version af 2021-08-25; hentet 2026-11-19). Milrinon er kendt som PDE3-hæmmer. Det øger cAMP og giver både øget hjertekontraktilitet og karudvidelse (en "inodilator"-effekt).
 
 Der er kun et spekulativt link til alopeci: cAMP-signalering eller bedre perfusion omkring hårfollikler. Ingen undersøgelser understøtter dette. Ved autoimmun alopecia areata er PDE4-hæmmere den mere relevante klasse, og PDE3-hæmning med milrinon har ingen påvist rolle. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke egentlig biologisk evidens.
 
@@ -108,11 +108,12 @@ Forudsigelsen om alopeci er alene baseret på en modelscore, uden kliniske fors�
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige tilladelser (monopræparater). De foreligger” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
 
 <!-- review:end log -->
 

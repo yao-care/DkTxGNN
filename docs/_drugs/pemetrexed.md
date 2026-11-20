@@ -64,7 +64,7 @@ Bemærk: Litteraturen indeholder dog case-rapporter om perikardielt mesoteliom b
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der er i øjeblikket ikke tilgængelige detaljerede data om virkningsmekanismen i det indsamlede materiale. Pemetrexed er dog kendt som et multimålrettet antifolat, der hæmmer thymidylatsyntase, dihydrofolatreduktase og GARFT og dermed forstyrrer syntesen af pyrimidin og purin i hurtigt delende tumorceller. Dette beskrives ud fra generel viden og ikke ud fra de data, der er samlet til rapporten.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pemetrexed (uofficiel oversættelse): »Pemetrexed er en folatanalog metabolisk hæmmer, der forstyrrer folatafhængige metaboliske processer, som er essentielle for cellereplikation. In vitro-studier viser, at pemetrexed hæmmer thymidylatsyntase (TS), dihydrofolatreduktase (DHFR) og glycinamidribonukleotid-formyltransferase (GARFT), som er folatafhængige enzymer involveret i de novo-biosyntesen af thymidin- og purinnukleotider.« Engelsk originaltekst: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), version af 2026-06-18; hentet 2026-11-19). Pemetrexed er dog kendt som et multimålrettet antifolat, der hæmmer thymidylatsyntase, dihydrofolatreduktase og GARFT og dermed forstyrrer syntesen af pyrimidin og purin i hurtigt delende tumorceller. Dette beskrives ud fra generel viden og ikke ud fra de data, der er samlet til rapporten.
 
 Perikardielt mesoteliom er en sjælden malignitet, der udgår fra mesotelcellerne i hjerteposen og er biologisk i familie med pleuralt mesoteliom. Pemetrexed i kombination med platin er etableret standardbehandling ved pleuralt mesoteliom, hvilket giver et rimeligt mekanistisk grundlag for ekstrapolation til perikardiet.
 
@@ -155,11 +155,12 @@ Forudsigelsen er biologisk plausibel, fordi perikardielt mesoteliom er beslægte
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

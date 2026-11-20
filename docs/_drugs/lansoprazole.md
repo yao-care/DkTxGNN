@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **duodenal obstruk
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Lansoprazol er dog en protonpumpehæmmer, som hæmmer mavesyresekretionen. Dens virkning ved syrerelaterede sygdomme som refluks, øsofagitis og mavesår er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lansoprazole (uofficiel oversættelse): »Lansoprazol tilhører en klasse af antisekretoriske stoffer, de substituerede benzimidazoler, som hæmmer mavesyresekretionen ved specifik hæmning af (H +, K + )-ATPase-enzymsystemet på den sekretoriske overflade af mavens parietalceller. Da dette enzymsystem betragtes som syrepumpen (protonpumpen) i parietalcellen, er lansoprazol blevet karakteriseret som en hæmmer af mavesyrepumpen, idet det blokerer det sidste trin i syreproduktionen.« Engelsk originaltekst: "Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84), version af 2025-07-08; hentet 2026-11-19). Lansoprazol er dog en protonpumpehæmmer, som hæmmer mavesyresekretionen. Dens virkning ved syrerelaterede sygdomme som refluks, øsofagitis og mavesår er veletableret.
 
 Duodenogastrisk refluks er tilbageløb af indhold fra tolvfingertarmen (herunder galde og bugspytkirtelsekret) til maven. Syrehæmning kan plausibelt lindre symptomer og slimhindeskade, når refluksen forekommer sammen med syrerelaterede tilstande, f.eks. refluksgastritis eller øsofagitis.
 
@@ -110,6 +110,19 @@ Forudsigelsen kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder
 - Data om virkningsmekanisme (MOA), f.eks. fra DrugBank
 - Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen samt godkendt indikationstekst
 - Eventuelt et pilotstudie eller et klinisk forsøg, hvis der påvises et klinisk behov
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -56,7 +56,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **obsessiv-kompuls
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Isocarboxazid tilhører dog klassen af MAO-hæmmere, som øger niveauet af serotonin, noradrenalin og dopamin i hjernen. Denne monoaminerge modulation er mekanistisk relevant for OCD-spektret.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Isocarboxazid (uofficiel oversættelse): »Isocarboxazid er en ikke-selektiv hydrazin-monoaminoxidase (MAO)-hæmmer. In vivo- og in vitro-studier har påvist hæmning af MAO i hjerne, hjerte og lever. Den mekanisme, hvorved MAO-hæmmere virker som antidepressiva, er ikke fuldt klarlagt, men den menes at involvere en forhøjelse af hjernens niveauer af biogene aminer.« Engelsk originaltekst: "Isocarboxazid is a non-selective hydrazine monoamine oxidase (MAO) inhibitor. In vivo and in vitro studies demonstrated inhibition of MAO in the brain, heart, and liver. The mechanism by which MAO inhibitors act as antidepressants is not fully understood, but it is thought to involve the elevation of brain levels of biogenic amines." ([DailyMed: Marplan (isocarboxazid) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fde749-44ad-4668-86c4-0ff17bca0074), version af 2026-04-21; hentet 2026-11-19). Isocarboxazid tilhører dog klassen af MAO-hæmmere, som øger niveauet af serotonin, noradrenalin og dopamin i hjernen. Denne monoaminerge modulation er mekanistisk relevant for OCD-spektret.
 
 Depression, angst og OCD deler ofte symptomer og komorbiditet, og klassen af MAO-hæmmere har historisk været brugt ved fobisk angst. Det understøtter, at forudsigelsen er biologisk tænkelig. Det er dog et ræsonnement på klasseniveau og ikke dokumentation for, at isocarboxazid virker ved OCD.
 
@@ -112,6 +112,19 @@ Forudsigelsen har en meget høj modelscore, men der er ingen kliniske forsøg og
 - Data om virkningsmekanisme (MOA)
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Vurdering af fordele og risici i forhold til etablerede OCD-behandlinger og en plan for sikkerhedsovervågning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Marplan (isocarboxazid) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fde749-44ad-4668-86c4-0ff17bca0074) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ og der er **10 kliniske forsøg** og **20 publikationer** knyttet til denne retn
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om budesonids detaljerede virkningsmekanisme er ikke tilgængelige i de udarbejdede data. Budesonid er dog en potent glukokortikoid med antiinflammatoriske og immunsupprimerende effekter. Det hæmmer inflammatoriske cytokiner og mindsker aktiviteten af eosinofile celler og mastceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Budesonide (uofficiel oversættelse): »Budesonid er et antiinflammatorisk kortikosteroid, der udviser potent glukokortikoid aktivitet og svag mineralokortikoid aktivitet. I standardiserede in vitro- og dyremodeller har budesonid ca. 200 gange højere affinitet for glukokortikoidreceptoren og 1000 gange højere topisk antiinflammatorisk styrke end cortisol (krotonolie-øreødemassay hos rotter).« Engelsk originaltekst: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), version af 2026-06-10; hentet 2026-11-19). Budesonid er dog en potent glukokortikoid med antiinflammatoriske og immunsupprimerende effekter. Det hæmmer inflammatoriske cytokiner og mindsker aktiviteten af eosinofile celler og mastceller.
 
 Den oprindelige brug ved astma og allergisk rhinitis bygger på den samme grundlæggende effekt: dæmpning af slimhindeinflammation i luftvejene. Bronkitis, bronkiolitis og kroniske luftvejssygdomme har overlappende patologi i form af luftvejsinflammation, slimhypersekretion og luftvejshyperreaktivitet. Budesonid/formoterol-kombinationer bruges i forvejen bredt ved KOL, så den mekanistiske plausibilitet og kendskabet til sikkerhed er forholdsvis stærkt.
 
@@ -143,6 +143,19 @@ De øvrige forudsigelser har svagere evidens: atopisk eksem og "dermatitis, atop
 - En klar definition af bronkitis (akut, kronisk, eosinofil) og målrettet søgning efter randomiserede studier med budesonid i netop denne population
 - Vurdering af risikoen for lungebetændelse og binyrebarksuppression hos de relevante patientgrupper
 - Målrettet litteratursøgning om budesonid ved kronisk rhinosinuitis med næsepolypper, hvis polypgruppen skal undersøges videre
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

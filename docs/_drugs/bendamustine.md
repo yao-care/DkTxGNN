@@ -58,7 +58,7 @@ Bendamustin er et alkylerende cytostatikum, som er godkendt i Danmark som pulver
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Bendamustin er dog kendt som et alkylerende middel med en struktur, der minder om purinanaloger. Det skader DNA og udløser apoptose i maligne B-celler.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bendamustine (uofficiel oversættelse): »Bendamustin er et bifunktionelt mechlorethaminderivat, der indeholder en purinlignende benzimidazolring. Mechlorethamin og dets derivater danner elektrofile alkylgrupper. Disse grupper danner kovalente bindinger med elektronrige nukleofile grupper, hvilket resulterer i DNA-krydsbindinger mellem strengene.« Engelsk originaltekst: "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f), version af 2026-10-28; hentet 2026-11-19). Bendamustin er dog kendt som et alkylerende middel med en struktur, der minder om purinanaloger. Det skader DNA og udløser apoptose i maligne B-celler.
 
 Mantelcellelymfom er et modent B-celle-lymfom og er derfor biologisk tæt beslægtet med de B-celle-sygdomme, som bendamustin i forvejen anvendes til. Den cytotoksiske mekanisme kan derfor overføres direkte. Kombinationen bendamustin + rituximab (BR) indgår allerede som standardbasis i førstelinje- og recidivbehandling, og nyere forsøg tilføjer BTK-hæmmere til BR.
 
@@ -142,6 +142,19 @@ Flere afsluttede fase 3-forsøg (bl.a. NCT00991211, NCT00877006 og NCT01776840) 
 - Plan for monitorering af blodtal, infektionsrisiko og lever-/nyrefunktion
 - Gennemgang af relevante interaktioner, særligt de alvorlige
 - Fastlæggelse af behandlingsprotokol i tråd med gældende retningslinjer (EHA-EU MCL)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

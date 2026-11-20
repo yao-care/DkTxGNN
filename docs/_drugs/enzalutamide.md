@@ -56,8 +56,7 @@ Der er dog **ingen kliniske forsøg og ingen publikationer** for netop denne for
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Enzalutamid er kendt som en hæmmer af androgenreceptor-signalering (AR), og dens effekt ved prostatakræft er veldokumenteret. Mekanismen kan derfor ikke verificeres yderligere ud fra de foreliggende data.
-
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Enzalutamide (uofficiel oversættelse): »Enzalutamid er en androgenreceptorhæmmer, der virker på forskellige trin i androgenreceptorens signalvej. Enzalutamid har vist sig at hæmme androgenbinding til androgenreceptorer kompetitivt og hæmmer dermed nukleær translokation af androgenreceptorer og deres interaktion med DNA.« Engelsk originaltekst: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), version af 2026-07-28; hentet 2026-11-19). Enzalutamid er kendt som en hæmmer af androgenreceptor-signalering (AR), og dens effekt ved prostatakræft er veldokumenteret. Mekanismen kan derfor ikke verificeres yderligere ud fra de foreliggende data.
 
 ## Klinisk evidens
 
@@ -115,6 +114,19 @@ Til orientering viser de indsamlede data for en anden forudsigelse, "kræft i de
 - Indlæsning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer)
 - Præcisering af, hvad "prostatakræft-/hjernekræftdisposition" indebærer som behandlingsmål, samt prækliniske eller kliniske data, der understøtter en sammenhæng
 - Gennemgang af de alvorlige lægemiddelinteraktioner, hvis anvendelsen overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

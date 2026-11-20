@@ -54,7 +54,7 @@ Ciclesonide er et inhaleret kortikosteroid, der aktiveres til des-ciclesonide, o
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ciclesonide er et prodrug, som omdannes til des-ciclesonide, en agonist af glukokortikoidreceptoren med antiinflammatorisk virkning. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport, så vurderingen bygger på kendt klasseviden.
+Ciclesonide er et prodrug, som omdannes til des-ciclesonide, en agonist af glukokortikoidreceptoren med antiinflammatorisk virkning. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ciclesonide (uofficiel oversættelse): »Ciclesonid er et prodrug, der efter oral inhalation hydrolyseres enzymatisk til en farmakologisk aktiv metabolit, C21-desisobutyryl-ciclesonid (des-ciclesonid eller RM1). Des-ciclesonid har antiinflammatorisk aktivitet med en affinitet for glukokortikoidreceptorer, der er 120 gange større end moderstoffets og 12 gange større end dexamethasons.« Engelsk originaltekst: "Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone." ([DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468), version af 2025-02-28; hentet 2026-11-19).
 
 Kortikosteroider (lokale eller systemiske) er en etableret behandlingsklasse ved atopisk eksem, så sammenhængen er plausibel på klasseniveau. Der er imidlertid ingen data, der viser, at ciclesonide i sig selv virker ved denne sygdom, og lægemidlet foreligger kun som inhalationsprodukter. Hudens eksponering og en eventuel egnet formulering er ikke vurderet.
 
@@ -105,6 +105,19 @@ Forudsigelsen har en meget høj modelscore (0,9996), men der er hverken kliniske
 - Vurdering af, om en hudegnet formulering og administrationsvej er mulig, da de godkendte produkter er til inhalation
 - Data om virkningsmekanisme og sikkerhed fra produktresuméet
 - Vurdering af risiko for kontaktallergi og krydsreaktivitet mellem kortikosteroider
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -56,7 +56,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer** i de indsamlede
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra almen farmakologisk viden er cladribin et purinnukleosidanalog, som er resistent over for adenosindeaminase. I celler med et højt forhold mellem deoxycytidinkinase og 5'-nukleotidase ophobes det som trifosfat, hvilket giver DNA-strengbrud og apoptose. Denne virkning er primært relevant for lymfocytter og lymfoide maligniteter.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cladribine (uofficiel oversættelse): »Den mekanisme, hvorved cladribin udøver sine terapeutiske virkninger hos patienter med multipel sklerose, er ikke fuldt klarlagt, men menes at involvere cytotoksiske virkninger på B- og T-lymfocytter gennem hæmning af DNA-syntesen, hvilket resulterer i depletering af lymfocytter.« Engelsk originaltekst: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), version af 2026-05-27; hentet 2026-11-19). Ud fra almen farmakologisk viden er cladribin et purinnukleosidanalog, som er resistent over for adenosindeaminase. I celler med et højt forhold mellem deoxycytidinkinase og 5'-nukleotidase ophobes det som trifosfat, hvilket giver DNA-strengbrud og apoptose. Denne virkning er primært relevant for lymfocytter og lymfoide maligniteter.
 
 Der er ikke støtte i de foreliggende data for en mekanisme, der er specifik for rhabdomyosarkom, som er en solid bindevævstumor med anden biologi. Den høje score bør derfor ses som en beregningsmæssig forudsigelse. Tilsvarende høje scores for flere rhabdomyosarkom-undertyper er sandsynligvis indbyrdes korrelerede og ikke uafhængige signaler.
 
@@ -104,6 +104,19 @@ Forudsigelsen bygger kun på en computermodel uden kliniske forsøg eller publik
 - Data om virkningsmekanisme (MOA)
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Vurdering af, om injektionsformen og doseringen er egnet til den forudsagte tumortype
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

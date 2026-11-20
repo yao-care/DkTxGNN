@@ -54,7 +54,7 @@ Prednison er et systemisk glukokortikoid med immundæmpende og antiinflammatoris
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er prednison et systemisk glukokortikoid, der hæmmer T-celleaktivering og produktionen af proinflammatoriske cytokiner.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Prednisone (uofficiel oversættelse): »Naturligt forekommende corticosteroider (hydrocortison og cortison), som også har saltretinerende egenskaber, anvendes som substitutionsbehandling ved binyrebarkinsufficiens. Deres syntetiske analoger, såsom prednison, anvendes primært på grund af deres potente antiinflammatoriske virkninger ved sygdomme i mange organsystemer.« Engelsk originaltekst: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), version af 2026-09-23; hentet 2026-11-19). Ud fra kendt farmakologi er prednison et systemisk glukokortikoid, der hæmmer T-celleaktivering og produktionen af proinflammatoriske cytokiner.
 
 Alopecia areata er en T-celle-medieret autoimmun sygdom, hvor sammenbrud af hårsækkens immunprivilegium fører til angreb fra CD8+ T-celler. Immundæmpning med et glukokortikoid er derfor biologisk plausibel. Systemiske kortikosteroider kan fremkalde genvækst, men tilbagefald efter seponering er hyppige, og langtidsbivirkninger begrænser kronisk brug.
 
@@ -104,6 +104,18 @@ Der er et dobbeltblindet randomiseret forsøg og flere kohortestudier, der under
 - Data om mekanisme og detaljerede advarsler/kontraindikationer fra produktresuméet
 - En plan for sikkerhedsmonitorering og for begrænsning af varigheden af systemisk steroidbehandling
 - Vurdering af tilbagefaldsrisiko og strategi for nedtrapning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

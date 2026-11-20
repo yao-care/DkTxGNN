@@ -59,7 +59,7 @@ Den højest scorende forudsigelse (papillær konjunktivitis) har ingen understø
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i det data, der er indsamlet til denne rapport. Prilocain tilhører dog gruppen af amid-lokalbedøvelsesmidler, som blokerer spændingsstyrede natriumkanaler i nervefibre. Når kanalerne blokeres, hæmmes udbredelsen af smertesignaler fra nociceptive nervefibre.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Prilocaine (uofficiel oversættelse): »Prilocain stabiliserer neuronmembranen ved at hæmme de ionstrømme, der er nødvendige for initiering og overledning af impulser, og udøver derved lokalbedøvende virkning.« Engelsk originaltekst: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), version af 2021-11-10; hentet 2026-11-19). Prilocain tilhører dog gruppen af amid-lokalbedøvelsesmidler, som blokerer spændingsstyrede natriumkanaler i nervefibre. Når kanalerne blokeres, hæmmes udbredelsen af smertesignaler fra nociceptive nervefibre.
 
 Den oprindelige indikation (tidlig sædafgang) udnytter netop den lokalbedøvende effekt på følsomme nerveender i huden og slimhinden. Neuralgi, især postherpetisk neuralgi, er en neuropatisk smertetilstand med overaktive nociceptive afferenter. En lokal natriumkanalblokade er derfor mekanistisk sammenhængende. Prilocain gives i den sammenhæng som lidocain/prilocain-creme (EMLA).
 
@@ -142,6 +142,19 @@ Der er en mekanistisk rimelig sammenhæng mellem natriumkanalblokade og neuropat
 - Kontrollerede studier (helst randomiseret og placebokontrolleret) af lidocain/prilocain-creme som primær behandling ved postherpetisk neuralgi
 - Vurdere risici for methæmoglobinæmi og systemisk optagelse hos ældre patienter, ved større hudarealer og ved samtidig brug af interagerende lægemidler
 - Afklare den lovmæssige status for brug uden for indikation (off-label) for Emla ved neuropatisk smerte
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

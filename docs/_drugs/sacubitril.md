@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt på **diabetisk nefrop
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet. Sacubitril er dog kendt som en prodrug, der hæmmer enzymet neprilysin og dermed øger niveauet af natriuretiske peptider (øget natriurese og karudvidelse). I de danske præparater indgår sacubitril sammen med valsartan, en angiotensin II-type 1-receptorblokker.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for sacubitril and valsartan (kombinationspræparat med Sacubitril) (uofficiel oversættelse): »Sacubitril og valsartan indeholder en neprilysinhæmmer, sacubitril, og en angiotensinreceptorblokker, valsartan. Sacubitril og valsartan hæmmer neprilysin (neutral endopeptidase; NEP) via LBQ657, den aktive metabolit af prodruget sacubitril, og blokerer angiotensin II type 1 (AT 1 )-receptoren via valsartan.« Engelsk originaltekst: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), version af 2026-10-30; hentet 2026-11-19). Sacubitril er dog kendt som en prodrug, der hæmmer enzymet neprilysin og dermed øger niveauet af natriuretiske peptider (øget natriurese og karudvidelse). I de danske præparater indgår sacubitril sammen med valsartan, en angiotensin II-type 1-receptorblokker.
 
 Valsartan-komponenten virker via en veletableret nyrebeskyttende mekanisme ved diabetisk nyresygdom. Neprilysinhæmning kan derudover tænkes at give yderligere gavnlige effekter på nyrernes hæmodynamik. Prækliniske studier i gnavere (db/db-mus, diabetiske rotter, Zucker-rotter) rapporterer mindre oxidativt stress, mindre NF-κB-medieret inflammation, mindre glomerulosklerose og påvirkning af tarmfloraen.
 
@@ -134,6 +134,19 @@ Der er en plausibel mekanisme og et registreret fase 4-forsøg direkte i indikat
 ---
 
 *Øvrige forudsigelser med lavere evidens (hjerneinfarkt i små kar relateret til COL4A1, arvelig hæmaturi-retinopati-syndrom, leddegigt og hæmoglobinopati) er kun computerbaserede forudsigelser uden understøttende evidens og anbefales ikke fulgt op på nuværende tidspunkt (Hold).*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Temoporfin er et lysfølsomt stof (fotosensibilisator) til fotodynamisk behandli
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om temoporfins virkningsmekanisme i det datagrundlag, der er sammenstillet til denne rapport. Temoporfin er kendt som en fotosensibilisator til fotodynamisk behandling (PDT): Stoffet ophobes i tumorvæv og aktiveres af lys med en bestemt bølgelængde, hvorefter der dannes reaktive iltforbindelser, som kan ødelægge cellerne lokalt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Temoporfin (uofficiel oversættelse): »Fotosensibilisator« Engelsk originaltekst: "Photosensitizer" ([ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576), CC BY-SA 3.0; hentet 2026-11-19). Temoporfin er kendt som en fotosensibilisator til fotodynamisk behandling (PDT): Stoffet ophobes i tumorvæv og aktiveres af lys med en bestemt bølgelængde, hvorefter der dannes reaktive iltforbindelser, som kan ødelægge cellerne lokalt.
 
 Den mulige kobling til nasofaryngealt teratom er lokal, lysaktiveret fjernelse af tumorvæv i næse-svælg-området. Koblingen er svag. Teratomer er sjældne, forekommer typisk hos børn og behandles normalt kirurgisk. Der er ingen data, der understøtter, at fotodynamisk behandling har en rolle her.
 
@@ -115,6 +115,19 @@ Forudsigelsen for nasofaryngealt teratom bygger udelukkende på modellen (eviden
 - Den godkendte indikationstekst for Foscan i Danmark
 - Litteratursøgning og evt. prækliniske data direkte for nasofaryngealt teratom
 - Alternativt en vurdering af mere plausible kandidater fra forudsigelseslisten, fx neoplasmer i epiglottis, hypofarynx og præmaligne slimhindelæsioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL500576 (temoporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL500576) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

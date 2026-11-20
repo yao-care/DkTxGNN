@@ -60,7 +60,7 @@ Forudsigelsen vurderes som en grafbaseret artefakt uden biologisk grundlag.
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at vancomycin er et glykopeptid, der virker mod grampositive bakterier ved at hæmme cellevægssyntesen.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Vancomycin (uofficiel oversættelse): »Vancomycin er et antibakterielt lægemiddel. […] Den baktericide virkning af vancomycin skyldes primært hæmning af cellevægsbiosyntesen. Desuden ændrer vancomycin bakteriecellemembranens permeabilitet og RNA-syntesen.« Engelsk originaltekst: "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), version af 2026-08-19; hentet 2026-11-19). Det er kendt, at vancomycin er et glykopeptid, der virker mod grampositive bakterier ved at hæmme cellevægssyntesen.
 
 Diffus sklerodermi (systemisk sklerose) er en autoimmun, fibrotisk sygdom. Der findes ingen plausibel antibakteriel mekanisme, som forbinder vancomycin med denne sygdom. Den høje score stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, og ikke biologisk evidens.
 
@@ -125,11 +125,12 @@ Der er ingen kliniske forsøg og ingen litteratur, der direkte undersøger vanco
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
 
 <!-- review:end log -->
 

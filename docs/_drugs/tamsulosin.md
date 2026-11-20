@@ -62,7 +62,7 @@ Note: Den oprindelige indikation er ikke angivet i de danske tilladelser i de in
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Tamsulosin er kendt som en alfa-1A-adrenerg antagonist, der afslapper glat muskulatur i prostata og blærehals og dermed lindrer vandladningsbesvær ved BPH.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tamsulosin (uofficiel oversættelse): »Symptomerne forbundet med benign prostatahyperplasi (BPH) er relateret til obstruktion af blærens udløb, som består af to underliggende komponenter: en statisk og en dynamisk. Den statiske komponent er relateret til en forøgelse af prostatas størrelse, som delvis skyldes en proliferation af glatte muskelceller i det prostatiske stroma. […] Tamsulosin, et alfa 1-adrenoceptorblokerende middel, udviser selektivitet for alfa 1-receptorer i den humane prostata.« Engelsk originaltekst: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f), version af 2026-11-12; hentet 2026-11-19). Tamsulosin er kendt som en alfa-1A-adrenerg antagonist, der afslapper glat muskulatur i prostata og blærehals og dermed lindrer vandladningsbesvær ved BPH.
 
 Der kan ikke påvises en plausibel farmakologisk sammenhæng mellem alfa-1A-blokade og Ambras-syndrom. Sygdommen skyldes en kromosomal omlejring ved 8q22, som påvirker reguleringen af TRPS1. Den høje score kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, snarere end biologisk evidens eller en reel mekanisme. Forudsigelsen bør derfor betragtes som hypotesegenererende og ikke som klinisk understøttet.
 
@@ -136,11 +136,12 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->
 

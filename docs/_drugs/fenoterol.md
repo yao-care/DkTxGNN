@@ -60,7 +60,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 ## Hvorfor er denne forudsigelse rimelig (eller ej)?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Farmakologiske data viser, at fenoterol binder til beta-adrenoreceptorer (ADRB1, ADRB2 og ADRB3), og lægemidlet er kendt som en selektiv beta-2-agonist, der bruges som bronkodilatator og til at hæmme for tidlig veorvirksomhed.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Fenoterol (uofficiel oversættelse): »Beta-2-adrenerg receptoragonist« Engelsk originaltekst: "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; hentet 2026-11-19). Farmakologiske data viser, at fenoterol binder til beta-adrenoreceptorer (ADRB1, ADRB2 og ADRB3), og lægemidlet er kendt som en selektiv beta-2-agonist, der bruges som bronkodilatator og til at hæmme for tidlig veorvirksomhed.
 
 Et teoretisk link til MSA kunne være beta-2-agonisters påvirkning af alfa-synuclein-ekspression (rapporteret for andre beta-2-agonister som salbutamol i epidemiologiske og cellebaserede studier) eller symptomatiske effekter på autonom dysfunktion. Der er dog en væsentlig modsætning: MSA er kendetegnet ved neurogen ortostatisk hypotension, og en vasodilaterende beta-2-agonist, der kan give takykardi, kan forværre den hæmodynamiske ustabilitet.
 
@@ -126,6 +126,18 @@ Alle nedenstående har evidensniveau L5, ingen kliniske forsøg eller litteratur
 | 6 | Primær arvelig glaukom | 0,9937 | Strukturelle defekter; højst symptomatisk effekt |
 | 7 | Sinoatrial blok | 0,9935 | Kronotrop effekt plausibel, men proarytmisk risiko |
 | 8 | Sygdom i sinusknuden | 0,9925 | Behandles typisk med pacemaker; arytmirisiko |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

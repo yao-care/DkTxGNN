@@ -56,7 +56,7 @@ men evidensen er svag: der er **1 klinisk studie** (et observationelt register u
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Papaverin er en uselektiv fosfodiesterasehæmmer. Den øger cAMP og cGMP i vaskulær glatmuskulatur og giver dermed vasodilation. Detaljerede data om virkningsmekanismen fra de kompilerede data mangler, men den beskrevne mekanisme stemmer overens med kendt farmakologi.
+Papaverin er en uselektiv fosfodiesterasehæmmer. Den øger cAMP og cGMP i vaskulær glatmuskulatur og giver dermed vasodilation. Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Papaverine (uofficiel oversættelse): »Papaverinhydrochlorid virker tilsyneladende direkte på selve muskulaturen. Denne afslapning ses i karsystemet og bronkiemuskulaturen samt i mave-tarm-kanalen, galdevejene og urinvejene. Papaverins vigtigste virkninger udøves på hjertemuskulatur og glat muskulatur.« Engelsk originaltekst: "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e), version af 2026-07-27; hentet 2026-11-19).
 
 De oprindelige indikationer (perifer karsygdom og cerebral iskæmi) er selv iskæmiske tilstande. Det gør en bredere indikation inden for iskæmisk sygdom mekanistisk plausibel. Litteraturen beskriver supplerende brug ved mesenterisk iskæmi og intrakoronar brug til at måle koronar flowreserve, men sidstnævnte er en diagnostisk og ikke en terapeutisk anvendelse.
 
@@ -114,6 +114,19 @@ Forudsigelsesscoren er høj, og mekanismen er plausibel, men der er ingen interv
 - Kontrollerede kliniske studier eller systematisk litteraturgennemgang for den valgte delindikation
 - Vurdering af, om oral tabletformulering er egnet, da flere af de beskrevne anvendelser er intraarterielle eller topiske
 - Vurdering af kardiovaskulær risiko og interaktionsrisiko hos målpopulationen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

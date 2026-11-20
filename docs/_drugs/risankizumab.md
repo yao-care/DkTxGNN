@@ -55,7 +55,7 @@ Risankizumab er et monoklonalt antistof, der blokerer IL-23 (p19-underenheden). 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Risankizumab er et humaniseret IgG-antistof, der selektivt blokerer p19-underenheden af IL-23. IL-23 driver Th17-medieret inflammation ved psoriasis.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Risankizumab (uofficiel oversættelse): »Risankizumab-rzaa er et humaniseret monoklonalt IgG1-antistof, der selektivt binder til p19-underenheden af humant IL-23-cytokin og hæmmer dets interaktion med IL-23-receptoren. IL-23 er et naturligt forekommende cytokin, der er involveret i inflammatoriske og immunologiske responser.« Engelsk originaltekst: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), version af 2026-10-23; hentet 2026-11-19). Risankizumab er et humaniseret IgG-antistof, der selektivt blokerer p19-underenheden af IL-23. IL-23 driver Th17-medieret inflammation ved psoriasis.
 
 Atopisk dermatitis er overvejende Th2-drevet, så den mekanistiske overlapning er kun delvis. Den er mest relevant ved psoriasiforme eller blandede fænotyper. Et fase 2-forsøg tester hypotesen direkte, og kasuistikker om kombination med dupilumab ved samtidig atopisk dermatitis og psoriasis antyder en nicherolle i overlapfænotyper.
 
@@ -85,7 +85,6 @@ Den meget høje score (0,9998) afspejler sandsynligvis et delt netværk af infla
 
 ## Information om det danske marked
 
-
 ## Cytotoksicitet
 
 Risankizumab er et biologisk immunmodulerende lægemiddel og ikke et antineoplastisk middel. Afsnittet er derfor udeladt.
@@ -113,6 +112,19 @@ Der findes ét afsluttet, placebokontrolleret fase 2-forsøg i atopisk dermatiti
 - Vurdering af risikoen for paradoksal eksem og af kombinationer med andre immunmodulerende midler.
 
 Øvrige forudsigelser (bl.a. neonatal dermatomyositis, pityriasis lichenoides og akut lichenoid pityriasis) har kun modelstøtte uden kliniske forsøg eller litteratur (L5) og anbefales ikke fulgt op på nuværende tidspunkt.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

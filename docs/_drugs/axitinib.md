@@ -58,7 +58,7 @@ Axitinib er en tyrosinkinasehæmmer, som oprindeligt er registreret i vidensgraf
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Axitinib er dog kendt som en hæmmer af VEGF-receptorerne 1, 2 og 3 med antiangiogen effekt. Den antiangiogene virkning er veletableret for stoffets primære anvendelse ved nyrecellekarcinom, som er en stærkt vaskulariseret tumor.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Axitinib (uofficiel oversættelse): »Axitinib har vist sig at hæmme receptortyrosinkinaser, herunder vaskulær endotelvækstfaktor-receptorer (VEGFR)-1, VEGFR-2 og VEGFR-3, ved terapeutiske plasmakoncentrationer. Disse receptorer er impliceret i patologisk angiogenese, tumorvækst og cancerprogression.« Engelsk originaltekst: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), version af 2026-03-12; hentet 2026-11-19). Axitinib er dog kendt som en hæmmer af VEGF-receptorerne 1, 2 og 3 med antiangiogen effekt. Den antiangiogene virkning er veletableret for stoffets primære anvendelse ved nyrecellekarcinom, som er en stærkt vaskulariseret tumor.
 
 Liposarkom, især den myxoide undertype, har et fremtrædende plexiformt kapillærnetværk. Det giver en plausibel biologisk begrundelse for at hæmme VEGF-receptorer. En enkelt præklinisk publikation (PMID 27822137) beskriver antiangiogen og antitumorigen aktivitet af axitinib i modeller af myxoid liposarkom.
 
@@ -141,11 +141,12 @@ Forudsigelsen understøttes kun af én præklinisk publikation om myxoid liposar
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er g” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
 
 <!-- review:end log -->
 

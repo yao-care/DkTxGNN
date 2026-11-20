@@ -58,7 +58,7 @@ Teriparatid er et parathyroideahormon-fragment (PTH 1-34), der oprindeligt bruge
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme for teriparatid i de indsamlede data. Teriparatid er et PTH-fragment, og dets effekt ved osteoporose er veletableret. Mekanistisk virker det ved at stimulere knogledannelse via osteoblaster (PTH1R-signalvejen).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Teriparatide (uofficiel oversættelse): »Endogent parathyroideahormon (PTH) bestående af 84 aminosyrer er den primære regulator af calcium- og fosfatmetabolismen i knogler og nyrer. PTH's fysiologiske virkninger omfatter regulering af knoglemetabolismen, renal tubulær reabsorption af calcium og fosfat samt intestinal calciumabsorption. […] De biologiske virkninger af PTH og teriparatid medieres via binding til specifikke celleoverfladereceptorer med høj affinitet.« Engelsk originaltekst: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), version af 2026-08-31; hentet 2026-11-19). Teriparatid er et PTH-fragment, og dets effekt ved osteoporose er veletableret. Mekanistisk virker det ved at stimulere knogledannelse via osteoblaster (PTH1R-signalvejen).
 
 Der er ingen påvist sammenhæng mellem denne anabole knoglesignalering og heling af duodenalsår. De indsamlede data understøtter ikke en plausibel mekanistisk forbindelse. Den høje score (0,9986, rang 2357) skal derfor ses som en ren beregningsmæssig forudsigelse uden klinisk eller biologisk underbygning.
 
@@ -106,6 +106,18 @@ Forudsigelsen om duodenalsår hviler kun på modellens score. Der findes hverken
 - Data om virkningsmekanisme (MOA) fra DrugBank og en biologisk vurdering af, om en kobling til duodenalsår overhovedet er plausibel
 - Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Prækliniske eller kliniske data, der direkte undersøger teriparatid ved duodenalsår
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

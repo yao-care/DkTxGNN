@@ -59,7 +59,7 @@ og der er i de data, der er indsamlet til denne rapport, **2 kliniske forsøg** 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden hæmmer tacrolimus calcineurin og dermed T-cellernes aktivering og frigivelsen af pro-inflammatoriske cytokiner (fx IL-2, IL-4 og interferon-gamma).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tacrolimus (uofficiel oversættelse): »Tacrolimus binder til et intracellulært protein, FKBP-12. Der dannes derefter et kompleks af tacrolimus-FKBP-12, calcium, calmodulin og calcineurin (et ubikvitært intracellulært enzym hos pattedyr), og calcineurins fosfataseaktivitet hæmmes.« Engelsk originaltekst: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), version af 2025-02-26; hentet 2026-11-19). Ud fra almen viden hæmmer tacrolimus calcineurin og dermed T-cellernes aktivering og frigivelsen af pro-inflammatoriske cytokiner (fx IL-2, IL-4 og interferon-gamma).
 
 Atopisk eksem og seboroisk dermatitis er begge kroniske, tilbagevendende inflammatoriske hudsygdomme. Seboroisk dermatitis involverer en inflammatorisk reaktion på Malassezia-gær og en forstyrret hudbarriere, og derfor er calcineurinhæmning en plausibel mekanisme. Den beslægtede calcineurinhæmmer pimecrolimus er også undersøgt ved denne tilstand. Litteraturen beskriver desuden topiske calcineurinhæmmere som et steroidbesparende alternativ.
 
@@ -126,6 +126,19 @@ Se i øvrigt det godkendte produktresumé for fuldstændige sikkerhedsoplysninge
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Data om virkningsmekanisme (DrugBank)
 - Plan for sikkerhedsovervågning, herunder langtidsrisiko for kræft og begrænsning af varighed og alder
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

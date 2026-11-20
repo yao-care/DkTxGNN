@@ -60,7 +60,7 @@ Forudsigelsen er udelukkende beregningsbaseret og bør derfor tolkes med stor fo
 
 ## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Finasterid er dog kendt som en type II 5-alfa-reduktasehæmmer, der sænker dihydrotestosteron (DHT). Effekten er veldokumenteret ved benign prostatahyperplasi og ved androgenetisk alopeci.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Finasteride (uofficiel oversættelse): »Udviklingen og forstørrelsen af prostatakirtlen er afhængig af det potente androgen 5α-dihydrotestosteron (DHT). Type II-5α-reduktase metaboliserer testosteron til DHT i prostatakirtlen, leveren og huden. […] Finasterid er en kompetitiv og specifik hæmmer af type II-5α-reduktase, som den langsomt danner et stabilt enzymkompleks med.« Engelsk originaltekst: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), version af 2026-03-18; hentet 2026-11-19). Finasterid er dog kendt som en type II 5-alfa-reduktasehæmmer, der sænker dihydrotestosteron (DHT). Effekten er veldokumenteret ved benign prostatahyperplasi og ved androgenetisk alopeci.
 
 Ambras-syndrom er en medfødt tilstand, som skyldes genomiske omlejringer, der påvirker reguleringen af TRPS1. Den øgede hårvækst er ikke kendt for at være androgen- eller DHT-drevet. Et plausibelt mekanistisk link er derfor ikke påvist. Den meget høje modelscore stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -128,6 +128,19 @@ Forudsigelsen bygger kun på en beregningsmodel (evidensniveau L5) uden kliniske
 - Prækliniske eller mekanistiske studier, der undersøger, om DHT-sænkning har betydning ved TRPS1-relateret hypertrichosis
 - Litteraturgennemgang af case reports eller serier med finasterid ved medfødte hypertrichosis-syndromer
 - Vurdering af sikkerhed, herunder teratogent potentiale og anvendelse hos børn
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at det kan have effekt på **akrodermatitis chronica 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om bupivacains virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at bupivacain blokerer spændingsstyrede natriumkanaler og dermed hæmmer nerveledning.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bupivacaine (uofficiel oversættelse): »Lokalanæstetika blokerer dannelsen og ledningen af nerveimpulser, formentlig ved at øge tærsklen for elektrisk excitation i nerven, ved at nedsætte udbredelseshastigheden af nerveimpulsen og ved at reducere stigningshastigheden af aktionspotentialet. Generelt er anæstesiens progression relateret til diameter, myelinisering og ledningshastighed af de påvirkede nervefibre.« Engelsk originaltekst: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), version af 2026-11-09; hentet 2026-11-19). Det er generelt kendt, at bupivacain blokerer spændingsstyrede natriumkanaler og dermed hæmmer nerveledning.
 
 Akrodermatitis chronica atrophicans er en sen hudmanifestation af Borrelia-infektion og behandles med antibiotika. Et lokalbedøvelsesmiddel har ingen plausibel sygdomsmodificerende rolle; i bedste fald kan det give symptomatisk lindring (f.eks. ved neuropatiske smerter) eller bruges til bedøvelse ved indgreb. Den høje score på 0,9923 er en grafbaseret modelforudsigelse og understøttes ikke af forsøg eller publikationer. Der er derfor ikke påvist nogen mekanistisk sammenhæng.
 
@@ -95,6 +95,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publi
 - Data om virkningsmekanisme (MOA)
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af, om administrationsvejen er relevant for den forudsagte indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

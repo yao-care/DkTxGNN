@@ -61,7 +61,7 @@ Den mest støttede alternative retning er basalcellekarcinom hos patienter med x
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Vismodegib er imidlertid kendt som hæmmer af Smoothened (SMO) i Hedgehog-signalvejen. Medulloblastom i SHH-undergruppen, herunder den desmoplastiske/nodulære histologi, er drevet af Hedgehog-signalering (f.eks. PTCH1- eller SMO-mutationer). Mekanismen er derfor biologisk plausibel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Vismodegib (uofficiel oversættelse): »Vismodegib er en hæmmer af Hedgehog-signalvejen. Vismodegib binder til og hæmmer Smoothened, et transmembranprotein, der indgår i Hedgehog-signaltransduktionen.« Engelsk originaltekst: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), version af 2024-12-02; hentet 2026-11-19). Vismodegib er imidlertid kendt som hæmmer af Smoothened (SMO) i Hedgehog-signalvejen. Medulloblastom i SHH-undergruppen, herunder den desmoplastiske/nodulære histologi, er drevet af Hedgehog-signalering (f.eks. PTCH1- eller SMO-mutationer). Mekanismen er derfor biologisk plausibel.
 
 Basalcellekarcinom er ligeledes Hedgehog-drevet, så der er en mekanistisk fællesnævner mellem den oprindelige og den forudsagte indikation. Denne vurdering bygger dog på modellens begrundelse og ikke på studier af netop denne sygdom.
 
@@ -140,6 +140,19 @@ Der er ingen kliniske forsøg eller publikationer om medulloblastom med udtalt n
 - Data om virkningsmekanisme og det danske produktresumé (advarsler og kontraindikationer)
 - Vurdering af sikkerhed hos børn (vækstzoner) og embryo-føtal toksicitet
 - Overvejelse af xeroderma pigmentosum (basalcellekarcinom-komplikationer) som en særskilt forskningsspørgsmålsretning, da der her findes case-evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

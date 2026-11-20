@@ -61,7 +61,7 @@ Der er p.t. **2 kliniske forsøg** og **2 publikationer** om netop denne sygdom,
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ticagrelor er kendt som en reversibel hæmmer af P2Y12-receptoren på blodplader. Den blokerer ADP-medieret aktivering og sammenklumpning af blodplader og dermed dannelsen af blodpropper.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ticagrelor (uofficiel oversættelse): »Ticagrelor og dets primære metabolit interagerer reversibelt med trombocytternes P2Y 12 ADP-receptor og forhindrer derved signaltransduktion og trombocytaktivering. Ticagrelor og dets aktive metabolit er omtrent lige potente.« Engelsk originaltekst: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), version af 2026-05-07; hentet 2026-11-19). Ticagrelor er kendt som en reversibel hæmmer af P2Y12-receptoren på blodplader. Den blokerer ADP-medieret aktivering og sammenklumpning af blodplader og dermed dannelsen af blodpropper.
 
 Ved symptomatisk intrakraniel åreforkalkning kan blodpladedrevet trombose og emboli fra den forsnævrede åre give gentagne slagtilfælde. Dette er den samme grundlæggende mekanisme som ved de koronare og perifere tilstande, som lægemidlet anvendes ved. Ticagrelor kræver ikke CYP2C19-aktivering, i modsætning til clopidogrel. Det kan derfor teoretisk virke bedre hos personer med nedsat CYP2C19-funktion.
 
@@ -134,11 +134,12 @@ Mekanismen er plausibel, og sygdommen undersøges direkte i et stort fase 3-fors
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst 20 tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

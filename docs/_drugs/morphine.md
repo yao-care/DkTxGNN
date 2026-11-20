@@ -54,7 +54,7 @@ Morphin er en opioid og en µ-opioidreceptoragonist med veletableret smertestill
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Morphin er kendt som en µ-opioidreceptoragonist, der dæmper smertesignalering i centralnervesystemet. Myofascielt smertesyndrom har en nociceptiv komponent, og der er derfor en teoretisk mekanistisk forbindelse.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Morphine (uofficiel oversættelse): »Morfin er en fuld opioidagonist og er relativt selektiv for mu-opioidreceptoren, selvom det kan bindes til andre opioidreceptorer ved højere doser. Morfins primære terapeutiske virkning er analgesi. Som for alle fulde opioidagonister er der ingen loftseffekt for analgesi med morfin.« Engelsk originaltekst: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), version af 2026-08-14; hentet 2026-11-19). Morphin er kendt som en µ-opioidreceptoragonist, der dæmper smertesignalering i centralnervesystemet. Myofascielt smertesyndrom har en nociceptiv komponent, og der er derfor en teoretisk mekanistisk forbindelse.
 
 Forbindelsen er dog svag. Opioider anbefales ikke til myofascielle smerter, og den tilgængelige litteratur er indirekte: et program med udstrækningsøvelser, orofaciale smerter, nerveblokader og en sammenligning, hvor morphin indgik som tillægsstof ved infiltration. Der er ikke fundet noget direkte studie af morphin ved denne tilstand.
 
@@ -98,6 +98,18 @@ Evidensniveauet er L5, da intet studie undersøger morphin ved myofascielt smert
 - Data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Vurdering af nytte og risiko sammenlignet med anbefalede ikke-opioide behandlinger
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

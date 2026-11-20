@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **pharyngitis** (score 0,9
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er udarbejdet til denne rapport. Hydromorphon er dog kendt som mu-opioidagonist med central smertestillende effekt. Teoretisk kan det lindre smerte i svælget som symptomatisk behandling.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hydromorphone (uofficiel oversættelse): »Hydromorphon er en fuld opioidagonist og er relativt selektiv for mu-opioidreceptoren, selvom det kan binde til andre opioidreceptorer ved højere doser. Den primære terapeutiske virkning af hydromorphon er analgesi.« Engelsk originaltekst: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d), version af 2026-07-15; hentet 2026-11-19). Hydromorphon er dog kendt som mu-opioidagonist med central smertestillende effekt. Teoretisk kan det lindre smerte i svælget som symptomatisk behandling.
 
 Stoffet har ingen kendt antiinfektiøs eller antiinflammatorisk virkning mod selve pharyngitis. Den meget høje TxGNN-score afspejler sandsynligvis stoffets nærhed i netværket til de oprindelige indikationer (forkølelse og nasopharyngitis) og ikke en valideret mekanisme. Forudsigelsen bør derfor tolkes med stor forsigtighed.
 
@@ -136,6 +136,19 @@ Der findes ingen direkte evidens for hydromorphon ved pharyngitis. De tilgængel
 - Kontrollerede studier, der direkte undersøger hydromorphon (eller anden opioid) ved pharyngitis-smerte versus standardbehandling som paracetamol eller NSAID
 - Vurdering af, om injektionsformen overhovedet er relevant for indikationen (rutekompatibilitet er endnu ikke vurderet)
 - Bemærk: For hovedpine/migræne er evidensen (L1) direkte, men peger på, at hydromorphon er dårligere end ikke-opioide alternativer, og retningslinjerne fraråder generelt opioider. Det er derfor ikke anbefalet som repurposing-mål.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

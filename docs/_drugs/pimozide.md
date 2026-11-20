@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **9 publikationer**, h
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Pimozid er dog kendt som en dopamin D2-receptorantagonist. Dopaminerg dysregulering er impliceret i tvangsmæssig og repetitiv adfærd som hårudrivning.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pimozide (uofficiel oversættelse): »Farmakodynamiske virkninger Pimozid tabletter er et oralt aktivt antipsykotisk lægemiddel, som med andre antipsykotika deler evnen til at blokere dopaminerge receptorer på neuroner i centralnervesystemet. Selvom den nøjagtige virkningsmekanisme ikke er fastlagt, menes pimozids evne til at undertrykke motoriske og vokale tics ved Tourettes syndrom at være en funktion af dets dopaminblokerende aktivitet.« Engelsk originaltekst: "Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity." ([DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280), version af 2026-08-12; hentet 2026-11-19). Pimozid er dog kendt som en dopamin D2-receptorantagonist. Dopaminerg dysregulering er impliceret i tvangsmæssig og repetitiv adfærd som hårudrivning.
 
 Tourettes syndrom, obsessiv-kompulsiv lidelse (OCD) og trikotillomani har overlap i fænomenologi og behandlingsrespons. Tilføjelse af et antipsykotikum til serotonin-genoptagshæmmere (SRI) er en kendt strategi ved behandlingsresistente tilfælde. Et lille studie fra 1992 undersøgte netop lavdosis pimozid som tillæg til SRI ved trikotillomani.
 
@@ -125,6 +125,19 @@ Evidensen for trikotillomani består af ét lille, ældre studie af pimozid som 
 ---
 
 *Øvrige forudsigelser (rang 2–10) er ikke uddybet her: manisk bipolar lidelse (L3, forskningsspørgsmål, primært ældre studier fra 1975–1985), insomni, alvorlig affektiv lidelse, ADHD og ADHD uopmærksom type, agorafobi, faciodigitogenitalt syndrom, Malan overgrowth-syndrom og godartet paroksysmal torticollis hos spædbørn (alle Hold, L4–L5 med svag eller manglende evidens).*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

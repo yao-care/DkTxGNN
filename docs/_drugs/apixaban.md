@@ -54,7 +54,7 @@ Apixaban er en direkte oral hæmmer af koagulationsfaktor Xa (antikoagulans). Tx
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Apixaban er en direkte faktor Xa-hæmmer, som hæmmer koagulationen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Apixaban (uofficiel oversættelse): »Apixaban er en selektiv hæmmer af FXa. Det kræver ikke antitrombin III for antitrombotisk aktivitet. Apixaban hæmmer frit og koagelbundet FXa samt prothrombinaseaktivitet. Apixaban har ingen direkte virkning på trombocytaggregationen, men hæmmer indirekte trombocytaggregation induceret af trombin.« Engelsk originaltekst: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), version af 2026-09-24; hentet 2026-11-19). Apixaban er en direkte faktor Xa-hæmmer, som hæmmer koagulationen.
 
 Sammenhængen til migræne er indirekte. En mulig hypotese er, at migræne med aura er forbundet med højre-til-venstre-shunt (åbent foramen ovale, PFO) og paradoksal mikroemboli, og at trombotiske eller antifosfolipid-relaterede mekanismer kan spille en rolle hos udvalgte patienter. Denne hypotese er ikke bekræftet af kliniske data for apixaban. Den høje TxGNN-score (0,9902) er udelukkende en beregnet forudsigelse og er ikke understøttet af data om klinisk effekt.
 
@@ -115,11 +115,12 @@ Der er ingen undersøgelser, der understøtter apixaban ved migræne; de to kasu
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræp” → “Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltst” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
 
 <!-- review:end log -->
 

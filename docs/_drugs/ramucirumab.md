@@ -60,7 +60,7 @@ Forudsigelsen er **ikke understøttet af kliniske forsøg eller publikationer** 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Ramucirumab er et VEGFR2-antagonist, der hæmmer VEGF-drevet angiogenese (dannelse af nye blodkar i tumoren). Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport, så beskrivelsen bygger på lægemidlets kendte klasse.
+Ramucirumab er et VEGFR2-antagonist, der hæmmer VEGF-drevet angiogenese (dannelse af nye blodkar i tumoren). Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ramucirumab (uofficiel oversættelse): »Ramucirumab er en VEGFR2-antagonist, der specifikt binder VEGFR2 og blokerer bindingen af VEGFR-ligander, VEGF-A, VEGF-C og VEGF-D. Som følge heraf hæmmer ramucirumab ligandstimuleret aktivering af VEGFR2 og hæmmer derved ligandinduceret proliferation og migration af humane endotelceller. Ramucirumab hæmmede angiogenese i en in vivo-dyremodel.« Engelsk originaltekst: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), version af 2026-06-09; hentet 2026-11-19).
 
 Adenokarcinomer i det kvindelige genitalområde kan være afhængige af angiogenese, og der er derfor en biologisk begrundelse for at afprøve VEGFR2-blokade.
 
@@ -141,6 +141,19 @@ Forudsigelsen bygger udelukkende på modellens netværkslighed, uden kliniske fo
 - Data om virkningsmekanisme og vurdering af biologisk lighed med de oprindelige indikationer
 - Gennemgang af advarsler og kontraindikationer i det danske produktresumé (SmPC), som ikke er tilgængelige i de indsamlede data
 - Prækliniske eller eksplorative kliniske data for den forudsagte sygdom, før en egentlig klinisk vurdering kan overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

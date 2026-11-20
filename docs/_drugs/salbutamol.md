@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **papillær konjunktivitis
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Der foreligger ikke i øjeblikket detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Salbutamol tilhører gruppen af beta-2-adrenerge agonister. Dets virkning ved astma og bronkial sygdom er veldokumenteret, og mekanistisk kan det muligvis være relevant for papillær konjunktivitis.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Salbutamol (uofficiel oversættelse): »Salbutamolsulfat er en beta 2 -adrenerg agonist. Salbutamolsulfats farmakologiske virkninger kan tilskrives aktivering af beta 2 -adrenerge receptorer på luftvejenes glatte muskulatur. Aktivering af beta 2 -adrenerge receptorer fører til aktivering af adenylcyclase og til en stigning i den intracellulære koncentration af cyklisk 3',5'-adenosinmonofosfat (cyklisk AMP).« Engelsk originaltekst: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), version af 2024-12-20; hentet 2026-11-19). Salbutamol tilhører gruppen af beta-2-adrenerge agonister. Dets virkning ved astma og bronkial sygdom er veldokumenteret, og mekanistisk kan det muligvis være relevant for papillær konjunktivitis.
 
 En mulig forklaring er, at stimulering af beta-2-receptorer kan stabilisere mastceller og mindske karrenes permeabilitet i bindehinden. Det kunne dæmpe den allergiske inflammation, som kendetegner tilstanden. Det er dog en **spekulativ hypotese**, som de indsamlede data ikke understøtter. Sammenhængen mellem den oprindelige indikation (luftvejssygdom) og den forudsagte (øjenlidelse) er endnu ikke vurderet nærmere.
 
@@ -130,11 +130,12 @@ Forudsigelsen har en høj modelscore, men der findes hverken kliniske forsøg el
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

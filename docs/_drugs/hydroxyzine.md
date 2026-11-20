@@ -59,8 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **Rosacea-konjunkt
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige i de data, der er indsamlet til denne rapport. Hydroxyzin er imidlertid kendt som en H1-receptor-antagonist (invers agonist) af første generation. Histaminfrigivelse fra mastceller er den centrale mediator ved urticaria, så mekanismen er sammenhængende.
-
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hydroxyzine (uofficiel oversættelse): »Hydroxyzin er ikke et kortikalt dæmpende middel, men dets virkning kan skyldes en undertrykkelse af aktiviteten i visse centrale regioner af det subkortikale område af centralnervesystemet. Primær relaksation af skeletmuskulaturen er påvist eksperimentelt.« Engelsk originaltekst: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), version af 2026-11-12; hentet 2026-11-19). Hydroxyzin er imidlertid kendt som en H1-receptor-antagonist (invers agonist) af første generation. Histaminfrigivelse fra mastceller er den centrale mediator ved urticaria, så mekanismen er sammenhængende.
 
 Indirekte støtte kommer fra cetirizin, som er hydroxyzins aktive metabolit, og som er veldokumenteret ved kronisk urticaria og allergisk rhinitis. Den fundne litteratur omhandler dog hovedsageligt cetirizin og andre antihistaminer, ikke hydroxyzin selv. Den høje TxGNN-score er udelukkende en beregningsmæssig forudsigelse.
 
@@ -128,6 +127,19 @@ Se desuden det godkendte produktresumé (SmPC) for fuldstændig sikkerhedsinform
 - Vurdering af, om forudsigelsen overhovedet tilfører noget ud over den allerede godkendte urticaria-indikation
 
 **Bemærkning om øvrige forudsigelser:**
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

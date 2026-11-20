@@ -60,7 +60,7 @@ Amenoré er en kendt bivirkning af implantatet, så scoren stammer fra TxGNN-mod
 
 ## Hvorfor er forudsigelsen rimelig – eller ikke?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Etonogestrel er et potent progestin, som kendes for at hæmme ovulation og fremkalde endometrieatrofi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etonogestrel (uofficiel oversættelse): »Den kontraceptive virkning af NEXPLANON opnås ved hæmning af ægløsning, øget viskositet af cervixslimen og forandringer i endometriet.« Engelsk originaltekst: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), version af 2026-05-28; hentet 2026-11-19). Etonogestrel er et potent progestin, som kendes for at hæmme ovulation og fremkalde endometrieatrofi.
 
 Netop denne virkning gør, at amenoré er en velkendt effekt af implantatet hos en betydelig andel af brugerne. Amenoré er altså en bivirkning eller sekundær effekt af den eksisterende præventionsindikation og ikke et egentligt mål for drug repurposing. At behandle amenoré med et progestin vil desuden være farmakologisk kontraintuitivt. Den høje score (0,9984) kommer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller en behandlingsmæssig fordel.
 
@@ -107,6 +107,19 @@ Forudsigelsen hviler udelukkende på modellen (L5). Der er ingen relevante klini
 - Data om virkningsmekanismen (fx fra DrugBank)
 - Målrettet litteratursøgning efter etonogestrel/progestiner ved godartede brystlidelser, hvis denne retning skal forfølges
 - Vurdering af, om TxGNN-modellens (deep learning) forudsigelse blot afspejler en bivirkningsassociation og ligheder, som modellen har lært mellem beslægtede sygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

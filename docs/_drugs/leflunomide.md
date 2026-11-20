@@ -58,7 +58,7 @@ Leflunomid er oprindeligt anvendt til behandling af **psoriasisgigt** og **ledde
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er derfor ikke muligt at etablere en mekanistisk kobling til den forudsagte indikation ud fra de foreliggende oplysninger.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Leflunomide (uofficiel oversættelse): »Leflunomid er et immunmodulerende isoxazolstof, som hæmmer dihydroorotatdehydrogenase (et mitokondrielt enzym, der indgår i de novo-pyrimidinsyntesen), og som har antiproliferativ aktivitet. Adskillige eksperimentelle modeller in vivo og in vitro har påvist en antiinflammatorisk virkning.« Engelsk originaltekst: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), version af 2025-06-04; hentet 2026-11-19). Det er derfor ikke muligt at etablere en mekanistisk kobling til den forudsagte indikation ud fra de foreliggende oplysninger.
 
 Det er generelt kendt, at leflunomid hæmmer enzymet dihydroorotat-dehydrogenase (DHODH) og dermed pyrimidinsyntesen. Det er imidlertid baggrundsviden og ikke en del af de indsamlede data. Der er ikke fundet dokumentation for, at DHODH-hæmning har relevans for patofysiologien bag dette medfødte syndrom med misdannelser af fingre og tæer.
 
@@ -114,6 +114,19 @@ Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5) uden kl
 - Præklinisk eller mekanistisk evidens, der forbinder DHODH-hæmning eller leflunomids virkning med dette syndroms patofysiologi
 - Systematisk litteratur- og forsøgssøgning samt vurdering af, om en terapeutisk indsats overhovedet er meningsfuld ved et medfødt udviklingssyndrom
 - Vurdering af administrationsvej og målpopulation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

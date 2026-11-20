@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **esophageal varic
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige. Hydroxocobalamin er en cobalamin (vitamin B12-form), hvis effekt ved B12-mangel og cyanidforgiftning er veletableret. Den kan binde cyanid, og det er desuden kendt, at den kan binde nitrogenoxid (NO) og hydrogensulfid.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hydroxocobalamin (uofficiel oversættelse): »Cyanid er en ekstremt toksisk gift. Uden hurtig og tilstrækkelig behandling kan eksponering for en høj dosis cyanid medføre død inden for minutter på grund af hæmning af cytokromoxidase, hvilket resulterer i ophør af cellulær respiration. […] Hvert hydroxocobalaminmolekyle kan binde én cyanidion ved at erstatte hydroxoliganden, der er bundet til den trivalente koboltion, med denne, hvorved der dannes cyanocobalamin, som derefter udskilles i urinen.« Engelsk originaltekst: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), version af 2023-04-27; hentet 2026-11-19). Hydroxocobalamin er en cobalamin (vitamin B12-form), hvis effekt ved B12-mangel og cyanidforgiftning er veletableret. Den kan binde cyanid, og det er desuden kendt, at den kan binde nitrogenoxid (NO) og hydrogensulfid.
 
 Teoretisk kunne en binding af NO påvirke karudvidelse i mave-tarm-området og i portalkredsløbet, som spiller en rolle ved portal hypertension og åreknuder i spiserøret. Dette er imidlertid spekulativt, og der er ikke fremlagt data, som understøtter en egentlig mekanistisk sammenhæng mellem de oprindelige indikationer og esophageal varices.
 
@@ -116,6 +116,19 @@ Forudsigelsen bygger kun på en computermodel (L5) uden kliniske forsøg, uden l
 - Gennemgang af produktresumeet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) og den godkendte indikationstekst
 - Systematisk litteratursøgning og prækliniske studier af NO-binding og portalt tryk
 - Vurdering af ruteegnethed og sikkerhed ved hypertension/portal hypertension, før der overvejes kliniske forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

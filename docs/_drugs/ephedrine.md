@@ -60,7 +60,7 @@ men der er kun **0 registrerede kliniske forsøg** og **2 ældre publikationer m
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ephedrin er et blandet virkende sympatomimetikum: det stimulerer direkte alfa- og beta-adrenerge receptorer og frigiver desuden noradrenalin indirekte. Detaljerede data om virkningsmekanisme foreligger ikke i de data, der er indsamlet til denne rapport, så vurderingen bygger på generel farmakologi.
+Ephedrin er et blandet virkende sympatomimetikum: det stimulerer direkte alfa- og beta-adrenerge receptorer og frigiver desuden noradrenalin indirekte. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ephedrine (uofficiel oversættelse): »Ephedrinsulfat er et sympatomimetisk amin, der direkte virker som agonist på α- og β-adrenerge receptorer og indirekte forårsager frigivelse af noradrenalin fra sympatiske neuroner. Pressoreffekter ved direkte aktivering af alfa- og beta-adrenerge receptorer medieres af stigninger i arterietryk, minutvolumen og perifer modstand.« Engelsk originaltekst: "Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance." ([DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f), version af 2024-09-16; hentet 2026-11-19).
 
 Alfa-1-medieret vasokonstriktion i næseslimhindens kar kan mindske tilstopning og ødem, hvilket er mekanistisk plausibelt ved sygdomme i næsehulen. Den forudsagte indikation overlapper i høj grad med de allerede kendte anvendelser (allergisk rhinitis, vasomotorisk rhinitis og rhinitis). Der er derfor mere tale om en udvidelse af eksisterende anvendelse end en ægte repurposing.
 
@@ -123,6 +123,19 @@ Forudsigelsen er mekanistisk plausibel, men der er ingen kliniske forsøg og kun
 ---
 
 *Bemærk: To øvrige forudsigelser (akut laryngopharyngitis, score 0,9990, og trigeminal autonom cephalalgi, score 0,9934) har kun evidensniveau L5 uden forsøg eller litteratur og anbefales også sat på hold. Ved trigeminal autonom cephalalgi kan ephedrins pressor- og stimulerende virkning desuden potentielt forværre hovedpine.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

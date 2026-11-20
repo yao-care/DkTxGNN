@@ -60,7 +60,7 @@ men evidensen er svag: der er **ingen registrerede kliniske forsøg** og kun **2
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de indsamlede data. Deferiprone er dog en oral jernchelator, og dens effekt ved jernoverskud er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Deferiprone (uofficiel oversættelse): »Deferipron er et chelerende stof med affinitet for ferri-ioner (jern III). Deferipron binder sig til ferri-ioner og danner neutrale 3:1-komplekser (deferipron:jern), som er stabile ved fysiologisk pH.« Engelsk originaltekst: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), version af 2026-01-28; hentet 2026-11-19). Deferiprone er dog en oral jernchelator, og dens effekt ved jernoverskud er veletableret.
 
 Ved visse former for porfyri, f.eks. porphyria cutanea tarda og uroporfyri, fremmer jern i leveren hæmning af uroporfyrinogen-decarboxylase og dermed ophobning af porfyriner. Reduktion af det labile jern kan i princippet mindske porfyrindannelsen.
 
@@ -116,6 +116,19 @@ Forudsigelsen bygger kun på modelscore og to prækliniske musestudier, og der e
 - Kliniske data hos patienter med jernfølsom porfyri, f.eks. porphyria cutanea tarda
 - Afklaring af, hvilke porfyri-undertyper der er jernafhængige
 - Plan for sikkerhedsmonitorering, herunder håndtering af interaktioner med mineraler og syrebindende midler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

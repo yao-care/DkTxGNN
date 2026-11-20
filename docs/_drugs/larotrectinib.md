@@ -58,7 +58,7 @@ Larotrectinib er en selektiv TRK-hæmmer (NTRK1/2/3), som er markedsført i Danm
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Larotrectinib er dog kendt som en selektiv hæmmer af TRK-kinaserne (NTRK1/2/3), og dets effekt er knyttet til tumorer med NTRK-genfusioner.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Larotrectinib (uofficiel oversættelse): »Larotrectinib er en hæmmer af tropomyosinreceptorkinaserne (TRK) TRKA, TRKB og TRKC. I et bredt panel af assays med oprensede enzymer hæmmede larotrectinib TRKA, TRKB og TRKC med IC 50 -værdier mellem 5-11 nM. Én anden kinase, TNK2, blev hæmmet ved en ca. 100 gange højere koncentration.« Engelsk originaltekst: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), version af 2026-05-22; hentet 2026-11-19). Larotrectinib er dog kendt som en selektiv hæmmer af TRK-kinaserne (NTRK1/2/3), og dets effekt er knyttet til tumorer med NTRK-genfusioner.
 
 Multipel endokrin neoplasi (især MEN2) drives hovedsageligt af aktiverende kimbaneforandringer i RET-genet, ikke af NTRK-fusioner. Der er derfor ingen direkte mekanistisk overlapning. Koblingen er indirekte: Litteraturen omtaler kinasehæmmere ved RET-drevet skjoldbruskkirtelkræft (fx medullært thyreoideakarcinom ved MEN2) og resistensmekanismer over for selektiv RET-hæmning, hvor omgåelsessignalering via andre receptortyrosinkinaser muligvis kan involvere TRK-veje.
 
@@ -134,6 +134,19 @@ Der er ingen direkte klinisk evidens for larotrectinib ved multipel endokrin neo
 ## Supplerende forudsigelse (rang 2): HER2-positiv brystkræft
 
 TxGNN forudsiger også en score på 0,9914 for **HER2-positivt brystkarcinom**, men evidensen er endnu svagere (evidensniveau L4, anbefaling: **Hold**). Der er ingen registrerede kliniske forsøg. Litteraturen omfatter en case-rapport om sekretorisk brystkarcinom (ETV6-NTRK3-fusion, [PMID 42147998](https://pubmed.ncbi.nlm.nih.gov/42147998/)), som er en særskilt, overvejende HER2-negativ undertype, samt en prækliniske undersøgelse af TrkA/JAK2-co-hæmning med entrectinib og pacritinib ([PMID 38852701](https://pubmed.ncbi.nlm.nih.gov/38852701/)). Intet tyder på, at larotrectinib virker på HER2-drevne tumorer uden NTRK-fusion.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

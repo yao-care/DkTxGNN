@@ -60,7 +60,7 @@ Bemærk: Rangeringen i dataene placerer "medfødt protrombinmangel" som nr. 1, m
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den kendte litteratur frigør desmopressin von Willebrand-faktor (VWF) og faktor VIII fra endotelet, forbedrer blodpladernes adhæsion og forkorter blødningstiden.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Desmopressin (uofficiel oversættelse): »Desmopressinacetat øger plasmaniveauet af faktor VIII-aktivitet hos patienter med hæmofili og von Willebrands sygdom type I. De antidiuretiske virkninger af desmopressinacetat medieres ved stimulation af vasopressin 2 (V2)-receptorer, hvorved reabsorptionen af vand i nyren øges, og urinproduktionen dermed reduceres. Desmopressinacetat er et erstatningshormon for antidiuretisk hormon i behandlingen af central diabetes insipidus.« Engelsk originaltekst: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), version af 2022-09-28; hentet 2026-11-19). Ud fra den kendte litteratur frigør desmopressin von Willebrand-faktor (VWF) og faktor VIII fra endotelet, forbedrer blodpladernes adhæsion og forkorter blødningstiden.
 
 Ved frigørelsesforstyrrelser og lagerpoolsygdomme er blodpladernes sekundære aktivering nedsat. Desmopressin synes at kunne forbedre den primære hæmostase hos nogle patienter. Virkningen kan ikke alene forklares ved stigningen i VWF/FVIII, da VWF/FVIII-koncentrater ikke har samme effekt. En undersøgelse peger på, at VWF bundet til mikropartikler efter desmopressin kan bidrage.
 
@@ -145,11 +145,12 @@ Forudsigelsen er mekanistisk plausibel og understøttes af små observationelle 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.” → “Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enke” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
 
 <!-- review:end log -->
 

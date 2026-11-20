@@ -58,7 +58,7 @@ Allopurinol er en xanthinoxidasehæmmer, som oprindeligt bruges mod urinsyregigt
 
 ## Hvorfor kan forudsigelsen give mening?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at allopurinol hæmmer xanthinoxidase og dermed nedsætter dannelsen af urinsyre. Det er den veletablerede grund til brugen ved urinsyregigt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Allopurinol (uofficiel oversættelse): »Allopurinol er en strukturel analog af den naturlige purinbase hypoxanthin. Allopurinol og dets metabolit oxypurinol hæmmer xanthinoxidase, det enzym, der er ansvarligt for omdannelsen af hypoxanthin til xanthin og af xanthin til urinsyre, slutproduktet af purinmetabolismen hos mennesker.« Engelsk originaltekst: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), version af 2022-02-18; hentet 2026-11-19). Det er kendt, at allopurinol hæmmer xanthinoxidase og dermed nedsætter dannelsen af urinsyre. Det er den veletablerede grund til brugen ved urinsyregigt.
 
 Den forudsagte sammenhæng med hepatisk porfyri er indirekte. Der er i prækliniske sammenhænge beskrevet, at allopurinol kan påvirke hepatisk hæm-metabolisme, hvilket giver en mulig, men ubekræftet forbindelse til hæm-syntesen, som er forstyrret ved porfyri. Allopurinol er ikke en etableret behandling af porfyri, og den høje score er en beregningsmæssig forudsigelse.
 
@@ -125,11 +125,12 @@ Forudsigelsen bygger kun på en beregningsmodel. Der er ingen kliniske forsøg o
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” → “Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofp” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->
 

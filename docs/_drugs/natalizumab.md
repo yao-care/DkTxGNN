@@ -60,7 +60,7 @@ men der er i øjeblikket **ingen kliniske forsøg** og **ingen publikationer**, 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Natalizumab er kendt for at blokere alfa-4-integrin-medieret transport af leukocytter (hvide blodlegemer) ind i væv. Denne mekanisme er relevant ved de oprindelige indikationer, hvor betændelsesceller trænger ind i henholdsvis tarm og centralnervesystem.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Natalizumab (uofficiel oversættelse): »Natalizumab binder sig til α4-subenheden af α4β1- og α4β7-integriner, som udtrykkes på overfladen af alle leukocytter undtagen neutrofile, og hæmmer den α4-medierede adhæsion af leukocytter til deres modreceptor(er). Receptorerne for α4-familien af integriner omfatter vaskulært celleadhæsionsmolekyle-1 (VCAM-1), som udtrykkes på aktiveret vaskulært endotel, og mukosalt addressin-celleadhæsionsmolekyle-1 (MAdCAM-1), som findes på vaskulære endotelceller i mave-tarm-kanalen.« Engelsk originaltekst: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), version af 2026-10-09; hentet 2026-11-19). Natalizumab er kendt for at blokere alfa-4-integrin-medieret transport af leukocytter (hvide blodlegemer) ind i væv. Denne mekanisme er relevant ved de oprindelige indikationer, hvor betændelsesceller trænger ind i henholdsvis tarm og centralnervesystem.
 
 Den mekanistiske tanke bag forudsigelsen er, at en reduceret rekruttering af inflammatoriske celler til luftvejsvæv teoretisk kunne dæmpe bronkitis. Der er dog hverken kliniske eller litteraturbaserede holdepunkter for dette, og lægemidlets immunsupprimerende virkning kan tværtimod øge risikoen for luftvejsinfektioner. TxGNN-scoren (0,9946) er en ren beregningsmæssig forudsigelse.
 
@@ -122,6 +122,18 @@ Forudsigelsen for bronkitis bygger udelukkende på en beregningsmodel uden klini
 | Psoriasis | 0,9919 | L4 | Forskningsspørgsmål | Modstridende litteratur: en serie på 18 patienter viser bedring (PMID 33589543), mens flere case-rapporter beskriver udløsning eller forværring |
 | Svær non-proliferativ diabetisk retinopati | 0,9918 | L5 | Hold | Ingen evidens; PML-risiko gør risiko-nytte-forholdet ugunstigt |
 | Akut lichenoid pityriasis | 0,9904 | L5 | Hold | Kun den samme case-rapport (PMID 32470781), som beskriver en bivirkning |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -60,7 +60,7 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (1 oversig
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Miconazol hæmmer svampeenzymet CYP51 (lanosterol 14-alfa-demethylase) og dermed syntesen af ergosterol, som er afgørende for svampens cellemembran. Detaljerede data om virkningsmekanisme fra lægemiddeldatabasen mangler, så mekanismen ovenfor bygger på almen viden om imidazolklassen, og en egentlig kontrol af, om mekanismen passer til akne, har ikke kunnet gennemføres.
+Miconazol hæmmer svampeenzymet CYP51 (lanosterol 14-alfa-demethylase) og dermed syntesen af ergosterol, som er afgørende for svampens cellemembran. Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Miconazole (uofficiel oversættelse): »Miconazol er et antimykotikum. […] Miconazol hæmmer enzymet cytokrom P450 14α-demethylase, hvilket fører til hæmning af syntesen af ergosterol, en essentiel bestanddel af svampecellemembranen. Miconazol påvirker også syntesen af triglycerider og fedtsyrer og hæmmer oxidative og peroxidative enzymer, hvilket øger mængden af reaktive iltforbindelser i cellen.« Engelsk originaltekst: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), version af 2026-01-08; hentet 2026-11-19).
 
 Der er tre mulige veje til akne:
 1. **Antibakteriel aktivitet:** In vitro-studiet (PMID 20045949) undersøgte azolers aktivitet mod *Cutibacterium (Propionibacterium) acnes*, som er den bakterie, der forbindes med akne. Det er relevant i lyset af stigende antibiotikaresistens.
@@ -126,6 +126,19 @@ Forudsigelsen understøttes kun af en oversigtsartikel, et lille klinisk studie 
 - Vurdering af, om formuleringen er forenelig med akne: den danske godkendelse er en mundhulegel, og egnede lokale hudformuleringer skal afklares
 - Kontrollerede kliniske studier af miconazol ved akne vulgaris, med skelnen fra Malassezia-folliculitis
 - Vurdering af interaktionsrisiko og betydning af leversygdom for den tilsigtede brug
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

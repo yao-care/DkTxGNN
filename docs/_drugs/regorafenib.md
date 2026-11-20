@@ -59,7 +59,7 @@ Regorafenib er en oral multikinasehæmmer, der er knyttet til metastaserende tyk
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i den indsamlede datamængde. Ifølge de medfølgende oversigtsartikler er regorafenib en oral multikinasehæmmer, der rammer angiogene (VEGFR1-3, TIE2), stromale (PDGFR-β, FGFR) og onkogene kinaser (KIT, RET, RAF). Disse signalveje bidrager til tumorvækst og karnydannelse i bløddelssarkomer, hvilket giver et plausibelt mekanistisk grundlag.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Regorafenib (uofficiel oversættelse): »Regorafenib er en småmolekylær hæmmer af adskillige membranbundne og intracellulære kinaser, der er involveret i normale cellulære funktioner og i patologiske processer såsom onkogenese, tumorangiogenese, metastasering og tumorimmunitet. I biokemiske eller cellulære in vitro-assays hæmmede regorafenib eller dets vigtigste humane aktive metabolitter M-2 og M-5 aktiviteten af RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alfa, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl og CSF1R ved koncentrationer af regorafenib, der er opnået klinisk.« Engelsk originaltekst: "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), version af 2026-02-09; hentet 2026-11-19). Ifølge de medfølgende oversigtsartikler er regorafenib en oral multikinasehæmmer, der rammer angiogene (VEGFR1-3, TIE2), stromale (PDGFR-β, FGFR) og onkogene kinaser (KIT, RET, RAF). Disse signalveje bidrager til tumorvækst og karnydannelse i bløddelssarkomer, hvilket giver et plausibelt mekanistisk grundlag.
 
 Forudsigelsen og scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -133,6 +133,19 @@ Modelscoren er meget høj, og der findes et afsluttet fase 2-forsøg (SARC024). 
 - Produktresuméet (SmPC) fra Lægemiddelstyrelsen med advarsler og kontraindikationer samt godkendte indikationer.
 - Nye forsøg, f.eks. kombinationsbehandlinger eller biomarkørbaseret udvælgelse, før en egentlig repurposing-vurdering er mulig.
 - Bemærk, at flere andre forudsigelser (f.eks. klarcellet nyrecellekarcinom) har mere støtte i form af fase 2-data og kan være mere lovende at undersøge nærmere.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

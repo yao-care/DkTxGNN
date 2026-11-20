@@ -58,7 +58,7 @@ Rivastigmin er en kolinesterasehæmmer, der oprindeligt anvendes til behandling 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Rivastigmin er imidlertid kendt som en hæmmer af både acetylkolinesterase og butyrylkolinesterase. Nedenstående mekanisme er udledt af lægemiddelklassen og ikke hentet fra de leverede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rivastigmine (uofficiel oversættelse): »Selvom rivastigmins præcise virkningsmekanisme er ukendt, menes det at udøve sin terapeutiske virkning ved at forstærke den kolinerge funktion. Dette opnås ved at øge koncentrationen af acetylkolin gennem reversibel hæmning af dets hydrolyse ved kolinesterase.« Engelsk originaltekst: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), version af 2025-11-11; hentet 2026-11-19). Rivastigmin er imidlertid kendt som en hæmmer af både acetylkolinesterase og butyrylkolinesterase. Nedenstående mekanisme er udledt af lægemiddelklassen og ikke hentet fra de leverede data.
 
 Ved at øge kolinerg tonus i øjet kan en kolinesterasehæmmer øge afstrømningen af kammervand via ciliarmuskulaturens sammentrækning og effekter på trabekelværket. Dette kan sænke det intraokulære tryk (IOP), som er den vigtigste modificerbare risikofaktor ved glaukom.
 
@@ -117,6 +117,19 @@ Der er kun præklinisk evidens (kaninstudie) og indirekte reviews, og ingen klin
 - Yderligere prækliniske data om okulær farmakologi og sikkerhed, herunder egnede topiske formuleringer
 - Vurdering af, om der findes kliniske forsøg (fase 1/2) med lokal øjenbehandling
 - Analyse af den relevante administrationsvej, da den nuværende danske formulering (depotplaster) ikke er egnet til glaukom
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

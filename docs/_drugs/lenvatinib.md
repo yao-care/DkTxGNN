@@ -56,7 +56,7 @@ Evidensen består af **1 klinisk forsøg** (et enkeltarmet fase Ib/II-studie i k
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om lenvatinibs virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra almen viden er lenvatinib en multikinasehæmmer, der blokerer VEGFR1-3, FGFR1-4, PDGFRα, RET og KIT. Det hæmmer tumorens angiogenese og vækstsignalering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lenvatinib (uofficiel oversættelse): »Lenvatinib er en kinasehæmmer, som hæmmer kinaseaktiviteten af vaskulær endotelvækstfaktor (VEGF)-receptorerne VEGFR1 (FLT1), VEGFR2 (KDR) og VEGFR3 (FLT4). Lenvatinib hæmmer andre kinaser, som ud over deres normale cellulære funktioner er blevet sat i forbindelse med patogen angiogenese, tumorvækst og cancerprogression, herunder fibroblastvækstfaktor (FGF)-receptorerne FGFR1, 2, 3 og 4, trombocytafledt vækstfaktorreceptor alfa (PDGFRA), KIT og RET.« Engelsk originaltekst: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), version af 2026-10-14; hentet 2026-11-19). Ud fra almen viden er lenvatinib en multikinasehæmmer, der blokerer VEGFR1-3, FGFR1-4, PDGFRα, RET og KIT. Det hæmmer tumorens angiogenese og vækstsignalering.
 
 Liposarkom og andre bløddelssarkomer er ofte stærkt vaskulariserede og kan afhænge af FGFR- og PDGFR-signalering. Det gør en anti-angiogen multikinasehæmmer mekanistisk relevant. I det kliniske forsøg kombineres lenvatinib med eribulin, en mikrotubulihæmmer, så kombinationen giver supplerende cytotoksiske og anti-angiogene effekter. Eribulin har i prækliniske studier vist kombinationsaktivitet med andre kræftlægemidler.
 
@@ -104,6 +104,18 @@ Et afsluttet enkeltarmet fase Ib/II-studie med publicerede resultater understøt
 - Data om virkningsmekanisme fra DrugBank
 - Gennemgang af produktresuméet (SmPC) for advarsler og kontraindikationer
 - Plan for sikkerhedsmonitorering, herunder håndtering af interaktioner med QT-forlængende lægemidler (fx dolasetron, cisaprid)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

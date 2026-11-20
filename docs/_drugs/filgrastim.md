@@ -60,7 +60,7 @@ Forudsigelsen er derfor udelukkende modelbaseret.
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Filgrastim er dog en rekombinant granulocyt-kolonistimulerende faktor, som virker via G-CSF-receptoren og primært fremmer dannelse, modning og frigivelse af neutrofile granulocytter.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Filgrastim (uofficiel oversættelse): »Kolonistimulerende faktorer er glykoproteiner, som virker på hæmatopoietiske celler ved at bindes til specifikke receptorer på celleoverfladen og stimulere proliferation, differentieringsforpligtelse og en vis funktionel aktivering af de færdigudviklede celler. Endogen G-CSF er en linjespecifik kolonistimulerende faktor, som produceres af monocytter, fibroblaster og endotelceller.« Engelsk originaltekst: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), version af 2026-11-10; hentet 2026-11-19). Filgrastim er dog en rekombinant granulocyt-kolonistimulerende faktor, som virker via G-CSF-receptoren og primært fremmer dannelse, modning og frigivelse af neutrofile granulocytter.
 
 Primær frigørelsesforstyrrelse af blodplader er en iboende defekt i blodpladernes funktion. Der er ikke identificeret nogen mekanistisk forbindelse mellem G-CSF-signalering og denne tilstand, og lægemidlet forventes ikke at rette en intern blodpladedefekt. Den høje score afspejler et grafbaseret mønster uden understøttende kliniske data eller litteratur.
 
@@ -113,6 +113,19 @@ Forudsigelsen er udelukkende modelbaseret (L5). Der findes hverken forsøg eller
 - Præklinisk eller klinisk evidens, der direkte undersøger sygdommen
 - Gennemgang af produktresuméets advarsler og kontraindikationer, som ikke var tilgængelige i de indsamlede data
 - Overvejelse af, om andre lægemiddelklasser (f.eks. trombopoietinreceptoragonister) er mere relevante for blodpladesygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

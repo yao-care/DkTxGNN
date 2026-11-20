@@ -60,7 +60,7 @@ Forudsigelsen er derfor primært modelbaseret og hypotesegenererende.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Chlorzoxazon er kendt som et centralt virkende muskelafslappende middel, og litteraturen beskriver desuden, at det kan aktivere Ca²⁺-afhængige K⁺-kanaler (SK/IK/BK).
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Chlorzoxazone (uofficiel oversættelse): »Data fra dyreforsøg samt humane studier indikerer, at chlorzoxazon primært virker på niveau med rygmarven og subkortikale områder af hjernen, hvor det hæmmer multisynaptiske refleksbuer, der er involveret i at fremkalde og opretholde skeletmuskelspasmer af forskellig ætiologi. Det kliniske resultat er en reduktion af skeletmuskelspasmerne med smertelindring og øget bevægelighed af de involverede muskler.« Engelsk originaltekst: "Data available from animal experiments as well as human study indicate that chlorzoxazone acts primarily at the level of the spinal cord and subcortical areas of the brain where it inhibits multisynaptic reflex arcs involved in producing and maintaining skeletal muscle spasm of varied etiology. The clinical result is a reduction of the skeletal muscle spasm with relief of pain and increased mobility of the involved muscles." ([DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb), version af 2026-10-05; hentet 2026-11-19). Chlorzoxazon er kendt som et centralt virkende muskelafslappende middel, og litteraturen beskriver desuden, at det kan aktivere Ca²⁺-afhængige K⁺-kanaler (SK/IK/BK).
 
 Det eneste mekanistisk relevante studie er et præklinisk musestudie (PMID 23115190), hvor aktivatorer af Ca²⁺-afhængige K⁺-kanaler lindrede cerebellar ataksi forårsaget af øgede CaV2.1-strømme. Mutationer i CACNA1A (CaV2.1) er også forbundet med familiær hemiplegisk migræne, hvilket giver en plausibel, men indirekte kobling til migræne.
 
@@ -120,6 +120,19 @@ Forudsigelsen for migræne har en høj modelscore, men evidensen består kun af 
 - Yderligere prækliniske studier, der direkte undersøger chlorzoxazon i migrænemodeller (CaV2.1/K⁺-kanal-hypotesen)
 - Vurdering af leverrisiko og interaktioner (især opioider, alkohol) før eventuelle kliniske forsøg
 - Et pilotforsøg (fase 2) ved migræne, hvis den prækliniske evidens styrkes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: chlorzoxazone prescribing information, Solubiomix](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c3d40a90-6df8-4b44-bc61-d7655c52bacb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

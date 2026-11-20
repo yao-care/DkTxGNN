@@ -60,7 +60,7 @@ Bemærk: Der er yderligere to forudsagte indikationer i de data, der er udarbejd
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Oplysninger om olanzapins virkningsmekanisme er ikke tilgængelige i de data, der er udarbejdet til denne rapport. Olanzapin er kendt som et atypisk antipsykotikum med antagonisme af serotonin- og dopaminreceptorer, men denne rapport kan ikke krydstjekke mekanismen mod datagrundlaget.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Olanzapine (uofficiel oversættelse): »Virkningsmekanismen for olanzapin ved de anførte indikationer er uklar. Olanzapins virkning ved skizofreni kan dog være medieret gennem en kombination af dopamin- og serotonin type 2 (5HT 2 )-antagonisme.« Engelsk originaltekst: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), version af 2026-10-26; hentet 2026-11-19). Olanzapin er kendt som et atypisk antipsykotikum med antagonisme af serotonin- og dopaminreceptorer, men denne rapport kan ikke krydstjekke mekanismen mod datagrundlaget.
 
 Godartet paroksysmal torticollis hos spædbørn er en sjælden, selvlimiterende børnesygdom, som formodes at høre til migrænespektret og kan have forbindelse til kanalopatier (fx CACNA1A). Et mekanistisk link til olanzapin via dopaminerg eller serotonerg modulation er mulig, men spekulativt. Forudsigelsen hviler udelukkende på modellens score.
 
@@ -121,6 +121,19 @@ Den primære forudsigelse (godartet paroksysmal torticollis hos spædbørn) stø
 - Advarsler og kontraindikationer fra det danske produktresumé (blokerende datamangel for sikkerhedsscreening)
 - Godkendt indikationstekst for Farpenta
 - Hvis agorafobi forfølges: en systematisk litteraturgennemgang og eventuelt et kontrolleret studie med fokus på agorafobi samt en metabolisk overvågningsplan
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -58,7 +58,7 @@ Tamoxifen er et hormonmodulerende lægemiddel, som i den viden, der er indsamlet
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om tamoxifens virkningsmekanisme i de data, der er indsamlet til denne rapport. Tamoxifen er kendt som en anti-østrogen (hormonreceptormodulator), og relationen til brystkræft er registreret i vidensgrafen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tamoxifen (uofficiel oversættelse): »Tamoxifen er en østrogenagonist/-antagonist. Tamoxifen konkurrerer med østrogen om binding til østrogenreceptoren, hvilket kan resultere i en reduktion af østrogenreceptorsignaleringsafhængig vækst i brystvæv. Tamoxifen har vist antitumoraktivitet mod humane brystkræftcellelinjer xenotransplanteret i mus.« Engelsk originaltekst: "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), version af 2021-11-29; hentet 2026-11-19). Tamoxifen er kendt som en anti-østrogen (hormonreceptormodulator), og relationen til brystkræft er registreret i vidensgrafen.
 
 Mammær Pagets sygdom er næsten altid forbundet med underliggende duktalt carcinoma in situ eller invasivt duktalt karcinom, som ofte er hormonreceptorpositivt. Derfor er det mekanistisk plausibelt, at en anti-østrogen behandling kan være relevant. Den høje score afspejler sandsynligvis den tætte nærhed til tamoxifens eksisterende brystkræftanvendelse.
 
@@ -140,6 +140,19 @@ Der foreligger ikke produktresumé-baserede advarsler og kontraindikationer i de
 - Verifikation af vidensgrafens kontraindikationer og de alvorlige interaktioner mod produktresuméet.
 
 *Bemærk: De øvrige forudsigelser (Ehrlich tumorkarcinom, en musemodel uden human indikation, og botryoid embryonalt rhabdomyosarkom i vagina uden fundet evidens) er evidensniveau L5 og anbefales ikke fulgt op (Hold).*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

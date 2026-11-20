@@ -54,7 +54,7 @@ Clonidin er en alfa-2-adrenerg agonist, som dæmper noradrenerg aktivitet i cent
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Clonidin er kendt som en alfa-2-adrenerg agonist, der nedsætter sympatisk aktivitet og noradrenerg transmission.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clonidine (uofficiel oversættelse): »Clonidin stimulerer alfa-adrenoreceptorer i hjernestammen. Denne virkning medfører et reduceret sympatisk output fra centralnervesystemet samt fald i den perifere modstand, den renale vaskulære modstand, hjertefrekvensen og blodtrykket.« Engelsk originaltekst: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), version af 2026-08-12; hentet 2026-11-19). Clonidin er kendt som en alfa-2-adrenerg agonist, der nedsætter sympatisk aktivitet og noradrenerg transmission.
 
 Der er ikke fundet en tydelig mekanistisk sammenhæng mellem alfa-2-agonisme og faciodigitogenitalt syndrom, som er en sjælden udviklingsforstyrrelse. Den meget høje score er en rent beregnet forudsigelse, og den bør ikke tolkes som tegn på klinisk effekt. Forudsigelsen er derfor spekulativ og ikke understøttet af de foreliggende data.
 
@@ -96,6 +96,19 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5). Der er hverken
 - Præklinisk eller klinisk evidens, der direkte undersøger faciodigitogenitalt syndrom
 - Gennemgang af produktresuméets advarsler og kontraindikationer for Caruxin
 - Vurdering af, om injektionsformen er egnet til en eventuel ny anvendelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

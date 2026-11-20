@@ -58,7 +58,7 @@ Febuxostat er en xanthinoxidasehæmmer, som oprindeligt anvendes til behandling 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er ikke tilgængelige i de indsamlede data. Febuxostat er dog kendt som en ikke-purin selektiv hæmmer af xanthinoxidase, som sænker serumurinsyre. Det er effektivt ved hyperurikæmi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Febuxostat (uofficiel oversættelse): »ULORIC, en xanthinoxidasehæmmer, opnår sin terapeutiske virkning ved at nedsætte urinsyre i serum. ULORIC forventes ikke at hæmme andre enzymer involveret i purin- og pyrimidinsyntese og -metabolisme ved terapeutiske koncentrationer.« Engelsk originaltekst: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), version af 2025-12-24; hentet 2026-11-19). Febuxostat er dog kendt som en ikke-purin selektiv hæmmer af xanthinoxidase, som sænker serumurinsyre. Det er effektivt ved hyperurikæmi.
 
 Renal hypourikæmi er en tilstand med i forvejen lav urinsyre i blodet, forårsaget af tab af funktion i urinsyretransportørerne URAT1/GLUT9. En yderligere sænkning af urinsyre er derfor mekanistisk set kontraintuitiv og potentielt skadelig. Den eneste tænkelige kobling findes i litteraturen om xanthinoxidoreduktasehæmmere til forebyggelse af træningsudløst akut nyreskade (EIAKI) hos patienter med renal hypourikæmi. Det er et forebyggende koncept og ikke behandling af selve hypourikæmien.
 
@@ -142,6 +142,19 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige advarsler og 
 - Verifikation af registerposten for NCT04398251 (tilstand, intervention og design)
 - Kontrollerede studier eller større opfølgningsdata, hvis forebyggelse af EIAKI ved renal hypourikæmi skal forfølges
 - For HPRT-relaterede indikationer: sammenlignende data med allopurinol og et overvågningsprogram for xanthinnefropati/nyresten
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

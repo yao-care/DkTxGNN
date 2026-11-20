@@ -56,7 +56,7 @@ Denne rapport fokuserer på TIA, som er den forudsigelse, der har direkte eviden
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Ud fra generel farmakologisk viden hæmmer dipyridamol blodpladernes aggregation ved at blokere genoptagelsen af adenosin og hæmme fosfodiesterase. Det øger cAMP/cGMP og adenosinsignalering og giver også en karudvidende effekt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dipyridamole (uofficiel oversættelse): »Dipyridamol hæmmer optagelsen af adenosin i trombocytter, endotelceller og erytrocytter in vitro og in vivo; hæmningen sker dosisafhængigt ved terapeutiske koncentrationer (0,5 til 1,9 mcg/ml). Denne hæmning medfører en stigning i de lokale koncentrationer af adenosin, som virker på trombocytternes A 2 -receptor og derved stimulerer trombocytternes adenylatcyclase og øger trombocytternes niveauer af cyklisk 3',5'-adenosinmonofosfat (cAMP).« Engelsk originaltekst: "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5), version af 2026-04-29; hentet 2026-11-19). Ud fra generel farmakologisk viden hæmmer dipyridamol blodpladernes aggregation ved at blokere genoptagelsen af adenosin og hæmme fosfodiesterase. Det øger cAMP/cGMP og adenosinsignalering og giver også en karudvidende effekt.
 
 Atrieflimren og TIA hænger tæt sammen i klinikken, da begge er knyttet til tromboemboliske hændelser i hjernen. Antiplatelet-virkningen er biologisk plausibel til forebyggelse af gentagne iskæmiske hændelser. Litteraturen beskriver kombinationen af acetylsalicylsyre og dipyridamol som en anerkendt mulighed ved sekundær forebyggelse efter iskæmisk apopleksi eller TIA, når der ikke foreligger atrieflimren. Det er derfor snarere en veletableret anvendelse end et nyt repurposing-fund. De danske tilladelser indeholder dog ingen indikationstekst, så en godkendt indikation kan ikke bekræftes ud fra de foreliggende data.
 
@@ -108,6 +108,19 @@ Et stort, afsluttet fase 4-forsøg (ESPRIT, n=4.500) og flere metaanalyser og Co
 - Hentning og gennemgang af produktresuméerne (SmPC) for de to danske produkter, så godkendt indikation, kontraindikationer og advarsler kan bekræftes
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af interaktionsbyrden (451 registrerede interaktioner), især med andre blodpladehæmmende og antikoagulerende lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

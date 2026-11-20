@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt ved **Ewing-sarkom** (det 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i datamaterialet. Etoposid er dog kendt som en topoisomerase II-hæmmer, der forårsager DNA-dobbeltstrengsbrud og dermed hæmmer celledeling i hurtigt prolifererende kræftceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etoposide (uofficiel oversættelse): »Etoposid forårsager induktion af DNA-strengbrud ved en interaktion med DNA-topoisomerase II eller dannelse af frie radikaler, hvilket fører til standsning af cellecyklussen, primært i cellecyklussens G2-fase, og celledød.« Engelsk originaltekst: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), version af 2026-10-07; hentet 2026-11-19). Etoposid er dog kendt som en topoisomerase II-hæmmer, der forårsager DNA-dobbeltstrengsbrud og dermed hæmmer celledeling i hurtigt prolifererende kræftceller.
 
 Småcellet lungekræft og kimcelletumorer er kemosensitive tumorer, hvor etoposid er veletableret. Ewing-sarkom er også stærkt følsomt over for genotoksiske stoffer som etoposid. Etoposid anvendes i kombination med ifosfamid (IE) sammen med VDC-regimet (vincristin, doxorubicin, cyclophosphamid), og randomiserede fase 3-forsøg og konsensusanbefalinger understøtter brugen.
 
@@ -137,6 +137,19 @@ Officielle advarsler og kontraindikationer fra det danske produktresumé indgik 
 - Afklaring af, om den danske tilladelse dækker de relevante indikationer, og om en oral formulering er nødvendig
 - Plan for sikkerhedsmonitorering (blodbillede, sekundær malignitet, kombinationstoksicitet)
 - Dedikerede studier, før der overvejes brug ved de sjældne subtyper med kun case reports eller ingen evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

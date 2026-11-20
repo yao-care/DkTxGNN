@@ -58,7 +58,7 @@ Reteplase er en rekombinant vævsplasminogenaktivator (trombolytikum). TxGNN-mod
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de indsamlede data. Reteplase er en rekombinant vævsplasminogenaktivator, som opløser fibrinpropper i akut tilstoppede koronararterier. Det er den mekanisme, der ligger bag den kendte brug ved hjerteinfarkt.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Reteplase (uofficiel oversættelse): »Eksogent protein af vævstype-plasminogenaktivator« Engelsk originaltekst: "Tissue-type plasminogen activator exogenous protein" ([ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885), CC BY-SA 3.0; hentet 2026-11-19). Reteplase er en rekombinant vævsplasminogenaktivator, som opløser fibrinpropper i akut tilstoppede koronararterier. Det er den mekanisme, der ligger bag den kendte brug ved hjerteinfarkt.
 
 En medfødt koronararterieanomali er en strukturel tilstand. Reteplase vil kun kunne have en rolle, hvis en akut trombotisk okklusion komplicerer anomalien. Lægemidlet vil ikke rette op på selve misdannelsen. Den høje modelscore afspejler sandsynligvis nærhed i netværket til koronar trombose og myokardieinfarkt snarere end et specifikt terapeutisk rationale.
 
@@ -110,6 +110,19 @@ Forudsigelsen bygger kun på modellen og netværksnærhed. Ingen publikation und
 - Systematisk litteratursøgning efter reteplase eller trombolyse ved akut trombose på baggrund af medfødte koronaranomalier.
 - Vurdering af, om der reelt er en klinisk problemstilling ud over den allerede godkendte brug ved akut hjerteinfarkt.
 - Data om virkningsmekanisme og produktresuméets advarsler og kontraindikationer, især blødningsrisiko og interaktioner med antikoagulantia og trombocythæmmere.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL2107885 (reteplase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107885) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

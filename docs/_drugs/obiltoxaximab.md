@@ -60,7 +60,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **postinfektiøs v
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Obiltoxaximab er et antistof, der neutraliserer beskyttende antigen (PA) fra *Bacillus anthracis* og dermed blokerer miltbrandtoksinets virkning.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Obiltoxaximab (uofficiel oversættelse): »Obiltoxaximab er et monoklonalt antistof, der binder PA fra B. anthracis. […] Obiltoxaximab er et monoklonalt antistof, der binder frit PA med en ligevægtsdissociationskonstant for affinitet (Kd) på 0,33 nM. Obiltoxaximab hæmmer bindingen af PA til dets cellulære receptorer og forhindrer derved intracellulær indtrængen af miltbrands letale faktor og ødemfaktor, de enzymatiske toksinkomponenter, der er ansvarlige for miltbrandtoksinets patogene virkninger.« Engelsk originaltekst: "Obiltoxaximab is a monoclonal antibody that binds the PA of B. anthracis. […] Obiltoxaximab is a monoclonal antibody that binds free PA with an affinity equilibrium dissociation constant (Kd) of 0.33 nM. Obiltoxaximab inhibits the binding of PA to its cellular receptors, preventing the intracellular entry of the anthrax lethal factor and edema factor, the enzymatic toxin components responsible for the pathogenic effects of anthrax toxin." ([DailyMed: Anthim (obiltoxaximab) prescribing information, Elusys Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ad8799-00a4-4fc8-9852-c0536350c474), version af 2026-09-14; hentet 2026-11-19). Obiltoxaximab er et antistof, der neutraliserer beskyttende antigen (PA) fra *Bacillus anthracis* og dermed blokerer miltbrandtoksinets virkning.
 
 Der er ikke påvist nogen plausibel sammenhæng mellem PA-neutralisering og den immunkompleksmedierede patologi ved postinfektiøs vaskulitis. Forudsigelsen skal derfor betragtes som et hypotesegenererende computerresultat.
 
@@ -124,6 +124,19 @@ Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5), uden k
 - Advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk evidens for en rolle ved postinfektiøs vaskulitis
 - Vurdering af anafylaksirisiko og administrationsvej i den nye patientgruppe
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Anthim (obiltoxaximab) prescribing information, Elusys Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ad8799-00a4-4fc8-9852-c0536350c474) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** (o
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra tilgængelig litteratur er rotigotin en bredt virkende dopaminagonist med aktivitet på D1–D5-receptorer (især D3, D2 og D1) og en vis aktivitet på alfa2B- og 5-HT1A-receptorer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rotigotine (uofficiel oversættelse): »Rotigotin er en non-ergolin dopaminagonist. Den præcise virkningsmekanisme for rotigotin som behandling af Parkinsons sygdom er ukendt, men den menes at være relateret til dets evne til at stimulere dopaminreceptorer i caudatum-putamen i hjernen.« Engelsk originaltekst: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), version af 2026-11-11; hentet 2026-11-19). Ud fra tilgængelig litteratur er rotigotin en bredt virkende dopaminagonist med aktivitet på D1–D5-receptorer (især D3, D2 og D1) og en vis aktivitet på alfa2B- og 5-HT1A-receptorer.
 
 ADHD er forbundet med dysregulering af dopamin- og noradrenalinsystemerne. Studier af heteromerer mellem dopamin D4-receptoren og alfa2A-adrenoceptoren giver et plausibelt link på receptorniveau. Desuden optræder RLS ofte sammen med ADHD hos børn, og de fundne artikler handler primært om RLS (herunder pædiatrisk RLS) og receptorfarmakologi.
 
@@ -123,6 +123,19 @@ Der findes ingen kliniske forsøg med rotigotin ved ADHD, og litteraturen er ind
 - Præklinisk og/eller eksplorativ klinisk dokumentation for rotigotin specifikt ved ADHD
 - Vurdering af, om transdermal indgivelse er egnet til målgruppen (ruteforenelighed er endnu ikke vurderet)
 - Sikkerhedsvurdering for relevante populationer, især børn og unge, samt vurdering af interaktionsrisici
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

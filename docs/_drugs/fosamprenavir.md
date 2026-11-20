@@ -60,7 +60,7 @@ men der er i øjeblikket **ingen registrerede kliniske forsøg** og **ingen publ
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige. Fosamprenavir er dog et prodrug af amprenavir, som hæmmer HIV-1-protease og dermed forhindrer modning af nye viruspartikler. Dets effekt ved HIV-infektion er dokumenteret.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fosamprenavir (uofficiel oversættelse): »Fosamprenavir er et antiretroviralt middel mod HIV-1. […] Fosamprenavir er et prodrug, der hurtigt hydrolyseres til amprenavir af cellulære phosphataser i tarmepitelet under absorptionen. Amprenavir er en hæmmer af HIV-1-protease. Amprenavir binder til det aktive site på HIV-1-protease og forhindrer derved processeringen af de virale Gag- og Gag-Pol-polyproteinprækursorer, hvilket resulterer i dannelse af umodne, ikke-infektiøse viruspartikler.« Engelsk originaltekst: "Fosamprenavir is an HIV-1 antiretroviral agent. […] Fosamprenavir is a prodrug that is rapidly hydrolyzed to amprenavir by cellular phosphatases in the gut epithelium as it is absorbed. Amprenavir is an inhibitor of HIV-1 protease. Amprenavir binds to the active site of HIV-1 protease and thereby prevents the processing of viral Gag and Gag-Pol polyprotein precursors, resulting in the formation of immature non-infectious viral particles." ([DailyMed: fosamprenavir calcium prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd1eead-9fc1-426c-bee8-214ffa7d9dc1), version af 2026-06-30; hentet 2026-11-19). Fosamprenavir er dog et prodrug af amprenavir, som hæmmer HIV-1-protease og dermed forhindrer modning af nye viruspartikler. Dets effekt ved HIV-infektion er dokumenteret.
 
 Felint immundefektvirus (FIV) er en lentivirus, der er beslægtet med HIV, og dets protease har en vis strukturel lighed med HIV-1-protease. Der er derfor en plausibel mekanistisk forbindelse. FIV-protease adskiller sig imidlertid fra HIV-1-protease med hensyn til substratspecificitet og følsomhed over for hæmmere, og der foreligger ingen FIV-specifikke data.
 
@@ -124,6 +124,19 @@ Forudsigelsen hviler udelukkende på modelscoren (evidensniveau L5), og der find
 - Præklinisk evidens for effekt af amprenavir mod FIV- eller SIV-protease
 - En vurdering af, om en veterinær anvendelse overhovedet er relevant, da der ikke er human indikation
 - En risiko-nytte-vurdering af interaktionsprofilen, hvis de godartede brystindikationer overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: fosamprenavir calcium prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd1eead-9fc1-426c-bee8-214ffa7d9dc1) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

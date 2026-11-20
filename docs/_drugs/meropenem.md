@@ -54,7 +54,7 @@ Meropenem er et bredspektret carbapenem-antibiotikum, der hæmmer bakteriers cel
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Meropenem tilhører imidlertid carbapenemerne, som binder penicillinbindende proteiner og dermed hæmmer bakteriers cellevægssyntese. Stoffet har bred aktivitet mod gramnegative stave og mange andre bakterier.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Meropenem (uofficiel oversættelse): »Meropenem er et antibakterielt lægemiddel. […] Meropenems baktericide aktivitet skyldes hæmning af cellevægssyntesen. Meropenem penetrerer cellevæggen hos de fleste grampositive og gramnegative bakterier og bindes til penicillinbindende protein (PBP)-mål.« Engelsk originaltekst: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), version af 2026-11-02; hentet 2026-11-19). Meropenem tilhører imidlertid carbapenemerne, som binder penicillinbindende proteiner og dermed hæmmer bakteriers cellevægssyntese. Stoffet har bred aktivitet mod gramnegative stave og mange andre bakterier.
 
 Bakteriel artritis skyldes ofte bakterier, som meropenem er aktivt mod, herunder multiresistente gramnegative stave og *Burkholderia pseudomallei*. Det gør forudsigelsen biologisk plausibel. Enkelte kasuistikker beskriver succesfuld behandling af septisk artritis med meropenem, bl.a. ved ESBL-producerende *Klebsiella pneumoniae* og ved melioidose med knogle- og ledinvolvering. Det er dog beskrivende rapporter og ikke kontrollerede undersøgelser.
 
@@ -104,6 +104,18 @@ Forudsigelsen er biologisk plausibel, men understøttes kun af kasuistikker, ret
 - Detaljerede data om virkningsmekanisme
 - Gennemgang af produktresuméets advarsler, kontraindikationer og interaktioner, især med bupropion og jodholdige kontrastmidler
 - Om relevant, planlægning af et kontrolleret klinisk forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

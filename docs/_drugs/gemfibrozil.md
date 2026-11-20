@@ -62,7 +62,7 @@ Bemærkning om evidensniveau: Datasættet foreslog L4, men ingen af de citerede 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Gemfibrozil er kendt som PPAR-alfa-agonist (fibrat), og PPAR-aktivering har antiinflammatoriske effekter, herunder påvirkning af T-cellesvar (f.eks. Foxp3 og nitrogenoxid-signalering). Det giver en tænkelig, men ubekræftet forbindelse til autoimmun artritis.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Gemfibrozil (uofficiel oversættelse): »Gemfibrozil er et lipidregulerende middel, som nedsætter serumtriglycerider og very low density lipoprotein (VLDL)-kolesterol og øger high density lipoprotein (HDL)-kolesterol. Selvom der kan ses beskedne fald i total- og low density lipoprotein (LDL)-kolesterol ved behandling med gemfibrozil, medfører behandling af patienter med forhøjede triglycerider på grund af type IV-hyperlipoproteinæmi ofte en stigning i LDL-kolesterol.« Engelsk originaltekst: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), version af 2026-11-10; hentet 2026-11-19). Gemfibrozil er kendt som PPAR-alfa-agonist (fibrat), og PPAR-aktivering har antiinflammatoriske effekter, herunder påvirkning af T-cellesvar (f.eks. Foxp3 og nitrogenoxid-signalering). Det giver en tænkelig, men ubekræftet forbindelse til autoimmun artritis.
 
 Støtten er overvejende præklinisk: bezafibrat (en pan-PPAR-agonist) dæmpede eksperimentel reumatoid artritis i en dyremodel (2026), og i en rottemodel gav gemfibrozil kombineret med reduceret steroiddosis et lignende behandlingsbillede som fuld steroiddosis (2019). Der foreligger ingen humane data.
 
@@ -118,6 +118,19 @@ Støtten til reumatoid artritis er udelukkende præklinisk eller indirekte, og d
 - Yderligere præklinisk dokumentation specifikt for gemfibrozil (ikke andre fibrater)
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Et eksplorativt klinisk studie (fase 2) med sikkerhedsovervågning, hvis den prækliniske evidens styrkes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ TxGNN-modellen forudsiger, at det kan være virksomt ved **primær frigivelsesfo
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Farmakologiske data viser dog, at romiplostim er et peptid, der binder thrombopoietin-receptoren (MPL) og stimulerer megakaryocytters udvikling og dermed blodpladeproduktionen. Det anvendes ved kronisk immun trombocytopeni (ITP).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Romiplostim (uofficiel oversættelse): »Nplate øger trombocytproduktionen gennem binding til og aktivering af TPO-receptoren, en mekanisme, der svarer til endogent TPO.« Engelsk originaltekst: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), version af 2026-06-23; hentet 2026-11-19). Farmakologiske data viser dog, at romiplostim er et peptid, der binder thrombopoietin-receptoren (MPL) og stimulerer megakaryocytters udvikling og dermed blodpladeproduktionen. Det anvendes ved kronisk immun trombocytopeni (ITP).
 
 Frigivelsesforstyrrelser af blodplader er derimod kvalitative funktionsdefekter (nedsat sekretion fra granula), hvor antallet af blodplader ofte er normalt. At øge antallet løser ikke den underliggende funktionsdefekt. Den eneste fundne artikel handler om autoantistoffers hæmning af proplatelet-dannelse ved ITP og ikke om frigivelsesforstyrrelser. Koblingen er derfor indirekte og afspejler sandsynligvis modellens tilknytning til ITP.
 
@@ -114,6 +114,19 @@ Forudsigelsen bygger kun på modellen (evidensniveau L5). Der findes hverken kli
 ## Andre forudsagte indikationer (kort)
 
 Alle øvrige forudsigelser har ingen kliniske forsøg. Den mest lovende er **føtal og neonatal alloimmun trombocytopeni** (score 0,9999), som er markeret som forskningsspørgsmål. Støtten er dog kun indirekte, fra ITP-oversigtsartikler og kasuistikker, og ikke fra selve sygdommen. Ifølge reglerne for evidensniveau er den derfor også L5. De øvrige (pseudo-von Willebrand sygdom, Glanzmanns trombasteni, Scotts syndrom m.fl.) er kvalitative blodpladedefekter eller sjældne tilstande, hvor øget blodpladeproduktion ikke forventes at afhjælpe defekten, og de anbefales sat på hold.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

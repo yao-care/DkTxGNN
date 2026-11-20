@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **multipel endokri
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de data, der er samlet til denne rapport. Remdesivir er dog kendt som en nukleotidanalog-prodrug, som hæmmer viral RNA-afhængig RNA-polymerase.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Remdesivir (uofficiel oversættelse): »Remdesivir er et antiviralt lægemiddel med aktivitet mod svær akut respiratorisk syndrom-coronavirus 2 (SARS-CoV-2). […] Remdesivir er en hæmmer af SARS-CoV-2's RNA-afhængige RNA-polymerase (RdRp), som er essentiel for viral replikation. Remdesivir er et adenosinnukleotid-prodrug, der fordeles ind i celler, hvor det metaboliseres til et nukleosidmonofosfat-intermediat af carboxyesterase 1 og/eller cathepsin A, afhængigt af celletypen.« Engelsk originaltekst: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), version af 2026-07-29; hentet 2026-11-19). Remdesivir er dog kendt som en nukleotidanalog-prodrug, som hæmmer viral RNA-afhængig RNA-polymerase.
 
 Multipel endokrin neoplasi er et arveligt tumorsyndrom (fx MEN1- og RET-mutationer) uden viral drivkraft. Der kan derfor ikke identificeres nogen mekanistisk sammenhæng mellem remdesivirs antivirale virkning og sygdommens patofysiologi. Den høje score (0,9950) stammer fra TxGNN-modellen (deep learning) og afspejler sandsynligvis ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Den understøttes ikke af kliniske data eller litteratur.
 
@@ -109,6 +109,19 @@ Forudsigelsen bygger kun på en score fra TxGNN-modellen (deep learning) uden kl
 - Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
 - Præklinisk evidens (fx cellelinjer for MEN-relaterede tumorer), før klinisk overvejelse er relevant
 - Eventuelt en mere gennemarbejdet vurdering af HIV-forudsigelsen, hvis man ønsker et mere plausibelt spor
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

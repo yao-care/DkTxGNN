@@ -58,7 +58,7 @@ Tetrabenazin er oprindeligt anvendt ved Huntingtons sygdom og beslægtede bevæg
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tetrabenazin er imidlertid kendt som en reversibel hæmmer af den vesikulære monoamintransporter 2 (VMAT2), som udtømmer monoaminer (bl.a. dopamin) i nerveterminalerne i centralnervesystemet. Det forklarer effekten ved hyperkinetiske bevægeforstyrrelser som Huntingtons sygdom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tetrabenazine (uofficiel oversættelse): »Den præcise mekanisme, hvorved XENAZINE (tetrabenazin) udøver sin antikoreiske virkning, er ukendt, men menes at være relateret til dets virkning som reversibel depletor af monoaminer (såsom dopamin, serotonin, noradrenalin og histamin) fra nerveterminaler. Tetrabenazin hæmmer reversibelt den humane vesikulære monoamintransportør type 2 (VMAT2) (K i ≈ 100 nM), hvilket resulterer i nedsat optagelse af monoaminer i synaptiske vesikler og depletering af monoamindepoter.« Engelsk originaltekst: "The precise mechanism by which XENAZINE (tetrabenazine) exerts its anti-chorea effects is unknown but is believed to be related to its effect as a reversible depletor of monoamines (such as dopamine, serotonin, norepinephrine, and histamine) from nerve terminals. Tetrabenazine reversibly inhibits the human vesicular monoamine transporter type 2 (VMAT2) (K i ≈ 100 nM), resulting in decreased uptake of monoamines into synaptic vesicles and depletion of monoamine stores." ([DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda), version af 2026-11-06; hentet 2026-11-19). Tetrabenazin er imidlertid kendt som en reversibel hæmmer af den vesikulære monoamintransporter 2 (VMAT2), som udtømmer monoaminer (bl.a. dopamin) i nerveterminalerne i centralnervesystemet. Det forklarer effekten ved hyperkinetiske bevægeforstyrrelser som Huntingtons sygdom.
 
 Polycystisk nyre- og leversygdom (fx GANAB-/PRKCSH-relateret) skyldes derimod defekter i glykoproteinbearbejdning og cilie-/cystesignalering. Der er **ingen troværdig mekanistisk forbindelse** mellem VMAT2-hæmning og disse patologiske mekanismer. Den høje score er udelukkende en grafbaseret forudsigelse, og modellen siger intet om, hvorvidt lægemidlet virker klinisk.
 
@@ -133,6 +133,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg, litteratur
 - Præklinisk evidens, fx i cystemodeller, der understøtter en biologisk forbindelse
 - Systematisk litteratursøgning efter eventuel evidens for tetrabenazin ved polycystisk nyre-/leversygdom
 - En vurdering af, om forudsigelsen overhovedet har klinisk relevans, før der overvejes forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

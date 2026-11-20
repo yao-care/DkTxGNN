@@ -58,7 +58,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **parameningeal embryonal 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Paclitaxel er dog kendt som en mikrotubuli-stabiliserende taxan, der standser cellerne i G2/M-fasen og udløser apoptose i hurtigt delende tumorceller. Denne mekanisme er teoretisk relevant for embryonal rhabdomyosarkom, som er et meget proliferativt bløddelssarkom hos børn.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Paclitaxel (uofficiel oversættelse): »Paclitaxel proteinbundne partikler til injektionsvæske, suspension (albuminbundet) er en mikrotubulihæmmer, der fremmer samlingen af mikrotubuli fra tubulindimerer og stabiliserer mikrotubuli ved at forhindre depolymerisering. Denne stabilitet medfører hæmning af den normale dynamiske reorganisering af mikrotubulinetværket, som er essentiel for vitale cellulære funktioner i interfasen og under mitosen.« Engelsk originaltekst: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), version af 2025-09-17; hentet 2026-11-19). Paclitaxel er dog kendt som en mikrotubuli-stabiliserende taxan, der standser cellerne i G2/M-fasen og udløser apoptose i hurtigt delende tumorceller. Denne mekanisme er teoretisk relevant for embryonal rhabdomyosarkom, som er et meget proliferativt bløddelssarkom hos børn.
 
 Standardbehandlingen af rhabdomyosarkom bygger på vincristin, actinomycin D og cyclophosphamid (VAC) eller beslægtede kombinationer, og en eventuel rolle for paclitaxel skal påvises uafhængigt. Den parameningeale placering rejser desuden spørgsmål om passage af blod-hjerne-barrieren og lokal kontrol, som ikke kan vurderes ud fra de foreliggende data.
 
@@ -127,6 +127,19 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5), og ingen kliniske forsø
 - Data om virkningsmekanisme og eventuel passage af blod-hjerne-barrieren ved parameningeal sygdom
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (mangler i de indsamlede data)
 - Vurdering af, om den godkendte formulering (albumin-bundet paclitaxel) er egnet til målgruppen, herunder børn
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

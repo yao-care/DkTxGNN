@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt mod **distal myopat
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Propranolol er kendt som uselektiv betablokker (membranstabiliserende, uden intrinsisk sympatomimetisk aktivitet), men dette er baseret på almen viden og ikke på de indsamlede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Propranolol (uofficiel oversættelse): »Mekanismen for den antihypertensive virkning af propranolol er ikke fastlagt. Blandt de faktorer, der bidrager til den antihypertensive virkning, er: nedsat hjerteminutvolumen, hæmning af nyrernes reninfrigivelse og formindskelse af det toniske sympatiske nerveudløb fra vasomotoriske centre i hjernen.« Engelsk originaltekst: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), version af 2026-08-27; hentet 2026-11-19). Propranolol er kendt som uselektiv betablokker (membranstabiliserende, uden intrinsisk sympatomimetisk aktivitet), men dette er baseret på almen viden og ikke på de indsamlede data.
 
 De indsamlede data understøtter **ikke** en mekanistisk sammenhæng mellem betablokade og patofysiologien i distal myopati, Tateyama-type, som er en sjælden muskelsygdom. Den høje score (0,9940) er en ren modelforudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens eller dokumenteret effekt.
 
@@ -110,6 +110,19 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg, li
 - Produktresuméets advarsler og kontraindikationer (blokerende datamangel for sikkerhedsscreening)
 - Præklinisk eller mekanistisk evidens for betablokade i distal myopati, Tateyama-type
 - Vurdering af, om andre forudsigelser (cirrotisk kardiomyopati, kardiomyopati) er mere lovende at prioritere, da de har indirekte evidens (L4)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

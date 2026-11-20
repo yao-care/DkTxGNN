@@ -56,7 +56,7 @@ Bemærkning om evidensniveau: De hentede studier omhandler for det meste bakteri
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Rifampicin er dog kendt som en hæmmer af bakteriel DNA-afhængig RNA-polymerase, og litteraturen beskriver aktivitet over for bakterier, som kan forårsage øjeninfektioner, bl.a. *Staphylococcus aureus* og *Chlamydia trachomatis*.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rifampicin (uofficiel oversættelse): »Rifampicin hæmmer DNA-afhængig RNA-polymeraseaktivitet i følsomme Mycobacterium tuberculosis-organismer. Specifikt interagerer det med bakteriel RNA-polymerase, men hæmmer ikke pattedyrenzymet.« Engelsk originaltekst: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), version af 2026-05-05; hentet 2026-11-19). Rifampicin er dog kendt som en hæmmer af bakteriel DNA-afhængig RNA-polymerase, og litteraturen beskriver aktivitet over for bakterier, som kan forårsage øjeninfektioner, bl.a. *Staphylococcus aureus* og *Chlamydia trachomatis*.
 
 Rifampicin er effektivt mod tuberkulose, en bakteriel infektion. Mange tilfælde af konjunktivitis er også bakterielle, og det giver en plausibel, men indirekte forbindelse. Støtten består dog af følsomhedsundersøgelser, kasuistikker og ældre undersøgelser af lokal behandling (øjensalve), som ikke svarer til den kapselformulering, der er markedsført i Danmark. Der er ikke fundet kontrollerede forsøg med rifampicin mod konjunktivitis.
 
@@ -107,6 +107,19 @@ Der findes ingen kliniske forsøg og ingen kontrollerede moderne studier af rifa
 - Mekanistiske data og farmakokinetik/okulær penetration for rifampicin
 - Gennemgang af produktresuméet for sikkerhed (herunder interaktioner og risici ved lokal brug)
 - Overvejelse af resistensrisiko, da rifampicin er centralt i tuberkulosebehandlingen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

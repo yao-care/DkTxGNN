@@ -58,7 +58,7 @@ Cabergolin er en dopaminagonist, som er markedsført i Danmark i tabletform. TxG
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om cabergolins virkningsmekanisme i de data, der er indsamlet til denne rapport. Cabergolin tilhører gruppen af dopaminagonister, men de tilgængelige data viser ingen oplagt dopaminerg mekanisme, som kan forklare en effekt ved dette sjældne syndrom.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cabergoline (uofficiel oversættelse): »Cabergolin er et ergotderivat og en dopaminreceptoragonist med høj affinitet for D2-receptorer. Resultater fra in vitro-studier viser, at cabergolin udøver en direkte hæmmende virkning på sekretionen af prolaktin fra laktotrofe celler i rottehypofysen.« Engelsk originaltekst: "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb), version af 2026-06-30; hentet 2026-11-19). Cabergolin tilhører gruppen af dopaminagonister, men de tilgængelige data viser ingen oplagt dopaminerg mekanisme, som kan forklare en effekt ved dette sjældne syndrom.
 
 Scoren på 0,9906 er en rent beregnet forudsigelse fra en videnskabsmodel. Den er ikke understøttet af kliniske data, af litteratur eller af en forklarende biologisk sammenhæng. Forudsigelsen skal derfor betragtes som en hypotese, der kræver grundig faglig vurdering, før den kan føre til videre arbejde.
 
@@ -109,6 +109,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5). Der findes ingen k
 - Præklinisk eller klinisk evidens, der direkte undersøger cabergolin ved dette syndrom
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, da disse oplysninger mangler i de indsamlede data
 - Vurdering af interaktionsrisici, især med lorcaserin og clarithromycin
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

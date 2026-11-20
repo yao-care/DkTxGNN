@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan være effektivt mod **pericoronitis**, men
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige. Benzylpenicillin er et beta-lactam-antibiotikum, og dets virkning mod en lang række grampositive bakterier, især streptokokker, er veldokumenteret.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Benzylpenicillin (uofficiel oversættelse): »Penicilliner bindes til serumproteiner, hovedsageligt albumin. Terapeutiske niveauer af penicillinerne opnås let under normale omstændigheder i ekstracellulær væske og de fleste andre kropsvæv. Penicilliner fordeles i varierende grad til pleura-, perikardie-, peritoneal-, ascites-, synovial- og interstitiel væske.« Engelsk originaltekst: "Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids." ([DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2), version af 2026-11-04; hentet 2026-11-19). Benzylpenicillin er et beta-lactam-antibiotikum, og dets virkning mod en lang række grampositive bakterier, især streptokokker, er veldokumenteret.
 
 Pericoronitis er en blandingsinfektion (streptokokker og anaerobe bakterier) i vævet omkring en delvist frembrudt tand. Mange af disse organismer er følsomme over for penicillin, så forudsigelsen er biologisk plausibel. Det ville dog snarere være en udvidelse af den eksisterende antibakterielle anvendelse end en egentlig drug repurposing.
 
@@ -126,6 +126,19 @@ Forudsigelsen er biologisk plausibel for pericoronitis, men den hviler udelukken
 - Data om virkningsmekanisme og vurdering af, om parenteral administration har klinisk merværdi frem for gængse orale penicilliner
 - Hentning og gennemgang af produktresuméer fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer), som mangler i de indsamlede data
 - Verifikation af de videngrafbaserede kontraindikationer mod officielle kilder
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

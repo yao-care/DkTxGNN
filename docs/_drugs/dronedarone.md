@@ -54,7 +54,7 @@ Dronedaron er et antiarytmisk lægemiddel, der blokerer flere ionkanaler. TxGNN-
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Dronedaron er dog et multikanalblokerende antiarytmikum (klasse III), som hæmmer natrium-, kalium- og calciumstrømme og har antiadrenerge egenskaber.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dronedarone (uofficiel oversættelse): »Virkningsmekanismen for dronedaron er ukendt. Dronedaron har antiarytmiske egenskaber, der hører til alle fire Vaughan-Williams-klasser, men hver af disse aktiviteters bidrag til den kliniske virkning er ukendt.« Engelsk originaltekst: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), version af 2026-01-27; hentet 2026-11-19). Dronedaron er dog et multikanalblokerende antiarytmikum (klasse III), som hæmmer natrium-, kalium- og calciumstrømme og har antiadrenerge egenskaber.
 
 Slagtilfælde er en velkendt og alvorlig komplikation til atrieflimren, hvor blodpropper dannes i hjertet (kardioemboli). Rytmekontrol kan derfor tænkes at nedsætte risikoen for kardioembolisk slagtilfælde. Post hoc-analyser af ATHENA-forsøget og en metaanalyse (PMID 22149318) tyder på lavere forekomst af slagtilfælde. Det afspejler en sekundær effekt inden for atrieflimren og ikke en dokumenteret selvstændig effekt på slagtilfælde.
 
@@ -106,6 +106,18 @@ Ingen studier tester dronedaron direkte mod slagtilfælde. Observationerne stamm
 - Data om virkningsmekanismen
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Plan for sikkerhedsovervågning, især vedrørende hjertesvigt, bradykardi, QT-forlængelse, leverfunktion og interaktioner med antikoagulantia
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

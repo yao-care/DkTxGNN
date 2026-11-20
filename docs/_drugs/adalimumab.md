@@ -58,7 +58,7 @@ Adalimumab er en TNF-alfa-hæmmer. Den mest scorende forudsigelse fra TxGNN-mode
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Adalimumab er kendt som en TNF-alfa-hæmmer, og dets relationer i videnbasen vedrører primært inflammatoriske sygdomme i led og rygsøjle.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Adalimumab (uofficiel oversættelse): »Adalimumab-produkter binder specifikt til TNF-alfa og blokerer dets interaktion med p55- og p75-TNF-receptorerne på celleoverfladen. Adalimumab-produkter lyserer også celler, der udtrykker overflade-TNF, in vitro i nærvær af komplement.« Engelsk originaltekst: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), version af 2026-11-11; hentet 2026-11-19). Adalimumab er kendt som en TNF-alfa-hæmmer, og dets relationer i videnbasen vedrører primært inflammatoriske sygdomme i led og rygsøjle.
 
 Forudsigelsen skyldes sandsynligvis nærhed i videnbasens netværk til inflammatoriske rygsøjle- og ledsygdomme som Bechterews sygdom og spondyloartropati. Hypermobilitet af coccyx er imidlertid primært en mekanisk eller traumatisk tilstand og ikke en TNF-drevet inflammatorisk sygdom. Det biologiske grundlag er derfor svagt, og den høje score er udelukkende en beregningsmæssig forudsigelse.
 
@@ -124,11 +124,12 @@ Forudsigelsen er rent modelbaseret (L5) uden kliniske forsøg eller publikatione
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.” → “Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene e” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
 
 <!-- review:end log -->
 

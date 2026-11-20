@@ -56,7 +56,7 @@ Den næstrangerende forudsigelse, **liposarkom**, understøttes kun af **1 præk
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ponatinib er en multi-målrettet tyrosinkinasehæmmer, som generelt kendes for at hæmme bl.a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC og KIT. Dens effekt ved BCR-ABL1-positiv kronisk myeloid leukæmi er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ponatinib (uofficiel oversættelse): »Ponatinib er en kinasehæmmer. Ponatinib hæmmede in vitro tyrosinkinaseaktiviteten af ABL og T315I-muteret ABL med IC 50 -koncentrationer på henholdsvis 0,4 nM og 2,0 nM. Ponatinib hæmmede in vitro aktiviteten af yderligere kinaser med IC 50 -koncentrationer mellem 0,1 nM og 20 nM, herunder medlemmer af VEGFR-, PDGFR-, FGFR-, EPH-receptor- og SRC-familierne af kinaser samt KIT, RET, TIE2 og FLT3.« Engelsk originaltekst: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), version af 2026-08-14; hentet 2026-11-19). Ponatinib er en multi-målrettet tyrosinkinasehæmmer, som generelt kendes for at hæmme bl.a. BCR-ABL, FGFR, PDGFR, VEGFR, SRC og KIT. Dens effekt ved BCR-ABL1-positiv kronisk myeloid leukæmi er veletableret.
 
 Et muligt, men spekulativt link til gingival fibromatose kunne gå via kinasedrevet fibroblastproliferation og fibrosesignalering (f.eks. PDGFR). Dette understøttes ikke af de indsamlede data. Der er ingen påvist mekanistisk sammenhæng mellem leukæmi og gingival fibromatose, og scoren er udelukkende en modelforudsigelse.
 
@@ -114,6 +114,19 @@ Forudsigelsen for gingival fibromatose er alene baseret på en modelscore uden k
 - Præklinisk dokumentation for, at ponatinib hæmmer relevante mål i gingivale fibroblaster
 - Gennemgang af fuldtekst af PMID 29132397 for at afklare, om ponatinib indgik, samt præklinisk validering i liposarkommodeller
 - Vurdering af risk-benefit og passende populationer før eventuelle kliniske studier
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

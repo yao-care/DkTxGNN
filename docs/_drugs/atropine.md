@@ -58,7 +58,7 @@ Atropin er en uselektiv muskarin acetylcholinreceptorantagonist, som er markedsf
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om atropins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Atropin er dog kendt som en uselektiv muskarin acetylcholinreceptorantagonist, og den indhentede litteratur peger på en mulig rolle for kolinerg signalering ved migræne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Atropine (uofficiel oversættelse): »Atropin blokerer kompetitivt virkningerne af acetylcholin, herunder overskydende acetylcholin som følge af organofosforforgiftning, ved muskarine cholinerge receptorer på glat muskulatur, hjertemuskulatur, sekretoriske kirtelceller samt i perifere autonome ganglier og centralnervesystemet.« Engelsk originaltekst: "Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system." ([DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7), version af 2022-09-15; hentet 2026-11-19). Atropin er dog kendt som en uselektiv muskarin acetylcholinreceptorantagonist, og den indhentede litteratur peger på en mulig rolle for kolinerg signalering ved migræne.
 
 Litteraturen omfatter blandt andet: meningeal mastcelle-medieret kolinerg modulering af neurogen inflammation i en rottemodel (PMID 36485173), parasympatisk stimulation af ganglion sphenopalatinum, som giver plasmaproteinudsivning i dura mater hos rotter (PMID 9344563), autonom involvering ved trigeminale autonome hovedpineformer, hvor systemisk atropin reducerede anfaldsrelateret svedtendens, tåreflåd og næsesekretion (PMID 2943405), samt en kolinerg rolle i antinociception hos gnavere (PMID 8930196).
 
@@ -126,6 +126,19 @@ Forudsigelsen bygger på en høj modelscore og plausible, men udelukkende prækl
 - Målrettet litteratursøgning efter humane studier af antikolinerge stoffer ved migræne
 - Vurdering af, om de godkendte injektionsformer er egnede til en migræneindikation (administrationsvej er endnu ikke vurderet)
 - Afklaring af sikkerhedsprofil og risikoen ved antikolinerge bivirkninger i migrænepopulationen før eventuelle kliniske forsøg
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

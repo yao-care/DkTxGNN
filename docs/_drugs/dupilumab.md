@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan være virksomt ved **bronkitis**. 
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra almen viden blokerer dupilumab IL-4-receptor-alfa og dermed IL-4- og IL-13-signalering, som driver type 2-inflammation. Det er den samme mekanisme, der er central ved atopisk eksem.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dupilumab (uofficiel oversættelse): »Dupilumab er et humant monoklonalt IgG4-antistof, der hæmmer interleukin-4 (IL-4)- og interleukin-13 (IL-13)-signalering ved specifikt at binde sig til IL-4Rα-underenheden, som er fælles for IL-4- og IL-13-receptorkomplekserne. Dupilumab hæmmer IL-4-signalering via type I-receptoren og både IL-4- og IL-13-signalering gennem type II-receptoren.« Engelsk originaltekst: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), version af 2026-04-22; hentet 2026-11-19). Ud fra almen viden blokerer dupilumab IL-4-receptor-alfa og dermed IL-4- og IL-13-signalering, som driver type 2-inflammation. Det er den samme mekanisme, der er central ved atopisk eksem.
 
 Type 2-inflammation spiller også en rolle ved visse luftvejssygdomme, fx eosinofil astma og type 2-KOL med kronisk bronkitis-fænotype. Det gør en effekt mulig i en afgrænset undergruppe. "Bronkitis" er imidlertid en uspecifik betegnelse, og en gavnlig effekt må forventes at være begrænset til type 2-inflammatoriske fænotyper, ikke infektiøs eller almindelig bronkitis.
 
@@ -110,6 +110,19 @@ Forudsigelsen har en høj modelscore og en plausibel mekanisme for type 2-inflam
 - Data om virkningsmekanisme
 - Gennemgang af advarsler og kontraindikationer i produktresuméet, da disse ikke er tilgængelige i de indsamlede data
 - Vurdering af interaktionsrisici ved samtidig brug af immunsuppressive lægemidler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

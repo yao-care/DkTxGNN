@@ -58,7 +58,7 @@ Rocuronium er et ikke-depolariserende neuromuskulært blokerende middel, som er 
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Rocuronium er dog kendt som en kompetitiv antagonist ved nikotinerge acetylcholinreceptorer på den motoriske endeplade, hvilket hæmmer neuromuskulær transmission i skeletmuskulatur.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rocuronium (uofficiel oversættelse): »Rocuroniumbromid injektionsvæske er et non-depolariserende neuromuskulært blokerende middel med en hurtig til intermediær indsættende virkning afhængigt af dosis og en intermediær virkningsvarighed. Det virker ved at konkurrere om kolinerge receptorer i den motoriske endeplade.« Engelsk originaltekst: "Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147), version af 2026-10-01; hentet 2026-11-19). Rocuronium er dog kendt som en kompetitiv antagonist ved nikotinerge acetylcholinreceptorer på den motoriske endeplade, hvilket hæmmer neuromuskulær transmission i skeletmuskulatur.
 
 Der kendes ingen mekanisme, hvorved dette kan påvirke migrænens patofysiologi, f.eks. CGRP-signalering, trigeminovaskulær aktivering eller cortical spreading depression. Den høje TxGNN-score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -121,6 +121,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) og mangler både bi
 - Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske data, som kan understøtte en sammenhæng med migræne
 - Afklaring af, om der findes et realistisk administrationsrationale, da lægemidlet kun foreligger som injektion
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

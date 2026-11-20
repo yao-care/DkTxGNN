@@ -56,7 +56,7 @@ men der er hverken registreret **kliniske forsøg** eller **publikationer**, der
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Ud fra almen farmakologi er cyclopentolate en muskarin-antagonist (antikolinergikum), som anvendes lokalt i øjet.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cyclopentolate (uofficiel oversættelse): »Dette antikolinerge præparat blokerer responset fra irisens sphinctermuskel og ciliarlegemets akkommodationsmuskel på kolinerg stimulation, hvilket medfører pupiludvidelse (mydriasis) og akkommodationslammelse (cykloplegi). Det virker hurtigt, men har en kortere virkningsvarighed end atropin.« Engelsk originaltekst: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), version af 2024-06-25; hentet 2026-11-19). Ud fra almen farmakologi er cyclopentolate en muskarin-antagonist (antikolinergikum), som anvendes lokalt i øjet.
 
 Cauda equina-syndrom er en kompressiv neurologisk akutlidelse, hvor den primære behandling er kirurgisk dekompression. Antikolinerge effekter på blærens detrusoraktivitet kunne teoretisk lindre sekundære neurogene blæresymptomer, men det ville ikke behandle selve grundlidelsen. Koblingen er derfor spinkel og hviler alene på en modelbaseret forudsigelse.
 
@@ -94,6 +94,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publi
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Prækliniske eller kliniske data, der direkte undersøger cyclopentolate ved cauda equina-syndrom
 - Vurdering af, om en anden administrationsvej end øjendråber ville være nødvendig, samt tilhørende sikkerhedsdata
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

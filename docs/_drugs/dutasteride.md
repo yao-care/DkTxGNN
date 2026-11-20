@@ -62,7 +62,7 @@ Bemærk: Indikationsteksten i de danske tilladelser er ikke tilgængelig i de in
 
 ## Hvorfor er denne forudsigelse rimelig (eller ej)?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Dutasterid er dog kendt som en dobbelt hæmmer af 5-alfa-reduktase (type 1 og 2), som nedsætter dannelsen af dihydrotestosteron (DHT). Effekten ved BPH skyldes reduceret DHT-afhængig vækst af prostatavæv.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dutasteride (uofficiel oversættelse): »Dutasterid hæmmer omdannelsen af testosteron til DHT. DHT er det androgen, der primært er ansvarligt for den indledende udvikling og efterfølgende forstørrelse af prostatakirtlen. Testosteron omdannes til DHT af enzymet 5-alfa-reduktase, som findes i 2 isoformer, type 1 og type 2.« Engelsk originaltekst: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), version af 2026-08-27; hentet 2026-11-19). Dutasterid er dog kendt som en dobbelt hæmmer af 5-alfa-reduktase (type 1 og 2), som nedsætter dannelsen af dihydrotestosteron (DHT). Effekten ved BPH skyldes reduceret DHT-afhængig vækst af prostatavæv.
 
 Ambras-syndrom er en medfødt hypertrichose, som skyldes genetiske ændringer, der påvirker reguleringen af TRPS1. Mekanismen er ikke tydeligt knyttet til androgensignalering. En antiandrogen effekt ville snarere forventes at mindske androgenafhængig hårvækst end at behandle en udviklingsforstyrrelse.
 
@@ -134,6 +134,19 @@ Forudsigelsen har en høj modelscore, men hverken kliniske forsøg, litteratur e
 - Præklinisk eller mekanistisk dokumentation for en sammenhæng mellem 5-alfa-reduktasehæmning og TRPS1-relaterede veje
 - Systematisk litteratursøgning efter case-rapporter eller observationelle data
 - Vurdering af sikkerhed og reproduktiv toksicitet i den relevante (ofte pædiatriske) population
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

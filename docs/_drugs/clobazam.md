@@ -60,7 +60,7 @@ Evidensen er svag: der er **ingen registrerede kliniske forsøg** og **2 publika
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om clobazams detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er sammenstillet til denne rapport. Clobazam tilhører dog klassen af benzodiazepiner, som forstærker den hæmmende GABA-A-transmission.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clobazam (uofficiel oversættelse): »Den nøjagtige virkningsmekanisme for clobazam, et 1,5-benzodiazepin, er ikke fuldt forstået, men menes at involvere potensering af GABAerg neurotransmission som følge af binding til benzodiazepinbindingsstedet på GABA A -receptoren.« Engelsk originaltekst: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), version af 2026-10-16; hentet 2026-11-19). Clobazam tilhører dog klassen af benzodiazepiner, som forstærker den hæmmende GABA-A-transmission.
 
 Febril infektionsrelateret epilepsisyndrom (FIRES) er en form for refraktær status epilepticus hos tidligere raske børn, hvor GABA-erge midler som midazolam, lorazepam og barbiturater anvendes. Der er derfor en plausibel forbindelse på klasseniveau. Forbindelsen er dog udelukkende udledt af kendskab til lægemiddelklassen og er ikke påvist for clobazam.
 
@@ -114,6 +114,19 @@ Forudsigelsen er mekanistisk plausibel på klasseniveau, men der er hverken klin
 - Studier, herunder kasuistikker eller kohorter, der direkte vurderer clobazam ved FIRES.
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især med fokus på samtidig brug af opioider og CYP-hæmmere.
 - Vurdering af, om den orale suspension er egnet til den akutte, intensivbehandlingsnære patientgruppe.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

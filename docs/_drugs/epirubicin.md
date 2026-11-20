@@ -54,7 +54,7 @@ Epirubicin er et cytotoksisk antracyklin, der virker som topoisomerase II-hæmme
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Epirubicin er et antracyklin (epimer af doxorubicin), som hæmmer topoisomerase II og interkalerer i DNA, hvilket giver DNA-skade og celledød i hurtigt delende tumorceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Epirubicin (uofficiel oversættelse): »Epirubicin er et cytotoksisk anthracyklin. Selvom det er kendt, at anthracykliner kan påvirke en række biokemiske og biologiske funktioner i eukaryote celler, er de præcise mekanismer bag epirubicins cytotoksiske og/eller antiproliferative egenskaber ikke fuldstændigt klarlagt.« Engelsk originaltekst: "Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated." ([DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42), version af 2026-07-24; hentet 2026-11-19). Epirubicin er et antracyklin (epimer af doxorubicin), som hæmmer topoisomerase II og interkalerer i DNA, hvilket giver DNA-skade og celledød i hurtigt delende tumorceller.
 
 Mekanismen er biologisk plausibel ved lymfom, fordi doxorubicinbaserede regimer (CHOP/CHP) er standardbehandling ved B-celle-lymfomer. Det er dog kun et indirekte argument: Der er ikke identificeret noget epirubicin-specifikt forsøg ved primært pulmonalt lymfom, og det er ikke vist, at epirubicin kan erstatte doxorubicin i denne sygdom.
 
@@ -111,6 +111,18 @@ Forudsigelsen bygger alene på modellen. Intet kliniksforsøg eller studie har u
 - Epirubicin-specifikke studier eller registrerede forsøg ved primært pulmonalt lymfom
 - Data om virkningsmekanisme og en vurdering af, om epirubicin tilfører noget i forhold til etablerede doxorubicinbaserede regimer
 - Hentning af produktresuméets advarsler og kontraindikationer til en sikkerhedsvurdering, herunder hjertetoksicitet og knoglemarvspåvirkning hos lymfompatienter
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

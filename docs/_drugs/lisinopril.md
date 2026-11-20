@@ -56,7 +56,7 @@ Forudsigelsen afspejler sandsynligvis, at diagnosen er en anatomisk undertype af
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lisinoprils detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er samlet til denne rapport. Lisinopril tilhører klassen af ACE-hæmmere, som hæmmer renin-angiotensin-aldosteron-systemet (RAAS). Effekten ved hypertension og myokardieinfarkt er veldokumenteret, og mekanismen kan overføres til de nærtstående tilstande nedenfor.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Lisinopril (uofficiel oversættelse): »Lisinopril hæmmer angiotensinkonverterende enzym (ACE) hos mennesker og dyr. ACE er en peptidyldipeptidase, som katalyserer omdannelsen af angiotensin I til det vasokonstriktoriske stof angiotensin II. Angiotensin II stimulerer desuden binyrebarkens sekretion af aldosteron.« Engelsk originaltekst: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), version af 2025-12-16; hentet 2026-11-19). Lisinopril tilhører klassen af ACE-hæmmere, som hæmmer renin-angiotensin-aldosteron-systemet (RAAS). Effekten ved hypertension og myokardieinfarkt er veldokumenteret, og mekanismen kan overføres til de nærtstående tilstande nedenfor.
 
 Posterolateralt myokardieinfarkt er en anatomisk undertype af myokardieinfarkt, som lisinopril allerede er godkendt til. Den høje score skyldes sandsynligvis nærhed i sygdomsontologien og ikke ny biologisk indsigt. Det samme gælder posteroinferiort og septalt infarkt (rang 2 og 7) samt maligne former for hypertension (rang 5 og 6), som er sværere former af den godkendte indikation.
 
@@ -110,6 +110,19 @@ Den forudsagte indikation er en anatomisk undertype af en allerede godkendt indi
 - Prioriter kronisk cor pulmonale som mulig reel forskningsmulighed med en systematisk litteraturgennemgang og kontrollerede forsøg
 - Verificér relevansen af PMID 39018146 for septalt myokardieinfarkt
 - Udarbejd en overvågningsplan for nyrefunktion, kalium og angioødem
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

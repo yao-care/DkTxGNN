@@ -58,7 +58,7 @@ Etelcalcetid er et calcimimetikum, der oprindeligt anvendes til behandling af hy
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Etelcalcetid er dog et calcimimetikum, som aktiverer det calciumfølende receptor (CaSR) på biskjoldbruskkirtlens celler og dermed sænker parathyroideahormon (PTH).
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Etelcalcetide (uofficiel oversættelse): »Etelcalcetid er et calcimimetikum, der allosterisk modulerer den calciumfølsomme receptor (CaSR). Etelcalcetid binder til CaSR og forstærker aktiveringen af receptoren via ekstracellulært calcium. Aktivering af CaSR på parathyroideas hovedceller nedsætter PTH-sekretionen.« Engelsk originaltekst: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), version af 2026-03-08; hentet 2026-11-19). Etelcalcetid er dog et calcimimetikum, som aktiverer det calciumfølende receptor (CaSR) på biskjoldbruskkirtlens celler og dermed sænker parathyroideahormon (PTH).
 
 Hos dialysepatienter hænger høj PTH og forhøjet fosfat tæt sammen. Når PTH og knogleomsætning falder, kan frigivelsen af fosfat fra knogler mindskes, og lægemidlet kan muligvis sænke serumfosfat og calcium-fosfat-produktet en smule som en sekundær effekt. Koblingen er derfor biologisk plausibel.
 
@@ -119,6 +119,19 @@ Forudsigelsen er biologisk plausibel, men virkningen vil være indirekte, og der
 - Produktresumé (SmPC) med advarsler og kontraindikationer samt den godkendte indikationstekst for Parsabiv
 - Kliniske data (post hoc-analyser af eksisterende forsøg eller nye forsøg) med serumfosfat som primært eller sekundært endepunkt
 - Afklaring af, om en eventuel fosfatsænkende effekt har klinisk betydning ud over standardbehandling med fosfatbindere
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

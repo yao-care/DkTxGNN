@@ -58,7 +58,7 @@ Simvastatin er et kolesterolsænkende middel (statin). TxGNN-modellen (deep lear
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om simvastatins virkningsmekanisme foreligger ikke i det materiale, der er indsamlet til denne rapport. Simvastatin tilhører statinerne, som er kendt for at sænke LDL-kolesterol. Statiner antages desuden at have bredere effekter på blodkar, f.eks. antiinflammatoriske og karstabiliserende virkninger.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Simvastatin (uofficiel oversættelse): »Simvastatin er et prodrug og hydrolyseres efter administration til sin aktive β-hydroxysyreform, simvastatinsyre. Simvastatinsyre og dens metabolitter er hæmmere af HMG-CoA-reduktase, det hastighedsbegrænsende enzym, der omdanner HMG-CoA til mevalonat, en forløber for kolesterol.« Engelsk originaltekst: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), version af 2025-03-28; hentet 2026-11-19). Simvastatin tilhører statinerne, som er kendt for at sænke LDL-kolesterol. Statiner antages desuden at have bredere effekter på blodkar, f.eks. antiinflammatoriske og karstabiliserende virkninger.
 
 Hjernestammeinfarkt er en anatomisk undertype af iskæmisk hjerneinfarkt. Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -111,6 +111,19 @@ Forudsigelsen er udelukkende modelbaseret. Der findes hverken kliniske forsøg e
 - Data om virkningsmekanisme
 - Gennemgang af det danske produktresumé for advarsler og kontraindikationer
 - Afklaring af, om forudsigelsen tilføjer noget ud over den eksisterende brug ved sekundær forebyggelse efter apopleksi
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

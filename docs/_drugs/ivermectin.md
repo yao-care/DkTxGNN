@@ -54,7 +54,7 @@ Ivermectin er et middel mod parasitter, og i videnskabsgrafen er det registreret
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at ivermectin primært virker på glutamatstyrede kloridkanaler hos hvirvelløse dyr. Der er ikke noget, der tyder på, at et tilsvarende mål findes i Candida.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ivermectin (uofficiel oversættelse): »In vitro-studier med humane levermikrosomer og rekombinante CYP450-enzymer har vist, at ivermectin primært metaboliseres af CYP3A4.« Engelsk originaltekst: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), version af 2024-09-20; hentet 2026-11-19). Det er kendt, at ivermectin primært virker på glutamatstyrede kloridkanaler hos hvirvelløse dyr. Der er ikke noget, der tyder på, at et tilsvarende mål findes i Candida.
 
 Der er derfor ingen etableret mekanistisk forbindelse mellem parasitinfektioner og candidiasis. Sygdommene har forskellige årsager: parasitter (orme) kontra svampe. Den høje modelscore kan ikke i sig selv erstatte biologisk sandsynlighed eller klinisk dokumentation.
 
@@ -109,11 +109,12 @@ Forudsigelsen er alene baseret på en computermodel uden kliniske forsøg, uden 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Den eneste godkendelse er et veterinærlægemiddel (Bimeda Animal Health Limited). Listen er fuldstændig" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Bleomycin forårsager DNA-strengbrud og kan derfor virke på celler fra højgrad
 
 Ældre kombinationsregimer (procarbazin, bleomycin og CCNU sammen med strålebehandling) og studier af calmodulinhæmmere sammen med bleomycin giver tidlige kliniske signaler. Et fase I-forsøg med intratumoral infusion ved recidiverende glioblastom giver nogle sikkerhedsdata. Der findes dog ingen fase 2/3-effektdata, og et randomiseret studie fandt ingen forlænget overlevelse ved tillæg af bleomycin til strålebehandling.
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de indsamlede data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bleomycin (uofficiel oversættelse): »Selvom den nøjagtige virkningsmekanisme for bleomycin er ukendt, tyder den tilgængelige evidens på, at den primære virkemåde er hæmning af DNA-syntesen, med en vis evidens for mindre udtalt hæmning af RNA- og proteinsyntesen. Bleomycin vides at forårsage enkeltstrengsbrud og i mindre grad dobbeltstrengsbrud i DNA.« Engelsk originaltekst: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), version af 2026-04-17; hentet 2026-11-19).
 
 ## Klinisk evidens
 
@@ -114,6 +114,18 @@ Evidensen består af et fase I-forsøg og ældre, ukontrollerede eller negative 
 - Moderne kontrollerede studier (fase II eller derover) med lokal levering
 - Vurdering af sikkerhed, herunder lungemonitorering
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -54,7 +54,7 @@ Chloramphenicol er et bredspektret antibiotikum. TxGNN-modellen forudsiger, at d
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Chloramphenicol er et antibiotikum, og dets kendte virkning er rettet mod bakterier. Der er ingen kendt mekanisme, hvorved det skulle påvirke den fibrotiske proces ved sklerodermi.
+Ifølge afsnittene »Clinical Pharmacology« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Chloramphenicol (uofficiel oversættelse): »Chloramphenicol er et bredspektret antibiotikum, der oprindeligt blev isoleret fra Streptomyces venezuelae. Det hæmmer bakteriel proteinsyntese ved at interferere med overførslen af aktiverede aminosyrer fra opløseligt RNA til ribosomer.« Engelsk originaltekst: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), version af 2024-10-10; hentet 2026-11-19). Chloramphenicol er et antibiotikum, og dets kendte virkning er rettet mod bakterier. Der er ingen kendt mekanisme, hvorved det skulle påvirke den fibrotiske proces ved sklerodermi.
 
 De fundne artikler handler om TGF-beta/Smad3-signalering og regulering af kollagengener i fibroblaster fra patienter med sklerodermi. Chloramphenicol optræder sandsynligvis kun, fordi disse studier bruger CAT-reporterassays (chloramphenicol-acetyltransferase) som laboratoriemetode. Det er derfor sandsynligvis en metodologisk artefakt og ikke et terapeutisk signal. Forudsigelsen hviler dermed hovedsageligt på modellens score. Knoglemarvstoksicitet ved chloramphenicol er desuden en betydelig bekymring ved et eventuelt kronisk behandlingsforsøg.
 
@@ -104,6 +104,18 @@ Forudsigelsen understøttes kun af en høj modelscore. Den tilgængelige littera
 - Mindst ét studie, der direkte undersøger chloramphenicol ved diffus sklerodermi
 - En vurdering af administrationsvej og en risiko-nytte-analyse med fokus på hæmatologisk sikkerhed
 - Oplysninger om virkningsmekanisme og fuld sikkerhedsprofil fra produktresuméet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

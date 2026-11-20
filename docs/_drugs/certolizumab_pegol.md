@@ -55,7 +55,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **hypermobilitet a
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Certolizumab pegol er et PEGyleret anti-TNF Fab'-fragment, og TNF-medieret inflammation kunne i teorien bidrage til smertefulde tilstande i hale- og sacroiliacaregionen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Certolizumab Pegol (uofficiel oversættelse): »Certolizumab pegol binder til humant TNFα med en KD på 90 pM. TNFα er et centralt proinflammatorisk cytokin med en central rolle i inflammatoriske processer. Certolizumab pegol neutraliserer selektivt TNFα (IC 90 på 4 ng/ml for hæmning af humant TNFα i in vitro-cytotoksicitetsassayet med L929-murint fibrosarkom), men neutraliserer ikke lymfotoksin α (TNFβ).« Engelsk originaltekst: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), version af 2026-10-29; hentet 2026-11-19). Certolizumab pegol er et PEGyleret anti-TNF Fab'-fragment, og TNF-medieret inflammation kunne i teorien bidrage til smertefulde tilstande i hale- og sacroiliacaregionen.
 
 Hypermobilitet af halebenet er imidlertid primært en mekanisk eller traumatisk tilstand, så et antiinflammatorisk argument er svagt. Den meget høje score (0,9975) er alene en modelforudsigelse og afspejler sandsynligvis nærhed i netværket til aksial spondylartropati og beslægtede muskel- og skeletbegreber. Der er ikke belæg for en egentlig mekanistisk sammenhæng.
 
@@ -94,6 +94,19 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5) uden kliniske fors�
 - En afgrænset hypotese om en inflammatorisk delmængde af halebensproblemer, der kan testes
 - Prækliniske eller observationelle data, der direkte omhandler tilstanden
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

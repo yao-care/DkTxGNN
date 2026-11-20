@@ -58,7 +58,7 @@ Cobicistat er en farmakokinetisk booster, der hæmmer enzymet CYP3A og dermed ø
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen. Cobicistat er kendt som en CYP3A-hæmmer, der bruges som booster sammen med antiretrovirale lægemidler som elvitegravir, darunavir og atazanavir. Stoffet har ingen selvstændig antiviral aktivitet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cobicistat (uofficiel oversættelse): »Cobicistat er en mekanismebaseret hæmmer af cytokrom P450 3A (CYP3A). Cobicistats hæmning af den CYP3A-medierede metabolisme øger den systemiske eksponering for CYP3A-substraterne atazanavir og darunavir.« Engelsk originaltekst: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), version af 2026-02-10; hentet 2026-11-19). Cobicistat er kendt som en CYP3A-hæmmer, der bruges som booster sammen med antiretrovirale lægemidler som elvitegravir, darunavir og atazanavir. Stoffet har ingen selvstændig antiviral aktivitet.
 
 SIV er en lentivirus, der er tæt beslægtet med hiv og rammer ikke-humane primater. Enhver gavnlig effekt ville derfor være indirekte, nemlig ved at forstærke eksponeringen for samtidigt givne antiretrovirale midler. Den høje score afspejler sandsynligvis den tætte slægtskabsrelation mellem SIV og hiv i modellens data snarere end uafhængig evidens.
 
@@ -115,6 +115,19 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5) uden kliniske f
 - Data om virkningsmekanismen
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - En vurdering af, om indikationen overhovedet har relevans for human behandling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

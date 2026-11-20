@@ -54,7 +54,7 @@ Colecalciferol (D-vitamin D3) er registreret i videnskabsgrafen med relation til
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der er på nuværende tidspunkt ikke tilgængelige data om lægemidlets detaljerede virkningsmekanisme. Colecalciferol er et forstadie til det aktive D-vitamin, som regulerer optagelsen af calcium og fosfat og dermed knoglemineraliseringen. Det er baggrunden for brugen ved D-vitaminmangel og knoglesygdomme.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Cholecalciferol (uofficiel oversættelse): »D-vitaminreceptoragonist« Engelsk originaltekst: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; hentet 2026-11-19). Colecalciferol er et forstadie til det aktive D-vitamin, som regulerer optagelsen af calcium og fosfat og dermed knoglemineraliseringen. Det er baggrunden for brugen ved D-vitaminmangel og knoglesygdomme.
 
 Akromesomel dysplasi af denne type er en sjælden arvelig skeletlidelse, som typisk skyldes forstyrrelser i CNP/NPR2-signalvejen. Der er ikke noget i de foreliggende data, der tyder på, at D-vitamin korrigerer denne signalvej. Den høje score afspejler sandsynligvis nærhed i netværket til knogle- og skeletfænotyper snarere end en reel behandlingsmekanisme. Der er derfor ikke belæg for et mekanistisk led mellem lægemidlet og den forudsagte sygdom.
 
@@ -94,6 +94,19 @@ Forudsigelsen er rent beregningsbaseret (L5) uden kliniske forsøg, litteratur e
 - Indikationstekst og sikkerhedsoplysninger fra det godkendte produktresumé for Benferol
 
 *Bemærkning:* Modellen forudsiger også andre indikationer for colecalciferol, f.eks. renal osteodystrofi, som har kliniske forsøg og randomiserede studier. De hører til en anden sygdom og indgår ikke som evidens for den indikation, der vurderes her.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

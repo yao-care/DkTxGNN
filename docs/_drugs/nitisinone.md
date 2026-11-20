@@ -58,7 +58,7 @@ Nitisinon er en hæmmer af enzymet HPPD og anvendes oprindeligt til behandling a
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Nitisinon hæmmer enzymet 4-hydroxyphenylpyruvat-dioxygenase (HPPD) i tyrosinnedbrydningen. Dermed forhindres dannelsen af toksiske metabolitter som succinylaceton. Data om detaljeret virkningsmekanisme var ikke tilgængelige i det indsamlede datamateriale, så beskrivelsen bygger på almen viden om stoffets virkning.
+Nitisinon hæmmer enzymet 4-hydroxyphenylpyruvat-dioxygenase (HPPD) i tyrosinnedbrydningen. Dermed forhindres dannelsen af toksiske metabolitter som succinylaceton. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nitisinone (uofficiel oversættelse): »Nitisinon er en kompetitiv hæmmer af 4-hydroxyphenylpyruvat-dioxygenase, et enzym, der ligger opstrøms for fumarylacetoacetat-hydrolase (FAH) i tyrosins kataboliske vej. Ved at hæmme den normale katabolisme af tyrosin hos patienter med HT-1 forhindrer nitisinon ophobning af de kataboliske intermediater maleylacetoacetat og fumarylacetoacetat.« Engelsk originaltekst: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), version af 2026-10-21; hentet 2026-11-19).
 
 Ved arvelig tyrosinæmi type 1 opstår der ofte nyretubulær dysfunktion af Fanconi-typen, og nitisinon kan bedre denne ved at blokere dannelsen af de toksiske metabolitter. Der er således en indirekte forbindelse mellem den oprindelige indikation og renal tubulær dysfunktion.
 
@@ -110,6 +110,19 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikation
 - Præklinisk eller mekanistisk dokumentation for effekt ved renal tubulær acidose uafhængigt af tyrosinæmi
 - Systematisk litteratursøgning og case-baseret gennemgang af nyrefunktion hos nitisinon-behandlede patienter
 - Vurdering af nyresikkerhed, da nyresygdom er markeret som kontraindikation i vidensgrafen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

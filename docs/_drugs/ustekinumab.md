@@ -61,7 +61,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **dermatitis** (primært a
 
 Ustekinumab blokerer den fælles p40-underenhed i IL-12 og IL-23 og hæmmer dermed Th1- og Th17/Th22-veje. Disse veje er centrale ved psoriasis og bidrager også til nogle former for inflammatorisk dermatitis, herunder atopisk dermatitis.
 
-Rationalet er dog kun delvist: atopisk dermatitis er overvejende Th2-drevet (IL-4, IL-13, IL-31). Det passer med, at fase 2-data har vist inkonsistent effekt. Detaljerede oplysninger om virkningsmekanisme fra DrugBank mangler i de indsamlede data.
+Rationalet er dog kun delvist: atopisk dermatitis er overvejende Th2-drevet (IL-4, IL-13, IL-31). Det passer med, at fase 2-data har vist inkonsistent effekt. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ustekinumab (uofficiel oversættelse): »Ustekinumab-produkter er humane monoklonale IgG1κ-antistoffer, der binder specifikt til p40-proteinunderenheden, som anvendes af både cytokinerne IL-12 og IL-23. IL-12 og IL-23 er naturligt forekommende cytokiner, der er involveret i inflammatoriske og immunologiske responser, såsom aktivering af naturlige dræberceller samt differentiering og aktivering af CD4+ T-celler.« Engelsk originaltekst: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), version af 2026-11-11; hentet 2026-11-19).
 
 ---
 
@@ -126,6 +126,19 @@ Der findes to fase 2-forsøg direkte ved atopisk dermatitis, men de er små, og 
 - Verificér, om NCT01945086 svarer til publikationen 28338223, og foretag en samlet vurdering af effektdata fra de to fase 2-studier
 - Afklar, hvilke undertyper af dermatitis der er relevante, evt. med Th1/Th17-præget sygdom
 - Vurdér behovet for større, kontrollerede forsøg før en klinisk anbefaling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

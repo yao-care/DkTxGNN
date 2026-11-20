@@ -60,7 +60,7 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en c
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Doxycyclin er et tetracyklin, hvis effekt ved bakterielle infektioner er veldokumenteret. Mekanistisk kan det være relevant for øjenoverfladesygdomme, men det er ikke bekræftet for den forudsagte indikation.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Doxycycline (uofficiel oversættelse): »Doxycyclin hæmmer den bakterielle proteinsyntese ved at binde sig til den ribosomale 30S-underenhed. Doxycyclin har bakteriostatisk aktivitet mod en bred vifte af grampositive og gramnegative bakterier.« Engelsk originaltekst: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), version af 2026-07-09; hentet 2026-11-19). Doxycyclin er et tetracyklin, hvis effekt ved bakterielle infektioner er veldokumenteret. Mekanistisk kan det være relevant for øjenoverfladesygdomme, men det er ikke bekræftet for den forudsagte indikation.
 
 Doxycyclin er en etableret behandling af klamydiainfektion i bindehinden (follikulær konjunktivitis). I nogle tilfælde følges den af vedvarende punktformet keratitis, altså små skader i hornhindens overflade. Tetracykliner har desuden antiinflammatoriske egenskaber og hæmmer matrixmetalloproteinaser (MMP) på øjenoverfladen. Det kan teoretisk dæmpe betændelse og vævsnedbrydning i hornhinden.
 
@@ -121,6 +121,19 @@ Forudsigelsen bygger på en høj modelscore og en enkelt case-rapport fra 1992 o
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Afklaring af administrationsvej (oral versus lokal okulær) og af, om en egnet formulering findes
 - Vurdering af interaktionsbyrden og af resistenshensyn ved eventuel længerevarende brug
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

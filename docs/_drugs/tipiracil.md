@@ -54,7 +54,7 @@ Tipiracil er en thymidinphosphorylase-hæmmer, der markedsføres i Danmark som e
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Tipiracil hæmmer enzymet thymidinphosphorylase og forhindrer dermed nedbrydning af trifluridin, som er det cytotoksiske nukleosidanalog i kombinationen. Tipiracil har ikke selv antitumoraktivitet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for trifluridine and tipiracil (kombinationspræparat med Tipiracil) (uofficiel oversættelse): »LONSURF består af en thymidinbaseret nukleosidanalog, trifluridin, og thymidinphosphorylasehæmmeren tipiracil i et molforhold på 1:0,5 (vægtforhold 1:0,471). Tilsætning af tipiracil øger eksponeringen for trifluridin ved at hæmme dets metabolisering via thymidinphosphorylase.« Engelsk originaltekst: "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), version af 2025-11-05; hentet 2026-11-19). Tipiracil hæmmer enzymet thymidinphosphorylase og forhindrer dermed nedbrydning af trifluridin, som er det cytotoksiske nukleosidanalog i kombinationen. Tipiracil har ikke selv antitumoraktivitet.
 
 Et villøst adenom er en godartet forstadielæsion i samme organ som tyktarmskræft. Den høje modelscore afspejler sandsynligvis nær tilknytning til tyktarmskræft i modellens data og ikke en direkte biologisk begrundelse. Der er ingen mekanistisk grund til at behandle et godartet adenom med en cytotoksisk nukleosidkombination. Standardbehandling er endoskopisk eller kirurgisk fjernelse.
 
@@ -117,6 +117,18 @@ Forudsigelsen bygger kun på modellen (evidensniveau L5). Der findes ingen klini
 - Dokumentation af virkningsmekanisme og en begrundet fordel i forhold til endoskopisk resektion
 - Vurdering af nytte/risiko i en godartet tilstand, givet kombinationens cytotoksiske bivirkningsprofil
 - Gennemgang af det godkendte produktresumé for advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

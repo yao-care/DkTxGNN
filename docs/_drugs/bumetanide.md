@@ -56,7 +56,7 @@ Der er ingen registrerede kliniske forsøg for denne sygdom og kun indirekte lit
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi hæmmer bumetanid Na-K-2Cl-cotransportøren (NKCC2) i den tykke opadgående del af Henles slynge og giver hurtig natriurese og diurese.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bumetanide (uofficiel oversættelse): »Bumetanid hæmmer primært reabsorptionen af natrium og chlorid i de proksimale og distale tubuli og i Henles slynge. Den kraftige diurese skyldes i høj grad det unikke virkningssted. Virkningen på den distale tubulus er uafhængig af nogen hæmmende virkning på kulsyreanhydrase og aldosteron.« Engelsk originaltekst: "Bumetanide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone." ([DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f), version af 2026-08-27; hentet 2026-11-19). Ud fra almen farmakologi hæmmer bumetanid Na-K-2Cl-cotransportøren (NKCC2) i den tykke opadgående del af Henles slynge og giver hurtig natriurese og diurese.
 
 Ved akut pulmonal hjertesygdom (akut cor pulmonale) kan overbelastning af højre ventrikel og venøs stase muligvis lindres ved at nedsætte preload. Det er mekanistisk i tråd med brugen ved hjerteinsufficiens. Effekten er dog indirekte: højre ventrikel er ved akut cor pulmonale afhængig af preload, og for kraftig diurese kan nedsætte hjertets minutvolumen, så væskebehandling kræver stor forsigtighed.
 
@@ -102,6 +102,18 @@ Ingen studier har undersøgt bumetanid ved akut pulmonal hjertesygdom, og den ek
 - Kliniske eller prækliniske studier af bumetanid specifikt ved akut cor pulmonale
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - En sikkerhedsvurdering af volumenstyring og elektrolytovervågning hos patienter med højresidig belastning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

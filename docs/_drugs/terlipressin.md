@@ -63,7 +63,7 @@ Til sammenligning har de øvrige forudsagte indikationer (åbenvinklet glaukom, 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme (MOA) er på nuværende tidspunkt ikke tilgængelige. Terlipressin er kendt som en V1-receptor-præfererende vasopressinanalog, der virker som splanknisk og systemisk vasokonstriktor. Dets virkning ved den oprindelige anvendelse kan derfor kun beskrives ud fra generel viden om lægemiddelklassen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Terlipressin (uofficiel oversættelse): »Terlipressin er en syntetisk vasopressinanalog med dobbelt så høj selektivitet for vasopressin V 1 -receptorer som for V 2 -receptorer. Terlipressin virker både som et prodrug for lysin-vasopressin og har desuden selvstændig farmakologisk aktivitet.« Engelsk originaltekst: "Terlipressin is a synthetic vasopressin analogue with twice the selectivity for vasopressin V 1 receptors versus V 2 receptors. Terlipressin acts as both a prodrug for lysine-vasopressin, as well as having pharmacologic activity on its own." ([DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354), version af 2026-10-23; hentet 2026-11-19). Terlipressin er kendt som en V1-receptor-præfererende vasopressinanalog, der virker som splanknisk og systemisk vasokonstriktor. Dets virkning ved den oprindelige anvendelse kan derfor kun beskrives ud fra generel viden om lægemiddelklassen.
 
 For pulmonal hypertension har små hæmodynamiske studier hos patienter med levercirrose og portopulmonal hypertension vist, at terlipressin kan have forskellig effekt på lungekredsløb og systemisk kredsløb, og at det kan sænke pulmonale tryk (PMID 21733953, 22893473, 18280605). Desuden beskriver case-rapporter redningsbehandling hos nyfødte med vedvarende pulmonal hypertension og refraktært shock (PMID 32999121, 21292065, 19624374).
 
@@ -126,6 +126,19 @@ Evidensen for pulmonal hypertension består af små hæmodynamiske studier og ca
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Systematisk gennemgang af litteraturen med fokus på direkte relevans for pulmonal hypertension samt karakterisering af risikoen for øget pulmonal vaskulær modstand
 - Eventuelt et prospektivt, kontrolleret forsøg i en veldefineret population, før en egentlig anbefaling kan overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

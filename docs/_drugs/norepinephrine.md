@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **obstruktiv lungesygdom**
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Noradrenalin er kendt som en agonist på adrenerge receptorer (alfa og beta). Adrenerg signalering påvirker luftvejenes tonus, luftvejenes innervation og neuroimmune inflammationsprocesser ved astma og KOL, hvilket giver en biologisk sandsynlighed. Det understøttes af oversigtsartikler om adrenerg signalering ved allergisk astma og om neuroimmune kredsløb i luftvejssygdomme.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Norepinephrine (uofficiel oversættelse): »Noradrenalin er en perifer vasokonstriktor (alfa-adrenerg virkning) og en inotrop stimulator af hjertet samt dilator af koronararterierne (beta-adrenerg virkning).« Engelsk originaltekst: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), version af 2026-10-27; hentet 2026-11-19). Noradrenalin er kendt som en agonist på adrenerge receptorer (alfa og beta). Adrenerg signalering påvirker luftvejenes tonus, luftvejenes innervation og neuroimmune inflammationsprocesser ved astma og KOL, hvilket giver en biologisk sandsynlighed. Det understøttes af oversigtsartikler om adrenerg signalering ved allergisk astma og om neuroimmune kredsløb i luftvejssygdomme.
 
 Der er dog væsentlige forbehold. Noradrenalin er en ikke-selektiv vasopressor med kraftig alfa-1- og beta-1-aktivitet og kun lille beta-2-selektivitet, som ville være nødvendig for bronkodilatation. Det gives som intravenøs infusion, så der er ingen oplagt vej til terapeutisk gavn ved obstruktiv luftvejssygdom. Desuden overlapper den oprindelige astma- og bronkitismærkning allerede med denne indikation, så der er ikke tale om et reelt nyt repurposing-mål.
 
@@ -125,6 +125,19 @@ Evidensen er kun på L4-niveau: der er ingen klinisk dokumentation for gavn af n
 ---
 
 *Bemærk: De øvrige forudsagte indikationer, respiratorisk misdannelse (L5) og Rienhoff syndrom (L5), har ingen klinisk evidens og får ligeledes anbefalingen Hold.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

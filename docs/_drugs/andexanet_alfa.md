@@ -58,7 +58,7 @@ Andexanet alfa er et rekombinant lægemiddel, som er markedsført i Danmark unde
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den kendte farmakologi er andexanet alfa en rekombinant, katalytisk inaktiv faktor Xa-"lokkemad" (decoy), der binder og neutraliserer direkte faktor Xa-hæmmere. Det genopretter dermed trombindannelsen, men kun når en faktor Xa-hæmmer er til stede.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Andexanet Alfa (uofficiel oversættelse): »Koagulationsfaktor Xa (rekombinant), inaktiveret-zhzo udøver sin prokoagulerende virkning ved at binde og sekvestrere FXa-hæmmerne rivaroxaban og apixaban. En anden observeret prokoagulerende virkning af ANDEXXA-proteinet er dets evne til at binde til og hæmme aktiviteten af Tissue Factor Pathway Inhibitor (TFPI).« Engelsk originaltekst: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), version af 2025-05-23; hentet 2026-11-19). Ud fra den kendte farmakologi er andexanet alfa en rekombinant, katalytisk inaktiv faktor Xa-"lokkemad" (decoy), der binder og neutraliserer direkte faktor Xa-hæmmere. Det genopretter dermed trombindannelsen, men kun når en faktor Xa-hæmmer er til stede.
 
 Glanzmanns trombasteni er en arvelig defekt i trombocytternes integrin αIIbβ3 (GPIIb/IIIa), som medfører manglende trombocytaggregation. Lokkemad-mekanismen adresserer ikke denne defekt, og der er derfor ingen plausibel mekanistisk forbindelse.
 
@@ -120,6 +120,19 @@ Forudsigelsen for Glanzmanns trombasteni er udelukkende modelbaseret (L5) uden k
 - Godkendt indikationstekst og sikkerhedsoplysninger (advarsler og kontraindikationer) fra produktresuméet hos Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske data, der kan underbygge en eventuel sammenhæng, før yderligere vurdering er relevant
 - Vurdering af tromboembolisk risiko hos patienter med blødningssygdomme
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

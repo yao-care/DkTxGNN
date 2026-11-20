@@ -58,7 +58,7 @@ Docetaxel er et cytostatikum af taxan-typen, som hæmmer celledelingen ved at st
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Docetaxel er dog kendt som en mikrotubulistabiliserende taxan, der udløser mitotisk arrest og apoptose i hurtigt delende celler.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Docetaxel (uofficiel oversættelse): »Docetaxel er et antineoplastisk stof, der virker ved at forstyrre det mikrotubulære netværk i cellerne, som er essentielt for mitotiske og interfasiske cellulære funktioner. Docetaxel binder sig til frit tubulin og fremmer samlingen af tubulin til stabile mikrotubuli, samtidig med at det hæmmer deres nedbrydning.« Engelsk originaltekst: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), version af 2025-12-17; hentet 2026-11-19). Docetaxel er dog kendt som en mikrotubulistabiliserende taxan, der udløser mitotisk arrest og apoptose i hurtigt delende celler.
 
 Ewing-sarkom er en meget proliferativ tumor, så en antimitotisk effekt er biologisk plausibel. Klinisk er docetaxel primært undersøgt i kombination med gemcitabin ved recidiverende sygdom. Effekten af docetaxel alene ved solide tumorer hos børn ser ud til at være begrænset, så forudsigelsen bør betragtes som et forskningsspørgsmål frem for en dokumenteret behandlingsmulighed.
 
@@ -125,6 +125,18 @@ Flere afsluttede fase 2-forsøg ved recidiverende Ewing-sarkom inkluderer doceta
 - Publicerede studier, der direkte omhandler Ewing-sarkom
 - Data om virkningsmekanisme og gennemgang af advarsler og kontraindikationer i produktresuméet
 - Plan for sikkerhedsmonitorering, især af blodbillede, leverfunktion og neuropati, samt vurdering af interaktioner (bl.a. clarithromycin)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

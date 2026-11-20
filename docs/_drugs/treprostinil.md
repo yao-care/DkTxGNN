@@ -60,7 +60,7 @@ Forudsigelsen er derfor udelukkende beregningsbaseret.
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige. Ud fra lægemiddelklassens kendte farmakologi er treprostinil en prostacyklinanalog, der udvider blodkar og hæmmer trombocytaggregation. Disse egenskaber er relevante for sygdomme i lungekarrene, og det er grundlaget for anvendelsen ved pulmonal arteriel hypertension.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Treprostinil (uofficiel oversættelse): »Treprostinil er en prostacyclinanalog. De vigtigste farmakologiske virkninger af treprostinil er direkte vasodilatation af det pulmonale og systemiske arterielle karleje og hæmning af trombocytaggregation.« Engelsk originaltekst: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), version af 2026-04-14; hentet 2026-11-19). Ud fra lægemiddelklassens kendte farmakologi er treprostinil en prostacyklinanalog, der udvider blodkar og hæmmer trombocytaggregation. Disse egenskaber er relevante for sygdomme i lungekarrene, og det er grundlaget for anvendelsen ved pulmonal arteriel hypertension.
 
 Pulmonale arteriovenøse malformationer (f.eks. ved hereditær hæmoragisk telangiektasi) er imidlertid strukturelle karshunts og ikke en vasokonstriktiv sygdom. Karudvidelse kan potentielt forværre højre-til-venstre-shunting og hypoksæmi, og den antitrombotiske effekt kan øge blødningsrisikoen. Den mekanistiske sammenhæng er derfor spekulativ og rummer potentielle sikkerhedsproblemer. Den høje TxGNN-score er alene en beregningsmæssig forudsigelse.
 
@@ -122,11 +122,12 @@ Forudsigelsen bygger kun på modellens score og er uden kliniske forsøg og publ
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->
 

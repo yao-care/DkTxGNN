@@ -60,7 +60,7 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden er orlistat en hæmmer af lipaser i mave-tarm-kanalen og reducerer optagelsen af fedt fra kosten med ca. 30 %.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Orlistat (uofficiel oversættelse): »Orlistat er en reversibel hæmmer af gastrointestinale lipaser. Det udøver sin terapeutiske virkning i lumen af mavesækken og tyndtarmen ved at danne en kovalent binding med det aktive serinrest-sted på gastriske og pankreatiske lipaser.« Engelsk originaltekst: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), version af 2026-09-30; hentet 2026-11-19). Ud fra almen viden er orlistat en hæmmer af lipaser i mave-tarm-kanalen og reducerer optagelsen af fedt fra kosten med ca. 30 %.
 
 Da de fedtopløselige vitaminer (A, D, E og K) optages sammen med kostfedt, nedsætter orlistat også deres optagelse. Der er derfor en plausibel, men rent teoretisk, forbindelse til hypervitaminose af fedtopløselige vitaminer: Mindre optagelse i tarmen kunne i princippet mindske et vitaminoverskud.
 
@@ -110,6 +110,19 @@ Forudsigelsen er kun modelbaseret (L5) uden kliniske forsøg eller litteratur. O
 - Prækliniske eller observationelle data, der viser en målbar og klinisk relevant reduktion af vitaminniveauer
 - Vurdering af det kliniske behov sammenlignet med standardbehandling (ophør med vitamintilskud)
 - Vurdering af risikoen for vitaminmangel og leverpåvirkning i den tilsigtede population
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

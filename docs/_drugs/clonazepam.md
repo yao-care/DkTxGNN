@@ -60,7 +60,7 @@ Forudsigelsen understøttes af **0 registrerede kliniske forsøg** og **20 publi
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra klassen (benzodiazepiner) er clonazepam en positiv allosterisk modulator af GABA-A-receptoren. Den forstærkede GABA-erge hæmning kan mindske sensorisk-motorisk opaktivering og søvnfragmentering, herunder periodiske benbevægelser (PLMS), og dermed lindre symptomer ved RLS.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clonazepam (uofficiel oversættelse): »Den præcise mekanisme, hvorved clonazepam udøver sin antikonvulsive og antipaniske virkning, er ukendt, men den menes at være relateret til dets evne til at øge aktiviteten af gamma-aminosmørsyre (GABA), den vigtigste hæmmende neurotransmitter i centralnervesystemet.« Engelsk originaltekst: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), version af 2025-12-01; hentet 2026-11-19). Ud fra klassen (benzodiazepiner) er clonazepam en positiv allosterisk modulator af GABA-A-receptoren. Den forstærkede GABA-erge hæmning kan mindske sensorisk-motorisk opaktivering og søvnfragmentering, herunder periodiske benbevægelser (PLMS), og dermed lindre symptomer ved RLS.
 
 Clonazepams virkning ved epilepsi og angst hviler på samme hæmmende mekanisme. RLS er en sensorisk-motorisk lidelse med søvnforstyrrelser, hvor beroligende og søvnstabiliserende effekter er relevante. Omkring 25 % af RLS-patienter i en stor undersøgelse (n = 16.694) var behandlet med benzodiazepiner alene eller i kombination.
 
@@ -131,6 +131,19 @@ Der foreligger en AASM-retningslinje, en Cochrane-oversigt og små placebokontro
 ---
 
 *Note om øvrige forudsigelser:* Insomni (score 0,9930, evidensniveau L4, "Research Question") har kun indirekte litteratur og ingen forsøg. Trigeminusnerve-neoplasme (score 0,9930, L5, "Hold") har ingen understøttende evidens eller plausibel mekanisme.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

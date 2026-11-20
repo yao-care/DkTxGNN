@@ -59,7 +59,7 @@ Insulin lispro er et hurtigtvirkende insulinanalog, der oprindeligt anvendes til
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der er på nuværende tidspunkt ikke tilgængelige detaljerede data om virkningsmekanismen. Ud fra kendt viden er insulin lispro et insulinanalog, hvis effekt på blodsukkerreguleringen ved diabetes er veletableret.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Insulin Lispro (uofficiel oversættelse): »Regulering af glukosemetabolismen er den primære aktivitet af insuliner og insulinanaloger, herunder insulin lispro-produkter. Insuliner sænker blodglukosen ved at stimulere den perifere glukoseoptagelse i skeletmuskulatur og fedtvæv og ved at hæmme leverens glukoseproduktion.« Engelsk originaltekst: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), version af 2026-09-03; hentet 2026-11-19). Ud fra kendt viden er insulin lispro et insulinanalog, hvis effekt på blodsukkerreguleringen ved diabetes er veletableret.
 
 Den eneste mulige kobling i de foreliggende data er, at autoimmun oophoritis ofte optræder sammen med autoimmune polyendokrine syndromer, som også omfatter type 1-diabetes. Det afspejler en fælles sygdomskontekst og ikke en terapeutisk effekt af insulin lispro på autoimmunitet i æggestokkene. Den høje score bør derfor ikke tolkes som klinisk støtte.
 
@@ -141,11 +141,12 @@ Forudsigelsen om autoimmun oophoritis bygger udelukkende på en beregningsmæssi
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.” → “Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyld” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

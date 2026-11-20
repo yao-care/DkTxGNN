@@ -54,7 +54,7 @@ Iloprost er en stabil prostacyklinanalog, som i den viden, der er indsamlet til 
 
 ## Hvorfor kan forudsigelsen give mening?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Iloprost er kendt som en prostacyklin (PGI2)-analog, der virker på IP-receptorer og giver karudvidelse og hæmning af trombocytaggregation.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Iloprost (uofficiel oversættelse): »Iloprost er en syntetisk analog af prostacyclin PGI 2. Iloprost er en vasodilatator og hæmmer trombocytaggregation.« Engelsk originaltekst: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), version af 2026-08-13; hentet 2026-11-19). Iloprost er kendt som en prostacyklin (PGI2)-analog, der virker på IP-receptorer og giver karudvidelse og hæmning af trombocytaggregation.
 
 En spekulativ forbindelse til hårvækst er, at forbedret blodgennemstrømning omkring hårsækkene og prostaglandinsignalering kan påvirke hårcyklussen. Beslægtede prostaglandinanaloger som bimatoprost og latanoprost påvirker hårvækst, men via FP-receptorer og ikke IP-receptorer.
 
@@ -114,11 +114,12 @@ Forudsigelsen for hypotrichosis simplex i hovedbunden er udelukkende modelbasere
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 5 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

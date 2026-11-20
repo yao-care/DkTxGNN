@@ -56,7 +56,7 @@ Evidensen omfatter **5 kliniske forsøg** (heraf 2 afsluttede) og **6 publikatio
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen farmakologisk viden er solriamfetol en hæmmer af genoptagelsen af dopamin og noradrenalin. Forstyrrelser i dopamin- og noradrenalinsignalering i de præfrontale kredsløb er centrale i ADHD's patofysiologi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Solriamfetol (uofficiel oversættelse): »Virkningsmekanismen, hvormed solriamfetol forbedrer vågenheden hos patienter med overdreven søvnighed i dagtimerne forbundet med narkolepsi eller obstruktiv søvnapnø, er uklar. Virkningen kan dog være medieret gennem dets aktivitet som dopamin- og noradrenalingenoptagshæmmer (DNRI).« Engelsk originaltekst: "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)." ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), version af 2026-05-05; hentet 2026-11-19). Ud fra almen farmakologisk viden er solriamfetol en hæmmer af genoptagelsen af dopamin og noradrenalin. Forstyrrelser i dopamin- og noradrenalinsignalering i de præfrontale kredsløb er centrale i ADHD's patofysiologi.
 
 Mekanismen tilhører samme klasse som etablerede ADHD-behandlinger, f.eks. methylphenidat og atomoxetin. Derfor er det mekanistiske grundlag stærkt, og det understøttes af de kliniske data. Da mekanismeoplysningerne ikke er en del af det indsamlede datagrundlag, bygger vurderingen på almen viden og ikke på de leverede data.
 
@@ -108,6 +108,18 @@ Der foreligger ét afsluttet fase 3-forsøg og ét afsluttet fase 2/3-pilotfors�
 - Resultater fra de igangværende pædiatriske fase 3-forsøg og langtidssikkerhedsforsøget
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især kardiovaskulær sikkerhed og interaktioner med sympatomimetika
 - Dokumenteret virkningsmekanisme fra en pålidelig kilde
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

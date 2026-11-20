@@ -60,7 +60,7 @@ men der findes **ingen registrerede kliniske forsøg** og kun **13 publikationer
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Eplerenon blokerer mineralokortikoidreceptoren (MR). Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport, men den mekanistiske sammenhæng er beskrevet i litteraturen. Hypoksi, herunder kronisk intermitterende hypoksi ved obstruktiv søvnapnø, kan aktivere MR-signalering og bidrage til karremodellering, fibrose og forhøjet blodtryk.
+Eplerenon blokerer mineralokortikoidreceptoren (MR). Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Eplerenone (uofficiel oversættelse): »Eplerenon bindes til mineralokortikoidreceptoren og blokerer bindingen af aldosteron, en komponent i renin-angiotensin-aldosteron-systemet (RAAS). Aldosteronsyntesen, som primært finder sted i binyren, moduleres af flere faktorer, herunder angiotensin II og ikke-RAAS-mediatorer såsom adrenokortikotropt hormon (ACTH) og kalium.« Engelsk originaltekst: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), version af 2025-06-23; hentet 2026-11-19). Hypoksi, herunder kronisk intermitterende hypoksi ved obstruktiv søvnapnø, kan aktivere MR-signalering og bidrage til karremodellering, fibrose og forhøjet blodtryk.
 
 Den oprindelige indikation (systemisk hypertension) og den forudsagte indikation (pulmonal hypertension) er begge tilstande med øget karmodstand og vaskulær remodellering, hvor aldosteron/MR-aktivering kan spille en rolle. Prækliniske studier i rotter viser, at eplerenon dæmper hypoksi-induceret nyrefibrose og atrial remodellering samt pulmonal vaskulær remodellering i modeller for pulmonal arteriel hypertension. Et lille klinisk studie antyder, at eplerenon kan reducere sværhedsgraden af obstruktiv søvnapnø og arteriel stivhed hos patienter med resistent hypertension.
 
@@ -118,6 +118,19 @@ Forudsigelsen bygger på en høj TxGNN-score og en plausibel MR-medieret mekanis
 - Detaljerede data om virkningsmekanisme (MOA)
 - Plan for sikkerhedsovervågning (kalium, nyrefunktion) og vurdering af interaktioner hos målgruppen
 - Vurdering af dosering og administrationsvej til den nye indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

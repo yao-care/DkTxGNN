@@ -62,7 +62,7 @@ De indsamlede data viser **mindst 3 fase 3-forsøg** (heraf 1 afsluttet, direkte
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Gemcitabin er en nukleosidanalog, der hæmmer DNA-syntesen og ribonukleotidreduktase, hvilket er cytotoksisk for hurtigt delende tumorceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Gemcitabine (uofficiel oversættelse): »Gemcitabin dræber celler, der gennemgår DNA-syntese, og blokerer cellernes progression gennem G1/S-fasegrænsen. Gemcitabin metaboliseres af nukleosidkinaser til difosfat- (dFdCDP) og trifosfat- (dFdCTP) nukleosider.« Engelsk originaltekst: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), version af 2026-07-27; hentet 2026-11-19). Gemcitabin er en nukleosidanalog, der hæmmer DNA-syntesen og ribonukleotidreduktase, hvilket er cytotoksisk for hurtigt delende tumorceller.
 
 Da mekanismen ikke er specifik for én tumortype, er det mekanistisk plausibelt, at stoffet også virker ved brystkræft. Gemcitabins effekt ved ovariecancer er veldokumenteret, og begge sygdomme er solide tumorer, der responderer på cytostatisk kombinationsbehandling.
 
@@ -150,6 +150,19 @@ Et afsluttet fase 3-RCT (gemcitabin plus paclitaxel versus paclitaxel), flere fa
 - Detaljerede data om virkningsmekanisme (DrugBank)
 - Plan for hæmatologisk monitorering samt vurdering af nyre- og leverfunktion og interaktioner
 - Afklaring af, om anvendelsen er dækket af en eksisterende dansk godkendelse eller skal ske som off-label brug
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

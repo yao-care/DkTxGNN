@@ -54,7 +54,7 @@ Anakinra er en rekombinant interleukin-1-receptorantagonist, som blokerer IL-1-s
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Anakinra er kendt som en IL-1-receptorantagonist, og en tænkelig forbindelse er, at IL-1 deltager i mastcelledrevet inflammation. Denne sammenhæng er imidlertid spekulativ og er ikke understøttet af de foreliggende data.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Anakinra (uofficiel oversættelse): »KINERET blokerer den biologiske aktivitet af IL-1 alfa og beta ved kompetitivt at hæmme IL-1-binding til interleukin-1 type I-receptoren (IL-1RI), som udtrykkes i en lang række væv og organer. IL-1-produktion induceres som reaktion på inflammatoriske stimuli og medierer forskellige fysiologiske reaktioner, herunder inflammatoriske og immunologiske reaktioner.« Engelsk originaltekst: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), version af 2026-04-03; hentet 2026-11-19). Anakinra er kendt som en IL-1-receptorantagonist, og en tænkelig forbindelse er, at IL-1 deltager i mastcelledrevet inflammation. Denne sammenhæng er imidlertid spekulativ og er ikke understøttet af de foreliggende data.
 
 Den høje score (0,9993) er udelukkende en modelforudsigelse. Der er ikke identificeret en konkret mekanistisk eller klinisk begrundelse for netop denne sygdom, og forudsigelsen bør derfor ikke tolkes som evidens for effekt.
 
@@ -94,6 +94,18 @@ Forudsigelsen er alene baseret på modellen (evidensniveau L5), uden kliniske fo
 - Data om virkningsmekanisme for anakinra
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Hvis der opnås støtte i data: en vurdering af, om et pilotstudie er forsvarligt
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

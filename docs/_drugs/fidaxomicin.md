@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **stafylokok-skoldet-hud-s
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra almen viden hæmmer fidaxomicin bakterielt RNA-polymerase og har *in vitro*-aktivitet mod nogle grampositive bakterier, herunder *Staphylococcus aureus*, som er årsag til stafylokok-skoldet-hud-syndrom (en toksinmedieret hudsygdom).
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fidaxomicin (uofficiel oversættelse): »Fidaxomicin er et antibakterielt lægemiddel. […] Fidaxomicin er et fermenteringsprodukt fremstillet fra aktinomyceten Dactylosporangium aurantiacum. Fidaxomicin er et antibakterielt makrolid, der hæmmer RNA-syntese ved at binde til RNA-polymeraser. Fidaxomicin er baktericidt over for C. difficile in vitro og udviser en post-antibiotisk effekt over for C. difficile på 6-10 timer.« Engelsk originaltekst: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), version af 2024-10-16; hentet 2026-11-19). Ud fra almen viden hæmmer fidaxomicin bakterielt RNA-polymerase og har *in vitro*-aktivitet mod nogle grampositive bakterier, herunder *Staphylococcus aureus*, som er årsag til stafylokok-skoldet-hud-syndrom (en toksinmedieret hudsygdom).
 
 Der er dog en betydelig begrænsning: Peroralt fidaxomicin optages næsten ikke systemisk og virker lokalt i tarmen. Det kan derfor ikke forventes at nå huden eller blodbanen i effektive koncentrationer. Den høje score (0,997) er en beregnet netværksbaseret forudsigelse og udgør ikke i sig selv klinisk støtte. Mekanismen er plausibel *in vitro*, men ikke i praksis med den nuværende formulering.
 
@@ -124,11 +124,12 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller p
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

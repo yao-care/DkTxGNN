@@ -59,7 +59,7 @@ Forudsigelsen hviler alene på modellen og sandsynligvis på overlap med den eks
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Ud fra almen viden hæmmer dorzolamid carbonanhydrase (primært isoenzym II) i ciliarprocesserne, hvilket nedsætter dannelsen af kammervand og dermed det intraokulære tryk. Lægemidlets mål omfatter ifølge de indsamlede farmakologidata carbonanhydrase 1, 7, 12 og 14.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dorzolamide (uofficiel oversættelse): »Kulsyreanhydrase (CA) er et enzym, der findes i mange af kroppens væv, herunder øjet. Det katalyserer den reversible reaktion, der omfatter hydrering af kuldioxid og dehydrering af kulsyre. […] Dorzolamidhydrochlorid øjendråber, opløsning, indeholder dorzolamidhydrochlorid, en hæmmer af human kulsyreanhydrase II.« Engelsk originaltekst: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), version af 2026-11-14; hentet 2026-11-19). Ud fra almen viden hæmmer dorzolamid carbonanhydrase (primært isoenzym II) i ciliarprocesserne, hvilket nedsætter dannelsen af kammervand og dermed det intraokulære tryk. Lægemidlets mål omfatter ifølge de indsamlede farmakologidata carbonanhydrase 1, 7, 12 og 14.
 
 Primær arvelig glaukom er også kendetegnet ved forhøjet intraokulært tryk, så en trykssænkende mekanisme er biologisk plausibel. Den høje score afspejler dog sandsynligvis blot, at sygdommen ligger tæt på den allerede godkendte glaukomindikation. Der er ikke fundet dokumentation for, at dorzolamid er undersøgt specifikt ved arvelig glaukom.
 
@@ -115,6 +115,19 @@ Den stærke evidens, der findes, gælder den allerede godkendte indikation, åbe
 ---
 
 *Bemærk: Øvrige forudsigelser i de data, der er indsamlet til denne rapport (bl.a. alopeci, hjertesvigt og respirationssvigt), er uden dokumenteret mekanistisk eller klinisk støtte og har alle beslutningen Hold.*
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

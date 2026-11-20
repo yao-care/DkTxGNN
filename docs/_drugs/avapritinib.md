@@ -54,7 +54,7 @@ Avapritinib er en tyrosinkinasehæmmer rettet mod KIT og PDGFRA. TxGNN-modellen 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om avapritinibs virkningsmekanisme i de data, der er indsamlet til denne rapport. Avapritinib er generelt kendt som en hæmmer af kinaserne KIT og PDGFRA.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Avapritinib (uofficiel oversættelse): »Avapritinib er en tyrosinkinasehæmmer, der er rettet mod KIT D816V, PDGFRA og PDGFRA D842-mutanter samt flere KIT exon 11-, 11/17- og 17-mutanter med halvmaksimale hæmmende koncentrationer (IC 50 ) under 25 nM i biokemiske assays. Visse mutationer i PDGFRA og KIT kan resultere i autofosforylering og konstitutiv aktivering af disse receptorer, hvilket kan bidrage til tumor- og mastcelleproliferation.« Engelsk originaltekst: "Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation." ([DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9), version af 2026-10-20; hentet 2026-11-19). Avapritinib er generelt kendt som en hæmmer af kinaserne KIT og PDGFRA.
 
 Aksial spondylometafyseal dysplasi er en sjælden skeletsygdom, som i litteraturen er knyttet til varianter i CFAP410 (C21orf2), altså en cilie- og skeletrelateret signalvej. Der er ikke identificeret nogen klar mekanistisk sammenhæng med KIT/PDGFRA-signalering. Den høje score (0,9992) afspejler en modelbaseret forudsigelse og er ikke understøttet af kliniske eller litterære data. Forudsigelsen bør derfor betragtes som en hypotese, ikke som et holdepunkt for behandling.
 
@@ -105,6 +105,19 @@ Forudsigelsen hviler udelukkende på en modelscore uden kliniske forsøg, publik
 - Prækliniske data (celle- eller dyremodeller), der understøtter effekt ved sygdommen
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, da disse data mangler i de indsamlede data
 - En vurdering af nytte/risiko i en sjælden skeletsygdom, før der overvejes kliniske studier
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

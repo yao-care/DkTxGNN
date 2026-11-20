@@ -54,7 +54,7 @@ Ravulizumab er et langtidsvirkende antistof mod komplementfaktor C5, og relation
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Der er på nuværende tidspunkt ikke tilgængelige data om den detaljerede virkningsmekanisme i de data, der er indsamlet til denne rapport. Ravulizumab er kendt som en C5-hæmmer, der blokerer den terminale komplementaktivering, og relationen til paroksysmal nattlig hæmoglobinuri, som er komplementmedieret hæmolyse, er registreret i vidensgrafen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ravulizumab (uofficiel oversættelse): »Ravulizumab-cwvz er en terminal komplementhæmmer, der specifikt og med høj affinitet binder til komplementproteinet C5 og derved hæmmer dets spaltning til C5a (det proinflammatoriske anafylatoksin) og C5b (den initierende underenhed af det membranangribende kompleks [MAC eller C5b-9]), hvorved dannelsen af MAC forhindres. ULTOMIRIS hæmmer terminal komplementmedieret intravaskulær hæmolyse hos patienter med PNH og komplementmedieret trombotisk mikroangiopati (TMA) hos patienter med aHUS.« Engelsk originaltekst: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), version af 2026-10-29; hentet 2026-11-19). Ravulizumab er kendt som en C5-hæmmer, der blokerer den terminale komplementaktivering, og relationen til paroksysmal nattlig hæmoglobinuri, som er komplementmedieret hæmolyse, er registreret i vidensgrafen.
 
 G6PC3-mangel giver neutropeni via forstyrret glukosemetabolisme og øget apoptose i neutrofile granulocytter, ikke via C5-aktivering. Der er derfor ikke noget etableret mekanistisk link mellem ravulizumab og denne sygdom. Den høje score er alene en modelforudsigelse.
 
@@ -95,6 +95,19 @@ Forudsigelsen er alene modelbaseret (L5) uden kliniske forsøg eller publikation
 - Advarsler og kontraindikationer fra det danske produktresumé (SmPC) hos Lægemiddelstyrelsen
 - Prækliniske eller mekanistiske studier, der kobler komplement C5 til sygdommens patologi
 - Systematisk litteratursøgning og registersøgning efter forsøg, der direkte omhandler sygdommen
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

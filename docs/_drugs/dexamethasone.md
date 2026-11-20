@@ -54,7 +54,7 @@ Dexamethason er et syntetisk glukokortikoid med kraftig antiinflammatorisk og im
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om dexamethasons detaljerede virkningsmekanisme foreligger ikke i de data, der er sammenstillet til denne rapport. Dexamethason tilhører gruppen af kortikosteroider, som er kendt for at dæmpe inflammation og immunaktivitet.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dexamethasone (uofficiel oversættelse): »Dexamethason er et kortikosteroid med antiinflammatorisk virkning og lav mineralokortikoid aktivitet. Den præcise virkningsmekanisme ved myelomatose er ukendt. Dexamethason inducerer apoptose af myelomatoseceller.« Engelsk originaltekst: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), version af 2026-01-09; hentet 2026-11-19). Dexamethason tilhører gruppen af kortikosteroider, som er kendt for at dæmpe inflammation og immunaktivitet.
 
 Alopecia mucinosa er en inflammatorisk follikulær hudlidelse. Det er derfor tænkeligt, at et antiinflammatorisk glukokortikoid kan have en effekt, men der er ikke fremlagt data, der understøtter dette for dexamethason. Hypotesen er et ræsonnement ud fra lægemiddelklassen og ikke dokumenteret effekt.
 
@@ -99,6 +99,18 @@ Forudsigelsen bygger alene på en modelscore (0,9999) uden kliniske forsøg elle
 - Data om virkningsmekanisme og relevant administrationsvej (lokal vs. systemisk)
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
 - Vurdering af risk-benefit, især ved systemisk behandling, i lyset af dexamethasons bivirkningsprofil og interaktionsbyrde
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -60,7 +60,7 @@ Bemærk: Der er også en anden forudsigelse, **alkoholabstinensdelirium** (score
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den generelle viden er remimazolam en ultrakortvirkende benzodiazepin, der virker som positiv allosterisk modulator af GABA-A-receptoren. Den samme mekanisme deles af etablerede hypnotika til behandling af søvnløshed, hvilket gør forudsigelsen biologisk plausibel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Remimazolam (uofficiel oversættelse): »BYFAVO er et benzodiazepin. BYFAVO binder til hjernens benzodiazepinbindingssteder (gamma-aminosmørsyre type A [GABA A ]-receptorer), mens dets carboxylsyremetabolit (CNS7054) har en 300 gange lavere affinitet for receptoren.« Engelsk originaltekst: "BYFAVO is a benzodiazepine. BYFAVO binds to brain benzodiazepine sites (gamma amino butyric acid type A [GABA A ] receptors), while its carboxylic acid metabolite (CNS7054) has a 300 times lower affinity for the receptor." ([DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f), version af 2025-02-20; hentet 2026-11-19). Ud fra den generelle viden er remimazolam en ultrakortvirkende benzodiazepin, der virker som positiv allosterisk modulator af GABA-A-receptoren. Den samme mekanisme deles af etablerede hypnotika til behandling af søvnløshed, hvilket gør forudsigelsen biologisk plausibel.
 
 Der er dog betydelige forbehold. Remimazolam er formuleret til intravenøs procedural sedation og generel anæstesi. Dets meget hurtige indsættende og ophørende virkning, den esterasemedierede nedbrydning og den udelukkende intravenøse administration passer dårligt til kronisk søvnløshed, hvor man har behov for hjælp til både at falde i søvn og at forblive sovende gennem natten. Forudsigelsen afspejler sandsynligvis ligheden på klasseniveau (benzodiazepiner) snarere end lægemiddelspecifik evidens.
 
@@ -112,6 +112,19 @@ Begge forudsigelser bygger udelukkende på modellens score og klassematch for be
 - Vurdering af administrationsvejens egnethed for den ønskede indikation
 - For alkoholabstinensdelirium: et pilotstudie eller protokol, der sammenligner med midazolam eller propofol ved sedation på intensivafdeling
 - Systematisk litteratur- og forsøgssøgning for begge forudsagte indikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

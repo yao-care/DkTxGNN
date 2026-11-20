@@ -58,7 +58,7 @@ Capmatinib er en selektiv MET-receptor-tyrosinkinasehæmmer, der er markedsført
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Capmatinib er en selektiv hæmmer af MET (c-Met), en receptortyrosinkinase. Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data, men lægemidlets klasse er kendt.
+Capmatinib er en selektiv hæmmer af MET (c-Met), en receptortyrosinkinase. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Capmatinib (uofficiel oversættelse): »Capmatinib er en kinasehæmmer, der er rettet mod MET, herunder den mutante variant, der dannes ved exon 14-skipping. MET exon 14-skipping resulterer i et protein med et manglende regulatorisk domæne, hvilket reducerer dets negative regulering og fører til øget downstream MET-signalering.« Engelsk originaltekst: "Capmatinib is a kinase inhibitor that targets MET, including the mutant variant produced by exon 14 skipping. MET exon 14 skipping results in a protein with a missing regulatory domain that reduces its negative regulation leading to increased downstream MET signaling." ([DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d), version af 2026-10-26; hentet 2026-11-19).
 
 MET-signalering er i litteraturen sat i forbindelse med synovial inflammation, angiogenese og invasivitet i fibroblastlignende synoviocytter ved leddegigt. Derfor er en mekanistisk sammenhæng plausibel. Der er dog ingen direkte evidens, der kobler capmatinib til leddegigt.
 
@@ -126,6 +126,19 @@ Forudsigelsen bygger udelukkende på en computerbaseret model (evidensniveau L5)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Prækliniske data, der undersøger MET-hæmning i leddegigtmodeller
 - En vurdering af sikkerhedsprofilen hos patienter med leddegigt, herunder interaktioner med almindelig samtidig medicin (fx dexamethason)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -62,7 +62,7 @@ Der er **ingen registrerede kliniske forsøg**, men **16 publikationer** er iden
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de sammenstillede data. Ud fra almen farmakologi for lægemiddelklassen er nortriptylin et tricyklisk antidepressivum, der primært hæmmer genoptagelsen af noradrenalin og i mindre grad serotonin. Denne vurdering bygger på klassens kendte farmakologi og ikke på et konkret mekanismeregister.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nortriptyline (uofficiel oversættelse): »Mekanismen for den stemningsløftende virkning af tricykliske antidepressiva er på nuværende tidspunkt ukendt. Pamelor er ikke en monoaminoxidasehæmmer. Det hæmmer aktiviteten af så forskellige stoffer som histamin, 5-hydroxytryptamin og acetylcholin.« Engelsk originaltekst: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), version af 2024-12-04; hentet 2026-11-19). Ud fra almen farmakologi for lægemiddelklassen er nortriptylin et tricyklisk antidepressivum, der primært hæmmer genoptagelsen af noradrenalin og i mindre grad serotonin. Denne vurdering bygger på klassens kendte farmakologi og ikke på et konkret mekanismeregister.
 
 Ved ADHD spiller noradrenerg og dopaminerg aktivitet i prefrontale kredsløb en central rolle. Ikke-stimulerende ADHD-lægemidler som atomoxetin virker via noradrenerg forstærkning. Nortriptylin har tilsvarende noradrenerg effekt, hvilket giver et plausibelt farmakologisk grundlag. Et PET-studie (Takano et al., 2014) har desuden vist, at nortriptylin besætter noradrenalintransportøren hos patienter med depression.
 
@@ -130,6 +130,19 @@ Produktresuméets advarsler og kontraindikationer er ikke tilgængelige i de sam
 - Plan for hjertesikkerhed (EKG, serumniveau) og screening for kontraindikationer, især QT-forlængelse og hjertesygdom
 - Gennemgang af interaktioner for relevante patientgrupper
 - Afklaring af, om forsøg i voksne eller nyere kontrollerede studier findes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **medulloblastom m
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i den indsamlede datakilde. Sonidegib er dog kendt som en hæmmer af Smoothened (SMO) i Hedgehog-signalvejen. Basalcellekarcinom drives typisk af aktivering af denne vej, og det er baggrunden for lægemidlets brug i hudkræft.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sonidegib (uofficiel oversættelse): »Sonidegib er en hæmmer af Hh-signalvejen. Sonidegib binder til og hæmmer Smoothened, et transmembranprotein, der er involveret i Hh-signaltransduktion.« Engelsk originaltekst: "Sonidegib is an inhibitor of the Hh pathway. Sonidegib binds to and inhibits Smoothened, a transmembrane protein involved in Hh signal transduction." ([DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc), version af 2024-12-31; hentet 2026-11-19). Sonidegib er dog kendt som en hæmmer af Smoothened (SMO) i Hedgehog-signalvejen. Basalcellekarcinom drives typisk af aktivering af denne vej, og det er baggrunden for lægemidlets brug i hudkræft.
 
 Medulloblastom af SHH-undergruppen, herunder den desmoplastiske/udtalt nodulære variant, er også knyttet til unormal Hedgehog-signalering. Mekanismen er derfor plausibel. Den høje score er dog udelukkende en beregnet forudsigelse og er ikke understøttet af kliniske data i denne rapport.
 
@@ -141,6 +141,19 @@ Medulloblastom med udtalt nodularitet har en plausibel Hedgehog-baseret mekanism
 - Data om virkningsmekanisme fra DrugBank
 - Sikkerhedsdata fra produktresuméet (advarsler og kontraindikationer), især vedrørende pædiatrisk brug og vækstzonetoksicitet
 - Vurdering af, om xeroderma pigmentosum med basalcellekarcinom bør tages op som et særskilt forskningsspørgsmål
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

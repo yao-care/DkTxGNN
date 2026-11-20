@@ -58,7 +58,7 @@ Pertuzumab er et antistof, der hæmmer HER2, og som oprindeligt bruges til behan
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Pertuzumab er et monoklonalt antistof mod HER2 (ERBB2). Ud fra almen viden binder det til HER2 og blokerer dimerisering med HER3. Det er brugt til HER2-overudtrykkende brystkræft, i kombination med andre lægemidler.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pertuzumab (uofficiel oversættelse): »Pertuzumab er rettet mod det ekstracellulære dimeriseringsdomæne (subdomæne II) af det humane epidermale vækstfaktorreceptor 2-protein (HER2) og blokerer derved ligandafhængig heterodimerisering af HER2 med andre medlemmer af HER-familien, herunder EGFR, HER3 og HER4. Som følge heraf hæmmer pertuzumab ligandinitieret intracellulær signalering via to vigtige signalveje, mitogenaktiveret protein (MAP)-kinase og phosphoinositid-3-kinase (PI3K).« Engelsk originaltekst: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), version af 2026-04-30; hentet 2026-11-19). Pertuzumab er et monoklonalt antistof mod HER2 (ERBB2). Ud fra almen viden binder det til HER2 og blokerer dimerisering med HER3. Det er brugt til HER2-overudtrykkende brystkræft, i kombination med andre lægemidler.
 
 Der er ikke dokumenteret nogen HER2-afhængighed ved ektomesenkymom, en sjælden blandet neuroektodermal og mesenkymal tumor. Den meget høje score (0,997) er en grafbaseret forudsigelse og afspejler ikke i sig selv en påvist biologisk sammenhæng. Mekanismen bag forbindelsen til den nye indikation er derfor spekulativ.
 
@@ -120,6 +120,19 @@ Forudsigelsen bygger udelukkende på en grafbaseret model (evidensniveau L5). De
 - Prækliniske data eller case-rapporter, der direkte undersøger pertuzumab ved denne sygdom
 - Data om virkningsmekanisme (MOA) og de danske advarsler og kontraindikationer fra produktresuméet
 - Hvis der ønskes en mere realistisk repurposing-hypotese, kan man først undersøge de urotelialt afledte kandidater med HER2-selektion som biomarkørstrategi
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

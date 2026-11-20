@@ -54,7 +54,7 @@ Cefazolin er et første generations cefalosporin-antibiotikum, der hæmmer bakte
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Cefazolin tilhører de første generations cefalosporiner, som hæmmer bakteriers cellevægssyntese ved binding til penicillinbindende proteiner. Stoffet er aktivt mod grampositive kokker såsom streptokokker og methicillinfølsom *Staphylococcus aureus*, som kan forårsage mellemørebetændelse.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cefazolin (uofficiel oversættelse): »Cefazolin er et antibakterielt lægemiddel. […] Cefazolin er et baktericidt middel, der virker ved hæmning af bakteriel cellevægssyntese.« Engelsk originaltekst: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), version af 2026-08-31; hentet 2026-11-19). Cefazolin tilhører de første generations cefalosporiner, som hæmmer bakteriers cellevægssyntese ved binding til penicillinbindende proteiner. Stoffet er aktivt mod grampositive kokker såsom streptokokker og methicillinfølsom *Staphylococcus aureus*, som kan forårsage mellemørebetændelse.
 
 Aktiviteten mod *Haemophilus influenzae* og *Moraxella catarrhalis*, som er hyppige årsager til mellemørebetændelse, er imidlertid begrænset. Den mekanistiske sammenhæng er derfor kun delvis, og forudsigelsen bør betragtes som et hypotesegenererende resultat.
 
@@ -93,6 +93,19 @@ Forudsigelsen har en høj modelscore, men der findes ingen kliniske forsøg og i
 - Direkte kliniske studier eller systematiske reviews af cefazolin ved mellemørebetændelse
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Vurdering af egnethed af den injicerbare administrationsvej til denne indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

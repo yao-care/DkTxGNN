@@ -58,7 +58,7 @@ Ciclosporin er en calcineurinhæmmer, der oprindeligt anvendes til reumatoid art
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Ciclosporin er kendt som calcineurinhæmmer, der dæmper T-celleaktivering, og anvendes ved transplantation og forebyggelse af graft-versus-host-sygdom. Dets effekt ved autoimmune og inflammatoriske tilstande er etableret.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Cyclosporine (uofficiel oversættelse): »Ciclosporin er et potent immunsuppressivt middel, der hos dyr forlænger overlevelsen af allogene transplantater omfattende hud, nyre, lever, hjerte, bugspytkirtel, knoglemarv, tyndtarm og lunge. Det er påvist, at ciclosporin hos mange dyrearter og for en række organer undertrykker visse humorale immunreaktioner og i højere grad cellemedierede immunreaktioner såsom allograftafstødning, forsinket overfølsomhed, eksperimentel allergisk encephalomyelitis, Freunds adjuvansartritis og graft-versus-host-sygdom.« Engelsk originaltekst: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), version af 2026-09-10; hentet 2026-11-19). Ciclosporin er kendt som calcineurinhæmmer, der dæmper T-celleaktivering, og anvendes ved transplantation og forebyggelse af graft-versus-host-sygdom. Dets effekt ved autoimmune og inflammatoriske tilstande er etableret.
 
 Den eneste publikation vedrører udfald efter stamcelletransplantation ved kronisk granulomatøs sygdom (CGD). Ciclosporin kan indgå i det understøttende immunsuppressive regime, men er ikke undersøgt som behandling af selve sygdommen. Koblingen er derfor indirekte og ikke sygdomsmodificerende. Den høje score understøttes ikke af direkte klinisk evidens.
 
@@ -132,12 +132,13 @@ Forudsigelsen bygger på en høj modelscore, men uden kliniske forsøg og med en
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "da den eneste registrerede tilladelse gælder et veterinærlægemiddel" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
 
 <!-- review:end log -->
 

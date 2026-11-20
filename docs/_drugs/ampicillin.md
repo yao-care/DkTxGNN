@@ -54,7 +54,7 @@ Ampicillin er et penicillin-antibiotikum, der virker mod modtagelige bakterier. 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen. Ampicillin er et betalaktam-antibiotikum, der hæmmer bakteriers celleväggssyntese og er aktivt mod modtagelige luftvejsbakterier som *Haemophilus influenzae* og streptokokker.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ampicillin (uofficiel oversættelse): »Ampicillin svarer til penicillin i sin baktericide virkning mod følsomme bakterier i fasen med aktiv formering. Det virker ved at hæmme cellevægsbiosyntesen, hvilket fører til bakteriernes død.« Engelsk originaltekst: "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1), version af 2026-07-27; hentet 2026-11-19). Ampicillin er et betalaktam-antibiotikum, der hæmmer bakteriers celleväggssyntese og er aktivt mod modtagelige luftvejsbakterier som *Haemophilus influenzae* og streptokokker.
 
 Bakterielle infektioner i strubeområdet, fx akut epiglottitis, er historisk behandlet med ampicillin-lignende midler. Det giver en plausibel, men indirekte begrundelse. Størstedelen af ægte laryngitis er imidlertid viral, så en antibakteriel effekt kan kun komme på tale for en lille bakteriel undergruppe. Ingen af de fundne studier har undersøgt ampicillin ved laryngitis selv.
 
@@ -102,6 +102,18 @@ Ingen studier har undersøgt ampicillin ved laryngitis; den tilgængelige litter
 - Kontrollerede kliniske studier af ampicillin ved bakteriel laryngitis
 - Data om virkningsmekanismen og afgrænsning af den bakterielle patientgruppe
 - Gennemgang af produktresuméets advarsler og kontraindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

@@ -56,7 +56,7 @@ men der er på nuværende tidspunkt **0 kliniske forsøg** og **0 publikationer*
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om diphenhydramins virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Diphenhydramin er kendt som en førstegenerations H1-receptorantagonist. Ved at blokere histamin kan det lindre kløe og rødme ved allergisk betændelse på øjets overflade, og lægemidlet anvendes allerede ved flere former for allergisk konjunktivitis.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Diphenhydramine (uofficiel oversættelse): »Diphenhydraminhydrochlorid er et antihistamin med antikolinerge (udtørrende) og sederende bivirkninger. Antihistaminer synes at konkurrere med histamin om cellereceptorsteder på effektorceller. Diphenhydraminhydrochlorid i injicerbar form har en hurtigt indsættende virkning.« Engelsk originaltekst: "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action." ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), version af 2026-10-28; hentet 2026-11-19). Diphenhydramin er kendt som en førstegenerations H1-receptorantagonist. Ved at blokere histamin kan det lindre kløe og rødme ved allergisk betændelse på øjets overflade, og lægemidlet anvendes allerede ved flere former for allergisk konjunktivitis.
 
 Sammenhængen med rosacea-konjunktivitis er derimod kun indirekte. Okulær rosacea drives hovedsageligt af dysfunktion i meibomske kirtler, ustabil tårefilm samt inflammatoriske og mikrobielle faktorer (fx Demodex, aktivering af det medfødte immunforsvar og matrixmetalloproteinaser) og ikke primært af histamin. Histaminblokade kan højst forventes at lindre en eventuel kløe- eller allergikomponent.
 
@@ -102,6 +102,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller p
 - Systematisk litteratur- og forsøgssøgning med henblik på okulær rosacea og antihistaminer
 - Vurdering af egnet administrationsvej, da den eneste danske tilladelse er oral opløsning
 - Prækliniske eller eksplorative kliniske data, der kan belyse effekt og tolerabilitet ved okulær rosacea, herunder effekten på tørre øjne
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

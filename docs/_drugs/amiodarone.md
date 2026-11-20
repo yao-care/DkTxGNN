@@ -58,7 +58,7 @@ Amiodaron er et antiarytmisk lægemiddel, som markedsføres i Danmark som koncen
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Amiodaron er kendt som et antiarytmikum, der blokerer flere ionkanaler (kalium, natrium og calcium) og har betaadrenerg antagonistisk virkning. Det er teoretisk plausibelt ved ventrikulære arytmier udløst af adrenerg stimulation, hvilket er kendetegnende for katecholaminerg polymorf ventrikulær takykardi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Amiodarone (uofficiel oversættelse): »Amiodaron betragtes som et klasse III-antiarytmikum, men det besidder elektrofysiologiske egenskaber fra alle fire Vaughan Williams-klasser. Ligesom klasse I-lægemidler blokerer amiodaron natriumkanaler ved hurtige stimulationsfrekvenser, og ligesom klasse II-lægemidler udøver amiodaron en ikke-kompetitiv antisympatisk virkning.« Engelsk originaltekst: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), version af 2025-11-05; hentet 2026-11-19). Amiodaron er kendt som et antiarytmikum, der blokerer flere ionkanaler (kalium, natrium og calcium) og har betaadrenerg antagonistisk virkning. Det er teoretisk plausibelt ved ventrikulære arytmier udløst af adrenerg stimulation, hvilket er kendetegnende for katecholaminerg polymorf ventrikulær takykardi.
 
 Der er dog en vigtig begrænsning: Sygdommen skyldes defekt calciumfrigivelse via RYR2 eller CASQ2, og førstevalg er betablokkere, eventuelt kombineret med flecainid. Der er ingen direkte evidens for, at amiodaron korrigerer den underliggende defekt i calciumhåndteringen. Litteraturen består af deskriptive kohortestudier og case reports, hvor amiodaron højst optræder som baggrundsbehandling eller som behandling, der ikke virkede. Forudsigelsen bør derfor betragtes som en hypotese, ikke som støttet evidens.
 
@@ -120,6 +120,18 @@ Ingen kliniske forsøg eller publikationer undersøger amiodaron direkte ved kat
 - Præklinisk eller klinisk evidens, der direkte undersøger amiodaron ved katecholaminerg polymorf ventrikulær takykardi
 - Sammenligning med etableret førstevalgsbehandling (betablokkere og flecainid)
 - Gennemgang af produktresuméets advarsler og kontraindikationer, især i forhold til QT-forlængelse, skjoldbruskkirtel-, lunge- og leverpåvirkning
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

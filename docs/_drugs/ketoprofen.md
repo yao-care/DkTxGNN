@@ -59,7 +59,7 @@ Ketoprofen er et non-steroidt antiinflammatorisk lægemiddel (NSAID). TxGNN-mode
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om ketoprofens virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Ketoprofen tilhører klassen af NSAID'er, som generelt hæmmer cyklooxygenase (COX). Det er baseret på almen viden og ikke på de foreliggende data.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ketoprofen (uofficiel oversættelse): »I antiinflammatoriske modeller er det vist, at ketoprofen har hæmmende virkning på prostaglandin- og leukotriensyntesen, har antibradykininaktivitet samt har en lysosomal membranstabiliserende virkning. Dets virkningsmåde er dog, ligesom for andre nonsteroide antiinflammatoriske lægemidler, ikke fuldt klarlagt.« Engelsk originaltekst: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d), version af 2026-01-07; hentet 2026-11-19). Ketoprofen tilhører klassen af NSAID'er, som generelt hæmmer cyklooxygenase (COX). Det er baseret på almen viden og ikke på de foreliggende data.
 
 Akromesomel dysplasi af Hunter-Thompson-typen er en genetisk skeletdysplasi forårsaget af funktionstab i CDMP1/GDF5. Der er ingen oplagt forbindelse til COX-hæmning.
 
@@ -112,6 +112,19 @@ Forudsigelsen er udelukkende baseret på grafnærhed uden kliniske forsøg eller
 - Afklaring af, om det registrerede præparat (Ainil) er til human- eller veterinærbrug
 - Prækliniske eller kliniske data, der direkte undersøger ketoprofen ved denne sygdom
 - Overvejelse af mere plausible kandidater på listen (f.eks. pseudoachondroplasi eller LACC1-relateret juvenil artritis) til symptomatisk behandling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

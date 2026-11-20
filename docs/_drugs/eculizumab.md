@@ -55,7 +55,7 @@ Eculizumab er en komplement-C5-hæmmer, som i den viden, der er indsamlet til de
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data. Det er dog kendt, at eculizumab er et monoklonalt antistof, der hæmmer komplementprotein C5 og dermed blokerer den terminale komplementaktivering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Eculizumab (uofficiel oversættelse): »Eculizumab, det aktive stof i SOLIRIS, er et monoklonalt antistof, der specifikt binder sig med høj affinitet til komplementproteinet C5 og derved hæmmer dets spaltning til C5a og C5b og forhindrer dannelsen af det terminale komplementkompleks C5b-9. SOLIRIS hæmmer terminal komplementmedieret intravaskulær hæmolyse hos patienter med PNH og komplementmedieret trombotisk mikroangiopati (TMA) hos patienter med aHUS.« Engelsk originaltekst: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), version af 2026-07-08; hentet 2026-11-19). Det er dog kendt, at eculizumab er et monoklonalt antistof, der hæmmer komplementprotein C5 og dermed blokerer den terminale komplementaktivering.
 
 Cyklisk hæmatopoese (cyklisk neutropeni) skyldes typisk mutationer i ELANE-genet og giver svingende produktion af neutrofile granulocytter. Der er ikke påvist nogen komplementmedieret mekanisme i denne sygdom. Den høje score (0,9997) er en ren grafbaseret forudsigelse og understøttes ikke af forsøg eller litteratur. Et mekanistisk link er derfor ikke etableret.
 
@@ -110,11 +110,12 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller direk
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
 
 <!-- review:end log -->
 

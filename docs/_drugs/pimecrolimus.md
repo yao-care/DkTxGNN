@@ -55,7 +55,7 @@ og forudsigelsen understøttes af **1 klinisk fase 2-forsøg** og **18 publikati
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets oprindelige virkningsmekanisme er ikke tilgængelige i de indsamlede data. Ud fra den kendte klasseeffekt er pimecrolimus en calcineurinhæmmer, som blokerer T-celleaktivering og frigivelse af inflammatoriske cytokiner (bl.a. IL-2, interferon-gamma og TNF-alfa). Lægemidlet hæmmer desuden mastcelledegranulering.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pimecrolimus (uofficiel oversættelse): »Virkningsmekanismen for pimecrolimus ved atopisk dermatitis er ikke kendt. Selvom følgende er blevet observeret, er den kliniske betydning af disse observationer ved atopisk dermatitis ikke kendt. Det er påvist, at pimecrolimus binder sig med høj affinitet til macrophilin-12 (FKBP-12) og hæmmer den calciumafhængige phosphatase calcineurin.« Engelsk originaltekst: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), version af 2026-04-30; hentet 2026-11-19). Ud fra den kendte klasseeffekt er pimecrolimus en calcineurinhæmmer, som blokerer T-celleaktivering og frigivelse af inflammatoriske cytokiner (bl.a. IL-2, interferon-gamma og TNF-alfa). Lægemidlet hæmmer desuden mastcelledegranulering.
 
 Seboroisk dermatitis er en kronisk, tilbagevendende inflammatorisk hudsygdom i områder med mange talgkirtler. Den inflammatoriske komponent kan i princippet påvirkes af samme mekanisme som ved atopisk eksem. Der er desuden rapporteret aktivitet mod Malassezia-gær, som er impliceret i sygdommen. Denne mekanistiske kobling bygger på klassens kendte virkning og ikke på lægemiddelspecifikke mekanismedata.
 
@@ -109,6 +109,19 @@ Der foreligger et afsluttet fase 2-forsøg og to systematiske reviews af RCT'er,
 - Resultater fra NCT00403559 samt større, længerevarende kontrollerede forsøg
 - Vurdering af langtidssikkerhed (herunder kræftrisiko) og begrænsning af behandlingsvarighed
 - Afklaring af indikationens status som off-label i Danmark, da den godkendte indikation ikke fremgår af dataene
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

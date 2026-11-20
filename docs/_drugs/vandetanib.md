@@ -58,7 +58,7 @@ Vandetanib er en oral multi-tyrosinkinasehæmmer, der markedsføres i Danmark so
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra den tilgængelige information hæmmer vandetanib VEGFR2, EGFR og RET.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Vandetanib (uofficiel oversættelse): »In vitro-studier har vist, at vandetanib hæmmer tyrosinkinaseaktiviteten af EGFR- og VEGFR-familierne, RET, BRK, TIE2 samt medlemmer af EPH-receptor- og Src-kinasefamilierne. Disse receptortyrosinkinaser er involveret i både normal cellulær funktion og patologiske processer såsom onkogenese, metastasering, tumorangiogenese og opretholdelse af tumorens mikromiljø.« Engelsk originaltekst: "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), version af 2026-10-30; hentet 2026-11-19). Ud fra den tilgængelige information hæmmer vandetanib VEGFR2, EGFR og RET.
 
 Hæmning af VEGFR2 er en velafprøvet mekanisme ved nyrecellekarcinom. Ved klarcellet nyrecellekarcinom, især ved von Hippel-Lindau-sygdom (VHL), fører tab af VHL til ophobning af HIF og overekspression af VEGF, hvilket driver tumorens angiogenese. En VEGFR2-hæmmer er derfor mekanistisk konsistent med sygdommens biologi.
 
@@ -134,6 +134,18 @@ Det mest relevante forsøg (NCT00566995, fase 2, VHL-sygdom med nyretumorer) er 
 - Data om virkningsmekanisme fra produktresuméet og tilhørende sikkerhedsoplysninger (advarsler og kontraindikationer)
 - Et velgennemført, tilstrækkeligt stort forsøg i en veldefineret nyrecellekarcinom-population
 - En plan for QT- og blodtryksovervågning samt håndtering af interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

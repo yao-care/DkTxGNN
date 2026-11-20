@@ -60,7 +60,7 @@ Der er dog **ingen registrerede kliniske forsøg** og kun **5 publikationer** me
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Fenylephrin er dog kendt som en alfa-1-adrenerg agonist. Den forårsager vasokonstriktion i næseslimhindens kar, hvilket mindsker hævelse, tilstopning og blødning under indgreb.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Phenylephrine (uofficiel oversættelse): »Phenylephrinhydrochlorid er en α-1-adrenerg receptoragonist.« Engelsk originaltekst: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), version af 2026-03-31; hentet 2026-11-19). Fenylephrin er dog kendt som en alfa-1-adrenerg agonist. Den forårsager vasokonstriktion i næseslimhindens kar, hvilket mindsker hævelse, tilstopning og blødning under indgreb.
 
 De oprindelige indikationer (rhinitis, nasopharyngitis, forkølelse) er alle tilstande i de øvre luftveje med hævet og overfyldt slimhinde. "Lidelser i næsehulen" er en bred kategori, der i vid udstrækning overlapper med disse. Forudsigelsen er derfor mekanistisk plausibel, men udgør næppe en reelt ny anvendelse.
 
@@ -133,6 +133,18 @@ Forudsigelsen er mekanistisk plausibel, men overlapper i vid udstrækning med ek
 |------|------|------|------|------|
 | Akut laryngopharyngitis | 0,9997 | L5 | Hold | Ingen forsøg eller litteratur; laryngeal involvering er ikke tydeligt dækket af en dekongestiv mekanisme |
 | Trigeminal autonom cephalalgi | 0,9930 | L4 | Hold | 13 ældre pupillometriske studier (1987-2010), hvor fenylephrin kun er brugt som diagnostisk prøvestof, ikke som behandling |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

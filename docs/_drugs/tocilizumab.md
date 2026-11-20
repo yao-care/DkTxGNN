@@ -56,7 +56,7 @@ Der findes **2 afsluttede eller registrerede fase 3-studier i sygdommen (begge a
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen viden blokerer tocilizumab IL-6-receptorsignalering, og IL-6 menes at bidrage til inflammation og knoglepåvirkning ved spondyloartritis.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tocilizumab (uofficiel oversættelse): »Tocilizumab-præparater binder til både opløselige og membranbundne IL-6-receptorer (sIL-6R og mIL-6R) og har vist sig at hæmme IL-6-medieret signalering via disse receptorer. IL-6 er et pleiotropt proinflammatorisk cytokin, der produceres af en række celletyper, herunder T- og B-celler, lymfocytter, monocytter og fibroblaster.« Engelsk originaltekst: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), version af 2026-10-20; hentet 2026-11-19). Ud fra almen viden blokerer tocilizumab IL-6-receptorsignalering, og IL-6 menes at bidrage til inflammation og knoglepåvirkning ved spondyloartritis.
 
 Ankyloserende spondylitis og leddegigt er begge kroniske, immunmedierede inflammatoriske ledsygdomme, så en fælles cytokinbaseret begrundelse er plausibel. Mekanismen er dog ikke valideret i denne sygdom: TNF- og IL-17-hæmmere er etablerede behandlinger, og de to fase 3-studier af tocilizumab blev afbrudt, uden at data i dette materiale viser gavnlig effekt. Forudsigelsen er derfor mekanistisk plausibel, men klinisk ubekræftet.
 
@@ -111,6 +111,19 @@ De to fase 3-studier direkte i ankyloserende spondylitis blev afbrudt, og der fo
 - Data om virkningsmekanisme
 - Godkendt produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Klinisk vurdering af interaktioner og infektionsrisiko (herunder tuberkulosescreening) før en eventuel videre vurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -54,7 +54,7 @@ Dalbavancin er et lipoglykopeptid-antibiotikum med virkning mod grampositive bak
 
 ## Hvorfor kan forudsigelsen være rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Dalbavancin er et lipoglykopeptid-antibiotikum, som hæmmer bakteriel cellevægssyntese ved at binde sig til D-Ala-D-Ala-enden på peptidoglykan-forstadier hos grampositive bakterier.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Dalbavancin (uofficiel oversættelse): »Dalbavancin er et antibakterielt lægemiddel. […] Dalbavancin, et semisyntetisk lipoglycopeptid, griber ind i cellevægssyntesen ved at binde sig til D-alanyl-D-alanin-terminalen af stam-pentapeptidet i det nydannede cellevægspeptidoglycan og forhindrer derved krydsbinding. Dalbavancin er baktericidt in vitro over for Staphylococcus aureus og Streptococcus pyogenes ved koncentrationer svarende til dem, der opretholdes under hele behandlingen hos mennesker behandlet i henhold til det anbefalede doseringsregime.« Engelsk originaltekst: "Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen." ([DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c), version af 2025-01-13; hentet 2026-11-19). Dalbavancin er et lipoglykopeptid-antibiotikum, som hæmmer bakteriel cellevægssyntese ved at binde sig til D-Ala-D-Ala-enden på peptidoglykan-forstadier hos grampositive bakterier.
 
 Postinfektiøs vaskulitis er typisk immunmedieret og opstår, efter at infektionen er overstået. Den antibakterielle virkning forventes derfor ikke at behandle den underliggende sygdomsproces. En indirekte relevans kan tænkes, hvis der er et vedvarende grampositivt infektionsfokus, der udløser reaktionen, men det er spekulativt. Den høje modelscore er ikke understøttet af mekanistiske eller kliniske data.
 
@@ -94,6 +94,19 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5) uden kliniske forsøg ell
 - Data om virkningsmekanisme og en begrundet hypotese for en eventuel effekt
 - Gennemgang af produktresuméet for sikkerhedsprofil, advarsler og kontraindikationer
 - Prækliniske eller eksplorative kliniske data, før en egentlig vurdering kan påbegyndes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

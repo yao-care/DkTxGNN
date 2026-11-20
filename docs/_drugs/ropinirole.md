@@ -60,7 +60,7 @@ Ropinirol er en dopamin D2/D3-agonist, som oprindeligt anvendes til behandling a
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ropinirol er en D2/D3-dopaminagonist. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi virker ropinirol ved at stimulere dopaminreceptorer, hvilket lindrer motoriske symptomer ved Parkinsons sygdom og restless legs-syndrom.
+Ropinirol er en D2/D3-dopaminagonist. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Ropinirole (uofficiel oversættelse): »Ropinirol er en non-ergolin dopaminagonist. Den præcise virkningsmekanisme for ropinirol som behandling af Parkinsons sygdom er ukendt, men den menes at være relateret til dets evne til at stimulere dopamin D 2-receptorer i caudatum-putamen i hjernen.« Engelsk originaltekst: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), version af 2026-11-06; hentet 2026-11-19). Ud fra kendt farmakologi virker ropinirol ved at stimulere dopaminreceptorer, hvilket lindrer motoriske symptomer ved Parkinsons sygdom og restless legs-syndrom.
 
 Skizofreni involverer dysregulering af dopaminsystemet, og D2/D3-receptorer er centrale mål for antipsykotika. Der findes prækliniske studier, hvor ropinirol er afprøvet i dyremodeller for skizofreni (fx PCP-induceret hyperlokomotion og prepulse-inhibition). Desuden findes et systematisk review og en metaanalyse af prodopaminerge lægemidler mod negative symptomer, som giver indirekte støtte på klasseniveau.
 
@@ -126,6 +126,19 @@ Der findes ingen kliniske forsøg for nogen af de forudsagte indikationer. For s
 - Afklaring af, hvordan dopaminagonisme forholder sig til risikoen for forværring af psykose
 - Kontrollerede kliniske studier, før der kan tages stilling til anvendelse ved skizofreni, ADHD eller andre forudsagte indikationer
 - Vurdering af, om en depottablet (den eneste danske formulering) er egnet til en ny indikation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -21,11 +21,12 @@
   "items_current": 3543
  },
  "reviews": {
-  "records": 152,
-  "pages": 138,
-  "public_pages_with_records": 134,
+  "records": 555,
+  "pages": 475,
+  "public_pages_with_records": 471,
   "by_action": {
-   "correct": 152
+   "correct": 152,
+   "mechanism": 403
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "pulmonary hypertension owing to lung disease and/or hypoxia"
   },
   {
@@ -48,7 +49,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "hypertrichosis (disease)"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "prostate leiomyoma"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "pleural adenomatoid tumor"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L4",
    "lt": 18,
    "lv": 18,
-   "r": 2,
+   "r": 3,
    "i": "autosomal recessiv"
   }
  ],
@@ -113,7 +114,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Felint ervervet immundefektsyndrom"
   },
   {
@@ -149,7 +150,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Hodgkins lymfom"
   },
   {
@@ -158,7 +159,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "feline acquired immunodeficiency syndrome"
   },
   {
@@ -185,7 +186,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "fibromatosis, gingival"
   },
   {
@@ -194,7 +195,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Postinfektiøs vaskulitis"
   },
   {
@@ -224,7 +225,7 @@
    "l": "L4",
    "lt": 12,
    "lv": 12,
-   "r": 3,
+   "r": 4,
    "i": "Tourette syndrome"
   },
   {
@@ -233,17 +234,8 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom"
-  },
-  {
-   "t": "Clindamycin",
-   "u": "/drugs/clindamycin/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 2,
-   "i": "Punktformet epitelial keratokonjunktivitis"
   },
   {
    "t": "Cyclosporine",
@@ -251,17 +243,8 @@
    "l": "L4",
    "lt": 18,
    "lv": 18,
-   "r": 2,
+   "r": 3,
    "i": "autosomal recessiv"
-  },
-  {
-   "t": "Dexpanthenol",
-   "u": "/drugs/dexpanthenol/",
-   "l": "L5",
-   "lt": 4,
-   "lv": 4,
-   "r": 2,
-   "i": "anorectal stricture"
   },
   {
    "t": "Fentanyl",
@@ -269,8 +252,26 @@
    "l": "L5",
    "lt": 0,
    "lv": 19,
-   "r": 2,
+   "r": 3,
    "i": "nephrogenic syndrome of inappropriate antidiuresis"
+  },
+  {
+   "t": "Ketamine",
+   "u": "/drugs/ketamine/",
+   "l": "L1",
+   "lt": 2,
+   "lv": 2,
+   "r": 3,
+   "i": "Hovedpinelidelse"
+  },
+  {
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "l": "L3",
+   "lt": 0,
+   "lv": 20,
+   "r": 3,
+   "i": "insomnia (disease)"
   }
  ],
  "example": {
@@ -279,7 +280,7 @@
   "l": "L1",
   "lt": 15,
   "lv": 15,
-  "r": 0,
+  "r": 1,
   "i": "ankylosing spondylitis"
  },
  "recent_reviews": [

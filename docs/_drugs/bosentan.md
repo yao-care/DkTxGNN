@@ -54,7 +54,7 @@ Bosentan er en dobbelt endothelinreceptorantagonist, som anvendes i tablet-form.
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Bosentan blokerer dog som kendt endothelinreceptorerne ETA og ETB.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bosentan (uofficiel oversættelse): »Bosentan er en specifik og kompetitiv antagonist ved endothelinreceptortyperne ET A og ET B . Bosentan har en lidt højere affinitet for ET A -receptorer end for ET B -receptorer. Den kliniske betydning af dobbelt endothelinblokade er ukendt.« Engelsk originaltekst: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), version af 2025-11-17; hentet 2026-11-19). Bosentan blokerer dog som kendt endothelinreceptorerne ETA og ETB.
 
 Endothelin-1 deltager i inflammatoriske processer, bl.a. frigivelse af TNF-alfa og leukotrien B4 i eksperimentel artritis. I en musemodel for kollagen-induceret artritis dæmpede bosentan sygdommen (PMID 22249931), og endotheliner modulerede inflammationen i zymosan-induceret artritis (PMID 18515326). Dette er udelukkende præklinisk og indirekte støtte. Ingen af de angivne studier undersøger bosentan som behandling af leddegigt hos mennesker, og evidensniveauet er derfor sat til L5.
 
@@ -97,6 +97,19 @@ Forudsigelsen bygger på en høj modelscore og kun præklinisk, indirekte støtt
 - Gennemgang af produktresuméets advarsler og kontraindikationer
 - Kontrollerede kliniske studier af bosentan ved leddegigt, startende med et fase 2-forsøg
 - Vurdering af leversikkerhed og interaktioner med de lægemidler, som patienter med leddegigt typisk får
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

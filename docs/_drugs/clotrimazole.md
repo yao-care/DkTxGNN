@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt mod **akne (acne (disease))**,
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om clotrimazols virkningsmekanisme i de data, der er indsamlet til denne rapport. Clotrimazol er et antimykotikum af imidazolgruppen, og mekanistisk kan det tænkes at have betydning ved akne-lignende tilstande, hvor gær som *Malassezia* eller *Candida* spiller en rolle, f.eks. svampeassocieret folliculitis. Clotrimazol har desuden en vis antiinflammatorisk aktivitet.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clotrimazole (uofficiel oversættelse): »Clotrimazol er et bredspektret svampemiddel, der hæmmer væksten af patogene gærsvampe ved at ændre cellemembranernes permeabilitet. Virkningen af clotrimazol er fungistatisk ved lægemiddelkoncentrationer på op til 20 mcg/mL og kan være fungicid in vitro over for Candida albicans og andre arter af slægten Candida ved højere koncentrationer.« Engelsk originaltekst: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), version af 2025-03-27; hentet 2026-11-19). Clotrimazol er et antimykotikum af imidazolgruppen, og mekanistisk kan det tænkes at have betydning ved akne-lignende tilstande, hvor gær som *Malassezia* eller *Candida* spiller en rolle, f.eks. svampeassocieret folliculitis. Clotrimazol har desuden en vis antiinflammatorisk aktivitet.
 
 Koblingen til acne vulgaris er dog indirekte. Det eneste registrerede forsøg tester en fast kombination af beclomethason, gentamicin og clotrimazol, så en eventuel effekt kan ikke tilskrives clotrimazol alene. Den høje score er en modelforudsigelse og ikke et bevis for klinisk effekt.
 
@@ -126,11 +126,12 @@ Forudsigelsen bygger alene på modellen og på ét suspenderet forsøg med en ko
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->
 

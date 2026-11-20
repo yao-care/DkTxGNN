@@ -62,7 +62,7 @@ men evidensen er begrænset til **0 kliniske forsøg** og **9 publikationer** (p
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Ud fra den kendte viden er givosiran et GalNAc-konjugeret siRNA, der målrettet nedregulerer ALAS1 i leveren og dermed sænker niveauerne af de neurotoksiske porfyrinforstadier ALA og PBG.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Givosiran (uofficiel oversættelse): »Givosiran er et dobbeltstrenget small interfering RNA, der forårsager nedbrydning af aminolevulinatsyntase 1 (ALAS1)-mRNA i hepatocytter via RNA-interferens, hvorved de forhøjede niveauer af ALAS1-mRNA i leveren reduceres. Dette fører til reducerede cirkulerende niveauer af de neurotoksiske intermediater aminolevulinsyre (ALA) og porfobilinogen (PBG), faktorer, der er forbundet med anfald og andre sygdomsmanifestationer ved AHP.« Engelsk originaltekst: "Givosiran is a double-stranded small interfering RNA that causes degradation of aminolevulinate synthase 1 ( ALAS1 ) mRNA in hepatocytes through RNA interference, reducing the elevated levels of liver ALAS1 mRNA. This leads to reduced circulating levels of neurotoxic intermediates aminolevulinic acid (ALA) and porphobilinogen (PBG), factors associated with attacks and other disease manifestations of AHP." ([DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa), version af 2025-09-10; hentet 2026-11-19). Ud fra den kendte viden er givosiran et GalNAc-konjugeret siRNA, der målrettet nedregulerer ALAS1 i leveren og dermed sænker niveauerne af de neurotoksiske porfyrinforstadier ALA og PBG.
 
 ADP er en ekstremt sjælden form for akut porfyri (kun ca. 15 publicerede tilfælde på verdensplan), hvor enzymet ALA-dehydratase er mangelfuldt. Det medfører ophobning af ALA opstrøms for den defekte enzymfunktion. Da givosiran reducerer ALA-produktionen i leveren, er der en klar mekanistisk rationale for anvendelse i ADP, ligesom ved de øvrige akutte hepatiske porfyrier.
 
@@ -121,6 +121,19 @@ Der er ingen kliniske forsøg for ADP, og de eksisterende case-rapporter er mods
 - Systematisk indsamling af case-serier/registerdata for ADP-patienter behandlet med givosiran
 - Afklaring af betydningen af erytroid ALA-produktion for behandlingsrespons
 - Vurdering af, om givosiran er godkendt eller anvendes for ADP under den danske markedsføringstilladelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

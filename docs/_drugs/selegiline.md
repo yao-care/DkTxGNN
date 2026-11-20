@@ -62,7 +62,7 @@ Evidensen består af **1 klinisk forsøg** (tidlig fase 1, afsluttet) og **20 pu
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Selegilin er dog kendt som en selektiv, irreversibel MAO-B-hæmmer, som ved højere doser (≥ 20 mg/dag) også hæmmer MAO-A. Hæmningen øger dopaminerg aktivitet, og selegilin kan desuden have antioxidante og neurobeskyttende egenskaber.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Selegiline (uofficiel oversættelse): »Selegilin er en irreversibel hæmmer af monoaminoxidase (MAO), som regulerer den metaboliske nedbrydning af katekolaminer og serotonin i centralnervesystemet og i perifere væv. Ved anbefalede doser er selegilin selektiv for MAO type B (MAO-B), den dominerende form i hjernen.« Engelsk originaltekst: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), version af 2021-06-01; hentet 2026-11-19). Selegilin er dog kendt som en selektiv, irreversibel MAO-B-hæmmer, som ved højere doser (≥ 20 mg/dag) også hæmmer MAO-A. Hæmningen øger dopaminerg aktivitet, og selegilin kan desuden have antioxidante og neurobeskyttende egenskaber.
 
 Hypotesen er, at nedsat dopaminfunktion i præfrontale kredsløb bidrager til de negative symptomer ved skizofreni (fx initiativløshed og følelsesmæssig affladning). Antipsykotika behandler de positive symptomer godt, men har begrænset effekt på de negative. Tillægsbehandling med lavdosis selegilin er derfor mekanistisk plausibel.
 
@@ -142,6 +142,19 @@ For skizofreni er der en plausibel mekanisme og flere små randomiserede studier
 - Data om virkningsmekanisme fra DrugBank
 - Vurdering af sikkerhed ved kombination med antipsykotika og antidepressiva, herunder serotonerge og sympatomimetiske lægemidler
 - Afklaring af kontraindikationssignalet for psykotiske lidelser og eventuelt et velkontrolleret fase 2/3-forsøg med fokus på negative symptomer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

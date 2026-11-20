@@ -60,7 +60,7 @@ Evidensen er meget begrænset: **0 kliniske forsøg** og **1 publikation** (en o
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Nintedanib er dog kendt som en multi-target tyrosinkinasehæmmer, der blokerer PDGFR alfa/beta, FGFR 1-3 og VEGFR 1-3.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nintedanib (uofficiel oversættelse): »Nintedanib er et lille molekyle, der hæmmer flere receptor-tyrosinkinaser (RTK'er) og non-receptor-tyrosinkinaser (nRTK'er). Nintedanib hæmmer følgende RTK'er: trombocytafledt vækstfaktorreceptor (PDGFR) α og β, fibroblastvækstfaktorreceptor (FGFR) 1-3, vaskulær endotelial vækstfaktorreceptor (VEGFR) 1-3, kolonistimulerende faktor 1-receptor (CSF1R) og Fms-lignende tyrosinkinase-3 (FLT-3).« Engelsk originaltekst: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), version af 2026-04-21; hentet 2026-11-19). Nintedanib er dog kendt som en multi-target tyrosinkinasehæmmer, der blokerer PDGFR alfa/beta, FGFR 1-3 og VEGFR 1-3.
 
 DFSP drives typisk af COL1A1-PDGFB-fusionen, som giver konstitutiv aktivering af PDGFR-beta. Der er derfor en plausibel mekanistisk sammenhæng: hæmning af PDGFR kan i teorien dæmpe tumorvæksten. Imatinib, en anden PDGFR-hæmmer, er et etableret lægemiddel ved DFSP, hvilket understøtter princippet for lægemiddelklassen.
 
@@ -126,6 +126,19 @@ Der er en plausibel mekanistisk begrundelse via PDGFR-hæmning, men der findes h
 - Gennemgang af advarsler og kontraindikationer i det danske produktresumé fra Lægemiddelstyrelsen
 - Vurdering af, om nintedanib tilbyder fordele frem for imatinib hos patienter med resistens eller intolerans
 - Efterfølgende planlægning af et eksplorativt klinisk forsøg, hvis præklinisk data er støttende
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

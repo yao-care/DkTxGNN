@@ -56,7 +56,7 @@ Hyaluronidase er et enzym, der nedbryder hyaluronsyre i vævet, og som i Danmark
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme foreligger ikke i de indsamlede data. Hyaluronidase er et naturligt forekommende enzym, der nedbryder hyaluronsyre og visse proteoglykaner i den ekstracellulære matrix. Det bruges i dag bl.a. til at øge spredningen af andre lægemidler efter infiltration.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Hyaluronidase (uofficiel oversættelse): »Hyaluronidase er et dispersionsmiddel, som ændrer bindevævets permeabilitet gennem hydrolyse af hyaluronsyre, et polysakkarid, der findes i den intercellulære grundsubstans i bindevæv og i visse specialiserede væv, såsom navlestrengen og glaslegemet. Hyaluronsyre findes også i kapslerne hos hæmolytiske streptokokker af type A og C.« Engelsk originaltekst: "Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci." ([DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658), version af 2024-11-11; hentet 2026-11-19). Hyaluronidase er et naturligt forekommende enzym, der nedbryder hyaluronsyre og visse proteoglykaner i den ekstracellulære matrix. Det bruges i dag bl.a. til at øge spredningen af andre lægemidler efter infiltration.
 
 Ved diabetisk retinopati er hyaluronsyrestofskiftet forstyrret, og nyere translationelle data peger på, at dette driver inflammation og angiogenese. Intravitreal hyaluronidase kan give farmakologisk vitreolyse: glasleget gøres mere flydende, og bagre glaslegemeløsning fremmes. Det kan lette udtømning af glaslegemeblødning og muligvis dæmpe signalering via HIF-1α. Dyreforsøg på diabetiske rotter og mus understøtter disse mekanismer.
 
@@ -116,6 +116,19 @@ Diabetisk retinopati er den forudsagte indikation med mest evidens, herunder to 
 - Produktresumé med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Vurdering af administrationsvej og formulering (intravitreal formulering er ikke repræsenteret blandt de danske tilladelser)
 - Sammenligning med nuværende standardbehandling (anti-VEGF) og plan for sikkerhedsmonitorering, herunder allergi og makulaødem
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

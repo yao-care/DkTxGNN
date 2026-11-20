@@ -54,7 +54,7 @@ Aripiprazol er et antipsykotikum, der virker som partiel agonist på dopamin D2-
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen var ikke tilgængelige i de data, der er indsamlet til denne rapport. Ud fra almen farmakologi er aripiprazol en partiel D2-agonist med partiel 5-HT1A-agonisme og 5-HT2A-antagonisme. Den profil understøtter brug som tillægsbehandling ved depression, når svaret på et antidepressivum er utilstrækkeligt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Aripiprazole (uofficiel oversættelse): »Virkningsmekanismen for aripiprazol ved behandling af skizofreni og bipolar I-lidelse er ukendt. Virkningen af aripiprazol kan være medieret gennem en kombination af partiel agonistaktivitet ved dopamin D 2 - og serotonin 5-HT 1A -receptorer og antagonistaktivitet ved 5-HT 2A -receptorer.« Engelsk originaltekst: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), version af 2025-04-04; hentet 2026-11-19). Ud fra almen farmakologi er aripiprazol en partiel D2-agonist med partiel 5-HT1A-agonisme og 5-HT2A-antagonisme. Den profil understøtter brug som tillægsbehandling ved depression, når svaret på et antidepressivum er utilstrækkeligt.
 
 Lægemidlets kendte anvendelse ved bipolære lidelser og skizofreni ligger tæt på det affektive sygdomsområde, og både dopamin- og serotoninsystemet er involveret i stemningslidelser. Det gør en effekt som tillæg til antidepressiv behandling mekanistisk plausibel.
 
@@ -104,6 +104,19 @@ Flere afsluttede fase 3-forsøg med randomiseret, placebokontrolleret design har
 - Indhentning af advarsler og kontraindikationer fra de danske produktresuméer
 - Data om virkningsmekanisme fra en validerad kilde
 - Plan for sikkerhedsovervågning, bl.a. metaboliske forhold, blodtryk og bivirkninger i form af impulsive eller tvangsprægede handlinger
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

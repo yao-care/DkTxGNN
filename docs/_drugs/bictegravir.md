@@ -58,7 +58,7 @@ Bictegravir er en integrase-strengoverførselshæmmer (INSTI), som anvendes mod 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Bictegravir er dog en INSTI, der blokerer virusets integrase-enzym og dermed forhindrer indbygning af viralt DNA i værtscellens genom.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Bictegravir (uofficiel oversættelse): »Integrasehæmmer for humant immundefektvirus type 1« Engelsk originaltekst: "Human immunodeficiency virus type 1 integrase inhibitor" ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; hentet 2026-11-19). Bictegravir er dog en INSTI, der blokerer virusets integrase-enzym og dermed forhindrer indbygning af viralt DNA i værtscellens genom.
 
 SIV-integrase ligner strukturelt HIV-1-integrase, og strukturstudier af HIV/SIV-intasomer forklarer, hvordan INSTI'er binder, og hvordan resistens opstår. Et præklinisk studie beskriver aktivitet af bictegravir mod SIVmac239, herunder integrasehæmmer-resistente varianter. Mekanismen er derfor biologisk plausibel.
 
@@ -115,6 +115,19 @@ Forudsigelsen er biologisk plausibel, men understøttes kun af præklinisk og st
 - Data om virkningsmekanismen (MOA)
 - Produktresumé-baseret gennemgang af advarsler og kontraindikationer
 - Afklaring af, om der findes en relevant forsknings- eller veterinær anvendelse, der kan retfærdiggøre videre studier
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

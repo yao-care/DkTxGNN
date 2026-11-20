@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at stoffet kan have effekt på **reumatoid artritis**
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme for nitrofurantoin i de data, der er samlet til denne rapport. Nitrofurantoin er et antibakterielt middel mod urinvejsinfektioner og har ingen kendt antiinflammatorisk eller sygdomsmodificerende virkning ved reumatoid artritis.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Nitrofurantoin (uofficiel oversættelse): »Nitrofurantoin er et antibakterielt lægemiddel. […] Nitrofurantoin reduceres af en lang række enzymer, herunder bakterielle flavoproteiner, til reaktive intermediater, som er skadelige for makromolekyler såsom DNA og proteiner.« Engelsk originaltekst: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), version af 2026-01-22; hentet 2026-11-19). Nitrofurantoin er et antibakterielt middel mod urinvejsinfektioner og har ingen kendt antiinflammatorisk eller sygdomsmodificerende virkning ved reumatoid artritis.
 
 Den litteratur, der er fundet, handler om skadelige forhold: lægemiddelinduceret lungefibrose, en interaktion mellem methotrexat og nitrofurantoin med irreversibel lungefibrose hos en patient med reumatoid artritis samt interstitiel lungesygdom ved reumatoid artritis. Et selvkontrolleret case-serie-studie af antibiotika og opblussen af reumatoid artritis belyser infektion eller antibiotikaeksponering som udløser af opblussen, ikke en behandlingseffekt.
 
@@ -136,11 +136,12 @@ Der er ingen kliniske forsøg og ingen studier, der viser behandlingseffekt af n
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2 gyldige tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->
 

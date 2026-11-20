@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **akut intermitterende por
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er kendt, at buprenorfin er en delvis my-opioidagonist (og kappa-antagonist), og at det er veldokumenteret ved opioidafhængighed.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Buprenorphine (uofficiel oversættelse): »SUBLOCADE injektionsvæske indeholder buprenorphin. Buprenorphin er en partiel agonist ved mu-opioidreceptoren og en antagonist ved kappa-opioidreceptoren.« Engelsk originaltekst: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), version af 2026-07-27; hentet 2026-11-19). Det er kendt, at buprenorfin er en delvis my-opioidagonist (og kappa-antagonist), og at det er veldokumenteret ved opioidafhængighed.
 
 Der er ikke påvist en direkte mekanistisk sammenhæng mellem opioidafhængighed og akut intermitterende porfyri. Den eneste fundne publikation beskriver anæstesihåndtering hos en patient med porfyri og handler om lægemiddelsikkerhed under operation, ikke om terapeutisk effekt. Buprenorfin overvejes til tider som en relativt sikker opioidmulighed ved porfyri, men det er en sikkerhedsbetragtning og ikke en behandlingsindikation. Den høje score (0,9941) er en modelforudsigelse uden klinisk støtte.
 
@@ -130,6 +130,19 @@ Der findes ingen kliniske forsøg og kun én case report, der ikke viser terapeu
 - Godkendte produktresuméer (advarsler og kontraindikationer) for de danske tilladelser, herunder afklaring af humane versus veterinære produkter
 - Prækliniske eller kliniske studier, der undersøger terapeutisk effekt (ikke blot sikkerhed) ved den forudsagte indikation
 - Vurdering af sikkerhedsprofil hos porfyripatienter, især i lyset af interaktioner og QT-relaterede risici
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

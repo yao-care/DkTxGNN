@@ -54,7 +54,7 @@ Clioquinol er et halogeneret hydroxyquinolin med antifungal og antibakteriel vir
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Ektotrix-infektion er en dermatofytinfektion i hårskaftet, hvor svampens artrokonidier dannes på hårets yderside. Clioquinol er et halogeneret hydroxyquinolin, hvis antifungale og antibakterielle virkning formodes at hænge sammen med chelering af metalioner. Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de indsamlede data, så mekanismen er ikke bekræftet.
+Ektotrix-infektion er en dermatofytinfektion i hårskaftet, hvor svampens artrokonidier dannes på hårets yderside. Clioquinol er et halogeneret hydroxyquinolin, hvis antifungale og antibakterielle virkning formodes at hænge sammen med chelering af metalioner. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Clioquinol (uofficiel oversættelse): »Zinkchelerende middel; Kobberchelerende middel; Jernchelerende middel« Engelsk originaltekst: "Zinc chelating agent; Copper chelating agent; Iron chelating agent" ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; hentet 2026-11-19).
 
 Den høje score er alene en beregningsmæssig forudsigelse. Den afspejler sandsynligvis, at de forårsagende organismer (dermatofytter som *Microsporum* og *Trichophyton*) er de samme som ved andre dermatofytinfektioner i huden, hvor clioquinol er kendt.
 
@@ -103,11 +103,12 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5), uden kliniske 
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

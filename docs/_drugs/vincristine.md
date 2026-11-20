@@ -57,7 +57,7 @@ Bemærk: Rang 1 i modellens forudsigelser (en meget sjælden syndromisk tilstand
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i det udarbejdede datagrundlag. Vincristin er generelt kendt som et vinca-alkaloid, der hæmmer mikrotubuli-polymerisering og standser celledelingen i M-fasen. Denne beskrivelse er almen viden og ikke hentet fra de udarbejdede data.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Vincristine (uofficiel oversættelse): »Virkningsmekanismerne for vincristinsulfat er fortsat under undersøgelse. Virkningsmekanismen for vincristinsulfat er blevet sat i forbindelse med hæmning af mikrotubulidannelsen i den mitotiske tentråd, hvilket medfører, at celler i deling standses i metafasestadiet.« Engelsk originaltekst: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), version af 2026-02-17; hentet 2026-11-19). Vincristin er generelt kendt som et vinca-alkaloid, der hæmmer mikrotubuli-polymerisering og standser celledelingen i M-fasen. Denne beskrivelse er almen viden og ikke hentet fra de udarbejdede data.
 
 Retroperitonealt neoplasma er en anatomisk samlebetegnelse for meget forskellige tumorer. Litteraturen beskriver vincristin som en del af kombinationsregimer ved tumortyper, der kan involvere retroperitoneum, fx rhabdomyosarkom, malign paragangliom (cyclophosphamid, vincristin, dacarbazin), infantilt fibrosarkom og kaposiform hæmangioendoteliom. Forbindelsen er derfor plausibel, men indirekte og afhænger af tumorens histologi.
 
@@ -120,6 +120,19 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger retroper
 - Data om virkningsmekanisme
 - Indhentning og gennemgang af SmPC for Cellcristin (advarsler, kontraindikationer og godkendt indikation)
 - Vurdering af sikkerhed, herunder interaktion med CYP3A4-hæmmere som clarithromycin
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

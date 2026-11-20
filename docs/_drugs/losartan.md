@@ -60,7 +60,7 @@ men evidensen er meget begrænset: **ingen kliniske forsøg** og kun **2 publika
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Losartan er dog kendt som en AT1-receptorblokker. Renin-angiotensin-systemet er en central drivkraft ved renovaskulær hypertension, så mekanismen er plausibel.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Losartan (uofficiel oversættelse): »Angiotensin II [dannet ud fra angiotensin I i en reaktion katalyseret af angiotensinkonverterende enzym (ACE, kininase II)] er en potent vasokonstriktor, det primære vasoaktive hormon i renin-angiotensin-systemet og en vigtig komponent i hypertensions patofysiologi. Det stimulerer også binyrebarkens sekretion af aldosteron. […] Losartan og dets vigtigste aktive metabolit blokerer de vasokonstriktive og aldosteronsecernerende virkninger af angiotensin II ved selektivt at blokere bindingen af angiotensin II til AT 1-receptoren, som findes i mange væv (f.eks. vaskulær glat muskulatur, binyre).« Engelsk originaltekst: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), version af 2026-09-15; hentet 2026-11-19). Losartan er dog kendt som en AT1-receptorblokker. Renin-angiotensin-systemet er en central drivkraft ved renovaskulær hypertension, så mekanismen er plausibel.
 
 Den forudsagte indikation overlapper i vid udstrækning med den allerede godkendte brug ved hypertension. Evidensen er dog begrænset til en enkelt case-rapport (Takayasus arteritis) og en præklinisk metodeartikel om rottemodeller.
 
@@ -130,6 +130,18 @@ Alle øvrige forudsigelser har ligeledes score over 99 %, men svag evidens:
 | Prinzmetal angina | L5 | Hold | Ingen forsøg eller litteratur; kalciumantagonister og nitrater er standard |
 | Autosomal dominant familiær hæmaturi-retinal arteriolær tortuositet-kontrakturer-syndrom | L5 | Hold | Ingen forsøg eller litteratur |
 | Cerebral småkarsygdom 1 med eller uden øjenanomalier | L4 | Forskningsspørgsmål | Kun indirekte evidens; ingen sygdomsspecifikke forsøg |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

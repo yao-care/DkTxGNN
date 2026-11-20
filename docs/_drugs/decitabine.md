@@ -60,7 +60,7 @@ Evidensen er begrænset: der er **0 registrerede kliniske forsøg** og **2 publi
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra almen viden er decitabin et nukleosidanalog, der hæmmer DNA-methyltransferase og dermed virker hypomethylerende. Stoffet anvendes allerede ved myeloide neoplasier, herunder myelodysplastiske syndromer (MDS) og AML.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Decitabine (uofficiel oversættelse): »Decitabin menes at udøve sin antineoplastiske virkning efter fosforylering og direkte inkorporering i DNA og hæmning af DNA-methyltransferase, hvilket forårsager hypomethylering af DNA og celledifferentiering eller apoptose. Decitabin hæmmer DNA-methylering in vitro, hvilket opnås ved koncentrationer, der ikke forårsager væsentlig hæmning af DNA-syntesen.« Engelsk originaltekst: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), version af 2026-11-03; hentet 2026-11-19). Ud fra almen viden er decitabin et nukleosidanalog, der hæmmer DNA-methyltransferase og dermed virker hypomethylerende. Stoffet anvendes allerede ved myeloide neoplasier, herunder myelodysplastiske syndromer (MDS) og AML.
 
 Refraktær cytopeni hos børn er den vigtigste foreløbige undertype af MDS hos børn. Der er derfor en plausibel fælles forklaring med klonal og epigenetisk dysregulering i den myeloide cellelinje. Bemærk, at koblingen er udledt af generel viden om hypomethylerende midler og ikke af de foreliggende data.
 
@@ -128,6 +128,19 @@ Forudsigelsen bygger på en computermodel og biologisk plausibilitet. Evidensen 
 - Systematisk litteraturgennemgang af decitabin ved pædiatrisk MDS/refraktær cytopeni
 - Vurdering af, om de eksisterende formuleringer (infusion og tabletter) og doseringer er egnede til børn
 - Overvej et prospektivt klinisk studie eller registerstudie, før der træffes beslutning om videre arbejde
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

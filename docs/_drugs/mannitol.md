@@ -54,7 +54,7 @@ Mannitol er en osmotisk diuretikum. I den videnskabelige vidensgraf er det regis
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om mannitols detaljerede virkningsmekanisme er ikke tilgængelige i det materiale, der er indsamlet til denne rapport. Mannitol er generelt kendt som et osmotisk diuretikum, der øger udskillelsen af vand og opløste stoffer via nyrerne.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Mannitol (uofficiel oversættelse): »Når mannitol administreres intravenøst, udøver det sin osmotisk diuretiske virkning som et opløst stof med relativt lille molekylstørrelse, der hovedsageligt forbliver i det ekstracellulære rum. Mannitol hæmmer den tubulære reabsorption af vand og øger udskillelsen af natrium og klorid ved at øge osmolariteten af glomerulusfiltratet.« Engelsk originaltekst: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), version af 2025-08-26; hentet 2026-11-19). Mannitol er generelt kendt som et osmotisk diuretikum, der øger udskillelsen af vand og opløste stoffer via nyrerne.
 
 Ved første øjekast kan en vanddrivende effekt synes relevant for NSIAD, hvor kroppen tilbageholder for meget frit vand. Men NSIAD skyldes aktiverende mutationer i vasopressin V2-receptoren (AVPR2). Osmotisk diurese retter ikke op på denne grundlæggende defekt og kan forværre natriumtab. Den mekanistiske sammenhæng er derfor svag og i bedste fald teoretisk.
 
@@ -99,6 +99,19 @@ Der er hverken kliniske forsøg eller direkte litteratur, der understøtter mann
 - Advarsler og kontraindikationer fra det danske produktresumé (SmPC)
 - Præklinisk eller klinisk evidens, der direkte undersøger mannitol ved NSIAD
 - Vurdering af, om andre forudsigelser med mere evidens (fx akut pulmonal hjertesygdom) er mere relevante at følge op på, under hensyn til sikkerhedssignalet om volumenekspansion og lungeødem
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

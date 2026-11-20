@@ -54,7 +54,7 @@ Pegvaliase (markedsført som Palynziq) er et PEGyleret enzym, som nedbryder phen
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de indsamlede data. Pegvaliase er et PEGyleret phenylalanin-ammoniak-lyase, som omdanner phenylalanin og dermed sænker koncentrationen i blodet. Det er baggrunden for brugen ved phenylketonuri.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Pegvaliase (uofficiel oversættelse): »Pegvaliase-pqpz er et PEGyleret phenylalanin-ammoniaklyase (PAL)-enzym, der omdanner phenylalanin til ammoniak og trans -kanelsyre. Det erstatter den manglende aktivitet af enzymet phenylalaninhydroxylase (PAH) hos patienter med PKU og nedsætter koncentrationen af phenylalanin i blodet.« Engelsk originaltekst: "Pegvaliase-pqpz is a PEGylated phenylalanine ammonia lyase (PAL) enzyme that converts phenylalanine to ammonia and trans -cinnamic acid. It substitutes for the deficient phenylalanine hydroxylase (PAH) enzyme activity in patients with PKU and reduces blood phenylalanine concentrations." ([DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c), version af 2026-03-02; hentet 2026-11-19). Pegvaliase er et PEGyleret phenylalanin-ammoniak-lyase, som omdanner phenylalanin og dermed sænker koncentrationen i blodet. Det er baggrunden for brugen ved phenylketonuri.
 
 Diabetisk retinopati er en mikrovaskulær komplikation til langvarig hyperglykæmi og involverer blandt andet VEGF-signalering, inflammation, tab af pericytter og retinal iskæmi. De foreliggende data viser ingen plausibel mekanistisk forbindelse mellem phenylalaninnedbrydning og disse processer. Den høje score (0.9917) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -97,6 +97,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg, litter
 - Præklinisk eller mekanistisk dokumentation for en sammenhæng mellem phenylalaninmetabolisme og retinal patologi
 - Vurdering af administrationsvej: pegvaliase gives som subkutan injektion, og det er uafklaret, om dette er foreneligt med behandling af øjensygdomme
 - En systematisk litteratur- og forsøgsgennemgang, før der overvejes yderligere evaluering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Palynziq (pegvaliase-pqpz) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dba844a-db02-44f8-8593-ce497ed9406c) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

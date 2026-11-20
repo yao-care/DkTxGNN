@@ -59,7 +59,7 @@ Carboplatin er et platinbaseret kemoterapeutikum. I vidensgrafen er det registre
 
 ## Hvorfor kan forudsigelsen give mening?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i det materiale, der er indsamlet til denne rapport. Carboplatin er generelt kendt som et DNA-tværbindende platinstof, der hæmmer celledeling i hurtigt delende tumorceller. Det er sandsynligvis baggrunden for, at modellen kobler stoffet til andre kræftformer med slimproducerende (mucinøs) histologi.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Carboplatin (uofficiel oversættelse): »Carboplatin er et platinbaseret lægemiddel, der binder til DNA og danner DNA-krydsbindinger. Disse krydsbindinger hæmmer DNA-replikation og -transkription og udløser cytotoksiske processer, der fører til celledød.« Engelsk originaltekst: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b), version af 2026-11-09; hentet 2026-11-19). Carboplatin er generelt kendt som et DNA-tværbindende platinstof, der hæmmer celledeling i hurtigt delende tumorceller. Det er sandsynligvis baggrunden for, at modellen kobler stoffet til andre kræftformer med slimproducerende (mucinøs) histologi.
 
 Forudsigelsen ser ud til at hvile på en lighed i histologi mellem mucinøse tumorer i æggestokkene og mucinøst adenokarcinom i endetarmen. Der findes ingen specifik dokumentation for, at carboplatin virker ved mucinøs histologi i endetarmen. Platinstoffer er heller ikke standardbehandling ved kolorektalt adenokarcinom. Forudsigelsen bør derfor betragtes som en hypotese og ikke som en behandlingsanbefaling.
 
@@ -131,6 +131,19 @@ Forudsigelsen for mucinøst adenokarcinom i rectum støttes kun af en høj model
 - Vurdering af, hvordan en eventuel anvendelse forholder sig til gældende kolorektale behandlingsretningslinjer
 
 **Bemærkning:** De samlede data indeholder også andre forudsagte indikationer med flere forsøg og publikationer, bl.a. kimcelletumorer og endometriecancer. De er ikke omfattet af denne rapport og bør vurderes særskilt.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

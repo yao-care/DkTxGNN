@@ -59,7 +59,7 @@ men der er **ingen registrerede kliniske forsøg** og kun **generel litteratur o
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Detaljerede data om virkningsmekanismen (MOA) er ikke tilgængelige i de indsamlede data. Ud fra litteraturen er zolmitriptan en selektiv 5-HT1B/1D-receptoragonist med både central og perifer virkning. Den hæmmer aktivering af det trigeminovaskulære system og har dokumenteret effekt ved akut migræne med og uden aura.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Zolmitriptan (uofficiel oversættelse): »Zolmitriptan bindes med høj affinitet til humane rekombinante 5-HT 1D- og 5-HT 1B-receptorer og med moderat affinitet til 5-HT 1A-receptorer. N-desmethyl-metabolitten har ligeledes høj affinitet til 5-HT 1B/1D- og moderat affinitet til 5-HT 1A-receptorer.« Engelsk originaltekst: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), version af 2026-01-29; hentet 2026-11-19). Ud fra litteraturen er zolmitriptan en selektiv 5-HT1B/1D-receptoragonist med både central og perifer virkning. Den hæmmer aktivering af det trigeminovaskulære system og har dokumenteret effekt ved akut migræne med og uden aura.
 
 Migræne med hjernestammeaura er en undertype af migræne, og den fælles patofysiologi (trigeminovaskulær aktivering, CGRP-frigivelse, kraniel vasodilatation) gør en mekanistisk sammenhæng plausibel. Den høje score afspejler sandsynligvis den overordnede migræneindikation snarere end undertypespecifik evidens.
 
@@ -128,6 +128,19 @@ Triptaner har desuden historisk forsigtighedsregler ved hjernestammeaura og hemi
 ### Øvrige forudsigelser (ikke anbefalet til videre evaluering)
 
 TxGNN forudsagde også **atrophoderma vermiculata** (score 0,9990) og **ulerythema ophryogenesis** (score 0,9983). Begge har evidensniveau L5 uden kliniske forsøg eller litteratur og uden nogen oplagt mekanistisk sammenhæng med 5-HT1B/1D-agonisme. De vurderes sandsynligvis at være netværksartefakter i modellen. Anbefaling: **Hold**.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

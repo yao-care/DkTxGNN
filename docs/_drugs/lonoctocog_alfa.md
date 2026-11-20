@@ -60,7 +60,7 @@ Forudsigelsen er **udelukkende modelbaseret**: der er hverken registrerede klini
 
 ## Hvorfor kan forudsigelsen forekomme rimelig?
 
-Lonoctocog alfa er en rekombinant enkeltkædet faktor VIII (rFVIII-SingleChain) med en afkortet B-domæne. Der foreligger ikke detaljerede data om lægemidlets virkningsmekanisme i de data, der er indsamlet til denne rapport. Ud fra kendt information erstatter præparatet manglende faktor VIII, som indgår i tenase-komplekset i den sekundære hæmostase. Dets effekt ved hæmofili er veletableret.
+Lonoctocog alfa er en rekombinant enkeltkædet faktor VIII (rFVIII-SingleChain) med en afkortet B-domæne. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Lonoctocog Alfa (uofficiel oversættelse): »Koagulationsfaktor VIII, eksogent protein« Engelsk originaltekst: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0; hentet 2026-11-19). Ud fra kendt information erstatter præparatet manglende faktor VIII, som indgår i tenase-komplekset i den sekundære hæmostase. Dets effekt ved hæmofili er veletableret.
 
 Pseudo-von Willebrands sygdom (trombocyttypen af VWD) skyldes en gain-of-function-defekt i trombocyttens GPIbα. Den øger bindingen til von Willebrand-faktor (VWF), hvilket medfører tab af højmolekylære VWF-multimerer og trombocytopeni. Blødningsdefekten er primært drevet af trombocytter og VWF. Da VWF normalt stabiliserer FVIII, kan FVIII-erstatning muligvis give en begrænset sekundær fordel, hvis FVIII-niveauet er nedsat. Koblingen er derfor indirekte og beror på en antagelse.
 
@@ -117,6 +117,19 @@ Forudsigelsen understøttes kun af en computermodel (evidensniveau L5), uden kli
 - Systematisk litteratursøgning og søgning i forsøgsregistre for pseudo-von Willebrands sygdom
 - Indsnævring af "erhvervet koagulationsfaktormangel" til specifikke undertyper (f.eks. erhvervet hæmofili A) før yderligere vurdering
 - Prækliniske eller mekanistiske data, der viser, om FVIII-erstatning kan give gavn ved trombocyt- eller VWF-drevne blødningsforstyrrelser
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

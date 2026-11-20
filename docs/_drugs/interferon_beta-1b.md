@@ -58,7 +58,7 @@ Interferon beta-1b er oprindeligt godkendt til behandling af recidiverende-remit
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er på nuværende tidspunkt ikke tilgængelige i de data, der er indsamlet til denne rapport. Interferon beta-1b er et rekombinant type I-interferon, som via type I-interferonreceptoren (IFNAR) modulerer immunresponset, bl.a. ved at dæmpe T-celleaktivering og begrænse cellernes passage over blod-hjerne-barrieren. Det er den formodede forklaring på effekten ved dissemineret sklerose.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Interferon Beta-1B (uofficiel oversættelse): »Virkningsmekanismen for BETASERON (interferon beta-1b) hos patienter med multipel sklerose er ukendt.« Engelsk originaltekst: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), version af 2026-03-03; hentet 2026-11-19). Interferon beta-1b er et rekombinant type I-interferon, som via type I-interferonreceptoren (IFNAR) modulerer immunresponset, bl.a. ved at dæmpe T-celleaktivering og begrænse cellernes passage over blod-hjerne-barrieren. Det er den formodede forklaring på effekten ved dissemineret sklerose.
 
 Interferon-alfa (ikke beta) har historisk været brugt ved hårcelleleukæmi på grund af sine antiproliferative og immunmodulerende effekter. Da interferon beta-1b binder til samme receptor, er en mekanistisk klasseeffekt plausibel. Der foreligger dog ingen direkte evidens for beta-1b ved denne sygdom, og forudsigelsen er rent beregningsbaseret. Mekanismen er derfor hypotese, ikke dokumentation.
 
@@ -141,6 +141,19 @@ Forudsigelsen om hårcelleleukæmi har en høj modelscore, men er rent beregning
 - Data om virkningsmekanisme (MOA), som i øjeblikket mangler
 - Indhentning af produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer samt godkendt indikationstekst
 - Afklaring af sikkerhed i relevante populationer, herunder graviditet og NMOSD
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

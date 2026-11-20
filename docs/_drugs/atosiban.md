@@ -55,7 +55,7 @@ Atosiban er et peptidlægemiddel, som er registreret i Danmark som injektionsvæ
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Farmakologiske data viser, at atosiban binder til oxytocinreceptoren (OXTR) og vasopressinreceptorerne V1A, V1B og V2. Klinisk bruges det som oxytocin-/vasopressin-antagonist til at hæmme livmoderens sammentrækninger.
+Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Atosiban (uofficiel oversættelse): »Oxytocinreceptorantagonist« Engelsk originaltekst: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; hentet 2026-11-19). Farmakologiske data viser, at atosiban binder til oxytocinreceptoren (OXTR) og vasopressinreceptorerne V1A, V1B og V2. Klinisk bruges det som oxytocin-/vasopressin-antagonist til at hæmme livmoderens sammentrækninger.
 
 Der er ikke påvist nogen dokumenteret sammenhæng mellem disse receptorer og regulering af øjentryk, kammervandets dynamik eller trabekelværkets funktion. Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Det samme gælder de øvrige forudsigelser med høj score (åbenvinklet glaukom, hårsygdomme som alopeci og hypotrichosis, trombotisk-okklusive tilstande i thoracic outlet-syndromerne og visceral calciphylaxis): ingen af dem er understøttet af forsøg eller litteratur.
 
@@ -96,6 +96,19 @@ Forudsigelsen for primær arvelig glaukom bygger kun på en modelscore uden klin
 - Data om virkningsmekanisme fra DrugBank
 - Advarsler og kontraindikationer fra det danske produktresumé (SmPC)
 - Vurdering af, om en peptidinjektion overhovedet er en mulig administrationsvej til øjensygdom (f.eks. lokal eller intravitreal formulering)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

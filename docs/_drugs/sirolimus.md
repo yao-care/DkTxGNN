@@ -54,7 +54,7 @@ Sirolimus er en mTOR-hæmmer, som markedsføres i Danmark som gel til udvortes b
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Sirolimus er dog kendt som en hæmmer af mTORC1. PI3K/AKT/mTOR-signalvejen er ofte aktiveret i bløddelssarkomer, herunder liposarkom, og det giver et plausibelt biologisk grundlag for en vækstdæmpende effekt.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Sirolimus (uofficiel oversættelse): »Sirolimus i FYARRO er en hæmmer af mechanistic target of rapamycin-kinase (mTOR, tidligere kendt som mammalian target of rapamycin). mTOR, en serin-threonin-kinase, ligger nedstrøms for PI3K/AKT-signalvejen, styrer centrale cellulære processer såsom celleoverlevelse, vækst og proliferation og er almindeligvis dysreguleret i flere humane cancerformer. I cellerne binder sirolimus til immunophilinet FK-bindende protein-12 (FKBP-12), hvorved der dannes et immunsuppressivt kompleks.« Engelsk originaltekst: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), version af 2026-09-09; hentet 2026-11-19). Sirolimus er dog kendt som en hæmmer af mTORC1. PI3K/AKT/mTOR-signalvejen er ofte aktiveret i bløddelssarkomer, herunder liposarkom, og det giver et plausibelt biologisk grundlag for en vækstdæmpende effekt.
 
 Denne sammenhæng er imidlertid en mekanistisk hypotese. Den er ikke understøttet af publicerede kliniske data for sirolimus ved liposarkom. Den tilgængelige litteratur består primært af oversigtsartikler om sarkombehandling og om kræftrisiko hos transplanterede patienter, hvilket kun er indirekte relevant.
 
@@ -108,6 +108,18 @@ Forudsigelsen understøttes af en høj modelscore og en plausibel mTOR-mekanisme
 - Data om virkningsmekanismen (MOA)
 - Produktresumé med advarsler og kontraindikationer samt vurdering af, om den lokale gel-formulering er relevant for en systemisk indikation
 - Plan for sikkerhedsmonitorering og håndtering af interaktioner
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

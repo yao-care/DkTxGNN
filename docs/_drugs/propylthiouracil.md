@@ -59,7 +59,7 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **resistens over for thyro
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Det er generelt kendt, at propylthiouracil hæmmer syntesen af thyroideahormon og omdannelsen af T4 til T3, og at det er veldokumenteret ved hyperthyroidisme.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Propylthiouracil (uofficiel oversættelse): »Propylthiouracil hæmmer syntesen af thyreoideahormoner og er derfor effektivt til behandling af hyperthyreoidisme. Lægemidlet inaktiverer ikke eksisterende thyroxin og triiodthyronin, som er lagret i thyreoidea eller cirkulerer i blodet, og det påvirker heller ikke virkningen af thyreoideahormoner givet oralt eller som injektion.« Engelsk originaltekst: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), version af 2026-08-27; hentet 2026-11-19). Det er generelt kendt, at propylthiouracil hæmmer syntesen af thyroideahormon og omdannelsen af T4 til T3, og at det er veldokumenteret ved hyperthyroidisme.
 
 Scoren kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Ved resistens over for thyroideahormon (RTH) gør receptordefekten vævene mindre følsomme for hormonet, og hypofysen kompenserer med forhøjet TSH. Sænkning af hormonniveauet med et antithyroideamiddel kan derfor give yderligere TSH-stigning, struma eller hypothyreoselignende effekter i de resistente væv.
 
@@ -122,6 +122,19 @@ Evidensen består udelukkende af dyreforsøg og case reports uden kliniske fors�
 
 Den samme analyse omfattede to yderligere forudsigelser, som ikke er uddybet her:
 - **Hyperthyroxinemia** (score 0,9908, evidensniveau L4): Hyperthyroxinæmi er et heterogent laboratoriefund. Propylthiouracil er kun relevant ved ægte hormonoverproduktion, som allerede er dækket af de oprindelige indikationer. Ved ikke-thyrotoksiske årsager er hæmning af syntesen ikke indiceret. Status: Hold.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

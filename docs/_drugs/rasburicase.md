@@ -54,7 +54,7 @@ Rasburicase er et rekombinant urat-oxidaseenzym, som oprindeligt blev brugt til 
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om detaljeret virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Rasburicase er dog kendt som et rekombinant urat-oxidaseenzym, der omdanner urinsyre til allantoin og dermed sænker serum-urat.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Rasburicase (uofficiel oversættelse): »Hos mennesker er urinsyre det sidste trin i purinernes kataboliske signalvej. Rasburicase katalyserer enzymatisk oxidation af tungtopløselig urinsyre til en inaktiv og mere opløselig metabolit (allantoin).« Engelsk originaltekst: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), version af 2026-07-30; hentet 2026-11-19). Rasburicase er dog kendt som et rekombinant urat-oxidaseenzym, der omdanner urinsyre til allantoin og dermed sænker serum-urat.
 
 Renal hypourikæmi er en tilstand, hvor serum-urat allerede er for lavt, typisk på grund af funktionstabsmutationer i transportørerne URAT1 eller GLUT9. Yderligere urat-sænkning er mekanistisk kontraproduktiv og vil ikke behandle tilstanden. Det kan øge risikoen for skade, f.eks. træningsudløst akut nyreskade. Den høje TxGNN-score (0.9999) stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -93,6 +93,19 @@ Alle forudsigelser er på evidensniveau L5 uden kliniske forsøg eller litteratu
 - Gennemgang af produktresuméet for advarsler og kontraindikationer (blokerende datamangel)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Hvis man alligevel vil udforske en snæver anvendelse (f.eks. akut svær hyperurikæmi ved delvis HGPRT-mangel), kræves først prækliniske eller kliniske data
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

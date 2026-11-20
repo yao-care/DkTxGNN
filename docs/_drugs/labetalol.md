@@ -60,7 +60,7 @@ men der foreligger **ingen registrerede kliniske forsøg** og kun **1 publikatio
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen foreligger ikke i de data, der er indsamlet til denne rapport. Ud fra kendt farmakologi er labetalol en kombineret alfa-1/beta-adrenerg blokker, som sænker karmodstand og hjertefrekvens. Lægemidlet anvendes allerede ved svær hypertension og hypertensive nødsituationer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Labetalol (uofficiel oversættelse): »Labetalol har både kompetitiv alfa1-adrenerg blokerende og kompetitiv beta-adrenerg blokerende aktivitet. Hos mennesker er forholdet mellem alfa- og betablokade anslået til at være ca. 1:7 efter intravenøs administration.« Engelsk originaltekst: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), version af 2025-12-19; hentet 2026-11-19). Ud fra kendt farmakologi er labetalol en kombineret alfa-1/beta-adrenerg blokker, som sænker karmodstand og hjertefrekvens. Lægemidlet anvendes allerede ved svær hypertension og hypertensive nødsituationer.
 
 Malign hypertensiv nyresygdom er en svær form for forhøjet blodtryk med nyreskade. Blodtrykssænkning med en alfa/beta-blokker er biologisk plausibel. Der er dog tale om en udvidelse af den eksisterende hypertensionsindikation snarere end egentlig repurposing. Den høje score (0.9908) er en ren beregningsmæssig forudsigelse fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -128,6 +128,19 @@ Der er ingen kliniske forsøg og kun én ikke-relevant case-rapport bag forudsig
 - Systematisk litteratursøgning efter kliniske data om labetalol ved malign/renovaskulær hypertension og hypertensiv nyresygdom
 - Vurdering af, om den forudsagte indikation reelt er dækket af den eksisterende hypertensionsindikation
 - Pulmonal hypertension bør ikke forfølges uden stærk mekanistisk og klinisk begrundelse
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

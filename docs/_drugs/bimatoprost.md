@@ -58,7 +58,7 @@ Bimatoprost er en prostamid-analog (prostaglandin F2-alfa-analog), som anvendes 
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport. Bimatoprost er kendt som en prostamid/prostaglandin F2-alfa-analog, som påvirker FP-receptor-lignende signalveje, bl.a. i hårsækken, hvor den forlænger anagenfasen.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Bimatoprost (uofficiel oversættelse): »Bimatoprost, en prostaglandinanalog, er en syntetisk strukturel analog af prostaglandin med okulær hypotensiv aktivitet. Bimatoprost menes at sænke IOP hos mennesker ved at øge udstrømningen af kammervæske gennem både trabekelværket (konventionel) og den uveosklerale vej (ukonventionel).« Engelsk originaltekst: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), version af 2024-10-16; hentet 2026-11-19). Bimatoprost er kendt som en prostamid/prostaglandin F2-alfa-analog, som påvirker FP-receptor-lignende signalveje, bl.a. i hårsækken, hvor den forlænger anagenfasen.
 
 Der er **ikke identificeret nogen mekanistisk sammenhæng** mellem bimatoprost og syndromiske misdannelser af tænder eller parodontium. Scoren er meget høj, men er en rent beregningsmæssig forudsigelse og bør ikke tolkes som tegn på klinisk effekt. Tilstanden er et medfødt strukturelt syndrom, og en lokalt anvendt prostaglandinanalog har ingen kendt rolle i behandlingen.
 
@@ -103,6 +103,19 @@ Forudsigelsen har en meget høj modelscore, men der findes hverken kliniske fors
 - En biologisk begrundelse for, hvorfor en prostamid-analog skulle påvirke tand- eller parodontiemisdannelser
 - Prækliniske data eller litteratur, der direkte omhandler tilstanden
 - Gennemgang af produktresuméet for sikkerhedsoplysninger, før eventuelle videre skridt overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

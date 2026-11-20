@@ -61,7 +61,7 @@ Evidensen består kun af **0 kliniske forsøg** og **3 publikationer** (alle cas
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanismen er ikke tilgængelige i de data, der er indsamlet til denne rapport. Temozolomid er generelt kendt som et oralt alkylerende middel, der methylerer DNA og dermed kan udløse DNA-skade og apoptose i tumorceller. Følsomheden menes at være størst ved MGMT-promotormethylering. Stoffet passerer blod-hjerne-barrieren.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Temozolomide (uofficiel oversættelse): »Temozolomid er ikke direkte aktivt, men undergår hurtig ikke-enzymatisk omdannelse ved fysiologisk pH til den reaktive forbindelse 5-(3-methyltriazen-1-yl)-imidazol-4-carboxamid (MTIC). Cytotoksiciteten af MTIC menes primært at skyldes DNA-alkylering, hovedsageligt i O 6- og N 7-positionerne på guanin, hvilket forårsager DNA-dobbeltstrengsbrud og resulterer i programmeret celledød.« Engelsk originaltekst: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), version af 2026-02-20; hentet 2026-11-19). Temozolomid er generelt kendt som et oralt alkylerende middel, der methylerer DNA og dermed kan udløse DNA-skade og apoptose i tumorceller. Følsomheden menes at være størst ved MGMT-promotormethylering. Stoffet passerer blod-hjerne-barrieren.
 
 Tumorer i cauda equina er overvejende spinale myxopapillære ependymomer, som er gliale tumorer i centralnervesystemet. Scoren for Cauda equina-neoplasme (0.9930) kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens.
 
@@ -130,6 +130,19 @@ Der er ingen kliniske forsøg og kun én case report om en beslægtet tumor (spi
 - Data om virkningsmekanisme og MGMT-status i disse tumorer
 - Gennemgang af produktresuméet for advarsler, kontraindikationer og godkendte indikationer
 - Overvejelse af prospektivt studie eller registerbaseret opfølgning, hvis klinisk interesse består
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

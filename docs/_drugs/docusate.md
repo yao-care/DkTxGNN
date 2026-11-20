@@ -60,7 +60,7 @@ Der er dog **ingen kliniske forsøg** og **ingen publikationer**, der understøt
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Docusat er en anionisk overfladeaktiv afføringsblødgører, der øger vandets indtrængning i afføringen. Detaljerede data om virkningsmekanisme er ikke tilgængelige i de data, der er indsamlet til denne rapport.
+Docusat er en anionisk overfladeaktiv afføringsblødgører, der øger vandets indtrængning i afføringen. Ifølge ChEMBL (EMBL-EBI) er den registrerede virkningsmekanisme for Docusate (uofficiel oversættelse): »Overfladeaktivt laksativ« Engelsk originaltekst: "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; hentet 2026-11-19).
 
 Forudsigelsen afspejler sandsynligvis grafnærhed i videnbasen: Plummer-Vinson syndrom (jernmangelanæmi med synkebesvær og øsofagale membraner) ligger tæt på docusats tilknyttede anæmiindikationer. Det er en statistisk association og ikke en biologisk begrundelse. Docusat korrigerer hverken jernmangel eller behandler øsofagale membraner.
 
@@ -136,11 +136,12 @@ Forudsigelsen bygger kun på modelscore (L5) uden kliniske forsøg, litteratur e
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

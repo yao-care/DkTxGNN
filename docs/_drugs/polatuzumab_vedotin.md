@@ -58,10 +58,9 @@ Polatuzumab vedotin er et antistof-lægemiddelkonjugat rettet mod CD79b på B-ce
 
 ## Hvorfor er forudsigelsen (ikke) rimelig?
 
-Data om lægemidlets virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Ud fra den publicerede litteratur er polatuzumab vedotin et antistof-lægemiddelkonjugat, hvor et anti-CD79b-antistof er koblet til det mikrotubulihæmmende stof monomethylauristatin E (MMAE) via en spaltbar linker. Efter binding til CD79b på B-cellens overflade optages konjugatet, MMAE frigives, og celledeling hæmmes, hvilket fører til apoptose.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Polatuzumab Vedotin (uofficiel oversættelse): »Polatuzumab vedotin-piiq er et CD79b-rettet antistof-lægemiddelkonjugat med aktivitet mod delende B-celler. Det lille molekyle, MMAE, er et antimitotisk stof, der er kovalent bundet til antistoffet via en spaltelig linker. Det monoklonale antistof bindes til CD79b, et B-cellespecifikt overfladeprotein, som er en komponent i B-cellereceptoren.« Engelsk originaltekst: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), version af 2026-08-24; hentet 2026-11-19). Ud fra den publicerede litteratur er polatuzumab vedotin et antistof-lægemiddelkonjugat, hvor et anti-CD79b-antistof er koblet til det mikrotubulihæmmende stof monomethylauristatin E (MMAE) via en spaltbar linker. Efter binding til CD79b på B-cellens overflade optages konjugatet, MMAE frigives, og celledeling hæmmes, hvilket fører til apoptose.
 
 CD79b er en del af B-cellereceptoren og findes på B-celler, ikke på brystkræftceller. Der er derfor ingen målrettet biologisk forbindelse mellem lægemidlets oprindelige anvendelse og HER2-positiv brystkræft. Den høje TxGNN-score afspejler sandsynligvis, at MMAE som nyttelast også anvendes i andre antistof-lægemiddelkonjugater, men det er ikke i sig selv evidens for effekt.
-
 
 ---
 
@@ -131,6 +130,19 @@ Forudsigelsen er udelukkende beregningsmæssig (evidensniveau L5). Der findes in
 - Oplysninger om virkningsmekanisme (MOA) fra DrugBank
 - Godkendt indikationstekst, advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Eventuelt en vurdering af, om resultaterne fra HER2-rettede antistof-lægemiddelkonjugater med samme nyttelast overhovedet kan overføres
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -60,7 +60,7 @@ Der er **14 kliniske forsøg** og **20 publikationer** i de data, der er indsaml
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanismen i de data, der er indsamlet til denne rapport. Atorvastatin er dog et statin, og statiner sænker LDL-kolesterol ved at hæmme kolesterolsyntesen i leveren.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Atorvastatin (uofficiel oversættelse): »LIPITOR er en selektiv, kompetitiv hæmmer af HMG-CoA-reduktase, det hastighedsbegrænsende enzym, der omdanner 3-hydroxy-3-methylglutaryl-coenzym A til mevalonat, en forløber for steroler, herunder kolesterol. I dyremodeller sænker LIPITOR plasmaniveauet af kolesterol og lipoproteiner ved at hæmme HMG-CoA-reduktase og kolesterolsyntesen i leveren og ved at øge antallet af hepatiske LDL-receptorer på celleoverfladen for at fremme optagelsen og kataboliseringen af LDL; LIPITOR reducerer også LDL-produktionen og antallet af LDL-partikler.« Engelsk originaltekst: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), version af 2024-04-15; hentet 2026-11-19). Atorvastatin er dog et statin, og statiner sænker LDL-kolesterol ved at hæmme kolesterolsyntesen i leveren.
 
 Ud over kolesterolsænkningen har atorvastatin bredere antiinflammatoriske virkninger. Det kan bl.a. dæmpe aktiveringen af monocytter og makrofager og sænke den systemiske inflammation. Det er relevant ved behandlet HIV, hvor patienterne ofte har:
 
@@ -149,11 +149,12 @@ Der er kliniske forsøg direkte på HIV-populationen, men de er små, og evidens
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for lægemidler med atorvastatin, og ingen er annulleret.” → “De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin "1A Farma") blev afregistreret i 2026.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
 
 <!-- review:end log -->
 

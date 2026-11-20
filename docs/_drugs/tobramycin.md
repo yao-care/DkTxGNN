@@ -60,7 +60,7 @@ Forudsigelsen bygger derfor reelt kun på modellen.
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Der er på nuværende tidspunkt ikke tilgængelige data om lægemidlets detaljerede virkningsmekanisme. Tobramycin tilhører aminoglykosiderne og har kendt aktivitet mod bl.a. *Pseudomonas aeruginosa* og *Staphylococcus aureus*, som er hyppige årsager til øjeninfektioner.
+Ifølge afsnittene »Mechanism of Action« og »Microbiology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Tobramycin (uofficiel oversættelse): »Tobramycin er et aminoglykosid-antibakterielt middel. […] Tobramycin er et aminoglykosid-antibakterielt middel produceret af Streptomyces tenebrarius. Det virker primært ved at forstyrre proteinsyntesen, hvilket fører til ændret permeabilitet af cellemembranen, progressiv nedbrydning af cellehylsteret og i sidste ende celledød.« Engelsk originaltekst: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), version af 2026-04-15; hentet 2026-11-19). Tobramycin tilhører aminoglykosiderne og har kendt aktivitet mod bl.a. *Pseudomonas aeruginosa* og *Staphylococcus aureus*, som er hyppige årsager til øjeninfektioner.
 
 Ved eksponeringskeratitis er hornhinden udtørret og beskadiget, fordi øjet ikke lukkes tilstrækkeligt. Her kunne tobramycin teoretisk forebygge eller behandle sekundær bakteriel infektion. Det er en indirekte, biologisk plausibel tankegang, men ikke en dokumenteret virkning mod selve sygdommen.
 
@@ -127,6 +127,19 @@ Der er ingen kliniske forsøg og ingen studier, der direkte undersøger eksponer
 - Vurdering af hornhindetoksicitet i en allerede beskadiget hornhinde
 - Data om virkningsmekanisme og produktresumé (advarsler og kontraindikationer)
 - Afklaring af, om et egnet øjenpræparat er tilgængeligt i Danmark
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

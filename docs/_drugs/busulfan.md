@@ -65,7 +65,7 @@ Busulfan er et alkylerende cytostatikum, som i Danmark har været registreret so
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Detaljerede data om virkningsmekanisme er ikke tilgængelige i de sammenstillede data. Ud fra almindelig kendt farmakologi er busulfan et bifunktionelt alkylerende stof, der tværbinder DNA og er myeloablativt. Ved MDS anvendes det som rygraden i konditioneringen før allogen hæmatopoietisk stamcelletransplantation (HSCT): det udrydder den maligne klon og skaber plads i knoglemarven til donorceller.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Busulfan (uofficiel oversættelse): »Busulfan er et bifunktionelt alkylerende stof, hvor to labile methansulfonatgrupper er bundet til hver sin ende af en alkylkæde med fire kulstofatomer. I vandige medier hydrolyseres busulfan, hvorved methansulfonatgrupperne frigøres.« Engelsk originaltekst: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), version af 2026-07-29; hentet 2026-11-19). Ud fra almindelig kendt farmakologi er busulfan et bifunktionelt alkylerende stof, der tværbinder DNA og er myeloablativt. Ved MDS anvendes det som rygraden i konditioneringen før allogen hæmatopoietisk stamcelletransplantation (HSCT): det udrydder den maligne klon og skaber plads i knoglemarven til donorceller.
 
 Det er vigtigt at skelne: busulfan er ikke en sygdomsmodificerende monoterapi ved MDS. Dets rolle er som en del af en transplantationskonditionering, ofte sammen med fludarabin, cyklofosfamid, cladribin eller venetoclax. Evidensen vedrører derfor regimer og ikke busulfan alene.
 
@@ -168,11 +168,12 @@ Der foreligger direkte undersøgelser af MDS, bl.a. to afsluttede fase 3-forsøg
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-17 | Status: Busilvex afregistreret 2026-10-12 | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ men der findes **ingen registrerede kliniske forsøg** og kun **10 publikationer
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Data om lægemidlets detaljerede virkningsmekanisme er ikke tilgængelige i de indsamlede data. Anagrelid er kendt for at sænke blodpladetallet ved at hæmme modningen af megakaryocytter (celler, der danner blodplader), hvilket reducerer blodpladeproduktionen. Det er desuden en PDE3-hæmmer.
+Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Anagrelide (uofficiel oversættelse): »Den nøjagtige mekanisme, hvormed anagrelid reducerer antallet af blodplader, er ukendt. I cellekulturstudier undertrykte anagrelid ekspressionen af transkriptionsfaktorer, herunder GATA-1 og FOG-1, som er nødvendige for megakaryocytopoiesen, hvilket i sidste ende førte til nedsat trombocytproduktion.« Engelsk originaltekst: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), version af 2026-04-08; hentet 2026-11-19). Anagrelid er kendt for at sænke blodpladetallet ved at hæmme modningen af megakaryocytter (celler, der danner blodplader), hvilket reducerer blodpladeproduktionen. Det er desuden en PDE3-hæmmer.
 
 Den oprindelige indikation (essentiel trombocytæmi) er en primær, klonal tilstand, mens reaktiv trombocytose er sekundær og udløses af f.eks. inflammation, jernmangel, infektion, malignitet eller fjernelse af milten (splenektomi). Mekanistisk er forudsigelsen plausibel, fordi lægemidlet virker på selve blodpladeproduktionen.
 
@@ -129,6 +129,19 @@ Forudsigelsen er mekanistisk plausibel, men der er ingen kliniske forsøg og ing
 ### Bemærkning om den anden forudsigelse
 
 Den næstrangerende forudsigelse, **inverst Klippel-Trenaunay-syndrom** (TxGNN-score 0,9959), har evidensniveau L5: ingen kliniske forsøg, ingen litteratur og ingen kendt mekanistisk forbindelse til anagrelids virkning. Anbefalingen er ligeledes **Hold**.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

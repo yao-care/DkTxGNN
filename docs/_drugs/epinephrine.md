@@ -60,7 +60,7 @@ og der er i de data, der er indsamlet til denne rapport, **15 kliniske forsøg**
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Epinephrin er en ikke-selektiv adrenerg agonist. Aktivering af beta-2-receptorer afslapper den glatte muskulatur i bronkierne, mens aktivering af alfa-1-receptorer mindsker slimhindeødem og luftvejssekret. Detaljerede data om virkningsmekanismen (MOA) fra DrugBank var ikke tilgængelige i de indsamlede data, så beskrivelsen bygger på den mekanistiske vurdering i forudsigelsen.
+Epinephrin er en ikke-selektiv adrenerg agonist. Aktivering af beta-2-receptorer afslapper den glatte muskulatur i bronkierne, mens aktivering af alfa-1-receptorer mindsker slimhindeødem og luftvejssekret. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Epinephrine (uofficiel oversættelse): »Adrenalin virker på både alfa- og beta-adrenerge receptorer. Gennem sin virkning på alfa-adrenerge receptorer mindsker adrenalin den vasodilatation og øgede vaskulære permeabilitet, der opstår under anafylaksi, og som kan føre til tab af intravaskulært væskevolumen og hypotension.« Engelsk originaltekst: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), version af 2026-09-18; hentet 2026-11-19).
 
 Det stemmer overens med de eksisterende anvendelser ved astma, bronkitis og emfysem. Evidensen for obstruktiv lungesygdom overlapper derfor i høj grad med en allerede etableret anvendelse. En reel udvidelse er brugen af inhaleret epinephrin ved bronkiolitis hos spædbørn (en obstruktiv luftvejstilstand), men her er evidensen blandet.
 
@@ -155,11 +155,12 @@ Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, me
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter kun injektionsform.” → “Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun in” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

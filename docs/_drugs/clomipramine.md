@@ -54,7 +54,7 @@ Clomipramin er et tricyklisk antidepressivum, der hæmmer genoptagelsen af serot
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Der foreligger ikke detaljerede data om virkningsmekanisme i de indsamlede data. Clomipramin er dog en potent hæmmer af serotoningenoptagelse med yderligere noradrenerg aktivitet. Denne mekanisme deler det med SSRI- og SNRI-præparater, som er førstevalg ved angstlidelser og panikangst.
+Ifølge afsnittet »Clinical Pharmacology« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Clomipramine (uofficiel oversættelse): »Clomipramin (CMI) formodes at påvirke obsessiv og kompulsiv adfærd gennem sine virkninger på den serotonerge neuronale transmission. Den egentlige neurokemiske mekanisme er ukendt, men CMI's evne til at hæmme genoptagelsen af serotonin (5-HT) anses for at være vigtig.« Engelsk originaltekst: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), version af 2024-11-26; hentet 2026-11-19). Clomipramin er dog en potent hæmmer af serotoningenoptagelse med yderligere noradrenerg aktivitet. Denne mekanisme deler det med SSRI- og SNRI-præparater, som er førstevalg ved angstlidelser og panikangst.
 
 Serotonerg modulering af frygt- og angstkredsløb kan forklare effekten. Netværksmetaanalyser og de internationale WFSBP-retningslinjer omfatter brugen af stoffet ved angsttilstande, og flere studier har undersøgt clomipramin ved panikangst.
 
@@ -110,6 +110,18 @@ Evidensniveauet er L1. Systematiske reviews og metaanalyser samt et randomiseret
 - Oplysninger om virkningsmekanisme og produktresumé (advarsler og kontraindikationer).
 - Plan for sikkerhedsovervågning (EKG, antikolinerge bivirkninger, krampetærskel) og gennemgang af interaktioner, især de alvorlige.
 - Start med lave doser for at undgå tidlig rastløshed og forværring af angst.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

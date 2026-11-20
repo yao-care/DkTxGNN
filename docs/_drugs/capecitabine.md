@@ -56,7 +56,7 @@ Der er i de data, der er indsamlet til denne rapport, **ingen kliniske forsøg**
 
 ## Hvorfor er denne forudsigelse rimelig?
 
-Capecitabin er et oralt prodrug af 5-fluorouracil (5-FU). Det omdannes fortrinsvis i tumorvæv af enzymet thymidinfosforylase og virker som hæmmer af thymidylatsyntase, hvilket forstyrrer DNA-syntesen. Der foreligger ikke i de indsamlede data en detaljeret beskrivelse af virkningsmekanismen, så denne gennemgang bygger på almen lægemiddelviden.
+Capecitabin er et oralt prodrug af 5-fluorouracil (5-FU). Det omdannes fortrinsvis i tumorvæv af enzymet thymidinfosforylase og virker som hæmmer af thymidylatsyntase, hvilket forstyrrer DNA-syntesen. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Capecitabine (uofficiel oversættelse): »Capecitabin metaboliseres til fluorouracil in vivo. Både normale celler og tumorceller metaboliserer fluorouracil til 5-fluor-2'-deoxyuridinmonophosphat (FdUMP) og 5-fluoruridintriphosphat (FUTP). Disse metabolitter forårsager celleskade via to forskellige mekanismer.« Engelsk originaltekst: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), version af 2026-02-05; hentet 2026-11-19).
 
 Capecitabin anvendes allerede ved mave-tarm-kræft, herunder mavekræft, og den antineoplastiske mekanisme er derfor plausibelt relevant for adenokarcinomkomponenten i denne tilstand. GAPPS er et sjældent arveligt syndrom knyttet til mutationer i APC-promotor 1B, og der er ikke identificeret nogen GAPPS-specifik mekanisme.
 
@@ -106,6 +106,19 @@ Forudsigelsen bygger udelukkende på modelscoren uden direkte kliniske forsøg e
 - Detaljerede data om virkningsmekanisme
 - Gennemgang af advarsler og kontraindikationer i produktresuméet fra Lægemiddelstyrelsen
 - Vurdering af egnethed hos patienter med arvelig polypose og relevante risikogrupper (fx DPD-mangel, nedsat lever- eller nyrefunktion)
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

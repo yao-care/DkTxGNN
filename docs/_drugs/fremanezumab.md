@@ -61,7 +61,7 @@ Bemærk: Den godkendte indikationstekst for det danske produkt er ikke tilgænge
 
 ## Hvorfor er forudsigelsen rimelig?
 
-Fremanezumab er et fuldt humaniseret monoklonalt antistof (IgG2Δa), der binder CGRP-liganden. CGRP-signalering i det trigeminovaskulære system har en central rolle i migrænens patofysiologi. Detaljerede data om virkningsmekanismen var ikke tilgængelige i de indsamlede data, men litteraturen beskriver selektiv hæmning af trigeminovaskulære neuroner.
+Fremanezumab er et fuldt humaniseret monoklonalt antistof (IgG2Δa), der binder CGRP-liganden. CGRP-signalering i det trigeminovaskulære system har en central rolle i migrænens patofysiologi. Ifølge afsnittet »Mechanism of Action« i den produktinformation, som den amerikanske FDA har godkendt (Prescribing Information), for Fremanezumab (uofficiel oversættelse): »Fremanezumab-vfrm er et humaniseret monoklonalt antistof, der binder til liganden calcitonin gene-related peptide (CGRP) og blokerer dens binding til receptoren.« Engelsk originaltekst: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), version af 2026-06-05; hentet 2026-11-19).
 
 Migræne med hjernestammeaura er en undertype af migræne, og lægemidlet er allerede markedsført til migræne generelt. Der er derfor tale om en udvidelse til en undertype snarere end egentlig repurposing.
 
@@ -132,10 +132,21 @@ Fremanezumab er allerede markedsført til migræne, og mekanismen er plausibel, 
 
 ## Øvrige forudsigelser med lav prioritet
 
-
 | Forudsagt indikation | TxGNN-score |
 |------|------|
 | Atrophoderma vermiculata | 0,9904 |
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 
