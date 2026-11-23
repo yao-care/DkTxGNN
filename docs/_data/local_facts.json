@@ -18,7 +18,7 @@
   "drugs_without_data": 168,
   "drugs_partial": 0,
   "items_total": 3571,
-  "items_current": 3543
+  "items_current": 3538
  },
  "reviews": {
   "records": 570,
@@ -98,13 +98,13 @@
    "i": ""
   },
   {
-   "t": "Cyclosporine",
-   "u": "/drugs/cyclosporine/",
-   "l": "L4",
+   "t": "Ivermectin",
+   "u": "/drugs/ivermectin/",
+   "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 3,
-   "i": "autosomal recessiv"
+   "r": 2,
+   "i": "vulvovaginal candidiasis"
   }
  ],
  "no_current": [
@@ -242,7 +242,7 @@
    "u": "/drugs/cyclosporine/",
    "l": "L4",
    "lt": 18,
-   "lv": 18,
+   "lv": 17,
    "r": 3,
    "i": "autosomal recessiv"
   },

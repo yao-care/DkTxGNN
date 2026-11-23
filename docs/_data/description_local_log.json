@@ -37,9 +37,9 @@
       "date": "2026-11-19"
     },
     "adenosine": {
-      "tail": "I Danmark, markedsføringstilladelser: 6 (gyldige: 6)",
+      "tail": "I Danmark, markedsføringstilladelser: 6 (gyldige: 5)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "aflibercept": {
       "tail": "I Danmark, markedsføringstilladelser: mindst 20",
@@ -1072,9 +1072,9 @@
       "date": "2026-11-19"
     },
     "levocetirizine": {
-      "tail": "I Danmark, markedsføringstilladelser: 10 (gyldige: 10)",
+      "tail": "I Danmark, markedsføringstilladelser: 10 (gyldige: 9)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "levonorgestrel": {
       "tail": "I Danmark, markedsføringstilladelser: mindst 20",
@@ -4525,6 +4525,20 @@
       "date": "2026-11-19",
       "from": "\"Zuclopenthixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale data\"",
       "to": "\"Zuclopenthixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adenosine.md",
+      "date": "2026-11-23",
+      "from": "\"Adenosine: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)\"",
+      "to": "\"Adenosine: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levocetirizine.md",
+      "date": "2026-11-23",
+      "from": "\"Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)\"",
+      "to": "\"Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 9)\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

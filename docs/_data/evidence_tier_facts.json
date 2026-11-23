@@ -851,7 +851,7 @@
     "l": "L4",
     "i": "autosomal recessiv",
     "lt": 18,
-    "lv": 18,
+    "lv": 17,
     "r": 3,
     "rs": "Fjernet: \"da den eneste registrerede tilladelse gælder et veterinærlægemiddel\"",
     "x": 0
@@ -1884,17 +1884,6 @@
     "x": 0
    },
    {
-    "t": "Irbesartan",
-    "u": "/drugs/irbesartan/",
-    "l": "L5",
-    "i": "Malign hypertensiv nyresygdom",
-    "lt": 0,
-    "lv": 20,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Isoleucine",
     "u": "/drugs/isoleucine/",
     "l": "L5",
@@ -2544,6 +2533,17 @@
     "x": 0
    },
    {
+    "t": "Irbesartan",
+    "u": "/drugs/irbesartan/",
+    "l": "L5",
+    "i": "Malign hypertensiv nyresygdom",
+    "lt": 0,
+    "lv": 18,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
     "t": "Ivermectin",
     "u": "/drugs/ivermectin/",
     "l": "L5",
@@ -2940,17 +2940,6 @@
     "x": 0
    },
    {
-    "t": "Moxifloxacin",
-    "u": "/drugs/moxifloxacin/",
-    "l": "L5",
-    "i": "polyclonal hyperviscosity syndrome",
-    "lt": 14,
-    "lv": 14,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Pegfilgrastim",
     "u": "/drugs/pegfilgrastim/",
     "l": "L5",
@@ -3047,6 +3036,17 @@
     "lv": 13,
     "r": 2,
     "rs": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal…",
+    "x": 0
+   },
+   {
+    "t": "Moxifloxacin",
+    "u": "/drugs/moxifloxacin/",
+    "l": "L5",
+    "i": "polyclonal hyperviscosity syndrome",
+    "lt": 14,
+    "lv": 13,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3578,17 +3578,6 @@
     "x": 0
    },
    {
-    "t": "Levocetirizine",
-    "u": "/drugs/levocetirizine/",
-    "l": "L5",
-    "i": "Reumatoid arthritis",
-    "lt": 10,
-    "lv": 10,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Nitisinone",
     "u": "/drugs/nitisinone/",
     "l": "L5",
@@ -3693,6 +3682,17 @@
     "l": "L5",
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 9,
+    "lv": 9,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
+    "t": "Levocetirizine",
+    "u": "/drugs/levocetirizine/",
+    "l": "L5",
+    "i": "Reumatoid arthritis",
+    "lt": 10,
     "lv": 9,
     "r": 1,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
@@ -4150,17 +4150,6 @@
     "x": 0
    },
    {
-    "t": "Adenosine",
-    "u": "/drugs/adenosine/",
-    "l": "L5",
-    "i": "Obsolet grenblok",
-    "lt": 6,
-    "lv": 6,
-    "r": 0,
-    "rs": "",
-    "x": 0
-   },
-   {
     "t": "Anastrozole",
     "u": "/drugs/anastrozole/",
     "l": "L5",
@@ -4398,6 +4387,17 @@
     "i": "Hypertrichose",
     "lt": 6,
     "lv": 6,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Adenosine",
+    "u": "/drugs/adenosine/",
+    "l": "L5",
+    "i": "Obsolet grenblok",
+    "lt": 6,
+    "lv": 5,
     "r": 0,
     "rs": "",
     "x": 0
@@ -4748,17 +4748,6 @@
     "u": "/drugs/rifaximin/",
     "l": "L5",
     "i": "oral candidiasis",
-    "lt": 5,
-    "lv": 5,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
-    "t": "Rocuronium",
-    "u": "/drugs/rocuronium/",
-    "l": "L5",
-    "i": "Migræne",
     "lt": 5,
     "lv": 5,
     "r": 1,
@@ -5214,6 +5203,17 @@
     "lv": 4,
     "r": 0,
     "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Rocuronium",
+    "u": "/drugs/rocuronium/",
+    "l": "L5",
+    "i": "Migræne",
+    "lt": 5,
+    "lv": 4,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
