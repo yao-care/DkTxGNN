@@ -143,10 +143,7 @@ lægemiddelliste) samt deres licenser og opdateringsfrekvens er beskrevet på si
 ## Ofte stillede spørgsmål
 
 <p class="key-answer" data-question="Kan man downloade et gratis datasæt med forudsigelser om lægemiddelrepositionering?">
-<strong>Nej, ikke som én samlet fil.</strong> DkTxGNN er bygget til at blive brugt rapport for rapport, ikke som et
-bulk-datasæt til download. Al evidens er gratis tilgængelig direkte fra kilden: åbn en lægemiddelrapport
-og klik videre til de tilknyttede forsøg på ClinicalTrials.gov eller artikler på PubMed for at se den
-underliggende dokumentation for netop den forudsigelse.
+<strong>Ja.</strong> Forudsigelserne udgives som åbne data uden betaling. På siden <a href="{{ '/downloads/' | relative_url }}">Downloads</a> ligger lægemiddellisten med evidensniveau (<code>/data/drugs.json</code>), søgeindekset og FHIR R4-ressourcerne. Vil du se dokumentationen bag en enkelt forudsigelse, så åbn lægemiddelrapporten og klik videre til forsøgene på ClinicalTrials.gov eller artiklerne på PubMed.
 </p>
 
 ---
