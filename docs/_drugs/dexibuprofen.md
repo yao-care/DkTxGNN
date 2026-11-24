@@ -105,7 +105,13 @@ Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført.
+Der er tale om enkeltstofpræparatet Seractiv til oral anvendelse (antal og status: se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-dexibuprofen-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Seractiv har to tilladelser (to styrker) på listen. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-dexibuprofen-1 -->
 
 ---
 
@@ -130,6 +136,19 @@ Forudsigelsen bygger kun på en grafbaseret modelscore uden kliniske forsøg ell
 - Præklinisk eller mekanistisk evidens for, at prostaglandinhæmning har relevans for sygdommen
 - Systematisk litteratursøgning for case-rapporter eller studier ved den forudsagte sygdom
 - Hvis relevant, vurdering af pseudoachondroplasi som symptomatisk smertebehandling frem for sygdomsmodificerende behandling
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

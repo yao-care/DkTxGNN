@@ -70,9 +70,21 @@ Dokumentation af virkningsmekanisme (datakløft DG002) er i øjeblikket fravære
 
 ## Markedsinformation for Danmark
 
-Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationale register. Binimetinib har dog en **centraliseret EMA-markedsføringstilladelse** (EU/1/18/1314, Pierre Fabre), som er direkte gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Dette tyder stærkt på en datakøbingskløft i den nuværende pipeline snarere end en ægte mangel på tilladelse.
+Lægemiddelstyrelsens liste over godkendte lægemidler indeholder Mektovi (binimetinib) (antal og status: se Hurtigt overblik og tabellen nedenfor). Binimetinib har en **centraliseret EMA-markedsføringstilladelse** (EU/1/18/1314, Pierre Fabre), som er direkte gyldig i alle EU/EØS-medlemsstater, herunder Danmark.
 
-Tabellen nedenfor er udfyldt fra offentlige EMA-poster; den stammer **ikke** fra bevissamlingen:
+<!-- review:begin dk-lic-20261124b-binimetinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationale register. Binimetinib har dog en **centraliseret EMA-markedsføringstilladelse** (EU/1/18/1314, Pierre Fabre), som er direkte gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Dette tyder stærkt på en datakøbingskløft i den nuværende pipeline snarere end en ægte mangel på tilladelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05), som har gyldige tilladelser til Mektovi (binimetinib); udsagnet om 0 tilladelser og den deraf afledte formodning om en datakløft er fjernet. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-binimetinib-1 -->
+
+Tabellen nedenfor er dannet ud fra Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler:
+
+<!-- review:begin dk-lic-20261124b-binimetinib-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Tabellen nedenfor er udfyldt fra offentlige EMA-poster; den stammer **ikke** fra bevissamlingen:" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Tabellen under markedsinformationen dannes nu af programmet ud fra Lægemiddelstyrelsens lister, ikke ud fra EMA-poster. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-binimetinib-2 -->
 
 <!-- licenses:begin -->
 
@@ -131,6 +143,19 @@ Bevissamlingen for binimetinib er kritisk ufuldstændig — der blev ikke genere
 - **Genopkør TxGNN-prognosepipelinen** når lægemiddeldata er fuldendt, for at generere kandidater for lægemiddelnyudnyttelse for dette lægemiddel
 - **Ret datakøbing for regulatorisk** for korrekt at fange EMA-centraliseret tilladelse (EU/1/18/1314 — Mektovi) for Danmark
 - **Forespørg DDI-database igen** efter MOA-data er tilgængelig, for at vurdere interaktionsrisiko for den forudsagte indikationspopulation
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationale register. Binimetinib har dog en **centraliseret EMA-markedsføringstilladelse** (EU/1/18/1314, Pierre Fabre), som er direkte gyldig i alle EU/EØS-medlemsstater, herunder Danmark. Dette tyder stærkt på en datakøbingskløft i den nuværende pipeline snarere end en ægte mangel på tilladelse. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Tabellen nedenfor er udfyldt fra offentlige EMA-poster; den stammer **ikke** fra bevissamlingen: | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

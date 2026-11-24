@@ -98,7 +98,13 @@ Dataene indeholder 16 tilladelser til veterinærlægemidler (ATC-kode Q eller »
 
 <!-- licenses:end -->
 
-Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor. Flere af produkterne er til veterinær brug.
+Alle tilladelser i dataene er veterinærlægemidler, de fleste med procainbenzylpenicillin; antallet står ovenfor.
+
+<!-- review:begin dk-lic-20261124b-procaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor. Flere af produkterne er til veterinær brug." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Der er ingen humane tilladelser med procain på Lægemiddelstyrelsens lister; alle tilladelser i dataene er veterinære, og der vises ingen tabel. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-procaine-1 -->
 
 ---
 
@@ -135,6 +141,19 @@ Den primære forudsigelse (methæmoglobinæmi) er ikke understøttet: Litteratur
 - Hentning af produktresuméer fra Lægemiddelstyrelsen (advarsler, kontraindikationer og godkendte indikationer mangler i de indsamlede data)
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Hvis der ønskes en retning at forfølge, bør de smertebaserede forudsigelser (tendinitis, fibromyalgi) vurderes i stedet, med en systematisk litteraturgennemgang og eventuelt et kontrolleret studie
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor. Flere af produkterne er til veterinær brug. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

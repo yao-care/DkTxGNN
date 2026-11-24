@@ -98,13 +98,19 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Der er i alt 20 gyldige tilladelser (alle kombinationspræparater); her vises de 5 første. Øvrige produkter omfatter bl.a. Vamin, Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta, Vaminolac, Clinimix, Olimel, SmofKabiven og Kabiven.
+Der er mange gyldige tilladelser (alle kombinationspræparater); her vises de 5 første. Øvrige produkter omfatter bl.a. Vamin, Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta, Vaminolac, Clinimix, Olimel, SmofKabiven og Kabiven.
 
 <!-- review:begin dk-lic-20261112-alanine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofprodukter); her vises de 5 første" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med alanin er kombinationspræparater (aminosyre- og ernæringsopløsninger). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-alanine-1 -->
+
+<!-- review:begin dk-lic-20261124b-alanine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er i alt 20 gyldige tilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene omfatter kun en del af tilladelserne med alanin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-alanine-1 -->
 
 ---
 
@@ -144,6 +150,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Der er i alt 20 gyldige tilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

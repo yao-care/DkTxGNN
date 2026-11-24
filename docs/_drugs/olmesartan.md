@@ -117,7 +117,13 @@ Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og tilhører KRKA d.d. Novo mesto.
+Tilladelserne tilhører KRKA d.d. Novo mesto (antal og status: se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-olmesartan-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og tilhører KRKA d.d. Novo mesto." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser end to, både enkeltstofpræparater og kombinationer med hydrochlorthiazid, alle fra KRKA. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-olmesartan-1 -->
 
 ---
 
@@ -144,6 +150,19 @@ For øvrige advarsler og kontraindikationer henvises til det godkendte produktre
 - Gennemgang af fuldtekst for migrænestudierne for at bekræfte design og effektstørrelse
 - Et velafgrænset randomiseret forsøg til migræneprofylakse, hvis området prioriteres
 - Vurdering af sikkerhed i særlige populationer, især kvinder i den fertile alder, da ARB'er er kontraindiceret under graviditet
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige og tilhører KRKA d.d. Novo mesto. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

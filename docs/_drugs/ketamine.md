@@ -44,7 +44,7 @@ Evidensen er hovedsageligt fra små studier, og fuldstændige resultater er endn
 
 <!-- review:begin dk-lic-20261105-ketamine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Ketamin er en NMDA-receptorantagonist, som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin), og der er ikke angivet nogen godkendt indikation i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-ketamine-1 -->
 
@@ -149,7 +149,7 @@ Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fles
 
 <!-- review:begin dk-lic-20261105-ketamine-2 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Der er flere kliniske forsøg og en mekanistisk plausibel rationale, men de fleste forsøg er små, og ingen resultater foreligger i de indsamlede data. Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikkerhedsscreening." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-ketamine-2 -->
 
@@ -168,8 +168,8 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-05 | Fjernet: "Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "som i Danmark kun er registreret i et veterinærlægemiddel (Anesketin)" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Det eneste danske produkt er et veterinærlægemiddel, og der mangler produktresumé-baserede sikkerhedsoplysninger, hvilket blokerer for sikke" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->

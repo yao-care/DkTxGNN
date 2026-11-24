@@ -178,10 +178,10 @@ def reason_kind(reason):
 
 
 def _fig(fc):
-    if not fc or fc.get("total") is None:
+    # 2026-11-24（用戶決定）：紀錄說明不寫死張數（張數每週變、由程式維護），只指向概覽表與程式許可證表
+    if not fc:
         return ""
-    return (f" Lægemidlet har {fc['total']} markedsføringstilladelse{'r' if fc['total'] != 1 else ''} (gyldige: "
-            f"{fc.get('valid') or 0}); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen.")
+    return " De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen."
 
 
 def note_for(kind, date, fc):

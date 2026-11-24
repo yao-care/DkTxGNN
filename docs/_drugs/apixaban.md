@@ -92,7 +92,7 @@ Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkelt
 
 <!-- review:begin dk-lic-20261112-apixaban-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-apixaban-1 -->
 
@@ -129,7 +129,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræp” → “Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltst” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræparat (administrationsvej: oral). | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
 
 <!-- review:end log -->

@@ -93,7 +93,13 @@ Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Listen kan være ufuldstændig med hensyn til indikationstekst, men antallet af tilladelser er fuldstændigt (1).
+Listen kan være ufuldstændig med hensyn til indikationstekst, men antallet af tilladelser er fuldstændigt (se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-belimumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "men antallet af tilladelser er fuldstændigt (1)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser til Benlysta end én. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-belimumab-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -123,11 +129,12 @@ Alle forudsigelser er på evidensniveau L5: der findes ingen kliniske forsøg el
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+| 2026-11-24 | men antallet af tilladelser er fuldstændigt (1). | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -116,7 +116,13 @@ Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Der er 1 gyldig enkeltstofsproduktlicens. Listen er fuldstændig.
+Tilladelserne gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor). Listen er fuldstændig.
+
+<!-- review:begin dk-lic-20261124b-ranibizumab-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er 1 gyldig enkeltstofsproduktlicens." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med ranibizumab (Lucentis og biosimilære præparater), ikke én. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-ranibizumab-1 -->
 
 ---
 
@@ -142,6 +148,19 @@ Forudsigelsen bygger kun på modelscore (evidensniveau L5). Der findes ingen kli
 - Godkendte advarsler og kontraindikationer fra produktresuméet hos Lægemiddelstyrelsen
 - Præklinisk eller klinisk evidens, der direkte undersøger ranibizumab ved den forudsagte sygdom
 - En vurdering af, om modelforudsigelsen blot afspejler ranibizumabs kendte nethindeindikationer
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Der er 1 gyldig enkeltstofsproduktlicens. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

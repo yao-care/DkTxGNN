@@ -44,7 +44,7 @@ men der er **ingen kliniske forsøg** og **ingen publikationer**, som understøt
 
 <!-- review:begin dk-lic-20261105-phenylbutazone-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Phenylbutazon er et non-steroidt antiinflammatorisk lægemiddel (NSAID), som i Danmark er registreret i et veterinært oralt pulver." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-phenylbutazone-1 -->
 
@@ -140,7 +140,7 @@ Forudsigelsen bygger alene på en modelberegning (evidensniveau L5) uden klinisk
 
 <!-- review:begin dk-lic-20261105-phenylbutazone-2 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Vurdering af administrationsvej og målgruppe, da det eneste registrerede produkt er veterinært" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-phenylbutazone-2 -->
 
@@ -152,8 +152,8 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "som i Danmark er registreret i et veterinært oralt pulver" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-05 | Fjernet: "da det eneste registrerede produkt er veterinært" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "som i Danmark er registreret i et veterinært oralt pulver" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "da det eneste registrerede produkt er veterinært" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-06 | Fjernet: "producenten er Dopharma Research B.V" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
 

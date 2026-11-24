@@ -38,8 +38,14 @@ Evidensniveau: **L5** | Forudsagte indikationer: **10** stk.
 
 ## Opsummering i én sætning
 
-Azithromycin er et makrolid-antibiotikum, der er registreret i Danmark som enkeltstofpræparat i to former (infusionspulver og filmovertrukne tabletter).
+Azithromycin er et makrolid-antibiotikum, der er registreret i Danmark som enkeltstofpræparat i flere former (bl.a. filmovertrukne tabletter, pulver til oral suspension, infusionspulver og øjendråber).
 TxGNN-modellen forudsiger, at det kan have effekt ved **polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome)**, men der er **ingen kliniske forsøg og ingen publikationer** for denne sygdom i de data, der er indsamlet til rapporten. Forudsigelsen er alene modelbaseret.
+
+<!-- review:begin dk-lic-20261124b-azithromycin-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "registreret i Danmark som enkeltstofpræparat i to former (infusionspulver og filmovertrukne tabletter)" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen omfatter også pulver til oral suspension (Zitromax, Azithromycin "Stada") og øjendråber (Azyter). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-azithromycin-2 -->
 
 ## Hurtigt overblik
 
@@ -83,7 +89,13 @@ Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og gælder enkeltstofpræparater.
+Tilladelserne gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-azithromycin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder enkeltstofpræparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med azithromycin som eneste aktive stof, ikke to. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-azithromycin-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -106,6 +118,20 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publi
 - Præklinisk eller klinisk evidens, der direkte omhandler polyklonalt hyperviskositetssyndrom
 - Gennemgang af produktresumé for advarsler og kontraindikationer
 - En mekanistisk begrundelse for, hvorfor et makrolid skulle påvirke hyperviskositet ved polyklonal gammopati
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige og gælder enkeltstofpræparater. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | registreret i Danmark som enkeltstofpræparat i to former (infusionspulver og filmovertrukne tabletter) | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

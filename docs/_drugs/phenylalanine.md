@@ -85,13 +85,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-Der er 20 gyldige markedsføringstilladelser (alle nationale, kombinationspræparater). Godkendte indikationstekster er ikke tilgængelige i de indsamlede data. De fem første er vist nedenfor.
+Der er mange gyldige markedsføringstilladelser (alle nationale, kombinationspræparater). Godkendte indikationstekster er ikke tilgængelige i de indsamlede data. De fem første er vist nedenfor.
 
 <!-- review:begin dk-lic-20261112-phenylalanine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle nationale, enkeltstofspræparater)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med phenylalanin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-phenylalanine-1 -->
+
+<!-- review:begin dk-lic-20261124b-phenylalanine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er 20 gyldige markedsføringstilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): dataene i rapporten omfatter kun en del af tilladelserne med phenylalanin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-phenylalanine-1 -->
 
 <!-- licenses:begin -->
 
@@ -148,6 +154,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Der er 20 gyldige markedsføringstilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -94,7 +94,13 @@ Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Der er registreret én gyldig enkeltstofgodkendelse (albumin-bundet paclitaxel-formulering).
+Godkendelserne gælder enkeltstofpræparater, både albumin-bundne formuleringer (pulver til infusionsvæske) og koncentrater til infusionsvæske (antal og status: se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-paclitaxel-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er registreret én gyldig enkeltstofgodkendelse (albumin-bundet paclitaxel-formulering)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere albumin-bundne paclitaxel-præparater (Abraxane, Pazenir m.fl.) og konventionelle koncentrater (Paclitaxel "Accord", Pacligen m.fl.). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-paclitaxel-1 -->
 
 ---
 
@@ -142,11 +148,12 @@ Forudsigelsen er alene modelbaseret (evidensniveau L5), og ingen kliniske forsø
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+| 2026-11-24 | Der er registreret én gyldig enkeltstofgodkendelse (albumin-bundet paclitaxel-formulering). | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

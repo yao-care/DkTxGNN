@@ -122,7 +122,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Alle tre er gyldige enkeltstofpræparater eller præparater med budesonid som del af kombinationen og er markedsført. Ingen er annulleret.
+Tilladelserne omfatter præparater med budesonid som eneste aktive stof eller som del af en kombination; antal og status står i Hurtigt overblik og i tabellen ovenfor.
+
+<!-- review:begin dk-lic-20261124b-budesonide-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Alle tre er gyldige enkeltstofpræparater eller præparater med budesonid som del af kombinationen og er markedsført. Ingen er annulleret." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med budesonid, ikke tre. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-budesonide-1 -->
 
 ---
 
@@ -156,11 +162,12 @@ De øvrige forudsigelser har svagere evidens: atopisk eksem og "dermatitis, atop
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+| 2026-11-24 | Alle tre er gyldige enkeltstofpræparater eller præparater med budesonid som del af kombinationen og er markedsført. Ingen er annulleret. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

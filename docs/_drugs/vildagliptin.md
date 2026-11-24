@@ -117,7 +117,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Listen kan være ufuldstændig med hensyn til indikationstekst, men der er registreret én gyldig enkeltstofgodkendelse. Administrationsvejen er oral.
+Listen kan være ufuldstændig med hensyn til indikationstekst, men der er registreret både enkeltstofpræparater og kombinationspræparater med metformin (antal og status: se Hurtigt overblik og tabellen ovenfor). Administrationsvejen er oral.
+
+<!-- review:begin dk-lic-20261124b-vildagliptin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "men der er registreret én gyldig enkeltstofgodkendelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange godkendelser med vildagliptin, både som eneste aktive stof og i kombination med metformin. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-vildagliptin-1 -->
 
 ---
 
@@ -147,11 +153,12 @@ Forudsigelsen er udelukkende modelbaseret (evidensniveau L5), og der findes hver
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+| 2026-11-24 | men der er registreret én gyldig enkeltstofgodkendelse. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -86,7 +86,13 @@ Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og gælder lægemidler med cyclophosphamid som eneste aktive stof. Der findes både en injicerbar og en oral formulering.
+Tilladelserne (antal og status: se Hurtigt overblik og tabellen ovenfor) gælder lægemidler med cyclophosphamid som eneste aktive stof. Der findes både en injicerbar og en oral formulering.
+
+<!-- review:begin dk-lic-20261124b-cyclophosphamide-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser med cyclophosphamid end to. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-cyclophosphamide-1 -->
 
 ## Cytotoksicitet
 
@@ -119,6 +125,18 @@ Forudsigelsen har en høj modelscore (0,9938), men der er ingen kliniske forsøg
 - Systematisk litteratursøgning og prækliniske data, der direkte omhandler den forudsagte tilstand
 - En vurdering af risiko og nytte for patienter med T-celledysfunktion, før der overvejes kliniske studier
 - Gennemgang af produktresuméet (SmPC) for kontraindikationer og advarsler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige og gælder | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

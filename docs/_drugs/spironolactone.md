@@ -98,7 +98,13 @@ Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q e
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater. Det bør verificeres, om tilladelserne vedrører human eller veterinær anvendelse, før de bruges som grundlag for en human indikationsvurdering.
+De humane tilladelser gælder enkeltstofprodukter til oral anvendelse (tabletter og oral suspension); antal og status står i Hurtigt overblik og i tabellen ovenfor. Tyggetabletterne Cardalis og Cepeloron er veterinærlægemidler og indgår ikke i tabellen.
+
+<!-- review:begin dk-lic-20261124b-spironolactone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater. Det bør verificeres, om tilladelserne vedrører human eller veterinær anvendelse, før de bruges som grundlag for en human indikationsvurdering." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange humane tilladelser med spironolacton; Cardalis og Cepeloron er veterinærlægemidler (ATC-kode Q), og Cardalis er et kombinationspræparat med benazepril. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-spironolactone-1 -->
 
 ---
 
@@ -127,20 +133,28 @@ Forudsigelsen bygger udelukkende på en computermodel (evidensniveau L5) uden kl
 **For at komme videre kræves følgende:**
 - Hentning og gennemgang af produktresuméet fra Lægemiddelstyrelsen (advarsler og kontraindikationer) som grundlag for sikkerhedsscreening
 - Dokumenteret data om virkningsmekanisme (MOA), f.eks. fra DrugBank
-- Verifikation af, om de to danske tilladelser vedrører human eller veterinær anvendelse
+- Verifikation af, om de danske tilladelser vedrører human eller veterinær anvendelse
 - Præklinisk eller mekanistisk evidens for en rolle af mineralokortikoid- eller androgenreceptorblokade i hypotrichosis simplex
 - Litteratursøgning og case-rapporter om spironolacton ved arvelige hårtabslidelser
 - Vurdering af lægemiddelform og administrationsvej (oral vs. topisk) for den nye indikation
+
+<!-- review:begin dk-lic-20261124b-spironolactone-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Verifikation af, om de to danske tilladelser vedrører" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Antallet er fjernet fra opgaven; der er flere end to danske tilladelser. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-spironolactone-2 -->
 
 <!-- review:begin log -->
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+| 2026-11-24 | Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater. Det bør verificeres, om tilladelserne vedrører human eller veterinær anvendelse, før de bruges som grundlag for en human indikationsvurdering. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Verifikation af, om de to danske tilladelser vedrører | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

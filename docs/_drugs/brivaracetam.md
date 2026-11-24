@@ -95,7 +95,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral.
+Godkendelserne gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor). Administrationsvej: oral og intravenøs.
+
+<!-- review:begin dk-lic-20261124b-brivaracetam-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange godkendelser med brivaracetam, herunder injektions-/infusionsvæske (Brivaracetam "Desitin"). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-brivaracetam-1 -->
 
 ---
 
@@ -129,11 +135,12 @@ Forudsigelsen er rent modelbaseret (evidensniveau L5) uden kliniske forsøg elle
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+| 2026-11-24 | Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

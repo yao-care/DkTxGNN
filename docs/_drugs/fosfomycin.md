@@ -97,7 +97,13 @@ Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige enkeltstofpræparater. Indikationsteksten er ikke tilgængelig i de data, der er indsamlet til rapporten.
+Tilladelserne gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor). Indikationsteksten er ikke tilgængelig i de data, der er indsamlet til rapporten.
+
+<!-- review:begin dk-lic-20261124b-fosfomycin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige enkeltstofpræparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser end to (granulat til oral opløsning og pulver til infusionsvæske). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-fosfomycin-1 -->
 
 ---
 
@@ -132,11 +138,12 @@ Bemærk, at en anden forudsigelse i samme datasæt, pyelitis (nyrebækkenbetænd
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+| 2026-11-24 | Begge tilladelser er gyldige enkeltstofpræparater. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

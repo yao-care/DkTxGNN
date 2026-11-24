@@ -98,7 +98,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og gælder enkeltstofpræparater. Der er både en oral og en injicerbar formulering på markedet.
+De viste tilladelser gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor). Der er både orale og injicerbare formuleringer på markedet.
+
+<!-- review:begin dk-lic-20261124b-esomeprazole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder enkeltstofpræparater. Der er både en oral og en injicerbar formulering" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med esomeprazol, ikke to. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-esomeprazole-1 -->
 
 ---
 
@@ -121,9 +127,29 @@ Forudsigelsen bygger hovedsageligt på modelscoren fra TxGNN-modellen (deep lear
 
 **For at komme videre kræves:**
 - Data om virkningsmekanisme (MOA) fra DrugBank.
-- Produktresuméer fra Lægemiddelstyrelsen med advarsler og kontraindikationer samt godkendte indikationer for de to tilladelser.
+- Produktresuméer fra Lægemiddelstyrelsen med advarsler og kontraindikationer samt godkendte indikationer for tilladelserne.
 - Kliniske studier eller systematiske oversigter, der specifikt belyser protonpumpehæmmere ved duodenogastrisk reflux, herunder effekt på symptomer og slimhindeskade.
 - En plan for overvågning af interaktioner og langtidsrisici, hvis forløbet genoptages.
+
+<!-- review:begin dk-lic-20261124b-esomeprazole-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "godkendte indikationer for de to tilladelser." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Antallet er fjernet fra opgaven; der er flere end to tilladelser. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-esomeprazole-2 -->
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige og gælder enkeltstofpræparater. Der er både en oral og en injicerbar formulering | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | godkendte indikationer for de to tilladelser. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -109,11 +109,11 @@ Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; de indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
 
 <!-- review:begin dk-lic-20261112-vilanterol-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er 4 tilladelser for dette lægemiddel (heraf 0 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-vilanterol-1 -->
 
@@ -131,10 +131,16 @@ Produktresuméets (SmPC) advarsler og kontraindikationer er ikke tilgængelige i
 Flere afsluttede fase 3-RCT'er og store studier understøtter vilanterol-holdige kombinationer ved KOL og astma, og indikationen er i praksis allerede på etiketten. Forudsigelsen udgør derfor ikke ny repurposing. De øvrige forudsagte indikationer (rang 2-10) har ingen eller kun indirekte evidens og bør afvente.
 
 **For at gå videre kræves:**
-- Gennemgang af produktresuméer for de tre danske tilladelser (advarsler, kontraindikationer, godkendte indikationer), da disse data mangler
+- Gennemgang af produktresuméer for de danske tilladelser (advarsler, kontraindikationer, godkendte indikationer), da disse data mangler
 - Detaljerede data om virkningsmekanisme (MOA) fra DrugBank
 - Hvis en ny indikation ud over KOL/astma ønskes undersøgt, skal der indhentes målrettede data, da der ikke findes støtte for de strukturelle eller infektiøse tilstande
 - Overvågningsplan for patienter med kardiovaskulær sygdom og diabetes samt ved samtidig brug af interagerende lægemidler
+
+<!-- review:begin dk-lic-20261124b-vilanterol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Gennemgang af produktresuméer for de tre danske tilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Antallet er fjernet fra opgaven; der er flere end tre danske tilladelser. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-vilanterol-1 -->
 
 <!-- review:begin log -->
 
@@ -144,8 +150,9 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline. | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+| 2026-11-24 | Gennemgang af produktresuméer for de tre danske tilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

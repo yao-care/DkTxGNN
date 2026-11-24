@@ -45,7 +45,7 @@ Med kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelse
 
 <!-- review:begin dk-lic-20261105-naldemedine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 1 markedsføringstilladelse (gyldige: 1); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Med nul markedsføringstilladelser i Danmark og kritiske datahullter inden for sikkerhed, virkningsmekanisme og forudsigelsesoutput kan der ikke gennemføres nogen evaluering af omformål på dette tidspunkt." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-naldemedine-1 -->
 
@@ -153,7 +153,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "nul markedsføringstilladelser i Danmark og" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "nul markedsføringstilladelser i Danmark og" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

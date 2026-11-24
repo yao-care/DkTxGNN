@@ -98,7 +98,7 @@ Der er mindst 20 gyldige nationale markedsføringstilladelser for enkeltstofpræ
 
 <!-- review:begin dk-lic-20261112-ruxolitinib-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-ruxolitinib-1 -->
 
@@ -157,7 +157,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræpar” → “Der er mindst 20 gyldige nationale markedsføringstilladelser for enkeltstofpræpa” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræparat. | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

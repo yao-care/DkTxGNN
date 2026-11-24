@@ -142,7 +142,13 @@ Forudsigelsen for pneumocystose er udelukkende computerbaseret (L5). Der er inge
 - Præklinisk (in vitro/in vivo) dokumentation for aktivitet mod *Pneumocystis*
 - Data om virkningsmekanisme (MOA) fra DrugBank
 - Produktresumé fra Lægemiddelstyrelsen med advarsler og kontraindikationer
-- Afklaring af, om de to danske tilladelser er til human brug
+- Afklaring af, om de danske tilladelser er til human brug
+
+<!-- review:begin dk-lic-20261124b-metronidazole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Afklaring af, om de to danske tilladelser er til human brug" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Antallet er fjernet fra opgaven; der er flere end to danske tilladelser. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-metronidazole-1 -->
 
 ---
 
@@ -165,6 +171,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Afklaring af, om de to danske tilladelser er til human brug | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

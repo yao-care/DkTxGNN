@@ -105,7 +105,13 @@ Dataene indeholder desuden 12 tilladelser til veterinærlægemidler (ATC-kode Q 
 
 <!-- licenses:end -->
 
-En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion.
+Dataene indeholder desuden veterinærlægemidler (bl.a. Carepen Vet., intramammær suspension, 28106378619), som ikke er vist i tabellen; tabellen viser kun humane præparater til injektion.
+
+<!-- review:begin dk-lic-20261124b-benzylpenicillin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Tabellen dannes nu af programmet og viser kun humane tilladelser; de veterinære produkter er opgjort for sig. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-benzylpenicillin-1 -->
 
 ---
 
@@ -139,11 +145,12 @@ Forudsigelsen er biologisk plausibel for pericoronitis, men den hviler udelukken
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
+| 2026-11-24 | En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

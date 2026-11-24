@@ -109,13 +109,19 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Der findes mindst 20 gyldige nationale tilladelser; en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5. Godkendt indikationstekst indgår ikke i de data, der er indsamlet til rapporten.
+Der findes mindst 20 gyldige nationale tilladelser; blandt de tilladelser, der ikke er vist i tabellen, er bl.a. Proctosedyl (rektalsalve, kombinationspræparat, Orifarm A/S, nr. 28101903697). Godkendt indikationstekst indgår ikke i de data, der er indsamlet til rapporten.
 
 <!-- review:begin dk-lic-20261112-hydrocortisone-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 6 gyldige nationale tilladelser;" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Der findes i alt 6 gyldige nationale tilladelser;" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-hydrocortisone-1 -->
+
+<!-- review:begin dk-lic-20261124b-hydrocortisone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): tabellen under markedsinformationen dannes nu af programmet, og Proctosedyl er ikke »den sjette« af tilladelserne; ifølge feltet AktiveSubstanser er Proctosedyl et kombinationspræparat (bl.a. med cinchocain og framycetin). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-hydrocortisone-1 -->
 
 ---
 
@@ -149,8 +155,9 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der findes i alt 6 gyldige nationale tilladelser;” → “Der findes mindst 20 gyldige nationale tilladelser;” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Der findes i alt 6 gyldige nationale tilladelser; | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+| 2026-11-24 | en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

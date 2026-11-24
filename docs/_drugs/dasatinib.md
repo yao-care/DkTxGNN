@@ -105,7 +105,13 @@ Tabellen viser 1 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Listen kan være ufuldstændig for så vidt angår andre tilladelser, men de indsamlede data viser én gyldig, enkeltstofs national tilladelse.
+Listen kan være ufuldstændig for så vidt angår andre tilladelser, men de indsamlede data viser mange enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-dasatinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "de indsamlede data viser én gyldig, enkeltstofs national tilladelse" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med dasatinib, ikke én. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-dasatinib-1 -->
 
 ---
 
@@ -141,6 +147,19 @@ Der findes ét afsluttet fase 2-forsøg i blandede avancerede sarkomer, men der 
 - Vurdering af kombinationsregimer (fx RIST) i kontrollerede studier frem for monoterapi
 - Data om virkningsmekanisme og produktresuméets advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Sikkerhedsplan for børn og unge, især med fokus på QT-forlængelse, knoglemarvssuppression og interaktioner med syrehæmmende midler
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | de indsamlede data viser én gyldig, enkeltstofs national tilladelse | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

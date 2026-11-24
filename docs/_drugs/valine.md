@@ -85,7 +85,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Dette er 5 af i alt 20 gyldige nationale tilladelser. Blandt de øvrige er bl.a. Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta G13E, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven Perifer og Pedismof Preterm.
+Dette er et udvalg af de gyldige nationale tilladelser (antal og status: se Hurtigt overblik). Blandt de øvrige er bl.a. Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta G13E, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven Perifer og Pedismof Preterm.
+
+<!-- review:begin dk-lic-20261124b-valine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Dette er 5 af i alt 20 gyldige nationale tilladelser." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene omfatter kun en del af tilladelserne med valin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-valine-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -103,6 +109,19 @@ Forudsigelsen bygger på modelscore og indirekte, associativ litteratur uden kli
 - Produktresumé-baserede advarsler og kontraindikationer (hindrer i øjeblikket sikkerhedsscreening)
 - Præklinisk eller mekanistisk evidens for valins rolle ved skleroserende cholangitis
 - Afklaring af eventuelle risici ved højdosis-BCAA ved kolestatisk leversygdom, før kliniske studier overvejes
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Dette er 5 af i alt 20 gyldige nationale tilladelser. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

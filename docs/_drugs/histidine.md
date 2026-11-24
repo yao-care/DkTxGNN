@@ -82,13 +82,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-Der findes 20 gyldige markedsføringstilladelser for produkter, der indeholder histidin. De er alle kombinationsprodukter, og ingen er annulleret. De indsamlede data indeholder ikke tekst om godkendte indikationer. De fem første er vist nedenfor.
+Der findes mange gyldige markedsføringstilladelser for produkter, der indeholder histidin. De er alle kombinationsprodukter, og ingen er annulleret. De indsamlede data indeholder ikke tekst om godkendte indikationer. De fem første er vist nedenfor.
 
 <!-- review:begin dk-lic-20261112-histidine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "De er alle enkeltstofprodukter (ingen kombinationsprodukter), og ingen er annulleret." Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle registrerede produkter med histidin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-histidine-1 -->
+
+<!-- review:begin dk-lic-20261124b-histidine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der findes 20 gyldige markedsføringstilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): dataene i rapporten omfatter kun en del af tilladelserne med histidin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-histidine-1 -->
 
 <!-- licenses:begin -->
 
@@ -140,6 +146,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Der findes 20 gyldige markedsføringstilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -124,10 +124,29 @@ Se det godkendte produktresumé (SmPC) for fuldstændige oplysninger om advarsle
 Forudsigelsen for frontallapsepilepsi er mekanistisk plausibel, men understøttes kun af indirekte litteratur (diagnostisk test, case reports) og ingen kliniske forsøg. Den er i store træk dækket af den eksisterende epilepsiindikation. De øvrige ni forudsigelser mangler evidens eller har sikkerhedsmæssige betænkeligheder.
 
 **For at komme videre kræves følgende:**
-- Produktresuméer for de to danske tilladelser (godkendte indikationer, advarsler og kontraindikationer), da disse data mangler
+- Produktresuméer for de danske tilladelser (godkendte indikationer, advarsler og kontraindikationer), da disse data mangler
 - Data om virkningsmekanisme (MOA)
 - Kontrollerede eller systematiske data for thiopental specifikt ved frontallapsepilepsi
 - Vurdering af, om der reelt er tale om ny indikation eller blot en delmængde af den eksisterende epilepsiindikation
+
+<!-- review:begin dk-lic-20261124b-thiopental-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Produktresuméer for de to danske tilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Antallet er fjernet fra opgaven; der er flere end to danske tilladelser. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-thiopental-1 -->
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Produktresuméer for de to danske tilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

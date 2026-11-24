@@ -84,7 +84,13 @@ Dataene indeholder desuden 10 tilladelser til veterinærlægemidler (ATC-kode Q 
 
 <!-- licenses:end -->
 
-Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel, og at ingen af de registrerede formuleringer er til systemisk humant brug eller direkte målrettet mod hudsygdomme.
+De viste tilladelser omfatter præparater med dexamethason som eneste aktive stof, herunder tabletter og injektionsvæsker til systemisk brug samt øjendråber; antal og status står i Hurtigt overblik og i tabellen ovenfor. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel.
+
+<!-- review:begin dk-lic-20261124b-dexamethasone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel, og at ingen af de registrerede formuleringer er til systemisk humant brug eller direkte målrettet mod hudsygdomme." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange humane tilladelser med dexamethason, herunder tabletter og injektionsvæsker til systemisk brug; udsagnet om, at ingen formuleringer er til systemisk humant brug, er fjernet. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-dexamethasone-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -116,11 +122,12 @@ Forudsigelsen bygger alene på en modelscore (0,9999) uden kliniske forsøg elle
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+| 2026-11-24 | Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel, og at ingen af de registrerede formuleringer er til systemisk humant brug eller direkte målrettet mod hudsygdomme. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

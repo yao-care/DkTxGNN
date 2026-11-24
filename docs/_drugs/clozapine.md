@@ -103,7 +103,7 @@ Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enke
 
 <!-- review:begin dk-lic-20261112-clozapine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-clozapine-1 -->
 
@@ -137,7 +137,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpr” → “Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkelt” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpræparat (udbyder: Nordic Prime ApS). | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-20 | "Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne rapport. Vurderingen bygger derfor på almen farmakologi" replaced with a sourced mechanism-of-action statement | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
 
 <!-- review:end log -->

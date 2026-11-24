@@ -105,7 +105,13 @@ Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Der er tale om én national, gyldig tilladelse for et enkeltstofprodukt til oral anvendelse.
+Tilladelserne gælder enkeltstofprodukter til oral anvendelse og til injektion (antal og status: se Hurtig oversigt og tabellen ovenfor).
+
+<!-- review:begin dk-lic-20261124b-zuclopenthixol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er tale om én national, gyldig tilladelse for et enkeltstofprodukt til oral anvendelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med zuclopenthixol, herunder injektionsvæsker (Cisordinol-Acutard, Clopixol-Acuphase). Antal og status for tilladelserne vedligeholdes af programmet i Hurtig oversigt og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-zuclopenthixol-1 -->
 
 ---
 
@@ -135,6 +141,19 @@ Forudsigelsen er udelukkende baseret på en model (evidensniveau L5) uden klinis
 - Produktresumé (SmPC) med advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Prækliniske data eller mekanistiske studier, der kan understøtte en biologisk sammenhæng
 - En systematisk litteratur- og forsøgsgennemgang, før en eventuel revurdering
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Der er tale om én national, gyldig tilladelse for et enkeltstofprodukt til oral anvendelse. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

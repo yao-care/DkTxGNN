@@ -60,7 +60,7 @@ Amphotericin B er et velkendt polyenantimykotikum, der bruges til alvorlige inva
 
 <!-- review:begin dk-lic-20261105-amphotericin_b-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 4 markedsføringstilladelser (gyldige: 4); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "> **⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser. Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-amphotericin_b-1 -->
 
@@ -117,7 +117,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "**⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "**⚠️ Vigtig bemærkning om markedsstatus i Danmark:** Bevissamlingen registrerer nul danske markedsføringstilladelser" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "1. **[Blokerende]** Løs fejl ved hentning af licensdata fra Laegemiddelstyelsen og genfyld `taiwan_regulatory` med korrekte danske autorisat" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->

@@ -81,13 +81,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-Der er 20 gyldige markedsføringstilladelser (alle kombinationspræparater, ingen annullerede). Indikationsteksten er ikke angivet i de tilgængelige data. Nedenfor vises de fem første.
+Der er mange gyldige markedsføringstilladelser (alle kombinationspræparater, ingen annullerede). Indikationsteksten er ikke angivet i de tilgængelige data. Nedenfor vises de fem første.
 
 <!-- review:begin dk-lic-20261112-isoleucine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(alle enkeltstofpræparater, ingen annullerede)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Alle 20 registrerede produkter med isoleucin er kombinationspræparater. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-isoleucine-1 -->
+
+<!-- review:begin dk-lic-20261124b-isoleucine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er 20 gyldige markedsføringstilladelser" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene omfatter kun en del af tilladelserne med isoleucin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtig oversigt og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-isoleucine-1 -->
 
 <!-- licenses:begin -->
 
@@ -148,6 +154,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Der er 20 gyldige markedsføringstilladelser | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

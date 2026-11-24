@@ -42,7 +42,7 @@ Methadon er et opioid. Der foreligger ingen godkendt human indikation i de data,
 
 <!-- review:begin dk-lic-20261105-methadone-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Methadon er et opioid, som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-methadone-1 -->
 
@@ -119,7 +119,7 @@ Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsopl
 
 <!-- review:begin dk-lic-20261105-methadone-2 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger. Bemærk, at det eneste danske produkt er veterinært." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-methadone-2 -->
 
@@ -140,7 +140,7 @@ Evidensen består kun af en gammel case-rapport og indirekte prækliniske data, 
 
 <!-- review:begin dk-lic-20261105-methadone-3 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 12 markedsføringstilladelser (gyldige: 12); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Sikkerhedsoplysninger fra et humant produktresumé (det eneste danske produkt er veterinært)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-methadone-3 -->
 
@@ -165,9 +165,9 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-05 | Fjernet: "Bemærk, at det eneste danske produkt er veterinært" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-05 | Fjernet: "(det eneste danske produkt er veterinært)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "som i Danmark er registreret i ét veterinært lægemiddel (Comfortan Vet.)" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Bemærk, at det eneste danske produkt er veterinært" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "(det eneste danske produkt er veterinært)" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
 
 <!-- review:end log -->

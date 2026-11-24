@@ -78,7 +78,13 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-Nedenfor ses de 5 første af i alt 20 gyldige nationale markedsføringstilladelser. Indikationsteksten er ikke tilgængelig i de indsamlede data.
+Nedenfor ses et udvalg af de gyldige nationale markedsføringstilladelser (antal og status: se Hurtigt overblik). Indikationsteksten er ikke tilgængelig i de indsamlede data.
+
+<!-- review:begin dk-lic-20261124b-threonine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Nedenfor ses de 5 første af i alt 20 gyldige nationale markedsføringstilladelser." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene omfatter kun en del af tilladelserne med threonin; der er flere end 20. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-threonine-1 -->
 
 <!-- licenses:begin -->
 
@@ -119,6 +125,19 @@ Forudsigelsen bygger kun på en beregnet modelscore uden kliniske forsøg, publi
 - Gennemgang af produktresuméer for advarsler, kontraindikationer (herunder phenylketonuri) og interaktioner
 - Afklaring af administrationsvej og relevante lægemiddelformer i forhold til gastroparese
 - Afklaring af de godkendte indikationer for de enkelte danske produkter
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Nedenfor ses de 5 første af i alt 20 gyldige nationale markedsføringstilladelser. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

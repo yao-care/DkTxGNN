@@ -105,7 +105,7 @@ Dataene indeholder desuden 12 tilladelser til veterinærlægemidler (ATC-kode Q 
 
 <!-- review:begin dk-lic-20261105-cyclosporine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne rapport." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-cyclosporine-1 -->
 
@@ -128,7 +128,7 @@ Forudsigelsen bygger på en høj modelscore, men uden kliniske forsøg og med en
 
 <!-- review:begin dk-lic-20261105-cyclosporine-2 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 18 markedsføringstilladelser (gyldige: 18); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af, om et humant præparat er tilgængeligt i Danmark, da den eneste registrerede tilladelse gælder et veterinærlægemiddel" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-cyclosporine-2 -->
 
@@ -144,8 +144,8 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-05 | Fjernet: "da den eneste registrerede tilladelse gælder et veterinærlægemiddel" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Den eneste danske tilladelse er til et veterinærlægemiddel. Der er ikke registreret humane præparater i de data, der er indsamlet til denne " | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "da den eneste registrerede tilladelse gælder et veterinærlægemiddel" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
 
 <!-- review:end log -->

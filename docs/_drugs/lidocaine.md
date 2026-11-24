@@ -106,7 +106,7 @@ Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain). Der e
 
 <!-- review:begin dk-lic-20261112-lidocaine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler: der er mindst 20 (dataene er delvise) tilladelser for dette lægemiddel (heraf 20 enkeltstofpræparater i dataene); det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain)." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler; det tidligere antal kom fra en ældre version af dataene. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-lidocaine-1 -->
 
@@ -126,7 +126,13 @@ Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q e
 
 <!-- licenses:end -->
 
-Yderligere fire tilladelser findes: Emla (creme), Lidokain-adrenalin "SAD" (injektionsvæske), Ekyflogyl (gel) og Xylocain-adrenalin (injektionsvæske, opløsning). Ingen af de registrerede produkter er øjenpræparater.
+Blandt de øvrige tilladelser er bl.a.: Emla (creme), Lidokain-adrenalin "SAD" (injektionsvæske), Ekyflogyl (gel) og Xylocain-adrenalin (injektionsvæske, opløsning). Ingen af de registrerede produkter er øjenpræparater.
+
+<!-- review:begin dk-lic-20261124b-lidocaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Yderligere fire tilladelser findes:" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Der er mange flere tilladelser med lidocain end tabellen og de fire nævnte (dataene omfatter kun en del af dem). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-lidocaine-1 -->
 
 ---
 
@@ -160,7 +166,8 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain).” → “Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain). | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Yderligere fire tilladelser findes: | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

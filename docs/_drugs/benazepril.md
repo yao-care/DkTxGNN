@@ -86,7 +86,13 @@ Dataene indeholder 15 tilladelser til veterinærlægemidler (ATC-kode Q eller »
 
 <!-- licenses:end -->
 
-Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof. De er ikke godkendt til human brug.
+Alle tilladelser i dataene er veterinærlægemidler; de fleste har benazepril som eneste aktive stof, enkelte er kombinationspræparater (med spironolacton eller pimobendan). De er ikke godkendt til human brug.
+
+<!-- review:begin dk-lic-20261124b-benazepril-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene har flere veterinære produkter end tre, og ifølge feltet AktiveSubstanser er nogle kombinationspræparater. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-benazepril-1 -->
 
 ---
 
@@ -120,11 +126,12 @@ Forudsigelsen bygger udelukkende på modellen (evidensniveau L5). Der foreligger
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+| 2026-11-24 | Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

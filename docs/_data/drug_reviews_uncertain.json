@@ -564,567 +564,829 @@
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "abaloparatide",
    "file": "abaloparatide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "- Calcitriol (topisk), 2 registreringer",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "resolved": "2026-11-24",
+   "resolution": "查證後成立，不改頁面：句子在安全性段的 DDInter 交互作用清單，講的是 calcitriol 的條目，不是本藥的許可證張數；不改"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "albutrepenonacog_alfa",
    "file": "albutrepenonacog_alfa.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antallet af godkendelser er 1, og listen er fuldstændig.",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-albutrepenonacog_alfa-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "azithromycin",
    "file": "azithromycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og gælder enkeltstofpræparater.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-azithromycin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "binimetinib",
    "file": "binimetinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationale register.",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-binimetinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "ceritinib",
    "file": "ceritinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal godkendelser: 1 (enkeltstofpræparat, gyldig).",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-ceritinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "chlortetracycline",
    "file": "chlortetracycline.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige enkeltstofpræparater.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-chlortetracycline-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "cloprostenol",
    "file": "cloprostenol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-cloprostenol-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "cyclophosphamide",
    "file": "cyclophosphamide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og gælder lægemidler med cyclophosphamid som eneste aktive stof.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-cyclophosphamide-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "dexmedetomidine",
    "file": "dexmedetomidine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-dexmedetomidine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "doxycycline",
    "file": "doxycycline.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige nationale tilladelser for enkeltstofpræparater.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-doxycycline-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "fosfomycin",
    "file": "fosfomycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige enkeltstofpræparater.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-fosfomycin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "gefitinib",
    "file": "gefitinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er registreret én gyldig enkeltstofstilladelse.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-gefitinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "insulin_glargine",
    "file": "insulin_glargine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-insulin_glargine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "lincomycin",
    "file": "lincomycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Alle fem tilladelser er enkeltstofpræparater med status gyldig.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-lincomycin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "methylprednisolone",
    "file": "methylprednisolone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-methylprednisolone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "nortriptyline",
    "file": "nortriptyline.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige nationale tilladelser (enkeltstofpræparater).",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-nortriptyline-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "paclitaxel",
    "file": "paclitaxel.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er registreret én gyldig enkeltstofgodkendelse (albumin-bundet paclitaxel-formulering).",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-paclitaxel-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "pemigatinib",
    "file": "pemigatinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal tilladelser: 1 (enkeltstofpræparat, gyldig).",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-pemigatinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "perampanel",
    "file": "perampanel.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal godkendelser: 1 (enkeltstofpræparat, gyldig).",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-perampanel-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "prednisolone",
    "file": "prednisolone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige enkeltstof-tilladelser.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-prednisolone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "procaine",
    "file": "procaine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-procaine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "ranibizumab",
    "file": "ranibizumab.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er 1 gyldig enkeltstofsproduktlicens.",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-ranibizumab-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "remdesivir",
    "file": "remdesivir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal tilladelser: 1 (enkeltstofpræparat, gyldig).",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-remdesivir-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "simoctocog_alfa",
    "file": "simoctocog_alfa.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal tilladelser: 1 (gyldig, enkeltstofpræparat).",
    "reason": "plural",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-simoctocog_alfa-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "spectinomycin",
    "file": "spectinomycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er nationale og gyldige.",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "resolved": "2026-11-24",
+   "resolution": "查證後成立，不改頁面：本藥沒有人用許可，證據包獸用許可正好 2 張（皆 lincomycin＋spectinomycin 獸用品，在現行清單上），句子講的就是這 2 張獸用許可、成立；程式表下的獸用張數句也寫 2 張"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "thiopental",
    "file": "thiopental.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "- Produktresuméer for de to danske tilladelser (godkendte indikationer, advarsler og kontraindikationer), da disse data mangler",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-thiopental-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "vilanterol",
    "file": "vilanterol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "- Gennemgang af produktresuméer for de tre danske tilladelser (advarsler, kontraindikationer, godkendte indikationer), da disse data mangler",
    "reason": "wordnum",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、跨過 0／1 要改單複數、或是文字數詞），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "dk-lic-20261124b-vilanterol-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "belimumab",
    "file": "belimumab.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Listen kan være ufuldstændig med hensyn til indikationstekst, men antallet af tilladelser er fuldstændigt (1).",
    "reason": "n=1∉[0, 4]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝4/4/4/4（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-belimumab-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "benazepril",
    "file": "benazepril.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof. De er ikke godkendt til human brug.",
    "reason": "n=3∉[0]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝0/0/None/None（snapshots/dk_licenses.json.gz）",
    "kind": "vet",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-benazepril-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "betamethasone",
    "file": "betamethasone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige, og ingen er annulleret.",
    "reason": "n=2∉[0, 20];alle-gyldig但有非有效;ingen-afregistreret但有",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-betamethasone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "brivaracetam",
    "file": "brivaracetam.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral.",
    "reason": "n=1∉[0, 20]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-brivaracetam-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "budesonide",
    "file": "budesonide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Alle tre er gyldige enkeltstofpræparater eller præparater med budesonid som del af kombinationen og er markedsført. Ingen er annulleret.",
    "reason": "n=3∉[0, 20];alle-gyldig但有非有效;alle-enkeltstof但有複方",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-budesonide-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "dasatinib",
    "file": "dasatinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Listen kan være ufuldstændig for så vidt angår andre tilladelser, men de indsamlede data viser én gyldig, enkeltstofs national tilladelse.",
    "reason": "n=1∉[0, 20]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-dasatinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "dexamethasone",
    "file": "dexamethasone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data.",
    "reason": "n=3∉[0, 20];alle-gyldig但有非有效",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-dexamethasone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "dexibuprofen",
    "file": "dexibuprofen.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført.",
    "reason": "n=1∉[0, 2]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝2/2/2/2（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-dexibuprofen-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "entecavir",
    "file": "entecavir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige enkeltstofpræparater til oral anvendelse.",
    "reason": "n=2∉[0, 17]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝17/17/17/17（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-entecavir-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "esomeprazole",
    "file": "esomeprazole.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og gælder enkeltstofpræparater. Der er både en oral og en injicerbar formulering på markedet.",
    "reason": "n=2∉[0, 20];alle-gyldig但有非有效;alle-enkeltstof但有複方",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-esomeprazole-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "lorlatinib",
    "file": "lorlatinib.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal godkendelser: 1 gyldig enkeltstofgodkendelse (oral administration).",
    "reason": "n=1∉[0, 2]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝2/2/2/2（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-lorlatinib-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "olmesartan",
    "file": "olmesartan.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og tilhører KRKA d.d. Novo mesto.",
    "reason": "n=2∉[3, 4, 7]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝7/7/3/3（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-olmesartan-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "olopatadine",
    "file": "olopatadine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og gælder Olopatadin \"Epione\" (olopatadin som enkelt aktivt stof) og Ryaltris (kombinationspræparat med mometason). Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione.",
    "reason": "n=2∉[3, 9, 12]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝12/12/9/9（snapshots/dk_licenses.json.gz）",
    "kind": "record",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-olopatadine-1",
+    "dk-lic-20261124b-olopatadine-2"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "paliperidone",
    "file": "paliperidone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og indehaves af Janssen-Cilag International NV.",
    "reason": "n=2∉[0, 20];alle-gyldig但有非有效",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-paliperidone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "pembrolizumab",
    "file": "pembrolizumab.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Listen omfatter ét enkeltstofpræparat med gyldig status.",
    "reason": "n=1∉[0, 3]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝3/3/3/3（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-pembrolizumab-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "pregabalin",
    "file": "pregabalin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig.",
    "reason": "n=1∉[0, 20]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/20/20（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-pregabalin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "ravulizumab",
    "file": "ravulizumab.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Antallet af tilladelser er 1, og listen er ikke delvis.",
    "reason": "n=1∉[0, 2]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝2/2/2/2（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-ravulizumab-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "spironolactone",
    "file": "spironolactone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater.",
    "reason": "n=2∉[0, 17]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝17/17/17/17（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-spironolactone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "sulfadiazine",
    "file": "sulfadiazine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er nationale godkendelser af veterinære præparater. Der er ikke fundet humane præparater med sulfadiazin som enkeltstof i de data, der er indsamlet til denne rapport.",
    "reason": "n=2∉[0]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝0/0/None/None（snapshots/dk_licenses.json.gz）",
    "kind": "vet",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-sulfadiazine-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "velpatasvir",
    "file": "velpatasvir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige, med Gilead Sciences Ireland UC som indehaver.",
    "reason": "n=2∉[0, 6]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝6/6/0/0（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-velpatasvir-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "vildagliptin",
    "file": "vildagliptin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Listen kan være ufuldstændig med hensyn til indikationstekst, men der er registreret én gyldig enkeltstofgodkendelse. Administrationsvejen er oral.",
    "reason": "n=1∉[10, 20]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝None/20/10/10（snapshots/dk_licenses.json.gz）",
    "kind": "partial",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-vildagliptin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "ziprasidone",
    "file": "ziprasidone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Begge tilladelser er gyldige og omfatter kun lægemidler med ziprasidon som eneste aktive stof.",
    "reason": "n=2∉[0, 18]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝18/18/18/18（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-ziprasidone-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "獨立偵測（2026-11-24）：正文許可證張數／狀態跟快照事實層不符、程式改寫不改的句子",
    "drug": "zuclopenthixol",
    "file": "zuclopenthixol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Der er tale om én national, gyldig tilladelse for et enkeltstofprodukt til oral anvendelse.",
    "reason": "n=1∉[0, 11]",
    "added": "2026-11-24",
    "facts": "total/valid/single_total/valid_single＝11/11/11/11（snapshots/dk_licenses.json.gz）",
    "kind": "prose",
-   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）"
+   "note": "正文寫死的許可證張數（多是文字數詞「Begge／én／Alle tre」或跨過 1 的單複數、帶劑型／持有人限定、部分紀錄頁或獸用張數）跟快照事實層不符；scripts/rewrite_license_counts.py 依規則不改，要改請寫查核紀錄（dk-lic-20261124-*）",
+   "record_ids": [
+    "dk-lic-20261124b-zuclopenthixol-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
   },
   {
    "source": "市場段落換成程式許可證表後（2026-11-24），報告原本描述舊表的句子跟新表對不上",
    "drug": "fenofibrate",
    "file": "fenofibrate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Bemærk: Rosufenx og Pravafenix er kombinationspræparater (med rosuvastatin henholdsvis pravastatin); der er ikke tilstrækkelige oplysninger i de indsamlede data til at beskrive godkendelsesstatus for fenofibrat som enkeltstof ud over disse registreringer.",
    "reason": "caption",
    "added": "2026-11-24",
-   "note": "Rosufenx（28107198624）在舊 AI 表上，但不在證據包、也不在 data/raw/danish_medicines.xlsx（Sidst opdateret 05-11-2026）的現行清單；程式表依證據包不列它。要確認它是否已撤銷（撤銷清單）再決定這句要不要更正"
+   "note": "Rosufenx（28107198624）在舊 AI 表上，但不在證據包、也不在 data/raw/danish_medicines.xlsx（Sidst opdateret 05-11-2026）的現行清單；程式表依證據包不列它。要確認它是否已撤銷（撤銷清單）再決定這句要不要更正",
+   "resolved": "2026-11-24",
+   "resolution": "查證後成立，不改頁面：data/raw/danish_medicines.xlsx（Sidst opdateret 05-11-2026）的現行清單有 Rosufenx 28107198624（FENOFIBRAT, Rosuvastatincalcium；2026-01-22 許可、Markedsført＝Nej），句子成立；證據包依 drug_mapping 對成分字串時漏收這張（程式表與張數少 1），另列待查"
   },
   {
    "source": "市場段落換成程式許可證表後（2026-11-24），報告原本描述舊表的句子跟新表對不上",
    "drug": "benzylpenicillin",
    "file": "benzylpenicillin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion.",
    "reason": "caption",
    "added": "2026-11-24",
-   "note": "描述舊 AI 表（混列獸用品項）的說明句；程式表只列人用許可（表上 2 列、共 10 張人用），「de to første produkter」「en sjette」已對不上；程式表下另有獸用張數的程式句"
+   "note": "描述舊 AI 表（混列獸用品項）的說明句；程式表只列人用許可（表上 2 列、共 10 張人用），「de to første produkter」「en sjette」已對不上；程式表下另有獸用張數的程式句",
+   "record_ids": [
+    "dk-lic-20261124b-benzylpenicillin-1"
+   ],
+   "resolved": "2026-11-24",
+   "resolution": "2026-11-24 第二輪逐句對照證據包與快照事實層後以查核紀錄更正"
+  },
+  {
+   "source": "證據包許可證紀錄漏收（2026-11-24 第二輪查證時發現）",
+   "drug": "fenofibrate",
+   "file": "fenofibrate.md",
+   "status": "open",
+   "claim": "Rosufenx 28107198624（FENOFIBRAT, Rosuvastatincalcium）",
+   "reason": "bundle_missing",
+   "added": "2026-11-24",
+   "note": "Lægemiddelstyrelsen 現行清單（danish_medicines.xlsx，Sidst opdateret 05-11-2026）有 Rosufenx 28107198624（2026-01-22 許可、未上市），證據包 fenofibrate 只收 Cholib 2 張、Pravafenix 1 張；推測 drug_mapping.csv 把成分字串「FENOFIBRAT, Rosuvastatincalcium」整串對到 rosuvastatin。程式表與概覽張數少 1 張，要補收證據包（rebuild_licenses_by_ingredient 的複方對照）"
   }
  ]
 }

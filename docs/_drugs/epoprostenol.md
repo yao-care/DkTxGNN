@@ -79,7 +79,7 @@ Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks. *F
 
 <!-- review:begin dk-lic-20261105-epoprostenol-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 3 markedsføringstilladelser (gyldige: 3); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt myndighedsstatus: Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks." Fjernet: antallet eller status af markedsføringstilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-epoprostenol-1 -->
 
@@ -141,7 +141,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt mynd" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Evidenspakken registrerer **nul markedsføringstilladelser** for Epoprostenol i Danmark. Dette er uoverensstemmelse med offentligt kendt mynd" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-05 | Fjernet: "4. **Korriger Danmarks myndighedsopslag** ved at forespørge EMA's centraliserede autorisationsdatabase og Lægemiddelstyrelsens produktresumé" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->

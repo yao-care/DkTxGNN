@@ -107,7 +107,13 @@ Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q e
 
 <!-- licenses:end -->
 
-Bemærk: To af de tre tilladelser er veterinærlægemidler. Kun Bunalict (Sandoz A/S) er en human formulering.
+Bemærk: Dataene indeholder desuden veterinærlægemidler med buprenorphin; de humane præparater står i tabellen ovenfor.
+
+<!-- review:begin dk-lic-20261124b-buprenorphine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Bemærk: To af de tre tilladelser er veterinærlægemidler. Kun Bunalict (Sandoz A/S) er en human formulering." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange humane tilladelser med buprenorphin (depotplastre og resoribletter); Bunalict er et kombinationspræparat med naloxon. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-buprenorphine-1 -->
 
 ---
 
@@ -147,11 +153,12 @@ Der findes ingen kliniske forsøg og kun én case report, der ikke viser terapeu
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+| 2026-11-24 | Bemærk: To af de tre tilladelser er veterinærlægemidler. Kun Bunalict (Sandoz A/S) er en human formulering. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

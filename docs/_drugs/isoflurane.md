@@ -42,7 +42,7 @@ Isoflurane er et inhalationsanæstetikum. Den primære TxGNN-forudsigelse er **P
 
 <!-- review:begin dk-lic-20261105-isoflurane-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 2 markedsføringstilladelser (gyldige: 2); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Isoflurane er et inhalationsanæstetikum, som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)." Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-isoflurane-1 -->
 
@@ -167,7 +167,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "som i Danmark er registreret som veterinærlægemiddel (Attane Vet.)" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

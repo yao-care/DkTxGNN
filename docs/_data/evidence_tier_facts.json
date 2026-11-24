@@ -9,7 +9,7 @@
   "with_current": 41,
   "none_current": 2,
   "without_data": 13,
-  "with_reviews": 40,
+  "with_reviews": 41,
   "rows": [
    {
     "t": "Bendamustine",
@@ -173,7 +173,7 @@
     "lt": 0,
     "lv": 18,
     "r": 2,
-    "rs": "Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -217,7 +217,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Lægemidlet er markedsført i Danmark med én gyldig tilladelse for et enkeltstofpr” →…",
+    "rs": "\"Der foreligger ikke detaljerede data om clozapins virkningsmekanisme i de data, der er indsamlet til denne…",
     "x": 0
    },
    {
@@ -227,7 +227,7 @@
     "i": "Ewing-sarkom",
     "lt": 0,
     "lv": 20,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -271,8 +271,8 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 20,
-    "r": 2,
-    "rs": "Antal tilladelser: “Der findes i alt 6 gyldige nationale tilladelser;” → “Der findes mindst 20 gyldige…",
+    "r": 3,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -337,7 +337,7 @@
     "i": "Opmærksomhedsforstyrrelse med hyperaktivitet",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -371,7 +371,7 @@
     "lt": 14,
     "lv": 14,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -392,7 +392,7 @@
     "i": "alopecia areata",
     "lt": 17,
     "lv": 17,
-    "r": 2,
+    "r": 3,
     "rs": "Fjernet: \"(de fundne tilladelser er veterinære)\"",
     "x": 0
    },
@@ -470,7 +470,7 @@
     "lt": 14,
     "lv": 14,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig national markedsføringstilladelse for et enkeltstof” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -524,7 +524,7 @@
   "with_current": 67,
   "none_current": 1,
   "without_data": 15,
-  "with_reviews": 51,
+  "with_reviews": 54,
   "rows": [
    {
     "t": "Abatacept",
@@ -808,7 +808,7 @@
     "i": "Follikulær mucinose",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -830,7 +830,7 @@
     "i": "acute intermittent porphyria",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -864,7 +864,7 @@
     "lt": 9,
     "lv": 9,
     "r": 1,
-    "rs": "Antal tilladelser: 7 → 9; alle kombinationspræparater",
+    "rs": "",
     "x": 0
    },
    {
@@ -974,7 +974,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Der findes i alt 10 gyldige tilladelser, herunder” → “Der findes mindst 20 gyldige…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1084,7 +1084,7 @@
     "lt": 12,
     "lv": 12,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1116,7 +1116,7 @@
     "i": "sclerosing cholangitis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -1182,7 +1182,7 @@
     "i": "methemoglobinemia",
     "lt": 0,
     "lv": 0,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -1249,7 +1249,7 @@
     "lt": 10,
     "lv": 10,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1259,7 +1259,7 @@
     "i": "sclerosing cholangitis",
     "lt": 0,
     "lv": 20,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -1270,7 +1270,7 @@
     "i": "hepatitis B virus infection",
     "lt": 6,
     "lv": 6,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -1320,7 +1320,7 @@
   "with_current": 594,
   "none_current": 13,
   "without_data": 131,
-  "with_reviews": 390,
+  "with_reviews": 407,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1341,7 +1341,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofprodukt. Listen er komplet.” → “Der er mindst…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1362,7 +1362,7 @@
     "i": "gastroparesis (disease)",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -1418,7 +1418,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Lægemidlet markedsføres i Danmark med én gyldig tilladelse for et enkeltstofpræp” →…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1483,7 +1483,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1494,7 +1494,7 @@
     "i": "atopic eczema",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1615,7 +1615,7 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1627,7 +1627,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse, gyldig, enkeltstof.” → “Antal…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1638,7 +1638,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om én gyldig tilladelse til et enkeltstofprodukt til oral anvendelse” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -1648,7 +1648,7 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1660,7 +1660,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+    "rs": "",
     "x": 0
    },
    {
@@ -1693,7 +1693,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er 18 gyldige tilladelser, alle til lægemidler med emtricitabin som indholds” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -1726,7 +1726,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter kun injektionsform.” → “Mindst 20 tilladelser…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1747,7 +1747,7 @@
     "i": "duodenal obstruction",
     "lt": 0,
     "lv": 20,
-    "r": 0,
+    "r": 2,
     "rs": "",
     "x": 0
    },
@@ -1814,7 +1814,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+    "rs": "",
     "x": 0
    },
    {
@@ -1824,7 +1824,7 @@
     "i": "Sygdom i næsehulen",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -1835,7 +1835,7 @@
     "i": "gastroparesis (disease)",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -1847,7 +1847,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret…",
+    "rs": "",
     "x": 0
    },
    {
@@ -1869,7 +1869,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstofpræparat), gyldig.” → “Antal…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1890,7 +1890,7 @@
     "i": "gastroparesis (disease)",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -1946,7 +1946,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat (oral anvendelse)” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -1978,8 +1978,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Antal tilladelser: “Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain).” → “Mindst 20…",
+    "r": 2,
+    "rs": "",
     "x": 0
    },
    {
@@ -2023,7 +2023,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Alle 18 tilladelser er gyldige og omfatter filmovertrukne tabletter til oral anv” →…",
+    "rs": "",
     "x": 0
    },
    {
@@ -2066,7 +2066,7 @@
     "i": "Pneumocystose",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Fjernet: \"Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til…",
     "x": 0
    },
@@ -2121,7 +2121,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2154,7 +2154,7 @@
     "i": "tendinitis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2166,7 +2166,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal godkendelser…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2232,7 +2232,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er i alt én gyldig national markedsføringstilladelse for et enkeltstofpræpar” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -2254,7 +2254,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige.” → “Mindst 20 tilladelser er gyldige.”",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2264,7 +2264,7 @@
     "i": "Familiær visceral myopati",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -2341,7 +2341,7 @@
     "i": "gastroparesis (disease)",
     "lt": 0,
     "lv": 20,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2353,7 +2353,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2386,7 +2386,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -2396,7 +2396,7 @@
     "i": "cauda equina syndrome",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -2419,7 +2419,7 @@
     "lt": 0,
     "lv": 20,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2429,7 +2429,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2507,7 +2507,7 @@
     "lt": 19,
     "lv": 19,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal tilladelser: 19…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2528,7 +2528,7 @@
     "i": "Polyklonalt hyperviskositetssyndrom",
     "lt": 18,
     "lv": 18,
-    "r": 0,
+    "r": 2,
     "rs": "",
     "x": 0
    },
@@ -2583,7 +2583,7 @@
     "i": "Trikotillomani",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2627,7 +2627,7 @@
     "i": "Kronisk hepatitis C-virusinfektion",
     "lt": 17,
     "lv": 17,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2649,7 +2649,7 @@
     "i": "Follikulær mucinose",
     "lt": 17,
     "lv": 17,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2672,7 +2672,7 @@
     "lt": 18,
     "lv": 17,
     "r": 1,
-    "rs": "Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er…",
+    "rs": "",
     "x": 0
    },
    {
@@ -2682,7 +2682,7 @@
     "i": "Hypotrichosis simplex i hovedbunden",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 3,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2727,7 +2727,7 @@
     "lt": 16,
     "lv": 16,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2749,7 +2749,7 @@
     "lt": 16,
     "lv": 16,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2760,7 +2760,7 @@
     "lt": 16,
     "lv": 16,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” →…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2793,7 +2793,7 @@
     "lt": 16,
     "lv": 16,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2848,7 +2848,7 @@
     "lt": 15,
     "lv": 15,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er én gyldig national tilladelse (enkeltstofpræparat).” → “Der er 15 gyldige…",
+    "rs": "",
     "x": 0
    },
    {
@@ -2891,7 +2891,7 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 15,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -2903,7 +2903,7 @@
     "lt": 14,
     "lv": 14,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.”",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2924,7 +2924,7 @@
     "i": "autoimmune oophoritis",
     "lt": 14,
     "lv": 14,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2958,7 +2958,7 @@
     "lt": 14,
     "lv": 14,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -2968,7 +2968,7 @@
     "i": "craniostenosis cataract",
     "lt": 14,
     "lv": 14,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2991,7 +2991,7 @@
     "lt": 13,
     "lv": 13,
     "r": 1,
-    "rs": "Antal tilladelser: “Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.” → “Antallet…",
+    "rs": "",
     "x": 0
    },
    {
@@ -3035,7 +3035,7 @@
     "lt": 13,
     "lv": 13,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3079,7 +3079,7 @@
     "lt": 13,
     "lv": 13,
     "r": 1,
-    "rs": "Antal tilladelser: 4 → 13",
+    "rs": "",
     "x": 0
    },
    {
@@ -3090,7 +3090,7 @@
     "lt": 12,
     "lv": 12,
     "r": 2,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” →…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3254,7 +3254,7 @@
     "i": "Rosacea-konjunktivitis",
     "lt": 12,
     "lv": 12,
-    "r": 2,
+    "r": 4,
     "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
@@ -3320,7 +3320,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -3386,7 +3386,7 @@
     "i": "Parameningeal embryonal rhabdomyosarkom",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -3452,7 +3452,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 11,
     "lv": 11,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -3496,7 +3496,7 @@
     "i": "pericoronitis",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -3508,7 +3508,7 @@
     "lt": 10,
     "lv": 10,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.” → “Der er 10…",
+    "rs": "",
     "x": 0
    },
    {
@@ -3541,7 +3541,7 @@
     "lt": 10,
     "lv": 10,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3661,7 +3661,7 @@
     "i": "Hvirvelanomalier med variabel endokrin og T-celledysfunktion",
     "lt": 9,
     "lv": 9,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -3672,7 +3672,7 @@
     "i": "Punktformet epitelial keratokonjunktivitis",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -3783,7 +3783,7 @@
     "lt": 8,
     "lv": 8,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er 1 gyldig tilladelse for et lægemiddel med enkelt indholdsstof.” → “Der er 8…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3838,7 +3838,7 @@
     "lt": 8,
     "lv": 8,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoi” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -3893,7 +3893,7 @@
     "lt": 8,
     "lv": 8,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3915,7 +3915,7 @@
     "lt": 8,
     "lv": 8,
     "r": 1,
-    "rs": "Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære",
+    "rs": "",
     "x": 0
    },
    {
@@ -3926,7 +3926,7 @@
     "lt": 8,
     "lv": 8,
     "r": 3,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland)” → “Alle…",
+    "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
    {
@@ -4058,7 +4058,7 @@
     "lt": 7,
     "lv": 7,
     "r": 1,
-    "rs": "Antal tilladelser: “Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).” → “Markedsstatus…",
+    "rs": "",
     "x": 0
    },
    {
@@ -4112,7 +4112,7 @@
     "i": "Prinzmetal angina",
     "lt": 7,
     "lv": 7,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -4134,7 +4134,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -4245,7 +4245,7 @@
     "lt": 6,
     "lv": 6,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -4333,7 +4333,7 @@
     "lt": 6,
     "lv": 6,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.” → “Der er 6…",
+    "rs": "",
     "x": 0
    },
    {
@@ -4409,7 +4409,7 @@
     "i": "pseudo-von Willebrand disease",
     "lt": 5,
     "lv": 5,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -4421,7 +4421,7 @@
     "lt": 5,
     "lv": 5,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og li” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -4663,7 +4663,7 @@
     "lt": 5,
     "lv": 5,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -4806,7 +4806,7 @@
     "lt": 5,
     "lv": 5,
     "r": 2,
-    "rs": "Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -4816,7 +4816,7 @@
     "i": "trichotillomania",
     "lt": 5,
     "lv": 5,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -4849,7 +4849,7 @@
     "i": "primary release disorder of platelets",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -4894,7 +4894,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal…",
+    "rs": "",
     "x": 0
    },
    {
@@ -4938,7 +4938,7 @@
     "lt": 4,
     "lv": 4,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige” → “Alle 4 tilladelser er gyldige”",
+    "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
    {
@@ -4971,7 +4971,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig national tilladelse for et enkeltstof-præparat.” → “Der er…",
+    "rs": "",
     "x": 0
    },
    {
@@ -5048,7 +5048,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret…",
+    "rs": "",
     "x": 0
    },
    {
@@ -5070,7 +5070,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofspræparat.” → “Der er…",
+    "rs": "",
     "x": 0
    },
    {
@@ -5081,7 +5081,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofspræparat.” → “Der er tale om 4…",
+    "rs": "",
     "x": 0
    },
    {
@@ -5311,8 +5311,8 @@
     "i": "hyperlucent lung",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser…",
+    "r": 3,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5334,7 +5334,7 @@
     "lt": 4,
     "lv": 4,
     "r": 2,
-    "rs": "Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5543,7 +5543,7 @@
     "lt": 3,
     "lv": 3,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5554,7 +5554,7 @@
     "lt": 3,
     "lv": 3,
     "r": 1,
-    "rs": "Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).” → “Antal…",
+    "rs": "",
     "x": 0
    },
    {
@@ -5608,7 +5608,7 @@
     "i": "uterine inflammatory disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -5619,7 +5619,7 @@
     "i": "Fibromatose i gingiva",
     "lt": 3,
     "lv": 3,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -5751,7 +5751,7 @@
     "i": "fibromatosis, gingival",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -5762,7 +5762,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 3,
     "lv": 3,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -5840,7 +5840,7 @@
     "lt": 3,
     "lv": 3,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofpræparat.” → “Der er tale om 3…",
+    "rs": "",
     "x": 0
    },
    {
@@ -6015,7 +6015,7 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -6082,7 +6082,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat. Tilladelsen er g” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -6104,7 +6104,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral ” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -6114,7 +6114,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -6159,7 +6159,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret 1 national tilladelse, og den har status som gyldig.” → “Der er…",
+    "rs": "",
     "x": 0
    },
    {
@@ -6192,7 +6192,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6269,7 +6269,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6302,7 +6302,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "Antal tilladelser: “Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healt” → “Der…",
+    "rs": "",
     "x": 0
    },
    {
@@ -6389,7 +6389,7 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -6434,7 +6434,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6467,7 +6467,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6598,7 +6598,7 @@
     "i": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -6609,7 +6609,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -6676,7 +6676,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -6687,7 +6687,7 @@
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Antal tilladelser: “Den eneste tilladelse er en enkeltstående national tilladelse (gyldig).” → “Der er 2…",
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -7907,7 +7907,7 @@
     "i": "Malign hypertensiv nyresygdom",
     "lt": 0,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -7929,7 +7929,7 @@
     "i": "Postinfektiøs vaskulitis",
     "lt": 0,
     "lv": 0,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -8072,7 +8072,7 @@
     "i": "hyperamylasemia",
     "lt": 0,
     "lv": 0,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -8182,7 +8182,7 @@
     "i": "pneumocystosis",
     "lt": 0,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },

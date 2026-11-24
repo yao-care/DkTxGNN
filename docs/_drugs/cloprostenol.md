@@ -58,7 +58,13 @@ Dataene indeholder 11 tilladelser til veterinærlægemidler (ATC-kode Q eller »
 
 <!-- licenses:end -->
 
-Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser.
+Alle tilladelser i dataene er veterinærlægemidler med cloprostenol som eneste aktive stof fra flere indehavere (bl.a. aniMedica GmbH, Vetoquinol S.A. og Virbac S.A.); antallet står under markedsinformationen.
+
+<!-- review:begin dk-lic-20261124b-cloprostenol-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene indeholder flere veterinære produkter med cloprostenol fra forskellige indehavere, ikke ét. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-cloprostenol-1 -->
 
 ---
 
@@ -67,6 +73,18 @@ Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét 
 Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
 
 ---
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

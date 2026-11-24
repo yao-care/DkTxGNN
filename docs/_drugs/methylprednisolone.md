@@ -68,7 +68,13 @@ Der findes i øjeblikket ingen relateret litteratur.
 
 ## Markedsinformation i Danmark
 
-Status på det danske marked er **på markedet**. Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat.
+Status på det danske marked er **på markedet**. Antal og status for tilladelserne står i Hurtigt overblik og i tabellen nedenfor.
+
+<!-- review:begin dk-lic-20261124b-methylprednisolone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med methylprednisolon (Medrol, Depo-Medrol, Solu-Medrol m.fl.), ikke én. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-methylprednisolone-1 -->
 
 <!-- licenses:begin -->
 
@@ -113,6 +119,18 @@ Forudsigelsen bygger udelukkende på modelberegning (evidensniveau L5). Der er h
 - Oplysninger om advarsler og kontraindikationer fra det godkendte produktresumé (SmPC).
 - Vurdering af nytte og risiko ved systemisk behandling sammenlignet med lokal behandling.
 - Afklaring af relevant administrationsvej og dosering.
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

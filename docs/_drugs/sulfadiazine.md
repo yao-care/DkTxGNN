@@ -101,7 +101,13 @@ Dataene indeholder 9 tilladelser til veterinærlægemidler (ATC-kode Q eller »V
 
 <!-- licenses:end -->
 
-Begge tilladelser er nationale godkendelser af veterinære præparater. Der er ikke fundet humane præparater med sulfadiazin som enkeltstof i de data, der er indsamlet til denne rapport.
+Alle tilladelser i dataene er veterinærlægemidler (kombinationspræparater med trimethoprim); antallet står under markedsinformationen. Der er ikke fundet humane præparater med sulfadiazin som enkeltstof i de data, der er indsamlet til denne rapport.
+
+<!-- review:begin dk-lic-20261124b-sulfadiazine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er nationale godkendelser af veterinære præparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Dataene har flere veterinære produkter end to, alle kombinationer med trimethoprim. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-sulfadiazine-1 -->
 
 ---
 
@@ -135,11 +141,12 @@ Forudsigelsen er mekanistisk plausibel, men understøttes ikke af kliniske fors�
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
+| 2026-11-24 | Begge tilladelser er nationale godkendelser af veterinære præparater. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

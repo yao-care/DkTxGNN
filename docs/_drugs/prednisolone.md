@@ -99,7 +99,13 @@ Dataene indeholder desuden 15 tilladelser til veterinærlægemidler (ATC-kode Q 
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige enkeltstof-tilladelser. Produktnavnene og producenterne indikerer, at der er tale om veterinærlægemidler, og der er ikke fundet humane prednisolonpræparater i de data, der er indsamlet til denne rapport.
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen ovenfor; de omfatter humane prednisolonpræparater (bl.a. tabletter, rektalvæske og øjendråber), og dataene indeholder desuden veterinærlægemidler.
+
+<!-- review:begin dk-lic-20261124b-prednisolone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige enkeltstof-tilladelser. Produktnavnene og producenterne indikerer, at der er tale om veterinærlægemidler, og der er ikke fundet humane prednisolonpræparater i de data, der er indsamlet til denne rapport." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05), som har mange humane prednisolonpræparater; de veterinære produkter er opgjort for sig. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-prednisolone-1 -->
 
 ## Sikkerhedsovervejelser
 
@@ -125,7 +131,7 @@ Prednisolons immunsuppressive mekanisme passer godt til alopecia areatas patogen
 
 <!-- review:begin dk-lic-20261105-prednisolone-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. Lægemidlet har 17 markedsføringstilladelser (gyldige: 17); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Humane godkendte prednisolonpræparater og deres indikationstekster i Danmark (de fundne tilladelser er veterinære)" Fjernet: udsagnet om veterinære og humane tilladelser passede ikke med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05, hvor veterinærlægemidler (ATC-kode Q eller "Vet." i navnet) er skilt ud. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-prednisolone-1 -->
 
@@ -141,8 +147,9 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "(de fundne tilladelser er veterinære)" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "(de fundne tilladelser er veterinære)" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+| 2026-11-24 | Begge tilladelser er gyldige enkeltstof-tilladelser. Produktnavnene og producenterne indikerer, at der er tale om veterinærlægemidler, og der er ikke fundet humane prednisolonpræparater i de data, der er indsamlet til denne rapport. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

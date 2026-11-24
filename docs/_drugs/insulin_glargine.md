@@ -96,7 +96,13 @@ Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige. Suliqua er i praksis en fast kombination med et andet aktivt stof, men er i de indsamlede data registreret som enkeltstofpræparat.
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen ovenfor. Suliqua er et kombinationspræparat (insulin glargin og lixisenatid).
+
+<!-- review:begin dk-lic-20261124b-insulin_glargine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige. Suliqua er i praksis en fast kombination med et andet aktivt stof, men er i de indsamlede data registreret som enkeltstofpræparat." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med insulin glargin, ikke to; ifølge feltet AktiveSubstanser indeholder Suliqua insulin glargin og lixisenatid. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-insulin_glargine-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller litte
 - Produktresumé-baserede advarsler og kontraindikationer fra Lægemiddelstyrelsen
 - Præklinisk eller mekanistisk evidens for en effekt på ovarial autoimmunitet
 - Systematisk litteratursøgning og eventuelt eksplorative studier, før en egentlig vurdering kan foretages
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige. Suliqua er i praksis en fast kombination med et andet aktivt stof, men er i de indsamlede data registreret som enkeltstofpræparat. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

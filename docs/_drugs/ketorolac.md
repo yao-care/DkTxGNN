@@ -157,7 +157,7 @@ Der foreligger flere afsluttede kliniske forsøg (fase 2–4), flere systematisk
 
 <!-- review:begin dk-lic-20261105-ketorolac-1 -->
 
-> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data. / Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. Lægemidlet har 9 markedsføringstilladelser (gyldige: 9); de aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-05)**: Oprindeligt stod der: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede data. / Gennemgang af de godkendte produktresuméer (SmPC) for advarsler og kontraindikationer, da disse data mangler." Fjernet: det var i modstrid med Lægemiddelstyrelsens liste over godkendte lægemidler, genopbygget efter aktivt stof den 2026-11-05. De aktuelle tal står i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261105-ketorolac-1 -->
 
@@ -173,7 +173,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede " | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->

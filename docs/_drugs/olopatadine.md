@@ -82,13 +82,25 @@ Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med det
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige og gælder Olopatadin "Epione" (olopatadin som enkelt aktivt stof) og Ryaltris (kombinationspræparat med mometason). Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione.
+Tilladelserne (antal og status: se Hurtig oversigt og tabellen ovenfor) gælder øjendråber med olopatadin som enkelt aktivt stof fra flere indehavere (bl.a. Olopatadin "Epione" og Opatanol) samt Ryaltris (kombinationspræparat med mometason). Ryaltris er en næsespray; de øvrige præparater er øjendråber.
 
 <!-- review:begin dk-lic-20261112-olopatadine-1 -->
 
-> **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "omfatter præparater med olopatadin som enkelt aktivt stof" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Ryaltris indeholder mometason og olopatadin. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "omfatter præparater med olopatadin som enkelt aktivt stof" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Ryaltris indeholder mometason og olopatadin. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-olopatadine-1 -->
+
+<!-- review:begin dk-lic-20261124b-olopatadine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige og gælder" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange tilladelser med olopatadin, ikke to. Antal og status for tilladelserne vedligeholdes af programmet i Hurtig oversigt og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-olopatadine-1 -->
+
+<!-- review:begin dk-lic-20261124b-olopatadine-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har øjendråber med olopatadin fra flere indehavere (bl.a. Opatanol, Olopatadin "Juta", Olopatadine "Sandoz"), ikke kun fra Epione. Antal og status for tilladelserne vedligeholdes af programmet i Hurtig oversigt og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-olopatadine-2 -->
 
 ---
 
@@ -123,8 +135,10 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+| 2026-11-24 | Begge tilladelser er gyldige og gælder | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

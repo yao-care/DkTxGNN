@@ -21,11 +21,11 @@
   "items_current": 3538
  },
  "reviews": {
-  "records": 570,
-  "pages": 488,
-  "public_pages_with_records": 484,
+  "records": 638,
+  "pages": 511,
+  "public_pages_with_records": 505,
   "by_action": {
-   "correct": 152,
+   "correct": 220,
    "mechanism": 418
   }
  },
@@ -85,7 +85,7 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 2,
    "i": "Polyklonalt hyperviskositetssyndrom"
   },
   {
@@ -229,6 +229,15 @@
    "i": "Tourette syndrome"
   },
   {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "l": "L5",
+   "lt": 12,
+   "lv": 12,
+   "r": 4,
+   "i": "Rosacea-konjunktivitis"
+  },
+  {
    "t": "Phenylbutazone",
    "u": "/drugs/phenylbutazone/",
    "l": "L5",
@@ -256,22 +265,13 @@
    "i": "nephrogenic syndrome of inappropriate antidiuresis"
   },
   {
-   "t": "Ketamine",
-   "u": "/drugs/ketamine/",
-   "l": "L1",
-   "lt": 2,
-   "lv": 2,
-   "r": 3,
-   "i": "Hovedpinelidelse"
-  },
-  {
-   "t": "Midazolam",
-   "u": "/drugs/midazolam/",
-   "l": "L3",
+   "t": "Hydrocortisone",
+   "u": "/drugs/hydrocortisone/",
+   "l": "L2",
    "lt": 0,
    "lv": 20,
    "r": 3,
-   "i": "insomnia (disease)"
+   "i": "alopecia areata"
   }
  ],
  "example": {
@@ -284,6 +284,12 @@
   "i": "ankylosing spondylitis"
  },
  "recent_reviews": [
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-24"
+  },
   {
    "t": "Voxelotor",
    "u": "/drugs/voxelotor/",
@@ -345,45 +351,15 @@
    "d": "2026-11-17"
   },
   {
-   "t": "Piperacillin",
-   "u": "/drugs/piperacillin/",
-   "s": "Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er…",
-   "d": "2026-11-17"
-  },
-  {
    "t": "Nebivolol",
    "u": "/drugs/nebivolol/",
    "s": "Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale…",
    "d": "2026-11-17"
   },
   {
-   "t": "Atorvastatin",
-   "u": "/drugs/atorvastatin/",
-   "s": "Rettet: “De data, der er indsamlet til denne rapport, viser tre gyldige markedsføringstilladelser for…",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er…",
-   "d": "2026-11-12"
-  },
-  {
    "t": "Xylometazoline",
    "u": "/drugs/xylometazoline/",
    "s": "Enkeltstof/kombination rettet",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Antal tilladelser: “Der er 1 national tilladelse (enkeltstofpræparat, gyldig).” → “Der er mindst 20 nationale…",
    "d": "2026-11-12"
   },
   {
@@ -399,37 +375,67 @@
    "d": "2026-11-12"
   },
   {
-   "t": "Treprostinil",
-   "u": "/drugs/treprostinil/",
-   "s": "Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om…",
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Enkeltstof/kombination rettet",
    "d": "2026-11-12"
   },
   {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der…",
+   "t": "Tetracaine",
+   "u": "/drugs/tetracaine/",
+   "s": "Enkeltstof/kombination rettet",
    "d": "2026-11-12"
   },
   {
-   "t": "Ticagrelor",
-   "u": "/drugs/ticagrelor/",
-   "s": "Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst…",
+   "t": "Tegafur",
+   "u": "/drugs/tegafur/",
+   "s": "Enkeltstof/kombination rettet",
    "d": "2026-11-12"
   },
   {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "Antal tilladelser: 4 → 13",
+   "t": "Tamsulosin",
+   "u": "/drugs/tamsulosin/",
+   "s": "Enkeltstof/kombination rettet",
    "d": "2026-11-12"
   },
   {
-   "t": "Theophylline",
-   "u": "/drugs/theophylline/",
-   "s": "Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5…",
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Phenylalanine",
+   "u": "/drugs/phenylalanine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Norgestimate",
+   "u": "/drugs/norgestimate/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Mepivacaine",
+   "u": "/drugs/mepivacaine/",
+   "s": "Enkeltstof/kombination rettet",
    "d": "2026-11-12"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "Enkeltstof/kombination rettet",
+   "d": "2026-11-24"
+  },
   {
    "t": "Voxelotor",
    "u": "/drugs/voxelotor/",
@@ -470,12 +476,6 @@
    "t": "Fentanyl",
    "u": "/drugs/fentanyl/",
    "s": "Status: “gyldig” → “afregistreret 2026-09-14”",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Duloxetine",
-   "u": "/drugs/duloxetine/",
-   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)”",
    "d": "2026-11-17"
   }
  ],

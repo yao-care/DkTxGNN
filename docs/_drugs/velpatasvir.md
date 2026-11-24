@@ -112,7 +112,13 @@ Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige, med Gilead Sciences Ireland UC som indehaver.
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen ovenfor; indehaveren er Gilead Sciences Ireland UC.
+
+<!-- review:begin dk-lic-20261124b-velpatasvir-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige, med Gilead Sciences Ireland UC som indehaver." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser end to (Epclusa og Vosevi). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-velpatasvir-1 -->
 
 ---
 
@@ -141,6 +147,19 @@ Forudsigelsen mangler både mekanistisk og klinisk støtte: velpatasvir virker p
 - Prækliniske data, der viser antiviral effekt mod HBV, før kliniske forsøg overvejes
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, herunder risikoen for HBV-reaktivering
 - Overvågningsplan for HBV-markører hos patienter med HCV/HBV-sameksistens, uanset om den nye indikation forfølges
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige, med Gilead Sciences Ireland UC som indehaver. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

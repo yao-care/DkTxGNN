@@ -90,7 +90,13 @@ Dataene indeholder 9 tilladelser til veterinærlægemidler (ATC-kode Q eller »V
 
 <!-- licenses:end -->
 
-Alle fem tilladelser er enkeltstofpræparater med status gyldig. Bemærk, at de angivne præparater er registreret som veterinære lægemidler (dosisformer til dyr), og at godkendte indikationstekster ikke er tilgængelige i de indsamlede data.
+Alle tilladelser i dataene er veterinærlægemidler; de fleste er kombinationspræparater (lincomycin med spectinomycin eller neomycin). Bemærk, at de angivne præparater er registreret som veterinære lægemidler (dosisformer til dyr), og at godkendte indikationstekster ikke er tilgængelige i de indsamlede data.
+
+<!-- review:begin dk-lic-20261124b-lincomycin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Alle fem tilladelser er enkeltstofpræparater med status gyldig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Ifølge feltet AktiveSubstanser er de fleste veterinære produkter med lincomycin kombinationspræparater, og der er flere end fem. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-lincomycin-1 -->
 
 ---
 
@@ -115,6 +121,19 @@ Forudsigelsen er udelukkende modelbaseret (L5) uden kliniske forsøg eller publi
 - Produktresumé med advarsler og kontraindikationer for humane præparater
 - Præklinisk eller mekanistisk dokumentation for en sammenhæng med amylaseregulering
 - Afklaring af, om der findes humane lincomycin-præparater på det danske marked
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Alle fem tilladelser er enkeltstofpræparater med status gyldig. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

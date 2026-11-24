@@ -551,6 +551,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 母目錄 `.claude/license_labels/DkTxGNN.json` 只有「Gyldig」：程式表另會寫「Afregistreret」（cancelled）與「Suspenderet (EMA)」（not_marketed），要加（本站沒改母目錄）；
   沒加時每週排程的 lts.apply 會把這些格列成 unsynced，但 sync_tables 會照證據包重排，頁面不受影響。
 
+## 第一輪列待查的舊錯句逐句更正（2026-11-24 第二輪）
+
+用戶 2026-11-24 決定（第二輪）：程式許可證表上線後，第一輪列進待查清單的 52 句（程式改寫判斷不了的文字數詞「Begge／én／Alle tre」、跨過 1 的「Antal godkendelser: 1」、獸用頁的獸用張數、舊表說明句）逐句對照證據包全部紀錄與快照事實層。
+- 49 句寫成 64 筆 `dk-lic-20261124b-*` correct 紀錄（另含寬偵測與同類搜尋找到的 15 句：azithromycin「i to former」劑型說法、buprenorphine「To af de tre … veterinær」、partial 頁把收錄上限寫成總數的「i alt 20／20 gyldige」（alanine、glycine、histidine、isoleucine、phenylalanine、serine、threonine、tyrosine、valine）、lidocaine「Yderligere fire」、hydrocortisone「en sjette … begrænset til 5」、binimetinib 舊表說明句、4 句待辦的「de to／tre danske tilladelser」）；更正文字不寫張數，指向 Hurtigt overblik 與程式表（「antal og status: se Hurtigt overblik og tabellen ovenfor」），事實內容照 Lægemiddelstyrelsen 清單（2026-11-05）：例 procaine「Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor」→ 沒有人用許可、資料裡全是獸用（多為 procainbenzylpenicillin）；prednisolone「沒有人用製劑」→ 人用 17 張另有獸用；insulin_glargine Suliqua 是複方；paclitaxel、zuclopenthixol、brivaracetam 補上另有的劑型。
+- 同 id 重發 7 筆（palonosetron、tezacaftor-2、tenofovir_alafenamide、vilanterol 的「tre af dem indehaves af …」持有人張數不對；epinephrine「de tre … kun injektionsform」（另有 EURneffy 鼻噴劑）；olopatadine 眼藥水不只 Epione；sunitinib「14 gyldige」寫死張數）。
+- 紀錄說明裡 11-12 樣板寫死的張數（「der er N tilladelser for dette lægemiddel (heraf N enkeltstofpræparater)」70 筆、11-05「Lægemidlet har N markedsføringstilladelser (gyldige: N)」17 筆）改成指向概覽表；查核紀錄表摘要（summary）寫死舊張數的 54 筆拿掉（表上改顯示原句）；以上前版都存 history。`src/dktxgnn/regulatory/site.py` 的 `_fig` 改成不寫數字。
+- 判定成立、不改 3 句：abaloparatide（DDInter 交互作用清單的 calcitriol 條目，不是許可證張數）、spectinomycin（獸用許可正好 2 張）、fenofibrate（Rosufenx 在現行清單）。待查清單 52 句全部標 resolved；另加 1 項 open：fenofibrate 證據包漏收 Rosufenx 28107198624（FENOFIBRAT, Rosuvastatincalcium，2026-01-22 許可、未上市），疑似 drug_mapping.csv 把複方成分字串整串對到 rosuvastatin，要補收。
+- partial 頁的「mindst 20」更正文字（24 筆）沒動：收錄上限 20、與程式表說明句「mindst 20」一致。
+- 驗證：checker 全量前後 0；gate exit 0；寬偵測（.../dk/wide.py 同規則）不符 72 句→12 句，剩下的是上面判定成立的 3 句、作用機轉節錄裡的數字 2 句、rabeprazole「De to kendte anvendelser」（已知用途）、metformin「fem af tilladelserne」（程式表 5 列）、atorvastatin 的 mindst 20／2 張註銷（成立）、candesartan 與 isoleucine／serine／tyrosine 的「ingen annullerede」（partial 頁，前 20 張全有效、其餘未收，證明不了錯）。
+
 ## 新資料查不到的許可證（2026-11-17）
 
 每週排程原本把「Lægemiddelstyrelsen 現行清單（Liste over godkendte lægemidler）查不到」的 Drugid 保留原狀態，2026-11-16 列出 36 張（11-17 試跑 38 張，涵蓋 99.4%，沒開 issue）。

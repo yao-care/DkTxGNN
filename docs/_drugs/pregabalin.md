@@ -116,7 +116,13 @@ Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q
 
 <!-- licenses:end -->
 
-Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig.
+Godkendelserne gælder enkeltstofpræparater (antal og status: se Hurtigt overblik og tabellen ovenfor). Dataene omfatter kun en del af godkendelserne.
+
+<!-- review:begin dk-lic-20261124b-pregabalin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange godkendelser med pregabalin, og dataene i rapporten omfatter kun en del af dem. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-pregabalin-1 -->
 
 ---
 
@@ -149,11 +155,12 @@ Der er plausibel mekanistisk begrundelse og enkelte pædiatriske RCT'er, men det
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
+| 2026-11-24 | Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

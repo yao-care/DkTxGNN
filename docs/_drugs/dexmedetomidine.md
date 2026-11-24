@@ -111,7 +111,13 @@ Dataene indeholder desuden 8 tilladelser til veterinærlægemidler (ATC-kode Q e
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige. De forsøg, der er identificeret, anvender inhalation (nebulisering), som ikke er en godkendt administrationsvej i de danske tilladelser (kun injektionsvæske). Dette skal afklares.
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen ovenfor. De forsøg, der er identificeret, anvender inhalation (nebulisering), som ikke er en godkendt administrationsvej i de danske tilladelser (kun injektionsvæske). Dette skal afklares.
+
+<!-- review:begin dk-lic-20261124b-dexmedetomidine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige. De forsøg" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har mange humane tilladelser med dexmedetomidin, ikke to. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-dexmedetomidine-1 -->
 
 ---
 
@@ -150,11 +156,12 @@ Evidensen er begrænset til små forsøg med inhaleret dexmedetomidin ved en sek
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
+| 2026-11-24 | Begge tilladelser er gyldige. De forsøg | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

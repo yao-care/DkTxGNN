@@ -92,7 +92,13 @@ Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dett
 
 <!-- licenses:end -->
 
-Der er registreret én gyldig enkeltstofstilladelse. Administrationsvejen er oral.
+Tilladelserne gælder enkeltstofpræparater (antal og status: se Hurtig oversigt og tabellen ovenfor). Administrationsvejen er oral.
+
+<!-- review:begin dk-lic-20261124b-gefitinib-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er registreret én gyldig enkeltstofstilladelse." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Listen har flere tilladelser end én (Iressa og generika). Antal og status for tilladelserne vedligeholdes af programmet i Hurtig oversigt og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-gefitinib-1 -->
 
 ---
 
@@ -141,6 +147,19 @@ Forudsigelsen for fibromatose i gingiva er alene modelbaseret (L5) uden kliniske
 - Gennemgang af produktresuméet for advarsler og kontraindikationer
 - Vurdering af risk/benefit for en godartet tilstand, givet gefitinibs bivirkningsprofil (lunge, lever, hud)
 - Egnet kandidat til videre undersøgelse: sygdomme tættere på den oprindelige indikation (fx pulmonal sulcus-neoplasme), hvor der dog også kun er indirekte evidens
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Der er registreret én gyldig enkeltstofstilladelse. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.

@@ -76,7 +76,13 @@ Dataene indeholder 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »V
 
 <!-- licenses:end -->
 
-Begge tilladelser er gyldige enkeltstofpræparater.
+Alle tilladelser i dataene er veterinærlægemidler med chlortetracyclin som eneste aktive stof; antallet står under markedsinformationen.
+
+<!-- review:begin dk-lic-20261124b-chlortetracycline-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Begge tilladelser er gyldige enkeltstofpræparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Der er ingen humane tilladelser; dataene indeholder flere veterinære tilladelser end to. Markedsstatus og antallet af veterinære tilladelser vedligeholdes af programmet i Hurtigt overblik og under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124b-chlortetracycline-1 -->
 
 ## Cytotoksicitet
 
@@ -98,6 +104,19 @@ Forudsigelsen bygger udelukkende på en modelscore uden kliniske forsøg eller p
 - Dokumentation af virkningsmekanisme (MOA)
 - Gennemgang af produktresuméer for advarsler og kontraindikationer
 - Vurdering af administrationsvej og relevant lægemiddelform, da dette endnu ikke er afklaret
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | Begge tilladelser er gyldige enkeltstofpræparater. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
+
 ## Ansvarsfraskrivelse
 
 Dette indhold er kun til forskningsformål og udgør ikke medicinsk rådgivning.
