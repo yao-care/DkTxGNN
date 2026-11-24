@@ -32,13 +32,13 @@ from . import site as C
 
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-ZÆØÅ*\[(>»\"-]|\d)")
 NUM = re.compile(r"(?<![\w.,/-])(\d+)(?![\w/%-]|[.,]\d)")
-ADJ = r"(?:(?:nationale|danske|gyldige|gyldig|aktive|registrerede|humane|separate|forskellige)\s+)"
+ADJ = r"(?:(?:nationale?|danske?|gyldige|gyldigt?|aktive|registrerede|humane|separate|forskellige),?\s+)"
 LIC_N = r"(?:enkeltstof-?s?)?(?:markedsførings)?(?:tilladelse(?:r|n|rne)?|godkendelse(?:r|n|rne)?)|registrering(?:er|en|erne)?|licens(?:er|en)?|enkeltstofs?(?:produkt|præparat)licens\w*"
 NOUN_RIGHT = re.compile(rf"\s*{ADJ}*(?:{LIC_N})\b", re.I)
 ANTAL_LEFT = re.compile(r"\b(antal(?:let)? (?:af )?(?:markedsførings)?(?:tilladelser|godkendelser|registreringer)(?: er)?|i alt)\s*[:]?\s*$", re.I)
 WORDNUM = {"én": 1, "ét": 1, "to": 2, "tre": 3, "fire": 4, "fem": 5, "seks": 6, "syv": 7, "otte": 8, "ni": 9,
            "ti": 10, "elleve": 11, "tolv": 12, "begge": 2}
-WORD_RX = re.compile(r"\b(" + "|".join(WORDNUM) + r")\b" + rf"(?=\s*{ADJ}*(?:{LIC_N})\b)", re.I)
+WORD_RX = re.compile(r"\b(" + "|".join(WORDNUM) + r")\b" + rf"(?=\s*{ADJ}*(?:{LIC_N}|enkeltstof\w*(?:præparat|produkt)\w*|kombinationspræparat\w*)\b)", re.I)
 NOT_LICENSE = re.compile(r"interaktion|forsøg|studie|artik|PMID|NCT|patient|tilfælde|bivirkning|\bmg\b|\bml\b|%|\bår\b|måned|uge|dage?\b|"
                          r"kandidat|forudsig|score|rang|DrugBank|ChEMBL|PubMed|ClinicalTrials|publikation|receptor|veterinær|\bVet\.|"
                          r"\bEMA\b|\bEU\b|central|Taiwan|TFDA|Oprindeligt stod der", re.I)
