@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trandolapril: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -80,9 +80,19 @@ Der er for tiden ingen relateret litteratur for malign hypertensiv nyresygdom.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107397625 | Gopten (Orifarm A/S) | Kapsler, hårde | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107397625 | Gopten | kapsler, hårde | TRANDOLAPRIL | Gyldig |
+| 28107461825 | Gopten | kapsler, hårde | TRANDOLAPRIL | Gyldig |
+| 28107358225 | Gopten | kapsler, hårde | TRANDOLAPRIL | Gyldig |
+| 28107397525 | Gopten | kapsler, hårde | TRANDOLAPRIL | Gyldig |
+| 28101493892 | Odrik | kapsler, hårde | TRANDOLAPRIL | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

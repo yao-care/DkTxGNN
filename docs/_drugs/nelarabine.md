@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (relapsing-remitting multiple sclerosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -83,9 +83,15 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103939306 | Atriance (Sandoz Pharmaceuticals d.d.) | Infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103939306 | Atriance | infusionsvæske, opløsning | Nelarabin | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 264
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Diltiazem: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Diltiazem, som kan spore
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28107316725 | Capizid | depottabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107326325 | Aproctenza | salve | DILTIAZEMHYDROCHLORID | Gyldig |
+| 28107316725 | Capizid | depottabletter | DILTIAZEMHYDROCHLORID | Gyldig |
+| 28101219685 | Cardil | depottabletter | DILTIAZEMHYDROCHLORID | Gyldig |
+| 28101219585 | Cardil | depottabletter | DILTIAZEMHYDROCHLORID | Gyldig |
+| 28107500425 | Diltiazemhydrochlorid Carefarm | depottabletter | DILTIAZEMHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

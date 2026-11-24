@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxybutynin: forudsagt ny indikation Restless legs syndrom (evidensniveau L5). Oprindelig indikation: Overaktiv blære, neurogen blære, cauda equina-syndrom (fra videnbasen"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -82,9 +82,19 @@ Der findes på nuværende tidspunkt ingen relateret litteratur for restless legs
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103482303 | Kentera (Nicobrand Limited) | Depotplaster | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103482303 | Kentera | depotplastre | OXYBUTYNIN | Gyldig |
+| 28106724921 | Oxybutynin "Macure" | tabletter | OXYBUTYNINHYDROCHLORID | Gyldig |
+| 28106519120 | Oxybutynin "Unimedic" | intravesikal opløsning | OXYBUTYNINHYDROCHLORID | Gyldig |
+| 28107415225 | Oxybutynin Macure | tabletter | OXYBUTYNINHYDROCHLORID | Gyldig |
+| 28106814022 | Velariq | intravesikal opløsning | OXYBUTYNINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

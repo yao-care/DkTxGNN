@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Silodosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Godartet prostataforstørrelse"
 ---
 
@@ -84,9 +84,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106109918 | Silodosin "Recordati" (Recordati Ireland Limited) | Kapsler, hårde | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106109918 | Silodosin "Recordati" | kapsler, hårde | Silodosin | Gyldig |
+| 28106110018 | Silodosin "Recordati" | kapsler, hårde | Silodosin | Gyldig |
+| 28104562809 | Silodyx | kapsler, hårde | Silodosin | Gyldig |
+| 28104562909 | Silodyx | kapsler, hårde | Silodosin | Gyldig |
+| 28104440408 | Urorec | kapsler, hårde | Silodosin | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

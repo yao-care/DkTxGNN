@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ambrisentan: forudsagt ny indikation Pulmonal arteriovenøs malformation (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
@@ -84,11 +84,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106116918 | Ambrisentan "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i registreringen |
+<!-- licenses:begin -->
 
-Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106116918 | Ambrisentan "Accord" | filmovertrukne tabletter | Ambrisentan | Gyldig |
+| 28106116818 | Ambrisentan "Accord" | filmovertrukne tabletter | Ambrisentan | Gyldig |
+| 28107018923 | Ambrisentan "Olpha" | filmovertrukne tabletter | Ambrisentan | Gyldig |
+| 28107018723 | Ambrisentan "Olpha" | filmovertrukne tabletter | Ambrisentan | Gyldig |
+| 28106119718 | Ambrisentan "Sandoz" | filmovertrukne tabletter | Ambrisentan | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-ambrisentan-1 -->
 
@@ -132,7 +142,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.” → “Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antallet af tilladelser er 1 national tilladelse, og listen er fuldstændig.” → “Antallet af tilladelser er 13 nationale tilladelser, og listen er fuldstændig.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

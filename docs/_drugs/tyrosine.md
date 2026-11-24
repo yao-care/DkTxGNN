@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 869
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tyrosine: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksterne for de dan…"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -90,13 +90,19 @@ Tyrosin indgår i 20 gyldige markedsføringstilladelser (alle kombinationspræpa
 
 <!-- review:end dk-lic-20261112-tyrosine-1 -->
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106260519 | Ketosteril | Filmovertrukne tabletter | Ikke angivet |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
-| 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke angivet |
-| 28101562393 | Nutrineal PD4 | Peritonealdialysevæske | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28101773695 | Clinimix N17G35E | infusionsvæske, opløsning | ALANIN, Arginin, CALCIUMCHLORIDDIHYDRAT, Dikaliumphosphat, GLUCOSEMON… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Øvrige præparater omfatter bl.a. Vamin, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven Perifer, Numeta G13E, Pedismof Preterm og Finomel.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: forudsagt ny indikation Neoplasme i epiglottis (epiglottis neoplasm) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -68,9 +68,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for denne forudsa
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106410720 | Abevmy | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106410720 | Abevmy | koncentrat til infusionsvæske, opløsning | Bevacizumab | Gyldig |
+| 28106392220 | Alymsys | koncentrat til infusionsvæske, opløsning | Bevacizumab | Gyldig |
+| 28103612603 | Avastin | koncentrat til infusionsvæske, opløsning | Bevacizumab | Gyldig |
+| 28106544220 | Avzivi | koncentrat til injektionsvæske, opløsning | Bevacizumab | Gyldig |
+| 28106301019 | Aybintio | koncentrat til infusionsvæske, opløsning | Bevacizumab | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

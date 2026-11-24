@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with connective tissue disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Minoxidil: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de danske godkendelsesdata (godkendelsesteksten er tom)…"
 ---
 
@@ -72,9 +72,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107215924 | Dinoxil | Kutanskum | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107215924 | Dinoxil | kutanskum | Minoxidil | Gyldig |
+| 28106646121 | Lotorin | kutanskum | Minoxidil | Gyldig |
+| 28106851622 | Minoxidil "Intermed" | kutanskum | Minoxidil | Gyldig |
+| 28101528092 | Regaine Forte | kutanopløsning | Minoxidil | Gyldig |
+| 28106087518 | Regaine Forte | kutanopløsning | Minoxidil | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

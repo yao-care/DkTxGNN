@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Vonicog Alfa"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vonicog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -81,9 +81,16 @@ Der er i øjeblikket ingen relateret litteratur om primær frigivelsesforstyrrel
 
 ## Information om det danske marked
 
-| Godkendelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105961717 | Veyvondi (Baxalta Innovations GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105961717 | Veyvondi | pulver og solvens til injektionsvæske, opløsning | Vonicog alfa | Gyldig |
+| 28105961617 | Veyvondi | pulver og solvens til injektionsvæske, opløsning | Vonicog alfa | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

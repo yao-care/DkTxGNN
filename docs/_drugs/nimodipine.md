@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nimodipine: forudsagt ny indikation Homozygot familiær hyperkolesterolæmi (evidensniveau L5). Oprindelig indikation: Subaraknoidal blødning (aneurysmal subaraknoidal blødning)"
 monitor_inn: "nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -70,9 +70,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106465020 | Nimodipin "Paranova" (Paranova Danmark A/S) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106465020 | Nimodipin "Paranova" | filmovertrukne tabletter | NIMODIPIN | Gyldig |
+| 28101181884 | Nimotop | filmovertrukne tabletter | NIMODIPIN | Gyldig |
+| 28105405114 | Nimotop | filmovertrukne tabletter | NIMODIPIN | Gyldig |
+| 28106463520 | Nimotop | filmovertrukne tabletter | NIMODIPIN | Gyldig |
+| 28101181684 | Nimotop | infusionsvæske, opløsning | NIMODIPIN | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

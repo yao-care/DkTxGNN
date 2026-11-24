@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 description: "Cabotegravir: forudsagt ny indikation Reumatoid artritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -83,9 +83,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106313319 | Vocabria (ViiV Healthcare BV) | Depotinjektionsvæske, suspension | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106798722 | Apretude | depotinjektionsvæske, suspension | Cabotegravirnatrium | Gyldig |
+| 28106798622 | Apretude | filmovertrukne tabletter | Cabotegravirnatrium | Gyldig |
+| 28106313319 | Vocabria | depotinjektionsvæske, suspension | Cabotegravir | Gyldig |
+| 28106313419 | Vocabria | depotinjektionsvæske, suspension | Cabotegravir | Gyldig |
+| 28106313219 | Vocabria | filmovertrukne tabletter | Cabotegravirnatrium | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

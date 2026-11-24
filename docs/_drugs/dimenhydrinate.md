@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -87,12 +87,18 @@ Der er ingen litteratur for kold urticaria.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105260213 | Dimenhydrinat "Galenica" (Galenica SA) | Resoriblette, sublingual | Indikationstekst ikke tilgængelig |
-| 28104050606 | Arlevert (Hennig Arzneimittel AG) | Tablet | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige; Dimenhydrinat "Galenica" er et enkeltstofpræparat, Arlevert et kombinationspræparat (med cinnarizin).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105260213 | Dimenhydrinat "Galenica" | resoribletter, sublinguale | Dimenhydrinat | Gyldig |
+| 28104050606 | Arlevert | tabletter | CINNARIZIN, Dimenhydrinat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Dimenhydrinat "Galenica" er et enkeltstofpræparat, Arlevert et kombinationspræparat (med cinnarizin); antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-dimenhydrinate-1 -->
 
@@ -136,7 +142,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->

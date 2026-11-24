@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "atazanavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Atazanavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 10)"
 ---
 
@@ -68,10 +68,19 @@ Der er i øjeblikket ingen relateret litteratur om den primære forudsigelse.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106092018 | Atazanavir "Krka" | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
-| 28105475414 | Evotaz | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105982817 | Atazanavir "Stada" | kapsler, hårde | ATAZANAVIRSULFAT | Gyldig |
+| 28105982917 | Atazanavir "Stada" | kapsler, hårde | ATAZANAVIRSULFAT | Gyldig |
+| 28105983017 | Atazanavir "Stada" | kapsler, hårde | ATAZANAVIRSULFAT | Gyldig |
+| 28105574015 | Atazanavir "Viatris" | kapsler, hårde | ATAZANAVIRSULFAT | Gyldig |
+| 28105574115 | Atazanavir "Viatris" | kapsler, hårde | ATAZANAVIRSULFAT | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

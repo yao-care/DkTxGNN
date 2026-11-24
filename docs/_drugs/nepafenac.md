@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac: forudsagt ny indikation Øjensygdom (bred kategori) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata for Danmark (indikationstek…"
 ---
 
@@ -106,9 +106,16 @@ Yderligere forsøg undersøger bl.a. diabetisk makulaødem (fx NCT00780780, NCT0
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104053506 | Nevanac (Novartis Europharm Limited) | Øjendråber, suspension | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104053506 | Nevanac | øjendråber, suspension | Nepafenac | Gyldig |
+| 28105076412 | Nevanac | øjendråber, suspension | Nepafenac | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

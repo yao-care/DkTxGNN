@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -71,6 +71,17 @@ Uden TxGNN-prognoseoutput kan en formel genbrug-hypotese ikke evalueres på dett
 ---
 
 ## Markedsoplysninger for Danmark
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105645015 | Empliciti | pulver til koncentrat til infusionsvæske, opløsning | Elotuzumab | Gyldig |
+| 28105645115 | Empliciti | pulver til koncentrat til infusionsvæske, opløsning | Elotuzumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der blev ikke fundet nationale markedsføringstilladelser i det spurgt regulatoriske register (0 poster; markant status: ikke registreret).
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imiquimod: forudsagt ny indikation Præmalign neoplasi (pre-malignant neoplasm) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -95,11 +95,18 @@ Den forudsagte sygdomskategori er bred. Evidensen gælder specifikke tilstande o
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101813496 | Aldara (Viatris Healthcare Limited) | Creme | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Der findes 2 gyldige tilladelser for enkeltstofpræparater. Listen er ikke delvis.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101813496 | Aldara | creme | Imiquimod | Gyldig |
+| 28104956711 | Zyclara | creme | Imiquimod | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Listen er ikke delvis.
 
 <!-- review:begin dk-lic-20261112-imiquimod-1 -->
 
@@ -146,7 +153,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der findes 1 gyldig tilladelse for enkeltstofpræparat.” → “Der findes 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->

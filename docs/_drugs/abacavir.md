@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
@@ -80,13 +80,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103033098 | Ziagen | Filmovertrukne tabletter | Ikke angivet i de lokale data |
-| 28106070718 | Abacavir/Lamivudine "Glenmark" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
-| 28105684015 | Abacavir/Lamivudine "Stada" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
-| 28105723816 | Abacavir/Lamivudine "Viatris" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
-| 28105331613 | Triumeq | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103033098 | Ziagen | filmovertrukne tabletter | Abacavirsulfat | Gyldig |
+| 28103018198 | Ziagen | oral opløsning | Abacavirsulfat | Gyldig |
+| 28106059118 | Abacavir/Lamivudin "Medical Valley" | filmovertrukne tabletter | Abacavirsulfat, LAMIVUDIN | Gyldig |
+| 28102960614 | Abacavir/Lamivudin "Mylan" | filmovertrukne tabletter | Abacavirhydrochlorid, LAMIVUDIN | Gyldig |
+| 28106070718 | Abacavir/Lamivudine "Glenmark" | filmovertrukne tabletter | Abacavirhydrochlorid, LAMIVUDIN | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine: forudsagt ny indikation Mantelcellelymfom (mantle cell lymphoma) (evidensniveau L1). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -102,9 +102,19 @@ Tabellen viser et udvalg af de mest relevante forsøg (op til 10).
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105378014 | Bendamustin "Actavis" | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105432814 | Bendamedac | pulver til koncentrat til infusionsvæske, opløsning | Bendamustinhydrochloridmonohydrat | Gyldig |
+| 28105378014 | Bendamustin "Actavis" | pulver til koncentrat til infusionsvæske, opløsning | Bendamustinhydrochlorid | Gyldig |
+| 28105492814 | Bendamustine "Fresenius Kabi" | pulver til koncentrat til infusionsvæske, opløsning | Bendamustinhydrochlorid | Gyldig |
+| 28106427520 | Bendamustinhydrochlorid "Accord" | koncentrat til infusionsvæske, opløsning | Bendamustinhydrochloridmonohydrat | Gyldig |
+| 28105238113 | Bendamustinhydrochlorid "Accord" | pulver til koncentrat til infusionsvæske, opløsning | Bendamustinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

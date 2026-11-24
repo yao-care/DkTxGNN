@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Panitumumab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Metastatisk kræft i tyktarmen"
 monitor_inn: "Panitumumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -78,9 +78,15 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103945506 | Vectibix (Amgen Europe BV) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103945506 | Vectibix | koncentrat til infusionsvæske, opløsning | Panitumumab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

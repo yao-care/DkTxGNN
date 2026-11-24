@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -78,9 +78,16 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101107082 | Rytmonorm (Viatris ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101107082 | Rytmonorm | filmovertrukne tabletter | PROPAFENONHYDROCHLORID | Gyldig |
+| 28101107182 | Rytmonorm | filmovertrukne tabletter | PROPAFENONHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

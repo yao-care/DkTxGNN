@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 431
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: forudsagt ny indikation Attention deficit-hyperactivity disorder (evidensniveau L3). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -93,9 +93,16 @@ De mest relevante publikationer (op til 10), prioriteret efter studietype og rel
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28100719276 | Imipramin "DAK" (Orifarm Healthcare A/S) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100719276 | Imipramin "DAK" | filmovertrukne tabletter | Imipraminhydrochlorid | Gyldig |
+| 28100719376 | Imipramin "DAK" | filmovertrukne tabletter | Imipraminhydrochlorid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

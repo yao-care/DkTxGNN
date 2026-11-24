@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ranibizumab"
 predicted_indications: ["craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ranibizumab: forudsagt ny indikation Craniostenosis cataract (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -102,9 +102,19 @@ Ingen af disse undersøger ranibizumab som behandling af grå stær.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106507820 | Byooviz (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106507820 | Byooviz | injektionsvæske, opløsning | Ranibizumab | Gyldig |
+| 28107480525 | Byooviz | injektionsvæske, opløsning i fyldt injektionssprøjte | Ranibizumab | Gyldig |
+| 28107180124 | Epruvy | injektionsvæske, opløsning | Ranibizumab | Gyldig |
+| 28107274924 | Epruvy | injektionsvæske, opløsning i fyldt injektionssprøjte | Ranibizumab | Gyldig |
+| 28103911306 | Lucentis | injektionsvæske, opløsning | Ranibizumab | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er 1 gyldig enkeltstofsproduktlicens. Listen er fuldstændig.
 

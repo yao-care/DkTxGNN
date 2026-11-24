@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: forudsagt ny indikation Primary release disorder of platelets (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)"
 ---
 
@@ -84,9 +84,19 @@ Der foreligger for øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106573220 | Accofil (Accord Healthcare S.L.U.) | Injektions-/infusionsvæske, opløsning, fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106573220 | Accofil | injektions-/infusionsvæske, opløsning, fyldt injektionssprø… | FILGRASTIM | Gyldig |
+| 28105408914 | Accofil | injektions-/infusionsvæske, opløsning, fyldt injektionssprø… | FILGRASTIM | Gyldig |
+| 28105409014 | Accofil | injektions-/infusionsvæske, opløsning, fyldt injektionssprø… | FILGRASTIM | Gyldig |
+| 28106573320 | Accofil | injektions-/infusionsvæske, opløsning, fyldt injektionssprø… | FILGRASTIM | Gyldig |
+| 28104220507 | Filgrastim "Hexal" | injektions-/infusionsvæske, opløsning | FILGRASTIM | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

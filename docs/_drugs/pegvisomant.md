@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 641
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pegvisomant: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Pegvisomant"
 predicted_indications: []
@@ -48,9 +48,19 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103247301 | Somavert (Pfizer Europe MA EEIG) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103247301 | Somavert | pulver og solvens til injektionsvæske, opløsning | PEGVISOMANT | Gyldig |
+| 28103247401 | Somavert | pulver og solvens til injektionsvæske, opløsning | PEGVISOMANT | Gyldig |
+| 28103247501 | Somavert | pulver og solvens til injektionsvæske, opløsning | PEGVISOMANT | Gyldig |
+| 28105410314 | Somavert | pulver og solvens til injektionsvæske, opløsning | PEGVISOMANT | Gyldig |
+| 28105410414 | Somavert | pulver og solvens til injektionsvæske, opløsning | PEGVISOMANT | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

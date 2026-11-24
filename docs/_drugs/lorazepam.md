@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -94,9 +94,19 @@ Studiedesign er udledt af titler og uden fuldtekstgennemgang, så vurderingen er
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107057823 | Lorazepam "2care4" (2care4 ApS) | Tabletter (oral) | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107057823 | Lorazepam "2care4" | tabletter | LORAZEPAM | Gyldig |
+| 28107107124 | Lorazepam "Macure" | injektionsvæske, opløsning | LORAZEPAM | Gyldig |
+| 28106103318 | Lorazepam "Macure" | injektionsvæske, opløsning | LORAZEPAM | Gyldig |
+| 28105108012 | Lorazepam "Orion" | tabletter | LORAZEPAM | Gyldig |
+| 28107254224 | Lorazepam Macure | injektionsvæske, opløsning | LORAZEPAM | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

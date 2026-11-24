@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pemigatinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -80,9 +80,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for multipel endokr
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106368019 | Pemazyre (Incyte Biosciences Distribution) | Tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106368019 | Pemazyre | tabletter | Pemigatinib | Gyldig |
+| 28106367819 | Pemazyre | tabletter | Pemigatinib | Gyldig |
+| 28106367919 | Pemazyre | tabletter | Pemigatinib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antal tilladelser: 1 (enkeltstofpræparat, gyldig). Listen er fuldstændig.
 

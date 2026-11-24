@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Asfotase alfa"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices without bleeding", "esophageal varices with bleeding", "cystinosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Asfotase Alfa: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af nukleære DNA-anomalier (evidensniveau L5). Oprindelig indikation: Hypofosfatasi"
 ---
 
@@ -78,9 +78,16 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105481714 | Strensiq (Alexion Europe) | Injektionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105481714 | Strensiq | injektionsvæske, opløsning | Asfotase alfa | Gyldig |
+| 28105481614 | Strensiq | injektionsvæske, opløsning | Asfotase alfa | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er en enkeltstofspræparat med gyldig tilladelse.
 

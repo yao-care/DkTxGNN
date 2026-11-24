@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Selpercatinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for markedsfø…"
 monitor_inn: "Selpercatinib"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -86,9 +86,19 @@ Følgende publikationer blev fundet ved søgningen. Ingen af dem evaluerer pulmo
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107146824 | Retsevmo (Eli Lilly Nederland B.V.) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107146824 | Retsevmo | filmovertrukne tabletter | Selpercatinib | Gyldig |
+| 28107146924 | Retsevmo | filmovertrukne tabletter | Selpercatinib | Gyldig |
+| 28107146624 | Retsevmo | filmovertrukne tabletter | Selpercatinib | Gyldig |
+| 28107146724 | Retsevmo | filmovertrukne tabletter | Selpercatinib | Gyldig |
+| 28106384520 | Retsevmo | kapsler, hårde | Selpercatinib | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

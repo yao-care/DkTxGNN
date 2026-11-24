@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 864
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 description: "Tryptophan: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). I Danmark, markedsføringstilladelser: mindst 20"
@@ -81,13 +81,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 Tryptophan er på markedet i Danmark med gyldige markedsføringstilladelser. Listen over tilladelser kan være ufuldstændig. Der er ikke registreret godkendt indikationstekst i de lokale data.
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106036517 | Corhum | Opløsning til kardioplegi | Ikke angivet |
-| 28106260519 | Ketosteril | Filmovertrukne tabletter | Ikke angivet |
-| 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke angivet |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28104977411 | Amiped | infusionsvæske, opløsning | ACETYLCYSTEIN, ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

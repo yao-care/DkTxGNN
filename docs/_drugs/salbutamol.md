@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol: forudsagt ny indikation Papillær konjunktivitis (evidensniveau L5). Oprindelig indikation: Astma og bronkial sygdom"
 monitor_inn: "salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -79,11 +79,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101697294 | Airomir (Teva B.V.) | Inhalationsspray, suspension | Ikke angivet i de tilgængelige data |
-| 28101774595 | Combivent (Boehringer Ingelheim Int. GmbH) | Inhalationsvæske til nebulisator, opløsning, enkeltdosisbeholder | Ikke angivet i de tilgængelige data |
-| 28104130807 | Ipramol Steri-Neb (Teva B.V.) | Inhalationsvæske til nebulisator, opløsning, enkeltdosisbeholder | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101697294 | Airomir | inhalationsspray, suspension | SALBUTAMOLSULFAT | Gyldig |
+| 28101329088 | Airomir Autohaler | inhalationsspray, suspension | SALBUTAMOLSULFAT | Gyldig |
+| 28104043406 | Airsalb | inhalationsspray, suspension | SALBUTAMOLSULFAT | Gyldig |
+| 28101728794 | Buventol Easyhaler | inhalationspulver | SALBUTAMOLSULFAT | Gyldig |
+| 28101728894 | Buventol Easyhaler | inhalationspulver | SALBUTAMOLSULFAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Mindst 20 tilladelser er gyldige. Ingen af de markedsførte produkter er til øjenbrug. Samtlige er til inhalation.
 

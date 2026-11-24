@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Benzocaine: forudsagt ny indikation Papillær konjunktivitis (papillary conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100834380 | Dolodent | Opløsning til tandkød | Ikke angivet i lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100834380 | Dolodent | opløsning til tandkød | Benzocain, Myrratinktur | Gyldig |
+| 28105271113 | True Test 24 | plaster til provokationstest | Alfa-amylcinnamaldehyd, Almindelig slåenlav (Evernia prunastri), Benz… | Gyldig |
+| 28106113218 | True Test 36 | plaster til provokationstest | Alfa-amylcinnamaldehyd, Almindelig slåenlav (Evernia prunastri), Baci… | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

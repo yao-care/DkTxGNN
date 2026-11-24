@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Diazepam: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L2). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -90,9 +90,21 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100583070 | Apozepam (Teva B.V.) | Tabletter | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100583070 | Apozepam | tabletter | DIAZEPAM | Gyldig |
+| 28100950170 | Apozepam | tabletter | DIAZEPAM | Gyldig |
+| 28105523014 | Diazepam "Accord" | tabletter | DIAZEPAM | Gyldig |
+| 28100903676 | Diazepam "DAK" | tabletter | DIAZEPAM | Gyldig |
+| 28100903776 | Diazepam "DAK" | tabletter | DIAZEPAM | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

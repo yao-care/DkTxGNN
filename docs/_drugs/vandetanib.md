@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vandetanib: forudsagt ny indikation Nyrecellekarcinom (renal cell carcinoma (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -91,9 +91,16 @@ Der er dog grund til forsigtighed: Der findes allerede godkendte lægemidler til
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104777710 | Caprelsa | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de samlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104777710 | Caprelsa | filmovertrukne tabletter | Vandetanib | Gyldig |
+| 28104777810 | Caprelsa | filmovertrukne tabletter | Vandetanib | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

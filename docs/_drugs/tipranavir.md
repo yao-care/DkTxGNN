@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TIPRANAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tipranavir: forudsagt ny indikation Felint ervervet immundefektsyndrom (feline acquired immunodeficiency syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
@@ -85,9 +85,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103745604 | Aptivus (Boehringer Ingelheim Int. GmbH) | Bløde kapsler | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103745604 | Aptivus | kapsler, bløde | TIPRANAVIR | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Der er tale om én national enkeltstofstilladelse med status gyldig.
 

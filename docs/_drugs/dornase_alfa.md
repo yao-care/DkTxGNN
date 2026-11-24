@@ -5,7 +5,7 @@ layout: default
 title: Dornase Alfa
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 277
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Dornase Alfa: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Dornase alfa"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101546293 | Pulmozyme (Roche Pharmaceuticals A/S) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101546293 | Pulmozyme | inhalationsvæske til nebulisator, opløsning | DORNASE ALFA | Gyldig |
+| 28106018917 | Pulmozyme | inhalationsvæske til nebulisator, opløsning | DORNASE ALFA | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

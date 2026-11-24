@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Conestat alfa"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "fetal and neonatal alloimmune thrombocytopenia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Conestat Alfa: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
@@ -68,9 +68,16 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105726916 | Ruconest | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105726916 | Ruconest | pulver og solvens til injektionsvæske, opløsning | Conestat Alfa | Gyldig |
+| 28104583509 | Ruconest | pulver til injektionsvæske, opløsning | Conestat Alfa | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Producent: Pharming Group N.V. Tilladelsen er gyldig.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eculizumab: forudsagt ny indikation Cyklisk hæmatopoese (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri og neuromyelitis optica"
 ---
 
@@ -71,11 +71,19 @@ Der er i øjeblikket ingen litteratur, som direkte omhandler cyklisk hæmatopoes
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106750622 | BEKEMV | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i registreringen |
+<!-- licenses:begin -->
 
-Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106750622 | BEKEMV | koncentrat til infusionsvæske, opløsning | Eculizumab | Gyldig |
+| 28106801722 | Epysqli | koncentrat til infusionsvæske, opløsning | Eculizumab | Gyldig |
+| 28104028606 | Soliris | koncentrat til infusionsvæske, opløsning | Eculizumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-eculizumab-1 -->
 
@@ -114,7 +122,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én godkendelse (enkeltstofpræparat, gyldig), fremstillet af Amgen” → “Der er tale om 3 godkendelser (enkeltstofpræparater, gyldige).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
 
 <!-- review:end log -->

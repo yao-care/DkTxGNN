@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 328
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estriol: forudsagt ny indikation Amenorré (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -87,9 +87,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104989811 | Estrokad (Dr. Kade Pharmazeutische Fabrik GmbH) | Vagitorier | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104989811 | Estrokad | vagitorier | ESTRIOL | Gyldig |
+| 28105751416 | Gelisse | vaginalgel | ESTRIOL | Gyldig |
+| 28101061781 | Ovestin | vaginalcreme | ESTRIOL | Gyldig |
+| 28105381414 | Ovestin | vaginalcreme | ESTRIOL | Gyldig |
+| 28106522520 | Ovestin | vaginalcreme | ESTRIOL | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

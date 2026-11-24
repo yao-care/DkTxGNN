@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 71
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Apraclonidine: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,16 @@ TxGNN-modellens kandidater for Apraclonidine er alle kendte anvendelser. Der er 
 
 ## Dansk markedsinformation
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28101792195 | Iopidine | øjendråber, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101792195 | Iopidine | øjendråber, opløsning | Apraclonidinhydrochlorid | Gyldig |
+| 28101557693 | Iopidine | øjendråber, opløsning | Apraclonidinhydrochlorid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

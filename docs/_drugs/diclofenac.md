@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -82,11 +82,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
-|---------|------|------|-----------|
-| 28107112224 | Dicloabak | Øjendråber, opløsning | 2care4 ApS |
-| 28103185700 | Diclofenac Rapid "Teva" | Filmovertrukne tabletter | Teva B.V. |
-| 28105017612 | Arthrotec Forte | Tabletter med modificeret udløsning | Orifarm A/S |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107112224 | Dicloabak | øjendråber, opløsning | DICLOFENACNATRIUM | Gyldig |
+| 28107249024 | Dicloabak | øjendråber, opløsning | DICLOFENACNATRIUM | Gyldig |
+| 28101567493 | Diclodan | suppositorier | DICLOFENACNATRIUM | Gyldig |
+| 28107335825 | Diclodan | suppositorier | DICLOFENACNATRIUM | Gyldig |
+| 28107375525 | Diclodan | suppositorier | DICLOFENACNATRIUM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Mindst 20 tilladelser er gyldige. Indikationsteksten indgår ikke i de indsamlede data, så der henvises til produktresuméerne (SmPC).
 

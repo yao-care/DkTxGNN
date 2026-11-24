@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levetiracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 
@@ -80,9 +80,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103070399 | Keppra (UCB S.A. UCB Center) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103070399 | Keppra | filmovertrukne tabletter | Levetiracetam | Gyldig |
+| 28103034298 | Keppra | filmovertrukne tabletter | Levetiracetam | Gyldig |
+| 28103070199 | Keppra | filmovertrukne tabletter | Levetiracetam | Gyldig |
+| 28103070299 | Keppra | filmovertrukne tabletter | Levetiracetam | Gyldig |
+| 28103785905 | Keppra | koncentrat til infusionsvæske, opløsning | Levetiracetam | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er tale om mindst 20 nationale tilladelser til enkeltstofpræparater (oral anvendelse).
 

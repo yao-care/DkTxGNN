@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
 description: "Spectinomycin: forudsagt ny indikation Disease of uterine broad ligament (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -77,6 +77,14 @@ Der er i øjeblikket ingen relevant litteratur for den forudsagte indikation.
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Begge tilladelser er nationale og gyldige. Ud fra produktnavn, producent og lægemiddelform ser de ud til at være veterinærlægemidler. Der er derfor ikke identificeret et humant præparat med spectinomycin på det danske marked i de data, der er sammenstillet til denne rapport.
 

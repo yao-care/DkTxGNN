@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sofosbuvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L3). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -89,9 +89,19 @@ Der er dog en hypotese fra et fase 2-forsøg. Hos patienter med samtidig hepatit
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106287219 | Sovaldi | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig i de samlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106287219 | Sovaldi | filmovertrukne tabletter | Sofosbuvir | Gyldig |
+| 28105264413 | Sovaldi | filmovertrukne tabletter | Sofosbuvir | Gyldig |
+| 28106287319 | Sovaldi | granulat | Sofosbuvir | Gyldig |
+| 28106287419 | Sovaldi | granulat | Sofosbuvir | Gyldig |
+| 28106349319 | Epclusa | filmovertrukne tabletter | Sofosbuvir, Velpatasvir | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

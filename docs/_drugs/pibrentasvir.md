@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -118,6 +118,17 @@ Der er ingen litteratur om pibrentasvir ved hepatitis B. Nedenfor ses et udvalg 
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105901416 | Maviret | filmovertrukne tabletter | Glecaprevir, Pibrentasvir | Gyldig |
+| 28106420120 | Maviret | granulat i brev | Glecaprevir, Pibrentasvir | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

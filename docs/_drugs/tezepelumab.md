@@ -5,7 +5,7 @@ layout: default
 title: Tezepelumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 819
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tezepelumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tezepelumab"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106632821 | Tezspire (AstraZeneca AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106632821 | Tezspire | injektionsvæske, opløsning i fyldt injektionssprøjte | Tezepelumab | Gyldig |
+| 28106933222 | Tezspire | injektionsvæske, opløsning i fyldt pen | Tezepelumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

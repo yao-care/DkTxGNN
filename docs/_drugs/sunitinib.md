@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom og GIST"
 ---
 
@@ -95,9 +95,19 @@ Fordelen ser dog ud til at afhænge af subtypen. Det publicerede fase 2-studie p
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106347719 | Sunitinib "Accord" (Accord Healthcare S.L.U.) | Kapsler, hårde | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106347719 | Sunitinib "Accord" | kapsler, hårde | Sunitinib | Gyldig |
+| 28106347819 | Sunitinib "Accord" | kapsler, hårde | Sunitinib | Gyldig |
+| 28106347919 | Sunitinib "Accord" | kapsler, hårde | Sunitinib | Gyldig |
+| 28106348019 | Sunitinib "Accord" | kapsler, hårde | Sunitinib | Gyldig |
+| 28106051617 | Sunitinib "Sandoz" | kapsler, hårde | Sunitinib | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er registreret 14 gyldige nationale markedsføringstilladelser for enkeltstofpræparater.
 

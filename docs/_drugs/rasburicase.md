@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 705
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasburicase: forudsagt ny indikation Renal hypourikæmi (evidensniveau L5). Oprindelig indikation: Hyperurikæmi"
 monitor_inn: "rasburicase"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -70,9 +70,15 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103081899 | Fasturtec (Sanofi Winthrop Industrie) | Pulver og solvens til koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103081899 | Fasturtec | pulver og solvens til koncentrat til infusionsvæske, opløsn… | Rasburikase | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

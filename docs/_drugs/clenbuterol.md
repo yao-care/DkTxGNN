@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Clenbuterol: forudsagt ny indikation Migrænelidelse (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for den dansk…"
 monitor_inn: "clenbuterol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -79,6 +79,14 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Produktet er et enkeltstofpræparat (fremstillet af Le Vet Beheer B.V.) med gyldig status. Præparatnavnet indikerer, at det er et veterinærlægemiddel.
 

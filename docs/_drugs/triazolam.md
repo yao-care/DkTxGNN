@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 858
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Triazolam: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,17 @@ TxGNN-modellen (score ≥ 0,99) har foreslået kandidater for Triazolam, men all
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105436514 | Halcion | tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105436514 | Halcion | tabletter | TRIAZOLAM | Gyldig |
+| 28105436614 | Halcion | tabletter | TRIAZOLAM | Gyldig |
+| 28105720816 | Halcion | tabletter | TRIAZOLAM | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

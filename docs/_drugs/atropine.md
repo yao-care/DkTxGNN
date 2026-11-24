@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 86
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom f…"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -93,10 +93,19 @@ Bemærk: Yderligere hentede publikationer (om topiramat-relaterede øjenbivirkni
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106446220 | Rafaject | Injektionsvæske, opløsning i fyldt pen | Ikke angivet |
-| 28105760116 | Atropin "2care4" | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105760116 | Atropin "2care4" | injektionsvæske, opløsning | ATROPINSULFAT | Gyldig |
+| 28107019523 | Atropin "Abboxia" | injektionsvæske, opløsning | ATROPINSULFAT | Gyldig |
+| 28107019623 | Atropin "Abboxia" | injektionsvæske, opløsning | ATROPINSULFAT | Gyldig |
+| 28104888411 | Atropin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | ATROPINSULFAT | Gyldig |
+| 28105653015 | Atropin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | ATROPINSULFAT | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

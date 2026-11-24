@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 7
 monitor_inn: "PEGINTERFERON ALFA-2B"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Peginterferon Alfa-2B: forudsagt ny indikation Hepatitis B-virusinfektion (rang 1) og kronisk hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L1). Oprindelig indikation: Ikke …"
 ---
 
@@ -105,9 +105,15 @@ Tabellen viser et udvalg af de 10 mest relevante forsøg for kronisk hepatitis B
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103228501 | PegIntron | Injektionsvæske, opløsning i fyldt pen | Ingen indikationstekst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103228501 | PegIntron | injektionsvæske, opløsning i fyldt pen | PEGINTERFERON ALFA-2B | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen gjaldt et enkeltstofpræparat (indehaver: Merck Sharp & Dohme B.V.) og står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for PegIntron blev trukket tilbage 2021-04-21.
 

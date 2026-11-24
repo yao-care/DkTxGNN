@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Certolizumab Pegol: forudsagt ny indikation Hypermobilitet af halebenet (hypermobility of coccyx) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -69,9 +69,17 @@ Der foreligger i øjeblikket ingen relateret litteratur om hypermobilitet af hal
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104364708 | Cimzia | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104364708 | Cimzia | injektionsvæske, opløsning i fyldt injektionssprøjte | Certolizumab Pegol | Gyldig |
+| 28105888416 | Cimzia | injektionsvæske, opløsning i fyldt pen | Certolizumab Pegol | Gyldig |
+| 28105967017 | Cimzia | injektionsvæske, opløsning i kassette til dosisdispenser | Certolizumab Pegol | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

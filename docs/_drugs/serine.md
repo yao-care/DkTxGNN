@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: forudsagt ny indikation Familiær visceral myopati (familial visceral myopathy) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -90,13 +90,19 @@ Serin indgår i 20 gyldige markedsføringstilladelser (alle kombinationspræpara
 
 <!-- review:end dk-lic-20261112-serine-1 -->
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke angivet |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
-| 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke angivet |
-| 28101562393 | Nutrineal PD4 | Peritonealdialysevæske | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28104977411 | Amiped | infusionsvæske, opløsning | ACETYLCYSTEIN, ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Produkterne er hovedsageligt parenterale ernæringsprodukter (infusionsvæsker) og en peritonealdialysevæske. Ingen af dem er godkendt til de forudsagte indikationer.
 

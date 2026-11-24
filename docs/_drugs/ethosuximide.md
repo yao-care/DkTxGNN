@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ethosuximide: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Absence-epilepsi (iht. videnbasen i TxGNN"
 monitor_inn: "ethosuximide"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -72,9 +72,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107149824 | Ethonor (Nordic Prime ApS) | Kapsler, bløde | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107149824 | Ethonor | kapsler, bløde | ETHOSUXIMID | Gyldig |
+| 28106082018 | Ethosuximid "2care4" | oral opløsning | ETHOSUXIMID | Gyldig |
+| 28107512325 | Ethosuximid "Ebb Medical" | kapsler, bløde | ETHOSUXIMID | Gyldig |
+| 28107701226 | Ethosuximid Epione | kapsler, bløde | ETHOSUXIMID | Gyldig |
+| 28106846622 | Ethosuximid Medartuum | oral opløsning | ETHOSUXIMID | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

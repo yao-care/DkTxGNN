@@ -5,7 +5,7 @@ layout: default
 title: Tremelimumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 854
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tremelimumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tremelimumab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106750422 | IMJUDO (AstraZeneca AB) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106750422 | IMJUDO | koncentrat til infusionsvæske, opløsning | Tremelimumab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

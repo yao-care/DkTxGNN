@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -68,10 +68,19 @@ Et mekanistisk overlap er plausibelt, fordi mastcelleaktivering og histaminrelat
 
 ## Denmark Market Information (Det danske marked)
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107358125 | Olopatadin "Epione" (Epione Medicine ApS) | Øjendråber, opløsning | Indikationstekst ikke tilgængelig |
-| 28106382020 | Ryaltris (Glenmark Pharmaceuticals s.r.o.) | Næsespray, suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106771422 | Olopatadin "Brown & Burk" | øjendråber, opløsning | OLOPATADINHYDROCHLORID | Gyldig |
+| 28107358125 | Olopatadin "Epione" | øjendråber, opløsning | OLOPATADINHYDROCHLORID | Gyldig |
+| 28107397225 | Olopatadin "Evolan" | øjendråber, opløsning | OLOPATADINHYDROCHLORID | Gyldig |
+| 28106102618 | Olopatadin "Juta" | øjendråber, opløsning | OLOPATADINHYDROCHLORID | Gyldig |
+| 28106489120 | Olopatadin "Orifarm" | øjendråber, opløsning | OLOPATADINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og gælder Olopatadin "Epione" (olopatadin som enkelt aktivt stof) og Ryaltris (kombinationspræparat med mometason). Da Ryaltris er en næsespray, er der ingen markedsført okulær formulering ud over øjendråberne fra Epione.
 

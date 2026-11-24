@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "levocabastine"
 predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
 description: "Levocabastine: forudsagt ny indikation Allergisk urticaria (allergic urticaria) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -84,9 +84,16 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101346388 | Benaliv (McNeil Denmark ApS) | Næsespray, suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101346388 | Benaliv | næsespray, suspension | Levocabastinhydrochlorid | Gyldig |
+| 28101346488 | Benaliv | øjendråber, suspension | Levocabastinhydrochlorid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser. Den videnbaserede…"
 monitor_inn: "caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
@@ -86,12 +86,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100665775 | Treo | Brusetabletter | Ikke angivet |
-| 28100711576 | Ergokoffin | Overtrukne tabletter | Ikke angivet |
-| 28104522209 | Arax Extra | Tabletter | Ikke angivet |
-| 28100725776 | Kodamid "DAK" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104522209 | Arax Extra | tabletter | Caffein, PARACETAMOL | Gyldig |
+| 28100725776 | Kodamid "DAK" | tabletter | Caffein, CODEINPHOSPHATHEMIHYDRAT, Magnesiumhydroxid, tungt, PROPYPHE… | Gyldig |
+| 28105935717 | Panodil Extra | filmovertrukne tabletter | Caffein, PARACETAMOL | Gyldig |
+| 28107241724 | Paracetamol/Caffein "Orifarm" | filmovertrukne tabletter | Caffein, PARACETAMOL | Gyldig |
+| 28100665775 | Treo | brusetabletter | ACETYLSALICYLSYRE, Caffein | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

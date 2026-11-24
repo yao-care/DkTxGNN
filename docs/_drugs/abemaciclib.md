@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 14
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Abemaciclib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,17 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Abemac
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105997117 | Verzenios | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105997117 | Verzenios | filmovertrukne tabletter | Abemaciclib | Gyldig |
+| 28105997217 | Verzenios | filmovertrukne tabletter | Abemaciclib | Gyldig |
+| 28105997017 | Verzenios | filmovertrukne tabletter | Abemaciclib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

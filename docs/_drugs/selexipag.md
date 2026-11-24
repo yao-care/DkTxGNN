@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 753
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Selexipag: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28107182324 | Selexipag "Accord" | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107182324 | Selexipag "Accord" | filmovertrukne tabletter | Selexipag | Gyldig |
+| 28107182424 | Selexipag "Accord" | filmovertrukne tabletter | Selexipag | Gyldig |
+| 28107182524 | Selexipag "Accord" | filmovertrukne tabletter | Selexipag | Gyldig |
+| 28107182624 | Selexipag "Accord" | filmovertrukne tabletter | Selexipag | Gyldig |
+| 28107181924 | Selexipag "Accord" | filmovertrukne tabletter | Selexipag | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

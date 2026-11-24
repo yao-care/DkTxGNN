@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 907
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Zonisamide: forudsagt ny indikation Tourettes syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom). Zon…"
 monitor_inn: "zonisamide"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -130,9 +130,19 @@ De to fundne publikationer er generelle artikler om antiepileptika (PMID [357559
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103611103 | Zonegran (Amdipharm Limited) | Kapsler, hårde | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103611103 | Zonegran | kapsler, hårde | ZONISAMID | Gyldig |
+| 28103610903 | Zonegran | kapsler, hårde | ZONISAMID | Gyldig |
+| 28103611003 | Zonegran | kapsler, hårde | ZONISAMID | Gyldig |
+| 28107162424 | Zonisamid "Desitin" | oral suspension | ZONISAMID | Gyldig |
+| 28107089823 | Zonisamid "Epione Medicine" | kapsler, hårde | ZONISAMID | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "chlortetracycline"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Chlortetracycline: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
@@ -67,6 +67,14 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige enkeltstofpræparater.
 

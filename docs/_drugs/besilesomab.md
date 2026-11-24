@@ -5,7 +5,7 @@ layout: default
 title: Besilesomab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 108
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Besilesomab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Besilesomab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28120224208 | Scintimun (Telix Innovations) | Radiofarmaceutisk præparationssæt | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28120224208 | Scintimun | radiofarmaceutisk præparationssæt | Besilesomab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

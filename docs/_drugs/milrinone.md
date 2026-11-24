@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Milrinone: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske registrering. Litteraturen beskriver intrav…"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -70,11 +70,18 @@ Der foreligger i øjeblikket ingen relateret litteratur for alopeci.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105826516 | Milnocor (Macure Pharma ApS) | Injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er 2 gyldige tilladelser (monopræparater). De foreligger udelukkende som injicerbar form, hvilket ikke uden videre passer til en indikation som hårtab, hvor lokal eller oral behandling ville være mere sandsynlig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105826516 | Milnocor | injektions-/infusionsvæske, opløsning | MILRINON | Gyldig |
+| 28107083723 | Milrinon "Stragen" | koncentrat til infusionsvæske, opløsning | MILRINON | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder monopræparater (antal og status står i Hurtigt overblik og i tabellen under markedsinformationen). De foreligger udelukkende som injicerbar form, hvilket ikke uden videre passer til en indikation som hårtab, hvor lokal eller oral behandling ville være mere sandsynlig.
 
 <!-- review:begin dk-lic-20261112-milrinone-1 -->
 
@@ -112,7 +119,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige tilladelser (monopræparater). De foreligger” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er kun én gyldig tilladelse (monopræparat). Den foreligger” → “Der er 2 gyldige tilladelser (monopræparater). De foreligger” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
 
 <!-- review:end log -->

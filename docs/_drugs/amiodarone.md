@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: forudsagt ny indikation Katecholaminerg polymorf ventrikulær takykardi (catecholaminergic polymorphic ventricular tachycardia) (evidensniveau L5)."
@@ -88,9 +88,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105965717 | Amiodaron "Hameln" | Koncentrat til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105965717 | Amiodaron "Hameln" | koncentrat til injektions-/infusionsvæske, opløsning | AMIODARONHYDROCHLORID | Gyldig |
+| 28106526220 | Amiodaronhydrochlorid "2care4" | tabletter | AMIODARONHYDROCHLORID | Gyldig |
+| 28103417202 | Cordan | tabletter | AMIODARONHYDROCHLORID | Gyldig |
+| 28106842422 | Cordarone | injektionsvæske, opløsning | AMIODARONHYDROCHLORID | Gyldig |
+| 28106327819 | Cordarone | tabletter | AMIODARONHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

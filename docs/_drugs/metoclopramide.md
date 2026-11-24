@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -97,9 +97,21 @@ Samme billede gælder for de øvrige forudsigelser (gastroduodenitis, peptisk ma
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105682815 | Metoclopramide "Accord" (Accord Healthcare B.V.) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105682815 | Metoclopramide "Accord" | tabletter | METOCLOPRAMIDHYDROCHLORID | Gyldig |
+| 28106960823 | Metoclopramide "G.L. Pharma" | injektionsvæske, opløsning | Metoclopramidhydrochloridmonohydrat | Gyldig |
+| 28107021323 | Metoclopramide "Medical Valley" | filmovertrukne tabletter | Metoclopramidhydrochloridmonohydrat | Gyldig |
+| 28107195924 | Metoclopramide "Noridem" | injektionsvæske, opløsning | Metoclopramidhydrochloridmonohydrat | Gyldig |
+| 28105221113 | Metoclopramide "Orifarm" | tabletter | METOCLOPRAMIDHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 5 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

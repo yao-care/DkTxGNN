@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adenosine"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Adenosine: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 5)"
 ---
 
@@ -70,9 +70,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101540293 | Adenocor (Sanofi A/S) | Injektionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106832322 | Adenocor | injektionsvæske, opløsning | ADENOSIN | Gyldig |
+| 28105292913 | Adenosin "Fresenius Kabi" | injektionsvæske, opløsning i fyldt injektionssprøjte | ADENOSIN | Gyldig |
+| 28101746695 | Adenosin "Life Medical" | injektions-/infusionsvæske, opløsning | ADENOSIN | Gyldig |
+| 28106475520 | Adenosin "Life Medical" | injektions-/infusionsvæske, opløsning | ADENOSIN | Gyldig |
+| 28107255724 | Adenosin "Macure" | injektions-/infusionsvæske, opløsning | ADENOSIN | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

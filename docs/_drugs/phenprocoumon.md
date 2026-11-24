@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PHENPROCOUMON"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "congenital coronary artery anomaly", "stroke disorder", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenprocoumon: forudsagt ny indikation Heparin cofactor 2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -83,9 +83,16 @@ Der er i øjeblikket ingen relevant litteratur for denne indikation.
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Indehaver |
-|---------|------|------|-----------|
-| 28104727310 | Marcoumar | Tabletter (oral) | 2care4 ApS |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104727310 | Marcoumar | tabletter | PHENPROCOUMON | Gyldig |
+| 28105338613 | Marcoumar | tabletter | PHENPROCOUMON | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der foreligger ingen godkendt indikationstekst i de indsamlede licensdata. Tilladelsen gælder et enkeltstofpræparat og har status gyldig.
 

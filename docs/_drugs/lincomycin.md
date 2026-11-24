@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Lincomycin: forudsagt ny indikation hyperamylasæmi (evidensniveau L5). Oprindelig indikation: Pneumokokinfektion, stafylokokinfektion og streptokokinfektion"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
@@ -81,6 +81,14 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 9 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Alle fem tilladelser er enkeltstofpræparater med status gyldig. Bemærk, at de angivne præparater er registreret som veterinære lægemidler (dosisformer til dyr), og at godkendte indikationstekster ikke er tilgængelige i de indsamlede data.
 

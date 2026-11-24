@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: forudsagt ny indikation Brachydaktyli-syndaktyli-syndrom (brachydactyly-syndactyly syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103012498 | Arava (Aventis Pharma Deutschland GmbH) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103012498 | Arava | filmovertrukne tabletter | LEFLUNOMID | Gyldig |
+| 28103012298 | Arava | filmovertrukne tabletter | LEFLUNOMID | Gyldig |
+| 28103012398 | Arava | filmovertrukne tabletter | LEFLUNOMID | Gyldig |
+| 28106584721 | Leflunomid "Egis" | filmovertrukne tabletter | LEFLUNOMID | Gyldig |
+| 28106585121 | Leflunomid "Egis" | filmovertrukne tabletter | LEFLUNOMID | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

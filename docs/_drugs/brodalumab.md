@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Brodalumab"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "episcleritis periodica fugax", "nodular episcleritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brodalumab: forudsagt ny indikation Strongyloidiasis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -80,9 +80,15 @@ Der er i øjeblikket ingen relateret litteratur for strongyloidiasis.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105697815 | Kyntheum (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105697815 | Kyntheum | injektionsvæske, opløsning i fyldt injektionssprøjte | Brodalumab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Der er tale om 1 gyldig tilladelse til et enkeltstofpræparat.
 

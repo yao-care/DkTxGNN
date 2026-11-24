@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: BCR-ABL1-positiv kronisk myeloid leukæmi"
 monitor_inn: "ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -78,9 +78,17 @@ For gingival fibromatose er der på nuværende tidspunkt ingen relateret littera
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105165512 | Iclusig (Incyte Biosciences Distribution) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105165512 | Iclusig | filmovertrukne tabletter | ponatinibhydrochlorid | Gyldig |
+| 28105607015 | Iclusig | filmovertrukne tabletter | ponatinibhydrochlorid | Gyldig |
+| 28105165612 | Iclusig | filmovertrukne tabletter | ponatinibhydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

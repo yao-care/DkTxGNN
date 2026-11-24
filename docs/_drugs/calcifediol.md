@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "calcifediol"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Calcifediol: forudsagt ny indikation Renal tubular acidosis (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -69,9 +69,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107351325 | Defevix | Kapsler, bløde | Indikationstekst ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107351325 | Defevix | kapsler, bløde | Calcifediolmonohydrat | Gyldig |
+| 28106256419 | Rayaldee | depotkapsler, bløde | Calcifediolmonohydrat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

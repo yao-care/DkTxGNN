@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 468
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine: forudsagt ny indikation Hovedpinelidelse (headache disorder) (evidensniveau L1). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -114,10 +114,18 @@ Flere af de øvrige fundne publikationer vedrører primært depression og er kun
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105493214 | Ketamin "Abcur" | Injektionsvæske, opløsning | Ikke angivet |
-| 28105493314 | Ketamin "Abcur" | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105493214 | Ketamin "Abcur" | injektionsvæske, opløsning | KETAMINHYDROCHLORID | Gyldig |
+| 28105493314 | Ketamin "Abcur" | injektionsvæske, opløsning | KETAMINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 7 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Bemærk: Anesketin er et veterinærlægemiddel. Der er ikke identificeret en human, godkendt ketaminpræparat-licens i de indsamlede data.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nebivolol: forudsagt ny indikation malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension (hypertensive lidelser)"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -95,12 +95,21 @@ Til sammenligning er der for den tredjerangerende forudsigelse, pulmonal hyperte
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28104444608 | Dublock (Alapis S.A.) | Tabletter | Ikke angivet i de indsamlede data |
-| MA 28104096107 | Hypoloc Comp (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103390802 | Hypoloc | tabletter | Nebivololhydrochlorid | Gyldig |
+| 28107225924 | Hypoloc | tabletter | Nebivololhydrochlorid | Gyldig |
+| 28106471020 | Nebivolol "Accord" | tabletter | Nebivololhydrochlorid | Gyldig |
+| 28106177618 | Nebivolol "Krka" | tabletter | Nebivololhydrochlorid | Gyldig |
+| 28104095707 | Nebivolol "Orion" | tabletter | Nebivololhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig; antal og status for de øvrige tilladelser står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-nebivolol-1 -->
 
@@ -144,7 +153,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Rettet: “Begge tilladelser er gyldige nationale tilladelser for monopræparater.” → “Begge er nationale tilladelser; Dublock (monopræparat) blev afregistreret 2026-10-08, mens Hypoloc Comp (kombinationspræparat) er gyldig.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->

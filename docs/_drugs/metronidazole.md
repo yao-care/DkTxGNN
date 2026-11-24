@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -92,15 +92,23 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105586315 | Flagyl | Filmovertrukne tabletter | Ikke angivet |
-| 28105929117 | Flagyl | Filmovertrukne tabletter | Ikke angivet |
-| 28105874816 | Flagyl | Vagitorier | Ikke angivet |
-| 28106095818 | Flagyl | Vagitorier | Ikke angivet |
-| 28104707310 | Metronidazol "2care4" | Creme | Ikke angivet |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige enkeltstofpræparater fra Lægemiddelstyrelsen.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105586315 | Flagyl | filmovertrukne tabletter | METRONIDAZOL | Gyldig |
+| 28105929117 | Flagyl | filmovertrukne tabletter | METRONIDAZOL | Gyldig |
+| 28105874816 | Flagyl | vagitorier | METRONIDAZOL | Gyldig |
+| 28106095818 | Flagyl | vagitorier | METRONIDAZOL | Gyldig |
+| 28104707310 | Metronidazol "2care4" | creme | METRONIDAZOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 14 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261105-metronidazole-1 -->
 
@@ -156,7 +164,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-05 | Fjernet: "Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette" | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-05 | Fjernet: "Produktnavnene tyder på, at begge er dyrelægemidler (veterinære); de data, der er indsamlet til denne rapport, bekræfter dog ikke dette" | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

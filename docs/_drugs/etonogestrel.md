@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etonogestrel: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (implantatet er et hormonelt præv…"
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
@@ -80,9 +80,19 @@ Der er ingen kliniske forsøg registreret for den forudsagte indikation.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103037998 | Nexplanon (N.V. Organon) | Implantat | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103037998 | Nexplanon | implantat | ETONOGESTREL | Gyldig |
+| 28104899611 | Nexplanon | implantat | ETONOGESTREL | Gyldig |
+| 28106873122 | Nexplanon | implantat | ETONOGESTREL | Gyldig |
+| 28103237201 | NuvaRing | vaginalindlæg | Ethinylestradiol, ETONOGESTREL | Gyldig |
+| 28105748716 | Ornibel | vaginalindlæg | Ethinylestradiol, ETONOGESTREL | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

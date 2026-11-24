@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Clarithromycin: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107108924 | Clarithromycin 1A Pharma | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105735316 | Clarithromycin "Accord" | filmovertrukne tabletter | CLARITHROMYCIN | Gyldig |
+| 28105735416 | Clarithromycin "Accord" | filmovertrukne tabletter | CLARITHROMYCIN | Gyldig |
+| 28105335313 | Clarithromycin "Alternova" | pulver til infusionsvæske, opløsning | CLARITHROMYCIN | Gyldig |
+| 28103649604 | Clarithromycin "Hexal" | filmovertrukne tabletter | CLARITHROMYCIN | Gyldig |
+| 28105719216 | Clarithromycin "Krka" | filmovertrukne tabletter | CLARITHROMYCIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

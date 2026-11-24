@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Imidacloprid"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "non-syndromic esophageal malformation", "esophageal disease", "mitral valve prolapse (disease)", "neurocirculatory asthenia", "familial mitral valve prolapse", "MVP1"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Imidacloprid: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 ---
 
@@ -86,6 +86,14 @@ Til sammenligning findes der for den femte forudsagte indikation (esophagussygdo
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 29 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Der er tale om ét dyrelægemiddel, som er gyldigt og markedsført. Tilladelsen omfatter ikke human anvendelse.
 

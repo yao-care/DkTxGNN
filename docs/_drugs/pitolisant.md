@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitolisant: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Narkolepsi (med eller uden katapleksi)"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
@@ -99,9 +99,18 @@ Nedenstående publikationer blev fundet, men ingen af dem undersøger pitolisant
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105769616 | Wakix (Bioprojet Pharma) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106364319 | Ozawade | filmovertrukne tabletter | Pitolisanthydrochlorid | Gyldig |
+| 28106364219 | Ozawade | filmovertrukne tabletter | Pitolisanthydrochlorid | Gyldig |
+| 28105769616 | Wakix | filmovertrukne tabletter | Pitolisant | Gyldig |
+| 28105769516 | Wakix | filmovertrukne tabletter | Pitolisant | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

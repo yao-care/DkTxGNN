@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Lactulose: forudsagt ny indikation Acute urate nephropathy (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -83,9 +83,16 @@ Udvalgte publikationer (højst 10). Typer er angivet, som de fremgår af dataene
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103530303 | Lactulose "Orifarm" (Orifarm Generics A/S) | Oral opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103530303 | Lactulose "Orifarm" | oral opløsning | Lactulose | Gyldig |
+| 28103624103 | Medilax | oral opløsning | Lactulose | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er national, gyldig og for et enkeltstofpræparat. Listen er komplet.
 

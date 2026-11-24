@@ -5,7 +5,7 @@ layout: default
 title: Thiamphenicol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 822
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Thiamphenicol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Thiamphenicol"
 predicted_indications: []
@@ -47,6 +47,14 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Bemærk, at det eneste godkendte præparat er et veterinærlægemiddel til anvendelse på huden. Der er ingen kendte humane præparater med thiamphenicol i de indsamlede data, og en kutan formulering er næppe egnet til en hjertetilstand.
 

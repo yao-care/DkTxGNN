@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamoxifen: forudsagt ny indikation Mammary Paget disease (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -93,9 +93,17 @@ Evidensen er dog indirekte. Litteraturen består af case-rapporter og retrospekt
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101255886 | Tamoxifen "Viatris" (Viatris Limited) | Tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103814905 | Tamoxifen "Sandoz" | filmovertrukne tabletter | TAMOXIFENCITRAT | Gyldig |
+| 28101255886 | Tamoxifen "Viatris" | tabletter | TAMOXIFEN | Gyldig |
+| 28101255986 | Tamoxifen "Viatris" | tabletter | TAMOXIFEN | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er national og gyldig; der er ikke registreret tilladelser for kombinationsprodukter.
 

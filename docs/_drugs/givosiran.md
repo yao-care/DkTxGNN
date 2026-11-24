@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 description: "Givosiran: forudsagt ny indikation Hepatoportal sclerosis (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -94,9 +94,15 @@ Der er for tiden ingen relaterede kliniske forsøg registreret for denne forudsa
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106302019 | Givlaari (Alnylam Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106302019 | Givlaari | injektionsvæske, opløsning | Givosirannatrium | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

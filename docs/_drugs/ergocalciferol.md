@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ergocalciferol: forudsagt ny indikation Akromesomelisk dysplasi, Campailla-Martinelli-type (acromesomelic dysplasia, Campailla Martinelli type) (evidensniveau L5)."
 ---
 
@@ -70,9 +70,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100696076 | Vitalipid Adult (Fresenius Kabi AB) | Koncentrat til infusionsvæske, emulsion | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100696076 | Vitalipid Adult | koncentrat til infusionsvæske, emulsion | alfa-Tocopherol, RRR-, Ergocalciferol, PHYTOMENADION, Retinolpalmitat | Gyldig |
+| 28100697276 | Vitalipid Infant | koncentrat til infusionsvæske, emulsion | alfa-Tocopherol, RRR-, Ergocalciferol, PHYTOMENADION, Retinolpalmitat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

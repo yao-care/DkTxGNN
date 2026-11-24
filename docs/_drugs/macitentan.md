@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 518
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Macitentan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -73,9 +73,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Macite
 
 ## Oplysninger om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28107176624 | Macitentan Accord | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107146124 | Macitentan "Devatis" | filmovertrukne tabletter | Macitentan | Gyldig |
+| 28107094623 | Macitentan "Glenmark" | filmovertrukne tabletter | Macitentan | Gyldig |
+| 28107093723 | Macitentan "Newbury" | filmovertrukne tabletter | Macitentan | Gyldig |
+| 28107174924 | Macitentan "Sandoz" | filmovertrukne tabletter | Macitentan | Gyldig |
+| 28107101824 | Macitentan "Stada" | filmovertrukne tabletter | Macitentan | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

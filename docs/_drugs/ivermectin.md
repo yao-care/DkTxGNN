@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivermectin: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). Oprindelig indikation: Strongyloidiasis og onchocerciasis"
 ---
 
@@ -76,13 +76,21 @@ Bemærk: For andre forudsagte candidiasis-indikationer er der fundet to artikler
 
 ## Markedsinformation i Danmark
 
-| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106797922 | Ivermectin "Carefarm" | Tabletter | Ikke angivet |
-| 28107602026 | Ivermectin "Epione" | Tabletter | Ikke angivet |
-| 28106780422 | Ivermectin "Mashal" | Tabletter | Ikke angivet |
-| 28107073723 | Ivermectin "Medartuum" | Tabletter | Ikke angivet |
-| 28106601321 | Ivermectin "Medical Valley" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106797922 | Ivermectin "Carefarm" | tabletter | Ivermectin | Gyldig |
+| 28107602026 | Ivermectin "Epione" | tabletter | Ivermectin | Gyldig |
+| 28106780422 | Ivermectin "Mashal" | tabletter | Ivermectin | Gyldig |
+| 28107073723 | Ivermectin "Medartuum" | tabletter | Ivermectin | Gyldig |
+| 28106601321 | Ivermectin "Medical Valley" | tabletter | Ivermectin | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 19 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dexrazoxane: forudsagt ny indikation Skleroserende kolangitis (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 monitor_inn: "dexrazoxane"
 predicted_indications: ["sclerosing cholangitis", "bronchitis", "paratyphoid fever", "conjunctivitis", "epiglottitis", "peritonitis", "laryngitis", "urinary tract infection (disease)", "pyelonephritis", "cystitis"]
@@ -97,9 +97,15 @@ For den næstrangerede cystitis-hypotese er følgende litteratur fundet (ingen d
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103831505 | Savene (CNX Therapeutics Ireland Ltd.) | Pulver og solvens til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103831505 | Savene | pulver og solvens til koncentrat til infusionsvæske, opløsn… | DEXRAZOXANHYDROCHLORID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

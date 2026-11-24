@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 680
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: forudsagt ny indikation Alopecia areata (evidensniveau L2). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -83,13 +83,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105565015 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
-| 28105564815 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
-| 28105565215 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
-| 28105564915 | Prednisolon "Actavis" | Tabletter | Ikke angivet |
-| 28100744276 | Prednisolon "DAK" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105565015 | Prednisolon "Actavis" | tabletter | PREDNISOLON | Gyldig |
+| 28105564815 | Prednisolon "Actavis" | tabletter | PREDNISOLON | Gyldig |
+| 28105565215 | Prednisolon "Actavis" | tabletter | PREDNISOLON | Gyldig |
+| 28105564915 | Prednisolon "Actavis" | tabletter | PREDNISOLON | Gyldig |
+| 28100744276 | Prednisolon "DAK" | tabletter | PREDNISOLON | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 15 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige enkeltstof-tilladelser. Produktnavnene og producenterne indikerer, at der er tale om veterinærlægemidler, og der er ikke fundet humane prednisolonpræparater i de data, der er indsamlet til denne rapport.
 

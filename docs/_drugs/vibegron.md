@@ -5,7 +5,7 @@ layout: default
 title: Vibegron
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 884
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Vibegron: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Vibegron"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106959823 | Obgemsa (Pierre Fabre Medicament) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106959823 | Obgemsa | filmovertrukne tabletter | Vibegron | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Indgivelsesvej: oral.
 

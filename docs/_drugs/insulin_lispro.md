@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus samt diabetisk ketoacidose"
 ---
 
@@ -98,9 +98,19 @@ Til orientering er der for rang 7 (pancreasagenesi) fundet én artikel, som ikke
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101706394 | Humalog | Injektionsvæske | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107015623 | Bysumlog | injektionsvæske, opløsning i fyldt pen | Insulin lispro | Gyldig |
+| 28101706394 | Humalog | injektionsvæske | Insulin lispro | Gyldig |
+| 28101890497 | Humalog | injektionsvæske | Insulin lispro | Gyldig |
+| 28104865711 | Humalog KwikPen | injektionsvæske, opløsning | Insulin lispro | Gyldig |
+| 28105382914 | Humalog KwikPen | injektionsvæske, opløsning i fyldt pen | Insulin lispro | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Antal godkendelser: mindst 20 nationale tilladelser (enkeltstofpræparater), gyldige.
 

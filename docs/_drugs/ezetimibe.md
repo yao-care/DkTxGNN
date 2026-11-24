@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: forudsagt ny indikation Kolesterolester-transferprotein-mangel (evidensniveau L5). Oprindelig indikation: Hyperlipidæmi og beslægtede lidelser"
 ---
 
@@ -89,11 +89,19 @@ Ingen af de fundne publikationer undersøger direkte ezetimib ved CETP-mangel. D
 
 Godkendelsesteksten for indikationerne er ikke angivet i de tilgængelige data.
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105500214 | Carditimib | Tabletter | Ikke angivet |
-| 28106230919 | Nustendi | Filmovertrukne tabletter | Ikke angivet |
-| 28106300219 | Ezetimibe/Simvastatin "Accord" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105500214 | Carditimib | tabletter | EZETIMIB | Gyldig |
+| 28105854416 | Cildar | tabletter | EZETIMIB | Gyldig |
+| 28105665415 | Ezetimib "Actavis" | tabletter | EZETIMIB | Gyldig |
+| 28105709015 | Ezetimib "Krka" | tabletter | EZETIMIB | Gyldig |
+| 28105751016 | Ezetimib "Medical Valley" | tabletter | EZETIMIB | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Bemærk: Nustendi og Ezetimibe/Simvastatin "Accord" er i praksis kombinationspræparater. Deres tilladelser siger derfor ikke noget om, hvordan ezetimib som enkeltstof er godkendt.
 

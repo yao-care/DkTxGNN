@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -63,6 +63,20 @@ Allergisk, atopisk, papillær og vernal konjunktivitis er histaminmedierede tils
 Forbindelsen er imidlertid indirekte og ikke valideret. Okulær rosacea drives primært af dysfunktion i meibomske kirtler, inflammation i øjenlågsranden, mikrobielle faktorer og Demodex samt medfødt immunaktivitet med cytokin- og MMP-aktivering. Histamin er sandsynligvis kun en mindre bidragyder. Den meget høje TxGNN-score er alene en beregningsmæssig forudsigelse og kan ikke erstatte klinisk evidens.
 
 ## Denmark Market Information
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105689015 | Alnodine | filmovertrukne tabletter | FEXOFENADINHYDROCHLORID | Gyldig |
+| 28103632304 | Alterfast | filmovertrukne tabletter | FEXOFENADINHYDROCHLORID | Gyldig |
+| 28103632404 | Alterfast | filmovertrukne tabletter | FEXOFENADINHYDROCHLORID | Gyldig |
+| 28103888605 | Altifex | filmovertrukne tabletter | FEXOFENADINHYDROCHLORID | Gyldig |
+| 28103888705 | Altifex | filmovertrukne tabletter | FEXOFENADINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Se afsnittet nedenfor om det danske marked.
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citalopram: forudsagt ny indikation Tvangslidelse (obsessive-compulsive disorder) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -86,9 +86,19 @@ Der foreligger ingen fase 3-forsøg med citalopram ved tvangslidelse i de indsam
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101324888 | Cipramil | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101324888 | Cipramil | filmovertrukne tabletter | CITALOPRAMHYDROBROMID | Gyldig |
+| 28101324988 | Cipramil | filmovertrukne tabletter | CITALOPRAMHYDROBROMID | Gyldig |
+| 28101916897 | Cipramil | filmovertrukne tabletter | CITALOPRAMHYDROBROMID | Gyldig |
+| 28101325088 | Cipramil | filmovertrukne tabletter | CITALOPRAMHYDROBROMID | Gyldig |
+| 28107582226 | Citalopram "Epione" | filmovertrukne tabletter | CITALOPRAMHYDROBROMID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

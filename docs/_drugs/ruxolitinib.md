@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: forudsagt ny indikation Uterine corpus perivascular epithelioid cell tumor (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -80,9 +80,19 @@ Aktuelt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107228824 | Ruxolitinib "Vivanta" (Vivanta Generics s.r.o.) | Tabletter (oral) | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107082123 | Jakavi | oral opløsning | Ruxolitinibphosphat | Gyldig |
+| 28105381014 | Jakavi | tabletter | Ruxolitinibphosphat | Gyldig |
+| 28104927711 | Jakavi | tabletter | Ruxolitinibphosphat | Gyldig |
+| 28104927811 | Jakavi | tabletter | Ruxolitinibphosphat | Gyldig |
+| 28104927611 | Jakavi | tabletter | Ruxolitinibphosphat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er mindst 20 gyldige nationale markedsføringstilladelser for enkeltstofpræparater. Ingen er annulleret.
 

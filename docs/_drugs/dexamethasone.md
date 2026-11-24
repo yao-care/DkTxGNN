@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: forudsagt ny indikation Alopecia mucinosa (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -68,9 +68,21 @@ Der er i øjeblikket ingen relateret litteratur for alopecia mucinosa.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106123618 | Oridecin | Øjendråber, suspension | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106606821 | Axiumopto | øjendråber, opløsning, enkeltdosisbeholder | DEXAMETHASONNATRIUMPHOSPHAT | Gyldig |
+| 28106377919 | Dexacur | injektions-/infusionsvæske, opløsning | DEXAMETHASONNATRIUMPHOSPHAT | Gyldig |
+| 28106997123 | Dexafree | øjendråber, opløsning, enkeltdosisbeholder | DEXAMETHASONNATRIUMPHOSPHAT | Gyldig |
+| 28107118724 | Dexafree | øjendråber, opløsning, enkeltdosisbeholder | DEXAMETHASONNATRIUMPHOSPHAT | Gyldig |
+| 28107468125 | Dexafree | øjendråber, opløsning, enkeltdosisbeholder | DEXAMETHASONNATRIUMPHOSPHAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 10 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Alle tre tilladelser er gyldige og omfatter præparater med dexamethason som eneste aktive stof. Der er ikke registreret godkendt indikationstekst i de lokale data. Bemærk, at Dexacortone Vet. er et veterinærlægemiddel, og at ingen af de registrerede formuleringer er til systemisk humant brug eller direkte målrettet mod hudsygdomme.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -75,9 +75,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105870116 | Darunavir "Krka" | Filmovertrukne tabletter | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105870116 | Darunavir "Krka" | filmovertrukne tabletter | Darunavir | Gyldig |
+| 28105870216 | Darunavir "Krka" | filmovertrukne tabletter | Darunavir | Gyldig |
+| 28105870316 | Darunavir "Krka" | filmovertrukne tabletter | Darunavir | Gyldig |
+| 28105651215 | Darunavir "Mylan" | filmovertrukne tabletter | Darunavir | Gyldig |
+| 28105651315 | Darunavir "Mylan" | filmovertrukne tabletter | Darunavir | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

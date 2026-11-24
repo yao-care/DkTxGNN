@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 210
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: forudsagt ny indikation Rastløse ben-syndrom (restless legs syndrome) (evidensniveau L3). Oprindelig indikation: Early myoclonic encephalopathy, absence-epilepsi…"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -93,9 +93,19 @@ Currently ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107322125 | Clonazepam "G.L. Pharma" | Tabletter | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107322125 | Clonazepam "G.L. Pharma" | tabletter | CLONAZEPAM | Gyldig |
+| 28107322225 | Clonazepam "G.L. Pharma" | tabletter | CLONAZEPAM | Gyldig |
+| 28106911323 | Clonazepam "Holsten" | tabletter | CLONAZEPAM | Gyldig |
+| 28106911523 | Clonazepam "Holsten" | tabletter | CLONAZEPAM | Gyldig |
+| 28106546820 | Iqtopam | koncentrat til injektions-/infusionsvæske, opløsning | CLONAZEPAM | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

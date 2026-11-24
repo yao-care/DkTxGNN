@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 469
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ketoconazole: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Svampeinfektioner i huden (bl.a. tinea pedis, seboroisk dermatitis…"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -92,13 +92,21 @@ Størstedelen af de øvrige fundne publikationer (bl.a. om PCOS og ektopisk Cush
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105380914 | Ketoconazole Esteve | Tabletter | Ikke angivet |
-| 28103470003 | Ketoconazole Shampoo "Actavis" 2 % | Shampoo | Ikke angivet |
-| 28101173483 | Nizoral | Creme | Ikke angivet |
-| 28101720894 | Nizoral | Shampoo | Ikke angivet |
-| 28101333788 | Nizoral | Shampoo | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105380914 | Ketoconazole Esteve | tabletter | KETOCONAZOL | Gyldig |
+| 28103470003 | Ketoconazole Shampoo "Actavis" 2 % | shampoo | KETOCONAZOL | Gyldig |
+| 28101173483 | Nizoral | creme | KETOCONAZOL | Gyldig |
+| 28101720894 | Nizoral | shampoo | KETOCONAZOL | Gyldig |
+| 28101333788 | Nizoral | shampoo | KETOCONAZOL | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Produktet er et veterinærlægemiddel (Dechra Regulatory B.V.), og der er ikke fundet nogen godkendt topikal formulering til mennesker i de data, der er indsamlet til denne rapport.
 

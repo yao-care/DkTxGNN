@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Colchicine: forudsagt ny indikation Plasmodium falciparum-malaria (Plasmodium falciparum malaria) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -73,9 +73,19 @@ Der er for øjeblikket ingen relevante kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106588021 | Colchicin "Strides" | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106588021 | Colchicin "Strides" | tabletter | Colchicin | Gyldig |
+| 28105948217 | Colchicin "Tiofarma" | tabletter | Colchicin | Gyldig |
+| 28105948317 | Colchicin "Tiofarma" | tabletter | Colchicin | Gyldig |
+| 28107381125 | Colchicin AGEPHA Pharma | tabletter | Colchicin | Gyldig |
+| 28105408114 | Colrefuz | tabletter | Colchicin | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

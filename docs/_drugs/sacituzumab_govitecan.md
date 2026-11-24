@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacituzumab Govitecan: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
 monitor_inn: "Sacituzumab govitecan"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -87,9 +87,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106584521 | Trodelvy (Gilead Sciences Ireland UC) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106584521 | Trodelvy | pulver til koncentrat til infusionsvæske, opløsning | Sacituzumab govitecan | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Lægemidlet gives som injektion/infusion.
 

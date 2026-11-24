@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Reteplase: forudsagt ny indikation Medfødt koronararterieanomali (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de indsamlede licensdata. I vidensg…"
 ---
 
@@ -82,9 +82,15 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101765295 | Rapilysin (Actavis Group PTC ehf.) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101765295 | Rapilysin | pulver og solvens til injektionsvæske, opløsning | RETEPLASE | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

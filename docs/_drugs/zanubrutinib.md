@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Zanubrutinib"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Zanubrutinib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -94,9 +94,16 @@ Ingen af publikationerne undersøger direkte zanubrutinib ved myeloid leukæmi. 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107188324 | Brukinsa | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107188324 | Brukinsa | filmovertrukne tabletter | Zanubrutinib | Gyldig |
+| 28106451520 | Brukinsa | kapsler, hårde | Zanubrutinib | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstof-tilladelse (indehaver: BeOne Medicines Ireland Limited) og er gyldig.
 

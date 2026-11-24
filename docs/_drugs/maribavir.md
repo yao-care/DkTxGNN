@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -70,6 +70,16 @@ Bevissamlingen indeholder to blokkerende og en alvorlig datakløft, som tilsamme
 ---
 
 ## Medicinsinformationer for Danmark
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106631521 | LIVTENCITY | filmovertrukne tabletter | Maribavir | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Maribavir **markedsføres ikke i øjeblikket i Danmark** ifølge bevissamlingen. Der er ingen aktive markeringsgodkendelser registreret hos Lægemiddelstyrelsen eller via EMA's centraliserede procedure.
 

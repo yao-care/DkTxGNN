@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride: forudsagt ny indikation Classic stiff person syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -82,11 +82,19 @@ Der er i øjeblikket ingen relateret litteratur for den primære forudsagte indi
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104240707 | Glimepirid "Bluefish" | Tabletter | Indikationstekst ikke angivet |
-| 28104188207 | Tandemact | Tabletter | Indikationstekst ikke angivet |
-| 28103811905 | Avaglim | Filmovertrukne tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107594926 | Glimepirid "2care4" | tabletter | GLIMEPIRID | Gyldig |
+| 28107640026 | Glimepirid "Abacus Medicine" | tabletter | GLIMEPIRID | Gyldig |
+| 28104240707 | Glimepirid "Bluefish" | tabletter | GLIMEPIRID | Gyldig |
+| 28104240807 | Glimepirid "Bluefish" | tabletter | GLIMEPIRID | Gyldig |
+| 28104240907 | Glimepirid "Bluefish" | tabletter | GLIMEPIRID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Mindst 20 tilladelser er gyldige. Administrationsvejen er oral.
 

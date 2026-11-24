@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -88,9 +88,16 @@ Alle publikationer omhandler hepatitis C (herunder hos personer med HIV); ingen 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105901416 | Maviret | Filmovertrukne tabletter | Indikationsteksten er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105901416 | Maviret | filmovertrukne tabletter | Glecaprevir, Pibrentasvir | Gyldig |
+| 28106420120 | Maviret | granulat i brev | Glecaprevir, Pibrentasvir | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

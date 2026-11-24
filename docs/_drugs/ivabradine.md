@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine: forudsagt ny indikation Hypertrichose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (indikationsteksten for den danske m…"
 monitor_inn: "ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -82,9 +82,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103666404 | Corlentor (Les Laboratoires Servier) | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103666404 | Corlentor | filmovertrukne tabletter | ivabradinhydrochlorid | Gyldig |
+| 28103666504 | Corlentor | filmovertrukne tabletter | ivabradinhydrochlorid | Gyldig |
+| 28105687915 | Ivabradin "Krka" | filmovertrukne tabletter | ivabradinhydrochlorid | Gyldig |
+| 28105688015 | Ivabradin "Krka" | filmovertrukne tabletter | ivabradinhydrochlorid | Gyldig |
+| 28105692915 | Ivabradin "Medical Valley" | filmovertrukne tabletter | ivabradinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administration: oral. Status: gyldig, enkeltstofpræparat.
 

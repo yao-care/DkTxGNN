@@ -5,7 +5,7 @@ layout: default
 title: Sparsentan
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 772
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sparsentan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Sparsentan"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106812422 | Filspari (Vifor France) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de kompilerede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106812422 | Filspari | filmovertrukne tabletter | Sparsentan | Gyldig |
+| 28106812522 | Filspari | filmovertrukne tabletter | Sparsentan | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

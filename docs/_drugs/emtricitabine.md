@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Emtricitabine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -90,13 +90,19 @@ Der er mindst 20 gyldige tilladelser, alle til lægemidler med emtricitabin som 
 
 <!-- review:end dk-lic-20261112-emtricitabine-1 -->
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103461203 | Emtriva | Kapsler, hårde | Ikke angivet |
-| 28105622115 | Descovy | Filmovertrukne tabletter | Ikke angivet |
-| 28105970117 | Biktarvy | Filmovertrukne tabletter | Ikke angivet |
-| 28105550014 | Genvoya | Filmovertrukne tabletter | Ikke angivet |
-| 28105715215 | Emtricitabine/Tenofovir disoproxil "Krka" | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103461203 | Emtriva | kapsler, hårde | EMTRICITABIN | Gyldig |
+| 28103461303 | Emtriva | oral opløsning | EMTRICITABIN | Gyldig |
+| 28106641421 | Biktarvy | filmovertrukne tabletter | Bictegravirnatrium, EMTRICITABIN, Tenofovir alafenamid fumarat | Gyldig |
+| 28105970117 | Biktarvy | filmovertrukne tabletter | Bictegravirnatrium, EMTRICITABIN, tenofovir alafenamid | Gyldig |
+| 28105622115 | Descovy | filmovertrukne tabletter | EMTRICITABIN, tenofovir alafenamid | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

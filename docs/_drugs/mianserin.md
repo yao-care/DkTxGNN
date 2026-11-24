@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale dat"
@@ -89,9 +89,19 @@ Til orientering er der for de nærliggende indikationer fundet følgende mest re
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105830616 | Mianserinhydrochlorid "2care4" (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103474603 | Mianserin "Orifarm" | filmovertrukne tabletter | MIANSERINHYDROCHLORID | Gyldig |
+| 28103474703 | Mianserin "Orifarm" | filmovertrukne tabletter | MIANSERINHYDROCHLORID | Gyldig |
+| 28103474803 | Mianserin "Orifarm" | filmovertrukne tabletter | MIANSERINHYDROCHLORID | Gyldig |
+| 28101339488 | Mianserin "Viatris" | filmovertrukne tabletter | MIANSERINHYDROCHLORID | Gyldig |
+| 28101344088 | Mianserin "Viatris" | filmovertrukne tabletter | MIANSERINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

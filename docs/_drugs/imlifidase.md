@@ -5,7 +5,7 @@ layout: default
 title: Imlifidase
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 433
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Imlifidase: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Imlifidase"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106226719 | Idefirix (Hansa Biopharma AB) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106226719 | Idefirix | pulver til koncentrat til infusionsvæske, opløsning | Imlifidase | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: forudsagt ny indikation gastrisk adenokarcinom og proksimal polypose i maven (gastric adenocarcinoma and proximal polyposis of the stomach) (evidensniveau L5). Oprindelig indikation: Ik…"
 ---
 
@@ -72,9 +72,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104891211 | Capecitabine Accord | Filmovertrukne tabletter | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104867911 | Capecitabin "Stada" | filmovertrukne tabletter | CAPECITABIN | Gyldig |
+| 28104868011 | Capecitabin "Stada" | filmovertrukne tabletter | CAPECITABIN | Gyldig |
+| 28104890611 | Capecitabin "Teva" | filmovertrukne tabletter | CAPECITABIN | Gyldig |
+| 28104890711 | Capecitabin "Teva" | filmovertrukne tabletter | CAPECITABIN | Gyldig |
+| 28106047117 | Capecitabin "Zentiva" | filmovertrukne tabletter | CAPECITABIN | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

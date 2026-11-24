@@ -5,7 +5,7 @@ layout: default
 title: Sargramostim
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 749
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sargramostim: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Sargramostim"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107163624 | Imreplys (Partner Therapeutics Limited) | Pulver til injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107163624 | Imreplys | pulver til injektionsvæske, opløsning | SARGRAMOSTIM | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

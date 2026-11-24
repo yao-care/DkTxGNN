@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Flurbiprofen: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5)."
 ---
 
@@ -80,9 +80,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107172924 | Flurbiprofen "Stada" | Mundhulespray, opløsning | Indikationstekst er ikke angivet i data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107172924 | Flurbiprofen "Stada" | mundhulespray, opløsning | FLURBIPROFEN | Gyldig |
+| 28107069523 | Flurbiprofen "Stada" | sugetabletter | FLURBIPROFEN | Gyldig |
+| 28107520725 | Mebylin | sugetabletter | FLURBIPROFEN | Gyldig |
+| 28106220419 | Steflam | sugetabletter | FLURBIPROFEN | Gyldig |
+| 28104242207 | Strefen | sugetabletter | FLURBIPROFEN | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Producent: STADA Arzneimittel AG. Tilladelsen er gyldig.
 

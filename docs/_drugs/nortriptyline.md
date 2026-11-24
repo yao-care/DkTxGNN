@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 595
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). Oprindelig indikation: Ikke registreret i de lokale …"
@@ -97,10 +97,19 @@ Yderligere fundne publikationer (blandt andet en sikkerhedsrapport om clonidin o
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100439163 | Noritren (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28100444263 | Noritren (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100444263 | Noritren | filmovertrukne tabletter | NORTRIPTYLIN | Gyldig |
+| 28100439163 | Noritren | filmovertrukne tabletter | Nortriptylinhydrochlorid | Gyldig |
+| 28101140683 | Noritren | filmovertrukne tabletter | Nortriptylinhydrochlorid | Gyldig |
+| 28107193224 | Nortriptylin ”RIA” | tabletter | Nortriptylinhydrochlorid | Gyldig |
+| 28107193424 | Nortriptylin ”RIA” | tabletter | Nortriptylinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige nationale tilladelser (enkeltstofpræparater). Lægemidlet findes kun som tabletter til oral anvendelse.
 

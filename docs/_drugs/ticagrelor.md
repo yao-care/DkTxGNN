@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor: forudsagt ny indikation Intrakraniel arteriosklerose (evidensniveau L5). Oprindelig indikation: Akut koronarsyndrom, perifer karsygdom…"
 ---
 
@@ -91,9 +91,19 @@ Der foreligger desuden randomiseret evidens for ticagrelor ved akut iskæmisk sl
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform |
-|---------|------|------|
-| 28105591315 | Brilique (AstraZeneca AB) | Filmovertrukne tabletter |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105591315 | Brilique | filmovertrukne tabletter | Ticagrelor | Gyldig |
+| 28104617409 | Brilique | filmovertrukne tabletter | Ticagrelor | Gyldig |
+| 28105787716 | Brilique | smeltetabletter | Ticagrelor | Gyldig |
+| 28106801122 | Lacrat | filmovertrukne tabletter | Ticagrelor | Gyldig |
+| 28106801222 | Lacrat | filmovertrukne tabletter | Ticagrelor | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er registreret mindst 20 tilladelser (enkeltstof, gyldige). Indikationsteksten er ikke angivet i de indsamlede data.
 

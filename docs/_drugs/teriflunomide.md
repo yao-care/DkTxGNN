@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 812
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Teriflunomide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Alle kandidater, som TxGNN-modellen har foreslået for Teriflunomide, og som kan
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105052312 | Aubagio | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105052312 | Aubagio | filmovertrukne tabletter | Teriflunomid | Gyldig |
+| 28106443020 | Aubagio | filmovertrukne tabletter | Teriflunomid | Gyldig |
+| 28106713421 | Clefirem | filmovertrukne tabletter | Teriflunomid | Gyldig |
+| 28107484425 | Teriflunomid "Devatis" | filmovertrukne tabletter | Teriflunomid | Gyldig |
+| 28107484325 | Teriflunomid "Devatis" | filmovertrukne tabletter | Teriflunomid | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsmæssige overvejelser
 

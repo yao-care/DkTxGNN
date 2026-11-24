@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 627
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: forudsagt ny indikation Migraine disorder (migræne) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de data…"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -83,13 +83,21 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103562503 | Aloxi | Injektionsvæske, opløsning | Ikke angivet |
-| 28106508820 | Akynzeo | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28105375314 | Akynzeo | Kapsler, hårde | Ikke angivet |
+<!-- licenses:begin -->
 
-Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceuticals Ltd.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103562503 | Aloxi | injektionsvæske, opløsning | PALONOSETRONHYDROCHLORID | Gyldig |
+| 28104445008 | Aloxi | kapsler, bløde | PALONOSETRONHYDROCHLORID | Gyldig |
+| 28105622315 | Palonosetron "Accord" | injektionsvæske, opløsning | PALONOSETRONHYDROCHLORID | Gyldig |
+| 28107480225 | Palonosetron "Kalceks" | injektionsvæske, opløsning | PALONOSETRONHYDROCHLORID | Gyldig |
+| 28105582515 | Palonosetron "Macure" | injektionsvæske, opløsning | PALONOSETRONHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem indehaves af Helsinn Birex Pharmaceuticals Ltd.
 
 <!-- review:begin dk-lic-20261112-palonosetron-1 -->
 
@@ -138,7 +146,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceut” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Helsinn Birex Pharmaceuticals Lt” → “Alle 12 tilladelser er gyldige; tre af dem indehaves af Helsinn Birex Pharmaceut” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->

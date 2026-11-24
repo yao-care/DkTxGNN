@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: forudsagt ny indikation Skizoid personlighedsforstyrrelse (schizoid personality disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -70,9 +70,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret for denne forudsa
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107154424 | Sertralin "2care4" (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107154424 | Sertralin "2care4" | filmovertrukne tabletter | SERTRALINHYDROCHLORID | Gyldig |
+| 28105521914 | Sertralin "Accord" | filmovertrukne tabletter | SERTRALINHYDROCHLORID | Gyldig |
+| 28105521814 | Sertralin "Accord" | filmovertrukne tabletter | SERTRALINHYDROCHLORID | Gyldig |
+| 28103351202 | Sertralin "Hexal" | filmovertrukne tabletter | SERTRALINHYDROCHLORID | Gyldig |
+| 28103351102 | Sertralin "Hexal" | filmovertrukne tabletter | SERTRALINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

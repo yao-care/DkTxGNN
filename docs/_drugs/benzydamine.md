@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Benzydamine: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsernes indikationstekst e…"
 monitor_inn: "benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -81,12 +81,21 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101253286 | Andolex (Cooper Consumer Health B.V.) | Mundskyllevæske | Ikke angivet |
-| 28106370119 | Septabene (KRKA d.d. Novo mesto) | Mundhulespray, opløsning | Ikke angivet |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige nationale tilladelser; Andolex er et enkeltstofprodukt, Septabene et kombinationsprodukt.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101253286 | Andolex | mundskyllevæske | Benzydaminhydrochlorid | Gyldig |
+| 28105631815 | Bertolix | mundhulespray, opløsning | Benzydaminhydrochlorid | Gyldig |
+| 28105631315 | Coldyx Citron | sugetabletter | Benzydaminhydrochlorid | Gyldig |
+| 28105631415 | Coldyx Honning-Appelsin | sugetabletter | Benzydaminhydrochlorid | Gyldig |
+| 28106270619 | Tantum Verde | mundskyllevæske | Benzydaminhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Andolex er et enkeltstofprodukt, Septabene et kombinationsprodukt; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-benzydamine-1 -->
 
@@ -124,7 +133,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

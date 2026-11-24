@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tetracaine: forudsagt ny indikation Akrodermatitis chronica atrophicans (evidensniveau L5). Oprindelig indikation: Dermatitis (fra TxGNN-videnbasen"
 monitor_inn: "tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
@@ -101,9 +101,16 @@ Alle øvrige forudsigelser har ligeledes evidensniveau L4–L5 og anbefalingen H
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104887111 | Pliapel | Creme | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104887111 | Pliapel | creme | LIDOCAIN, TETRACAIN | Gyldig |
+| 28104155907 | Ralydan | medicinsk plaster | LIDOCAIN, TETRACAIN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er fremstillet af ADOH B.V. og har status som gyldig (kombinationspræparat).
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 840
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "tolcapone"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
 description: "Tolcapone: forudsagt ny indikation Rasmussen subakut encefalitis (Rasmussen subacute encephalitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -84,9 +84,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for Rasmussen subak
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101813296 | Tasmar (Viatris Limited) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101813296 | Tasmar | filmovertrukne tabletter | Tolcapon | Gyldig |
+| 28101813396 | Tasmar | filmovertrukne tabletter | Tolcapon | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

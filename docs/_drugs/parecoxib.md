@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 631
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Parecoxib: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L3). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "Parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -90,9 +90,18 @@ Det kliniske studie er et pilotstudie, og dets design (randomisering, stikprøve
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103365002 | Dynastat (Pfizer Europe MA EEIG) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103196300 | Dynastat | pulver og solvens til injektionsvæske, opløsning | PARECOXIB NATRIUM | Gyldig |
+| 28103365002 | Dynastat | pulver til injektionsvæske, opløsning | PARECOXIB | Gyldig |
+| 28107083623 | Parecoxib "Macure" | pulver til injektionsvæske, opløsning | PARECOXIB NATRIUM | Gyldig |
+| 28107427825 | Parecoxib "Noridem" | pulver til injektionsvæske, opløsning | PARECOXIB NATRIUM | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

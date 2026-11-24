@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: forudsagt ny indikation Hyperlucent lung (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -96,13 +96,20 @@ Nogle forsøg er trukket tilbage uden deltagere (f.eks. NCT04671355, NCT01435902
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105243213 | Anoro Ellipta | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig |
-| 28105147812 | Relvar Ellipta | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig |
-| 28105889816 | Trelegy Ellipta | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105243213 | Anoro Ellipta | inhalationspulver, afdelt | Umeclidinium bromide, Vilanterol | Gyldig |
+| 28105147812 | Relvar Ellipta | inhalationspulver, afdelt | Fluticasonfuroat, Vilanterol | Gyldig |
+| 28105147712 | Relvar Ellipta | inhalationspulver, afdelt | Fluticasonfuroat, Vilanterol | Gyldig |
+| 28105889816 | Trelegy Ellipta | inhalationspulver, afdelt | Fluticasonfuroat, Umeclidinium bromide, Vilanterol | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem indehaves af GlaxoSmithKline. Vilanterol markedsføres udelukkende som del af kombinationspræparater.
 
 <!-- review:begin dk-lic-20261112-vilanterol-1 -->
 
@@ -137,7 +144,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af GlaxoSmithKline.” → “Alle 4 tilladelser er gyldige; tre af dem indehaves af GlaxoSmithKline.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->

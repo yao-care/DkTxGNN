@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Carfilzomib: forudsagt ny indikation CMM7 (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -72,9 +72,17 @@ Der er for tiden ingen relateret litteratur for CMM7.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105849116 | Kyprolis (Amgen Europe BV) | Pulver til infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105849116 | Kyprolis | pulver til infusionsvæske, opløsning | Carfilzomib | Gyldig |
+| 28105849216 | Kyprolis | pulver til infusionsvæske, opløsning | Carfilzomib | Gyldig |
+| 28105547815 | Kyprolis | pulver til infusionsvæske, opløsning | Carfilzomib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Parathyroid Hormone: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 monitor_inn: "parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -95,9 +95,15 @@ Ingen af publikationerne er randomiserede kontrollerede forsøg, og ingen viser,
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105528114 | Natpar (Takeda Pharmaceuticals International AG Ireland Branch) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105528114 | Natpar | pulver og solvens til injektionsvæske, opløsning | PARATHYROID HORMON | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

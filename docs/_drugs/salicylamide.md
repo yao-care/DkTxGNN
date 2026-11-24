@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Salicylamide: forudsagt ny indikation Faryngitis (evidensniveau L5). Oprindelig indikation: Hovedpine (headache disorder)"
 monitor_inn: "salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
@@ -84,9 +84,15 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100725776 | Kodamid "DAK" (Orifarm Healthcare A/S) | Tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100725776 | Kodamid "DAK" | tabletter | Caffein, CODEINPHOSPHATHEMIHYDRAT, Magnesiumhydroxid, tungt, PROPYPHE… | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

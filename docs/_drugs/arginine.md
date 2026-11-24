@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 76
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Arginine: forudsagt ny indikation Gastroparese (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksterne er tomme)"
 monitor_inn: "arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -90,7 +90,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-Der er 20 gyldige tilladelser (alle kombinationspræparater). De godkendte indikationstekster er ikke tilgængelige i de indsamlede data. Fem hovedprodukter er vist:
+Tilladelserne gælder kombinationspræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. De godkendte indikationstekster er ikke tilgængelige i de indsamlede data. Fem hovedprodukter er vist:
 
 <!-- review:begin dk-lic-20261112-arginine-1 -->
 
@@ -98,13 +98,19 @@ Der er 20 gyldige tilladelser (alle kombinationspræparater). De godkendte indik
 
 <!-- review:end dk-lic-20261112-arginine-1 -->
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106130918 | LysaKare | Infusionsvæske, opløsning | Ikke angivet |
-| 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke angivet |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
-| 28101562393 | Nutrineal PD4 | Peritonealdialysevæske | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28104977411 | Amiped | infusionsvæske, opløsning | ACETYLCYSTEIN, ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,7 +151,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Andexanet Alfa: forudsagt ny indikation Glanzmanns trombasteni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Ifølg…"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -94,9 +94,15 @@ Der er ingen litteratur for den primært forudsagte indikation (Glanzmanns tromb
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105829516 | Ondexxya (AstraZeneca AB) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105829516 | Ondexxya | pulver til infusionsvæske, opløsning | Andexanet alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

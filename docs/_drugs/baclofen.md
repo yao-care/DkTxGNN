@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofen: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Spasticitet"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -88,9 +88,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for baclofen 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106829522 | Baclofen "Accord" (Accord Healthcare B.V.) | Infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106829522 | Baclofen "Accord" | infusionsvæske, opløsning | BACLOFEN | Gyldig |
+| 28106829622 | Baclofen "Accord" | infusionsvæske, opløsning | BACLOFEN | Gyldig |
+| 28106829422 | Baclofen "Accord" | injektionsvæske, opløsning | BACLOFEN | Gyldig |
+| 28107399225 | Baclofen "Carefarm" | tabletter | BACLOFEN | Gyldig |
+| 28107106124 | Baclofen "Epione Medicine" | tabletter | BACLOFEN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet.
 

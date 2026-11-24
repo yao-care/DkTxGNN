@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 887
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: forudsagt ny indikation Rhabdomyosarkom (rhabdomyosarcoma (disease)) (evidensniveau L4). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -90,9 +90,17 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100366461 | Velbe (STADA Nordic ApS) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i registreringen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100366461 | Velbe | pulver til injektionsvæske, opløsning | VINBLASTINSULFAT | Gyldig |
+| 28106648521 | Velbe | pulver til injektionsvæske, opløsning | VINBLASTINSULFAT | Gyldig |
+| 28107513525 | Velbe | pulver til injektionsvæske, opløsning | VINBLASTINSULFAT | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Tagraxofusp"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "ductal or ductular proliferation", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "cystic neoplasm", "thyroglossal duct cyst"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tagraxofusp: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: CD4+/CD56+ hæmatodermal neoplasi"
 ---
 
@@ -80,9 +80,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106216619 | ELZONRIS (Stemline Therapeutics B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106216619 | ELZONRIS | koncentrat til infusionsvæske, opløsning | Tagraxofusp | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofsregistrering med status gyldig.
 

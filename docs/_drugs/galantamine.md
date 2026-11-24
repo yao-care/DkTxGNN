@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Galantamine: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (evidensniveau L5). Oprindelig indikation: Alzheimers sygdom"
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -125,11 +125,21 @@ Litteraturen er blandet: kolinesterasehæmmere er forbundet med bevægelsesforst
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107316025 | Galantamin Carefarm (Orifarm A/S) | Depotkapsler, hårde | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Der er 15 gyldige nationale tilladelser (enkeltstofpræparater). Der er ingen annullerede tilladelser.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104685110 | Galantamin "Krka" | depotkapsler, hårde | GALANTAMINHYDROBROMID | Gyldig |
+| 28104685210 | Galantamin "Krka" | depotkapsler, hårde | GALANTAMINHYDROBROMID | Gyldig |
+| 28104685010 | Galantamin "Krka" | depotkapsler, hårde | GALANTAMINHYDROBROMID | Gyldig |
+| 28107300224 | Galantamin "Nordic Prime" | depotkapsler, hårde | GALANTAMINHYDROBROMID | Gyldig |
+| 28107300124 | Galantamin "Nordic Prime" | depotkapsler, hårde | GALANTAMINHYDROBROMID | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Der er ingen annullerede tilladelser.
 
 <!-- review:begin dk-lic-20261112-galantamine-1 -->
 
@@ -182,7 +192,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er én gyldig national tilladelse (enkeltstofpræparat).” → “Der er 15 gyldige nationale tilladelser (enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er én gyldig national tilladelse (enkeltstofpræparat).” → “Der er 15 gyldige nationale tilladelser (enkeltstofpræparater).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

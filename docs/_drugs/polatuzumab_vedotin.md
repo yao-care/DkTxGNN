@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Polatuzumab Vedotin: forudsagt ny indikation HER2-positiv brystkarcinom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (litteraturen peger på diffust…"
 monitor_inn: "Polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -91,9 +91,16 @@ Der er ingen litteratur om polatuzumab vedotin ved HER2-positiv brystkarcinom. F
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106216319 | Polivy (Roche Registration GmbH) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106216319 | Polivy | pulver til koncentrat til infusionsvæske, opløsning | Polatuzumab vedotin | Gyldig |
+| 28106580720 | Polivy | pulver til koncentrat til infusionsvæske, opløsning | Polatuzumab vedotin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

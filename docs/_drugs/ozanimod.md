@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 621
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ozanimod: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ Alle kandidater fra TxGNN-modellen (score ≥ 0,99) for Ozanimod er allerede ken
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106239319 | Zeposia | kapsler, hårde | Gyldig |
-| 28106239119 | Zeposia Startpakke | kapsler, hårde | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106239319 | Zeposia | kapsler, hårde | Ozanimodhydrochlorid | Gyldig |
+| 28106239119 | Zeposia Startpakke | kapsler, hårde | Ozanimod, Ozanimodhydrochlorid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

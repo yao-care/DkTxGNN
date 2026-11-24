@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 590
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Nivolumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -83,9 +83,19 @@ TxGNN-modellen (deep learning) har ingen ny forudsagt indikation for dette læge
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105519114 | Opdivo | koncentrat til infusionsvæske, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107490225 | OPDIVO | injektionsvæske, opløsning | Nivolumab | Gyldig |
+| 28107189024 | OPDIVO | injektionsvæske, opløsning | Nivolumab | Gyldig |
+| 28105519114 | Opdivo | koncentrat til infusionsvæske, opløsning | Nivolumab | Gyldig |
+| 28106821921 | Opdivo | koncentrat til infusionsvæske, opløsning | Nivolumab | Gyldig |
+| 28106129218 | Opdivo | koncentrat til infusionsvæske, opløsning | Nivolumab | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sotalol: forudsagt ny indikation sick sinus syndrome 2, autosomal dominant (evidensniveau L5). Oprindelig indikation: Atrieflimren (fra videnbasen"
 monitor_inn: "sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
@@ -78,9 +78,18 @@ Der er for øjeblikket ingen relateret litteratur for denne forudsigelse.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107077823 | Sotalol "Nordic Prime" (Nordic Prime ApS) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107077823 | Sotalol "Nordic Prime" | tabletter | SOTALOLHYDROCHLORID | Gyldig |
+| 28101564693 | Sotalol "Viatris" | tabletter | SOTALOLHYDROCHLORID | Gyldig |
+| 28101752095 | Sotalol "Viatris" | tabletter | SOTALOLHYDROCHLORID | Gyldig |
+| 28101564593 | Sotalol "Viatris" | tabletter | SOTALOLHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

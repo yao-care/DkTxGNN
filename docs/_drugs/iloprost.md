@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloprost: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
@@ -70,11 +70,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103344402 | Ventavis (Bayer AG) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Der er registreret 5 gyldige tilladelser for enkeltstofpræparater. Listen er ikke delvis.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101939897 | Ilomedin | koncentrat til infusionsvæske, opløsning | ILOPROSTTROMETAMOL | Gyldig |
+| 28105661315 | Iloprost "Waymade" | koncentrat til infusionsvæske, opløsning | ILOPROSTTROMETAMOL | Gyldig |
+| 28105661215 | Iloprost "Waymade" | koncentrat til infusionsvæske, opløsning | ILOPROSTTROMETAMOL | Gyldig |
+| 28103344402 | Ventavis | inhalationsvæske til nebulisator, opløsning | ILOPROST | Gyldig |
+| 28105271713 | Ventavis | inhalationsvæske til nebulisator, opløsning | ILOPROSTTROMETAMOL | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Listen er ikke delvis.
 
 <!-- review:begin dk-lic-20261112-iloprost-1 -->
 
@@ -118,7 +128,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 5 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 5 gyldige tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->

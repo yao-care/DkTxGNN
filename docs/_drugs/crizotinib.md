@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Crizotinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Crizotinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft (NSCLC) og lungekræft"
 ---
 
@@ -80,9 +80,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for gingival fibrom
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106983123 | Xalkori (Pfizer Europe MA EEIG) | Granulat i kapsler til åbning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106983123 | Xalkori | granulat i kapsler til åbning | Crizotinib | Gyldig |
+| 28106982923 | Xalkori | granulat i kapsler til åbning | Crizotinib | Gyldig |
+| 28106983023 | Xalkori | granulat i kapsler til åbning | Crizotinib | Gyldig |
+| 28104943311 | Xalkori | kapsler, hårde | Crizotinib | Gyldig |
+| 28104943411 | Xalkori | kapsler, hårde | Crizotinib | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

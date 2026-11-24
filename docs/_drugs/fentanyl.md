@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (godkendelsens indikationstekst…"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -88,9 +88,21 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101545493 | Durogesic (Janssen-Cilag A/S) | Depotplaster | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103981706 | Abstral | resoribletter, sublinguale | FENTANYLCITRAT | Gyldig |
+| 28103981806 | Abstral | resoribletter, sublinguale | FENTANYLCITRAT | Gyldig |
+| 28103981906 | Abstral | resoribletter, sublinguale | FENTANYLCITRAT | Gyldig |
+| 28103982006 | Abstral | resoribletter, sublinguale | FENTANYLCITRAT | Gyldig |
+| 28103982106 | Abstral | resoribletter, sublinguale | FENTANYLCITRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Status: afregistreret 2026-09-14 (enkeltstofpræparat). Øvrige fentanyl-tilladelser står i hurtigt overblik.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prasugrel: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Akut koronarsyndrom"
 ---
 
@@ -92,11 +92,21 @@ Der er ingen publikationer, som direkte undersøger prasugrel ved pulmonal hyper
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107432225 | Prasugrel "Epione" (Epione Medicine ApS) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104280208 | Efient | filmovertrukne tabletter | Prasugrelhydrochlorid | Gyldig |
+| 28104280108 | Efient | filmovertrukne tabletter | Prasugrelhydrochlorid | Gyldig |
+| 28106955323 | Prafsia | filmovertrukne tabletter | Prasugrelhydrochlorid | Gyldig |
+| 28106955223 | Prafsia | filmovertrukne tabletter | Prasugrelhydrochlorid | Gyldig |
+| 28107237924 | Prasugrel "EQL Pharma" | filmovertrukne tabletter | Prasugrel | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater til oral brug; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-prasugrel-1 -->
 
@@ -140,7 +150,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse til et enkeltstofpræparat til oral brug.” → “Der er registreret 14 gyldige tilladelser til enkeltstofpræparater til oral brug” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->

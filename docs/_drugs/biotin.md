@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Biotin: forudsagt ny indikation dyspepsi (dyspepsia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -77,11 +77,17 @@ Ingen af publikationerne undersøger direkte biotin som behandling af dyspepsi.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100695776 | Soluvit | Pulver til infusionsvæske | Indikationstekst ikke registreret |
-| 28103270301 | Cernevit | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28105939417 | Viant | Pulver til infusionsvæske, opløsning | Indikationstekst ikke registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103270301 | Cernevit | pulver til injektions-/infusionsvæske, opløsning | alfa-Tocopherol, all-rac-, ASCORBINSYRE, BIOTIN, Cholecalciferol, Coc… | Gyldig |
+| 28100695776 | Soluvit | pulver til infusionsvæske | BIOTIN, CYANOCOBALAMIN, Folsyre, Natriumascorbat, Natriumpantothenat… | Gyldig |
+| 28105939417 | Viant | pulver til infusionsvæske, opløsning | alfa-Tocopherol, all-rac-, ASCORBINSYRE, BIOTIN, Cholecalciferol, CYA… | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

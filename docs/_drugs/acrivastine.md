@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Acrivastine: forudsagt ny indikation Recalcitrant atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -78,9 +78,16 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106130718 | Allergone | Kapsler, hårde | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106130718 | Allergone | kapsler, hårde | ACRIVASTIN | Gyldig |
+| 28101905997 | Benadryl | kapsler, hårde | ACRIVASTIN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstofpræparat (indehaver: Orifarm Generics A/S) og er gyldig.
 

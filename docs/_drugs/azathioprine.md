@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Azathioprine: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomel dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5). Oprindelig indikation: Ikke reg…"
 ---
 
@@ -68,9 +68,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denn
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Formulering | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103554703 | Azathioprin "Orifarm" | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103554703 | Azathioprin "Orifarm" | filmovertrukne tabletter | AZATHIOPRIN | Gyldig |
+| 28101350189 | Azatioprin "Viatris" | filmovertrukne tabletter | AZATHIOPRIN | Gyldig |
+| 28101253085 | Azatioprin "Viatris" | filmovertrukne tabletter | AZATHIOPRIN | Gyldig |
+| 28101294387 | Imurel | filmovertrukne tabletter | AZATHIOPRIN | Gyldig |
+| 28100520967 | Imurel | filmovertrukne tabletter | AZATHIOPRIN | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

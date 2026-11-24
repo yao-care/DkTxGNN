@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 678
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: forudsagt ny indikation HIV infectious disease (evidensniveau L4). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -95,10 +95,19 @@ Forudsigelsen afspejler sandsynligvis, at sygdommen ligger tæt på pravastatins
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107131824 | Pravastatinnatrium "Orifarm" | Tabletter | Indikationstekst ikke angivet |
-| 28104611809 | Pravafenix | Kapsler, hårde | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103479503 | Pravastatin "Sandoz" | tabletter | PRAVASTATINNATRIUM | Gyldig |
+| 28103479603 | Pravastatin "Sandoz" | tabletter | PRAVASTATINNATRIUM | Gyldig |
+| 28103479703 | Pravastatin "Sandoz" | tabletter | PRAVASTATINNATRIUM | Gyldig |
+| 28103678904 | Pravastatin "Stada" | filmovertrukne tabletter | PRAVASTATINNATRIUM | Gyldig |
+| 28103679004 | Pravastatin "Stada" | filmovertrukne tabletter | PRAVASTATINNATRIUM | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

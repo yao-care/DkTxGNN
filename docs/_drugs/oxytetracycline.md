@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: forudsagt ny indikation Chronic rhinosinusitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
@@ -99,13 +99,23 @@ Der er ingen litteratur for de øvrige forudsagte indikationer.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28100286458 | Terramycin-Polymyxin B | Øjensalve | Indikationstekst ikke tilgængelig |
-| MA 28100049355 | Hydrocortison med Terramycin | Salve | Indikationstekst ikke tilgængelig |
-| MA 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Der findes i alt 8 gyldige nationale tilladelser til lægemidler til mennesker (alle kombinationspræparater med oxytetracyclin, ingen annullerede). Desuden er der 10 tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske). Det er bemærkelsesværdigt, at det humane præparat med øredråber (MA 28107137824) allerede er markedsført i Danmark, hvilket er relevant for otitis externa.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100427563 | Hydrocortison m.terramycin+polymyxin-B | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28100049355 | Hydrocortison med Terramycin | salve | HYDROCORTISON, OXYTETRACYCLINHYDROCHLORID | Gyldig |
+| 28107137824 | Hydrocortison med Terramycin og Polymyxin B | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28107092023 | Hydroterrapol | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28100286458 | Terramycin-Polymyxin B | øjensalve | OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 10 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Tilladelserne til lægemidler til mennesker gælder kombinationspræparater med oxytetracyclin; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Desuden findes der tilladelser til veterinærlægemidler, bl.a. Terralon Prolongatum Vet. (MA 28101396190, injektionsvæske). Det er bemærkelsesværdigt, at det humane præparat med øredråber (MA 28107137824) allerede er markedsført i Danmark, hvilket er relevant for otitis externa.
 
 <!-- review:begin dk-lic-20261112-oxytetracycline-1 -->
 
@@ -148,7 +158,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: 6 → 8 til mennesker (kombinationspræparater) og 10 veterinære | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

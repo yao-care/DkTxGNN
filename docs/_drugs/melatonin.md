@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -86,9 +86,19 @@ Der er ikke genereret nogen TxGNN-forudsigelse for dette lægemiddel. Der er ikk
 
 ## Danmarks markedsinformation
 
-| Emne | Detalje |
-|------|---------|
-| Samlede tilladelser | 0 |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107545826 | Adaflex | tabletter | MELATONIN | Gyldig |
+| 28107545926 | Adaflex | tabletter | MELATONIN | Gyldig |
+| 28107546026 | Adaflex | tabletter | MELATONIN | Gyldig |
+| 28107546126 | Adaflex | tabletter | MELATONIN | Gyldig |
+| 28107546226 | Adaflex | tabletter | MELATONIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 > **Bemærkning for anmeldere:** Melatonin er godkendt i Den Europæiske Union under mærkenavnet **Circadin® 2 mg depoteret tablet** (EMA centraliseret procedure) til korttidsbehandling af primær søvnløshed hos patienter på 55 år og derover. Denne godkendelse fremgår ikke af den aktuelle Evidenspakke, hvilket kan indikere en dataindsamlingskløft snarere end en sand fravær af godkendelse. Verifikation mod Det Danske Lægemiddelstyrelses produktdatabase anbefales, før man konkluderer, at melatonin er helt uregistreret i Danmark.
 

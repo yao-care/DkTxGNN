@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clomipramine: forudsagt ny indikation Angstlidelse (anxiety disorder) (evidensniveau L1). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
@@ -89,9 +89,21 @@ Der er dog forbehold. De registrerede forsøg er hovedsageligt udført hos patie
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100597871 | Anafranil | Overtrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100597871 | Anafranil | overtrukne tabletter | CLOMIPRAMINHYDROCHLORID | Gyldig |
+| 28100983067 | Anafranil | overtrukne tabletter | CLOMIPRAMINHYDROCHLORID | Gyldig |
+| 28101129383 | Anafranil Retard | depottabletter | CLOMIPRAMINHYDROCHLORID | Gyldig |
+| 28101426591 | Anafranil Retard | depottabletter | CLOMIPRAMINHYDROCHLORID | Gyldig |
+| 28101743495 | Anafranil Retard | depottabletter | CLOMIPRAMINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

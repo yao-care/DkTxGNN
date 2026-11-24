@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -92,10 +92,19 @@ Bemærk, at forsøgene undersøger dosisoptrapning ud over godkendt dosering. De
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103120999 | Aerius (N.V. Organon) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
-| 28103985806 | Aerinaze (N.V. Organon) | Tabletter med modificeret udløsning | Indikationstekst ikke tilgængelig i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103120999 | Aerius | filmovertrukne tabletter | DESLORATADIN | Gyldig |
+| 28103989506 | Aerius | oral opløsning | DESLORATADIN | Gyldig |
+| 28103120699 | Azomyr | filmovertrukne tabletter | DESLORATADIN | Gyldig |
+| 28104040206 | Azomyr | oral opløsning | DESLORATADIN | Gyldig |
+| 28104876011 | Dasselta | filmovertrukne tabletter | DESLORATADIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

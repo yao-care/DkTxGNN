@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 878
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Velpatasvir: forudsagt ny indikation Hepatitis B-virusinfektion (evidensniveau L4). Oprindelig indikation: Kronisk hepatitis C-virusinfektion"
 monitor_inn: "velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -98,10 +98,19 @@ Ingen af publikationerne viser, at velpatasvir har antiviral effekt mod HBV. Cas
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106349319 | Epclusa | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
-| 28106510320 | Vosevi | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106349319 | Epclusa | filmovertrukne tabletter | Sofosbuvir, Velpatasvir | Gyldig |
+| 28105698415 | Epclusa | filmovertrukne tabletter | Sofosbuvir, Velpatasvir | Gyldig |
+| 28106580421 | Epclusa | overtrukket granulat i brev | Sofosbuvir, Velpatasvir | Gyldig |
+| 28106580521 | Epclusa | overtrukket granulat i brev | Sofosbuvir, Velpatasvir | Gyldig |
+| 28106510320 | Vosevi | filmovertrukne tabletter | Sofosbuvir, Velpatasvir, Voxilaprevir | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige, med Gilead Sciences Ireland UC som indehaver.
 

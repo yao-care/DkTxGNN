@@ -5,7 +5,7 @@ layout: default
 title: Anifrolumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 67
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Anifrolumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Anifrolumab"
 predicted_indications: []
@@ -50,9 +50,17 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107301624 | Saphnelo (AstraZeneca AB) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107301624 | Saphnelo | injektionsvæske, opløsning i fyldt injektionssprøjte | Anifrolumab | Gyldig |
+| 28107301724 | Saphnelo | injektionsvæske, opløsning i fyldt pen | Anifrolumab | Gyldig |
+| 28106519920 | Saphnelo | koncentrat til infusionsvæske, opløsning | Anifrolumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

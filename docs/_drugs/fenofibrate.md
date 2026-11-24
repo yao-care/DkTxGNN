@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: forudsagt ny indikation Kolesterylester-transferprotein-mangel (evidensniveau L5). Oprindelig indikation: Hypertriglyceridæmi og hyperlipidæmi"
 ---
 
@@ -86,11 +86,17 @@ Ingen af publikationerne undersøger direkte fenofibrat som behandling af CETP-m
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105031712 | Cholib | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28107198624 | Rosufenx | Hårde kapsler | Indikationstekst ikke tilgængelig |
-| 28104611809 | Pravafenix | Hårde kapsler | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105031712 | Cholib | filmovertrukne tabletter | FENOFIBRAT, SIMVASTATIN | Gyldig |
+| 28105031812 | Cholib | filmovertrukne tabletter | FENOFIBRAT, SIMVASTATIN | Gyldig |
+| 28104611809 | Pravafenix | kapsler, hårde | FENOFIBRAT, PRAVASTATINNATRIUM | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Bemærk: Rosufenx og Pravafenix er kombinationspræparater (med rosuvastatin henholdsvis pravastatin); der er ikke tilstrækkelige oplysninger i de indsamlede data til at beskrive godkendelsesstatus for fenofibrat som enkeltstof ud over disse registreringer.
 

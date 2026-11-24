@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: forudsagt ny indikation Nasal cavity disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -105,14 +105,21 @@ Listen viser et udvalg af de mest relevante forsøg. Flere af forsøgene er æld
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106743822 | Iprazap | Næsespray, opløsning | Ikke angivet i de tilgængelige data |
-| 28104130807 | Ipramol Steri-Neb | Inhalationsvæske til nebulisator, opløsning, enkeltdosisbeholder | Ikke angivet i de tilgængelige data |
-| 28104314008 | Otrivin Comp | Næsespray, opløsning | Ikke angivet i de tilgængelige data |
-| 28103223300 | Berodual | Inhalationsspray, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Alle fire tilladelser er gyldige (ingen annullerede); Iprazap er et enkeltstofpræparat, Berodual, Ipramol Steri-Neb og Otrivin Comp er kombinationspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103238101 | Atrovent | inhalationsspray, opløsning | IPRATROPIUMBROMIDMONOHYDRAT | Gyldig |
+| 28107478125 | Atrovent | inhalationsspray, opløsning | IPRATROPIUMBROMIDMONOHYDRAT | Gyldig |
+| 28107479225 | Atrovent | inhalationsspray, opløsning | IPRATROPIUMBROMIDMONOHYDRAT | Gyldig |
+| 28107526125 | Atrovent | inhalationsspray, opløsning | IPRATROPIUMBROMIDMONOHYDRAT | Gyldig |
+| 28107549726 | Atrovent | inhalationsspray, opløsning | IPRATROPIUMBROMIDMONOHYDRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
+
+Iprazap er et enkeltstofpræparat, Berodual, Ipramol Steri-Neb og Otrivin Comp er kombinationspræparater; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-ipratropium-1 -->
 
@@ -161,7 +168,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->

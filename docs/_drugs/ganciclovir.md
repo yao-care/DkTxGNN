@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -89,9 +89,16 @@ Ingen relateret litteratur er aktuelt tilgængelig for en genoptagelse af behand
 
 Ingen markeringsgodkendelser er registreret for Ganciclovir i Danmark ifølge de leverede data.
 
-| Markeringsgodkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|-------|-------------|----------|-------------|
-| — | — | — | Ingen godkendelser fundet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101313787 | Cymevene | pulver til koncentrat til infusionsvæske, opløsning | GANCICLOVIR | Gyldig |
+| 28106696921 | Ganciclovir "Oresund Pharma" | pulver til koncentrat til infusionsvæske, opløsning | GANCICLOVIRNATRIUM | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 > **Bemærk for ordinatorer:** Ganciclovir (Cymevene®) har en centraliseret EMA-markeringsgodkendelse, der gælder på tværs af EU/EØS. Fraværet af en lokale dansk registreringspost kan afspejle et datakløft snarere end et sandt fravær af tilgængelighed. Klinikere bør bekræfte nuværende status direkte via [EMA-produktdatabasen](https://www.ema.europa.eu/en/medicines) og Laegemiddelstyrelsens produktregister.
 

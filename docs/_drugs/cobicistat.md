@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: forudsagt ny indikation Simian immundefektvirusinfektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
@@ -80,9 +80,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105111312 | Tybost | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105111312 | Tybost | filmovertrukne tabletter | Cobicistat | Gyldig |
+| 28105475414 | Evotaz | filmovertrukne tabletter | ATAZANAVIRSULFAT, Cobicistat | Gyldig |
+| 28105550014 | Genvoya | filmovertrukne tabletter | Cobicistat, elvitegravir, EMTRICITABIN, Tenofovir alafenamid fumarat | Gyldig |
+| 28106640621 | Genvoya | filmovertrukne tabletter | Cobicistat, elvitegravir, EMTRICITABIN, Tenofovir alafenamid fumarat | Gyldig |
+| 28107381325 | Rezolsta | dispergible tabletter | Cobicistat, Darunavirethanolat | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat (producent: Gilead Sciences Ireland UC).
 

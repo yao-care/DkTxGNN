@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 description: "Tipiracil: forudsagt ny indikation Cøcal villøst adenom (cecum villous adenoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -68,9 +68,16 @@ Der er på nuværende tidspunkt ingen litteratur, der direkte omhandler cøcal v
 
 ## Markedsoplysninger i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105586915 | Lonsurf (Les Laboratoires Servier) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105586915 | Lonsurf | filmovertrukne tabletter | Tipiracilhydrochlorid, Trifluridin | Gyldig |
+| 28105587015 | Lonsurf | filmovertrukne tabletter | Tipiracilhydrochlorid, Trifluridin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er en kombinationsvare med trifluridin, og tilladelsen beskriver ikke tipiracil som enkeltstof. Tilladelsen er gyldig, og producenten er Les Laboratoires Servier.
 

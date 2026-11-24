@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amiloride: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -68,7 +68,7 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-Der er tre gyldige markedsføringstilladelser for kombinationspræparater med amilorid. Ingen er annulleret.
+Tilladelserne gælder kombinationspræparater med amilorid; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Ingen er annulleret.
 
 <!-- review:begin dk-lic-20261112-amiloride-1 -->
 
@@ -76,10 +76,17 @@ Der er tre gyldige markedsføringstilladelser for kombinationspræparater med am
 
 <!-- review:end dk-lic-20261112-amiloride-1 -->
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101196884 | Amilco (OBA-Pharma ApS) | Tabletter | Indikationstekst er ikke registreret i de lokale data |
-| 28104628810 | Frusamil (2care4 ApS) | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101196884 | Amilco | tabletter | AMILORIDHYDROCHLORID DIHYDRAT, HYDROCHLORTHIAZID | Gyldig |
+| 28104628810 | Frusamil | tabletter | AMILORIDHYDROCHLORID, VANDFRIT, FUROSEMID | Gyldig |
+| 28104838411 | Frusamil | tabletter | AMILORIDHYDROCHLORID, VANDFRIT, FUROSEMID | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge præparater gives oralt.
 
@@ -120,7 +127,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

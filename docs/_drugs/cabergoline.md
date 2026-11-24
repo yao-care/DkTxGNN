@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline: forudsagt ny indikation Progeri-lav vækst-pigmenterede nævi-syndrom (progeria-short stature-pigmented nevi syndrome) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de loka…"
 ---
 
@@ -78,9 +78,21 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106908623 | Cabenex (Renata Pharmaceuticals (Ireland) Limited) | Tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106908623 | Cabenex | tabletter | CABERGOLIN | Gyldig |
+| 28106540920 | Cabergolin "2care4" | tabletter | CABERGOLIN | Gyldig |
+| 28107444425 | Cabergolin "Ebb Medical" | tabletter | CABERGOLIN | Gyldig |
+| 28103928706 | Cabergolin "Teva" | tabletter | CABERGOLIN | Gyldig |
+| 28103928806 | Cabergolin "Teva" | tabletter | CABERGOLIN | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

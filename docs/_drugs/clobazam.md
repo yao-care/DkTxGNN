@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobazam: forudsagt ny indikation Febril infektionsrelateret epilepsisyndrom (febrile infection-related epilepsy syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
@@ -85,9 +85,19 @@ Ingen af de to artikler undersøger clobazam ved FIRES. Evidensen for denne spec
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106382320 | Clobazam "Essential Pharmaceuticals" | Oral suspension | Indikationstekst ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107161224 | Clobazam "Brown & Burk IR Limited" | tabletter | CLOBAZAM | Gyldig |
+| 28107161424 | Clobazam "Brown & Burk IR Limited" | tabletter | CLOBAZAM | Gyldig |
+| 28106382320 | Clobazam "Essential Pharmaceuticals" | oral suspension | CLOBAZAM | Gyldig |
+| 28101066981 | Frisium | tabletter | CLOBAZAM | Gyldig |
+| 28104973311 | Frisium | tabletter | CLOBAZAM | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: forudsagt ny indikation Reumatoid nodulose (rheumatoid nodulosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -84,9 +84,16 @@ Der er for tiden ingen relateret litteratur for reumatoid nodulose.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104895411 | Acnatac (Viatris ApS) | Gel (topisk) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104895411 | Acnatac | gel | CLINDAMYCINPHOSPHAT, Tretinoin | Gyldig |
+| 28106949623 | Acnatac | gel | CLINDAMYCINPHOSPHAT, Tretinoin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Den eneste danske tilladelse er en topisk gel. Forudsagte systemiske eller muskel-skeletrelaterede indikationer kan derfor ikke umiddelbart dækkes af det markedsførte produkt, og administrationsvejens kompatibilitet er endnu ikke vurderet.
 

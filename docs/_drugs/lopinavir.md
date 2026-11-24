@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 507
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -90,6 +90,20 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106107718 | Aluvia | filmovertrukne tabletter | LOPINAVIR, RITONAVIR | Gyldig |
+| 28106107818 | Aluvia | filmovertrukne tabletter | LOPINAVIR, RITONAVIR | Gyldig |
+| 28104153607 | Kaletra | filmovertrukne tabletter | LOPINAVIR, RITONAVIR | Gyldig |
+| 28103812505 | Kaletra | filmovertrukne tabletter | LOPINAVIR, RITONAVIR | Gyldig |
+| 28103172500 | Kaletra | oral opløsning | LOPINAVIR, RITONAVIR | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

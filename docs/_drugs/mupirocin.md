@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: forudsagt ny indikation Pleural empyem (pleural empyema (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for pleural empyem.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101502892 | Bactroban (GlaxoSmithKline Pharma A/S) | Salve | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103065199 | Bactroban | creme | Mupirocincalcium | Gyldig |
+| 28107560526 | Bactroban | creme | Mupirocincalcium | Gyldig |
+| 28101502892 | Bactroban | salve | Mupirocin | Gyldig |
+| 28101525292 | Bactroban Nasal | næsesalve | Mupirocincalcium | Gyldig |
+| 28105814216 | Bactroban Nasal | næsesalve | Mupirocincalcium | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Latanoprost: forudsagt ny indikation Visceral calciphylaxis (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension"
 ---
 
@@ -95,9 +95,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106836222 | Catiolanze (Santen Oy) | Øjendråber, emulsion | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106836222 | Catiolanze | øjendråber, emulsion | LATANOPROST | Gyldig |
+| 28107355625 | Latanoprost "Genetic" | øjendråber, opløsning, enkeltdosisbeholder | LATANOPROST | Gyldig |
+| 28107352725 | Latanoprost "Nordic Prime" | øjendråber, opløsning | LATANOPROST | Gyldig |
+| 28104520909 | Latanoprost "Rivopharm" | øjendråber, opløsning | LATANOPROST | Gyldig |
+| 28104441008 | Latanoprost "Sandoz" | øjendråber, opløsning | LATANOPROST | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er national, gyldig og dækker et enkeltstofpræparat.
 

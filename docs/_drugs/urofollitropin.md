@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Urofollitropin: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (indikationsteksten er tom)…"
 ---
 
@@ -80,9 +80,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103852105 | Fostimon (IBSA Farmaceutici Italia S.r.l) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103852105 | Fostimon | pulver og solvens til injektionsvæske, opløsning | UROFOLLITROPIN | Gyldig |
+| 28103852005 | Fostimon | pulver og solvens til injektionsvæske, opløsning | UROFOLLITROPIN | Gyldig |
+| 28104919211 | Fostimon Set | pulver og solvens til injektionsvæske, opløsning | UROFOLLITROPIN | Gyldig |
+| 28104919111 | Fostimon Set | pulver og solvens til injektionsvæske, opløsning | UROFOLLITROPIN | Gyldig |
+| 28107616726 | Fostimonkit | pulver og solvens til injektionsvæske, opløsning | UROFOLLITROPIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

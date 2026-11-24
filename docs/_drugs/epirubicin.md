@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: forudsagt ny indikation Primært pulmonalt lymfom (primary pulmonary lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -77,9 +77,18 @@ Litteraturen er udelukkende indirekte og undersøger ikke epirubicin ved primær
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104133807 | Epirubicin "Accord" (Accord Healthcare B.V.) | Injektions-/infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104133807 | Epirubicin "Accord" | injektions-/infusionsvæske, opløsning | EPIRUBICINHYDROCHLORID | Gyldig |
+| 28103127399 | Epirubicin "Ebewe" | injektions-/infusionsvæske, opløsning | EPIRUBICINHYDROCHLORID | Gyldig |
+| 28104246907 | Epirubicin "Teva" | injektions-/infusionsvæske, opløsning | EPIRUBICINHYDROCHLORID | Gyldig |
+| 28104018006 | Epirubicin "medac" | injektionsvæske, opløsning | EPIRUBICINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

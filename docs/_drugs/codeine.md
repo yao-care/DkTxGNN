@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
 ---
 
@@ -70,9 +70,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100726076 | Kodein Stærk "DAK" | Oral opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100726176 | Kodein "DAK" | filmovertrukne tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
+| 28104675410 | Kodein "EQL Pharma" | filmovertrukne tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
+| 28107282124 | Kodein "ExtractumPharma" | tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
+| 28107282224 | Kodein "ExtractumPharma" | tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
+| 28107282324 | Kodein "ExtractumPharma" | tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

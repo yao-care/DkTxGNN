@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cladribine: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -70,9 +70,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig for den forudsagte sygdom
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103401202 | Litak | Injektionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107462225 | Cladribine "Sandoz" | tabletter | CLADRIBIN | Gyldig |
+| 28107463125 | Cladribine "Viatris" | tabletter | CLADRIBIN | Gyldig |
+| 28107463025 | Cladribine "Zentiva" | tabletter | CLADRIBIN | Gyldig |
+| 28103401202 | Litak | injektionsvæske, opløsning | CLADRIBIN | Gyldig |
+| 28105807316 | Mavenclad | tabletter | CLADRIBIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

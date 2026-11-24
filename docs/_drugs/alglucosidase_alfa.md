@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Alglucosidase alfa"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Alglucosidase Alfa: forudsagt ny indikation Adult polyglucosan body disease (evidensniveau L5). Oprindelig indikation: Glykogenlagringssygdom"
 ---
 
@@ -83,9 +83,15 @@ Der foreligger for tiden ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103761904 | Myozyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103761904 | Myozyme | pulver til koncentrat til infusionsvæske, opløsning | Alglucosidase alfa (rhGAA) | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

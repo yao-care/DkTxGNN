@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Mepivacaine: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 monitor_inn: "mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -86,13 +86,23 @@ For mavesår blev der fundet én publikation, men den vurderes som irrelevant:
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101001756 | Carbocain (Sandoz A/S) | Injektionsvæske, opløsning | Ikke angivet |
-| 28101593094 | Scandonest-Adrenalin (Septodont) | Injektionsvæske, opløsning | Ikke angivet |
-| 28101002156 | Carbocain-adrenalin (Sandoz A/S) | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
 
-Alle tre tilladelser er gyldige nationale tilladelser; Carbocain er et enkeltstofpræparat, Carbocain-adrenalin og Scandonest-Adrenalin er kombinationspræparater med adrenalin.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101001756 | Carbocain | injektionsvæske, opløsning | MEPIVACAINHYDROCHLORID | Gyldig |
+| 28101001856 | Carbocain | injektionsvæske, opløsning | MEPIVACAINHYDROCHLORID | Gyldig |
+| 28106588921 | Mepidental | injektionsvæske, opløsning i cylinderampul | MEPIVACAINHYDROCHLORID | Gyldig |
+| 28101592994 | Scandonest | injektionsvæske, opløsning | MEPIVACAINHYDROCHLORID | Gyldig |
+| 28101002056 | Carbocain-Adrenalin | injektionsvæske, opløsning | ADRENALINTARTRAT, MEPIVACAINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Carbocain er et enkeltstofpræparat, Carbocain-adrenalin og Scandonest-Adrenalin er kombinationspræparater med adrenalin; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-mepivacaine-1 -->
 
@@ -143,7 +153,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

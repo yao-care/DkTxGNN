@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Albendazole: forudsagt ny indikation Coenurosis (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
@@ -82,6 +82,14 @@ Alveolær ekinokokkose skyldes *Echinococcus multilocularis*, som er tæt beslæ
 | [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Dyreforsøg | Antimicrob Agents Chemother | Albendazols metabolisme og nye formuleringer i rottemodel |
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Bemærk: Den registrerede tilladelse gælder et veterinært præparat (Zoetis Animal Health ApS).
 

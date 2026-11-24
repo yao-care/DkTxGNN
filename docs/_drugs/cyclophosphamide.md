@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Cyclophosphamide: forudsagt ny indikation Hvirvelanomalier med variabel endokrin og T-celledysfunktion (vertebral anomalies and variable endocrine and T-cell dysfunction) (evidensniveau L5)."
 ---
 
@@ -72,10 +72,19 @@ Der findes for nuværende ingen relateret litteratur.
 
 ## Markedsoplysninger i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106914623 | Cyclophosphamide "Accord" | Koncentrat til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
-| 28106140418 | Cyclophosphamid "2care4" | Overtrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106914623 | Cyclophosphamide "Accord" | koncentrat til injektions-/infusionsvæske, opløsning | CYCLOPHOSPHAMIDMONOHYDRAT | Gyldig |
+| 28106820622 | Cyclophosphamide "Sandoz" | koncentrat til injektions-/infusionsvæske, opløsning | CYCLOPHOSPHAMIDMONOHYDRAT | Gyldig |
+| 28106140418 | Cyclophosphamid "2care4" | overtrukne tabletter | CYCLOPHOSPHAMID, VANDFRIT | Gyldig |
+| 28106977023 | Cyclophosphamid Carefarm | overtrukne tabletter | CYCLOPHOSPHAMID, VANDFRIT | Gyldig |
+| 28106277719 | Cyclophosphamid Carefarm | pulver til injektionsvæske, opløsning | CYCLOPHOSPHAMID, VANDFRIT | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og gælder lægemidler med cyclophosphamid som eneste aktive stof. Der findes både en injicerbar og en oral formulering.
 

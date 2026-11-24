@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom"
 ---
 
@@ -84,11 +84,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106940523 | Axitinib "Accord" (Accord Healthcare S.L.U.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
+<!-- licenses:begin -->
 
-Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er gyldige. Administrationsvejen er oral.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106940523 | Axitinib "Accord" | filmovertrukne tabletter | Axitinib | Gyldig |
+| 28106940623 | Axitinib "Accord" | filmovertrukne tabletter | Axitinib | Gyldig |
+| 28106940723 | Axitinib "Accord" | filmovertrukne tabletter | Axitinib | Gyldig |
+| 28106940823 | Axitinib "Accord" | filmovertrukne tabletter | Axitinib | Gyldig |
+| 28106667021 | Axitinib "Stada" | filmovertrukne tabletter | Axitinib | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Administrationsvejen er oral.
 
 <!-- review:begin dk-lic-20261112-axitinib-1 -->
 
@@ -145,7 +155,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er g” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse for et enkeltstofpræparat, og den er gy” → “Der er registreret 16 nationale tilladelser for enkeltstofpræparater, og de er g” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
 
 <!-- review:end log -->

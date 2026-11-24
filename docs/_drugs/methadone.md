@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone: forudsagt ny indikation Tourettes syndrom (evidensniveau L4). Oprindelig indikation: Ikke oplyst"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -91,13 +91,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105951917 | Marlodon | Tabletter | Ikke angivet |
-| 28105952017 | Marlodon | Tabletter | Ikke angivet |
-| 28105952117 | Marlodon | Tabletter | Ikke angivet |
-| 28105951817 | Marlodon | Tabletter | Ikke angivet |
-| 28105990317 | Metadon "2care4" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105951917 | Marlodon | tabletter | Methadonhydrochlorid | Gyldig |
+| 28105952017 | Marlodon | tabletter | Methadonhydrochlorid | Gyldig |
+| 28105952117 | Marlodon | tabletter | Methadonhydrochlorid | Gyldig |
+| 28105951817 | Marlodon | tabletter | Methadonhydrochlorid | Gyldig |
+| 28105990317 | Metadon "2care4" | tabletter | Methadonhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 5 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

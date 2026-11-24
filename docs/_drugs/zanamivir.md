@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 899
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Zanamivir: forudsagt ny indikation Pyelonefritis (evidensniveau L5). Oprindelig indikation: Influenza"
 monitor_inn: "Zanamivir"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -80,9 +80,16 @@ Der er på nuværende tidspunkt ingen relateret litteratur for pyelonefritis.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106043117 | Dectova (GlaxoSmithKline Trading Services) | Infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106043117 | Dectova | infusionsvæske, opløsning | Zanamivir | Gyldig |
+| 28103068599 | Relenza | inhalationspulver, afdelt | Zanamivir | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

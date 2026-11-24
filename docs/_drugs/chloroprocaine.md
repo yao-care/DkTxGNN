@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 186
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloroprocaine: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L4). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (lokalanæstesi er den kendte an…"
 monitor_inn: "chloroprocaine"
 predicted_indications: ["cauda equina syndrome"]
@@ -86,9 +86,15 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106155818 | Ampres (B. Braun Melsungen) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106155818 | Ampres | injektionsvæske, opløsning | CHLORPROCAINHYDROCHLORID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

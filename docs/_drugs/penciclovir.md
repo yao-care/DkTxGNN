@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Penciclovir: forudsagt ny indikation Fascioliasis (evidensniveau L5). Oprindelig indikation: Herpes labialis (fra videnbasen"
 monitor_inn: "Penciclovir"
 predicted_indications: ["fascioliasis"]
@@ -56,7 +56,6 @@ men der er **0 kliniske forsøg** og **0 publikationer**, der understøtter denn
 | Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
-
 ---
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -85,9 +84,16 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105418514 | Vectatone (Perrigo Sverige AB) | Creme | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105418514 | Vectatone | creme | PENCICLOVIR | Gyldig |
+| 28101777795 | Vectavir | creme | PENCICLOVIR | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er en enkeltstofholdig creme til udvortes brug.
 

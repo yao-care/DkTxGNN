@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 800
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "telbivudine"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
 description: "Telbivudine: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
@@ -94,9 +94,15 @@ Litteraturen omhandler overvejende hepatitis B og beskriver ikke aktivitet af te
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103907706 | Sebivo (Novartis Europharm Limited) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103907706 | Sebivo | filmovertrukne tabletter | Telbivudin | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

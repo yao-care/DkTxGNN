@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 737
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rotigotine: forudsagt ny indikation Attention deficit-hyperactivity disorder (ADHD) (evidensniveau L5). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom"
 monitor_inn: "rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -86,9 +86,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107257724 | Kinparlev (Orion Corporation) | Depotplaster | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107257724 | Kinparlev | depotplastre | Rotigotin | Gyldig |
+| 28107257824 | Kinparlev | depotplastre | Rotigotin | Gyldig |
+| 28107257924 | Kinparlev | depotplastre | Rotigotin | Gyldig |
+| 28107258024 | Kinparlev | depotplastre | Rotigotin | Gyldig |
+| 28107258124 | Kinparlev | depotplastre | Rotigotin | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

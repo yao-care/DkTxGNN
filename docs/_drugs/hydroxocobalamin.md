@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin: forudsagt ny indikation Esophageal varices without bleeding (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -81,9 +81,18 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104060406 | Cyanokit (SERB S.A.) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104060406 | Cyanokit | pulver til infusionsvæske, opløsning | Hydroxocobalaminchloride | Gyldig |
+| 28104632409 | Cyanokit | pulver til infusionsvæske, opløsning | Hydroxocobalaminchloride | Gyldig |
+| 28105283713 | Hydroxocobalamin "Alternova" | injektionsvæske, opløsning | Hydroxocobalaminchloride | Gyldig |
+| 28100391161 | Vibeden | injektionsvæske, opløsning | Hydroxocobalaminchloride | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Lægemidlet findes kun som injicerbar formulering (infusion).
 

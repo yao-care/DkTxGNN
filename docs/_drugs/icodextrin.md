@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 420
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Icodextrin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Icodextrin"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101876197 | Extraneal (Vantive ApS) | Peritonealdialysevæske | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101876197 | Extraneal | peritonealdialysevæske | ICODEXTRIN | Gyldig |
+| 28106452620 | Polithera | peritonealdialysevæske | CALCIUMCHLORIDDIHYDRAT, ICODEXTRIN, MAGNESIUMCHLORIDHEXAHYDRAT, Natri… | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

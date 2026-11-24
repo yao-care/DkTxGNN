@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Anastrozole: forudsagt ny indikation neuroblastom (neuroblastoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
@@ -70,9 +70,19 @@ Der er for tiden ingen relateret litteratur tilgængelig for neuroblastom.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104111007 | Anastelb (STADA Arzneimittel AG) | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104111007 | Anastelb | filmovertrukne tabletter | ANASTROZOL | Gyldig |
+| 28104602609 | Anastrozol "Accord" | filmovertrukne tabletter | ANASTROZOL | Gyldig |
+| 28105007111 | Anastrozol "Medical Valley" | filmovertrukne tabletter | ANASTROZOL | Gyldig |
+| 28104175007 | Anastrozol "Sandoz" | filmovertrukne tabletter | ANASTROZOL | Gyldig |
+| 28107426325 | Anastrozole "Amarox" | filmovertrukne tabletter | ANASTROZOL | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

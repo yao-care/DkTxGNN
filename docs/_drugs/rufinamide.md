@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: forudsagt ny indikation Perioral myoclonia with absences (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -86,9 +86,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103803205 | Inovelon (Eisai GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103803205 | Inovelon | filmovertrukne tabletter | Rufinamid | Gyldig |
+| 28103803305 | Inovelon | filmovertrukne tabletter | Rufinamid | Gyldig |
+| 28103803405 | Inovelon | filmovertrukne tabletter | Rufinamid | Gyldig |
+| 28104779210 | Inovelon | oral suspension | Rufinamid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

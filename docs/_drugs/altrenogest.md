@@ -5,7 +5,7 @@ layout: default
 title: Altrenogest
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 46
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Altrenogest: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Altrenogest"
 predicted_indications: []
@@ -47,6 +47,14 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Antal markedsføringstilladelser | 0 (gyldige: 0) |
 
 ## Oplysninger om markedet i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 5 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

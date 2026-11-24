@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Tasimelteon"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tasimelteon: forudsagt ny indikation Bilateral parasagittal parieto-occipital polymikrogyri (evidensniveau L5). Oprindelig indikation: Non-24-timers søvn-vågen-syndrom"
 ---
 
@@ -80,9 +80,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105416914 | Hetlioz | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105416914 | Hetlioz | kapsler, hårde | Tasimelteon | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofgodkendelse med status gyldig. Indehaveren er Vanda Pharmaceuticals NL B.V.
 

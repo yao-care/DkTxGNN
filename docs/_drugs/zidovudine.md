@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -91,13 +91,20 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne for
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101419490 | Retrovir | Oral opløsning | Ikke tilgængelig i de indsamlede data |
-| 28101882997 | Combivir | Filmovertrukne tabletter | Ikke tilgængelig i de indsamlede data |
-| 28103123099 | Trizivir | Filmovertrukne tabletter | Ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV. Combivir og Trizivir er kombinationspræparater, som indeholder zidovudin sammen med andre antiretrovirale stoffer.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101419490 | Retrovir | oral opløsning | ZIDOVUDIN | Gyldig |
+| 28101882997 | Combivir | filmovertrukne tabletter | LAMIVUDIN, ZIDOVUDIN | Gyldig |
+| 28103850805 | Lamivudine/Zidovudine "GSK" | filmovertrukne tabletter | LAMIVUDIN, ZIDOVUDIN | Gyldig |
+| 28103123099 | Trizivir | filmovertrukne tabletter | Abacavirsulfat, LAMIVUDIN, ZIDOVUDIN | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem tilhører ViiV Healthcare BV. Combivir og Trizivir er kombinationspræparater, som indeholder zidovudin sammen med andre antiretrovirale stoffer.
 
 <!-- review:begin dk-lic-20261112-zidovudine-1 -->
 
@@ -139,7 +146,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og tilhører ViiV Healthcare BV.” → “Alle 4 tilladelser er gyldige; tre af dem tilhører ViiV Healthcare BV.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->

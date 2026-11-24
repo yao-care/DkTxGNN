@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brolucizumab: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af kernens DNA-abnormiteter (mitochondrial oxidative phospho… (evidensniveau L5). Oprindelig indikatio…"
 ---
 
@@ -70,9 +70,16 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106226919 | Beovu (Novartis Europharm Limited) | Injektionsvæske, opløsning | – |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106226919 | Beovu | injektionsvæske, opløsning | Brolucizumab | Gyldig |
+| 28106227019 | Beovu | injektionsvæske, opløsning i fyldt injektionssprøjte | Brolucizumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

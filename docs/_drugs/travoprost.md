@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Travoprost: forudsagt ny indikation Visceral calciphylaxis (evidensniveau L5). Oprindelig indikation: Åbenvinklet glaukom og okulær hypertension"
 ---
 
@@ -85,9 +85,19 @@ Til orientering er den eneste publikation knyttet til en nærliggende forudsigel
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105241013 | Izba | Øjendråber, opløsning | Indikationstekst ikke tilgængelig i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105241013 | Izba | øjendråber, opløsning | Travoprost | Gyldig |
+| 28105823116 | Stavorio | øjendråber, opløsning | Travoprost | Gyldig |
+| 28105676415 | Traglafka | øjendråber, opløsning | Travoprost | Gyldig |
+| 28103206800 | Travatan | øjendråber, opløsning | Travoprost | Gyldig |
+| 28105067912 | Travoprost "Pharmathen" | øjendråber, opløsning | Travoprost | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofsprodukt-tilladelse med status gyldig (indehaver: Novartis Europharm Limited).
 

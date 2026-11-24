@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Everolimus: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Nyrecellekarcinom, brystkræft, nyreangiomyolipom og tuberøs sklerose"
 ---
 
@@ -87,9 +87,19 @@ Bemærk, at evidensen gælder kombinationen med ribociclib. Everolimus' bidrag a
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104388708 | Afinitor (Novartis Europharm Limited) | Tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104388708 | Afinitor | tabletter | Everolimus | Gyldig |
+| 28104948311 | Afinitor | tabletter | Everolimus | Gyldig |
+| 28104388608 | Afinitor | tabletter | Everolimus | Gyldig |
+| 28103566803 | Certican | dispergible tabletter | Everolimus | Gyldig |
+| 28103566903 | Certican | dispergible tabletter | Everolimus | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Den danske tilladelse er en enkeltstofsprodukt-tilladelse og er gyldig. Tabletterne er til oral anvendelse.
 

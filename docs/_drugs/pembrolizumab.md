@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Pembrolizumab"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pembrolizumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft, lungekræft og metastatisk melanom"
 ---
 
@@ -69,9 +69,17 @@ Der er aktuelt ingen relateret litteratur for gingival fibromatose.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107325525 | Keytruda (Merck Sharp & Dohme B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107325525 | Keytruda | injektionsvæske, opløsning | Pembrolizumab | Gyldig |
+| 28107325725 | Keytruda | injektionsvæske, opløsning | Pembrolizumab | Gyldig |
+| 28105657715 | Keytruda | koncentrat til infusionsvæske, opløsning | Pembrolizumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Listen omfatter ét enkeltstofpræparat med gyldig status.
 

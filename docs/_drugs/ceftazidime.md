@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ceftazidime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ceftazidime: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -68,10 +68,17 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104273208 | Ceftazidim "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet i de lokale data |
-| 28105600015 | Zavicefta | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104273208 | Ceftazidim "Fresenius Kabi" | pulver til injektions-/infusionsvæske, opløsning | CEFTAZIDIM | Gyldig |
+| 28104273108 | Ceftazidim "Fresenius Kabi" | pulver til injektionsvæske, opløsning | CEFTAZIDIM | Gyldig |
+| 28105600015 | Zavicefta | pulver til koncentrat til infusionsvæske, opløsning | Avibactamnatrium, CEFTAZIDIM | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Zavicefta er et kombinationspræparat (med avibactam), og dets tilladelse beskriver ikke, hvordan ceftazidim som enkeltstof er godkendt.
 

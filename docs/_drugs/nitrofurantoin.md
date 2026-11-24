@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitrofurantoin: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst"
 ---
 
@@ -93,11 +93,18 @@ Ingen af publikationerne undersøger nitrofurantoin som behandling af reumatoid 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100739776 | Nitrofurantoin "EQL Pharma" | Tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Der er 2 gyldige tilladelser til enkeltstofpræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100739776 | Nitrofurantoin "EQL Pharma" | tabletter | NITROFURANTOIN | Gyldig |
+| 28106777322 | Foragen | kapsler med modificeret udløsning, hårde | NITROFURANTOIN, Nitrofurantoinmonohydrat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-nitrofurantoin-1 -->
 
@@ -140,7 +147,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2 gyldige tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er 1 gyldig tilladelse til et enkeltstofpræparat (oral administration).” → “Der er 2 gyldige tilladelser til enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->

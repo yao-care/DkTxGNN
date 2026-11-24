@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (indikationsteksten i marke…"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -80,9 +80,18 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100651774 | Lexotan (CHEPLAPHARM Arzneimittel GmbH) | Tabletter | Ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100651774 | Lexotan | tabletter | BROMAZEPAM | Gyldig |
+| 28106792722 | Lexotan | tabletter | BROMAZEPAM | Gyldig |
+| 28107425625 | Lexotan | tabletter | BROMAZEPAM | Gyldig |
+| 28105704715 | Lexotan | tabletter | BROMAZEPAM | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

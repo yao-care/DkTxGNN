@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprazolam: forudsagt ny indikation Søvnløshed (insomnia (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -78,9 +78,19 @@ Størstedelen af de fundne publikationer handler ikke direkte om alprazolam ved 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107490925 | Alprazolam "2care4" | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107490925 | Alprazolam "2care4" | tabletter | ALPRAZOLAM | Gyldig |
+| 28107620526 | Alprazolam "Concorde" | tabletter | ALPRAZOLAM | Gyldig |
+| 28106694521 | Alprazolam "Grindeks" | tabletter | ALPRAZOLAM | Gyldig |
+| 28106695221 | Alprazolam "Grindeks" | tabletter | ALPRAZOLAM | Gyldig |
+| 28106695321 | Alprazolam "Grindeks" | tabletter | ALPRAZOLAM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

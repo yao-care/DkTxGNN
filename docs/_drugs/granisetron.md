@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Granisetron: forudsagt ny indikation Manisk bipolar lidelse (evidensniveau L5). Oprindelig indikation: Ikke angivet i de sammenstillede data (godkendelsens indikationstekst…"
 ---
 
@@ -81,9 +81,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104794610 | Sancuso (Grünenthal GmbH) | Depotplaster | Ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104131807 | Granisetron "Hameln" | koncentrat til injektions-/infusionsvæske, opløsning | GRANISETRONHYDROCHLORID | Gyldig |
+| 28103912006 | Granisetron "Stada" | filmovertrukne tabletter | GRANISETRONHYDROCHLORID | Gyldig |
+| 28103912106 | Granisetron "Stada" | filmovertrukne tabletter | GRANISETRONHYDROCHLORID | Gyldig |
+| 28107190624 | Granisym | filmovertrukne tabletter | GRANISETRONHYDROCHLORID | Gyldig |
+| 28107190724 | Granisym | filmovertrukne tabletter | GRANISETRONHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

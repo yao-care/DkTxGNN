@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "RIFAXIMIN"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifaximin: forudsagt ny indikation Oral candidiasis (evidensniveau L5). Oprindelig indikation: Hepatisk encefalopati og hepatisk koma"
 ---
 
@@ -85,9 +85,19 @@ Et yderligere studie (PMID 32360775, case-control-studie om risikofaktorer for c
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104323608 | Faxinorm (Alfasigma S.p.A) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104323608 | Faxinorm | filmovertrukne tabletter | RIFAXIMIN | Gyldig |
+| 28104193707 | Xifaxan | filmovertrukne tabletter | RIFAXIMIN | Gyldig |
+| 28105199112 | Xifaxan | filmovertrukne tabletter | RIFAXIMIN | Gyldig |
+| 28104959511 | Xifaxan | filmovertrukne tabletter | RIFAXIMIN | Gyldig |
+| 28105569115 | Xifaxan | filmovertrukne tabletter | RIFAXIMIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstof­præparat til oral anvendelse og har status som gyldig.
 

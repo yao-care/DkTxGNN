@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 661
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: forudsagt ny indikation Seborrheic dermatitis (evidensniveau L2). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -84,9 +84,19 @@ Det bør bemærkes, at TxGNN-modellen også foreslår andre indikationer: dermat
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103270001 | Elidel (Viatris ApS) | Creme | Godkendelsesteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103270001 | Elidel | creme | Pimecrolimus | Gyldig |
+| 28104713110 | Elidel | creme | Pimecrolimus | Gyldig |
+| 28104786610 | Elidel | creme | Pimecrolimus | Gyldig |
+| 28106825122 | Elidel | creme | Pimecrolimus | Gyldig |
+| 28107636326 | Elidel | creme | Pimecrolimus | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

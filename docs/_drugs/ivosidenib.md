@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
 description: "Ivosidenib: forudsagt ny indikation Bulbar polio (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -65,7 +65,6 @@ Bulbær polio er en virusinfektion i motorneuroner forårsaget af poliovirus. De
 
 Den høje score kommer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, som modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens. Der foreligger ingen biologisk begrundelse, kliniske forsøg eller publikationer.
 
-
 ---
 
 ## Evidens fra kliniske forsøg
@@ -82,9 +81,15 @@ Der er på nuværende tidspunkt ingen relaterede publikationer tilgængelige.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106749422 | Tibsovo (Les Laboratoires Servier) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106749422 | Tibsovo | filmovertrukne tabletter | Ivosidenib | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

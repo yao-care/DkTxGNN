@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treosulfan: forudsagt ny indikation Diabetisk katarakt (evidensniveau L5). Oprindelig indikation: Konditionering før hæmatopoietisk stamcelletransplantation"
 monitor_inn: "Treosulfan"
 predicted_indications: ["diabetic cataract"]
@@ -78,9 +78,17 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106054817 | Trecondi (Medac, Gesellschaft für klinische Spezialpräparate mbH) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106054817 | Trecondi | pulver til infusionsvæske, opløsning | TREOSULFAN | Gyldig |
+| 28106322017 | Trecondi | pulver til infusionsvæske, opløsning | TREOSULFAN | Gyldig |
+| 28106178618 | Treosulfan "Tillomed" | pulver til infusionsvæske, opløsning | TREOSULFAN | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

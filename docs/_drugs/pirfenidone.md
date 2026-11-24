@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: forudsagt ny indikation Extracutaneous mastocytoma (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -89,9 +89,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret fo
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105787416 | Esbriet (Roche Registration GmbH) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105787416 | Esbriet | filmovertrukne tabletter | Pirfenidon | Gyldig |
+| 28105787516 | Esbriet | filmovertrukne tabletter | Pirfenidon | Gyldig |
+| 28105787616 | Esbriet | filmovertrukne tabletter | Pirfenidon | Gyldig |
+| 28106583321 | Fredalix | filmovertrukne tabletter | Pirfenidon | Gyldig |
+| 28106583421 | Fredalix | filmovertrukne tabletter | Pirfenidon | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

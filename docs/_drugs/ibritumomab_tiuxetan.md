@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "ibritumomab tiuxetan"
 predicted_indications: ["acute lymphoblastic/lymphocytic leukemia", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "mantle cell lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
 description: "Ibritumomab Tiuxetan: forudsagt ny indikation Akut lymfoblastær/lymfocytær leukæmi (acute lymphoblastic/lymphocytic leukemia) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale d…"
@@ -74,9 +74,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikatio
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28120222503 | Zevalin | Radiofarmaceutisk præparationssæt til infusion | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28120222503 | Zevalin | radiofarmaceutisk præparationssæt til infusion | IBRITUMOMAB TIUXETAN, Yttrium (90-Y) | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen var national og indehavet af Schering AG; den blev afregistreret 2026-10-12.
 

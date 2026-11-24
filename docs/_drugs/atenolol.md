@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Atenolol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
@@ -68,9 +68,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101495692 | Atenodan (STADA Nordic ApS) | Tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101495692 | Atenodan | tabletter | ATENOLOL | Gyldig |
+| 28101495492 | Atenodan | tabletter | ATENOLOL | Gyldig |
+| 28101495592 | Atenodan | tabletter | ATENOLOL | Gyldig |
+| 28107051323 | Atenolol "2care4" | tabletter | ATENOLOL | Gyldig |
+| 28107030323 | Atenolol "Epione Medicine" | tabletter | ATENOLOL | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 700
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: forudsagt ny indikation Simian immunodeficiency virus infection (evidensniveau L4). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -85,9 +85,19 @@ Alle fundne studier er prækliniske (makak-, in vitro- eller resistensmodeller).
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104151507 | Isentress (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104151507 | Isentress | filmovertrukne tabletter | Raltegravirkalium | Gyldig |
+| 28105817016 | Isentress | filmovertrukne tabletter | Raltegravirkalium | Gyldig |
+| 28105302413 | Isentress | granulat til oral suspension | Raltegravirkalium | Gyldig |
+| 28104933911 | Isentress | tyggetabletter | Raltegravirkalium | Gyldig |
+| 28104933811 | Isentress | tyggetabletter | Raltegravirkalium | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

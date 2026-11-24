@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin: forudsagt ny indikation Slidgigt (osteoarthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data . Daptomycin er et antibiotikum mod…"
 ---
 
@@ -94,11 +94,21 @@ Ingen af nedenstående studier undersøger daptomycin som behandling af slidgigt
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103762004 | Cubicin | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103762004 | Cubicin | pulver til injektions-/infusionsvæske, opløsning | Daptomycin | Gyldig |
+| 28103762104 | Cubicin | pulver til injektions-/infusionsvæske, opløsning | Daptomycin | Gyldig |
+| 28106699021 | Daptomycin "Accord Healthcare" | pulver til injektions-/infusionsvæske, opløsning | Daptomycin | Gyldig |
+| 28106699121 | Daptomycin "Accord Healthcare" | pulver til injektions-/infusionsvæske, opløsning | Daptomycin | Gyldig |
+| 28106119418 | Daptomycin "Accordpharma" | pulver til injektions-/infusionsvæske, opløsning | Daptomycin | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-daptomycin-1 -->
 
@@ -150,7 +160,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” → “Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (indehaver: Merck Sharp & Dohme B.V.), ” → “Antal tilladelser: 16 nationale tilladelser, alle med status gyldig.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: forudsagt ny indikation Resistens over for thyroideahormon på grund af mutation i thyroideahormonreceptor beta (resistance to thyroid hormone d… (evidensniveau L4). Oprindelig indik…"
@@ -86,9 +86,15 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28100745976 | Propyltiouracil "Medic" (Viatris ApS) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100745976 | Propyltiouracil "Medic" | filmovertrukne tabletter | Propylthiouracil | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

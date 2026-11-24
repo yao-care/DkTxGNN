@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENOXAPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"
@@ -84,9 +84,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106396620 | Inhixa (Techdow Pharma Netherlands B.V.) | Injektionsvæske, opløsning, flerdosisbeholder | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105472714 | Enoxaparin "Becat" | injektionsvæske, opløsning i fyldt injektionssprøjte | ENOXAPARINNATRIUM | Gyldig |
+| 28105980514 | Enoxaparin "Becat" | injektionsvæske, opløsning i fyldt injektionssprøjte | ENOXAPARINNATRIUM | Gyldig |
+| 28105980414 | Enoxaparin "Becat" | injektionsvæske, opløsning i fyldt injektionssprøjte | ENOXAPARINNATRIUM | Gyldig |
+| 28105980314 | Enoxaparin "Becat" | injektionsvæske, opløsning i fyldt injektionssprøjte | ENOXAPARINNATRIUM | Gyldig |
+| 28105980214 | Enoxaparin "Becat" | injektionsvæske, opløsning i fyldt injektionssprøjte | ENOXAPARINNATRIUM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

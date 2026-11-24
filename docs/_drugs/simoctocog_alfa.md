@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
@@ -95,9 +95,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105298513 | Nuwiq (Octapharma AB) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105298513 | Nuwiq | pulver og solvens til injektionsvæske, opløsning | Simoctocog alfa | Gyldig |
+| 28106576621 | Nuwiq | pulver og solvens til injektionsvæske, opløsning | Simoctocog alfa | Gyldig |
+| 28105298613 | Nuwiq | pulver og solvens til injektionsvæske, opløsning | Simoctocog alfa | Gyldig |
+| 28105954017 | Nuwiq | pulver og solvens til injektionsvæske, opløsning | Simoctocog alfa | Gyldig |
+| 28105298313 | Nuwiq | pulver og solvens til injektionsvæske, opløsning | Simoctocog alfa | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antal tilladelser: 1 (gyldig, enkeltstofpræparat).
 

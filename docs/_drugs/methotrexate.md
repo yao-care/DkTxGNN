@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: forudsagt ny indikation Pulmonary blastoma (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -90,10 +90,19 @@ For pulmonalt blastom: Der er aktuelt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101308887 | Emthexate (Teva B.V.) | Tabletter | Ikke tilgængelig |
-| 28104244907 | Ebetrex (Ebewe Pharma) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107588707 | Ebetrex | injektionsvæske, opløsning i fyldt injektionssprøjte | METHOTREXAT | Gyldig |
+| 28107588807 | Ebetrex | injektionsvæske, opløsning i fyldt injektionssprøjte | METHOTREXAT | Gyldig |
+| 28107588907 | Ebetrex | injektionsvæske, opløsning i fyldt injektionssprøjte | METHOTREXAT | Gyldig |
+| 28107589007 | Ebetrex | injektionsvæske, opløsning i fyldt injektionssprøjte | METHOTREXAT | Gyldig |
+| 28107589107 | Ebetrex | injektionsvæske, opløsning i fyldt injektionssprøjte | METHOTREXAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 566
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Montelukast: forudsagt ny indikation Bronkitis (evidensniveau L2). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis…"
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
@@ -106,9 +106,19 @@ De mest relevante forsøg (op til 10) er vist nedenfor.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105906017 | Montegran (2care4 ApS) | Granulat | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105906017 | Montegran | granulat | MONTELUKASTNATRIUM | Gyldig |
+| 28107308625 | Montelukast "Abacus Medicine" | granulat | MONTELUKASTNATRIUM | Gyldig |
+| 28104765310 | Montelukast "Accord Healthcare" | filmovertrukne tabletter | MONTELUKASTNATRIUM | Gyldig |
+| 28107265124 | Montelukast "Carefarm" | granulat | MONTELUKASTNATRIUM | Gyldig |
+| 28107687526 | Montelukast "Concorde" | tyggetabletter | MONTELUKASTNATRIUM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

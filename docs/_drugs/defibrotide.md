@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Defibrotide: forudsagt ny indikation Pseudo-von Willebrand sygdom (rang 1 i modellen). Den bedst understøt… (evidensniveau L5). Oprindelig indikation: Hepatisk veno-okklusiv sygdom (VOD) og hepatisk …"
 monitor_inn: "defibrotide"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
@@ -91,9 +91,15 @@ Evidensen nedenfor vedrører TTP og er indirekte eller på case-niveau.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104921111 | Defitelio (Gentium SpA) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104921111 | Defitelio | koncentrat til infusionsvæske, opløsning | DEFIBROTID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

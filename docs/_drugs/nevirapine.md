@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nevirapin: forudsagt ny indikation felint ervervet immundefektsyndrom (evidensniveau L5). Oprindelig indikation: HIV-infektion, AIDS"
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -86,9 +86,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106220319 | Nevirapine "Medical Valley" (Medical Valley Invest AB) | Depottabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106220319 | Nevirapine "Medical Valley" | depottabletter | NEVIRAPIN | Gyldig |
+| 28105933417 | Nevirapine "Viatris" | depottabletter | NEVIRAPIN | Gyldig |
+| 28104760210 | Viramune | depottabletter | NEVIRAPIN | Gyldig |
+| 28103035698 | Viramune | oral suspension | NEVIRAPIN | Gyldig |
+| 28101861996 | Viramune | tabletter | NEVIRAPIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 280
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L1). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -106,9 +106,19 @@ Et udvalg af de mest relevante forsøg (op til 10):
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100920177 | Adriamycin (Pfizer ApS) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100920177 | Adriamycin | pulver til injektionsvæske, opløsning | DOXORUBICINHYDROCHLORID | Gyldig |
+| 28101716794 | Caelyx pegylated liposomal | koncentrat til infusionsvæske, opløsning | DOXORUBICINHYDROCHLORID | Gyldig |
+| 28104407708 | Doxorubicin "Accord" | koncentrat til infusionsvæske, opløsning | DOXORUBICINHYDROCHLORID | Gyldig |
+| 28103012898 | Doxorubicin "Ebewe" | injektionsvæske, opløsning | DOXORUBICINHYDROCHLORID | Gyldig |
+| 28104350308 | Doxorubicin "Teva" | koncentrat til infusionsvæske, opløsning | DOXORUBICINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

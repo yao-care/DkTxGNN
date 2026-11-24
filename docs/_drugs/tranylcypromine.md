@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -88,9 +88,17 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107038423 | Abbonate (Abboxia AB) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107038423 | Abbonate | filmovertrukne tabletter | TRANYLCYPROMINSULFAT | Gyldig |
+| 28107241224 | Tranylcypromin "Holsten" | filmovertrukne tabletter | TRANYLCYPROMINSULFAT | Gyldig |
+| 28107241524 | Tranylcypromin "Holsten" | filmovertrukne tabletter | TRANYLCYPROMINSULFAT | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

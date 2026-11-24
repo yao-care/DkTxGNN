@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 16
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Acetaminophen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,13 +72,21 @@ TxGNN-modellens kandidater for Acetaminophen (score ≥ 0,99) er alle kendte anv
 
 ## Oplysninger om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105497714 | Apotel | Infusionsvæske, opløsning | Ikke angivet |
-| 28103909506 | Arax | Tabletter | Ikke angivet |
-| 28104372108 | Arax Forte | Tabletter | Ikke angivet |
-| 28106604321 | Arax Hot | Pulver til oral opløsning, breve | Ikke angivet |
-| 28104372008 | Arax Junior | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105497714 | Apotel | infusionsvæske, opløsning | PARACETAMOL | Gyldig |
+| 28103909506 | Arax | tabletter | PARACETAMOL | Gyldig |
+| 28104372108 | Arax Forte | tabletter | PARACETAMOL | Gyldig |
+| 28106604321 | Arax Hot | pulver til oral opløsning, breve | PARACETAMOL | Gyldig |
+| 28104372008 | Arax Junior | tabletter | PARACETAMOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 5 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

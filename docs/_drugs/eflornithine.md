@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eflornithine: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Human afrikansk trypanosomiasis (sovesyge)"
 monitor_inn: "eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
@@ -76,9 +76,15 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103128799 | Vaniqa (Almirall, S.A.) | Creme | Ingen indikationstekst tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103128799 | Vaniqa | creme | Eflornithinhydrochlorid | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Den eneste tilladelse er en creme til udvortes brug. Ifølge andre kilder anvendes topisk eflornithin mod overdreven ansigtshårvækst (hirsutisme hos kvinder), og injektion er anvendt ved sovesyge. Den danske tilladelse dækker således ikke en systemisk eller øjenrelateret anvendelse.
 

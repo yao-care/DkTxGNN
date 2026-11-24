@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Tildipirosin"
 predicted_indications: ["leprosy"]
 description: "Tildipirosin: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -84,6 +84,14 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat. Produktet er et veterinærlægemiddel.
 

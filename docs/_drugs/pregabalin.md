@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pregabalin: forudsagt ny indikation Tendinitis (evidensniveau L5)."
 ---
 
@@ -100,13 +100,21 @@ Klinisk er signalerne dog begrænsede: de randomiserede studier er små og pædi
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106528520 | Galberin | Kapsler, hårde | Ikke angivet |
-| 28107200424 | Galberin | Kapsler, hårde | Ikke angivet |
-| 28107200524 | Galberin | Kapsler, hårde | Ikke angivet |
-| 28106528420 | Galberin | Kapsler, hårde | Ikke angivet |
-| 28105832916 | Lyribastad | Kapsler, hårde | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106528520 | Galberin | kapsler, hårde | Pregabalin | Gyldig |
+| 28107200424 | Galberin | kapsler, hårde | Pregabalin | Gyldig |
+| 28107200524 | Galberin | kapsler, hårde | Pregabalin | Gyldig |
+| 28106528420 | Galberin | kapsler, hårde | Pregabalin | Gyldig |
+| 28105832916 | Lyribastad | kapsler, hårde | Pregabalin | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Antal godkendelser: 1 (national godkendelse, enkeltstofpræparat). Listen er fuldstændig.
 

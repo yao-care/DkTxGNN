@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Romiplostim: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (primary release disorder of platelets) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104565809 | Nplate (Amgen Europe BV) | Pulver og solvens til injektionsvæske, opløsning | Ingen indikationstekst tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104565809 | Nplate | pulver og solvens til injektionsvæske, opløsning | Romiplostim | Gyldig |
+| 28104566109 | Nplate | pulver og solvens til injektionsvæske, opløsning | Romiplostim | Gyldig |
+| 28106574316 | Nplate | pulver til injektionsvæske, opløsning | Romiplostim | Gyldig |
+| 28104252607 | Nplate | pulver til injektionsvæske, opløsning | Romiplostim | Gyldig |
+| 28104510709 | Nplate | pulver til injektionsvæske, opløsning | Romiplostim | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -99,9 +99,19 @@ Et udvalg af de mest relevante publikationer (19 i alt):
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104194907 | Ariclaim | Enterokapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105467314 | Aritavi | enterokapsler, hårde | DULOXETINHYDROCHLORID | Gyldig |
+| 28105467414 | Aritavi | enterokapsler, hårde | DULOXETINHYDROCHLORID | Gyldig |
+| 28103594003 | Cymbalta | enterokapsler, hårde | DULOXETINHYDROCHLORID | Gyldig |
+| 28103594103 | Cymbalta | enterokapsler, hårde | DULOXETINHYDROCHLORID | Gyldig |
+| 28105486914 | Duciltia | enterokapsler, hårde | DULOXETINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Indehaver: Eli Lilly Netherland B.V. Status: tilladelsen står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler; EMA's tilladelse for Ariclaim blev trukket tilbage 2018-07-09.
 

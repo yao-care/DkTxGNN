@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Iopromide: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsens indikationstekst er t…"
 ---
 
@@ -80,11 +80,20 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101272286 | Ultravist (Bayer AB) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Der er tale om 4 gyldige tilladelser for enkeltstofspræparater. Administration sker som injektion/infusion.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101272286 | Ultravist | injektions-/infusionsvæske, opløsning | Iopromid | Gyldig |
+| 28101201084 | Ultravist | injektions-/infusionsvæske, opløsning | Iopromid | Gyldig |
+| 28101201184 | Ultravist | injektions-/infusionsvæske, opløsning | Iopromid | Gyldig |
+| 28101201284 | Ultravist | injektions-/infusionsvæske, opløsning | Iopromid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Administration sker som injektion/infusion.
 
 <!-- review:begin dk-lic-20261112-iopromide-1 -->
 
@@ -129,7 +138,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofspræparat.” → “Der er tale om 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofspræparat.” → “Der er tale om 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

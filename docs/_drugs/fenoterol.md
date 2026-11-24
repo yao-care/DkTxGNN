@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenoterol: forudsagt ny indikation Multipel systematrofi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten for det dans…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28103223300 | Berodual (Boehringer Ingelheim Int. GmbH) | Inhalationsspray, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103223300 | Berodual | inhalationsspray, opløsning | FENOTEROLHYDROBROMID, IPRATROPIUMBROMID | Gyldig |
+| 28107551226 | Berodual | inhalationsspray, opløsning | FENOTEROLHYDROBROMID, IPRATROPIUMBROMID | Gyldig |
+| 28107561426 | Berodual | inhalationsspray, opløsning | FENOTEROLHYDROBROMID, IPRATROPIUMBROMID | Gyldig |
+| 28107590526 | Berodual | inhalationsspray, opløsning | FENOTEROLHYDROBROMID, IPRATROPIUMBROMID | Gyldig |
+| 28101497592 | Berodual | inhalationsvæske til nebulisator, opløsning, enkeltdosisbeh… | FENOTEROLHYDROBROMID, IPRATROPIUMBROMID | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

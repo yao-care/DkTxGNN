@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tapentadol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de indsamlede data (indikationsteksten er tom)"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -86,9 +86,19 @@ Ingen publikationer undersøger tapentadol direkte ved migræne. To indirekte pu
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104515109 | Palexia (Grünenthal GmbH) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104515109 | Palexia | filmovertrukne tabletter | Tapentadolhydrochlorid | Gyldig |
+| 28104515509 | Palexia Depot | depottabletter | Tapentadolhydrochlorid | Gyldig |
+| 28104515609 | Palexia Depot | depottabletter | Tapentadolhydrochlorid | Gyldig |
+| 28104515709 | Palexia Depot | depottabletter | Tapentadolhydrochlorid | Gyldig |
+| 28104515809 | Palexia Depot | depottabletter | Tapentadolhydrochlorid | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

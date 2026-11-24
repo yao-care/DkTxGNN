@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). I Danmark, markedsføringstilladelser: 20 (gyldige: 20)"
@@ -87,9 +87,19 @@ Det er vigtigt at bemærke, at dette understøtter en plausibel MR-medieret meka
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105367014 | Eplerathen (Pharmathen S.A.) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105367014 | Eplerathen | filmovertrukne tabletter | EPLERENON | Gyldig |
+| 28105367114 | Eplerathen | filmovertrukne tabletter | EPLERENON | Gyldig |
+| 28105457214 | Eplerenon "Accord" | filmovertrukne tabletter | EPLERENON | Gyldig |
+| 28105457314 | Eplerenon "Accord" | filmovertrukne tabletter | EPLERENON | Gyldig |
+| 28105162112 | Eplerenon "Bluefish" | filmovertrukne tabletter | EPLERENON | Gyldig |
+
+Tabellen viser 5 af 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -82,11 +82,19 @@ For den forudsagte hovedindikation er der ingen relateret litteratur. Nedenfor s
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107530225 | Aceinhib (2care4 ApS) | Tabletter | Indikationstekst ikke tilgængelig |
-| 28107031123 | Aceinhib (2care4 ApS) | Tabletter | Indikationstekst ikke tilgængelig |
-| 28103575203 | Lisinoplus (STADA Arzneimittel AG) | Tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107530225 | Aceinhib | tabletter | LISINOPRILDIHYDRAT | Gyldig |
+| 28103048998 | Cardiostad | tabletter | LISINOPRILDIHYDRAT | Gyldig |
+| 28107544926 | Lisinopril "2care4" | tabletter | LISINOPRILDIHYDRAT | Gyldig |
+| 28103240201 | Lisinopril "Actavis" | tabletter | LISINOPRILDIHYDRAT | Gyldig |
+| 28103240301 | Lisinopril "Actavis" | tabletter | LISINOPRILDIHYDRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

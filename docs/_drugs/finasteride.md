@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Finasteride: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -99,9 +99,19 @@ Ingen af publikationerne viser, at finasterid er undersøgt ved hypertrichosis.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106153918 | Finasterid "Amarox" (Amarox Pharma B.V.) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106153918 | Finasterid "Amarox" | filmovertrukne tabletter | FINASTERID | Gyldig |
+| 28104076107 | Finasterid "Aurobindo" | filmovertrukne tabletter | FINASTERID | Gyldig |
+| 28107601026 | Finasterid "Epione" | filmovertrukne tabletter | FINASTERID | Gyldig |
+| 28107601926 | Finasterid "Nordic Prime" | filmovertrukne tabletter | FINASTERID | Gyldig |
+| 28104194407 | Finasterid "Stada" | filmovertrukne tabletter | FINASTERID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

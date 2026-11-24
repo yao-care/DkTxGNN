@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: forudsagt ny indikation Hypermobility of coccyx (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -95,9 +95,19 @@ Ingen af publikationerne undersøger direkte golimumab ved reumatoid vaskulitis.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107264224 | Gobivaz (Advanz Pharma Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107264224 | Gobivaz | injektionsvæske, opløsning i fyldt injektionssprøjte | Golimumab | Gyldig |
+| 28107522224 | Gobivaz | injektionsvæske, opløsning i fyldt injektionssprøjte | Golimumab | Gyldig |
+| 28107264324 | Gobivaz | injektionsvæske, opløsning i fyldt pen | Golimumab | Gyldig |
+| 28107522124 | Gobivaz | injektionsvæske, opløsning i fyldt pen | Golimumab | Gyldig |
+| 28107307024 | Gotenfia | injektionsvæske, opløsning i fyldt injektionssprøjte | Golimumab | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

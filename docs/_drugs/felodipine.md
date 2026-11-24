@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -99,9 +99,19 @@ Ingen af disse undersøger pulmonal hypertension hos patienter.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103342702 | Felodin (STADA Arzneimittel AG) | Depottabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103342702 | Felodin | depottabletter | FELODIPIN | Gyldig |
+| 28103342602 | Felodin | depottabletter | FELODIPIN | Gyldig |
+| 28103416702 | Felodipin "HEXAL" | depottabletter | FELODIPIN | Gyldig |
+| 28104148007 | Felodipin "HEXAL" | depottabletter | FELODIPIN | Gyldig |
+| 28103416602 | Felodipin "HEXAL" | depottabletter | FELODIPIN | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

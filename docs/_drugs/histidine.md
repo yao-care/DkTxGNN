@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Histidine: forudsagt ny indikation Gastroparese (evidensniveau L5). Oprindelig indikation: Ikke angivet i godkendelsesdata"
 monitor_inn: "histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -90,13 +90,19 @@ Der findes 20 gyldige markedsføringstilladelser for produkter, der indeholder h
 
 <!-- review:end dk-lic-20261112-histidine-1 -->
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106036517 | Corhum | Opløsning til kardioplegi | Ikke angivet |
-| 28106260519 | Ketosteril | Filmovertrukne tabletter | Ikke angivet |
-| 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| 28107044823 | Maapliv | Infusionsvæske, opløsning | Ikke angivet |
-| 28105461714 | Nutriflex Omega Special elektrolytfri | Infusionsvæske, emulsion | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28104977411 | Amiped | infusionsvæske, opløsning | ACETYLCYSTEIN, ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Øvrige produkter omfatter blandt andet Aminoplasmal, Vamin, Amiped, Nutrineal PD4, Numeta G13E, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven og Pedismof Preterm.
 

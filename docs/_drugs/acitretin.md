@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 20
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Acitretin: forudsagt ny indikation Akne (acne) (evidensniveau L3). Oprindelig indikation: Ikke tilgængelig i de indsamlede data"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -98,9 +98,19 @@ Der er ikke fundet randomiserede kontrollerede studier af acitretin ved acne vul
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105627515 | Acitretin "Orifarm" (Orifarm Generics A/S) | Kapsler, hårde | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105627515 | Acitretin "Orifarm" | kapsler, hårde | ACITRETIN | Gyldig |
+| 28105628015 | Acitretin "Orifarm" | kapsler, hårde | ACITRETIN | Gyldig |
+| 28101312487 | Neotigason | kapsler, hårde | ACITRETIN | Gyldig |
+| 28107461025 | Neotigason | kapsler, hårde | ACITRETIN | Gyldig |
+| 28107634526 | Neotigason | kapsler, hårde | ACITRETIN | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

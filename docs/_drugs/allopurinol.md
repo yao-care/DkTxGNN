@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: forudsagt ny indikation Hepatisk porfyri (evidensniveau L5). Oprindelig indikation: Urinsyregigt, forhøjet urinsyre og akut urat-nefropati"
 ---
 
@@ -85,11 +85,21 @@ Ingen af de to artikler tester allopurinol hos patienter med porfyri.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106017917 | Allopurinol "Accord" (Accord Healthcare B.V.) | Tabletter | Indikationstekst er ikke tilgængelig |
+<!-- licenses:begin -->
 
-Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofpræparater). Administrationsvej: oral.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106017917 | Allopurinol "Accord" | tabletter | ALLOPURINOL | Gyldig |
+| 28106018017 | Allopurinol "Accord" | tabletter | ALLOPURINOL | Gyldig |
+| 28101058280 | Allopurinol "EQL Pharma" | tabletter | ALLOPURINOL | Gyldig |
+| 28101058380 | Allopurinol "EQL Pharma" | tabletter | ALLOPURINOL | Gyldig |
+| 28107237324 | Allopurinol "Medical Valley" | tabletter | ALLOPURINOL | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Administrationsvej: oral.
 
 <!-- review:begin dk-lic-20261112-allopurinol-1 -->
 
@@ -129,7 +139,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” → “Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofp” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (gyldig, enkeltstofpræpa” → “Antal godkendelser: 12 nationale markedsføringstilladelser (gyldige, enkeltstofp” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->

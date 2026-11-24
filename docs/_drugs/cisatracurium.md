@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cisatracurium: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom)"
 monitor_inn: "cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -86,9 +86,19 @@ For den primære forudsigelse (cauda equina-syndrom) er der i øjeblikket ingen 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106328919 | Cisatracurium "Accordpharma" (Accord Healthcare B.V.) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106328919 | Cisatracurium "Accordpharma" | injektions-/infusionsvæske, opløsning | CISATRACURIUMBESILAT | Gyldig |
+| 28104672810 | Cisatracurium "Fresenius Kabi" | injektions-/infusionsvæske, opløsning | CISATRACURIUMBESILAT | Gyldig |
+| 28106613921 | Cisatracurium "Kalceks" | injektions-/infusionsvæske, opløsning | CISATRACURIUMBESILAT | Gyldig |
+| 28107350225 | Cisatracurium "Noridem" | injektions-/infusionsvæske, opløsning | CISATRACURIUMBESILAT | Gyldig |
+| 28101772295 | Nimbex | injektionsvæske, opløsning | CISATRACURIUMBESILAT | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

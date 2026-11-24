@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: forudsagt ny indikation Papillary conjunctivitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -99,11 +99,19 @@ Samlet set er evidensen overvejende lille, gammel og uden kontrolgrupper.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105186412 | Takipril | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28101169483 | Emla | Creme | Indikationstekst ikke tilgængelig |
-| 28100484865 | Citanest Dental Octapressin | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186412 | Takipril | injektionsvæske, opløsning | Prilocainhydrochlorid | Gyldig |
+| 28100484865 | Citanest Dental Octapressin | injektionsvæske, opløsning | FELYPRESSIN, Prilocainhydrochlorid | Gyldig |
+| 28101169483 | Emla | creme | LIDOCAIN, PRILOCAIN | Gyldig |
+| 28101451191 | Emla | medicinsk plaster | LIDOCAIN, PRILOCAIN | Gyldig |
+| 28105141012 | Fortacin | kutanspray, opløsning | LIDOCAIN, PRILOCAIN | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Emla-cremen (lidocain/prilocain) er den formulering, der er relevant for topisk anvendelse ved neuralgi.
 

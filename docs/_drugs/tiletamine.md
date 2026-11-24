@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tiletamine: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst registreret i de data…"
 monitor_inn: "tiletamine"
 predicted_indications: ["insomnia (disease)"]
@@ -80,6 +80,14 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Guselkumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guselkumab: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -93,9 +93,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105897816 | Tremfya (Janssen-Cilag International NV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i licensen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105897816 | Tremfya | injektionsvæske, opløsning i fyldt injektionssprøjte | Guselkumab | Gyldig |
+| 28107173224 | Tremfya | injektionsvæske, opløsning i fyldt injektionssprøjte | Guselkumab | Gyldig |
+| 28107173424 | Tremfya | injektionsvæske, opløsning i fyldt pen | Guselkumab | Gyldig |
+| 28107324125 | Tremfya | injektionsvæske, opløsning i fyldt pen | Guselkumab | Gyldig |
+| 28107173024 | Tremfya | koncentrat til infusionsvæske, opløsning | Guselkumab | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

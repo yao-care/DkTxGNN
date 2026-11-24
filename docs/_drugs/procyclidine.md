@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
 description: "Procyclidine: forudsagt ny indikation Rasmussens subakutte encefalitis (Rasmussen subacute encephalitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -82,9 +82,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100009555 | Kemadrin (Aspen Pharma Trading Ltd.) | Tabletter (oral) | Indikationstekst er ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100009555 | Kemadrin | tabletter | PROCYCLIDINHYDROCHLORID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

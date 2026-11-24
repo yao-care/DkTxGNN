@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 593
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "norethisterone"
 description: "Norethisterone: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
@@ -50,9 +50,19 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101594194 | Mini-Pe (Pfizer ApS) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101594194 | Mini-Pe | tabletter | NORETHISTERON | Gyldig |
+| 28104202307 | Activelle low | filmovertrukne tabletter | ESTRADIOLHEMIHYDRAT, NORETHISTERONACETAT | Gyldig |
+| 28104434208 | Cliovelle | tabletter | ESTRADIOLVALERAT, NORETHISTERONACETAT | Gyldig |
+| 28107296924 | Cliovelle | tabletter | ESTRADIOLVALERAT, NORETHISTERONACETAT | Gyldig |
+| 28101860096 | Evo-Conti | depotplastre | ESTRADIOLHEMIHYDRAT, NORETHISTERONACETAT | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

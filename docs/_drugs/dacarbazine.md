@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dacarbazine: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (upper aerodigestive tr… (evidensniveau L5). Oprindelig indikation: Metastatisk melanom og Hodgkins lymfom (fra vide…"
 monitor_inn: "dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -94,9 +94,19 @@ Ingen af de fundne publikationer er kontrollerede studier af dacarbazin ved neop
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105721616 | Dacarbazine "Lipomed" (Lipomed GmbH) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105721616 | Dacarbazine "Lipomed" | pulver til infusionsvæske, opløsning | DACARBAZIN | Gyldig |
+| 28105721516 | Dacarbazine "Lipomed" | pulver til infusionsvæske, opløsning | DACARBAZIN | Gyldig |
+| 28104960711 | Dacarbazine "Lipomed" | pulver til injektions-/infusionsvæske, opløsning | DACARBAZIN | Gyldig |
+| 28101899297 | Dacarbazine "Medac" | pulver til infusionsvæske, opløsning | DACARBAZINCITRAT | Gyldig |
+| 28101899197 | Dacarbazine "Medac" | pulver til injektions-/infusionsvæske, opløsning | DACARBAZINCITRAT | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

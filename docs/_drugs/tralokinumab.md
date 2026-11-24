@@ -5,7 +5,7 @@ layout: default
 title: Tralokinumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 846
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tralokinumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tralokinumab"
 predicted_indications: []
@@ -48,9 +48,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Denmark Market Information (Det danske marked)
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106438220 | Adtralza (LEO Pharma A/S) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106438220 | Adtralza | injektionsvæske, opløsning i fyldt injektionssprøjte | Tralokinumab | Gyldig |
+| 28106873822 | Adtralza | injektionsvæske, opløsning i fyldt pen | Tralokinumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

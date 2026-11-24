@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 485
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: forudsagt ny indikation Hepatitis B-virusinfektion (hepatitis B virus infection) (evidensniveau L2). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -99,9 +99,18 @@ Den samme model forudsiger også andre sygdomme (bl.a. hepatitis E, hepatitis A,
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105402814 | Harvoni (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105402814 | Harvoni | filmovertrukne tabletter | Ledipasvir, Sofosbuvir | Gyldig |
+| 28106286819 | Harvoni | filmovertrukne tabletter | Ledipasvir, Sofosbuvir | Gyldig |
+| 28106286919 | Harvoni | overtrukket granulat i brev | Ledipasvir, Sofosbuvir | Gyldig |
+| 28106287019 | Harvoni | overtrukket granulat i brev | Ledipasvir, Sofosbuvir | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Harvoni er et kombinationspræparat (ledipasvir/sofosbuvir, status: gyldig). Det gives oralt.
 

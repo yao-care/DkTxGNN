@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 139
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L4). Oprindelig indikation: Opioidafhængighed, stofmisbrug/-afhængighed…"
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -91,9 +91,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105866216 | Bunalict | Sublinguale resoribletter | Ikke oplyst |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104751210 | BuTrans | depotplastre | BUPRENORPHIN | Gyldig |
+| 28104751310 | BuTrans | depotplastre | BUPRENORPHIN | Gyldig |
+| 28104751110 | BuTrans | depotplastre | BUPRENORPHIN | Gyldig |
+| 28105579115 | Buprefarm | depotplastre | BUPRENORPHIN | Gyldig |
+| 28106109618 | Buprefarm | depotplastre | BUPRENORPHIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Bemærk: To af de tre tilladelser er veterinærlægemidler. Kun Bunalict (Sandoz A/S) er en human formulering.
 

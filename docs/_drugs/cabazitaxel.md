@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: forudsagt ny indikation Kvindelig brystkræft (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsesteksten er tom)"
 ---
 
@@ -90,11 +90,21 @@ Der er for tiden ingen relaterede kliniske forsøg registreret i datagrundlaget.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106241519 | Cabazitaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i data |
+<!-- licenses:begin -->
 
-Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106241519 | Cabazitaxel "Accord" | koncentrat til infusionsvæske, opløsning | Cabazitaxel | Gyldig |
+| 28106281519 | Cabazitaxel "Ever Pharma" | koncentrat til infusionsvæske, opløsning | Cabazitaxel | Gyldig |
+| 28106593621 | Cabazitaxel "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | Cabazitaxel | Gyldig |
+| 28106614021 | Cabazitaxel "Glenmark" | koncentrat til infusionsvæske, opløsning | Cabazitaxel | Gyldig |
+| 28106255919 | Cabazitaxel "Medical Valley" | koncentrat og solvens til infusionsvæske, opløsning | Cabazitaxel | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-cabazitaxel-1 -->
 
@@ -146,7 +156,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.” → “Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er 1 national tilladelse for et enkeltstofpræparat, og den er gyldig.” → “Der er 10 nationale tilladelser for enkeltstofpræparater, og de er gyldige.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Thymol: forudsagt ny indikation Interventrikulært septumaneurisme (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den eneste autorisation har ingen…"
 ---
 
@@ -79,6 +79,14 @@ Der er i øjeblikket ingen relateret litteratur om thymol og interventrikulært 
 ---
 
 ## Information om markedet i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Tilladelsen er en national enkeltstofstilladelse, og der er ikke anført flere. Produktet er et veterinært præparat.
 

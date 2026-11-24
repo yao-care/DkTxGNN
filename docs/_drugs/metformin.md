@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -99,13 +99,19 @@ Mindst 20 tilladelser er gyldige; de gennemgåede omfatter filmovertrukne tablet
 
 <!-- review:end dk-lic-20261112-metformin-1 -->
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106612321 | Forminet (STADA Arzneimittel AG) | Filmovertrukne tabletter | Ikke angivet |
-| 28105128112 | Vipdomet (Takeda Pharma A/S) | Filmovertrukne tabletter | Ikke angivet |
-| 28104196807 | Efficib (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter | Ikke angivet |
-| 28105485314 | Synjardy (Boehringer Ingelheim Int. GmbH) | Filmovertrukne tabletter | Ikke angivet |
-| 28104745610 | Komboglyze (AstraZeneca AB) | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106612321 | Forminet | filmovertrukne tabletter | METFORMINHYDROCHLORID | Gyldig |
+| 28106612021 | Forminet | filmovertrukne tabletter | METFORMINHYDROCHLORID | Gyldig |
+| 28106612221 | Forminet | filmovertrukne tabletter | METFORMINHYDROCHLORID | Gyldig |
+| 28105193912 | Lyomet | depottabletter | METFORMINHYDROCHLORID | Gyldig |
+| 28105193712 | Lyomet | depottabletter | METFORMINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tenecteplase: forudsagt ny indikation Congenital coronary artery anomaly (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -96,11 +96,19 @@ Ingen af publikationerne undersøger koronar stenose som sygdom direkte. De hand
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103119499 (national) | Metalyse (Boehringer Ingelheim Int. GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
 
-Der er tale om 3 gyldige tilladelser for enkeltstofpræparater. Markedsføringsstatus er "På markedet".
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103119499 | Metalyse | pulver og solvens til injektionsvæske, opløsning | TENECTEPLASE | Gyldig |
+| 28103119399 | Metalyse | pulver og solvens til injektionsvæske, opløsning | TENECTEPLASE | Gyldig |
+| 28107106423 | Metalyse | pulver til injektionsvæske, opløsning | TENECTEPLASE | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Markedsføringsstatus er "På markedet".
 
 <!-- review:begin dk-lic-20261112-tenecteplase-1 -->
 
@@ -155,7 +163,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofpræparat.” → “Der er tale om 3 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig tilladelse for et enkeltstofpræparat.” → “Der er tale om 3 gyldige tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

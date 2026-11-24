@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 6
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sorafenib: forudsagt ny indikation Liposarkom (evidensniveau L4). Oprindelig indikation: Ikke angivet i licensteksten for det danske produkt. Scoren stammer fra TxGNN-modellen (deep learning) og kan afspejle ligheder, modellen har lært mellem beslægtede sygdomme, ikke biologisk evidens."
 ---
 
@@ -92,9 +92,15 @@ Den kliniske aktivitet i liposarkom ser ud til at være begrænset, og de klinis
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106038617 | Sorafenib "Teva" (Teva B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige licensdata |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106038617 | Sorafenib "Teva" | filmovertrukne tabletter | sorafenib | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Der er registreret én gyldig enkeltstofsgodkendelse, og lægemidlet gives gennem munden.
 

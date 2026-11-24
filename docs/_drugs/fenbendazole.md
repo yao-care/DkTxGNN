@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Fenbendazole: forudsagt ny indikation Urinblærekarcinom (urinary bladder carcinoma) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom)"
 monitor_inn: "fenbendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colonic type adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colloid adenocarcinoma"]
@@ -85,6 +85,14 @@ Ingen litteratur er knyttet direkte til "urinblærekarcinom". Nedenfor vises lit
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 12 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ---
 

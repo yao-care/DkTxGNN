@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Insulin Detemir: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 ---
 
@@ -78,11 +78,20 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103680904 | Levemir FlexPen (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103680904 | Levemir FlexPen | injektionsvæske, opløsning i fyldt pen | Insulin detemir | Gyldig |
+| 28104807610 | Levemir FlexTouch | injektionsvæske, opløsning i fyldt pen | Insulin detemir | Gyldig |
+| 28103681004 | Levemir InnoLet | injektionsvæske, opløsning i fyldt pen | Insulin detemir | Gyldig |
+| 28103448302 | Levemir Penfill | injektionsvæske, opløsning i cylinderampul | Insulin detemir | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-insulin_detemir-1 -->
 
@@ -130,7 +139,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofspræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofspræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofspræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

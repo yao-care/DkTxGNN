@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 873
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Valine: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (alle godkendelser mangler indika…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -71,13 +71,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28105502614 | Nutriflex Omega Plus | Infusionsvæske, emulsion | Ikke angivet |
-| MA 28103074999 | Aminoven 10% | Infusionsvæske, opløsning | Ikke angivet |
-| MA 28105461714 | Nutriflex Omega Special elektrolytfri | Infusionsvæske, emulsion | Ikke angivet |
-| MA 28105186912 | Aminoplasmal | Infusionsvæske, opløsning | Ikke angivet |
-| MA 28101133883 | Vamin 14 g N/l Elektrolytfri | Infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105186912 | Aminoplasmal | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN, HISTIDIN, Isole… | Gyldig |
+| 28105187012 | Aminoplasmal Elektrolyt | infusionsvæske, opløsning | ALANIN, Arginin, Asparaginsyre, Dinatriumphosphatdodecahydrat, Glutam… | Gyldig |
+| 28103074999 | Aminoven 10% | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28103075099 | Aminoven Forte | infusionsvæske, opløsning | ALANIN, Arginin, GLYCIN, HISTIDIN, Isoleucin, Leucin, LYSINACETAT, ME… | Gyldig |
+| 28104977411 | Amiped | infusionsvæske, opløsning | ACETYLCYSTEIN, ALANIN, Arginin, Asparaginsyre, Glutaminsyre, GLYCIN… | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Dette er 5 af i alt 20 gyldige nationale tilladelser. Blandt de øvrige er bl.a. Amiped, Nutrineal PD4 (peritonealdialysevæske), Numeta G13E, Vaminolac, Clinimix, Olimel, SmofKabiven, Kabiven Perifer og Pedismof Preterm.
 

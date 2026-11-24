@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: forudsagt ny indikation Rasmussens subakutte encefalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (og beslægtede parkinsonistiske syndromer)"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -72,9 +72,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Oplysninger om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106100318 | Inbrija (Merz Therapeutics GmbH) | Inhalationspulver, hård kapsel | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106100318 | Inbrija | inhalationspulver, hård kapsel | LEVODOPA | Gyldig |
+| 28106531820 | Bopazir | kapsler, hårde | Benserazidhydrochlorid, LEVODOPA | Gyldig |
+| 28106788122 | Carbidopa/Levodopa "Orifarm" | tabletter | CARBIDOPAMONOHYDRAT, LEVODOPA | Gyldig |
+| 28106788222 | Carbidopa/Levodopa "Orifarm" | tabletter | CARBIDOPAMONOHYDRAT, LEVODOPA | Gyldig |
+| 28106707621 | Carbidopa/Levodopa "Orion" | tabletter | CARBIDOPAMONOHYDRAT, LEVODOPA | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

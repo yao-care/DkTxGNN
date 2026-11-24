@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ritonavir: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -99,9 +99,19 @@ Kun to studier (PMID 12709355 og 12951220) nævner ritonavir direkte i de tilgæ
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104456009 | Norvir | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104456009 | Norvir | filmovertrukne tabletter | RITONAVIR | Gyldig |
+| 28105462014 | Norvir | pulver til oral suspension | RITONAVIR | Gyldig |
+| 28105812916 | Ritonavir "Accord" | filmovertrukne tabletter | RITONAVIR | Gyldig |
+| 28105889316 | Ritonavir Viatris | filmovertrukne tabletter | RITONAVIR | Gyldig |
+| 28106107718 | Aluvia | filmovertrukne tabletter | LOPINAVIR, RITONAVIR | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

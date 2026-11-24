@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfadiazine: forudsagt ny indikation Pneumocystose (evidensniveau L5). Oprindelig indikation: Toksoplasmose"
 monitor_inn: "sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
@@ -92,6 +92,14 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 ---
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 9 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Begge tilladelser er nationale godkendelser af veterinære præparater. Der er ikke fundet humane præparater med sulfadiazin som enkeltstof i de data, der er indsamlet til denne rapport.
 

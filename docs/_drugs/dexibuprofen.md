@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dexibuprofen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Dexibuprofen: forudsagt ny indikation Brachydactyly-syndactyly-syndrom (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i den danske registrer…"
 ---
 
@@ -94,9 +94,16 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103150300 | Seractiv (Nordic Drugs AB) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103150300 | Seractiv | filmovertrukne tabletter | DEXIBUPROFEN | Gyldig |
+| 28103150400 | Seractiv | filmovertrukne tabletter | DEXIBUPROFEN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er tale om ét enkeltstofspræparat til oral anvendelse, som er gyldigt og markedsført.
 

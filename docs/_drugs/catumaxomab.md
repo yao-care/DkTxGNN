@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Catumaxomab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for Korjuny er…"
 monitor_inn: "Catumaxomab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
@@ -88,9 +88,16 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106834422 | Korjuny (Lindis Biotech GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106834422 | Korjuny | koncentrat til infusionsvæske, opløsning | Catumaxomab | Gyldig |
+| 28107356022 | Korjuny | koncentrat til infusionsvæske, opløsning | Catumaxomab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Ifølge farmakologidata blev EMA-godkendelsen til behandling af malign ascites hos patienter med EpCAM-positive kræftformer trukket tilbage i 2017 af kommercielle årsager (under navnet Removab) og genautoriseret i begyndelsen af 2025. Catumaxomab har desuden orphan-status i EU for mavekræft (tildelt 2006).
 

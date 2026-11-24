@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Insulin Aspart: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose"
 ---
 
@@ -68,9 +68,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur for autoimmun oophori
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105905817 | Fiasp (Novo Nordisk A/S) | Injektionsvæske, opløsning, hætteglas | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107026923 | Dazparda | injektionsvæske, opløsning i fyldt pen | Insulin aspart | Gyldig |
+| 28105905817 | Fiasp | injektionsvæske, opløsning, hætteglas | Insulin aspart | Gyldig |
+| 28105710915 | Fiasp FlexTouch | injektionsvæske, opløsning i fyldt pen | Insulin aspart | Gyldig |
+| 28105905717 | Fiasp Penfill | injektionsvæske, opløsning i cylinderampul | Insulin aspart | Gyldig |
+| 28106526120 | Fiasp PumpCart | injektionsvæske, opløsning i cylinderampul | Insulin aspart | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er national, gyldig og omfatter et enkeltstofprodukt.
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 657
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: forudsagt ny indikation Lidelser i næsehulen (nasal cavity disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -88,13 +88,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105625415 | Fenylefrin "Unimedic" | Injektionsvæske, opløsning | Ikke angivet |
-| 28106254619 | Biorphen | Injektions-/infusionsvæske, opløsning | Ikke angivet |
-| 28105324513 | Omidria | Koncentrat til intraokulær skyllevæske, opløsning | Ikke angivet |
-| 28103905906 | Mydriasert | Øjenlamel | Ikke angivet |
-| 28105410714 | Mydrane | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106254619 | Biorphen | injektions-/infusionsvæske, opløsning | PHENYLEPHRINHYDROCHLORID | Gyldig |
+| 28106254719 | Biorphen | injektionsvæske, opløsning | PHENYLEPHRINHYDROCHLORID | Gyldig |
+| 28106595921 | Fenylefrin "Abcur" | injektionsvæske, opløsning | PHENYLEPHRINHYDROCHLORID | Gyldig |
+| 28106225019 | Fenylefrin "Aguettant" | injektions-/infusionsvæske, opløsning | PHENYLEPHRINHYDROCHLORID | Gyldig |
+| 28105458014 | Fenylefrin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | PHENYLEPHRINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Bemærk: Ingen af de markedsførte produkter er nasale præparater.
 

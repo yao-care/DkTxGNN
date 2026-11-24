@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten for godkendelse…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -84,9 +84,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106314919 | Cegfila (Mundipharma Corporation (Ireland) Ltd.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107608126 | Cavoley | injektionsvæske, opløsning | PEGFILGRASTIM | Gyldig |
+| 28106314919 | Cegfila | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGFILGRASTIM | Gyldig |
+| 28107121024 | Dyrupeg | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGFILGRASTIM | Gyldig |
+| 28106032317 | Fulphila | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGFILGRASTIM | Gyldig |
+| 28106032517 | Grasustek | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGFILGRASTIM | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

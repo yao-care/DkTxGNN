@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "tecovirimat"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "arbovirus infection", "equine infectious anemia", "idiopathic recurrent and disabling cutaneous herpes", "Astroviridae infectious disease", "Arterivirus infectious disease"]
 description: "Tecovirimat: forudsagt ny indikation Hordeolum (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -78,9 +78,15 @@ Der er på nuværende tidspunkt ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106491420 | Tecovirimat SIGA (SIGA Technologies Netherlands B.V.) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106491420 | Tecovirimat SIGA | kapsler, hårde | Tecovirimatmonohydrat | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

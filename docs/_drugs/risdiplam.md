@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Risdiplam: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske godkendelsesdata (kendt anvendelse: spinal m…"
 monitor_inn: "Risdiplam"
 predicted_indications: ["acne (disease)"]
@@ -85,9 +85,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107163724 | Evrysdi (Roche Registration GmbH) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107163724 | Evrysdi | filmovertrukne tabletter | Risdiplam | Gyldig |
+| 28106478520 | Evrysdi | pulver til oral opløsning | Risdiplam | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

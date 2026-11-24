@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 476
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: forudsagt ny indikation Trigeminal nerve neoplasm (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
@@ -101,9 +101,19 @@ Et udvalg af de mest relevante publikationer for trigeminusneuralgi:
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101390489 | Lamictal (GlaxoSmithKline Pharma A/S) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101390489 | Lamictal | tabletter | LAMOTRIGIN | Gyldig |
+| 28106286519 | Lamictal | tabletter | LAMOTRIGIN | Gyldig |
+| 28107105024 | Lamictal | tabletter | LAMOTRIGIN | Gyldig |
+| 28101479091 | Lamictal | tabletter | LAMOTRIGIN | Gyldig |
+| 28101390289 | Lamictal | tabletter | LAMOTRIGIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

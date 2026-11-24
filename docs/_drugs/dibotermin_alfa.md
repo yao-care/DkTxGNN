@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Dibotermin alfa"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dibotermin Alfa: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den lokale godkendelsestekst. Videnbasen registrerer r…"
 ---
 
@@ -83,9 +83,15 @@ Bemærk: Der er fundet en grundvidenskabelig artikel (PMID [27441597](https://pu
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103237101 | InductOs | Pulver, solvens og matrix til matrix til implantation | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103237101 | InductOs | pulver, solvens og matrix til matrix til implantation | Dibotermin alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og indehaves af Medtronic BioPharma B.V. Listen er komplet.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pentobarbital"
 predicted_indications: ["obesity disorder", "manic bipolar affective disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "major affective disorder", "frontorhiny", "monogenic obesity", "trichotillomania"]
 description: "Pentobarbital: forudsagt ny indikation Fedme (obesity disorder) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -88,6 +88,14 @@ Ingen af artiklerne undersøger pentobarbital som behandling af fedme. Nedenfor 
 ---
 
 ## Information om markedet i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ---
 

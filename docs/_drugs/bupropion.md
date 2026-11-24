@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (attention deficit-hyperactivity disorder) (evidensniveau L2). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
@@ -77,10 +77,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for denne forudsi
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106683621 | Bupropion hydrochloride "Zentiva" | Tabletter med modificeret udløsning | Ikke angivet |
-| 28105317313 | Mysimba | Depottabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106683621 | Bupropion hydrochloride "Zentiva" | tabletter med modificeret udløsning | BUPROPIONHYDROCHLORID | Gyldig |
+| 28107141424 | Bupropionhydrochlorid "Stada" | tabletter med modificeret udløsning | BUPROPIONHYDROCHLORID | Gyldig |
+| 28103134700 | Zyban | depottabletter | BUPROPIONHYDROCHLORID | Gyldig |
+| 28106868622 | Zyban | depottabletter | BUPROPIONHYDROCHLORID | Gyldig |
+| 28107190924 | Zyban | depottabletter | BUPROPIONHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

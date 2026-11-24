@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydromorphone: forudsagt ny indikation Pharyngitis (evidensniveau L5). Oprindelig indikation: Forkølelse og nasopharyngitis (fra TxGNN-videnbasen"
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -107,9 +107,19 @@ Til sammenligning findes der for hovedpinesygdom litteratur, hvoraf de vigtigste
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106044917 | Hydromorphonhydrochlorid "Kalceks" (Kalceks AS) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106044917 | Hydromorphonhydrochlorid "Kalceks" | injektions-/infusionsvæske, opløsning | HYDROMORPHONHYDROCHLORID | Gyldig |
+| 28106045017 | Hydromorphonhydrochlorid "Kalceks" | injektions-/infusionsvæske, opløsning | HYDROMORPHONHYDROCHLORID | Gyldig |
+| 28106044817 | Hydromorphonhydrochlorid "Kalceks" | injektions-/infusionsvæske, opløsning | HYDROMORPHONHYDROCHLORID | Gyldig |
+| 28106045117 | Hydromorphonhydrochlorid "Kalceks" | injektions-/infusionsvæske, opløsning | HYDROMORPHONHYDROCHLORID | Gyldig |
+| 28104315208 | Palladon | injektions-/infusionsvæske, opløsning | HYDROMORPHONHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

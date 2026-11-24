@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Amlodipine: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -68,13 +68,21 @@ Der er for tiden ingen relateret litteratur tilgængelig for hjernestammeinfarkt
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103988406 | Adipine | Tabletter | – |
-| 28104581409 | Twynsta | Tabletter | – |
-| 28106498320 | Tarlodix | Hårde kapsler | – |
-| 28105572915 | Amlodipine/Valsartan "Mylan" | Filmovertrukne tabletter | – |
-| 28106061618 | Amlodipine/Valsartan/Hydrochlorothiazide "Krka" | Filmovertrukne tabletter | – |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103988406 | Adipine | tabletter | AMLODIPINBESILAT | Gyldig |
+| 28103988306 | Adipine | tabletter | AMLODIPINBESILAT | Gyldig |
+| 28103655204 | Amlodipin "1A Farma" | tabletter | AMLODIPINBESILAT | Gyldig |
+| 28103655004 | Amlodipin "1A Farma" | tabletter | AMLODIPINBESILAT | Gyldig |
+| 28103655104 | Amlodipin "1A Farma" | tabletter | AMLODIPINBESILAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Indikationsteksten er ikke registreret i de lokale data. Flere af produkterne er kombinationspræparater, og deres godkendelser kan ikke bruges til at beskrive, hvordan amlodipin som enkeltstof er godkendt.
 

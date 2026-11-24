@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
 description: "Selumetinib: forudsagt ny indikation Familial generalized lentiginosis (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -93,9 +93,18 @@ Forbindelsen er imidlertid stadig overvejende mekanistisk og modelbaseret. Der f
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106418020 | Koselugo (AstraZeneca AB) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107288024 | Koselugo | granulat i enkeltdosisbeholder | Selumetinibsulfat | Gyldig |
+| 28107288124 | Koselugo | granulat i enkeltdosisbeholder | Selumetinibsulfat | Gyldig |
+| 28106418020 | Koselugo | kapsler, hårde | Selumetinibsulfat | Gyldig |
+| 28106418120 | Koselugo | kapsler, hårde | Selumetinibsulfat | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

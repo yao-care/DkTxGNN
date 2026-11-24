@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: forudsagt ny indikation Hypermobilitet af halebenet (evidensniveau L5). Oprindelig indikation: Psoriasisgigt, leddegigt, Bekhterevs sygdom…"
 ---
 
@@ -82,9 +82,19 @@ Til orientering blev der for den bredere kategori "vertebral sygdom" fundet retn
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105832516 | Benepali (Samsung Bioepis NL B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105832516 | Benepali | injektionsvæske, opløsning i fyldt injektionssprøjte | ETANERCEPT | Gyldig |
+| 28105543514 | Benepali | injektionsvæske, opløsning i fyldt injektionssprøjte | ETANERCEPT | Gyldig |
+| 28105543614 | Benepali | injektionsvæske, opløsning i fyldt pen | ETANERCEPT | Gyldig |
+| 28103878105 | Enbrel | injektionsvæske, opløsning i fyldt injektionssprøjte | ETANERCEPT | Gyldig |
+| 28103878205 | Enbrel | injektionsvæske, opløsning i fyldt injektionssprøjte | ETANERCEPT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

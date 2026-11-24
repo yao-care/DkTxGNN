@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabozantinib: forudsagt ny indikation Liposarkom (evidensniveau L5). Oprindelig indikation: Nyrecellekarcinom og medullært thyreoideakarcinom"
 ---
 
@@ -74,9 +74,19 @@ Ingen af de citerede undersøgelser omhandler liposarkom som sådan, hvorfor evi
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105725416 | Cabometyx (Ipsen Pharma) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105725416 | Cabometyx | filmovertrukne tabletter | Cabozantinib (S)-Malat | Gyldig |
+| 28105725516 | Cabometyx | filmovertrukne tabletter | Cabozantinib (S)-Malat | Gyldig |
+| 28105725616 | Cabometyx | filmovertrukne tabletter | Cabozantinib (S)-Malat | Gyldig |
+| 28106942223 | Cabozantinib "Teva" | filmovertrukne tabletter | Cabozantinib (S)-Malat | Gyldig |
+| 28106942323 | Cabozantinib "Teva" | filmovertrukne tabletter | Cabozantinib (S)-Malat | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

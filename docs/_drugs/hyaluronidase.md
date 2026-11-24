@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hyaluronidase: forudsagt ny indikation Esotropi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede registreringsdata"
 monitor_inn: "hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -87,9 +87,15 @@ Der er dog vigtige forbehold. Intravitreal ovint hyaluronidase (Vitrase) blev ik
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104990111 | HyQvia (Baxalta Innovations GmbH) | Infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104990111 | HyQvia | infusionsvæske, opløsning | Hyaluronidase, Normalt immunoglobulin til intravenøs brug, humant | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

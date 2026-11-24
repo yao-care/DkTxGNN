@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ROPEGINTERFERON ALFA-2B"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ropeginterferon Alfa-2B: forudsagt ny indikation Laubry-Pezzi syndrom (evidensniveau L5). Oprindelig indikation: Relationer registreret i knowledge graph'et: erhvervet polycythaemia…"
 ---
 
@@ -83,9 +83,16 @@ Bemærk: For forudsigelsen på rang 6 (forstyrrelse af fukoglykansyntese) blev d
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105912117 | Besremi | Injektionsvæske, opløsning i fyldt pen | Indikationstekst ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105912117 | Besremi | injektionsvæske, opløsning i fyldt pen | Ropeginterferon alfa-2b | Gyldig |
+| 28105912217 | Besremi | injektionsvæske, opløsning i fyldt pen | Ropeginterferon alfa-2b | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofstilladelse (indehaver: AOP Orphan Pharmaceuticals GmbH), og den er gyldig.
 

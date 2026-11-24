@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -68,6 +68,22 @@ I øjeblikket er der ingen relaterede kliniske forsøg registreret i denne bevis
 I øjeblikket er der ingen relateret litteratur tilgængelig i denne bevissamling.
 
 ## Markedsoplysninger for Danmark
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101871497 | Divigel | gel | ESTRADIOLHEMIHYDRAT | Gyldig |
+| 28101871597 | Divigel | gel | ESTRADIOLHEMIHYDRAT | Gyldig |
+| 28101573493 | Ercostrol | gel | ESTRADIOLHEMIHYDRAT | Gyldig |
+| 28101573593 | Ercostrol | gel | ESTRADIOLHEMIHYDRAT | Gyldig |
+| 28107651726 | Estradiol "2care4" | gel | ESTRADIOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Der er ikke identificeret markedsføringsgodkendelser for estradiol i det aktuelle datasæt. Bemærk, at estradiol-holdige produkter (f.eks. plaster, tabletter, geler) er bredt tilgængelige i Danmark gennem centraliserede EMA-godkendelser og nationale godkendelser — fraværet her afspejler sandsynligvis et datahul snarere end ægte utilgængelighed. Sundhedsfagpersoner bør konsultere Lægemiddelstyrelsens produktdatabase eller EMA-fællesskabsregisteret for at få oplysninger om gældende godkendelser.
 

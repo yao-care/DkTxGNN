@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 716
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 description: "Ribociclib: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -84,9 +84,15 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105843516 | Kisqali (Novartis Europharm Limited) | Filmovertrukne tabletter | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105843516 | Kisqali | filmovertrukne tabletter | Ribociclib | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 471
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: forudsagt ny indikation Hovedpinelidelser (headache disorder) (evidensniveau L1). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -110,12 +110,21 @@ Tabellen viser et udvalg af de mest relevante publikationer.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101575493 | Acular (Abbvie A/S) | Øjendråber, opløsning | Indikationstekst ikke angivet |
-| 28105324513 | Omidria (Rayner Surgical (Ireland) Limited) | Koncentrat til intraokulær skyllevæske, opløsning | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige; Acular indeholder ketorolac som enkeltstof, Omidria er et kombinationspræparat (med phenylephrin). Ingen af de danske produkter er i en form, der er egnet til systemisk behandling af hovedpine (injektion eller næsespray).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101575493 | Acular | øjendråber, opløsning | Ketorolactrometamol | Gyldig |
+| 28104998811 | Acular | øjendråber, opløsning | Ketorolactrometamol | Gyldig |
+| 28105627415 | Acular | øjendråber, opløsning | Ketorolactrometamol | Gyldig |
+| 28106308419 | Caloket | injektions-/infusionsvæske, opløsning | Ketorolactrometamol | Gyldig |
+| 28106117918 | Ketorolac trometamol "S.A.L.F." | injektionsvæske, opløsning | Ketorolactrometamol | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Acular indeholder ketorolac som enkeltstof, Omidria er et kombinationspræparat (med phenylephrin); antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen. Ingen af de danske produkter er i en form, der er egnet til systemisk behandling af hovedpine (injektion eller næsespray).
 
 <!-- review:begin dk-lic-20261112-ketorolac-1 -->
 
@@ -165,7 +174,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-05 | Fjernet: "Afklaring af administrationsvej: der er ingen dansk godkendelse af en systemisk ketorolac-formulering (injektion/næsespray) i de indsamlede " | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meloxicam: forudsagt ny indikation Akromesomel dysplasi af Hunter-Thompson-typen (evidensniveau L5). Oprindelig indikation: Reumatoid artritis, slidgigt og juvenil idiopatisk artritis"
 ---
 
@@ -81,15 +81,23 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107483825 | Meloxicam "Nordic Prime" | Tabletter | Ikke angivet |
-| 28103335901 | Meloxicam "Stada" | Tabletter | Ikke angivet |
-| 28103335801 | Meloxicam "Stada" | Tabletter | Ikke angivet |
-| 28103439502 | Meloxicam "Teva" | Tabletter | Ikke angivet |
-| 28103439402 | Meloxicam "Teva" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
 
-Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107483825 | Meloxicam "Nordic Prime" | tabletter | MELOXICAM | Gyldig |
+| 28103335901 | Meloxicam "Stada" | tabletter | MELOXICAM | Gyldig |
+| 28103335801 | Meloxicam "Stada" | tabletter | MELOXICAM | Gyldig |
+| 28103439502 | Meloxicam "Teva" | tabletter | MELOXICAM | Gyldig |
+| 28103439402 | Meloxicam "Teva" | tabletter | MELOXICAM | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 85 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-meloxicam-1 -->
 
@@ -131,7 +139,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 tilladelse (enkeltstofpræparat, gyldig).” → “Der er registreret 6 tilladelser (enkeltstofpræparater, gyldige).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->

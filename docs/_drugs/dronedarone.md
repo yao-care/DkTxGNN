@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 282
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: forudsagt ny indikation Slagtilfælde (stroke disorder) (evidensniveau L4). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -83,9 +83,19 @@ Ingen studier tester dronedaron direkte mod slagtilfælde; slagtilfælde optræd
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107542226 | Dronedaron 2care4 (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107542226 | Dronedaron "2care4" | filmovertrukne tabletter | Dronedaronhydrochlorid | Gyldig |
+| 28106113818 | Dronedaron "Aristo" | filmovertrukne tabletter | Dronedaronhydrochlorid | Gyldig |
+| 28106053117 | Dronedarone "Stada" | filmovertrukne tabletter | Dronedaronhydrochlorid | Gyldig |
+| 28107243124 | Dronedarone Aristo | filmovertrukne tabletter | Dronedaronhydrochlorid | Gyldig |
+| 28104405308 | Multaq | filmovertrukne tabletter | Dronedaronhydrochlorid | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

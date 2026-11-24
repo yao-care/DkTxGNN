@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ethambutol: forudsagt ny indikation Epiglottitis (evidensniveau L5). Oprindelig indikation: Pulmonal tuberkulose"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -81,10 +81,18 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101818896 | Myambutol (Orifarm A/S) | Tabletter | Ikke angivet |
-| 28106464020 | Rifampar (Paranova Danmark A/S) | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101818896 | Myambutol | tabletter | Ethambutolhydrochlorid | Gyldig |
+| 28106464020 | Rifampar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28103451402 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28106186618 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

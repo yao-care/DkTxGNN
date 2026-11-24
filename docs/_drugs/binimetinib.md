@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -74,9 +74,15 @@ Bevissamlingen registrerer **0 markedsføringstilladelser** i det danske nationa
 
 Tabellen nedenfor er udfyldt fra offentlige EMA-poster; den stammer **ikke** fra bevissamlingen:
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---|---|---|---|
-| EU/1/18/1314 | Mektovi | Filmovertrukket tablet (15 mg) | Uoperable eller metastaserende melanom med BRAF V600-mutation i kombination med encorafenib (Braftovi) |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105997417 | Mektovi | filmovertrukne tabletter | Binimetinib | Gyldig |
+
+Tabellen viser 1 af 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 > ⚠️ **Påkrævet handling:** Forespørgslen til det lokale register bør gennemgås for at bekræfte, at EMA-centraliserede tilladelser er korrekt indsamlet. Klinikere bør rådføre sig direkte med Lægemiddelstyrelsens produktdatabase og EMA-produktinformationssiden.
 

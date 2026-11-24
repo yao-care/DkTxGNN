@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib: forudsagt ny indikation Migræne (evidensniveau L5). Oprindelig indikation: Ikke angivet i den lokale godkendelsestekst (DrugBank nævner leddegig…"
 ---
 
@@ -85,9 +85,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for migræne.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103357502 | Arcoxia (N.V. Organon) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i den lokale registrering |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103357502 | Arcoxia | filmovertrukne tabletter | ETORICOXIB | Gyldig |
+| 28103969806 | Arcoxia | filmovertrukne tabletter | ETORICOXIB | Gyldig |
+| 28103357302 | Arcoxia | filmovertrukne tabletter | ETORICOXIB | Gyldig |
+| 28103357402 | Arcoxia | filmovertrukne tabletter | ETORICOXIB | Gyldig |
+| 28105683915 | Etoricoxib "Krka" | filmovertrukne tabletter | ETORICOXIB | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sevoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (anvendes generelt til generel an…"
 monitor_inn: "sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -96,13 +96,21 @@ TxGNN forudsagde yderligere ni indikationer. Ingen af dem har kliniske forsøg, 
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103501503 | Sevofluran "Baxter" | Væske til inhalationsdamp | Ikke angivet |
-| 28107300424 | Sevofluran Baxter | Væske til inhalationsdamp | Ikke angivet |
-| 28101697994 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
-| 28104728510 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
-| 28105097712 | Sevorane | Væske til inhalationsdamp | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103501503 | Sevofluran "Baxter" | væske til inhalationsdamp | SEVOFLURAN | Gyldig |
+| 28107300424 | Sevofluran Baxter | væske til inhalationsdamp | SEVOFLURAN | Gyldig |
+| 28101697994 | Sevorane | væske til inhalationsdamp | SEVOFLURAN | Gyldig |
+| 28104728510 | Sevorane | væske til inhalationsdamp | SEVOFLURAN | Gyldig |
+| 28105097712 | Sevorane | væske til inhalationsdamp | SEVOFLURAN | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Indehaver: Piramal Critical Care B.V. Status: gyldig. Bemærk, at produktnavnet "Vet." tyder på et veterinærlægemiddel; dette bør verificeres.
 

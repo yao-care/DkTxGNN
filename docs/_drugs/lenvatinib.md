@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 5
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lenvatinib: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L3). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
@@ -79,9 +79,19 @@ Forsøget er enkeltarmet, uden randomiseret sammenligning, og kan ikke isolere l
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105727316 | Kisplyx | Kapsler, hårde | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105727316 | Kisplyx | kapsler, hårde | Lenvatinibmesilat | Gyldig |
+| 28105726416 | Kisplyx | kapsler, hårde | Lenvatinibmesilat | Gyldig |
+| 28107158124 | Lenvatinib "Accord" | kapsler, hårde | Lenvatinibbesilat | Gyldig |
+| 28107157924 | Lenvatinib "Accord" | kapsler, hårde | Lenvatinibbesilat | Gyldig |
+| 28107563326 | Lenvatinib "Mylan" | kapsler, hårde | Lenvatinibbesilat | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

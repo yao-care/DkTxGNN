@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: forudsagt ny indikation Laryngitis (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -80,10 +80,19 @@ Ingen af publikationerne undersøger ampicillin direkte ved laryngitis. De neden
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106954323 | Ampicillin "Medochemie" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-| 28107042523 | Ampicillin/Sulbactam "Aptapharma" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106954323 | Ampicillin "Medochemie" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM | Gyldig |
+| 28106954123 | Ampicillin "Medochemie" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM | Gyldig |
+| 28106954423 | Ampicillin "Medochemie" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM | Gyldig |
+| 28106954223 | Ampicillin "Medochemie" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM | Gyldig |
+| 28100693676 | Ampicillin "STADA" | filmovertrukne tabletter | AMPICILLINTRIHYDRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

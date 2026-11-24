@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Inotersen"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mediastinitis", "IgG4-related aortitis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Inotersen: forudsagt ny indikation Akut intermitterende porfyri (evidensniveau L5). Oprindelig indikation: Ikke angivet i de data, der er indsamlet til denne rapport"
 ---
 
@@ -84,9 +84,15 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106032117 | Tegsedi | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106032117 | Tegsedi | injektionsvæske, opløsning i fyldt injektionssprøjte | Inotersen | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Indehaver: Akcea Therapeutics Ireland ltd. Antal tilladelser: 1 (enkeltstofpræparat, gyldig).
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "VOXELOTOR"
 predicted_indications: ["hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "acquired monoclonal Ig light chain-associated Fanconi syndrome", "primary release disorder of platelets"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Voxelotor: forudsagt ny indikation Hereditary thrombocytopenia with normal platelets (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0; ikke markedsført: 1)"
 ---
 
@@ -81,11 +81,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106561320 | Oxbryta (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er 1 tilladelse for et enkeltstofpræparat (oral anvendelse); den er suspenderet af EMA, og Oxbryta står ikke på Lægemiddelstyrelsens liste over godkendte lægemidler.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106561320 | Oxbryta | filmovertrukne tabletter | Voxelotor | Suspenderet (EMA) |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
+
+Oxbryta (enkeltstofpræparat til oral anvendelse) er suspenderet af EMA og står ikke på Lægemiddelstyrelsens liste over godkendte lægemidler.
 
 <!-- review:begin dk-lic-20261117-voxelotor-1 -->
 
@@ -130,7 +136,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA” | Rettet | [European Medicines Agency: medicines output – medicines report (Excel), Oxbryta EMEA/H/C/004869: Medicine status = Suspended](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency: Oxbryta (EPAR) – “This medicine is currently suspended from use in the European Union”](https://www.ema.europa.eu/en/medicines/human/EPAR/oxbryta); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [European Medicines Agency: medicines output – medicines report (Excel), Oxbryta EMEA/H/C/004869: Medicine status = Suspended](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); [European Medicines Agency: Oxbryta (EPAR) – “This medicine is currently suspended from use in the European Union”](https://www.ema.europa.eu/en/medicines/human/EPAR/oxbryta); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

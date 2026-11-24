@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Phenobarbital: forudsagt ny indikation Trigeminal nerve neoplasm (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -98,11 +98,19 @@ Ingen af nedenstående artikler er phenobarbital-specifikke effektstudier ved tr
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100713476 | Fenemal "DLF" | Tabletter | Ikke angivet |
-| 28100713276 | Fenemal "DLF" | Tabletter | Ikke angivet |
-| 28100713376 | Fenemal "DLF" | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100713476 | Fenemal "DLF" | tabletter | PHENOBARBITAL | Gyldig |
+| 28100713276 | Fenemal "DLF" | tabletter | PHENOBARBITAL | Gyldig |
+| 28100713376 | Fenemal "DLF" | tabletter | PHENOBARBITAL | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 17 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

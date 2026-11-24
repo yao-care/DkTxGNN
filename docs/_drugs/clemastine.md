@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "clemastine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Clemastine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
@@ -68,9 +68,18 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106632221 | Clemastin "Nordic Prime" | Injektionsvæske, opløsning | Ikke angivet i lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106632221 | Clemastin "Nordic Prime" | injektionsvæske, opløsning | CLEMASTIN | Gyldig |
+| 28105437614 | Clemastin "Paranova" | injektionsvæske, opløsning | CLEMASTIN | Gyldig |
+| 28107315225 | Clemastine "Macure" | injektionsvæske, opløsning | CLEMASTINFUMARAT | Gyldig |
+| 28106658121 | Tavegyl | tabletter | CLEMASTINFUMARAT | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 

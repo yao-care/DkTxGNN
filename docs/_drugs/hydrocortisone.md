@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 411
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocortisone: forudsagt ny indikation Alopecia areata (evidensniveau L2). Oprindelig indikation: Binyrebarkinsufficiens, Addisons sygdom, autoimmune sygdomme…"
 monitor_inn: "hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -95,13 +95,19 @@ De øvrige publikationer er enten historiske artikler uden tilgængeligt resumé
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105878416 | Alkindi | Granulat i enkeltdosisbeholder | – |
-| 28104418108 | Zoviduo | Creme | – |
-| 28100688875 | Brentacort | Creme | – |
-| 28100049355 | Hydrocortison med Terramycin | Salve | – |
-| 28103080599 | Ciflox | Øredråber, suspension | – |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105878416 | Alkindi | granulat i enkeltdosisbeholder | HYDROCORTISON | Gyldig |
+| 28105878516 | Alkindi | granulat i enkeltdosisbeholder | HYDROCORTISON | Gyldig |
+| 28105878616 | Alkindi | granulat i enkeltdosisbeholder | HYDROCORTISON | Gyldig |
+| 28105878716 | Alkindi | granulat i enkeltdosisbeholder | HYDROCORTISON | Gyldig |
+| 28106379819 | Efmody | kapsler med modificeret udløsning, hårde | HYDROCORTISON | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der findes mindst 20 gyldige nationale tilladelser; en sjette (Proctosedyl, rektalsalve, Orifarm A/S, nr. 28101903697) er ikke vist i tabellen, som er begrænset til 5. Godkendt indikationstekst indgår ikke i de data, der er indsamlet til rapporten.
 

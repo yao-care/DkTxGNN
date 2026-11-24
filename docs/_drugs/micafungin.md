@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 549
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: forudsagt ny indikation Urinvejsinfektion (urinary tract infection (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -93,9 +93,18 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103946306 | Mycamine (Sandoz Pharmaceuticals d.d.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107171024 | Micafungin "Hikma" | pulver til koncentrat til infusionsvæske, opløsning | Micafunginnatrium | Gyldig |
+| 28107170824 | Micafungin "Hikma" | pulver til koncentrat til infusionsvæske, opløsning | Micafunginnatrium | Gyldig |
+| 28103946306 | Mycamine | pulver til koncentrat til infusionsvæske, opløsning | MICAFUNGIN | Gyldig |
+| 28103946206 | Mycamine | pulver til koncentrat til infusionsvæske, opløsning | MICAFUNGIN | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

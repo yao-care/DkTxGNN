@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risankizumab: forudsagt ny indikation Dermatitis (evidensniveau L2). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
 ---
 
@@ -84,6 +84,20 @@ Den meget høje score (0,9998) afspejler sandsynligvis et delt netværk af infla
 | [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Kasuistik/serie | Eur J Dermatol | Eksemlignende udbrud hos psoriasispatienter under risankizumab. |
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107032223 | Skyrizi | injektionsvæske, opløsning i cylinderampul | Risankizumab | Gyldig |
+| 28106736421 | Skyrizi | injektionsvæske, opløsning i cylinderampul | Risankizumab | Gyldig |
+| 28106494120 | Skyrizi | injektionsvæske, opløsning i fyldt injektionssprøjte | Risankizumab | Gyldig |
+| 28107473825 | Skyrizi | injektionsvæske, opløsning i fyldt injektionssprøjte | Risankizumab | Gyldig |
+| 28106121318 | Skyrizi | injektionsvæske, opløsning i fyldt injektionssprøjte | Risankizumab | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

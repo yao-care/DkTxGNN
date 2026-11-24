@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 531
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: forudsagt ny indikation Myeloid leukæmi (myeloid leukemia) (evidensniveau L3). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -89,10 +89,18 @@ Evidensen er stærkest for oral vedligeholdelsesbehandling med 6-mercaptopurin o
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106542620 | Mercaptopurin "Silver Pharma" (Silver Pharma S.L.) | Tabletter | Ikke angivet i de indsamlede data |
-| 28107101723 | Mercaptopurine "Accord" (Accord Healthcare B.V.) | Tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106542620 | Mercaptopurin "Silver Pharma" | tabletter | MERCAPTOPURIN | Gyldig |
+| 28107101723 | Mercaptopurine "Accord" | tabletter | Mercaptopurinmonohydrat | Gyldig |
+| 28105882416 | Purimmun | tabletter | Mercaptopurinmonohydrat | Gyldig |
+| 28104737410 | Xaluprine | oral suspension | Mercaptopurinmonohydrat | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

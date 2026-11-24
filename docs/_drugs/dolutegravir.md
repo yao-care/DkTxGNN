@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 272
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Dolutegravir: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -97,9 +97,19 @@ Currently ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105716815 | Tivicay | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107370025 | Dolutegravir "Teva" | filmovertrukne tabletter | Dolutegravirnatrium | Gyldig |
+| 28106380119 | Tivicay | dispergible tabletter | Dolutegravirnatrium | Gyldig |
+| 28105716815 | Tivicay | filmovertrukne tabletter | Dolutegravir | Gyldig |
+| 28105716915 | Tivicay | filmovertrukne tabletter | Dolutegravir | Gyldig |
+| 28105234813 | Tivicay | filmovertrukne tabletter | Dolutegravir | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Indehaver: Viiv Healthcare BV. Administrationsvej: oral.
 

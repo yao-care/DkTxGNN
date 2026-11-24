@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Larotrectinib: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendt indikationstekst er tom)"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -85,9 +85,17 @@ Den høje TxGNN-score er en beregningsmæssig forudsigelse og kan ikke erstatte 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106339418 | VITRAKVI (Bayer AG) | Kapsler, hårde | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106339418 | VITRAKVI | kapsler, hårde | Larotrectinibsulfat | Gyldig |
+| 28106159018 | VITRAKVI | kapsler, hårde | Larotrectinibsulfat | Gyldig |
+| 28106339219 | VITRAKVI | oral opløsning | Larotrectinibsulfat | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

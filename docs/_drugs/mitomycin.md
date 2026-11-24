@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Mitomycin: forudsagt ny indikation Solid pseudopapillært karcinom i bugspytkirtlen (solid pseudopapillary carcinoma of pancreas) (evidensniveau L5)."
 ---
 
@@ -68,9 +68,16 @@ Der er for nuværende ingen relateret litteratur om denne sygdom.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105337913 | Mitomycin "medac" | Pulver og solvens til intravesikal opløsning | Indikationsteksten er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105337913 | Mitomycin "medac" | pulver og solvens til intravesikal opløsning | MITOMYCIN | Gyldig |
+| 28105338113 | Mitomycin "medac" | pulver til injektions-/infusionsvæske, opløsning eller til… | MITOMYCIN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat fra Medac GmbH. Lægemiddelformen er til intravesikal anvendelse (i blæren), hvilket ikke uden videre svarer til den vej, der ville være nødvendig ved en bugspytkirteltumor.
 

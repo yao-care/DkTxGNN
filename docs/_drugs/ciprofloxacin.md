@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ciprofloxacin: forudsagt ny indikation diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -71,9 +71,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105106812 | Cetraxal | Øredråber, opløsning i enkeltdosisbeholder | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105106812 | Cetraxal | øredråber, opløsning i enkeltdosisbeholder | CIPROFLOXACIN | Gyldig |
+| 28107635926 | Ciprofloxacin "2care4" | filmovertrukne tabletter | CIPROFLOXACIN | Gyldig |
+| 28103874805 | Ciprofloxacin "Fresenius Kabi" | infusionsvæske, opløsning | CIPROFLOXACIN | Gyldig |
+| 28103309501 | Ciprofloxacin "HEXAL" | filmovertrukne tabletter | CIPROFLOXACIN | Gyldig |
+| 28103939406 | Ciprofloxacin "Krka" | filmovertrukne tabletter | CIPROFLOXACINHYDROCHLORID (monohydrat) | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

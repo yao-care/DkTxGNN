@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Alfacalcidol: forudsagt ny indikation Kraniofacial konodysplasi (craniofacial conodysplasia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -70,9 +70,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for den forudsagte 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107070623 | Alfacalcidol "2care4" | Bløde kapsler | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107070623 | Alfacalcidol "2care4" | kapsler, bløde | ALFACALCIDOL | Gyldig |
+| 28107581226 | Alfacalcidol "Ebb Medical" | kapsler, bløde | ALFACALCIDOL | Gyldig |
+| 28105925517 | Alfacalcidol "Paranova" | kapsler, bløde | ALFACALCIDOL | Gyldig |
+| 28105216713 | Alfacalcidol "Strides" | kapsler, bløde | ALFACALCIDOL | Gyldig |
+| 28105216813 | Alfacalcidol "Strides" | kapsler, bløde | ALFACALCIDOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amoxicillin: forudsagt ny indikation polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -76,13 +76,21 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for denn
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106689521 | Ageniprim | Dispergible tabletter | Ikke angivet |
-| 28106689621 | Ageniprim | Dispergible tabletter | Ikke angivet |
-| 28107596826 | Amoklax | Filmovertrukne tabletter | Ikke angivet |
-| 28105275113 | Amoxar | Dispergible tabletter | Ikke angivet |
-| 28105275213 | Amoxar | Dispergible tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106689521 | Ageniprim | dispergible tabletter | AMOXICILLINTRIHYDRAT | Gyldig |
+| 28106689621 | Ageniprim | dispergible tabletter | AMOXICILLINTRIHYDRAT | Gyldig |
+| 28107596826 | Amoklax | filmovertrukne tabletter | AMOXICILLINNATRIUM | Gyldig |
+| 28105275113 | Amoxar | dispergible tabletter | AMOXICILLINTRIHYDRAT | Gyldig |
+| 28105275213 | Amoxar | dispergible tabletter | AMOXICILLINTRIHYDRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 51 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

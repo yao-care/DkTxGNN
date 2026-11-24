@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: forudsagt ny indikation Restless legs syndrome (evidensniveau L4). I Danmark, markedsføringstilladelser: 20 (gyldige: 20)"
@@ -90,9 +90,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101866396 | Apydan (Desitin Arzneimittel GmbH) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101866396 | Apydan | tabletter | OXCARBAZEPIN | Gyldig |
+| 28101866496 | Apydan | tabletter | OXCARBAZEPIN | Gyldig |
+| 28105169012 | Oxcarbazepin "Jubilant" | filmovertrukne tabletter | OXCARBAZEPIN | Gyldig |
+| 28105169112 | Oxcarbazepin "Jubilant" | filmovertrukne tabletter | OXCARBAZEPIN | Gyldig |
+| 28105169212 | Oxcarbazepin "Jubilant" | filmovertrukne tabletter | OXCARBAZEPIN | Gyldig |
+
+Tabellen viser 5 af 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

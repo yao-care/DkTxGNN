@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pegaspargase: forudsagt ny indikation Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -80,9 +80,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne sygdom.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105480214 | Oncaspar (Les Laboratoires Servier) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105480214 | Oncaspar | injektions-/infusionsvæske, opløsning | Pegaspargase | Gyldig |
+| 28105923017 | Oncaspar | pulver til injektions-/infusionsvæske, opløsning | Pegaspargase | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og gælder et enkeltstofpræparat. Lægemidlet gives som injektion/infusion.
 

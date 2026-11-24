@@ -5,7 +5,7 @@ layout: default
 title: Padeliporfin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 623
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Padeliporfin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Padeliporfin"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105726016 | Tookad (Steba Biotech SA) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105726016 | Tookad | pulver til injektionsvæske, opløsning | Padeliporfin | Gyldig |
+| 28105726216 | Tookad | pulver til injektionsvæske, opløsning | Padeliporfin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

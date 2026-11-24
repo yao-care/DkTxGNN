@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Roxadustat: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L5). Oprindelig indikation: Refraktær anæmi"
 monitor_inn: "Roxadustat"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
@@ -85,9 +85,19 @@ Der foreligger i øjeblikket ingen relevant litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106434120 | Evrenzo (Astellas Pharma Europe B.V.) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de tilgængelige data. Ifølge anden kilde er EMA-godkendelsen (august 2021) til anæmi ved kronisk nyresvigt |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106434120 | Evrenzo | filmovertrukne tabletter | Roxadustat | Gyldig |
+| 28106434220 | Evrenzo | filmovertrukne tabletter | Roxadustat | Gyldig |
+| 28106433820 | Evrenzo | filmovertrukne tabletter | Roxadustat | Gyldig |
+| 28106433920 | Evrenzo | filmovertrukne tabletter | Roxadustat | Gyldig |
+| 28106434020 | Evrenzo | filmovertrukne tabletter | Roxadustat | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

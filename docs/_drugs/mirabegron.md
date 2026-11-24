@@ -5,7 +5,7 @@ layout: default
 title: Mirabegron
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 559
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Mirabegron: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Mirabegron"
 predicted_indications: []
@@ -50,9 +50,19 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104983311 | Betmiga | Depottablet (oral) | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104983311 | Betmiga | depottabletter | Mirabegron | Gyldig |
+| 28104983411 | Betmiga | depottabletter | Mirabegron | Gyldig |
+| 28107213224 | Mirabegron "Glenmark" | depottabletter | Mirabegron | Gyldig |
+| 28106992523 | Mirabegron "Glenmark" | depottabletter | Mirabegron | Gyldig |
+| 28107213124 | Mirabegron "Stada" | depottabletter | Mirabegron | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og gælder et enkeltstofprodukt fra Astellas Pharma Europe B.V.
 

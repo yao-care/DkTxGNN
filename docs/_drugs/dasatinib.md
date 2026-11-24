@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Dasatinib: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -95,9 +95,15 @@ Den kliniske støtte er imidlertid svag. En oversigtsartikel om fase 2-studiet i
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106927123 | Dasatinib "Accord Healthcare" | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106927123 | Dasatinib "Accord Healthcare" | filmovertrukne tabletter | Dasatinibmonohydrat | Gyldig |
+
+Tabellen viser 1 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Listen kan være ufuldstændig for så vidt angår andre tilladelser, men de indsamlede data viser én gyldig, enkeltstofs national tilladelse.
 

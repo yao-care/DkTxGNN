@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: forudsagt ny indikation Trombotisk sygdom (thrombotic disease) (evidensniveau L2). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
@@ -89,12 +89,23 @@ Derudover har stoffet antioxidative og endotelbeskyttende egenskaber, som er rel
 
 ## Information om markedsføring i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106965723 | Acetylcysteine "Macure" | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
-| 28104977411 | Amiped | Infusionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige; Acetylcysteine "Macure" er et enkeltstofpræparat, Amiped et kombinationspræparat.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107322625 | Acetylcystein "Pharmexon" | tabletter | ACETYLCYSTEIN | Gyldig |
+| 28100859185 | Acetylcystein "SAD" | koncentrat til infusionsvæske, opløsning | ACETYLCYSTEIN | Gyldig |
+| 28106965723 | Acetylcysteine "Macure" | koncentrat til infusionsvæske, opløsning | ACETYLCYSTEIN | Gyldig |
+| 28105040712 | Granon | brusetabletter | ACETYLCYSTEIN | Gyldig |
+| 28105040812 | Granon | brusetabletter | ACETYLCYSTEIN | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Acetylcysteine "Macure" er et enkeltstofpræparat, Amiped et kombinationspræparat; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-acetylcysteine-1 -->
 
@@ -129,7 +140,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->

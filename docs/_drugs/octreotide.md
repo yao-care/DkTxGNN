@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: forudsagt ny indikation Vulvær inverteret follikulær keratose (vulvar inverted follicular keratosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -80,10 +80,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101298887 | Sandostatin (Novartis Healthcare A/S) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28107168524 | Oczyesa (Camurus AB) | Depotinjektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106033517 | Octreoanne | pulver og solvens til depotinjektionsvæske, suspension | OCTREOTIDACETAT | Gyldig |
+| 28106033617 | Octreoanne | pulver og solvens til depotinjektionsvæske, suspension | OCTREOTIDACETAT | Gyldig |
+| 28106033717 | Octreoanne | pulver og solvens til depotinjektionsvæske, suspension | OCTREOTIDACETAT | Gyldig |
+| 28104808610 | Octreotid "Sun" | injektionsvæske, opløsning | OCTREOTIDACETAT | Gyldig |
+| 28104808710 | Octreotid "Sun" | injektionsvæske, opløsning | OCTREOTIDACETAT | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

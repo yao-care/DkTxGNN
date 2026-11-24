@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Trastuzumab Deruxtecan: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "Trastuzumab deruxtecan"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -65,7 +65,6 @@ Der er ingen kendt eller understøttet sammenhæng mellem denne mekanisme og kno
 
 Øvrige forudsigelser med tilsvarende høje scorer (alle evidensniveau L5, uden studier) er ligeledes uden understøttet mekanistisk sammenhæng:
 
-
 ---
 
 ## Evidens fra kliniske forsøg
@@ -82,9 +81,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106451420 | Enhertu (Daiichi Sankyo Europe GmbH) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106451420 | Enhertu | pulver til koncentrat til infusionsvæske, opløsning | Trastuzumab deruxtecan | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat til injektion/infusion.
 

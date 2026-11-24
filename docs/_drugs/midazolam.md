@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 551
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: forudsagt ny indikation Søvnløshed (insomni) (evidensniveau L3). Oprindelig indikation: Angst (fra videnbasen"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -92,13 +92,21 @@ Midazolams korte halveringstid kan fremme indsovning, men kan begrænse søvnved
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104768310 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
-| 28104768010 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
-| 28104768110 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
-| 28104768210 | Buccolam | Mundhulevæske, opløsning | Ikke angivet |
-| 28106177218 | Epistatus | Mundhulevæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104768310 | Buccolam | mundhulevæske, opløsning | MIDAZOLAMHYDROCHLORID | Gyldig |
+| 28104768010 | Buccolam | mundhulevæske, opløsning | MIDAZOLAMHYDROCHLORID | Gyldig |
+| 28104768110 | Buccolam | mundhulevæske, opløsning | MIDAZOLAMHYDROCHLORID | Gyldig |
+| 28104768210 | Buccolam | mundhulevæske, opløsning | MIDAZOLAMHYDROCHLORID | Gyldig |
+| 28106177218 | Epistatus | mundhulevæske, opløsning | Midazolammaleat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Der er ikke registreret et humant produkt med oral formulering til insomni i de indsamlede data.
 

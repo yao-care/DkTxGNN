@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 496
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: forudsagt ny indikation Akne (acne (disease)) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105330313 | Frivelle (Orifarm Generics A/S) | Tabletter | Indikationstekst er ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105330313 | Frivelle | tabletter | LEVONORGESTREL | Gyldig |
+| 28104998711 | Jaydess | intrauterint indlæg | LEVONORGESTREL | Gyldig |
+| 28105401714 | Jaydess | intrauterint indlæg | LEVONORGESTREL | Gyldig |
+| 28105834016 | Jaydess | intrauterint indlæg | LEVONORGESTREL | Gyldig |
+| 28105699415 | Kyleena | intrauterint indlæg | LEVONORGESTREL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

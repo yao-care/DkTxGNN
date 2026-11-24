@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"
@@ -97,13 +97,19 @@ Et udvalg af de mest relevante publikationer (ingen RCT'er; prækliniske studier
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101776995 | Epivir | Filmovertrukne tabletter | Indikationstekst ikke angivet |
-| 28101882997 | Combivir | Filmovertrukne tabletter | Indikationstekst ikke angivet |
-| 28106070718 | Abacavir/Lamivudine "Glenmark" | Filmovertrukne tabletter | Indikationstekst ikke angivet |
-| 28105684015 | Abacavir/Lamivudine "Stada" | Filmovertrukne tabletter | Indikationstekst ikke angivet |
-| 28105723816 | Abacavir/Lamivudine "Viatris" | Filmovertrukne tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101776995 | Epivir | filmovertrukne tabletter | LAMIVUDIN | Gyldig |
+| 28103178900 | Epivir | filmovertrukne tabletter | LAMIVUDIN | Gyldig |
+| 28101776895 | Epivir | oral opløsning | LAMIVUDIN | Gyldig |
+| 28104463109 | Lamivudin "Teva Pharma BV" | filmovertrukne tabletter | LAMIVUDIN | Gyldig |
+| 28104463209 | Lamivudin "Teva Pharma BV" | filmovertrukne tabletter | LAMIVUDIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der findes mindst 20 gyldige tilladelser, herunder Dovato, Triumeq (filmovertrukne og dispergible tabletter), Delstrigo og Trizivir. Alle er til oral anvendelse.
 

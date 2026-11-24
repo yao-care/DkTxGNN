@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fostamatinib"
 predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
 description: "Fostamatinib: forudsagt ny indikation Autosomal trombocytopeni med normale blodplader (autosomal thrombocytopenia with normal platelets) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
@@ -88,9 +88,16 @@ Der er aktuelt ingen relateret litteratur for den primære forudsigelse (autosom
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106169618 | Tavlesse (Instituto Grifols S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106169618 | Tavlesse | filmovertrukne tabletter | Fostamatinib | Gyldig |
+| 28106169718 | Tavlesse | filmovertrukne tabletter | Fostamatinib | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

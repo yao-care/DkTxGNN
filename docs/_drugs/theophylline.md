@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline: forudsagt ny indikation Trombotisk sygdom (evidensniveau L5). Oprindelig indikation: Astma, bronkitis, lungeemfysem og andre luftvejssygdomme"
 ---
 
@@ -79,7 +79,7 @@ Ingen af de fundne publikationer undersøger theophyllin som behandling af tromb
 
 ## Information om det danske marked
 
-De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof. Der foreligger ingen godkendt indikationstekst i de indsamlede data.
+Tilladelserne gælder lægemidler med theophyllin som eneste aktive stof; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Der foreligger ingen godkendt indikationstekst i de indsamlede data.
 
 <!-- review:begin dk-lic-20261112-theophylline-1 -->
 
@@ -87,10 +87,19 @@ De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.
 
 <!-- review:end dk-lic-20261112-theophylline-1 -->
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101004478 | Theo-dur (Karo Pharma AB) | Depottabletter | Ikke oplyst |
-| 28101164083 | Unixan (Ennogen Healthcare (Europe) Ltd) | Depottabletter | Ikke oplyst |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101004478 | Theo-dur | depottabletter | THEOPHYLLIN | Gyldig |
+| 28101004578 | Theo-dur | depottabletter | THEOPHYLLIN | Gyldig |
+| 28101218285 | Unixan | depottabletter | THEOPHYLLIN | Gyldig |
+| 28101410190 | Unixan | depottabletter | THEOPHYLLIN | Gyldig |
+| 28101164083 | Unixan | depottabletter | THEOPHYLLINMONOHYDRAT | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 
@@ -131,7 +140,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5 tilladelser er alle til lægemidler med theophyllin som eneste aktive stof.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 806
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Alafenamide: forudsagt ny indikation simian immundefektvirus-infektion (evidensniveau L4). Oprindelig indikation: HIV-infektion og AIDS"
 monitor_inn: "tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -93,13 +93,21 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105732516 | Vemlidy | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
-| 28105622115 | Descovy | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
-| 28105970117 | Biktarvy | Filmovertrukne tabletter | Ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
 
-Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland UC.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105732516 | Vemlidy | filmovertrukne tabletter | tenofovir alafenamid | Gyldig |
+| 28105970117 | Biktarvy | filmovertrukne tabletter | Bictegravirnatrium, EMTRICITABIN, tenofovir alafenamid | Gyldig |
+| 28105622115 | Descovy | filmovertrukne tabletter | EMTRICITABIN, tenofovir alafenamid | Gyldig |
+| 28105774815 | Descovy | filmovertrukne tabletter | EMTRICITABIN, tenofovir alafenamid | Gyldig |
+| 28107325925 | Emtricitabin/Tenofoviralafenamid "Lupin" | filmovertrukne tabletter | EMTRICITABIN, Tenofovir alafenamid succinat | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem indehaves af Gilead Sciences Ireland UC.
 
 <!-- review:begin dk-lic-20261112-tenofovir_alafenamide-1 -->
 
@@ -135,7 +143,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland ” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Gilead Sciences Ireland UC.” → “Alle 10 tilladelser er gyldige; tre af dem indehaves af Gilead Sciences Ireland ” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->

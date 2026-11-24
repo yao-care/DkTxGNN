@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 467
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ixekizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -75,9 +75,16 @@ TxGNN-modellen (deep learning) har ingen ny forudsagt indikation for Ixekizumab 
 
 ## Information om markedet i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105616515 | Taltz | injektionsvæske, opløsning i fyldt injek | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105616515 | Taltz | injektionsvæske, opløsning i fyldt injektionssprøjte | ixekizumab | Gyldig |
+| 28105616615 | Taltz | injektionsvæske, opløsning i fyldt pen | ixekizumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsmæssige overvejelser
 

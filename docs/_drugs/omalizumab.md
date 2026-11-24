@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Omalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
@@ -79,9 +79,19 @@ Ingen af publikationerne undersøger omalizumab direkte ved bronkitis.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106961923 | Omlyclo (Celltrion Healthcare Hungary Kft) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106961923 | Omlyclo | injektionsvæske, opløsning i fyldt injektionssprøjte | Omalizumab | Gyldig |
+| 28107322325 | Omlyclo | injektionsvæske, opløsning i fyldt injektionssprøjte | Omalizumab | Gyldig |
+| 28106961823 | Omlyclo | injektionsvæske, opløsning i fyldt injektionssprøjte | Omalizumab | Gyldig |
+| 28107281424 | Omlyclo | injektionsvæske, opløsning i fyldt pen | Omalizumab | Gyldig |
+| 28107281324 | Omlyclo | injektionsvæske, opløsning i fyldt pen | Omalizumab | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

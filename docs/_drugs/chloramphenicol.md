@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloramphenicol: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
@@ -75,13 +75,21 @@ Ingen af publikationerne undersøger chloramphenicol som behandling.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107399025 | Kloramfenikol "2care4" | Øjendråber, opløsning | Ikke angivet |
-| 28106831822 | Kloramfenikol "2care4" | Øjensalve | Ikke angivet |
-| 28100724176 | Kloramfenikol "DAK" | Øjendråber, opløsning | Ikke angivet |
-| 28100724276 | Kloramfenikol "DAK" | Øjensalve | Ikke angivet |
-| 28106156418 | Kloramfenikol "Orifarm" | Øjensalve | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107399025 | Kloramfenikol "2care4" | øjendråber, opløsning | CHLORAMPHENICOL | Gyldig |
+| 28106831822 | Kloramfenikol "2care4" | øjensalve | CHLORAMPHENICOL | Gyldig |
+| 28100724176 | Kloramfenikol "DAK" | øjendråber, opløsning | CHLORAMPHENICOL | Gyldig |
+| 28100724276 | Kloramfenikol "DAK" | øjensalve | CHLORAMPHENICOL | Gyldig |
+| 28106156418 | Kloramfenikol "Orifarm" | øjensalve | CHLORAMPHENICOL | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Den eneste registrerede tilladelse er en øjendråbe til lokal anvendelse. Der er ikke registreret systemiske formuleringer i de lokale data, og de ville formentlig være nødvendige ved en indikation som sklerodermi.
 

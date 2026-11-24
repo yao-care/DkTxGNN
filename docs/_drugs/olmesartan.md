@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Olmesartan: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for de danske…"
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -103,10 +103,19 @@ Til orientering, for forudsigelsen *pulmonal hypertension* (rang 5):
 
 ## Oplysninger om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105606515 | Olmesartan medoxomil "Krka" | Filmovertrukne tabletter | Ikke angivet |
-| 28105607315 | Olmesartan medoxomil/hydrochlorothiazide "Krka" | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105606515 | Olmesartan medoxomil "Krka" | filmovertrukne tabletter | OLMESARTAN MEDOXOMIL | Gyldig |
+| 28105606615 | Olmesartan medoxomil "Krka" | filmovertrukne tabletter | OLMESARTAN MEDOXOMIL | Gyldig |
+| 28105606715 | Olmesartan medoxomil "Krka" | filmovertrukne tabletter | OLMESARTAN MEDOXOMIL | Gyldig |
+| 28105607315 | Olmesartan medoxomil/hydrochlorothiazide "Krka" | filmovertrukne tabletter | HYDROCHLORTHIAZID, OLMESARTAN MEDOXOMIL | Gyldig |
+| 28105607415 | Olmesartan medoxomil/hydrochlorothiazide "Krka" | filmovertrukne tabletter | HYDROCHLORTHIAZID, OLMESARTAN MEDOXOMIL | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og tilhører KRKA d.d. Novo mesto.
 

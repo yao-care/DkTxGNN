@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pyrazinamide: forudsagt ny indikation Infektiøs otitis media (evidensniveau L5). Oprindelig indikation: Lungetuberkulose, meningeal tuberkulose og tuberkuløs meningitis"
 monitor_inn: "pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -91,10 +91,18 @@ Bemærk: Ikke alle fundne publikationer er direkte relevante. Flere omhandler ti
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101647885 | Pyrazinamid "SAD" (Amgros I/S) | Tabletter | Ikke angivet |
-| 28106464020 | Rifampar (Paranova Danmark A/S) | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101647885 | Pyrazinamid "SAD" | tabletter | PYRAZINAMIDUM | Gyldig |
+| 28106464020 | Rifampar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28103451402 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28106186618 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

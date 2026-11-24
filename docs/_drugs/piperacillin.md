@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Piperacillin: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsernes indikationstekst…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -93,13 +93,21 @@ Fundene afspejler, at piperacillin bruges til at behandle infektioner hos patien
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107303324 | Piperacillin/Tazobactam "B. Braun" | Pulver og solvens til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28106711921 | Piperacillin/Tazobactam "Antibiotice" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28104035606 | Piperacillin/Tazobactam "Reig Jofre" | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107303324 | Piperacillin/Tazobactam "B. Braun" | pulver og solvens til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
+| 28104017706 | Piperacillin/Tazobactam "Fresenius Kabi" | pulver til infusionsvæske, opløsning | PIPERACILLINNATRIUM, Tazobactamnatrium | Gyldig |
+| 28104017806 | Piperacillin/Tazobactam "Fresenius Kabi" | pulver til infusionsvæske, opløsning | PIPERACILLINNATRIUM, Tazobactamnatrium | Gyldig |
+| 28106687921 | Piperacillin/Tazobactam "Kalceks" | pulver til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
+| 28106688021 | Piperacillin/Tazobactam "Kalceks" | pulver til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21; antal og status for de øvrige tilladelser står i Hurtigt overblik og i tabellen under markedsinformationen. Alle gælder intravenøse præparater.
 
 <!-- review:begin dk-lic-20261112-piperacillin-1 -->
 
@@ -146,7 +154,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.” | Rettet (revideret 2026-11-17; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Rettet: “Alle tre tilladelser er gyldige og gælder intravenøse præparater.” → “17 af de 18 tilladelser er gyldige; Piperacillin/Tazobactam "Antibiotice" blev afregistreret 2026-10-21. Alle gælder intravenøse præparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

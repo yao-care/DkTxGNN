@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 5
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocilizumab: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L1). Oprindelig indikation: Leddegigt og beslægtede inflammatoriske ledsygdomme"
 ---
 
@@ -86,9 +86,19 @@ Ankyloserende spondylitis og leddegigt er begge kroniske, immunmedierede inflamm
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107126124 | Avtozma (Celltrion Healthcare Hungary Kft) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107126124 | Avtozma | injektionsvæske, opløsning i fyldt injektionssprøjte | Tocilizumab | Gyldig |
+| 28107126224 | Avtozma | injektionsvæske, opløsning i fyldt pen | Tocilizumab | Gyldig |
+| 28107126324 | Avtozma | koncentrat til infusionsvæske, opløsning | Tocilizumab | Gyldig |
+| 28105299112 | RoActemra | injektionsvæske, opløsning i fyldt injektionssprøjte | Tocilizumab | Gyldig |
+| 28106125917 | RoActemra | injektionsvæske, opløsning i fyldt pen | Tocilizumab | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

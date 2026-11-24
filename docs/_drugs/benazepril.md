@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benazepril: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
@@ -77,6 +77,14 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 15 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Alle tre tilladelser er for veterinærlægemidler med benazepril som eneste aktive stof. De er ikke godkendt til human brug.
 

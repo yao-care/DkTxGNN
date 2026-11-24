@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -69,6 +69,12 @@ Fordi `predicted_indications` arrayet er tomt, er det ikke muligt at vurdere, hv
 ---
 
 ## Markeredsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+<!-- licenses:end -->
 
 > Bemærk: Gallium nitrat (Ganite®) har godkendelse i USA til hyperkalcæmi ved malignitet, men ingen tilsvarende EU/EMA eller national dansk godkendelse blev identificeret i dette datasæt.
 

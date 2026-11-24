@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Becaplermin"
 predicted_indications: ["amenorrhea (disease)", "erectile dysfunction (disease)", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "pulmonary hypertension", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "hypogonadotropic hypogonadism with or without anosmia", "Leydig cell hypoplasia due to LH resistance"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Becaplermin: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er registreret i den danske godkendel…"
 ---
 
@@ -90,9 +90,15 @@ Der er ingen publikationer, der direkte omhandler amenoré. De seks publikatione
 
 ## Markedsinformation i Danmark
 
-| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101915697 | Regranex (Janssen-Cilag International NV) | Gel | Indikationstekst ikke registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101915697 | Regranex | gel | Becaplermin | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Der er tale om én godkendelse af et enkeltstofprodukt til topisk brug.
 

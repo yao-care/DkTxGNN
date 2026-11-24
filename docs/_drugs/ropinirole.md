@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 735
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropinirole: forudsagt ny indikation Opmærksomhedsforstyrrelse med hyperaktivitet (ADHD) (evidensniveau L5). Oprindelig indikation: Restless legs-syndrom og Parkinsons sygdom (fra videnbasen"
 monitor_inn: "ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -93,9 +93,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104974311 | Aropilo SR (Vipharm S.A.) | Depottabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104974311 | Aropilo SR | depottabletter | ROPINIROLHYDROCHLORID | Gyldig |
+| 28104974511 | Aropilo SR | depottabletter | ROPINIROLHYDROCHLORID | Gyldig |
+| 28104974811 | Aropilo SR | depottabletter | ROPINIROLHYDROCHLORID | Gyldig |
+| 28104801610 | Aztarol | depottabletter | ROPINIROLHYDROCHLORID | Gyldig |
+| 28104801810 | Aztarol | depottabletter | ROPINIROLHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dupilumab: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Atopisk eksem"
 ---
 
@@ -84,9 +84,19 @@ Det eneste angivne forsøg omhandler kronisk bihulebetændelse uden næsepolyppe
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106739621 | Dupixent | Injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106739621 | Dupixent | injektionsvæske, opløsning | Dupilumab | Gyldig |
+| 28106739721 | Dupixent | injektionsvæske, opløsning | Dupilumab | Gyldig |
+| 28106090618 | Dupixent | injektionsvæske, opløsning i fyldt injektionssprøjte | Dupilumab | Gyldig |
+| 28105870016 | Dupixent | injektionsvæske, opløsning i fyldt injektionssprøjte | Dupilumab | Gyldig |
+| 28106349419 | Dupixent | injektionsvæske, opløsning i fyldt pen | Dupilumab | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofstilladelse (gyldig), og indehaveren er Sanofi Winthrop Industrie.
 

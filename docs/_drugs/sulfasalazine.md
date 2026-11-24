@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 781
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: forudsagt ny indikation Brachydactyly-syndactyly syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -93,9 +93,19 @@ Kun de mest relevante publikationer er medtaget (prækliniske studier og oversig
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100137555 | Salazopyrin (Pfizer ApS) | Tabletter (oral) | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100137555 | Salazopyrin | tabletter | SULFASALAZIN | Gyldig |
+| 28101191384 | Salazopyrin Entabs | enterotabletter | SULFASALAZIN | Gyldig |
+| 28107057323 | Salazopyrina | tabletter | SULFASALAZIN | Gyldig |
+| 28103531403 | Sulfasalazin "Hexal" | enterotabletter | SULFASALAZIN | Gyldig |
+| 28103366502 | Sulfasalazin "medac" | enterotabletter | SULFASALAZIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

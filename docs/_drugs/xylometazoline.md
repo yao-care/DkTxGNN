@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 898
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L3). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
@@ -89,14 +89,21 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103159100 | Xylometazolin "Orifarm" menthol ukonserveret | Næsespray, opløsning | Indikationstekst ikke angivet |
-| 28103772305 | Klarigen | Næsespray, opløsning | Indikationstekst ikke angivet |
-| 28106006317 | Zymelin Care | Næsespray, opløsning | Indikationstekst ikke angivet |
-| 28104314008 | Otrivin Comp | Næsespray, opløsning | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
 
-Alle fire er nationale tilladelser med status gyldig; Xylometazolin "Orifarm" og Klarigen indeholder xylometazolin som enkeltstof, Otrivin Comp og Zymelin Care er kombinationspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103772305 | Klarigen | næsespray, opløsning | Xylometazolinhydrochlorid | Gyldig |
+| 28101839196 | Otrivin Junior ukonserveret | næsespray, opløsning | Xylometazolinhydrochlorid | Gyldig |
+| 28101902497 | Otrivin Menthol ukonserveret | næsespray, opløsning | Xylometazolinhydrochlorid | Gyldig |
+| 28101839296 | Otrivin ukonserveret | næsespray, opløsning | Xylometazolinhydrochlorid | Gyldig |
+| 28103159100 | Xylometazolin "Orifarm" menthol ukonserveret | næsespray, opløsning | Xylometazolin | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Xylometazolin "Orifarm" og Klarigen indeholder xylometazolin som enkeltstof, Otrivin Comp og Zymelin Care er kombinationspræparater; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-xylometazoline-1 -->
 
@@ -137,7 +144,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 503
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lomustine"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: forudsagt ny indikation Lymfosarkom (lymphosarcoma) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -92,9 +92,15 @@ Den eneste undersøgelse af lomustine i selve lymfosarkom er et museforsøg. Øv
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100911976 | Lomustine "Medac" | Kapsler | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100911976 | Lomustine "Medac" | kapsler | LOMUSTIN | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Lomustine er på markedet i Danmark med én gyldig national tilladelse (enkeltstofpræparat).
 

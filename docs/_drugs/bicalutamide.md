@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bicalutamide: forudsagt ny indikation Hypertrikose (hypertrichosis (disease)) (evidensniveau L4). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
@@ -70,9 +70,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104304108 | Bicalustad (STADA Arzneimittel AG) | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104304108 | Bicalustad | filmovertrukne tabletter | BICALUTAMID | Gyldig |
+| 28104255607 | Bicalutamid "Bluefish" | filmovertrukne tabletter | BICALUTAMID | Gyldig |
+| 28104255507 | Bicalutamid "Bluefish" | filmovertrukne tabletter | BICALUTAMID | Gyldig |
+| 28107112424 | Bicalutamid "Epione Medicine" | filmovertrukne tabletter | BICALUTAMID | Gyldig |
+| 28104884811 | Bicalutamid "Fair-Med" | filmovertrukne tabletter | BICALUTAMID | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

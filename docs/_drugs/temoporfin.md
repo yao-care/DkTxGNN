@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Temoporfin"
 predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temoporfin: forudsagt ny indikation Nasofaryngealt teratom (evidensniveau L5). Oprindelig indikation: Pladecellekarcinom i hoved og hals"
 ---
 
@@ -84,9 +84,15 @@ Bemærk, at to publikationer er knyttet til andre forudsagte sygdomme på listen
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104244807 | Foscan | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104244807 | Foscan | injektionsvæske, opløsning | TEMOPORFIN | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

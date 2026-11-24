@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 534
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Metamizole: forudsagt ny indikation Reumatoid artritis (evidensniveau L4). Oprindelig indikation: Ikke angivet i de tilgængelige data (indikationsteksten for begge god…"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -96,6 +96,14 @@ Ingen af publikationerne viser effekt af metamizol ved reumatoid artritis.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Begge er veterinære præparater (VetViva Richter GmbH), og der er ingen godkendte humane præparater i de tilgængelige data.
 

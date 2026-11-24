@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBETOCIN"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Carbetocin: forudsagt ny indikation isotretinoin-lignende syndrom (isotretinoin-like syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -80,9 +80,17 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106576821 | Carbetocin "Aguettant" | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106576821 | Carbetocin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | CARBETOCIN | Gyldig |
+| 28107259624 | Carbetocin "Ever Pharma" | injektionsvæske, opløsning | CARBETOCIN | Gyldig |
+| 28104011906 | Pabal | injektionsvæske, opløsning | CARBETOCIN | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

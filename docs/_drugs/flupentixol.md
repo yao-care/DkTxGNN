@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -74,9 +74,18 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106552120 | Fluanxol (2care4 ApS) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106552120 | Fluanxol | filmovertrukne tabletter | Flupentixoldihydrochlorid | Gyldig |
+| 28104769810 | Fluanxol | filmovertrukne tabletter | Flupentixoldihydrochlorid | Gyldig |
+| 28104769610 | Fluanxol Mite | filmovertrukne tabletter | Flupentixoldihydrochlorid | Gyldig |
+| 28104769710 | Fluanxol Mite | filmovertrukne tabletter | Flupentixoldihydrochlorid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 310
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Entrectinib: kendte anvendelser og markedsstatus i Danmark; foreløbig ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,17 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Entrec
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106220119 | Rozlytrek | kapsler, hårde | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106962623 | Rozlytrek | filmovertrukket granulat i brev | Entrectinib | Gyldig |
+| 28106220119 | Rozlytrek | kapsler, hårde | Entrectinib | Gyldig |
+| 28106220219 | Rozlytrek | kapsler, hårde | Entrectinib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

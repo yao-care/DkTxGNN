@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "duvelisib"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Duvelisib: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
@@ -106,9 +106,15 @@ Ingen af forsøgene inkluderer patienter med Hodgkins lymfom. De nedenfor viste 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106369319 | Copiktra (Secura Bio Limited) | Kapsler, hårde | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106369319 | Copiktra | kapsler, hårde | Duvelisib MONOHYDRAT | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

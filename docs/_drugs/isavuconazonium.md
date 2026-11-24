@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isavuconazonium: forudsagt ny indikation Pneumocystose (rang 1) og mycetom (rang 2) (evidensniveau L5). Oprindelig indikation: Aspergillose, zygomycose, coccidioidomycose, histoplasmose…"
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
@@ -84,9 +84,17 @@ Kun mycetom har en publikation. For pneumocystose foreligger der ingen litteratu
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105475714 | Cresemba (Basilea Pharmaceutica Deutschland GmbH) | Kapsler, hårde | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105475714 | Cresemba | kapsler, hårde | isavuconazoniumsulfat | Gyldig |
+| 28107033923 | Cresemba | kapsler, hårde | isavuconazoniumsulfat | Gyldig |
+| 28105475614 | Cresemba | pulver til koncentrat til infusionsvæske, opløsning | isavuconazoniumsulfat | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

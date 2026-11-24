@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dienogest: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske licensdata (indikationsteksten er tom). Litt…"
 ---
 
@@ -88,11 +88,21 @@ Ingen af nedenstående publikationer undersøger direkte dienogest som behandlin
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106335019 | Dienogest "Besins" | Tabletter | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én af dem er fra Laboratoires Besins Int. S.A.S.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106335019 | Dienogest "Besins" | tabletter | DIENOGEST | Gyldig |
+| 28106105618 | Dienosis | tabletter | DIENOGEST | Gyldig |
+| 28104440808 | Visanne | tabletter | DIENOGEST | Gyldig |
+| 28106064018 | Zafrilla | tabletter | DIENOGEST | Gyldig |
+| 28107655326 | Zafrilla | tabletter | DIENOGEST | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne omfatter både enkeltstofpræparater (bl.a. ét fra Laboratoires Besins Int. S.A.S.) og kombinationspræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-dienogest-1 -->
 
@@ -142,7 +152,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoi” → “Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse (enkeltstofpræparat, gyldig) fra Laboratoi” → “Der er tale om 8 gyldige nationale tilladelser, heraf 5 enkeltstofpræparater; én” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

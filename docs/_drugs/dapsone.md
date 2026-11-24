@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 235
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "dapsone"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L1). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -104,9 +104,16 @@ TxGNN-scoren på 0,9973 stemmer overens med denne mekanisme og med den kliniske 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103359402 | Dapson "Scanpharm" (Scanpharm A/S) | Tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103359402 | Dapson "Scanpharm" | tabletter | DAPSON | Gyldig |
+| 28101321787 | Dapson "Scanpharm" | tabletter | DAPSON | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

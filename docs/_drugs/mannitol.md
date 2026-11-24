@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Mannitol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mannitol: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (nephrogenic syndrome of inappropriate antidiuresis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
 ---
 
@@ -72,9 +72,18 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104617609 | Bronchitol | Inhalationspulver, hård kapsel | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104617609 | Bronchitol | inhalationspulver, hård kapsel | MANNITOL | Gyldig |
+| 28100675475 | Mannitol "Fresenius Kabi" | infusionsvæske, opløsning | MANNITOL | Gyldig |
+| 28104040006 | Osmohale | inhalationspulver, hård kapsel | MANNITOL | Gyldig |
+| 28106036517 | Corhum | opløsning til kardioplegi/organbevarelse | CALCIUMCHLORIDDIHYDRAT, HISTIDIN, Histidinhydrochloridmonohydrat, KAL… | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

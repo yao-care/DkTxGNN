@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 660
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pilocarpine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ Alle kandidater, som TxGNN-modellen har foreslået for Pilocarpine (score ≥ 0,
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28101572593 | Fotil Forte | øjendråber, opløsning, enkeltdosisbehold | Gyldig |
-| 28101525192 | Fotil Forte | øjendråber, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101525192 | Fotil Forte | øjendråber, opløsning | Pilocarpinhydrochlorid, TIMOLOL | Gyldig |
+| 28101572593 | Fotil Forte | øjendråber, opløsning, enkeltdosisbeholder | Pilocarpinhydrochlorid, TIMOLOLMALEAT | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

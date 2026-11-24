@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -85,9 +85,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret fo
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106644821 | Blomensy (Egis Pharmaceuticals PLC) | Filmovertrukne tabletter | Indikationstekst ikke oplyst |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106644821 | Blomensy | filmovertrukne tabletter | Rivaroxaban | Gyldig |
+| 28106644921 | Blomensy | filmovertrukne tabletter | Rivaroxaban | Gyldig |
+| 28106645021 | Blomensy | filmovertrukne tabletter | Rivaroxaban | Gyldig |
+| 28106644721 | Blomensy | filmovertrukne tabletter | Rivaroxaban | Gyldig |
+| 28106946423 | Dovequa | filmovertrukne tabletter | Rivaroxaban | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

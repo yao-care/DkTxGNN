@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: forudsagt ny indikation Antithrombin deficiency type 2 (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -88,9 +88,17 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103097099 | Aromasin (Pfizer ApS) | Overtrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103097099 | Aromasin | overtrukne tabletter | EXEMESTAN | Gyldig |
+| 28104455308 | Exemestan "Accord" | filmovertrukne tabletter | EXEMESTAN | Gyldig |
+| 28104474509 | Exemestan "Stada" | filmovertrukne tabletter | EXEMESTAN | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonidine: forudsagt ny indikation Faciodigitogenitalt syndrom (faciodigitogenital syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -68,9 +68,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106697421 | Caruxin | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106697421 | Caruxin | injektionsvæske, opløsning | CLONIDINHYDROCHLORID | Gyldig |
+| 28107209924 | Clonidinhydrochlorid "Orifarm" | injektionsvæske, opløsning | CLONIDINHYDROCHLORID | Gyldig |
+| 28107093123 | Clopressan | filmovertrukne tabletter | CLONIDINHYDROCHLORID | Gyldig |
+| 28106489020 | Clotaxip | injektionsvæske, opløsning | CLONIDINHYDROCHLORID | Gyldig |
+| 28107236124 | Vempadix | tabletter | CLONIDINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstofpræparat og er gyldig (Macure Pharma ApS).
 

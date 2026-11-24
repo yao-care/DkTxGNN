@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: forudsagt ny indikation Hypermobilitet af coccyx (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst er tilgængelig i den danske registrer…"
 ---
 
@@ -82,9 +82,19 @@ Til orientering fandt dataindsamlingen for det bredere begreb "vertebral sygdom"
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105710015 | Amgevita (Amgen Europe BV) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i registreringen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105710015 | AMGEVITA | injektionsvæske, opløsning i fyldt injektionssprøjte | ADALIMUMAB | Gyldig |
+| 28107031723 | AMGEVITA | injektionsvæske, opløsning i fyldt injektionssprøjte | ADALIMUMAB | Gyldig |
+| 28105710115 | AMGEVITA | injektionsvæske, opløsning i fyldt injektionssprøjte | ADALIMUMAB | Gyldig |
+| 28107707723 | AMGEVITA | injektionsvæske, opløsning i fyldt injektionssprøjte | ADALIMUMAB | Gyldig |
+| 28107031923 | AMGEVITA | injektionsvæske, opløsning i fyldt injektionssprøjte | ADALIMUMAB | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er mindst 20 gyldige tilladelser til enkeltstofprodukter; listen i dataene er ikke komplet.
 

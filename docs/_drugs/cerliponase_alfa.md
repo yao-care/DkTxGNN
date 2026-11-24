@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Cerliponase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Cerliponase Alfa: forudsagt ny indikation Scheies syndrom (evidensniveau L5). Oprindelig indikation: Neuronal ceroid lipofuscinose og infantil neuronal ceroid lipofuscino…"
 ---
 
@@ -82,9 +82,15 @@ Bemærk: For en anden forudsagt sygdom (Gauchers sygdom) blev der fundet én ove
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105798716 | Brineura (BioMarin International Limited) | Infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105798716 | Brineura | infusionsvæske, opløsning | Cerliponase alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

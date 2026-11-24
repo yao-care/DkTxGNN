@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: forudsagt ny indikation Infektiøs mellemørebetændelse (infectious otitis media) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -71,9 +71,17 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedsføring i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104990611 | Cefazolin "MIP" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104990611 | Cefazolin "MIP" | pulver til injektions-/infusionsvæske, opløsning | CEFAZOLINNATRIUM | Gyldig |
+| 28107329525 | Cefazolin "Noridem" | pulver til injektions-/infusionsvæske, opløsning | CEFAZOLINNATRIUM | Gyldig |
+| 28107329625 | Cefazolin "Noridem" | pulver til injektions-/infusionsvæske, opløsning | CEFAZOLINNATRIUM | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

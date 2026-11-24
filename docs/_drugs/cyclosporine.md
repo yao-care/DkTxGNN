@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 227
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine: forudsagt ny indikation Kronisk granulomatøs sygdom, autosomal recessiv (granulomatous disease, chronic, autosomal recessive) (evidensniveau L4). Oprindelig indikation: Ikke registreret…"
@@ -80,13 +80,21 @@ Aktuelt er der ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105045312 | Ciqorin | Kapsler, bløde | Ikke angivet |
-| 28105045012 | Ciqorin | Kapsler, bløde | Ikke angivet |
-| 28105045112 | Ciqorin | Kapsler, bløde | Ikke angivet |
-| 28105045212 | Ciqorin | Kapsler, bløde | Ikke angivet |
-| 28105370414 | Ikervis | Øjendråber, emulsion | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105045312 | Ciqorin | kapsler, bløde | CICLOSPORIN | Gyldig |
+| 28105045112 | Ciqorin | kapsler, bløde | CICLOSPORIN | Gyldig |
+| 28105045212 | Ciqorin | kapsler, bløde | CICLOSPORIN | Gyldig |
+| 28105370414 | Ikervis | øjendråber, emulsion | CICLOSPORIN | Gyldig |
+| 28106046917 | Menelri | kapsler, bløde | CICLOSPORIN | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 12 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

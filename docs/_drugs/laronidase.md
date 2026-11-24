@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: forudsagt ny indikation Sanfilippo syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -84,9 +84,15 @@ Der er for nærværende ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103361802 | Aldurazyme (Sanofi B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103361802 | Aldurazyme | koncentrat til infusionsvæske, opløsning | LARONIDASE | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

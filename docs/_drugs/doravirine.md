@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Doravirine: forudsagt ny indikation Simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -86,9 +86,16 @@ Der er på nuværende tidspunkt ingen registrerede kliniske forsøg relateret ti
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106038317 | Pifeltro (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106038317 | Pifeltro | filmovertrukne tabletter | Doravirine | Gyldig |
+| 28106040317 | Delstrigo | filmovertrukne tabletter | Doravirine, LAMIVUDIN, TENOFOVIRDISOPROXILFUMARAT | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

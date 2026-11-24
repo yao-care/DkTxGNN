@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raloxifene: forudsagt ny indikation Duodenalsår (evidensniveau L5). Oprindelig indikation: Postmenopausal osteoporose / osteoporose"
 monitor_inn: "raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -80,9 +80,17 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101882797 | Evista (Substipharm) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101882797 | Evista | filmovertrukne tabletter | RALOXIFENHYDROCHLORID | Gyldig |
+| 28101882897 | Optruma | filmovertrukne tabletter | RALOXIFENHYDROCHLORID | Gyldig |
+| 28104426808 | Raloxifen "Teva" | filmovertrukne tabletter | RALOXIFENHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

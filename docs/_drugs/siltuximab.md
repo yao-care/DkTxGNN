@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Siltuximab: forudsagt ny indikation Ekstrakutant mastocytom (evidensniveau L5). Oprindelig indikation: Castlemans sygdom"
 ---
 
@@ -79,9 +79,16 @@ Der er i øjeblikket ingen relateret litteratur for ekstrakutant mastocytom.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105331813 | Sylvant (Recordati (Netherlands) B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105331813 | Sylvant | pulver til koncentrat til infusionsvæske, opløsning | siltuximab | Gyldig |
+| 28105441113 | Sylvant | pulver til koncentrat til infusionsvæske, opløsning | siltuximab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

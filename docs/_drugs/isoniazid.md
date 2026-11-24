@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: forudsagt ny indikation Konjunktivitis (conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -95,9 +95,19 @@ Yderligere to fund (PMID 14195962 om toksisk epidermal nekrolyse og PMID 7505555
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100808477 | Isoniazid "OBA" (OBA-Pharma ApS) | Tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100808477 | Isoniazid "OBA" | tabletter | ISONIAZID | Gyldig |
+| 28106464020 | Rifampar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28103449602 | Rimactazid | filmovertrukne tabletter | ISONIAZID, RIFAMPICIN | Gyldig |
+| 28103451402 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+| 28106186618 | Rimstar | filmovertrukne tabletter | Ethambutolhydrochlorid, ISONIAZID, PYRAZINAMIDUM, RIFAMPICIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er et enkeltstofpræparat med gyldig tilladelse og til oral anvendelse. Der er ingen godkendt øjenformulering i Danmark ifølge de indsamlede data.
 

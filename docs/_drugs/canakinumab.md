@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Canakinumab"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Canakinumab: forudsagt ny indikation Hepatisk infarkt (hepatic infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -68,9 +68,17 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105773616 | Ilaris | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105773616 | Ilaris | injektionsvæske, opløsning | Canakinumab | Gyldig |
+| 28107281524 | Ilaris | injektionsvæske, opløsning i fyldt pen | Canakinumab | Gyldig |
+| 28104454608 | Ilaris | pulver til injektionsvæske, opløsning | Canakinumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Indehaver af markedsføringstilladelsen er Novartis Europharm Limited. Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "itopride"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
 description: "Itopride: forudsagt ny indikation Crohns sygdom i tyndtarmen (small bowel Crohn disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -78,9 +78,15 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106430320 | Progit (Kappler Pharma Consult GmbH) | Filmovertrukne tabletter (oral) | Ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106430320 | Progit | filmovertrukne tabletter | Itopridhydrochlorid | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

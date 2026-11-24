@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 53
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Amitraz: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -71,6 +71,14 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Amitra
 | Ingen |
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

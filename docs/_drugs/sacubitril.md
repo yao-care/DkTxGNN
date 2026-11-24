@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: forudsagt ny indikation Brain small vessel disease 1 with or without ocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -96,11 +96,19 @@ Der er ikke fundet EudraCT-identifikatorer i de indsamlede data.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106795222 | Entresto | Granulat | Ikke angivet |
-| 28107127724 | Bitrisal | Filmovertrukne tabletter | Ikke angivet |
-| 28107174124 | Sacubitril/Valsartan "Krka" | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107127724 | Bitrisal | filmovertrukne tabletter | Sacubitrilnatrium, Valsartandinatrium | Gyldig |
+| 28107127824 | Bitrisal | filmovertrukne tabletter | Sacubitrilnatrium, Valsartandinatrium | Gyldig |
+| 28107127924 | Bitrisal | filmovertrukne tabletter | Sacubitrilnatrium, Valsartandinatrium | Gyldig |
+| 28106795222 | Entresto | granulat | Sacubitril, VALSARTAN | Gyldig |
+| 28106794622 | Entresto | granulat | Sacubitril, VALSARTAN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

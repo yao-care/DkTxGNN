@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale…"
@@ -75,9 +75,21 @@ Der er ingen litteratur om tramadol ved den forudsagte hovedindikation. For en l
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106733122 | Tramadolhydrochlorid/Paracetamol "Opko" | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104817910 | Dolatramyl | depottabletter | TRAMADOLHYDROCHLORID | Gyldig |
+| 28104818010 | Dolatramyl | depottabletter | TRAMADOLHYDROCHLORID | Gyldig |
+| 28104818110 | Dolatramyl | depottabletter | TRAMADOLHYDROCHLORID | Gyldig |
+| 28101809996 | Dolol | kapsler, hårde | TRAMADOLHYDROCHLORID | Gyldig |
+| 28103391102 | Dolol Retard UNO | depotkapsler, hårde | TRAMADOLHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 16 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Susoctocog alfa"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 ---
 
 # Susoctocog Alfa
@@ -84,9 +84,15 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt anvendelsesområde |
-|---------|------|------|-----------|
-| 28105462314 | Obizur (Baxalta Innovations GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105462314 | Obizur | pulver og solvens til injektionsvæske, opløsning | Susoctocog alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsmæssige overvejelser
 

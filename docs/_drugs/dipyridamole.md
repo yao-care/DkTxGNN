@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dipyridamole: forudsagt ny indikation Sick sinus syndrome 2, autosomal dominant (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
@@ -84,10 +84,19 @@ Atrieflimren og TIA hænger tæt sammen i klinikken, da begge er knyttet til tro
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106923623 | Dipyridamol "2care4" | Depotkapsler, hårde | Indikationstekst ikke tilgængelig |
-| 28107019323 | Diprasorin | Kapsler med modificeret udløsning, hårde | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106923623 | Dipyridamol "2care4" | depotkapsler, hårde | Dipyridamol | Gyldig |
+| 28105062012 | Dipyridamol "Alternova" | depotkapsler, hårde | Dipyridamol | Gyldig |
+| 28107282524 | Dipyridamol "Carefarm" | depotkapsler, hårde | Dipyridamol | Gyldig |
+| 28107096023 | Dipyridamol "Nordic Prime" | depotkapsler, hårde | Dipyridamol | Gyldig |
+| 28105321813 | Dipyridamol "Strides" | depotkapsler, hårde | Dipyridamol | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluvastatin: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: arteriosklerose…"
 ---
 
@@ -95,9 +95,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104128807 | Fluvamyl (Viatris Limited) | Kapsler, hårde | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104128807 | Fluvamyl | kapsler, hårde | FLUVASTATINNATRIUM | Gyldig |
+| 28104129307 | Fluvamyl | kapsler, hårde | FLUVASTATINNATRIUM | Gyldig |
+| 28104036706 | Fluvastasof | depottabletter | FLUVASTATINNATRIUM | Gyldig |
+| 28104103907 | Fluvastatin "DOC Generici" | depottabletter | FLUVASTATINNATRIUM | Gyldig |
+| 28103984606 | Fluvastatin "Sandoz" | kapsler, hårde | FLUVASTATINNATRIUM | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

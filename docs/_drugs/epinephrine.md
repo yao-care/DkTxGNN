@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epinephrine: forudsagt ny indikation Obstruktiv lungesygdom (evidensniveau L5). Oprindelig indikation: Anafylaksi, astma, bronkitis, lavt blodtryk, lungeemfysem…"
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -103,11 +103,19 @@ Bemærk: Flere af forsøgene er farmakokinetiske studier på raske frivillige og
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104817510 | Anapen | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28107364425 | Norardent | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28101593094 | Scandonest-Adrenalin | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106241819 | Adrenalin "2care4" | injektionsvæske, opløsning | ADRENALINTARTRAT | Gyldig |
+| 28105522114 | Adrenalin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | ADRENALINTARTRAT | Gyldig |
+| 28106387220 | Adrenalin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | ADRENALINTARTRAT | Gyldig |
+| 28105939617 | Adrenalin "Bradex" | injektionsvæske, opløsning | ADRENALINTARTRAT | Gyldig |
+| 28106463820 | Adrenalin "Bradex" | injektionsvæske, opløsning | ADRENALINTARTRAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Mindst 20 tilladelser er gyldige; de tre, der er gennemgået her, omfatter kun injektionsform. Der er ikke fundet inhalationsprodukter med epinephrin i de indsamlede data.
 

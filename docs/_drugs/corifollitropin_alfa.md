@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Corifollitropin Alfa: forudsagt ny indikation Gastroduodenitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (teksten om godkendt indikation er…"
 ---
 
@@ -80,11 +80,18 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104459408 | Elonva (N.V. Organon) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er tale om 2 nationale tilladelser til enkeltstofpræparater. Tilladelserne er gyldige.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104459408 | Elonva | injektionsvæske, opløsning | Corifollitropin alfa | Gyldig |
+| 28104459508 | Elonva | injektionsvæske, opløsning | Corifollitropin alfa | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-corifollitropin_alfa-1 -->
 
@@ -122,7 +129,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat. Tilladelsen er g” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater. Tilladelserne e” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 national tilladelse til et enkeltstofpræparat. Tilladelsen er g” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater. Tilladelserne e” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

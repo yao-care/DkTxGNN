@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Atomoxetine: forudsagt ny indikation Specifik udviklingsforstyrrelse (specific developmental disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -76,9 +76,19 @@ Nedenfor er de mest relevante publikationer. De omhandler ADHD, ikke specifik ud
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107391425 | Atomoxetin "Amarox" | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107391425 | Atomoxetin "Amarox" | kapsler, hårde | ATOMOXETINHYDROCHLORID | Gyldig |
+| 28107390825 | Atomoxetin "Amarox" | kapsler, hårde | ATOMOXETINHYDROCHLORID | Gyldig |
+| 28107390925 | Atomoxetin "Amarox" | kapsler, hårde | ATOMOXETINHYDROCHLORID | Gyldig |
+| 28107391025 | Atomoxetin "Amarox" | kapsler, hårde | ATOMOXETINHYDROCHLORID | Gyldig |
+| 28107391125 | Atomoxetin "Amarox" | kapsler, hårde | ATOMOXETINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

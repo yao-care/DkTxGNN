@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Landiolol: forudsagt ny indikation Lingual-facial-bukkal dyskinesi (evidensniveau L5). Oprindelig indikation: Supraventrikulær takykardi (atrieflimren og atrieflagren) iht. farmak…"
 monitor_inn: "landiolol"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor"]
@@ -94,9 +94,16 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105531814 | Rapibloc (Amomed Pharma GmbH) | Koncentrat til injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105531814 | Rapibloc | koncentrat til injektionsvæske, opløsning | Landiololhydrochlorid | Gyldig |
+| 28105531614 | Rapibloc | pulver til infusionsvæske, opløsning | Landiololhydrochlorid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

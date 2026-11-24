@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenoxymethylpenicillin: forudsagt ny indikation Epiglottitis (evidensniveau L5). Oprindelig indikation: Streptokokinfektion, luftvejsinfektioner, faryngitis…"
 monitor_inn: "phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
@@ -87,9 +87,21 @@ Der er ingen litteratur for epiglottitis. For den næstrangerede forudsigelse, l
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106762622 | Fenoximetylpenicillin "EQL" (EQL Pharma AB) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106762622 | Fenoximetylpenicillin "EQL" | filmovertrukne tabletter | Phenoxymethylpenicillinkalium | Gyldig |
+| 28106762522 | Fenoximetylpenicillin "EQL" | filmovertrukne tabletter | Phenoxymethylpenicillinkalium | Gyldig |
+| 28106210019 | Ospen | filmovertrukne tabletter | Phenoxymethylpenicillinkalium | Gyldig |
+| 28106419220 | Ospen | filmovertrukne tabletter | Phenoxymethylpenicillinkalium | Gyldig |
+| 28107362024 | Ospen | filmovertrukne tabletter | Phenoxymethylpenicillinkalium | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

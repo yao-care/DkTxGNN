@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: forudsagt ny indikation Kvindeligt brystkarcinom (evidensniveau L5). Oprindelig indikation: Ovariecancer (ifølge videnbasen"
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -97,9 +97,19 @@ Den kliniske evidens er dog svag: Der findes kun tidlige kombinationsstudier og 
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104153107 | Hycamtin (Sandoz Pharmaceuticals d.d.) | Kapsler, hårde | Indikationstekst er ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104153107 | Hycamtin | kapsler, hårde | TOPOTECANHYDROCHLORID | Gyldig |
+| 28104153207 | Hycamtin | kapsler, hårde | TOPOTECANHYDROCHLORID | Gyldig |
+| 28104028706 | Hycamtin | pulver til koncentrat til infusionsvæske, opløsning | TOPOTECANHYDROCHLORID | Gyldig |
+| 28101801396 | Hycamtin | pulver til koncentrat til infusionsvæske, opløsning | TOPOTECANHYDROCHLORID | Gyldig |
+| 28104752910 | Potactasol | pulver til koncentrat til infusionsvæske, opløsning | TOPOTECANHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

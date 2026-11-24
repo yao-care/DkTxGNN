@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Erdafitinib"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Erdafitinib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -81,11 +81,19 @@ Der er i øjeblikket ingen litteratur, der direkte omhandler pulmonal hypertensi
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107045223 | Balversa (Janssen-Cilag International NV) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Antal godkendelser: 3 nationale markedsføringstilladelser (enkeltstof, gyldige).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107045223 | Balversa | filmovertrukne tabletter | Erdafitinib | Gyldig |
+| 28107045323 | Balversa | filmovertrukne tabletter | Erdafitinib | Gyldig |
+| 28107045423 | Balversa | filmovertrukne tabletter | Erdafitinib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-erdafitinib-1 -->
 
@@ -160,7 +168,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).” → “Antal godkendelser: 3 nationale markedsføringstilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national markedsføringstilladelse (enkeltstof, gyldig).” → “Antal godkendelser: 3 nationale markedsføringstilladelser (enkeltstof, gyldige).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 444
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Alle kandidater, som TxGNN-modellen har peget på for Interferon Beta-1A, er all
 
 ## Information om markedet i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103396502 | Avonex | injektionsvæske, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103396502 | Avonex | injektionsvæske, opløsning | Interferon Beta-1a | Gyldig |
+| 28101839896 | Rebif | injektionsvæske, opløsning | Interferon Beta-1a | Gyldig |
+| 28101840096 | Rebif | injektionsvæske, opløsning | Interferon Beta-1a | Gyldig |
+| 28103779405 | Rebif | injektionsvæske, opløsning | Interferon Beta-1a | Gyldig |
+| 28104466408 | Rebif | injektionsvæske, opløsning, flerdosisbeholder | Interferon Beta-1a | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

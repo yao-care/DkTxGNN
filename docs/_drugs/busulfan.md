@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: forudsagt ny indikation Myelodysplastisk syndrom (evidensniveau L1). Oprindelig indikation: Ikke angivet i de tilgængelige licensdata"
 ---
 
@@ -109,9 +109,17 @@ De data, der er sammenstillet til rapporten, indeholder mange forsøg. De mest r
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103362802 | Busilvex (Pierre Fabre Medicament) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105306013 | Busulfan "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | BUSULFAN | Gyldig |
+| 28106069118 | Busulfan "Zentiva" | koncentrat til infusionsvæske, opløsning | BUSULFAN | Gyldig |
+| 28103362802 | Busilvex | koncentrat til infusionsvæske, opløsning | BUSULFAN | Afregistreret |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

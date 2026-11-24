@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin: forudsagt ny indikation Biotinstofskiftesygdom (biotin metabolic disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -72,9 +72,21 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsoplysninger i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101107682 | Betolvex | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101107682 | Betolvex | filmovertrukne tabletter | CYANOCOBALAMIN | Gyldig |
+| 28105334613 | Betolvex | filmovertrukne tabletter | CYANOCOBALAMIN | Gyldig |
+| 28107237724 | Bevitan | filmovertrukne tabletter | CYANOCOBALAMIN | Gyldig |
+| 28106547120 | Cyanocobalamin "Glenmark" | filmovertrukne tabletter | CYANOCOBALAMIN | Gyldig |
+| 28106557020 | Cyanocobalamin "Orifarm" | filmovertrukne tabletter | CYANOCOBALAMIN | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

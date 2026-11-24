@@ -5,7 +5,7 @@ layout: default
 title: Riociguat
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 723
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Riociguat: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Riociguat"
 predicted_indications: []
@@ -50,9 +50,19 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105246913 | Adempas (Bayer Pharma AG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105246913 | Adempas | filmovertrukne tabletter | Riociguat | Gyldig |
+| 28105247113 | Adempas | filmovertrukne tabletter | Riociguat | Gyldig |
+| 28105247013 | Adempas | filmovertrukne tabletter | Riociguat | Gyldig |
+| 28105247313 | Adempas | filmovertrukne tabletter | Riociguat | Gyldig |
+| 28105247213 | Adempas | filmovertrukne tabletter | Riociguat | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

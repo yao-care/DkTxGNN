@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 511
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"
@@ -85,10 +85,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104120207 | Ancozan (Sandoz A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28104611409 | Ancozan Comp (Sandoz A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104120207 | Ancozan | filmovertrukne tabletter | LOSARTANKALIUM | Gyldig |
+| 28104119807 | Ancozan | filmovertrukne tabletter | LOSARTANKALIUM | Gyldig |
+| 28104120007 | Ancozan | filmovertrukne tabletter | LOSARTANKALIUM | Gyldig |
+| 28103284201 | Cozaar | filmovertrukne tabletter | LOSARTANKALIUM | Gyldig |
+| 28101897897 | Cozaar | filmovertrukne tabletter | LOSARTANKALIUM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

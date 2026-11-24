@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Turoctocog Alfa: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
@@ -79,9 +79,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106089218 | Esperoct (Novo Nordisk A/S) | Pulver og solvens til injektionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106089218 | Esperoct | pulver og solvens til injektionsvæske, opløsning | Turoctocog alfa | Gyldig |
+| 28106089318 | Esperoct | pulver og solvens til injektionsvæske, opløsning | Turoctocog alfa | Gyldig |
+| 28106089418 | Esperoct | pulver og solvens til injektionsvæske, opløsning | Turoctocog alfa | Gyldig |
+| 28106089518 | Esperoct | pulver og solvens til injektionsvæske, opløsning | Turoctocog alfa | Gyldig |
+| 28106089118 | Esperoct | pulver og solvens til injektionsvæske, opløsning | Turoctocog alfa | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

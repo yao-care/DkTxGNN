@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: forudsagt ny indikation Rosacea conjunctivitis (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -92,9 +92,19 @@ Nedenfor er de 10 mest relevante publikationer (oversigtsartikler prioriteret ov
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105583315 | Hydroxyzine "Bluefish" (Bluefish Pharmaceuticals AB) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105583315 | Hydroxyzine "Bluefish" | filmovertrukne tabletter | HYDROXYZINHYDROCHLORID | Gyldig |
+| 28106470220 | Hydroxyzine "Medical Valley" | filmovertrukne tabletter | HYDROXYZINHYDROCHLORID | Gyldig |
+| 28106470320 | Hydroxyzine "Medical Valley" | filmovertrukne tabletter | HYDROXYZINHYDROCHLORID | Gyldig |
+| 28105476514 | Hydroxyzine "Orifarm" | filmovertrukne tabletter | HYDROXYZINHYDROCHLORID | Gyldig |
+| 28105476614 | Hydroxyzine "Orifarm" | filmovertrukne tabletter | HYDROXYZINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

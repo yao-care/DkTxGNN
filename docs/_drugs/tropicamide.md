@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tropicamide: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Cycloplegi (fra videnbasen"
 monitor_inn: "tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -84,13 +84,20 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100599271 | Mydriacyl (Alcon Nordic A/S) | Øjendråber, opløsning | Ikke angivet i de indsamlede data |
-| 28103905906 | Mydriasert (Laboratoires Thea S.A.S.) | Øjenlamel | Ikke angivet i de indsamlede data |
-| 28105410714 | Mydrane (Laboratoires Thea S.A.S.) | Injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Alle tre tilladelser er gyldige; Mydriacyl er et enkeltstofpræparat, Mydriasert og Mydrane er kombinationspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100599271 | Mydriacyl | øjendråber, opløsning | Tropicamid | Gyldig |
+| 28100993371 | Mydriacyl | øjendråber, opløsning | Tropicamid | Gyldig |
+| 28105410714 | Mydrane | injektionsvæske, opløsning | Lidocainhydrochloridmonohydrat, PHENYLEPHRINHYDROCHLORID, Tropicamid | Gyldig |
+| 28103905906 | Mydriasert | øjenlamel | PHENYLEPHRINHYDROCHLORID, Tropicamid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Mydriacyl er et enkeltstofpræparat, Mydriasert og Mydrane er kombinationspræparater; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-tropicamide-1 -->
 
@@ -131,7 +138,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

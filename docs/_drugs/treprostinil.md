@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treprostinil: forudsagt ny indikation Pulmonal arteriovenøs malformation (evidensniveau L5). Oprindelig indikation: Pulmonal arteriel hypertension"
 ---
 
@@ -80,11 +80,21 @@ Der foreligger for øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106501620 | Treprostinil "Tillomed" (Tillomed Pharma GmbH) | Infusionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103798105 | Remodulin | infusionsvæske, opløsning | Treprostinilnatrium | Gyldig |
+| 28103797805 | Remodulin | infusionsvæske, opløsning | Treprostinilnatrium | Gyldig |
+| 28103797905 | Remodulin | infusionsvæske, opløsning | Treprostinilnatrium | Gyldig |
+| 28103798005 | Remodulin | infusionsvæske, opløsning | Treprostinilnatrium | Gyldig |
+| 28106501620 | Treprostinil "Tillomed" | infusionsvæske, opløsning | Treprostinil | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-treprostinil-1 -->
 
@@ -126,7 +136,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse for et enkeltstofpræparat.” → “Der er tale om 16 gyldige nationale tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->

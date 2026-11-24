@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 9)"
@@ -74,9 +74,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107493025 | Cereza (2care4 ApS) | Filmovertrukne tabletter (oral) | Indikationsteksten er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107493025 | Cereza | filmovertrukne tabletter | Levocetirizindihydrochlorid | Gyldig |
+| 28107706826 | Levocetirizin "Concorde" | filmovertrukne tabletter | Levocetirizindihydrochlorid | Gyldig |
+| 28104434508 | Levocetirizin "Glenmark" | filmovertrukne tabletter | Levocetirizindihydrochlorid | Gyldig |
+| 28104852911 | Levocetirizin "Krka" | filmovertrukne tabletter | Levocetirizindihydrochlorid | Gyldig |
+| 28104363408 | Levocetirizin "Stada" | filmovertrukne tabletter | Levocetirizindihydrochlorid | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

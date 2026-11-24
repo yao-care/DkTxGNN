@@ -3,7 +3,7 @@ layout: default
 title: Tepoxalin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 808
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tepoxalin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 indication_count: 0
@@ -71,15 +71,15 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tepoxa
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103092999 | Zubrin | smeltetabletter | Afregistreret |
+<!-- licenses:begin -->
 
-<!-- review:begin dk-lic-20261117-tepoxalin-1 -->
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103092999 | Zubrin | smeltetabletter | Tepoxalin | Afregistreret |
 
-> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "28103092999 / Zubrin / smeltetabletter / Gyldig" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28103092999 (Zubrin) blev afregistreret 2026-10-12 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
 
-<!-- review:end dk-lic-20261117-tepoxalin-1 -->
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 
@@ -97,7 +97,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12) | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12) | Erstattet af programgenereret tilladelsestabel (oprindeligt: Rettet) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

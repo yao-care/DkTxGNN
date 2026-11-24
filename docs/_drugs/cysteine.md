@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 228
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cysteine: forudsagt ny indikation Tørre øjne (dry eye syndrome) (evidensniveau L4). Oprindelig indikation: Bronkitis, paracetamolforgiftning, cystisk fibrose…"
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -95,15 +95,21 @@ De mest relevante publikationer (alle præklinisk, formulerings- eller mekanisme
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28101133883 | Vamin 14 g N/l Elektrolytfri | Infusionsvæske, opløsning | Indikationstekst ikke angivet |
-| MA 28105581115 | Numeta G13E | Infusionsvæske, emulsion | Indikationstekst ikke angivet |
-| MA 28101113282 | Vaminolac | Infusionsvæske, opløsning | Indikationstekst ikke angivet |
-| MA 28107076923 | Pedismof Preterm | Infusionsvæske, emulsion | Indikationstekst ikke angivet |
-| MA 28104593209 | Numeta G16E | Infusionsvæske, emulsion | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
 
-I alt 9 gyldige tilladelser (alle kombinationspræparater, ingen annullerede). Alle er infusionsprodukter. Der er ingen registreret øjendråbe- eller anden topisk formulering med cystein, hvilket er relevant for en eventuel øjenindikation.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105581115 | Numeta G13E | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, Cystein, Glutaminsyre, GLYCIN, HISTID… | Gyldig |
+| 28104593209 | Numeta G16E | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, CALCIUMCHLORIDDIHYDRAT, Cystein, GLUC… | Gyldig |
+| 28104593309 | Numeta G19E | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, CALCIUMCHLORIDDIHYDRAT, Cystein, GLUC… | Gyldig |
+| 28107077623 | Pedismof | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, Calciumgluconat monohydrat, Cystein… | Gyldig |
+| 28107077523 | Pedismof Infant | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, Calciumgluconat monohydrat, Cystein… | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder kombinationspræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Alle er infusionsprodukter. Der er ingen registreret øjendråbe- eller anden topisk formulering med cystein, hvilket er relevant for en eventuel øjenindikation.
 
 <!-- review:begin dk-lic-20261112-cysteine-1 -->
 
@@ -145,7 +151,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: 7 → 9; alle kombinationspræparater | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: 7 → 9; alle kombinationspræparater | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

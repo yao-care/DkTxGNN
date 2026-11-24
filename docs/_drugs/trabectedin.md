@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trabectedin: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L5). Oprindelig indikation: Ovariecancer (ifølge videnbasen"
 monitor_inn: "Trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -95,9 +95,19 @@ Den kliniske evidens er dog begrænset til tidlige fase 2-data for enkeltstofbeh
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107106224 | Trabectedin Accord | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106546920 | Trabectedin "Teva" | pulver til koncentrat til infusionsvæske, opløsning | Trabectedin | Gyldig |
+| 28106551020 | Trabectedin "Teva" | pulver til koncentrat til infusionsvæske, opløsning | Trabectedin | Gyldig |
+| 28107106224 | Trabectedin Accord | pulver til koncentrat til infusionsvæske, opløsning | Trabectedin | Gyldig |
+| 28107106324 | Trabectedin Accord | pulver til koncentrat til infusionsvæske, opløsning | Trabectedin | Gyldig |
+| 28106588121 | Trabektedin "Sun" | pulver til koncentrat til infusionsvæske, opløsning | Trabectedin | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

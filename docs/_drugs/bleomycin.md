@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bleomycin: forudsagt ny indikation Cauda equina neoplasm (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
@@ -81,9 +81,18 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105599615 | Bleomycin "Accord" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105599615 | Bleomycin "Accord" | pulver til injektions-/infusionsvæske, opløsning | BLEOMYCINSULFAT | Gyldig |
+| 28100568970 | Bleomycin "Baxter" | pulver til injektions-/infusionsvæske, opløsning | BLEOMYCINSULFAT | Gyldig |
+| 28106983523 | Bleomycin "Baxter" | pulver til injektions-/infusionsvæske, opløsning | BLEOMYCINSULFAT | Gyldig |
+| 28107118424 | Bleomycin Accord | pulver til injektions-/infusionsvæske, opløsning | BLEOMYCINSULFAT | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

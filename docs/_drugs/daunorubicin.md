@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 242
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Daunorubicin: forudsagt ny indikation Hodgkins lymfom (evidensniveau L3). Oprindelig indikation: Akut lymfoblastisk leukæmi og akut myeloid leukæmi"
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -96,10 +96,17 @@ Bemærk: Ingen af de fundne publikationer er randomiserede studier af daunorubic
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101699994 | Cerubidine (Orifarm A/S) | Pulver til infusionsvæske, opløsning | Ikke angivet |
-| 28106031517 | Vyxeos Liposomal (Jazz Pharmaceuticals Ireland Ltd) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101699994 | Cerubidine | pulver til infusionsvæske, opløsning | DAUNORUBICINHYDROCHLORID | Gyldig |
+| 28106903323 | Daunorubicin "Hikma" | infusionsvæske, opløsning | DAUNORUBICINHYDROCHLORID | Gyldig |
+| 28106031517 | Vyxeos Liposomal | pulver til koncentrat til infusionsvæske, opløsning | CYTARABIN, DAUNORUBICINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -84,10 +84,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for duodenoga
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104468109 | Esomel (KRKA d.d. Novo mesto) | Enterokapsler, hårde | Ikke angivet i de indsamlede data |
-| 28107217424 | Esomeprazole "Demo S.A." (Demo S.A. Pharmaceutical Industry) | Pulver til injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106523220 | Abigerd | enterotabletter | Esomeprazolmagnesiumdihydrat | Gyldig |
+| 28106523320 | Abigerd | enterotabletter | Esomeprazolmagnesiumdihydrat | Gyldig |
+| 28107425225 | Abigerd | enterotabletter | Esomeprazolmagnesiumdihydrat | Gyldig |
+| 28104468109 | Esomel | enterokapsler, hårde | Esomeprazolmagnesium | Gyldig |
+| 28104468209 | Esomel | enterokapsler, hårde | Esomeprazolmagnesium | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og gælder enkeltstofpræparater. Der er både en oral og en injicerbar formulering på markedet.
 

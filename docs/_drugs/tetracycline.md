@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale dat"
@@ -102,9 +102,19 @@ Ingen af disse studier omhandler tetracyclin direkte som effektbehandling ved rh
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101943797 | Tetracyclin "Actavis" (Actavis Group PTC ehf.) | Filmovertrukne tabletter (oral) | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101943797 | Tetracyclin "Actavis" | filmovertrukne tabletter | TETRACYCLINHYDROCHLORID | Gyldig |
+| 28100994178 | Tetracyclin "Actavis" | filmovertrukne tabletter | TETRACYCLINHYDROCHLORID | Gyldig |
+| 28106805322 | Tetracyclin Actavis | filmovertrukne tabletter | TETRACYCLINHYDROCHLORID | Gyldig |
+| 28100753476 | Tetracyklin "DAK" | filmovertrukne tabletter | TETRACYCLINHYDROCHLORID | Gyldig |
+| 28100753576 | Tetracyklin "DAK" | filmovertrukne tabletter | TETRACYCLINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

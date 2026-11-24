@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tildrakizumab: forudsagt ny indikation Svær ikke-proliferativ diabetisk retinopati (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (den danske godkendelse har ingen i…"
 monitor_inn: "Tildrakizumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -81,9 +81,18 @@ Alle forudsigelser har Hold som anbefaling.
 
 ## Dansk markedsinformation
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105927417 | Ilumetri (Almirall, S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105927417 | Ilumetri | injektionsvæske, opløsning i fyldt injektionssprøjte | Tildrakizumab | Gyldig |
+| 28106646321 | Ilumetri | injektionsvæske, opløsning i fyldt injektionssprøjte | Tildrakizumab | Gyldig |
+| 28107001522 | Ilumetri | injektionsvæske, opløsning i fyldt pen | Tildrakizumab | Gyldig |
+| 28107125024 | Ilumetri | injektionsvæske, opløsning i fyldt pen | Tildrakizumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

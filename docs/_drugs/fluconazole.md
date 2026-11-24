@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazole: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28107242024 | Diflucan (Epione Medicine ApS) | Kapsler, hårde | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107242024 | Diflucan | kapsler, hårde | FLUCONAZOL | Gyldig |
+| 28101425491 | Diflucan | pulver til oral suspension | FLUCONAZOL | Gyldig |
+| 28105013912 | Diflucan | pulver til oral suspension | FLUCONAZOL | Gyldig |
+| 28107476525 | Fluconazol "2care4" | kapsler, hårde | FLUCONAZOL | Gyldig |
+| 28107634026 | Fluconazol "Abacus Medicine" | kapsler, hårde | FLUCONAZOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

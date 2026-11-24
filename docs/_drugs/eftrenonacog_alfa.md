@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eftrenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
@@ -72,9 +72,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105635315 | Alprolix (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105635315 | Alprolix | pulver og solvens til injektionsvæske, opløsning | eftrenonacog alfa | Gyldig |
+| 28105635415 | Alprolix | pulver og solvens til injektionsvæske, opløsning | eftrenonacog alfa | Gyldig |
+| 28105635115 | Alprolix | pulver og solvens til injektionsvæske, opløsning | eftrenonacog alfa | Gyldig |
+| 28105635515 | Alprolix | pulver og solvens til injektionsvæske, opløsning | eftrenonacog alfa | Gyldig |
+| 28105635215 | Alprolix | pulver og solvens til injektionsvæske, opløsning | eftrenonacog alfa | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ibuprofen: forudsagt ny indikation Akromesomel dysplasi af Hunter-Thompson-typen (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokal…"
 ---
 
@@ -94,9 +94,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107114124 | Algovil | Bløde kapsler | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107114124 | Algovil | kapsler, bløde | IBUPROFEN | Gyldig |
+| 28100668975 | Brufen | filmovertrukne tabletter | IBUPROFEN | Gyldig |
+| 28101088281 | Brufen | filmovertrukne tabletter | IBUPROFEN | Gyldig |
+| 28101341688 | Brufen Retard | depottabletter | IBUPROFEN | Gyldig |
+| 28105878116 | Brufen SR | depottabletter | IBUPROFEN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er registreret mindst 20 tilladelser (enkeltstofpræparater, gyldige). Fabrikant: Ioulia and Irene Tseti Pharmaceutical Laboratories S.A.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lonoctocog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili (herunder symptomatisk hæmofili hos kvindelige bærere)"
 monitor_inn: "Lonoctocog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
@@ -90,9 +90,19 @@ Der foreligger aktuelt ingen relateret litteratur.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105712615 | Afstyla (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105712615 | Afstyla | pulver og solvens til injektionsvæske, opløsning | Lonoctocog alfa | Gyldig |
+| 28105712715 | Afstyla | pulver og solvens til injektionsvæske, opløsning | Lonoctocog alfa | Gyldig |
+| 28105712815 | Afstyla | pulver og solvens til injektionsvæske, opløsning | Lonoctocog alfa | Gyldig |
+| 28105712915 | Afstyla | pulver og solvens til injektionsvæske, opløsning | Lonoctocog alfa | Gyldig |
+| 28105712315 | Afstyla | pulver og solvens til injektionsvæske, opløsning | Lonoctocog alfa | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: forudsagt ny indikation Hypotrichosis simplex of the scalp (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -83,10 +83,19 @@ Til sammenligning understøtter systematiske oversigtsartikler (f.eks. [PMID 265
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105687515 | Delazo (Pharmathen S.A.) | Øjendråber, opløsning | Indikationstekst foreligger ikke |
-| 28107170424 | Apleona (Pharmaselect International Beteiligungs GmbH) | Øjendråber, opløsning | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105687515 | Delazo | øjendråber, opløsning | DORZOLAMIDHYDROCHLORID | Gyldig |
+| 28106166318 | Dorzolamid "Hexal" | øjendråber, opløsning | DORZOLAMIDHYDROCHLORID | Gyldig |
+| 28104531809 | Dorzolamid "STADA" | øjendråber, opløsning | DORZOLAMIDHYDROCHLORID | Gyldig |
+| 28106854122 | Dorzolamid Carefarm | øjendråber, opløsning | DORZOLAMIDHYDROCHLORID | Gyldig |
+| 28104356208 | Dorzostill | øjendråber, opløsning | DORZOLAMIDHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

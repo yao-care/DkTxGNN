@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Nitrazepam: forudsagt ny indikation Wernicke-Korsakoff syndrome (evidensniveau L5). Oprindelig indikation: Søvnløshed og tidlig myoklonisk encefalopati"
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
@@ -97,9 +97,16 @@ Der er ingen publikationer for de to øvrige forudsagte indikationer (akut encef
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105522914 | Nitrazepam "Accord" (Accord Healthcare B.V.) | Tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105522914 | Nitrazepam "Accord" | tabletter | NITRAZEPAM | Gyldig |
+| 28100676975 | Nitrazepam "DAK" | tabletter | NITRAZEPAM | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

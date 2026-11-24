@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoprenaline: forudsagt ny indikation Næsehulesygdom (evidensniveau L5). Oprindelig indikation: Hjertestop, atrioventrikulær blok, forkølelse…"
 monitor_inn: "isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
@@ -95,9 +95,17 @@ For hovedpine er der fem ældre mekanistiske eller observationelle studier (fx P
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106225719 | Isoprenaline hydrochloride "Macure" (Macure Pharma ApS) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107141124 | Isoprenaline Hydrochloride "Unicorn Pharma" | koncentrat til infusionsvæske, opløsning | Isoprenalinhydrochlorid | Gyldig |
+| 28106225719 | Isoprenaline hydrochloride "Macure" | koncentrat til infusionsvæske, opløsning | Isoprenalinhydrochlorid | Gyldig |
+| 28107053923 | Xytrina | koncentrat til infusionsvæske, opløsning | Isoprenalinhydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet findes kun som injektionsvæske/infusion. Den forudsagte bronkiale anvendelse har historisk været inhalation, så administrationsvejen er ikke afklaret.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "bictegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bictegravir: forudsagt ny indikation simian immundefektvirus-infektion (simian immunodeficiency virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -84,10 +84,16 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106641421 | Biktarvy | Filmovertrukne tabletter | Ikke registreret i de lokale data |
-| 28105970117 | Biktarvy | Filmovertrukne tabletter | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106641421 | Biktarvy | filmovertrukne tabletter | Bictegravirnatrium, EMTRICITABIN, Tenofovir alafenamid fumarat | Gyldig |
+| 28105970117 | Biktarvy | filmovertrukne tabletter | Bictegravirnatrium, EMTRICITABIN, tenofovir alafenamid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

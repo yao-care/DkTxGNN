@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Palivizumab: forudsagt ny indikation Godartet tumor i tungen (evidensniveau L5). Oprindelig indikation: Respiratorisk syncytialvirus-infektion"
 ---
 
@@ -80,9 +80,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105319713 | Synagis (AstraZeneca AB) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105319713 | Synagis | injektionsvæske, opløsning | PALIVIZUMAB | Gyldig |
+| 28106486820 | Synagis | injektionsvæske, opløsning | PALIVIZUMAB | Gyldig |
+| 28103035198 | Synagis | pulver og solvens til injektionsvæske, opløsning | PALIVIZUMAB | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

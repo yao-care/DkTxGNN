@@ -5,7 +5,7 @@ layout: default
 title: Nusinersen
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 596
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Nusinersen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Nusinersen"
 predicted_indications: []
@@ -48,9 +48,17 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105860816 | Spinraza (Biogen Netherlands B.V.) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105860816 | Spinraza | injektionsvæske, opløsning | Nusinersen | Gyldig |
+| 28107287224 | Spinraza | injektionsvæske, opløsning | Nusinersen | Gyldig |
+| 28107287424 | Spinraza | injektionsvæske, opløsning | Nusinersen | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

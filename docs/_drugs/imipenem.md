@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: forudsagt ny indikation Diffus sklerodermi (diffuse scleroderma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -80,10 +80,17 @@ Der foreligger for tiden ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106430220 | Andatin (Macure Pharma ApS) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28106192418 | Recarbrio (Merck Sharp & Dohme B.V.) | Pulver til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106430220 | Andatin | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat | Gyldig |
+| 28107312425 | Imipenem/Cilastatin "Noridem" | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat | Gyldig |
+| 28106192418 | Recarbrio | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat, Relebactammonohydrat | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

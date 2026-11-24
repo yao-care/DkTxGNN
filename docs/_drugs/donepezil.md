@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: forudsagt ny indikation Psykogene bevægelsesforstyrrelser (rang 1) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -99,10 +99,19 @@ Til sammenligning for tilgrænsende bevægelsesforstyrrelser (ikke den primære 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104874911 | Donepezilhydrochlorid "Accord" | Filmovertrukne tabletter | Ikke angivet |
-| 28104854011 | Donepezil "Krka" | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104966411 | Donepezil "Jubilant" | filmovertrukne tabletter | Donepezilhydrochlorid | Gyldig |
+| 28104966311 | Donepezil "Jubilant" | filmovertrukne tabletter | Donepezilhydrochlorid | Gyldig |
+| 28104170907 | Donepezil "Sandoz" | filmovertrukne tabletter | Donepezilhydrochlorid | Gyldig |
+| 28104170807 | Donepezil "Sandoz" | filmovertrukne tabletter | Donepezilhydrochlorid | Gyldig |
+| 28104469009 | Donepezil "Stada" | filmovertrukne tabletter | Donepezilhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

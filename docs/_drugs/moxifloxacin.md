@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 description: "Moxifloxacin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (evidensniveau L5). Oprindelig indikation: Bakterielle infektioner (bl.a. streptokok- og stafylokokinfektioner…"
 monitor_inn: "moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -116,9 +116,19 @@ Til orientering er der identificeret følgende litteratur for andre forudsagte i
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107271924 | Moloxin (Orifarm A/S) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107271924 | Moloxin | filmovertrukne tabletter | MOXIFLOXACINHYDROCHLORID | Gyldig |
+| 28107359425 | Moxifloxacin "Epione" | filmovertrukne tabletter | MOXIFLOXACINHYDROCHLORID | Gyldig |
+| 28105196712 | Moxifloxacin "Fresenius Kabi" | infusionsvæske, opløsning | MOXIFLOXACINHYDROCHLORID | Gyldig |
+| 28105303513 | Moxifloxacin "Krka" | filmovertrukne tabletter | MOXIFLOXACINHYDROCHLORID | Gyldig |
+| 28106036017 | Moxifloxacin "Krka" | infusionsvæske, opløsning | MOXIFLOXACINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

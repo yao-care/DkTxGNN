@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprostadil: forudsagt ny indikation Aortamisdannelse (aortic malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
@@ -79,9 +79,19 @@ Ingen af publikationerne undersøger direkte alprostadil ved aortamisdannelse so
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106375619 | Alprostadil "2care4" (2care4 ApS) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106375619 | Alprostadil "2care4" | pulver og solvens til injektionsvæske, opløsning | ALPROSTADIL | Gyldig |
+| 28106977123 | Alprostadil Carefarm | koncentrat til infusionsvæske, opløsning | ALPROSTADIL | Gyldig |
+| 28103222001 | Caverject Dual | pulver og solvens til injektionsvæske, opløsning | ALPROSTADIL | Gyldig |
+| 28103222101 | Caverject Dual | pulver og solvens til injektionsvæske, opløsning | ALPROSTADIL | Gyldig |
+| 28106795022 | Caverject Dual | pulver og solvens til injektionsvæske, opløsning | ALPROSTADIL | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

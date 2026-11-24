@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
 description: "Articaine: forudsagt ny indikation Gigt (gout) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
@@ -91,10 +91,19 @@ For fuldstændighedens skyld blev der for den forudsagte indikation allergisk as
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107364425 | Norardent (Laboratorios Normon S.A.) | Injektionsvæske, opløsning | Ikke angivet |
-| 28104355908 | Dentocaine (Laboratorios INIBSA, S.A.) | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104355908 | Dentocaine | injektionsvæske, opløsning | ADRENALINTARTRAT, Articainhydrochlorid | Gyldig |
+| 28104356008 | Dentocaine | injektionsvæske, opløsning | ADRENALINTARTRAT, Articainhydrochlorid | Gyldig |
+| 28107364425 | Norardent | injektionsvæske, opløsning | ADRENALIN, Articainhydrochlorid | Gyldig |
+| 28107364325 | Norardent | injektionsvæske, opløsning | ADRENALIN, Articainhydrochlorid | Gyldig |
+| 28101947897 | Septanest | injektionsvæske, opløsning | ADRENALINTARTRAT, Articainhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

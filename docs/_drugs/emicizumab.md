@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Emicizumab: forudsagt ny indikation Pseudo-von Willebrand disease (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
@@ -68,9 +68,19 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105974617 | Hemlibra (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105974617 | Hemlibra | injektionsvæske, opløsning | Emicizumab | Gyldig |
+| 28107034623 | Hemlibra | injektionsvæske, opløsning | Emicizumab | Gyldig |
+| 28105974717 | Hemlibra | injektionsvæske, opløsning | Emicizumab | Gyldig |
+| 28106933322 | Hemlibra | injektionsvæske, opløsning | Emicizumab | Gyldig |
+| 28105974417 | Hemlibra | injektionsvæske, opløsning | Emicizumab | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

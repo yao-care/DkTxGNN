@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 388
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: forudsagt ny indikation Rectum mucinous adenocarcinoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -108,9 +108,19 @@ Forudsigelsen understøttes af et afsluttet fase 3-RCT af gemcitabin plus paclit
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104813410 | Gemcitabin "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104813410 | Gemcitabin "Accord" | koncentrat til infusionsvæske, opløsning | GEMCITABINHYDROCHLORID | Gyldig |
+| 28105502314 | Gemcitabin "SUN" | infusionsvæske, opløsning | GEMCITABINHYDROCHLORID | Gyldig |
+| 28104617909 | Gemcitabin "Sandoz" | koncentrat til infusionsvæske, opløsning | GEMCITABINHYDROCHLORID | Gyldig |
+| 28105293013 | Gemkabi | koncentrat til infusionsvæske, opløsning | GEMCITABINHYDROCHLORID | Gyldig |
+| 28104333808 | Gemstada | koncentrat til infusionsvæske, opløsning | GEMCITABINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Iohexol: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (røntgenkontraststof)"
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -84,9 +84,19 @@ For fuldstændighedens skyld: Modellen rangerer også andre forudsigelser med li
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101197284 | Omnipaque (GE Healthcare AS) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101197284 | Omnipaque | injektionsvæske, opløsning | IOHEXOL | Gyldig |
+| 28101111782 | Omnipaque | injektionsvæske, opløsning | IOHEXOL | Gyldig |
+| 28101092881 | Omnipaque | injektionsvæske, opløsning | IOHEXOL | Gyldig |
+| 28101092981 | Omnipaque | injektionsvæske, opløsning | IOHEXOL | Gyldig |
+| 28101093081 | Omnipaque | injektionsvæske, opløsning | IOHEXOL | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

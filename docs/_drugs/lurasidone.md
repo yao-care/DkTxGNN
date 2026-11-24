@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)"
@@ -85,10 +85,19 @@ Der er dog ingen direkte data i materialet, der viser effekt ved mani. Litteratu
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106785922 | Elgera (Elpen Pharmaceutical) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28105181012 | Latuda (Angelini/A.C.R.A.F.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106785922 | Elgera | filmovertrukne tabletter | Lurasidonhydrochlorid | Gyldig |
+| 28106786022 | Elgera | filmovertrukne tabletter | Lurasidonhydrochlorid | Gyldig |
+| 28106786122 | Elgera | filmovertrukne tabletter | Lurasidonhydrochlorid | Gyldig |
+| 28105181012 | Latuda | filmovertrukne tabletter | Lurasidon | Gyldig |
+| 28105181112 | Latuda | filmovertrukne tabletter | Lurasidonhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

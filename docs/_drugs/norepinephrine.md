@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 592
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -94,9 +94,19 @@ De hentede publikationer er overvejende oversigtsartikler og fysiologiske studie
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105848516 | Noradrenalin "Macure" (Macure Pharma ApS) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106457120 | Mykronor | injektions-/infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
+| 28106551920 | Noradrenalin "Abcur" | koncentrat til infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
+| 28106204518 | Noradrenalin "Aguettant" | infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
+| 28106436520 | Noradrenalin "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
+| 28107041023 | Noradrenalin "Hameln" | koncentrat til infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

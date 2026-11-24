@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Streptozocin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "small cell lung carcinoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "hereditary breast ovarian cancer syndrome", "primary pulmonary lymphoma", "lymphosarcoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Streptozocin: forudsagt ny indikation Recidiverende-remitterende multipel sklerose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de sammenstillede data (godkendelsens indikationstekst…"
 ---
 
@@ -81,11 +81,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for recidiverende-r
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105693315 | Zanosar (Esteve Pharmaceuticals S.A.S.) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke oplyst |
+<!-- licenses:begin -->
 
-Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105693315 | Zanosar | pulver til koncentrat til infusionsvæske, opløsning | Streptozocin | Gyldig |
+| 28106455720 | Zanosar | pulver til koncentrat til infusionsvæske, opløsning | Streptozocin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-streptozocin-1 -->
 
@@ -161,7 +168,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldi” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én national tilladelse til et enkeltstofpræparat med status gyldi” → “Der er tale om 2 nationale tilladelser til enkeltstofpræparater med status gyldi” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL1977579 (streptozocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1977579) |
 
 <!-- review:end log -->

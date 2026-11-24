@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "Idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idelalisib: forudsagt ny indikation Mantelcellelymfom (mantle cell lymphoma) (evidensniveau L3). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
@@ -85,9 +85,16 @@ Mantelcellelymfom er en moden B-celle-neoplasi, som er afhængig af denne signal
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105332813 | Zydelig (Gilead Sciences Ireland UC) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105332813 | Zydelig | filmovertrukne tabletter | Idelalisib | Gyldig |
+| 28105332913 | Zydelig | filmovertrukne tabletter | Idelalisib | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 66
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Anidulafungin: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -73,9 +73,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Anidul
 
 ## Information om markedet i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105926717 | Anidulafungin "Accord" | pulver til koncentrat til infusionsvæske | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105926717 | Anidulafungin "Accord" | pulver til koncentrat til infusionsvæske, opløsning | Anidulafungin | Gyldig |
+| 28107308224 | Anidulafungin "Hikma" | pulver til koncentrat til infusionsvæske, opløsning | Anidulafungin | Gyldig |
+| 28106262819 | Anidulafungin "Reig Jofre" | pulver til koncentrat til infusionsvæske, opløsning | Anidulafungin | Gyldig |
+| 28105878016 | Anidulafungin "Sandoz" | pulver til koncentrat til infusionsvæske, opløsning | Anidulafungin | Gyldig |
+| 28105905017 | Anidulafungin "Stada" | pulver til koncentrat til infusionsvæske, opløsning | Anidulafungin | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsmæssige overvejelser
 

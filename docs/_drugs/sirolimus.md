@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sirolimus: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -76,9 +76,19 @@ Denne sammenhæng er imidlertid en mekanistisk hypotese. Den er ikke understøtt
 
 ## Information om markedsføring i Danmark
 
-| Godkendelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106721321 | Hyftor | Gel | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106721321 | Hyftor | gel | SIROLIMUS | Gyldig |
+| 28103026798 | Rapamune | oral opløsning | SIROLIMUS | Gyldig |
+| 28104574309 | Rapamune | overtrukne tabletter | SIROLIMUS | Gyldig |
+| 28103250401 | Rapamune | overtrukne tabletter | SIROLIMUS | Gyldig |
+| 28103383802 | Rapamune | overtrukne tabletter | SIROLIMUS | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

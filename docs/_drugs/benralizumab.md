@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Benralizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Benralizumab: forudsagt ny indikation Trombocytopeni på grund af immundestruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale …"
 ---
 
@@ -68,9 +68,16 @@ Aktuelt er der ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105898116 | Fasenra | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105898116 | Fasenra | injektionsvæske, opløsning i fyldt injektionssprøjte | Benralizumab | Gyldig |
+| 28106416120 | Fasenra | injektionsvæske, opløsning i fyldt pen | Benralizumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er markedsført af AstraZeneca AB, og tilladelsen er gyldig.
 

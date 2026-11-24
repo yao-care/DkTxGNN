@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Calcipotriol: forudsagt ny indikation Seboroisk keratose (evidensniveau L3). Oprindelig indikation: Ikke oplyst i de indsamlede data"
 ---
 
@@ -84,9 +84,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Godkendelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103878305 | Calcipotriol "Sandoz" (Sandoz A/S) | Salve | Ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103878305 | Calcipotriol "Sandoz" | salve | Calcipotriol | Gyldig |
+| 28101533892 | Daivonex | creme | Calcipotriolmonohydrat | Gyldig |
+| 28105344913 | Daivonex | creme | Calcipotriol | Gyldig |
+| 28105392914 | Daivonex | creme | Calcipotriol | Gyldig |
+| 28105470514 | Daivonex | creme | Calcipotriol | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

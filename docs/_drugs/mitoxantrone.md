@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Mitoxantrone: forudsagt ny indikation Neoplasmer i de øvre luft- og fordøjelsesveje (evidensniveau L5). Oprindelig indikation: Akut myeloid leukæmi"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
@@ -101,9 +101,15 @@ De kliniske forsøg nedenfor er knyttet til hoved- og halskræft (den bedst unde
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103041098 | Mitoxantron "Ebewe" | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103041098 | Mitoxantron "Ebewe" | koncentrat til infusionsvæske, opløsning | MITOXANTRONHYDROCHLORID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Der er i alt 1 gyldig markedsføringstilladelse (enkeltstof). Lægemiddelformen er injicerbar. Den liposomale formulering, som er anvendt i de nyere studier, fremgår ikke af de danske tilladelser.
 

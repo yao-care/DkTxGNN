@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 852
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: kendte anvendelser og markedsstatus i Danmark; i øjeblikket ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -75,9 +75,16 @@ Alle modellens kandidater for Trastuzumab Emtansine (TxGNN, score ≥ 0,99) er a
 
 ## Oplysninger om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105143712 | Kadcyla | pulver til koncentrat til infusionsvæske | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105143712 | Kadcyla | pulver til koncentrat til infusionsvæske, opløsning | trastuzumab emtansin | Gyldig |
+| 28105143812 | Kadcyla | pulver til koncentrat til infusionsvæske, opløsning | trastuzumab emtansin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

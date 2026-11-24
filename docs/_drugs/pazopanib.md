@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 6
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pazopanib: forudsagt ny indikation Liposarkom (liposarcoma) (evidensniveau L2). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -96,11 +96,21 @@ Pazopanibs relation til bløddelssarkom og nyrecellekarcinom er registreret i vi
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106801522 | Pazopanib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof). Listen er ikke delvis.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106801522 | Pazopanib "Accord" | filmovertrukne tabletter | Pazopanib hydrochloride | Gyldig |
+| 28106801622 | Pazopanib "Accord" | filmovertrukne tabletter | Pazopanib hydrochloride | Gyldig |
+| 28107025423 | Pazopanib "Glenmark" | filmovertrukne tabletter | Pazopanib hydrochloride | Gyldig |
+| 28107025523 | Pazopanib "Glenmark" | filmovertrukne tabletter | Pazopanib hydrochloride | Gyldig |
+| 28107149524 | Pazopanib "Newbury" | filmovertrukne tabletter | Pazopanib hydrochloride | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Listen er ikke delvis.
 
 <!-- review:begin dk-lic-20261112-pazopanib-1 -->
 
@@ -169,7 +179,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (gyldig, enkeltstof).” → “Antal tilladelser: 14 nationale tilladelser (gyldige, enkeltstof).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->

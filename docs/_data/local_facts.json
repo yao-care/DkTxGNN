@@ -291,24 +291,6 @@
    "d": "2026-11-17"
   },
   {
-   "t": "Tepoxalin",
-   "u": "/drugs/tepoxalin/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12)",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Teicoplanin",
-   "u": "/drugs/teicoplanin/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09)",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tazobactam",
-   "u": "/drugs/tazobactam/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21)",
-   "d": "2026-11-17"
-  },
-  {
    "t": "Ribavirin",
    "u": "/drugs/ribavirin/",
    "s": "Status: “gyldig” → “ikke længere godkendt (EMA: bortfaldet 2013-04-09)”",
@@ -427,6 +409,24 @@
    "u": "/drugs/trastuzumab/",
    "s": "Antal tilladelser: “Der er registreret 1 gyldig markedsføringstilladelse for et enkeltstofpræparat.” → “Der…",
    "d": "2026-11-12"
+  },
+  {
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "Antal tilladelser: “Der er kun registreret én tilladelse (enkeltstof, gyldig).” → “Der er registreret mindst…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Antal tilladelser: 4 → 13",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Theophylline",
+   "u": "/drugs/theophylline/",
+   "s": "Antal tilladelser: “De to tilladelser er begge til lægemidler med theophyllin som eneste aktive stof” → “De 5…",
+   "d": "2026-11-12"
   }
  ],
  "recent_licence_reviews": [
@@ -434,24 +434,6 @@
    "t": "Voxelotor",
    "u": "/drugs/voxelotor/",
    "s": "Status: “1 gyldig tilladelse” → “1 tilladelse, suspenderet af EMA”",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tepoxalin",
-   "u": "/drugs/tepoxalin/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-12)",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Teicoplanin",
-   "u": "/drugs/teicoplanin/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09)",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tazobactam",
-   "u": "/drugs/tazobactam/",
-   "s": "Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21)",
    "d": "2026-11-17"
   },
   {
@@ -476,6 +458,24 @@
    "t": "Necitumumab",
    "u": "/drugs/necitumumab/",
    "s": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ibritumomab Tiuxetan",
+   "u": "/drugs/ibritumomab-tiuxetan/",
+   "s": "Status: “gyldig” → “afregistreret 2026-10-12”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Fentanyl",
+   "u": "/drugs/fentanyl/",
+   "s": "Status: “gyldig” → “afregistreret 2026-09-14”",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Duloxetine",
+   "u": "/drugs/duloxetine/",
+   "s": "Status: “gyldig” → “ikke længere godkendt (EMA: trukket tilbage 2018-07-09)”",
    "d": "2026-11-17"
   }
  ],

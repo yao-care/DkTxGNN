@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Lidocaine: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5)."
 ---
 
@@ -110,13 +110,21 @@ Mindst 20 godkendelser er nationale tilladelser med enkeltstof (lidokain). Der e
 
 <!-- review:end dk-lic-20261112-lidocaine-1 -->
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106302919 | Lidoposterin | Rektalsalve | Ikke angivet |
-| 28101630885 | Lidokain "SAD" | Injektionsvæske, opløsning | Ikke angivet |
-| 28101632685 | Lidokain-noradrenalin "SAD" | Injektionsvæske | Ikke angivet |
-| 28101219985 | Doloproct | Rektalcreme | Ikke angivet |
-| 28104887111 | Pliapel | Creme | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106403620 | Instillido | gel | Lidocainhydrochloridmonohydrat | Gyldig |
+| 28107149224 | Lidocaine "Noridem" | injektionsvæske, opløsning | Lidocainhydrochloridmonohydrat | Gyldig |
+| 28107149324 | Lidocaine "Noridem" | injektionsvæske, opløsning | Lidocainhydrochloridmonohydrat | Gyldig |
+| 28105926317 | Lidokain "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | Lidocainhydrochloridmonohydrat | Gyldig |
+| 28105926417 | Lidokain "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | Lidocainhydrochloridmonohydrat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Yderligere fire tilladelser findes: Emla (creme), Lidokain-adrenalin "SAD" (injektionsvæske), Ekyflogyl (gel) og Xylocain-adrenalin (injektionsvæske, opløsning). Ingen af de registrerede produkter er øjenpræparater.
 

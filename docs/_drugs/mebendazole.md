@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mebendazole: forudsagt ny indikation Akne (evidensniveau L5). Oprindelig indikation: Enterobiasis (trådorm), askaridiasis (spolorm)…"
 monitor_inn: "mebendazole"
 predicted_indications: ["acne (disease)"]
@@ -84,9 +84,19 @@ Den eneste identificerede publikation er en case-rapport om en parasitinfektion.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100993478 | Vermox (McNeil Denmark ApS) | Oral suspension | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100993478 | Vermox | oral suspension | MEBENDAZOL | Gyldig |
+| 28105817716 | Vermox | oral suspension | MEBENDAZOL | Gyldig |
+| 28107132224 | Vermox | oral suspension | MEBENDAZOL | Gyldig |
+| 28107375325 | Vermox | oral suspension | MEBENDAZOL | Gyldig |
+| 28107549526 | Vermox | oral suspension | MEBENDAZOL | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

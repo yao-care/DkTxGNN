@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Adapalene: forudsagt ny indikation Zink, forhøjet i plasma (zinc, elevated plasma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)"
 ---
 
@@ -82,10 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106359619 | Adapalen "2care4" | Creme | Ikke angivet i lokale data |
-| 28106735122 | Adapalene/Benzoyl peroxide "Orifarm" | Gel | Ikke angivet i lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106359619 | Adapalen "2care4" | creme | ADAPALEN | Gyldig |
+| 28107516125 | Adapalen "Cabo" | creme | ADAPALEN | Gyldig |
+| 28107400125 | Adapalen "Nordic Prime" | creme | ADAPALEN | Gyldig |
+| 28107308325 | Differine | creme | ADAPALEN | Gyldig |
+| 28101942297 | Redap | creme | ADAPALEN | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

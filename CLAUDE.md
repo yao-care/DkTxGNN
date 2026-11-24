@@ -499,10 +499,10 @@ uv run pytest tests/ -v
 | 套用 | `scripts/apply_drug_reviews.py` | 套到 `docs/_drugs/*.md`：查核框 `<!-- review:begin id -->`、每頁查核紀錄表；可重複執行；`--check` 只檢查、`--touch` 連 last_modified_at 一起改 |
 | 頁首等級 | `src/dktxgnn/regulatory/page_format.py`（規則在 site.py 的 HEADER_RULE） | 頁首＝Hurtigt overblik「Evidensniveau」格的**第一個**等級（主預測）。2026-11-12 實測 748 頁有總覽等級，全部符合；整格取最高會有 10 頁不同 |
 | 撤回預測 | `src/dktxgnn/regulatory/withdrawn.py` | verdict=withdraw 的預測不進證據監測（`scripts/extract_drug_list.py`）、搜尋索引與 FHIR（母目錄 `.claude/rebuild_search_index.py`、`.claude/sync_fhir_levels.py` 會讀本站這支） |
-| 許可證 | `snapshots/dk_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/dktxgnn/regulatory/licenses.py` | 快照存本藥號碼與事實層；gate 依快照驗市場段落表格的號碼歸屬、狀態列與張數列、表格列狀態（本站沒有程式產生的許可證表，所以沒有程式區塊標記） |
+| 許可證 | `scripts/sync_license_tables.py`（程式表前後有 `<!-- licenses:begin/end -->` 標記，2026-11-24 起）、`snapshots/dk_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/dktxgnn/regulatory/licenses.py` | 快照存本藥號碼、事實層與程式表列；gate 依快照驗程式區塊、市場段落表格的號碼歸屬、狀態列與張數列、表格列狀態 |
 | 刪改轉紀錄 | `scripts/reviews_from_edits.py` | 依成分重建刪句後（`scripts/license_rebuild_run.py` 有的話會自動跑）或依 git 前後版本，把正文刪改轉成 correct 紀錄 |
 | 待查清單 | `docs/_data/drug_reviews_uncertain.json`、`scripts/check_original_indications.py` | 原適應症交叉驗證；本站證據包的許可紀錄沒有適應症文字，可比對 0 頁（程式照實回報） |
-| gate | `scripts/check_seo_docs.py` 第 17–20 項 | 紀錄都已套用、許可證＝快照、頁首＝本站規則算出的等級、撤回預測沒有對外發布 |
+| gate | `scripts/check_seo_docs.py` 第 17–20、22 項 | 紀錄都已套用、許可證＝快照（含程式表）、頁首＝本站規則算出的等級、撤回預測沒有對外發布、正文張數＝程式改寫結果 |
 
 原則（同 Tw）：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只經重審（rereview → rereview_result）變更。
 
@@ -519,6 +519,37 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-11-12 正文許可證張數對事實層的掃描：thiamine（寫 4 張，實為 13 張）、oxytetracycline（寫 6 張單方、第六張獸用，實為人用 8 張全是複方＋獸用 10 張）以 `dk-lic-20261112-*` 更正；Dk 事實層把複方也算進 single_total，「單方」字樣照證據包的成分欄判斷。
 2026-11-12 單方／複方判定修正：證據包成分欄是 Lægemiddelstyrelsen「AktiveSubstanser」原文、以「, 」分隔，原本用「;;」切，每張都判成單方（事實層 single_total＝total）。改用 `src/dktxgnn/regulatory/ingredients.py`（只切括號外的「, 」；renset／VANDFRIT／humant 等修飾語併回前一段；同一成分的基底與鹽類算一個），事實層 162 頁的單方張數因此改變（狀態列與張數列不寫單方，只有 cysteine 因 EXTRA_OWN 由 8 張變 9 張）。正文照舊標記寫「單方／全部單方」而跟新判定相反的 37 頁，以 37 筆 `dk-lic-20261112-*` 更正（cysteine「7 張、全部單方」→「9 張、全部複方」）；只講「X 屬於某複方」的背景句不改。
 2026-11-12 正文張數再掃一次：72 頁 AI 正文依 10-31 前舊證據包（多數只收 1～3 張）寫的市場張數（「Der er registreret én gyldig tilladelse…」「Alle tre tilladelser er gyldige」等），以 `dk-lic-20261112-*` 照事實層改寫（partial 頁寫「mindst 20」；只指某一張的廠商／持有人說明拿掉或改成「tre af dem」）。點名列舉表上產品的句子、待辦條目、講證據包的句子、獸用句不改。
+
+## 市場段落許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站逐站做，本站做表＋B）：每週許可證排程只改得到概覽表狀態列／張數列，報告（AI）寫的自由格式許可證表
+（欄名十幾種寫法、「Godkendt indikation」欄全是「Ikke angivet」、沒有狀態欄）與正文寫死的張數，會跟每週變的 Lægemiddelstyrelsen 清單矛盾。
+- 先修 `site.MARKET_SEC`：原本只認小寫「marked」，「Markedsinformation for／i Danmark」（344 頁）、「Markedsoplysninger …」、錯字「Markeredsinformation」、
+  「Medicinsinformationer for Danmark」都沒認到，這些頁的市場段落號碼歸屬與表格列狀態一直沒驗；放寬後只多抓到 1 個問題（fenofibrate 舊表的 Rosufenx 28107198624
+  不在證據包、也不在 11-05 現行清單），換成程式表後消失、句子列待查。
+- A. `scripts/sync_license_tables.py`：市場段落的第一張表換成程式依證據包（thaifda.records＋site.EXTRA_OWN；清單原文、不翻譯）產生的
+  「| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |」；Status＝Gyldig（現行清單）／Afregistreret（license_status cancelled）／
+  證據包原文（not_marketed，例 Oxbryta「Suspenderet (EMA)」），Gyldig 在前；列數＝原表列數與 min(5, 總數) 取大（段落有「vises／tabellen／de N første」說明句時照原表列數），
+  重排時照頁面現有列數；表下程式句「Tabellen viser N af M …」（部分紀錄「af mindst K … kun en del」）；獸用許可（veterinary_records，不在表上、事實層也不算）另一句
+  「Dataene indeholder desuden V tilladelser til veterinærlægemidler …」；沒有人用許可時一句 NONE_LINE。`--from-snapshot` 依快照重排、不需要 data/。
+  gate：`site.program_block_problems` 依快照（rows、total、partial、listed、vet）重算比對。接進：每週排程（`license_adapter.sync_tables`＋`PAGE_NOTE`）、
+  `apply_drug_reviews.py`（非 --check）結尾、`build_license_snapshot.py` 結尾（--from-snapshot；`--no-rewrite` 不跑）、`license_rebuild_run.py`、`sync_notes_to_docs.py` 的 carry_block。
+- B. `scripts/rewrite_license_counts.py`＋`src/dktxgnn/regulatory/count_prose.py`（照 Kr／My／CO 移植，丹麥文句型：「N gyldige tilladelser (for enkeltstofpræparater)」
+  「Antal godkendelser: N」「Alle N tilladelser er gyldige」「N af de M tilladelser er gyldige」；單方／複方照事實層 single_total（＝ingredients.py 的判定））；
+  有保留（mindst…）、講證據包、子集（heraf、bl.a.、kun…）、劑型、持有人、獸用、partial 頁不改；跨過 0／1（單複數）列 plural、文字數詞（én、to、begge…）跟事實不符列 wordnum，
+  不改。`build_license_snapshot.py` 不帶 `--ws` 時用 txgnn_ws.sh 的預設工作目錄，沒有事實層就只做重排與改寫（排程會傳 `--ws <母目錄>`）。gate 第 22 項擋「再跑一次會變」。
+- 2026-11-24 套用（資料 data-20261123-142405）：程式區塊 869 頁（公開 807 頁全部：原 AI 表 766 頁換掉、段落沒有表的 41 頁補區塊；noindex 62 頁）；
+  正文張數程式改寫 0 句（句型明確的張數都已跟事實層一致）；錨在舊表列上的 3 筆（`dk-lic-20261117-{tazobactam,teicoplanin,tepoxalin}-1`）標 superseded。
+  查核紀錄更正文字寫死總數／有效數的 69 筆同 id 重發（前版存 history）：改成「antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen」，
+  哪張撤銷、哪個是單方或複方、劑型、持有人子集照留；其中 8 筆在重發前已跟事實不符（ketorolac、acetylcysteine、amylmetacresol、benzydamine、fluorescein「Begge」實為 4～12 張，
+  mepivacaine、tropicamide「Alle tre」、xylometazoline「Alle fire」）。部分紀錄頁寫「mindst 20」的 23 筆沒改（＝事實層「mindst 20」）。
+  單方／複方標籤錯誤（說全部單方而成分欄有複方）逐句對照：0 句。
+  待查清單加 52 句：程式判斷不了 27 句（wordnum 18、plural 9）、另寫的寬偵測找到的不符句 23 句（多是「Begge tilladelser er gyldige」「Antal godkendelser: 1」而事實是 3～18 張、
+  獸用頁的獸用張數、部分紀錄頁的「Alle tre」）、換表後對不上的舊表說明句 2 句（fenofibrate Rosufenx、benzylpenicillin）；要改請寫 `dk-lic-20261124-*` 紀錄。
+  寬偵測（公開頁正文講張數／狀態／單複方、對事實層）改前 84 句不符（78 頁）→ 改後 72 句（67 頁），其中 28 句是誤中（顯示筆數、持有人子集、其他藥、待辦條目），實際不符 44 句。
+  checker 全量前後都是 0；gate exit 0。last_modified_at：程式區塊是正文變動，869 頁都改 2026-11-24。
+- 母目錄 `.claude/license_labels/DkTxGNN.json` 只有「Gyldig」：程式表另會寫「Afregistreret」（cancelled）與「Suspenderet (EMA)」（not_marketed），要加（本站沒改母目錄）；
+  沒加時每週排程的 lts.apply 會把這些格列成 unsynced，但 sync_tables 會照證據包重排，頁面不受影響。
 
 ## 新資料查不到的許可證（2026-11-17）
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -68,9 +68,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig for denne sygdom.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107099823 | Cardovia | Filmovertrukne tabletter | Indikationstekst er ikke registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107674526 | BisoLich | tabletter | BISOPROLOLFUMARAT | Gyldig |
+| 28106329019 | Bisoprolol "2care4" | filmovertrukne tabletter | BISOPROLOLFUMARAT | Gyldig |
+| 28107538025 | Bisoprolol "Epione" | tabletter | BISOPROLOLFUMARAT | Gyldig |
+| 28105179812 | Bisoprolol "Krka" | filmovertrukne tabletter | BISOPROLOLFUMARAT | Gyldig |
+| 28105179612 | Bisoprolol "Krka" | filmovertrukne tabletter | BISOPROLOLFUMARAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

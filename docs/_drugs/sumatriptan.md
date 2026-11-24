@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 783
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sumatriptan: kendte anvendelser og markedsstatus i Danmark; på nuværende tidspunkt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Modellens kandidater for Sumatriptan er alle kendte anvendelser, så der er på 
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28101836296 | Imigran | næsespray, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107296624 | Damigra | næsespray, opløsning | SUMATRIPTAN | Gyldig |
+| 28107296724 | Damigra | næsespray, opløsning | SUMATRIPTAN | Gyldig |
+| 28101411390 | Imigran | injektionsvæske, opløsning | SUMATRIPTANSUCCINAT | Gyldig |
+| 28107675026 | Imigran | injektionsvæske, opløsning | SUMATRIPTANSUCCINAT | Gyldig |
+| 28101836296 | Imigran | næsespray, opløsning | SUMATRIPTAN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

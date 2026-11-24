@@ -5,7 +5,7 @@ layout: default
 title: Tucatinib
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 865
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tucatinib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tucatinib"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106391420 | TUKYSA (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106391420 | TUKYSA | filmovertrukne tabletter | Tucatinib | Gyldig |
+| 28106391320 | TUKYSA | filmovertrukne tabletter | Tucatinib | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

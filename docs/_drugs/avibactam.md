@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Avibactam: forudsagt ny indikation Ureter-tuberkulose (evidensniveau L5). Oprindelig indikation: Pyelonefritis"
 ---
 
@@ -73,10 +73,16 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105600015 | Zavicefta | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
-| 28107028323 | Emblaveo | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107028323 | Emblaveo | pulver til koncentrat til infusionsvæske, opløsning | Avibactamnatrium, AZTREONAM | Gyldig |
+| 28105600015 | Zavicefta | pulver til koncentrat til infusionsvæske, opløsning | Avibactamnatrium, CEFTAZIDIM | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og er kombinationspræparater (avibactam med ceftazidim henholdsvis aztreonam). Begge findes kun som intravenøs infusion.
 

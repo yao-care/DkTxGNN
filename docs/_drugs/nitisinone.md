@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: forudsagt ny indikation Renal tubulær acidose (renal tubular acidosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for renal tubulær 
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105893816 | Nitisinone "Dipharma" (Dipharma Arzneimittel GmbH) | Kapsler, hårde | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105893816 | Nitisinone "Dipharma" | kapsler, hårde | NITISINON | Gyldig |
+| 28106258419 | Nitisinone "Dipharma" | kapsler, hårde | NITISINON | Gyldig |
+| 28106258319 | Nitisinone "Dipharma" | kapsler, hårde | NITISINON | Gyldig |
+| 28105893716 | Nitisinone "Dipharma" | kapsler, hårde | NITISINON | Gyldig |
+| 28105913517 | Nityr | tabletter | NITISINON | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

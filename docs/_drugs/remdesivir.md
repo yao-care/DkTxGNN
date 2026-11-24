@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Remdesivir"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Remdesivir: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst"
 ---
 
@@ -81,9 +81,16 @@ Der er for øjeblikket ingen relateret litteratur om remdesivir ved multipel end
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106444820 | Veklury (Gilead Sciences Ireland UC) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106444820 | Veklury | koncentrat til infusionsvæske, opløsning | Remdesivir | Gyldig |
+| 28106485920 | Veklury | pulver til koncentrat til infusionsvæske, opløsning | Remdesivir | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antal tilladelser: 1 (enkeltstofpræparat, gyldig).
 

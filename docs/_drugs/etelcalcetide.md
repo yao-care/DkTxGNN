@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 330
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etelcalcetide: forudsagt ny indikation Hyperfosfatæmi (evidensniveau L4). Oprindelig indikation: Hyperparathyroidisme"
 monitor_inn: "etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
@@ -87,9 +87,17 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105662515 | Parsabiv (Amgen Europe BV) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105662515 | Parsabiv | injektionsvæske, opløsning | Etelcalcetidhydrochlorid | Gyldig |
+| 28105662315 | Parsabiv | injektionsvæske, opløsning | Etelcalcetidhydrochlorid | Gyldig |
+| 28105662415 | Parsabiv | injektionsvæske, opløsning | Etelcalcetidhydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

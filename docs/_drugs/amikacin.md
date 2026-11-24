@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: forudsagt ny indikation Paratyfus (paratyphoid fever) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -89,9 +89,19 @@ Ingen af de fundne publikationer undersøger amikacin som behandling af paratyfu
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107204924 | Amikacin "Afortas" | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106305819 | ARIKAYCE liposomal | inhalationsvæske til nebulisator, dispersion | Amikacinsulfat | Gyldig |
+| 28107204924 | Amikacin "Afortas" | injektionsvæske, opløsning | Amikacinsulfat | Gyldig |
+| 28106252319 | Amikacin "Macure" | injektionsvæske, opløsning | Amikacinsulfat | Gyldig |
+| 28107256824 | Amikacin "Medartuum" | injektionsvæske, opløsning | Amikacinsulfat | Gyldig |
+| 28106964923 | Amikacin "Orifarm" | injektionsvæske, opløsning | Amikacinsulfat | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

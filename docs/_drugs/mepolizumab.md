@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: forudsagt ny indikation Trombocytopeni forårsaget af immunmedieret destruktion (thrombocytopenia due to immune destruction) (evidensniveau L5). Oprindelig indikation: Ikke registreret i …"
@@ -90,9 +90,18 @@ Til den næstmest forudsagte tilstand (primær frigivelsesforstyrrelse af blodpl
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106177118 | Nucala (GlaxoSmithKline Trading Services) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106177118 | Nucala | injektionsvæske, opløsning i fyldt injektionssprøjte | Mepolizumab | Gyldig |
+| 28106619921 | Nucala | injektionsvæske, opløsning i fyldt injektionssprøjte | Mepolizumab | Gyldig |
+| 28106317819 | Nucala | injektionsvæske, opløsning i fyldt pen | Mepolizumab | Gyldig |
+| 28105526714 | Nucala | pulver til injektionsvæske, opløsning | Mepolizumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

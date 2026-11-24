@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Plerixafor: forudsagt ny indikation CMM7 (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
@@ -115,9 +115,19 @@ Evidensen er udelukkende fase 1/2-studier uden randomiseret fase 3-forsøg. Fler
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104372608 | Mozobil (Sanofi B.V.) | Injektionsvæske, opløsning | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104372608 | Mozobil | injektionsvæske, opløsning | Plerixafor | Gyldig |
+| 28106657821 | Plerixafor "Seacross" | injektionsvæske, opløsning | Plerixafor | Gyldig |
+| 28106665221 | Plerixafor "Teva" | injektionsvæske, opløsning | Plerixafor | Gyldig |
+| 28106854722 | Plerixafor "Viatris" | injektionsvæske, opløsning | Plerixafor | Gyldig |
+| 28106657221 | Plerixafor "Vivanta" | injektionsvæske, opløsning | Plerixafor | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

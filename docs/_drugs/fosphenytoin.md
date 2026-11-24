@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "fosphenytoin"
 predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
 description: "Fosphenytoin: forudsagt ny indikation Konjunktivitis (conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -70,9 +70,15 @@ Der er aktuelt ingen relevant litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103007398 | Pro-Epanutin (Pfizer ApS) | Injektionsvæske/koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103007398 | Pro-Epanutin | injektionsvæske/konc. til infusionsvæske, opløsning | FOSPHENYTOINDINATRIUM | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Den ene tilladelse er gyldig og omfatter et enkeltstofpræparat.
 

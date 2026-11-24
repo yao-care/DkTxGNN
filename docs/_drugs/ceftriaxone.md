@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ceftriaxone"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ceftriaxone: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -68,9 +68,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107112524 | Ceftriaxon "Hameln" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106663821 | Ceftriaxon "Kalceks" | pulver til injektions-/infusionsvæske, opløsning | Ceftriaxonnatrium | Gyldig |
+| 28106663921 | Ceftriaxon "Kalceks" | pulver til injektions-/infusionsvæske, opløsning | Ceftriaxonnatrium | Gyldig |
+| 28103739604 | Ceftriaxon "Navamedic" | pulver til injektions-/infusionsvæske, opløsning | Ceftriaxonnatrium | Gyldig |
+| 28107112524 | Ceftriaxon “Hameln” | pulver til injektions-/infusionsvæske, opløsning | Ceftriaxonnatrium | Gyldig |
+| 28107112724 | Ceftriaxon “Hameln” | pulver til injektions-/infusionsvæske, opløsning | Ceftriaxonnatrium | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsmæssige overvejelser
 

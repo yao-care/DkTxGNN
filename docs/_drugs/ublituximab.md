@@ -5,7 +5,7 @@ layout: default
 title: Ublituximab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 870
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ublituximab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Ublituximab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106733621 | Briumvi (Neuraxpharm Pharmaceuticals S.L.) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106733621 | Briumvi | koncentrat til infusionsvæske, opløsning | Ublituximab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Administrationsvejen er intravenøs infusion (injicerbar).
 

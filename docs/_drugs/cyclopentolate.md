@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclopentolate: forudsagt ny indikation Cauda equina-syndrom (cauda equina syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -72,9 +72,17 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100657174 | Cyclogyl (Alcon Nordic A/S) | Øjendråber, opløsning | Ikke oplyst i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100657174 | Cyclogyl | øjendråber, opløsning | Cyclopentolathydrochlorid | Gyldig |
+| 28105862516 | Cyclogyl | øjendråber, opløsning | Cyclopentolathydrochlorid | Gyldig |
+| 28106123518 | Cyclogyl | øjendråber, opløsning | Cyclopentolathydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

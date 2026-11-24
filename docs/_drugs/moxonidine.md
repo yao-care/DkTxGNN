@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
 description: "Moxonidine: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
@@ -88,9 +88,19 @@ Til orientering er der for den bredere forudsigelse **alopeci** (rang 4) knyttet
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103304001 | Moxonat (STADA Arzneimittel AG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103304001 | Moxonat | filmovertrukne tabletter | MOXONIDIN | Gyldig |
+| 28107532325 | Moxonat | filmovertrukne tabletter | MOXONIDIN | Gyldig |
+| 28103304101 | Moxonat | filmovertrukne tabletter | MOXONIDIN | Gyldig |
+| 28103304201 | Moxonat | filmovertrukne tabletter | MOXONIDIN | Gyldig |
+| 28107590726 | Moxonat | filmovertrukne tabletter | MOXONIDIN | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

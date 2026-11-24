@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Alfentanil: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst er…"
 monitor_inn: "alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -80,9 +80,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106157118 | Alfentanil "Kalceks" (Kalceks AS) | Injektions-/infusionsvæske, opløsning | Ikke oplyst |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106157118 | Alfentanil "Kalceks" | injektions-/infusionsvæske, opløsning | Alfentanilhydrochloridhydrat | Gyldig |
+| 28107590126 | Alfentanil “Hameln” | injektionsvæske, opløsning | Alfentanilhydrochloridhydrat | Gyldig |
+| 28101110682 | Rapifen | injektionsvæske, opløsning | Alfentanilhydrochloridhydrat | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

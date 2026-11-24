@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
@@ -85,13 +85,21 @@ Begge publikationer er af lav evidensværdi (kombinationsprodukter, ingen kontro
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106766222 | Efedrin "Abboxia" | Injektionsvæske, opløsning | Ikke angivet |
-| 28106766122 | Efedrin "Abboxia" | Injektionsvæske, opløsning | Ikke angivet |
-| 28104785010 | Efedrin "Aguettant" | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet |
-| 28101610585 | Efedrin "SAD" | Injektionsvæske, opløsning | Ikke angivet |
-| 28105934117 | Efedrin "Unimedic" | Injektionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106766222 | Efedrin "Abboxia" | injektionsvæske, opløsning | EPHEDRINHYDROCHLORID | Gyldig |
+| 28106766122 | Efedrin "Abboxia" | injektionsvæske, opløsning | EPHEDRINHYDROCHLORID | Gyldig |
+| 28104785010 | Efedrin "Aguettant" | injektionsvæske, opløsning i fyldt injektionssprøjte | EPHEDRINHYDROCHLORID | Gyldig |
+| 28101610585 | Efedrin "SAD" | injektionsvæske, opløsning | EPHEDRINHYDROCHLORID | Gyldig |
+| 28105934117 | Efedrin "Unimedic" | injektionsvæske, opløsning | EPHEDRINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Bemærk: Præparatet er udbudt af VetViva Richter GmbH, og navnet tyder på et veterinærlægemiddel. Det er derfor ikke dokumenteret, at der findes et godkendt humant ephedrinpræparat i Danmark ud fra de foreliggende data.
 

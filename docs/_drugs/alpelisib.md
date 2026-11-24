@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Alpelisib: forudsagt ny indikation Pulmonal hypertension (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i den danske au…"
 monitor_inn: "Alpelisib"
 predicted_indications: ["pulmonary hypertension"]
@@ -62,7 +62,6 @@ Der foreligger i øjeblikket ingen detaljerede data om virkningsmekanisme. Alpel
 
 Der er dog ingen data, der viser, at hæmning af PI3K-alfa gavner pulmonal hypertension. Den eneste tilknyttede publikation beskriver tværtimod en lungebivirkning (alpelisib-induceret interstitiel lungesygdom). Dette signal taler for forsigtighed. Den høje score (0.9903) skal derfor tolkes som en beregnet forudsigelse fra TxGNN-modellen (deep learning), der muligvis afspejler ligheder, modellen har lært mellem beslægtede sygdomme, frem for biologisk evidens eller reel terapeutisk effekt.
 
-
 ---
 
 ## Evidens fra kliniske forsøg
@@ -81,9 +80,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106206818 | Piqray (Novartis Europharm Limited) | Filmovertrukne tabletter (oral) | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106206818 | Piqray | filmovertrukne tabletter | Alpelisib | Gyldig |
+| 28106206918 | Piqray | filmovertrukne tabletter | Alpelisib | Gyldig |
+| 28106514518 | Piqray | filmovertrukne tabletter | Alpelisib | Gyldig |
+| 28106206718 | Piqray | filmovertrukne tabletter | Alpelisib | Gyldig |
+| 28107386325 | Vijoice | filmovertrukne tabletter | Alpelisib | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

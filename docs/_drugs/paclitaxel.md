@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paclitaxel: forudsagt ny indikation Parameningeal embryonal rhabdomyosarkom (parameningeal embryonal rhabdomyosarcoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
@@ -80,9 +80,19 @@ Der er i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104011606 | Abraxane (Bristol-Myers Squibb Pharma EEIG) | Pulver til infusionsvæske, suspension | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104011606 | Abraxane | pulver til infusionsvæske, suspension | PACLITAXEL | Gyldig |
+| 28107177824 | Apacross | pulver til infusionsvæske, dispersion | PACLITAXEL | Gyldig |
+| 28106740121 | Apexelsin | pulver til infusionsvæske, dispersion | PACLITAXEL | Gyldig |
+| 28106684021 | Bugvi | pulver til infusionsvæske, dispersion | PACLITAXEL | Gyldig |
+| 28106903723 | Naveruclif | pulver til infusionsvæske, dispersion | PACLITAXEL | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er registreret én gyldig enkeltstofgodkendelse (albumin-bundet paclitaxel-formulering).
 

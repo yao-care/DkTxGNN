@@ -5,7 +5,7 @@ layout: default
 title: Zolbetuximab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 905
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Zolbetuximab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Zolbetuximab"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106996623 | Vyloy (Astellas Pharma Europe B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de data, der er indsamlet til denne rapport |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106996623 | Vyloy | pulver til koncentrat til infusionsvæske, opløsning | Zolbetuximab | Gyldig |
+| 28107290724 | Vyloy | pulver til koncentrat til infusionsvæske, opløsning | Zolbetuximab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

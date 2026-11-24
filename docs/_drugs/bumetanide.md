@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: forudsagt ny indikation Akut pulmonal hjertesygdom (acute pulmonary heart disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -80,9 +80,19 @@ Ingen af nedenstående publikationer undersøger bumetanid ved akut pulmonal hje
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106660921 | Bumetanid Carefarm (Orifarm A/S) | Tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107141524 | Bumetanid "Nordic Prime" | tabletter | BUMETANID | Gyldig |
+| 28106660921 | Bumetanid Carefarm | tabletter | BUMETANID | Gyldig |
+| 28101212185 | Burinex | injektionsvæske, opløsning | BUMETANID | Gyldig |
+| 28106983223 | Burinex | injektionsvæske, opløsning | BUMETANID | Gyldig |
+| 28100594371 | Burinex | tabletter | BUMETANID | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovvejelser
 

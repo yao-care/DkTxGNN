@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Lornoxicam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "myositis fibrosa"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Lornoxicam: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
@@ -85,11 +85,21 @@ Mekanismen er biologisk plausibel, men begrundelsen bygger på generel farmakolo
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101924697 | Lornoxicam "Takeda" (Takeda Pharma A/S) | Filmovertrukne tabletter | Ikke angivet i tilladelsesdata |
+<!-- licenses:begin -->
 
-Markedsstatus: På markedet (7 gyldige tilladelser).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101924697 | Lornoxicam "Takeda" | filmovertrukne tabletter | Lornoxicam | Gyldig |
+| 28101924797 | Lornoxicam "Takeda" | filmovertrukne tabletter | Lornoxicam | Gyldig |
+| 28103064399 | Lornoxicam "Takeda" | pulver og solvens til injektionsvæske, opløsning | Lornoxicam | Gyldig |
+| 28101578493 | Xefo | filmovertrukne tabletter | Lornoxicam | Gyldig |
+| 28101578593 | Xefo | filmovertrukne tabletter | Lornoxicam | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Markedsstatus: På markedet (antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen).
 
 <!-- review:begin dk-lic-20261112-lornoxicam-1 -->
 
@@ -126,7 +136,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).” → “Markedsstatus: På markedet (7 gyldige tilladelser).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Markedsstatus: På markedet (1 gyldig tilladelse, Takeda Pharma A/S).” → “Markedsstatus: På markedet (7 gyldige tilladelser).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

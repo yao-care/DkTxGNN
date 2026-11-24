@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Evolocumab: forudsagt ny indikation Symptomatisk hæmofili hos kvindelige bærere (evidensniveau L5). Oprindelig indikation: Homozygot familiær hyperkolesterolæmi og syndromisk dyslipidæmi"
 ---
 
@@ -81,9 +81,17 @@ Der er ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105697715 | Repatha (Amgen Europe BV) | Injektionsvæske, opløsning i cylinderampul | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105697715 | Repatha | injektionsvæske, opløsning i cylinderampul | Evolocumab | Gyldig |
+| 28105504414 | Repatha | injektionsvæske, opløsning i fyldt injektionssprøjte | Evolocumab | Gyldig |
+| 28105504514 | Repatha | injektionsvæske, opløsning i fyldt pen | Evolocumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

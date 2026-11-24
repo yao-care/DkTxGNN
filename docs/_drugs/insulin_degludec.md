@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 description: "Insulin Degludec: forudsagt ny indikation Autoimmune oophoritis (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -106,9 +106,19 @@ Datasættet indeholder desuden en lang række fase 1-farmakokinetik- og farmakod
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105237313 | Tresiba 100 Flextouch (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105237313 | Tresiba 100 Flextouch | injektionsvæske, opløsning i fyldt pen | Insulin degludec | Gyldig |
+| 28104960311 | Tresiba 100 Penfill | injektionsvæske, opløsning i cylinderampul | Insulin degludec | Gyldig |
+| 28104960411 | Tresiba 200 Flextouch | injektionsvæske, opløsning i fyldt pen | Insulin degludec | Gyldig |
+| 28104973111 | Ryzodeg 100 Flextouch | injektionsvæske, opløsning i fyldt pen | Insulin aspart, Insulin degludec | Gyldig |
+| 28105244013 | Ryzodeg 100 Penfill | injektionsvæske, opløsning i cylinderampul | Insulin aspart, Insulin degludec | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

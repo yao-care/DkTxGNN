@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 215
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: forudsagt ny indikation Manisk bipolar affektiv lidelse (manic bipolar affective disorder) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
@@ -85,9 +85,19 @@ Der er ikke identificeret fase 3-forsøg for denne specifikke forudsigelse.
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106883122 | Cloprinex (Nordic Prime ApS) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106883122 | Cloprinex | tabletter | CLOZAPIN | Gyldig |
+| 28105483014 | Clozapin "Accord" | tabletter | CLOZAPIN | Gyldig |
+| 28105476714 | Clozapin "Accord" | tabletter | CLOZAPIN | Gyldig |
+| 28107030923 | Clozapin "Epione Medicine" | tabletter | CLOZAPIN | Gyldig |
+| 28103640404 | Clozapin "Hexal" | tabletter | CLOZAPIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Lægemidlet er markedsført i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater.
 

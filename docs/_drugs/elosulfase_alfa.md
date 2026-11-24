@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Elosulfase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elosulfase Alfa: forudsagt ny indikation Scheie syndrom (evidensniveau L5). Oprindelig indikation: Mukopolysakkaridose"
 ---
 
@@ -71,9 +71,15 @@ Der er i øjeblikket ingen relateret litteratur om elosulfase alfa ved Scheie sy
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105295813 | Vimizim (BioMarin International Limited) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i licensdata |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105295813 | Vimizim | koncentrat til infusionsvæske, opløsning | Elosulfase alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Antal godkendelser: 1 enkeltstofsprodukt, gyldigt.
 

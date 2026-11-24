@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -98,9 +98,16 @@ Yderligere publikationer omhandler sikkerhedssignaler (se afsnittet om sikkerhed
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106067918 | AJOVY (Teva GmbH) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106067918 | AJOVY | injektionsvæske, opløsning i fyldt injektionssprøjte | fremanezumab | Gyldig |
+| 28106418220 | AJOVY | injektionsvæske, opløsning i fyldt pen | fremanezumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

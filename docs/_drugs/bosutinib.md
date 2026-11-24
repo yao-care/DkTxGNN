@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 128
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bosutinib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Bosuti
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106768022 | Bosutinib "Sandoz" | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104958811 | Bosulif | filmovertrukne tabletter | Bosutinib monohydrat | Gyldig |
+| 28105995417 | Bosulif | filmovertrukne tabletter | Bosutinib monohydrat | Gyldig |
+| 28104958911 | Bosulif | filmovertrukne tabletter | Bosutinib monohydrat | Gyldig |
+| 28107071423 | Bosutinib "Newbury" | filmovertrukne tabletter | Bosutinib monohydrat | Gyldig |
+| 28107071523 | Bosutinib "Newbury" | filmovertrukne tabletter | Bosutinib monohydrat | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

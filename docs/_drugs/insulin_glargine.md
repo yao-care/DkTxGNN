@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Insulin Glargine: forudsagt ny indikation Autoimmun oophoritis (evidensniveau L5). Oprindelig indikation: Type 1- og type 2-diabetes mellitus"
 monitor_inn: "insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -82,10 +82,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for autoimmun oop
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105298713 | Abasaglar (Eli Lilly Nederland B.V.) | Injektionsvæske, opløsning i cylinderampul | Ikke angivet |
-| 28105753916 | Suliqua (Sanofi Winthrop Industrie) | Injektionsvæske, opløsning i fyldt pen | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105298713 | Abasaglar | injektionsvæske, opløsning i cylinderampul | Insulin glargin | Gyldig |
+| 28105484214 | Abasaglar KwikPen | injektionsvæske, opløsning i fyldt pen | Insulin glargin | Gyldig |
+| 28106333619 | Abasaglar Tempo Pen | injektionsvæske, opløsning i fyldt pen | Insulin glargin | Gyldig |
+| 28103089899 | Lantus | injektionsvæske, opløsning | Insulin glargin | Gyldig |
+| 28103065399 | Lantus | injektionsvæske, opløsning i cylinderampul | Insulin glargin | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige. Suliqua er i praksis en fast kombination med et andet aktivt stof, men er i de indsamlede data registreret som enkeltstofpræparat.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Mexiletine: forudsagt ny indikation Hypertrikose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede godkendelsesdata (klasse IB natriumkanal…"
 monitor_inn: "mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
@@ -78,9 +78,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106631321 | Dopital (Macure Pharma ApS) | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106631321 | Dopital | kapsler, hårde | MEXILETINHYDROCHLORID | Gyldig |
+| 28106631421 | Dopital | kapsler, hårde | MEXILETINHYDROCHLORID | Gyldig |
+| 28106631221 | Dopital | kapsler, hårde | MEXILETINHYDROCHLORID | Gyldig |
+| 28105992817 | Namuscla | kapsler, hårde | MEXILETINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

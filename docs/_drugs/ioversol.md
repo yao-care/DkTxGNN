@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ioversol: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data . Stoffet er et kontrastmiddel til b…"
 ---
 
@@ -83,9 +83,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101877497 | Optiray (Guerbet) | Injektions-/infusionsvæske, opløsning | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101877497 | Optiray | injektions-/infusionsvæske, opløsning | IOVERSOL | Gyldig |
+| 28101877597 | Optiray | injektions-/infusionsvæske, opløsning | IOVERSOL | Gyldig |
+| 28101877697 | Optiray | injektions-/infusionsvæske, opløsning | IOVERSOL | Gyldig |
+| 28104156607 | Optiray | injektions-/infusionsvæske, opløsning, flerdosisbeholder | IOVERSOL | Gyldig |
+| 28104156707 | Optiray | injektions-/infusionsvæske, opløsning, flerdosisbeholder | IOVERSOL | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

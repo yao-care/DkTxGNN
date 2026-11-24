@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Famciclovir: forudsagt ny indikation Post-infektiøs neuralgi (post-infectious neuralgia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -85,9 +85,19 @@ Der foreligger for øjeblikket ingen relateret litteratur om famciclovir ved pos
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104339608 | Famciclovir "Viatris" | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104339608 | Famciclovir "Viatris" | filmovertrukne tabletter | FAMCICLOVIR | Gyldig |
+| 28104339708 | Famciclovir "Viatris" | filmovertrukne tabletter | FAMCICLOVIR | Gyldig |
+| 28104339808 | Famciclovir "Viatris" | filmovertrukne tabletter | FAMCICLOVIR | Gyldig |
+| 28101698894 | Famvir | filmovertrukne tabletter | FAMCICLOVIR | Gyldig |
+| 28101893097 | Famvir | filmovertrukne tabletter | FAMCICLOVIR | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Det er en national tilladelse fra Lægemiddelstyrelsen. Produktet har status som gyldigt og markedsført.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Lanadelumab"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lanadelumab: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
@@ -68,9 +68,18 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106091818 | TAKHZYRO | Injektionsvæske, opløsning, hætteglas | Indikationstekst ikke angivet i licensdata |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106091818 | TAKHZYRO | injektionsvæske, opløsning, hætteglas | Lanadelumab | Gyldig |
+| 28106873022 | TAKHZYRO | injektionsvæske, opløsning i fyldt injektionssprøjte | Lanadelumab | Gyldig |
+| 28106517319 | TAKHZYRO | injektionsvæske, opløsning i fyldt injektionssprøjte | Lanadelumab | Gyldig |
+| 28107307324 | TAKHZYRO | injektionsvæske, opløsning i fyldt pen | Lanadelumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

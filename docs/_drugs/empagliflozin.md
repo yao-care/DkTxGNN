@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107095624 | Bifoglan | Filmovertrukne tabletter | Indikationstekst er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107408625 | Elemio | filmovertrukne tabletter | Empagliflozin | Gyldig |
+| 28107408925 | Elemio | filmovertrukne tabletter | Empagliflozin | Gyldig |
+| 28107095624 | Empagliflozin "Denk" | filmovertrukne tabletter | Empagliflozin | Gyldig |
+| 28107095724 | Empagliflozin "Denk" | filmovertrukne tabletter | Empagliflozin | Gyldig |
+| 28107162924 | Empagliflozin "Devatis" | filmovertrukne tabletter | Empagliflozin | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoprofen: forudsagt ny indikation Acromesomelic dysplasia, Hunter-Thompson type (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
@@ -82,6 +82,14 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 16 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Godkendelsen er et enkeltstofpræparat med gyldig status. Produktets producent er Industrial Veterinaria S.A., så præparatet kan være beregnet til veterinær brug. Det bør afklares, før der drages konklusioner om anvendelse til mennesker.
 

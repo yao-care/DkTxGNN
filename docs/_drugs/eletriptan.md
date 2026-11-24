@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
@@ -94,9 +94,19 @@ Ingen af publikationerne omhandler specifikt migræne med hjernestammeaura.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106772522 | Eletriptan "Nordic Prime" (Nordic Prime ApS) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106772522 | Eletriptan "Nordic Prime" | filmovertrukne tabletter | Eletriptanhydrobromid | Gyldig |
+| 28106019717 | Eletriptan "Orion" | filmovertrukne tabletter | Eletriptanhydrobromid | Gyldig |
+| 28106019817 | Eletriptan "Orion" | filmovertrukne tabletter | Eletriptanhydrobromid | Gyldig |
+| 28107414025 | Eletriptan Viatris | filmovertrukne tabletter | Eletriptanhydrobromid | Gyldig |
+| 28107529425 | Eletriptan Viatris | filmovertrukne tabletter | Eletriptanhydrobromid | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 description: "Fluorouracil: forudsagt ny indikation Botryoid embryonal rhabdomyosarkom i vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (evidensniveau L5). Oprindelig indikation: Ikke registreret …"
@@ -93,10 +93,19 @@ Kilderne er gamle, generelle eller indirekte, og fluorouracils selvstændige bid
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104187607 | Fluorouracil "Accord" (Accord Healthcare B.V.) | Injektions-/infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
-| 28105006111 | Actikerall (Almirall Hermal GmbH) | Kutanopløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104187607 | Fluorouracil "Accord" | injektions-/infusionsvæske, opløsning | FLUORURACIL | Gyldig |
+| 28106106918 | Tolak | creme | FLUORURACIL | Gyldig |
+| 28106792022 | Tolak | creme | FLUORURACIL | Gyldig |
+| 28106810622 | Tolak | creme | FLUORURACIL | Gyldig |
+| 28106828722 | Tolak | creme | FLUORURACIL | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

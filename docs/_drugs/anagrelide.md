@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 62
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anagrelide: forudsagt ny indikation Reaktiv trombocytose (evidensniveau L4). Oprindelig indikation: Trombocytæmi og familiær trombocytose"
 monitor_inn: "anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -85,9 +85,19 @@ Bemærk: Ingen af publikationerne dokumenterer direkte effekt af anagrelid ved r
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105945817 | Anagrelid "Bluefish" (Bluefish Pharmaceuticals AB) | Kapsler, hårde | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105945817 | Anagrelid "Bluefish" | kapsler, hårde | ANAGRELIDHYDROCHLORID | Gyldig |
+| 28105874916 | Anagrelide "Stada" | kapsler, hårde | ANAGRELIDHYDROCHLORID | Gyldig |
+| 28105890416 | Anagrelide Viatris | kapsler, hårde | Anagrelidhydrochloridmonohydrat | Gyldig |
+| 28105890516 | Anagrelide Viatris | kapsler, hårde | Anagrelidhydrochloridmonohydrat | Gyldig |
+| 28103373402 | Xagrid | kapsler, hårde | ANAGRELIDHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

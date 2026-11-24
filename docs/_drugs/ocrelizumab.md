@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: forudsagt ny indikation HER2-positiv brystkarcinom (HER2 positive breast carcinoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -82,9 +82,16 @@ For den relaterede forudsigelse "luminal A/B-brysttumor" blev der fundet 18 publ
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107028123 | Ocrevus (Roche Registration GmbH) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107028123 | Ocrevus | injektionsvæske, opløsning | Ocrelizumab | Gyldig |
+| 28105774716 | Ocrevus | koncentrat til infusionsvæske, opløsning | Ocrelizumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

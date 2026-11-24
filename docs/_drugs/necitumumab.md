@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Necitumumab"
 predicted_indications: ["fibromatosis, gingival", "hamartoma of lung", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Necitumumab: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft / lungekræft"
 ---
 
@@ -85,9 +85,15 @@ Bemærk: For andre forudsagte sygdomme (fx godartet lungeneoplasme) fandtes publ
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105547314 | Portrazza | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105547314 | Portrazza | koncentrat til infusionsvæske, opløsning | necitumumab | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen var en enkeltstofstilladelse (indehaver: Eli Lilly Nederland B.V.) og blev afregistreret 2026-10-12.
 

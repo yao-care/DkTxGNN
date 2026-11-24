@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tezacaftor: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Cystisk fibrose (de danske godkendelser indeholder ingen indikationst…"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -68,13 +68,21 @@ Modellen har også forudsagt to andre indikationer med samme manglende evidensgr
 
 ## Denmark-markedsinformation
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105993917 | Symkevi | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28106594021 | Kaftrio | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28107176424 | Alyftrek | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (Ireland) Limited. Alle er kombinationspræparater, og alle er til oral anvendelse.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107176424 | Alyftrek | filmovertrukne tabletter | Deutivacaftor, Tezacaftor, Vanzacaftor | Gyldig |
+| 28107176524 | Alyftrek | filmovertrukne tabletter | Deutivacaftor, Tezacaftor, Vanzacaftor | Gyldig |
+| 28106594021 | Kaftrio | filmovertrukne tabletter | Elexacaftor, Ivacaftor, Tezacaftor | Gyldig |
+| 28106350519 | Kaftrio | filmovertrukne tabletter | Elexacaftor, Ivacaftor, Tezacaftor | Gyldig |
+| 28106876222 | Kaftrio | granulat i brev | Elexacaftor, Ivacaftor, Tezacaftor | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen; tre af dem indehaves af Vertex Pharmaceuticals (Ireland) Limited. Alle er kombinationspræparater, og alle er til oral anvendelse.
 
 <!-- review:begin dk-lic-20261112-tezacaftor-1 -->
 
@@ -121,7 +129,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland)” → “Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (I” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og indehaves af Vertex Pharmaceuticals (Ireland)” → “Alle 8 tilladelser er gyldige; tre af dem indehaves af Vertex Pharmaceuticals (I” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
 
 <!-- review:end log -->

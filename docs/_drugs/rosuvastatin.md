@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: forudsagt ny indikation Cholesterol-ester transfer protein deficiency (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -104,9 +104,19 @@ Rosuvastatin er studiemedicin i de fleste af nedenstående forsøg. Forsøg med 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105103512 | Celmantin (Medochemie Limited) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105103512 | Celmantin | filmovertrukne tabletter | Rosuvastatincalcium | Gyldig |
+| 28105103612 | Celmantin | filmovertrukne tabletter | Rosuvastatincalcium | Gyldig |
+| 28105103712 | Celmantin | filmovertrukne tabletter | Rosuvastatincalcium | Gyldig |
+| 28105103412 | Celmantin | filmovertrukne tabletter | Rosuvastatincalcium | Gyldig |
+| 28103453602 | Crestor | filmovertrukne tabletter | Rosuvastatincalcium | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

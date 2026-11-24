@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Droperidol: forudsagt ny indikation Tourette syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
@@ -97,11 +97,20 @@ Dokumentationen omfatter et randomiseret, dobbeltblindt, placebokontrolleret for
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103970106 | Dehydrobenzperidol (Substipharm) | Injektionsvæske, opløsning | Ikke angivet i licensdata |
+<!-- licenses:begin -->
 
-Der er registreret 4 gyldige nationale tilladelser for enkeltstof-præparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103970106 | Dehydrobenzperidol | injektionsvæske, opløsning | Droperidol | Gyldig |
+| 28106929423 | Droperidol "Aguettant" | injektionsvæske, opløsning | Droperidol | Gyldig |
+| 28106929523 | Droperidol "Aguettant" | injektionsvæske, opløsning | Droperidol | Gyldig |
+| 28106727522 | Droperidol "Sintetica" | injektionsvæske, opløsning | Droperidol | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-droperidol-1 -->
 
@@ -150,7 +159,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse for et enkeltstof-præparat.” → “Der er registreret 4 gyldige nationale tilladelser for enkeltstof-præparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse for et enkeltstof-præparat.” → “Der er registreret 4 gyldige nationale tilladelser for enkeltstof-præparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: forudsagt ny indikation Familiær horisontal blikparese med progressiv skoliose (gaze palsy, familial horizontal, with progressive scoliosis) (evidensniveau L5). Oprindelig indikation: Ik…"
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106390920 | OKEDI (Laboratorios Farmaceuticos Rovi S.A.) | Pulver og solvens til depotinjektionsvæske, suspension | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106390920 | OKEDI | pulver og solvens til depotinjektionsvæske, suspension | RISPERIDON | Gyldig |
+| 28106390820 | OKEDI | pulver og solvens til depotinjektionsvæske, suspension | RISPERIDON | Gyldig |
+| 28104791210 | Rispemyl | filmovertrukne tabletter | RISPERIDON | Gyldig |
+| 28104791310 | Rispemyl | filmovertrukne tabletter | RISPERIDON | Gyldig |
+| 28104791410 | Rispemyl | filmovertrukne tabletter | RISPERIDON | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

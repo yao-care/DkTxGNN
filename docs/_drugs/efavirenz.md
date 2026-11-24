@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Efavirenz: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105276313 | Efavirenz "Aurobindo" (Aurobindo Pharma (Malta) Limited) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105276313 | Efavirenz "Aurobindo" | filmovertrukne tabletter | EFAVIRENZ | Gyldig |
+| 28106703421 | Efavirenz "Medical Valley" | filmovertrukne tabletter | EFAVIRENZ | Gyldig |
+| 28105012311 | Efavirenz "Sandoz" | filmovertrukne tabletter | EFAVIRENZ | Gyldig |
+| 28104822410 | Efavirenz "Teva" | filmovertrukne tabletter | EFAVIRENZ | Gyldig |
+| 28107492925 | Efavirenz Aurobindo | filmovertrukne tabletter | EFAVIRENZ | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

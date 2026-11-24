@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Acyclovir: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -73,10 +73,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103002898 | Aciclodan | Creme | Indikationstekst ikke registreret i de lokale data |
-| 28104418108 | Zoviduo | Creme | Indikationstekst ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103002898 | Aciclodan | creme | ACICLOVIR | Gyldig |
+| 28101863196 | Aciclodan | tabletter | ACICLOVIR | Gyldig |
+| 28101863296 | Aciclodan | tabletter | ACICLOVIR | Gyldig |
+| 28107388825 | Aciclodan | tabletter | ACICLOVIR | Gyldig |
+| 28101863396 | Aciclodan | tabletter | ACICLOVIR | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

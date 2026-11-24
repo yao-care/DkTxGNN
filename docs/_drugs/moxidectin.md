@@ -5,7 +5,7 @@ layout: default
 title: Moxidectin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 569
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Moxidectin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Moxidectin"
 predicted_indications: []
@@ -49,6 +49,14 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 Bemærk: Den eneste danske tilladelse er til et veterinært præparat (Cydectin Vet.). Der findes ingen kendt human godkendelse i Danmark i de data, der er indsamlet til denne rapport.
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 30 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

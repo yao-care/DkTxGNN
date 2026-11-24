@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Metreleptin: forudsagt ny indikation Familiær generaliseret lentiginose (evidensniveau L5). Oprindelig indikation: Lipodystrofi, herunder medfødt generaliseret lipodystrofi"
 ---
 
@@ -80,9 +80,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105901616 | Myalepta (Chiesi Farmaceutici S.p.A.) | Pulver til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105901616 | Myalepta | pulver til injektionsvæske, opløsning | Metreleptin | Gyldig |
+| 28106536916 | Myalepta | pulver til injektionsvæske, opløsning | Metreleptin | Gyldig |
+| 28106537016 | Myalepta | pulver til injektionsvæske, opløsning | Metreleptin | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstofpræparat og er gyldig.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Azithromycin: forudsagt ny indikation Polyklonalt hyperviskositetssyndrom (polyclonal hyperviscosity syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)"
 ---
 
@@ -69,10 +69,19 @@ Der er for øjeblikket ingen relateret litteratur for polyklonalt hyperviskosite
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106594221 | Amzolynic | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
-| 28104485409 | Azithromycin "Stada" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106594221 | Amzolynic | pulver til koncentrat til infusionsvæske, opløsning | AZITHROMYCINDIHYDRAT | Gyldig |
+| 28106409820 | Azithromycin "2care4" | filmovertrukne tabletter | AZITHROMYCINDIHYDRAT | Gyldig |
+| 28106868522 | Azithromycin "Epione Medicine" | filmovertrukne tabletter | AZITHROMYCINDIHYDRAT | Gyldig |
+| 28104939811 | Azithromycin "Jubilant" | filmovertrukne tabletter | AZITHROMYCINDIHYDRAT | Gyldig |
+| 28104939911 | Azithromycin "Jubilant" | filmovertrukne tabletter | AZITHROMYCINDIHYDRAT | Gyldig |
+
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og gælder enkeltstofpræparater.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: forudsagt ny indikation Variabelt proteasefølsom prionopati (variably protease-sensitive prionopathy) (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -78,9 +78,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106619621 (national, Lægemiddelstyrelsen) | Augermid (Aspire Pharma (Malta) Limited) | Tabletter | Ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106619621 | Augermid | tabletter | Midodrinhydrochlorid | Gyldig |
+| 28106619721 | Augermid | tabletter | Midodrinhydrochlorid | Gyldig |
+| 28106407020 | Hypotron | tabletter | Midodrinhydrochlorid | Gyldig |
+| 28105996417 | Hypotron | tabletter | Midodrinhydrochlorid | Gyldig |
+| 28105996517 | Hypotron | tabletter | Midodrinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

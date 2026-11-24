@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carvedilol: forudsagt ny indikation malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -68,9 +68,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for denne forudsa
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107355925 | Carvedilol "2care4" | Tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107355925 | Carvedilol "2care4" | tabletter | CARVEDILOL | Gyldig |
+| 28107343425 | Carvedilol "Abacus Medicine" | tabletter | CARVEDILOL | Gyldig |
+| 28105005411 | Carvedilol "Aurobindo" | filmovertrukne tabletter | CARVEDILOL | Gyldig |
+| 28105005511 | Carvedilol "Aurobindo" | filmovertrukne tabletter | CARVEDILOL | Gyldig |
+| 28105005311 | Carvedilol "Aurobindo" | filmovertrukne tabletter | CARVEDILOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

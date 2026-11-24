@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Fenfluramine: forudsagt ny indikation Proksimalt 16p11.2-mikrodeletionssyndrom (proximal 16p11.2 microdeletion syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -70,9 +70,15 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106224719 | Fintepla (UCB Pharma S.A.) | Oral opløsning | Indikationstekst foreligger ikke i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106224719 | Fintepla | oral opløsning | FENFLURAMINHYDROCHLORID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

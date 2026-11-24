@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Etofenamate: forudsagt ny indikation Ankyloserende spondylitis (evidensniveau L5). Oprindelig indikation: Relationer til slidgigt…"
 ---
 
@@ -82,9 +82,15 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106049017 | Lixim | Medicinsk plaster | Indikationstekst ikke angivet i tilladelsen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106049017 | Lixim | medicinsk plaster | Etofenamat | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er en national tilladelse for et enkeltstofpræparat. Producent: Drossapharm Arzneimittel Handelsgesellschaft GmbH.
 

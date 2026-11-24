@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -85,10 +85,17 @@ Epoprostenol er tilgængelig i EU under centraliserede EMA-procedurer (f.eks. *F
 
 **Dette tyder stærkt på en datakollektionsfejl snarere end sand fravær fra det danske marked.**
 
-| Forventet autorisation | Produktnavn | Doseringform | Bemærkning |
-|------------------------|------------|-------------|-----------|
-| EMA centraliseret (bekræft via EMA EPAR-database) | Flolan | Pulver og opløsningsmiddel til infusionsvæske | PAH — bekræft nuværende status på ema.europa.eu |
-| EMA centraliseret (bekræft via EMA EPAR-database) | Veletri | Pulver til infusionsvæske | PAH — bekræft nuværende status på ema.europa.eu |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103020898 | Flolan | pulver og solvens til infusionsvæske, opløsning | EPOPROSTENOLNATRIUM | Gyldig |
+| 28101390089 | Flolan | pulver og solvens til infusionsvæske, opløsning | EPOPROSTENOL | Gyldig |
+| 28107237024 | Flolan | pulver og solvens til infusionsvæske, opløsning | EPOPROSTENOL | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 > **Påkrævet handling:** Forespørg [EMA Product Database](https://www.ema.europa.eu/en/medicines) og [Lægemiddelstyrelsens produktresumé-database](https://www.laegemiddelstyrelsen.dk/) for at hente aktuelle autorisationsnumre, SmPC og godkendte indikationer.
 

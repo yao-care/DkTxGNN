@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 799
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Teicoplanin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,15 +72,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Teicop
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28101359689 | Targocid | pulver til injektions-/infusionsvæske, o | Afregistreret |
+<!-- licenses:begin -->
 
-<!-- review:begin dk-lic-20261117-teicoplanin-1 -->
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106822022 | Targocid | pulver til injektions-/infusionsvæske, opløsning eller oral… | TEICOPLANIN | Gyldig |
+| 28104547509 | Targocid | pulver til injektions-/infusionsvæske, opløsning eller oral… | TEICOPLANIN | Gyldig |
+| 28106704921 | Targocid | pulver til injektions-/infusionsvæske, opløsning eller oral… | TEICOPLANIN | Gyldig |
+| 28107637226 | Teicoplanin "2care4" | pulver og solvens til injektions- /infusionsvæske, opløsning | TEICOPLANIN | Gyldig |
+| 28107307624 | Teicoplanin "Demo S.A." | pulver og solvens til injektions- /infusionsvæske, opløsning | TEICOPLANIN | Gyldig |
 
-> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "28101359689 / Targocid / pulver til injektions-/infusionsvæske, o / Gyldig" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28101359689 (Targocid) blev afregistreret 2026-11-09 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
-<!-- review:end dk-lic-20261117-teicoplanin-1 -->
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 
@@ -96,7 +100,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09) | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-11-09) | Erstattet af programgenereret tilladelsestabel (oprindeligt: Rettet) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

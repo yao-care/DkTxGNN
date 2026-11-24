@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sotatercept: forudsagt ny indikation Akut lymfatisk leukæmi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -69,9 +69,18 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107063623 | Winrevair (Merck Sharp & Dohme B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107063623 | Winrevair | pulver og solvens til injektionsvæske, opløsning | Sotatercept | Gyldig |
+| 28107063723 | Winrevair | pulver og solvens til injektionsvæske, opløsning | Sotatercept | Gyldig |
+| 28107063823 | Winrevair | pulver til injektionsvæske, opløsning | Sotatercept | Gyldig |
+| 28107063923 | Winrevair | pulver til injektionsvæske, opløsning | Sotatercept | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

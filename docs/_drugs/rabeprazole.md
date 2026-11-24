@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 697
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Rabeprazole: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -73,9 +73,19 @@ TxGNN-modellen (deep learning, score ≥ 0,99) har givet kandidater for Rabepraz
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103024398 | Pariet | enterotabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103024398 | Pariet | enterotabletter | RABEPRAZOLNATRIUM | Gyldig |
+| 28103024498 | Pariet | enterotabletter | RABEPRAZOLNATRIUM | Gyldig |
+| 28104311908 | Rabeprazol "Medical Valley" | enterotabletter | RABEPRAZOLNATRIUM | Gyldig |
+| 28104312008 | Rabeprazol "Medical Valley" | enterotabletter | RABEPRAZOLNATRIUM | Gyldig |
+| 28104312108 | Ralic | enterotabletter | RABEPRAZOLNATRIUM | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

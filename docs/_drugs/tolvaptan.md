@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tolvaptan: forudsagt ny indikation Renal-hepatic-pancreatic dysplasia (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
 ---
 
@@ -82,9 +82,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for renal-hepatis
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105370714 | Jinarc | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105370714 | Jinarc | tabletter | Tolvaptan | Gyldig |
+| 28105628815 | Jinarc | tabletter | Tolvaptan | Gyldig |
+| 28105370814 | Jinarc | tabletter | Tolvaptan | Gyldig |
+| 28105628915 | Jinarc | tabletter | Tolvaptan | Gyldig |
+| 28105629015 | Jinarc | tabletter | Tolvaptan | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstofpræparat fra Otsuka Pharmaceutical Netherlands B.V. og er gyldig.
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: forudsagt ny indikation Dermatitis (evidensniveau L2). Oprindelig indikation: Psoriasisgigt, psoriasis og parapsoriasis"
 ---
 
@@ -97,9 +97,19 @@ Rationalet er dog kun delvist: atopisk dermatitis er overvejende Th2-drevet (IL-
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107170224 | ABSIMKY (Accord Healthcare S.L.U.) | Injektionsvæske, opløsning, hætteglas | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107044923 | Fymskina | injektionsvæske, opløsning i fyldt injektionssprøjte | Ustekinumab | Gyldig |
+| 28107045023 | Fymskina | injektionsvæske, opløsning i fyldt injektionssprøjte | Ustekinumab | Gyldig |
+| 28107045123 | Fymskina | koncentrat til infusionsvæske, opløsning | Ustekinumab | Gyldig |
+| 28106999923 | IMULDOSA | injektionsvæske, opløsning i fyldt injektionssprøjte | Ustekinumab | Gyldig |
+| 28107000023 | IMULDOSA | injektionsvæske, opløsning i fyldt injektionssprøjte | Ustekinumab | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

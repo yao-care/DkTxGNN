@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Isoflurane: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse (indikationstekste…"
 monitor_inn: "isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -109,10 +109,18 @@ Der er i øjeblikket ingen relateret litteratur for Prinzmetal-angina.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101543293 | Isofluran "Baxter" | Væske til inhalationsdamp | Ikke angivet |
-| 28106543820 | Sedaconda | Væske til inhalationsdamp | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101543293 | Isofluran "Baxter" | væske til inhalationsdamp | ISOFLURAN | Gyldig |
+| 28106543820 | Sedaconda | væske til inhalationsdamp | ISOFLURAN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Produktet er et veterinærlægemiddel fra Piramal Critical Care B.V.
 

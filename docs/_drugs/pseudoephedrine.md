@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 694
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pseudoephedrine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Allergisk rhinitis, vasomotorisk rhinitis, faryngitis…"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -92,12 +92,18 @@ Bemærk: Der er ingen randomiserede kontrollerede forsøg blandt de fundne publi
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103985806 | Aerinaze (N.V. Organon) | Tabletter med modificeret udløsning | Ikke angivet |
-| 28101715494 | Clarinase (Merck Sharp & Dohme B.V.) | Depottabletter | Ikke angivet |
+<!-- licenses:begin -->
 
-Begge godkendelser er gyldige og omfatter kombinationspræparater (Clarinase med loratadin, Aerinaze med desloratadin).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103985806 | Aerinaze | tabletter med modificeret udløsning | DESLORATADIN, Pseudoephedrinsulfat | Gyldig |
+| 28101715494 | Clarinase | depottabletter | LORATADIN, Pseudoephedrinsulfat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder kombinationspræparater (Clarinase med loratadin, Aerinaze med desloratadin); antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-pseudoephedrine-1 -->
 
@@ -138,7 +144,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

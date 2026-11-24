@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dalbavancin: forudsagt ny indikation Postinfektiøs vaskulitis (postinfectious vasculitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
@@ -68,9 +68,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106925323 | Dalbavancin "Adalvo" (AdAlvo Limited) | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106925323 | Dalbavancin "Adalvo" | pulver til koncentrat til infusionsvæske, opløsning | Dalbavancinhydrochlorid | Gyldig |
+| 28106925123 | Dalbavancin "Baxter" | pulver til koncentrat til infusionsvæske, opløsning | Dalbavancinhydrochlorid | Gyldig |
+| 28106925623 | Dalbavancin "Teva" | pulver til koncentrat til infusionsvæske, opløsning | Dalbavancinhydrochlorid | Gyldig |
+| 28107200224 | Dalbavancin "Tillomed" | pulver til koncentrat til infusionsvæske, opløsning | Dalbavancinhydrochlorid | Gyldig |
+| 28106925823 | Deirate | pulver til koncentrat til infusionsvæske, opløsning | Dalbavancinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

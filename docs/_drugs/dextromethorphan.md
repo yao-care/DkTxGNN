@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dextromethorphan: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske markedsføringstilladelse. Videnbasen nævner…"
 monitor_inn: "dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
@@ -94,9 +94,15 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101229585 | Dexofan (Orifarm Healthcare A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101229585 | Dexofan | filmovertrukne tabletter | Dextromethorphanhydrobromidmonohydrat | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Lægemidlet er markedsført som enkeltstofpræparat til oral anvendelse. Der er ikke registreret nogen annullerede tilladelser.
 

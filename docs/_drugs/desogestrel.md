@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Desogestrel: forudsagt ny indikation Amenorré (evidensniveau L5). Oprindelig indikation: Ikke angivet i licensdata"
 ---
 
@@ -81,9 +81,19 @@ Ingen af de fundne publikationer er et randomiseret forsøg med desogestrel ved 
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104560909 | Azalia (Gedeon Richter Plc.) | Filmovertrukne tabletter | Indikationstekst ikke angivet i licensdata |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104560909 | Azalia | filmovertrukne tabletter | DESOGESTREL | Gyldig |
+| 28106415320 | Ceranor | filmovertrukne tabletter | DESOGESTREL | Gyldig |
+| 28103007098 | Cerazette | filmovertrukne tabletter | DESOGESTREL | Gyldig |
+| 28105451414 | Delamonie | filmovertrukne tabletter | DESOGESTREL | Gyldig |
+| 28106118418 | Desirett | filmovertrukne tabletter | DESOGESTREL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er tale om mindst 20 gyldige tilladelser, heraf mindst 9 til enkeltstofprodukter til oral anvendelse.
 

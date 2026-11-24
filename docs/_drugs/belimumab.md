@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Belimumab: forudsagt ny indikation Primær frigivelsesforstyrrelse af blodplader (evidensniveau L5). Oprindelig indikation: Systemisk lupus erythematosus og pædiatrisk SLE"
 ---
 
@@ -80,9 +80,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105851916 | Benlysta (GlaxoSmithKline (Ireland) Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105851916 | Benlysta | injektionsvæske, opløsning i fyldt injektionssprøjte | BELIMUMAB | Gyldig |
+| 28106043616 | Benlysta | injektionsvæske, opløsning i fyldt pen | BELIMUMAB | Gyldig |
+| 28104721510 | Benlysta | pulver til koncentrat til infusionsvæske, opløsning | BELIMUMAB | Gyldig |
+| 28104721610 | Benlysta | pulver til koncentrat til infusionsvæske, opløsning | BELIMUMAB | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Listen kan være ufuldstændig med hensyn til indikationstekst, men antallet af tilladelser er fuldstændigt (1).
 

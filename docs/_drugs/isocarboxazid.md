@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isocarboxazid: forudsagt ny indikation Benign paroxysmal torticollis of infancy (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
@@ -86,9 +86,15 @@ Ingen af publikationerne er et OCD-forsøg med isocarboxazid. Evidensen er indir
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100329660 | Marplan (EQL Pharma AB) | Tabletter | Ikke angivet i tilladelsesteksten |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100329660 | Marplan | tabletter | ISOCARBOXAZID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Antal godkendelser: 1 national tilladelse (enkeltstofpræparat, gyldig). Administrationsvej: oral.
 

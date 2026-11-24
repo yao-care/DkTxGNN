@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ceftolozane: forudsagt ny indikation Ureaplasma-urethritis (Ureaplasma urethritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
@@ -68,9 +68,15 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105499514 | Zerbaxa | Pulver til koncentrat til infusionsvæske, opløsning | – |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105499514 | Zerbaxa | pulver til koncentrat til infusionsvæske, opløsning | Ceftolozansulfat, Tazobactamnatrium | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Produktet er et kombinationspræparat (ceftolozan/tazobactam) og er registreret som gyldigt. Indehaveren er Merck Sharp & Dohme B.V.
 

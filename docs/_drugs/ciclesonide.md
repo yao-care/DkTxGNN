@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide: forudsagt ny indikation Atopisk eksem (atopic eczema) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -70,9 +70,21 @@ Der er i øjeblikket ingen relateret litteratur for den forudsagte hovedindikati
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103707804 | Alvesco | Inhalationsspray, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103707804 | Alvesco | inhalationsspray, opløsning | CICLESONID | Gyldig |
+| 28106652421 | Alvesco | inhalationsspray, opløsning | CICLESONID | Gyldig |
+| 28103707704 | Alvesco | inhalationsspray, opløsning | CICLESONID | Gyldig |
+| 28106438820 | Alvesco | inhalationsspray, opløsning | CICLESONID | Gyldig |
+| 28106932823 | Ciclesonide "Glenmark" | inhalationsspray, opløsning | CICLESONID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ layout: default
 title: Concizumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 219
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Concizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Concizumab"
 predicted_indications: []
@@ -50,9 +50,18 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106899823 | Alhemo (Novo Nordisk A/S) | Injektionsvæske, opløsning i fyldt pen | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106899823 | Alhemo | injektionsvæske, opløsning i fyldt pen | Concizumab | Gyldig |
+| 28107421323 | Alhemo | injektionsvæske, opløsning i fyldt pen | Concizumab | Gyldig |
+| 28106899923 | Alhemo | injektionsvæske, opløsning i fyldt pen | Concizumab | Gyldig |
+| 28106899723 | Alhemo | injektionsvæske, opløsning i fyldt pen | Concizumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

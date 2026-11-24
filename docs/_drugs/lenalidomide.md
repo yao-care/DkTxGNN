@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 488
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lenalidomide: forudsagt ny indikation Myeloid leukæmi (evidensniveau L2). Oprindelig indikation: Plasmacellemyelom, mantlecellelymfom, B-celleneoplasi…"
 monitor_inn: "lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -110,9 +110,19 @@ Størstedelen af de identificerede publikationer er oversigtsartikler, og der er
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106555220 | Ferulinor (STADA Nordic ApS) | Kapsler, hårde | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106555220 | Ferulinor | kapsler, hårde | Lenalidomid | Gyldig |
+| 28106555320 | Ferulinor | kapsler, hårde | Lenalidomid | Gyldig |
+| 28106555420 | Ferulinor | kapsler, hårde | Lenalidomid | Gyldig |
+| 28106554820 | Ferulinor | kapsler, hårde | Lenalidomid | Gyldig |
+| 28106555520 | Ferulinor | kapsler, hårde | Lenalidomid | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

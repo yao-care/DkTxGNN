@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: forudsagt ny indikation Bacterial arthritis (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -95,9 +95,19 @@ Synergien er understøttet af dyremodeller (rotte-endokarditis, muse-hudinfektio
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103216600 | Invanz (Merck Sharp & Dohme B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de kompilerede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107141024 | Ertapenem "Aptapharma" | pulver til koncentrat til infusionsvæske, opløsning | Ertapenemnatrium | Gyldig |
+| 28105730716 | Ertapenem "Fresenius Kabi" | pulver til koncentrat til infusionsvæske, opløsning | Ertapenemnatrium | Gyldig |
+| 28106900823 | Ertapenem "Qilu" | pulver til koncentrat til infusionsvæske, opløsning | Ertapenemnatrium | Gyldig |
+| 28106813822 | Ertapenem "Steriscience" | pulver til koncentrat til infusionsvæske, opløsning | Ertapenemnatrium | Gyldig |
+| 28106580321 | Ertapenem SUN | pulver til koncentrat til infusionsvæske, opløsning | Ertapenemnatrium | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avapritinib"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avapritinib: forudsagt ny indikation aksial spondylometafyseal dysplasi (axial spondylometaphyseal dysplasia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -68,9 +68,19 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106301219 | AYVAKYT | Filmovertrukne tabletter | Ikke registreret i lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106301219 | AYVAKYT | filmovertrukne tabletter | Avapritinib | Gyldig |
+| 28106301319 | AYVAKYT | filmovertrukne tabletter | Avapritinib | Gyldig |
+| 28106576221 | AYVAKYT | filmovertrukne tabletter | Avapritinib | Gyldig |
+| 28106301419 | AYVAKYT | filmovertrukne tabletter | Avapritinib | Gyldig |
+| 28106576321 | AYVAKYT | filmovertrukne tabletter | Avapritinib | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Producent: Blueprint Medicines (Netherlands). Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
 

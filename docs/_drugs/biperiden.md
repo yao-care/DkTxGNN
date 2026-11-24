@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Biperiden: forudsagt ny indikation Rasmussen subakut encephalitis (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom og beslægtede parkinsonistiske lidelser"
 monitor_inn: "biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
@@ -82,9 +82,18 @@ Der er på nuværende tidspunkt ingen relateret litteratur for Rasmussen subakut
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100231857 | Akineton | Tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100249157 | Akineton | injektionsvæske, opløsning | BIPERIDENLACTAT | Gyldig |
+| 28100231857 | Akineton | tabletter | Biperidenhydrochlorid | Gyldig |
+| 28105844116 | Akineton | tabletter | Biperidenhydrochlorid | Gyldig |
+| 28107379725 | Akineton | tabletter | Biperidenhydrochlorid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Producent: Laboratorio Farmaceutico S.I.T. Status: gyldig. Administrationsvej: oral.
 

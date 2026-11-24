@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Methoxsalen: forudsagt ny indikation Lokaliseret pagetoid retikulose (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i den danske tilladelse. I videnbasen…"
 ---
 
@@ -98,9 +98,16 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106458320 | Methoxsalen "Macopharma" | Opløsning til modificering af blodfraktioner | Ikke angivet i tilladelsen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106458320 | Methoxsalen "Macopharma" | opløsning til modificering af blodfraktioner | METHOXSALEN | Gyldig |
+| 28103883405 | Uvadex | opløsning til modificering af blodfraktioner | METHOXSALEN | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstof-tilladelse (Maco Pharma SA), gyldig og markedsført. Den dækker en formulering til modificering af blodfraktioner og er ikke en tilladelse til behandling af hudlidelser med oralt eller topikalt methoxsalen.
 

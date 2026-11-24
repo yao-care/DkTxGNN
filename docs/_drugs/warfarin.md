@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Warfarin: forudsagt ny indikation Heparin-cofaktor-2-mangel (rang 4) (evidensniveau L5). Oprindelig indikation: Lungeemboli, trombotisk sygdom, intrakraniel emboli"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -118,9 +118,18 @@ Ingen RCT'er er identificeret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101005764 | Marevan (Orifarm Healthcare A/S) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101005764 | Marevan | tabletter | WARFARINNATRIUM | Gyldig |
+| 28105577915 | Marevan | tabletter | WARFARINNATRIUM | Gyldig |
+| 28104557609 | Warfarin "Orion" | tabletter | WARFARINNATRIUM | Gyldig |
+| 28106285519 | Warfarinnatrium "2care4" | tabletter | WARFARINNATRIUM | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

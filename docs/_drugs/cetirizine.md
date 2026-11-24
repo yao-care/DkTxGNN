@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine: forudsagt ny indikation Sygdom i næsehulen (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -70,9 +70,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103323001 | Alnok | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103323001 | Alnok | filmovertrukne tabletter | CETIRIZINDIHYDROCHLORID | Gyldig |
+| 28103342002 | Alnok | oral opløsning | CETIRIZINDIHYDROCHLORID | Gyldig |
+| 28103071299 | Benaday | filmovertrukne tabletter | CETIRIZINDIHYDROCHLORID | Gyldig |
+| 28104563609 | Cetimax | filmovertrukne tabletter | CETIRIZINDIHYDROCHLORID | Gyldig |
+| 28105019712 | Cetiriva | filmovertrukne tabletter | CETIRIZINDIHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Producent: Sandoz A/S. Tilladelsen er gyldig, og produktet indeholder kun cetirizin som aktivt stof.
 

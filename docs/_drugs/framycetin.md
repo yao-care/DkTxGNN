@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Framycetin: forudsagt ny indikation Skleroserende cholangitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -80,9 +80,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101903697 | Proctosedyl (Orifarm A/S) | Rektalsalve | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101903697 | Proctosedyl | rektalsalve | Aesculin, CINCHOCAINHYDROCHLORID, Framycetinsulfat, HYDROCORTISON | Gyldig |
+| 28104051006 | Proctosedyl | rektalsalve | Aesculin, CINCHOCAINHYDROCHLORID, Framycetinsulfat, HYDROCORTISON | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Bemærk, at to af de tre produkter er veterinærlægemidler (Benestermycin Vet. og Canaural). Humant er kun Proctosedyl (rektalsalve) repræsenteret.
 

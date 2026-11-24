@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "paromomycin"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: forudsagt ny indikation Idiopathic copper-associated cirrhosis (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -82,6 +82,14 @@ Til information: For den lavere rangerede forudsigelse *peritonitis* blev der fu
 ---
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Producent: Huvepharma NV. Status: gyldig, enkeltstofpræparat.
 

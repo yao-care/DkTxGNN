@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glulisine: forudsagt ny indikation thiamine-responsive dysfunction syndrome (evidensniveau L5). Oprindelig indikation: Diabetes mellitus og diabetisk ketoacidose (der er ikke angivet indik…"
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -107,9 +107,17 @@ Tabellen viser et udvalg af de mest relevante forsøg (op til 10). Der er ikke a
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103527003 | Apidra (Sanofi-Aventis Deutschland GmbH) | Injektionsvæske, opløsning | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103527003 | Apidra | injektionsvæske, opløsning | Insulin glulisin | Gyldig |
+| 28103729003 | Apidra | injektionsvæske, opløsning i cylinderampul | Insulin glulisin | Gyldig |
+| 28104122307 | Apidra SoloStar | injektionsvæske, opløsning i fyldt pen | Insulin glulisin | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

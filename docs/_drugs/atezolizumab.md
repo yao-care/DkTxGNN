@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Atezolizumab: forudsagt ny indikation Uterint ligament-adenokarcinom (uterine ligament adenocarcinoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -68,9 +68,17 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for denne sygdom.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106870322 | Tecentriq | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106870322 | Tecentriq | injektionsvæske, opløsning | Atezolizumab | Gyldig |
+| 28105775816 | Tecentriq | koncentrat til infusionsvæske, opløsning | Atezolizumab | Gyldig |
+| 28106170318 | Tecentriq | koncentrat til infusionsvæske, opløsning | Atezolizumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovvejelser
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine: forudsagt ny indikation Rosacea-konjunktivitis (rosacea conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -72,9 +72,18 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103117299 | Benylan (McNeil Denmark ApS) | Oral opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103117299 | Benylan | oral opløsning | DIPHENHYDRAMINHYDROCHLORID | Gyldig |
+| 28100107155 | Benylan | oral opløsning | DIPHENHYDRAMINHYDROCHLORID | Gyldig |
+| 28106271719 | Coldycof | oral opløsning | DIPHENHYDRAMINHYDROCHLORID | Gyldig |
+| 28106271819 | Coldycof | oral opløsning | DIPHENHYDRAMINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Den eneste registrerede tilladelse er en gyldig, national enkeltstofpræparat-tilladelse til oral anvendelse. Der er ingen registreret lægemiddelform til øjenanvendelse, hvilket er relevant for en okulær indikation.
 

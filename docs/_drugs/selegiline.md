@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: forudsagt ny indikation Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -99,9 +99,16 @@ Evidensen er dog begrænset og delvist modstridende. Den består af ét lille ti
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101406290 | Eldepryl (Orion Corporation) | Tabletter | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101406290 | Eldepryl | tabletter | SELEGILINHYDROCHLORID | Gyldig |
+| 28101143283 | Eldepryl | tabletter | SELEGILINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

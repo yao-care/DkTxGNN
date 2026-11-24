@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 685
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Primidone: forudsagt ny indikation Trigeminusnervetumor (trigeminal nerve neoplasm) (evidensniveau L5). Oprindelig indikation: Epilepsi"
 monitor_inn: "primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -96,9 +96,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for trig
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100744776 | Primidon "Orifarm" (Orifarm Generics A/S) | Tabletter (oral anvendelse) | Indikationstekst ikke tilgængelig i de samlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107256524 | Primidon "Afortas" | tabletter | PRIMIDONUM | Gyldig |
+| 28107256624 | Primidon "Afortas" | tabletter | PRIMIDONUM | Gyldig |
+| 28107256224 | Primidon "Afortas" | tabletter | PRIMIDONUM | Gyldig |
+| 28100744776 | Primidon "Orifarm" | tabletter | PRIMIDONUM | Gyldig |
+| 28100797177 | Primidon "Orifarm" | tabletter | PRIMIDONUM | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

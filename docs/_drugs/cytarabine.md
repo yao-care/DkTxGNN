@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 229
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine: forudsagt ny indikation Småcellet lungekarcinom (small cell lung carcinoma) (evidensniveau L4). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -89,10 +89,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret for småcellet lung
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105156212 | Cytarabine "Accord" | Injektions-/infusionsvæske, opløsning | Ikke angivet |
-| 28106031517 | Vyxeos Liposomal | Pulver til koncentrat til infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104866911 | Cytarabin "Fresenius Kabi" | injektions-/infusionsvæske, opløsning | CYTARABIN | Gyldig |
+| 28105156212 | Cytarabine "Accord" | injektions-/infusionsvæske, opløsning | CYTARABIN | Gyldig |
+| 28105906516 | Cytarabine "Accord" | injektions-/infusionsvæske, opløsning | CYTARABIN | Gyldig |
+| 28101591194 | Cytarabine "Pfizer" | injektions-/infusionsvæske, opløsning | CYTARABIN | Gyldig |
+| 28106031517 | Vyxeos Liposomal | pulver til koncentrat til infusionsvæske, opløsning | CYTARABIN, DAUNORUBICINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

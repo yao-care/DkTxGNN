@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 description: "Eptifibatide: forudsagt ny indikation Rheumatoid arthritis (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -101,9 +101,18 @@ Evidensen gælder hovedsagelig seglcelleanæmi og ikke alle hæmoglobinopatier. 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105546414 | Eptifibatide "Accord" (Accord Healthcare S.L.U.) | Infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105546414 | Eptifibatide "Accord" | infusionsvæske, opløsning | EPTIFIBATID | Gyldig |
+| 28105546514 | Eptifibatide "Accord" | injektionsvæske, opløsning | EPTIFIBATID | Gyldig |
+| 28107363625 | Eptifibatide "Ctruz" | infusionsvæske, opløsning | EPTIFIBATID | Gyldig |
+| 28107363725 | Eptifibatide "Ctruz" | injektionsvæske, opløsning | EPTIFIBATID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

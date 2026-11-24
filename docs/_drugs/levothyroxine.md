@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: forudsagt ny indikation Renal hypodysplasi/aplasi (evidensniveau L5). Oprindelig indikation: Hypothyreose"
 ---
 
@@ -84,9 +84,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100020455 | Eltroxin (Aspen Pharma Trading Ltd.) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100020455 | Eltroxin | tabletter | LEVOTHYROXINNATRIUM | Gyldig |
+| 28105398114 | Eltroxin | tabletter | LEVOTHYROXINNATRIUM | Gyldig |
+| 28101006679 | Eltroxin | tabletter | LEVOTHYROXINNATRIUM | Gyldig |
+| 28103222601 | Euthyrox | tabletter | LEVOTHYROXINNATRIUM | Gyldig |
+| 28107128924 | Euthyrox | tabletter | LEVOTHYROXINNATRIUM | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 15 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

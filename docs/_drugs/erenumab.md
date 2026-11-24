@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 321
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Erenumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,18 @@ Alle kandidater, som TxGNN-modellen har produceret for Erenumab, og som kan spor
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106151018 | Aimovig | injektionsvæske, opløsning i fyldt injek | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106151018 | Aimovig | injektionsvæske, opløsning i fyldt injektionssprøjte | Erenumab | Gyldig |
+| 28105961917 | Aimovig | injektionsvæske, opløsning i fyldt injektionssprøjte | Erenumab | Gyldig |
+| 28106151118 | Aimovig | injektionsvæske, opløsning i fyldt pen | Erenumab | Gyldig |
+| 28105962017 | Aimovig | injektionsvæske, opløsning i fyldt pen | Erenumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

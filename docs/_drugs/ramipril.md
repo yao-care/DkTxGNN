@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ramipril: forudsagt ny indikation Pulmonary hypertension with unclear multifactorial mechanism (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -70,9 +70,19 @@ Der er i øjeblikket ingen relateret litteratur for den forudsagte indikation.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103931806 | Alarimed | Tabletter | Ingen indikationstekst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103931806 | Alarimed | tabletter | RAMIPRIL | Gyldig |
+| 28103931606 | Alarimed | tabletter | RAMIPRIL | Gyldig |
+| 28103931706 | Alarimed | tabletter | RAMIPRIL | Gyldig |
+| 28103690504 | Polpril | kapsler, hårde | RAMIPRIL | Gyldig |
+| 28103690304 | Polpril | kapsler, hårde | RAMIPRIL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Antal godkendelser: mindst 20 nationale tilladelser (enkeltstof, gyldige). Producent: Zaktady Farmaceutyczne POLPHARMA. Administrationsvej: oral.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbimazole"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbimazole: forudsagt ny indikation Resistens over for thyreoideahormon på grund af mutation i thyreoideahormonreceptor beta (resistance to thyroid hormone… (evidensniveau L5). Oprindelig indikation…"
 ---
 
@@ -72,9 +72,15 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100096555 | Neo-mercazole | Overtrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100096555 | Neo-mercazole | overtrukne tabletter | CARBIMAZOL | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 619
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Oxygen: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Oxygen
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103926106 | Conoxia 100 % | medicinsk gas, komprimeret | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103926106 | Conoxia 100 % | medicinsk gas, komprimeret | Oxygen | Gyldig |
+| 28103926006 | Conoxia 100 % | medicinsk gas, kryogen | Oxygen | Gyldig |
+| 28104922511 | Medicinsk Oxygen "Air Liquide" 100 % | medicinsk gas, komprimeret | Oxygen | Gyldig |
+| 28104286008 | Medicinsk Oxygen "Air Liquide" 100 % | medicinsk gas, kryogen | Oxygen | Gyldig |
+| 28104267408 | Medicinsk Oxygen "Strandmøllen" | medicinsk gas, komprimeret | Oxygen | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

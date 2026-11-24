@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: forudsagt ny indikation Follikulært lymfom (evidensniveau L2). Oprindelig indikation: Relation registreret i videngrafen: akut lymfoblastær leukæmi og Rich…"
 ---
 
@@ -102,9 +102,16 @@ Bemærk, at den danske tilladelse i dataene (Kesimpta, injektionssprøjte) ikke 
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106389420 | Kesimpta (Novartis Europharm Limited) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106389420 | Kesimpta | injektionsvæske, opløsning i fyldt injektionssprøjte | Ofatumumab | Gyldig |
+| 28106389520 | Kesimpta | injektionsvæske, opløsning i fyldt pen | Ofatumumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

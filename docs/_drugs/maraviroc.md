@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Maraviroc: forudsagt ny indikation Multipel endokrin neoplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (godkendelsens indikationstekst e…"
 ---
 
@@ -80,9 +80,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig for multipel endokrin neo
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104060706 | Celsentri | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104060706 | Celsentri | filmovertrukne tabletter | Maraviroc | Gyldig |
+| 28105815716 | Celsentri | filmovertrukne tabletter | Maraviroc | Gyldig |
+| 28104060806 | Celsentri | filmovertrukne tabletter | Maraviroc | Gyldig |
+| 28105815816 | Celsentri | filmovertrukne tabletter | Maraviroc | Gyldig |
+| 28105815916 | Celsentri | oral opløsning | Maraviroc | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Indehaver: Viiv Healthcare BV. Administrationsvej: oral.
 

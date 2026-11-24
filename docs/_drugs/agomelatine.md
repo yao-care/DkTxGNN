@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Agomelatine: forudsagt ny indikation Benign paroksysmal torticollis i spædbarnsalderen (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de loka…"
 ---
 
@@ -68,9 +68,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for den forudsagte 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105949617 | Agomelatin "Glenmark" | Filmovertrukne tabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105949617 | Agomelatin "Glenmark" | filmovertrukne tabletter | Agomelatin | Gyldig |
+| 28105923317 | Agomelatin "Mylan" | filmovertrukne tabletter | Agomelatin | Gyldig |
+| 28105923417 | Agomelatin "Stada" | filmovertrukne tabletter | Agomelatin | Gyldig |
+| 28104219507 | Valdoxan | filmovertrukne tabletter | Agomelatin | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Produktet er et enkeltstofpræparat til oral anvendelse, og tilladelsen er gyldig.
 

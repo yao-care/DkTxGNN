@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 513
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "lumacaftor"
 predicted_indications: ["leprosy"]
 description: "Lumacaftor: forudsagt ny indikation Spedalskhed (leprosy) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -72,9 +72,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105924017 | Orkambi (Vertex Pharmaceuticals (Ireland) Limited) | Filmovertrukne tabletter | Indikationstekst ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105924017 | Orkambi | filmovertrukne tabletter | Ivacaftor, lumacaftor | Gyldig |
+| 28105543214 | Orkambi | filmovertrukne tabletter | Ivacaftor, lumacaftor | Gyldig |
+| 28106088710 | Orkambi | granulat i brev | Ivacaftor, lumacaftor | Gyldig |
+| 28106088818 | Orkambi | granulat i brev | Ivacaftor, lumacaftor | Gyldig |
+| 28106792122 | Orkambi | granulat i brev | Ivacaftor, lumacaftor | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 639
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Peginterferon Beta-1A: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Modellens kandidater for dette lægemiddel er alle kendte anvendelser, så der e
 
 ## Markedsinformation for Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105301713 | Plegridy | injektionsvæske, opløsning i fyldt injek | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105301713 | Plegridy | injektionsvæske, opløsning i fyldt injektionssprøjte | peginterferon beta-1a | Gyldig |
+| 28106407820 | Plegridy | injektionsvæske, opløsning i fyldt injektionssprøjte | peginterferon beta-1a | Gyldig |
+| 28105301513 | Plegridy | injektionsvæske, opløsning i fyldt injektionssprøjte | peginterferon beta-1a | Gyldig |
+| 28105302013 | Plegridy | injektionsvæske, opløsning i fyldt pen | peginterferon beta-1a | Gyldig |
+| 28105301813 | Plegridy | injektionsvæske, opløsning i fyldt pen | peginterferon beta-1a | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

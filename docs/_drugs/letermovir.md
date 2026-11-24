@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Letermovir"
 predicted_indications: ["vulvovaginal candidiasis"]
 description: "Letermovir: forudsagt ny indikation Vulvovaginal candidiasis (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -60,7 +60,6 @@ Letermovir er et antiviralt middel, der oprindeligt anvendes mod **cytomegalovir
 
 De data, der er indsamlet til denne rapport, indeholder ingen detaljeret beskrivelse af virkningsmekanismen. Letermovir er dog kendt for at hæmme CMV's DNA-terminasekompleks (pUL56/UL89/UL51). Dette kompleks er specifikt for herpesvira og har ingen kendt modpart i *Candida*-arter, som er svampe.
 
-
 Øvrige forudsagte indikationer følger samme mønster:
 
 | Forudsagt indikation | Score | Vurdering |
@@ -92,9 +91,18 @@ De rapporterer ikke antifungal effekt. Udvalgte eksempler:
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105938917 | Prevymis (Merck Sharp & Dohme B.V.) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105938917 | Prevymis | filmovertrukne tabletter | Letermovir | Gyldig |
+| 28105939017 | Prevymis | filmovertrukne tabletter | Letermovir | Gyldig |
+| 28105950017 | Prevymis | koncentrat til infusionsvæske, opløsning | Letermovir | Gyldig |
+| 28105950117 | Prevymis | koncentrat til infusionsvæske, opløsning | Letermovir | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

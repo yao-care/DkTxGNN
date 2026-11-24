@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: forudsagt ny indikation Nervøs lidelse (neurotic disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -70,9 +70,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105175112 | Brintellix (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105175112 | Brintellix | filmovertrukne tabletter | Vortioxetinhydrobromid | Gyldig |
+| 28105175212 | Brintellix | filmovertrukne tabletter | Vortioxetinhydrobromid | Gyldig |
+| 28105175312 | Brintellix | filmovertrukne tabletter | Vortioxetinhydrobromid | Gyldig |
+| 28105175012 | Brintellix | filmovertrukne tabletter | Vortioxetinhydrobromid | Gyldig |
+| 28106748922 | Broxeltia | filmovertrukne tabletter | Vortioxetinhydrobromid | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Producent: H. Lundbeck A/S. Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
 

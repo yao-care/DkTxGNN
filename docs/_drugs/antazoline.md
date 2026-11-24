@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "antazoline"
 predicted_indications: ["recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "nasal cavity disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Antazoline: forudsagt ny indikation Behandlingsresistent atopisk dermatitis (recalcitrant atopic dermatitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 0)"
 ---
 
@@ -74,9 +74,15 @@ Der foreligger i øjeblikket ingen relevant litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100546168 | Antistina-privin | Øjendråber, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100546168 | Antistina-privin | øjendråber, opløsning | ANTAZOLINSULFAT, NAPHAZOLINNITRAT | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

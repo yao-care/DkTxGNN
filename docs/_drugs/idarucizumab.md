@@ -5,7 +5,7 @@ layout: default
 title: Idarucizumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 421
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Idarucizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Idarucizumab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105566415 | Praxbind (Boehringer Ingelheim Int. GmbH) | Injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105566415 | Praxbind | injektions-/infusionsvæske, opløsning | Idarucizumab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

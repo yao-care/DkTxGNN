@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Valsartan: forudsagt ny indikation Malign hypertensiv nyresygdom (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret for denne ind
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106321219 | Daratekan | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i den lokale registrering |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106321219 | Daratekan | filmovertrukne tabletter | VALSARTAN | Gyldig |
+| 28104683110 | Diovan | oral opløsning | VALSARTAN | Gyldig |
+| 28103954106 | ValHelen | filmovertrukne tabletter | VALSARTAN | Gyldig |
+| 28103953906 | ValHelen | filmovertrukne tabletter | VALSARTAN | Gyldig |
+| 28103954006 | ValHelen | filmovertrukne tabletter | VALSARTAN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er en national tilladelse for et enkeltstofpræparat (producent: 2care4 ApS), og den er gyldig.
 

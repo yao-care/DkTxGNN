@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -70,9 +70,21 @@ Der findes i øjeblikket ingen relateret litteratur.
 
 Status på det danske marked er **på markedet**. Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat.
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101336988 | Medrol (Pfizer ApS) | Tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100323959 | Depo-Medrol | injektionsvæske, suspension | METHYLPREDNISOLONACETAT | Gyldig |
+| 28104754210 | Depo-Medrol | injektionsvæske, suspension | METHYLPREDNISOLONACETAT | Gyldig |
+| 28104915711 | Depo-Medrol | injektionsvæske, suspension | METHYLPREDNISOLONACETAT | Gyldig |
+| 28105981417 | Depo-Medrol | injektionsvæske, suspension | METHYLPREDNISOLONACETAT | Gyldig |
+| 28101336988 | Medrol | tabletter | METHYLPREDNISOLON | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Tabletterne gives gennem munden (oral administration). Der er ikke fundet godkendelser til andre administrationsveje i de lokale data.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Candesartan Cilexetil: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -79,6 +79,20 @@ Der er i øjeblikket ingen relevant litteratur, som direkte undersøger candesar
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101897497 | Atacand | tabletter | CANDESARTANCILEXETIL | Gyldig |
+| 28103649304 | Atacand | tabletter | CANDESARTANCILEXETIL | Gyldig |
+| 28101897297 | Atacand | tabletter | CANDESARTANCILEXETIL | Gyldig |
+| 28101897397 | Atacand | tabletter | CANDESARTANCILEXETIL | Gyldig |
+| 28104133607 | Candemox | tabletter | CANDESARTANCILEXETIL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Candesartancilexetil er markedsført i Danmark som orale tabletter. Alle registrerede markedsføringstilladelser er gyldige, og ingen er annulleret. Tilladelsesoplysningerne indeholder ingen indikationstekst.
 

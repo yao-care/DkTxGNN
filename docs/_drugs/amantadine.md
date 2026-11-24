@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amantadine: forudsagt ny indikation Rasmussen subakut encephalitis (Rasmussen subacute encephalitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -68,9 +68,17 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig for Rasm
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106284419 | Dinetrel | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107290324 | Amypha | kapsler, hårde | AMANTADINHYDROCHLORID | Gyldig |
+| 28106284419 | Dinetrel | kapsler, hårde | AMANTADINHYDROCHLORID | Gyldig |
+| 28107193024 | Parkadin | kapsler, hårde | AMANTADINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

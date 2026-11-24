@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: forudsagt ny indikation Dermatofibrosarcoma protuberans (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -84,9 +84,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106884522 | Nintedanib Accord (Accord Healthcare S.L.U.) | Bløde kapsler | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107473425 | Nintedanib "Bioglan" | kapsler, bløde | Nintedanibesilat | Gyldig |
+| 28107473525 | Nintedanib "Bioglan" | kapsler, bløde | Nintedanibesilat | Gyldig |
+| 28107092123 | Nintedanib "Glenmark" | kapsler, bløde | Nintedanibesilat | Gyldig |
+| 28107092223 | Nintedanib "Glenmark" | kapsler, bløde | Nintedanibesilat | Gyldig |
+| 28106878622 | Nintedanib "Newbury" | kapsler, bløde | Nintedanibesilat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

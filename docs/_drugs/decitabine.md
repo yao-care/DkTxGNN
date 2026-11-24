@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
 description: "Decitabine: forudsagt ny indikation Refraktær cytopeni hos børn (refractory cytopenia of childhood) (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -85,10 +85,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104932011 | Dacogen (Janssen-Cilag International NV) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet |
-| 28106813422 | Inaqovi (Otsuka Pharmaceutical Netherlands B.V.) | Filmovertrukne tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104932011 | Dacogen | pulver til koncentrat til infusionsvæske, opløsning | DECITABIN | Gyldig |
+| 28107261224 | Decitabin "Teva" | pulver til koncentrat til infusionsvæske, opløsning | DECITABIN | Gyldig |
+| 28107253424 | Decitabine "Ever Pharma" | pulver til koncentrat til infusionsvæske, opløsning | DECITABIN | Gyldig |
+| 28107253924 | Decitabine "Sandoz" | pulver til koncentrat til infusionsvæske, opløsning | DECITABIN | Gyldig |
+| 28106813422 | Inaqovi | filmovertrukne tabletter | Cedazuridin, DECITABIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

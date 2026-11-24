@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: forudsagt ny indikation Manic bipolar affective disorder (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -88,9 +88,19 @@ Derudover er det foreslået, at lacosamid via CRMP2 hæmmer frigivelsen af CGRP 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106763022 | Lacosamid Adroiq (Extrovis EU Kft.) | Infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106894723 | Lacosamid "Opko" | filmovertrukne tabletter | Lacosamid | Gyldig |
+| 28106504120 | Lacosamid "Viatris" | filmovertrukne tabletter | Lacosamid | Gyldig |
+| 28106504220 | Lacosamid "Viatris" | filmovertrukne tabletter | Lacosamid | Gyldig |
+| 28106504320 | Lacosamid "Viatris" | filmovertrukne tabletter | Lacosamid | Gyldig |
+| 28106504020 | Lacosamid "Viatris" | filmovertrukne tabletter | Lacosamid | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

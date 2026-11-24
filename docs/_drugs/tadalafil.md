@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tadalafil: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Relationer registreret i vidensgrafen: benign prostatahyperplasi…"
 ---
 
@@ -84,9 +84,19 @@ Bemærk, at der for en anden lavt rangeret forudsigelse (migræne med hjernestam
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104351408 | Adcirca | Filmovertrukne tabletter | Ingen indikationstekst tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104351408 | Adcirca | filmovertrukne tabletter | TADALAFIL | Gyldig |
+| 28106738821 | Adcirca | oral suspension | TADALAFIL | Gyldig |
+| 28103464501 | Cialis | filmovertrukne tabletter | TADALAFIL | Gyldig |
+| 28103274801 | Cialis | filmovertrukne tabletter | TADALAFIL | Gyldig |
+| 28104084207 | Cialis | filmovertrukne tabletter | TADALAFIL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofstilladelse (nationalt registreret), indehaver: Eli Lilly Netherland B.V. Listen er komplet.
 

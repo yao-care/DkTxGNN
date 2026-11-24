@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Remimazolam: forudsagt ny indikation Insomni (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de tilgængelige data (godkendt indikationstekst er tom…"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -82,9 +82,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106366919 | Byfavo (PAION Netherlands B.V.) | Pulver til injektionsvæske, opløsning | Indikationstekst er ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106366919 | Byfavo | pulver til injektionsvæske, opløsning | Remimazolambesilat | Gyldig |
+| 28106740221 | Byfavo | pulver til koncentrat til injektions-/infusionsvæske, opløs… | Remimazolambesilat | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

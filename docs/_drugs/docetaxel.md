@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: forudsagt ny indikation Ewing-sarkom (Ewing sarcoma) (evidensniveau L2). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
@@ -81,9 +81,19 @@ Ewing-sarkom er en meget proliferativ tumor, så en antimitotisk effekt er biolo
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105087411 | Docetaxel "Accord" (Accord Healthcare S.L.U.) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105087411 | Docetaxel "Accord" | koncentrat til infusionsvæske, opløsning | DOCETAXEL | Gyldig |
+| 28104931911 | Docetaxel "Accord" | koncentrat til infusionsvæske, opløsning | DOCETAXEL | Gyldig |
+| 28105087311 | Docetaxel "Accord" | koncentrat til infusionsvæske, opløsning | DOCETAXEL | Gyldig |
+| 28104400908 | Docetaxel "Ebewe" | koncentrat til infusionsvæske, opløsning | DOCETAXEL | Gyldig |
+| 28105087511 | Docetaxel "Kabi" | koncentrat til infusionsvæske, opløsning | DOCETAXEL | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

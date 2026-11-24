@@ -3,7 +3,7 @@ layout: default
 title: Voclosporin
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 890
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Voclosporin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Voclos
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106649721 | Lupkynis | kapsler, bløde | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106649721 | Lupkynis | kapsler, bløde | Voclosporin | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 
@@ -84,7 +90,6 @@ Voclosporin er en immunsuppressiv calcineurinhæmmer og ikke et antineoplastisk 
 ## Sikkerhedsovervejelser
 
 Der er ikke tilgængelige data om advarsler og kontraindikationer i de data, der er indsamlet til rapporten. Den eneste registrerede interaktion er stoffets farmakologiske binding til målproteinet cyclophilin A (PPIA), hvilket ikke er en klinisk lægemiddelinteraktion.
-
 
 Se i øvrigt det godkendte produktresumé (SmPC) for fuldstændige sikkerhedsoplysninger.
 

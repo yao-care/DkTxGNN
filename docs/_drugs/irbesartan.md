@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-24
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: forudsagt ny indikation Malign hypertensiv nyresygdom (malignant hypertensive renal disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -117,9 +117,19 @@ Ingen af studierne viser en lungekar- eller pulmonal hypertensionseffekt hos men
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103570403 | Aprovel (Sanofi Winthrop Industrie) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103570403 | Aprovel | filmovertrukne tabletter | IRBESARTAN | Gyldig |
+| 28103570503 | Aprovel | filmovertrukne tabletter | IRBESARTAN | Gyldig |
+| 28103570303 | Aprovel | filmovertrukne tabletter | IRBESARTAN | Gyldig |
+| 28101838196 | Aprovel | tabletter | IRBESARTAN | Gyldig |
+| 28101838296 | Aprovel | tabletter | IRBESARTAN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

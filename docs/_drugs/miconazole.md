@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 550
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miconazole: forudsagt ny indikation Akne (evidensniveau L4). Oprindelig indikation: Svampeinfektioner i hud og slimhinder (fodsvamp, tinea corporis…"
 monitor_inn: "miconazole"
 predicted_indications: ["acne (disease)"]
@@ -92,9 +92,18 @@ Ingen af publikationerne er et randomiseret kontrolleret forsøg med miconazol v
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100952977 | Brentan (McNeil Denmark ApS) | Mundhulegel | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100583770 | Brentan | creme | MICONAZOLNITRAT | Gyldig |
+| 28100952977 | Brentan | mundhulegel | MICONAZOL | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

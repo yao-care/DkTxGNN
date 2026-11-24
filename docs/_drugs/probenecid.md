@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 686
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: forudsagt ny indikation Renal hypouricæmi (hypouricemia, renal) (evidensniveau L4). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -99,9 +99,15 @@ For Lesch-Nyhans syndrom er der kun to indirekte publikationer (en beregningsmod
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100744876 | Probenecid "Medic" (Viatris ApS) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100744876 | Probenecid "Medic" | tabletter | PROBENECID | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

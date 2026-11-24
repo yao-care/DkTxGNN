@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 777
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -95,9 +95,18 @@ Størstedelen af litteraturen er gammel (1986-1991) og baseret på små material
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107042523 | Ampicillin/Sulbactam "Aptapharma" (Apta Medica Internacional d.o.o.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107042523 | Ampicillin/Sulbactam "Aptapharma" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM, SULBACTAMNATRIUM | Gyldig |
+| 28107042623 | Ampicillin/Sulbactam "Aptapharma" | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM, SULBACTAMNATRIUM | Gyldig |
+| 28107682526 | Ampicillin/Sulbactam AptaPharma | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM, SULBACTAMNATRIUM | Gyldig |
+| 28107681626 | Ampicillin/Sulbactam AptaPharma | pulver til injektions-/infusionsvæske, opløsning | AMPICILLINNATRIUM, SULBACTAMNATRIUM | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

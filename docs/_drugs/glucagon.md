@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: forudsagt ny indikation Irritabel tyktarm (irritable bowel syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
@@ -84,9 +84,19 @@ Ingen publikationer undersøger glucagon ved irritabel tyktarm; de nedenstående
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106149818 | Baqsimi | Nasalt pulver i enkeltdosisbeholder | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106149818 | Baqsimi | nasal pulver i enkeltdosisbeholder | GLUCAGON | Gyldig |
+| 28100410862 | GlucaGen | pulver og solvens til injektionsvæske, opløsning | GLUCAGONHYDROCHLORID | Gyldig |
+| 28105097612 | GlucaGen Hypokit | pulver og solvens til injektionsvæske, opløsning | GLUCAGON | Gyldig |
+| 28105625715 | GlucaGen Hypokit | pulver og solvens til injektionsvæske, opløsning | GLUCAGONHYDROCHLORID | Gyldig |
+| 28106368619 | Ogluo | injektionsvæske, opløsning i fyldt injektionssprøjte | GLUCAGON | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

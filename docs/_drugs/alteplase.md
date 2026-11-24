@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alteplase: forudsagt ny indikation Heparin-cofaktor 2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
@@ -68,9 +68,15 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for Heparin-cofak
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101415990 | Actilyse | Pulver og solvens til injektions-/infusionsvæske, opløsning | Ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101415990 | Actilyse | pulver og solvens til injektions- /infusionsvæske, opløsning | ALTEPLASE | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Tilladelsen er national (Lægemiddelstyrelsen), og indehaveren er Boehringer Ingelheim Int. GmbH. Tilladelsen er gyldig.
 

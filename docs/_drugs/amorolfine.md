@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Amorolfine: forudsagt ny indikation Lægemiddelinduceret osteoporose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (kendt anvendelse:…"
 monitor_inn: "amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -74,9 +74,17 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104645610 | Finail (Orifarm Generics A/S) | Medicinsk neglelak | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104645610 | Finail | medicinsk neglelak | Amorolfinhydrochlorid | Gyldig |
+| 28101410090 | Loceryl | medicinsk neglelak | Amorolfinhydrochlorid | Gyldig |
+| 28106627821 | Loceryl | medicinsk neglelak | Amorolfinhydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

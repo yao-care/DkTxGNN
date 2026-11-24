@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -74,9 +74,19 @@ Sammenhængen til migræne er indirekte. En mulig hypotese er, at migræne med a
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106803222 | Apinovia (Innovis Pharma S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106803222 | Apinovia | filmovertrukne tabletter | Apixaban | Gyldig |
+| 28106803322 | Apinovia | filmovertrukne tabletter | Apixaban | Gyldig |
+| 28106288619 | Apixaban "Accord" | filmovertrukne tabletter | Apixaban | Gyldig |
+| 28106288719 | Apixaban "Accord" | filmovertrukne tabletter | Apixaban | Gyldig |
+| 28107646126 | Apixaban "Alembic" | filmovertrukne tabletter | Apixaban | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Lægemidlet markedsføres i Danmark med mindst 20 gyldige tilladelser for enkeltstofpræparater (administrationsvej: oral).
 

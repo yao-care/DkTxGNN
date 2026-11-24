@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Aflibercept: forudsagt ny indikation Esotropi (esotropia) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -69,9 +69,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107330825 | Afiveg | Injektionsvæske, opløsning, hætteglas | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107330825 | Afiveg | injektionsvæske, opløsning, hætteglas | Aflibercept | Gyldig |
+| 28107330725 | Afiveg | injektionsvæske, opløsning i fyldt injektionssprøjte | Aflibercept | Gyldig |
+| 28107032123 | Afqlir | injektionsvæske, opløsning, hætteglas | Aflibercept | Gyldig |
+| 28107032023 | Afqlir | injektionsvæske, opløsning i fyldt injektionssprøjte | Aflibercept | Gyldig |
+| 28107168424 | Ahzantive | injektionsvæske, opløsning, hætteglas | Aflibercept | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

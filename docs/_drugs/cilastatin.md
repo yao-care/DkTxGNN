@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilastatin: forudsagt ny indikation Staphylococcus aureus-infektion (staphylococcus aureus infection) (evidensniveau L3). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -81,10 +81,17 @@ Forudsigelsen afspejler således kombinationspartneren: Imipenem/cilastatin er e
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106430220 | Andatin | Pulver til infusionsvæske, opløsning | – |
-| 28106192418 | Recarbrio | Pulver til infusionsvæske, opløsning | – |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106430220 | Andatin | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat | Gyldig |
+| 28107312425 | Imipenem/Cilastatin "Noridem" | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat | Gyldig |
+| 28106192418 | Recarbrio | pulver til infusionsvæske, opløsning | Cilastatinnatrium, Imipenemmonohydrat, Relebactammonohydrat | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

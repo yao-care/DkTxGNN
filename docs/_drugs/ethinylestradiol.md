@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -81,13 +81,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105109612 | Anastrella | Filmovertrukne tabletter | Ikke angivet |
-| 28104494109 | Daisynelle | Tabletter | Ikke angivet |
-| 28103842705 | Vreya | Overtrukne tabletter | Ikke angivet |
-| 28106259819 | Amorina | Tabletter | Ikke angivet |
-| 28104614709 | Celia | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106259819 | Amorina | tabletter | Ethinylestradiol, NORGESTIMAT | Gyldig |
+| 28105109612 | Anastrella | filmovertrukne tabletter | Ethinylestradiol, LEVONORGESTREL | Gyldig |
+| 28105109712 | Anastrella 28 | filmovertrukne tabletter | Ethinylestradiol, LEVONORGESTREL | Gyldig |
+| 28105051112 | Asubtela | filmovertrukne tabletter | DROSPIRENON, Ethinylestradiol | Gyldig |
+| 28104614709 | Celia | filmovertrukne tabletter | Ethinylestradiol, GESTODEN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der findes mindst 20 gyldige tilladelser (alle kombinationspræparater). Yderligere produkter omfatter Evra (depotplaster), NuvaRing (vaginalindlæg), Kelzyn (depottabletter) og Asubtela (filmovertrukne tabletter).
 

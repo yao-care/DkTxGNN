@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pemetrexed: forudsagt ny indikation Pleural adenomatoid tumor (evidensniveau L5). I Danmark, markedsføringstilladelser: 19 (gyldige: 19)"
 ---
 
@@ -99,11 +99,21 @@ Titlerne er delvist forkortede, og for flere artikler var abstracts ikke tilgæn
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105579315 | Armisarte (Actavis Group PTC ehf.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103558203 | Alimta | pulver til koncentrat til infusionsvæske, opløsning | Pemetrexeddinatrium | Gyldig |
+| 28105579315 | Armisarte | koncentrat til infusionsvæske, opløsning | Pemetrexed | Gyldig |
+| 28105527014 | Pemetrexed "Accord" | pulver til koncentrat til infusionsvæske, opløsning | Pemetrexed | Gyldig |
+| 28105526814 | Pemetrexed "Accord" | pulver til koncentrat til infusionsvæske, opløsning | Pemetrexed | Gyldig |
+| 28105526914 | Pemetrexed "Accord" | pulver til koncentrat til infusionsvæske, opløsning | Pemetrexed | Gyldig |
+
+Tabellen viser 5 af 19 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-pemetrexed-1 -->
 
@@ -159,7 +169,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal tilladelser: 1 national tilladelse (enkeltstof, gyldig).” → “Antal tilladelser: 19 nationale tilladelser (enkeltstof, gyldige).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->

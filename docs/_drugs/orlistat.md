@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Orlistat: forudsagt ny indikation Hypervitaminose (evidensniveau L5). Oprindelig indikation: Fedme (obesity disorder) og monogen fedme. Den danske autorisation in…"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104222107 | alli (Glaxo Group Ltd) | Kapsler, hårde | Ingen indikationstekst registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106770322 | Orlistat "Accord" | kapsler, hårde | ORLISTAT | Gyldig |
+| 28104886711 | Orlistat "Rivopharm" | kapsler, hårde | ORLISTAT | Gyldig |
+| 28104886611 | Orlistat "Rivopharm" | kapsler, hårde | ORLISTAT | Gyldig |
+| 28104551809 | Orlistat "Sandoz" | kapsler, hårde | ORLISTAT | Gyldig |
+| 28104611209 | Orlistat "Teva" | kapsler, hårde | ORLISTAT | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

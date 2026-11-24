@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxime: forudsagt ny indikation hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 16 (gyldige: 16)"
 ---
 
@@ -78,13 +78,21 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig for denne indikation
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104096707 | Cefuroxim "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | – |
-| 28104894011 | Aprokam | Pulver til injektionsvæske, opløsning | – |
-| 28103323601 | Cefudoc | Filmovertrukne tabletter | – |
+<!-- licenses:begin -->
 
-Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste aktive stof.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104894011 | Aprokam | pulver til injektionsvæske, opløsning | CEFUROXIMNATRIUM | Gyldig |
+| 28103323601 | Cefudoc | filmovertrukne tabletter | CEFUROXIMAXETIL | Gyldig |
+| 28103323701 | Cefudoc | filmovertrukne tabletter | CEFUROXIMAXETIL | Gyldig |
+| 28107497825 | Cefurax | filmovertrukne tabletter | CEFUROXIMAXETIL | Gyldig |
+| 28105204112 | Cefuroxim "B. Braun" | pulver og solvens til infusionsvæske, opløsning | CEFUROXIMNATRIUM | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne omfatter præparater med cefuroxim som eneste aktive stof; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-cefuroxime-1 -->
 
@@ -126,7 +134,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste a” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle tre tilladelser er gyldige og omfatter præparater med cefuroxim som eneste ” → “Alle 16 tilladelser er gyldige og omfatter præparater med cefuroxim som eneste a” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->

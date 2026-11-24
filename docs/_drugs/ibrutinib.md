@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 417
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ibrutinib: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -81,9 +81,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Ibruti
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105995017 | Imbruvica | filmovertrukne tabletter | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105995017 | Imbruvica | filmovertrukne tabletter | Ibrutinib | Gyldig |
+| 28105995117 | Imbruvica | filmovertrukne tabletter | Ibrutinib | Gyldig |
+| 28105995217 | Imbruvica | filmovertrukne tabletter | Ibrutinib | Gyldig |
+| 28105995317 | Imbruvica | filmovertrukne tabletter | Ibrutinib | Gyldig |
+| 28105327813 | Imbruvica | kapsler, hårde | Ibrutinib | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

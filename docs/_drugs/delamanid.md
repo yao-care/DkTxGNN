@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Delamanid"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Delamanid: forudsagt ny indikation Allergisk urticaria (evidensniveau L5). Oprindelig indikation: Multiresistent tuberkulose"
 ---
 
@@ -85,11 +85,18 @@ Den eneste identificerede publikation omhandler ikke delamanid, men en anden læ
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106493520 | Deltyba (Otsuka Novel Products GmbH) | Dispergible tabletter | Indikationstekst ikke tilgængelig i de foreliggende data |
+<!-- licenses:begin -->
 
-Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral anvendelse.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106493520 | Deltyba | dispergible tabletter | Delamanid | Gyldig |
+| 28105032811 | Deltyba | filmovertrukne tabletter | Delamanid | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater til oral anvendelse; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-delamanid-1 -->
 
@@ -133,7 +140,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral ” → “Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om én gyldig national tilladelse for et enkeltstofpræparat til oral ” → “Der er tale om 2 gyldige nationale tilladelser for enkeltstofpræparater til oral” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

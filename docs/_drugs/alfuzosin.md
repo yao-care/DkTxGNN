@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Alfuzosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -92,9 +92,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107468225 | Alfuzosinhydrochlorid "2care4" (2care4 ApS) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105679815 | Alfuzosin "Orion" | depottabletter | ALFUZOSINHYDROCHLORID | Gyldig |
+| 28105679715 | Alfuzosin "Orion" | filmovertrukne tabletter | ALFUZOSINHYDROCHLORID | Gyldig |
+| 28103846505 | Alfuzosin "Sandoz" | depottabletter | ALFUZOSINHYDROCHLORID | Gyldig |
+| 28103845905 | Alfuzosin "Stada" | depottabletter | ALFUZOSINHYDROCHLORID | Gyldig |
+| 28103473003 | Alfuzosin "Teva" | depottabletter | ALFUZOSINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -94,10 +94,21 @@ Protonpumpehæmmere påvirker dog ikke direkte galde og tolvfingertarmsindhold. 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107133624 | Aciniks (2care4 ApS) | Enterokapsler, hårde | Indikationstekst ikke tilgængelig |
-| 28101875697 | Losec (CHEPLAPHARM Arzneimittel GmbH) | Enterotabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107133624 | Aciniks | enterokapsler, hårde | OMEPRAZOL | Gyldig |
+| 28107318125 | Lappoxo | oral opløsning | OMEPRAZOL | Gyldig |
+| 28107318225 | Lappoxo | oral opløsning | OMEPRAZOL | Gyldig |
+| 28101875697 | Losec | enterotabletter | Omeprazolmagnesium | Gyldig |
+| 28106852322 | Omedipram | enterokapsler, hårde | OMEPRAZOL | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 7 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fluorescein: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendelsernes indikationstekst er…"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -96,12 +96,20 @@ Ingen af disse publikationer undersøger fluorescein som behandling.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103992906 | Anatera (Alcon Nordic A/S) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28105934017 | Combiflure (Santen Oy) | Øjendråber, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige; Anatera er et enkeltstofpræparat, Combiflure et kombinationspræparat.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103992906 | Anatera | injektionsvæske, opløsning | Fluoresceinnatrium | Gyldig |
+| 28106677121 | Fluorescein Alcon | injektionsvæske, opløsning | Fluoresceinnatrium | Gyldig |
+| 28105812816 | Fluorescein Paranova | injektionsvæske, opløsning | Fluoresceinnatrium | Gyldig |
+| 28105934017 | Combiflure | øjendråber, opløsning | Fluoresceinnatrium, Oxybuprocainhydrochlorid | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Anatera er et enkeltstofpræparat, Combiflure et kombinationspræparat; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-fluorescein-1 -->
 
@@ -138,7 +146,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

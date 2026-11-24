@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomycin: forudsagt ny indikation Diffus sklerodermi (evidensniveau L5). Oprindelig indikation: Clostridium difficile-colitis"
 ---
 
@@ -84,9 +84,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103008798 | Vancocin | Kapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104655310 | Bactocin | pulver til infusionsvæske, opløsning | VANCOMYCINHYDROCHLORID | Gyldig |
+| 28104655210 | Bactocin | pulver til infusionsvæske, opløsning | VANCOMYCINHYDROCHLORID | Gyldig |
+| 28103008798 | Vancocin | kapsler, hårde | VANCOMYCIN | Gyldig |
+| 28101207685 | Vancocin | kapsler, hårde | VANCOMYCINHYDROCHLORID | Gyldig |
+| 28104526009 | Vancomycin "Fresenius Kabi" | pulver til koncentrat til infusionsvæske, opløsning | VANCOMYCINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er mindst 20 nationale tilladelser (enkeltstofpræparater, gyldige). Producent: Strides Pharma (Cyprus) Limited.
 

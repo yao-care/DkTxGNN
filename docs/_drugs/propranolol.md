@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 692
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: forudsagt ny indikation Distal myopati, Tateyama-type (distal myopathy, Tateyama type) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
@@ -81,9 +81,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur for distal myopati, T
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105255213 | Hemangiol (Pierre Fabre Dermatologie) | Oral opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105255213 | Hemangiol | oral opløsning | PROPRANOLOLHYDROCHLORID | Gyldig |
+| 28101292087 | Propal Retard | depotkapsler, hårde | PROPRANOLOLHYDROCHLORID | Gyldig |
+| 28101454291 | Propal Retard | depotkapsler, hårde | PROPRANOLOLHYDROCHLORID | Gyldig |
+| 28101100182 | Propranolol "EQL Pharma" | filmovertrukne tabletter | PROPRANOLOLHYDROCHLORID | Gyldig |
+| 28101100282 | Propranolol "EQL Pharma" | filmovertrukne tabletter | PROPRANOLOLHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

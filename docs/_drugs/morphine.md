@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: forudsagt ny indikation Myofascielt smertesyndrom (myofascial pain syndrome) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -77,9 +77,19 @@ Ingen af nedenstående studier undersøger morphin direkte ved myofascielt smert
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101164183 | Contalgin (Mundipharma A/S) | Depottabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101164183 | Contalgin | depottabletter | MORPHINSULFAT | Gyldig |
+| 28101080181 | Contalgin | depottabletter | MORPHINSULFAT | Gyldig |
+| 28101449191 | Contalgin | depottabletter | MORPHINSULFAT | Gyldig |
+| 28101102182 | Contalgin | depottabletter | MORPHINSULFAT | Gyldig |
+| 28101542193 | Contalgin | depottabletter | MORPHINSULFAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

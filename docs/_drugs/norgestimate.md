@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: forudsagt ny indikation Forhøjet plasmazink (zinc, elevated plasma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -78,9 +78,16 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106259819 | Amorina (EFFIK S.A.) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106259819 | Amorina | tabletter | Ethinylestradiol, NORGESTIMAT | Gyldig |
+| 28105999617 | Liberelle | tabletter | Ethinylestradiol, NORGESTIMAT | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og gælder et kombinationspræparat til oral anvendelse.
 

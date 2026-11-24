@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fidaxomicin: forudsagt ny indikation Stafylokok-skoldet-hud-syndrom (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: Clostridium difficile-colitis…"
 ---
 
@@ -81,11 +81,18 @@ Der er ingen litteratur, som direkte undersøger fidaxomicin ved stafylokok-skol
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104752610 | Dificlir | Filmovertrukne tabletter (oral) | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er i alt 2 gyldige tilladelser for enkeltstofpræparater. Listen er fuldstændig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104752610 | Dificlir | filmovertrukne tabletter | Fidaxomicin | Gyldig |
+| 28106225119 | Dificlir | granulat til oral suspension | Fidaxomicin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Listen er fuldstændig.
 
 <!-- review:begin dk-lic-20261112-fidaxomicin-1 -->
 
@@ -128,7 +135,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er i alt 1 gyldig tilladelse for et enkeltstofpræparat (producent: Tillotts ” → “Der er i alt 2 gyldige tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -94,9 +94,18 @@ Nedenfor er et udvalg af de mest relevante publikationer. Ingen af dem undersøg
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107265024 | Naratriptan "Ebb Medical" (Ebb Medical AB) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107265024 | Naratriptan "Ebb Medical" | filmovertrukne tabletter | NARATRIPTANHYDROCHLORID | Gyldig |
+| 28104226707 | Naratriptan "Teva" | filmovertrukne tabletter | NARATRIPTANHYDROCHLORID | Gyldig |
+| 28106990423 | Naratriptan "Teva" | filmovertrukne tabletter | NARATRIPTANHYDROCHLORID | Gyldig |
+| 28107473325 | Naxtrin | filmovertrukne tabletter | NARATRIPTANHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

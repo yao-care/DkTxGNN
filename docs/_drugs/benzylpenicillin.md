@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzylpenicillin: forudsagt ny indikation Pericoronitis (evidensniveau L5). Oprindelig indikation: Infektiøs mellemørebetændelse, streptokokinfektion…"
 monitor_inn: "benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
@@ -92,10 +92,18 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106654121 | Penicryl | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
-| 28106837822 | Benzylpenicillin "Fresenius Kabi" | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106837822 | Benzylpenicillin "Fresenius Kabi" | pulver til injektions-/infusionsvæske, opløsning | BENZYLPENICILLINNATRIUM | Gyldig |
+| 28106837522 | Benzylpenicillin "Fresenius Kabi" | pulver til injektions-/infusionsvæske, opløsning | BENZYLPENICILLINNATRIUM | Gyldig |
+
+Tabellen viser 2 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 12 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 En sjette tilladelse (Carepen Vet., intramammær suspension, 28106378619) er også gyldig, men ikke vist ovenfor. Kun de to første produkter er til human brug og injektion.
 

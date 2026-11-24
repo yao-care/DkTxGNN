@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Teprotumumab"
 predicted_indications: ["monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teprotumumab: forudsagt ny indikation Monosomi X (evidensniveau L5). Oprindelig indikation: Endokrin eksoftalmus"
 ---
 
@@ -82,9 +82,15 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107168224 | TEPEZZA (Amgen Europe BV) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107168224 | TEPEZZA | pulver til koncentrat til infusionsvæske, opløsning | Teprotumumab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

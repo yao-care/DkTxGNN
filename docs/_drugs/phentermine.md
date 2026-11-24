@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Phentermine: forudsagt ny indikation Hypervitaminose (hypervitaminosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -87,9 +87,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106316819 | Qsiva (VIVUS BV) | Kapsler med modificeret udløsning, hårde | Indikationsteksten er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106316819 | Qsiva | kapsler med modificeret udløsning, hårde | Phenterminhydrochlorid, TOPIRAMAT | Gyldig |
+| 28106316919 | Qsiva | kapsler med modificeret udløsning, hårde | Phenterminhydrochlorid, TOPIRAMAT | Gyldig |
+| 28106316619 | Qsiva | kapsler med modificeret udløsning, hårde | Phenterminhydrochlorid, TOPIRAMAT | Gyldig |
+| 28106316719 | Qsiva | kapsler med modificeret udløsning, hårde | Phenterminhydrochlorid, TOPIRAMAT | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

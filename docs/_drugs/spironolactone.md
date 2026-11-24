@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -82,13 +82,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106702821 | Qaialdo | Oral suspension | Ikke angivet |
-| 28101084681 | Spirix | Tabletter | Ikke angivet |
-| 28100996278 | Spirix | Tabletter | Ikke angivet |
-| 28101199184 | Spirix | Tabletter | Ikke angivet |
-| 28104925811 | Spiron | Tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106702821 | Qaialdo | oral suspension | SPIRONOLACTON | Gyldig |
+| 28101084681 | Spirix | tabletter | SPIRONOLACTON | Gyldig |
+| 28100996278 | Spirix | tabletter | SPIRONOLACTON | Gyldig |
+| 28101199184 | Spirix | tabletter | SPIRONOLACTON | Gyldig |
+| 28104925811 | Spiron | tabletter | SPIRONOLACTON | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og gælder enkeltstofprodukter til oral anvendelse. Bemærk, at begge produkter er tyggetabletter, og at Cardalis og Cepeloron er produkter fra producenter, der er kendt for veterinære præparater. Det bør verificeres, om tilladelserne vedrører human eller veterinær anvendelse, før de bruges som grundlag for en human indikationsvurdering.
 

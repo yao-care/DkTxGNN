@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "phenylpropanolamine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 description: "Phenylpropanolamine: forudsagt ny indikation Sygdomme i næsehulen (nasal cavity disease) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -85,6 +85,14 @@ Der er i øjeblikket ingen registrerede kliniske forsøg relateret til denne for
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Den eneste gyldige tilladelse gælder et veterinærlægemiddel til hund. Der er ikke fundet godkendte humane lægemidler med phenylpropanolamin i de data, der er indsamlet til denne rapport.
 

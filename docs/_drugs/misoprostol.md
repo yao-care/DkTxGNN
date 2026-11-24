@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Misoprostol: forudsagt ny indikation Amenoré (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -97,9 +97,19 @@ Ingen af publikationerne undersøger misoprostol som behandling af amenoré.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105745216 | Angusta (Norgine B.V.) | Tabletter (oral) | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105745216 | Angusta | tabletter | MISOPROSTOL | Gyldig |
+| 28101197884 | Cytotec | tabletter | MISOPROSTOL | Gyldig |
+| 28106799822 | Cytotec | tabletter | MISOPROSTOL | Gyldig |
+| 28107583026 | Cytotec | tabletter | MISOPROSTOL | Gyldig |
+| 28107134024 | Gyxiny | tabletter | MISOPROSTOL | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

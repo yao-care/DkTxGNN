@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: forudsagt ny indikation Heparin-cofaktor-2-mangel (heparin cofactor 2 deficiency) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
@@ -99,9 +99,16 @@ Blandt de forudsigelser, der er indsamlet til denne rapport, er det kun **migræ
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106224617 | Emgality (Eli Lilly Nederland B.V.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106224617 | Emgality | injektionsvæske, opløsning i fyldt injektionssprøjte | Galcanezumab | Gyldig |
+| 28106027717 | Emgality | injektionsvæske, opløsning i fyldt pen | Galcanezumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

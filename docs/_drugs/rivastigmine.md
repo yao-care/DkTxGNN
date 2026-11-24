@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: forudsagt ny indikation Glaukom (glaucoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -84,9 +84,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105085511 | Exelon (Novartis Europharm Limited) | Depotplaster | Indikationstekst ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105085511 | Exelon | depotplastre | RIVASTIGMIN | Gyldig |
+| 28104012606 | Exelon | depotplastre | RIVASTIGMIN | Gyldig |
+| 28104012706 | Exelon | depotplastre | RIVASTIGMIN | Gyldig |
+| 28101888097 | Exelon | kapsler, hårde | Rivastigminhydrogentartrat | Gyldig |
+| 28101888197 | Exelon | kapsler, hårde | Rivastigminhydrogentartrat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

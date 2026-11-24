@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 796
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tazobactam: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,18 +72,19 @@ TxGNN-modellens kandidater for Tazobactam er alle kendte anvendelser, så der er
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28107303324 | Piperacillin/Tazobactam "B. Braun" | pulver og solvens til infusionsvæske, op | Gyldig |
-| 28105499514 | Zerbaxa | pulver til koncentrat til infusionsvæske | Gyldig |
-| 28106711921 | Piperacillin/Tazobactam "Antibiotice" | pulver til infusionsvæske, opløsning | Afregistreret |
-| 28104035606 | Piperacillin/Tazobactam "Reig Jofre" | pulver til infusionsvæske, opløsning | Gyldig |
+<!-- licenses:begin -->
 
-<!-- review:begin dk-lic-20261117-tazobactam-1 -->
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107303324 | Piperacillin/Tazobactam "B. Braun" | pulver og solvens til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
+| 28104017706 | Piperacillin/Tazobactam "Fresenius Kabi" | pulver til infusionsvæske, opløsning | PIPERACILLINNATRIUM, Tazobactamnatrium | Gyldig |
+| 28104017806 | Piperacillin/Tazobactam "Fresenius Kabi" | pulver til infusionsvæske, opløsning | PIPERACILLINNATRIUM, Tazobactamnatrium | Gyldig |
+| 28106687921 | Piperacillin/Tazobactam "Kalceks" | pulver til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
+| 28106688021 | Piperacillin/Tazobactam "Kalceks" | pulver til infusionsvæske, opløsning | Piperacillinmonohydrat, Tazobactam | Gyldig |
 
-> **Rettelse ved gennemgang (2026-11-17)**: Oprindeligt stod der: "28106711921 / Piperacillin/Tazobactam "Antibiotice" / pulver til infusionsvæske, opløsning / Gyldig" Rettet efter Lægemiddelstyrelsens liste over afregistrerede lægemidler (hentet 2026-11-17): tilladelsen 28106711921 (Piperacillin/Tazobactam "Antibiotice") blev afregistreret 2026-10-21 og står ikke længere på listen over godkendte lægemidler. De aktuelle tal står i hurtigt overblik. Kilde: [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+Tabellen viser 5 af 19 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
-<!-- review:end dk-lic-20261117-tazobactam-1 -->
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 
@@ -103,7 +104,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21) | Rettet | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-17 | Tabelstatus: “Gyldig” → “Afregistreret” (2026-10-21) | Erstattet af programgenereret tilladelsestabel (oprindeligt: Rettet) | [Lægemiddelstyrelsen: Afregistrerede lægemidler (Excel-fil, opdateres dagligt)](https://laegemiddelstyrelsen.dk/LinkArchive.ashx?id=E2B34167E69C41B1BD6C30FC7C218DE5&lang=da); [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

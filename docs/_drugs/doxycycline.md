@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -84,9 +84,21 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107387325 | Doxycyclin "Cabo" (Cabo Medicine ApS) | Tabletter | Indikationsteksten var ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107387325 | Doxycyclin "Cabo" | tabletter | DOXYCYCLINMONOHYDRAT | Gyldig |
+| 28107349025 | Doxycyclin "Epione" | tabletter | DOXYCYCLINMONOHYDRAT | Gyldig |
+| 28105546915 | Doxycyclin "Orifarm" | tabletter | DOXYCYCLINMONOHYDRAT | Gyldig |
+| 28106446720 | Doxycyclin "Paranova" | tabletter | DOXYCYCLINMONOHYDRAT | Gyldig |
+| 28104653810 | Doxycyklin "2care4" | tabletter | DOXYCYCLINMONOHYDRAT | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige nationale tilladelser for enkeltstofpræparater. Kun oral administration (tabletter) er repræsenteret. Der er ingen øjendråber eller andre okulære formuleringer blandt tilladelserne, og kompatibiliteten med en eventuel okulær administrationsvej er ikke vurderet.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: forudsagt ny indikation Well-differentiated fetal adenocarcinoma of the lung (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -99,9 +99,19 @@ Til rabdomyosarkom: [11846301](https://pubmed.ncbi.nlm.nih.gov/11846301/) (2001,
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105221213 | Etoposid "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105221213 | Etoposid "Accord" | koncentrat til infusionsvæske, opløsning | ETOPOSID | Gyldig |
+| 28103056598 | Etoposid "Ebewe" | koncentrat til infusionsvæske, opløsning | ETOPOSID | Gyldig |
+| 28104979111 | Etoposid "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | ETOPOSID | Gyldig |
+| 28104859911 | Vepesid | kapsler, bløde | ETOPOSID | Gyldig |
+| 28106293019 | Vepesid | kapsler, bløde | ETOPOSID | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Den eneste tilladelse er til injicerbar form. Hvis en anvendelse kræver oral administration (fx oral etoposid ved recidiv), er ruteforenelighed ikke vurderet.
 

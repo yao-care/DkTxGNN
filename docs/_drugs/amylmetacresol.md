@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: forudsagt ny indikation Cauda equina-syndrom (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data (de danske markedsføringstilladel…"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -92,12 +92,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104954311 | Strepsils Citrus Sukkerfri | Sugetabletter | Ikke angivet i de tilgængelige data |
-| 28106844022 | Betolo | Mundhulespray, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Begge tilladelser er gyldige nationale tilladelser for kombinationsprodukter. Producenter: Reckitt Benckiser Healthcare (Scandinavia) A/S (Strepsils) og Geiser Pharma S.L. (Betolo).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106844022 | Betolo | mundhulespray, opløsning | Amylmetacresol, DICHLORBENZYLALKOHOL, Lidocainhydrochloridmonohydrat | Gyldig |
+| 28106075818 | Betolo Appelsin | sugetabletter | Amylmetacresol, DICHLORBENZYLALKOHOL, Lidocainhydrochloridmonohydrat | Gyldig |
+| 28106075618 | Betolo Honning & Citron | sugetabletter | Amylmetacresol, DICHLORBENZYLALKOHOL, Lidocainhydrochloridmonohydrat | Gyldig |
+| 28106075718 | Betolo Mint | sugetabletter | Amylmetacresol, DICHLORBENZYLALKOHOL, Lidocainhydrochloridmonohydrat | Gyldig |
+| 28104954311 | Strepsils Citrus Sukkerfri | sugetabletter | Amylmetacresol, DICHLORBENZYLALKOHOL | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder kombinationsprodukter; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Producenter: Reckitt Benckiser Healthcare (Scandinavia) A/S (Strepsils) og Geiser Pharma S.L. (Betolo).
 
 <!-- review:begin dk-lic-20261112-amylmetacresol-1 -->
 
@@ -134,7 +143,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

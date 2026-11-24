@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 671
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L4). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -85,10 +85,21 @@ Nedenfor er de mest relevante publikationer for bronkitis (op til 10).
 
 ## Markedsinformation i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100286458 | Terramycin-Polymyxin B | Øjensalve | Indikationstekst ikke tilgængelig |
-| 28107137824 | Hydrocortison med Terramycin og Polymyxin B | Øjen- og øredråber, suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100427563 | Hydrocortison m.terramycin+polymyxin-B | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28107137824 | Hydrocortison med Terramycin og Polymyxin B | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28107092023 | Hydroterrapol | øjen- og øredråber, suspension | HYDROCORTISONACETAT, OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28100286458 | Terramycin-Polymyxin B | øjensalve | OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+| 28107471825 | Terramycin-Polymyxin B | øjensalve | OXYTETRACYCLINHYDROCHLORID, Polymyxin B sulfat | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

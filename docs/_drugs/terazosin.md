@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: forudsagt ny indikation Hypotrichosis simplex i hovedbunden (hypotrichosis simplex of the scalp) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -83,9 +83,17 @@ Af de forudsagte indikationer er Raynauds sygdom (S1) og migræne de mest lovend
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101262686 | Sinalfa (Amdipharm Limited) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101262686 | Sinalfa | tabletter | TERAZOSINHYDROCHLORID (vandfrit) | Gyldig |
+| 28101208285 | Sinalfa | tabletter | TERAZOSINHYDROCHLORID (vandfrit) | Gyldig |
+| 28101262786 | Sinalfa | tabletter | TERAZOSINHYDROCHLORID (vandfrit) | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Fulvestrant: forudsagt ny indikation HIV-infektion (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (den danske tilladelse indeholder in…"
 ---
 
@@ -77,9 +77,19 @@ Der er for øjeblikket ingen kliniske forsøg registreret for fulvestrant ved HI
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103481503 | Faslodex (AstraZeneca AB) | Injektionsvæske, opløsning | Ikke oplyst i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103481503 | Faslodex | injektionsvæske, opløsning | Fulvestrant | Gyldig |
+| 28106134718 | Fulvestrant "Accord" | injektionsvæske, opløsning i fyldt injektionssprøjte | Fulvestrant | Gyldig |
+| 28106009117 | Fulvestrant "Ever Pharma" | injektionsvæske, opløsning i fyldt injektionssprøjte | Fulvestrant | Gyldig |
+| 28106352519 | Fulvestrant "Glenmark" | injektionsvæske, opløsning i fyldt injektionssprøjte | Fulvestrant | Gyldig |
+| 28106398420 | Fulvestrant "Medical Valley" | injektionsvæske, opløsning i fyldt injektionssprøjte | Fulvestrant | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

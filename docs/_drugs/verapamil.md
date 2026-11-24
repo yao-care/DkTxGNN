@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 880
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: forudsagt ny indikation Obsolet grenblok (obsolete bundle branch block) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
@@ -79,9 +79,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107298224 | Isoptine L.P. (Orifarm A/S) | Depottabletter (oral) | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107644626 | Isoptin KHK retard | depottabletter | VERAPAMILHYDROCHLORID | Gyldig |
+| 28101568093 | Isoptin Retard | depottabletter | VERAPAMILHYDROCHLORID | Gyldig |
+| 28101568193 | Isoptin Retard | depottabletter | VERAPAMILHYDROCHLORID | Gyldig |
+| 28101181584 | Isoptin Retard | depottabletter | VERAPAMILHYDROCHLORID | Gyldig |
+| 28107497925 | Isoptin Retard | depottabletter | VERAPAMILHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

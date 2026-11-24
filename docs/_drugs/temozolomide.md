@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: forudsagt ny indikation Cauda equina-neoplasme (evidensniveau L5). Oprindelig indikation: Relation registreret i vidensgrafen: anaplastisk astrocytom…"
 ---
 
@@ -89,9 +89,19 @@ Den eneste publikation med relevans for tumortypen er én enkelt case report om 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103015398 | Temodal (SP Europe) | Kapsler, hårde | Indikationstekst ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103015398 | Temodal | kapsler, hårde | TEMOZOLOMID | Gyldig |
+| 28103991506 | Temodal | kapsler, hårde | TEMOZOLOMID | Gyldig |
+| 28103991606 | Temodal | kapsler, hårde | TEMOZOLOMID | Gyldig |
+| 28103015298 | Temodal | kapsler, hårde | TEMOZOLOMID | Gyldig |
+| 28103015498 | Temodal | kapsler, hårde | TEMOZOLOMID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Listen kan ikke bruges til at fastslå, hvilke indikationer temozolomid er godkendt til i Danmark. Der henvises til produktresuméet (SmPC).
 

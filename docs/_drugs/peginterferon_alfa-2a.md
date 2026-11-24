@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Peginterferon Alfa-2A: forudsagt ny indikation Hepatitis E-virusinfektion (evidensniveau L5). Oprindelig indikation: Kronisk hepatitis C-virusinfektion og kronisk hepatitis B-virusinfekt…"
 ---
 
@@ -88,9 +88,18 @@ Ingen af de fundne forsøg undersøger hepatitis E. De er alle hepatitis B-studi
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103228001 | Pegasys | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103228001 | Pegasys | injektionsvæske, opløsning | PEGINTERFERON ALFA-2A | Gyldig |
+| 28103228101 | Pegasys | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGINTERFERON ALFA-2A | Gyldig |
+| 28103228201 | Pegasys | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGINTERFERON ALFA-2A | Gyldig |
+| 28106668821 | Pegasys | injektionsvæske, opløsning i fyldt injektionssprøjte | PEGINTERFERON ALFA-2A | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

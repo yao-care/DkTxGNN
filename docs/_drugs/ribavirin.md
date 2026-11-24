@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mesenteritis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ribavirin: forudsagt ny indikation Kronisk hepatitis B-virusinfektion (evidensniveau L1). Oprindelig indikation: Ingen godkendt indikationstekst findes i de danske godkendelsesdata.…"
 ---
 
@@ -100,9 +100,15 @@ Der er ikke fundet randomiserede publikationer i materialet. Litteraturen bestå
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104528909 | Ribavirin "Biopartners" | Filmovertrukne tabletter | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104528909 | Ribavirin "Biopartners" | filmovertrukne tabletter | RIBAVIRIN | Afregistreret |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 Den ene tilladelse gjaldt et enkeltstofpræparat (Biopartners GmbH); den står ikke længere på Lægemiddelstyrelsens liste over godkendte lægemidler, og EMA's tilladelse for Ribavirin BioPartners bortfaldt 2013-04-09.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Haloperidol: forudsagt ny indikation Congenital disorder of glycosylation with defective fucosylation (evidensniveau L5). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
 ---
 
@@ -79,11 +79,20 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100966159 | Serenase (Essential Pharma Limited) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100966159 | Serenase | injektionsvæske, opløsning | HALOPERIDOL | Gyldig |
+| 28100304259 | Serenase | oral opløsning | HALOPERIDOL | Gyldig |
+| 28100616672 | Serenase | tabletter | HALOPERIDOL | Gyldig |
+| 28101052080 | Serenase Dekanoat | injektionsvæske, opløsning | HALOPERIDOL | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-haloperidol-1 -->
 
@@ -136,7 +145,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse for et enkeltstofpræparat.” → “Der er registreret 4 gyldige tilladelser for enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

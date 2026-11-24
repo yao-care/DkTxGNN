@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1B: forudsagt ny indikation hårcelleleukæmi (evidensniveau L5). Oprindelig indikation: Recidiverende-remitterende dissemineret sklerose (RRMS)"
 monitor_inn: "Interferon beta-1b"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -112,9 +112,16 @@ Nedenfor er et udvalg af litteratur om den allerede godkendte MS-indikation, som
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101665194 | Betaferon (Bayer AG) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101665194 | Betaferon | pulver og solvens til injektionsvæske, opløsning | Interferon beta-1b (rekombinant) | Gyldig |
+| 28104515009 | Betaferon "startpakke" | pulver og solvens til injektionsvæske, opløsning | Interferon beta-1b (rekombinant) | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

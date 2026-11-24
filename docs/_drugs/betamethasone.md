@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"
@@ -70,10 +70,21 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101560293 | Diproderm | Creme | Indikationstekst ikke angivet |
-| 28106262919 | Calcipotriol/Betamethason "2care4" | Salve | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105719615 | Bekuval | kutanopløsning | BETAMETHASONVALERAT | Gyldig |
+| 28105719715 | Bemeson | creme | BETAMETHASONVALERAT | Gyldig |
+| 28107355125 | Betamethason "Ebb Medical" | creme | BETAMETHASONVALERAT | Gyldig |
+| 28106657721 | Betamethason "Nordic Prime" | creme | BETAMETHASONVALERAT | Gyldig |
+| 28107180924 | Betamethason "Orifarm" | creme | BETAMETHASONVALERAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige, og ingen er annulleret.
 

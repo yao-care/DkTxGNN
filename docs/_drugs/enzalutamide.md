@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide: forudsagt ny indikation Prostate leiomyoma (evidensniveau L5). I Danmark, markedsføringstilladelser: 19 (gyldige: 19)"
@@ -68,9 +68,19 @@ Aktuelt er der ingen relateret litteratur tilgængelig for denne forudsigelse.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106975723 | Enzalutamide "Hexal" (Hexal A/S) | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106975723 | Enzalutamide "Hexal" | filmovertrukne tabletter | Enzalutamid | Gyldig |
+| 28106975823 | Enzalutamide "Hexal" | filmovertrukne tabletter | Enzalutamid | Gyldig |
+| 28107452125 | Enzalutamide "Qilu" | filmovertrukne tabletter | Enzalutamid | Gyldig |
+| 28107452225 | Enzalutamide "Qilu" | filmovertrukne tabletter | Enzalutamid | Gyldig |
+| 28106947823 | Enzalutamide "Sandoz" | filmovertrukne tabletter | Enzalutamid | Gyldig |
+
+Tabellen viser 5 af 19 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Denosumab: forudsagt ny indikation Svær non-proliferativ diabetisk retinopati (nævnes også som diabetisk… (evidensniveau L5). Oprindelig indikation: Osteoporose"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -85,9 +85,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107286924 | Acvybra | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107286924 | Acvybra | injektionsvæske, opløsning i fyldt injektionssprøjte | Denosumab | Gyldig |
+| 28107177024 | Bildyos | injektionsvæske, opløsning, hætteglas | Denosumab | Gyldig |
+| 28107177224 | Bildyos | injektionsvæske, opløsning i fyldt injektionssprøjte | Denosumab | Gyldig |
+| 28107178224 | Bilprevda | injektionsvæske, opløsning, hætteglas | Denosumab | Gyldig |
+| 28107184524 | Bomyntra | injektionsvæske, opløsning, hætteglas | Denosumab | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

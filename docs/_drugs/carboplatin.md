@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carboplatin: forudsagt ny indikation Mucinøst adenokarcinom i rectum (evidensniveau L5). Oprindelig indikation: Ovarie­kræft"
 ---
 
@@ -79,9 +79,19 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Producent |
-|---------|------|------|-----------|
-| 28106770622 | Carbomedac | Koncentrat til infusionsvæske, opløsning | Medac Gesellschaft fuer klinische Spezialpraeparate mbH |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106770622 | Carbomedac | koncentrat til infusionsvæske, opløsning | CARBOPLATIN | Gyldig |
+| 28104134407 | Carboplatin "Accord" | koncentrat til infusionsvæske, opløsning | CARBOPLATIN | Gyldig |
+| 28104317408 | Carboplatin "Actavis" | koncentrat til infusionsvæske, opløsning | CARBOPLATIN | Gyldig |
+| 28103600203 | Carboplatin "Ebewe" | koncentrat til infusionsvæske, opløsning | CARBOPLATIN | Gyldig |
+| 28104806210 | Carboplatin "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | CARBOPLATIN | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er tale om et enkeltstofpræparat med gyldig tilladelse. Indikationsteksten fra tilladelsen er ikke med i de indsamlede data.
 

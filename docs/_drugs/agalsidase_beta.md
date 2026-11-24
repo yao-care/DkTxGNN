@@ -5,7 +5,7 @@ layout: default
 title: Agalsidase Beta
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 28
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Agalsidase Beta: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Agalsidase beta"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103161500 | Fabrazyme (Sanofi B.V.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103161500 | Fabrazyme | pulver til koncentrat til infusionsvæske, opløsning | AGALSIDASE BETA | Gyldig |
+| 28103735602 | Fabrazyme | pulver til koncentrat til infusionsvæske, opløsning | AGALSIDASE BETA | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

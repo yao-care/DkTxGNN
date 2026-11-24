@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: forudsagt ny indikation Autoimmune disease of peripheral nervous system (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -84,9 +84,19 @@ Der er for tiden ingen relaterede kliniske forsøg registreret.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100123355 | Mestinon (Viatris ApS) | Overtrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100123355 | Mestinon | overtrukne tabletter | PYRIDOSTIGMINBROMID | Gyldig |
+| 28104565609 | Mestinon | overtrukne tabletter | PYRIDOSTIGMINBROMID | Gyldig |
+| 28104614109 | Mestinon | overtrukne tabletter | PYRIDOSTIGMINBROMID | Gyldig |
+| 28105782816 | Mestinon | overtrukne tabletter | PYRIDOSTIGMINBROMID | Gyldig |
+| 28105905417 | Mestinon | tabletter | PYRIDOSTIGMINBROMID | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

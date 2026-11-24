@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CHOLECALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: forudsagt ny indikation Akromesomel dysplasi, Campailla-Martinelli-type (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelses tekst. Relationer i videnskab…"
 ---
 
@@ -68,9 +68,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105565615 | Benferol (Consilient Health Limited) | Kapsler, bløde | Indikationsteksten indgår ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105565615 | Benferol | kapsler, bløde | Cholecalciferol | Gyldig |
+| 28105566815 | Benferol | kapsler, bløde | Cholecalciferol | Gyldig |
+| 28105565715 | Benferol | kapsler, bløde | Cholecalciferol | Gyldig |
+| 28105567115 | Benferol | kapsler, bløde | Cholecalciferol | Gyldig |
+| 28105565815 | Benferol | kapsler, bløde | Cholecalciferol | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er et enkeltstofpræparat og er gyldig. Listen er fuldstændig (1 af 1).
 

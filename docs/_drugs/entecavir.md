@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Entecavir: forudsagt ny indikation Kronisk hepatitis C-virusinfektion (chronic hepatitis C virus infection) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
@@ -96,10 +96,19 @@ Størstedelen af litteraturen handler om HBV-reaktivering eller generel behandli
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103734104 | Baraclude | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig |
-| 28105810016 | Edevira | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103734104 | Baraclude | filmovertrukne tabletter | ENTECAVIR | Gyldig |
+| 28103734304 | Baraclude | filmovertrukne tabletter | ENTECAVIR | Gyldig |
+| 28103734404 | Baraclude | oral opløsning | ENTECAVIR | Gyldig |
+| 28105810016 | Edevira | filmovertrukne tabletter | Entecavir (monohydrat) | Gyldig |
+| 28105810116 | Edevira | filmovertrukne tabletter | Entecavir (monohydrat) | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige enkeltstofpræparater til oral anvendelse.
 

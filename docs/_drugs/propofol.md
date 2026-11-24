@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 691
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propofol: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten er tom). Propo…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -95,13 +95,21 @@ Forholdet mellem den oprindelige brug (anæstesi/sedation) og migræne er derfor
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104629609 | Profast | Injektions-/infusionsvæske, emulsion | Ikke angivet |
-| 28104629709 | Profast | Injektions-/infusionsvæske, emulsion | Ikke angivet |
-| 28106567521 | Propofol "2care4" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
-| 28103114099 | Propofol "B. Braun" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
-| 28103294001 | Propofol "B. Braun" | Injektions-/infusionsvæske, emulsion | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104629609 | Profast | injektions-/infusionsvæske, emulsion | Propofol | Gyldig |
+| 28104629709 | Profast | injektions-/infusionsvæske, emulsion | Propofol | Gyldig |
+| 28106567521 | Propofol "2care4" | injektions-/infusionsvæske, emulsion | Propofol | Gyldig |
+| 28103114099 | Propofol "B. Braun" | injektions-/infusionsvæske, emulsion | Propofol | Gyldig |
+| 28103294001 | Propofol "B. Braun" | injektions-/infusionsvæske, emulsion | Propofol | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 5 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

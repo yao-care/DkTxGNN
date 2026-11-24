@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 464
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Ivacaftor: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Ivacaftor"
 predicted_indications: []
@@ -48,9 +48,19 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28107169024 | Ivacaftor "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter (oral) | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107169024 | Ivacaftor "Accord" | filmovertrukne tabletter | Ivacaftor | Gyldig |
+| 28107323225 | Ivacaftor "Lupin Europe GmbH” | filmovertrukne tabletter | Ivacaftor | Gyldig |
+| 28107323125 | Ivacaftor "Lupin Europe GmbH” | filmovertrukne tabletter | Ivacaftor | Gyldig |
+| 28107259524 | Ivacaftor "Stada" | filmovertrukne tabletter | Ivacaftor | Gyldig |
+| 28107391525 | Ivacaftor "Teva" | filmovertrukne tabletter | Ivacaftor | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

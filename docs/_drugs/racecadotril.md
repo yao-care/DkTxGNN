@@ -5,7 +5,7 @@ layout: default
 title: Racecadotril
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 698
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Racecadotril: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Racecadotril"
 predicted_indications: []
@@ -46,14 +46,22 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
 | Antal markedsføringstilladelser | 4 (gyldige: 4) |
 
-
 ---
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104880911 | Hidrasec | Granulat til oral suspension | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104880911 | Hidrasec | granulat til oral suspension | Racecadotril | Gyldig |
+| 28104881011 | Hidrasec | granulat til oral suspension | Racecadotril | Gyldig |
+| 28104881111 | Hidrasec | kapsler, hårde | Racecadotril | Gyldig |
+| 28107187024 | Racecadotril "Rivopharm" | kapsler, hårde | Racecadotril | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Indehaver: Bioprojet Europe Ltd. Status: gyldig. Administrationsvej: oral.
 

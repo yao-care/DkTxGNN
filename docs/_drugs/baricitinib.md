@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Baricitinib: forudsagt ny indikation Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom (colobomatous microphthalmia-rhizomelic dysplasia syndrome) (evidensniveau L5). Oprindelig indikation: Ikke r…"
 ---
 
@@ -68,9 +68,17 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106836722 | Olumiant (Eli Lilly Nederland B.V.) | Filmovertrukne tabletter | Indikationstekst er ikke registreret i lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106836722 | Olumiant | filmovertrukne tabletter | Baricitinib | Gyldig |
+| 28105730516 | Olumiant | filmovertrukne tabletter | Baricitinib | Gyldig |
+| 28105730616 | Olumiant | filmovertrukne tabletter | Baricitinib | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

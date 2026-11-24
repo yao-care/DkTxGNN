@@ -5,7 +5,7 @@ layout: default
 title: Relugolix
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 710
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Relugolix: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Relugolix"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106597221 | Orgovyx (Accord Healthcare S.L.U.) | Filmovertrukne tabletter (oral) | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106597221 | Orgovyx | filmovertrukne tabletter | Relugolix | Gyldig |
+| 28106422920 | Ryeqo | filmovertrukne tabletter | ESTRADIOLHEMIHYDRAT, NORETHISTERONACETAT, Relugolix | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

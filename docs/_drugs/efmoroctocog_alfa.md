@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efmoroctocog Alfa: forudsagt ny indikation Pseudo-von Willebrand sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
@@ -95,11 +95,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105539814 | Elocta (Swedish Orphan Biovitrum AB) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105539814 | Elocta | pulver og solvens til injektionsvæske, opløsning | efmoroctocog alfa | Gyldig |
+| 28105539914 | Elocta | pulver og solvens til injektionsvæske, opløsning | efmoroctocog alfa | Gyldig |
+| 28105540014 | Elocta | pulver og solvens til injektionsvæske, opløsning | efmoroctocog alfa | Gyldig |
+| 28105539514 | Elocta | pulver og solvens til injektionsvæske, opløsning | efmoroctocog alfa | Gyldig |
+| 28105540114 | Elocta | pulver og solvens til injektionsvæske, opløsning | efmoroctocog alfa | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-efmoroctocog_alfa-1 -->
 
@@ -139,7 +149,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er tale om 1 gyldig national tilladelse til et enkeltstofpræparat.” → “Der er tale om 10 gyldige nationale tilladelser til enkeltstofpræparater.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde (revideret 2026-11-20; tidligere version gemt i loggen) | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->

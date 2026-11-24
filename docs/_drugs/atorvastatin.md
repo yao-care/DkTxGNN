@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin: forudsagt ny indikation HIV-infektion (HIV infectious disease) (evidensniveau L2). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -107,6 +107,20 @@ Den eksisterende evidens understøtter primært brug til proteasehæmmer-associe
 ---
 
 ## Information om markedet i Danmark
+
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105722916 | Atorvastatin "Accord" | filmovertrukne tabletter | ATORVASTATINCALCIUM (trihydrat) | Gyldig |
+| 28105723016 | Atorvastatin "Accord" | filmovertrukne tabletter | ATORVASTATINCALCIUM (trihydrat) | Gyldig |
+| 28105723116 | Atorvastatin "Accord" | filmovertrukne tabletter | ATORVASTATINCALCIUM (trihydrat) | Gyldig |
+| 28105723216 | Atorvastatin "Accord" | filmovertrukne tabletter | ATORVASTATINCALCIUM (trihydrat) | Gyldig |
+| 28106355619 | Atorvastatin "Amarox" | filmovertrukne tabletter | ATORVASTATINCALCIUM (trihydrat) | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Atorvastatin er **markedsført** i Danmark. De data, der er indsamlet til denne rapport, viser mindst 20 markedsføringstilladelser for lægemidler med atorvastatin; to af dem (Atorker og Atorvastatin "1A Farma") blev afregistreret i 2026. Alle er filmovertrukne tabletter til oral anvendelse. Produkter omfatter bl.a. Atorker (Medochemie Limited), Atorvastatin "1A Farma" (1A Farma A/S) og Atozet (N.V. Organon).
 

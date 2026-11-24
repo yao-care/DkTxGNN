@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topiramate: forudsagt ny indikation Trigeminusnervetumor (rang 1) (evidensniveau L5). Oprindelig indikation: Epilepsi med generaliserede tonisk-kloniske anfald, partiel epilepsi…"
 monitor_inn: "topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -105,10 +105,19 @@ Bemærk: Størstedelen af litteraturen vedrører topiramat ved epilepsi generelt
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104182907 | Maritop (G.L. Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28106316819 | Qsiva (VIVUS BV) | Kapsler med modificeret udløsning, hårde | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104182907 | Maritop | filmovertrukne tabletter | TOPIRAMAT | Gyldig |
+| 28104183007 | Maritop | filmovertrukne tabletter | TOPIRAMAT | Gyldig |
+| 28104182707 | Maritop | filmovertrukne tabletter | TOPIRAMAT | Gyldig |
+| 28104182807 | Maritop | filmovertrukne tabletter | TOPIRAMAT | Gyldig |
+| 28101726994 | Topimax | filmovertrukne tabletter | TOPIRAMAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

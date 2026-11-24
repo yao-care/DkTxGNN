@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Dobutamine: forudsagt ny indikation Alopeci (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (indikationsteksten i markedsføring…"
 monitor_inn: "dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -82,9 +82,16 @@ Der er for nuværende ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107101323 | Dobutamine "Panpharma" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107101323 | Dobutamine "Panpharma" | koncentrat til infusionsvæske, opløsning | DOBUTAMINHYDROCHLORID | Gyldig |
+| 28101297387 | Dobutrex | koncentrat til infusionsvæske, opløsning | DOBUTAMINHYDROCHLORID | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

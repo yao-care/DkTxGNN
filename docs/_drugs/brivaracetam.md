@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi og partiel motorisk epilepsi"
 ---
 
@@ -81,9 +81,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107156924 | Abavalex (G.L. Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107156924 | Abavalex | filmovertrukne tabletter | Brivaracetam | Gyldig |
+| 28107156524 | Abavalex | filmovertrukne tabletter | Brivaracetam | Gyldig |
+| 28107156624 | Abavalex | filmovertrukne tabletter | Brivaracetam | Gyldig |
+| 28107156724 | Abavalex | filmovertrukne tabletter | Brivaracetam | Gyldig |
+| 28107156824 | Abavalex | filmovertrukne tabletter | Brivaracetam | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Antal godkendelser: 1 (nationalt, enkeltstofpræparat, gyldigt). Administrationsvej: oral.
 

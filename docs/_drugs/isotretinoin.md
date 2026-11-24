@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: forudsagt ny indikation Malignant hypertensive renal disease (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -80,9 +80,19 @@ Der foreligger på nuværende tidspunkt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105147912 | Acnenor (Teva B.V.) | Kapsler, bløde | Indikationsteksten er ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105147912 | Acnenor | kapsler, bløde | Isotretinoin | Gyldig |
+| 28105148012 | Acnenor | kapsler, bløde | Isotretinoin | Gyldig |
+| 28103313601 | Isomacne | kapsler, bløde | Isotretinoin | Gyldig |
+| 28103313701 | Isomacne | kapsler, bløde | Isotretinoin | Gyldig |
+| 28106251819 | Isotracin | kapsler, bløde | Isotretinoin | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ layout: default
 title: Velaglucerase Alfa
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 877
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Velaglucerase Alfa: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Velaglucerase alfa"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104625109 | VPRIV (Takeda Pharmaceuticals International AG Ireland Branch) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de indsamlede data; oprindelig indikation er Gauchers sygdom |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104625109 | VPRIV | pulver til infusionsvæske, opløsning | Velaglucerase Alfa | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

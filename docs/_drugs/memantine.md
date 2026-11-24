@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Memantine: forudsagt ny indikation Pulmonary hypertension (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -99,9 +99,19 @@ Til sammenligning har forudsigelsen om pulmonal hypertension ikke noget dokument
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103161800 | Axura (Merz Pharma GmbH & Co. KGaA) | Filmovertrukne tabletter (oral) | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107083923 | Alsemora | filmovertrukne tabletter | MEMANTINHYDROCHLORID | Gyldig |
+| 28107084123 | Alsemora | filmovertrukne tabletter | MEMANTINHYDROCHLORID | Gyldig |
+| 28103161800 | Axura | filmovertrukne tabletter | MEMANTINHYDROCHLORID | Gyldig |
+| 28104197707 | Axura | filmovertrukne tabletter | MEMANTINHYDROCHLORID | Gyldig |
+| 28104197607 | Axura | filmovertrukne tabletter | MEMANTINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

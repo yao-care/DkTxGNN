@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Aprepitant: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -80,9 +80,19 @@ Der er i øjeblikket ingen relateret litteratur for nefrogent syndrom med uhensi
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106256517 | Aprepitant "Medical Valley" (Medical Valley Invest AB) | Kapsler, hårde | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106256517 | Aprepitant "Medical Valley" | kapsler, hårde | APREPITANT | Gyldig |
+| 28105981617 | Aprepitant "Medical Valley" | kapsler, hårde | APREPITANT | Gyldig |
+| 28105898416 | Aprepitant "Sandoz" | kapsler, hårde | APREPITANT | Gyldig |
+| 28106228217 | Aprepitant "Stada" | kapsler, hårde | APREPITANT | Gyldig |
+| 28105978917 | Aprepitant "Stada" | kapsler, hårde | APREPITANT | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 837
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tizanidine: forudsagt ny indikation Migræne (migraine disorder) (evidensniveau L2). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "tizanidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
@@ -86,9 +86,19 @@ Tizanidin bruges oprindeligt mod muskeltonus-lidelser. Muskelspænding og centra
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101323488 | Sirdalud Retard (Sandoz A/S) | Depotkapsler, hårde | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101323488 | Sirdalud Retard | depotkapsler, hårde | TIZANIDINHYDROCHLORID | Gyldig |
+| 28106979523 | Tizanidin "2care4" | tabletter | TIZANIDINHYDROCHLORID | Gyldig |
+| 28105911417 | Tizanidin "2care4" | tabletter | TIZANIDINHYDROCHLORID | Gyldig |
+| 28106499020 | Tizanidin "Nordic Prime" | tabletter | TIZANIDINHYDROCHLORID | Gyldig |
+| 28106619521 | Tizanidin "Nordic Prime" | tabletter | TIZANIDINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

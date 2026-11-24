@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Flucloxacillin: forudsagt ny indikation Konjunktivitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendt indikationstekst er tom)"
 monitor_inn: "flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -82,9 +82,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107383825 | Flucloxacillin "Nordic Prime" (Nordic Prime ApS) | Pulver til oral opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107383825 | Flucloxacillin "Nordic Prime" | pulver til oral opløsning | Flucloxacillinnatriummonohydrat | Gyldig |
+| 28105661615 | Flucloxacillin "Orion" | filmovertrukne tabletter | Flucloxacillinnatriummonohydrat | Gyldig |
+| 28104667810 | Flucloxacillin "Orion" | filmovertrukne tabletter | Flucloxacillinnatriummonohydrat | Gyldig |
+| 28104667910 | Flucloxacillin "Orion" | filmovertrukne tabletter | Flucloxacillinnatriummonohydrat | Gyldig |
+| 28107159324 | Nerbutix | pulver til oral opløsning | Flucloxacillinnatriummonohydrat | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

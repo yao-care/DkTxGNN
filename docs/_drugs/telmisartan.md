@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Telmisartan: forudsagt ny indikation Prinzmetal-angina (evidensniveau L5). Oprindelig indikation: Hypertension"
 ---
 
@@ -80,9 +80,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for Prinzmetal-angi
 
 ## Oplysninger om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103059898 | Kinzalmono (Bayer Schering Pharma AG) | Tabletter | Indikationsteksten er ikke angivet i tilladelsesdata |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103059698 | Micardis | tabletter | TELMISARTAN | Gyldig |
+| 28101906797 | Micardis | tabletter | TELMISARTAN | Gyldig |
+| 28101906897 | Micardis | tabletter | TELMISARTAN | Gyldig |
+| 28104553909 | Telmisartan "Actavis" | tabletter | TELMISARTAN | Gyldig |
+| 28104554009 | Telmisartan "Actavis" | tabletter | TELMISARTAN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

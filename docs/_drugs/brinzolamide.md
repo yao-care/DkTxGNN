@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 131
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Brinzolamide: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -72,11 +72,19 @@ TxGNN-modellens kandidater for Brinzolamide (score ≥ 0,99) er alle kendte anve
 
 ## Denmark Market Information (Markedsinformation for Danmark)
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103026698 | Azopt | øjendråber, suspension | Gyldig |
-| 28104248607 | Azarga | øjendråber, suspension | Gyldig |
-| 28106818522 | Brinzolamid/Brimonidin "Medical Valley" | øjendråber, suspension | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103026698 | Azopt | øjendråber, suspension | Brinzolamid | Gyldig |
+| 28105093612 | Brinzolamid "Stada" | øjendråber, suspension | Brinzolamid | Gyldig |
+| 28107228524 | Brinzolamide "Hexal" | øjendråber, suspension | Brinzolamid | Gyldig |
+| 28105217213 | Brinzolamide "Sandoz" | øjendråber, suspension | Brinzolamid | Gyldig |
+| 28104248607 | Azarga | øjendråber, suspension | Brinzolamid, TIMOLOLMALEAT | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

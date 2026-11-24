@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosfomycin: forudsagt ny indikation Uterine inflammatory disease (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -85,10 +85,17 @@ Begge forsøg er vurderet som kun løst relateret til den forudsagte indikation.
 
 ## Information om markedet i Danmark
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Fremstiller |
-|---------|------|------|-----------|
-| 28101490492 | Monurol | Granulat til oral opløsning, enkeltdosisbeholder | Zambon S.p.A. |
-| 28105824816 | Fosfomycin "Infectopharm" | Pulver til infusionsvæske, opløsning | InfectoPharm GmbH |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105824816 | Fosfomycin "Infectopharm" | pulver til infusionsvæske, opløsning | FOSFOMYCINNATRIUM | Gyldig |
+| 28101490492 | Monurol | granulat til oral opløsning, enkeltdosisbeholder | Fosfomycintrometamol | Gyldig |
+| 28101490592 | Monurol | granulat til oral opløsning, enkeltdosisbeholder | Fosfomycintrometamol | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige enkeltstofpræparater. Indikationsteksten er ikke tilgængelig i de data, der er indsamlet til rapporten.
 

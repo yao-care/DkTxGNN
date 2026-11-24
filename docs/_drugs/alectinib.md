@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Alectinib: forudsagt ny indikation Gingival fibromatose (fibromatosis, gingival) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
 ---
 
@@ -69,9 +69,15 @@ Der er på nuværende tidspunkt ingen relateret litteratur for gingival fibromat
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105663215 | Alecensa (Roche Registration GmbH) | Kapsler, hårde | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105663215 | Alecensa | kapsler, hårde | Alectinibhydrochlorid | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

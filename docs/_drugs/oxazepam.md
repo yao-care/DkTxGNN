@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 616
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Oxazepam: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L3). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -81,9 +81,17 @@ Yderligere to fundne publikationer (PMID 39544757, 23338224) omhandler agomelati
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101214185 | Oxabenz (Teva B.V.) | Tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101214185 | Oxabenz | tabletter | OXAZEPAM | Gyldig |
+| 28105522714 | Oxazepam "Alternova" | tabletter | OXAZEPAM | Gyldig |
+| 28107354025 | Oxazepam "Evolan" | tabletter | OXAZEPAM | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

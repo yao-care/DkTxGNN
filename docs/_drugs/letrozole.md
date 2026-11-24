@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: forudsagt ny indikation Brystkarcinom i brystvorten (nipple carcinoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -79,9 +79,19 @@ Ingen af nedenstående publikationer undersøger letrozol ved brystkarcinom i br
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104319308 | Letrozol "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104319308 | Letrozol "Accord" | filmovertrukne tabletter | LETROZOL | Gyldig |
+| 28105007211 | Letrozol "Medical Valley" | filmovertrukne tabletter | LETROZOL | Gyldig |
+| 28104603509 | Letrozol "Stada" | filmovertrukne tabletter | LETROZOL | Gyldig |
+| 28104353308 | Letrozol "Teva" | filmovertrukne tabletter | LETROZOL | Gyldig |
+| 28104440908 | Letrozol "Viatris" | filmovertrukne tabletter | LETROZOL | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

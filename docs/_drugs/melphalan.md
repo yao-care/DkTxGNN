@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Melphalan: forudsagt ny indikation Kvindelig brystkarcinom (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de danske data. Relation registrere…"
 ---
 
@@ -98,11 +98,21 @@ De fleste studier er gamle, små og ofte uden kontrolgruppe. Flere indgår som l
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103204700 | Alkeran | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Der er registreret 8 gyldige nationale tilladelser (enkeltstof). Fabrikant: Aspen Pharma Trading Limited.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103204700 | Alkeran | filmovertrukne tabletter | Melphalan | Gyldig |
+| 28106035017 | Alkeran | filmovertrukne tabletter | Melphalan | Gyldig |
+| 28106485220 | Alkeran | filmovertrukne tabletter | Melphalan | Gyldig |
+| 28107429025 | Alkeran | filmovertrukne tabletter | Melphalan | Gyldig |
+| 28106100018 | Melphalan "Macure" | pulver og solvens til injektions- /infusionsvæske, opløsning | Melphalanhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen. Fabrikant: Aspen Pharma Trading Limited.
 
 <!-- review:begin dk-lic-20261112-melphalan-1 -->
 
@@ -161,7 +171,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der er registreret 8 gyldige nationale tilladelser (enkeltstof).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig national tilladelse (enkeltstof, oral administratio” → “Der er registreret 8 gyldige nationale tilladelser (enkeltstof).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->

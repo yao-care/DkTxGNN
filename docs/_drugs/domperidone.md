@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Domperidone: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de tilgængelige data om den danske godkendelse…"
 monitor_inn: "domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -80,9 +80,18 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107430425 | Domperidon "2care4" (2care4 ApS) | Tabletter | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107430425 | Domperidon "2care4" | tabletter | DOMPERIDON | Gyldig |
+| 28103635304 | Domperidon "Alternova" | tabletter | Domperidonmaleat | Gyldig |
+| 28106888022 | Domperidon "Nordic Prime" | tabletter | Domperidonmaleat | Gyldig |
+| 28107015223 | Domperidon Carefarm | tabletter | Domperidonmaleat | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral anvendelse.
 

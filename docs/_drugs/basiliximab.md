@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 97
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Basiliximab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -73,9 +73,18 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Basili
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28103413102 | Simulect | pulver og solvens til injektions- /infus | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103413102 | Simulect | pulver og solvens til injektions- /infusionsvæske, opløsning | BASILIXIMAB | Gyldig |
+| 28101916597 | Simulect | pulver og solvens til injektions- /infusionsvæske, opløsning | BASILIXIMAB | Gyldig |
+| 28107177323 | Simulect | pulver til injektions-/infusionsvæske, opløsning | BASILIXIMAB | Gyldig |
+| 28107177423 | Simulect | pulver til injektions-/infusionsvæske, opløsning | BASILIXIMAB | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Miglustat"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Miglustat: forudsagt ny indikation Autosomal ichthyosis-syndrom med fatalt sygdomsforløb (evidensniveau L5). Oprindelig indikation: Gauchers sygdom og Niemann-Picks sygdom"
 ---
 
@@ -82,9 +82,19 @@ Der er aktuelt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28105309513 | Miglustat "Bluefish" (Bluefish Pharmaceuticals AB) | Kapsler, hårde | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105309513 | Miglustat "Bluefish" | kapsler, hårde | MIGLUSTAT | Gyldig |
+| 28106095418 | Miglustat "Dipharma" | kapsler, hårde | MIGLUSTAT | Gyldig |
+| 28107225324 | Miglustat "Waymade" | kapsler, hårde | MIGLUSTAT | Gyldig |
+| 28105821216 | Miglustat Gen.Orph | kapsler, hårde | MIGLUSTAT | Gyldig |
+| 28106709021 | Opfolda | kapsler, hårde | MIGLUSTAT | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen gælder et enkeltstofpræparat og har status gyldig.
 

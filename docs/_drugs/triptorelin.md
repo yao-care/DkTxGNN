@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Triptorelin: forudsagt ny indikation Hypertrichose (hypertrichosis (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
 ---
 
@@ -72,9 +72,21 @@ Der er aktuelt ingen relevante kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104615709 | Gonapeptyl (Ferring Lægemidler A/S) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104615709 | Gonapeptyl | injektionsvæske, opløsning | TRIPTORELIN | Gyldig |
+| 28103679804 | Pamorelin | depotinjektionsvæske, pulver og solvens til suspension | TRIPTORELIN | Gyldig |
+| 28107398125 | Pamorelin | depotinjektionsvæske, pulver og solvens til suspension | TRIPTORELIN | Gyldig |
+| 28104403708 | Pamorelin | depotinjektionsvæske, pulver og solvens til suspension | TRIPTORELIN | Gyldig |
+| 28103919506 | Pamorelin | depotinjektionsvæske, pulver og solvens til suspension | TRIPTORELIN | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

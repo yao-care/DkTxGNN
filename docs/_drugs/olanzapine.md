@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: forudsagt ny indikation Godartet paroksysmal torticollis hos spædbørn (benign paroxysmal torticollis of infancy) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokale da…"
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikatio
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106106218 | Farpenta (Holsten Pharma GmbH) | Filmovertrukne tabletter | Indikationstekst foreligger ikke |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106106218 | Farpenta | filmovertrukne tabletter | OLANZAPIN | Gyldig |
+| 28106106318 | Farpenta | filmovertrukne tabletter | OLANZAPIN | Gyldig |
+| 28106106418 | Farpenta | filmovertrukne tabletter | OLANZAPIN | Gyldig |
+| 28106105918 | Farpenta | filmovertrukne tabletter | OLANZAPIN | Gyldig |
+| 28106106018 | Farpenta | filmovertrukne tabletter | OLANZAPIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Produktet er et enkeltstofpræparat til oral anvendelse. Der findes ingen parenteral eller flydende formulering i de foreliggende data, hvilket er relevant for anvendelse hos spædbørn.
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: forudsagt ny indikation PLA2G6-associeret neurodegeneration (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom"
 monitor_inn: "entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -80,11 +80,19 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101862996 | Comtan (Novartis Europharm Limited) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
-| 28106977623 | Levodopa/Carbidopa/Entacapone "G.L. Pharma" (G.L. Pharma GmbH) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
-| 28105263413 | Corbilta (Orion Corporation) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101862996 | Comtan | filmovertrukne tabletter | ENTACAPON | Gyldig |
+| 28101862896 | Comtess | tabletter | ENTACAPON | Gyldig |
+| 28104893211 | Entacapone "Orion" | filmovertrukne tabletter | ENTACAPON | Gyldig |
+| 28104707910 | Entacapone "Teva" | filmovertrukne tabletter | ENTACAPON | Gyldig |
+| 28104721910 | Entacapone "Viatris" | filmovertrukne tabletter | ENTACAPON | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

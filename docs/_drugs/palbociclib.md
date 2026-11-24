@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: forudsagt ny indikation Hyperthyroidisme (hyperthyroidism) (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)"
@@ -112,9 +112,19 @@ Et cytostatisk kræftlægemiddel forventes ikke at korrigere en receptordefekt, 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106240019 | Ibrance (Pfizer Europe MA EEIG) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106240019 | Ibrance | filmovertrukne tabletter | Palbociclib | Gyldig |
+| 28106240119 | Ibrance | filmovertrukne tabletter | Palbociclib | Gyldig |
+| 28106239919 | Ibrance | filmovertrukne tabletter | Palbociclib | Gyldig |
+| 28105650215 | Ibrance | kapsler, hårde | Palbociclib | Gyldig |
+| 28105650315 | Ibrance | kapsler, hårde | Palbociclib | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

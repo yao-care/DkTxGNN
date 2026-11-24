@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: forudsagt ny indikation Bilateral parasagittal parieto-okcipital polymikrogyri (bilateral parasagittal parieto-occipital polymicrogyria) (evidensniveau L5)."
@@ -66,11 +66,21 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104899411 | Glentek (Glenmark Arzneimittel GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
 
-Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104899411 | Glentek | filmovertrukne tabletter | RILUZOL | Gyldig |
+| 28106232719 | Rilucare | filmovertrukne tabletter | RILUZOL | Gyldig |
+| 28101766795 | Rilutek | filmovertrukne tabletter | RILUZOL | Gyldig |
+| 28106200918 | Riluzol "Abacus Medicine" | filmovertrukne tabletter | RILUZOL | Gyldig |
+| 28107369425 | Riluzol "Nordic Prime" | filmovertrukne tabletter | RILUZOL | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater til oral anvendelse; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-riluzole-1 -->
 
@@ -105,7 +115,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.” → “Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er én gyldig tilladelse for et enkeltstofpræparat til oral anvendelse.” → “Der er 6 gyldige tilladelser for enkeltstofpræparater til oral anvendelse.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

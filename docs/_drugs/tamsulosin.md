@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamsulosin: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi (BPH)"
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -91,13 +91,21 @@ For den nærliggende forudsigelse **alopeci** (rang 9) blev der fundet to publik
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28107047023 | Bladasin | Kapsler med modificeret udløsning, hårde | Ikke angivet i de indsamlede data |
-| MA 28106705621 | Foxalite | Tabletter med modificeret udløsning | Ikke angivet i de indsamlede data |
-| MA 28106107318 | Dutasteride/Tamsulosinhydrochloride "Stada" | Kapsler, hårde | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Alle tre tilladelser er gyldige (national godkendelse); Bladasin er et enkeltstofpræparat, Dutasteride/Tamsulosinhydrochloride "Stada" og Vantamsolus er kombinationspræparater.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107047023 | Bladasin | kapsler med modificeret udløsning, hårde | TAMSULOSINHYDROCHLORID | Gyldig |
+| 28103912406 | Miktosan | kapsler med modificeret udløsning, hårde | TAMSULOSINHYDROCHLORID | Gyldig |
+| 28103802105 | Omnistad | kapsler med modificeret udløsning, hårde | TAMSULOSINHYDROCHLORID | Gyldig |
+| 28106103418 | Tamsulosin "Krka" | kapsler med modificeret udløsning, hårde | TAMSULOSINHYDROCHLORID | Gyldig |
+| 28106896223 | Tamsulosin "Liconsa" | kapsler med modificeret udløsning, hårde | TAMSULOSINHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
+
+Bladasin er et enkeltstofpræparat, Dutasteride/Tamsulosinhydrochloride "Stada" og Vantamsolus er kombinationspræparater; antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-tamsulosin-1 -->
 
@@ -140,7 +148,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Enkeltstof/kombination rettet | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Orbifloxacin: forudsagt ny indikation Hjertesygdom (heart disease) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de registrerede data"
 monitor_inn: "orbifloxacin"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "mitral valve disease", "Jeune syndrome situs inversus"]
@@ -86,6 +86,14 @@ For den ottende forudsigelse (forstyrrelse i fucoglycan-syntese) er der to publi
 ---
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ---
 

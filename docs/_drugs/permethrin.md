@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 649
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Permethrin: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -77,9 +77,21 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for dette 
 
 ## Information om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28101360589 | Nix | creme | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101360589 | Nix | creme | PERMETHRIN | Gyldig |
+| 28105281413 | Nix | creme | PERMETHRIN | Gyldig |
+| 28107194024 | Permethrin "LMP" | gel | PERMETHRIN | Gyldig |
+| 28106410820 | Permethrin "Morningside" | creme | PERMETHRIN | Gyldig |
+| 28107134924 | Permethrin Carefarm | creme | PERMETHRIN | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 21 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

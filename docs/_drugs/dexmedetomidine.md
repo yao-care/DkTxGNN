@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexmedetomidin: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (TxGNN-score 0.9960, evidensniveau L5). Oprindelig indikation: Ikke angivet i de danske markedsføringstilladelser (indikationstekste…"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -95,13 +95,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104789810 | Dexdor | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28105766216 | Dexmedetomidin "Ever Pharma" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28106641321 | Dexmedetomidin "Ever Valinject" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28106108718 | Dexmedetomidin "Kalceks" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28105982117 | Dexmedetomidin "Mylan" | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104789810 | Dexdor | koncentrat til infusionsvæske, opløsning | Dexmedetomidin | Gyldig |
+| 28105766216 | Dexmedetomidin "Ever Pharma" | koncentrat til infusionsvæske, opløsning | Dexmedetomidinhydrochlorid | Gyldig |
+| 28106641321 | Dexmedetomidin "Ever Valinject" | koncentrat til infusionsvæske, opløsning | Dexmedetomidinhydrochlorid | Gyldig |
+| 28106108718 | Dexmedetomidin "Kalceks" | koncentrat til infusionsvæske, opløsning | Dexmedetomidinhydrochlorid | Gyldig |
+| 28105982117 | Dexmedetomidin "Mylan" | koncentrat til infusionsvæske, opløsning | Dexmedetomidinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 8 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige. De forsøg, der er identificeret, anvender inhalation (nebulisering), som ikke er en godkendt administrationsvej i de danske tilladelser (kun injektionsvæske). Dette skal afklares.
 

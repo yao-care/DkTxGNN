@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 689
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: forudsagt ny indikation Fibrocystisk brystsygdom (breast fibrocystic disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: mindst 20"
@@ -85,9 +85,21 @@ Ingen af publikationerne tester progesteron som behandling. De er udvalgt efter 
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107271224 | Amelgen (Orifarm A/S) | Vagitorier | Indikationstekst er ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107271224 | Amelgen | vagitorier | PROGESTERON | Gyldig |
+| 28101706794 | Crinone | vaginalgel | PROGESTERON | Gyldig |
+| 28103925606 | Crinone | vaginalgel | PROGESTERON | Gyldig |
+| 28104999011 | Crinone | vaginalgel | PROGESTERON | Gyldig |
+| 28105607915 | Crinone | vaginalgel | PROGESTERON | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine: forudsagt ny indikation akrodermatitis chronica atrophicans (acrodermatitis chronica atrophicans) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -69,13 +69,19 @@ Der er i øjeblikket ingen relevant litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107074623 | Bupivacaine "Aguettant" | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28106280119 | EXPAREL liposomal | Depotinjektionsvæske, dispersion | Indikationstekst ikke registreret |
-| 28101929997 | Bupivacain-morfin SAD | Infusionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28100488965 | Marcain-adrenalin | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
-| 28106068118 | Hevicain Spinal Tung | Injektionsvæske, opløsning | Indikationstekst ikke registreret |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101417290 | Bupivacain "SAD" | injektionsvæske, opløsning | Bupivacainhydrochlorid monohydrat | Gyldig |
+| 28101417390 | Bupivacain "SAD" | injektionsvæske, opløsning | Bupivacainhydrochlorid monohydrat | Gyldig |
+| 28107074623 | Bupivacaine "Aguettant" | injektionsvæske, opløsning | Bupivacainhydrochlorid monohydrat | Gyldig |
+| 28105477114 | Bupivacaine "Baxter" | injektionsvæske, opløsning | Bupivacainhydrochlorid monohydrat | Gyldig |
+| 28105477214 | Bupivacaine "Baxter" | injektionsvæske, opløsning | Bupivacainhydrochlorid monohydrat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

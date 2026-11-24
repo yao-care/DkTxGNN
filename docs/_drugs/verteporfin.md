@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 882
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Verteporfin: forudsagt ny indikation Mitokondriel oxidativ fosforyleringsforstyrrelse som følge af nukleære DNA-anomalier (evidensniveau L5). Oprindelig indikation: Makuladegeneration"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
@@ -80,9 +80,15 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103080799 | Visudyne (CHEPLAPHARM Arzneimittel GmbH) | Pulver til infusionsvæske, opløsning | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103080799 | Visudyne | pulver til infusionsvæske, opløsning | VERTEPORFIN | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

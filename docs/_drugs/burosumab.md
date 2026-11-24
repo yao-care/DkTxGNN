@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 141
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Burosumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -74,9 +74,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Burosu
 
 ## Markedsinformation i Danmark
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28105882116 | Crysvita | injektionsvæske, opløsning | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105882116 | Crysvita | injektionsvæske, opløsning | Burosumab | Gyldig |
+| 28105882216 | Crysvita | injektionsvæske, opløsning | Burosumab | Gyldig |
+| 28105882316 | Crysvita | injektionsvæske, opløsning | Burosumab | Gyldig |
+| 28107067923 | Crysvita | injektionsvæske, opløsning i fyldt injektionssprøjte | Burosumab | Gyldig |
+| 28107068023 | Crysvita | injektionsvæske, opløsning i fyldt injektionssprøjte | Burosumab | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

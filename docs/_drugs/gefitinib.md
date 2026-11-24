@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Gefitinib: forudsagt ny indikation Fibromatose i gingiva (fibromatosis, gingival) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -80,9 +80,17 @@ Bemærk: Blandt de øvrige forudsagte sygdomme (fx godartet lungeneoplasme og pu
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106011717 | Gefitinib "Accord" (Accord Healthcare B.V.) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106011717 | Gefitinib "Accord" | filmovertrukne tabletter | GEFITINIB | Gyldig |
+| 28105975117 | Gefitinib "Stada" | filmovertrukne tabletter | GEFITINIB | Gyldig |
+| 28104360408 | Iressa | filmovertrukne tabletter | GEFITINIB | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er registreret én gyldig enkeltstofstilladelse. Administrationsvejen er oral.
 

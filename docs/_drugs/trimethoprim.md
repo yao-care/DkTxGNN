@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 860
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Trimethoprim: forudsagt ny indikation Punktat epitelial keratokonjunktivitis (evidensniveau L5). Oprindelig indikation: Urinvejsinfektion, infektiøs mellemørebetændelse, pneumocystose…"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -95,9 +95,21 @@ Disse studier understøtter primært brug ved bakteriel konjunktivitis (en eksis
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106586421 | Trimethoprim "Orifarm" | Filmovertrukne tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107656526 | Trimethoprim "2care4" | filmovertrukne tabletter | TRIMETHOPRIM | Gyldig |
+| 28106586421 | Trimethoprim "Orifarm" | filmovertrukne tabletter | TRIMETHOPRIM | Gyldig |
+| 28100920477 | Trimopan | filmovertrukne tabletter | TRIMETHOPRIM | Gyldig |
+| 28101022079 | Trimopan | oral suspension | TRIMETHOPRIM | Gyldig |
+| 28101651185 | Sulfametoxazol med Trimetoprim "SAD" | tabletter | SULFAMETHOXAZOL, TRIMETHOPRIM | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 13 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Det eneste registrerede præparat er en oral tablet. Der er ikke fundet et øjenpræparat med trimethoprim til lokal anvendelse i de indsamlede data.
 

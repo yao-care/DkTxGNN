@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole: forudsagt ny indikation Gaze palsy, familial horizontal, with progressive scoliosis (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -81,10 +81,19 @@ Der er ingen publikationer direkte om den forudsagte sygdom i de data, der er in
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107159624 | Aripiprazole "Hexal" | Pulver og solvens til depotinjektionsvæske, suspension | Ikke angivet i de lokale data |
-| 28103888106 | Abilify | Injektionsvæske, opløsning | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103888106 | Abilify | injektionsvæske, opløsning | Aripiprazol | Gyldig |
+| 28103765004 | Abilify | oral opløsning | Aripiprazol | Gyldig |
+| 28103686004 | Abilify | smeltetabletter | Aripiprazol | Gyldig |
+| 28103686104 | Abilify | smeltetabletter | Aripiprazol | Gyldig |
+| 28103686204 | Abilify | smeltetabletter | Aripiprazol | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

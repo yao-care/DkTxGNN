@@ -5,7 +5,7 @@ layout: default
 title: Cloprostenol
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 213
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Cloprostenol: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Cloprostenol"
 predicted_indications: []
@@ -50,6 +50,14 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 11 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
+
 Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét gyldigt enkeltstofprodukt og ingen annullerede tilladelser.
 
 ---
@@ -57,7 +65,6 @@ Produktet er et veterinærlægemiddel fremstillet af aniMedica GmbH. Der er ét 
 ## Sikkerhedsovervejelser
 
 Der er ikke fundet registrerede lægemiddelinteraktioner i de indsamlede data. For øvrig sikkerhedsinformation henvises til det godkendte produktresumé (SmPC).
-
 
 ---
 

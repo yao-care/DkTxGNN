@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Trastuzumab: forudsagt ny indikation Malignant cutaneous granular cell skin tumor (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -79,9 +79,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107106624 | Dazublys (Curateq Biologics s.r.o.) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107106624 | Dazublys | pulver til koncentrat til infusionsvæske, opløsning | TRASTUZUMAB | Gyldig |
+| 28107505325 | Dazublys | pulver til koncentrat til infusionsvæske, opløsning | TRASTUZUMAB | Gyldig |
+| 28105047412 | Herceptin | injektionsvæske, opløsning | TRASTUZUMAB | Gyldig |
+| 28103034998 | Herceptin | pulver til koncentrat til infusionsvæske, opløsning | TRASTUZUMAB | Gyldig |
+| 28106738921 | Herwenda | pulver til koncentrat til infusionsvæske, opløsning | TRASTUZUMAB | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Der er registreret mindst 20 gyldige markedsføringstilladelser for enkeltstofpræparater.
 

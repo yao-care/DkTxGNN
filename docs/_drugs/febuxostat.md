@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 347
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: forudsagt ny indikation Renal hypourikæmi (hypouricemia, renal) (evidensniveau L4). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
@@ -106,9 +106,19 @@ Der er ingen kliniske forsøg for partiel HPRT-mangel eller Lesch-Nyhans syndrom
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104019206 | Adenuric (Menarini International Operation Luxembourg S.A.) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104019206 | Adenuric | filmovertrukne tabletter | Febuxostat | Gyldig |
+| 28104019106 | Adenuric | filmovertrukne tabletter | Febuxostat | Gyldig |
+| 28105977917 | Febuxostat "Accord" | filmovertrukne tabletter | Febuxostat | Gyldig |
+| 28106112618 | Febuxostat "Krka" | filmovertrukne tabletter | Febuxostat | Gyldig |
+| 28106112518 | Febuxostat "Krka" | filmovertrukne tabletter | Febuxostat | Gyldig |
+
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

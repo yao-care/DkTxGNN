@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 517
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Lutropin Alfa: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -52,9 +52,19 @@ Ingen af disse har understøttende forsøg eller litteratur, og alle er vurderet
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103066599 | Luveris (Merck Europe B.V.) | Pulver og solvens til injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103066599 | Luveris | pulver og solvens til injektionsvæske, opløsning | Lutropin Alfa | Gyldig |
+| 28105815116 | Pergoveris | injektionsvæske, opløsning i fyldt pen | Follitropin Alfa (biosyntetisk, rekombinant), Lutropin Alfa | Gyldig |
+| 28105815216 | Pergoveris | injektionsvæske, opløsning i fyldt pen | Follitropin Alfa (biosyntetisk, rekombinant), Lutropin Alfa | Gyldig |
+| 28105815316 | Pergoveris | injektionsvæske, opløsning i fyldt pen | Follitropin Alfa (biosyntetisk, rekombinant), Lutropin Alfa | Gyldig |
+| 28103896806 | Pergoveris | pulver og solvens til injektionsvæske, opløsning | Follitropin Alfa (biosyntetisk, rekombinant), Lutropin Alfa | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -94,9 +94,17 @@ Ingen af forsøgene undersøger luftvejsmisdannelser direkte.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105926917 | Airflusal Forspiro (2care4 ApS) | Inhalationspulver, afdelt | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105213813 | AirFluSal Forspiro | inhalationspulver, afdelt | FLUTICASONPROPIONAT, SALMETEROL | Gyldig |
+| 28105213913 | AirFluSal Forspiro | inhalationspulver, afdelt | FLUTICASONPROPIONAT, SALMETEROL | Gyldig |
+| 28105926917 | Airflusal Forspiro | inhalationspulver, afdelt | FLUTICASONPROPIONAT, SALMETEROL | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

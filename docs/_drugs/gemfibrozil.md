@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gemfibrozil: forudsagt ny indikation Reumatoid artritis (evidensniveau L5). Oprindelig indikation: Hypertriglyceridæmi"
 ---
 
@@ -89,9 +89,18 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret for reumato
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101349789 | Lopid (Pfizer ApS) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101349789 | Lopid | filmovertrukne tabletter | GEMFIBROZIL | Gyldig |
+| 28101349889 | Lopid | filmovertrukne tabletter | GEMFIBROZIL | Gyldig |
+| 28104961311 | Lopid | filmovertrukne tabletter | GEMFIBROZIL | Gyldig |
+| 28105078612 | Lopid | filmovertrukne tabletter | GEMFIBROZIL | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

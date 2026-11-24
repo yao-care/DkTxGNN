@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: forudsagt ny indikation Feline acquired immunodeficiency syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -71,13 +71,19 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret fo
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106311319 | REKAMBYS | Depotinjektionsvæske, suspension | Indikationstekst ikke tilgængelig |
-| 28104759610 | Edurant | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28105963217 | Juluca | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28105649615 | Odefsey | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
-| 28104764010 | Eviplera | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104759610 | Edurant | filmovertrukne tabletter | Rilpivirinhydrochlorid | Gyldig |
+| 28106311319 | REKAMBYS | depotinjektionsvæske, suspension | Rilpivirin | Gyldig |
+| 28106581719 | REKAMBYS | depotinjektionsvæske, suspension | Rilpivirin | Gyldig |
+| 28104764010 | Eviplera | filmovertrukne tabletter | EMTRICITABIN, Rilpivirinhydrochlorid, TENOFOVIRDISOPROXILFUMARAT | Gyldig |
+| 28105963217 | Juluca | filmovertrukne tabletter | Dolutegravir, Rilpivirinhydrochlorid | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

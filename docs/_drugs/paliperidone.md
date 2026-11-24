@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -98,10 +98,19 @@ Til orientering for behandlingsrefraktær skizofreni:
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103944206 | Invega | Depottabletter | Indikationstekst ikke tilgængelig |
-| 28106550520 | BYANNLI | Depotinjektionsvæske, suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106550520 | BYANNLI | depotinjektionsvæske, suspension | Paliperidonpalmitat | Gyldig |
+| 28106550420 | BYANNLI | depotinjektionsvæske, suspension | Paliperidonpalmitat | Gyldig |
+| 28106440520 | Dopelir | depotinjektionsvæske, suspension i fyldt injektionssprøjte | Paliperidonpalmitat | Gyldig |
+| 28106440320 | Dopelir | depotinjektionsvæske, suspension i fyldt injektionssprøjte | Paliperidonpalmitat | Gyldig |
+| 28106440420 | Dopelir | depotinjektionsvæske, suspension i fyldt injektionssprøjte | Paliperidonpalmitat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Begge tilladelser er gyldige og indehaves af Janssen-Cilag International NV.
 

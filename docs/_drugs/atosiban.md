@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Atosiban"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atosiban: forudsagt ny indikation Primær arvelig glaukom (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske tilladelse. Farmakologiske kilder beskriver…"
 ---
 
@@ -71,9 +71,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur for primær arvelig g
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105648115 | Atosiban "EVER Pharma" (EVER Valinject GmbH) | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105648115 | Atosiban "EVER Pharma" | injektionsvæske, opløsning | ATOSIBAN | Gyldig |
+| 28105637315 | Atosiban "EVER Pharma" | koncentrat til infusionsvæske, opløsning | ATOSIBAN | Gyldig |
+| 28105637415 | Atosiban "EVER Pharma" | koncentrat til infusionsvæske, opløsning | ATOSIBAN | Gyldig |
+| 28105170512 | Atosiban "SUN" | injektionsvæske, opløsning | ATOSIBAN | Gyldig |
+| 28105170612 | Atosiban "SUN" | koncentrat til infusionsvæske, opløsning | ATOSIBAN | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

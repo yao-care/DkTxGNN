@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Heparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (evidensniveau L5). Oprindelig indikation: Lungeemboli, dissemineret intravaskulær koagulation…"
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for denne indikatio
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28101041080 | Heparin "Leo" (LEO Pharma A/S) | Injektionsvæske, opløsning | Indikationstekst ikke angivet i de foreliggende data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101041080 | Heparin "Leo" | injektionsvæske, opløsning | Heparinnatrium | Gyldig |
+| 28100983778 | Heparin "Leo" | injektionsvæske, opløsning | Heparinnatrium | Gyldig |
+| 28100049555 | Heparin "Leo" | injektionsvæske, opløsning | Heparinnatrium | Gyldig |
+| 28106038717 | Heparin "Panpharma" | injektionsvæske, opløsning | Heparinnatrium | Gyldig |
+| 28105107212 | Heparin LEO | injektionsvæske, opløsning | Heparinnatrium | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

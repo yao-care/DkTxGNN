@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: forudsagt ny indikation Luftvejsmisdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -79,9 +79,19 @@ Den fundne litteratur omhandler primært astma, kronisk bronkitis, differentiald
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104107607 | Bricanyl Turbohaler (Orifarm A/S) | Inhalationspulver | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104107607 | Bricanyl Turbohaler | inhalationspulver | TERBUTALINSULFAT | Gyldig |
+| 28101492592 | Bricanyl Turbuhaler | inhalationspulver | TERBUTALINSULFAT | Gyldig |
+| 28101282986 | Bricanyl Turbuhaler | inhalationspulver | TERBUTALINSULFAT | Gyldig |
+| 28103050298 | Bricanyl Turbuhaler | inhalationspulver | TERBUTALINSULFAT | Gyldig |
+| 28105610015 | Bricanyl Turbuhaler | inhalationspulver | TERBUTALINSULFAT | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

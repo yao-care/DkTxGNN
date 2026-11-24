@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Carprofen"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "tendinitis", "headache disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "trigeminal autonomic cephalalgia", "gout"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carprofen: forudsagt ny indikation Leddegigt (rheumatoid arthritis) (evidensniveau L2). I Danmark kun godkendt som veterinærlægemiddel"
 ---
 
@@ -78,6 +78,14 @@ Currently ingen relaterede kliniske forsøg er registreret i de indsamlede data.
 | [6120390](https://pubmed.ncbi.nlm.nih.gov/6120390/) | 1982 | In vitro | Lancet | Hæmning af IgM-reumafaktorproduktion ca. 50 % |
 
 ## Information om det danske marked
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 35 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
@@ -80,9 +80,17 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for bronkitis.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106803822 | Tyruko (Sandoz GmbH) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106803822 | Tyruko | koncentrat til infusionsvæske, opløsning | Natalizumab | Gyldig |
+| 28106422220 | Tysabri | injektionsvæske, opløsning i fyldt injektionssprøjte | Natalizumab | Gyldig |
+| 28103691204 | Tysabri | koncentrat til infusionsvæske, opløsning | Natalizumab | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

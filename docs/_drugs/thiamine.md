@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
@@ -90,14 +90,22 @@ Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 52620003793 | APOVIT B1 vitamin ekstra stærk | Tabletter | Ikke angivet |
-| 52620003493 | APOVIT B-Combin stærk | Filmovertrukne tabletter | Ikke angivet |
-| 28107099123 | Zubatmin | Koncentrat til infusionsvæske, opløsning | Ikke angivet |
-| 28105939417 | Viant | Pulver til infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
 
-Antal tilladelser: 13 (alle nationale, gyldige; tabellen viser 4 af dem). Ingen af disse har angivet indikationstekst i de indsamlede data.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 52620003793 | APOVIT B1 vitamin ekstra stærk | tabletter | Thiaminhydrochlorid | Gyldig |
+| 28107047823 | Bevione | injektionsvæske, opløsning | Thiaminhydrochlorid | Gyldig |
+| 28107056123 | Thiamine "Kabi" | injektions-/infusionsvæske, opløsning | Thiaminhydrochlorid | Gyldig |
+| 28107055923 | Thiamine "Kabi" | injektions-/infusionsvæske, opløsning | Thiaminhydrochlorid | Gyldig |
+
+Tabellen viser 4 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen. Ingen af disse har angivet indikationstekst i de indsamlede data.
 
 <!-- review:begin dk-lic-20261112-thiamine-1 -->
 
@@ -134,7 +142,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: 4 → 13 | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: 4 → 13 | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

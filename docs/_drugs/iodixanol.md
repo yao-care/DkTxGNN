@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Iodixanol: forudsagt ny indikation Osteoartrose (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data (godkendelsesteksten for det danske…"
 ---
 
@@ -88,11 +88,18 @@ Ingen af publikationerne undersøger iodixanol som behandling af osteoartrose.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101593294 | Visipaque | Injektionsvæske, opløsning | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
 
-Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101593294 | Visipaque | injektionsvæske, opløsning | IODIXANOL | Gyldig |
+| 28101593394 | Visipaque | injektionsvæske, opløsning | IODIXANOL | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-iodixanol-1 -->
 
@@ -148,7 +155,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healt” → “Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret én gyldig tilladelse (enkeltstofpræparat), indehaver GE Healt” → “Der er registreret 2 gyldige tilladelser (enkeltstofpræparater).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

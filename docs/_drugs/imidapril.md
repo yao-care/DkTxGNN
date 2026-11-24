@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "imidapril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: forudsagt ny indikation Pulmonary hypertension owing to lung disease and/or hypoxia (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -92,6 +92,14 @@ Der er aktuelt ingen relevant litteratur tilgængelig.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Bemærk: Det eneste godkendte produkt, Prilium Vet. (Vetoquinol S.A.), er et veterinærlægemiddel. Der er i de indsamlede data ikke fundet en markedsføringstilladelse til human anvendelse i Danmark.
 

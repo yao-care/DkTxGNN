@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 786
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: forudsagt ny indikation Seborrheic dermatitis (evidensniveau L1). I Danmark, markedsføringstilladelser: mindst 20"
@@ -93,9 +93,19 @@ Bemærk, at mekanismen her bygger på den kendte virkning af calcineurinhæmmere
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104323808 | Advagraf (Astellas Pharma Europe B.V.) | Depotkapsler, hårde | Indikationstekst er ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104303808 | Adport | kapsler, hårde | Tacrolimusmonohydrat | Gyldig |
+| 28105215413 | Adport | kapsler, hårde | Tacrolimusmonohydrat | Gyldig |
+| 28104303908 | Adport | kapsler, hårde | Tacrolimusmonohydrat | Gyldig |
+| 28105215313 | Adport | kapsler, hårde | Tacrolimusmonohydrat | Gyldig |
+| 28104304008 | Adport | kapsler, hårde | Tacrolimusmonohydrat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Bemærk: Den eneste danske tilladelse i de indsamlede data er et peroralt depotpræparat. Det er ikke den topikale salve (Protopic), som er undersøgt ved seboroisk dermatitis. Tilgængeligheden af en topikal formulering i Danmark er derfor ikke dokumenteret her og bør afklares.
 

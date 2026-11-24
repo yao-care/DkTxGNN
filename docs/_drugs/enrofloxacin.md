@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Enrofloxacin"
 predicted_indications: ["heart disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "pulmonary valve disease", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "mitral valve disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Enrofloxacin: forudsagt ny indikation Hjertesygdom (evidensniveau L5). Oprindelig indikation: Ikke oplyst i den danske registrering (godkendelsesteksten er tom). P…"
 ---
 
@@ -92,6 +92,14 @@ Ingen af de fundne publikationer undersøger enrofloxacin direkte som behandling
 ---
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 19 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Der er tale om et enkeltstofpræparat til veterinær brug. Der er ingen kendt godkendt humanindikation i de indsamlede data.
 

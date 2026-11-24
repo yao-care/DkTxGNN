@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin: forudsagt ny indikation Konjunktivitis (evidensniveau L5). Oprindelig indikation: Lungetuberkulose"
 ---
 
@@ -80,9 +80,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret for konjunktivitis.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100535568 | Rimactan (Sandoz GmbH) | Kapsler, hårde | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107687126 | Rifampicin "2care4" | kapsler, hårde | RIFAMPICIN | Gyldig |
+| 28100535568 | Rimactan | kapsler, hårde | RIFAMPICIN | Gyldig |
+| 28100573870 | Rimactan | kapsler, hårde | RIFAMPICIN | Gyldig |
+| 28105931117 | Rimactan | kapsler, hårde | RIFAMPICIN | Gyldig |
+| 28107586026 | Rimactan | kapsler, hårde | RIFAMPICIN | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Cytotoksicitet
 

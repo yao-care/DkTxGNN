@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Elafibranor"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Elafibranor: forudsagt ny indikation Amenoré (amenorrhea (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
@@ -80,9 +80,15 @@ Der foreligger i øjeblikket ingen relateret litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28107069423 | Iqirvo (Ipsen Pharma) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107069423 | Iqirvo | filmovertrukne tabletter | Elafibranor | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

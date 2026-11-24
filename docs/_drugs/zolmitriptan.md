@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 906
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: forudsagt ny indikation Atrophoderma vermiculata (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)"
@@ -94,9 +94,19 @@ Ingen af publikationerne undersøger zolmitriptan specifikt ved migræne med hje
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106741122 | Zolmitriptan "2care4" (2care4 ApS) | Tabletter (oral) | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106741122 | Zolmitriptan "2care4" | tabletter | ZOLMITRIPTAN | Gyldig |
+| 28104275708 | Zolmitriptan "Holsten" | filmovertrukne tabletter | ZOLMITRIPTAN | Gyldig |
+| 28104275808 | Zolmitriptan "Holsten" | filmovertrukne tabletter | ZOLMITRIPTAN | Gyldig |
+| 28104276308 | Zolmitriptan "Holsten" | smeltetabletter | ZOLMITRIPTAN | Gyldig |
+| 28104276408 | Zolmitriptan "Holsten" | smeltetabletter | ZOLMITRIPTAN | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: forudsagt ny indikation Akut smitsom konjunktivitis (acute contagious conjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
@@ -91,10 +91,19 @@ For gastroduodenitis (rang 4) findes en case report fra 2026 ([PMID 41924411](ht
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101397090 | Imodium (McNeil Denmark ApS) | Tabletter | Ikke tilgængelig |
-| 28103925806 | Imodium Plus (McNeil Denmark ApS) | Tabletter | Ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101397090 | Imodium | tabletter | LOPERAMIDHYDROCHLORID | Gyldig |
+| 28106424420 | Imodium | tabletter | LOPERAMIDHYDROCHLORID | Gyldig |
+| 28106993723 | Imodium | tabletter | LOPERAMIDHYDROCHLORID | Gyldig |
+| 28107194724 | Imodium | tabletter | LOPERAMIDHYDROCHLORID | Gyldig |
+| 28104835610 | Imodium Smelt | frysetørret tablet | LOPERAMIDHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

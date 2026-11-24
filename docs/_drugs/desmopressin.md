@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desmopressin: forudsagt ny indikation Congenital prothrombin deficiency (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -92,9 +92,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103652104 | Minirin (Ferring Lægemidler A/S) | Frysetørret tablet | Indikationstekst er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106757322 | Desmopressin "Newbury" | resoribletter, sublinguale | Desmopressinacetat | Gyldig |
+| 28106757422 | Desmopressin "Newbury" | resoribletter, sublinguale | Desmopressinacetat | Gyldig |
+| 28106757222 | Desmopressin "Newbury" | resoribletter, sublinguale | Desmopressinacetat | Gyldig |
+| 28106979023 | Desmopressin "Pharmholding" | frysetørret sublingual tablet | Desmopressinacetat | Gyldig |
+| 28106979123 | Desmopressin "Pharmholding" | frysetørret sublingual tablet | Desmopressinacetat | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Antal godkendelser: mindst 20 nationale markedsføringstilladelser, gyldige, enkeltstof.
 

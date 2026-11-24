@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: forudsagt ny indikation Misdannelsessyndrom med tand- og/eller parodontiekomponent (malformation syndrome with odontal and/or periodontal compo… (evidensniveau L5). Oprindelig indikation…"
 ---
 
@@ -78,9 +78,19 @@ Der er for øjeblikket ingen relateret litteratur for denne forudsagte indikatio
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105564415 | Bimatoprost "Pharmathen" | Øjendråber, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107531525 | Bimatoprost "Hexal" | øjendråber, opløsning, enkeltdosisbeholder | BIMATOPROST | Gyldig |
+| 28105564415 | Bimatoprost "NTC" | øjendråber, opløsning | BIMATOPROST | Gyldig |
+| 28105564515 | Bimatoprost "NTC" | øjendråber, opløsning | BIMATOPROST | Gyldig |
+| 28105345213 | Bimatoprost "Stada" | øjendråber, opløsning | BIMATOPROST | Gyldig |
+| 28105345313 | Bimatoprost "Stada" | øjendråber, opløsning | BIMATOPROST | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ---
 

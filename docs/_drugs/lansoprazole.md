@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: forudsagt ny indikation Duodenal obstruction (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
@@ -83,9 +83,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105124112 | Lansoprazol "DOC" (DOC Generici S.r.l.) | Enterokapsler, hårde | Indikationstekst er ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105124112 | Lansoprazol "DOC" | enterokapsler, hårde | LANSOPRAZOL | Gyldig |
+| 28105124212 | Lansoprazol "DOC" | enterokapsler, hårde | LANSOPRAZOL | Gyldig |
+| 28103789105 | Lansoprazol "KRKA" | enterokapsler, hårde | LANSOPRAZOL | Gyldig |
+| 28103789205 | Lansoprazol "KRKA" | enterokapsler, hårde | LANSOPRAZOL | Gyldig |
+| 28104660610 | Lansoprazol "Medical Valley" | enterokapsler, hårde | LANSOPRAZOL | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

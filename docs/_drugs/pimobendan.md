@@ -5,7 +5,7 @@ layout: default
 title: Pimobendan
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 662
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pimobendan: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Pimobendan"
 predicted_indications: []
@@ -49,6 +49,14 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 ---
 
 ## Information om markedet i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 27 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Tilladelsen er national, gyldig og omfatter et enkeltstofprodukt til oral anvendelse. Produktet er et veterinærlægemiddel, ikke en human specialitet.
 

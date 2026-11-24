@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Nicorandil: forudsagt ny indikation Benign prostatahyperplasi (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske godkendelsestekst. Kronisk stabil angina pe…"
 ---
 
@@ -88,9 +88,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105776516 | Ikorel | Tabletter | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105776516 | Ikorel | tabletter | NICORANDIL | Gyldig |
+| 28107409425 | Nicorandil "2care4" | tabletter | NICORANDIL | Gyldig |
+| 28107409525 | Nicorandil "2care4" | tabletter | NICORANDIL | Gyldig |
+| 28106761122 | Nicorandil "Nordic Prime" | tabletter | NICORANDIL | Gyldig |
+| 28106761822 | Nicorandil "Nordic Prime" | tabletter | NICORANDIL | Gyldig |
+
+Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en enkeltstofgodkendelse, gyldig, og indehaveren er 2care4 ApS. Der er kun denne ene nationale tilladelse, og listen er komplet.
 

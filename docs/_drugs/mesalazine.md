@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: forudsagt ny indikation Congenital hypotrichosis with juvenile macular dystrophy (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -82,9 +82,19 @@ Ingen af publikationerne viser effekt af mesalazin ved reumatoid artritis.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101301487 | Asacol (Tillotts Pharma AB) | Enterotabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101301487 | Asacol | enterotabletter | MESALAZIN | Gyldig |
+| 28103346402 | Asacol | enterotabletter | MESALAZIN | Gyldig |
+| 28105731116 | Asacol | enterotabletter | MESALAZIN | Gyldig |
+| 28107257524 | Asacol | enterotabletter | MESALAZIN | Gyldig |
+| 28107314225 | Asacol | enterotabletter | MESALAZIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

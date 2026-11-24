@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin: forudsagt ny indikation Trombofili på grund af protein C-mangel, autosomal recessiv (thrombophilia due to protein C deficiency… (evidensniveau L5). Oprindelig indikation: Ikke registreret…"
@@ -84,9 +84,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101295087 | Fragmin (Pfizer ApS) | Injektionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101753495 | Fragmin | injektionsvæske, opløsning | Dalteparinnatrium | Gyldig |
+| 28101294987 | Fragmin | injektionsvæske, opløsning | Dalteparinnatrium | Gyldig |
+| 28105591713 | Fragmin | injektionsvæske, opløsning i fyldt injektionssprøjte | Dalteparinnatrium | Gyldig |
+| 28105591813 | Fragmin | injektionsvæske, opløsning i fyldt injektionssprøjte | Dalteparinnatrium | Gyldig |
+| 28105598815 | Fragmin | injektionsvæske, opløsning i fyldt injektionssprøjte | Dalteparinnatrium | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

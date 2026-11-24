@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simvastatin: forudsagt ny indikation Hjernestammeinfarkt (brain stem infarction) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -82,9 +82,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret for hjernestammeinf
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103186400 | Perichol (PharmaCoDane ApS) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103186400 | Perichol | filmovertrukne tabletter | SIMVASTATIN | Gyldig |
+| 28103186500 | Perichol | filmovertrukne tabletter | SIMVASTATIN | Gyldig |
+| 28103186600 | Perichol | filmovertrukne tabletter | SIMVASTATIN | Gyldig |
+| 28103186300 | Perichol | filmovertrukne tabletter | SIMVASTATIN | Gyldig |
+| 28107575126 | Simitin | filmovertrukne tabletter | SIMVASTATIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Tilladelsen er til et enkeltstofpræparat til oral brug, og den er gyldig.
 

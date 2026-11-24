@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ravulizumab: forudsagt ny indikation Autosomal recessiv svær medfødt neutropeni på grund af G6PC3-mangel (evidensniveau L5). Oprindelig indikation: Paroksysmal nattlig hæmoglobinuri"
 ---
 
@@ -70,9 +70,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106375119 | Ultomiris (Alexion Europe SAS) | Koncentrat til infusionsvæske, opløsning | Indikationsteksten er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106375119 | Ultomiris | koncentrat til infusionsvæske, opløsning | Ravulizumab | Gyldig |
+| 28106547619 | Ultomiris | koncentrat til infusionsvæske, opløsning | Ravulizumab | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antallet af tilladelser er 1, og listen er ikke delvis.
 

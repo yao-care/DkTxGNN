@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Nystatin: forudsagt ny indikation Sygdom i orbitalregionen (disease of orbital region) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
 ---
 
@@ -72,9 +72,21 @@ Der findes i øjeblikket ingen relateret litteratur.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101460791 | Mycostatin (Paranova Danmark A/S) | Oral suspension | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101460791 | Mycostatin | oral suspension | Nystatin | Gyldig |
+| 28104533609 | Mycostatin | oral suspension | Nystatin | Gyldig |
+| 28105924417 | Nystatin "Orifarm" | oral suspension | Nystatin | Gyldig |
+| 28105336113 | Nystimex | oral suspension | Nystatin | Gyldig |
+| 28106266519 | Nystimex | oral suspension | Nystatin | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

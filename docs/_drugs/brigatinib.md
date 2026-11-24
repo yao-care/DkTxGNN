@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Brigatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Brigatinib: forudsagt ny indikation Gingival fibromatose (evidensniveau L5). Oprindelig indikation: Ikke-småcellet lungekræft"
 ---
 
@@ -79,11 +79,20 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig for gingival fibr
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105913017 | Alunbrig (Takeda Pharma A/S) | Filmovertrukne tabletter | Indikationsteksten er ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
 
-Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105913017 | Alunbrig | filmovertrukne tabletter | Brigatinib | Gyldig |
+| 28105912817 | Alunbrig | filmovertrukne tabletter | Brigatinib | Gyldig |
+| 28105912917 | Alunbrig | filmovertrukne tabletter | Brigatinib | Gyldig |
+| 28106356619 | Alunbrig Startpakke | filmovertrukne tabletter | Brigatinib | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Tilladelserne gælder enkeltstofpræparater; antal og status står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-brigatinib-1 -->
 
@@ -145,7 +154,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Antal godkendelser: 1 national tilladelse (gyldig, enkeltstofpræparat).” → “Antal godkendelser: 4 nationale tilladelser (gyldige, enkeltstofpræparater).” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

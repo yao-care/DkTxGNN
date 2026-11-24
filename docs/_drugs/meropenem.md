@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meropenem: forudsagt ny indikation Bakteriel artritis (bacterial arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -81,9 +81,19 @@ Der er aktuelt ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106412220 | Merocarb (Antibiotice S.A.) | Pulver til injektions-/infusionsvæske, opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107155124 | Meropenem "Aptapharma" | pulver til injektions-/infusionsvæske, opløsning | MEROPENEM (trihydrat) | Gyldig |
+| 28107155224 | Meropenem "Aptapharma" | pulver til injektions-/infusionsvæske, opløsning | MEROPENEM (trihydrat) | Gyldig |
+| 28107155024 | Meropenem "Aptapharma" | pulver til injektions-/infusionsvæske, opløsning | MEROPENEM (trihydrat) | Gyldig |
+| 28106828022 | Meropenem "B. Braun" | pulver og solvens til infusionsvæske, opløsning | MEROPENEM (trihydrat) | Gyldig |
+| 28106827922 | Meropenem "B. Braun" | pulver og solvens til infusionsvæske, opløsning | MEROPENEM (trihydrat) | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

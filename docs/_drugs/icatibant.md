@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Icatibant: forudsagt ny indikation Serpinopati med toksisk serpinpolymerisering (serpinopathy with toxic serpin polymerization) (evidensniveau L5)."
 ---
 
@@ -68,9 +68,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104196507 | Firazyr | Injektionsvæske, opløsning | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104196507 | Firazyr | injektionsvæske, opløsning | icatibant | Gyldig |
+| 28106476120 | Icatibant "Adalvo" | injektionsvæske, opløsning i fyldt injektionssprøjte | Icatibantacetat | Gyldig |
+| 28106476820 | Icatibant "Fresenius" | injektionsvæske, opløsning i fyldt injektionssprøjte | Icatibantacetat | Gyldig |
+| 28106559020 | Icatibant "GP Pharm" | injektionsvæske, opløsning i fyldt injektionssprøjte | Icatibantacetat | Gyldig |
+| 28106476020 | Icatibant "Glenmark" | injektionsvæske, opløsning i fyldt injektionssprøjte | Icatibantacetat | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Indehaver: Takeda Pharmaceuticals International AG Ireland Branch. Tilladelsen er gyldig, og produktet er markedsført i Danmark.
 

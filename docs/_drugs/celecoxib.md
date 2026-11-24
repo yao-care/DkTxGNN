@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Celecoxib: forudsagt ny indikation akromesomelisk dysplasi, Hunter-Thompson-type (acromesomelic dysplasia, Hunter-Thompson type) (evidensniveau L5). Oprindelig indikation: Ikke registreret i de lokal…"
 ---
 
@@ -68,9 +68,19 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103126999 | Celebra (Viatris ApS) | Kapsler, hårde | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103126999 | Celebra | kapsler, hårde | CELECOXIB | Gyldig |
+| 28103127099 | Celebra | kapsler, hårde | CELECOXIB | Gyldig |
+| 28106447020 | Celecoxib "Accord" | kapsler, hårde | CELECOXIB | Gyldig |
+| 28106447120 | Celecoxib "Accord" | kapsler, hårde | CELECOXIB | Gyldig |
+| 28105184612 | Celecoxib "Krka" | kapsler, hårde | CELECOXIB | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

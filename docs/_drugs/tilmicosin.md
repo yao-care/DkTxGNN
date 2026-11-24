@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 831
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tilmicosin: known uses and market status in Denmark; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -71,6 +71,14 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tilmic
 | Ingen |
 
 ## Markedsinformation i Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

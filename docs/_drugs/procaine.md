@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 687
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Procaine: forudsagt ny indikation Methæmoglobinæmi (evidensniveau L4). Oprindelig indikation: Ikke oplyst i de data…"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -89,6 +89,14 @@ Ingen af publikationerne viser en terapeutisk effekt af procain ved methæmoglob
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 16 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 Seks tilladelser er gyldige i alt; de fem vigtigste er vist ovenfor. Flere af produkterne er til veterinær brug.
 

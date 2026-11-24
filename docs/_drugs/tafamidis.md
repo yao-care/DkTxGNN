@@ -5,7 +5,7 @@ parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 788
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tafamidis: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 predicted_indications: []
 ---
@@ -74,9 +74,19 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tafami
 
 ## Oplysninger om det danske marked
 
-| Tilladelse | Produkt | Lægemiddelform | Status |
-|------|------|------|------|
-| 28106220519 | Vyndaqel | kapsler, bløde | Gyldig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28107438125 | Tafamidis "Stada Nordic" | kapsler, bløde | Tafamidis | Gyldig |
+| 28107438925 | Tafamidis "Viatris" | kapsler, bløde | Tafamidis | Gyldig |
+| 28107225424 | Tafamidis "Zentiva" | kapsler, bløde | Tafamidis | Gyldig |
+| 28107581026 | Tafamidis Meglumin "Ethypharm" | kapsler, bløde | tafamidismeglumin | Gyldig |
+| 28107433825 | Tafamidis Meglumin "Lotus" | kapsler, bløde | tafamidismeglumin | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

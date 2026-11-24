@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vildagliptin: forudsagt ny indikation Focal stiff limb syndrome (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -103,9 +103,19 @@ Der er ingen litteratur, som direkte undersøger vildagliptin ved fokalt stiff l
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103990706 | Galvus (Novartis Europharm Limited) | Tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103990706 | Galvus | tabletter | Vildagliptin | Gyldig |
+| 28104391808 | Jalra | tabletter | Vildagliptin | Gyldig |
+| 28105788716 | Vildagliptin "AET" | tabletter | Vildagliptin | Gyldig |
+| 28105857316 | Vildagliptin "Krka" | tabletter | Vildagliptin | Gyldig |
+| 28106681721 | Vildagliptin "Nio" | tabletter | Vildagliptin | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Listen kan være ufuldstændig med hensyn til indikationstekst, men der er registreret én gyldig enkeltstofgodkendelse. Administrationsvejen er oral.
 

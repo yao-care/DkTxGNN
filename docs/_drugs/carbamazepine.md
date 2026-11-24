@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine: forudsagt ny indikation trigeminusnerve-tumor (trigeminal nerve neoplasm) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
 ---
 
@@ -87,9 +87,19 @@ Ingen af de fundne publikationer undersøger direkte carbamazepin som behandling
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106066718 | Carbamazepin "2care4" (2care4 ApS) | Depottabletter | Indikationstekst er ikke registreret i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106066718 | Carbamazepin "2care4" | depottabletter | CARBAMAZEPIN | Gyldig |
+| 28105154412 | Tegretal Retard | depottabletter | CARBAMAZEPIN | Gyldig |
+| 28105456614 | Tegretal Retard | depottabletter | CARBAMAZEPIN | Gyldig |
+| 28101131083 | Tegretol | oral suspension | CARBAMAZEPIN | Gyldig |
+| 28101045080 | Tegretol | tabletter | CARBAMAZEPIN | Gyldig |
+
+Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

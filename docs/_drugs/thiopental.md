@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 823
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: forudsagt ny indikation Trichotillomania (evidensniveau L5). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
@@ -87,10 +87,19 @@ Ingen af publikationerne er kontrollerede forsøg med thiopental ved frontallaps
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106611321 | Thiopental "Panpharma" (Panpharma) | Pulver til injektionsvæske, opløsning | Indikationsteksten er ikke angivet |
-| 28104955411 | Pentocur (Abcur AB) | Pulver til injektionsvæske, opløsning | Indikationsteksten er ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104955411 | Pentocur | pulver til injektionsvæske, opløsning | THIOPENTALNATRIUM | Gyldig |
+| 28106611321 | Thiopental "Panpharma" | pulver til injektionsvæske, opløsning | Thiopentalnatrium og natriumcarbonat | Gyldig |
+| 28106611021 | Thiopental "Panpharma" | pulver til injektionsvæske, opløsning | Thiopentalnatrium og natriumcarbonat | Gyldig |
+| 28105653515 | Thiopental Life | pulver til injektionsvæske, opløsning | THIOPENTALNATRIUM | Gyldig |
+| 28101653485 | Tiomebumalnatrium "SAD" | injektionsvæske, opløsning | THIOPENTALNATRIUM | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

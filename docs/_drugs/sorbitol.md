@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sorbitol: forudsagt ny indikation Udøvelsesudløst malign hypertermi (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 monitor_inn: "sorbitol"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -69,9 +69,18 @@ Bemærk desuden, at "exercise-induced malignant hyperthermia" ikke er en gængs 
 
 ## Denmark Market Information
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28100312259 | Klyx (Ferring Lægemidler A/S) | Rektalvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106566221 | KLYX | rektalvæske, opløsning | Docusatnatrium, Sorbitol | Gyldig |
+| 28100312259 | Klyx | rektalvæske, opløsning | Docusatnatrium, Sorbitol | Gyldig |
+| 28104335208 | Klyx | rektalvæske, opløsning | Docusatnatrium, Sorbitol | Gyldig |
+| 28107030123 | Klyx | rektalvæske, opløsning | Docusatnatrium, Sorbitol | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

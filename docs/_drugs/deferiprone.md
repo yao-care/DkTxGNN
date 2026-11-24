@@ -5,7 +5,7 @@ parent: Moderat evidens (L3-L4)
 nav_order: 245
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: forudsagt ny indikation Hepatisk porfyri (hepatic porphyria) (evidensniveau L4). I Danmark, markedsføringstilladelser: 6 (gyldige: 6)"
@@ -85,9 +85,19 @@ Der er for øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105965117 | Deferiprone "Lipomed" (Lipomed GmbH) | Filmovertrukne tabletter | Indikationsteksten er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106306519 | Deferipron "Orifarm" | filmovertrukne tabletter | DEFERIPRON | Gyldig |
+| 28106306419 | Deferipron "Orifarm" | filmovertrukne tabletter | DEFERIPRON | Gyldig |
+| 28105965117 | Deferiprone "Lipomed" | filmovertrukne tabletter | DEFERIPRON | Gyldig |
+| 28104557809 | Ferriprox | filmovertrukne tabletter | DEFERIPRON | Gyldig |
+| 28103002998 | Ferriprox | filmovertrukne tabletter | DEFERIPRON | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

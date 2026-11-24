@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Etodolac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etodolac: forudsagt ny indikation Akromesomelisk dysplasi, Hunter-Thompson-type (evidensniveau L5). Oprindelig indikation: Ingen godkendt indikationstekst i de danske lægemiddeldata. Videnbase…"
 ---
 
@@ -71,9 +71,16 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105100712 | Etodolac "2care4" (2care4 Generics ApS) | Filmovertrukne tabletter | Indikationstekst er ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105100712 | Etodolac "2care4" | filmovertrukne tabletter | ETODOLAC | Gyldig |
+| 28105100812 | Etodolac "2care4" | filmovertrukne tabletter | ETODOLAC | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er en national tilladelse fra Lægemiddelstyrelsen for et enkeltstofpræparat og har status gyldig.
 

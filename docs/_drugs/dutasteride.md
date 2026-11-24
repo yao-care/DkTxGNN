@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dutasteride: forudsagt ny indikation Ambras-type hypertrichosis universalis congenita (evidensniveau L5). Oprindelig indikation: Benign prostatahyperplasi"
 monitor_inn: "dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -104,10 +104,19 @@ Til orientering er der for en lavere rangeret forudsigelse (diffus alopecia area
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105575315 | Deridust | Kapsler, bløde | Ikke angivet i de tilgængelige data |
-| 28106107318 | Dutasteride/Tamsulosinhydrochloride "Stada" | Kapsler, hårde | Ikke angivet i de tilgængelige data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105575315 | Deridust | kapsler, bløde | DUTASTERID | Gyldig |
+| 28106028517 | Dutasterid "Alkaloid" | kapsler, bløde | DUTASTERID | Gyldig |
+| 28105610615 | Dutasterid "Hexal" | kapsler, bløde | DUTASTERID | Gyldig |
+| 28105958717 | Dutasterid "Laboratorios Liconsa" | kapsler, bløde | DUTASTERID | Gyldig |
+| 28105575215 | Dutasterid "Liconsa" | kapsler, bløde | DUTASTERID | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

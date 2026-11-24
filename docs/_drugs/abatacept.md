@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: forudsagt ny indikation Ankyloserende spondylitis (ankylosing spondylitis) (evidensniveau L3). I Danmark, markedsføringstilladelser: 5 (gyldige: 5)"
 ---
 
@@ -82,9 +82,19 @@ Ankyloserende spondylitis hører til spondyloartritgruppen, som har slægtskab m
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104981711 | Orencia | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst foreligger ikke i de samlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104981711 | Orencia | injektionsvæske, opløsning i fyldt injektionssprøjte | Abatacept | Gyldig |
+| 28106095518 | Orencia | injektionsvæske, opløsning i fyldt injektionssprøjte | Abatacept | Gyldig |
+| 28106095618 | Orencia | injektionsvæske, opløsning i fyldt injektionssprøjte | Abatacept | Gyldig |
+| 28105609815 | Orencia | injektionsvæske, opløsning i fyldt pen | Abatacept | Gyldig |
+| 28103887306 | Orencia | pulver til koncentrat til infusionsvæske, opløsning | Abatacept | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Enfortumab Vedotin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske licenstekst"
 ---
 
@@ -82,11 +82,18 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig for spedalskhed.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106584021 | Padcev | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
 
-Indehaver af markedsføringstilladelsen er Astellas Pharma Europe B.V. Der er registreret 2 nationale tilladelser, og de har status som gyldige.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106584021 | Padcev | pulver til koncentrat til infusionsvæske, opløsning | Enfortumab vedotin | Gyldig |
+| 28106584121 | Padcev | pulver til koncentrat til infusionsvæske, opløsning | Enfortumab vedotin | Gyldig |
+
+Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Indehaver af markedsføringstilladelsen er Astellas Pharma Europe B.V. Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-enfortumab_vedotin-1 -->
 
@@ -141,7 +148,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse, og den har status som gyldig.” → “Der er registreret 2 nationale tilladelser, og de har status som gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er registreret 1 national tilladelse, og den har status som gyldig.” → “Der er registreret 2 nationale tilladelser, og de har status som gyldige.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

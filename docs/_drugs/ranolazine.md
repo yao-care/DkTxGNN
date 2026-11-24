@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranolazine: forudsagt ny indikation Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) (evidensniveau L5). Oprindelig indikation: Ikke tilgængelig i de sammenstillede data (ranolazin er kendt …"
 monitor_inn: "ranolazine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -80,9 +80,19 @@ Der foreligger for øjeblikket ingen relevant litteratur.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106970823 | Labigat (Pharmathen S.A.) | Depottabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106970823 | Labigat | depottabletter | Ranolazin | Gyldig |
+| 28106970923 | Labigat | depottabletter | Ranolazin | Gyldig |
+| 28106971023 | Labigat | depottabletter | Ranolazin | Gyldig |
+| 28104043006 | Ranexa | depottabletter | Ranolazin | Gyldig |
+| 28104043106 | Ranexa | depottabletter | Ranolazin | Gyldig |
+
+Tabellen viser 5 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

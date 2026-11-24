@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Perampanel: forudsagt ny indikation Beta-ketothiolase-mangel (evidensniveau L5). Oprindelig indikation: Partiel epilepsi"
 ---
 
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104931211 | Fycompa (Eisai GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104931211 | Fycompa | filmovertrukne tabletter | Perampanel | Gyldig |
+| 28104931311 | Fycompa | filmovertrukne tabletter | Perampanel | Gyldig |
+| 28104930811 | Fycompa | filmovertrukne tabletter | Perampanel | Gyldig |
+| 28104930911 | Fycompa | filmovertrukne tabletter | Perampanel | Gyldig |
+| 28104931011 | Fycompa | filmovertrukne tabletter | Perampanel | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antal godkendelser: 1 (enkeltstofpræparat, gyldig).
 

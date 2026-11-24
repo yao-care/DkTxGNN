@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 615
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: forudsagt ny indikation Malign pleural mesotheliom (malignant pleural mesothelioma) (evidensniveau L2). I Danmark, markedsføringstilladelser: 4 (gyldige: 4)"
@@ -97,9 +97,18 @@ Der er dog ingen fase 3-RCT, der viser overlegenhed over standardbehandling med 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28104418308 | Oxaliplatin "Accord" (Accord Healthcare B.V.) | Koncentrat til infusionsvæske, opløsning | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104418308 | Oxaliplatin "Accord" | koncentrat til infusionsvæske, opløsning | Oxaliplatin | Gyldig |
+| 28104688810 | Oxaliplatin "Actavis" | koncentrat til infusionsvæske, opløsning | Oxaliplatin | Gyldig |
+| 28104194507 | Oxaliplatin "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | Oxaliplatin | Gyldig |
+| 28104557909 | Oxaliplatin "Sandoz" | koncentrat til infusionsvæske, opløsning | Oxaliplatin | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

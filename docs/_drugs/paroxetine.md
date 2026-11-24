@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Paroxetine: forudsagt ny indikation Ohdo-syndrom og varianter (evidensniveau L5). Oprindelig indikation: Angstlidelse, depression (bl.a. unipolar og endogen), tvangslidelse…"
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -82,9 +82,19 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103175700 | Paroxegen (ratiopharm GmbH) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103112699 | Euplix | filmovertrukne tabletter | PAROXETIN MESYLAT | Gyldig |
+| 28103809705 | Euplix | orale dråber, opløsning | PAROXETIN MESYLAT | Gyldig |
+| 28105874216 | Paroxar | filmovertrukne tabletter | Paroxetinhydrochloridhemihydrat | Gyldig |
+| 28103175700 | Paroxegen | filmovertrukne tabletter | PAROXETIN | Gyldig |
+| 28106348219 | Paroxetin "Nordic Prime" | filmovertrukne tabletter | PAROXETIN | Gyldig |
+
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

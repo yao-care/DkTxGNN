@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: forudsagt ny indikation Atopisk eksem (score 0,9996)… (evidensniveau L5). Oprindelig indikation: Crohns sygdom, inflammatorisk tarmsygdom…"
 monitor_inn: "budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -108,11 +108,19 @@ To af de oprindeligt medtagne forsøg er ikke relevante og er udeladt: ibrutinib
 
 Godkendte indikationstekster er ikke tilgængelige i de udarbejdede data.
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101847396 | Benarhin (McNeil Denmark ApS) | Næsespray, suspension | Ikke angivet |
-| 28105358714 | BiResp Spiromax (Teva Pharma B.V.) | Inhalationspulver | Ikke angivet |
-| 28106662421 | Riltrava Aerosphere (AstraZeneca AB) | Inhalationsspray, suspension | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101847396 | Benarhin | næsespray, suspension | BUDESONID | Gyldig |
+| 28101847496 | Benarhin | næsespray, suspension | BUDESONID | Gyldig |
+| 28107298524 | Budekron | kapsler med modificeret udløsning, hårde | BUDESONID | Gyldig |
+| 28104576509 | Budenofalk | enterogranulat | BUDESONID | Gyldig |
+| 28103171600 | Budenofalk | enterokapsler, hårde | BUDESONID | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 Alle tre er gyldige enkeltstofpræparater eller præparater med budesonid som del af kombinationen og er markedsført. Ingen er annulleret.
 

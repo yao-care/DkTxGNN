@@ -5,7 +5,7 @@ layout: default
 title: Lecanemab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 484
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Lecanemab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Lecanemab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106902923 | LEQEMBI (Eisai GmbH) | Koncentrat til infusionsvæske, opløsning | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106902923 | LEQEMBI | koncentrat til infusionsvæske, opløsning | Lecanemab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

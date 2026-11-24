@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "itraconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 7 (gyldige: 7)"
@@ -95,13 +95,21 @@ Litteraturen handler primært om opportunistiske infektioner hos immunsvækkede 
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103435002 | Itraconazol "Stada" | Kapsler, hårde | Ikke angivet |
-| 28103701004 | Niddazol | Kapsler, hårde | Ikke angivet |
-| 28107122424 | Orungal | Kapsler, hårde | Ikke angivet |
-| 28101377789 | Sporanox | Kapsler, hårde | Ikke angivet |
-| 28107181124 | Sporanox | Kapsler, hårde | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103435002 | Itraconazol "Stada" | kapsler, hårde | ITRACONAZOL | Gyldig |
+| 28103701004 | Niddazol | kapsler, hårde | ITRACONAZOL | Gyldig |
+| 28107122424 | Orungal | kapsler, hårde | ITRACONAZOL | Gyldig |
+| 28101377789 | Sporanox | kapsler, hårde | ITRACONAZOL | Gyldig |
+| 28107181124 | Sporanox | kapsler, hårde | ITRACONAZOL | Gyldig |
+
+Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Bemærk: Produktet er ifølge navnet et veterinært præparat (Vet.). Der er ikke registreret humane itraconazolpræparater i de data, der er indsamlet til denne rapport.
 

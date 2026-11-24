@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramycin: forudsagt ny indikation Eksponeringskeratitis (evidensniveau L5). Oprindelig indikation: Ikke angivet i den danske produkttekst. Videnskabsgrafen registrerer…"
 ---
 
@@ -93,9 +93,19 @@ Ingen af nedenstående publikationer undersøger eksponeringskeratitis direkte. 
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103153300 | Tobi (Viatris ApS) | Inhalationsvæske til nebulisator, opløsning | Indikationstekst ikke tilgængelig i de samlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100633173 | Nebcina | injektionsvæske, opløsning | TOBRAMYCINSULFAT | Gyldig |
+| 28103153300 | Tobi | inhalationsvæske til nebulisator, opløsning | TOBRAMYCIN | Gyldig |
+| 28107508625 | Tobi | inhalationsvæske til nebulisator, opløsning | TOBRAMYCIN | Gyldig |
+| 28107551726 | Tobi | inhalationsvæske til nebulisator, opløsning | TOBRAMYCIN | Gyldig |
+| 28107657526 | Tobi | inhalationsvæske til nebulisator, opløsning | TOBRAMYCIN | Gyldig |
+
+Tabellen viser 5 af 16 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Den eneste danske tilladelse gælder inhalationsvæske. Der er ikke registreret et øjenpræparat med tobramycin i de samlede data.
 

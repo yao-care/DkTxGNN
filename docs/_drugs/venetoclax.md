@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Venetoclax: forudsagt ny indikation Hodgkins lymfom (Hodgkins lymphoma) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
@@ -93,6 +93,17 @@ Ingen af de nedenstående forsøg har Hodgkins lymfom som dokumenteret målgrupp
 
 ## Information om det danske marked
 
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105697615 | Venclyxto | filmovertrukne tabletter | Venetoclax | Gyldig |
+| 28105697415 | Venclyxto | filmovertrukne tabletter | Venetoclax | Gyldig |
+| 28105697515 | Venclyxto | filmovertrukne tabletter | Venetoclax | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Tilladelsen er gyldig og omfatter et enkeltstofpræparat til oral brug.
 

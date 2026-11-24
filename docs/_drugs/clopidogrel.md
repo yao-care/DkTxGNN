@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Clopidogrel: forudsagt ny indikation Migræne med hjernestammeaura (migraine with brainstem aura) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -81,9 +81,19 @@ Publikationerne omhandler migræne med aura generelt og ikke specifikt hjernesta
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105644315 | Clopidogrel "Stada" | Filmovertrukne tabletter | Ikke angivet i de lokale data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28104566209 | Clopidogrel "Accord" | filmovertrukne tabletter | CLOPIDOGRELHYDROGENSULFAT | Gyldig |
+| 28104384408 | Clopidogrel "Actavis" | filmovertrukne tabletter | Clopidogrelbesilat | Gyldig |
+| 28106499720 | Clopidogrel "Amarox" | filmovertrukne tabletter | CLOPIDOGRELHYDROGENSULFAT | Gyldig |
+| 28107410325 | Clopidogrel "Epione" | filmovertrukne tabletter | Clopidogrelbesilat | Gyldig |
+| 28106786222 | Clopidogrel "Juta" | filmovertrukne tabletter | CLOPIDOGRELHYDROGENSULFAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

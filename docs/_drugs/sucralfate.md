@@ -5,7 +5,7 @@ parent: Høj evidens (L1-L2)
 nav_order: 776
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sucralfate: forudsagt ny indikation Duodenogastrisk refluks (evidensniveau L2). Oprindelig indikation: Duodenalsår"
 monitor_inn: "sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -93,9 +93,17 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Oplysninger om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101167883 | Antepsin (Orion Corporation) | Tabletter | Indikationstekst er ikke angivet i registreringen |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101167883 | Antepsin | tabletter | SUCRALFAT | Gyldig |
+| 28106661021 | Antepsin | tabletter | SUCRALFAT | Gyldig |
+| 28106740522 | Peptonorm | tabletter | SUCRALFAT | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

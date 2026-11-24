@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 70
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Apomorphine: forudsagt ny indikation polymikrogyri, perisylvisk, med cerebellær hypoplasi og artrogrypose (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (evidensniveau L5). Oprindelig indikation: Parkinsons sygdom (baseret på videnbasen"
 monitor_inn: "apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
@@ -97,9 +97,21 @@ Der blev fundet 20 publikationer. De mest relevante er opført nedenfor (ingen e
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103171500 | APO-go Pen (STADA Arzneimittel AG) | Injektionsvæske, opløsning | Indikationstekst er ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106208818 | APO-go POD | infusionsvæske, opløsning i cylinderampul | Apomorphinhydrochlorid hemihydrat | Gyldig |
+| 28103171500 | APO-go Pen | injektionsvæske, opløsning | Apomorphinhydrochlorid | Gyldig |
+| 28104128707 | APO-go Pumpfill | infusionsvæske, opløsning | Apomorphinhydrochlorid | Gyldig |
+| 28105098212 | Apomorfin "PharmSwed" | infusionsvæske, opløsning | Apomorphinhydrochlorid | Gyldig |
+| 28105188712 | Dacepton | infusionsvæske, opløsning | Apomorphinhydrochlorid hemihydrat | Gyldig |
+
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

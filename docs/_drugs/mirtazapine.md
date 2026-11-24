@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: forudsagt ny indikation Ohdo-syndrom og varianter (Ohdo syndrome and variants) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
@@ -80,9 +80,21 @@ Der er for tiden ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103312501 | Combar (STADA Arzneimittel AG) | Filmovertrukne tabletter | Indikationstekst ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103312501 | Combar | filmovertrukne tabletter | MIRTAZAPIN | Gyldig |
+| 28103312601 | Combar | filmovertrukne tabletter | MIRTAZAPIN | Gyldig |
+| 28103312701 | Combar | filmovertrukne tabletter | MIRTAZAPIN | Gyldig |
+| 28104029406 | Mirtazapin "Actavis" | filmovertrukne tabletter | MIRTAZAPIN | Gyldig |
+| 28104029506 | Mirtazapin "Actavis" | filmovertrukne tabletter | MIRTAZAPIN | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 Administrationsvej: oral.
 

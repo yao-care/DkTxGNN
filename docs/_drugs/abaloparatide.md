@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Abaloparatide: forudsagt ny indikation Non-syndromisk esofagusmisdannelse (evidensniveau L5). Oprindelig indikation: Osteoporose (anabol knogleeffekt via PTH1-receptoren). Indikationstek…"
 monitor_inn: "abaloparatide"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "amenorrhea (disease)", "esophageal ulcer"]
@@ -90,9 +90,15 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106703221 | Eladynos (Theramex Ireland Limited) | Injektionsvæske, opløsning i fyldt pen | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106703221 | Eladynos | injektionsvæske, opløsning i fyldt pen | Abaloparatid | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

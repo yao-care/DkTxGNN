@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Pioglitazone: forudsagt ny indikation Opsismodysplasi (evidensniveau L5). Oprindelig indikation: Type 2-diabetes mellitus"
 monitor_inn: "pioglitazone"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -96,12 +96,19 @@ For den niende forudsigelse, pankreasagenesi, blev der fundet syv publikationer.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103052198 | Actos (Takeda Pharma A/S) | Tabletter | Ikke angivet |
-| 28103788605 | Competact (CHEPLAPHARM Arzneimittel GmbH) | Filmovertrukne tabletter | Ikke angivet |
-| 28104188207 | Tandemact (CHEPLAPHARM Arzneimittel GmbH) | Tabletter | Ikke angivet |
-| 28105127412 | Incresync (Takeda Pharma A/S) | Filmovertrukne tabletter | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103052198 | Actos | tabletter | PIOGLITAZONHYDROCHLORID | Gyldig |
+| 28103089399 | Actos | tabletter | PIOGLITAZONHYDROCHLORID | Gyldig |
+| 28103461102 | Actos | tabletter | PIOGLITAZONHYDROCHLORID | Gyldig |
+| 28104804610 | Pioglitazon "Actavis" | tabletter | PIOGLITAZONHYDROCHLORID | Gyldig |
+| 28104804710 | Pioglitazon "Actavis" | tabletter | PIOGLITAZONHYDROCHLORID | Gyldig |
+
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

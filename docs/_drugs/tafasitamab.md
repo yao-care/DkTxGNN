@@ -5,7 +5,7 @@ layout: default
 title: Tafasitamab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 789
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tafasitamab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Tafasitamab"
 predicted_indications: []
@@ -50,9 +50,15 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106439520 | MINJUVI (Incyte Biosciences Distribution) | Pulver til koncentrat til infusionsvæske, opløsning | Indikationstekst ikke angivet i de sammenstillede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106439520 | MINJUVI | pulver til koncentrat til infusionsvæske, opløsning | Tafasitamab | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

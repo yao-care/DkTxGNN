@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Alirocumab"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Alirocumab: forudsagt ny indikation X-bundet ichthyosis uden steroidsulfatase-mangel (evidensniveau L5). Oprindelig indikation: Dyslipidæmi og aterosklerose"
 ---
 
@@ -78,11 +78,21 @@ Der foreligger aktuelt ingen relateret litteratur.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105680115 | Praluent | Injektionsvæske, opløsning i fyldt injektionssprøjte | Indikationstekst er ikke tilgængelig i de foreliggende data |
+<!-- licenses:begin -->
 
-Der er registreret 5 nationale tilladelser, og listen er fuldstændig.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105680115 | Praluent | injektionsvæske, opløsning i fyldt injektionssprøjte | alirocumab | Gyldig |
+| 28105680015 | Praluent | injektionsvæske, opløsning i fyldt injektionssprøjte | alirocumab | Gyldig |
+| 28105547014 | Praluent | injektionsvæske, opløsning i fyldt pen | alirocumab | Gyldig |
+| 28106363119 | Praluent | injektionsvæske, opløsning i fyldt pen | alirocumab | Gyldig |
+| 28105679915 | Praluent | injektionsvæske, opløsning i fyldt pen | alirocumab | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-alirocumab-1 -->
 
@@ -121,7 +131,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og li” → “Der er registreret 5 nationale tilladelser, og listen er fuldstændig.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Der er kun registreret én national tilladelse (Sanofi Winthrop Industrie), og li” → “Der er registreret 5 nationale tilladelser, og listen er fuldstændig.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

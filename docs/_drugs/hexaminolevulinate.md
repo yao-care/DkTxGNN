@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hexaminolevulinate: forudsagt ny indikation Bronkitis (evidensniveau L5). Oprindelig indikation: Ikke oplyst i de indsamlede data (godkendt indikationstekst for Hexvi…"
 monitor_inn: "hexaminolevulinate"
 predicted_indications: ["bronchitis"]
@@ -79,9 +79,17 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelsesnr. | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103742204 | Hexvix (Photocure ASA) | Pulver og solvens til intravesikal opløsning | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103742204 | Hexvix | pulver og solvens til intravesikal opløsning | Hexaminolevulinathydrochlorid | Gyldig |
+| 28106611521 | Hexvix | pulver og solvens til intravesikal opløsning | Hexaminolevulinathydrochlorid | Gyldig |
+| 28107667226 | Hexvix | pulver og solvens til intravesikal opløsning | Hexaminolevulinathydrochlorid | Gyldig |
+
+Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

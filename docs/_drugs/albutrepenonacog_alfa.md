@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALBUTREPENONACOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Albutrepenonacog Alfa: forudsagt ny indikation Pseudo-von Willebrands sygdom (evidensniveau L5). Oprindelig indikation: Hæmofili"
 ---
 
@@ -81,9 +81,19 @@ Der er for øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Information om det danske marked
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105593615 | Idelvion (CSL Behring GmbH) | Pulver og solvens til injektionsvæske, opløsning | Indikationstekst ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105593615 | Idelvion | pulver og solvens til injektionsvæske, opløsning | albutrepenonacog alfa | Gyldig |
+| 28105791115 | Idelvion | pulver og solvens til injektionsvæske, opløsning | albutrepenonacog alfa | Gyldig |
+| 28105593415 | Idelvion | pulver og solvens til injektionsvæske, opløsning | albutrepenonacog alfa | Gyldig |
+| 28106334419 | Idelvion | pulver og solvens til injektionsvæske, opløsning | albutrepenonacog alfa | Gyldig |
+| 28105593515 | Idelvion | pulver og solvens til injektionsvæske, opløsning | albutrepenonacog alfa | Gyldig |
+
+Tabellen viser alle 5 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Antallet af godkendelser er 1, og listen er fuldstændig.
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Regorafenib: forudsagt ny indikation Liposarkom (evidensniveau L2). Oprindelig indikation: Relationer registreret i vidensgrafen: metastaserende tyktarmskræft…"
 ---
 
@@ -92,9 +92,15 @@ Det kliniske billede er dog blandet. Det placebokontrollerede fase 2-forsøg REG
 
 ## Information om det danske marked
 
-| Tilladelsesnummer | Produktnavn | Doseringsform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28105112512 | Stivarga (Bayer AG) | Filmovertrukne tabletter | Indikationstekst foreligger ikke i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28105112512 | Stivarga | filmovertrukne tabletter | Regorafenib | Gyldig |
+
+Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Roxithromycin: forudsagt ny indikation Leprae (spedalskhed) (evidensniveau L5). Oprindelig indikation: Ikke angivet i de indsamlede data"
 ---
 
@@ -89,9 +89,19 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28103246301 | Roximstad (STADA Arzneimittel AG) | Filmovertrukne tabletter | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28103246301 | Roximstad | filmovertrukne tabletter | ROXITHROMYCIN | Gyldig |
+| 28103246401 | Roximstad | filmovertrukne tabletter | ROXITHROMYCIN | Gyldig |
+| 28106984223 | Roxithromycin "2care4" | filmovertrukne tabletter | ROXITHROMYCIN | Gyldig |
+| 28107618726 | Roxithromycin "Abacus Medicine" | filmovertrukne tabletter | ROXITHROMYCIN | Gyldig |
+| 28107395125 | Roxithromycin "Epione" | filmovertrukne tabletter | ROXITHROMYCIN | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 

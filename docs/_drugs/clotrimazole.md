@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clotrimazole: forudsagt ny indikation akne (acne (disease)) (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
@@ -81,11 +81,23 @@ På nuværende tidspunkt foreligger der ingen relateret litteratur.
 
 ## Information om markedet i Danmark
 
-| Godkendelsesnummer | Produktnavn | Lægemiddelform | Producent |
-|---------|------|------|-----------|
-| 28100608472 | Canesten | Creme | Bayer AB |
+<!-- licenses:begin -->
 
-Alle 14 tilladelser er gyldige.
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28100608472 | Canesten | creme | CLOTRIMAZOL | Gyldig |
+| 28107124524 | Canesten | creme | CLOTRIMAZOL | Gyldig |
+| 28106522320 | Canesten | creme + vaginalkapsel, blød | CLOTRIMAZOL | Gyldig |
+| 28100913877 | Canesten | vaginalcreme | CLOTRIMAZOL | Gyldig |
+| 28100608672 | Canesten | vaginaltabletter | CLOTRIMAZOL | Gyldig |
+
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 3 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
+
+Antal og status for tilladelserne står i Hurtigt overblik og i tabellen under markedsinformationen.
 
 <!-- review:begin dk-lic-20261112-clotrimazole-1 -->
 
@@ -130,7 +142,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
-| 2026-11-12 | Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.” | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-12 | Antal tilladelser: “Alle fire tilladelser er gyldige.” → “Alle 14 tilladelser er gyldige.” | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->

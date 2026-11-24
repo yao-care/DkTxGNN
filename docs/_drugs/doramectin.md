@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Doramectin"
 predicted_indications: ["insomnia (disease)"]
 description: "Doramectin: forudsagt ny indikation Insomni (insomnia (disease)) (evidensniveau L5). I Danmark kun godkendt som veterinærlægemiddel"
@@ -62,7 +62,6 @@ Data om doramectins virkningsmekanisme er ikke tilgængelige i de data, der er i
 
 Denne sammenhæng er spekulativ og understøttes ikke af søvnrelaterede data. Doramectin er desuden et veterinært middel, og det er et P-glykoprotein-substrat med dårlig passage over blod-hjerne-barrieren hos pattedyr. Det svækker hypotesen yderligere.
 
-
 Rottestudier tyder på angstdæmpende og krampehæmmende egenskaber, forenelige med forstærket GABA-erg virkning. Der er ingen humane data.
 
 ---
@@ -85,6 +84,14 @@ Der er ingen litteratur om insomni.
 ---
 
 ## Markedsinformation for Danmark
+
+<!-- licenses:begin -->
+
+Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser til humane lægemidler med dette aktive stof.
+
+Dataene indeholder 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet).
+
+<!-- licenses:end -->
 
 ---
 

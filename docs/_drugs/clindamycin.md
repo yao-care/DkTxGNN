@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Clindamycin: forudsagt ny indikation Punktformet epitelial keratokonjunktivitis (punctate epithelial keratoconjunctivitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: mindst 20"
 ---
 
@@ -74,13 +74,21 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation for Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106332619 | Clindamycin "2care4" | Vaginalcreme | Ikke angivet |
-| 28106516520 | Clindamycin "Abcur" | Injektions-/infusionsvæske, opløsning | Ikke angivet |
-| 28103782505 | Clindamycin "Alternova" | Kapsler, hårde | Ikke angivet |
-| 28103782605 | Clindamycin "Alternova" | Kapsler, hårde | Ikke angivet |
-| 28106264719 | Clindamycin "Hameln" | Injektions-/infusionsvæske, opløsning | Ikke angivet |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106332619 | Clindamycin "2care4" | vaginalcreme | CLINDAMYCINPHOSPHAT | Gyldig |
+| 28106516520 | Clindamycin "Abcur" | injektions-/infusionsvæske, opløsning | CLINDAMYCINPHOSPHAT | Gyldig |
+| 28103782505 | Clindamycin "Alternova" | kapsler, hårde | CLINDAMYCINHYDROCHLORID | Gyldig |
+| 28103782605 | Clindamycin "Alternova" | kapsler, hårde | CLINDAMYCINHYDROCHLORID | Gyldig |
+| 28106264719 | Clindamycin "Hameln" | injektions-/infusionsvæske, opløsning | CLINDAMYCINPHOSPHAT | Gyldig |
+
+Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
+
+Dataene indeholder desuden 19 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ## Sikkerhedsovervejelser
 

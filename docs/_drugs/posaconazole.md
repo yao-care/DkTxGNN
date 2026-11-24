@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: forudsagt ny indikation Pneumocystose (pneumocystosis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
@@ -92,9 +92,21 @@ Ingen af publikationerne viser direkte, at posaconazol er effektivt mod pneumocy
 
 ## Information om markedet i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28106510720 | Noxafil | Enteropulver og solvens til oral suspension | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106510720 | Noxafil | enteropulver og solvens til oral suspension | POSACONAZOL | Gyldig |
+| 28105258513 | Noxafil | enterotabletter | POSACONAZOL | Gyldig |
+| 28105320313 | Noxafil | koncentrat til infusionsvæske, opløsning | POSACONAZOL | Gyldig |
+| 28103701404 | Noxafil | oral suspension | POSACONAZOL | Gyldig |
+| 28106133018 | Posaconazol "Teva B.V." | oral suspension | POSACONAZOL | Gyldig |
+
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 908
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol: forudsagt ny indikation Retinal dystrophy with or without extraocular anomalies (evidensniveau L5). I Danmark, markedsføringstilladelser: 11 (gyldige: 11)"
@@ -91,9 +91,19 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| 28101068981 | Cisordinol (H. Lundbeck A/S) | Filmovertrukne tabletter | Indikationstekst ikke tilgængelig i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28101068981 | Cisordinol | filmovertrukne tabletter | ZUCLOPENTHIXOLDIHYDROCHLORID | Gyldig |
+| 28107621726 | Cisordinol | filmovertrukne tabletter | ZUCLOPENTHIXOLDIHYDROCHLORID | Gyldig |
+| 28101068881 | Cisordinol | filmovertrukne tabletter | ZUCLOPENTHIXOLDIHYDROCHLORID | Gyldig |
+| 28101068581 | Cisordinol | orale dråber, opløsning | ZUCLOPENTHIXOLDIHYDROCHLORID | Gyldig |
+| 28101227785 | Cisordinol-Acutard | injektionsvæske, opløsning | ZUCLOPENTHIXOLACETAT | Gyldig |
+
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 Der er tale om én national, gyldig tilladelse for et enkeltstofprodukt til oral anvendelse.
 

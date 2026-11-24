@@ -5,7 +5,7 @@ layout: default
 title: Bimekizumab
 parent: Kun kendte anvendelser (ingen nye forudsigelser)
 nav_order: 117
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bimekizumab: kendte anvendelser og markedsstatus i Danmark; aktuelt ingen ny kandidatindikation"
 monitor_inn: "Bimekizumab"
 predicted_indications: []
@@ -50,9 +50,18 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 
 ## Markedsinformation i Danmark
 
-| Markedsføringstilladelse | Produktnavn | Lægemiddelform | Godkendt indikation |
-|---------|------|------|-----------|
-| MA 28106478120 | Bimzelx (UCB Pharma S.A.) | Injektionsvæske, opløsning i fyldt injektionssprøjte | Ikke angivet i de indsamlede data |
+<!-- licenses:begin -->
+
+| Markedsføringstilladelsesnummer | Produktnavn | Lægemiddelform | Aktive stoffer | Status |
+|---------|------|------|------|------|
+| 28106478120 | Bimzelx | injektionsvæske, opløsning i fyldt injektionssprøjte | Bimekizumab | Gyldig |
+| 28107048723 | Bimzelx | injektionsvæske, opløsning i fyldt injektionssprøjte | Bimekizumab | Gyldig |
+| 28106478220 | Bimzelx | injektionsvæske, opløsning i fyldt pen | Bimekizumab | Gyldig |
+| 28107048823 | Bimzelx | injektionsvæske, opløsning i fyldt pen | Bimekizumab | Gyldig |
+
+Tabellen viser alle 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+
+<!-- licenses:end -->
 
 ---
 
