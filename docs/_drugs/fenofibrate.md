@@ -52,8 +52,8 @@ Evidensen er svag: der er **ingen registrerede kliniske forsøg** og kun **3 pub
 | Forudsagt ny indikation | Kolesterylester-transferprotein-mangel |
 | TxGNN-forudsigelsesscore | 0,9961 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
-| Antal markedsføringstilladelser | 3 (gyldige: 3) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -94,7 +94,7 @@ Ingen af publikationerne undersøger direkte fenofibrat som behandling af CETP-m
 | 28105031812 | Cholib | filmovertrukne tabletter | FENOFIBRAT, SIMVASTATIN | Gyldig |
 | 28104611809 | Pravafenix | kapsler, hårde | FENOFIBRAT, PRAVASTATINNATRIUM | Gyldig |
 
-Tabellen viser alle 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 3 af 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

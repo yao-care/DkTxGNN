@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
 last_modified_at: 2026-11-24
-description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
+description: "Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
 # Thiamine
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at thiamin kan have effekt ved **åbenvinklet glaukom
 | Forudsagt ny indikation | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN-forudsigelsesscore | 0.9943 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
-| Antal markedsføringstilladelser | 13 (gyldige: 13) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 Bemærk: Den automatiske scoring i datagrundlaget angav L4 for åbenvinklet glaukom. Ingen af de citerede studier undersøger dog thiamin som behandling af sygdommen, og et enkelt ældre studie fra 1979 måler kun blodniveauer. Evidensniveauet er derfor sat til L5 efter de gældende regler.
@@ -99,7 +99,7 @@ Der er i øjeblikket ikke registreret relaterede kliniske forsøg.
 | 28107056123 | Thiamine "Kabi" | injektions-/infusionsvæske, opløsning | Thiaminhydrochlorid | Gyldig |
 | 28107055923 | Thiamine "Kabi" | injektions-/infusionsvæske, opløsning | Thiaminhydrochlorid | Gyldig |
 
-Tabellen viser 4 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 4 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 Dataene indeholder desuden 1 tilladelse til et veterinærlægemiddel (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
 

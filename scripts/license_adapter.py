@@ -194,7 +194,8 @@ def update(rec, new):
 PAGE_NOTE = (r"^(Tabellen viser (den eneste|alle \d+|\d+ af (mindst )?\d+) markedsføringstilladelser? til (et )?human[et]? lægemid.*|"
              r"Dataene indeholder (desuden )?\d+ tilladelser? til (et )?veterinærlægemid.*|"
              r"Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser.*|"
-             r"<!-- licenses:(begin|end) -->)$")
+             r"<!-- licenses:(begin|end) -->|"
+             r"## Information om det danske marked)$")  # 2026-11-24 第三輪：沒有市場段落的公開頁由程式補的標題
 
 
 def sync_tables(site_root, bundles):

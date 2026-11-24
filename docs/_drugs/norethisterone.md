@@ -41,8 +41,8 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | Punkt | Indhold |
 |------|------|
 | Oprindelig indikation | Ikke registreret i de lokale data |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
-| Antal markedsføringstilladelser | 14 (gyldige: 14) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 
 *Bemærkning: Der er hverken afsluttede RCT'er eller kliniske forsøg for den nye indikation. Litteraturen er indirekte og belyser mekanismer og bivirkningsmønstre, så L4 (mekanistisk/indirekte evidens) er det mest passende niveau.*
 
@@ -60,7 +60,7 @@ Evidensniveau: **N/A** | Forudsagte indikationer: **0** stk.
 | 28107296924 | Cliovelle | tabletter | ESTRADIOLVALERAT, NORETHISTERONACETAT | Gyldig |
 | 28101860096 | Evo-Conti | depotplastre | ESTRADIOLHEMIHYDRAT, NORETHISTERONACETAT | Gyldig |
 
-Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

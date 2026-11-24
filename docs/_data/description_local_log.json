@@ -187,9 +187,9 @@
       "date": "2026-11-19"
     },
     "aztreonam": {
-      "tail": "I Danmark, markedsføringstilladelser: 1 (gyldige: 1)",
+      "tail": "I Danmark, markedsføringstilladelser: 2 (gyldige: 2)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "benazepril": {
       "tail": "I Danmark kun godkendt som veterinærlægemiddel",
@@ -417,9 +417,9 @@
       "date": "2026-11-19"
     },
     "cinchocaine": {
-      "tail": "I Danmark, markedsføringstilladelser: 2 (gyldige: 2)",
+      "tail": "I Danmark, markedsføringstilladelser: 3 (gyldige: 3)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "ciprofloxacin": {
       "tail": "I Danmark, markedsføringstilladelser: mindst 20",
@@ -452,9 +452,9 @@
       "date": "2026-11-19"
     },
     "clioquinol": {
-      "tail": "I Danmark, markedsføringstilladelser: 1 (gyldige: 1)",
+      "tail": "I Danmark, markedsføringstilladelser: 3 (gyldige: 3)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "clobazam": {
       "tail": "I Danmark, markedsføringstilladelser: 8 (gyldige: 8)",
@@ -492,9 +492,9 @@
       "date": "2026-11-19"
     },
     "codeine": {
-      "tail": "I Danmark, markedsføringstilladelser: 9 (gyldige: 9)",
+      "tail": "I Danmark, markedsføringstilladelser: 13 (gyldige: 13)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "colchicine": {
       "tail": "I Danmark, markedsføringstilladelser: 5 (gyldige: 5)",
@@ -1267,9 +1267,9 @@
       "date": "2026-11-19"
     },
     "norepinephrine": {
-      "tail": "I Danmark, markedsføringstilladelser: 12 (gyldige: 12)",
+      "tail": "I Danmark, markedsføringstilladelser: 14 (gyldige: 14)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "norgestimate": {
       "tail": "I Danmark, markedsføringstilladelser: 2 (gyldige: 2)",
@@ -1737,9 +1737,9 @@
       "date": "2026-11-19"
     },
     "thiamine": {
-      "tail": "I Danmark, markedsføringstilladelser: 13 (gyldige: 13)",
+      "tail": "I Danmark, markedsføringstilladelser: 14 (gyldige: 14)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "thiopental": {
       "tail": "I Danmark, markedsføringstilladelser: 5 (gyldige: 5)",
@@ -1752,9 +1752,9 @@
       "date": "2026-11-19"
     },
     "tiotropium": {
-      "tail": "I Danmark, markedsføringstilladelser: 8 (gyldige: 8)",
+      "tail": "I Danmark, markedsføringstilladelser: 12 (gyldige: 12)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "tipiracil": {
       "tail": "I Danmark, markedsføringstilladelser: 2 (gyldige: 2)",
@@ -4539,6 +4539,55 @@
       "date": "2026-11-23",
       "from": "\"Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 10)\"",
       "to": "\"Levocetirizine: forudsagt ny indikation Reumatoid arthritis (rheumatoid arthritis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 10 (gyldige: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aztreonam.md",
+      "date": "2026-11-24",
+      "from": "\"Aztreonam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)\"",
+      "to": "\"Aztreonam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cinchocaine.md",
+      "date": "2026-11-24",
+      "from": "\"Cinchocaine: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)\"",
+      "to": "\"Cinchocaine: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clioquinol.md",
+      "date": "2026-11-24",
+      "from": "\"Clioquinol: forudsagt ny indikation Ektotrix-infektionssygdom (ectothrix infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)\"",
+      "to": "\"Clioquinol: forudsagt ny indikation Ektotrix-infektionssygdom (ectothrix infectious disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/codeine.md",
+      "date": "2026-11-24",
+      "from": "\"Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)\"",
+      "to": "\"Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norepinephrine.md",
+      "date": "2026-11-24",
+      "from": "\"Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)\"",
+      "to": "\"Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/thiamine.md",
+      "date": "2026-11-24",
+      "from": "\"Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)\"",
+      "to": "\"Thiamine: forudsagt ny indikation Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiotropium.md",
+      "date": "2026-11-24",
+      "from": "\"Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)\"",
+      "to": "\"Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

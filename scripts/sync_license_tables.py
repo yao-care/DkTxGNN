@@ -207,13 +207,34 @@ def _target_rows(lines, a, b, x, y, nrows_avail, was_prog):
     return max(1, min(MAX_ROWS, n))
 
 
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 的 add_section）：公開頁整頁沒有市場段落、但證據包有許可證紀錄（人用或獸用）時，
+# 在這些段落之前（照順序找第一個）補「## NEW_SEC」標題與程式區塊；noindex 頁不補。
+NEW_SEC = "Information om det danske marked"
+ADD_BEFORE = ["Sikkerhedsovervejelser", "Konklusion og næste skridt", "Gennemgangslog", "Ansvarsfraskrivelse"]
+
+
+def add_section(text, entry):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M) or not (entry.get("rows") or entry.get("vet")):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    nrows = entry.get("listed") or len(entry.get("rows") or [])
+    sec = ["## " + NEW_SEC, ""] + wrap(expected_block(entry, min(5, nrows) or 1)) + [""]
+    t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
+    return t2 if t2 != text else None
+
+
 def process(text, entry):
     """回傳新內容；沒有變就回 None"""
     was_prog = BEGIN in text.split("\n")
     lines = strip_marks(text.split("\n"))
     a, b = _bounds(lines)
     if a is None:
-        return None
+        return add_section(text, entry)
     mask = _review_mask(lines)
     tb = [k for k in range(a, b) if lines[k].startswith("|") and k not in mask]
     nrows = entry.get("listed") or len(entry.get("rows") or [])

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
 last_modified_at: 2026-11-24
-description: "Aztreonam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 1 (gyldige: 1)"
+description: "Aztreonam: forudsagt ny indikation Hyperamylasæmi (hyperamylasemia) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
 ---
 
 # Aztreonam
@@ -50,8 +50,8 @@ Aztreonam er et antibiotikum af monobactam-typen, som virker mod gramnegative ba
 | Forudsagt ny indikation | Hyperamylasæmi (hyperamylasemia) |
 | TxGNN-forudsigelsesscore | 0,9973 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 1 af 1) |
-| Antal markedsføringstilladelser | 1 (gyldige: 1) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
+| Antal markedsføringstilladelser | 2 (gyldige: 2) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -84,7 +84,7 @@ Der er i øjeblikket ingen relateret litteratur tilgængelig.
 |---------|------|------|------|------|
 | 28107028323 | Emblaveo | pulver til koncentrat til infusionsvæske, opløsning | Avibactamnatrium, AZTREONAM | Gyldig |
 
-Tabellen viser den eneste markedsføringstilladelse til et humant lægemiddel med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler.
+Tabellen viser 1 af 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

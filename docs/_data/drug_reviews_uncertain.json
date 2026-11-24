@@ -1382,11 +1382,13 @@
    "source": "證據包許可證紀錄漏收（2026-11-24 第二輪查證時發現）",
    "drug": "fenofibrate",
    "file": "fenofibrate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Rosufenx 28107198624（FENOFIBRAT, Rosuvastatincalcium）",
    "reason": "bundle_missing",
    "added": "2026-11-24",
-   "note": "Lægemiddelstyrelsen 現行清單（danish_medicines.xlsx，Sidst opdateret 05-11-2026）有 Rosufenx 28107198624（2026-01-22 許可、未上市），證據包 fenofibrate 只收 Cholib 2 張、Pravafenix 1 張；推測 drug_mapping.csv 把成分字串「FENOFIBRAT, Rosuvastatincalcium」整串對到 rosuvastatin。程式表與概覽張數少 1 張，要補收證據包（rebuild_licenses_by_ingredient 的複方對照）"
+   "note": "Lægemiddelstyrelsen 現行清單（danish_medicines.xlsx，Sidst opdateret 05-11-2026）有 Rosufenx 28107198624（2026-01-22 許可、未上市），證據包 fenofibrate 只收 Cholib 2 張、Pravafenix 1 張；推測 drug_mapping.csv 把成分字串「FENOFIBRAT, Rosuvastatincalcium」整串對到 rosuvastatin。程式表與概覽張數少 1 張，要補收證據包（rebuild_licenses_by_ingredient 的複方對照）",
+   "resolved": "2026-11-24",
+   "resolution": "已補收：scripts/add_component_licenses.py（複方逐成分對照，2026-11-24 第三輪）依現行清單（2026-11-24 下載）把 Rosufenx 28107198624 補進 fenofibrate 證據包（source／added 記在紀錄）；原因確認是清單成分字串改寫成「Rosuvastatincalcium」後 drug_mapping 整串對不到、fenofibrat 又沒有單方對照。全站同類 41 個證據包補 165 筆，每週排程同一規則。程式表與概覽張數已同步。"
   }
  ]
 }

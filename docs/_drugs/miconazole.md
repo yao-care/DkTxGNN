@@ -52,8 +52,8 @@ Der er **ingen registrerede kliniske forsøg** og **4 publikationer** (1 oversig
 | Forudsagt ny indikation | Akne |
 | TxGNN-forudsigelsesscore | 0,9954 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 6 af 6) |
+| Antal markedsføringstilladelser | 6 (gyldige: 6) |
 | Anbefalet beslutning | Hold (forskningsspørgsmål) |
 
 ---
@@ -99,9 +99,9 @@ Ingen af publikationerne er et randomiseret kontrolleret forsøg med miconazol v
 | 28100583770 | Brentan | creme | MICONAZOLNITRAT | Gyldig |
 | 28100952977 | Brentan | mundhulegel | MICONAZOL | Gyldig |
 
-Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 2 af 6 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
-Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+Dataene indeholder desuden 6 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
 
 <!-- licenses:end -->
 
@@ -132,19 +132,26 @@ Forudsigelsen understøttes kun af en oversigtsartikel, et lille klinisk studie 
 **For at komme videre kræves:**
 - Hentning og gennemgang af produktresuméet (advarsler og kontraindikationer), da dette p.t. blokerer sikkerhedsscreeningen
 - Data om virkningsmekanisme fra lægemiddeldatabasen
-- Vurdering af, om formuleringen er forenelig med akne: den danske godkendelse er en mundhulegel, og egnede lokale hudformuleringer skal afklares
+- Vurdering af, om formuleringen er forenelig med akne: de danske godkendelser er creme og mundhulegel, og egnede lokale hudformuleringer skal afklares
 - Kontrollerede kliniske studier af miconazol ved akne vulgaris, med skelnen fra Malassezia-folliculitis
 - Vurdering af interaktionsrisiko og betydning af leversygdom for den tilsigtede brug
+
+<!-- review:begin dk-lic-20261124c-miconazole-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "den danske godkendelse er en mundhulegel," Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har miconazol som creme (Brentan, Brentacort) og mundhulegel (Brentan). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-miconazole-1 -->
 
 <!-- review:begin log -->
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+| 2026-11-24 | den danske godkendelse er en mundhulegel, | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -108,6 +108,9 @@ def page_problems(stem, text):
                         errs.append(f"市場段落表格的號碼不屬於本藥：{cell}")
         if hasattr(C, "program_block_problems"):
             errs += C.program_block_problems(lines[a:b], e)
+    elif (e.get("rows") or e.get("vet")) and not re.search(r"^noindex:\s*true", text[:3000], re.M):
+        # 2026-11-24 第三輪：公開頁有證據包許可證紀錄卻沒有市場段落（sync_license_tables.py 的 add_section 會補）
+        errs.append("公開頁有證據包許可證紀錄卻沒有市場段落（跑 python3 scripts/sync_license_tables.py）")
     fc = e.get("facts")
     if fc:
         all_rows = [r for t in tables(lines) for r in rows(t)]

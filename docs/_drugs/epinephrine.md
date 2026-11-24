@@ -115,6 +115,8 @@ Bemærk: Flere af forsøgene er farmakokinetiske studier på raske frivillige og
 
 Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først. Dataene i denne rapport omfatter kun en del af tilladelserne.
 
+Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
+
 <!-- licenses:end -->
 
 Antal og status for tilladelserne står i Hurtigt overblik og i tabellen ovenfor; de indsamlede omfatter injektionsvæsker og en næsespray (EURneffy). Der er ikke fundet inhalationsprodukter med epinephrin i de indsamlede data.
@@ -141,7 +143,13 @@ Oplysninger om advarsler og kontraindikationer fra de godkendte produktresuméer
 **Beslutning: Proceed with Guardrails**
 
 **Begrundelse:**
-Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, men de dækker i høj grad en allerede kendt anvendelse. Den egentlige nye anvendelse (bronkiolitis hos spædbørn) har blandet evidens, og de danske produkter er kun godkendt som injektion.
+Flere afsluttede fase 3-studier understøtter inhaleret epinephrin ved astma, men de dækker i høj grad en allerede kendt anvendelse. Den egentlige nye anvendelse (bronkiolitis hos spædbørn) har blandet evidens, og de danske produkter er godkendt som injektion og som næsespray (EURneffy), ikke til inhalation.
+
+<!-- review:begin dk-lic-20261124c-epinephrine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "og de danske produkter er kun godkendt som injektion." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har EURneffy (adrenalin, næsespray) ud over injektionspræparaterne. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-epinephrine-1 -->
 
 **For at komme videre kræves følgende:**
 - Hentning af advarsler og kontraindikationer fra produktresuméerne (manglende data, som blokerer sikkerhedsscreeningen)
@@ -169,6 +177,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 |------|------|------|------|
 | 2026-11-24 | Alle tre tilladelser er gyldige og omfatter kun injektionsform. | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
+| 2026-11-24 | og de danske produkter er kun godkendt som injektion. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

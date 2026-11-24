@@ -52,8 +52,8 @@ Der er **ingen kliniske forsøg** og **18 publikationer** (hovedsageligt prækli
 | Forudsagt ny indikation | Tørre øjne (dry eye syndrome) |
 | TxGNN-forudsigelsesscore | 0,9998 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 9) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
+| Antal markedsføringstilladelser | 10 (gyldige: 10) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -105,7 +105,7 @@ De mest relevante publikationer (alle præklinisk, formulerings- eller mekanisme
 | 28107077623 | Pedismof | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, Calciumgluconat monohydrat, Cystein… | Gyldig |
 | 28107077523 | Pedismof Infant | infusionsvæske, emulsion | ALANIN, Arginin, Asparaginsyre, Calciumgluconat monohydrat, Cystein… | Gyldig |
 
-Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

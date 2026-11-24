@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-24
-description: "Cinchocaine: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 2 (gyldige: 2)"
+description: "Cinchocaine: forudsagt ny indikation Bronkitis (bronchitis) (evidensniveau L5). I Danmark, markedsføringstilladelser: 3 (gyldige: 3)"
 ---
 
 # Cinchocaine
@@ -48,8 +48,8 @@ Cinchocaine er et lokalbedøvende middel af amidtypen, der i Danmark er markedsf
 | Forudsagt ny indikation | Bronkitis (bronchitis) |
 | TxGNN-forudsigelsesscore | 0,9977 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 3 af 3) |
+| Antal markedsføringstilladelser | 3 (gyldige: 3) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -75,7 +75,7 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 | 28101903697 | Proctosedyl | rektalsalve | Aesculin, CINCHOCAINHYDROCHLORID, Framycetinsulfat, HYDROCORTISON | Gyldig |
 | 28104051006 | Proctosedyl | rektalsalve | Aesculin, CINCHOCAINHYDROCHLORID, Framycetinsulfat, HYDROCORTISON | Gyldig |
 
-Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 2 af 3 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

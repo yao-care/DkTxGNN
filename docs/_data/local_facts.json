@@ -17,15 +17,15 @@
   "drugs_none_current": 17,
   "drugs_without_data": 168,
   "drugs_partial": 0,
-  "items_total": 3571,
-  "items_current": 3538
+  "items_total": 3606,
+  "items_current": 3573
  },
  "reviews": {
-  "records": 638,
+  "records": 650,
   "pages": 511,
   "public_pages_with_records": 505,
   "by_action": {
-   "correct": 220,
+   "correct": 232,
    "mechanism": 418
   }
  },
@@ -220,6 +220,33 @@
  "no_current_more": 5,
  "most_reviewed": [
   {
+   "t": "Clioquinol",
+   "u": "/drugs/clioquinol/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 5,
+   "i": "Ektotrix-infektionssygdom"
+  },
+  {
+   "t": "Caffeine",
+   "u": "/drugs/caffeine/",
+   "l": "L5",
+   "lt": 12,
+   "lv": 11,
+   "r": 4,
+   "i": "Næsehulesygdom"
+  },
+  {
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 4,
+   "i": "punctate epithelial keratoconjunctivitis"
+  },
+  {
    "t": "Methadone",
    "u": "/drugs/methadone/",
    "l": "L4",
@@ -245,33 +272,6 @@
    "lv": 1,
    "r": 4,
    "i": "Kolobomatøs mikroftalmi-rhizomelisk dysplasi-syndrom"
-  },
-  {
-   "t": "Cyclosporine",
-   "u": "/drugs/cyclosporine/",
-   "l": "L4",
-   "lt": 18,
-   "lv": 17,
-   "r": 3,
-   "i": "autosomal recessiv"
-  },
-  {
-   "t": "Fentanyl",
-   "u": "/drugs/fentanyl/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 19,
-   "r": 3,
-   "i": "nephrogenic syndrome of inappropriate antidiuresis"
-  },
-  {
-   "t": "Hydrocortisone",
-   "u": "/drugs/hydrocortisone/",
-   "l": "L2",
-   "lt": 0,
-   "lv": 20,
-   "r": 3,
-   "i": "alopecia areata"
   }
  ],
  "example": {

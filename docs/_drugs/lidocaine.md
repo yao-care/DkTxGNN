@@ -126,13 +126,19 @@ Dataene indeholder desuden 4 tilladelser til veterinærlægemidler (ATC-kode Q e
 
 <!-- licenses:end -->
 
-Blandt de øvrige tilladelser er bl.a.: Emla (creme), Lidokain-adrenalin "SAD" (injektionsvæske), Ekyflogyl (gel) og Xylocain-adrenalin (injektionsvæske, opløsning). Ingen af de registrerede produkter er øjenpræparater.
+Blandt de øvrige tilladelser er bl.a.: Emla (creme), Lidokain-adrenalin "SAD" (injektionsvæske), Ekyflogyl (gel) og Xylocain-adrenalin (injektionsvæske, opløsning). Af de registrerede produkter er kun Mydrane (intrakameral injektion med lidocain, phenylephrin og tropicamid til kataraktkirurgi) beregnet til øjet.
 
 <!-- review:begin dk-lic-20261124b-lidocaine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Yderligere fire tilladelser findes:" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05): Der er mange flere tilladelser med lidocain end tabellen og de fire nævnte (dataene omfatter kun en del af dem). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261124b-lidocaine-1 -->
+
+<!-- review:begin dk-lic-20261124c-lidocaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Ingen af de registrerede produkter er øjenpræparater." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har Mydrane (Lidocainhydrochloridmonohydrat, phenylephrinhydrochlorid, tropicamid; ATC S01FA56). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-lidocaine-1 -->
 
 ---
 
@@ -156,7 +162,13 @@ Forudsigelserne har meget høje modelscorer, men ingen undersøgelse har direkte
 **For at komme videre kræves:**
 - Data om virkningsmekanisme og produktresuméer med indikationer, advarsler og kontraindikationer for de danske godkendelser
 - Prækliniske eller kliniske studier, der direkte undersøger lidokain ved en konkret øjenoverfladesygdom (f.eks. atopisk konjunktivitis), med fokus på sygdomsforløb og ikke kun symptomlindring
-- Vurdering af hornhindesikkerhed ved gentagen brug og af egnet lægemiddelform til øjet (ingen af de nuværende danske produkter er øjenpræparater)
+- Vurdering af hornhindesikkerhed ved gentagen brug og af egnet lægemiddelform til øjet (det eneste nuværende danske øjenpræparat, Mydrane, er en intrakameral injektion til kataraktkirurgi)
+
+<!-- review:begin dk-lic-20261124c-lidocaine-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "(ingen af de nuværende danske produkter er øjenpræparater)" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Mydrane (ATC S01FA56) er det eneste præparat med lidocain beregnet til øjet i Lægemiddelstyrelsens liste. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-lidocaine-2 -->
 
 <!-- review:begin log -->
 
@@ -168,6 +180,8 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 |------|------|------|------|
 | 2026-11-12 | Alle ni godkendelser er nationale tilladelser med enkeltstof (lidokain). | Rettet (revideret 2026-11-24; tidligere version gemt i loggen) | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 | 2026-11-24 | Yderligere fire tilladelser findes: | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Ingen af de registrerede produkter er øjenpræparater. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | (ingen af de nuværende danske produkter er øjenpræparater) | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 last_modified_at: 2026-11-24
-description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 9 (gyldige: 9)"
+description: "Codeine: forudsagt ny indikation Næsehulesygdom (nasal cavity disease) (evidensniveau L5). I Danmark, markedsføringstilladelser: 13 (gyldige: 13)"
 ---
 
 # Codeine
@@ -38,7 +38,13 @@ Evidensniveau: **L5** | Forudsagte indikationer: **3** stk.
 
 ## Kort resumé
 
-Codein er et opioid, som i Danmark er markedsført som oral opløsning. Den primære TxGNN-forudsigelse er **Næsehulesygdom (nasal cavity disease)**. Der foreligger **ingen kliniske forsøg** og kun **1 publikation**, som er en case-rapport om en uheldig hændelse og ikke dokumenterer nogen behandlingseffekt.
+Codein er et opioid, som i Danmark er markedsført som tabletter og oral opløsning. Den primære TxGNN-forudsigelse er **Næsehulesygdom (nasal cavity disease)**. Der foreligger **ingen kliniske forsøg** og kun **1 publikation**, som er en case-rapport om en uheldig hændelse og ikke dokumenterer nogen behandlingseffekt.
+
+<!-- review:begin dk-lic-20261124c-codeine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "som i Danmark er markedsført som oral opløsning." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har kodeinpræparater som tabletter/filmovertrukne tabletter (fx Kodein "DAK", Kodipar, Pinex comp) og oral opløsning (Kodein Stærk "DAK"). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-codeine-1 -->
 
 ## Hurtigt overblik
 
@@ -48,8 +54,8 @@ Codein er et opioid, som i Danmark er markedsført som oral opløsning. Den prim
 | Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 9) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 13 af 13) |
+| Antal markedsføringstilladelser | 13 (gyldige: 13) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse (ikke) rimelig?
@@ -80,7 +86,7 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 | 28107282224 | Kodein "ExtractumPharma" | tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
 | 28107282324 | Kodein "ExtractumPharma" | tabletter | CODEINPHOSPHATHEMIHYDRAT | Gyldig |
 
-Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 13 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 
@@ -106,11 +112,12 @@ Forudsigelsen understøttes ikke af nogen studier, der direkte undersøger codei
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+| 2026-11-24 | som i Danmark er markedsført som oral opløsning. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

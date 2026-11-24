@@ -38,9 +38,15 @@ Evidensniveau: **L5** | Forudsagte indikationer: **8** stk.
 
 ## Opsummering
 
-Koffein er et metylxanthin, som i Danmark bruges i receptfrie kombinationspræparater mod hovedpine og migræne samt forkølelsesrelaterede symptomer.
+Koffein er et metylxanthin, som i Danmark bruges i receptfrie kombinationspræparater mod hovedpine, migræne og forkølelsesrelaterede symptomer og findes desuden som koffeincitrat (enkeltstof) til infusion og oral opløsning (Gencebok, Peyona).
 TxGNN-modellen forudsiger, at det kan have effekt ved **næsehulesygdom (nasal cavity disease)**,
 men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** af svagt og indirekte tilsnit, som understøtter denne retning.
+
+<!-- review:begin dk-lic-20261124c-caffeine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "kombinationspræparater mod hovedpine og migræne samt forkølelsesrelaterede symptomer." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har også Gencebok og Peyona (Caffeincitrat, infusionsvæske og oral opløsning). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-caffeine-1 -->
 
 ---
 
@@ -52,8 +58,8 @@ men der er **ingen registrerede kliniske forsøg** og kun **3 publikationer** af
 | Forudsagt ny indikation | Næsehulesygdom (nasal cavity disease) |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 8) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -96,7 +102,7 @@ Der er i øjeblikket ingen relaterede kliniske forsøg registreret.
 | 28107241724 | Paracetamol/Caffein "Orifarm" | filmovertrukne tabletter | Caffein, PARACETAMOL | Gyldig |
 | 28100665775 | Treo | brusetabletter | ACETYLSALICYLSYRE, Caffein | Gyldig |
 
-Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 
@@ -133,8 +139,20 @@ Forudsigelsen om næsehulesygdom er baseret på en høj modelscore, men underst�
 - Præcisering af, hvilken konkret næsesygdom der tænkes på, da "næsehulesygdom" er en bred kategori
 - Data om virkningsmekanisme og en undersøgelse af, om TAS2R-aktivering eller adenosinantagonisme kan have terapeutisk relevans i næseslimhinden
 - Præklinisk eller eksplorativt klinisk arbejde i relevante modeller (fx allergisk eller vasomotorisk rhinitis)
-- Gennemgang af produktresuméer for de fire danske præparater (advarsler, kontraindikationer og godkendte indikationer mangler i de sammenstillede data)
-- Vurdering af egnet administrationsvej og formulering, da de eksisterende danske præparater er orale
+- Gennemgang af produktresuméer for de danske præparater (advarsler, kontraindikationer og godkendte indikationer mangler i de sammenstillede data)
+- Vurdering af egnet administrationsvej og formulering, da de eksisterende danske præparater er tabletter (orale) eller, for koffeincitratets vedkommende, infusionsvæske og oral opløsning
+
+<!-- review:begin dk-lic-20261124c-caffeine-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Gennemgang af produktresuméer for de fire danske præparater" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har flere end fire præparater med koffein (antal: se Hurtigt overblik). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-caffeine-2 -->
+
+<!-- review:begin dk-lic-20261124c-caffeine-3 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "da de eksisterende danske præparater er orale" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Gencebok og Peyona (Caffeincitrat) er infusionsvæsker (Peyona også oral opløsning). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-caffeine-3 -->
 
 ---
 
@@ -144,11 +162,14 @@ Forudsigelsen om næsehulesygdom er baseret på en høj modelscore, men underst�
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-19 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+| 2026-11-24 | kombinationspræparater mod hovedpine og migræne samt forkølelsesrelaterede symptomer. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Gennemgang af produktresuméer for de fire danske præparater | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | da de eksisterende danske præparater er orale | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

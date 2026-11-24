@@ -561,6 +561,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - partial 頁的「mindst 20」更正文字（24 筆）沒動：收錄上限 20、與程式表說明句「mindst 20」一致。
 - 驗證：checker 全量前後 0；gate exit 0；寬偵測（.../dk/wide.py 同規則）不符 72 句→12 句，剩下的是上面判定成立的 3 句、作用機轉節錄裡的數字 2 句、rabeprazole「De to kendte anvendelser」（已知用途）、metformin「fem af tilladelserne」（程式表 5 列）、atorvastatin 的 mindst 20／2 張註銷（成立）、candesartan 與 isoleucine／serine／tyrosine 的「ingen annullerede」（partial 頁，前 20 張全有效、其餘未收，證明不了錯）。
 
+## 複方逐成分補收證據包（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（第三輪 A）：fenofibrate 證據包漏收 Rosufenx 28107198624（FENOFIBRAT, Rosuvastatincalcium，2026-01-22 許可）。原因：`drug_mapping.csv` 以當時清單的成分字串整串對照（「FENOFIBRAT, Rosuvastatin calcium」），清單現在寫「Rosuvastatincalcium」，整串對不到；逐成分時「fenofibrat」沒有單方對照（丹麥的 fenofibrate 全是複方），只對到 rosuvastatin。同類還有整串本來就只對到一個成分的複方（「CLINDAMYCINPHOSPHAT, Tretinoin」只對到 tretinoin）。
+- `scripts/rebuild_licenses_by_ingredient.py` 加 `component_map`／`db_ids_components`：複方逐成分（`ingredients.substances` 切）去鹽類字尾後，查單方對照（base_map），再查從 drug_mapping 複方列推得的成分對照（該列 DrugBank ID 的名稱——標準化成分或 DrugBank 詞彙名——跟複方裡恰好一個成分相近：一方是另一方開頭或 SequenceMatcher ≥ 0.85；同一成分對到多個 ID 的不用，283 個）；單方只在原對照對不到時用（Peyona／Gencebok「Caffeincitrat」、Cayston「AZTREONAMLYSIN」）。重建時超過 20 筆的 Drugid 記在 `records_not_stored`。
+- `scripts/add_component_licenses.py [--download]`（只加不刪、可重複執行）：新規則比原規則多對到的 ID，該 ID 證據包還沒有的許可補進來（人用進 records，超過 20 筆只記 records_not_stored 並算進 total_matches；獸用進 veterinary_records；人工清單 exclude 不收），每筆記 source（清單日期與規則）、added。`.github/workflows/license-refresh.yml` 在 license_refresh 前以 `--download` 跑，有補收就照常發新 Release。
+- 2026-11-24 第一次跑（清單 2026-11-24 下載）：41 個證據包補 165 筆（records 36、只算張數 114、獸用 15）；例 fenofibrate＋Rosufenx、caffeine＋Gencebok／Peyona／Panodil Tribus、epinephrine＋19 張局麻複方、miconazole＋Brentacort、lidocaine＋Mydrane／Betolo、cysteine＋Maapliv／Pedismof Preterm（原 site.EXTRA_OWN，保留、去重）、tetracaine／cinchocaine／clioquinol＋True Test 24／36（貼片過敏原測試；benzocaine、disulfiram 證據包原本就收）。14 頁概覽狀態列／張數列、18 頁程式表由程式同步；證據包 local_regulatory 重算 14 個；data overlay 推 `claude/data-overlay-DkTxGNN-combo`。
+- 正文跟新事實矛盾的 12 句以 `dk-lic-20261124c-*` 更正（caffeine 只寫複方 OTC／「de fire danske præparater」／「er orale」、clioquinol「Det eneste markedsførte produkt … ørdråber」等 3 句、tetracaine「Produktet … ADOH」、miconazole 待辦「den danske godkendelse er en mundhulegel」、lidocaine「Ingen … øjenpræparater」2 句；同類搜尋另找到既有就不成立的 codeine「markedsført som oral opløsning」、epinephrine「kun godkendt som injektion」（EURneffy 鼻噴劑））；更正文字不寫張數。待查清單的 fenofibrate 漏收項標 resolved。
+- 沒做：重建（rebuild）照新規則全量重跑會再改 947 個證據包（多是 records_not_stored 欄、source 字樣），其中 24 個張數不同，是 11-05 之後新許可（單方，原規則也對得到）每週排程不補收的既有缺口，不在這次範圍。
+- B（公開頁整頁沒有市場段落、但證據包有紀錄）：全量量測 0 頁（807 頁都有程式區塊）。仍照 Jp 加 `sync_license_tables.add_section`（標題「## Information om det danske marked」，放在 Sikkerhedsovervejelser／Konklusion og næste skridt／Gennemgangslog／Ansvarsfraskrivelse 之前，noindex 不補）、gate（licenses.page_problems：公開頁快照有人用或獸用紀錄卻沒有市場段落就擋）與 license_adapter.PAGE_NOTE 放行新標題。
+- 驗證：checker 全量前後 0；gate exit 0；add_component_licenses 第二次跑 0 筆；寬偵測（.../dk/wide.py）13 行與改前相同（第二輪判定成立的句子）。
+
 ## 新資料查不到的許可證（2026-11-17）
 
 每週排程原本把「Lægemiddelstyrelsen 現行清單（Liste over godkendte lægemidler）查不到」的 Drugid 保留原狀態，2026-11-16 列出 36 張（11-17 試跑 38 張，涵蓋 99.4%，沒開 issue）。

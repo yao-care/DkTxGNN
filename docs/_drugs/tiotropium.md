@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-24
 monitor_inn: "tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)"
+description: "Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
 ---
 
 # Tiotropium
@@ -48,8 +48,8 @@ Tiotropium er en langtidsvirkende antikolinergisk luftvejsmedicin givet som inha
 | Forudsagt ny indikation | Respiratorisk misdannelse (respiratory malformation) |
 | TxGNN-forudsigelsesscore | 0.9995 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 8 af 8) |
-| Antal markedsføringstilladelser | 8 (gyldige: 8) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
+| Antal markedsføringstilladelser | 12 (gyldige: 12) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er forudsigelsen rimelig?
@@ -92,7 +92,7 @@ Ingen af publikationerne undersøger tiotropium ved respiratorisk misdannelse.
 | 28103985306 | Spiriva Respimat | inhalationsvæske, opløsning | Tiotropiumbromidmonohydrat | Gyldig |
 | 28106337519 | Tiogiva | inhalationspulver, hård kapsel | Tiotropiumbromid | Gyldig |
 
-Tabellen viser 5 af 8 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

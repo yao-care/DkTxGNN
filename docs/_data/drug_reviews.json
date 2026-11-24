@@ -19910,6 +19910,234 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（第二輪：第一輪列待查的舊錯句逐句對照證據包全部紀錄與快照事實層）"
+  },
+  {
+   "id": "dk-lic-20261124c-caffeine-1",
+   "drug": "caffeine",
+   "file": "caffeine.md",
+   "action": "correct",
+   "claim": "kombinationspræparater mod hovedpine og migræne samt forkølelsesrelaterede symptomer.",
+   "replacement": "kombinationspræparater mod hovedpine, migræne og forkølelsesrelaterede symptomer og findes desuden som koffeincitrat (enkeltstof) til infusion og oral opløsning (Gencebok, Peyona).",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har også Gencebok og Peyona (Caffeincitrat, infusionsvæske og oral opløsning).",
+   "finding": "正文只寫複方 OTC；證據包補收 Gencebok、Peyona（caffeine citrate 單方、輸注／口服液）後不完整（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-caffeine-2",
+   "drug": "caffeine",
+   "file": "caffeine.md",
+   "action": "correct",
+   "claim": "Gennemgang af produktresuméer for de fire danske præparater",
+   "replacement": "Gennemgang af produktresuméer for de danske præparater",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har flere end fire præparater med koffein (antal: se Hurtigt overblik).",
+   "finding": "待辦寫「de fire」；事實層 12 張（只拿掉錯的前提）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-caffeine-3",
+   "drug": "caffeine",
+   "file": "caffeine.md",
+   "action": "correct",
+   "claim": "da de eksisterende danske præparater er orale",
+   "replacement": "da de eksisterende danske præparater er tabletter (orale) eller, for koffeincitratets vedkommende, infusionsvæske og oral opløsning",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Gencebok og Peyona (Caffeincitrat) er infusionsvæsker (Peyona også oral opløsning).",
+   "finding": "待辦前提「全部口服」不成立（Gencebok、Peyona 是輸注液）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-clioquinol-1",
+   "drug": "clioquinol",
+   "file": "clioquinol.md",
+   "action": "correct",
+   "claim": "Det eneste markedsførte produkt i Danmark er desuden ørdråber, hvilket ikke er en formulering til hårbærende hud.",
+   "replacement": "Det eneste behandlingsprodukt i Danmark er desuden ørdråber (Locacorten-Vioform), hvilket ikke er en formulering til hårbærende hud; clioquinol indgår ellers kun som testallergen i lappetestene True Test 24 og True Test 36.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har ud over Locacorten-Vioform også True Test 24 og True Test 36 (plaster til provokationstest), der indeholder clioquinol. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen.",
+   "finding": "「唯一產品是耳滴劑」：證據包補收 True Test 24、36（貼片過敏原測試，含 clioquinol）後不成立（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-clioquinol-2",
+   "drug": "clioquinol",
+   "file": "clioquinol.md",
+   "action": "correct",
+   "claim": "Tilladelsen er gyldig og omfatter et",
+   "replacement": "Tilladelsen for Locacorten-Vioform er gyldig og omfatter et",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har flere tilladelser med clioquinol (også True Test 24 og 36); sætningen gælder Locacorten-Vioform. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen.",
+   "finding": "單數「Tilladelsen」只指 Locacorten-Vioform；事實層 3 張（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-clioquinol-3",
+   "drug": "clioquinol",
+   "file": "clioquinol.md",
+   "action": "correct",
+   "claim": "og at det eneste danske præparat er ørdråber.",
+   "replacement": "og at det eneste danske behandlingspræparat er ørdråber (ud over lappetestene True Test 24 og 36).",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. True Test 24 og 36 (plaster til provokationstest) indeholder også clioquinol.",
+   "finding": "結論「唯一丹麥製劑是耳滴劑」：另有 True Test 貼片（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-tetracaine-1",
+   "drug": "tetracaine",
+   "file": "tetracaine.md",
+   "action": "correct",
+   "claim": "Produktet er fremstillet af ADOH B.V. og har status som gyldig",
+   "replacement": "Pliapel er fremstillet af ADOH B.V. og har status som gyldig",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har flere tilladelser med tetracain (Pliapel, Ralydan, True Test 24 og 36); ADOH B.V. er indehaver af Pliapel. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen.",
+   "finding": "單數「Produktet」：事實層 4 張（Pliapel、Ralydan、True Test 24、36），ADOH 只是 Pliapel 的持有人（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-codeine-1",
+   "drug": "codeine",
+   "file": "codeine.md",
+   "action": "correct",
+   "claim": "som i Danmark er markedsført som oral opløsning.",
+   "replacement": "som i Danmark er markedsført som tabletter og oral opløsning.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har kodeinpræparater som tabletter/filmovertrukne tabletter (fx Kodein \"DAK\", Kodipar, Pinex comp) og oral opløsning (Kodein Stærk \"DAK\").",
+   "finding": "只寫口服液；證據包多數是錠劑（既有就不成立，同類搜尋發現）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-miconazole-1",
+   "drug": "miconazole",
+   "file": "miconazole.md",
+   "action": "correct",
+   "claim": "den danske godkendelse er en mundhulegel,",
+   "replacement": "de danske godkendelser er creme og mundhulegel,",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har miconazol som creme (Brentan, Brentacort) og mundhulegel (Brentan). Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen.",
+   "finding": "待辦前提「唯一許可是口腔凝膠」：另有 Brentan 乳膏（既有）、Brentacort 乳膏（補收）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-epinephrine-1",
+   "drug": "epinephrine",
+   "file": "epinephrine.md",
+   "action": "correct",
+   "claim": "og de danske produkter er kun godkendt som injektion.",
+   "replacement": "og de danske produkter er godkendt som injektion og som næsespray (EURneffy), ikke til inhalation.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har EURneffy (adrenalin, næsespray) ud over injektionspræparaterne.",
+   "finding": "「只有注射劑」：EURneffy 鼻噴劑（既有就不成立，同類搜尋發現）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-lidocaine-1",
+   "drug": "lidocaine",
+   "file": "lidocaine.md",
+   "action": "correct",
+   "claim": "Ingen af de registrerede produkter er øjenpræparater.",
+   "replacement": "Af de registrerede produkter er kun Mydrane (intrakameral injektion med lidocain, phenylephrin og tropicamid til kataraktkirurgi) beregnet til øjet.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har Mydrane (Lidocainhydrochloridmonohydrat, phenylephrinhydrochlorid, tropicamid; ATC S01FA56).",
+   "finding": "「沒有眼用製劑」：證據包補收 Mydrane（眼科用，ATC S01FA56）後不成立（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124c-lidocaine-2",
+   "drug": "lidocaine",
+   "file": "lidocaine.md",
+   "action": "correct",
+   "claim": "(ingen af de nuværende danske produkter er øjenpræparater)",
+   "replacement": "(det eneste nuværende danske øjenpræparat, Mydrane, er en intrakameral injektion til kataraktkirurgi)",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Mydrane (ATC S01FA56) er det eneste præparat med lidocain beregnet til øjet i Lægemiddelstyrelsens liste.",
+   "finding": "待辦前提「沒有眼用製劑」不成立（只改前提）（2026-11-24 第三輪：複方逐成分補收證據包後逐句對照）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
   }
  ]
 }

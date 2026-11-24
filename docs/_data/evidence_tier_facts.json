@@ -861,8 +861,8 @@
     "u": "/drugs/cysteine/",
     "l": "L4",
     "i": "Tørre øjne",
-    "lt": 9,
-    "lv": 9,
+    "lt": 10,
+    "lv": 10,
     "r": 1,
     "rs": "",
     "x": 0
@@ -1037,9 +1037,9 @@
     "u": "/drugs/miconazole/",
     "l": "L4",
     "i": "acne (disease)",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
+    "lt": 6,
+    "lv": 6,
+    "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1059,8 +1059,8 @@
     "u": "/drugs/norepinephrine/",
     "l": "L4",
     "i": "Obstruktiv lungesygdom",
-    "lt": 12,
-    "lv": 12,
+    "lt": 14,
+    "lv": 14,
     "r": 1,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
@@ -1246,8 +1246,8 @@
     "u": "/drugs/tenofovir-alafenamide/",
     "l": "L4",
     "i": "simian immunodeficiency virus infection",
-    "lt": 10,
-    "lv": 10,
+    "lt": 15,
+    "lv": 15,
     "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
@@ -1725,7 +1725,7 @@
     "i": "obstructive lung disease",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1978,7 +1978,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 4,
     "rs": "",
     "x": 0
    },
@@ -2973,6 +2973,17 @@
     "x": 0
    },
    {
+    "t": "Thiamine",
+    "u": "/drugs/thiamine/",
+    "l": "L5",
+    "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+    "lt": 14,
+    "lv": 14,
+    "r": 1,
+    "rs": "",
+    "x": 0
+   },
+   {
     "t": "Alprostadil",
     "u": "/drugs/alprostadil/",
     "l": "L5",
@@ -2992,6 +3003,17 @@
     "lv": 13,
     "r": 1,
     "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Codeine",
+    "u": "/drugs/codeine/",
+    "l": "L5",
+    "i": "Næsehulesygdom",
+    "lt": 13,
+    "lv": 13,
+    "r": 2,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -3069,17 +3091,6 @@
     "lv": 13,
     "r": 1,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
-    "t": "Thiamine",
-    "u": "/drugs/thiamine/",
-    "l": "L5",
-    "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
-    "lt": 13,
-    "lv": 13,
-    "r": 1,
-    "rs": "",
     "x": 0
    },
    {
@@ -3270,6 +3281,17 @@
     "x": 0
    },
    {
+    "t": "Tiotropium",
+    "u": "/drugs/tiotropium/",
+    "l": "L5",
+    "i": "Respiratorisk misdannelse",
+    "lt": 12,
+    "lv": 12,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
     "t": "Abacavir",
     "u": "/drugs/abacavir/",
     "l": "L5",
@@ -3310,6 +3332,17 @@
     "lt": 11,
     "lv": 11,
     "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
+    "t": "Caffeine",
+    "u": "/drugs/caffeine/",
+    "l": "L5",
+    "i": "Næsehulesygdom",
+    "lt": 12,
+    "lv": 11,
+    "r": 4,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -3644,17 +3677,6 @@
     "x": 0
    },
    {
-    "t": "Codeine",
-    "u": "/drugs/codeine/",
-    "l": "L5",
-    "i": "Næsehulesygdom",
-    "lt": 9,
-    "lv": 9,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Cyclophosphamide",
     "u": "/drugs/cyclophosphamide/",
     "l": "L5",
@@ -3809,17 +3831,6 @@
     "x": 0
    },
    {
-    "t": "Caffeine",
-    "u": "/drugs/caffeine/",
-    "l": "L5",
-    "i": "Næsehulesygdom",
-    "lt": 9,
-    "lv": 8,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Clobazam",
     "u": "/drugs/clobazam/",
     "l": "L5",
@@ -3927,17 +3938,6 @@
     "lv": 8,
     "r": 3,
     "rs": "Enkeltstof/kombination rettet",
-    "x": 0
-   },
-   {
-    "t": "Tiotropium",
-    "u": "/drugs/tiotropium/",
-    "l": "L5",
-    "i": "Respiratorisk misdannelse",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
    {
@@ -5008,6 +5008,17 @@
     "x": 0
    },
    {
+    "t": "Fenofibrate",
+    "u": "/drugs/fenofibrate/",
+    "l": "L5",
+    "i": "cholesterol-ester transfer protein deficiency",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Enkeltstof/kombination rettet",
+    "x": 0
+   },
+   {
     "t": "Fluorescein",
     "u": "/drugs/fluorescein/",
     "l": "L5",
@@ -5283,6 +5294,17 @@
     "x": 0
    },
    {
+    "t": "Tetracaine",
+    "u": "/drugs/tetracaine/",
+    "l": "L5",
+    "i": "acrodermatitis chronica atrophicans",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Enkeltstof/kombination rettet",
+    "x": 0
+   },
+   {
     "t": "Tildrakizumab",
     "u": "/drugs/tildrakizumab/",
     "l": "L5",
@@ -5514,6 +5536,28 @@
     "x": 0
    },
    {
+    "t": "Cinchocaine",
+    "u": "/drugs/cinchocaine/",
+    "l": "L5",
+    "i": "Bronkitis",
+    "lt": 3,
+    "lv": 3,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Clioquinol",
+    "u": "/drugs/clioquinol/",
+    "l": "L5",
+    "i": "Ektotrix-infektionssygdom",
+    "lt": 3,
+    "lv": 3,
+    "r": 5,
+    "rs": "Enkeltstof/kombination rettet",
+    "x": 0
+   },
+   {
     "t": "Cyclopentolate",
     "u": "/drugs/cyclopentolate/",
     "l": "L5",
@@ -5588,17 +5632,6 @@
     "lv": 3,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Fenofibrate",
-    "u": "/drugs/fenofibrate/",
-    "l": "L5",
-    "i": "cholesterol-ester transfer protein deficiency",
-    "lt": 3,
-    "lv": 3,
-    "r": 2,
-    "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
    {
@@ -5932,6 +5965,17 @@
     "x": 0
    },
    {
+    "t": "Aztreonam",
+    "u": "/drugs/aztreonam/",
+    "l": "L5",
+    "i": "Hyperamylasæmi",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
     "t": "Benralizumab",
     "u": "/drugs/benralizumab/",
     "l": "L5",
@@ -6046,17 +6090,6 @@
     "u": "/drugs/cidofovir/",
     "l": "L5",
     "i": "sclerosing cholangitis",
-    "lt": 2,
-    "lv": 2,
-    "r": 0,
-    "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Cinchocaine",
-    "u": "/drugs/cinchocaine/",
-    "l": "L5",
-    "i": "Bronkitis",
     "lt": 2,
     "lv": 2,
     "r": 0,
@@ -6713,17 +6746,6 @@
     "x": 0
    },
    {
-    "t": "Tetracaine",
-    "u": "/drugs/tetracaine/",
-    "l": "L5",
-    "i": "acrodermatitis chronica atrophicans",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "Enkeltstof/kombination rettet",
-    "x": 0
-   },
-   {
     "t": "Tipiracil",
     "u": "/drugs/tipiracil/",
     "l": "L5",
@@ -6922,17 +6944,6 @@
     "x": 0
    },
    {
-    "t": "Aztreonam",
-    "u": "/drugs/aztreonam/",
-    "l": "L5",
-    "i": "Hyperamylasæmi",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Brentuximab Vedotin",
     "u": "/drugs/brentuximab-vedotin/",
     "l": "L5",
@@ -7029,17 +7040,6 @@
     "lv": 1,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Clioquinol",
-    "u": "/drugs/clioquinol/",
-    "l": "L5",
-    "i": "Ektotrix-infektionssygdom",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Enkeltstof/kombination rettet",
     "x": 0
    },
    {

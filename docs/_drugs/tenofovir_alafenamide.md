@@ -52,8 +52,8 @@ Forudsigelsen støttes af **8 publikationer** (udelukkende prækliniske studier 
 | Forudsagt ny indikation | Simian immundefektvirus-infektion |
 | TxGNN-forudsigelsesscore | 0,9989 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 10 af 10) |
-| Antal markedsføringstilladelser | 10 (gyldige: 10) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -103,7 +103,7 @@ Der er på nuværende tidspunkt ingen relaterede kliniske forsøg registreret.
 | 28105774815 | Descovy | filmovertrukne tabletter | EMTRICITABIN, tenofovir alafenamid | Gyldig |
 | 28107325925 | Emtricitabin/Tenofoviralafenamid "Lupin" | filmovertrukne tabletter | EMTRICITABIN, Tenofovir alafenamid succinat | Gyldig |
 
-Tabellen viser 5 af 10 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

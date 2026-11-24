@@ -50,8 +50,8 @@ Tetracain er et lokalbedøvelsesmiddel, der i videnbasen er knyttet til dermatit
 | Forudsagt ny indikation | Akrodermatitis chronica atrophicans |
 | TxGNN-forudsigelsesscore | 0,9993 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 2 af 2) |
-| Antal markedsføringstilladelser | 2 (gyldige: 2) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
+| Antal markedsføringstilladelser | 4 (gyldige: 4) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -108,17 +108,23 @@ Alle øvrige forudsigelser har ligeledes evidensniveau L4–L5 og anbefalingen H
 | 28104887111 | Pliapel | creme | LIDOCAIN, TETRACAIN | Gyldig |
 | 28104155907 | Ralydan | medicinsk plaster | LIDOCAIN, TETRACAIN | Gyldig |
 
-Tabellen viser alle 2 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 2 af 4 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 
-Produktet er fremstillet af ADOH B.V. og har status som gyldig (kombinationspræparat).
+Pliapel er fremstillet af ADOH B.V. og har status som gyldig (kombinationspræparat).
 
 <!-- review:begin dk-lic-20261112-tetracaine-1 -->
 
 > **Rettelse ved gennemgang (2026-11-12)**: Oprindeligt stod der: "(enkeltstofpræparat)" Ifølge Lægemiddelstyrelsens liste over godkendte lægemidler (data fra 2026-11-05, feltet AktiveSubstanser): Pliapel indeholder lidocain og tetracain. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
 
 <!-- review:end dk-lic-20261112-tetracaine-1 -->
+
+<!-- review:begin dk-lic-20261124c-tetracaine-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Produktet er fremstillet af ADOH B.V. og har status som gyldig" Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler. Lægemiddelstyrelsens liste har flere tilladelser med tetracain (Pliapel, Ralydan, True Test 24 og 36); ADOH B.V. er indehaver af Pliapel. Antal og status for tilladelserne vedligeholdes af programmet i Hurtigt overblik og i tabellen under markedsinformationen. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124c-tetracaine-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-12 | Enkeltstof/kombination rettet | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Produktet er fremstillet af ADOH B.V. og har status som gyldig | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

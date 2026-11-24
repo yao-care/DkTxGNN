@@ -10,6 +10,9 @@
 做法：
 1. 成分對應沿用站上的 data/processed/drug_mapping.csv（原始主成分字串 → DrugBank ID，映射成功者）；
    清單裡新出現的成分字串對照不到時，逐一成分（逗號分隔）用單一成分字串的對照補。
+   2026-11-24 起複方另外逐成分查（db_ids_components：單方對照＋從複方對照列推得的成分對照 component_map），
+   整串寫法換了（Rosufenx）或整串只對到一個成分的複方也收進每個成分的證據包；超過 20 筆的 Drugid 記在 records_not_stored。
+   每週排程不跑這支，跑 scripts/add_component_licenses.py（只加不刪）。
 2. 證據包的 DrugBank ID 對到的全部產品都收（不再一個成分字串只留一個）。
 3. 獸用品：ATC 以 Q 開頭，或品名含「Vet.」→ 放進 thaifda.veterinary_records（不算人用許可；頁面許可證表的獸用列由
    license_table_sync.drop_excluded_rows 刪除）。只有獸用許可的藥，概覽狀態列寫「Kun godkendt som veterinærlægemiddel」
@@ -126,6 +129,70 @@ def base_map(by_raw):
     return {k: v for k, v in out.items() if len(v) == 1}  # 同一個主體對到多個 DrugBank ID 的不用
 
 
+# ---- 複方逐成分對照（2026-11-24 第三輪，用戶決定）----
+# drug_mapping.csv 是依當時清單的成分字串整串對照；複方有兩個問題：
+#   1. 清單裡成分字串的寫法換了（Rosufenx「FENOFIBRAT, Rosuvastatin calcium」→「…Rosuvastatincalcium」），整串對不到，
+#      逐成分時「fenofibrat」又沒有單方對照（丹麥的 fenofibrate 全是複方），只對到 rosuvastatin；
+#   2. 有些複方整串只對到其中一個成分（「CLINDAMYCINPHOSPHAT, Tretinoin」只對到 tretinoin）。
+# 所以複方另外逐成分查：成分名去鹽類字尾後，先查單方對照（base_map），再查從複方對照列推得的成分對照（component_map）。
+# component_map：drug_mapping 每一列複方（原始主成分有兩個以上成分）＋一個 DrugBank ID，
+# 這個 ID 的名稱（標準化成分（不含逗號時）或 DrugBank 詞彙名）跟複方裡恰好一個成分相近（一方是另一方開頭，或 SequenceMatcher ≥ 0.85），
+# 就把那個成分（去鹽類字尾）記成這個 ID；同一個成分對到多個 ID 的不用。
+
+def _letters(s):
+    return re.sub(r"[^a-z]", "", str(s or "").lower())
+
+
+def _close(a, b):
+    import difflib
+    a, b = _letters(a), _letters(b)
+    if len(a) < 5 or len(b) < 5:
+        return False
+    if a.startswith(b) or b.startswith(a):
+        return True
+    return difflib.SequenceMatcher(None, a, b).ratio() >= 0.85
+
+
+def _substances(ing):
+    sys.path.insert(0, str(ROOT / "src"))
+    from dktxgnn.regulatory.ingredients import substances
+    return substances(ing)
+
+
+def component_map():
+    vocab = {}
+    vf = ROOT / "data/external/drugbank_vocab.csv"
+    if vf.exists():
+        with open(vf, encoding="utf-8", newline="") as f:
+            vocab = {r["drugbank_id"].strip().upper(): r["drug_name"] for r in csv.DictReader(f)}
+    out = {}
+    with open(MAPPING, encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            if str(r.get("映射成功")).strip().lower() != "true" or not r.get("drugbank_id"):
+                continue
+            comps = _substances(r["原始主成分"])
+            if len(comps) < 2:
+                continue
+            db = r["drugbank_id"].strip().upper()
+            names = [n for n in ((r.get("標準化成分") or "") if "," not in (r.get("標準化成分") or "") else "", vocab.get(db, "")) if n]
+            hit = [c for c in comps if any(_close(dk_base(c), n) for n in names)]
+            if len(hit) == 1:
+                out.setdefault(dk_base(hit[0]), set()).add(db)
+    return {k: v for k, v in out.items() if len(v) == 1}
+
+
+def db_ids_components(ing, by_raw, by_base, comp):
+    """db_ids 加上複方逐成分對照（單方照舊）"""
+    ids = set(db_ids(ing, by_raw, by_base))
+    parts = _substances(ing)
+    if len(parts) < 2:  # 單方：原對照對不到時才用複方推得的成分對照（Peyona「Caffeincitrat」、Cayston「AZTREONAMLYSIN」）
+        return ids or set(comp.get(dk_base(parts[0]), set()) if parts else set())
+    for c in parts:
+        k = dk_base(c)
+        ids |= by_raw.get(c.strip().lower()) or by_base.get(k) or comp.get(k) or set()
+    return ids
+
+
 def ncomp(r):
     return len([c for c in re.split(r",\s*", r.get("ingredients") or "") if c.strip()])
 
@@ -139,12 +206,13 @@ def main(argv):
     prods, by_raw = load_products(), load_mapping()
     overrides = {k: v for k, v in json.loads(OVERRIDES.read_text(encoding="utf-8")).items() if not k.startswith("_")} if OVERRIDES.exists() else {}
     by_base = base_map(by_raw)
+    comp = component_map()
     in_list = {p["license_id"]: p for p in prods}
     if len(prods) < 10000:
         raise SystemExit(f"清單只有 {len(prods)} 筆，疑似格式改變，不重建")
     by_db = {}
     for p in prods:
-        for db in db_ids(p["ingredients"], by_raw, by_base):
+        for db in db_ids_components(p["ingredients"], by_raw, by_base, comp):
             by_db.setdefault(db, []).append(p)
     rows, held, changed = [], [], 0
     for f in sorted(BUNDLES.glob("*/drug_bundle.json")):
@@ -197,6 +265,7 @@ def main(argv):
         human.sort(key=lambda r: (ncomp(r) > 1, r["brand_name_zh"]))
         vet.sort(key=lambda r: r["brand_name_zh"])
         nreg = dict(reg, found=bool(human), records=human[:CAP], total_matches=len(human), veterinary_records=vet,
+                    records_not_stored=[r["license_id"] for r in human[CAP:]],
                     source="Lægemiddelstyrelsen godkendte lægemidler (all products by ingredient, 2026-11-05 rebuild)")
         if nreg == reg:
             continue

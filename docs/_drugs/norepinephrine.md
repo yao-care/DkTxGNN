@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-24
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)"
+description: "Norepinephrine: forudsagt ny indikation Obstruktiv lungesygdom (obstructive lung disease) (evidensniveau L4). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
 ---
 
 # Norepinephrine
@@ -51,8 +51,8 @@ TxGNN-modellen forudsiger, at det kan have effekt ved **obstruktiv lungesygdom**
 | Forudsagt ny indikation | Obstruktiv lungesygdom (obstructive lung disease) |
 | TxGNN-forudsigelsesscore | 0.9984 |
 | Evidensniveau | L4 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 12 af 12) |
-| Antal markedsføringstilladelser | 12 (gyldige: 12) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
+| Antal markedsføringstilladelser | 14 (gyldige: 14) |
 | Anbefalet beslutning | Hold |
 
 ---
@@ -104,7 +104,7 @@ De hentede publikationer er overvejende oversigtsartikler og fysiologiske studie
 | 28106436520 | Noradrenalin "Fresenius Kabi" | koncentrat til infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
 | 28107041023 | Noradrenalin "Hameln" | koncentrat til infusionsvæske, opløsning | NORADRENALINTARTRAT | Gyldig |
 
-Tabellen viser 5 af 12 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 
