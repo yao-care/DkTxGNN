@@ -20138,6 +20138,84 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（第三輪：複方逐成分補收後對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124d-baclofen-1",
+   "drug": "baclofen",
+   "file": "baclofen.md",
+   "action": "correct",
+   "claim": "Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet.",
+   "replacement": "Tilladelserne omfatter både tabletter og injektions- og infusionsvæsker (antal og status: se Hurtigt overblik og tabellen ovenfor). Om disse lægemiddelformer er egnede til ADHD, er ikke vurderet.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24): baclofen er godkendt både som tabletter og som injektions-/infusionsvæske (fx Gablofen).",
+   "finding": "正文寫「唯一一張許可是注射輸注液」；證據包（含 2026-11-24 補收的 Baxozen）有錠劑與注射／輸注液多張，不成立（11-05 重建前舊證據包寫的）",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第四輪：依成分補收 11-05 之後新許可後，逐句對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124d-baclofen-2",
+   "drug": "baclofen",
+   "file": "baclofen.md",
+   "action": "correct",
+   "claim": ", da den eneste danske tilladelse i data er en infusionsvæske",
+   "replacement": "",
+   "anchor": "Vurdering af administrationsvej og lægemiddelform",
+   "note": "Den forudsætning er fjernet: Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har også baclofentabletter. Forslaget om at vurdere administrationsvej og lægemiddelform er bevaret.",
+   "finding": "待辦以「唯一一張是輸注液」為前提；實有錠劑，只拿掉前提",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第四輪：依成分補收 11-05 之後新許可後，逐句對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124d-ciprofloxacin-1",
+   "drug": "ciprofloxacin",
+   "file": "ciprofloxacin.md",
+   "action": "correct",
+   "claim": ", da det eneste danske godkendte produkt er øredråber",
+   "replacement": "",
+   "anchor": "- Vurdering af administrationsvej",
+   "note": "Den forudsætning er fjernet: Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har ciprofloxacin som filmovertrukne tabletter, infusionsvæske og øredråber (bl.a. Cetraxal og Cilodex). Forslaget om at vurdere administrationsvej er bevaret.",
+   "finding": "待辦以「唯一的丹麥產品是耳滴劑」為前提；證據包有錠劑、輸注液與耳滴劑（含 2026-11-24 補收的 Cilodex），只拿掉前提",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第四輪：依成分補收 11-05 之後新許可後，逐句對照證據包全部紀錄）"
+  },
+  {
+   "id": "dk-lic-20261124d-methylprednisolone-1",
+   "drug": "methylprednisolone",
+   "file": "methylprednisolone.md",
+   "action": "correct",
+   "claim": "Der er ikke fundet godkendelser til andre administrationsveje i de lokale data.",
+   "replacement": "Der findes også injektionspræparater (fx Depo-Medrol og Solu-Medrol) til parenteral administration.",
+   "note": "Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24): methylprednisolon er også godkendt som injektionsvæske, suspension (Depo-Medrol) og pulver og solvens til injektionsvæske (Solu-Medrol).",
+   "finding": "正文寫「本地資料沒有其他給藥途徑的許可」；證據包有 Depo-Medrol 注射懸液與 Solu-Medrol 注射粉劑（含 2026-11-24 補收的 Depo-Medrol 28107715126），不成立",
+   "sources": [
+    {
+     "title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
+     "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（第四輪：依成分補收 11-05 之後新許可後，逐句對照證據包全部紀錄）"
   }
  ]
 }

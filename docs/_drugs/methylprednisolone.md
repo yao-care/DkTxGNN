@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-24
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)"
+description: "Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)"
 ---
 
 # Methylprednisolone
@@ -48,8 +48,8 @@ Methylprednisolon er et syntetisk glukokortikoid til systemisk brug med antiinfl
 | Forudsagt ny indikation | Follikulær mucinose (alopecia mucinosa) |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 17 af 17) |
-| Antal markedsføringstilladelser | 17 (gyldige: 17) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 18 af 18) |
+| Antal markedsføringstilladelser | 18 (gyldige: 18) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor kan forudsigelsen være rimelig?
@@ -86,13 +86,19 @@ Status på det danske marked er **på markedet**. Antal og status for tilladelse
 | 28105981417 | Depo-Medrol | injektionsvæske, suspension | METHYLPREDNISOLONACETAT | Gyldig |
 | 28101336988 | Medrol | tabletter | METHYLPREDNISOLON | Gyldig |
 
-Tabellen viser 5 af 17 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 18 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 Dataene indeholder desuden 2 tilladelser til veterinærlægemidler (ATC-kode Q eller »Vet.« i navnet), som ikke er medtaget i tabellen eller i antallet ovenfor.
 
 <!-- licenses:end -->
 
-Tabletterne gives gennem munden (oral administration). Der er ikke fundet godkendelser til andre administrationsveje i de lokale data.
+Tabletterne gives gennem munden (oral administration). Der findes også injektionspræparater (fx Depo-Medrol og Solu-Medrol) til parenteral administration.
+
+<!-- review:begin dk-lic-20261124d-methylprednisolone-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Der er ikke fundet godkendelser til andre administrationsveje i de lokale data." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24): methylprednisolon er også godkendt som injektionsvæske, suspension (Depo-Medrol) og pulver og solvens til injektionsvæske (Solu-Medrol). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124d-methylprednisolone-1 -->
 
 ## Sikkerhedsmæssige overvejelser
 
@@ -129,6 +135,7 @@ Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemidde
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-24 | Der er registreret én gyldig, national markedsføringstilladelse for et enkeltstofpræparat. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | Der er ikke fundet godkendelser til andre administrationsveje i de lokale data. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

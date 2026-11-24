@@ -53,7 +53,8 @@ jobs:
 
       # 2026-11-24 第三輪（用戶決定）：複方的成分字串寫法一換，drug_mapping.csv 整串對不到，只收進其中一個成分的證據包；
       # 每週先照現行清單依複方逐成分對照補收（scripts/add_component_licenses.py，只加不刪、全程不用 AI），再跑 license_refresh
-      - name: Add combination products per ingredient
+      # 2026-11-24 第四輪（用戶決定）：同一支也補 11-05 重建之後新核准、原規則就對得到的單方／複方許可（照 rebuild_licenses_by_ingredient 同一套規則）
+      - name: Add new licences by ingredient
         id: addcomp
         run: |
           set -euo pipefail

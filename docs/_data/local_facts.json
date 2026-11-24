@@ -17,15 +17,15 @@
   "drugs_none_current": 17,
   "drugs_without_data": 168,
   "drugs_partial": 0,
-  "items_total": 3606,
-  "items_current": 3573
+  "items_total": 3615,
+  "items_current": 3582
  },
  "reviews": {
-  "records": 650,
-  "pages": 511,
-  "public_pages_with_records": 505,
+  "records": 654,
+  "pages": 512,
+  "public_pages_with_records": 506,
   "by_action": {
-   "correct": 232,
+   "correct": 236,
    "mechanism": 418
   }
  },

@@ -1182,9 +1182,9 @@
       "date": "2026-11-19"
     },
     "methylprednisolone": {
-      "tail": "I Danmark, markedsføringstilladelser: 17 (gyldige: 17)",
+      "tail": "I Danmark, markedsføringstilladelser: 18 (gyldige: 18)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "metoclopramide": {
       "tail": "I Danmark, markedsføringstilladelser: 11 (gyldige: 11)",
@@ -1347,9 +1347,9 @@
       "date": "2026-11-19"
     },
     "palbociclib": {
-      "tail": "I Danmark, markedsføringstilladelser: 15 (gyldige: 15)",
+      "tail": "I Danmark, markedsføringstilladelser: 18 (gyldige: 18)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "paliperidone": {
       "tail": "I Danmark, markedsføringstilladelser: mindst 20",
@@ -1527,9 +1527,9 @@
       "date": "2026-11-19"
     },
     "ranibizumab": {
-      "tail": "I Danmark, markedsføringstilladelser: 14 (gyldige: 14)",
+      "tail": "I Danmark, markedsføringstilladelser: 15 (gyldige: 15)",
       "original": "Oprindelig indikation: Ikke registreret i de lokale data",
-      "date": "2026-11-19"
+      "date": "2026-11-24"
     },
     "regadenoson": {
       "tail": "I Danmark, markedsføringstilladelser: 1 (gyldige: 1)",
@@ -4588,6 +4588,27 @@
       "date": "2026-11-24",
       "from": "\"Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 8 (gyldige: 8)\"",
       "to": "\"Tiotropium: forudsagt ny indikation Respiratorisk misdannelse (respiratory malformation) (evidensniveau L5). I Danmark, markedsføringstilladelser: 12 (gyldige: 12)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methylprednisolone.md",
+      "date": "2026-11-24",
+      "from": "\"Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). I Danmark, markedsføringstilladelser: 17 (gyldige: 17)\"",
+      "to": "\"Methylprednisolone: forudsagt ny indikation Follikulær mucinose (alopecia mucinosa) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/palbociclib.md",
+      "date": "2026-11-24",
+      "from": "\"Palbociclib: forudsagt ny indikation Hyperthyroidisme (hyperthyroidism) (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)\"",
+      "to": "\"Palbociclib: forudsagt ny indikation Hyperthyroidisme (hyperthyroidism) (evidensniveau L5). I Danmark, markedsføringstilladelser: 18 (gyldige: 18)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ranibizumab.md",
+      "date": "2026-11-24",
+      "from": "\"Ranibizumab: forudsagt ny indikation Craniostenosis cataract (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)\"",
+      "to": "\"Ranibizumab: forudsagt ny indikation Craniostenosis cataract (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

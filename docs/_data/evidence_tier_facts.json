@@ -1320,7 +1320,7 @@
   "with_current": 594,
   "none_current": 13,
   "without_data": 131,
-  "with_reviews": 407,
+  "with_reviews": 408,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1450,7 +1450,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 3,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },
@@ -1549,7 +1549,7 @@
     "i": "diffus sklerodermi",
     "lt": 0,
     "lv": 20,
-    "r": 0,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2555,6 +2555,28 @@
     "x": 0
    },
    {
+    "t": "Methylprednisolone",
+    "u": "/drugs/methylprednisolone/",
+    "l": "L5",
+    "i": "Follikulær mucinose",
+    "lt": 18,
+    "lv": 18,
+    "r": 2,
+    "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Palbociclib",
+    "u": "/drugs/palbociclib/",
+    "l": "L5",
+    "i": "Hyperthyroidisme",
+    "lt": 18,
+    "lv": 18,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
     "t": "Rotigotine",
     "u": "/drugs/rotigotine/",
     "l": "L5",
@@ -2640,17 +2662,6 @@
     "lv": 17,
     "r": 1,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
-    "t": "Methylprednisolone",
-    "u": "/drugs/methylprednisolone/",
-    "l": "L5",
-    "i": "Follikulær mucinose",
-    "lt": 17,
-    "lv": 17,
-    "r": 1,
-    "rs": "",
     "x": 0
    },
    {
@@ -2863,17 +2874,6 @@
     "x": 0
    },
    {
-    "t": "Palbociclib",
-    "u": "/drugs/palbociclib/",
-    "l": "L5",
-    "i": "Hyperthyroidisme",
-    "lt": 15,
-    "lv": 15,
-    "r": 1,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
     "t": "Pioglitazone",
     "u": "/drugs/pioglitazone/",
     "l": "L5",
@@ -2881,6 +2881,17 @@
     "lt": 15,
     "lv": 15,
     "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Ranibizumab",
+    "u": "/drugs/ranibizumab/",
+    "l": "L5",
+    "i": "craniostenosis cataract",
+    "lt": 15,
+    "lv": 15,
+    "r": 1,
     "rs": "",
     "x": 0
    },
@@ -2959,17 +2970,6 @@
     "lv": 14,
     "r": 2,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
-    "t": "Ranibizumab",
-    "u": "/drugs/ranibizumab/",
-    "l": "L5",
-    "i": "craniostenosis cataract",
-    "lt": 14,
-    "lv": 14,
-    "r": 1,
-    "rs": "",
     "x": 0
    },
    {
@@ -3358,6 +3358,17 @@
     "x": 0
    },
    {
+    "t": "Ethosuximide",
+    "u": "/drugs/ethosuximide/",
+    "l": "L5",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "lt": 11,
+    "lv": 11,
+    "r": 1,
+    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
+    "x": 0
+   },
+   {
     "t": "Golimumab",
     "u": "/drugs/golimumab/",
     "l": "L5",
@@ -3695,17 +3706,6 @@
     "lt": 9,
     "lv": 9,
     "r": 2,
-    "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
-    "x": 0
-   },
-   {
-    "t": "Ethosuximide",
-    "u": "/drugs/ethosuximide/",
-    "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 9,
-    "lv": 9,
-    "r": 1,
     "rs": "Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske…",
     "x": 0
    },

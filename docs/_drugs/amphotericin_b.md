@@ -7,7 +7,7 @@ parent: Kun modelforudsigelse (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Amphotericin B er et velkendt polyenantimykotikum, der bruges til alvorlige inva
 | Forudsagt ny indikation | Ikke tilgængelig — ingen TxGNN-prognoser genereret |
 | TxGNN-prognosescore | Ikke tilgængelig |
 | Evidensniveau | Ikke vurderbart |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 4 af 4) |
-| Antal markedsføringstilladelser | 4 (gyldige: 4) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 5 af 5) |
+| Antal markedsføringstilladelser | 5 (gyldige: 5) |
 | Anbefalet beslutning | **Afvent** |
 
 > Imidlertid har liposomal amphotericin B (AmBisome®) en gyldig centraliseret EMA-markedsføringstilladelse (EU/1/97/049), som direkte gælder for Danmark, og konventionelle amphotericin B-deoxycholat-produkter har historisk været tilgængelige via hospitalsindkøb. Resultatet med nul-licens afspejler næsten helt sikkert et **databehandlingshul** snarere end den faktiske reguleringsmæssige situation og skal verificeres mod Laegemiddelstyelsens produktdatabase, før der drages reguleringsmæssige konklusioner.

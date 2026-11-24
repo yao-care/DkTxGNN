@@ -50,8 +50,8 @@ men der er på nuværende tidspunkt **ingen kliniske forsøg** og **ingen publik
 | Forudsagt ny indikation | Nefrogent syndrom med uhensigtsmæssig antidiurese (NSIAD) |
 | TxGNN-forudsigelsesscore | 0,9991 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
-| Antal markedsføringstilladelser | 9 (gyldige: 9) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 11 af 11) |
+| Antal markedsføringstilladelser | 11 (gyldige: 11) |
 | Anbefalet beslutning | Hold |
 
 ## Hvorfor er denne forudsigelse rimelig?
@@ -82,7 +82,7 @@ Der er på nuværende tidspunkt ingen relateret litteratur tilgængelig.
 | 28107701226 | Ethosuximid Epione | kapsler, bløde | ETHOSUXIMID | Gyldig |
 | 28106846622 | Ethosuximid Medartuum | oral opløsning | ETHOSUXIMID | Gyldig |
 
-Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 11 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

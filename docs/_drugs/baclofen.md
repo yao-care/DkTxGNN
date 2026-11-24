@@ -102,7 +102,13 @@ Tabellen viser 5 af mindst 20 markedsføringstilladelser til humane lægemidler 
 
 <!-- licenses:end -->
 
-Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet.
+Tilladelserne omfatter både tabletter og injektions- og infusionsvæsker (antal og status: se Hurtigt overblik og tabellen ovenfor). Om disse lægemiddelformer er egnede til ADHD, er ikke vurderet.
+
+<!-- review:begin dk-lic-20261124d-baclofen-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: "Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet." Rettet efter Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24): baclofen er godkendt både som tabletter og som injektions-/infusionsvæske (fx Gablofen). Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124d-baclofen-1 -->
 
 ---
 
@@ -136,7 +142,13 @@ Forudsigelsen for ADHD er udelukkende modelbaseret (evidensniveau L5). Der er hv
 - Baclofen-specifik prækliniske og kliniske evidens ved ADHD
 - Detaljerede mekanismedata (MOA) til at underbygge det GABA-B-baserede link
 - Gennemgang af produktresuméet (advarsler og kontraindikationer), som ikke var tilgængeligt i de indsamlede data
-- Vurdering af administrationsvej og lægemiddelform, da den eneste danske tilladelse i data er en infusionsvæske
+- Vurdering af administrationsvej og lægemiddelform
+
+<!-- review:begin dk-lic-20261124d-baclofen-2 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: ", da den eneste danske tilladelse i data er en infusionsvæske" Den forudsætning er fjernet: Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har også baclofentabletter. Forslaget om at vurdere administrationsvej og lægemiddelform er bevaret. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124d-baclofen-2 -->
 
 **Supplerende observation:** Den samme analyse forudsiger også **nikotinafhængighed** (score 0,9919) med evidensniveau L2. Der findes tre fase 2-forsøg med baclofen hos rygere ([NCT01228994](https://clinicaltrials.gov/study/NCT01228994), [NCT00257894](https://clinicaltrials.gov/study/NCT00257894), [NCT01821560](https://clinicaltrials.gov/study/NCT01821560)) samt prækliniske data. To af forsøgene blev afbrudt tidligt, og det eneste afsluttede (n=44) er et mekanistisk studie og ikke et rygestopforsøg. Denne indikation er derfor et bedre udgangspunkt for videre afklaring end ADHD, men også her er evidensen begrænset.
 
@@ -144,11 +156,13 @@ Forudsigelsen for ADHD er udelukkende modelbaseret (evidensniveau L5). Der er hv
 
 ## Gennemgangslog
 
-Nedenfor er gennemgangsloggen for denne side. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse); modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet. Sætningen om, at data om virkningsmekanismen ikke var tilgængelige, er erstattet med et uddrag fra den angivne officielle produktinformation (med uofficiel oversættelse).
 
 | Gennemgået | Punkt | Handling | Kilde |
 |------|------|------|------|
 | 2026-11-20 | Sætningen »data om virkningsmekanismen er ikke tilgængelige« erstattet med uddrag fra den amerikanske produktinformation | Sætning om manglende data om virkningsmekanismen erstattet med et uddrag med kilde | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+| 2026-11-24 | Den eneste tilladelse i de tilgængelige data er en injicerbar infusionsvæske. Om denne administrationsvej er egnet til ADHD, er ikke vurderet. | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+| 2026-11-24 | , da den eneste danske tilladelse i data er en infusionsvæske | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
 
 <!-- review:end log -->
 

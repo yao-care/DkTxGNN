@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ranibizumab"
 predicted_indications: ["craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 last_modified_at: 2026-11-24
-description: "Ranibizumab: forudsagt ny indikation Craniostenosis cataract (evidensniveau L5). I Danmark, markedsføringstilladelser: 14 (gyldige: 14)"
+description: "Ranibizumab: forudsagt ny indikation Craniostenosis cataract (evidensniveau L5). I Danmark, markedsføringstilladelser: 15 (gyldige: 15)"
 ---
 
 # Ranibizumab
@@ -50,8 +50,8 @@ TxGNN-modellen forudsiger, at lægemidlet kan have effekt ved **grå stær (cran
 | Forudsagt ny indikation | Craniostenosis cataract |
 | TxGNN-forudsigelsesscore | 0.9999 |
 | Evidensniveau | L5 |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 14 af 14) |
-| Antal markedsføringstilladelser | 14 (gyldige: 14) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 15 af 15) |
+| Antal markedsføringstilladelser | 15 (gyldige: 15) |
 | Anbefalet beslutning | Hold (afvent) |
 
 ---
@@ -112,7 +112,7 @@ Ingen af disse undersøger ranibizumab som behandling af grå stær.
 | 28107274924 | Epruvy | injektionsvæske, opløsning i fyldt injektionssprøjte | Ranibizumab | Gyldig |
 | 28103911306 | Lucentis | injektionsvæske, opløsning | Ranibizumab | Gyldig |
 
-Tabellen viser 5 af 14 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 15 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 

@@ -104,7 +104,25 @@ Der findes ingen kliniske forsøg med direkte dokumentation for effekt ved diffu
 - Fuldt gennemgang af resultaterne fra det randomiserede forsøg (PMID 20507401) og vurdering af, om de er reproducerbare
 - Data om virkningsmekanisme (MOA) og en bekræftelse af den antifibrotiske hypotese
 - Gennemgang af produktresuméet for advarsler og kontraindikationer, herunder risiko for seneskader, perifer neuropati og QT-forlængelse ved langvarig brug
-- Vurdering af administrationsvej, da det eneste danske godkendte produkt er øredråber
+- Vurdering af administrationsvej
+
+<!-- review:begin dk-lic-20261124d-ciprofloxacin-1 -->
+
+> **Rettelse ved gennemgang (2026-11-24)**: Oprindeligt stod der: ", da det eneste danske godkendte produkt er øredråber" Den forudsætning er fjernet: Lægemiddelstyrelsens liste over godkendte lægemidler (2026-11-24) har ciprofloxacin som filmovertrukne tabletter, infusionsvæske og øredråber (bl.a. Cetraxal og Cilodex). Forslaget om at vurdere administrationsvej er bevaret. Kilde: [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/).
+
+<!-- review:end dk-lic-20261124d-ciprofloxacin-1 -->
+
+<!-- review:begin log -->
+
+## Gennemgangslog
+
+Nedenfor er gennemgangsloggen for denne side: udsagn kontrolleret mod Lægemiddelstyrelsens liste over godkendte lægemidler. Rettelser er begrænset til grundlæggende faktuelle udsagn; modelforudsigelser, evidensniveauer og konklusioner er ikke omskrevet.
+
+| Gennemgået | Punkt | Handling | Kilde |
+|------|------|------|------|
+| 2026-11-24 | , da det eneste danske godkendte produkt er øredråber | Rettet | [Lægemiddelstyrelsen: liste over godkendte lægemidler](https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/) |
+
+<!-- review:end log -->
 
 ## Ansvarsfraskrivelse
 

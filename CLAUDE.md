@@ -615,3 +615,12 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：abacavir「Oprindelig indikation: Ikke registreret i de lokale data」→「I Danmark, markedsføringstilladelser: 11 (gyldige: 11)」；2026-11-19 改了 377 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site DkTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 補收 11-05 之後新核准的許可（2026-11-24 第四輪）
+
+用戶 2026-11-24 決定：每週排程原本只補「複方逐成分對照多對到」的許可，11-05 依成分重建之後才核准、原規則也對得到的單方許可不會進證據包（量測 21 個證據包少 36 張，例 olanzapine 114→120、palbociclib 15→18）。
+- `scripts/add_component_licenses.py` 改成照 rebuild_licenses_by_ingredient 的同一套規則（db_ids_components：原對照＋複方逐成分對照，不放寬）重算本藥對到的全部產品，證據包還沒有的都補（只加不刪；source 原規則對得到的寫「matched by ingredient, same rule as the 2026-11-05 rebuild」，只有逐成分對照才對得到的照舊；added＝補收日；超過 20 筆只記 records_not_stored、算進 total_matches）。每週排程（license-refresh.yml，步驟改名 Add new licences by ingredient）照舊在 license_refresh 前以 --download 跑。
+- 部分收錄的證據包 11-05 重建時沒記「算進總數、但沒存」的號碼，直接補會重複計數：`--baseline-xlsx <11-05 重建用的清單>` 一次性回填 records_not_stored（照同一規則在那份清單對到、證據包裡沒有的人用許可，只在張數正好等於 total_matches−records−records_not_stored 時回填）；2026-11-24 回填 145 個證據包，全部相等。回填後仍有差額的證據包整個不補、列出（停損）。
+- 2026-11-24 套用（清單 2026-11-24）：21 個證據包補 36 筆（records 13、只算張數 23；獸用 0），例 olanzapine＋6 張 Olanzapin "Devatis"、palbociclib＋3 張 Palbociclib "Teva"、ranibizumab＋Susvimo、ciprofloxacin＋Cilodex。證據包 local_regulatory 重算 6 個；概覽狀態列／張數列 6 頁、程式表 5 頁、description 3 頁由程式同步（其餘 15 頁是部分收錄頁，頁面照舊寫「mindst 20」）；data overlay 推 `claude/data-overlay-DkTxGNN-newlic`；第二次跑 0 筆。
+- 正文對照補收後的證據包全部紀錄：4 句以 `dk-lic-20261124d-*` 更正（baclofen「Den eneste tilladelse … injicerbar infusionsvæske」與待辦前提——實有錠劑；ciprofloxacin 待辦「det eneste danske godkendte produkt er øredråber」——另有錠劑、輸注液；methylprednisolone「ikke fundet godkendelser til andre administrationsveje」——另有 Depo-Medrol、Solu-Medrol 注射劑），更正文字不寫張數。這幾句在補收前就不成立（舊證據包寫的），這次逐句對照時一併更正。
+- 驗證：checker 全量前後 0、--row-status 0；gate exit 0；寬偵測（.../dk/wide.py）12 句與改前相同；add_component_licenses 第二次跑 0 筆。

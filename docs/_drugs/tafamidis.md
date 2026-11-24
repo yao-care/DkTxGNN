@@ -47,8 +47,8 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tafami
 | Nye forudsagte indikationer | Ingen (ingen modelkandidat fik en score på 0,99 eller højere) |
 | Kendte anvendelser registreret for dette lægemiddel | 4 |
 | Evidensniveau | Ikke relevant |
-| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 7 af 7) |
-| Antal markedsføringstilladelser | 7 (gyldige: 7) |
+| Markedsstatus i Danmark | Markedsført (gyldige tilladelser: 9 af 9) |
+| Antal markedsføringstilladelser | 9 (gyldige: 9) |
 
 ## Kendte anvendelser registreret for dette lægemiddel
 
@@ -84,7 +84,7 @@ TxGNN-modellen har ingen kandidat med en score på 0,99 eller højere for Tafami
 | 28107581026 | Tafamidis Meglumin "Ethypharm" | kapsler, bløde | tafamidismeglumin | Gyldig |
 | 28107433825 | Tafamidis Meglumin "Lotus" | kapsler, bløde | tafamidismeglumin | Gyldig |
 
-Tabellen viser 5 af 7 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
+Tabellen viser 5 af 9 markedsføringstilladelser til humane lægemidler med dette aktive stof i Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler; gyldige tilladelser står først.
 
 <!-- licenses:end -->
 
