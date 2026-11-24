@@ -3,9 +3,12 @@
 同目錄 page_format／licenses／withdrawn 與 scripts/apply_drug_reviews.py、build_license_snapshot.py、reviews_from_edits.py、
 check_original_indications.py 都讀這裡；核心流程比照 TwTxGNN 與 UsTxGNN，只有這份是本站自己的寫法。
 本站的市場資料是 Lægemiddelstyrelsen（丹麥藥品管理局）已許可藥品清單（11 碼許可證號；獸用＝ATC Q 開頭或品名含 Vet.），
-頁面文字用丹麥文。本站沒有程式產生的許可證表（市場段落的表是報告寫的），所以沒有程式區塊標記。
+頁面文字用丹麥文。市場段落的許可證表 2026-11-24 起由程式產生（scripts/sync_license_tables.py，前後有 licenses:begin／end 標記；
+用戶 2026-11-24 決定，原本是報告寫的表），gate 依快照驗程式區塊（program_block_problems）。
 """
+import importlib.util
 import re
+from pathlib import Path
 
 SITE = "DkTxGNN"
 CODE = "dk"
@@ -71,7 +74,9 @@ T = {
 # ---------- 許可證（licenses、build_license_snapshot） ----------
 # 市場段落標題寫法很多（2026-11-12 實測：Information om det danske marked、Markedsinformation for／i Danmark、
 # Oplysninger om …、Dansk markedsinformation、Denmark Market Information …）；N/A 頁的報告大標題（Kendte anvendelser og …）不算
-MARKET_SEC = re.compile(r"^## (?!.*Kendte anvendelser)(?=.*(?:marked|Market))(?=.*(?:[Dd]ansk|Danmark|Denmark)).*$")
+# 2026-11-24：原本只認小寫 marked，漏掉「Markedsinformation for／i Danmark」（344 頁）、「Markedsoplysninger …」、錯字「Markeredsinformation」、
+# 「Medicinsinformationer for Danmark」，這些頁的號碼歸屬與表格列狀態都沒驗；放寬（大小寫、加這兩種寫法），N/A 頁大標題照舊排除
+MARKET_SEC = re.compile(r"^## (?!.*Kendte anvendelser)(?=.*(?:[Mm]arked|[Mm]arket|Markered|Medicinsinformation))(?=.*(?:[Dd]ansk|Danmark|Denmark)).*$")
 ID_RE = re.compile(r"\b\d{11}\b")  # Lægemiddelstyrelsen 許可證號（2026-11-12 依證據包實測：全部 11 碼數字）
 
 
@@ -93,6 +98,43 @@ def own_ids(tf):
     return sorted({str(r.get("license_id") or "").strip() for r in tf.get("records") or [] if r.get("license_id")})
 
 
+PROGRAM_SCRIPT = "sync_license_tables.py"  # scripts/ 下產生程式許可證表的程式（build_license_snapshot 讀它的 rows_of／snap_extra）
+
+
+def _slt():
+    p = Path(__file__).resolve().parents[3] / "scripts" / PROGRAM_SCRIPT
+    s = importlib.util.spec_from_file_location("dk_sync_license_tables", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return m
+
+
+def program_block_problems(sec_lines, entry):
+    """程式區塊（licenses:begin／end）＝依快照重算的結果（scripts/sync_license_tables.py 的 expected_block；列數依頁面上的列數，
+    在 1～20 之間，快照存前 20 列）。段落裡有表卻沒有程式區塊＝報告寫的表沒換掉，也擋。"""
+    S = _slt()
+    has_b, has_e = S.BEGIN in sec_lines, S.END in sec_lines
+    if has_b != has_e:
+        return ["程式區塊標記不成對"]
+    if not has_b:
+        if any(l.startswith("|") for l in sec_lines) or any(l.strip() == S.NONE_LINE for l in sec_lines):
+            return ["市場段落的許可證表不是程式區塊（跑 python3 scripts/sync_license_tables.py）"]
+        return ["市場段落沒有程式許可證區塊（跑 python3 scripts/sync_license_tables.py）"]
+    if "rows" not in entry:
+        return ["快照沒有程式表列（跑 scripts/build_license_snapshot.py）"]
+    i, j = sec_lines.index(S.BEGIN), sec_lines.index(S.END)
+    got = [x for x in sec_lines[i + 1:j] if x.strip()]
+    errs = []
+    if any(l.startswith("|") for k, l in enumerate(sec_lines) if k < i or k > j):
+        errs.append("市場段落在程式區塊外另有表格")
+    n = sum(1 for x in got[2:] if x.startswith("| ")) if got and got[0] == S.HEAD[0] else 0
+    want = S.expected_block(entry, n)
+    if got != want:
+        k = next((k for k, (x, y) in enumerate(zip(got, want)) if x != y), min(len(got), len(want)))
+        errs.append(f"程式區塊第 {k + 1} 行跟快照重算的結果不同（程式表被手改或資料已更新：跑 scripts/sync_license_tables.py）")
+    return errs
+
+
 # ---------- 刪改轉紀錄（reviews_from_edits） ----------
 # 2026-10-31～11-06 的許可證刪改（git log docs/_drugs；排程狀態格 7b06fe8eb、欄位名統一、排除表、AI 重產、description、表格空行不算）
 COMMITS = ["c57b56f26", "96dc2e6a1", "47c61b3a4"]
@@ -105,7 +147,10 @@ RESTORED = {"gallium.md": "c57b56f26 依錯配事實刪句，96dc2e6a1 修正事
 SOURCES = [{"title": "Lægemiddelstyrelsen: liste over godkendte lægemidler",
             "url": "https://laegemiddelstyrelsen.dk/en/sideeffects/find-medicines/lists-with-information-about-medicines/"}]
 SENT = re.compile(r'(?<=[.!?])\s+(?=[A-ZÆØÅ0-9(*"\[])|\n')
-PROGRAM_LINES = []
+# 程式寫的句子（scripts/sync_license_tables.py 的 SHOW／獸用說明／NONE_LINE）：轉紀錄與驗證時不當成正文（2026-11-24）
+PROGRAM_LINES = [re.compile(r"^Tabellen viser (den eneste|alle \d+|\d+ af (mindst )?\d+) markedsføringstilladelser? til (et )?human[et]? lægemid"),
+                 re.compile(r"^Dataene indeholder (desuden )?\d+ tilladelser? til (et )?veterinærlægemid"),
+                 re.compile(r"^Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser")]
 CLASSIFY = [
     ("tw", re.compile(r"Taiwan|TFDA", re.I)),
     ("vet", re.compile(r"veterinær|\bVet\.", re.I)),

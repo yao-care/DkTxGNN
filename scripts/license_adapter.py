@@ -186,3 +186,26 @@ def record_id(rec):
 
 def update(rec, new):
     return False  # 在列不改紀錄；只用來確認仍在列，查不到的列在 summary
+
+
+# 2026-11-24（用戶決定）：市場段落的許可證表改由程式產生（scripts/sync_license_tables.py）。每週排程（母目錄
+# license_refresh_20261029.py 的 sync_tables 掛鉤）對狀態有變的證據包重排程式表；3b 自我檢查另允許改的非表格行＝PAGE_NOTE
+# （表下程式說明句、獸用說明句、NONE_LINE、程式區塊標記）。
+PAGE_NOTE = (r"^(Tabellen viser (den eneste|alle \d+|\d+ af (mindst )?\d+) markedsføringstilladelser? til (et )?human[et]? lægemid.*|"
+             r"Dataene indeholder (desuden )?\d+ tilladelser? til (et )?veterinærlægemid.*|"
+             r"Lægemiddelstyrelsens lister over godkendte og afregistrerede lægemidler indeholder ingen markedsføringstilladelser.*|"
+             r"<!-- licenses:(begin|end) -->)$")
+
+
+def sync_tables(site_root, bundles):
+    """狀態有變的藥：市場段落的程式許可證表依證據包重排（Gyldig 在前），狀態照事實層分類；SHOW 句跟著改
+    （規則見 scripts/sync_license_tables.py）。回傳 [(頁, 欄位, 前值, 後值)]"""
+    import importlib.util
+    p = Path(site_root) / "scripts/sync_license_tables.py"
+    s = importlib.util.spec_from_file_location("dk_sync_license_tables", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    if not bundles:
+        return []
+    return m.run(only=set(bundles))
+
